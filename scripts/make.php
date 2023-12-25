@@ -24,27 +24,27 @@ $files = glob('errors/*.ini');
 $files = array_diff($files, ['errors/skeleton.ini']);
 $stats = array('author' => 0,
 				);
-$errors = 0;
+$errors = [];
 $tips = array();
 foreach($files as $file) {
-	$tip = parse_ini_file($file);
+	$error = parse_ini_file($file);
 
-	if ($tip === null) {
+	if ($error === null) {
 		print "Warning : $file is not valid INI\n";
 		continue;
 	}
 
-	$tip = (object) $tip;
-	if (!isset($tip->title)) {
-		print "No title for $file\n";
+	$error = (object) $error;
+	if (!isset($error->error)) {
+		print "No error for $file\n";
 	} else {
-		if (!str_contains($tip->title, ' ')) {
-			print "suspiciously no white space in title for $file\n";
+		if (!str_contains($error->error, ' ')) {
+			print "suspiciously no white space in error for $file\n";
 		}
 	}
 
-	if (isset($tip->seeAlso)) {
-		$tip->seeAlso = array_filter($tip->seeAlso);
+	if (isset($error->seeAlso)) {
+		$error->seeAlso = array_filter($error->seeAlso);
 	} else {
 		print "Missing seeAlso in $file\n";
 		
@@ -52,31 +52,32 @@ foreach($files as $file) {
 			print "seeAlso is not an array in $file\n";
 		}
 	}
-	$tips[$file] = $tip;
+	$errors[$file] = $error;
 }
 
-uksort($tips, function(string $a, string $b) : int { return strtolower($a) <=> strtolower($b); });
-
-$php = array('7.2' => [],
-			 '7.3' => [],
-			 '7.4' => [],
-			 '8.0' => [],
-			 '8.1' => [],
-			 '8.2' => [],
-			 '8.3' => [],
-			 '8.4' => [],
-			 '9.0' => [],
-			);
-$stats = array('php' => 0);
-
 $errorlist = [];
-foreach($tips as $file => $message) {
-	print_r($message);
+foreach($errors as $file => $message) {
 	$entry = [];
 	
 	$entry[] = $message->error;
 	$entry[] = str_repeat('-', strlen($message->error));
 	$entry[] = ' ';
+
+	$entry[] = 'Description';
+	$entry[] = str_repeat('_', strlen('Description'));
+	$entry[] = ' ';
+	$entry[] = $message->description;
+
+	$entry[] = 'Example';
+	$entry[] = str_repeat('_', strlen('Example'));
+	$entry[] = '';
+	$entry[] = '.. code-block:: output';
+	$entry[] = '';
+	$code = $message->code;
+	$code = '   '.str_replace("\n", "\n   ", $code);
+
+	$entry[] = $code;
+	$entry[] = '';
 
 	$name = $message->id;
 	file_put_contents('messages/'.$name.'.rst', implode(PHP_EOL, $entry));
@@ -89,7 +90,7 @@ foreach($tips as $file => $message) {
 $changed = file_get_contents('message.rst.in');
 $changed = str_replace('errorlist', implode(PHP_EOL, $errorlist), $changed);
 file_put_contents('message.rst', $changed);
-print "processed ".count($files)." file with $errors error\n";
+print "processed ".count($files)." files\n";
 
 $sitemap->write();
 
