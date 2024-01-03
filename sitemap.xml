@@ -15,4 +15,7 @@
  <url>
   <loc>https://php-error-messages.readthedocs.io/en/latest/messages/new-expressions-are-not-supported-in-this-context.html</loc>
  </url>
+ <url>
+  <loc>https://php-error-messages.readthedocs.io/en/latest/messages/redefinition-of-parameter-$b.html</loc>
+ </url>
 </urlset>
