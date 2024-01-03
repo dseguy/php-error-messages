@@ -8,7 +8,7 @@ It is not possible to use a parameter and import a variable of the same name. Th
 Example
 _______
 
-.. code-block:: output
+.. code-block:: php
 
    <?php
    

@@ -11,7 +11,7 @@ The error doesn't apply when the interface is implemented in the parent classes.
 Example
 _______
 
-.. code-block:: output
+.. code-block:: php
 
    <?php
    

@@ -13,7 +13,7 @@ In the case of an empty function, PHP execution reachs the end of the method, an
 Example
 _______
 
-.. code-block:: output
+.. code-block:: php
 
    <?php
    

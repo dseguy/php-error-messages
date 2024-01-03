@@ -6,8 +6,8 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'PHP error message database'
-copyright = '2023, Damien Seguy'
+project = 'PHP error message reference'
+copyright = '2023-2024, Damien Seguy'
 author = 'Damien Seguy'
 release = '1.0'
 
@@ -27,3 +27,11 @@ root_doc = 'index'
 
 html_theme = 'alabaster'
 html_static_path = ['_static']
+
+# load PhpLexer
+from sphinx.highlighting import lexers
+from pygments.lexers.web import PhpLexer
+
+# enable highlighting for PHP code not between <?php ... ?> by default
+lexers['php'] = PhpLexer(startinline=True)
+lexers['php-annotations'] = PhpLexer(startinline=True)

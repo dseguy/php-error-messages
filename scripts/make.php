@@ -13,6 +13,7 @@ if (!file_exists('messages')) {
 } else {
 	shell_exec('rm -rf messages/*');
 }
+fopen("build.log", "w+");
 
 $behaviors = array();
 
@@ -26,30 +27,48 @@ $stats = array('author' => 0,
 				);
 $errors = [];
 $tips = array();
+$warnings = 0;
 foreach($files as $file) {
-	$error = parse_ini_file($file);
+	$error = parse_ini_file($file, INI_SCANNER_RAW);
 
 	if ($error === null) {
-		print "Warning : $file is not valid INI\n";
+		buildlog("Warning : $file is not valid INI");
+		++$warnings;
 		continue;
 	}
 
 	$error = (object) $error;
+	if (!isset($error->id)) {
+		buildlog("No id for $file");
+		++$warnings;
+		continue;
+	}
+
+	if (empty($error->description)) {
+		buildlog("No description for $file");
+		++$warnings;
+		continue;
+	}
+	
 	if (!isset($error->error)) {
-		print "No error for $file\n";
+		buildlog("No error for $file");
+		++$warnings;
 	} else {
 		if (!str_contains($error->error, ' ')) {
-			print "suspiciously no white space in error for $file\n";
+			buildlog("suspiciously no white space in error for $file");
+			++$warnings;
 		}
 	}
 
 	if (isset($error->seeAlso)) {
 		$error->seeAlso = array_filter($error->seeAlso);
 	} else {
-		print "Missing seeAlso in $file\n";
+		buildlog("Missing seeAlso in $file");
+		++$warnings;
 		
 		if (!is_array($seeAlso)) {
-			print "seeAlso is not an array in $file\n";
+			buildlog("seeAlso is not an array in $file");
+			++$warnings;
 		}
 	}
 	$errors[$file] = $error;
@@ -71,7 +90,7 @@ foreach($errors as $file => $message) {
 	$entry[] = 'Example';
 	$entry[] = str_repeat('_', strlen('Example'));
 	$entry[] = '';
-	$entry[] = '.. code-block:: output';
+	$entry[] = '.. code-block:: php';
 	$entry[] = '';
 	$code = $message->code;
 	$code = '   '.str_replace("\n", "\n   ", $code);
@@ -91,6 +110,7 @@ $changed = file_get_contents('message.rst.in');
 $changed = str_replace('errorlist', implode(PHP_EOL, $errorlist), $changed);
 file_put_contents('message.rst', $changed);
 print "processed ".count($files)." files\n";
+print "warnings: $warnings\n";
 
 $sitemap->write();
 
@@ -105,6 +125,17 @@ function check(stdClass $tip, string $file) : string {
 function make_anchor(string $title) : string {
 	$title = '`'.strtr(strtolower($title), ' ', '-').'`';
 	return $title;
+}
+
+
+function buildlog($message) {
+	static $log;
+	
+	if (empty($log)) {
+		$log = fopen("build.log", "w+");
+	}
+	
+	fwrite($log, $message.PHP_EOL);
 }
 
 ?>

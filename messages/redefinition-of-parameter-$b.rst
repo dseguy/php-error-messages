@@ -8,7 +8,7 @@ Arguments must all have distinct names in a method signature. Before PHP 7.0, no
 Example
 _______
 
-.. code-block:: output
+.. code-block:: php
 
    <?php
    

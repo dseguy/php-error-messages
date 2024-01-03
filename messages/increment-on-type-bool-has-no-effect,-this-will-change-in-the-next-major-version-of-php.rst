@@ -13,7 +13,7 @@ Post increment, pre increment, as well as increment and decrement are affected b
 Example
 _______
 
-.. code-block:: output
+.. code-block:: php
 
    <?php
    
