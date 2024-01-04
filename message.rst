@@ -6,6 +6,7 @@ PHP Error Messages
    :caption: Contents:
 
    messages/cannot-use-lexical-variable-x-as-a-parameter-name.rst
+   messages/cannot-use-temporary-expression-in-write-context.rst
    messages/class-b-cannot-implement-previously-implemented-interface-i.rst
    messages/increment-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php.rst
    messages/never-returning-function-must-not-implicitly-return.rst
