@@ -16,3 +16,9 @@ _______
    try {}
    
    ?>
+
+Solutions
+_________
+
++ Add a catch clause.
++ Add a finally clause.

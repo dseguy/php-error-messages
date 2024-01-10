@@ -26,3 +26,11 @@ _______
    }
    
    ?>
+
+Solutions
+_________
+
++ Remove the constant A.
++ Create a global constant, and assign it to A.
++ Make the constant a property.
++ Create a global constant, and assign it to the class constant.

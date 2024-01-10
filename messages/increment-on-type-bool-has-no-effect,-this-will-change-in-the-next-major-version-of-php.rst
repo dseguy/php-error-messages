@@ -28,6 +28,12 @@ _______
    
    ?>
 
+Solutions
+_________
+
++ Avoid initializing variables with booleans before incrementing them.
++ In case of doubt, check the type before the increment.
+
 See Also
 ________
 

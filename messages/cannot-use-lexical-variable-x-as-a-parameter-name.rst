@@ -16,3 +16,9 @@ _______
    function ($a) use ($a) {}; 
    
    ?>
+
+Solutions
+_________
+
++ Rename the variable in the use clause.
++ Rename the parameter in the function clause.

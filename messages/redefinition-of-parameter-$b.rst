@@ -16,3 +16,8 @@ _______
    function foo($b, $b, $b) {}
    
    ?>
+
+Solutions
+_________
+
++ Use all different names for the parameters.

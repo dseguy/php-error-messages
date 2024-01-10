@@ -166,6 +166,17 @@ foreach($errors as $file => $message) {
 	$entry[] = $code;
 	$entry[] = '';
 
+	if (!empty($message->alternative)) {
+		$entry[] = 'Solutions';
+		$entry[] = str_repeat('_', strlen('Solutions'));
+		$entry[] = '';
+		
+		foreach($message->alternative as $alternative) {
+			$entry[] = '+ '.$alternative;
+		}
+		$entry[] = '';
+	}
+
 	if (!empty($message->seeAlso)) {
 		$entry[] = 'See Also';
 		$entry[] = str_repeat('_', strlen('See Also'));

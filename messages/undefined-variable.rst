@@ -16,3 +16,8 @@ _______
    echo $x;
    
    ?>
+
+Solutions
+_________
+
++ Give the variable a default value.

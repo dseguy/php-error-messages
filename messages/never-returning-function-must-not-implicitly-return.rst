@@ -21,3 +21,10 @@ _______
    function foo() : never { }
    
    ?>
+
+Solutions
+_________
+
++ Remove all return calls from the body of the method.
++ Prevent the method to reaching its end.
++ Checks that the method include either a ``throw``, ``die`` or ``exit``, a call to another never-returning method, or an infinite loop.

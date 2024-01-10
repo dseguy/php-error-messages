@@ -16,3 +16,9 @@ _______
    echo [1,2,3][4];
    
    ?>
+
+Solutions
+_________
+
++ Test the existence of the offset before usage.
++ Gives the offset a default value before usage.

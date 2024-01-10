@@ -24,3 +24,8 @@ _______
    class foo implements i, i, \i, j {}
    
    ?>
+
+Solutions
+_________
+
++ Remove the duplicate calls to the same interface.

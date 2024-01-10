@@ -38,3 +38,8 @@ _______
    
    
    ?>
+
+Solutions
+_________
+
++ Store the literal value in a variable before use it with append.

@@ -19,3 +19,8 @@ _______
    $string->foo();
    
    ?>
+
+Solutions
+_________
+
++ Check the type of the object before usage.
