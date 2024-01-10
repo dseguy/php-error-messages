@@ -1,0 +1,17 @@
+Undefined variable
+------------------
+ 
+Description
+___________
+ 
+This notice is emitted when a variable is being used before being defined. In a word, the variable is not created yet, so PHP creates it on the fly, as NULL, then uses it. 
+Example
+_______
+
+.. code-block:: php
+
+   <?php
+   
+   echo $x;
+   
+   ?>
