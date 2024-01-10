@@ -13,3 +13,6 @@ PHP Error Messages
    messages/never-returning-function-must-not-implicitly-return.rst
    messages/new-expressions-are-not-supported-in-this-context.rst
    messages/redefinition-of-parameter-$b.rst
+   messages/undefined-array-key.rst
+   messages/undefined-offset.rst
+   messages/undefined-variable.rst

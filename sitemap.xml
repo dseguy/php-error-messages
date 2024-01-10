@@ -24,4 +24,13 @@
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/redefinition-of-parameter-$b.html</loc>
  </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/undefined-array-key.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/undefined-offset.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/undefined-variable.html</loc>
+ </url>
 </urlset>
