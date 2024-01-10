@@ -5,6 +5,8 @@ PHP Error Messages
    :maxdepth: 1
    :caption: Contents:
 
+   messages/call-to-a-member-function-method()-on-string.rst
+   messages/call-to-undefined-function.rst
    messages/cannot-use-lexical-variable-x-as-a-parameter-name.rst
    messages/cannot-use-temporary-expression-in-write-context.rst
    messages/cannot-use-try-without-catch-or-finally.rst
