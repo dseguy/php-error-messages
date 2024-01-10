@@ -5,6 +5,14 @@ include 'vendor/autoload.php';
 use samdark\sitemap\Sitemap;
 use samdark\sitemap\Index;
 
+
+const LEVELS = array('E_NOTICE' => 1,
+					 'E_COMPILATION_ERROR' => 1,
+					 'E_WARNING' => 1,
+					 'E_COMPILE_ERROR' => 1,
+					 'E_ERROR' => 1,
+					);
+
 // create sitemap
 $sitemap = new Sitemap('./sitemap.xml');
 
@@ -49,6 +57,53 @@ foreach($files as $file) {
 		++$warnings;
 		continue;
 	}
+
+	if (!isset($error->previous)) {
+		buildlog("No previous for $file");
+		++$warnings;
+		continue;
+	}
+
+	if (!isset($error->next)) {
+		buildlog("No next for $file");
+		++$warnings;
+		continue;
+	}
+
+	if (empty($error->level)) {
+		buildlog("No level for $file");
+		++$warnings;
+		continue;
+	} else {
+		if (!isset(LEVELS[$error->level])) {
+			buildlog("No level '$error->level' for $file");
+			++$warnings;
+		}
+	}
+
+	if (empty($error->alternative)) {
+		buildlog("No alternative for $file");
+		++$warnings;
+		continue;
+	} else {
+		if (!is_array($error->alternative)) {
+			buildlog("Alternative must be an array in $file");
+			++$warnings;
+			continue;
+		}
+		
+		foreach($error->alternative as $key => $alternative) {
+			if ($alternative[0] !== strtoupper($alternative[0])) {
+				buildlog("Alternative[$key] doesn't start with Uppercase in $file");
+				++$warnings;
+			}
+
+			if (substr($alternative, -1) !== '.') {
+				buildlog("Alternative[$key] must finish with . in $file");
+				++$warnings;
+			}
+		}
+	}
 	
 	if (!isset($error->error)) {
 		buildlog("No error for $file");
@@ -62,6 +117,18 @@ foreach($files as $file) {
 
 	if (isset($error->seeAlso)) {
 		$error->seeAlso = array_filter($error->seeAlso);
+		
+		foreach($error->seeAlso as $key => $url) {
+			if (is_numeric($key)) {
+				buildlog("seeAlso has a numeric key in $file");
+				++$warnings;
+			}
+			
+			if (!filter_var($url, FILTER_VALIDATE_URL)) {
+				buildlog("seeAlso[$key] is not a URL in $file");
+				++$warnings;
+			}
+		}
 	} else {
 		buildlog("Missing seeAlso in $file");
 		++$warnings;
@@ -86,6 +153,7 @@ foreach($errors as $file => $message) {
 	$entry[] = str_repeat('_', strlen('Description'));
 	$entry[] = ' ';
 	$entry[] = $message->description;
+	$entry[] = '';
 
 	$entry[] = 'Example';
 	$entry[] = str_repeat('_', strlen('Example'));
@@ -97,6 +165,18 @@ foreach($errors as $file => $message) {
 
 	$entry[] = $code;
 	$entry[] = '';
+
+	if (!empty($message->seeAlso)) {
+		$entry[] = 'See Also';
+		$entry[] = str_repeat('_', strlen('See Also'));
+		$entry[] = '';
+		
+		foreach($message->seeAlso as $name => $url) {
+			$entry[] = '+ `'.$name.' <'.$url.'>`_';
+		}
+		$entry[] = '';
+	}
+
 
 	$name = $message->id;
 	file_put_contents('messages/'.$name.'.rst', implode(PHP_EOL, $entry));

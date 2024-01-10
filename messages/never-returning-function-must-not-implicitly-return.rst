@@ -10,6 +10,7 @@ In the case of an empty function, PHP execution reachs the end of the method, an
 
 ``never`` type is checked at execution time, though the presence of ``return`` in the body of the method triggers it at linting time. 
 
+
 Example
 _______
 

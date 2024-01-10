@@ -8,6 +8,7 @@ When a class implements an interface, that interface must only be cited once. In
 
 The error doesn't apply when the interface is implemented in the parent classes. 
 
+
 Example
 _______
 

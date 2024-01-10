@@ -9,6 +9,7 @@ Literal values and constants cannot be used with the append operator. Those valu
 The literal values may be hidden in a returned value, or by a call to native PHP functions which return literals.
 
 Passing a dimension fetch on a temporary by reference is also not allowed. 
+
 Example
 _______
 
