@@ -7,7 +7,22 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-function.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-make-non-abstract-method-i::foo()-abstract-in-class-j.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-empty-array-elements-in-arrays.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-empty-list.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-lexical-variable-x-as-a-parameter-name.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-positional-argument-after-argument-unpacking.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-positional-argument-after-named-argument.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-temporary-expression-in-write-context.html</loc>
@@ -26,6 +41,12 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/new-expressions-are-not-supported-in-this-context.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/non-static-method-x::goo()-cannot-be-called-statically-.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/redefinition-of-parameter-$b.html</loc>
