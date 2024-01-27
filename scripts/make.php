@@ -11,6 +11,8 @@ const LEVELS = array('E_NOTICE' => 1,
 					 'E_WARNING' => 1,
 					 'E_COMPILE_ERROR' => 1,
 					 'E_ERROR' => 1,
+					 'E_COMPILE_WARNING' => 1,
+					 'E_DEPRECATED' => 1,
 					);
 
 // create sitemap
@@ -93,6 +95,12 @@ foreach($files as $file) {
 		}
 		
 		foreach($error->alternative as $key => $alternative) {
+			if (empty($alternative)) {
+				buildlog("Alternative is empty in $file");
+				++$warnings;
+				continue;
+			}
+			
 			if ($alternative[0] !== strtoupper($alternative[0])) {
 				buildlog("Alternative[$key] doesn't start with Uppercase in $file");
 				++$warnings;
