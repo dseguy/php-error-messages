@@ -31,3 +31,4 @@ PHP Error Messages
    messages/undefined-array-key.rst
    messages/undefined-offset.rst
    messages/undefined-variable.rst
+   messages/using-$this-when-not-in-object-context.rst
