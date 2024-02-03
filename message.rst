@@ -26,6 +26,8 @@ PHP Error Messages
    messages/private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes.rst
    messages/redefinition-of-parameter-$b.rst
    messages/static-property-x::$y-cannot-be-readonly.rst
+   messages/typed-property-x::$y-must-not-be-accessed-before-initialization.rst
+   messages/typed-static-property-x::$y-must-not-be-accessed-before-initialization.rst
    messages/undefined-array-key.rst
    messages/undefined-offset.rst
    messages/undefined-variable.rst

@@ -64,6 +64,12 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/static-property-x::$y-cannot-be-readonly.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/typed-property-x::$y-must-not-be-accessed-before-initialization.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/typed-static-property-x::$y-must-not-be-accessed-before-initialization.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/undefined-array-key.html</loc>
  </url>
  <url>
