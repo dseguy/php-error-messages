@@ -5,6 +5,7 @@ PHP Error Messages
    :maxdepth: 1
    :caption: Contents:
 
+   messages/attempt-to-unset-static-property.rst
    messages/break-operator-accepts-only-positive-integers.rst
    messages/call-to-a-member-function-method()-on-string.rst
    messages/call-to-undefined-function.rst
@@ -24,6 +25,7 @@ PHP Error Messages
    messages/non-static-method-x::goo()-cannot-be-called-statically-.rst
    messages/private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes.rst
    messages/redefinition-of-parameter-$b.rst
+   messages/static-property-x::$y-cannot-be-readonly.rst
    messages/undefined-array-key.rst
    messages/undefined-offset.rst
    messages/undefined-variable.rst
