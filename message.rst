@@ -28,6 +28,7 @@ PHP Error Messages
    messages/redefinition-of-parameter-$b.rst
    messages/return-value-must-be-of-type-int,-string-returned.rst
    messages/static-property-x::$y-cannot-be-readonly.rst
+   messages/typed-property-%s::$%s-must-not-be-accessed-before-initialization.rst
    messages/typed-property-x::$y-must-not-be-accessed-before-initialization.rst
    messages/typed-static-property-x::$y-must-not-be-accessed-before-initialization.rst
    messages/undefined-array-key.rst
