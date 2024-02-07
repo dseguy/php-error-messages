@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/a-function-with-return-type-must-return-a-value.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/attempt-to-unset-static-property.html</loc>
  </url>
  <url>
@@ -59,6 +62,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/redefinition-of-parameter-$b.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/return-value-must-be-of-type-int,-string-returned.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/static-property-x::$y-cannot-be-readonly.html</loc>

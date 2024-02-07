@@ -5,6 +5,7 @@ PHP Error Messages
    :maxdepth: 1
    :caption: Contents:
 
+   messages/a-function-with-return-type-must-return-a-value.rst
    messages/attempt-to-unset-static-property.rst
    messages/break-operator-accepts-only-positive-integers.rst
    messages/call-to-a-member-function-method()-on-string.rst
@@ -25,6 +26,7 @@ PHP Error Messages
    messages/non-static-method-x::goo()-cannot-be-called-statically-.rst
    messages/private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes.rst
    messages/redefinition-of-parameter-$b.rst
+   messages/return-value-must-be-of-type-int,-string-returned.rst
    messages/static-property-x::$y-cannot-be-readonly.rst
    messages/typed-property-x::$y-must-not-be-accessed-before-initialization.rst
    messages/typed-static-property-x::$y-must-not-be-accessed-before-initialization.rst
