@@ -7,6 +7,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/attempt-to-unset-static-property.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/b-cannot-implement-a---it-is-not-an-interface.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/break-operator-accepts-only-positive-integers.html</loc>
  </url>
  <url>
@@ -14,6 +17,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-function.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-access-trait-constant-t::x-directly.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-make-non-abstract-method-i::foo()-abstract-in-class-j.html</loc>
@@ -46,6 +52,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/continue-operator-accepts-only-positive-integers.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/has-#[\override]-attribute,-but-no-matching-parent-method-exists.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/increment-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php.html</loc>
  </url>
  <url>
@@ -68,6 +77,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/static-property-x::$y-cannot-be-readonly.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/traits-cannot-have-constants.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/typed-property-%s::$%s-must-not-be-accessed-before-initialization.html</loc>

@@ -7,9 +7,11 @@ PHP Error Messages
 
    messages/a-function-with-return-type-must-return-a-value.rst
    messages/attempt-to-unset-static-property.rst
+   messages/b-cannot-implement-a---it-is-not-an-interface.rst
    messages/break-operator-accepts-only-positive-integers.rst
    messages/call-to-a-member-function-method()-on-string.rst
    messages/call-to-undefined-function.rst
+   messages/cannot-access-trait-constant-t::x-directly.rst
    messages/cannot-make-non-abstract-method-i::foo()-abstract-in-class-j.rst
    messages/cannot-use-empty-array-elements-in-arrays.rst
    messages/cannot-use-empty-list.rst
@@ -20,6 +22,7 @@ PHP Error Messages
    messages/cannot-use-try-without-catch-or-finally.rst
    messages/class-b-cannot-implement-previously-implemented-interface-i.rst
    messages/continue-operator-accepts-only-positive-integers.rst
+   messages/has-#[\override]-attribute,-but-no-matching-parent-method-exists.rst
    messages/increment-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php.rst
    messages/never-returning-function-must-not-implicitly-return.rst
    messages/new-expressions-are-not-supported-in-this-context.rst
@@ -28,6 +31,7 @@ PHP Error Messages
    messages/redefinition-of-parameter-$b.rst
    messages/return-value-must-be-of-type-int,-string-returned.rst
    messages/static-property-x::$y-cannot-be-readonly.rst
+   messages/traits-cannot-have-constants.rst
    messages/typed-property-%s::$%s-must-not-be-accessed-before-initialization.rst
    messages/typed-property-x::$y-must-not-be-accessed-before-initialization.rst
    messages/typed-static-property-x::$y-must-not-be-accessed-before-initialization.rst
