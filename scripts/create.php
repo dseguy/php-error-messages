@@ -12,7 +12,7 @@ $name = strtolower($message);
 $name = str_replace(' ', '-', $name);
 
 if (file_exists('errors/'.$name.'.ini')) {
-	print "There is already an entry for 'docs/$name.ini'. Aborting\n";
+	print "There is already an entry for 'errors/$name.ini'. Aborting\n";
 	die();
 }
 
