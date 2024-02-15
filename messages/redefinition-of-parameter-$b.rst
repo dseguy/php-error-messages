@@ -1,6 +1,12 @@
+.. _redefinition-of-parameter-$b:
+
 Redefinition of parameter $b
 ----------------------------
  
+	.. meta::
+		:description lang=en:
+			Redefinition of parameter $b: Arguments must all have distinct names in a method signature.
+
 Description
 ___________
  

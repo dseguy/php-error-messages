@@ -1,6 +1,12 @@
+.. _call-to-undefined-function:
+
 Call to undefined function
 --------------------------
  
+	.. meta::
+		:description lang=en:
+			Call to undefined function: This happens when calling a function that is not defined.
+
 Description
 ___________
  

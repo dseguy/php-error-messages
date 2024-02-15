@@ -1,6 +1,12 @@
+.. _private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes:
+
 Private methods cannot be final as they are never overridden by other classes
 -----------------------------------------------------------------------------
  
+	.. meta::
+		:description lang=en:
+			Private methods cannot be final as they are never overridden by other classes: Final methods are only available in the class where they are defined.
+
 Description
 ___________
  

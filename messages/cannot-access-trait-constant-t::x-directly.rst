@@ -1,6 +1,12 @@
+.. _cannot-access-trait-constant-t::x-directly:
+
 Cannot access trait constant t::X directly
 ------------------------------------------
  
+	.. meta::
+		:description lang=en:
+			Cannot access trait constant t::X directly: It is not possible to access constants in a trait directly.
+
 Description
 ___________
  
@@ -33,3 +39,6 @@ _________
 
 + Move the constant in an interface.
 + Move the constant the host class.
+
+
+In previous PHP versions, this error message used to be ":ref:`Traits cannot have constants <traits-cannot-have-constants>`"

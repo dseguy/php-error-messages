@@ -1,6 +1,12 @@
+.. _cannot-use-empty-array-elements-in-arrays:
+
 Cannot use empty array elements in arrays
 -----------------------------------------
  
+	.. meta::
+		:description lang=en:
+			Cannot use empty array elements in arrays: Arrays can only hold values.
+
 Description
 ___________
  

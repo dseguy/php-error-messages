@@ -1,6 +1,12 @@
+.. _class-b-cannot-implement-previously-implemented-interface-i:
+
 Class foo cannot implement previously implemented interface i
 -------------------------------------------------------------
  
+	.. meta::
+		:description lang=en:
+			Class foo cannot implement previously implemented interface i: When a class implements an interface, that interface must only be cited once.
+
 Description
 ___________
  

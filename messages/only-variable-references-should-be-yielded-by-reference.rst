@@ -1,6 +1,12 @@
+.. _only-variable-references-should-be-yielded-by-reference:
+
 Only variable references should be yielded by reference
 -------------------------------------------------------
  
+	.. meta::
+		:description lang=en:
+			Only variable references should be yielded by reference: With the ``&`` option in the signature, a generator is yielding values by reference, and not by value.
+
 Description
 ___________
  

@@ -1,6 +1,12 @@
+.. _continue-operator-accepts-only-positive-integers:
+
 continue operator accepts only positive integers
 ------------------------------------------------
  
+	.. meta::
+		:description lang=en:
+			continue operator accepts only positive integers: continue indicates the number of nested loop to continue in.
+
 Description
 ___________
  

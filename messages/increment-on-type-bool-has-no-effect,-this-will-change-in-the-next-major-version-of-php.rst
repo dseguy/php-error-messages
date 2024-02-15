@@ -1,6 +1,12 @@
+.. _increment-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php:
+
 Increment on type bool has no effect, this will change in the next major version of PHP
 ---------------------------------------------------------------------------------------
  
+	.. meta::
+		:description lang=en:
+			Increment on type bool has no effect, this will change in the next major version of PHP: Post increment on a boolean leaves the value unchanged.
+
 Description
 ___________
  

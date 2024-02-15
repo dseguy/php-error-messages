@@ -1,6 +1,12 @@
+.. _undefined-offset:
+
 Undefined offset
 ----------------
  
+	.. meta::
+		:description lang=en:
+			Undefined offset: This notice is emitted when an offset (string or integer) is being used before being defined.
+
 Description
 ___________
  

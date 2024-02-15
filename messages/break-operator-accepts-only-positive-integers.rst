@@ -1,6 +1,12 @@
+.. _break-operator-accepts-only-positive-integers:
+
 break operator accepts only positive integers
 ---------------------------------------------
  
+	.. meta::
+		:description lang=en:
+			break operator accepts only positive integers: break indicates the number of nested loop to break from.
+
 Description
 ___________
  

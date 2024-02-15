@@ -1,6 +1,12 @@
+.. _define():-argument-#3-($case_insensitive)-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported:
+
 define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported
 ---------------------------------------------------------------------------------------------------------------------------
  
+	.. meta::
+		:description lang=en:
+			define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported: The third argument of define() used to allow the creation of a case-insensitive global constant.
+
 Description
 ___________
  
@@ -21,3 +27,6 @@ Solutions
 _________
 
 + Remove the third argument in the define() call.
+
+
+In more recent PHP versions, this error message is now ":ref:`define(): Declaration of case-insensitive constants is deprecated <define():-declaration-of-case-insensitive-constants-is-deprecated>`"

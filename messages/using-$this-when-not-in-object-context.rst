@@ -1,6 +1,12 @@
+.. _using-$this-when-not-in-object-context:
+
 Using $this when not in object context
 --------------------------------------
  
+	.. meta::
+		:description lang=en:
+			Using $this when not in object context: A static method is also called a class method: it may be executed without a dedicated object.
+
 Description
 ___________
  

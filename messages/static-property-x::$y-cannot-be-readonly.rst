@@ -1,6 +1,12 @@
+.. _static-property-x::$y-cannot-be-readonly:
+
 Static property x::$y cannot be readonly
 ----------------------------------------
  
+	.. meta::
+		:description lang=en:
+			Static property x::$y cannot be readonly: Static properties cannot be made readonly.
+
 Description
 ___________
  

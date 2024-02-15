@@ -1,6 +1,12 @@
+.. _cannot-use-positional-argument-after-argument-unpacking:
+
 Cannot use positional argument after argument unpacking
 -------------------------------------------------------
  
+	.. meta::
+		:description lang=en:
+			Cannot use positional argument after argument unpacking: When using a mix of array unpacking and arguments, it is not possible to put the arguments after the unpacked argument.
+
 Description
 ___________
  

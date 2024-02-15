@@ -1,6 +1,12 @@
+.. _a-function-with-return-type-must-return-a-value:
+
 A function with return type must return a value
 -----------------------------------------------
  
+	.. meta::
+		:description lang=en:
+			A function with return type must return a value: When a function has a return type, it must have a return command in its block, which must also have an argument.
+
 Description
 ___________
  

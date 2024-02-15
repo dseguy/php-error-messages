@@ -1,6 +1,12 @@
+.. _cannot-use-positional-argument-after-named-argument:
+
 Cannot use positional argument after named argument
 ---------------------------------------------------
  
+	.. meta::
+		:description lang=en:
+			Cannot use positional argument after named argument: When using a mix of array unpacking and arguments, it is not possible to put the arguments after the unpacked argument.
+
 Description
 ___________
  

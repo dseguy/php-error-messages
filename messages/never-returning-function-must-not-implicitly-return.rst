@@ -1,6 +1,12 @@
+.. _never-returning-function-must-not-implicitly-return:
+
 never-returning function must not implicitly return
 ---------------------------------------------------
  
+	.. meta::
+		:description lang=en:
+			never-returning function must not implicitly return: A never returning function or method never reaches the end of the method, or any return operation.
+
 Description
 ___________
  

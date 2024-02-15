@@ -1,6 +1,12 @@
+.. _cannot-use-empty-list:
+
 Cannot use empty list
 ---------------------
  
+	.. meta::
+		:description lang=en:
+			Cannot use empty list: list() must contain at least one non-empty element.
+
 Description
 ___________
  

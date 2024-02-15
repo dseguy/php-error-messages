@@ -1,6 +1,12 @@
+.. _cannot-use-temporary-expression-in-write-context:
+
 Cannot use temporary expression in write context
 ------------------------------------------------
  
+	.. meta::
+		:description lang=en:
+			Cannot use temporary expression in write context: Literal values and constants cannot be used with the append operator.
+
 Description
 ___________
  

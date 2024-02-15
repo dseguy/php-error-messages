@@ -1,6 +1,12 @@
+.. _b-cannot-implement-a---it-is-not-an-interface:
+
 b cannot implement a - it is not an interface
 ---------------------------------------------
  
+	.. meta::
+		:description lang=en:
+			b cannot implement a - it is not an interface: implements is a keyword that only applies to interfaces.
+
 Description
 ___________
  

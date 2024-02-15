@@ -1,6 +1,12 @@
+.. _cannot-make-non-abstract-method-i::foo()-abstract-in-class-j:
+
 Cannot make non abstract method i::foo() abstract in class j
 ------------------------------------------------------------
  
+	.. meta::
+		:description lang=en:
+			Cannot make non abstract method i::foo() abstract in class j: It is not possible to make a method abstract if there is a concrete method of the same name in the parents.
+
 Description
 ___________
  

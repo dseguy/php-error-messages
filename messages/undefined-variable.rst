@@ -1,6 +1,12 @@
+.. _undefined-variable:
+
 Undefined variable
 ------------------
  
+	.. meta::
+		:description lang=en:
+			Undefined variable: This notice is emitted when a variable is being used before being defined.
+
 Description
 ___________
  

@@ -1,6 +1,12 @@
+.. _new-expressions-are-not-supported-in-this-context:
+
 New expressions are not supported in this context
 -------------------------------------------------
  
+	.. meta::
+		:description lang=en:
+			New expressions are not supported in this context: It is not possible to use directly an object as value for a class constant.
+
 Description
 ___________
  

@@ -1,6 +1,12 @@
+.. _return-value-must-be-of-type-int,-string-returned:
+
 Return value must be of type int, string returned
 -------------------------------------------------
  
+	.. meta::
+		:description lang=en:
+			Return value must be of type int, string returned: The type of the returned value must match the type of the method signature.
+
 Description
 ___________
  

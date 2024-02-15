@@ -1,6 +1,12 @@
+.. _typed-property-%s::$%s-must-not-be-accessed-before-initialization:
+
 Typed property %s::$%s must not be accessed before initialization
 -----------------------------------------------------------------
  
+	.. meta::
+		:description lang=en:
+			Typed property %s::$%s must not be accessed before initialization: Typed properties are undefined until they are assigned for the first time.
+
 Description
 ___________
  

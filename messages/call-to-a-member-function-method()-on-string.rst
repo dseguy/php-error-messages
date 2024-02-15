@@ -1,6 +1,12 @@
+.. _call-to-a-member-function-method()-on-string:
+
 Call to a member function method() on string
 --------------------------------------------
  
+	.. meta::
+		:description lang=en:
+			Call to a member function method() on string: This error happens when the object syntax is used on a string.
+
 Description
 ___________
  

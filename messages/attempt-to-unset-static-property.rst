@@ -1,6 +1,12 @@
+.. _attempt-to-unset-static-property:
+
 Attempt to unset static property
 --------------------------------
  
+	.. meta::
+		:description lang=en:
+			Attempt to unset static property: It is not possible to unset a static property.
+
 Description
 ___________
  

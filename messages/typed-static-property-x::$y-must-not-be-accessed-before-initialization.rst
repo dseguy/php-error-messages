@@ -1,6 +1,12 @@
+.. _typed-static-property-x::$y-must-not-be-accessed-before-initialization:
+
 Typed static property x::$y must not be accessed before initialization
 ----------------------------------------------------------------------
  
+	.. meta::
+		:description lang=en:
+			Typed static property x::$y must not be accessed before initialization: When a property is typed, it starts its existence in an 'undefined' state, which cannot be compared to anything else.
+
 Description
 ___________
  

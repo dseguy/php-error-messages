@@ -1,6 +1,12 @@
+.. _has-#[\override]-attribute,-but-no-matching-parent-method-exists:
+
 has #[\Override] attribute, but no matching parent method exists
 ----------------------------------------------------------------
  
+	.. meta::
+		:description lang=en:
+			has #[\Override] attribute, but no matching parent method exists: Override is a PHP attribute, that checks if a method is actually overriding the same method from a parent class.
+
 Description
 ___________
  

@@ -1,6 +1,12 @@
+.. _non-static-method-x::goo()-cannot-be-called-statically-:
+
 Non-static method x::goo() cannot be called statically 
 -------------------------------------------------------
  
+	.. meta::
+		:description lang=en:
+			Non-static method x::goo() cannot be called statically : While a non-static method can call a static method, the contrary is not possible.
+
 Description
 ___________
  

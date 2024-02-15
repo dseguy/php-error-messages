@@ -1,6 +1,12 @@
+.. _undefined-array-key:
+
 Undefined array key
 -------------------
  
+	.. meta::
+		:description lang=en:
+			Undefined array key: This notice is emitted when an offset (string or integer) is being used before being defined.
+
 Description
 ___________
  
@@ -22,3 +28,6 @@ _________
 
 + Test the existence of the offset before usage.
 + Gives the offset a default value before usage.
+
+
+In previous PHP versions, this error message used to be ":ref:`Undefined offset <undefined-offset>`"

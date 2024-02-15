@@ -1,6 +1,12 @@
+.. _cannot-use-try-without-catch-or-finally:
+
 Cannot use try without catch or finally
 ---------------------------------------
  
+	.. meta::
+		:description lang=en:
+			Cannot use try without catch or finally: Try command have catch and finally clauses.
+
 Description
 ___________
  
