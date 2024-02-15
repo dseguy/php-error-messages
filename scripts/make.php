@@ -36,6 +36,7 @@ $files = array_diff($files, ['errors/skeleton.ini']);
 $stats = array('author' => 0,
 				);
 $errors = [];
+$titles = [];
 $tips = array();
 $warnings = 0;
 foreach($files as $file) {
@@ -147,15 +148,25 @@ foreach($files as $file) {
 		}
 	}
 	$errors[$file] = $error;
+	$titles[basename($file, '.ini')] = $error->error;
 }
 
 $errorlist = [];
 foreach($errors as $file => $message) {
 	$entry = [];
+
+    $entry[] = ".. _".$message->id.":";
+	$entry[] = '';
 	
 	$entry[] = $message->error;
 	$entry[] = str_repeat('-', strlen($message->error));
 	$entry[] = ' ';
+
+	$entry[] = '	.. meta::';
+	$entry[] = '		:description lang=en:';
+	$first = preg_split('/[\.\?;'.PHP_EOL.']/', $message->description)[0];
+	$entry[] = '			'.$message->error.': '.$first.'.';
+	$entry[] = '';
 
 	$entry[] = 'Description';
 	$entry[] = str_repeat('_', strlen('Description'));
@@ -196,6 +207,25 @@ foreach($errors as $file => $message) {
 		$entry[] = '';
 	}
 
+	if (!empty($message->previous)) {
+		if (!file_exists('errors/'.$message->previous.'.ini')) {
+			print $message->previous." doesn't exists as a previous error\n";
+		} else {
+			$entry[] = '';
+			$entry[] = "In previous PHP versions, this error message used to be \":ref:`".$titles[$message->previous]." <".$message->previous.">`\"";
+			$entry[] = '';
+		}
+	}
+
+	if (!empty($message->next)) {
+		if (!file_exists('errors/'.$message->next.'.ini')) {
+			print $message->next." doesn't exists as a next error";
+		} else {
+			$entry[] = '';
+			$entry[] = "In more recent PHP versions, this error message is now \":ref:`".$titles[$message->next]." <".$message->next.">`\"";
+			$entry[] = '';
+		}
+	}
 
 	$name = $message->id;
 	file_put_contents('messages/'.$name.'.rst', implode(PHP_EOL, $entry));
