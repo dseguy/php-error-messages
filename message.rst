@@ -43,3 +43,4 @@ PHP Error Messages
    messages/undefined-offset.rst
    messages/undefined-variable.rst
    messages/using-$this-when-not-in-object-context.rst
+   messages/using--(variable-variables)-in-strings-is-deprecated,-use-{}-instead.rst

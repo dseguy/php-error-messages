@@ -114,4 +114,7 @@
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/using-$this-when-not-in-object-context.html</loc>
  </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/using--(variable-variables)-in-strings-is-deprecated,-use-{}-instead.html</loc>
+ </url>
 </urlset>
