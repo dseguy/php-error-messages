@@ -25,6 +25,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-make-non-abstract-method-i::foo()-abstract-in-class-j.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-mix-keyed-and-unkeyed-array-entries-in-assignments.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-empty-array-elements-in-arrays.html</loc>
  </url>
  <url>
