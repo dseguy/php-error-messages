@@ -32,7 +32,9 @@ PHP Error Messages
    messages/non-static-method-x::goo()-cannot-be-called-statically-.rst
    messages/only-variable-references-should-be-yielded-by-reference.rst
    messages/private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes.rst
+   messages/readonly-class-bar-cannot-extend-non-readonly-class-foo.rst
    messages/redefinition-of-parameter-$b.rst
+   messages/required-trait-t2-wasn\'t-added-to-c.rst
    messages/return-value-must-be-of-type-int,-string-returned.rst
    messages/static-property-x::$y-cannot-be-readonly.rst
    messages/traits-cannot-have-constants.rst

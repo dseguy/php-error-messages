@@ -82,7 +82,13 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/readonly-class-bar-cannot-extend-non-readonly-class-foo.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/redefinition-of-parameter-$b.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/required-trait-t2-wasn\'t-added-to-c.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/return-value-must-be-of-type-int,-string-returned.html</loc>
