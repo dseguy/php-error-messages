@@ -15,6 +15,7 @@ PHP Error Messages
    messages/cannot-access-trait-constant-t::x-directly.rst
    messages/cannot-make-non-abstract-method-i::foo()-abstract-in-class-j.rst
    messages/cannot-mix-keyed-and-unkeyed-array-entries-in-assignments.rst
+   messages/cannot-use-[]-for-reading.rst
    messages/cannot-use-empty-array-elements-in-arrays.rst
    messages/cannot-use-empty-list.rst
    messages/cannot-use-lexical-variable-x-as-a-parameter-name.rst
