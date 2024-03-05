@@ -6,6 +6,7 @@ PHP Error Messages
    :caption: Contents:
 
    messages/a-function-with-return-type-must-return-a-value.rst
+   messages/array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported.rst
    messages/attempt-to-unset-static-property.rst
    messages/b-cannot-implement-a---it-is-not-an-interface.rst
    messages/break-operator-accepts-only-positive-integers.rst
