@@ -123,4 +123,7 @@
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/using--(variable-variables)-in-strings-is-deprecated,-use-{}-instead.html</loc>
  </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/x::foo()-has-#[\override]-attribute,-but-no-matching-parent-method-exists.html</loc>
+ </url>
 </urlset>

@@ -46,3 +46,4 @@ PHP Error Messages
    messages/undefined-variable.rst
    messages/using-$this-when-not-in-object-context.rst
    messages/using--(variable-variables)-in-strings-is-deprecated,-use-{}-instead.rst
+   messages/x::foo()-has-#[\override]-attribute,-but-no-matching-parent-method-exists.rst
