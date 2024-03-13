@@ -6,8 +6,10 @@ PHP Error Messages
    :caption: Contents:
 
    messages/a-function-with-return-type-must-return-a-value.rst
+   messages/array-and-string-offset-access-syntax-with-curly-braces-is-deprecated.rst
    messages/array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported.rst
    messages/attempt-to-unset-static-property.rst
+   messages/automatic-conversion-of-false-to-array-is-deprecated.rst
    messages/b-cannot-implement-a---it-is-not-an-interface.rst
    messages/break-operator-accepts-only-positive-integers.rst
    messages/call-to-a-member-function-method()-on-string.rst
@@ -15,16 +17,20 @@ PHP Error Messages
    messages/cannot-access-trait-constant-t::x-directly.rst
    messages/cannot-make-non-abstract-method-i::foo()-abstract-in-class-j.rst
    messages/cannot-mix-keyed-and-unkeyed-array-entries-in-assignments.rst
+   messages/cannot-unset-offset-in-a-non-array-variable.rst
+   messages/cannot-unset-string-offsets.rst
    messages/cannot-use-[]-for-reading.rst
    messages/cannot-use-empty-array-elements-in-arrays.rst
    messages/cannot-use-empty-list.rst
    messages/cannot-use-lexical-variable-x-as-a-parameter-name.rst
+   messages/cannot-use-object-of-type-stdclass-as-array.rst
    messages/cannot-use-positional-argument-after-argument-unpacking.rst
    messages/cannot-use-positional-argument-after-named-argument.rst
    messages/cannot-use-temporary-expression-in-write-context.rst
    messages/cannot-use-try-without-catch-or-finally.rst
    messages/class-b-cannot-implement-previously-implemented-interface-i.rst
    messages/continue-operator-accepts-only-positive-integers.rst
+   messages/datetimeinterface-can\'t-be-implemented-by-user-classes.rst
    messages/define():-argument-#3-($case_insensitive)-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported.rst
    messages/define():-declaration-of-case-insensitive-constants-is-deprecated.rst
    messages/has-#[\override]-attribute,-but-no-matching-parent-method-exists.rst

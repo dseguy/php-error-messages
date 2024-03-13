@@ -4,10 +4,16 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/a-function-with-return-type-must-return-a-value.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/array-and-string-offset-access-syntax-with-curly-braces-is-deprecated.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/attempt-to-unset-static-property.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/automatic-conversion-of-false-to-array-is-deprecated.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/b-cannot-implement-a---it-is-not-an-interface.html</loc>
@@ -31,6 +37,12 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-mix-keyed-and-unkeyed-array-entries-in-assignments.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-unset-offset-in-a-non-array-variable.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-unset-string-offsets.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-[]-for-reading.html</loc>
  </url>
  <url>
@@ -41,6 +53,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-lexical-variable-x-as-a-parameter-name.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-object-of-type-stdclass-as-array.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-positional-argument-after-argument-unpacking.html</loc>
@@ -59,6 +74,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/continue-operator-accepts-only-positive-integers.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/datetimeinterface-can\'t-be-implemented-by-user-classes.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/define():-argument-#3-($case_insensitive)-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported.html</loc>
