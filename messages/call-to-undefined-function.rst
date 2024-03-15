@@ -35,7 +35,7 @@ _______
 Solutions
 _________
 
-+ Check the spelling of the function.
-+ Check the version of PHP, or its extension: some functions are defined in specific versions, or later.
-+ Check the namespace of the called function: it might not be available in the current namespace.
++ Check the spelling of the function name.
++ Check the version of PHP, or its extensions: some functions are defined in specific versions, or later.
++ Check the namespace of the called function: it might not be available in the current namespace, or in the global namespace.
 + Check the use expression at the beginning of the file: the import expression might be missing.

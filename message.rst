@@ -8,6 +8,7 @@ PHP Error Messages
    messages/a-function-with-return-type-must-return-a-value.rst
    messages/array-and-string-offset-access-syntax-with-curly-braces-is-deprecated.rst
    messages/array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported.rst
+   messages/array-callback-has-to-contain-indices-0-and-1.rst
    messages/attempt-to-unset-static-property.rst
    messages/automatic-conversion-of-false-to-array-is-deprecated.rst
    messages/b-cannot-implement-a---it-is-not-an-interface.rst
@@ -40,6 +41,7 @@ PHP Error Messages
    messages/non-static-method-x::goo()-cannot-be-called-statically-.rst
    messages/only-variable-references-should-be-yielded-by-reference.rst
    messages/private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes.rst
+   messages/property-x::\$p-cannot-have-type-void.rst
    messages/readonly-class-bar-cannot-extend-non-readonly-class-foo.rst
    messages/redefinition-of-parameter-$b.rst
    messages/required-trait-t2-wasn\'t-added-to-c.rst
@@ -54,4 +56,5 @@ PHP Error Messages
    messages/undefined-variable.rst
    messages/using-$this-when-not-in-object-context.rst
    messages/using--(variable-variables)-in-strings-is-deprecated,-use-{}-instead.rst
+   messages/void-cannot-be-used-as-a-parameter-type.rst
    messages/x::foo()-has-#[\override]-attribute,-but-no-matching-parent-method-exists.rst
