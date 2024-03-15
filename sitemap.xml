@@ -13,6 +13,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/array-callback-has-to-contain-indices-0-and-1.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/assignments-can-only-happen-to-writable-values.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/attempt-to-unset-static-property.html</loc>
  </url>
  <url>
@@ -76,6 +79,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/class-b-cannot-implement-previously-implemented-interface-i.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/constructors-cannot-declare-a-return-type.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/continue-operator-accepts-only-positive-integers.html</loc>
  </url>
  <url>
@@ -86,6 +92,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/define():-declaration-of-case-insensitive-constants-is-deprecated.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/destructors-cannot-declare-a-return-type.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/has-#[\override]-attribute,-but-no-matching-parent-method-exists.html</loc>

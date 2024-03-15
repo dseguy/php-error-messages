@@ -9,6 +9,7 @@ PHP Error Messages
    messages/array-and-string-offset-access-syntax-with-curly-braces-is-deprecated.rst
    messages/array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported.rst
    messages/array-callback-has-to-contain-indices-0-and-1.rst
+   messages/assignments-can-only-happen-to-writable-values.rst
    messages/attempt-to-unset-static-property.rst
    messages/automatic-conversion-of-false-to-array-is-deprecated.rst
    messages/b-cannot-implement-a---it-is-not-an-interface.rst
@@ -30,10 +31,12 @@ PHP Error Messages
    messages/cannot-use-temporary-expression-in-write-context.rst
    messages/cannot-use-try-without-catch-or-finally.rst
    messages/class-b-cannot-implement-previously-implemented-interface-i.rst
+   messages/constructors-cannot-declare-a-return-type.rst
    messages/continue-operator-accepts-only-positive-integers.rst
    messages/datetimeinterface-can\'t-be-implemented-by-user-classes.rst
    messages/define():-argument-#3-($case_insensitive)-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported.rst
    messages/define():-declaration-of-case-insensitive-constants-is-deprecated.rst
+   messages/destructors-cannot-declare-a-return-type.rst
    messages/has-#[\override]-attribute,-but-no-matching-parent-method-exists.rst
    messages/increment-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php.rst
    messages/never-returning-function-must-not-implicitly-return.rst
