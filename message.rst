@@ -9,6 +9,7 @@ PHP Error Messages
    messages/array-and-string-offset-access-syntax-with-curly-braces-is-deprecated.rst
    messages/array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported.rst
    messages/array-callback-has-to-contain-indices-0-and-1.rst
+   messages/array_merge()-does-not-accept-unknown-named-parameters.rst
    messages/assignments-can-only-happen-to-writable-values.rst
    messages/attempt-to-unset-static-property.rst
    messages/automatic-conversion-of-false-to-array-is-deprecated.rst
@@ -21,10 +22,12 @@ PHP Error Messages
    messages/cannot-mix-keyed-and-unkeyed-array-entries-in-assignments.rst
    messages/cannot-unset-offset-in-a-non-array-variable.rst
    messages/cannot-unset-string-offsets.rst
+   messages/cannot-use-'readonly'-as-method-modifier.rst
    messages/cannot-use-[]-for-reading.rst
    messages/cannot-use-empty-array-elements-in-arrays.rst
    messages/cannot-use-empty-list.rst
    messages/cannot-use-lexical-variable-x-as-a-parameter-name.rst
+   messages/cannot-use-list()-as-standalone-expression.rst
    messages/cannot-use-object-of-type-stdclass-as-array.rst
    messages/cannot-use-positional-argument-after-argument-unpacking.rst
    messages/cannot-use-positional-argument-after-named-argument.rst
