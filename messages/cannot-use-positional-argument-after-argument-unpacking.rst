@@ -5,12 +5,14 @@ Cannot use positional argument after argument unpacking
  
 	.. meta::
 		:description lang=en:
-			Cannot use positional argument after argument unpacking: When using a mix of array unpacking and arguments, it is not possible to put the arguments after the unpacked argument.
+			Cannot use positional argument after argument unpacking: It is not possible to put simple arguments after an unpacked argument.
 
 Description
 ___________
  
-When using a mix of array unpacking and arguments, it is not possible to put the arguments after the unpacked argument. Said another way, the unpacked arguments must be the last one in the list. 
+It is not possible to put simple arguments after an unpacked argument. Said another way, the unpacked arguments must be the last one in the list. 
+
+This happens when using a mix of array unpacking and arguments. It also happens when spreading an array with a mix of numeric and string keys. 
 
 Example
 _______
@@ -25,8 +27,16 @@ _______
    // Also valid, the unpacked arguments are the last
    foo($a, $b, ...$c, ...$d);
    
-   // Not valida
+   // Not valid
    foo(...$a, $b, ...$c);
+   
+   // This is invalid, as the numeric arguments are after the 'x'
+   $a = ['x' => [1], 13, 14];
+   foo(...$a);
+   
+   // This is valid, as long as x is not argument 0 or 1. Then, it yields another error.
+   $a = [13, 14, 'x' => [1]];
+   foo(...$a);
    
    ?>
 

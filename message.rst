@@ -5,6 +5,12 @@ PHP Error Messages
    :maxdepth: 1
    :caption: Contents:
 
+   messages/Cannot-instantiate-trait-t.rst
+   messages/Duplicate-named-parameter-$%s.rst
+   messages/Named-parameter-$x-overwrites-previous-argument.rst
+   messages/Optional-parameter-$%s-declared-before-required-parameter-$%s-is-implicitly-treated-as-a-required-parameter.rst
+   messages/Required-Trait-T2-wasn\'t-added-to-C.rst
+   messages/Required-parameter-$%s-follows-optional-parameter-$%s.rst
    messages/a-function-with-return-type-must-return-a-value.rst
    messages/array-and-string-offset-access-syntax-with-curly-braces-is-deprecated.rst
    messages/array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported.rst
