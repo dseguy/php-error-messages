@@ -17,6 +17,7 @@ PHP Error Messages
    messages/array-callback-has-to-contain-indices-0-and-1.rst
    messages/array_merge()-does-not-accept-unknown-named-parameters.rst
    messages/assignments-can-only-happen-to-writable-values.rst
+   messages/attempt-to-unset-static-property-a::$x.rst
    messages/attempt-to-unset-static-property.rst
    messages/automatic-conversion-of-false-to-array-is-deprecated.rst
    messages/b-cannot-implement-a---it-is-not-an-interface.rst
@@ -46,7 +47,9 @@ PHP Error Messages
    messages/define():-argument-#3-($case_insensitive)-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported.rst
    messages/define():-declaration-of-case-insensitive-constants-is-deprecated.rst
    messages/destructors-cannot-declare-a-return-type.rst
+   messages/duplicate-type-false-is-redundant.rst
    messages/has-#[\override]-attribute,-but-no-matching-parent-method-exists.rst
+   messages/implicitly-marking-parameter-$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead.rst
    messages/increment-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php.rst
    messages/never-returning-function-must-not-implicitly-return.rst
    messages/new-expressions-are-not-supported-in-this-context.rst
@@ -59,6 +62,8 @@ PHP Error Messages
    messages/required-trait-t2-wasn\'t-added-to-c.rst
    messages/return-value-must-be-of-type-int,-string-returned.rst
    messages/static-property-x::$y-cannot-be-readonly.rst
+   messages/the-(unset)-cast-is-deprecated.rst
+   messages/the-(unset)-cast-is-no-longer-supported.rst
    messages/traits-cannot-have-constants.rst
    messages/typed-property-%s::$%s-must-not-be-accessed-before-initialization.rst
    messages/typed-property-x::$y-must-not-be-accessed-before-initialization.rst

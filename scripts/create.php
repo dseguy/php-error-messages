@@ -9,6 +9,7 @@ if (isset($argv[2])) {
 print "Creating entry for '$message'\n";
 
 $name = strtolower($message);
+$name = trim($message);
 $name = str_replace(' ', '-', $name);
 
 if (file_exists('errors/'.$name.'.ini')) {
@@ -26,6 +27,6 @@ $ini = str_replace('', '', $ini);
 
 file_put_contents('errors/'.$name.'.ini', $ini);
 
-print "New entry for 'errors/$name.ini'.\n";
+print "New entry for \"errors/$name.ini\"\n";
 
 ?>
