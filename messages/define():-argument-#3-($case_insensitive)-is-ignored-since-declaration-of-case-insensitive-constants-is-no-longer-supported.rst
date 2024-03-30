@@ -29,4 +29,4 @@ _________
 + Remove the third argument in the define() call.
 
 
-In more recent PHP versions, this error message is now ":ref:`define(): Declaration of case-insensitive constants is deprecated <define():-declaration-of-case-insensitive-constants-is-deprecated>`"
+In more recent PHP versions, this error message is now :ref:`define():-declaration-of-case-insensitive-constants-is-deprecated`.

@@ -33,4 +33,4 @@ _________
 + Add a default value of the late required parameter.
 
 
-In more recent PHP versions, this error message is now ":ref:`Optional parameter $a declared before required parameter $b is implicitly treated as a required parameter <Optional-parameter-$%s-declared-before-required-parameter-$%s-is-implicitly-treated-as-a-required-parameter>`"
+In more recent PHP versions, this error message is now :ref:`Optional-parameter-$%s-declared-before-required-parameter-$%s-is-implicitly-treated-as-a-required-parameter`.

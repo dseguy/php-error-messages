@@ -69,7 +69,7 @@ PHP Error Messages
    messages/traits-cannot-have-constants.rst
    messages/typed-property-%s\:\:$%s-must-not-be-accessed-before-initialization.rst
    messages/typed-property-x\:\:$y-must-not-be-accessed-before-initialization.rst
-   messages/typed-static-property-x\:\:$y-must-not-be-accessed-before-initialization.rst
+   messages/typed-static-property-x::$y-must-not-be-accessed-before-initialization.rst
    messages/undefined-array-key.rst
    messages/undefined-offset.rst
    messages/undefined-variable.rst

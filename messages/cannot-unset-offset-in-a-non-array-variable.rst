@@ -40,4 +40,4 @@ ______________________
 + :ref:`automatic-conversion-of-false-to-array-is-deprecated`
 
 
-In previous PHP versions, this error message used to be ":ref:`Cannot use object of type stdClass as array <cannot-use-object-of-type-stdclass-as-array>`"
+In previous PHP versions, this error message used to be :ref:`cannot-use-object-of-type-stdclass-as-array`.

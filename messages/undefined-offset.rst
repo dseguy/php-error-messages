@@ -28,3 +28,6 @@ _________
 
 + Test the existence of the offset before usage.
 + Gives the offset a default value before usage.
+
+
+In more recent PHP versions, this error message is now :ref:`undefined-array-key`.

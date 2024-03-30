@@ -29,4 +29,4 @@ _________
 + Remove the third argument in the define() call.
 
 
-In previous PHP versions, this error message used to be ":ref:`define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported <define():-argument-#3-($case_insensitive)-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported>`"
+In previous PHP versions, this error message used to be :ref:`define():-argument-#3-($case_insensitive)-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported`.

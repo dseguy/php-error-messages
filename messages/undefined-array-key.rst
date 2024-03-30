@@ -35,4 +35,4 @@ ______________________
 + :ref:`undefined-variable`
 
 
-In previous PHP versions, this error message used to be ":ref:`Undefined offset <undefined-offset>`"
+In previous PHP versions, this error message used to be :ref:`undefined-offset`.

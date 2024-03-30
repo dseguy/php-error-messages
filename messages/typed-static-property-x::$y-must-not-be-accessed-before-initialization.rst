@@ -1,11 +1,11 @@
-.. _typed-property-x\:\:$y-must-not-be-accessed-before-initialization:
+.. _typed-static-property-x::$y-must-not-be-accessed-before-initialization:
 
-Typed property x\:\:$y must not be accessed before initialization
------------------------------------------------------------------
+Typed static property x::$y must not be accessed before initialization
+----------------------------------------------------------------------
  
 	.. meta::
 		:description lang=en:
-			Typed property x\:\:$y must not be accessed before initialization: When a property is typed, it starts its existence in an 'undefined' state, which cannot be compared to anything else.
+			Typed static property x::$y must not be accessed before initialization: When a property is typed, it starts its existence in an 'undefined' state, which cannot be compared to anything else.
 
 Description
 ___________
@@ -20,10 +20,10 @@ _______
    <?php
    
    class x {
-       public int $y;
+       static int $y;
    }
    
-   var_dump((new x)->y);
+   var_dump(x::$y);
    
    ?>
 
@@ -37,7 +37,6 @@ Related Error Messages
 ______________________
 
 + :ref:`typed-property-x::$y-must-not-be-accessed-before-initialization`
-+ :ref:`typed-static-property-x::$y-must-not-be-accessed-before-initialization`
 
 See Also
 ________

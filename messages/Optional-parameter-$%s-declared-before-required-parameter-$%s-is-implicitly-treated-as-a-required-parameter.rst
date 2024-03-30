@@ -33,4 +33,4 @@ _________
 + Add a default value of the late required parameter.
 
 
-In previous PHP versions, this error message used to be ":ref:`Required parameter $%s follows optional parameter $%s <Required-parameter-$%s-follows-optional-parameter-$%s>`"
+In previous PHP versions, this error message used to be :ref:`Required-parameter-$%s-follows-optional-parameter-$%s`.

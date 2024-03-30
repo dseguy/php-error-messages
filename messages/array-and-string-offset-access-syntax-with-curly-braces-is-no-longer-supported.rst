@@ -33,3 +33,6 @@ _________
 
 + Switch to the square brackets.
 + Use the substr() function to extract one string char.
+
+
+In previous PHP versions, this error message used to be :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-deprecated`.

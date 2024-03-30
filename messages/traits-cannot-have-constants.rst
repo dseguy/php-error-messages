@@ -40,4 +40,4 @@ ______________________
 + :ref:`cannot-access-trait-constant-t::x-directly`
 
 
-In more recent PHP versions, this error message is now ":ref:`Cannot access trait constant t::X directly <cannot-access-trait-constant-t::x-directly>`"
+In more recent PHP versions, this error message is now :ref:`cannot-access-trait-constant-t::x-directly`.

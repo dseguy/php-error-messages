@@ -30,4 +30,4 @@ _________
 + Assign null to the variable.
 
 
-In more recent PHP versions, this error message is now ":ref:`The (unset) cast is no longer supported <the-(unset)-cast-is-no-longer-supported>`"
+In more recent PHP versions, this error message is now :ref:`the-(unset)-cast-is-no-longer-supported`.

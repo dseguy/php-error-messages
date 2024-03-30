@@ -46,4 +46,4 @@ ______________________
 + :ref:`traits-cannot-have-constants`
 
 
-In previous PHP versions, this error message used to be ":ref:`Traits cannot have constants <traits-cannot-have-constants>`"
+In previous PHP versions, this error message used to be :ref:`traits-cannot-have-constants`.

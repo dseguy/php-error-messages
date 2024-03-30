@@ -35,4 +35,4 @@ _________
 + Cast the object to array before usage.
 
 
-In previous PHP versions, this error message used to be ":ref:`Cannot unset offset in a non-array variable <cannot-unset-offset-in-a-non-array-variable>`"
+In previous PHP versions, this error message used to be :ref:`cannot-unset-offset-in-a-non-array-variable`.

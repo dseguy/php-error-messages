@@ -35,4 +35,4 @@ _________
 + Use the substr() function to extract one string char.
 
 
-In previous PHP versions, this error message used to be ":ref:`Array and string offset access syntax with curly braces is no longer supported <array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported>`"
+In previous PHP versions, this error message used to be :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported`.

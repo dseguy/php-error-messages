@@ -28,3 +28,6 @@ _________
 
 + Use the unset() function to remove variables.
 + Assign null to the variable.
+
+
+In previous PHP versions, this error message used to be :ref:`the-(unset)-cast-is-deprecated`.

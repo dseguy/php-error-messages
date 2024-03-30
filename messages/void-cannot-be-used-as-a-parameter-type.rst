@@ -19,9 +19,7 @@ _______
 
    <?php
    
-   <?php
-   
-   function foo(void $p) { }
+     function foo(void $p) { }
    
    ?>
 
