@@ -29,5 +29,10 @@ _________
 + Test the existence of the offset before usage.
 + Gives the offset a default value before usage.
 
+Related Error Messages
+______________________
+
++ :ref:`undefined-variable`
+
 
 In previous PHP versions, this error message used to be ":ref:`Undefined offset <undefined-offset>`"

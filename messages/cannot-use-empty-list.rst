@@ -29,3 +29,8 @@ _________
 
 + Add at least one variable in the list() call.
 + Remove the call to list().
+
+Related Error Messages
+______________________
+
++ :ref:`cannot-use-positional-argument-after-named-argument`

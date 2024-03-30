@@ -12,6 +12,8 @@ PHP Error Messages
    messages/Required-Trait-T2-wasn\'t-added-to-C.rst
    messages/Required-parameter-$%s-follows-optional-parameter-$%s.rst
    messages/a-function-with-return-type-must-return-a-value.rst
+   messages/a-never-returning-function-must-not-return.rst
+   messages/a-never-returning-method-must-not-return.rst
    messages/array-and-string-offset-access-syntax-with-curly-braces-is-deprecated.rst
    messages/array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported.rst
    messages/array-callback-has-to-contain-indices-0-and-1.rst

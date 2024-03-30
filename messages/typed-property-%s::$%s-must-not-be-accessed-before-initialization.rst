@@ -39,3 +39,8 @@ _________
 + Give a default value to the property.
 + Set the value of the property in the constructor.
 + Use isset(), empty() or ?? to check the status of the property before usage.
+
+Related Error Messages
+______________________
+
++ :ref:`typed-property-x::$y-must-not-be-accessed-before-initialization`

@@ -32,6 +32,11 @@ _________
 + Remove the property.
 + Use the null type.
 
+Related Error Messages
+______________________
+
++ :ref:`void-cannot-be-used-as-a-parameter-type`
+
 See Also
 ________
 

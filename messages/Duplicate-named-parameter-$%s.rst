@@ -35,3 +35,8 @@ _________
 + Remove the names of the parameters.
 + Change the name of all the duplicate named parameters, but one.
 + Remove the duplicates named parameters, but one.
+
+Related Error Messages
+______________________
+
++ :ref:`Named-parameter-$x-overwrites-previous-argument`

@@ -33,6 +33,11 @@ _________
 + Ensure that the property receives a value before reading it.
 + Use empty() or isset() to check if the property has been set, before reading.
 
+Related Error Messages
+______________________
+
++ :ref:`typed-property-x::$y-must-not-be-accessed-before-initialization`
+
 See Also
 ________
 

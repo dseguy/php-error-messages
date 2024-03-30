@@ -30,3 +30,8 @@ _________
 
 + Remove the continue command.
 + Remove the 0.
+
+Related Error Messages
+______________________
+
++ :ref:`continue-operator-accepts-only-positive-integers`

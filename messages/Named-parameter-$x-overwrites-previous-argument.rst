@@ -37,3 +37,8 @@ _________
 + Remove duplicate named parameters in the argument list.
 + Add all names to parameters in the argument list.
 + Remove all names to parameters in the argument list.
+
+Related Error Messages
+______________________
+
++ :ref:`Duplicate-named-parameter-$%s`

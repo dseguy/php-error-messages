@@ -36,3 +36,8 @@ _________
 
 + Use an empty array as default value.
 + Test the type of the variable before using it as an array.
+
+Related Error Messages
+______________________
+
++ :ref:`cannot-unset-offset-in-a-non-array-variable`

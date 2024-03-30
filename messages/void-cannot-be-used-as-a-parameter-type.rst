@@ -32,6 +32,11 @@ _________
 + Remove the argument.
 + Use the null type.
 
+Related Error Messages
+______________________
+
++ :ref:`property-x::\$p-cannot-have-type-void`
+
 See Also
 ________
 

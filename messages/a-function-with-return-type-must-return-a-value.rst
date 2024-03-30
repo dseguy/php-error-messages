@@ -37,3 +37,8 @@ _________
 + Add a returned value to all the return command.
 + Check all the return commands for returned values.
 + Remove the return type.
+
+Related Error Messages
+______________________
+
++ :ref:`return-value-must-be-of-type-int,-string-returned`

@@ -31,3 +31,8 @@ Solutions
 _________
 
 + Remove the return type of the method.
+
+Related Error Messages
+______________________
+
++ :ref:`constructors-cannot-declare-a-return-type`
