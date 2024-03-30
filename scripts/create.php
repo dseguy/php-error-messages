@@ -9,7 +9,7 @@ if (isset($argv[2])) {
 print "Creating entry for '$message'\n";
 
 $name = strtolower($message);
-$name = trim($message);
+$name = trim($name);
 $name = str_replace(' ', '-', $name);
 
 if (file_exists('errors/'.$name.'.ini')) {
