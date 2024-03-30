@@ -35,8 +35,10 @@ $files = glob('errors/*.ini');
 $files = array_diff($files, ['errors/skeleton.ini']);
 $stats = array('author' => 0,
 				);
-$errors = [];
-$titles = [];
+$errors   = array();
+$titles   = array();
+$reciproq = array();
+$nextprev = array();
 $tips = array();
 $warnings = 0;
 foreach($files as $file) {
@@ -65,12 +67,36 @@ foreach($files as $file) {
 		buildlog("No previous for $file");
 		++$warnings;
 		continue;
+	} elseif (!empty($error->previous)) {
+		if (!file_exists('errors/'.$error->previous.'.ini')) {
+			buildlog($error->previous." doesn't exists as a previous error");
+			++$warnings;
+		} else {
+			$target = str_replace(array('errors/', '.ini'), '', $file);
+			if (isset($nextprev[$target])) {
+				unset($nextprev[$target]);
+			} else {
+				$nextprev[$error->previous] = $target;
+			}
+		}
 	}
 
 	if (!isset($error->next)) {
 		buildlog("No next for $file");
 		++$warnings;
 		continue;
+	} elseif (!empty($error->next)) {
+		if (!file_exists('errors/'.$error->next.'.ini')) {
+			buildlog($error->next." doesn't exists as a next error");
+			++$warnings;
+		} else {
+			$target = str_replace(array('errors/', '.ini'), '', $file);
+			if (isset($nextprev[$target])) {
+				unset($nextprev[$target]);
+			} else {
+				$nextprev[$error->next] = $target;
+			}
+		}
 	}
 
 	if (empty($error->level)) {
@@ -129,7 +155,15 @@ foreach($files as $file) {
 		
 		foreach($error->related as $related) {
 			if (!file_exists('errors/'.$related.'.ini')) {
-				buildlog("No such related file as '$related' in $file\n");
+				buildlog("No such related file as '$related' in $file");
+				++$warnings;
+			} else {
+				$target = str_replace(array('errors/', '.ini'), '', $file);
+				if (isset($reciproq[$target])) {
+					unset($reciproq[$target]);
+				} else {
+					$reciproq[$related] = $target;
+				}
 			}
 		}
 		
@@ -162,6 +196,21 @@ foreach($files as $file) {
 	$errors[$file] = $error;
 	$titles[basename($file, '.ini')] = $error->error;
 }
+
+if (!empty($reciproq)) {
+	foreach($reciproq as $origin => $target) {
+		buildlog("$origin lacks a related[] to $target");
+		++$warnings;
+	}
+}
+
+if (!empty($nextprev)) {
+	foreach($nextprev as $origin => $target) {
+		buildlog("$origin lacks a previous or next to $target");
+		++$warnings;
+	}
+}
+
 
 $errorlist = [];
 foreach($errors as $file => $message) {
@@ -242,23 +291,15 @@ foreach($errors as $file => $message) {
 	}
 
 	if (!empty($message->previous)) {
-		if (!file_exists('errors/'.$message->previous.'.ini')) {
-			print $message->previous." doesn't exists as a previous error\n";
-		} else {
-			$entry[] = '';
-			$entry[] = "In previous PHP versions, this error message used to be \":ref:`".$titles[$message->previous]." <".$message->previous.">`\"";
-			$entry[] = '';
-		}
+		$entry[] = '';
+		$entry[] = "In previous PHP versions, this error message used to be :ref:`".$message->previous."`.";
+		$entry[] = '';
 	}
 
 	if (!empty($message->next)) {
-		if (!file_exists('errors/'.$message->next.'.ini')) {
-			print $message->next." doesn't exists as a next error";
-		} else {
-			$entry[] = '';
-			$entry[] = "In more recent PHP versions, this error message is now \":ref:`".$titles[$message->next]." <".$message->next.">`\"";
-			$entry[] = '';
-		}
+		$entry[] = '';
+		$entry[] = "In more recent PHP versions, this error message is now :ref:`".$message->next."`.";
+		$entry[] = '';
 	}
 
 	$name = $message->id;
