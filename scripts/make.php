@@ -124,6 +124,18 @@ foreach($files as $file) {
 		}
 	}
 
+	if (isset($error->related)) {
+		$error->related = array_filter($error->related);
+		
+		foreach($error->related as $related) {
+			if (!file_exists('errors/'.$related.'.ini')) {
+				buildlog("No such related file as '$related' in $file\n");
+			}
+		}
+		
+		// @todo : make and chedk the way back too
+	}
+	
 	if (isset($error->seeAlso)) {
 		$error->seeAlso = array_filter($error->seeAlso);
 		
@@ -192,6 +204,28 @@ foreach($errors as $file => $message) {
 		
 		foreach($message->alternative as $alternative) {
 			$entry[] = '+ '.$alternative;
+		}
+		$entry[] = '';
+	}
+
+	if (0 && !empty($message->related)) {
+		$entry[] = 'Related messages';
+		$entry[] = str_repeat('_', strlen('Related messages'));
+		$entry[] = '';
+		
+		foreach($message->related as $related) {
+			$entry[] = '+ `'.$related.'`_';
+		}
+		$entry[] = '';
+	}
+
+	if (!empty($message->related)) {
+		$entry[] = 'Related Error Messages';
+		$entry[] = str_repeat('_', strlen('Related Error Messages'));
+		$entry[] = '';
+		
+		foreach($message->related as $target) {
+			$entry[] = '+ :ref:`'.$target.'`';
 		}
 		$entry[] = '';
 	}
