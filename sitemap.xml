@@ -1,24 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/Cannot-instantiate-trait-t.html</loc>
- </url>
- <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/Duplicate-named-parameter-$%s.html</loc>
- </url>
- <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/Named-parameter-$x-overwrites-previous-argument.html</loc>
- </url>
- <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/Optional-parameter-$%s-declared-before-required-parameter-$%s-is-implicitly-treated-as-a-required-parameter.html</loc>
- </url>
- <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/Required-Trait-T2-wasn\'t-added-to-C.html</loc>
- </url>
- <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/Required-parameter-$%s-follows-optional-parameter-$%s.html</loc>
- </url>
- <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/a-function-with-return-type-must-return-a-value.html</loc>
  </url>
  <url>
@@ -65,6 +47,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-access-trait-constant-t::x-directly.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-instantiate-trait-t.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-make-non-abstract-method-i::foo()-abstract-in-class-j.html</loc>
@@ -133,6 +118,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/destructors-cannot-declare-a-return-type.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/duplicate-named-parameter-$%s.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/duplicate-type-false-is-redundant.html</loc>
  </url>
  <url>
@@ -143,6 +131,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/increment-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/named-parameter-$x-overwrites-previous-argument.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/never-returning-function-must-not-implicitly-return.html</loc>
@@ -157,6 +148,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/only-variable-references-should-be-yielded-by-reference.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/optional-parameter-$%s-declared-before-required-parameter-$%s-is-implicitly-treated-as-a-required-parameter.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes.html</loc>
  </url>
  <url>
@@ -167,6 +161,12 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/redefinition-of-parameter-$b.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/required-parameter-$%s-follows-optional-parameter-$%s.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/required-trait-t2-wasn\'t-added-to-c.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/required-trait-t2-wasn\'t-added-to-c.html</loc>

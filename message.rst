@@ -5,12 +5,6 @@ PHP Error Messages
    :maxdepth: 1
    :caption: Contents:
 
-   messages/Cannot-instantiate-trait-t.rst
-   messages/Duplicate-named-parameter-$%s.rst
-   messages/Named-parameter-$x-overwrites-previous-argument.rst
-   messages/Optional-parameter-$%s-declared-before-required-parameter-$%s-is-implicitly-treated-as-a-required-parameter.rst
-   messages/Required-Trait-T2-wasn\'t-added-to-C.rst
-   messages/Required-parameter-$%s-follows-optional-parameter-$%s.rst
    messages/a-function-with-return-type-must-return-a-value.rst
    messages/a-never-returning-function-must-not-return.rst
    messages/a-never-returning-method-must-not-return.rst
@@ -27,6 +21,7 @@ PHP Error Messages
    messages/call-to-a-member-function-method()-on-string.rst
    messages/call-to-undefined-function.rst
    messages/cannot-access-trait-constant-t::x-directly.rst
+   messages/cannot-instantiate-trait-t.rst
    messages/cannot-make-non-abstract-method-i::foo()-abstract-in-class-j.rst
    messages/cannot-mix-keyed-and-unkeyed-array-entries-in-assignments.rst
    messages/cannot-unset-offset-in-a-non-array-variable.rst
@@ -49,18 +44,23 @@ PHP Error Messages
    messages/define():-argument-#3-($case_insensitive)-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported.rst
    messages/define():-declaration-of-case-insensitive-constants-is-deprecated.rst
    messages/destructors-cannot-declare-a-return-type.rst
+   messages/duplicate-named-parameter-$%s.rst
    messages/duplicate-type-false-is-redundant.rst
    messages/has-#[\override]-attribute,-but-no-matching-parent-method-exists.rst
    messages/implicitly-marking-parameter-$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead.rst
    messages/increment-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php.rst
+   messages/named-parameter-$x-overwrites-previous-argument.rst
    messages/never-returning-function-must-not-implicitly-return.rst
    messages/new-expressions-are-not-supported-in-this-context.rst
    messages/non-static-method-x::goo()-cannot-be-called-statically-.rst
    messages/only-variable-references-should-be-yielded-by-reference.rst
+   messages/optional-parameter-$%s-declared-before-required-parameter-$%s-is-implicitly-treated-as-a-required-parameter.rst
    messages/private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes.rst
    messages/property-x::$p-cannot-have-type-void.rst
    messages/readonly-class-bar-cannot-extend-non-readonly-class-foo.rst
    messages/redefinition-of-parameter-$b.rst
+   messages/required-parameter-$%s-follows-optional-parameter-$%s.rst
+   messages/required-trait-t2-wasn\'t-added-to-c.rst
    messages/required-trait-t2-wasn\'t-added-to-c.rst
    messages/return-value-must-be-of-type-int,-string-returned.rst
    messages/static-property-x::$y-cannot-be-readonly.rst
