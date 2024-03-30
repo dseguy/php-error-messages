@@ -35,7 +35,7 @@ _________
 Related Error Messages
 ______________________
 
-+ :ref:`property-x::\$p-cannot-have-type-void`
++ :ref:`property-x::$p-cannot-have-type-void`
 
 See Also
 ________

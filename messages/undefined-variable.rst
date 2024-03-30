@@ -27,3 +27,8 @@ Solutions
 _________
 
 + Give the variable a default value.
+
+Related Error Messages
+______________________
+
++ :ref:`undefined-array-key`

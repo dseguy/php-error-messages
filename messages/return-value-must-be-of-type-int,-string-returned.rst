@@ -36,3 +36,8 @@ _________
 + Check the type before returning it.
 + Remove the return type.
 + Remove strict_types.
+
+Related Error Messages
+______________________
+
++ :ref:`a-function-with-return-type-must-return-a-value`

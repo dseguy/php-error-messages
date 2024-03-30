@@ -40,5 +40,10 @@ _________
 + Move the constant in an interface.
 + Move the constant the host class.
 
+Related Error Messages
+______________________
+
++ :ref:`traits-cannot-have-constants`
+
 
 In previous PHP versions, this error message used to be ":ref:`Traits cannot have constants <traits-cannot-have-constants>`"

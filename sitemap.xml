@@ -160,7 +160,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/property-x::\$p-cannot-have-type-void.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/property-x::$p-cannot-have-type-void.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/readonly-class-bar-cannot-extend-non-readonly-class-foo.html</loc>
@@ -187,13 +187,13 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/traits-cannot-have-constants.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/typed-property-%s::$%s-must-not-be-accessed-before-initialization.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/typed-property-%s\:\:$%s-must-not-be-accessed-before-initialization.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/typed-property-x::$y-must-not-be-accessed-before-initialization.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/typed-property-x\:\:$y-must-not-be-accessed-before-initialization.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/typed-static-property-x::$y-must-not-be-accessed-before-initialization.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/typed-static-property-x\:\:$y-must-not-be-accessed-before-initialization.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/undefined-array-key.html</loc>

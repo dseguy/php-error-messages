@@ -34,3 +34,8 @@ Solutions
 _________
 
 + Write the positional argument before the named ones in the call.
+
+Related Error Messages
+______________________
+
++ :ref:`cannot-use-empty-list`

@@ -45,4 +45,4 @@ _________
 Related Error Messages
 ______________________
 
-+ :ref:`typed-property-%s::$%s-must-not-be-accessed-before-initialization`
++ :ref:`typed-property-%s\:\:$%s-must-not-be-accessed-before-initialization`

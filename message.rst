@@ -58,7 +58,7 @@ PHP Error Messages
    messages/non-static-method-x::goo()-cannot-be-called-statically-.rst
    messages/only-variable-references-should-be-yielded-by-reference.rst
    messages/private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes.rst
-   messages/property-x::\$p-cannot-have-type-void.rst
+   messages/property-x::$p-cannot-have-type-void.rst
    messages/readonly-class-bar-cannot-extend-non-readonly-class-foo.rst
    messages/redefinition-of-parameter-$b.rst
    messages/required-trait-t2-wasn\'t-added-to-c.rst
@@ -67,9 +67,9 @@ PHP Error Messages
    messages/the-(unset)-cast-is-deprecated.rst
    messages/the-(unset)-cast-is-no-longer-supported.rst
    messages/traits-cannot-have-constants.rst
-   messages/typed-property-%s::$%s-must-not-be-accessed-before-initialization.rst
-   messages/typed-property-x::$y-must-not-be-accessed-before-initialization.rst
-   messages/typed-static-property-x::$y-must-not-be-accessed-before-initialization.rst
+   messages/typed-property-%s\:\:$%s-must-not-be-accessed-before-initialization.rst
+   messages/typed-property-x\:\:$y-must-not-be-accessed-before-initialization.rst
+   messages/typed-static-property-x\:\:$y-must-not-be-accessed-before-initialization.rst
    messages/undefined-array-key.rst
    messages/undefined-offset.rst
    messages/undefined-variable.rst

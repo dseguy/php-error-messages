@@ -34,5 +34,10 @@ _________
 + Set type with properties to ensure they are consistent.
 + Cast the object to array before usage.
 
+Related Error Messages
+______________________
+
++ :ref:`automatic-conversion-of-false-to-array-is-deprecated`
+
 
 In previous PHP versions, this error message used to be ":ref:`Cannot use object of type stdClass as array <cannot-use-object-of-type-stdclass-as-array>`"
