@@ -21,12 +21,14 @@ PHP Error Messages
    messages/call-to-a-member-function-method()-on-string.rst
    messages/call-to-undefined-function.rst
    messages/cannot-access-trait-constant-t::x-directly.rst
+   messages/cannot-declare-promoted-property-outside-a-constructor.rst
    messages/cannot-instantiate-trait-t.rst
    messages/cannot-make-non-abstract-method-i::foo()-abstract-in-class-j.rst
    messages/cannot-mix-keyed-and-unkeyed-array-entries-in-assignments.rst
    messages/cannot-unset-offset-in-a-non-array-variable.rst
    messages/cannot-unset-string-offsets.rst
    messages/cannot-use-'readonly'-as-method-modifier.rst
+   messages/cannot-use-::class-with-dynamic-class-name.rst
    messages/cannot-use-[]-for-reading.rst
    messages/cannot-use-empty-array-elements-in-arrays.rst
    messages/cannot-use-empty-list.rst
@@ -46,10 +48,16 @@ PHP Error Messages
    messages/destructors-cannot-declare-a-return-type.rst
    messages/duplicate-named-parameter-$%s.rst
    messages/duplicate-type-false-is-redundant.rst
+   messages/ffi-api-is-restricted-by-"ffi.enable"-configuration-directive.rst
+   messages/foreach()-argument-must-be-of-type-array|object.rst
    messages/has-#[\override]-attribute,-but-no-matching-parent-method-exists.rst
+   messages/illegal-string-offset.rst
    messages/implicitly-marking-parameter-$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead.rst
    messages/increment-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php.rst
+   messages/keys-must-be-of-type-int|string-during-argument-unpacking-..rst
+   messages/keys-must-be-of-type-int|string-during-array-unpacking.rst
    messages/named-parameter-$x-overwrites-previous-argument.rst
+   messages/never-cannot-be-used-as-a-parameter-type.rst
    messages/never-returning-function-must-not-implicitly-return.rst
    messages/new-expressions-are-not-supported-in-this-context.rst
    messages/non-static-method-x::goo()-cannot-be-called-statically-.rst
@@ -73,6 +81,7 @@ PHP Error Messages
    messages/undefined-array-key.rst
    messages/undefined-offset.rst
    messages/undefined-variable.rst
+   messages/uninitialized-string-offset.rst
    messages/using-$this-when-not-in-object-context.rst
    messages/using--(variable-variables)-in-strings-is-deprecated,-use-{}-instead.rst
    messages/void-cannot-be-used-as-a-parameter-type.rst

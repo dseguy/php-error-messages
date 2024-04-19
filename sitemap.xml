@@ -49,6 +49,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-access-trait-constant-t::x-directly.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-declare-promoted-property-outside-a-constructor.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-instantiate-trait-t.html</loc>
  </url>
  <url>
@@ -65,6 +68,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-'readonly'-as-method-modifier.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-::class-with-dynamic-class-name.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-[]-for-reading.html</loc>
@@ -124,7 +130,16 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/duplicate-type-false-is-redundant.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/ffi-api-is-restricted-by-&quot;ffi.enable&quot;-configuration-directive.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/foreach()-argument-must-be-of-type-array|object.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/has-#[\override]-attribute,-but-no-matching-parent-method-exists.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/illegal-string-offset.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/implicitly-marking-parameter-$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead.html</loc>
@@ -133,7 +148,16 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/increment-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/keys-must-be-of-type-int|string-during-argument-unpacking-..html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/keys-must-be-of-type-int|string-during-array-unpacking.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/named-parameter-$x-overwrites-previous-argument.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/never-cannot-be-used-as-a-parameter-type.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/never-returning-function-must-not-implicitly-return.html</loc>
@@ -203,6 +227,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/undefined-variable.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/uninitialized-string-offset.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/using-$this-when-not-in-object-context.html</loc>
