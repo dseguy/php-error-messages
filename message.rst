@@ -8,6 +8,7 @@ PHP Error Messages
    messages/a-function-with-return-type-must-return-a-value.rst
    messages/a-never-returning-function-must-not-return.rst
    messages/a-never-returning-method-must-not-return.rst
+   messages/a-non-numeric-value-encountered.rst
    messages/array-and-string-offset-access-syntax-with-curly-braces-is-deprecated.rst
    messages/array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported.rst
    messages/array-callback-has-to-contain-indices-0-and-1.rst
@@ -52,8 +53,11 @@ PHP Error Messages
    messages/foreach()-argument-must-be-of-type-array|object.rst
    messages/has-#[\override]-attribute,-but-no-matching-parent-method-exists.rst
    messages/illegal-string-offset.rst
+   messages/implicit-conversion-from-float-string.rst
    messages/implicitly-marking-parameter-$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead.rst
    messages/increment-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php.rst
+   messages/indirect-modification-of-overloaded-element-of-%s-has-no-effect.rst
+   messages/indirect-modification-of-overloaded-property-%s::$%s-has-no-effect.rst
    messages/keys-must-be-of-type-int|string-during-argument-unpacking-..rst
    messages/keys-must-be-of-type-int|string-during-array-unpacking.rst
    messages/named-parameter-$x-overwrites-previous-argument.rst
@@ -82,6 +86,7 @@ PHP Error Messages
    messages/undefined-offset.rst
    messages/undefined-variable.rst
    messages/uninitialized-string-offset.rst
+   messages/unsupported-operand-types.rst
    messages/using-$this-when-not-in-object-context.rst
    messages/using--(variable-variables)-in-strings-is-deprecated,-use-{}-instead.rst
    messages/void-cannot-be-used-as-a-parameter-type.rst
