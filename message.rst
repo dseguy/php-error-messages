@@ -58,6 +58,8 @@ PHP Error Messages
    messages/increment-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php.rst
    messages/indirect-modification-of-overloaded-element-of-%s-has-no-effect.rst
    messages/indirect-modification-of-overloaded-property-%s::$%s-has-no-effect.rst
+   messages/invalid-argument-supplied-for-foreach().rst
+   messages/is-an-invalid-class-name.rst
    messages/keys-must-be-of-type-int|string-during-argument-unpacking-..rst
    messages/keys-must-be-of-type-int|string-during-array-unpacking.rst
    messages/named-parameter-$x-overwrites-previous-argument.rst

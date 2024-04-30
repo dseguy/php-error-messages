@@ -160,6 +160,12 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/indirect-modification-of-overloaded-property-%s::$%s-has-no-effect.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/invalid-argument-supplied-for-foreach().html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/is-an-invalid-class-name.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/keys-must-be-of-type-int|string-during-argument-unpacking-..html</loc>
  </url>
  <url>

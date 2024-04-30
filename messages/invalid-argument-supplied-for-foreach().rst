@@ -1,11 +1,11 @@
-.. _foreach()-argument-must-be-of-type-array|object:
+.. _invalid-argument-supplied-for-foreach():
 
-foreach() argument must be of type array|object
------------------------------------------------
+Invalid argument supplied for foreach()
+---------------------------------------
  
 	.. meta::
 		:description lang=en:
-			foreach() argument must be of type array|object: foreach() works on arrays or objects.
+			Invalid argument supplied for foreach(): foreach() works on arrays or objects.
 
 Description
 ___________
@@ -19,13 +19,7 @@ _______
 
 .. code-block:: php
 
-   <?php
    
-   $variable = null;
-   foreach($variable as $x) {
-   
-   }
-   ?>
 
 Solutions
 _________
@@ -33,4 +27,4 @@ _________
 + Check that the source of the foreach can be used with is_iterable().
 
 
-In previous PHP versions, this error message used to be :ref:`invalid-argument-supplied-for-foreach()`.
+In more recent PHP versions, this error message is now :ref:`foreach()-argument-must-be-of-type-array|object`.
