@@ -41,6 +41,7 @@ PHP Error Messages
    messages/cannot-use-temporary-expression-in-write-context.rst
    messages/cannot-use-try-without-catch-or-finally.rst
    messages/class-b-cannot-implement-previously-implemented-interface-i.rst
+   messages/constant-expression-contains-invalid-operations.rst
    messages/constructors-cannot-declare-a-return-type.rst
    messages/continue-operator-accepts-only-positive-integers.rst
    messages/datetimeinterface-can\'t-be-implemented-by-user-classes.rst
@@ -49,6 +50,7 @@ PHP Error Messages
    messages/destructors-cannot-declare-a-return-type.rst
    messages/duplicate-named-parameter-$%s.rst
    messages/duplicate-type-false-is-redundant.rst
+   messages/fetching-properties-on-non-enums-in-constant-expressions-is-not-allowed.rst
    messages/ffi-api-is-restricted-by-"ffi.enable"-configuration-directive.rst
    messages/foreach()-argument-must-be-of-type-array|object.rst
    messages/has-#[\override]-attribute,-but-no-matching-parent-method-exists.rst
