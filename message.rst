@@ -5,6 +5,7 @@ PHP Error Messages
    :maxdepth: 1
    :caption: Contents:
 
+   messages/a-class-constant-must-not-be-called-class.-it-is-reserved-for-class-name-fetching.rst
    messages/a-function-with-return-type-must-return-a-value.rst
    messages/a-never-returning-function-must-not-return.rst
    messages/a-never-returning-method-must-not-return.rst
