@@ -14,6 +14,10 @@ Override is a PHP attribute, that checks if a method is actually overriding the 
 
 When no such method is found, it signals that the method with the attribute is now orphaned. It should be renamed, to fit another method.
 
+The error is emitted when a method has the Override but no such method exists in the parent; it is also emitted when Override is used in a class or an interface that has no parent. No error is emitted on traits or enums. 
+
+This error is a compile time error, when PHP can solve it at compile time: this means both the class with the Override attribute, and the parent class is available at compile time. It is also an execution time error, when the Override is set in a method in a trait.
+
 
 Example
 _______

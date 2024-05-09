@@ -112,6 +112,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/class-b-cannot-implement-previously-implemented-interface-i.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/class-declarations-may-not-be-nested.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/constant-expression-contains-invalid-operations.html</loc>
  </url>
  <url>
@@ -122,6 +125,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/datetimeinterface-can\'t-be-implemented-by-user-classes.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/declaration-of-y::foo()-must-be-compatible-with-x::foo($a).html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/define():-argument-#3-($case_insensitive)-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported.html</loc>
@@ -227,6 +233,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/static-property-x::$y-cannot-be-readonly.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/strict_types-declaration-must-be-the-very-first-statement-in-the-script.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-(unset)-cast-is-deprecated.html</loc>

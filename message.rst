@@ -42,10 +42,12 @@ PHP Error Messages
    messages/cannot-use-temporary-expression-in-write-context.rst
    messages/cannot-use-try-without-catch-or-finally.rst
    messages/class-b-cannot-implement-previously-implemented-interface-i.rst
+   messages/class-declarations-may-not-be-nested.rst
    messages/constant-expression-contains-invalid-operations.rst
    messages/constructors-cannot-declare-a-return-type.rst
    messages/continue-operator-accepts-only-positive-integers.rst
    messages/datetimeinterface-can\'t-be-implemented-by-user-classes.rst
+   messages/declaration-of-y::foo()-must-be-compatible-with-x::foo($a).rst
    messages/define():-argument-#3-($case_insensitive)-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported.rst
    messages/define():-declaration-of-case-insensitive-constants-is-deprecated.rst
    messages/destructors-cannot-declare-a-return-type.rst
@@ -81,6 +83,7 @@ PHP Error Messages
    messages/required-trait-t2-wasn\'t-added-to-c.rst
    messages/return-value-must-be-of-type-int,-string-returned.rst
    messages/static-property-x::$y-cannot-be-readonly.rst
+   messages/strict_types-declaration-must-be-the-very-first-statement-in-the-script.rst
    messages/the-(unset)-cast-is-deprecated.rst
    messages/the-(unset)-cast-is-no-longer-supported.rst
    messages/traits-cannot-have-constants.rst
