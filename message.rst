@@ -17,6 +17,7 @@ PHP Error Messages
    messages/assignments-can-only-happen-to-writable-values.rst
    messages/attempt-to-unset-static-property-a::$x.rst
    messages/attempt-to-unset-static-property.rst
+   messages/attribute-class-"x"-not-found.rst
    messages/automatic-conversion-of-false-to-array-is-deprecated.rst
    messages/b-cannot-implement-a---it-is-not-an-interface.rst
    messages/break-operator-accepts-only-positive-integers.rst
@@ -41,6 +42,7 @@ PHP Error Messages
    messages/cannot-use-positional-argument-after-named-argument.rst
    messages/cannot-use-temporary-expression-in-write-context.rst
    messages/cannot-use-try-without-catch-or-finally.rst
+   messages/class-"x"-not-found.rst
    messages/class-b-cannot-implement-previously-implemented-interface-i.rst
    messages/class-declarations-may-not-be-nested.rst
    messages/constant-expression-contains-invalid-operations.rst
@@ -57,6 +59,7 @@ PHP Error Messages
    messages/ffi-api-is-restricted-by-"ffi.enable"-configuration-directive.rst
    messages/foreach()-argument-must-be-of-type-array|object.rst
    messages/has-#[\override]-attribute,-but-no-matching-parent-method-exists.rst
+   messages/illegal-class-name.rst
    messages/illegal-string-offset.rst
    messages/implicit-conversion-from-float-string.rst
    messages/implicitly-marking-parameter-$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead.rst

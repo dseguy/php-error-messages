@@ -10,7 +10,7 @@ Invalid argument supplied for foreach()
 Description
 ___________
  
-foreach() works on arrays or objects. For the array, all the elements of the array will be read; for the objects, it is either the public properties, read like an array, or the Iterator interface, which uses the specific methods. 
+foreach() works on arrays or objects. For the array, all the elements of the array are read; for the objects, it is either the public properties, read like an array, or the Iterator interface, which uses specific methods. 
 
 Then, any other type is forbidden to be used with foreach(). This means all scalars elements, including string, integer and null. 
 
