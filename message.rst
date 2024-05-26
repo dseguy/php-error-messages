@@ -24,10 +24,12 @@ PHP Error Messages
    messages/call-to-a-member-function-method()-on-string.rst
    messages/call-to-undefined-function.rst
    messages/cannot-access-trait-constant-t::x-directly.rst
+   messages/cannot-acquire-reference-to-readonly-property.rst
    messages/cannot-declare-promoted-property-outside-a-constructor.rst
    messages/cannot-instantiate-trait-t.rst
    messages/cannot-make-non-abstract-method-i::foo()-abstract-in-class-j.rst
    messages/cannot-mix-keyed-and-unkeyed-array-entries-in-assignments.rst
+   messages/cannot-throw-objects-that-do-not-implement-throwable.rst
    messages/cannot-unset-offset-in-a-non-array-variable.rst
    messages/cannot-unset-string-offsets.rst
    messages/cannot-use-'readonly'-as-method-modifier.rst
@@ -85,6 +87,7 @@ PHP Error Messages
    messages/required-parameter-$%s-follows-optional-parameter-$%s.rst
    messages/required-trait-t2-wasn\'t-added-to-c.rst
    messages/return-value-must-be-of-type-int,-string-returned.rst
+   messages/returning-by-reference-from-a-void-function-is-deprecated.rst
    messages/static-property-x::$y-cannot-be-readonly.rst
    messages/strict_types-declaration-must-be-the-very-first-statement-in-the-script.rst
    messages/the-(unset)-cast-is-deprecated.rst
