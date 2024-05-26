@@ -1,16 +1,16 @@
 .. _required-trait-t2-wasn\'t-added-to-c:
 
-Required Trait T2 wasn\'t added to C
-------------------------------------
+Required Trait T2 wasn't added to C
+-----------------------------------
  
 	.. meta::
 		:description lang=en:
-			Required Trait T2 wasn\'t added to C: When solving naming conflicts between traits, make sure that the mentionned traits are all part of the current class.
+			Required Trait T2 wasn't added to C: This error happens during name conflict resolution for traits.
 
 Description
 ___________
  
-When solving naming conflicts between traits, make sure that the mentionned traits are all part of the current class. Here, the T2 is not mentionned in the C class. Note that traits may be included in a class over several use expressions, and their order is not important for this error. 
+This error happens during name conflict resolution for traits. It means that one of the mentionned trait is not ``use`` in the code, and cannot be replaced or replacing another method. In the example below, the trait T2 is mentionned, but is not in the ``use`` command.
 
 Example
 _______
@@ -28,12 +28,11 @@ _______
        use T1 {
            T2::foo insteadof T1;
        }
-   
    }
    ?>
 
 Solutions
 _________
 
-+ Add the trait to the class.
-+ Remove the alias/insteadof from the use.
++ Add the missing trait to the class.
++ Remove the extra name resolution from the class.

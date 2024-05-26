@@ -91,6 +91,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-empty-list.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-isset()-on-the-result-of-an-expression-(you-can-use-&quot;null-!==-expression&quot;-instead).html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-lexical-variable-x-as-a-parameter-name.html</loc>
  </url>
  <url>
@@ -230,9 +233,6 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/required-parameter-$%s-follows-optional-parameter-$%s.html</loc>
- </url>
- <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/required-trait-t2-wasn\'t-added-to-c.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/required-trait-t2-wasn\'t-added-to-c.html</loc>

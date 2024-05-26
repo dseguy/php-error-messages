@@ -35,6 +35,7 @@ PHP Error Messages
    messages/cannot-use-[]-for-reading.rst
    messages/cannot-use-empty-array-elements-in-arrays.rst
    messages/cannot-use-empty-list.rst
+   messages/cannot-use-isset()-on-the-result-of-an-expression-(you-can-use-"null-!==-expression"-instead).rst
    messages/cannot-use-lexical-variable-x-as-a-parameter-name.rst
    messages/cannot-use-list()-as-standalone-expression.rst
    messages/cannot-use-object-of-type-stdclass-as-array.rst
@@ -82,7 +83,6 @@ PHP Error Messages
    messages/readonly-class-bar-cannot-extend-non-readonly-class-foo.rst
    messages/redefinition-of-parameter-$b.rst
    messages/required-parameter-$%s-follows-optional-parameter-$%s.rst
-   messages/required-trait-t2-wasn\'t-added-to-c.rst
    messages/required-trait-t2-wasn\'t-added-to-c.rst
    messages/return-value-must-be-of-type-int,-string-returned.rst
    messages/static-property-x::$y-cannot-be-readonly.rst
