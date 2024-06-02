@@ -41,4 +41,4 @@ _________
 Related Error Messages
 ______________________
 
-+ :ref:`a-never-returning-method-must-not-return`
++ :ref:`a-never-returning-function-must-not-return`

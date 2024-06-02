@@ -205,6 +205,15 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/keys-must-be-of-type-int|string-during-array-unpacking.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/multiple-access-type-modifiers-are-not-allowed.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/multiple-readonly-modifiers-are-not-allowed.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/multiple-static-modifiers-are-not-allowed.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/named-parameter-$x-overwrites-previous-argument.html</loc>
  </url>
  <url>

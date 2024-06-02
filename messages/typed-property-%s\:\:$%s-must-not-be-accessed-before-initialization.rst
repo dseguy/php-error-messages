@@ -43,5 +43,6 @@ _________
 Related Error Messages
 ______________________
 
++ :ref:`attempt-to-unset-static-property-a::$x`
 + :ref:`typed-property-x::$y-must-not-be-accessed-before-initialization`
 + :ref:`typed-static-property-x::$y-must-not-be-accessed-before-initialization`

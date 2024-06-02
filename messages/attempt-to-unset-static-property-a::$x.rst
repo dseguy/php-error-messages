@@ -46,3 +46,5 @@ Related Error Messages
 ______________________
 
 + :ref:`typed-property-%s::$%s-must-not-be-accessed-before-initialization`
++ :ref:`typed-property-x::$y-must-not-be-accessed-before-initialization`
++ :ref:`typed-static-property-x::$y-must-not-be-accessed-before-initialization`
