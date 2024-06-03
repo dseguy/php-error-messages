@@ -5,6 +5,7 @@ PHP Error Messages
    :maxdepth: 1
    :caption: Contents:
 
+   messages/%s-%s-inherits-both-%s::%s-and-%s::%s.rst
    messages/a-class-constant-must-not-be-called-class.-it-is-reserved-for-class-name-fetching.rst
    messages/a-function-with-return-type-must-return-a-value.rst
    messages/a-never-returning-function-must-not-return.rst
@@ -23,6 +24,7 @@ PHP Error Messages
    messages/break-operator-accepts-only-positive-integers.rst
    messages/call-to-a-member-function-method()-on-string.rst
    messages/call-to-undefined-function.rst
+   messages/calling-get_parent_class()-without-arguments-is-deprecated.rst
    messages/cannot-access-trait-constant-t::x-directly.rst
    messages/cannot-acquire-reference-to-readonly-property.rst
    messages/cannot-declare-promoted-property-outside-a-constructor.rst
@@ -45,6 +47,7 @@ PHP Error Messages
    messages/cannot-use-positional-argument-after-named-argument.rst
    messages/cannot-use-temporary-expression-in-write-context.rst
    messages/cannot-use-try-without-catch-or-finally.rst
+   messages/case-%s::%s-does-not-exist.rst
    messages/class-"x"-not-found.rst
    messages/class-b-cannot-implement-previously-implemented-interface-i.rst
    messages/class-declarations-may-not-be-nested.rst
@@ -81,11 +84,14 @@ PHP Error Messages
    messages/never-returning-function-must-not-implicitly-return.rst
    messages/new-expressions-are-not-supported-in-this-context.rst
    messages/non-static-method-x::goo()-cannot-be-called-statically-.rst
+   messages/object-of-type-%s-has-not-been-correctly-initialized-by-calling-parent::__construct()-in-its-constructor.rst
    messages/only-variable-references-should-be-yielded-by-reference.rst
    messages/optional-parameter-$%s-declared-before-required-parameter-$%s-is-implicitly-treated-as-a-required-parameter.rst
+   messages/parameter-uses-'parent'-as-type-hint-although-class-does-not-have-a-parent\!.rst
    messages/private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes.rst
    messages/property-x::$p-cannot-have-type-void.rst
    messages/readonly-class-bar-cannot-extend-non-readonly-class-foo.rst
+   messages/readonly-property-%s::$%s-cannot-have-default-value.rst
    messages/redefinition-of-parameter-$b.rst
    messages/required-parameter-$%s-follows-optional-parameter-$%s.rst
    messages/required-trait-t2-wasn\'t-added-to-c.rst

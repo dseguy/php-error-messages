@@ -1,0 +1,31 @@
+.. _parameter-uses-'parent'-as-type-hint-although-class-does-not-have-a-parent\!:
+
+Parameter uses 'parent' as type hint although class does not have a parent\!
+----------------------------------------------------------------------------
+ 
+	.. meta::
+		:description lang=en:
+			Parameter uses 'parent' as type hint although class does not have a parent\!: This error is a Reflection API error.
+
+Description
+___________
+ 
+This error is a Reflection API error. It appears when the code tries to get information about the type of a parameter, that was defined as 'parent' while it is not a valid code.
+
+Example
+_______
+
+.. code-block:: php
+
+   <?php
+   
+   class x {
+   	function foo(parent $a) {}
+   }
+   
+   ?>
+
+Solutions
+_________
+
++ Check the name of the type before trying to instantiate it.
