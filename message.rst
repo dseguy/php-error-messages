@@ -31,6 +31,7 @@ PHP Error Messages
    messages/cannot-instantiate-trait-t.rst
    messages/cannot-make-non-abstract-method-i::foo()-abstract-in-class-j.rst
    messages/cannot-mix-keyed-and-unkeyed-array-entries-in-assignments.rst
+   messages/cannot-override-final-%s::%s()-with-%s::%s().rst
    messages/cannot-throw-objects-that-do-not-implement-throwable.rst
    messages/cannot-unset-offset-in-a-non-array-variable.rst
    messages/cannot-unset-string-offsets.rst
@@ -106,6 +107,8 @@ PHP Error Messages
    messages/typed-property-x\:\:$y-must-not-be-accessed-before-initialization.rst
    messages/typed-static-property-x::$y-must-not-be-accessed-before-initialization.rst
    messages/undefined-array-key.rst
+   messages/undefined-class-constant-'%s\:\:%s'.rst
+   messages/undefined-constant-%s::%s.rst
    messages/undefined-offset.rst
    messages/undefined-variable.rst
    messages/uninitialized-string-offset.rst
