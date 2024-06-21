@@ -27,11 +27,13 @@ PHP Error Messages
    messages/calling-get_parent_class()-without-arguments-is-deprecated.rst
    messages/cannot-access-trait-constant-t::x-directly.rst
    messages/cannot-acquire-reference-to-readonly-property.rst
+   messages/cannot-be-a-class-constant.rst
    messages/cannot-declare-promoted-property-outside-a-constructor.rst
    messages/cannot-instantiate-trait-t.rst
    messages/cannot-make-non-abstract-method-i::foo()-abstract-in-class-j.rst
    messages/cannot-mix-keyed-and-unkeyed-array-entries-in-assignments.rst
    messages/cannot-override-final-%s::%s()-with-%s::%s().rst
+   messages/cannot-redefine-class-constant.rst
    messages/cannot-throw-objects-that-do-not-implement-throwable.rst
    messages/cannot-unset-offset-in-a-non-array-variable.rst
    messages/cannot-unset-string-offsets.rst
