@@ -20,7 +20,7 @@ _______
    <?php
    
    class x {
-   	const callable|int A = 1;
+   	public callable|int $p = 1;
    }
    
    ?>
