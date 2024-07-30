@@ -69,7 +69,7 @@ foreach($files as $file) {
 		continue;
 	} elseif (!empty($error->previous)) {
 		if (!file_exists('errors/'.$error->previous.'.ini')) {
-			buildlog($error->previous." doesn't exists as a previous error");
+			buildlog($error->previous." doesn't exist as a previous error");
 			++$warnings;
 		} else {
 			$target = str_replace(array('errors/', '.ini'), '', $file);
@@ -87,7 +87,7 @@ foreach($files as $file) {
 		continue;
 	} elseif (!empty($error->next)) {
 		if (!file_exists('errors/'.$error->next.'.ini')) {
-			buildlog($error->next." doesn't exists as a next error");
+			buildlog($error->next." doesn't exist as a next error in $file");
 			++$warnings;
 		} else {
 			$target = str_replace(array('errors/', '.ini'), '', $file);
@@ -153,16 +153,21 @@ foreach($files as $file) {
 	if (isset($error->related)) {
 		$error->related = array_filter($error->related);
 		
+		if (count($error->related) !== count(array_unique($error->related))) {
+			buildlog("'$related' has duplicates in $file");
+		}
+		
 		foreach($error->related as $related) {
 			if (!file_exists('errors/'.$related.'.ini')) {
 				buildlog("No such related file as '$related' in $file");
 				++$warnings;
 			} else {
 				$target = str_replace(array('errors/', '.ini'), '', $file);
-				if (isset($reciproq[$target])) {
-					unset($reciproq[$target]);
+				$hash = $target.' - '.$related;
+				if (isset($reciproq[$hash])) {
+					unset($reciproq[$hash]);
 				} else {
-					$reciproq[$related] = $target;
+					$reciproq[$related . ' - ' . $target] = $target;
 				}
 			}
 		}
