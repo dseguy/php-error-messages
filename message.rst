@@ -53,6 +53,7 @@ PHP Error Messages
    messages/case-%s::%s-does-not-exist.rst
    messages/class-"x"-not-found.rst
    messages/class-b-cannot-implement-previously-implemented-interface-i.rst
+   messages/class-constant-%s::%s-cannot-have-type-%s.rst
    messages/class-declarations-may-not-be-nested.rst
    messages/constant-expression-contains-invalid-operations.rst
    messages/constructors-cannot-declare-a-return-type.rst
@@ -92,6 +93,7 @@ PHP Error Messages
    messages/optional-parameter-$%s-declared-before-required-parameter-$%s-is-implicitly-treated-as-a-required-parameter.rst
    messages/parameter-uses-'parent'-as-type-hint-although-class-does-not-have-a-parent\!.rst
    messages/private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes.rst
+   messages/property-%s::$%s-cannot-have-type-%s.rst
    messages/property-x::$p-cannot-have-type-void.rst
    messages/readonly-class-bar-cannot-extend-non-readonly-class-foo.rst
    messages/readonly-property-%s::$%s-cannot-have-default-value.rst

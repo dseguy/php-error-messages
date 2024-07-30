@@ -145,6 +145,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/class-b-cannot-implement-previously-implemented-interface-i.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/class-constant-%s::%s-cannot-have-type-%s.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/class-declarations-may-not-be-nested.html</loc>
  </url>
  <url>
@@ -260,6 +263,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/property-%s::$%s-cannot-have-type-%s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/property-x::$p-cannot-have-type-void.html</loc>

@@ -12,9 +12,9 @@ ___________
  
 The Constant expressions are the value of a constant, global or class, that is not a literal value. They are calculated. 
 
-Constant expressions allows literals, other constants, and most of the operators. Some elements are forbidden: variables, functions, methods. 
+Constant expressions allows literals, other constants, and most of the operators. Some elements are forbidden: variables, functions, methods and cast operators. 
 
-Properties are allowed, but only on enumeration's cases. New and arrays are allowed, and so does the ternary and coalesce operators, leading to possible conditional constants. Magic constant are also OK.
+Properties are allowed, but only on enumeration's cases. New and arrays are allowed, and so does the ternary and coalesce operators, leading to possible conditional constants expressions (sic). Magic constant are also OK.
 
 
 Example
