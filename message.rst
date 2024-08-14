@@ -29,6 +29,8 @@ PHP Error Messages
    messages/cannot-acquire-reference-to-readonly-property.rst
    messages/cannot-be-a-class-constant.rst
    messages/cannot-declare-promoted-property-outside-a-constructor.rst
+   messages/cannot-instantiate-enum-%s.rst
+   messages/cannot-instantiate-interface-%s.rst
    messages/cannot-instantiate-trait-t.rst
    messages/cannot-make-non-abstract-method-i::foo()-abstract-in-class-j.rst
    messages/cannot-mix-keyed-and-unkeyed-array-entries-in-assignments.rst
@@ -62,6 +64,7 @@ PHP Error Messages
    messages/declaration-of-y::foo()-must-be-compatible-with-x::foo($a).rst
    messages/define():-argument-#3-($case_insensitive)-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported.rst
    messages/define():-declaration-of-case-insensitive-constants-is-deprecated.rst
+   messages/defining-a-custom-assert()-function-is-not-allowed,.rst
    messages/destructors-cannot-declare-a-return-type.rst
    messages/duplicate-named-parameter-$%s.rst
    messages/duplicate-type-false-is-redundant.rst
@@ -102,6 +105,8 @@ PHP Error Messages
    messages/required-trait-t2-wasn\'t-added-to-c.rst
    messages/return-value-must-be-of-type-int,-string-returned.rst
    messages/returning-by-reference-from-a-void-function-is-deprecated.rst
+   messages/spread-operator-is-not-supported-in-assignments.rst
+   messages/static-function-%s%s%s()-cannot-be-abstract.rst
    messages/static-property-x::$y-cannot-be-readonly.rst
    messages/strict_types-declaration-must-be-the-very-first-statement-in-the-script.rst
    messages/the-(unset)-cast-is-deprecated.rst
@@ -116,6 +121,7 @@ PHP Error Messages
    messages/undefined-offset.rst
    messages/undefined-variable.rst
    messages/uninitialized-string-offset.rst
+   messages/unparenthesized-`a-?-b-:-c-?-d-:-e`-is-not-supported..rst
    messages/unsupported-operand-types.rst
    messages/using-$this-when-not-in-object-context.rst
    messages/using--(variable-variables)-in-strings-is-deprecated,-use-{}-instead.rst
