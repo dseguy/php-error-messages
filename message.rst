@@ -6,6 +6,8 @@ PHP Error Messages
    :caption: Contents:
 
    messages/%s-%s-inherits-both-%s::%s-and-%s::%s.rst
+   messages/'goto'-into-loop-or-switch-statement-is-disallowed.rst
+   messages/'goto'-to-undefined-label-'%s'.rst
    messages/a-class-constant-must-not-be-called-class.-it-is-reserved-for-class-name-fetching.rst
    messages/a-function-with-return-type-must-return-a-value.rst
    messages/a-never-returning-function-must-not-return.rst
@@ -39,6 +41,7 @@ PHP Error Messages
    messages/cannot-throw-objects-that-do-not-implement-throwable.rst
    messages/cannot-unset-offset-in-a-non-array-variable.rst
    messages/cannot-unset-string-offsets.rst
+   messages/cannot-use-'never'-as-class-name-as-it-is-reserved.rst
    messages/cannot-use-'readonly'-as-method-modifier.rst
    messages/cannot-use-::class-with-dynamic-class-name.rst
    messages/cannot-use-[]-for-reading.rst
@@ -49,6 +52,7 @@ PHP Error Messages
    messages/cannot-use-list()-as-standalone-expression.rst
    messages/cannot-use-object-of-type-stdclass-as-array.rst
    messages/cannot-use-positional-argument-after-argument-unpacking.rst
+   messages/cannot-use-positional-argument-after-named-argument-during-unpacking.rst
    messages/cannot-use-positional-argument-after-named-argument.rst
    messages/cannot-use-temporary-expression-in-write-context.rst
    messages/cannot-use-try-without-catch-or-finally.rst
@@ -83,6 +87,7 @@ PHP Error Messages
    messages/is-an-invalid-class-name.rst
    messages/keys-must-be-of-type-int|string-during-argument-unpacking-..rst
    messages/keys-must-be-of-type-int|string-during-array-unpacking.rst
+   messages/label-'%s'-already-defined.rst
    messages/multiple-access-type-modifiers-are-not-allowed.rst
    messages/multiple-readonly-modifiers-are-not-allowed.rst
    messages/multiple-static-modifiers-are-not-allowed.rst
@@ -106,7 +111,6 @@ PHP Error Messages
    messages/return-value-must-be-of-type-int,-string-returned.rst
    messages/returning-by-reference-from-a-void-function-is-deprecated.rst
    messages/spread-operator-is-not-supported-in-assignments.rst
-   messages/static-function-%s%s%s()-cannot-be-abstract.rst
    messages/static-property-x::$y-cannot-be-readonly.rst
    messages/strict_types-declaration-must-be-the-very-first-statement-in-the-script.rst
    messages/the-(unset)-cast-is-deprecated.rst
