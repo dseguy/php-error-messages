@@ -30,6 +30,7 @@ PHP Error Messages
    messages/cannot-access-trait-constant-t::x-directly.rst
    messages/cannot-acquire-reference-to-readonly-property.rst
    messages/cannot-be-a-class-constant.rst
+   messages/cannot-declare-promoted-property-in-an-abstract-constructor.rst
    messages/cannot-declare-promoted-property-outside-a-constructor.rst
    messages/cannot-instantiate-enum-%s.rst
    messages/cannot-instantiate-interface-%s.rst
@@ -61,6 +62,7 @@ PHP Error Messages
    messages/class-b-cannot-implement-previously-implemented-interface-i.rst
    messages/class-constant-%s::%s-cannot-have-type-%s.rst
    messages/class-declarations-may-not-be-nested.rst
+   messages/classes-must-be-first-marked-as-attribute-before-being-able-to-be-registered-as-internal-attribute-class.rst
    messages/constant-expression-contains-invalid-operations.rst
    messages/constructors-cannot-declare-a-return-type.rst
    messages/continue-operator-accepts-only-positive-integers.rst
@@ -83,6 +85,7 @@ PHP Error Messages
    messages/increment-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php.rst
    messages/indirect-modification-of-overloaded-element-of-%s-has-no-effect.rst
    messages/indirect-modification-of-overloaded-property-%s::$%s-has-no-effect.rst
+   messages/interface-%s-cannot-contain-non-abstract-method-%s().rst
    messages/invalid-argument-supplied-for-foreach().rst
    messages/is-an-invalid-class-name.rst
    messages/keys-must-be-of-type-int|string-during-argument-unpacking-..rst
@@ -97,6 +100,7 @@ PHP Error Messages
    messages/new-expressions-are-not-supported-in-this-context.rst
    messages/non-static-method-x::goo()-cannot-be-called-statically-.rst
    messages/object-of-type-%s-has-not-been-correctly-initialized-by-calling-parent::__construct()-in-its-constructor.rst
+   messages/only-internal-classes-can-be-registered-as-compiler-attribute.rst
    messages/only-variable-references-should-be-yielded-by-reference.rst
    messages/optional-parameter-$%s-declared-before-required-parameter-$%s-is-implicitly-treated-as-a-required-parameter.rst
    messages/parameter-uses-'parent'-as-type-hint-although-class-does-not-have-a-parent\!.rst
@@ -111,8 +115,10 @@ PHP Error Messages
    messages/return-value-must-be-of-type-int,-string-returned.rst
    messages/returning-by-reference-from-a-void-function-is-deprecated.rst
    messages/spread-operator-is-not-supported-in-assignments.rst
+   messages/static-function-%s%s%s()-cannot-be-abstract.rst
    messages/static-property-x::$y-cannot-be-readonly.rst
    messages/strict_types-declaration-must-be-the-very-first-statement-in-the-script.rst
+   messages/switch-statements-may-only-contain-one-default-clause.rst
    messages/the-(unset)-cast-is-deprecated.rst
    messages/the-(unset)-cast-is-no-longer-supported.rst
    messages/traits-cannot-have-constants.rst

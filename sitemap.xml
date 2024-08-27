@@ -76,6 +76,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-be-a-class-constant.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-declare-promoted-property-in-an-abstract-constructor.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-declare-promoted-property-outside-a-constructor.html</loc>
  </url>
  <url>
@@ -169,6 +172,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/class-declarations-may-not-be-nested.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/classes-must-be-first-marked-as-attribute-before-being-able-to-be-registered-as-internal-attribute-class.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/constant-expression-contains-invalid-operations.html</loc>
  </url>
  <url>
@@ -235,6 +241,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/indirect-modification-of-overloaded-property-%s::$%s-has-no-effect.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/interface-%s-cannot-contain-non-abstract-method-%s().html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/invalid-argument-supplied-for-foreach().html</loc>
  </url>
  <url>
@@ -275,6 +284,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/object-of-type-%s-has-not-been-correctly-initialized-by-calling-parent::__construct()-in-its-constructor.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/only-internal-classes-can-be-registered-as-compiler-attribute.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/only-variable-references-should-be-yielded-by-reference.html</loc>
@@ -319,10 +331,16 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/spread-operator-is-not-supported-in-assignments.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/static-function-%s%s%s()-cannot-be-abstract.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/static-property-x::$y-cannot-be-readonly.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/strict_types-declaration-must-be-the-very-first-statement-in-the-script.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/switch-statements-may-only-contain-one-default-clause.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-(unset)-cast-is-deprecated.html</loc>
