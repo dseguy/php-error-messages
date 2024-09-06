@@ -31,3 +31,8 @@ _________
 
 + Add ``?`` to the type.
 + Add ``null|`` to the type.
+
+Related Error Messages
+______________________
+
++ :ref:`default-value-for-property-of-type-int-may-not-be-null.-use-the-nullable-type-?int-to-allow-null-default-value`

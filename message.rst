@@ -13,6 +13,7 @@ PHP Error Messages
    messages/a-never-returning-function-must-not-return.rst
    messages/a-never-returning-method-must-not-return.rst
    messages/a-non-numeric-value-encountered.rst
+   messages/access-to-undeclared-static-property-%s::$%s.rst
    messages/array-and-string-offset-access-syntax-with-curly-braces-is-deprecated.rst
    messages/array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported.rst
    messages/array-callback-has-to-contain-indices-0-and-1.rst
@@ -35,6 +36,7 @@ PHP Error Messages
    messages/cannot-instantiate-enum-%s.rst
    messages/cannot-instantiate-interface-%s.rst
    messages/cannot-instantiate-trait-t.rst
+   messages/cannot-load-module-"%s"-because-required-module-"%s"-is-not-loaded.rst
    messages/cannot-make-non-abstract-method-i::foo()-abstract-in-class-j.rst
    messages/cannot-mix-keyed-and-unkeyed-array-entries-in-assignments.rst
    messages/cannot-override-final-%s::%s()-with-%s::%s().rst
@@ -68,6 +70,7 @@ PHP Error Messages
    messages/continue-operator-accepts-only-positive-integers.rst
    messages/datetimeinterface-can\'t-be-implemented-by-user-classes.rst
    messages/declaration-of-y::foo()-must-be-compatible-with-x::foo($a).rst
+   messages/default-value-for-property-of-type-int-may-not-be-null.-use-the-nullable-type-?int-to-allow-null-default-value.rst
    messages/define():-argument-#3-($case_insensitive)-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported.rst
    messages/define():-declaration-of-case-insensitive-constants-is-deprecated.rst
    messages/defining-a-custom-assert()-function-is-not-allowed,.rst
@@ -104,6 +107,7 @@ PHP Error Messages
    messages/only-variable-references-should-be-yielded-by-reference.rst
    messages/optional-parameter-$%s-declared-before-required-parameter-$%s-is-implicitly-treated-as-a-required-parameter.rst
    messages/parameter-uses-'parent'-as-type-hint-although-class-does-not-have-a-parent\!.rst
+   messages/power-of-base-0-and-negative-exponent-is-deprecated.rst
    messages/private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes.rst
    messages/property-%s::$%s-cannot-have-type-%s.rst
    messages/property-x::$p-cannot-have-type-void.rst
@@ -129,6 +133,7 @@ PHP Error Messages
    messages/undefined-class-constant-'%s\:\:%s'.rst
    messages/undefined-constant-%s::%s.rst
    messages/undefined-offset.rst
+   messages/undefined-property:-%s::$%s.rst
    messages/undefined-variable.rst
    messages/uninitialized-string-offset.rst
    messages/unparenthesized-`a-?-b-:-c-?-d-:-e`-is-not-supported..rst

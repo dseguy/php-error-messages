@@ -25,6 +25,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/a-non-numeric-value-encountered.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/access-to-undeclared-static-property-%s::$%s.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/array-and-string-offset-access-syntax-with-curly-braces-is-deprecated.html</loc>
  </url>
  <url>
@@ -89,6 +92,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-instantiate-trait-t.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-load-module-&quot;%s&quot;-because-required-module-&quot;%s&quot;-is-not-loaded.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-make-non-abstract-method-i::foo()-abstract-in-class-j.html</loc>
@@ -188,6 +194,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/declaration-of-y::foo()-must-be-compatible-with-x::foo($a).html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/default-value-for-property-of-type-int-may-not-be-null.-use-the-nullable-type-?int-to-allow-null-default-value.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/define():-argument-#3-($case_insensitive)-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported.html</loc>
@@ -298,6 +307,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/parameter-uses-'parent'-as-type-hint-although-class-does-not-have-a-parent\!.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/power-of-base-0-and-negative-exponent-is-deprecated.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes.html</loc>
  </url>
  <url>
@@ -371,6 +383,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/undefined-offset.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/undefined-property:-%s::$%s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/undefined-variable.html</loc>
