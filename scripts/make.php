@@ -41,6 +41,7 @@ $titles   = array();
 $reciproq = array();
 $nextprev = array();
 $tips     = array();
+$tags     = array();
 $warnings = 0;
 foreach($files as $file) {
 	$error = parse_ini_file($file, INI_SCANNER_RAW);
@@ -69,6 +70,11 @@ foreach($files as $file) {
 		buildlog("No array for tags in $file");
 		++$warnings;
 		continue;
+	} else {
+		foreach(array_filter($error->tags) as $tag) {
+			$target = str_replace(array('errors/', '.ini'), '', $file);
+			$tags[$tag][] = $target;
+		}
 	}
 	
 	$error->generated = !in_array('not generated', $error->tags,  true);
@@ -332,6 +338,27 @@ foreach($errors as $file => $message) {
 $changed = file_get_contents('message.rst.in');
 $changed = str_replace('errorlist', implode(PHP_EOL, $errorlist), $changed);
 file_put_contents('message.rst', $changed);
+
+$tagsRst = array('.. _tagsindex:',
+'',
+'Tag index',
+'-----------------------------',
+'',
+);
+ksort($tags);
+foreach($tags as $tag => $refs) {
+	$tagsRst[] = '';
+	$tagsRst[] = '   * '.$tag;
+	$tagsRst[] = '';
+	foreach($refs as $ref) {
+		$tagsRst[] = '      * :ref:`'.$ref.'`';
+	}
+	$tagsRst[] = '';
+}
+
+file_put_contents('tagsindex.rst', implode(PHP_EOL, $tagsRst));
+print "processed ".count($tags)." tags\n";
+
 print "processed ".count($files)." files\n";
 print "warnings: $warnings\n";
 
