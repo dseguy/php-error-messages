@@ -31,6 +31,7 @@ _________
 
 + Add ``?`` to the type.
 + Add ``null|`` to the type.
++ Use a default value in the range of the specified type.
 
 Related Error Messages
 ______________________

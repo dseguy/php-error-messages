@@ -17,6 +17,7 @@ Welcome to PHP error messages database!
 Indices and tables
 ==================
 
+* :ref:`tagsindex`
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
