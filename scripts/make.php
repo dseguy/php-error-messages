@@ -13,6 +13,7 @@ const LEVELS = array('E_NOTICE' => 1,
 					 'E_ERROR' => 1,
 					 'E_COMPILE_WARNING' => 1,
 					 'E_DEPRECATED' => 1,
+					 'E_CORE_WARNING' => 1,
 					);
 
 // create sitemap
@@ -39,7 +40,7 @@ $errors   = array();
 $titles   = array();
 $reciproq = array();
 $nextprev = array();
-$tips = array();
+$tips     = array();
 $warnings = 0;
 foreach($files as $file) {
 	$error = parse_ini_file($file, INI_SCANNER_RAW);
@@ -62,6 +63,15 @@ foreach($files as $file) {
 		++$warnings;
 		continue;
 	}
+
+	if (!is_array($error->tags)) {
+		print("No array for tags in $file\n");
+		buildlog("No array for tags in $file");
+		++$warnings;
+		continue;
+	}
+	
+	$error->generated = !in_array('not generated', $error->tags,  true);
 
 	if (!isset($error->previous)) {
 		buildlog("No previous for $file");
@@ -99,18 +109,22 @@ foreach($files as $file) {
 		}
 	}
 
-	if (empty($error->level)) {
+	if (!$error->generated) {
+		// ignore
+	} elseif (empty($error->level)) {
 		buildlog("No level for $file");
 		++$warnings;
 		continue;
 	} else {
 		if (!isset(LEVELS[$error->level])) {
-			buildlog("No level '$error->level' for $file");
+			buildlog("Unknonwn level '$error->level' for $file");
 			++$warnings;
 		}
 	}
 
-	if (empty($error->alternative)) {
+	if (!$error->generated) {
+		// ignore
+	} elseif (empty($error->alternative)) {
 		buildlog("No alternative for $file");
 		++$warnings;
 		continue;
