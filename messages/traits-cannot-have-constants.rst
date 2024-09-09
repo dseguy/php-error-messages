@@ -33,6 +33,7 @@ _________
 + Put the constant in the host class.
 + Put the constant in an interface.
 + Do not use the constant.
++ Move to PHP 8.2 or later.
 
 Related Error Messages
 ______________________

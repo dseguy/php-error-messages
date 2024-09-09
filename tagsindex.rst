@@ -32,6 +32,8 @@ Tag index
 
    * changed behavior
 
+      * :ref:`accessing-static-trait-property-%s::$%s-is-deprecated`
+      * :ref:`calling-static-trait-method-%s::%s-is-deprecated`
       * :ref:`cannot-use-'never'-as-class-name-as-it-is-reserved`
       * :ref:`cannot-use-::class-with-dynamic-class-name`
       * :ref:`power-of-base-0-and-negative-exponent-is-deprecated`
@@ -154,6 +156,7 @@ Tag index
 
    * trait
 
+      * :ref:`calling-static-trait-method-%s::%s-is-deprecated`
       * :ref:`required-trait-t2-wasn't-added-to-t`
 
 

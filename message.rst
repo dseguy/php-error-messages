@@ -14,6 +14,7 @@ PHP Error Messages
    messages/a-never-returning-method-must-not-return.rst
    messages/a-non-numeric-value-encountered.rst
    messages/access-to-undeclared-static-property-%s::$%s.rst
+   messages/accessing-static-trait-property-%s::$%s-is-deprecated.rst
    messages/array-and-string-offset-access-syntax-with-curly-braces-is-deprecated.rst
    messages/array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported.rst
    messages/array-callback-has-to-contain-indices-0-and-1.rst
@@ -28,6 +29,8 @@ PHP Error Messages
    messages/call-to-a-member-function-method()-on-string.rst
    messages/call-to-undefined-function.rst
    messages/calling-get_parent_class()-without-arguments-is-deprecated.rst
+   messages/calling-static-trait-method-%s::%s-is-deprecated.rst
+   messages/cannot-access-trait-constant-%s::%s-directly.rst
    messages/cannot-access-trait-constant-t::x-directly.rst
    messages/cannot-acquire-reference-to-readonly-property.rst
    messages/cannot-be-a-class-constant.rst

@@ -28,6 +28,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/access-to-undeclared-static-property-%s::$%s.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/accessing-static-trait-property-%s::$%s-is-deprecated.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/array-and-string-offset-access-syntax-with-curly-braces-is-deprecated.html</loc>
  </url>
  <url>
@@ -68,6 +71,12 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/calling-get_parent_class()-without-arguments-is-deprecated.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/calling-static-trait-method-%s::%s-is-deprecated.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-access-trait-constant-%s::%s-directly.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-access-trait-constant-t::x-directly.html</loc>
