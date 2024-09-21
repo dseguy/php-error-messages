@@ -74,6 +74,7 @@ foreach($files as $file) {
 	} else {
 		foreach(array_filter($error->tags) as $tag) {
 			$target = str_replace(array('errors/', '.ini'), '', $file);
+			$target = addcslashes($target, '`\'');
 			$tags[$tag][] = $target;
 		}
 	}
@@ -86,6 +87,7 @@ foreach($files as $file) {
 	} else {
 		foreach(array_filter($error->features) as $feature) {
 			$target = str_replace(array('errors/', '.ini'), '', $file);
+			$target = addcslashes($target, '`\'');
 			$features[$feature][] = $target;
 		}
 	}
