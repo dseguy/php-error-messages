@@ -34,11 +34,11 @@ Tag index
 
       * :ref:`accessing-static-trait-property-%s::$%s-is-deprecated`
       * :ref:`calling-static-trait-method-%s::%s-is-deprecated`
-      * :ref:`cannot-use-'never'-as-class-name-as-it-is-reserved`
+      * :ref:`cannot-use-\'never\'-as-class-name-as-it-is-reserved`
       * :ref:`cannot-use-::class-with-dynamic-class-name`
       * :ref:`power-of-base-0-and-negative-exponent-is-deprecated`
       * :ref:`undefined-variable`
-      * :ref:`unparenthesized-`a-?-b-:-c-?-d-:-e`-is-not-supported.`
+      * :ref:`unparenthesized-\`a-?-b-:-c-?-d-:-e\`-is-not-supported.`
 
 
    * class
@@ -48,7 +48,7 @@ Tag index
 
    * class constant
 
-      * :ref:`undefined-class-constant-'%s::%s'`
+      * :ref:`undefined-class-constant-\'%s::%s\'`
       * :ref:`undefined-constant-%s::%s`
 
 
@@ -91,8 +91,8 @@ Tag index
 
    * goto
 
-      * :ref:`'goto'-into-loop-or-switch-statement-is-disallowed`
-      * :ref:`label-'%s'-already-defined`
+      * :ref:`\'goto\'-into-loop-or-switch-statement-is-disallowed`
+      * :ref:`label-\'%s\'-already-defined`
 
 
    * inheritence
@@ -107,7 +107,7 @@ Tag index
 
    * keyword
 
-      * :ref:`cannot-use-'never'-as-class-name-as-it-is-reserved`
+      * :ref:`cannot-use-\'never\'-as-class-name-as-it-is-reserved`
 
 
    * lint
@@ -193,7 +193,7 @@ Tag index
 
       * :ref:`%s-cannot-use-%s---it-is-not-a-trait`
       * :ref:`could-not-find-trait-%s`
-      * :ref:`required-trait-t2-wasn't-added-to-t`
+      * :ref:`required-trait-t2-wasn\'t-added-to-t`
 
 
    * try

@@ -77,7 +77,7 @@ PHP Error Messages
    messages/constructors-cannot-declare-a-return-type.rst
    messages/continue-operator-accepts-only-positive-integers.rst
    messages/could-not-find-trait-%s.rst
-   messages/datetimeinterface-can\'t-be-implemented-by-user-classes.rst
+   messages/datetimeinterface-can\\'t-be-implemented-by-user-classes.rst
    messages/declaration-of-y::foo()-must-be-compatible-with-x::foo($a).rst
    messages/default-value-for-property-of-type-int-may-not-be-null.-use-the-nullable-type-?int-to-allow-null-default-value.rst
    messages/define():-argument-#3-($case_insensitive)-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported.rst
@@ -149,6 +149,6 @@ PHP Error Messages
    messages/unparenthesized-`a-?-b-:-c-?-d-:-e`-is-not-supported..rst
    messages/unsupported-operand-types.rst
    messages/using-$this-when-not-in-object-context.rst
-   messages/using--(variable-variables)-in-strings-is-deprecated,-use-{}-instead.rst
+   messages/using-${expr}-(variable-variables)-in-strings-is-deprecated,-use-{${expr}}-instead.rst
    messages/void-cannot-be-used-as-a-parameter-type.rst
    messages/x::foo()-has-#[\override]-attribute,-but-no-matching-parent-method-exists.rst

@@ -1,4 +1,4 @@
-.. _datetimeinterface-can\'t-be-implemented-by-user-classes:
+.. _datetimeinterface-can\\'t-be-implemented-by-user-classes:
 
 DateTimeInterface can't be implemented by user classes
 ------------------------------------------------------

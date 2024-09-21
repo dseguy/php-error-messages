@@ -63,7 +63,7 @@ Features index
       * :ref:`%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed`
       * :ref:`class-constant-%s::%s-cannot-have-type-%s`
       * :ref:`traits-cannot-have-constants`
-      * :ref:`undefined-class-constant-'%s::%s'`
+      * :ref:`undefined-class-constant-\'%s::%s\'`
       * :ref:`undefined-constant-%s::%s`
 
 
@@ -141,8 +141,8 @@ Features index
 
    * goto
 
-      * :ref:`'goto'-into-loop-or-switch-statement-is-disallowed`
-      * :ref:`'goto'-to-undefined-label-'%s'`
+      * :ref:`\'goto\'-into-loop-or-switch-statement-is-disallowed`
+      * :ref:`\'goto\'-to-undefined-label-\'%s\'`
 
 
    * implements
@@ -164,7 +164,7 @@ Features index
 
       * :ref:`%s-%s-inherits-both-%s::%s-and-%s::%s`
       * :ref:`b-cannot-implement-a---it-is-not-an-interface`
-      * :ref:`datetimeinterface-can\'t-be-implemented-by-user-classes`
+      * :ref:`datetimeinterface-can\\'t-be-implemented-by-user-classes`
 
 
    * interpolation
@@ -189,7 +189,7 @@ Features index
 
    * never
 
-      * :ref:`cannot-use-'never'-as-class-name-as-it-is-reserved`
+      * :ref:`cannot-use-\'never\'-as-class-name-as-it-is-reserved`
       * :ref:`never-returning-function-must-not-implicitly-return`
 
 
@@ -216,6 +216,11 @@ Features index
    * parameter
 
       * :ref:`named-parameter-$x-overwrites-previous-argument`
+
+
+   * parenthesis
+
+      * :ref:`unparenthesized-\`a-?-b-:-c-?-d-:-e\`-is-not-supported.`
 
 
    * private
@@ -276,6 +281,11 @@ Features index
 
       * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-deprecated`
       * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported`
+
+
+   * ternary operator
+
+      * :ref:`unparenthesized-\`a-?-b-:-c-?-d-:-e\`-is-not-supported.`
 
 
    * throw

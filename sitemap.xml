@@ -217,7 +217,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/could-not-find-trait-%s.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/datetimeinterface-can\'t-be-implemented-by-user-classes.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/datetimeinterface-can\\'t-be-implemented-by-user-classes.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/declaration-of-y::foo()-must-be-compatible-with-x::foo($a).html</loc>
@@ -433,7 +433,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/using-$this-when-not-in-object-context.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/using--(variable-variables)-in-strings-is-deprecated,-use-{}-instead.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/using-${expr}-(variable-variables)-in-strings-is-deprecated,-use-{${expr}}-instead.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/void-cannot-be-used-as-a-parameter-type.html</loc>
