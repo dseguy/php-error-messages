@@ -126,6 +126,7 @@ Tag index
 
       * :ref:`accessing-static-trait-property-%s::$%s-is-deprecated`
       * :ref:`calling-static-trait-method-%s::%s-is-deprecated`
+      * :ref:`cannot-use-object-of-type-%s-as-array`
 
 
    * not generated

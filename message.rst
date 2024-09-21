@@ -58,6 +58,7 @@ PHP Error Messages
    messages/cannot-use-isset()-on-the-result-of-an-expression-(you-can-use-"null-!==-expression"-instead).rst
    messages/cannot-use-lexical-variable-x-as-a-parameter-name.rst
    messages/cannot-use-list()-as-standalone-expression.rst
+   messages/cannot-use-object-of-type-%s-as-array.rst
    messages/cannot-use-object-of-type-stdclass-as-array.rst
    messages/cannot-use-positional-argument-after-argument-unpacking.rst
    messages/cannot-use-positional-argument-after-named-argument-during-unpacking.rst
@@ -66,6 +67,7 @@ PHP Error Messages
    messages/cannot-use-try-without-catch-or-finally.rst
    messages/case-%s::%s-does-not-exist.rst
    messages/class-"x"-not-found.rst
+   messages/class-%s-cannot-implement-both-iterator-and-iteratoraggregate-at-the-same-time.rst
    messages/class-%s-is-not-a-trait.rst
    messages/class-b-cannot-implement-previously-implemented-interface-i.rst
    messages/class-constant-%s::%s-cannot-have-type-%s.rst
@@ -133,6 +135,7 @@ PHP Error Messages
    messages/the-(unset)-cast-is-deprecated.rst
    messages/the-(unset)-cast-is-no-longer-supported.rst
    messages/traits-cannot-have-constants.rst
+   messages/trying-to-access-array-offset-on-%s.rst
    messages/typed-property-%s\:\:$%s-must-not-be-accessed-before-initialization.rst
    messages/typed-property-x\:\:$y-must-not-be-accessed-before-initialization.rst
    messages/typed-static-property-x::$y-must-not-be-accessed-before-initialization.rst

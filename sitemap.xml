@@ -160,6 +160,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-list()-as-standalone-expression.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-object-of-type-%s-as-array.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-object-of-type-stdclass-as-array.html</loc>
  </url>
  <url>
@@ -182,6 +185,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/class-&quot;x&quot;-not-found.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/class-%s-cannot-implement-both-iterator-and-iteratoraggregate-at-the-same-time.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/class-%s-is-not-a-trait.html</loc>
@@ -383,6 +389,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/traits-cannot-have-constants.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/trying-to-access-array-offset-on-%s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/typed-property-%s\:\:$%s-must-not-be-accessed-before-initialization.html</loc>

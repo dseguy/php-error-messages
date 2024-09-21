@@ -32,3 +32,8 @@ Related Error Messages
 ______________________
 
 + :ref:`undefined-array-key`
+
+Changed Behavior
+________________
+
+This error may appear in different PHP versions `compactThrowsNotice <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/compactThrowsNotice.html>`_.
