@@ -42,6 +42,7 @@ $reciproq = array();
 $nextprev = array();
 $tips     = array();
 $tags     = array();
+$features = array();
 $warnings = 0;
 foreach($files as $file) {
 	$error = parse_ini_file($file, INI_SCANNER_RAW);
@@ -74,6 +75,18 @@ foreach($files as $file) {
 		foreach(array_filter($error->tags) as $tag) {
 			$target = str_replace(array('errors/', '.ini'), '', $file);
 			$tags[$tag][] = $target;
+		}
+	}
+
+	if (!is_array($error->features)) {
+		print("No array for features in $file\n");
+		buildlog("No array for features in $file");
+		++$warnings;
+		continue;
+	} else {
+		foreach(array_filter($error->features) as $feature) {
+			$target = str_replace(array('errors/', '.ini'), '', $file);
+			$features[$feature][] = $target;
 		}
 	}
 	
@@ -357,8 +370,32 @@ foreach($tags as $tag => $refs) {
 }
 
 file_put_contents('tagsindex.rst', implode(PHP_EOL, $tagsRst));
-print "processed ".count($tags)." tags\n";
 
+
+$featuresRst = array('.. _featuresindex:',
+'',
+'Features index',
+'-----------------------------',
+'',
+);
+ksort($features);
+foreach($features as $feature => $refs) {
+	$featuresRst[] = '';
+	$featuresRst[] = '   * '.$feature;
+	$featuresRst[] = '';
+	foreach($refs as $ref) {
+		$featuresRst[] = '      * :ref:`'.$ref.'`';
+	}
+	$featuresRst[] = '';
+}
+
+file_put_contents('featuresindex.rst', implode(PHP_EOL, $featuresRst));
+
+
+
+// Final summary
+print "processed ".count($tags)." tags\n";
+print "processed ".count($features)." features\n";
 print "processed ".count($files)." files\n";
 print "warnings: $warnings\n";
 
