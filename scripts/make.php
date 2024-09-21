@@ -340,6 +340,18 @@ foreach($errors as $file => $message) {
 		$entry[] = '';
 	}
 
+	if (isset($message->changedBehavior)) {
+		$entry[] = 'Changed Behavior';
+		$entry[] = str_repeat('_', strlen('Changed Behavior'));
+		$entry[] = '';
+		$e = "This error may appear in different PHP versions ";
+		foreach($message->changedBehavior as $behavior) {
+			$e .= "`".$behavior." <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/".$behavior.".html>`_, ";
+		}
+		$entry[] = trim($e, ', ').'.';
+		$entry[] = '';
+	}
+
 	$name = $message->id;
 	file_put_contents('messages/'.$name.'.rst', implode(PHP_EOL, $entry));
 	
