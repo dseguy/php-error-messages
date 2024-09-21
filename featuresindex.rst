@@ -324,6 +324,11 @@ Features index
       * :ref:`call-to-undefined-function`
 
 
+   * variable
+
+      * :ref:`undefined-variable`
+
+
    * variadic
 
       * :ref:`array_merge()-does-not-accept-unknown-named-parameters`
