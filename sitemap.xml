@@ -4,6 +4,12 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%s-%s-inherits-both-%s::%s-and-%s::%s.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/%s-cannot-use-%s---it-is-not-a-trait.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/'goto'-into-loop-or-switch-statement-is-disallowed.html</loc>
  </url>
  <url>
@@ -178,6 +184,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/class-&quot;x&quot;-not-found.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/class-%s-is-not-a-trait.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/class-b-cannot-implement-previously-implemented-interface-i.html</loc>
  </url>
  <url>
@@ -197,6 +206,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/continue-operator-accepts-only-positive-integers.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/could-not-find-trait-%s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/datetimeinterface-can\'t-be-implemented-by-user-classes.html</loc>

@@ -18,6 +18,7 @@ Indices and tables
 ==================
 
 * :ref:`tagsindex`
+* :ref:`featuresindex`
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`

@@ -6,6 +6,8 @@ PHP Error Messages
    :caption: Contents:
 
    messages/%s-%s-inherits-both-%s::%s-and-%s::%s.rst
+   messages/%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed.rst
+   messages/%s-cannot-use-%s---it-is-not-a-trait.rst
    messages/'goto'-into-loop-or-switch-statement-is-disallowed.rst
    messages/'goto'-to-undefined-label-'%s'.rst
    messages/a-class-constant-must-not-be-called-class.-it-is-reserved-for-class-name-fetching.rst
@@ -64,6 +66,7 @@ PHP Error Messages
    messages/cannot-use-try-without-catch-or-finally.rst
    messages/case-%s::%s-does-not-exist.rst
    messages/class-"x"-not-found.rst
+   messages/class-%s-is-not-a-trait.rst
    messages/class-b-cannot-implement-previously-implemented-interface-i.rst
    messages/class-constant-%s::%s-cannot-have-type-%s.rst
    messages/class-declarations-may-not-be-nested.rst
@@ -71,6 +74,7 @@ PHP Error Messages
    messages/constant-expression-contains-invalid-operations.rst
    messages/constructors-cannot-declare-a-return-type.rst
    messages/continue-operator-accepts-only-positive-integers.rst
+   messages/could-not-find-trait-%s.rst
    messages/datetimeinterface-can\'t-be-implemented-by-user-classes.rst
    messages/declaration-of-y::foo()-must-be-compatible-with-x::foo($a).rst
    messages/default-value-for-property-of-type-int-may-not-be-null.-use-the-nullable-type-?int-to-allow-null-default-value.rst

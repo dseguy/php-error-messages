@@ -56,6 +56,12 @@ Tag index
       * :ref:`class-b-cannot-implement-previously-implemented-interface-i`
 
 
+   * collision
+
+      * :ref:`%s-%s-inherits-both-%s::%s-and-%s::%s`
+      * :ref:`could-not-find-trait-%s`
+
+
    * edge case
 
       * :ref:`is-an-invalid-class-name`
@@ -98,6 +104,11 @@ Tag index
       * :ref:`keys-must-be-of-type-int|string-during-argument-unpacking-.`
 
 
+   * keyword
+
+      * :ref:`cannot-use-'never'-as-class-name-as-it-is-reserved`
+
+
    * lint
 
       * :ref:`a-function-with-return-type-must-return-a-value`
@@ -109,6 +120,12 @@ Tag index
       * :ref:`cannot-mix-keyed-and-unkeyed-array-entries-in-assignments`
       * :ref:`cannot-use-empty-list`
       * :ref:`spread-operator-is-not-supported-in-assignments`
+
+
+   * modernisation
+
+      * :ref:`accessing-static-trait-property-%s::$%s-is-deprecated`
+      * :ref:`calling-static-trait-method-%s::%s-is-deprecated`
 
 
    * not generated
@@ -139,6 +156,17 @@ Tag index
       * :ref:`returning-by-reference-from-a-void-function-is-deprecated`
 
 
+   * removed message
+
+      * :ref:`traits-cannot-have-constants`
+
+
+   * special case
+
+      * :ref:`property-x::$p-cannot-have-type-void`
+      * :ref:`void-cannot-be-used-as-a-parameter-type`
+
+
    * static properties
 
       * :ref:`attempt-to-unset-static-property`
@@ -154,9 +182,15 @@ Tag index
       * :ref:`illegal-string-offset`
 
 
+   * surprise
+
+      * :ref:`%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed`
+
+
    * trait
 
-      * :ref:`calling-static-trait-method-%s::%s-is-deprecated`
+      * :ref:`%s-cannot-use-%s---it-is-not-a-trait`
+      * :ref:`could-not-find-trait-%s`
       * :ref:`required-trait-t2-wasn't-added-to-t`
 
 
