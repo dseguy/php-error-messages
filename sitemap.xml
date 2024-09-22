@@ -127,6 +127,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-throw-objects-that-do-not-implement-throwable.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-unpack-array-with-string-keys.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-unset-offset-in-a-non-array-variable.html</loc>
  </url>
  <url>
@@ -146,6 +149,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-empty-array-elements-in-arrays.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-empty-array-entries-in-keyed-array-assignment.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-empty-list.html</loc>
@@ -212,6 +218,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/continue-operator-accepts-only-positive-integers.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/could-not-check-compatibility-between-%s-and-%s,-because-class-%s-is-not-available.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/could-not-find-trait-%s.html</loc>
@@ -302,6 +311,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/multiple-static-modifiers-are-not-allowed.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-a-valid-rounding-mode-(roundingmode::*).html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/named-parameter-$x-overwrites-previous-argument.html</loc>

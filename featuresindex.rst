@@ -13,6 +13,7 @@ Features index
 
       * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-deprecated`
       * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported`
+      * :ref:`cannot-unpack-array-with-string-keys`
       * :ref:`cannot-use-object-of-type-%s-as-array`
       * :ref:`undefined-offset`
 
@@ -108,6 +109,11 @@ Features index
       * :ref:`never-returning-function-must-not-implicitly-return`
 
 
+   * ellipsis
+
+      * :ref:`cannot-unpack-array-with-string-keys`
+
+
    * empty
 
       * :ref:`typed-property-%s::$%s-must-not-be-accessed-before-initialization`
@@ -177,9 +183,15 @@ Features index
       * :ref:`typed-property-%s::$%s-must-not-be-accessed-before-initialization`
 
 
+   * keys
+
+      * :ref:`cannot-unpack-array-with-string-keys`
+
+
    * list
 
       * :ref:`cannot-use-empty-array-elements-in-arrays`
+      * :ref:`cannot-use-empty-array-entries-in-keyed-array-assignment`
 
 
    * namespace
@@ -264,6 +276,11 @@ Features index
    * returntype
 
       * :ref:`a-function-with-return-type-must-return-a-value`
+
+
+   * rounding
+
+      * :ref:`must-be-a-valid-rounding-mode-(roundingmode::*)`
 
 
    * spread

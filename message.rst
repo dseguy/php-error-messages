@@ -47,6 +47,7 @@ PHP Error Messages
    messages/cannot-override-final-%s::%s()-with-%s::%s().rst
    messages/cannot-redefine-class-constant.rst
    messages/cannot-throw-objects-that-do-not-implement-throwable.rst
+   messages/cannot-unpack-array-with-string-keys.rst
    messages/cannot-unset-offset-in-a-non-array-variable.rst
    messages/cannot-unset-string-offsets.rst
    messages/cannot-use-'never'-as-class-name-as-it-is-reserved.rst
@@ -54,6 +55,7 @@ PHP Error Messages
    messages/cannot-use-::class-with-dynamic-class-name.rst
    messages/cannot-use-[]-for-reading.rst
    messages/cannot-use-empty-array-elements-in-arrays.rst
+   messages/cannot-use-empty-array-entries-in-keyed-array-assignment.rst
    messages/cannot-use-empty-list.rst
    messages/cannot-use-isset()-on-the-result-of-an-expression-(you-can-use-"null-!==-expression"-instead).rst
    messages/cannot-use-lexical-variable-x-as-a-parameter-name.rst
@@ -76,6 +78,7 @@ PHP Error Messages
    messages/constant-expression-contains-invalid-operations.rst
    messages/constructors-cannot-declare-a-return-type.rst
    messages/continue-operator-accepts-only-positive-integers.rst
+   messages/could-not-check-compatibility-between-%s-and-%s,-because-class-%s-is-not-available.rst
    messages/could-not-find-trait-%s.rst
    messages/datetimeinterface-can\\'t-be-implemented-by-user-classes.rst
    messages/declaration-of-y::foo()-must-be-compatible-with-x::foo($a).rst
@@ -106,6 +109,7 @@ PHP Error Messages
    messages/multiple-access-type-modifiers-are-not-allowed.rst
    messages/multiple-readonly-modifiers-are-not-allowed.rst
    messages/multiple-static-modifiers-are-not-allowed.rst
+   messages/must-be-a-valid-rounding-mode-(roundingmode::*).rst
    messages/named-parameter-$x-overwrites-previous-argument.rst
    messages/never-cannot-be-used-as-a-parameter-type.rst
    messages/never-returning-function-must-not-implicitly-return.rst
