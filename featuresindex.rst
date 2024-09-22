@@ -126,6 +126,7 @@ Features index
 
    * exit
 
+      * :ref:`call-to-undefined-function-exit()`
       * :ref:`never-returning-function-must-not-implicitly-return`
 
 
@@ -192,6 +193,11 @@ Features index
 
       * :ref:`cannot-use-empty-array-elements-in-arrays`
       * :ref:`cannot-use-empty-array-entries-in-keyed-array-assignment`
+
+
+   * mixed
+
+      * :ref:`cannot-use-\'mixed\'-as-class-name-as-it-is-reserved`
 
 
    * namespace

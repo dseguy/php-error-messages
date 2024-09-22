@@ -73,6 +73,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/call-to-a-member-function-method()-on-string.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-function-exit().html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-function.html</loc>
  </url>
  <url>
@@ -134,6 +137,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-unset-string-offsets.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-'mixed'-as-class-name-as-it-is-reserved.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-'never'-as-class-name-as-it-is-reserved.html</loc>

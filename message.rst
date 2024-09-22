@@ -29,6 +29,7 @@ PHP Error Messages
    messages/b-cannot-implement-a---it-is-not-an-interface.rst
    messages/break-operator-accepts-only-positive-integers.rst
    messages/call-to-a-member-function-method()-on-string.rst
+   messages/call-to-undefined-function-exit().rst
    messages/call-to-undefined-function.rst
    messages/calling-get_parent_class()-without-arguments-is-deprecated.rst
    messages/calling-static-trait-method-%s::%s-is-deprecated.rst
@@ -50,6 +51,7 @@ PHP Error Messages
    messages/cannot-unpack-array-with-string-keys.rst
    messages/cannot-unset-offset-in-a-non-array-variable.rst
    messages/cannot-unset-string-offsets.rst
+   messages/cannot-use-'mixed'-as-class-name-as-it-is-reserved.rst
    messages/cannot-use-'never'-as-class-name-as-it-is-reserved.rst
    messages/cannot-use-'readonly'-as-method-modifier.rst
    messages/cannot-use-::class-with-dynamic-class-name.rst

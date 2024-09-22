@@ -34,6 +34,7 @@ Tag index
 
       * :ref:`accessing-static-trait-property-%s::$%s-is-deprecated`
       * :ref:`calling-static-trait-method-%s::%s-is-deprecated`
+      * :ref:`cannot-use-\'mixed\'-as-class-name-as-it-is-reserved`
       * :ref:`cannot-use-\'never\'-as-class-name-as-it-is-reserved`
       * :ref:`cannot-use-::class-with-dynamic-class-name`
       * :ref:`power-of-base-0-and-negative-exponent-is-deprecated`
@@ -107,6 +108,7 @@ Tag index
 
    * keyword
 
+      * :ref:`cannot-use-\'mixed\'-as-class-name-as-it-is-reserved`
       * :ref:`cannot-use-\'never\'-as-class-name-as-it-is-reserved`
 
 
@@ -126,6 +128,7 @@ Tag index
    * modernisation
 
       * :ref:`accessing-static-trait-property-%s::$%s-is-deprecated`
+      * :ref:`call-to-undefined-function-exit()`
       * :ref:`calling-static-trait-method-%s::%s-is-deprecated`
       * :ref:`cannot-use-object-of-type-%s-as-array`
 
