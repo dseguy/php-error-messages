@@ -8,7 +8,9 @@ Features index
 
       * :ref:`abstract-property-hook-cannot-have-body`
       * :ref:`cannot-make-non-abstract-method-i::foo()-abstract-in-class-j`
+      * :ref:`cannot-use-the-abstract-modifier-on-a-property`
       * :ref:`non-abstract-property-hook-must-have-a-body`
+      * :ref:`only-hooked-properties-may-be-declared-abstract`
 
 
    * array
@@ -273,8 +275,12 @@ Features index
    * property hook
 
       * :ref:`abstract-property-hook-cannot-have-body`
+      * :ref:`cannot-unset-hooked-property-%s::$%s`
+      * :ref:`cannot-use-the-abstract-modifier-on-a-property`
+      * :ref:`hooked-properties-cannot-be-readonly`
       * :ref:`interfaces-may-only-include-hooked-properties`
       * :ref:`non-abstract-property-hook-must-have-a-body`
+      * :ref:`only-hooked-properties-may-be-declared-abstract`
       * :ref:`unknown-hook-"%s"-for-property-%s::$%s,-expected-"get"-or-"set"`
 
 
@@ -286,6 +292,7 @@ Features index
 
    * readonly
 
+      * :ref:`hooked-properties-cannot-be-readonly`
       * :ref:`readonly-class-bar-cannot-extend-non-readonly-class-foo`
 
 

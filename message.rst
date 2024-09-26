@@ -53,6 +53,7 @@ PHP Error Messages
    messages/cannot-redefine-class-constant.rst
    messages/cannot-throw-objects-that-do-not-implement-throwable.rst
    messages/cannot-unpack-array-with-string-keys.rst
+   messages/cannot-unset-hooked-property-%s::$%s.rst
    messages/cannot-unset-offset-in-a-non-array-variable.rst
    messages/cannot-unset-string-offsets.rst
    messages/cannot-use-'mixed'-as-class-name-as-it-is-reserved.rst
@@ -72,6 +73,7 @@ PHP Error Messages
    messages/cannot-use-positional-argument-after-named-argument-during-unpacking.rst
    messages/cannot-use-positional-argument-after-named-argument.rst
    messages/cannot-use-temporary-expression-in-write-context.rst
+   messages/cannot-use-the-abstract-modifier-on-a-property.rst
    messages/cannot-use-try-without-catch-or-finally.rst
    messages/case-%s::%s-does-not-exist.rst
    messages/class-"x"-not-found.rst
@@ -99,6 +101,7 @@ PHP Error Messages
    messages/ffi-api-is-restricted-by-"ffi.enable"-configuration-directive.rst
    messages/foreach()-argument-must-be-of-type-array|object.rst
    messages/has-#[\override]-attribute,-but-no-matching-parent-method-exists.rst
+   messages/hooked-properties-cannot-be-readonly.rst
    messages/illegal-class-name.rst
    messages/illegal-string-offset.rst
    messages/implicit-conversion-from-float-string.rst
@@ -125,6 +128,7 @@ PHP Error Messages
    messages/non-abstract-property-hook-must-have-a-body.rst
    messages/non-static-method-x::goo()-cannot-be-called-statically-.rst
    messages/object-of-type-%s-has-not-been-correctly-initialized-by-calling-parent::__construct()-in-its-constructor.rst
+   messages/only-hooked-properties-may-be-declared-abstract.rst
    messages/only-internal-classes-can-be-registered-as-compiler-attribute.rst
    messages/only-variable-references-should-be-yielded-by-reference.rst
    messages/optional-parameter-$%s-declared-before-required-parameter-$%s-is-implicitly-treated-as-a-required-parameter.rst
