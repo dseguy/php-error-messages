@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/%s%s%s()-does-not-accept-unknown-named-parameters.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%s-%s-inherits-both-%s::%s-and-%s::%s.html</loc>
  </url>
  <url>
@@ -29,6 +32,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/a-non-numeric-value-encountered.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/abstract-property-hook-cannot-have-body.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/access-to-undeclared-static-property-%s::$%s.html</loc>
@@ -97,6 +103,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-be-a-class-constant.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-declare-hooks-for-static-property.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-declare-promoted-property-in-an-abstract-constructor.html</loc>
  </url>
  <url>
@@ -122,6 +131,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-override-final-%s::%s()-with-%s::%s().html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-property-hook.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redefine-class-constant.html</loc>
@@ -295,6 +307,12 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/interface-%s-cannot-contain-non-abstract-method-%s().html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/interfaces-may-not-include-properties.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/interfaces-may-only-include-hooked-properties.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/invalid-argument-supplied-for-foreach().html</loc>
  </url>
  <url>
@@ -332,6 +350,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/new-expressions-are-not-supported-in-this-context.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/non-abstract-property-hook-must-have-a-body.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/non-static-method-x::goo()-cannot-be-called-statically-.html</loc>
@@ -440,6 +461,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/uninitialized-string-offset.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/unknown-hook-&quot;%s&quot;-for-property-%s::$%s,-expected-&quot;get&quot;-or-&quot;set&quot;.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unparenthesized-`a-?-b-:-c-?-d-:-e`-is-not-supported..html</loc>

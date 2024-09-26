@@ -6,7 +6,9 @@ Features index
 
    * abstract
 
+      * :ref:`abstract-property-hook-cannot-have-body`
       * :ref:`cannot-make-non-abstract-method-i::foo()-abstract-in-class-j`
+      * :ref:`non-abstract-property-hook-must-have-a-body`
 
 
    * array
@@ -167,6 +169,11 @@ Features index
       * :ref:`readonly-class-bar-cannot-extend-non-readonly-class-foo`
 
 
+   * interace
+
+      * :ref:`interfaces-may-not-include-properties`
+
+
    * interface
 
       * :ref:`%s-%s-inherits-both-%s::%s-and-%s::%s`
@@ -198,6 +205,11 @@ Features index
    * mixed
 
       * :ref:`cannot-use-\'mixed\'-as-class-name-as-it-is-reserved`
+
+
+   * named parameter
+
+      * :ref:`%s%s%s()-does-not-accept-unknown-named-parameters`
 
 
    * namespace
@@ -253,8 +265,23 @@ Features index
 
    * property
 
+      * :ref:`interfaces-may-not-include-properties`
       * :ref:`property-%s::$%s-cannot-have-type-%s`
       * :ref:`typed-property-x::$y-must-not-be-accessed-before-initialization`
+
+
+   * property hook
+
+      * :ref:`abstract-property-hook-cannot-have-body`
+      * :ref:`interfaces-may-only-include-hooked-properties`
+      * :ref:`non-abstract-property-hook-must-have-a-body`
+      * :ref:`unknown-hook-"%s"-for-property-%s::$%s,-expected-"get"-or-"set"`
+
+
+   * property-hook
+
+      * :ref:`cannot-declare-hooks-for-static-property`
+      * :ref:`cannot-redeclare-property-hook`
 
 
    * readonly
@@ -298,6 +325,11 @@ Features index
 
       * :ref:`non-static-method-x::goo()-cannot-be-called-statically-`
       * :ref:`static-property-x::$y-cannot-be-readonly`
+
+
+   * static-property
+
+      * :ref:`cannot-declare-hooks-for-static-property`
 
 
    * string

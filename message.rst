@@ -5,6 +5,7 @@ PHP Error Messages
    :maxdepth: 1
    :caption: Contents:
 
+   messages/%s%s%s()-does-not-accept-unknown-named-parameters.rst
    messages/%s-%s-inherits-both-%s::%s-and-%s::%s.rst
    messages/%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed.rst
    messages/%s-cannot-use-%s---it-is-not-a-trait.rst
@@ -15,6 +16,7 @@ PHP Error Messages
    messages/a-never-returning-function-must-not-return.rst
    messages/a-never-returning-method-must-not-return.rst
    messages/a-non-numeric-value-encountered.rst
+   messages/abstract-property-hook-cannot-have-body.rst
    messages/access-to-undeclared-static-property-%s::$%s.rst
    messages/accessing-static-trait-property-%s::$%s-is-deprecated.rst
    messages/array-and-string-offset-access-syntax-with-curly-braces-is-deprecated.rst
@@ -37,6 +39,7 @@ PHP Error Messages
    messages/cannot-access-trait-constant-t::x-directly.rst
    messages/cannot-acquire-reference-to-readonly-property.rst
    messages/cannot-be-a-class-constant.rst
+   messages/cannot-declare-hooks-for-static-property.rst
    messages/cannot-declare-promoted-property-in-an-abstract-constructor.rst
    messages/cannot-declare-promoted-property-outside-a-constructor.rst
    messages/cannot-instantiate-enum-%s.rst
@@ -46,6 +49,7 @@ PHP Error Messages
    messages/cannot-make-non-abstract-method-i::foo()-abstract-in-class-j.rst
    messages/cannot-mix-keyed-and-unkeyed-array-entries-in-assignments.rst
    messages/cannot-override-final-%s::%s()-with-%s::%s().rst
+   messages/cannot-redeclare-property-hook.rst
    messages/cannot-redefine-class-constant.rst
    messages/cannot-throw-objects-that-do-not-implement-throwable.rst
    messages/cannot-unpack-array-with-string-keys.rst
@@ -103,6 +107,8 @@ PHP Error Messages
    messages/indirect-modification-of-overloaded-element-of-%s-has-no-effect.rst
    messages/indirect-modification-of-overloaded-property-%s::$%s-has-no-effect.rst
    messages/interface-%s-cannot-contain-non-abstract-method-%s().rst
+   messages/interfaces-may-not-include-properties.rst
+   messages/interfaces-may-only-include-hooked-properties.rst
    messages/invalid-argument-supplied-for-foreach().rst
    messages/is-an-invalid-class-name.rst
    messages/keys-must-be-of-type-int|string-during-argument-unpacking-..rst
@@ -116,6 +122,7 @@ PHP Error Messages
    messages/never-cannot-be-used-as-a-parameter-type.rst
    messages/never-returning-function-must-not-implicitly-return.rst
    messages/new-expressions-are-not-supported-in-this-context.rst
+   messages/non-abstract-property-hook-must-have-a-body.rst
    messages/non-static-method-x::goo()-cannot-be-called-statically-.rst
    messages/object-of-type-%s-has-not-been-correctly-initialized-by-calling-parent::__construct()-in-its-constructor.rst
    messages/only-internal-classes-can-be-registered-as-compiler-attribute.rst
@@ -152,6 +159,7 @@ PHP Error Messages
    messages/undefined-property:-%s::$%s.rst
    messages/undefined-variable.rst
    messages/uninitialized-string-offset.rst
+   messages/unknown-hook-"%s"-for-property-%s::$%s,-expected-"get"-or-"set".rst
    messages/unparenthesized-`a-?-b-:-c-?-d-:-e`-is-not-supported..rst
    messages/unsupported-operand-types.rst
    messages/using-$this-when-not-in-object-context.rst
