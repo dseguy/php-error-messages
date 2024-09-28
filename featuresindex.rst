@@ -137,7 +137,10 @@ Features index
    * final
 
       * :ref:`cannot-override-final-%s::%s()-with-%s::%s()`
+      * :ref:`cannot-use-the-final-modifier-on-a-property`
       * :ref:`private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes`
+      * :ref:`property-cannot-be-both-final-and-private`
+      * :ref:`property-hook-cannot-be-both-final-and-private`
 
 
    * first-class-callable
@@ -154,6 +157,13 @@ Features index
 
       * :ref:`\'goto\'-into-loop-or-switch-statement-is-disallowed`
       * :ref:`\'goto\'-to-undefined-label-\'%s\'`
+
+
+   * hook
+
+      * :ref:`cannot-use-the-final-modifier-on-a-property`
+      * :ref:`property-cannot-be-both-final-and-private`
+      * :ref:`property-hook-cannot-be-both-final-and-private`
 
 
    * implements
@@ -202,6 +212,13 @@ Features index
 
       * :ref:`cannot-use-empty-array-elements-in-arrays`
       * :ref:`cannot-use-empty-array-entries-in-keyed-array-assignment`
+
+
+   * magic method
+
+      * :ref:`cannot-use-the-final-modifier-on-a-property`
+      * :ref:`property-cannot-be-both-final-and-private`
+      * :ref:`property-hook-cannot-be-both-final-and-private`
 
 
    * mixed
@@ -257,7 +274,10 @@ Features index
 
    * private
 
+      * :ref:`cannot-use-the-final-modifier-on-a-property`
       * :ref:`private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes`
+      * :ref:`property-cannot-be-both-final-and-private`
+      * :ref:`property-hook-cannot-be-both-final-and-private`
 
 
    * promoted-property

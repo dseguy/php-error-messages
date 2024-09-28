@@ -35,4 +35,4 @@ _________
 + Use magic methods ``__get`` and ``__set`` to define a custom alternative property.
 
 
-In previous PHP versions, this error message used to be :ref:`only-hooked-properties-may-be-declared-abstract`.
+In more recent PHP versions, this error message is now :ref:`only-hooked-properties-may-be-declared-abstract`.

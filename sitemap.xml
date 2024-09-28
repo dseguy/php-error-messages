@@ -133,6 +133,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-override-final-%s::%s()-with-%s::%s().html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-override-final-property-hook-%s::%s().html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-property-hook.html</loc>
  </url>
  <url>
@@ -206,6 +209,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-the-abstract-modifier-on-a-property.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-the-final-modifier-on-a-property.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-try-without-catch-or-finally.html</loc>
@@ -392,6 +398,12 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/property-%s::$%s-cannot-have-type-%s.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/property-cannot-be-both-final-and-private.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/property-hook-cannot-be-both-final-and-private.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/property-x::$p-cannot-have-type-void.html</loc>

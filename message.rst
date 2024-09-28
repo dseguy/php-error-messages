@@ -49,6 +49,7 @@ PHP Error Messages
    messages/cannot-make-non-abstract-method-i::foo()-abstract-in-class-j.rst
    messages/cannot-mix-keyed-and-unkeyed-array-entries-in-assignments.rst
    messages/cannot-override-final-%s::%s()-with-%s::%s().rst
+   messages/cannot-override-final-property-hook-%s::%s().rst
    messages/cannot-redeclare-property-hook.rst
    messages/cannot-redefine-class-constant.rst
    messages/cannot-throw-objects-that-do-not-implement-throwable.rst
@@ -74,6 +75,7 @@ PHP Error Messages
    messages/cannot-use-positional-argument-after-named-argument.rst
    messages/cannot-use-temporary-expression-in-write-context.rst
    messages/cannot-use-the-abstract-modifier-on-a-property.rst
+   messages/cannot-use-the-final-modifier-on-a-property.rst
    messages/cannot-use-try-without-catch-or-finally.rst
    messages/case-%s::%s-does-not-exist.rst
    messages/class-"x"-not-found.rst
@@ -136,6 +138,8 @@ PHP Error Messages
    messages/power-of-base-0-and-negative-exponent-is-deprecated.rst
    messages/private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes.rst
    messages/property-%s::$%s-cannot-have-type-%s.rst
+   messages/property-cannot-be-both-final-and-private.rst
+   messages/property-hook-cannot-be-both-final-and-private.rst
    messages/property-x::$p-cannot-have-type-void.rst
    messages/readonly-class-bar-cannot-extend-non-readonly-class-foo.rst
    messages/readonly-property-%s::$%s-cannot-have-default-value.rst

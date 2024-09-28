@@ -78,6 +78,7 @@ Tag index
 
    * execution
 
+      * :ref:`cannot-override-final-property-hook-%s::%s()`
       * :ref:`never-returning-function-must-not-implicitly-return`
 
 
