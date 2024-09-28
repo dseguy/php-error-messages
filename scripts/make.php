@@ -79,6 +79,12 @@ foreach($files as $file) {
 		}
 	}
 
+	if (empty($error->code) && !in_array('not generated', $error->tags)) {
+		buildlog("No code for $file");
+		++$warnings;
+		continue;
+	}
+
 	if (!is_array($error->features)) {
 		print("No array for features in $file\n");
 		buildlog("No array for features in $file");
