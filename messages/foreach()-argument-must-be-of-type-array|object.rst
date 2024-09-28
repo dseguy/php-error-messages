@@ -21,10 +21,9 @@ _______
 
    <?php
    
-   $variable = null;
-   foreach($variable as $x) {
+   $source = null;
+   foreach($source as $x) { }
    
-   }
    ?>
 
 Solutions

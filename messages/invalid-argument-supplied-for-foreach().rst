@@ -19,7 +19,13 @@ _______
 
 .. code-block:: php
 
+   <?php
    
+   foreach(1234 as $b) {
+   	echo $b;
+   }
+   
+   ?>
 
 Solutions
 _________

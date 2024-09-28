@@ -137,6 +137,7 @@ Tag index
 
    * not generated
 
+      * :ref:`case-%s::%s-does-not-exist`
       * :ref:`classes-must-be-first-marked-as-attribute-before-being-able-to-be-registered-as-internal-attribute-class`
       * :ref:`only-internal-classes-can-be-registered-as-compiler-attribute`
       * :ref:`static-function-%s%s%s()-cannot-be-abstract`

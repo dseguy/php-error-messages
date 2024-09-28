@@ -148,6 +148,11 @@ Features index
       * :ref:`array-callback-has-to-contain-indices-0-and-1`
 
 
+   * foreach
+
+      * :ref:`foreach()-argument-must-be-of-type-array|object`
+
+
    * function
 
       * :ref:`call-to-undefined-function`
