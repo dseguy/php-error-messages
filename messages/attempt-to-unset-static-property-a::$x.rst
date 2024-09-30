@@ -10,7 +10,11 @@ Attempt to unset static property X::$x
 Description
 ___________
  
-It is not possible to unset a static property.\nThis applies to typed and not typed static properties. It also only applies to static properties that are already set, such as in the illustration: PHP complains about uninitialized state first, and later, about removing static properties.\nThis does not apply to properties, which may be removed.
+It is not possible to unset a static property.
+
+This applies to typed and not typed static properties. It also only applies to static properties that are already set, such as in the illustration: PHP complains about uninitialized state first, and later, about removing static properties.
+
+This does not apply to properties, which may be removed.
 
 Example
 _______

@@ -27,6 +27,11 @@ Features index
       * :ref:`array_merge()-does-not-accept-unknown-named-parameters`
 
 
+   * asymetric visibility
+
+      * :ref:`visibility-of-property-%s::$%s-must-not-be-weaker-than-set-visibility`
+
+
    * attribute
 
       * :ref:`has-#[\override]-attribute,-but-no-matching-parent-method-exists`
@@ -120,6 +125,7 @@ Features index
 
    * empty
 
+      * :ref:`property-hook-list-must-not-be-empty`
       * :ref:`typed-property-%s::$%s-must-not-be-accessed-before-initialization`
 
 
@@ -150,6 +156,7 @@ Features index
 
    * foreach
 
+      * :ref:`an-iterator-cannot-be-used-with-foreach-by-reference`
       * :ref:`foreach()-argument-must-be-of-type-array|object`
 
 
@@ -166,6 +173,7 @@ Features index
 
    * hook
 
+      * :ref:`cannot-use-the-abstract-modifier-on-a-property-hook`
       * :ref:`cannot-use-the-final-modifier-on-a-property`
       * :ref:`property-cannot-be-both-final-and-private`
       * :ref:`property-hook-cannot-be-both-final-and-private`
@@ -206,6 +214,11 @@ Features index
    * isset
 
       * :ref:`typed-property-%s::$%s-must-not-be-accessed-before-initialization`
+
+
+   * iterator
+
+      * :ref:`an-iterator-cannot-be-used-with-foreach-by-reference`
 
 
    * keys
@@ -300,6 +313,7 @@ Features index
    * property hook
 
       * :ref:`abstract-property-hook-cannot-have-body`
+      * :ref:`cannot-specify-default-value-for-virtual-hooked-property`
       * :ref:`cannot-unset-hooked-property-%s::$%s`
       * :ref:`cannot-use-the-abstract-modifier-on-a-property`
       * :ref:`hooked-properties-cannot-be-readonly`
@@ -323,6 +337,7 @@ Features index
 
    * reference
 
+      * :ref:`an-iterator-cannot-be-used-with-foreach-by-reference`
       * :ref:`only-variable-references-should-be-yielded-by-reference`
 
 
@@ -429,6 +444,11 @@ Features index
    * variadic
 
       * :ref:`array_merge()-does-not-accept-unknown-named-parameters`
+
+
+   * virtual property
+
+      * :ref:`cannot-specify-default-value-for-virtual-hooked-property`
 
 
    * visibility

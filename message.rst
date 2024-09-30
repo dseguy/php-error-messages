@@ -6,6 +6,7 @@ PHP Error Messages
    :caption: Contents:
 
    messages/%s%s%s()-does-not-accept-unknown-named-parameters.rst
+   messages/%s():-returning-by-reference-from-a-void-function-is-deprecated.rst
    messages/%s-%s-inherits-both-%s::%s-and-%s::%s.rst
    messages/%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed.rst
    messages/%s-cannot-use-%s---it-is-not-a-trait.rst
@@ -19,6 +20,7 @@ PHP Error Messages
    messages/abstract-property-hook-cannot-have-body.rst
    messages/access-to-undeclared-static-property-%s::$%s.rst
    messages/accessing-static-trait-property-%s::$%s-is-deprecated.rst
+   messages/an-iterator-cannot-be-used-with-foreach-by-reference.rst
    messages/array-and-string-offset-access-syntax-with-curly-braces-is-deprecated.rst
    messages/array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported.rst
    messages/array-callback-has-to-contain-indices-0-and-1.rst
@@ -52,6 +54,7 @@ PHP Error Messages
    messages/cannot-override-final-property-hook-%s::%s().rst
    messages/cannot-redeclare-property-hook.rst
    messages/cannot-redefine-class-constant.rst
+   messages/cannot-specify-default-value-for-virtual-hooked-property.rst
    messages/cannot-throw-objects-that-do-not-implement-throwable.rst
    messages/cannot-unpack-array-with-string-keys.rst
    messages/cannot-unset-hooked-property-%s::$%s.rst
@@ -74,6 +77,7 @@ PHP Error Messages
    messages/cannot-use-positional-argument-after-named-argument-during-unpacking.rst
    messages/cannot-use-positional-argument-after-named-argument.rst
    messages/cannot-use-temporary-expression-in-write-context.rst
+   messages/cannot-use-the-abstract-modifier-on-a-property-hook.rst
    messages/cannot-use-the-abstract-modifier-on-a-property.rst
    messages/cannot-use-the-final-modifier-on-a-property.rst
    messages/cannot-use-try-without-catch-or-finally.rst
@@ -140,6 +144,7 @@ PHP Error Messages
    messages/property-%s::$%s-cannot-have-type-%s.rst
    messages/property-cannot-be-both-final-and-private.rst
    messages/property-hook-cannot-be-both-final-and-private.rst
+   messages/property-hook-list-must-not-be-empty.rst
    messages/property-x::$p-cannot-have-type-void.rst
    messages/readonly-class-bar-cannot-extend-non-readonly-class-foo.rst
    messages/readonly-property-%s::$%s-cannot-have-default-value.rst
@@ -172,5 +177,6 @@ PHP Error Messages
    messages/unsupported-operand-types.rst
    messages/using-$this-when-not-in-object-context.rst
    messages/using-${expr}-(variable-variables)-in-strings-is-deprecated,-use-{${expr}}-instead.rst
+   messages/visibility-of-property-%s::$%s-must-not-be-weaker-than-set-visibility.rst
    messages/void-cannot-be-used-as-a-parameter-type.rst
    messages/x::foo()-has-#[\override]-attribute,-but-no-matching-parent-method-exists.rst

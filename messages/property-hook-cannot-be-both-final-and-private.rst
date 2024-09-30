@@ -5,12 +5,12 @@ Property hook cannot be both final and private
  
 	.. meta::
 		:description lang=en:
-			Property hook cannot be both final and private: When a property is final, it cannot be overriden in a child class.
+			Property hook cannot be both final and private: When a property is final, it cannot be overridden in a child class.
 
 Description
 ___________
  
-When a property is final, it cannot be overriden in a child class; when a class is private, it is only available in the current class. 
+When a property is final, it cannot be overridden in a child class; when a class is private, it is only available in the current class. 
 
 Hence, a property cannot be final and private at the same time. 
 

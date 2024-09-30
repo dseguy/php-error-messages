@@ -10,7 +10,7 @@ Cannot use [] for reading
 Description
 ___________
  
-The append operator ``[]`` is a write operator: it alters the underlying variable. It cannot be used for reading, as it doesn't produce a value. Hence, it is not possible to use the append operator as an argument, or with a short assignement operator.
+The append operator ``[]`` is a write operator: it alters the underlying variable. It cannot be used for reading, as it doesn't produce a value. Hence, it is not possible to use the append operator as an argument, or with a short assignment operator.
 
 Example
 _______

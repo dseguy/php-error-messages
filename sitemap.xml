@@ -4,6 +4,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%s%s%s()-does-not-accept-unknown-named-parameters.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/%s():-returning-by-reference-from-a-void-function-is-deprecated.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%s-%s-inherits-both-%s::%s-and-%s::%s.html</loc>
  </url>
  <url>
@@ -41,6 +44,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/accessing-static-trait-property-%s::$%s-is-deprecated.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/an-iterator-cannot-be-used-with-foreach-by-reference.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/array-and-string-offset-access-syntax-with-curly-braces-is-deprecated.html</loc>
@@ -142,6 +148,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redefine-class-constant.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-specify-default-value-for-virtual-hooked-property.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-throw-objects-that-do-not-implement-throwable.html</loc>
  </url>
  <url>
@@ -206,6 +215,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-temporary-expression-in-write-context.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-the-abstract-modifier-on-a-property-hook.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-the-abstract-modifier-on-a-property.html</loc>
@@ -406,6 +418,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/property-hook-cannot-be-both-final-and-private.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/property-hook-list-must-not-be-empty.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/property-x::$p-cannot-have-type-void.html</loc>
  </url>
  <url>
@@ -500,6 +515,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/using-${expr}-(variable-variables)-in-strings-is-deprecated,-use-{${expr}}-instead.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/visibility-of-property-%s::$%s-must-not-be-weaker-than-set-visibility.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/void-cannot-be-used-as-a-parameter-type.html</loc>
