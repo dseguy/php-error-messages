@@ -42,4 +42,4 @@ _________
 Related Error Messages
 ______________________
 
-+ :ref:`class-"x"-not-found`
++ :ref:`class-\"%s\"-not-found`

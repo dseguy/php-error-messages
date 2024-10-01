@@ -70,7 +70,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/attempt-to-unset-static-property.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/attribute-class-&quot;x&quot;-not-found.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/attribute-class-&quot;%s&quot;-not-found.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/automatic-conversion-of-false-to-array-is-deprecated.html</loc>
@@ -232,13 +232,13 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/case-%s::%s-does-not-exist.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/class-&quot;x&quot;-not-found.html</loc>
- </url>
- <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/class-%s-cannot-implement-both-iterator-and-iteratoraggregate-at-the-same-time.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/class-%s-is-not-a-trait.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/class-&quot;%s&quot;-not-found.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/class-b-cannot-implement-previously-implemented-interface-i.html</loc>
@@ -287,6 +287,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/destructors-cannot-declare-a-return-type.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/duplicate-declaration-of-static-variable-$%s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/duplicate-named-parameter-$%s.html</loc>

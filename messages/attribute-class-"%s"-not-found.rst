@@ -1,11 +1,11 @@
-.. _attribute-class-"x"-not-found:
+.. _attribute-class-"%s"-not-found:
 
-Attribute class "X" not found
------------------------------
+Attribute class "%s" not found
+------------------------------
  
 	.. meta::
 		:description lang=en:
-			Attribute class "X" not found: This error reports that a class was not found.
+			Attribute class "%s" not found: This error reports that a class was not found.
 
 Description
 ___________
@@ -44,4 +44,4 @@ _________
 Related Error Messages
 ______________________
 
-+ :ref:`class-"x"-not-found`
++ :ref:`class-\"%s\"-not-found`

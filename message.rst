@@ -28,7 +28,7 @@ PHP Error Messages
    messages/assignments-can-only-happen-to-writable-values.rst
    messages/attempt-to-unset-static-property-a::$x.rst
    messages/attempt-to-unset-static-property.rst
-   messages/attribute-class-"x"-not-found.rst
+   messages/attribute-class-"%s"-not-found.rst
    messages/automatic-conversion-of-false-to-array-is-deprecated.rst
    messages/b-cannot-implement-a---it-is-not-an-interface.rst
    messages/break-operator-accepts-only-positive-integers.rst
@@ -82,9 +82,9 @@ PHP Error Messages
    messages/cannot-use-the-final-modifier-on-a-property.rst
    messages/cannot-use-try-without-catch-or-finally.rst
    messages/case-%s::%s-does-not-exist.rst
-   messages/class-"x"-not-found.rst
    messages/class-%s-cannot-implement-both-iterator-and-iteratoraggregate-at-the-same-time.rst
    messages/class-%s-is-not-a-trait.rst
+   messages/class-"%s"-not-found.rst
    messages/class-b-cannot-implement-previously-implemented-interface-i.rst
    messages/class-constant-%s::%s-cannot-have-type-%s.rst
    messages/class-declarations-may-not-be-nested.rst
@@ -101,6 +101,7 @@ PHP Error Messages
    messages/define():-declaration-of-case-insensitive-constants-is-deprecated.rst
    messages/defining-a-custom-assert()-function-is-not-allowed,.rst
    messages/destructors-cannot-declare-a-return-type.rst
+   messages/duplicate-declaration-of-static-variable-$%s.rst
    messages/duplicate-named-parameter-$%s.rst
    messages/duplicate-type-false-is-redundant.rst
    messages/fetching-properties-on-non-enums-in-constant-expressions-is-not-allowed.rst

@@ -343,7 +343,7 @@ Features index
 
    * reflection
 
-      * :ref:`attribute-class-\"x\"-not-found`
+      * :ref:`attribute-class-\"%s\"-not-found`
       * :ref:`case-%s::%s-does-not-exist`
 
 
@@ -377,6 +377,11 @@ Features index
    * static-property
 
       * :ref:`cannot-declare-hooks-for-static-property`
+
+
+   * static-variable
+
+      * :ref:`duplicate-declaration-of-static-variable-$%s`
 
 
    * string
