@@ -12,9 +12,9 @@ ___________
  
 This error appears when using the array syntax on strings, while the requested index is too large, or too small.
 
-An offset is too big when it is beyond the length of the string. An offset is too small with it is below the length of the string, multiplied by -1. All values between [- strlen($string), strlen($string)] are valid.
+An offset is too big when it is beyond the length of the string. An offset is too small with it is below the length of the string, multiplied by -1. All values between ``- strlen($string)`` and ``strlen($string)`` are valid.
 
-This error is displayed when the string offset is read. It becomes a 'Illegal string offset' when the syntax is used to write a character.
+This error is displayed when the string offset is read. It becomes a ``Illegal string offset`` when the syntax is used to write a character.
 
 
 Example

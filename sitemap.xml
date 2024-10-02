@@ -139,6 +139,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-override-final-property-hook-%s::%s().html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-re-assign-$this.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-property-hook.html</loc>
  </url>
  <url>
@@ -152,6 +155,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-unpack-array-with-string-keys.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-unset-$this.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-unset-hooked-property-%s::$%s.html</loc>

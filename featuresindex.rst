@@ -4,6 +4,11 @@ Features index
 -----------------------------
 
 
+   * $this
+
+      * :ref:`cannot-unset-$this`
+
+
    * abstract
 
       * :ref:`abstract-property-hook-cannot-have-body`
@@ -27,7 +32,12 @@ Features index
       * :ref:`array_merge()-does-not-accept-unknown-named-parameters`
 
 
-   * asymetric visibility
+   * assignment
+
+      * :ref:`cannot-re-assign-$this`
+
+
+   * asymmetric visibility
 
       * :ref:`visibility-of-property-%s::$%s-must-not-be-weaker-than-set-visibility`
 
@@ -283,6 +293,11 @@ Features index
       * :ref:`call-to-a-member-function-method()-on-string`
 
 
+   * offset
+
+      * :ref:`uninitialized-string-offset`
+
+
    * parameter
 
       * :ref:`named-parameter-$x-overwrites-previous-argument`
@@ -308,6 +323,7 @@ Features index
 
    * property
 
+      * :ref:`accessing-static-trait-property-%s::$%s-is-deprecated`
       * :ref:`interfaces-may-not-include-properties`
       * :ref:`property-%s::$%s-cannot-have-type-%s`
 
@@ -390,11 +406,17 @@ Features index
 
       * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-deprecated`
       * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported`
+      * :ref:`uninitialized-string-offset`
 
 
    * ternary operator
 
       * :ref:`unparenthesized-\`a-?-b-:-c-?-d-:-e\`-is-not-supported.`
+
+
+   * this
+
+      * :ref:`cannot-re-assign-$this`
 
 
    * throw
@@ -434,6 +456,7 @@ Features index
 
    * unset
 
+      * :ref:`cannot-unset-$this`
       * :ref:`the-(unset)-cast-is-deprecated`
 
 

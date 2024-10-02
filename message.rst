@@ -51,11 +51,13 @@ PHP Error Messages
    messages/cannot-mix-keyed-and-unkeyed-array-entries-in-assignments.rst
    messages/cannot-override-final-%s::%s()-with-%s::%s().rst
    messages/cannot-override-final-property-hook-%s::%s().rst
+   messages/cannot-re-assign-$this.rst
    messages/cannot-redeclare-property-hook.rst
    messages/cannot-redefine-class-constant.rst
    messages/cannot-specify-default-value-for-virtual-hooked-property.rst
    messages/cannot-throw-objects-that-do-not-implement-throwable.rst
    messages/cannot-unpack-array-with-string-keys.rst
+   messages/cannot-unset-$this.rst
    messages/cannot-unset-hooked-property-%s::$%s.rst
    messages/cannot-unset-offset-in-a-non-array-variable.rst
    messages/cannot-unset-string-offsets.rst

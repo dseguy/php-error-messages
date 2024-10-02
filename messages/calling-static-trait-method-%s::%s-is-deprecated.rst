@@ -5,12 +5,12 @@ Calling static trait method %s::%s is deprecated
  
 	.. meta::
 		:description lang=en:
-			Calling static trait method %s::%s is deprecated: Traits cannot be used indepently from a host class.
+			Calling static trait method %s::%s is deprecated: Traits cannot be used independently from a host class.
 
 Description
 ___________
  
-Traits cannot be used indepently from a host class. They must be used inside a class, with the ``use`` keyword. 
+Traits cannot be used independently from a host class. They must be used inside a class, with the ``use`` keyword. 
 
 Until PHP 8.1, it was possible to call traits without a host class. Since 8.1, calling a trait method is deprecated.
 
