@@ -175,11 +175,6 @@ Tag index
       * :ref:`void-cannot-be-used-as-a-parameter-type`
 
 
-   * static properties
-
-      * :ref:`attempt-to-unset-static-property`
-
-
    * strict_types
 
       * :ref:`return-value-must-be-of-type-int,-string-returned`

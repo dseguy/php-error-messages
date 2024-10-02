@@ -27,7 +27,6 @@ PHP Error Messages
    messages/array_merge()-does-not-accept-unknown-named-parameters.rst
    messages/assignments-can-only-happen-to-writable-values.rst
    messages/attempt-to-unset-static-property-a::$x.rst
-   messages/attempt-to-unset-static-property.rst
    messages/attribute-class-"%s"-not-found.rst
    messages/automatic-conversion-of-false-to-array-is-deprecated.rst
    messages/b-cannot-implement-a---it-is-not-an-interface.rst
@@ -164,8 +163,7 @@ PHP Error Messages
    messages/traits-cannot-have-constants.rst
    messages/trying-to-access-array-offset-on-%s.rst
    messages/typed-property-%s\:\:$%s-must-not-be-accessed-before-initialization.rst
-   messages/typed-property-x\:\:$y-must-not-be-accessed-before-initialization.rst
-   messages/typed-static-property-x::$y-must-not-be-accessed-before-initialization.rst
+   messages/typed-static-property-%s::$%s-must-not-be-accessed-before-initialization.rst
    messages/undefined-array-key.rst
    messages/undefined-class-constant-'%s\:\:%s'.rst
    messages/undefined-constant-%s::%s.rst

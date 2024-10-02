@@ -67,9 +67,6 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/attempt-to-unset-static-property-a::$x.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/attempt-to-unset-static-property.html</loc>
- </url>
- <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/attribute-class-&quot;%s&quot;-not-found.html</loc>
  </url>
  <url>
@@ -478,10 +475,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/typed-property-%s\:\:$%s-must-not-be-accessed-before-initialization.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/typed-property-x\:\:$y-must-not-be-accessed-before-initialization.html</loc>
- </url>
- <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/typed-static-property-x::$y-must-not-be-accessed-before-initialization.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/typed-static-property-%s::$%s-must-not-be-accessed-before-initialization.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/undefined-array-key.html</loc>

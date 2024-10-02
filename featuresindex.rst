@@ -80,6 +80,7 @@ Features index
    * coalesce
 
       * :ref:`typed-property-%s::$%s-must-not-be-accessed-before-initialization`
+      * :ref:`typed-static-property-%s::$%s-must-not-be-accessed-before-initialization`
 
 
    * conditional-structure
@@ -127,6 +128,7 @@ Features index
 
       * :ref:`property-hook-list-must-not-be-empty`
       * :ref:`typed-property-%s::$%s-must-not-be-accessed-before-initialization`
+      * :ref:`typed-static-property-%s::$%s-must-not-be-accessed-before-initialization`
 
 
    * exception
@@ -214,6 +216,7 @@ Features index
    * isset
 
       * :ref:`typed-property-%s::$%s-must-not-be-accessed-before-initialization`
+      * :ref:`typed-static-property-%s::$%s-must-not-be-accessed-before-initialization`
 
 
    * iterator
@@ -307,7 +310,6 @@ Features index
 
       * :ref:`interfaces-may-not-include-properties`
       * :ref:`property-%s::$%s-cannot-have-type-%s`
-      * :ref:`typed-property-x::$y-must-not-be-accessed-before-initialization`
 
 
    * property hook
@@ -412,7 +414,6 @@ Features index
    * type
 
       * :ref:`implicitly-marking-parameter-$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead`
-      * :ref:`typed-property-x::$y-must-not-be-accessed-before-initialization`
 
 
    * types

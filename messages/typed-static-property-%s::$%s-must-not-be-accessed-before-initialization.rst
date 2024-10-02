@@ -1,16 +1,16 @@
-.. _typed-property-%s\:\:$%s-must-not-be-accessed-before-initialization:
+.. _typed-static-property-%s::$%s-must-not-be-accessed-before-initialization:
 
-Typed property %s::$%s must not be accessed before initialization
------------------------------------------------------------------
+Typed static property %s::$%s must not be accessed before initialization
+------------------------------------------------------------------------
  
 	.. meta::
 		:description lang=en:
-			Typed property %s::$%s must not be accessed before initialization: Typed properties are undefined until they are assigned for the first time.
+			Typed static property %s::$%s must not be accessed before initialization: Typed static properties are undefined until they are assigned for the first time.
 
 Description
 ___________
  
-Typed properties are undefined until they are assigned for the first time. Such happens with a default value, or at the first assignation. 
+Typed static properties are undefined until they are assigned for the first time. Such happens with a default value, or at the first assignation. 
 
 The difference with untyped values, is that PHP emits that error when the property is not typed. On the other hand, an undefined property gets a NULL value instead. 
 
@@ -25,11 +25,10 @@ _______
    <?php
    
    class x {
-   	public int $p;
+   	public static int $p;
    }
    
-   $x = new x;
-   echo $x->p;
+   echo x::$p;
    
    ?>
 
@@ -44,4 +43,4 @@ Related Error Messages
 ______________________
 
 + :ref:`attempt-to-unset-static-property-%s::$%s`
-+ :ref:`typed-static-property-%s::$%s-must-not-be-accessed-before-initialization`
++ :ref:`typed-property-%s::$%s-must-not-be-accessed-before-initialization`
