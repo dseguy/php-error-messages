@@ -211,6 +211,10 @@ foreach($files as $file) {
 					$reciproq[$related . ' - ' . $target] = $target;
 				}
 			}
+			
+			if ($target === $related) {
+				buildlog("Remove self related in $file");
+			}
 		}
 		
 		// @todo : make and chedk the way back too
@@ -245,6 +249,7 @@ foreach($files as $file) {
 
 if (!empty($reciproq)) {
 	foreach($reciproq as $origin => $target) {
+		[$origin, $targe] = explode(' - ', $origin);
 		buildlog("$origin lacks a related[] to $target");
 		++$warnings;
 	}
