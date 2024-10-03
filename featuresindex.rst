@@ -316,6 +316,11 @@ Features index
       * :ref:`property-hook-cannot-be-both-final-and-private`
 
 
+   * promoted
+
+      * :ref:`cannot-declare-variadic-promoted-property`
+
+
    * promoted-property
 
       * :ref:`cannot-declare-promoted-property-outside-a-constructor`
@@ -324,6 +329,7 @@ Features index
    * property
 
       * :ref:`accessing-static-trait-property-%s::$%s-is-deprecated`
+      * :ref:`cannot-declare-variadic-promoted-property`
       * :ref:`interfaces-may-not-include-properties`
       * :ref:`property-%s::$%s-cannot-have-type-%s`
 
@@ -473,6 +479,7 @@ Features index
    * variadic
 
       * :ref:`array_merge()-does-not-accept-unknown-named-parameters`
+      * :ref:`cannot-declare-variadic-promoted-property`
 
 
    * virtual property

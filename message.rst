@@ -43,6 +43,8 @@ PHP Error Messages
    messages/cannot-declare-hooks-for-static-property.rst
    messages/cannot-declare-promoted-property-in-an-abstract-constructor.rst
    messages/cannot-declare-promoted-property-outside-a-constructor.rst
+   messages/cannot-declare-self-referencing-constant.rst
+   messages/cannot-declare-variadic-promoted-property.rst
    messages/cannot-instantiate-enum-%s.rst
    messages/cannot-instantiate-interface-%s.rst
    messages/cannot-instantiate-trait-t.rst
@@ -108,6 +110,7 @@ PHP Error Messages
    messages/fetching-properties-on-non-enums-in-constant-expressions-is-not-allowed.rst
    messages/ffi-api-is-restricted-by-"ffi.enable"-configuration-directive.rst
    messages/foreach()-argument-must-be-of-type-array|object.rst
+   messages/generator-return-type-must-be-a-supertype-of-generator.rst
    messages/has-#[\override]-attribute,-but-no-matching-parent-method-exists.rst
    messages/hooked-properties-cannot-be-readonly.rst
    messages/illegal-class-name.rst
@@ -169,6 +172,7 @@ PHP Error Messages
    messages/undefined-array-key.rst
    messages/undefined-class-constant-'%s\:\:%s'.rst
    messages/undefined-constant-%s::%s.rst
+   messages/undefined-constant-"%s.rst
    messages/undefined-offset.rst
    messages/undefined-property:-%s::$%s.rst
    messages/undefined-variable.rst

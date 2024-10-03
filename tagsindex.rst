@@ -65,6 +65,11 @@ Tag index
       * :ref:`could-not-find-trait-%s`
 
 
+   * constant
+
+      * :ref:`undefined-constant-\"%s`
+
+
    * edge case
 
       * :ref:`is-an-invalid-class-name`
