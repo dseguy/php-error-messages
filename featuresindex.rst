@@ -83,6 +83,11 @@ Features index
       * :ref:`illegal-offset-type`
 
 
+   * character
+
+      * :ref:`cannot-assign-an-empty-string-to-a-string-offset`
+
+
    * class
 
       * :ref:`%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed`
@@ -461,6 +466,7 @@ Features index
 
       * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-deprecated`
       * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported`
+      * :ref:`cannot-assign-an-empty-string-to-a-string-offset`
       * :ref:`cannot-use-string-offset-as-an-array`
       * :ref:`cannot-use-string-offset-as-an-object`
       * :ref:`uninitialized-string-offset`

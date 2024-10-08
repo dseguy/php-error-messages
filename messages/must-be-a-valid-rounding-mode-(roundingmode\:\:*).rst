@@ -1,4 +1,4 @@
-.. _must-be-a-valid-rounding-mode-(roundingmode::*):
+.. _must-be-a-valid-rounding-mode-(roundingmode\:\:*):
 
 must be a valid rounding mode (RoundingMode::*)
 -----------------------------------------------

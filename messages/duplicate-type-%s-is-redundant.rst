@@ -40,3 +40,4 @@ Related Error Messages
 ______________________
 
 + :ref:`type-contains-both-true-and-false,-bool-must-be-used-instead`
++ :ref:`type-%s-contains-both-iterable-and-array`

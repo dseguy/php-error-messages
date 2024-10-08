@@ -40,6 +40,7 @@ PHP Error Messages
    messages/cannot-access-trait-constant-%s::%s-directly.rst
    messages/cannot-access-trait-constant-t::x-directly.rst
    messages/cannot-acquire-reference-to-readonly-property.rst
+   messages/cannot-assign-an-empty-string-to-a-string-offset.rst
    messages/cannot-be-a-class-constant.rst
    messages/cannot-call-constructor.rst
    messages/cannot-declare-hooks-for-static-property.rst
@@ -138,7 +139,7 @@ PHP Error Messages
    messages/multiple-access-type-modifiers-are-not-allowed.rst
    messages/multiple-readonly-modifiers-are-not-allowed.rst
    messages/multiple-static-modifiers-are-not-allowed.rst
-   messages/must-be-a-valid-rounding-mode-(roundingmode::*).rst
+   messages/must-be-a-valid-rounding-mode-(roundingmode\:\:*).rst
    messages/named-parameter-$x-overwrites-previous-argument.rst
    messages/never-cannot-be-used-as-a-parameter-type.rst
    messages/never-returning-function-must-not-implicitly-return.rst
@@ -174,6 +175,7 @@ PHP Error Messages
    messages/the-(unset)-cast-is-no-longer-supported.rst
    messages/traits-cannot-have-constants.rst
    messages/trying-to-access-array-offset-on-%s.rst
+   messages/type-%s-contains-both-iterable-and-array.rst
    messages/type-contains-both-true-and-false,-bool-must-be-used-instead.rst
    messages/typed-property-%s\:\:$%s-must-not-be-accessed-before-initialization.rst
    messages/typed-static-property-%s::$%s-must-not-be-accessed-before-initialization.rst
