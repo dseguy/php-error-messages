@@ -6,6 +6,7 @@ PHP Error Messages
    :caption: Contents:
 
    messages/%s%s%s()-does-not-accept-unknown-named-parameters.rst
+   messages/%s():-implicitly-marking-parameter-$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead.rst
    messages/%s():-returning-by-reference-from-a-void-function-is-deprecated.rst
    messages/%s-%s-inherits-both-%s::%s-and-%s::%s.rst
    messages/%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed.rst
@@ -111,18 +112,18 @@ PHP Error Messages
    messages/destructors-cannot-declare-a-return-type.rst
    messages/duplicate-declaration-of-static-variable-$%s.rst
    messages/duplicate-named-parameter-$%s.rst
-   messages/duplicate-type-false-is-redundant.rst
+   messages/duplicate-type-%s-is-redundant.rst
    messages/fetching-properties-on-non-enums-in-constant-expressions-is-not-allowed.rst
    messages/ffi-api-is-restricted-by-"ffi.enable"-configuration-directive.rst
    messages/foreach()-argument-must-be-of-type-array|object.rst
    messages/generator-return-type-must-be-a-supertype-of-generator.rst
+   messages/get_defined_functions():-setting-$exclude_disabled-to-false-has-no-effect.rst
    messages/has-#[\override]-attribute,-but-no-matching-parent-method-exists.rst
    messages/hooked-properties-cannot-be-readonly.rst
    messages/illegal-class-name.rst
    messages/illegal-offset-type.rst
    messages/illegal-string-offset.rst
    messages/implicit-conversion-from-float-string.rst
-   messages/implicitly-marking-parameter-$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead.rst
    messages/increment-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php.rst
    messages/indirect-modification-of-overloaded-element-of-%s-has-no-effect.rst
    messages/indirect-modification-of-overloaded-property-%s::$%s-has-no-effect.rst
@@ -173,6 +174,7 @@ PHP Error Messages
    messages/the-(unset)-cast-is-no-longer-supported.rst
    messages/traits-cannot-have-constants.rst
    messages/trying-to-access-array-offset-on-%s.rst
+   messages/type-contains-both-true-and-false,-bool-must-be-used-instead.rst
    messages/typed-property-%s\:\:$%s-must-not-be-accessed-before-initialization.rst
    messages/typed-static-property-%s::$%s-must-not-be-accessed-before-initialization.rst
    messages/undefined-array-key.rst

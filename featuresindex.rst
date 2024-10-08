@@ -145,6 +145,16 @@ Features index
       * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported`
 
 
+   * default
+
+      * :ref:`default-value-for-property-of-type-int-may-not-be-null.-use-the-nullable-type-?int-to-allow-null-default-value`
+
+
+   * deprecation
+
+      * :ref:`get_defined_functions():-setting-$exclude_disabled-to-false-has-no-effect`
+
+
    * die
 
       * :ref:`never-returning-function-must-not-implicitly-return`
@@ -330,6 +340,11 @@ Features index
       * :ref:`named-parameter-$x-overwrites-previous-argument`
 
 
+   * parameter removal
+
+      * :ref:`get_defined_functions():-setting-$exclude_disabled-to-false-has-no-effect`
+
+
    * parenthesis
 
       * :ref:`unparenthesized-\`a-?-b-:-c-?-d-:-e\`-is-not-supported.`
@@ -357,6 +372,7 @@ Features index
 
       * :ref:`accessing-static-trait-property-%s::$%s-is-deprecated`
       * :ref:`cannot-declare-variadic-promoted-property`
+      * :ref:`default-value-for-property-of-type-int-may-not-be-null.-use-the-nullable-type-?int-to-allow-null-default-value`
       * :ref:`interfaces-may-not-include-properties`
       * :ref:`property-%s::$%s-cannot-have-type-%s`
 
@@ -476,7 +492,8 @@ Features index
 
    * type
 
-      * :ref:`implicitly-marking-parameter-$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead`
+      * :ref:`%s():-implicitly-marking-parameter-$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead`
+      * :ref:`duplicate-type-%s-is-redundant`
 
 
    * types

@@ -4,6 +4,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%s%s%s()-does-not-accept-unknown-named-parameters.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/%s():-implicitly-marking-parameter-$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%s():-returning-by-reference-from-a-void-function-is-deprecated.html</loc>
  </url>
  <url>
@@ -319,7 +322,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/duplicate-named-parameter-$%s.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/duplicate-type-false-is-redundant.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/duplicate-type-%s-is-redundant.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/fetching-properties-on-non-enums-in-constant-expressions-is-not-allowed.html</loc>
@@ -332,6 +335,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/generator-return-type-must-be-a-supertype-of-generator.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/get_defined_functions():-setting-$exclude_disabled-to-false-has-no-effect.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/has-#[\override]-attribute,-but-no-matching-parent-method-exists.html</loc>
@@ -350,9 +356,6 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/implicit-conversion-from-float-string.html</loc>
- </url>
- <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/implicitly-marking-parameter-$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/increment-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php.html</loc>
@@ -503,6 +506,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/trying-to-access-array-offset-on-%s.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/type-contains-both-true-and-false,-bool-must-be-used-instead.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/typed-property-%s\:\:$%s-must-not-be-accessed-before-initialization.html</loc>
