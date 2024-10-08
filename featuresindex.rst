@@ -28,6 +28,11 @@ Features index
       * :ref:`undefined-offset`
 
 
+   * array syntax
+
+      * :ref:`cannot-use-string-offset-as-an-array`
+
+
    * array-merge
 
       * :ref:`array_merge()-does-not-accept-unknown-named-parameters`
@@ -305,6 +310,11 @@ Features index
       * :ref:`cannot-use-object-of-type-%s-as-array`
 
 
+   * object syntax
+
+      * :ref:`cannot-use-string-offset-as-an-object`
+
+
    * object-syntax
 
       * :ref:`call-to-a-member-function-method()-on-string`
@@ -435,6 +445,8 @@ Features index
 
       * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-deprecated`
       * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported`
+      * :ref:`cannot-use-string-offset-as-an-array`
+      * :ref:`cannot-use-string-offset-as-an-object`
       * :ref:`uninitialized-string-offset`
 
 

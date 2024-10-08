@@ -81,6 +81,8 @@ PHP Error Messages
    messages/cannot-use-positional-argument-after-argument-unpacking.rst
    messages/cannot-use-positional-argument-after-named-argument-during-unpacking.rst
    messages/cannot-use-positional-argument-after-named-argument.rst
+   messages/cannot-use-string-offset-as-an-array.rst
+   messages/cannot-use-string-offset-as-an-object.rst
    messages/cannot-use-temporary-expression-in-write-context.rst
    messages/cannot-use-the-abstract-modifier-on-a-property-hook.rst
    messages/cannot-use-the-abstract-modifier-on-a-property.rst

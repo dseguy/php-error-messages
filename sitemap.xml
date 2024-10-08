@@ -229,6 +229,12 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-positional-argument-after-named-argument.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-string-offset-as-an-array.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-string-offset-as-an-object.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-temporary-expression-in-write-context.html</loc>
  </url>
  <url>
