@@ -40,6 +40,7 @@ PHP Error Messages
    messages/cannot-access-trait-constant-t::x-directly.rst
    messages/cannot-acquire-reference-to-readonly-property.rst
    messages/cannot-be-a-class-constant.rst
+   messages/cannot-call-constructor.rst
    messages/cannot-declare-hooks-for-static-property.rst
    messages/cannot-declare-promoted-property-in-an-abstract-constructor.rst
    messages/cannot-declare-promoted-property-outside-a-constructor.rst
@@ -68,6 +69,7 @@ PHP Error Messages
    messages/cannot-use-'readonly'-as-method-modifier.rst
    messages/cannot-use-::class-with-dynamic-class-name.rst
    messages/cannot-use-[]-for-reading.rst
+   messages/cannot-use-a-scalar-value-as-an-array.rst
    messages/cannot-use-empty-array-elements-in-arrays.rst
    messages/cannot-use-empty-array-entries-in-keyed-array-assignment.rst
    messages/cannot-use-empty-list.rst
@@ -84,6 +86,7 @@ PHP Error Messages
    messages/cannot-use-the-abstract-modifier-on-a-property.rst
    messages/cannot-use-the-final-modifier-on-a-property.rst
    messages/cannot-use-try-without-catch-or-finally.rst
+   messages/cannot-use-variable-$%s-twice.rst
    messages/case-%s::%s-does-not-exist.rst
    messages/class-%s-cannot-implement-both-iterator-and-iteratoraggregate-at-the-same-time.rst
    messages/class-%s-is-not-a-trait.rst
@@ -114,6 +117,7 @@ PHP Error Messages
    messages/has-#[\override]-attribute,-but-no-matching-parent-method-exists.rst
    messages/hooked-properties-cannot-be-readonly.rst
    messages/illegal-class-name.rst
+   messages/illegal-offset-type.rst
    messages/illegal-string-offset.rst
    messages/implicit-conversion-from-float-string.rst
    messages/implicitly-marking-parameter-$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead.rst

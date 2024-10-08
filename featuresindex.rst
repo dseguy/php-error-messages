@@ -24,6 +24,7 @@ Features index
       * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported`
       * :ref:`cannot-unpack-array-with-string-keys`
       * :ref:`cannot-use-object-of-type-%s-as-array`
+      * :ref:`illegal-offset-type`
       * :ref:`undefined-offset`
 
 
@@ -72,6 +73,11 @@ Features index
       * :ref:`case-%s::%s-does-not-exist`
 
 
+   * cast
+
+      * :ref:`illegal-offset-type`
+
+
    * class
 
       * :ref:`%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed`
@@ -85,6 +91,11 @@ Features index
       * :ref:`traits-cannot-have-constants`
       * :ref:`undefined-class-constant-\'%s::%s\'`
       * :ref:`undefined-constant-%s::%s`
+
+
+   * closure
+
+      * :ref:`cannot-use-variable-$%s-twice`
 
 
    * coalesce
@@ -111,6 +122,11 @@ Features index
    * constant-scalar-expression
 
       * :ref:`constant-expression-contains-invalid-operations`
+
+
+   * constructor
+
+      * :ref:`cannot-call-constructor`
 
 
    * continue
@@ -199,6 +215,7 @@ Features index
    * index
 
       * :ref:`cannot-use-positional-argument-after-named-argument-during-unpacking`
+      * :ref:`illegal-offset-type`
 
 
    * inheritance
@@ -362,6 +379,7 @@ Features index
    * reference
 
       * :ref:`an-iterator-cannot-be-used-with-foreach-by-reference`
+      * :ref:`cannot-use-variable-$%s-twice`
       * :ref:`only-variable-references-should-be-yielded-by-reference`
 
 
@@ -385,6 +403,11 @@ Features index
    * rounding
 
       * :ref:`must-be-a-valid-rounding-mode-(roundingmode::*)`
+
+
+   * scalar
+
+      * :ref:`cannot-use-a-scalar-value-as-an-array`
 
 
    * spread

@@ -83,7 +83,9 @@ Tag index
 
    * execution
 
+      * :ref:`cannot-call-constructor`
       * :ref:`cannot-override-final-property-hook-%s::%s()`
+      * :ref:`illegal-offset-type`
       * :ref:`never-returning-function-must-not-implicitly-return`
 
 

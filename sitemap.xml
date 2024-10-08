@@ -106,6 +106,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-be-a-class-constant.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-call-constructor.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-declare-hooks-for-static-property.html</loc>
  </url>
  <url>
@@ -190,6 +193,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-[]-for-reading.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-a-scalar-value-as-an-array.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-empty-array-elements-in-arrays.html</loc>
  </url>
  <url>
@@ -236,6 +242,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-try-without-catch-or-finally.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-variable-$%s-twice.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/case-%s::%s-does-not-exist.html</loc>
@@ -326,6 +335,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/illegal-class-name.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/illegal-offset-type.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/illegal-string-offset.html</loc>
