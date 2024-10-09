@@ -136,10 +136,12 @@ PHP Error Messages
    messages/keys-must-be-of-type-int|string-during-argument-unpacking-..rst
    messages/keys-must-be-of-type-int|string-during-array-unpacking.rst
    messages/label-'%s'-already-defined.rst
+   messages/match-expressions-may-only-contain-one-default-arm.rst
    messages/multiple-access-type-modifiers-are-not-allowed.rst
    messages/multiple-readonly-modifiers-are-not-allowed.rst
    messages/multiple-static-modifiers-are-not-allowed.rst
    messages/must-be-a-valid-rounding-mode-(roundingmode\:\:*).rst
+   messages/must-contain-at-least-one-element.rst
    messages/named-parameter-$x-overwrites-previous-argument.rst
    messages/never-cannot-be-used-as-a-parameter-type.rst
    messages/never-returning-function-must-not-implicitly-return.rst
@@ -186,6 +188,7 @@ PHP Error Messages
    messages/undefined-offset.rst
    messages/undefined-property:-%s::$%s.rst
    messages/undefined-variable.rst
+   messages/unhandled-match-case-%s.rst
    messages/uninitialized-string-offset.rst
    messages/unknown-hook-"%s"-for-property-%s::$%s,-expected-"get"-or-"set".rst
    messages/unparenthesized-`a-?-b-:-c-?-d-:-e`-is-not-supported..rst

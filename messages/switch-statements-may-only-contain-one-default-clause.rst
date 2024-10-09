@@ -26,8 +26,7 @@ _______
    
    switch($a) {
        default:
-           default: 
-               
+       default: 
    }
    
    ?>
@@ -36,3 +35,8 @@ Solutions
 _________
 
 + Remove all defaults but one.
+
+Related Error Messages
+______________________
+
++ :ref:`match-expressions-may-only-contain-one-default-arm`

@@ -18,11 +18,17 @@ Features index
       * :ref:`only-hooked-properties-may-be-declared-abstract`
 
 
+   * append
+
+      * :ref:`cannot-use-[]-for-reading`
+
+
    * array
 
       * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-deprecated`
       * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported`
       * :ref:`cannot-unpack-array-with-string-keys`
+      * :ref:`cannot-use-[]-for-reading`
       * :ref:`cannot-use-object-of-type-%s-as-array`
       * :ref:`illegal-offset-type`
       * :ref:`undefined-offset`
@@ -38,7 +44,7 @@ Features index
       * :ref:`array_merge()-does-not-accept-unknown-named-parameters`
 
 
-   * assignment
+   * assignation
 
       * :ref:`cannot-re-assign-$this`
 
@@ -103,6 +109,11 @@ Features index
       * :ref:`undefined-constant-%s::%s`
 
 
+   * class-constant
+
+      * :ref:`cannot-be-a-class-constant`
+
+
    * closure
 
       * :ref:`cannot-use-variable-$%s-twice`
@@ -155,7 +166,13 @@ Features index
       * :ref:`default-value-for-property-of-type-int-may-not-be-null.-use-the-nullable-type-?int-to-allow-null-default-value`
 
 
-   * deprecation
+   * definition
+
+      * :ref:`redefinition-of-parameter-$b`
+      * :ref:`undefined-property:-%s::$%s`
+
+
+   * deprecated
 
       * :ref:`get_defined_functions():-setting-$exclude_disabled-to-false-has-no-effect`
 
@@ -175,6 +192,11 @@ Features index
       * :ref:`property-hook-list-must-not-be-empty`
       * :ref:`typed-property-%s::$%s-must-not-be-accessed-before-initialization`
       * :ref:`typed-static-property-%s::$%s-must-not-be-accessed-before-initialization`
+
+
+   * enum
+
+      * :ref:`cannot-instantiate-enum-%s`
 
 
    * exception
@@ -243,6 +265,12 @@ Features index
       * :ref:`readonly-class-bar-cannot-extend-non-readonly-class-foo`
 
 
+   * instantiate
+
+      * :ref:`cannot-instantiate-interface-%s`
+      * :ref:`cannot-instantiate-trait-t`
+
+
    * interace
 
       * :ref:`interfaces-may-not-include-properties`
@@ -252,6 +280,7 @@ Features index
 
       * :ref:`%s-%s-inherits-both-%s::%s-and-%s::%s`
       * :ref:`b-cannot-implement-a---it-is-not-an-interface`
+      * :ref:`cannot-instantiate-interface-%s`
       * :ref:`datetimeinterface-can\\'t-be-implemented-by-user-classes`
 
 
@@ -287,6 +316,12 @@ Features index
       * :ref:`cannot-use-the-final-modifier-on-a-property`
       * :ref:`property-cannot-be-both-final-and-private`
       * :ref:`property-hook-cannot-be-both-final-and-private`
+
+
+   * match
+
+      * :ref:`match-expressions-may-only-contain-one-default-arm`
+      * :ref:`unhandled-match-case-%s`
 
 
    * mixed
@@ -343,6 +378,7 @@ Features index
    * parameter
 
       * :ref:`named-parameter-$x-overwrites-previous-argument`
+      * :ref:`redefinition-of-parameter-$b`
 
 
    * parameter removal
@@ -380,6 +416,7 @@ Features index
       * :ref:`default-value-for-property-of-type-int-may-not-be-null.-use-the-nullable-type-?int-to-allow-null-default-value`
       * :ref:`interfaces-may-not-include-properties`
       * :ref:`property-%s::$%s-cannot-have-type-%s`
+      * :ref:`undefined-property:-%s::$%s`
 
 
    * property hook
@@ -399,6 +436,11 @@ Features index
 
       * :ref:`cannot-declare-hooks-for-static-property`
       * :ref:`cannot-redeclare-property-hook`
+
+
+   * reading
+
+      * :ref:`cannot-use-[]-for-reading`
 
 
    * readonly
@@ -472,6 +514,11 @@ Features index
       * :ref:`uninitialized-string-offset`
 
 
+   * switch
+
+      * :ref:`switch-statements-may-only-contain-one-default-clause`
+
+
    * ternary operator
 
       * :ref:`unparenthesized-\`a-?-b-:-c-?-d-:-e\`-is-not-supported.`
@@ -493,6 +540,7 @@ Features index
       * :ref:`accessing-static-trait-property-%s::$%s-is-deprecated`
       * :ref:`calling-static-trait-method-%s::%s-is-deprecated`
       * :ref:`cannot-access-trait-constant-%s::%s-directly`
+      * :ref:`cannot-instantiate-trait-t`
       * :ref:`traits-cannot-have-constants`
 
 
