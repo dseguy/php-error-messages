@@ -35,6 +35,7 @@ PHP Error Messages
    messages/call-to-a-member-function-method()-on-string.rst
    messages/call-to-undefined-function-exit().rst
    messages/call-to-undefined-function.rst
+   messages/calling-get_class()-without-arguments-is-deprecated.rst
    messages/calling-get_parent_class()-without-arguments-is-deprecated.rst
    messages/calling-static-trait-method-%s::%s-is-deprecated.rst
    messages/cannot-access-trait-constant-%s::%s-directly.rst
@@ -160,7 +161,9 @@ PHP Error Messages
    messages/property-cannot-be-both-final-and-private.rst
    messages/property-hook-cannot-be-both-final-and-private.rst
    messages/property-hook-list-must-not-be-empty.rst
+   messages/property-with-asymmetric-visibility-%s::$%s-must-have-type.rst
    messages/property-x::$p-cannot-have-type-void.rst
+   messages/readonly-class-%s-cannot-use-trait-with-a-non-readonly-property-%s::$%s.rst
    messages/readonly-class-bar-cannot-extend-non-readonly-class-foo.rst
    messages/readonly-property-%s::$%s-cannot-have-default-value.rst
    messages/redefinition-of-parameter-$b.rst
@@ -170,6 +173,7 @@ PHP Error Messages
    messages/returning-by-reference-from-a-void-function-is-deprecated.rst
    messages/spread-operator-is-not-supported-in-assignments.rst
    messages/static-function-%s%s%s()-cannot-be-abstract.rst
+   messages/static-property-%s::$%s-cannot-be-readonly.rst
    messages/static-property-x::$y-cannot-be-readonly.rst
    messages/strict_types-declaration-must-be-the-very-first-statement-in-the-script.rst
    messages/switch-statements-may-only-contain-one-default-clause.rst

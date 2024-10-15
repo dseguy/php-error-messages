@@ -49,8 +49,14 @@ Features index
       * :ref:`cannot-re-assign-$this`
 
 
+   * asymmetric property
+
+      * :ref:`property-with-asymmetric-visibility-%s::$%s-must-have-type`
+
+
    * asymmetric visibility
 
+      * :ref:`%s-virtual-property-%s::$%s-must-not-specify-asymmetric-visibility`
       * :ref:`visibility-of-property-%s::$%s-must-not-be-weaker-than-set-visibility`
 
 
@@ -97,6 +103,7 @@ Features index
    * class
 
       * :ref:`%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed`
+      * :ref:`calling-get_class()-without-arguments-is-deprecated`
 
 
    * class constant
@@ -123,6 +130,11 @@ Features index
 
       * :ref:`typed-property-%s::$%s-must-not-be-accessed-before-initialization`
       * :ref:`typed-static-property-%s::$%s-must-not-be-accessed-before-initialization`
+
+
+   * compile-time
+
+      * :ref:`calling-get_class()-without-arguments-is-deprecated`
 
 
    * conditional-structure
@@ -177,11 +189,6 @@ Features index
       * :ref:`get_defined_functions():-setting-$exclude_disabled-to-false-has-no-effect`
 
 
-   * die
-
-      * :ref:`never-returning-function-must-not-implicitly-return`
-
-
    * ellipsis
 
       * :ref:`cannot-unpack-array-with-string-keys`
@@ -202,6 +209,11 @@ Features index
    * exception
 
       * :ref:`cannot-use-try-without-catch-or-finally`
+
+
+   * execution-time
+
+      * :ref:`calling-get_class()-without-arguments-is-deprecated`
 
 
    * exit
@@ -339,6 +351,11 @@ Features index
       * :ref:`call-to-undefined-function`
 
 
+   * native
+
+      * :ref:`only-internal-classes-can-be-registered-as-compiler-attribute`
+
+
    * never
 
       * :ref:`cannot-use-\'never\'-as-class-name-as-it-is-reserved`
@@ -375,10 +392,16 @@ Features index
       * :ref:`uninitialized-string-offset`
 
 
+   * optional-parameter
+
+      * :ref:`required-parameter-$%s-follows-optional-parameter-$%s`
+
+
    * parameter
 
       * :ref:`named-parameter-$x-overwrites-previous-argument`
       * :ref:`redefinition-of-parameter-$b`
+      * :ref:`required-parameter-$%s-follows-optional-parameter-$%s`
 
 
    * parameter removal
@@ -422,20 +445,20 @@ Features index
    * property hook
 
       * :ref:`abstract-property-hook-cannot-have-body`
-      * :ref:`cannot-specify-default-value-for-virtual-hooked-property`
+      * :ref:`cannot-specify-default-value-for-virtual-hooked-property-%s::$%s`
       * :ref:`cannot-unset-hooked-property-%s::$%s`
       * :ref:`cannot-use-the-abstract-modifier-on-a-property`
       * :ref:`hooked-properties-cannot-be-readonly`
       * :ref:`interfaces-may-only-include-hooked-properties`
       * :ref:`non-abstract-property-hook-must-have-a-body`
       * :ref:`only-hooked-properties-may-be-declared-abstract`
-      * :ref:`unknown-hook-"%s"-for-property-%s::$%s,-expected-"get"-or-"set"`
 
 
    * property-hook
 
       * :ref:`cannot-declare-hooks-for-static-property`
       * :ref:`cannot-redeclare-property-hook`
+      * :ref:`unknown-hook-"%s"-for-property-%s::$%s,-expected-"get"-or-"set"`
 
 
    * reading
@@ -446,7 +469,9 @@ Features index
    * readonly
 
       * :ref:`hooked-properties-cannot-be-readonly`
+      * :ref:`readonly-class-%s-cannot-use-trait-with-a-non-readonly-property-%s::$%s`
       * :ref:`readonly-class-bar-cannot-extend-non-readonly-class-foo`
+      * :ref:`static-property-%s::$%s-cannot-be-readonly`
 
 
    * reference
@@ -491,6 +516,7 @@ Features index
    * static
 
       * :ref:`non-static-method-x::goo()-cannot-be-called-statically-`
+      * :ref:`static-property-%s::$%s-cannot-be-readonly`
       * :ref:`static-property-x::$y-cannot-be-readonly`
 
 
@@ -541,6 +567,8 @@ Features index
       * :ref:`calling-static-trait-method-%s::%s-is-deprecated`
       * :ref:`cannot-access-trait-constant-%s::%s-directly`
       * :ref:`cannot-instantiate-trait-t`
+      * :ref:`readonly-class-%s-cannot-use-trait-with-a-non-readonly-property-%s::$%s`
+      * :ref:`required-trait-t2-wasn\'t-added-to-t`
       * :ref:`traits-cannot-have-constants`
 
 
@@ -590,7 +618,8 @@ Features index
 
    * virtual property
 
-      * :ref:`cannot-specify-default-value-for-virtual-hooked-property`
+      * :ref:`%s-virtual-property-%s::$%s-must-not-specify-asymmetric-visibility`
+      * :ref:`cannot-specify-default-value-for-virtual-hooked-property-%s::$%s`
 
 
    * visibility

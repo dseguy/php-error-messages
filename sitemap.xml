@@ -91,6 +91,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-function.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/calling-get_class()-without-arguments-is-deprecated.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/calling-get_parent_class()-without-arguments-is-deprecated.html</loc>
  </url>
  <url>
@@ -466,7 +469,13 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/property-hook-list-must-not-be-empty.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/property-with-asymmetric-visibility-%s::$%s-must-have-type.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/property-x::$p-cannot-have-type-void.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/readonly-class-%s-cannot-use-trait-with-a-non-readonly-property-%s::$%s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/readonly-class-bar-cannot-extend-non-readonly-class-foo.html</loc>
@@ -494,6 +503,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/static-function-%s%s%s()-cannot-be-abstract.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/static-property-%s::$%s-cannot-be-readonly.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/static-property-x::$y-cannot-be-readonly.html</loc>
