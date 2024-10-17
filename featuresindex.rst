@@ -18,6 +18,11 @@ Features index
       * :ref:`only-hooked-properties-may-be-declared-abstract`
 
 
+   * allowdynamicproperties
+
+      * :ref:`cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s`
+
+
    * append
 
       * :ref:`cannot-use-[]-for-reading`
@@ -49,14 +54,18 @@ Features index
       * :ref:`cannot-re-assign-$this`
 
 
-   * asymmetric property
+   * asymmetric visibility
+
+      * :ref:`%s-virtual-property-%s::$%s-must-not-specify-asymmetric-visibility`
+
+
+   * asymmetric-property
 
       * :ref:`property-with-asymmetric-visibility-%s::$%s-must-have-type`
 
 
-   * asymmetric visibility
+   * asymmetric-visibility
 
-      * :ref:`%s-virtual-property-%s::$%s-must-not-specify-asymmetric-visibility`
       * :ref:`visibility-of-property-%s::$%s-must-not-be-weaker-than-set-visibility`
 
 
@@ -104,21 +113,23 @@ Features index
 
       * :ref:`%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed`
       * :ref:`calling-get_class()-without-arguments-is-deprecated`
+      * :ref:`cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s`
+      * :ref:`illegal-class-name`
 
 
    * class constant
 
-      * :ref:`%s-%s-inherits-both-%s::%s-and-%s::%s`
-      * :ref:`%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed`
-      * :ref:`class-constant-%s::%s-cannot-have-type-%s`
-      * :ref:`traits-cannot-have-constants`
-      * :ref:`undefined-class-constant-\'%s::%s\'`
       * :ref:`undefined-constant-%s::%s`
 
 
    * class-constant
 
+      * :ref:`%s-%s-inherits-both-%s::%s-and-%s::%s`
+      * :ref:`%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed`
       * :ref:`cannot-be-a-class-constant`
+      * :ref:`class-constant-%s::%s-cannot-have-type-%s`
+      * :ref:`traits-cannot-have-constants`
+      * :ref:`undefined-class-constant-\'%s::%s\'`
 
 
    * closure
@@ -240,6 +251,7 @@ Features index
 
       * :ref:`an-iterator-cannot-be-used-with-foreach-by-reference`
       * :ref:`foreach()-argument-must-be-of-type-array|object`
+      * :ref:`invalid-argument-supplied-for-foreach()`
 
 
    * function
@@ -251,6 +263,7 @@ Features index
 
       * :ref:`\'goto\'-into-loop-or-switch-statement-is-disallowed`
       * :ref:`\'goto\'-to-undefined-label-\'%s\'`
+      * :ref:`label-\'%s\'-already-defined`
 
 
    * hook
@@ -293,6 +306,7 @@ Features index
       * :ref:`%s-%s-inherits-both-%s::%s-and-%s::%s`
       * :ref:`b-cannot-implement-a---it-is-not-an-interface`
       * :ref:`cannot-instantiate-interface-%s`
+      * :ref:`class-%s-cannot-implement-previously-implemented-interface-%s`
       * :ref:`datetimeinterface-can\\'t-be-implemented-by-user-classes`
 
 
@@ -315,6 +329,16 @@ Features index
    * keys
 
       * :ref:`cannot-unpack-array-with-string-keys`
+
+
+   * keyword
+
+      * :ref:`never-cannot-be-used-as-a-parameter-type`
+
+
+   * label
+
+      * :ref:`label-\'%s\'-already-defined`
 
 
    * list
@@ -341,6 +365,11 @@ Features index
       * :ref:`cannot-use-\'mixed\'-as-class-name-as-it-is-reserved`
 
 
+   * name
+
+      * :ref:`illegal-class-name`
+
+
    * named parameter
 
       * :ref:`%s%s%s()-does-not-accept-unknown-named-parameters`
@@ -359,10 +388,11 @@ Features index
    * never
 
       * :ref:`cannot-use-\'never\'-as-class-name-as-it-is-reserved`
+      * :ref:`never-cannot-be-used-as-a-parameter-type`
       * :ref:`never-returning-function-must-not-implicitly-return`
 
 
-   * new initializer
+   * new-in-initializer
 
       * :ref:`new-expressions-are-not-supported-in-this-context`
 
@@ -468,7 +498,9 @@ Features index
 
    * readonly
 
+      * :ref:`cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s`
       * :ref:`hooked-properties-cannot-be-readonly`
+      * :ref:`multiple-readonly-modifiers-are-not-allowed`
       * :ref:`readonly-class-%s-cannot-use-trait-with-a-non-readonly-property-%s::$%s`
       * :ref:`readonly-class-bar-cannot-extend-non-readonly-class-foo`
       * :ref:`static-property-%s::$%s-cannot-be-readonly`
@@ -515,6 +547,7 @@ Features index
 
    * static
 
+      * :ref:`multiple-static-modifiers-are-not-allowed`
       * :ref:`non-static-method-x::goo()-cannot-be-called-statically-`
       * :ref:`static-property-%s::$%s-cannot-be-readonly`
       * :ref:`static-property-x::$y-cannot-be-readonly`
@@ -563,6 +596,7 @@ Features index
    * trait
 
       * :ref:`%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed`
+      * :ref:`accessing-static-trait-property-%s::$%s-is-deprecated,-it-should-only-be-accessed-on-a-class-using-the-trait`
       * :ref:`accessing-static-trait-property-%s::$%s-is-deprecated`
       * :ref:`calling-static-trait-method-%s::%s-is-deprecated`
       * :ref:`cannot-access-trait-constant-%s::%s-directly`
@@ -624,6 +658,7 @@ Features index
 
    * visibility
 
+      * :ref:`multiple-access-type-modifiers-are-not-allowed`
       * :ref:`private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes`
 
 

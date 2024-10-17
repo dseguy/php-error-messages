@@ -20,6 +20,7 @@ PHP Error Messages
    messages/a-non-numeric-value-encountered.rst
    messages/abstract-property-hook-cannot-have-body.rst
    messages/access-to-undeclared-static-property-%s::$%s.rst
+   messages/accessing-static-trait-property-%s::$%s-is-deprecated,-it-should-only-be-accessed-on-a-class-using-the-trait.rst
    messages/accessing-static-trait-property-%s::$%s-is-deprecated.rst
    messages/an-iterator-cannot-be-used-with-foreach-by-reference.rst
    messages/array-and-string-offset-access-syntax-with-curly-braces-is-deprecated.rst
@@ -38,9 +39,11 @@ PHP Error Messages
    messages/calling-get_class()-without-arguments-is-deprecated.rst
    messages/calling-get_parent_class()-without-arguments-is-deprecated.rst
    messages/calling-static-trait-method-%s::%s-is-deprecated.rst
+   messages/cannot-access-parent::-when-current-class-scope-has-no-parent.rst
    messages/cannot-access-trait-constant-%s::%s-directly.rst
    messages/cannot-access-trait-constant-t::x-directly.rst
    messages/cannot-acquire-reference-to-readonly-property.rst
+   messages/cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s.rst
    messages/cannot-assign-an-empty-string-to-a-string-offset.rst
    messages/cannot-be-a-class-constant.rst
    messages/cannot-call-constructor.rst
@@ -94,6 +97,7 @@ PHP Error Messages
    messages/cannot-use-variable-$%s-twice.rst
    messages/case-%s::%s-does-not-exist.rst
    messages/class-%s-cannot-implement-both-iterator-and-iteratoraggregate-at-the-same-time.rst
+   messages/class-%s-cannot-implement-previously-implemented-interface-%s.rst
    messages/class-%s-is-not-a-trait.rst
    messages/class-"%s"-not-found.rst
    messages/class-b-cannot-implement-previously-implemented-interface-i.rst

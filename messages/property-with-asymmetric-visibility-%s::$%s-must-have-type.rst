@@ -20,7 +20,7 @@ _______
    <?php
    
    class x {
-   	private protected(set) $p;
+   	static protected(set) int $q;
    }
    
    ?>

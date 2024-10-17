@@ -46,6 +46,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/access-to-undeclared-static-property-%s::$%s.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/accessing-static-trait-property-%s::$%s-is-deprecated,-it-should-only-be-accessed-on-a-class-using-the-trait.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/accessing-static-trait-property-%s::$%s-is-deprecated.html</loc>
  </url>
  <url>
@@ -100,6 +103,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/calling-static-trait-method-%s::%s-is-deprecated.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-access-parent::-when-current-class-scope-has-no-parent.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-access-trait-constant-%s::%s-directly.html</loc>
  </url>
  <url>
@@ -107,6 +113,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-acquire-reference-to-readonly-property.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-assign-an-empty-string-to-a-string-offset.html</loc>
@@ -266,6 +275,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/class-%s-cannot-implement-both-iterator-and-iteratoraggregate-at-the-same-time.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/class-%s-cannot-implement-previously-implemented-interface-%s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/class-%s-is-not-a-trait.html</loc>

@@ -102,7 +102,6 @@ Tag index
    * goto
 
       * :ref:`\'goto\'-into-loop-or-switch-statement-is-disallowed`
-      * :ref:`label-\'%s\'-already-defined`
 
 
    * inheritence
