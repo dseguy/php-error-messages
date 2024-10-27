@@ -86,14 +86,22 @@ foreach($files as $file) {
 	}
 
 	if (!is_array($error->features)) {
-		print("No array for features in $file\n");
 		buildlog("No array for features in $file");
 		++$warnings;
 		continue;
 	} else {
+		if (empty(array_filter($error->features))) {
+			buildlog("No features in $file");
+			++$warnings;
+		}
 		foreach(array_filter($error->features) as $feature) {
 			$target = str_replace(array('errors/', '.ini'), '', $file);
 			$target = addcslashes($target, '`\'');
+			
+			if (!file_exists("../analyzeG3/human/en/Features/$feature.ini")) {
+				buildlog("No file feature known for $feature in ".addcslashes($file, '`\''));
+				++$warnings;
+			}
 			$features[$feature][] = $target;
 		}
 	}
