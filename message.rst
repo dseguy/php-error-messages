@@ -5,12 +5,14 @@ PHP Error Messages
    :maxdepth: 1
    :caption: Contents:
 
+   messages/"static::"-is-not-allowed-in-compile-time-constants.rst
    messages/%s%s%s()-does-not-accept-unknown-named-parameters.rst
    messages/%s():-implicitly-marking-parameter-$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead.rst
    messages/%s():-returning-by-reference-from-a-void-function-is-deprecated.rst
    messages/%s-%s-inherits-both-%s::%s-and-%s::%s.rst
    messages/%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed.rst
    messages/%s-cannot-use-%s---it-is-not-a-trait.rst
+   messages/%s-virtual-property-%s::$%s-must-not-specify-asymmetric-visibility.rst
    messages/'goto'-into-loop-or-switch-statement-is-disallowed.rst
    messages/'goto'-to-undefined-label-'%s'.rst
    messages/a-class-constant-must-not-be-called-class.-it-is-reserved-for-class-name-fetching.rst
@@ -27,6 +29,9 @@ PHP Error Messages
    messages/array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported.rst
    messages/array-callback-has-to-contain-indices-0-and-1.rst
    messages/array_merge()-does-not-accept-unknown-named-parameters.rst
+   messages/array_product():-multiplication-is-not-supported-on-type-array.rst
+   messages/array_product():-multiplication-is-not-supported-on-type-object.rst
+   messages/array_product():-multiplication-is-not-supported-on-type-string.rst
    messages/assignments-can-only-happen-to-writable-values.rst
    messages/attempt-to-unset-static-property-a::$x.rst
    messages/attribute-class-"%s"-not-found.rst
@@ -58,6 +63,7 @@ PHP Error Messages
    messages/cannot-load-module-"%s"-because-required-module-"%s"-is-not-loaded.rst
    messages/cannot-make-non-abstract-method-i::foo()-abstract-in-class-j.rst
    messages/cannot-mix-keyed-and-unkeyed-array-entries-in-assignments.rst
+   messages/cannot-modify-readonly-property-%s::$%s.rst
    messages/cannot-override-final-%s::%s()-with-%s::%s().rst
    messages/cannot-override-final-property-hook-%s::%s().rst
    messages/cannot-re-assign-$this.rst
@@ -138,6 +144,8 @@ PHP Error Messages
    messages/interfaces-may-only-include-hooked-properties.rst
    messages/invalid-argument-supplied-for-foreach().rst
    messages/is-an-invalid-class-name.rst
+   messages/jump-into-a-finally-block-is-disallowed.rst
+   messages/jump-out-of-a-finally-block-is-disallowed.rst
    messages/keys-must-be-of-type-int|string-during-argument-unpacking-..rst
    messages/keys-must-be-of-type-int|string-during-array-unpacking.rst
    messages/label-'%s'-already-defined.rst

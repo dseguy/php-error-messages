@@ -5,12 +5,12 @@ Indirect modification of overloaded element of %s has no effect
  
 	.. meta::
 		:description lang=en:
-			Indirect modification of overloaded element of %s has no effect: The variable $object is an object.
+			Indirect modification of overloaded element of %s has no effect: The variable ``$object`` is an object.
 
 Description
 ___________
  
-The variable $object is an object. Since it implements the ArrayAccess interface, it may also use the array syntax, for example with the brackets and index. 
+The variable ``$object`` is an object. Since it implements the ArrayAccess interface, it may also use the array syntax, for example with the brackets and index. 
 
 While the syntax makes $object looks like an array, not all operations are available. It is possible to get an index's value, or to give it a new value; but it is not possible to use the increment or decrement operators : those are both a get and a set, and this is not supported by the ArrayAccess interface.
 

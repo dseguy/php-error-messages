@@ -4,12 +4,6 @@ Tag index
 -----------------------------
 
 
-   * abstract
-
-      * :ref:`cannot-declare-promoted-property-in-an-abstract-constructor`
-      * :ref:`interface-%s-cannot-contain-non-abstract-method-%s()`
-
-
    * arrays
 
       * :ref:`automatic-conversion-of-false-to-array-is-deprecated`
@@ -104,11 +98,6 @@ Tag index
       * :ref:`\'goto\'-into-loop-or-switch-statement-is-disallowed`
 
 
-   * inheritence
-
-      * :ref:`cannot-declare-promoted-property-in-an-abstract-constructor`
-
-
    * iterator
 
       * :ref:`keys-must-be-of-type-int|string-during-argument-unpacking-.`
@@ -130,7 +119,6 @@ Tag index
 
       * :ref:`cannot-mix-keyed-and-unkeyed-array-entries-in-assignments`
       * :ref:`cannot-use-empty-list`
-      * :ref:`spread-operator-is-not-supported-in-assignments`
 
 
    * modernisation
@@ -154,11 +142,6 @@ Tag index
       * :ref:`illegal-string-offset`
 
 
-   * promoted
-
-      * :ref:`cannot-declare-promoted-property-in-an-abstract-constructor`
-
-
    * readonly
 
       * :ref:`cannot-acquire-reference-to-readonly-property`
@@ -167,12 +150,18 @@ Tag index
    * reference
 
       * :ref:`cannot-acquire-reference-to-readonly-property`
-      * :ref:`returning-by-reference-from-a-void-function-is-deprecated`
 
 
    * removed message
 
       * :ref:`traits-cannot-have-constants`
+
+
+   * silent-cast
+
+      * :ref:`array_product():-multiplication-is-not-supported-on-type-array`
+      * :ref:`array_product():-multiplication-is-not-supported-on-type-object`
+      * :ref:`array_product():-multiplication-is-not-supported-on-type-string`
 
 
    * special case
@@ -224,8 +213,3 @@ Tag index
 
       * :ref:`call-to-undefined-function`
       * :ref:`undefined-variable`
-
-
-   * void
-
-      * :ref:`returning-by-reference-from-a-void-function-is-deprecated`

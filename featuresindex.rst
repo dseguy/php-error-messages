@@ -12,10 +12,13 @@ Features index
    * abstract
 
       * :ref:`abstract-property-hook-cannot-have-body`
+      * :ref:`cannot-declare-promoted-property-in-an-abstract-constructor`
       * :ref:`cannot-make-non-abstract-method-i::foo()-abstract-in-class-j`
       * :ref:`cannot-use-the-abstract-modifier-on-a-property`
+      * :ref:`interface-%s-cannot-contain-non-abstract-method-%s()`
       * :ref:`non-abstract-property-hook-must-have-a-body`
       * :ref:`only-hooked-properties-may-be-declared-abstract`
+      * :ref:`static-function-%s%s%s()-cannot-be-abstract`
 
 
    * allowdynamicproperties
@@ -36,6 +39,9 @@ Features index
       * :ref:`cannot-use-[]-for-reading`
       * :ref:`cannot-use-object-of-type-%s-as-array`
       * :ref:`illegal-offset-type`
+      * :ref:`implicit-conversion-from-float-string`
+      * :ref:`indirect-modification-of-overloaded-element-of-%s-has-no-effect`
+      * :ref:`indirect-modification-of-overloaded-property-%s::$%s-has-no-effect`
       * :ref:`undefined-offset`
 
 
@@ -44,19 +50,14 @@ Features index
       * :ref:`cannot-use-string-offset-as-an-array`
 
 
-   * array-merge
-
-      * :ref:`array_merge()-does-not-accept-unknown-named-parameters`
-
-
    * assignation
 
       * :ref:`cannot-re-assign-$this`
 
 
-   * asymmetric visibility
+   * assignement
 
-      * :ref:`%s-virtual-property-%s::$%s-must-not-specify-asymmetric-visibility`
+      * :ref:`assignments-can-only-happen-to-writable-values`
 
 
    * asymmetric-property
@@ -66,6 +67,7 @@ Features index
 
    * asymmetric-visibility
 
+      * :ref:`%s-virtual-property-%s::$%s-must-not-specify-asymmetric-visibility`
       * :ref:`visibility-of-property-%s::$%s-must-not-be-weaker-than-set-visibility`
 
 
@@ -102,6 +104,7 @@ Features index
    * cast
 
       * :ref:`illegal-offset-type`
+      * :ref:`the-(unset)-cast-is-no-longer-supported`
 
 
    * character
@@ -178,7 +181,7 @@ Features index
       * :ref:`continue-operator-accepts-only-positive-integers`
 
 
-   * curly braces
+   * curly-brackets
 
       * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-deprecated`
       * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported`
@@ -233,18 +236,35 @@ Features index
       * :ref:`never-returning-function-must-not-implicitly-return`
 
 
+   * ffi
+
+      * :ref:`ffi-api-is-restricted-by-\"ffi.enable\"-configuration-directive`
+
+
    * final
 
       * :ref:`cannot-override-final-%s::%s()-with-%s::%s()`
+      * :ref:`cannot-override-final-property-hook-%s::%s()`
       * :ref:`cannot-use-the-final-modifier-on-a-property`
       * :ref:`private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes`
       * :ref:`property-cannot-be-both-final-and-private`
       * :ref:`property-hook-cannot-be-both-final-and-private`
 
 
+   * finally
+
+      * :ref:`jump-into-a-finally-block-is-disallowed`
+      * :ref:`jump-out-of-a-finally-block-is-disallowed`
+
+
    * first-class-callable
 
       * :ref:`array-callback-has-to-contain-indices-0-and-1`
+
+
+   * float
+
+      * :ref:`implicit-conversion-from-float-string`
 
 
    * foreach
@@ -263,6 +283,8 @@ Features index
 
       * :ref:`\'goto\'-into-loop-or-switch-statement-is-disallowed`
       * :ref:`\'goto\'-to-undefined-label-\'%s\'`
+      * :ref:`jump-into-a-finally-block-is-disallowed`
+      * :ref:`jump-out-of-a-finally-block-is-disallowed`
       * :ref:`label-\'%s\'-already-defined`
 
 
@@ -283,6 +305,7 @@ Features index
 
       * :ref:`cannot-use-positional-argument-after-named-argument-during-unpacking`
       * :ref:`illegal-offset-type`
+      * :ref:`implicit-conversion-from-float-string`
 
 
    * inheritance
@@ -290,15 +313,15 @@ Features index
       * :ref:`readonly-class-bar-cannot-extend-non-readonly-class-foo`
 
 
+   * inheritence
+
+      * :ref:`cannot-declare-promoted-property-in-an-abstract-constructor`
+
+
    * instantiate
 
       * :ref:`cannot-instantiate-interface-%s`
       * :ref:`cannot-instantiate-trait-t`
-
-
-   * interace
-
-      * :ref:`interfaces-may-not-include-properties`
 
 
    * interface
@@ -308,6 +331,8 @@ Features index
       * :ref:`cannot-instantiate-interface-%s`
       * :ref:`class-%s-cannot-implement-previously-implemented-interface-%s`
       * :ref:`datetimeinterface-can\\'t-be-implemented-by-user-classes`
+      * :ref:`interface-%s-cannot-contain-non-abstract-method-%s()`
+      * :ref:`interfaces-may-not-include-properties`
 
 
    * interpolation
@@ -338,6 +363,8 @@ Features index
 
    * label
 
+      * :ref:`jump-into-a-finally-block-is-disallowed`
+      * :ref:`jump-out-of-a-finally-block-is-disallowed`
       * :ref:`label-\'%s\'-already-defined`
 
 
@@ -345,6 +372,7 @@ Features index
 
       * :ref:`cannot-use-empty-array-elements-in-arrays`
       * :ref:`cannot-use-empty-array-entries-in-keyed-array-assignment`
+      * :ref:`spread-operator-is-not-supported-in-assignments`
 
 
    * magic method
@@ -370,9 +398,10 @@ Features index
       * :ref:`illegal-class-name`
 
 
-   * named parameter
+   * named-parameter
 
       * :ref:`%s%s%s()-does-not-accept-unknown-named-parameters`
+      * :ref:`array_merge()-does-not-accept-unknown-named-parameters`
 
 
    * namespace
@@ -419,12 +448,19 @@ Features index
 
    * offset
 
+      * :ref:`illegal-string-offset`
       * :ref:`uninitialized-string-offset`
 
 
    * optional-parameter
 
       * :ref:`required-parameter-$%s-follows-optional-parameter-$%s`
+
+
+   * overwrite
+
+      * :ref:`indirect-modification-of-overloaded-element-of-%s-has-no-effect`
+      * :ref:`indirect-modification-of-overloaded-property-%s::$%s-has-no-effect`
 
 
    * parameter
@@ -434,7 +470,7 @@ Features index
       * :ref:`required-parameter-$%s-follows-optional-parameter-$%s`
 
 
-   * parameter removal
+   * parameter-removal
 
       * :ref:`get_defined_functions():-setting-$exclude_disabled-to-false-has-no-effect`
 
@@ -452,19 +488,17 @@ Features index
       * :ref:`property-hook-cannot-be-both-final-and-private`
 
 
-   * promoted
-
-      * :ref:`cannot-declare-variadic-promoted-property`
-
-
    * promoted-property
 
+      * :ref:`cannot-declare-promoted-property-in-an-abstract-constructor`
       * :ref:`cannot-declare-promoted-property-outside-a-constructor`
+      * :ref:`cannot-declare-variadic-promoted-property`
 
 
    * property
 
       * :ref:`accessing-static-trait-property-%s::$%s-is-deprecated`
+      * :ref:`cannot-acquire-reference-to-readonly-property`
       * :ref:`cannot-declare-variadic-promoted-property`
       * :ref:`default-value-for-property-of-type-int-may-not-be-null.-use-the-nullable-type-?int-to-allow-null-default-value`
       * :ref:`interfaces-may-not-include-properties`
@@ -474,20 +508,21 @@ Features index
 
    * property hook
 
-      * :ref:`abstract-property-hook-cannot-have-body`
       * :ref:`cannot-specify-default-value-for-virtual-hooked-property-%s::$%s`
       * :ref:`cannot-unset-hooked-property-%s::$%s`
       * :ref:`cannot-use-the-abstract-modifier-on-a-property`
       * :ref:`hooked-properties-cannot-be-readonly`
-      * :ref:`interfaces-may-only-include-hooked-properties`
       * :ref:`non-abstract-property-hook-must-have-a-body`
       * :ref:`only-hooked-properties-may-be-declared-abstract`
 
 
    * property-hook
 
+      * :ref:`abstract-property-hook-cannot-have-body`
       * :ref:`cannot-declare-hooks-for-static-property`
+      * :ref:`cannot-override-final-property-hook-%s::%s()`
       * :ref:`cannot-redeclare-property-hook`
+      * :ref:`interfaces-may-only-include-hooked-properties`
       * :ref:`unknown-hook-"%s"-for-property-%s::$%s,-expected-"get"-or-"set"`
 
 
@@ -498,6 +533,7 @@ Features index
 
    * readonly
 
+      * :ref:`cannot-acquire-reference-to-readonly-property`
       * :ref:`cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s`
       * :ref:`hooked-properties-cannot-be-readonly`
       * :ref:`multiple-readonly-modifiers-are-not-allowed`
@@ -509,8 +545,10 @@ Features index
    * reference
 
       * :ref:`an-iterator-cannot-be-used-with-foreach-by-reference`
+      * :ref:`cannot-acquire-reference-to-readonly-property`
       * :ref:`cannot-use-variable-$%s-twice`
       * :ref:`only-variable-references-should-be-yielded-by-reference`
+      * :ref:`returning-by-reference-from-a-void-function-is-deprecated`
 
 
    * reflection
@@ -540,9 +578,11 @@ Features index
       * :ref:`cannot-use-a-scalar-value-as-an-array`
 
 
-   * spread
+   * silent
 
-      * :ref:`spread-operator-is-not-supported-in-assignments`
+      * :ref:`array_product():-multiplication-is-not-supported-on-type-array`
+      * :ref:`array_product():-multiplication-is-not-supported-on-type-object`
+      * :ref:`array_product():-multiplication-is-not-supported-on-type-string`
 
 
    * static
@@ -563,13 +603,20 @@ Features index
       * :ref:`duplicate-declaration-of-static-variable-$%s`
 
 
+   * strict_types
+
+      * :ref:`strict_types-declaration-must-be-the-very-first-statement-in-the-script`
+
+
    * string
 
+      * :ref:`a-non-numeric-value-encountered`
       * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-deprecated`
       * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported`
       * :ref:`cannot-assign-an-empty-string-to-a-string-offset`
       * :ref:`cannot-use-string-offset-as-an-array`
       * :ref:`cannot-use-string-offset-as-an-object`
+      * :ref:`illegal-string-offset`
       * :ref:`uninitialized-string-offset`
 
 
@@ -608,12 +655,12 @@ Features index
 
    * type
 
-      * :ref:`%s():-implicitly-marking-parameter-$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead`
       * :ref:`duplicate-type-%s-is-redundant`
 
 
-   * types
+   * typehint
 
+      * :ref:`%s():-implicitly-marking-parameter-$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead`
       * :ref:`is-an-invalid-class-name`
 
 
@@ -632,6 +679,7 @@ Features index
 
       * :ref:`cannot-unset-$this`
       * :ref:`the-(unset)-cast-is-deprecated`
+      * :ref:`the-(unset)-cast-is-no-longer-supported`
 
 
    * use-alias
@@ -648,12 +696,17 @@ Features index
 
       * :ref:`array_merge()-does-not-accept-unknown-named-parameters`
       * :ref:`cannot-declare-variadic-promoted-property`
+      * :ref:`spread-operator-is-not-supported-in-assignments`
 
 
    * virtual property
 
-      * :ref:`%s-virtual-property-%s::$%s-must-not-specify-asymmetric-visibility`
       * :ref:`cannot-specify-default-value-for-virtual-hooked-property-%s::$%s`
+
+
+   * virtual-property
+
+      * :ref:`%s-virtual-property-%s::$%s-must-not-specify-asymmetric-visibility`
 
 
    * visibility
@@ -666,7 +719,13 @@ Features index
 
       * :ref:`a-function-with-return-type-must-return-a-value`
       * :ref:`property-x::$p-cannot-have-type-void`
+      * :ref:`returning-by-reference-from-a-void-function-is-deprecated`
       * :ref:`void-cannot-be-used-as-a-parameter-type`
+
+
+   * writable
+
+      * :ref:`assignments-can-only-happen-to-writable-values`
 
 
    * yield
