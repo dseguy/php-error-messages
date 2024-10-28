@@ -13,8 +13,10 @@ PHP Error Messages
    messages/%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed.rst
    messages/%s-cannot-use-%s---it-is-not-a-trait.rst
    messages/%s-virtual-property-%s::$%s-must-not-specify-asymmetric-visibility.rst
+   messages/'\%s'-is-an-invalid-class-name.rst
    messages/'goto'-into-loop-or-switch-statement-is-disallowed.rst
    messages/'goto'-to-undefined-label-'%s'.rst
+   messages/'namespace\%s'-is-an-invalid-class-name.rst
    messages/a-class-constant-must-not-be-called-class.-it-is-reserved-for-class-name-fetching.rst
    messages/a-function-with-return-type-must-return-a-value.rst
    messages/a-never-returning-function-must-not-return.rst
@@ -125,6 +127,7 @@ PHP Error Messages
    messages/duplicate-declaration-of-static-variable-$%s.rst
    messages/duplicate-named-parameter-$%s.rst
    messages/duplicate-type-%s-is-redundant.rst
+   messages/enum-case-value-must-be-compile-time-evaluatable.rst
    messages/fetching-properties-on-non-enums-in-constant-expressions-is-not-allowed.rst
    messages/ffi-api-is-restricted-by-"ffi.enable"-configuration-directive.rst
    messages/foreach()-argument-must-be-of-type-array|object.rst
@@ -143,6 +146,7 @@ PHP Error Messages
    messages/interfaces-may-not-include-properties.rst
    messages/interfaces-may-only-include-hooked-properties.rst
    messages/invalid-argument-supplied-for-foreach().rst
+   messages/invalid-characters-passed-for-attempted-conversion,-these-have-been-ignored.rst
    messages/is-an-invalid-class-name.rst
    messages/jump-into-a-finally-block-is-disallowed.rst
    messages/jump-out-of-a-finally-block-is-disallowed.rst
@@ -195,6 +199,7 @@ PHP Error Messages
    messages/trying-to-access-array-offset-on-%s.rst
    messages/type-%s-contains-both-iterable-and-array.rst
    messages/type-contains-both-true-and-false,-bool-must-be-used-instead.rst
+   messages/type-declaration-'%s'-must-be-unqualified.rst
    messages/typed-property-%s\:\:$%s-must-not-be-accessed-before-initialization.rst
    messages/typed-static-property-%s::$%s-must-not-be-accessed-before-initialization.rst
    messages/undefined-array-key.rst

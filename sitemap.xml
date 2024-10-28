@@ -25,10 +25,16 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%s-virtual-property-%s::$%s-must-not-specify-asymmetric-visibility.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/'\%s'-is-an-invalid-class-name.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/'goto'-into-loop-or-switch-statement-is-disallowed.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/'goto'-to-undefined-label-'%s'.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/'namespace\%s'-is-an-invalid-class-name.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/a-class-constant-must-not-be-called-class.-it-is-reserved-for-class-name-fetching.html</loc>
@@ -361,6 +367,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/duplicate-type-%s-is-redundant.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/enum-case-value-must-be-compile-time-evaluatable.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/fetching-properties-on-non-enums-in-constant-expressions-is-not-allowed.html</loc>
  </url>
  <url>
@@ -413,6 +422,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/invalid-argument-supplied-for-foreach().html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/invalid-characters-passed-for-attempted-conversion,-these-have-been-ignored.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/is-an-invalid-class-name.html</loc>
@@ -569,6 +581,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/type-contains-both-true-and-false,-bool-must-be-used-instead.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/type-declaration-'%s'-must-be-unqualified.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/typed-property-%s\:\:$%s-must-not-be-accessed-before-initialization.html</loc>

@@ -74,11 +74,17 @@ Features index
    * attribute
 
       * :ref:`has-#[\override]-attribute,-but-no-matching-parent-method-exists`
+      * :ref:`x::foo()-has-#[\override]-attribute,-but-no-matching-parent-method-exists`
 
 
    * autovivification
 
       * :ref:`automatic-conversion-of-false-to-array-is-deprecated`
+
+
+   * backed-enum
+
+      * :ref:`enum-case-value-must-be-compile-time-evaluatable`
 
 
    * boolean
@@ -174,6 +180,11 @@ Features index
    * constructor
 
       * :ref:`cannot-call-constructor`
+
+
+   * context
+
+      * :ref:`cannot-modify-readonly-property-%s::$%s`
 
 
    * continue
@@ -272,6 +283,11 @@ Features index
       * :ref:`an-iterator-cannot-be-used-with-foreach-by-reference`
       * :ref:`foreach()-argument-must-be-of-type-array|object`
       * :ref:`invalid-argument-supplied-for-foreach()`
+
+
+   * fully-qualified-name
+
+      * :ref:`\'namespace\%s\'-is-an-invalid-class-name`
 
 
    * function
@@ -406,6 +422,7 @@ Features index
 
    * namespace
 
+      * :ref:`\'namespace\%s\'-is-an-invalid-class-name`
       * :ref:`call-to-undefined-function`
 
 
@@ -455,6 +472,11 @@ Features index
    * optional-parameter
 
       * :ref:`required-parameter-$%s-follows-optional-parameter-$%s`
+
+
+   * override
+
+      * :ref:`x::foo()-has-#[\override]-attribute,-but-no-matching-parent-method-exists`
 
 
    * overwrite
@@ -535,6 +557,7 @@ Features index
 
       * :ref:`cannot-acquire-reference-to-readonly-property`
       * :ref:`cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s`
+      * :ref:`cannot-modify-readonly-property-%s::$%s`
       * :ref:`hooked-properties-cannot-be-readonly`
       * :ref:`multiple-readonly-modifiers-are-not-allowed`
       * :ref:`readonly-class-%s-cannot-use-trait-with-a-non-readonly-property-%s::$%s`
@@ -557,6 +580,11 @@ Features index
       * :ref:`case-%s::%s-does-not-exist`
 
 
+   * relative-types
+
+      * :ref:`\'namespace\%s\'-is-an-invalid-class-name`
+
+
    * return
 
       * :ref:`a-function-with-return-type-must-return-a-value`
@@ -576,6 +604,11 @@ Features index
    * scalar
 
       * :ref:`cannot-use-a-scalar-value-as-an-array`
+
+
+   * scalar-type
+
+      * :ref:`type-declaration-\'%s\'-must-be-unqualified`
 
 
    * silent

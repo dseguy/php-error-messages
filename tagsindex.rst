@@ -9,11 +9,6 @@ Tag index
       * :ref:`automatic-conversion-of-false-to-array-is-deprecated`
 
 
-   * attribute
-
-      * :ref:`x::foo()-has-#[\override]-attribute,-but-no-matching-parent-method-exists`
-
-
    * case insensitive
 
       * :ref:`define():-argument-#3-($case_insensitive)-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported`
@@ -93,6 +88,11 @@ Tag index
       * :ref:`cannot-use-try-without-catch-or-finally`
 
 
+   * fully-qualified-name
+
+      * :ref:`\'\%s\'-is-an-invalid-class-name`
+
+
    * goto
 
       * :ref:`\'goto\'-into-loop-or-switch-statement-is-disallowed`
@@ -150,6 +150,11 @@ Tag index
    * reference
 
       * :ref:`cannot-acquire-reference-to-readonly-property`
+
+
+   * relative-types
+
+      * :ref:`\'\%s\'-is-an-invalid-class-name`
 
 
    * removed message

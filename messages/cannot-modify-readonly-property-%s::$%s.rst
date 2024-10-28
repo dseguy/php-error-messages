@@ -39,4 +39,5 @@ _______
 Solutions
 _________
 
-+ 
++ Drop the readonly option.
++ Create an accessor to set the property in the correct context.

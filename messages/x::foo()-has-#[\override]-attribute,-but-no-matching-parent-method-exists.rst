@@ -10,7 +10,12 @@ X::foo() has #[\Override] attribute, but no matching parent method exists
 Description
 ___________
  
-This error message has two sources: it happens, at compilation time, when the class has no parent, yet has a method with Override attribute. Since the attribute implies that the method is overriding a parent's method, this is not possible.\nThe second cause is a method that has no counterpart in the parents' classes: there, the attribute plays its actual role.
+This error message has two sources: it happens, at compilation time, when the class has no parent, yet has a method with Override attribute. Since the attribute implies that the method is overriding a parent's method, this is not possible.
+
+The second cause is a method that has no counterpart in the parents' classes: there, the attribute plays its actual role.
+
+This error happens when the ``Override`` attribute was used in PHP version 8.2, or older, and then, the code was moved to PHP 8.3. With the last version change, the attribute became active, and the code is now actually checked.
+
 
 Example
 _______
@@ -37,3 +42,4 @@ _________
 + Remove the Override attribute.
 + Add a method with the same name to the parent class.
 + Rename the current method to one that is present in the parent.
++ Stay on PHP 8.2.
