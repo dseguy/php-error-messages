@@ -43,14 +43,18 @@ $nextprev = array();
 $tips     = array();
 $tags     = array();
 $features = array();
+$ids      = array();
 $warnings = 0;
 foreach($files as $file) {
 	$error = parse_ini_file($file, INI_SCANNER_RAW);
+	
+	if (isset($errors[$file])) {
+		die("Warning : $file has a duplicate name");
+	}
 
-	if ($error === null) {
+	if ($error === false) {
 		buildlog("Warning : $file is not valid INI");
-		++$warnings;
-		continue;
+		die("Warning : $file is not valid INI");
 	}
 
 	$error = (object) $error;
@@ -58,6 +62,17 @@ foreach($files as $file) {
 		buildlog("No id for $file");
 		++$warnings;
 		continue;
+	}
+	
+	if (isset($errors[$error->id])) {
+		die("Duplicate id in $file");
+	}
+	
+	$ids[$error->id] = 1;
+	
+	if ($error->id === "'namespace\%s'-is-an-invalid-class-name") {
+//		print_r($error);
+//		die();
 	}
 
 	if (empty($error->description)) {
@@ -91,16 +106,16 @@ foreach($files as $file) {
 		continue;
 	} else {
 		if (empty(array_filter($error->features))) {
-			buildlog("No features in $file");
-			++$warnings;
+//			buildlog("No features in $file");
+//			++$warnings;
 		}
 		foreach(array_filter($error->features) as $feature) {
 			$target = str_replace(array('errors/', '.ini'), '', $file);
 			$target = addcslashes($target, '`\'');
 			
 			if (!file_exists("../analyzeG3/human/en/Features/$feature.ini")) {
-				buildlog("No file feature known for $feature in ".addcslashes($file, '`\''));
-				++$warnings;
+//				buildlog("No file feature known for $feature in ".addcslashes($file, '`\''));
+//				++$warnings;
 			}
 			$features[$feature][] = $target;
 		}
@@ -209,6 +224,7 @@ foreach($files as $file) {
 		foreach($error->related as $related) {
 			if (!file_exists('errors/'.$related.'.ini')) {
 				buildlog("No such related file as '$related' in $file");
+				die(ici);
 				++$warnings;
 			} else {
 				$target = str_replace(array('errors/', '.ini'), '', $file);
@@ -221,11 +237,10 @@ foreach($files as $file) {
 			}
 			
 			if ($target === $related) {
-				buildlog("Remove self related in $file");
+				buildlog("Remove self related '$target' in $file");
+				++$warning;
 			}
 		}
-		
-		// @todo : make and chedk the way back too
 	}
 	
 	if (isset($error->seeAlso)) {
@@ -257,8 +272,12 @@ foreach($files as $file) {
 
 if (!empty($reciproq)) {
 	foreach($reciproq as $origin => $target) {
-		[$origin, $targe] = explode(' - ', $origin);
-		buildlog("$origin lacks a related[] to $target");
+		print "$origin $target\n";
+		[$a, $b] = explode(' - ', $origin);
+		print "$a $b\n";
+		[$o, $t] = explode(' - ', $origin);
+		buildlog("$o lacks a related[] to $t");
+		print "$o lacks a related[] to $t\n";
 		++$warnings;
 	}
 }
