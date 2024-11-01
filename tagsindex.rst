@@ -4,6 +4,11 @@ Tag index
 -----------------------------
 
 
+   * array
+
+      * :ref:`array-to-string-conversion`
+
+
    * arrays
 
       * :ref:`automatic-conversion-of-false-to-array-is-deprecated`
@@ -12,6 +17,11 @@ Tag index
    * case insensitive
 
       * :ref:`define():-argument-#3-($case_insensitive)-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported`
+
+
+   * cast
+
+      * :ref:`array-to-string-conversion`
 
 
    * catch
@@ -57,6 +67,11 @@ Tag index
    * constant
 
       * :ref:`undefined-constant-\"%s`
+
+
+   * deprecated
+
+      * :ref:`the-(real)-cast-is-deprecated,-use-(float)-instead`
 
 
    * edge case
@@ -155,6 +170,12 @@ Tag index
    * relative-types
 
       * :ref:`\'\%s\'-is-an-invalid-class-name`
+
+
+   * removed
+
+      * :ref:`the-(real)-cast-has-been-removed,-use-(float)-instead`
+      * :ref:`the-(real)-cast-is-deprecated,-use-(float)-instead`
 
 
    * removed message

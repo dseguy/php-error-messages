@@ -19,6 +19,7 @@ PHP Error Messages
    messages/'namespace\%s'-is-an-invalid-class-name.rst
    messages/a-class-constant-must-not-be-called-class.-it-is-reserved-for-class-name-fetching.rst
    messages/a-function-with-return-type-must-return-a-value.rst
+   messages/a-never-returning-%s-must-not-return.rst
    messages/a-never-returning-function-must-not-return.rst
    messages/a-never-returning-method-must-not-return.rst
    messages/a-non-numeric-value-encountered.rst
@@ -30,6 +31,7 @@ PHP Error Messages
    messages/array-and-string-offset-access-syntax-with-curly-braces-is-deprecated.rst
    messages/array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported.rst
    messages/array-callback-has-to-contain-indices-0-and-1.rst
+   messages/array-to-string-conversion.rst
    messages/array_merge()-does-not-accept-unknown-named-parameters.rst
    messages/array_product():-multiplication-is-not-supported-on-type-array.rst
    messages/array_product():-multiplication-is-not-supported-on-type-object.rst
@@ -154,6 +156,7 @@ PHP Error Messages
    messages/keys-must-be-of-type-int|string-during-array-unpacking.rst
    messages/label-'%s'-already-defined.rst
    messages/match-expressions-may-only-contain-one-default-arm.rst
+   messages/method-%s::%s()-cannot-be-static.rst
    messages/multiple-access-type-modifiers-are-not-allowed.rst
    messages/multiple-readonly-modifiers-are-not-allowed.rst
    messages/multiple-static-modifiers-are-not-allowed.rst
@@ -164,6 +167,7 @@ PHP Error Messages
    messages/never-returning-function-must-not-implicitly-return.rst
    messages/new-expressions-are-not-supported-in-this-context.rst
    messages/non-abstract-property-hook-must-have-a-body.rst
+   messages/non-static-method-%s::%s()-should-not-be-called-statically.rst
    messages/non-static-method-x::goo()-cannot-be-called-statically-.rst
    messages/object-of-type-%s-has-not-been-correctly-initialized-by-calling-parent::__construct()-in-its-constructor.rst
    messages/only-hooked-properties-may-be-declared-abstract.rst
@@ -193,6 +197,8 @@ PHP Error Messages
    messages/static-property-x::$y-cannot-be-readonly.rst
    messages/strict_types-declaration-must-be-the-very-first-statement-in-the-script.rst
    messages/switch-statements-may-only-contain-one-default-clause.rst
+   messages/the-(real)-cast-has-been-removed,-use-(float)-instead.rst
+   messages/the-(real)-cast-is-deprecated,-use-(float)-instead.rst
    messages/the-(unset)-cast-is-deprecated.rst
    messages/the-(unset)-cast-is-no-longer-supported.rst
    messages/traits-cannot-have-constants.rst

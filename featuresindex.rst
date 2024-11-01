@@ -110,6 +110,8 @@ Features index
    * cast
 
       * :ref:`illegal-offset-type`
+      * :ref:`the-(real)-cast-has-been-removed,-use-(float)-instead`
+      * :ref:`the-(real)-cast-is-deprecated,-use-(float)-instead`
       * :ref:`the-(unset)-cast-is-no-longer-supported`
 
 
@@ -398,6 +400,11 @@ Features index
       * :ref:`property-hook-cannot-be-both-final-and-private`
 
 
+   * magic-method
+
+      * :ref:`method-%s::%s()-cannot-be-static`
+
+
    * match
 
       * :ref:`match-expressions-may-only-contain-one-default-arm`
@@ -433,6 +440,7 @@ Features index
 
    * never
 
+      * :ref:`a-never-returning-%s-must-not-return`
       * :ref:`cannot-use-\'never\'-as-class-name-as-it-is-reserved`
       * :ref:`never-cannot-be-used-as-a-parameter-type`
       * :ref:`never-returning-function-must-not-implicitly-return`
@@ -588,6 +596,7 @@ Features index
    * return
 
       * :ref:`a-function-with-return-type-must-return-a-value`
+      * :ref:`a-never-returning-%s-must-not-return`
       * :ref:`never-returning-function-must-not-implicitly-return`
 
 
@@ -621,6 +630,7 @@ Features index
    * static
 
       * :ref:`multiple-static-modifiers-are-not-allowed`
+      * :ref:`non-static-method-%s::%s()-should-not-be-called-statically`
       * :ref:`non-static-method-x::goo()-cannot-be-called-statically-`
       * :ref:`static-property-%s::$%s-cannot-be-readonly`
       * :ref:`static-property-x::$y-cannot-be-readonly`
