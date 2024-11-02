@@ -24,6 +24,7 @@ PHP Error Messages
    messages/a-never-returning-method-must-not-return.rst
    messages/a-non-numeric-value-encountered.rst
    messages/abstract-property-hook-cannot-have-body.rst
+   messages/access-level-to-%s::%s-must-be-%s-(as-in-%s-%s)%s.rst
    messages/access-to-undeclared-static-property-%s::$%s.rst
    messages/accessing-static-trait-property-%s::$%s-is-deprecated,-it-should-only-be-accessed-on-a-class-using-the-trait.rst
    messages/accessing-static-trait-property-%s::$%s-is-deprecated.rst

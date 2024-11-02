@@ -87,6 +87,7 @@ Tag index
 
    * execution
 
+      * :ref:`access-level-to-%s::%s-must-be-%s-(as-in-%s-%s)%s`
       * :ref:`cannot-call-constructor`
       * :ref:`cannot-override-final-property-hook-%s::%s()`
       * :ref:`illegal-offset-type`
