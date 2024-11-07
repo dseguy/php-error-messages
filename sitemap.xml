@@ -118,7 +118,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/break-operator-accepts-only-positive-integers.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/call-to-a-member-function-method()-on-string.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/call-to-a-member-function-%s()-on-%s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-function-exit().html</loc>
@@ -337,6 +337,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/constant-%s-is-deprecated.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/constant-%s::%s-is-deprecated.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/constant-expression-contains-invalid-operations.html</loc>
  </url>
  <url>
@@ -499,10 +502,10 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/non-abstract-property-hook-must-have-a-body.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/non-static-method-%s::%s()-should-not-be-called-statically.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/non-static-method-%s::%s()-cannot-be-called-statically.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/non-static-method-x::goo()-cannot-be-called-statically-.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/non-static-method-%s::%s()-should-not-be-called-statically.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/object-of-type-%s-has-not-been-correctly-initialized-by-calling-parent::__construct()-in-its-constructor.html</loc>
@@ -668,6 +671,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/using-${expr}-(variable-variables)-in-strings-is-deprecated,-use-{${expr}}-instead.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/using--in-strings-is-deprecated,-use-{$var}-instead.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/visibility-of-property-%s::$%s-must-not-be-weaker-than-set-visibility.html</loc>

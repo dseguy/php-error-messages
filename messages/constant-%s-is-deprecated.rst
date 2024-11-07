@@ -5,12 +5,12 @@ Constant %s is deprecated
  
 	.. meta::
 		:description lang=en:
-			Constant %s is deprecated: This error is emitted when a constant is supported in the current PHP engine, but will be removed in a future version.
+			Constant %s is deprecated: This error is emitted when a global constant is supported in the current PHP engine, but will be removed in a future version.
 
 Description
 ___________
  
-This error is emitted when a constant is supported in the current PHP engine, but will be removed in a future version.
+This error is emitted when a global constant is supported in the current PHP engine, but will be removed in a future version.
 
 The error is emitted every time the constant is used: it may be for its actual intend, or anywhere else.
 
@@ -28,5 +28,10 @@ _______
 Solutions
 _________
 
-+ Stop using that constant.
-+ Find the replacement for this constant: it might be another constant, or a different command entirely.
++ Stop using that global constant.
++ Find the replacement for this global constant: it might be another constant, or a different command entirely.
+
+Related Error Messages
+______________________
+
++ :ref:`constant-%s::%s-is-deprecated`

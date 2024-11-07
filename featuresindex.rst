@@ -37,6 +37,7 @@ Features index
 
       * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-deprecated`
       * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported`
+      * :ref:`array-to-string-conversion`
       * :ref:`cannot-unpack-array-with-string-keys`
       * :ref:`cannot-use-[]-for-reading`
       * :ref:`cannot-use-object-of-type-%s-as-array`
@@ -111,6 +112,7 @@ Features index
 
    * cast
 
+      * :ref:`array-to-string-conversion`
       * :ref:`illegal-offset-type`
       * :ref:`the-(real)-cast-has-been-removed,-use-(float)-instead`
       * :ref:`the-(real)-cast-is-deprecated,-use-(float)-instead`
@@ -141,6 +143,7 @@ Features index
       * :ref:`%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed`
       * :ref:`cannot-be-a-class-constant`
       * :ref:`class-constant-%s::%s-cannot-have-type-%s`
+      * :ref:`constant-%s::%s-is-deprecated`
       * :ref:`traits-cannot-have-constants`
       * :ref:`undefined-class-constant-\'%s::%s\'`
 
@@ -222,6 +225,7 @@ Features index
    * deprecated
 
       * :ref:`constant-%s-is-deprecated`
+      * :ref:`constant-%s::%s-is-deprecated`
       * :ref:`get_defined_functions():-setting-$exclude_disabled-to-false-has-no-effect`
 
 
@@ -365,6 +369,7 @@ Features index
    * interpolation
 
       * :ref:`using-${expr}-(variable-variables)-in-strings-is-deprecated,-use-{${expr}}-instead`
+      * :ref:`using-${var}-in-strings-is-deprecated,-use-{$var}-instead`
 
 
    * isset
@@ -423,6 +428,7 @@ Features index
    * method
 
       * :ref:`%s-function-%s::%s()-cannot-be-declared-private`
+      * :ref:`non-static-method-%s::%s()-cannot-be-called-statically`
 
 
    * mixed
@@ -467,7 +473,7 @@ Features index
 
    * nullsafe
 
-      * :ref:`call-to-a-member-function-method()-on-string`
+      * :ref:`call-to-a-member-function-%s()-on-%s`
 
 
    * object
@@ -482,7 +488,7 @@ Features index
 
    * object-syntax
 
-      * :ref:`call-to-a-member-function-method()-on-string`
+      * :ref:`call-to-a-member-function-%s()-on-%s`
 
 
    * offset
@@ -647,14 +653,15 @@ Features index
    * static
 
       * :ref:`multiple-static-modifiers-are-not-allowed`
+      * :ref:`non-static-method-%s::%s()-cannot-be-called-statically`
       * :ref:`non-static-method-%s::%s()-should-not-be-called-statically`
-      * :ref:`non-static-method-x::goo()-cannot-be-called-statically-`
       * :ref:`static-property-%s::$%s-cannot-be-readonly`
       * :ref:`static-property-x::$y-cannot-be-readonly`
 
 
    * static-property
 
+      * :ref:`attempt-to-unset-static-property-%s::$%s`
       * :ref:`cannot-declare-hooks-for-static-property`
 
 
@@ -678,6 +685,7 @@ Features index
       * :ref:`cannot-use-string-offset-as-an-object`
       * :ref:`illegal-string-offset`
       * :ref:`uninitialized-string-offset`
+      * :ref:`using-${var}-in-strings-is-deprecated,-use-{$var}-instead`
 
 
    * switch
@@ -685,7 +693,7 @@ Features index
       * :ref:`switch-statements-may-only-contain-one-default-clause`
 
 
-   * ternary operator
+   * ternary
 
       * :ref:`unparenthesized-\`a-?-b-:-c-?-d-:-e\`-is-not-supported.`
 
@@ -737,6 +745,7 @@ Features index
 
    * unset
 
+      * :ref:`attempt-to-unset-static-property-%s::$%s`
       * :ref:`cannot-unset-$this`
       * :ref:`the-(unset)-cast-is-deprecated`
       * :ref:`the-(unset)-cast-is-no-longer-supported`

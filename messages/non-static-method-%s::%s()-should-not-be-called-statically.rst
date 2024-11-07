@@ -34,3 +34,8 @@ _________
 
 + Make the method static.
 + Find an object to call the method.
+
+Related Error Messages
+______________________
+
++ :ref:`non-static-method-%s::%s()-cannot-be-called-statically`

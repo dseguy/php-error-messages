@@ -44,7 +44,7 @@ PHP Error Messages
    messages/automatic-conversion-of-false-to-array-is-deprecated.rst
    messages/b-cannot-implement-a---it-is-not-an-interface.rst
    messages/break-operator-accepts-only-positive-integers.rst
-   messages/call-to-a-member-function-method()-on-string.rst
+   messages/call-to-a-member-function-%s()-on-%s.rst
    messages/call-to-undefined-function-exit().rst
    messages/call-to-undefined-function.rst
    messages/calling-get_class()-without-arguments-is-deprecated.rst
@@ -117,6 +117,7 @@ PHP Error Messages
    messages/class-declarations-may-not-be-nested.rst
    messages/classes-must-be-first-marked-as-attribute-before-being-able-to-be-registered-as-internal-attribute-class.rst
    messages/constant-%s-is-deprecated.rst
+   messages/constant-%s::%s-is-deprecated.rst
    messages/constant-expression-contains-invalid-operations.rst
    messages/constructors-cannot-declare-a-return-type.rst
    messages/continue-operator-accepts-only-positive-integers.rst
@@ -171,8 +172,8 @@ PHP Error Messages
    messages/never-returning-function-must-not-implicitly-return.rst
    messages/new-expressions-are-not-supported-in-this-context.rst
    messages/non-abstract-property-hook-must-have-a-body.rst
+   messages/non-static-method-%s::%s()-cannot-be-called-statically.rst
    messages/non-static-method-%s::%s()-should-not-be-called-statically.rst
-   messages/non-static-method-x::goo()-cannot-be-called-statically-.rst
    messages/object-of-type-%s-has-not-been-correctly-initialized-by-calling-parent::__construct()-in-its-constructor.rst
    messages/only-hooked-properties-may-be-declared-abstract.rst
    messages/only-internal-classes-can-be-registered-as-compiler-attribute.rst
@@ -228,6 +229,7 @@ PHP Error Messages
    messages/unterminated-comment-starting-line-%d.rst
    messages/using-$this-when-not-in-object-context.rst
    messages/using-${expr}-(variable-variables)-in-strings-is-deprecated,-use-{${expr}}-instead.rst
+   messages/using--in-strings-is-deprecated,-use-{$var}-instead.rst
    messages/visibility-of-property-%s::$%s-must-not-be-weaker-than-set-visibility.rst
    messages/void-cannot-be-used-as-a-parameter-type.rst
    messages/x::foo()-has-#[\override]-attribute,-but-no-matching-parent-method-exists.rst
