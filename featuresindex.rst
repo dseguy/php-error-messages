@@ -11,6 +11,7 @@ Features index
 
    * abstract
 
+      * :ref:`%s-function-%s::%s()-cannot-be-declared-private`
       * :ref:`abstract-property-hook-cannot-have-body`
       * :ref:`cannot-declare-promoted-property-in-an-abstract-constructor`
       * :ref:`cannot-make-non-abstract-method-i::foo()-abstract-in-class-j`
@@ -18,6 +19,7 @@ Features index
       * :ref:`interface-%s-cannot-contain-non-abstract-method-%s()`
       * :ref:`non-abstract-property-hook-must-have-a-body`
       * :ref:`only-hooked-properties-may-be-declared-abstract`
+      * :ref:`property-hook-cannot-be-both-abstract-and-private`
       * :ref:`static-function-%s%s%s()-cannot-be-abstract`
 
 
@@ -154,6 +156,11 @@ Features index
       * :ref:`typed-static-property-%s::$%s-must-not-be-accessed-before-initialization`
 
 
+   * comment
+
+      * :ref:`unterminated-comment-starting-line-%d`
+
+
    * compile-time
 
       * :ref:`calling-get_class()-without-arguments-is-deprecated`
@@ -166,6 +173,7 @@ Features index
 
    * constant
 
+      * :ref:`constant-%s-is-deprecated`
       * :ref:`define():-argument-#3-($case_insensitive)-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported`
 
 
@@ -213,6 +221,7 @@ Features index
 
    * deprecated
 
+      * :ref:`constant-%s-is-deprecated`
       * :ref:`get_defined_functions():-setting-$exclude_disabled-to-false-has-no-effect`
 
 
@@ -411,6 +420,11 @@ Features index
       * :ref:`unhandled-match-case-%s`
 
 
+   * method
+
+      * :ref:`%s-function-%s::%s()-cannot-be-declared-private`
+
+
    * mixed
 
       * :ref:`cannot-use-\'mixed\'-as-class-name-as-it-is-reserved`
@@ -512,9 +526,11 @@ Features index
 
    * private
 
+      * :ref:`%s-function-%s::%s()-cannot-be-declared-private`
       * :ref:`cannot-use-the-final-modifier-on-a-property`
       * :ref:`private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes`
       * :ref:`property-cannot-be-both-final-and-private`
+      * :ref:`property-hook-cannot-be-both-abstract-and-private`
       * :ref:`property-hook-cannot-be-both-final-and-private`
 
 
@@ -544,6 +560,7 @@ Features index
       * :ref:`hooked-properties-cannot-be-readonly`
       * :ref:`non-abstract-property-hook-must-have-a-body`
       * :ref:`only-hooked-properties-may-be-declared-abstract`
+      * :ref:`property-hook-cannot-be-both-abstract-and-private`
 
 
    * property-hook

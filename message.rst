@@ -12,6 +12,7 @@ PHP Error Messages
    messages/%s-%s-inherits-both-%s::%s-and-%s::%s.rst
    messages/%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed.rst
    messages/%s-cannot-use-%s---it-is-not-a-trait.rst
+   messages/%s-function-%s::%s()-cannot-be-declared-private.rst
    messages/%s-virtual-property-%s::$%s-must-not-specify-asymmetric-visibility.rst
    messages/'\%s'-is-an-invalid-class-name.rst
    messages/'goto'-into-loop-or-switch-statement-is-disallowed.rst
@@ -115,6 +116,7 @@ PHP Error Messages
    messages/class-constant-%s::%s-cannot-have-type-%s.rst
    messages/class-declarations-may-not-be-nested.rst
    messages/classes-must-be-first-marked-as-attribute-before-being-able-to-be-registered-as-internal-attribute-class.rst
+   messages/constant-%s-is-deprecated.rst
    messages/constant-expression-contains-invalid-operations.rst
    messages/constructors-cannot-declare-a-return-type.rst
    messages/continue-operator-accepts-only-positive-integers.rst
@@ -151,6 +153,7 @@ PHP Error Messages
    messages/invalid-argument-supplied-for-foreach().rst
    messages/invalid-characters-passed-for-attempted-conversion,-these-have-been-ignored.rst
    messages/is-an-invalid-class-name.rst
+   messages/is-not-a-valid-codepoint.rst
    messages/jump-into-a-finally-block-is-disallowed.rst
    messages/jump-out-of-a-finally-block-is-disallowed.rst
    messages/keys-must-be-of-type-int|string-during-argument-unpacking-..rst
@@ -180,6 +183,7 @@ PHP Error Messages
    messages/private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes.rst
    messages/property-%s::$%s-cannot-have-type-%s.rst
    messages/property-cannot-be-both-final-and-private.rst
+   messages/property-hook-cannot-be-both-abstract-and-private.rst
    messages/property-hook-cannot-be-both-final-and-private.rst
    messages/property-hook-list-must-not-be-empty.rst
    messages/property-with-asymmetric-visibility-%s::$%s-must-have-type.rst
@@ -221,6 +225,7 @@ PHP Error Messages
    messages/unknown-hook-"%s"-for-property-%s::$%s,-expected-"get"-or-"set".rst
    messages/unparenthesized-`a-?-b-:-c-?-d-:-e`-is-not-supported..rst
    messages/unsupported-operand-types.rst
+   messages/unterminated-comment-starting-line-%d.rst
    messages/using-$this-when-not-in-object-context.rst
    messages/using-${expr}-(variable-variables)-in-strings-is-deprecated,-use-{${expr}}-instead.rst
    messages/visibility-of-property-%s::$%s-must-not-be-weaker-than-set-visibility.rst

@@ -22,6 +22,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%s-cannot-use-%s---it-is-not-a-trait.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/%s-function-%s::%s()-cannot-be-declared-private.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%s-virtual-property-%s::$%s-must-not-specify-asymmetric-visibility.html</loc>
  </url>
  <url>
@@ -331,6 +334,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/classes-must-be-first-marked-as-attribute-before-being-able-to-be-registered-as-internal-attribute-class.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/constant-%s-is-deprecated.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/constant-expression-contains-invalid-operations.html</loc>
  </url>
  <url>
@@ -439,6 +445,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/is-an-invalid-class-name.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/is-not-a-valid-codepoint.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/jump-into-a-finally-block-is-disallowed.html</loc>
  </url>
  <url>
@@ -524,6 +533,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/property-cannot-be-both-final-and-private.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/property-hook-cannot-be-both-abstract-and-private.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/property-hook-cannot-be-both-final-and-private.html</loc>
@@ -647,6 +659,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unsupported-operand-types.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/unterminated-comment-starting-line-%d.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/using-$this-when-not-in-object-context.html</loc>

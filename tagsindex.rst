@@ -74,6 +74,11 @@ Tag index
       * :ref:`the-(real)-cast-is-deprecated,-use-(float)-instead`
 
 
+   * deprecation
+
+      * :ref:`constant-%s-is-deprecated`
+
+
    * edge case
 
       * :ref:`is-an-invalid-class-name`
@@ -83,6 +88,11 @@ Tag index
 
       * :ref:`cannot-use-positional-argument-after-argument-unpacking`
       * :ref:`cannot-use-positional-argument-after-named-argument`
+
+
+   * encoding
+
+      * :ref:`is-not-a-valid-codepoint`
 
 
    * execution
@@ -135,6 +145,11 @@ Tag index
 
       * :ref:`cannot-mix-keyed-and-unkeyed-array-entries-in-assignments`
       * :ref:`cannot-use-empty-list`
+
+
+   * mbstring
+
+      * :ref:`is-not-a-valid-codepoint`
 
 
    * modernisation
