@@ -1,11 +1,11 @@
 .. _must-be-a-valid-rounding-mode-(roundingmode\:\:*):
 
-must be a valid rounding mode (RoundingMode::*)
------------------------------------------------
+must be a valid rounding mode (RoundingMode::\*)
+------------------------------------------------
  
 	.. meta::
 		:description lang=en:
-			must be a valid rounding mode (RoundingMode::*): PHP has 4 rounding modes, to be used with the round() native function.
+			must be a valid rounding mode (RoundingMode::\*): PHP has 4 rounding modes, to be used with the round() native function.
 
 Description
 ___________

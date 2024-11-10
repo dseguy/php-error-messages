@@ -1,4 +1,4 @@
-.. _indirect-modification-of-overloaded-property-%s::$%s-has-no-effect:
+.. _indirect-modification-of-overloaded-property-%s::\$%s-has-no-effect:
 
 Indirect modification of overloaded property %s::$%s has no effect
 ------------------------------------------------------------------

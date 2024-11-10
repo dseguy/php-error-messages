@@ -1,4 +1,4 @@
-.. _readonly-class-%s-cannot-use-trait-with-a-non-readonly-property-%s::$%s:
+.. _readonly-class-%s-cannot-use-trait-with-a-non-readonly-property-%s::\$%s:
 
 Readonly class %s cannot use trait with a non-readonly property %s::$%s
 -----------------------------------------------------------------------

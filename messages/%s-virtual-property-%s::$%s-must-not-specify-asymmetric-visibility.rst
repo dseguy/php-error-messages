@@ -1,4 +1,4 @@
-.. _%s-virtual-property-%s::$%s-must-not-specify-asymmetric-visibility:
+.. _%s-virtual-property-%s::\$%s-must-not-specify-asymmetric-visibility:
 
 %s virtual property %s::$%s must not specify asymmetric visibility
 ------------------------------------------------------------------

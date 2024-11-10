@@ -1,4 +1,4 @@
-.. _property-%s::$%s-cannot-have-type-%s:
+.. _property-%s::\$%s-cannot-have-type-%s:
 
 Property %s::$%s cannot have type %s
 ------------------------------------

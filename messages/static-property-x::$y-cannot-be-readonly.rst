@@ -1,4 +1,4 @@
-.. _static-property-x::$y-cannot-be-readonly:
+.. _static-property-x::\$y-cannot-be-readonly:
 
 Static property x::$y cannot be readonly
 ----------------------------------------

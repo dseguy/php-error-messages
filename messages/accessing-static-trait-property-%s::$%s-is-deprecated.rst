@@ -1,4 +1,4 @@
-.. _accessing-static-trait-property-%s::$%s-is-deprecated:
+.. _accessing-static-trait-property-%s::\$%s-is-deprecated:
 
 Accessing static trait property %s::$%s is deprecated
 -----------------------------------------------------

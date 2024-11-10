@@ -1,4 +1,4 @@
-.. _duplicate-declaration-of-static-variable-$%s:
+.. _duplicate-declaration-of-static-variable-\$%s:
 
 Duplicate declaration of static variable $%s
 --------------------------------------------

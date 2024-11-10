@@ -1,4 +1,4 @@
-.. _using-$this-when-not-in-object-context:
+.. _using-\$this-when-not-in-object-context:
 
 Using $this when not in object context
 --------------------------------------

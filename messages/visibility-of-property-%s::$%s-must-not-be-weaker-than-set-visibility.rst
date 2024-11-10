@@ -1,4 +1,4 @@
-.. _visibility-of-property-%s::$%s-must-not-be-weaker-than-set-visibility:
+.. _visibility-of-property-%s::\$%s-must-not-be-weaker-than-set-visibility:
 
 Visibility of property %s::$%s must not be weaker than set visibility
 ---------------------------------------------------------------------

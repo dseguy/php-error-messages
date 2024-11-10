@@ -1,4 +1,4 @@
-.. _readonly-property-%s::$%s-cannot-have-default-value:
+.. _readonly-property-%s::\$%s-cannot-have-default-value:
 
 Readonly property %s::$%s cannot have default value
 ---------------------------------------------------

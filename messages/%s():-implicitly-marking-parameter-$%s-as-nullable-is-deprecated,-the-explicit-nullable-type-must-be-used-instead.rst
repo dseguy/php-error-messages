@@ -1,4 +1,4 @@
-.. _%s():-implicitly-marking-parameter-$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead:
+.. _%s():-implicitly-marking-parameter-\$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead:
 
 Implicitly marking parameter $%s as nullable is deprecated, the explicit nullable type must be used instead
 -----------------------------------------------------------------------------------------------------------

@@ -1,4 +1,4 @@
-.. _unknown-hook-"%s"-for-property-%s::$%s,-expected-"get"-or-"set":
+.. _unknown-hook-"%s"-for-property-%s::\$%s,-expected-"get"-or-"set":
 
 Unknown hook "%s" for property %s::$%s, expected "get" or "set"
 ---------------------------------------------------------------

@@ -1,4 +1,4 @@
-.. _property-x::$p-cannot-have-type-void:
+.. _property-x::\$p-cannot-have-type-void:
 
 Property x::$p cannot have type void
 ------------------------------------

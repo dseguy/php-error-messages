@@ -110,6 +110,11 @@ Tag index
       * :ref:`\'\%s\'-is-an-invalid-class-name`
 
 
+   * funny
+
+      * :ref:`cannot-declare-self-referencing-constant`
+
+
    * goto
 
       * :ref:`\'goto\'-into-loop-or-switch-statement-is-disallowed`
@@ -134,7 +139,6 @@ Tag index
 
    * list
 
-      * :ref:`cannot-mix-keyed-and-unkeyed-array-entries-in-assignments`
       * :ref:`cannot-use-empty-list`
 
 
@@ -222,7 +226,7 @@ Tag index
 
       * :ref:`%s-cannot-use-%s---it-is-not-a-trait`
       * :ref:`could-not-find-trait-%s`
-      * :ref:`required-trait-t2-wasn\'t-added-to-t`
+      * :ref:`required-trait-%s-wasn\'t-added-to-%s`
 
 
    * try

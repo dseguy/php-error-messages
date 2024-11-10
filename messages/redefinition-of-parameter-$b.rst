@@ -1,4 +1,4 @@
-.. _redefinition-of-parameter-$b:
+.. _redefinition-of-parameter-\$b:
 
 Redefinition of parameter $b
 ----------------------------

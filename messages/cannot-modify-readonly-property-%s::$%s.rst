@@ -1,4 +1,4 @@
-.. _cannot-modify-readonly-property-%s::$%s:
+.. _cannot-modify-readonly-property-%s::\$%s:
 
 Cannot modify readonly property %s::$%s
 ---------------------------------------

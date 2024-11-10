@@ -1,4 +1,4 @@
-.. _get_defined_functions():-setting-$exclude_disabled-to-false-has-no-effect:
+.. _get_defined_functions():-setting-\$exclude_disabled-to-false-has-no-effect:
 
 get_defined_functions(): Setting $exclude_disabled to false has no effect
 -------------------------------------------------------------------------

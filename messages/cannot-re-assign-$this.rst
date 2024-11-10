@@ -1,4 +1,4 @@
-.. _cannot-re-assign-$this:
+.. _cannot-re-assign-\$this:
 
 Cannot re-assign $this
 ----------------------

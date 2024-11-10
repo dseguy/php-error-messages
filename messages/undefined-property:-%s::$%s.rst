@@ -1,4 +1,4 @@
-.. _undefined-property:-%s::$%s:
+.. _undefined-property:-%s::\$%s:
 
 Undefined property: %s::$%s
 ---------------------------

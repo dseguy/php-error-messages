@@ -12,7 +12,7 @@ ___________
  
 The trait X has a property, which is typed with a relative type: ``parent``. Yet, as a trait, there is no parent class possible. 
 
-This situation is solved when the trait is ``use``d in a class, as long as the class has a parent. But it is not possible directly on the trait.
+This situation is solved when the trait is ``use`` d in a class, as long as the class has a parent. But it is not possible directly on the trait.
 
 This error is now covered with the upcoming deprecation of direct manipulation of static properties on a trait, without using its host class. 
 
@@ -35,7 +35,7 @@ _______
    try {
        Test::$property = new stdClass;
    } catch (Error $e) {
-       echo $e->getMessage(), \n;
+       echo $e->getMessage(), PHP_EOL;
    }
    
    ?>

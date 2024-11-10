@@ -1,4 +1,4 @@
-.. _cannot-unset-$this:
+.. _cannot-unset-\$this:
 
 Cannot unset $this
 ------------------

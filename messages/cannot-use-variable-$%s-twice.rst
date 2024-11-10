@@ -1,4 +1,4 @@
-.. _cannot-use-variable-$%s-twice:
+.. _cannot-use-variable-\$%s-twice:
 
 Cannot use variable $%S twice
 -----------------------------

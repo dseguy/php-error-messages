@@ -1,4 +1,4 @@
-.. _required-parameter-$%s-follows-optional-parameter-$%s:
+.. _required-parameter-\$%s-follows-optional-parameter-\$%s:
 
 Required parameter $%s follows optional parameter $%s
 -----------------------------------------------------

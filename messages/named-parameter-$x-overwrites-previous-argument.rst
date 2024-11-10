@@ -1,4 +1,4 @@
-.. _named-parameter-$x-overwrites-previous-argument:
+.. _named-parameter-\$x-overwrites-previous-argument:
 
 Named parameter $x overwrites previous argument
 -----------------------------------------------

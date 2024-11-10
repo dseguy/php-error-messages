@@ -1,4 +1,4 @@
-.. _cannot-unset-hooked-property-%s::$%s:
+.. _cannot-unset-hooked-property-%s::\$%s:
 
 Cannot unset hooked property %s::$%s
 ------------------------------------

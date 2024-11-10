@@ -1,4 +1,4 @@
-.. _declaration-of-y::foo()-must-be-compatible-with-x::foo($a):
+.. _declaration-of-y::foo()-must-be-compatible-with-x::foo(\$a):
 
 Declaration of y::foo() must be compatible with x::foo($a)
 ----------------------------------------------------------

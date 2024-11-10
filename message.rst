@@ -39,12 +39,13 @@ PHP Error Messages
    messages/array_product():-multiplication-is-not-supported-on-type-object.rst
    messages/array_product():-multiplication-is-not-supported-on-type-string.rst
    messages/assignments-can-only-happen-to-writable-values.rst
-   messages/attempt-to-unset-static-property-a::$x.rst
+   messages/attempt-to-unset-static-property-%s::$%s.rst
    messages/attribute-class-"%s"-not-found.rst
    messages/automatic-conversion-of-false-to-array-is-deprecated.rst
    messages/b-cannot-implement-a---it-is-not-an-interface.rst
    messages/break-operator-accepts-only-positive-integers.rst
    messages/call-to-a-member-function-%s()-on-%s.rst
+   messages/call-to-undefined-function-%s().rst
    messages/call-to-undefined-function-exit().rst
    messages/call-to-undefined-function.rst
    messages/calling-get_class()-without-arguments-is-deprecated.rst
@@ -75,7 +76,7 @@ PHP Error Messages
    messages/cannot-re-assign-$this.rst
    messages/cannot-redeclare-property-hook.rst
    messages/cannot-redefine-class-constant.rst
-   messages/cannot-specify-default-value-for-virtual-hooked-property.rst
+   messages/cannot-specify-default-value-for-virtual-hooked-property-%s::$%s.rst
    messages/cannot-throw-objects-that-do-not-implement-throwable.rst
    messages/cannot-unpack-array-with-string-keys.rst
    messages/cannot-unset-$this.rst
@@ -167,6 +168,9 @@ PHP Error Messages
    messages/multiple-static-modifiers-are-not-allowed.rst
    messages/must-be-a-valid-rounding-mode-(roundingmode\:\:*).rst
    messages/must-contain-at-least-one-element.rst
+   messages/must-not-use-parent::$%s::%s()-in-a-different-property-($%s).rst
+   messages/must-not-use-parent::$%s::%s()-in-a-different-property-hook-(%s).rst
+   messages/must-not-use-parent::$%s::%s()-outside-a-property-hook.rst
    messages/named-parameter-$x-overwrites-previous-argument.rst
    messages/never-cannot-be-used-as-a-parameter-type.rst
    messages/never-returning-function-must-not-implicitly-return.rst
@@ -194,7 +198,7 @@ PHP Error Messages
    messages/readonly-property-%s::$%s-cannot-have-default-value.rst
    messages/redefinition-of-parameter-$b.rst
    messages/required-parameter-$%s-follows-optional-parameter-$%s.rst
-   messages/required-trait-t2-wasn\'t-added-to-c.rst
+   messages/required-trait-%s-wasn\'t-added-to-%s.rst
    messages/return-value-must-be-of-type-int,-string-returned.rst
    messages/returning-by-reference-from-a-void-function-is-deprecated.rst
    messages/spread-operator-is-not-supported-in-assignments.rst
@@ -229,7 +233,7 @@ PHP Error Messages
    messages/unterminated-comment-starting-line-%d.rst
    messages/using-$this-when-not-in-object-context.rst
    messages/using-${expr}-(variable-variables)-in-strings-is-deprecated,-use-{${expr}}-instead.rst
-   messages/using--in-strings-is-deprecated,-use-{$var}-instead.rst
+   messages/using-${var}-in-strings-is-deprecated,-use-{$var}-instead.rst
    messages/visibility-of-property-%s::$%s-must-not-be-weaker-than-set-visibility.rst
    messages/void-cannot-be-used-as-a-parameter-type.rst
    messages/x::foo()-has-#[\override]-attribute,-but-no-matching-parent-method-exists.rst

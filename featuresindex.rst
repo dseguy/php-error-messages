@@ -6,7 +6,7 @@ Features index
 
    * $this
 
-      * :ref:`cannot-unset-$this`
+      * :ref:`cannot-unset-\$this`
 
 
    * abstract
@@ -44,7 +44,7 @@ Features index
       * :ref:`illegal-offset-type`
       * :ref:`implicit-conversion-from-float-string`
       * :ref:`indirect-modification-of-overloaded-element-of-%s-has-no-effect`
-      * :ref:`indirect-modification-of-overloaded-property-%s::$%s-has-no-effect`
+      * :ref:`indirect-modification-of-overloaded-property-%s::\$%s-has-no-effect`
       * :ref:`undefined-offset`
 
 
@@ -53,9 +53,14 @@ Features index
       * :ref:`cannot-use-string-offset-as-an-array`
 
 
+   * array-index
+
+      * :ref:`cannot-mix-keyed-and-unkeyed-array-entries-in-assignments`
+
+
    * assignation
 
-      * :ref:`cannot-re-assign-$this`
+      * :ref:`cannot-re-assign-\$this`
 
 
    * assignement
@@ -65,13 +70,13 @@ Features index
 
    * asymmetric-property
 
-      * :ref:`property-with-asymmetric-visibility-%s::$%s-must-have-type`
+      * :ref:`property-with-asymmetric-visibility-%s::\$%s-must-have-type`
 
 
    * asymmetric-visibility
 
-      * :ref:`%s-virtual-property-%s::$%s-must-not-specify-asymmetric-visibility`
-      * :ref:`visibility-of-property-%s::$%s-must-not-be-weaker-than-set-visibility`
+      * :ref:`%s-virtual-property-%s::\$%s-must-not-specify-asymmetric-visibility`
+      * :ref:`visibility-of-property-%s::\$%s-must-not-be-weaker-than-set-visibility`
 
 
    * attribute
@@ -127,6 +132,7 @@ Features index
    * class
 
       * :ref:`%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed`
+      * :ref:`a-class-constant-must-not-be-called-class.-it-is-reserved-for-class-name-fetching`
       * :ref:`calling-get_class()-without-arguments-is-deprecated`
       * :ref:`cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s`
       * :ref:`illegal-class-name`
@@ -148,15 +154,20 @@ Features index
       * :ref:`undefined-class-constant-\'%s::%s\'`
 
 
+   * class-operator
+
+      * :ref:`a-class-constant-must-not-be-called-class.-it-is-reserved-for-class-name-fetching`
+
+
    * closure
 
-      * :ref:`cannot-use-variable-$%s-twice`
+      * :ref:`cannot-use-variable-\$%s-twice`
 
 
    * coalesce
 
-      * :ref:`typed-property-%s::$%s-must-not-be-accessed-before-initialization`
-      * :ref:`typed-static-property-%s::$%s-must-not-be-accessed-before-initialization`
+      * :ref:`typed-property-%s::\$%s-must-not-be-accessed-before-initialization`
+      * :ref:`typed-static-property-%s::\$%s-must-not-be-accessed-before-initialization`
 
 
    * comment
@@ -176,8 +187,9 @@ Features index
 
    * constant
 
+      * :ref:`cannot-declare-self-referencing-constant`
       * :ref:`constant-%s-is-deprecated`
-      * :ref:`define():-argument-#3-($case_insensitive)-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported`
+      * :ref:`define():-argument-#3-(\$case_insensitive)-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported`
 
 
    * constant-in-trait
@@ -197,7 +209,7 @@ Features index
 
    * context
 
-      * :ref:`cannot-modify-readonly-property-%s::$%s`
+      * :ref:`cannot-modify-readonly-property-%s::\$%s`
 
 
    * continue
@@ -218,15 +230,15 @@ Features index
 
    * definition
 
-      * :ref:`redefinition-of-parameter-$b`
-      * :ref:`undefined-property:-%s::$%s`
+      * :ref:`redefinition-of-parameter-\$b`
+      * :ref:`undefined-property:-%s::\$%s`
 
 
    * deprecated
 
       * :ref:`constant-%s-is-deprecated`
       * :ref:`constant-%s::%s-is-deprecated`
-      * :ref:`get_defined_functions():-setting-$exclude_disabled-to-false-has-no-effect`
+      * :ref:`get_defined_functions():-setting-\$exclude_disabled-to-false-has-no-effect`
 
 
    * ellipsis
@@ -237,8 +249,8 @@ Features index
    * empty
 
       * :ref:`property-hook-list-must-not-be-empty`
-      * :ref:`typed-property-%s::$%s-must-not-be-accessed-before-initialization`
-      * :ref:`typed-static-property-%s::$%s-must-not-be-accessed-before-initialization`
+      * :ref:`typed-property-%s::\$%s-must-not-be-accessed-before-initialization`
+      * :ref:`typed-static-property-%s::\$%s-must-not-be-accessed-before-initialization`
 
 
    * enum
@@ -260,6 +272,11 @@ Features index
 
       * :ref:`call-to-undefined-function-exit()`
       * :ref:`never-returning-function-must-not-implicitly-return`
+
+
+   * extensions
+
+      * :ref:`cannot-load-module-\"%s\"-because-required-module-\"%s\"-is-not-loaded`
 
 
    * ffi
@@ -368,14 +385,14 @@ Features index
 
    * interpolation
 
-      * :ref:`using-${expr}-(variable-variables)-in-strings-is-deprecated,-use-{${expr}}-instead`
-      * :ref:`using-${var}-in-strings-is-deprecated,-use-{$var}-instead`
+      * :ref:`using-\${expr}-(variable-variables)-in-strings-is-deprecated,-use-{\${expr}}-instead`
+      * :ref:`using-\${var}-in-strings-is-deprecated,-use-{\$var}-instead`
 
 
    * isset
 
-      * :ref:`typed-property-%s::$%s-must-not-be-accessed-before-initialization`
-      * :ref:`typed-static-property-%s::$%s-must-not-be-accessed-before-initialization`
+      * :ref:`typed-property-%s::\$%s-must-not-be-accessed-before-initialization`
+      * :ref:`typed-static-property-%s::\$%s-must-not-be-accessed-before-initialization`
 
 
    * iterator
@@ -402,6 +419,7 @@ Features index
 
    * list
 
+      * :ref:`cannot-mix-keyed-and-unkeyed-array-entries-in-assignments`
       * :ref:`cannot-use-empty-array-elements-in-arrays`
       * :ref:`cannot-use-empty-array-entries-in-keyed-array-assignment`
       * :ref:`spread-operator-is-not-supported-in-assignments`
@@ -499,7 +517,7 @@ Features index
 
    * optional-parameter
 
-      * :ref:`required-parameter-$%s-follows-optional-parameter-$%s`
+      * :ref:`required-parameter-\$%s-follows-optional-parameter-\$%s`
 
 
    * override
@@ -510,19 +528,19 @@ Features index
    * overwrite
 
       * :ref:`indirect-modification-of-overloaded-element-of-%s-has-no-effect`
-      * :ref:`indirect-modification-of-overloaded-property-%s::$%s-has-no-effect`
+      * :ref:`indirect-modification-of-overloaded-property-%s::\$%s-has-no-effect`
 
 
    * parameter
 
-      * :ref:`named-parameter-$x-overwrites-previous-argument`
-      * :ref:`redefinition-of-parameter-$b`
-      * :ref:`required-parameter-$%s-follows-optional-parameter-$%s`
+      * :ref:`named-parameter-\$x-overwrites-previous-argument`
+      * :ref:`redefinition-of-parameter-\$b`
+      * :ref:`required-parameter-\$%s-follows-optional-parameter-\$%s`
 
 
    * parameter-removal
 
-      * :ref:`get_defined_functions():-setting-$exclude_disabled-to-false-has-no-effect`
+      * :ref:`get_defined_functions():-setting-\$exclude_disabled-to-false-has-no-effect`
 
 
    * parenthesis
@@ -549,19 +567,19 @@ Features index
 
    * property
 
-      * :ref:`accessing-static-trait-property-%s::$%s-is-deprecated`
+      * :ref:`accessing-static-trait-property-%s::\$%s-is-deprecated`
       * :ref:`cannot-acquire-reference-to-readonly-property`
       * :ref:`cannot-declare-variadic-promoted-property`
       * :ref:`default-value-for-property-of-type-int-may-not-be-null.-use-the-nullable-type-?int-to-allow-null-default-value`
       * :ref:`interfaces-may-not-include-properties`
-      * :ref:`property-%s::$%s-cannot-have-type-%s`
-      * :ref:`undefined-property:-%s::$%s`
+      * :ref:`property-%s::\$%s-cannot-have-type-%s`
+      * :ref:`undefined-property:-%s::\$%s`
 
 
    * property hook
 
-      * :ref:`cannot-specify-default-value-for-virtual-hooked-property-%s::$%s`
-      * :ref:`cannot-unset-hooked-property-%s::$%s`
+      * :ref:`cannot-specify-default-value-for-virtual-hooked-property-%s::\$%s`
+      * :ref:`cannot-unset-hooked-property-%s::\$%s`
       * :ref:`cannot-use-the-abstract-modifier-on-a-property`
       * :ref:`hooked-properties-cannot-be-readonly`
       * :ref:`non-abstract-property-hook-must-have-a-body`
@@ -576,7 +594,10 @@ Features index
       * :ref:`cannot-override-final-property-hook-%s::%s()`
       * :ref:`cannot-redeclare-property-hook`
       * :ref:`interfaces-may-only-include-hooked-properties`
-      * :ref:`unknown-hook-"%s"-for-property-%s::$%s,-expected-"get"-or-"set"`
+      * :ref:`must-not-use-parent::\$%s::%s()-in-a-different-property-(\$%s)`
+      * :ref:`must-not-use-parent::\$%s::%s()-in-a-different-property-hook-(%s)`
+      * :ref:`must-not-use-parent::\$%s::%s()-outside-a-property-hook`
+      * :ref:`unknown-hook-"%s"-for-property-%s::\$%s,-expected-"get"-or-"set"`
 
 
    * reading
@@ -588,19 +609,24 @@ Features index
 
       * :ref:`cannot-acquire-reference-to-readonly-property`
       * :ref:`cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s`
-      * :ref:`cannot-modify-readonly-property-%s::$%s`
+      * :ref:`cannot-modify-readonly-property-%s::\$%s`
       * :ref:`hooked-properties-cannot-be-readonly`
       * :ref:`multiple-readonly-modifiers-are-not-allowed`
-      * :ref:`readonly-class-%s-cannot-use-trait-with-a-non-readonly-property-%s::$%s`
+      * :ref:`readonly-class-%s-cannot-use-trait-with-a-non-readonly-property-%s::\$%s`
       * :ref:`readonly-class-bar-cannot-extend-non-readonly-class-foo`
-      * :ref:`static-property-%s::$%s-cannot-be-readonly`
+      * :ref:`static-property-%s::\$%s-cannot-be-readonly`
+
+
+   * recursive
+
+      * :ref:`cannot-declare-self-referencing-constant`
 
 
    * reference
 
       * :ref:`an-iterator-cannot-be-used-with-foreach-by-reference`
       * :ref:`cannot-acquire-reference-to-readonly-property`
-      * :ref:`cannot-use-variable-$%s-twice`
+      * :ref:`cannot-use-variable-\$%s-twice`
       * :ref:`only-variable-references-should-be-yielded-by-reference`
       * :ref:`returning-by-reference-from-a-void-function-is-deprecated`
 
@@ -655,19 +681,19 @@ Features index
       * :ref:`multiple-static-modifiers-are-not-allowed`
       * :ref:`non-static-method-%s::%s()-cannot-be-called-statically`
       * :ref:`non-static-method-%s::%s()-should-not-be-called-statically`
-      * :ref:`static-property-%s::$%s-cannot-be-readonly`
-      * :ref:`static-property-x::$y-cannot-be-readonly`
+      * :ref:`static-property-%s::\$%s-cannot-be-readonly`
+      * :ref:`static-property-x::\$y-cannot-be-readonly`
 
 
    * static-property
 
-      * :ref:`attempt-to-unset-static-property-%s::$%s`
+      * :ref:`attempt-to-unset-static-property-%s::\$%s`
       * :ref:`cannot-declare-hooks-for-static-property`
 
 
    * static-variable
 
-      * :ref:`duplicate-declaration-of-static-variable-$%s`
+      * :ref:`duplicate-declaration-of-static-variable-\$%s`
 
 
    * strict_types
@@ -685,7 +711,7 @@ Features index
       * :ref:`cannot-use-string-offset-as-an-object`
       * :ref:`illegal-string-offset`
       * :ref:`uninitialized-string-offset`
-      * :ref:`using-${var}-in-strings-is-deprecated,-use-{$var}-instead`
+      * :ref:`using-\${var}-in-strings-is-deprecated,-use-{\$var}-instead`
 
 
    * switch
@@ -700,7 +726,7 @@ Features index
 
    * this
 
-      * :ref:`cannot-re-assign-$this`
+      * :ref:`cannot-re-assign-\$this`
 
 
    * throw
@@ -711,13 +737,13 @@ Features index
    * trait
 
       * :ref:`%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed`
-      * :ref:`accessing-static-trait-property-%s::$%s-is-deprecated,-it-should-only-be-accessed-on-a-class-using-the-trait`
-      * :ref:`accessing-static-trait-property-%s::$%s-is-deprecated`
+      * :ref:`accessing-static-trait-property-%s::\$%s-is-deprecated,-it-should-only-be-accessed-on-a-class-using-the-trait`
+      * :ref:`accessing-static-trait-property-%s::\$%s-is-deprecated`
       * :ref:`calling-static-trait-method-%s::%s-is-deprecated`
       * :ref:`cannot-access-trait-constant-%s::%s-directly`
       * :ref:`cannot-instantiate-trait-t`
-      * :ref:`readonly-class-%s-cannot-use-trait-with-a-non-readonly-property-%s::$%s`
-      * :ref:`required-trait-t2-wasn\'t-added-to-t`
+      * :ref:`readonly-class-%s-cannot-use-trait-with-a-non-readonly-property-%s::\$%s`
+      * :ref:`required-trait-%s-wasn\'t-added-to-%s`
       * :ref:`traits-cannot-have-constants`
 
 
@@ -728,7 +754,7 @@ Features index
 
    * typehint
 
-      * :ref:`%s():-implicitly-marking-parameter-$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead`
+      * :ref:`%s():-implicitly-marking-parameter-\$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead`
       * :ref:`is-an-invalid-class-name`
 
 
@@ -745,8 +771,8 @@ Features index
 
    * unset
 
-      * :ref:`attempt-to-unset-static-property-%s::$%s`
-      * :ref:`cannot-unset-$this`
+      * :ref:`attempt-to-unset-static-property-%s::\$%s`
+      * :ref:`cannot-unset-\$this`
       * :ref:`the-(unset)-cast-is-deprecated`
       * :ref:`the-(unset)-cast-is-no-longer-supported`
 
@@ -770,12 +796,12 @@ Features index
 
    * virtual property
 
-      * :ref:`cannot-specify-default-value-for-virtual-hooked-property-%s::$%s`
+      * :ref:`cannot-specify-default-value-for-virtual-hooked-property-%s::\$%s`
 
 
    * virtual-property
 
-      * :ref:`%s-virtual-property-%s::$%s-must-not-specify-asymmetric-visibility`
+      * :ref:`%s-virtual-property-%s::\$%s-must-not-specify-asymmetric-visibility`
 
 
    * visibility
@@ -787,7 +813,7 @@ Features index
    * void
 
       * :ref:`a-function-with-return-type-must-return-a-value`
-      * :ref:`property-x::$p-cannot-have-type-void`
+      * :ref:`property-x::\$p-cannot-have-type-void`
       * :ref:`returning-by-reference-from-a-void-function-is-deprecated`
       * :ref:`void-cannot-be-used-as-a-parameter-type`
 

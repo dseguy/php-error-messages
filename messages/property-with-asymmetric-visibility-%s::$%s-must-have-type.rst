@@ -1,4 +1,4 @@
-.. _property-with-asymmetric-visibility-%s::$%s-must-have-type:
+.. _property-with-asymmetric-visibility-%s::\$%s-must-have-type:
 
 Property with asymmetric visibility %s::$%s must have type
 ----------------------------------------------------------

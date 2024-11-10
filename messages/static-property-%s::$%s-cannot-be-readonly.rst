@@ -1,4 +1,4 @@
-.. _static-property-%s::$%s-cannot-be-readonly:
+.. _static-property-%s::\$%s-cannot-be-readonly:
 
 Static property %s::$%s cannot be readonly
 ------------------------------------------

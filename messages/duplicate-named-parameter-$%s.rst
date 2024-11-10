@@ -1,4 +1,4 @@
-.. _duplicate-named-parameter-$%s:
+.. _duplicate-named-parameter-\$%s:
 
 Duplicate named parameter $%s
 -----------------------------

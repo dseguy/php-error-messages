@@ -103,7 +103,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/assignments-can-only-happen-to-writable-values.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/attempt-to-unset-static-property-a::$x.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/attempt-to-unset-static-property-%s::$%s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/attribute-class-&quot;%s&quot;-not-found.html</loc>
@@ -119,6 +119,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/call-to-a-member-function-%s()-on-%s.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-function-%s().html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-function-exit().html</loc>
@@ -211,7 +214,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redefine-class-constant.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-specify-default-value-for-virtual-hooked-property.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-specify-default-value-for-virtual-hooked-property-%s::$%s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-throw-objects-that-do-not-implement-throwable.html</loc>
@@ -487,6 +490,15 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-contain-at-least-one-element.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-not-use-parent::$%s::%s()-in-a-different-property-($%s).html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-not-use-parent::$%s::%s()-in-a-different-property-hook-(%s).html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-not-use-parent::$%s::%s()-outside-a-property-hook.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/named-parameter-$x-overwrites-previous-argument.html</loc>
  </url>
  <url>
@@ -568,7 +580,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/required-parameter-$%s-follows-optional-parameter-$%s.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/required-trait-t2-wasn\'t-added-to-c.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/required-trait-%s-wasn\'t-added-to-%s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/return-value-must-be-of-type-int,-string-returned.html</loc>
@@ -673,7 +685,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/using-${expr}-(variable-variables)-in-strings-is-deprecated,-use-{${expr}}-instead.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/using--in-strings-is-deprecated,-use-{$var}-instead.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/using-${var}-in-strings-is-deprecated,-use-{$var}-instead.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/visibility-of-property-%s::$%s-must-not-be-weaker-than-set-visibility.html</loc>

@@ -1,4 +1,4 @@
-.. _access-to-undeclared-static-property-%s::$%s:
+.. _access-to-undeclared-static-property-%s::\$%s:
 
 Access to undeclared static property %s::$%s
 --------------------------------------------

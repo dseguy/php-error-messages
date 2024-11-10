@@ -1,4 +1,4 @@
-.. _optional-parameter-$%s-declared-before-required-parameter-$%s-is-implicitly-treated-as-a-required-parameter:
+.. _optional-parameter-\$%s-declared-before-required-parameter-\$%s-is-implicitly-treated-as-a-required-parameter:
 
 Optional parameter $a declared before required parameter $b is implicitly treated as a required parameter
 ---------------------------------------------------------------------------------------------------------

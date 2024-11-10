@@ -1,4 +1,4 @@
-.. _typed-property-%s\:\:$%s-must-not-be-accessed-before-initialization:
+.. _typed-property-%s\:\:\$%s-must-not-be-accessed-before-initialization:
 
 Typed property %s::$%s must not be accessed before initialization
 -----------------------------------------------------------------
@@ -37,6 +37,7 @@ Solutions
 _________
 
 + Give a default value to the property.
++ Remove usage of unset() on properties, as they are then reset to uninitialized state.
 + Set the value of the property in the constructor.
 + Use isset(), empty() or ?? to check the status of the property before usage.
 
