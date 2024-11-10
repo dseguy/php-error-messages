@@ -23,6 +23,11 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Call to undefined function undefined_function()
+
 Solutions
 _________
 

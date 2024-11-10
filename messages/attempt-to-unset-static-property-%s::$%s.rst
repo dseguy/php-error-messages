@@ -40,6 +40,11 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Attempt to unset static property X::$x
+
 Solutions
 _________
 

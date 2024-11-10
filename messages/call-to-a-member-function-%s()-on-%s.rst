@@ -26,6 +26,13 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Call to a member function foo() on string
++ Call to a member function foo() on int
++ Call to a member function foo() on null
+
 Solutions
 _________
 

@@ -27,6 +27,11 @@ _______
    ) = $array;
    ?>
 
+
+Literal Examples
+****************
++ Cannot mix keyed and unkeyed array entries in assignments
+
 Solutions
 _________
 

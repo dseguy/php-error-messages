@@ -19,10 +19,10 @@ _______
 
    <?php
    trait T1 {
-       function foo() {echo T1\n;}
+       function foo() {echo "T1\n";}
    }
    trait T2 {
-           function foo() {echo T2\n;}
+           function foo() {echo "T2\n";}
    }
    class C {
        use T1 {
@@ -30,6 +30,11 @@ _______
        }
    }
    ?>
+
+
+Literal Examples
+****************
++ Required Trait T2 wasn't added to C
 
 Solutions
 _________

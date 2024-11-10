@@ -12,6 +12,9 @@ ___________
  
 printf() and sprintf() take a format string as first argument, and an arbitrary number of arguments after that. Those extra arguments are only positional. Hence, it is not possible to use ellipsis on an array with string keys. 
 
+This error also applies to array functions that handles the parameters as a list: in a list, the names are not important.
+
+
 Example
 _______
 
@@ -21,7 +24,21 @@ _______
    
    printf('%s', ...['a' => 2]);
    
+   array_merge([1, 2], a: [3, 4]);
+   
+   array_intersect([1, 2], a: [3, 4]);
+   
+   array_diff_key([1, 2], [3, 4], a: [5, 6]);
+   
    ?>
+
+
+Literal Examples
+****************
++ printf() does not accept unknown named parameters
++ array_merge() does not accept unknown named parameters
++ array_diff_key() does not accept unknown named parameters
++ array_intersect() does not accept unknown named parameters
 
 Solutions
 _________

@@ -24,6 +24,11 @@ _______
    function &foo(): void { }
    ?>
 
+
+Literal Examples
+****************
++ foo(): Returning by reference from a void function is deprecated
+
 Solutions
 _________
 

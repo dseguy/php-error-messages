@@ -145,6 +145,7 @@ Features index
 
    * class-constant
 
+      * :ref:`"static::"-is-not-allowed-in-compile-time-constants`
       * :ref:`%s-%s-inherits-both-%s::%s-and-%s::%s`
       * :ref:`%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed`
       * :ref:`cannot-be-a-class-constant`
@@ -187,6 +188,7 @@ Features index
 
    * constant
 
+      * :ref:`"static::"-is-not-allowed-in-compile-time-constants`
       * :ref:`cannot-declare-self-referencing-constant`
       * :ref:`constant-%s-is-deprecated`
       * :ref:`define():-argument-#3-(\$case_insensitive)-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported`
@@ -230,6 +232,7 @@ Features index
 
    * definition
 
+      * :ref:`call-to-undefined-function-%s()`
       * :ref:`redefinition-of-parameter-\$b`
       * :ref:`undefined-property:-%s::\$%s`
 
@@ -324,6 +327,8 @@ Features index
 
    * function
 
+      * :ref:`%s():-returning-by-reference-from-a-void-function-is-deprecated`
+      * :ref:`call-to-undefined-function-%s()`
       * :ref:`call-to-undefined-function`
 
 
@@ -445,6 +450,7 @@ Features index
 
    * method
 
+      * :ref:`%s():-returning-by-reference-from-a-void-function-is-deprecated`
       * :ref:`%s-function-%s::%s()-cannot-be-declared-private`
       * :ref:`non-static-method-%s::%s()-cannot-be-called-statically`
 
@@ -533,6 +539,7 @@ Features index
 
    * parameter
 
+      * :ref:`%s():-implicitly-marking-parameter-\$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead`
       * :ref:`named-parameter-\$x-overwrites-previous-argument`
       * :ref:`redefinition-of-parameter-\$b`
       * :ref:`required-parameter-\$%s-follows-optional-parameter-\$%s`
@@ -678,6 +685,7 @@ Features index
 
    * static
 
+      * :ref:`"static::"-is-not-allowed-in-compile-time-constants`
       * :ref:`multiple-static-modifiers-are-not-allowed`
       * :ref:`non-static-method-%s::%s()-cannot-be-called-statically`
       * :ref:`non-static-method-%s::%s()-should-not-be-called-statically`
@@ -712,6 +720,11 @@ Features index
       * :ref:`illegal-string-offset`
       * :ref:`uninitialized-string-offset`
       * :ref:`using-\${var}-in-strings-is-deprecated,-use-{\$var}-instead`
+
+
+   * surprising
+
+      * :ref:`cannot-use-temporary-expression-in-write-context`
 
 
    * switch
@@ -749,12 +762,12 @@ Features index
 
    * type
 
+      * :ref:`%s():-implicitly-marking-parameter-\$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead`
       * :ref:`duplicate-type-%s-is-redundant`
 
 
    * typehint
 
-      * :ref:`%s():-implicitly-marking-parameter-\$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead`
       * :ref:`is-an-invalid-class-name`
 
 
@@ -812,6 +825,7 @@ Features index
 
    * void
 
+      * :ref:`%s():-returning-by-reference-from-a-void-function-is-deprecated`
       * :ref:`a-function-with-return-type-must-return-a-value`
       * :ref:`property-x::\$p-cannot-have-type-void`
       * :ref:`returning-by-reference-from-a-void-function-is-deprecated`
