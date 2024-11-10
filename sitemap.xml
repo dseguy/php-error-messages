@@ -487,6 +487,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-a-valid-rounding-mode-(roundingmode\:\:*).html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-contained-in-argument-#1-($haystack).html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-contain-at-least-one-element.html</loc>
  </url>
  <url>

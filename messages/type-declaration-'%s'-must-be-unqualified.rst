@@ -28,6 +28,14 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Type declaration 'array' must be unqualified
++ Type declaration 'string' must be unqualified
++ Type declaration 'int' must be unqualified
++ Type declaration 'null' must be unqualified
+
 Solutions
 _________
 

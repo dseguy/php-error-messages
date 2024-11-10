@@ -37,6 +37,13 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ '\self' is an invalid class name
++ '\parent' is an invalid class name
++ '\static' is an invalid class name
+
 Solutions
 _________
 

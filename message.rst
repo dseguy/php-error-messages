@@ -167,6 +167,7 @@ PHP Error Messages
    messages/multiple-readonly-modifiers-are-not-allowed.rst
    messages/multiple-static-modifiers-are-not-allowed.rst
    messages/must-be-a-valid-rounding-mode-(roundingmode\:\:*).rst
+   messages/must-be-contained-in-argument-#1-($haystack).rst
    messages/must-contain-at-least-one-element.rst
    messages/must-not-use-parent::$%s::%s()-in-a-different-property-($%s).rst
    messages/must-not-use-parent::$%s::%s()-in-a-different-property-hook-(%s).rst

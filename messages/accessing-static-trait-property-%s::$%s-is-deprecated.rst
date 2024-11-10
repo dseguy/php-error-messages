@@ -34,6 +34,11 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Accessing static trait property T::$property is deprecated
+
 Solutions
 _________
 

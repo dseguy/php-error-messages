@@ -225,6 +225,11 @@ Features index
       * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported`
 
 
+   * declaration
+
+      * :ref:`access-to-undeclared-static-property-%s::\$%s`
+
+
    * default
 
       * :ref:`default-value-for-property-of-type-int-may-not-be-null.-use-the-nullable-type-?int-to-allow-null-default-value`
@@ -232,6 +237,7 @@ Features index
 
    * definition
 
+      * :ref:`access-to-undeclared-static-property-%s::\$%s`
       * :ref:`call-to-undefined-function-%s()`
       * :ref:`redefinition-of-parameter-\$b`
       * :ref:`undefined-property:-%s::\$%s`
@@ -349,6 +355,11 @@ Features index
       * :ref:`property-hook-cannot-be-both-final-and-private`
 
 
+   * iconv
+
+      * :ref:`must-be-contained-in-argument-#1-(\$haystack)`
+
+
    * implements
 
       * :ref:`b-cannot-implement-a---it-is-not-an-interface`
@@ -417,6 +428,7 @@ Features index
 
    * label
 
+      * :ref:`\'goto\'-to-undefined-label-\'%s\'`
       * :ref:`jump-into-a-finally-block-is-disallowed`
       * :ref:`jump-out-of-a-finally-block-is-disallowed`
       * :ref:`label-\'%s\'-already-defined`
@@ -446,6 +458,11 @@ Features index
 
       * :ref:`match-expressions-may-only-contain-one-default-arm`
       * :ref:`unhandled-match-case-%s`
+
+
+   * mbstring
+
+      * :ref:`must-be-contained-in-argument-#1-(\$haystack)`
 
 
    * method
@@ -548,6 +565,11 @@ Features index
    * parameter-removal
 
       * :ref:`get_defined_functions():-setting-\$exclude_disabled-to-false-has-no-effect`
+
+
+   * parent
+
+      * :ref:`\'\%s\'-is-an-invalid-class-name`
 
 
    * parenthesis
@@ -671,9 +693,14 @@ Features index
       * :ref:`cannot-use-a-scalar-value-as-an-array`
 
 
-   * scalar-type
+   * scalar-typehint
 
       * :ref:`type-declaration-\'%s\'-must-be-unqualified`
+
+
+   * self
+
+      * :ref:`\'\%s\'-is-an-invalid-class-name`
 
 
    * silent
@@ -686,6 +713,7 @@ Features index
    * static
 
       * :ref:`"static::"-is-not-allowed-in-compile-time-constants`
+      * :ref:`\'\%s\'-is-an-invalid-class-name`
       * :ref:`multiple-static-modifiers-are-not-allowed`
       * :ref:`non-static-method-%s::%s()-cannot-be-called-statically`
       * :ref:`non-static-method-%s::%s()-should-not-be-called-statically`
@@ -693,8 +721,14 @@ Features index
       * :ref:`static-property-x::\$y-cannot-be-readonly`
 
 
+   * static property
+
+      * :ref:`accessing-static-trait-property-%s::\$%s-is-deprecated`
+
+
    * static-property
 
+      * :ref:`access-to-undeclared-static-property-%s::\$%s`
       * :ref:`attempt-to-unset-static-property-%s::\$%s`
       * :ref:`cannot-declare-hooks-for-static-property`
 

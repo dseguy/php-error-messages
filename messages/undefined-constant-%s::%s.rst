@@ -30,6 +30,11 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Undefined constant X::CONSTANT
+
 Solutions
 _________
 

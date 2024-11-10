@@ -34,6 +34,11 @@ _______
    }
    ?>
 
+
+Literal Examples
+****************
++ Attribute class "Deprecated" not found
+
 Solutions
 _________
 

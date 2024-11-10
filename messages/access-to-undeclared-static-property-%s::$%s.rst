@@ -31,6 +31,11 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Access to undeclared static property X::$staticProperty
+
 Solutions
 _________
 
