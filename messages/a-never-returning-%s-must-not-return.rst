@@ -32,6 +32,11 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ A never-returning function must not return.
+
 Solutions
 _________
 

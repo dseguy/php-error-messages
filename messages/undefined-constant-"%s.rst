@@ -28,6 +28,11 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Undefined constant "A"
+
 Solutions
 _________
 

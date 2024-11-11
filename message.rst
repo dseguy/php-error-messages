@@ -173,9 +173,11 @@ PHP Error Messages
    messages/must-not-use-parent::$%s::%s()-in-a-different-property-hook-(%s).rst
    messages/must-not-use-parent::$%s::%s()-outside-a-property-hook.rst
    messages/named-parameter-$x-overwrites-previous-argument.rst
+   messages/namespace-declarations-cannot-be-nested.rst
    messages/never-cannot-be-used-as-a-parameter-type.rst
    messages/never-returning-function-must-not-implicitly-return.rst
    messages/new-expressions-are-not-supported-in-this-context.rst
+   messages/no-code-may-exist-outside-of-namespace-{}.rst
    messages/non-abstract-property-hook-must-have-a-body.rst
    messages/non-static-method-%s::%s()-cannot-be-called-statically.rst
    messages/non-static-method-%s::%s()-should-not-be-called-statically.rst
@@ -208,6 +210,7 @@ PHP Error Messages
    messages/static-property-x::$y-cannot-be-readonly.rst
    messages/strict_types-declaration-must-be-the-very-first-statement-in-the-script.rst
    messages/switch-statements-may-only-contain-one-default-clause.rst
+   messages/syntax-error,-unexpected-token-"{".rst
    messages/the-(real)-cast-has-been-removed,-use-(float)-instead.rst
    messages/the-(real)-cast-is-deprecated,-use-(float)-instead.rst
    messages/the-(unset)-cast-is-deprecated.rst

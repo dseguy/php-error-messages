@@ -25,6 +25,11 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Method x::__construct() cannot be static
+
 Solutions
 _________
 

@@ -1,11 +1,11 @@
 .. _optional-parameter-\$%s-declared-before-required-parameter-\$%s-is-implicitly-treated-as-a-required-parameter:
 
-Optional parameter $a declared before required parameter $b is implicitly treated as a required parameter
+Optional parameter %s declared before required parameter %s is implicitly treated as a required parameter
 ---------------------------------------------------------------------------------------------------------
  
 	.. meta::
 		:description lang=en:
-			Optional parameter $a declared before required parameter $b is implicitly treated as a required parameter: An optional parameter has a default value, while a required parameter doesn't.
+			Optional parameter %s declared before required parameter %s is implicitly treated as a required parameter: An optional parameter has a default value, while a required parameter doesn't.
 
 Description
 ___________
@@ -25,6 +25,11 @@ _______
    function foo($a = 1, $b) {}
    	
    ?>
+
+
+Literal Examples
+****************
++ Optional parameter $a declared before required parameter $b is implicitly treated as a required parameter
 
 Solutions
 _________

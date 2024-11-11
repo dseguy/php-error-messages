@@ -505,6 +505,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/named-parameter-$x-overwrites-previous-argument.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/namespace-declarations-cannot-be-nested.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/never-cannot-be-used-as-a-parameter-type.html</loc>
  </url>
  <url>
@@ -512,6 +515,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/new-expressions-are-not-supported-in-this-context.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/no-code-may-exist-outside-of-namespace-{}.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/non-abstract-property-hook-must-have-a-body.html</loc>
@@ -608,6 +614,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/switch-statements-may-only-contain-one-default-clause.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-&quot;{&quot;.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-(real)-cast-has-been-removed,-use-(float)-instead.html</loc>

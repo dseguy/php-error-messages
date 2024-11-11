@@ -39,6 +39,11 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Label 'C' already defined
+
 Solutions
 _________
 

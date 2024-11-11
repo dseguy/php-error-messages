@@ -7,6 +7,7 @@ Features index
    * $this
 
       * :ref:`cannot-unset-\$this`
+      * :ref:`using-\$this-when-not-in-object-context`
 
 
    * abstract
@@ -45,6 +46,8 @@ Features index
       * :ref:`implicit-conversion-from-float-string`
       * :ref:`indirect-modification-of-overloaded-element-of-%s-has-no-effect`
       * :ref:`indirect-modification-of-overloaded-property-%s::\$%s-has-no-effect`
+      * :ref:`syntax-error,-unexpected-token-"{"`
+      * :ref:`undefined-array-key`
       * :ref:`undefined-offset`
 
 
@@ -56,6 +59,7 @@ Features index
    * array-index
 
       * :ref:`cannot-mix-keyed-and-unkeyed-array-entries-in-assignments`
+      * :ref:`undefined-array-key`
 
 
    * assignation
@@ -90,11 +94,6 @@ Features index
       * :ref:`automatic-conversion-of-false-to-array-is-deprecated`
 
 
-   * backed-enum
-
-      * :ref:`enum-case-value-must-be-compile-time-evaluatable`
-
-
    * boolean
 
       * :ref:`increment-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php`
@@ -113,6 +112,12 @@ Features index
    * case
 
       * :ref:`case-%s::%s-does-not-exist`
+
+
+   * case-insensitivity
+
+      * :ref:`define():-argument-#3-(\$case_insensitive)-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported`
+      * :ref:`define():-declaration-of-case-insensitive-constants-is-deprecated`
 
 
    * cast
@@ -171,6 +176,11 @@ Features index
       * :ref:`typed-static-property-%s::\$%s-must-not-be-accessed-before-initialization`
 
 
+   * codepoint
+
+      * :ref:`is-not-a-valid-codepoint`
+
+
    * comment
 
       * :ref:`unterminated-comment-starting-line-%d`
@@ -192,6 +202,8 @@ Features index
       * :ref:`cannot-declare-self-referencing-constant`
       * :ref:`constant-%s-is-deprecated`
       * :ref:`define():-argument-#3-(\$case_insensitive)-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported`
+      * :ref:`define():-declaration-of-case-insensitive-constants-is-deprecated`
+      * :ref:`undefined-constant-\"%s`
 
 
    * constant-in-trait
@@ -228,6 +240,12 @@ Features index
    * declaration
 
       * :ref:`access-to-undeclared-static-property-%s::\$%s`
+      * :ref:`undefined-constant-\"%s`
+
+
+   * declare
+
+      * :ref:`no-code-may-exist-outside-of-namespace-{}`
 
 
    * default
@@ -267,6 +285,11 @@ Features index
       * :ref:`cannot-instantiate-enum-%s`
 
 
+   * enum-backed
+
+      * :ref:`enum-case-value-must-be-compile-time-evaluatable`
+
+
    * exception
 
       * :ref:`cannot-use-try-without-catch-or-finally`
@@ -283,7 +306,7 @@ Features index
       * :ref:`never-returning-function-must-not-implicitly-return`
 
 
-   * extensions
+   * extension
 
       * :ref:`cannot-load-module-\"%s\"-because-required-module-\"%s\"-is-not-loaded`
 
@@ -334,6 +357,7 @@ Features index
    * function
 
       * :ref:`%s():-returning-by-reference-from-a-void-function-is-deprecated`
+      * :ref:`a-never-returning-function-must-not-return`
       * :ref:`call-to-undefined-function-%s()`
       * :ref:`call-to-undefined-function`
 
@@ -345,14 +369,6 @@ Features index
       * :ref:`jump-into-a-finally-block-is-disallowed`
       * :ref:`jump-out-of-a-finally-block-is-disallowed`
       * :ref:`label-\'%s\'-already-defined`
-
-
-   * hook
-
-      * :ref:`cannot-use-the-abstract-modifier-on-a-property-hook`
-      * :ref:`cannot-use-the-final-modifier-on-a-property`
-      * :ref:`property-cannot-be-both-final-and-private`
-      * :ref:`property-hook-cannot-be-both-final-and-private`
 
 
    * iconv
@@ -374,12 +390,8 @@ Features index
 
    * inheritance
 
-      * :ref:`readonly-class-bar-cannot-extend-non-readonly-class-foo`
-
-
-   * inheritence
-
       * :ref:`cannot-declare-promoted-property-in-an-abstract-constructor`
+      * :ref:`readonly-class-bar-cannot-extend-non-readonly-class-foo`
 
 
    * instantiate
@@ -442,16 +454,12 @@ Features index
       * :ref:`spread-operator-is-not-supported-in-assignments`
 
 
-   * magic method
-
-      * :ref:`cannot-use-the-final-modifier-on-a-property`
-      * :ref:`property-cannot-be-both-final-and-private`
-      * :ref:`property-hook-cannot-be-both-final-and-private`
-
-
    * magic-method
 
+      * :ref:`cannot-use-the-final-modifier-on-a-property`
       * :ref:`method-%s::%s()-cannot-be-static`
+      * :ref:`property-cannot-be-both-final-and-private`
+      * :ref:`property-hook-cannot-be-both-final-and-private`
 
 
    * match
@@ -486,12 +494,15 @@ Features index
 
       * :ref:`%s%s%s()-does-not-accept-unknown-named-parameters`
       * :ref:`array_merge()-does-not-accept-unknown-named-parameters`
+      * :ref:`optional-parameter-\$%s-declared-before-required-parameter-\$%s-is-implicitly-treated-as-a-required-parameter`
 
 
    * namespace
 
       * :ref:`\'namespace\%s\'-is-an-invalid-class-name`
       * :ref:`call-to-undefined-function`
+      * :ref:`namespace-declarations-cannot-be-nested`
+      * :ref:`no-code-may-exist-outside-of-namespace-{}`
 
 
    * native
@@ -499,9 +510,15 @@ Features index
       * :ref:`only-internal-classes-can-be-registered-as-compiler-attribute`
 
 
+   * nesting
+
+      * :ref:`namespace-declarations-cannot-be-nested`
+
+
    * never
 
       * :ref:`a-never-returning-%s-must-not-return`
+      * :ref:`a-never-returning-function-must-not-return`
       * :ref:`cannot-use-\'never\'-as-class-name-as-it-is-reserved`
       * :ref:`never-cannot-be-used-as-a-parameter-type`
       * :ref:`never-returning-function-must-not-implicitly-return`
@@ -522,20 +539,26 @@ Features index
       * :ref:`cannot-use-object-of-type-%s-as-array`
 
 
-   * object syntax
-
-      * :ref:`cannot-use-string-offset-as-an-object`
-
-
    * object-syntax
 
       * :ref:`call-to-a-member-function-%s()-on-%s`
+      * :ref:`cannot-use-string-offset-as-an-object`
 
 
    * offset
 
       * :ref:`illegal-string-offset`
       * :ref:`uninitialized-string-offset`
+
+
+   * operand
+
+      * :ref:`unsupported-operand-types`
+
+
+   * operator
+
+      * :ref:`unsupported-operand-types`
 
 
    * optional-parameter
@@ -558,6 +581,7 @@ Features index
 
       * :ref:`%s():-implicitly-marking-parameter-\$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead`
       * :ref:`named-parameter-\$x-overwrites-previous-argument`
+      * :ref:`optional-parameter-\$%s-declared-before-required-parameter-\$%s-is-implicitly-treated-as-a-required-parameter`
       * :ref:`redefinition-of-parameter-\$b`
       * :ref:`required-parameter-\$%s-follows-optional-parameter-\$%s`
 
@@ -622,10 +646,14 @@ Features index
       * :ref:`cannot-declare-hooks-for-static-property`
       * :ref:`cannot-override-final-property-hook-%s::%s()`
       * :ref:`cannot-redeclare-property-hook`
+      * :ref:`cannot-use-the-abstract-modifier-on-a-property-hook`
+      * :ref:`cannot-use-the-final-modifier-on-a-property`
       * :ref:`interfaces-may-only-include-hooked-properties`
       * :ref:`must-not-use-parent::\$%s::%s()-in-a-different-property-(\$%s)`
       * :ref:`must-not-use-parent::\$%s::%s()-in-a-different-property-hook-(%s)`
       * :ref:`must-not-use-parent::\$%s::%s()-outside-a-property-hook`
+      * :ref:`property-cannot-be-both-final-and-private`
+      * :ref:`property-hook-cannot-be-both-final-and-private`
       * :ref:`unknown-hook-"%s"-for-property-%s::\$%s,-expected-"get"-or-"set"`
 
 
@@ -646,7 +674,7 @@ Features index
       * :ref:`static-property-%s::\$%s-cannot-be-readonly`
 
 
-   * recursive
+   * recursion
 
       * :ref:`cannot-declare-self-referencing-constant`
 
@@ -678,7 +706,7 @@ Features index
       * :ref:`never-returning-function-must-not-implicitly-return`
 
 
-   * returntype
+   * return-type
 
       * :ref:`a-function-with-return-type-must-return-a-value`
 
@@ -784,6 +812,7 @@ Features index
    * trait
 
       * :ref:`%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed`
+      * :ref:`%s-cannot-use-%s---it-is-not-a-trait`
       * :ref:`accessing-static-trait-property-%s::\$%s-is-deprecated,-it-should-only-be-accessed-on-a-class-using-the-trait`
       * :ref:`accessing-static-trait-property-%s::\$%s-is-deprecated`
       * :ref:`calling-static-trait-method-%s::%s-is-deprecated`

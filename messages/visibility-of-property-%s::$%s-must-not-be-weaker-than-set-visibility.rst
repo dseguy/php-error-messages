@@ -34,6 +34,11 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Visibility of property x::$p must not be weaker than set visibility
+
 Solutions
 _________
 

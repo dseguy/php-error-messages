@@ -9,11 +9,6 @@ Tag index
       * :ref:`automatic-conversion-of-false-to-array-is-deprecated`
 
 
-   * case insensitive
-
-      * :ref:`define():-argument-#3-($case_insensitive)-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported`
-
-
    * catch
 
       * :ref:`cannot-use-try-without-catch-or-finally`
@@ -222,9 +217,13 @@ Tag index
       * :ref:`%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed`
 
 
+   * syntax-error
+
+      * :ref:`syntax-error,-unexpected-token-"{"`
+
+
    * trait
 
-      * :ref:`%s-cannot-use-%s---it-is-not-a-trait`
       * :ref:`could-not-find-trait-%s`
       * :ref:`required-trait-%s-wasn\'t-added-to-%s`
 

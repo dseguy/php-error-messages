@@ -26,6 +26,11 @@ _______
    }
    ?>
 
+
+Literal Examples
+****************
++ y cannot use x - it is not a trait
+
 Solutions
 _________
 

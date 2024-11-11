@@ -39,6 +39,11 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ 'namespace\self' is an invalid class name
+
 Solutions
 _________
 

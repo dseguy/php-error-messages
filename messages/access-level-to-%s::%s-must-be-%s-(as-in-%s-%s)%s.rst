@@ -32,6 +32,12 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Access level to x::A must be public (as in interface i)
++ Access level to Z::B must be protected (as in class Y)
+
 Solutions
 _________
 

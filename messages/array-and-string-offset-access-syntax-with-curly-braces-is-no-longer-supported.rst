@@ -10,7 +10,7 @@ Array and string offset access syntax with curly braces is no longer supported
 Description
 ___________
  
-PHP used to support the curly braces ``{}`` to access elements in an array and a string. This was deprecated in PHP 7.4 and abandonned in PHP 8.0. The only operator to access an element is the square brackets ``[]``.
+PHP used to support the curly braces ``{}`` to access elements in an array and a string. This was deprecated in PHP 7.4 and abandoned in PHP 8.0. The only operator to access an element is the square brackets ``[]``.
 
 Example
 _______

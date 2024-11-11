@@ -33,4 +33,6 @@ _______
 Solutions
 _________
 
-+ 
++ Check that the offset is not beyond the length of the string.
++ Use a try catch around this methodcall.
++ Lengthen the source string.
