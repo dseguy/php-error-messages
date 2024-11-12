@@ -34,6 +34,11 @@ Features index
       * :ref:`cannot-use-[]-for-reading`
 
 
+   * argument
+
+      * :ref:`calling-get_parent_class()-without-arguments-is-deprecated`
+
+
    * array
 
       * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-deprecated`
@@ -60,6 +65,11 @@ Features index
 
       * :ref:`cannot-mix-keyed-and-unkeyed-array-entries-in-assignments`
       * :ref:`undefined-array-key`
+
+
+   * array-offset
+
+      * :ref:`trying-to-access-array-offset-on-%s`
 
 
    * assignation
@@ -311,6 +321,11 @@ Features index
       * :ref:`cannot-load-module-\"%s\"-because-required-module-\"%s\"-is-not-loaded`
 
 
+   * false
+
+      * :ref:`trying-to-access-array-offset-on-%s`
+
+
    * ffi
 
       * :ref:`ffi-api-is-restricted-by-\"ffi.enable\"-configuration-directive`
@@ -400,6 +415,11 @@ Features index
       * :ref:`cannot-instantiate-trait-t`
 
 
+   * instantiation
+
+      * :ref:`cannot-instantiate-trait-%s`
+
+
    * interface
 
       * :ref:`%s-%s-inherits-both-%s::%s-and-%s::%s`
@@ -468,6 +488,11 @@ Features index
       * :ref:`unhandled-match-case-%s`
 
 
+   * math
+
+      * :ref:`power-of-base-0-and-negative-exponent-is-deprecated`
+
+
    * mbstring
 
       * :ref:`must-be-contained-in-argument-#1-(\$haystack)`
@@ -494,6 +519,7 @@ Features index
 
       * :ref:`%s%s%s()-does-not-accept-unknown-named-parameters`
       * :ref:`array_merge()-does-not-accept-unknown-named-parameters`
+      * :ref:`duplicate-named-parameter-\$%s`
       * :ref:`optional-parameter-\$%s-declared-before-required-parameter-\$%s-is-implicitly-treated-as-a-required-parameter`
 
 
@@ -527,6 +553,11 @@ Features index
    * new-in-initializer
 
       * :ref:`new-expressions-are-not-supported-in-this-context`
+
+
+   * null
+
+      * :ref:`trying-to-access-array-offset-on-%s`
 
 
    * nullsafe
@@ -817,16 +848,27 @@ Features index
       * :ref:`accessing-static-trait-property-%s::\$%s-is-deprecated`
       * :ref:`calling-static-trait-method-%s::%s-is-deprecated`
       * :ref:`cannot-access-trait-constant-%s::%s-directly`
+      * :ref:`cannot-instantiate-trait-%s`
       * :ref:`cannot-instantiate-trait-t`
       * :ref:`readonly-class-%s-cannot-use-trait-with-a-non-readonly-property-%s::\$%s`
       * :ref:`required-trait-%s-wasn\'t-added-to-%s`
       * :ref:`traits-cannot-have-constants`
 
 
+   * true
+
+      * :ref:`trying-to-access-array-offset-on-%s`
+
+
    * type
 
       * :ref:`%s():-implicitly-marking-parameter-\$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead`
       * :ref:`duplicate-type-%s-is-redundant`
+
+
+   * typed-property
+
+      * :ref:`property-with-asymmetric-visibility-%s::\$%s-must-have-type`
 
 
    * typehint

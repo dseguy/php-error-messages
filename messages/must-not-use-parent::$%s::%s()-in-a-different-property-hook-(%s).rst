@@ -39,6 +39,11 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Must not use parent::$q::get() in a different property hook ($p)
+
 Solutions
 _________
 

@@ -33,7 +33,18 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Cannot instantiate enum e
+
 Solutions
 _________
 
-+ Use one of the enumeration case.
++ Use one of the enumeration cases.
+
+Related Error Messages
+______________________
+
++ :ref:`cannot-instantiate-trait-%s`
++ :ref:`cannot-instantiate-interface-%s`

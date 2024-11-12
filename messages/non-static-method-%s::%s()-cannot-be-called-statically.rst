@@ -21,6 +21,7 @@ _______
    
    class x {
        static function foo() {
+           //Non-static method x::foo() cannot be called statically
            self::goo();
        }
        
@@ -30,6 +31,11 @@ _______
    (new x)->foo();
    
    ?>
+
+
+Literal Examples
+****************
++ Non-static method x::foo() cannot be called statically
 
 Solutions
 _________

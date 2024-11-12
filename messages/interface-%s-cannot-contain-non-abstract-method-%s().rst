@@ -40,6 +40,11 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Interface i cannot contain non abstract method foo()
+
 Solutions
 _________
 

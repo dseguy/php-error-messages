@@ -31,7 +31,18 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Cannot instantiate interface i
+
 Solutions
 _________
 
 + Implement the interface with a class and use that class.
+
+Related Error Messages
+______________________
+
++ :ref:`cannot-instantiate-trait-%s`
++ :ref:`cannot-instantiate-enum-%s`

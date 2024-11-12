@@ -23,11 +23,19 @@ _______
 
    <?php
    
+   function foo($b, $b) {}
+   
    #[MyAttribute(a: 'A', a: 'A')]
    class Test {}
    
    ?>
    
+
+
+Literal Examples
+****************
++ Duplicate named parameter $a
++ Duplicate named parameter $b
 
 Solutions
 _________

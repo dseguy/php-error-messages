@@ -19,6 +19,11 @@ _______
 
    
 
+
+Literal Examples
+****************
++ Static function foo() cannot be abstract
+
 Solutions
 _________
 

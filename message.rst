@@ -66,6 +66,7 @@ PHP Error Messages
    messages/cannot-declare-variadic-promoted-property.rst
    messages/cannot-instantiate-enum-%s.rst
    messages/cannot-instantiate-interface-%s.rst
+   messages/cannot-instantiate-trait-%s.rst
    messages/cannot-instantiate-trait-t.rst
    messages/cannot-load-module-"%s"-because-required-module-"%s"-is-not-loaded.rst
    messages/cannot-make-non-abstract-method-i::foo()-abstract-in-class-j.rst

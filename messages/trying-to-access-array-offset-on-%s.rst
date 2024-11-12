@@ -35,6 +35,13 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Trying to access array offset on true
++ Trying to access array offset on false
++ Trying to access array offset on null
+
 Solutions
 _________
 

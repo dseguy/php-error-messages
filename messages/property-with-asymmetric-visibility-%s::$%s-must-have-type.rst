@@ -20,10 +20,15 @@ _______
    <?php
    
    class x {
-   	static protected(set) int $q;
+   	static protected(set) int $property;
    }
    
    ?>
+
+
+Literal Examples
+****************
++ Property with asymmetric visibility x::$property must have type
 
 Solutions
 _________

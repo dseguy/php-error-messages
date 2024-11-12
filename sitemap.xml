@@ -184,6 +184,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-instantiate-interface-%s.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-instantiate-trait-%s.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-instantiate-trait-t.html</loc>
  </url>
  <url>

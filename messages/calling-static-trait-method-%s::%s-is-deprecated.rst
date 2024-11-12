@@ -32,6 +32,11 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Calling static trait method T::foo is deprecated
+
 Solutions
 _________
 

@@ -32,6 +32,11 @@ _______
    $object->something[] = 'bar';
    ?>
 
+
+Literal Examples
+****************
++ Indirect modification of overloaded property OneObject::$something has no effect
+
 Solutions
 _________
 
