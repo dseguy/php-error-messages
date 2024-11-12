@@ -44,6 +44,7 @@ $tips     = array();
 $tags     = array();
 $features = array();
 $ids      = array();
+$extensions = array();
 $warnings = 0;
 foreach($files as $file) {
 	$error = parse_ini_file($file, INI_SCANNER_RAW);
@@ -70,14 +71,28 @@ foreach($files as $file) {
 	
 	$ids[$error->id] = 1;
 	
-	if ($error->id === "'namespace\%s'-is-an-invalid-class-name") {
-//		print_r($error);
-//		die();
+	if (str_contains($error->id, '%') && !isset($error->examples)) {
+		buildlog("No examples for $file");
+		++$warnings;
 	}
 
 	if (empty($error->description)) {
 		buildlog("No description for $file");
 		++$warnings;
+		continue;
+	}
+
+	if (isset($error->examples) && empty($error->examples)) {
+		buildlog("Empty examples for $file");
+		++$warnings;
+		print "Omitting $file\n";
+		continue;
+	}
+
+	if (isset($error->examples) && !is_array($error->examples)) {
+		buildlog("Examples should be an array for $file");
+		++$warnings;
+		print "Omitting $file\n";
 		continue;
 	}
 
@@ -106,16 +121,16 @@ foreach($files as $file) {
 		continue;
 	} else {
 		if (empty(array_filter($error->features))) {
-//			buildlog("No features in $file");
-//			++$warnings;
+			buildlog("No features in $file");
+			++$warnings;
 		}
 		foreach(array_filter($error->features) as $feature) {
 			$target = str_replace(array('errors/', '.ini'), '', $file);
-			$target = addcslashes($target, '`\'');
+			$target = addcslashes($target, '`\'$');
 			
 			if (!file_exists("../analyzeG3/human/en/Features/$feature.ini")) {
-//				buildlog("No file feature known for $feature in ".addcslashes($file, '`\''));
-//				++$warnings;
+				buildlog("No file feature known for $feature in ".addcslashes($file, '`\''));
+				++$warnings;
 			}
 			$features[$feature][] = $target;
 		}
@@ -214,6 +229,26 @@ foreach($files as $file) {
 		}
 	}
 
+	if (isset($error->extension)) {
+	    if (empty($error->extension)) {
+    		buildlog("Empty extension for $file");
+	    	++$warnings;
+	    } elseif (!is_array($error->extension)) {
+    		buildlog("extension should be an array in $file");
+	    	++$warnings;
+	    } else {
+	        foreach($error->extension as $extension) {
+	            if (!file_exists("../analyzeG3/human/en/Features/$extension.ini")) {
+            		buildlog("extension $extension is not defined in the dictionary in $file");
+	            	++$warnings;
+	            }
+	            
+	            $extensions[$extension] ??= 0;
+	            ++$extensions[$extension];
+	        }
+	    }
+	}
+
 	if (isset($error->related)) {
 		$error->related = array_filter($error->related);
 		
@@ -224,8 +259,8 @@ foreach($files as $file) {
 		foreach($error->related as $related) {
 			if (!file_exists('errors/'.$related.'.ini')) {
 				buildlog("No such related file as '$related' in $file");
-				die(ici);
 				++$warnings;
+				die("No such related file as '$related' in $file");
 			} else {
 				$target = str_replace(array('errors/', '.ini'), '', $file);
 				$hash = $target.' - '.$related;
@@ -272,9 +307,7 @@ foreach($files as $file) {
 
 if (!empty($reciproq)) {
 	foreach($reciproq as $origin => $target) {
-		print "$origin $target\n";
 		[$a, $b] = explode(' - ', $origin);
-		print "$a $b\n";
 		[$o, $t] = explode(' - ', $origin);
 		buildlog("$o lacks a related[] to $t");
 		print "$o lacks a related[] to $t\n";
@@ -294,7 +327,7 @@ $errorlist = [];
 foreach($errors as $file => $message) {
 	$entry = [];
 
-    $entry[] = ".. _".$message->id.":";
+    $entry[] = ".. _".addcslashes($message->id, '$').":";
 	$entry[] = '';
 	
 	$entry[] = $message->error;
@@ -320,10 +353,20 @@ foreach($errors as $file => $message) {
 	$entry[] = '';
 	$code = $message->code;
 	$code = '   '.str_replace("\n", "\n   ", $code);
-
 	$entry[] = $code;
 	$entry[] = '';
 
+    if (!empty($message->examples)) {
+		$entry[] = '';
+		
+    	$entry[] = 'Literal Examples';
+	    $entry[] = str_repeat('*', strlen('Example Examples'));
+		foreach($message->examples as $example) {
+			$entry[] = '+ '.$example;
+		}
+		$entry[] = '';
+	}
+	
 	if (!empty($message->alternative)) {
 		$entry[] = 'Solutions';
 		$entry[] = str_repeat('_', strlen('Solutions'));
@@ -449,6 +492,7 @@ file_put_contents('featuresindex.rst', implode(PHP_EOL, $featuresRst));
 print "processed ".count($tags)." tags\n";
 print "processed ".count($features)." features\n";
 print "processed ".count($files)." files\n";
+print "processed ".count($extensions)." extensions\n";
 print "warnings: $warnings\n";
 
 $sitemap->write();
@@ -463,6 +507,7 @@ function check(stdClass $tip, string $file) : string {
 
 function make_anchor(string $title) : string {
 	$title = '`'.strtr(strtolower($title), ' ', '-').'`';
+	$title = addslashes($title, '$');
 	return $title;
 }
 
