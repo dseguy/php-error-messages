@@ -25,12 +25,17 @@ _______
    <?php
    
    trait T {
-   	public static const T = 1;
+   	public static const C = 1;
    }
    
-   echo T::T;
+   echo T::C;
    
    ?>
+
+
+Literal Examples
+****************
++ Cannot access trait constant T::C directly
 
 Solutions
 _________
@@ -43,4 +48,5 @@ ______________________
 
 + :ref:`accessing-static-trait-property-%s::$%s-is-deprecated`
 + :ref:`calling-static-trait-method-%s::%s-is-deprecated`
++ :ref:`traits-cannot-have-constants`
 + :ref:`accessing-static-trait-property-%s::$%s-is-deprecated,-it-should-only-be-accessed-on-a-class-using-the-trait`

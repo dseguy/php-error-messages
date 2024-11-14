@@ -36,3 +36,4 @@ _________
 
 + Assign null, or a null value to this property.
 + Reset the property to its default value.
++ Cannot unset hooked property x::$x

@@ -31,6 +31,11 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Undefined property: x::$b
+
 Solutions
 _________
 

@@ -1,0 +1,53 @@
+.. _cannot-access-offset-of-type-%s-on-string:
+
+Cannot access offset of type %s on string
+-----------------------------------------
+ 
+	.. meta::
+		:description lang=en:
+			Cannot access offset of type %s on string: In an array notation, the offset may be a variable, or any container.
+
+Description
+___________
+ 
+In an array notation, the offset may be a variable, or any container. Yet, it must be a string or an integer; and when applied to an string, it must be an integer.
+
+This error is reported when a value which type is not cast to integer (such as ``null``, ``boolean``, ``float``) or string is used. Here, it is an object. 
+
+Note that a class that extends ``ArrayAccess`` interface allows the manipulation of any kind of key: this is possible, yet rare.
+
+
+Example
+_______
+
+.. code-block:: php
+
+   <?php
+   
+   // illustration example
+   $object = new Stdclass;
+   $string = 'abc';
+   
+   echo $string[$object];
+   
+   function foo(A $a) {
+       $string = 'abc';
+       echo $string[$a];
+   }
+   
+   ?>
+
+
+Literal Examples
+****************
++ Cannot access offset of type stdClass on string
+
+Solutions
+_________
+
++ Check the type of the index before using it in the array notation.
++ Check the type of the underlying object, using the array notation.
++ Cast the index to ``(string)`` or ``(int)`` when using it in the array notation.
+
+
+In more recent PHP versions, this error message is now :ref:`cannot-access-offset-of-type-%s-on-%s`.

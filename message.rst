@@ -44,16 +44,20 @@ PHP Error Messages
    messages/automatic-conversion-of-false-to-array-is-deprecated.rst
    messages/b-cannot-implement-a---it-is-not-an-interface.rst
    messages/break-operator-accepts-only-positive-integers.rst
+   messages/call-to-%s-%s::%s()-from-global-scope.rst
    messages/call-to-a-member-function-%s()-on-%s.rst
    messages/call-to-undefined-function-%s().rst
    messages/call-to-undefined-function-exit().rst
    messages/call-to-undefined-function.rst
+   messages/call-to-undefined-method-%s::%s().rst
    messages/calling-get_class()-without-arguments-is-deprecated.rst
    messages/calling-get_parent_class()-without-arguments-is-deprecated.rst
    messages/calling-static-trait-method-%s::%s-is-deprecated.rst
+   messages/cannot-access-offset-of-type-%s-in-isset-or-empty.rst
+   messages/cannot-access-offset-of-type-%s-on-%s.rst
+   messages/cannot-access-offset-of-type-%s-on-string.rst
    messages/cannot-access-parent::-when-current-class-scope-has-no-parent.rst
    messages/cannot-access-trait-constant-%s::%s-directly.rst
-   messages/cannot-access-trait-constant-t::x-directly.rst
    messages/cannot-acquire-reference-to-readonly-property.rst
    messages/cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s.rst
    messages/cannot-assign-an-empty-string-to-a-string-offset.rst
@@ -218,6 +222,8 @@ PHP Error Messages
    messages/the-(unset)-cast-is-no-longer-supported.rst
    messages/traits-cannot-have-constants.rst
    messages/trying-to-access-array-offset-on-%s.rst
+   messages/trying-to-clone-an-uncloneable-object-of-class-%s.rst
+   messages/trying-to-invoke-%s-method-%s::%s()-from-scope-%s.rst
    messages/type-%s-contains-both-iterable-and-array.rst
    messages/type-contains-both-true-and-false,-bool-must-be-used-instead.rst
    messages/type-declaration-'%s'-must-be-unqualified.rst

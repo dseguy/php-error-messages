@@ -25,6 +25,11 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Undefined class constant 'x::Y'
+
 Solutions
 _________
 

@@ -45,6 +45,7 @@ Features index
       * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported`
       * :ref:`array-to-string-conversion`
       * :ref:`cannot-unpack-array-with-string-keys`
+      * :ref:`cannot-unset-offset-in-a-non-array-variable`
       * :ref:`cannot-use-[]-for-reading`
       * :ref:`cannot-use-object-of-type-%s-as-array`
       * :ref:`illegal-offset-type`
@@ -70,6 +71,13 @@ Features index
    * array-offset
 
       * :ref:`trying-to-access-array-offset-on-%s`
+
+
+   * arrayaccess
+
+      * :ref:`cannot-access-offset-of-type-%s-in-isset-or-empty`
+      * :ref:`cannot-access-offset-of-type-%s-on-%s`
+      * :ref:`cannot-access-offset-of-type-%s-on-string`
 
 
    * assignation
@@ -285,6 +293,7 @@ Features index
 
    * empty
 
+      * :ref:`cannot-access-offset-of-type-%s-in-isset-or-empty`
       * :ref:`property-hook-list-must-not-be-empty`
       * :ref:`typed-property-%s::\$%s-must-not-be-accessed-before-initialization`
       * :ref:`typed-static-property-%s::\$%s-must-not-be-accessed-before-initialization`
@@ -298,6 +307,11 @@ Features index
    * enum-backed
 
       * :ref:`enum-case-value-must-be-compile-time-evaluatable`
+
+
+   * enumeration
+
+      * :ref:`trying-to-clone-an-uncloneable-object-of-class-%s`
 
 
    * exception
@@ -439,6 +453,7 @@ Features index
 
    * isset
 
+      * :ref:`cannot-access-offset-of-type-%s-in-isset-or-empty`
       * :ref:`typed-property-%s::\$%s-must-not-be-accessed-before-initialization`
       * :ref:`typed-static-property-%s::\$%s-must-not-be-accessed-before-initialization`
 
@@ -476,6 +491,7 @@ Features index
 
    * magic-method
 
+      * :ref:`call-to-undefined-method-%s::%s()`
       * :ref:`cannot-use-the-final-modifier-on-a-property`
       * :ref:`method-%s::%s()-cannot-be-static`
       * :ref:`property-cannot-be-both-final-and-private`
@@ -502,7 +518,10 @@ Features index
 
       * :ref:`%s():-returning-by-reference-from-a-void-function-is-deprecated`
       * :ref:`%s-function-%s::%s()-cannot-be-declared-private`
+      * :ref:`call-to-undefined-method-%s::%s()`
+      * :ref:`cannot-use-\'readonly\'-as-method-modifier`
       * :ref:`non-static-method-%s::%s()-cannot-be-called-statically`
+      * :ref:`trying-to-invoke-%s-method-%s::%s()-from-scope-%s`
 
 
    * mixed
@@ -578,6 +597,8 @@ Features index
 
    * offset
 
+      * :ref:`cannot-unset-offset-in-a-non-array-variable`
+      * :ref:`cannot-unset-string-offsets`
       * :ref:`illegal-string-offset`
       * :ref:`uninitialized-string-offset`
 
@@ -662,8 +683,6 @@ Features index
 
    * property hook
 
-      * :ref:`cannot-specify-default-value-for-virtual-hooked-property-%s::\$%s`
-      * :ref:`cannot-unset-hooked-property-%s::\$%s`
       * :ref:`cannot-use-the-abstract-modifier-on-a-property`
       * :ref:`hooked-properties-cannot-be-readonly`
       * :ref:`non-abstract-property-hook-must-have-a-body`
@@ -677,6 +696,8 @@ Features index
       * :ref:`cannot-declare-hooks-for-static-property`
       * :ref:`cannot-override-final-property-hook-%s::%s()`
       * :ref:`cannot-redeclare-property-hook`
+      * :ref:`cannot-specify-default-value-for-virtual-hooked-property-%s::\$%s`
+      * :ref:`cannot-unset-hooked-property-%s::\$%s`
       * :ref:`cannot-use-the-abstract-modifier-on-a-property-hook`
       * :ref:`cannot-use-the-final-modifier-on-a-property`
       * :ref:`interfaces-may-only-include-hooked-properties`
@@ -698,6 +719,7 @@ Features index
       * :ref:`cannot-acquire-reference-to-readonly-property`
       * :ref:`cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s`
       * :ref:`cannot-modify-readonly-property-%s::\$%s`
+      * :ref:`cannot-use-\'readonly\'-as-method-modifier`
       * :ref:`hooked-properties-cannot-be-readonly`
       * :ref:`multiple-readonly-modifiers-are-not-allowed`
       * :ref:`readonly-class-%s-cannot-use-trait-with-a-non-readonly-property-%s::\$%s`
@@ -846,6 +868,7 @@ Features index
       * :ref:`%s-cannot-use-%s---it-is-not-a-trait`
       * :ref:`accessing-static-trait-property-%s::\$%s-is-deprecated,-it-should-only-be-accessed-on-a-class-using-the-trait`
       * :ref:`accessing-static-trait-property-%s::\$%s-is-deprecated`
+      * :ref:`call-to-undefined-method-%s::%s()`
       * :ref:`calling-static-trait-method-%s::%s-is-deprecated`
       * :ref:`cannot-access-trait-constant-%s::%s-directly`
       * :ref:`cannot-instantiate-trait-%s`
@@ -891,6 +914,7 @@ Features index
 
       * :ref:`attempt-to-unset-static-property-%s::\$%s`
       * :ref:`cannot-unset-\$this`
+      * :ref:`cannot-unset-string-offsets`
       * :ref:`the-(unset)-cast-is-deprecated`
       * :ref:`the-(unset)-cast-is-no-longer-supported`
 
@@ -912,20 +936,17 @@ Features index
       * :ref:`spread-operator-is-not-supported-in-assignments`
 
 
-   * virtual property
-
-      * :ref:`cannot-specify-default-value-for-virtual-hooked-property-%s::\$%s`
-
-
    * virtual-property
 
       * :ref:`%s-virtual-property-%s::\$%s-must-not-specify-asymmetric-visibility`
+      * :ref:`cannot-specify-default-value-for-virtual-hooked-property-%s::\$%s`
 
 
    * visibility
 
       * :ref:`multiple-access-type-modifiers-are-not-allowed`
       * :ref:`private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes`
+      * :ref:`trying-to-invoke-%s-method-%s::%s()-from-scope-%s`
 
 
    * void

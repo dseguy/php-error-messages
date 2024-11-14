@@ -30,6 +30,11 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Cannot load module "redis" because required module "redis" is not loaded
+
 Solutions
 _________
 

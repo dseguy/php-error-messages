@@ -118,6 +118,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/break-operator-accepts-only-positive-integers.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/call-to-%s-%s::%s()-from-global-scope.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/call-to-a-member-function-%s()-on-%s.html</loc>
  </url>
  <url>
@@ -130,6 +133,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-function.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-method-%s::%s().html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/calling-get_class()-without-arguments-is-deprecated.html</loc>
  </url>
  <url>
@@ -139,13 +145,19 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/calling-static-trait-method-%s::%s-is-deprecated.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-access-offset-of-type-%s-in-isset-or-empty.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-access-offset-of-type-%s-on-%s.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-access-offset-of-type-%s-on-string.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-access-parent::-when-current-class-scope-has-no-parent.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-access-trait-constant-%s::%s-directly.html</loc>
- </url>
- <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-access-trait-constant-t::x-directly.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-acquire-reference-to-readonly-property.html</loc>
@@ -638,6 +650,12 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/trying-to-access-array-offset-on-%s.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/trying-to-clone-an-uncloneable-object-of-class-%s.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/trying-to-invoke-%s-method-%s::%s()-from-scope-%s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/type-%s-contains-both-iterable-and-array.html</loc>

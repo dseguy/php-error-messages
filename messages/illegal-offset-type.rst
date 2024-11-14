@@ -37,3 +37,9 @@ _________
 
 + Convert these types into a string or a integer first.
 + Cast these types into a string or a integer first.
+
+Related Error Messages
+______________________
+
++ :ref:`cannot-access-offset-of-type-%s-in-isset-or-empty`
++ :ref:`cannot-access-offset-of-type-%s-on-%s`

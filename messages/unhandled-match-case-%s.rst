@@ -19,11 +19,16 @@ _______
 
    <?php
    
-   match(true) {
+   match(3) {
        1, 2 => 'foo',
    };
    
    ?>
+
+
+Literal Examples
+****************
++ Unhandled match case 3
 
 Solutions
 _________
