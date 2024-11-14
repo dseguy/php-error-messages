@@ -26,6 +26,25 @@ if (!file_exists('messages')) {
 }
 fopen("build.log", "w+");
 
+const BASE_KEYS = [
+'examples',
+'id',
+'error',
+'phpVersion',
+'level',
+'exception',
+'code',
+'description',
+'alternative',
+'related',
+'tags',
+ 'seeAlso',
+ 'features',
+ 'previous',
+ 'next',
+ 'phpError',
+];
+
 $behaviors = array();
 
 $behaviors[] = "PHP Error Messages";
@@ -57,6 +76,12 @@ foreach($files as $file) {
 		buildlog("Warning : $file is not valid INI");
 		die("Warning : $file is not valid INI");
 	}
+
+    $keys = array_keys($error);
+    if ($diff = array_diff($keys, BASE_KEYS)) {
+        buildlog( count($diff). " keys are unknown in $file: ".implode(', ', $diff));
+		++$warnings;
+    }
 
 	$error = (object) $error;
 	if (!isset($error->id)) {
