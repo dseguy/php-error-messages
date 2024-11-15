@@ -330,6 +330,11 @@ Features index
       * :ref:`never-returning-function-must-not-implicitly-return`
 
 
+   * expression
+
+      * :ref:`cannot-use-isset()-on-the-result-of-an-expression-(you-can-use-"null-!==-expression"-instead)`
+
+
    * extension
 
       * :ref:`cannot-load-module-\"%s\"-because-required-module-\"%s\"-is-not-loaded`
@@ -376,6 +381,7 @@ Features index
       * :ref:`an-iterator-cannot-be-used-with-foreach-by-reference`
       * :ref:`foreach()-argument-must-be-of-type-array|object`
       * :ref:`invalid-argument-supplied-for-foreach()`
+      * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-variable`
 
 
    * fully-qualified-name
@@ -454,6 +460,7 @@ Features index
    * isset
 
       * :ref:`cannot-access-offset-of-type-%s-in-isset-or-empty`
+      * :ref:`cannot-use-isset()-on-the-result-of-an-expression-(you-can-use-"null-!==-expression"-instead)`
       * :ref:`typed-property-%s::\$%s-must-not-be-accessed-before-initialization`
       * :ref:`typed-static-property-%s::\$%s-must-not-be-accessed-before-initialization`
 
@@ -486,6 +493,7 @@ Features index
       * :ref:`cannot-mix-keyed-and-unkeyed-array-entries-in-assignments`
       * :ref:`cannot-use-empty-array-elements-in-arrays`
       * :ref:`cannot-use-empty-array-entries-in-keyed-array-assignment`
+      * :ref:`cannot-use-empty-list`
       * :ref:`spread-operator-is-not-supported-in-assignments`
 
 
@@ -506,6 +514,7 @@ Features index
 
    * math
 
+      * :ref:`exponent-cannot-have-a-fractional-part`
       * :ref:`power-of-base-0-and-negative-exponent-is-deprecated`
 
 
@@ -769,7 +778,7 @@ Features index
       * :ref:`must-be-a-valid-rounding-mode-(roundingmode::*)`
 
 
-   * scalar
+   * scalar-type
 
       * :ref:`cannot-use-a-scalar-value-as-an-array`
 
@@ -917,6 +926,11 @@ Features index
       * :ref:`cannot-unset-string-offsets`
       * :ref:`the-(unset)-cast-is-deprecated`
       * :ref:`the-(unset)-cast-is-no-longer-supported`
+
+
+   * use
+
+      * :ref:`syntax-error,-unexpected-token-"use"`
 
 
    * use-alias

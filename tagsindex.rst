@@ -219,6 +219,8 @@ Tag index
 
    * syntax-error
 
+      * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-variable`
+      * :ref:`syntax-error,-unexpected-token-"use"`
       * :ref:`syntax-error,-unexpected-token-"{"`
 
 

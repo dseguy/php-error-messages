@@ -140,6 +140,7 @@ PHP Error Messages
    messages/duplicate-named-parameter-$%s.rst
    messages/duplicate-type-%s-is-redundant.rst
    messages/enum-case-value-must-be-compile-time-evaluatable.rst
+   messages/exponent-cannot-have-a-fractional-part.rst
    messages/fetching-properties-on-non-enums-in-constant-expressions-is-not-allowed.rst
    messages/ffi-api-is-restricted-by-"ffi.enable"-configuration-directive.rst
    messages/foreach()-argument-must-be-of-type-array|object.rst
@@ -215,6 +216,8 @@ PHP Error Messages
    messages/static-property-x::$y-cannot-be-readonly.rst
    messages/strict_types-declaration-must-be-the-very-first-statement-in-the-script.rst
    messages/switch-statements-may-only-contain-one-default-clause.rst
+   messages/syntax-error,-unexpected-identifier-"%s",-expecting-variable.rst
+   messages/syntax-error,-unexpected-token-"use".rst
    messages/syntax-error,-unexpected-token-"{".rst
    messages/the-(real)-cast-has-been-removed,-use-(float)-instead.rst
    messages/the-(real)-cast-is-deprecated,-use-(float)-instead.rst
