@@ -362,10 +362,24 @@ foreach($errors as $file => $message) {
 	$entry[] = ' ';
 
 	$entry[] = '	.. meta::';
-	$entry[] = '		:description lang=en:';
+	$entry[] = '		:description:';
 	$first = preg_split('/[\.\?;'.PHP_EOL.']/', $message->description)[0];
-	$entry[] = '			'.$message->error.': '.$first.'.';
+	$entry[] = '			'.$message->error.': '.htmlspecialchars($first).'.';
 	$entry[] = '';
+	$entry[] = '		:og:type: article';
+	$entry[] = '		:og:title: '.htmlspecialchars($message->error);
+	$entry[] = '		:og:description: '.htmlspecialchars($first);
+	$entry[] = '		:og:url: https://php-errors.readthedocs.io/en/latest/messages/'.urlencode(basename($file, '.ini')).'.html';
+	$entry[] = '';
+
+/*
+<meta property="og:url"                content="http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html" />
+<meta property="og:type"               content="article" />
+<meta property="og:title"              content="When Great Minds Don’t Think Alike" />
+<meta property="og:description"        content="How much does culture influence creative thinking?" />
+<meta property="og:image"              content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />
+*/
+
 
 	$entry[] = 'Description';
 	$entry[] = str_repeat('_', strlen('Description'));
