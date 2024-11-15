@@ -478,9 +478,6 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/jump-out-of-a-finally-block-is-disallowed.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/keys-must-be-of-type-int|string-during-argument-unpacking-..html</loc>
- </url>
- <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/keys-must-be-of-type-int|string-during-array-unpacking.html</loc>
  </url>
  <url>

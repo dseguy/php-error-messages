@@ -150,6 +150,7 @@ Features index
    * character
 
       * :ref:`cannot-assign-an-empty-string-to-a-string-offset`
+      * :ref:`invalid-characters-passed-for-attempted-conversion,-these-have-been-ignored`
 
 
    * class
@@ -694,7 +695,6 @@ Features index
 
       * :ref:`cannot-use-the-abstract-modifier-on-a-property`
       * :ref:`hooked-properties-cannot-be-readonly`
-      * :ref:`non-abstract-property-hook-must-have-a-body`
       * :ref:`only-hooked-properties-may-be-declared-abstract`
       * :ref:`property-hook-cannot-be-both-abstract-and-private`
 
@@ -713,6 +713,7 @@ Features index
       * :ref:`must-not-use-parent::\$%s::%s()-in-a-different-property-(\$%s)`
       * :ref:`must-not-use-parent::\$%s::%s()-in-a-different-property-hook-(%s)`
       * :ref:`must-not-use-parent::\$%s::%s()-outside-a-property-hook`
+      * :ref:`non-abstract-property-hook-must-have-a-body`
       * :ref:`property-cannot-be-both-final-and-private`
       * :ref:`property-hook-cannot-be-both-final-and-private`
       * :ref:`unknown-hook-"%s"-for-property-%s::\$%s,-expected-"get"-or-"set"`
@@ -917,6 +918,7 @@ Features index
 
       * :ref:`cannot-use-positional-argument-after-argument-unpacking`
       * :ref:`cannot-use-positional-argument-after-named-argument`
+      * :ref:`keys-must-be-of-type-int|string-during-array-unpacking`
 
 
    * unset

@@ -115,11 +115,6 @@ Tag index
       * :ref:`\'goto\'-into-loop-or-switch-statement-is-disallowed`
 
 
-   * iterator
-
-      * :ref:`keys-must-be-of-type-int|string-during-argument-unpacking-.`
-
-
    * keyword
 
       * :ref:`cannot-use-\'mixed\'-as-class-name-as-it-is-reserved`

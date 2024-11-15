@@ -164,7 +164,6 @@ PHP Error Messages
    messages/is-not-a-valid-codepoint.rst
    messages/jump-into-a-finally-block-is-disallowed.rst
    messages/jump-out-of-a-finally-block-is-disallowed.rst
-   messages/keys-must-be-of-type-int|string-during-argument-unpacking-..rst
    messages/keys-must-be-of-type-int|string-during-array-unpacking.rst
    messages/label-'%s'-already-defined.rst
    messages/match-expressions-may-only-contain-one-default-arm.rst
