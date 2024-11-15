@@ -43,6 +43,8 @@ const BASE_KEYS = [
  'previous',
  'next',
  'phpError',
+ 'changedBehavior',
+ 'extension',
 ];
 
 $behaviors = array();
