@@ -4,8 +4,13 @@ Cannot unpack array with string keys
 ------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot unpack array with string keys: Initialy, the ellipsis operator would only work with integer-indexed arrays, and not with string-indexed arrays.
+
+		:og:type: article
+		:og:title: Cannot unpack array with string keys
+		:og:description: Initialy, the ellipsis operator would only work with integer-indexed arrays, and not with string-indexed arrays
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-unpack-array-with-string-keys.html
 
 Description
 ___________

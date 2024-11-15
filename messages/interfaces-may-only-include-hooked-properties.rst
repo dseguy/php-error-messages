@@ -4,8 +4,13 @@ Interfaces may only include hooked properties
 ---------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Interfaces may only include hooked properties: PHP 8.
+
+		:og:type: article
+		:og:title: Interfaces may only include hooked properties
+		:og:description: PHP 8
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/interfaces-may-only-include-hooked-properties.html
 
 Description
 ___________

@@ -4,8 +4,13 @@ Constant %s::%s is deprecated
 -----------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Constant %s::%s is deprecated: This error is emitted when a class constant is supported in the current PHP engine, but will be removed in a future version.
+
+		:og:type: article
+		:og:title: Constant %s::%s is deprecated
+		:og:description: This error is emitted when a class constant is supported in the current PHP engine, but will be removed in a future version
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/constant-%25s%3A%3A%25s-is-deprecated.html
 
 Description
 ___________

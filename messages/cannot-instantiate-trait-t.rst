@@ -4,8 +4,13 @@ Cannot instantiate trait t
 --------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot instantiate trait t: A trait represents a part of a class, and cannot be instantiated alone.
+
+		:og:type: article
+		:og:title: Cannot instantiate trait t
+		:og:description: A trait represents a part of a class, and cannot be instantiated alone
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-instantiate-trait-t.html
 
 Description
 ___________

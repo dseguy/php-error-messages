@@ -4,8 +4,13 @@ Accessing static trait property %s::$%s is deprecated, it should only be accesse
 ------------------------------------------------------------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Accessing static trait property %s::$%s is deprecated, it should only be accessed on a class using the trait: Traits should not be used as standalone structure, but rather as a part of a class.
+
+		:og:type: article
+		:og:title: Accessing static trait property %s::$%s is deprecated, it should only be accessed on a class using the trait
+		:og:description: Traits should not be used as standalone structure, but rather as a part of a class
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/accessing-static-trait-property-%25s%3A%3A%24%25s-is-deprecated%2C-it-should-only-be-accessed-on-a-class-using-the-trait.html
 
 Description
 ___________

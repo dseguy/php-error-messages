@@ -4,8 +4,13 @@ Classes must be first marked as attribute before being able to be registered as 
 --------------------------------------------------------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Classes must be first marked as attribute before being able to be registered as internal attribute class: This error could not be reproduced so far.
+
+		:og:type: article
+		:og:title: Classes must be first marked as attribute before being able to be registered as internal attribute class
+		:og:description: This error could not be reproduced so far
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/classes-must-be-first-marked-as-attribute-before-being-able-to-be-registered-as-internal-attribute-class.html
 
 Description
 ___________

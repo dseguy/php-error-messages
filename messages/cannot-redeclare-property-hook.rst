@@ -4,8 +4,13 @@ Cannot redeclare property hook
 ------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot redeclare property hook: Property hooks must be all distinct, and there can only be two.
+
+		:og:type: article
+		:og:title: Cannot redeclare property hook
+		:og:description: Property hooks must be all distinct, and there can only be two
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-property-hook.html
 
 Description
 ___________

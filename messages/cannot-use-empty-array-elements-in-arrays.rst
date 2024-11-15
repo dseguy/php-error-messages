@@ -4,8 +4,13 @@ Cannot use empty array elements in arrays
 -----------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot use empty array elements in arrays: Arrays can only hold values.
+
+		:og:type: article
+		:og:title: Cannot use empty array elements in arrays
+		:og:description: Arrays can only hold values
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-use-empty-array-elements-in-arrays.html
 
 Description
 ___________

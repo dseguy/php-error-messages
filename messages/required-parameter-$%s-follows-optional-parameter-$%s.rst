@@ -4,8 +4,13 @@ Required parameter $%s follows optional parameter $%s
 -----------------------------------------------------
  
 	.. meta::
-		:description lang=en:
-			Required parameter $%s follows optional parameter $%s: An optional parameter has a default value, while a required parameter doesn't.
+		:description:
+			Required parameter $%s follows optional parameter $%s: An optional parameter has a default value, while a required parameter doesn&#039;t.
+
+		:og:type: article
+		:og:title: Required parameter $%s follows optional parameter $%s
+		:og:description: An optional parameter has a default value, while a required parameter doesn&#039;t
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/required-parameter-%24%25s-follows-optional-parameter-%24%25s.html
 
 Description
 ___________

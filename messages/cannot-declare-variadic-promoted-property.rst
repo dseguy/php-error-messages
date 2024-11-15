@@ -4,8 +4,13 @@ Cannot declare variadic promoted property
 -----------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot declare variadic promoted property: Properties may be declared, as an parameter in a constructor.
+
+		:og:type: article
+		:og:title: Cannot declare variadic promoted property
+		:og:description: Properties may be declared, as an parameter in a constructor
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-declare-variadic-promoted-property.html
 
 Description
 ___________

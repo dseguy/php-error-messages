@@ -4,8 +4,13 @@ Illegal class name
 ------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Illegal class name: Illegal class name is a compile-time error when the type of a value, used for a class is not valid.
+
+		:og:type: article
+		:og:title: Illegal class name
+		:og:description: Illegal class name is a compile-time error when the type of a value, used for a class is not valid
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/illegal-class-name.html
 
 Description
 ___________

@@ -4,8 +4,13 @@ Property x::$p cannot have type void
 ------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Property x::$p cannot have type void: Void is a type, that can only be used with return type, on methods or functions.
+
+		:og:type: article
+		:og:title: Property x::$p cannot have type void
+		:og:description: Void is a type, that can only be used with return type, on methods or functions
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/property-x%3A%3A%24p-cannot-have-type-void.html
 
 Description
 ___________

@@ -4,8 +4,13 @@ Enum case value must be compile-time evaluatable
 ------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Enum case value must be compile-time evaluatable: The value of a backed enumeration, string or integer, cannot be build with constant (global or classe).
+
+		:og:type: article
+		:og:title: Enum case value must be compile-time evaluatable
+		:og:description: The value of a backed enumeration, string or integer, cannot be build with constant (global or classe)
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/enum-case-value-must-be-compile-time-evaluatable.html
 
 Description
 ___________

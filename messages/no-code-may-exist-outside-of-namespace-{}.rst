@@ -4,8 +4,13 @@ No code may exist outside of namespace {}
 -----------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			No code may exist outside of namespace {}: When using a block notation for namespaces, there cannot be any other code outside the namespaced blocks.
+
+		:og:type: article
+		:og:title: No code may exist outside of namespace {}
+		:og:description: When using a block notation for namespaces, there cannot be any other code outside the namespaced blocks
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/no-code-may-exist-outside-of-namespace-%7B%7D.html
 
 Description
 ___________

@@ -4,8 +4,13 @@ Keys must be of type int|string during array unpacking
 ------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Keys must be of type int|string during array unpacking: Argument unpacking is the transformation of an array into a list of arguments.
+
+		:og:type: article
+		:og:title: Keys must be of type int|string during array unpacking
+		:og:description: Argument unpacking is the transformation of an array into a list of arguments
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/keys-must-be-of-type-int%7Cstring-during-array-unpacking.html
 
 Description
 ___________

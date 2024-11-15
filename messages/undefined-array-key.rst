@@ -4,8 +4,13 @@ Undefined array key
 -------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Undefined array key: This notice is emitted when an offset (string or integer) is being used before being defined.
+
+		:og:type: article
+		:og:title: Undefined array key
+		:og:description: This notice is emitted when an offset (string or integer) is being used before being defined
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/undefined-array-key.html
 
 Description
 ___________

@@ -4,8 +4,13 @@ Accessing static trait property %s::$%s is deprecated
 -----------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Accessing static trait property %s::$%s is deprecated: Traits cannot be used independently from a host class.
+
+		:og:type: article
+		:og:title: Accessing static trait property %s::$%s is deprecated
+		:og:description: Traits cannot be used independently from a host class
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/accessing-static-trait-property-%25s%3A%3A%24%25s-is-deprecated.html
 
 Description
 ___________

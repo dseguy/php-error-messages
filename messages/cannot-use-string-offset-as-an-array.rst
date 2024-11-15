@@ -4,8 +4,13 @@ Cannot use string offset as an array
 ------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot use string offset as an array: It is possible to use the array syntax ``$s[$i]`` on a string, to access an individual character.
+
+		:og:type: article
+		:og:title: Cannot use string offset as an array
+		:og:description: It is possible to use the array syntax ``$s[$i]`` on a string, to access an individual character
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-use-string-offset-as-an-array.html
 
 Description
 ___________

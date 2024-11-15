@@ -4,8 +4,13 @@ Call to undefined function
 --------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Call to undefined function: This error appears when calling a function that is not defined.
+
+		:og:type: article
+		:og:title: Call to undefined function
+		:og:description: This error appears when calling a function that is not defined
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-function.html
 
 Description
 ___________

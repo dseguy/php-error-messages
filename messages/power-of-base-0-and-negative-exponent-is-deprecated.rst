@@ -4,8 +4,13 @@ Power of base 0 and negative exponent is deprecated
 ---------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Power of base 0 and negative exponent is deprecated: Requesting a negative exponent on 0 yields this error message.
+
+		:og:type: article
+		:og:title: Power of base 0 and negative exponent is deprecated
+		:og:description: Requesting a negative exponent on 0 yields this error message
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/power-of-base-0-and-negative-exponent-is-deprecated.html
 
 Description
 ___________

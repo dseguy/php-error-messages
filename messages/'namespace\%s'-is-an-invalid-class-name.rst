@@ -4,8 +4,13 @@
 ---------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			'namespace\%s' is an invalid class name: ``namespace``, when used in a fully qualified name, represents the current namespace.
+
+		:og:type: article
+		:og:title: &#039;namespace\%s&#039; is an invalid class name
+		:og:description: ``namespace``, when used in a fully qualified name, represents the current namespace
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/%27namespace%5C%25s%27-is-an-invalid-class-name.html
 
 Description
 ___________

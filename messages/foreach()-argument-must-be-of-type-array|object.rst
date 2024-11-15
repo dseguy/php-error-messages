@@ -4,8 +4,13 @@ foreach() argument must be of type array|object
 -----------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			foreach() argument must be of type array|object: foreach() works on arrays or objects.
+
+		:og:type: article
+		:og:title: foreach() argument must be of type array|object
+		:og:description: foreach() works on arrays or objects
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/foreach%28%29-argument-must-be-of-type-array%7Cobject.html
 
 Description
 ___________

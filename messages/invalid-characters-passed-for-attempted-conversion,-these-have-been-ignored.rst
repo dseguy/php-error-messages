@@ -4,8 +4,13 @@ Invalid characters passed for attempted conversion, these have been ignored
 ---------------------------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Invalid characters passed for attempted conversion, these have been ignored: This error is emitted when a character outside the range of validity is used.
+
+		:og:type: article
+		:og:title: Invalid characters passed for attempted conversion, these have been ignored
+		:og:description: This error is emitted when a character outside the range of validity is used
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/invalid-characters-passed-for-attempted-conversion%2C-these-have-been-ignored.html
 
 Description
 ___________

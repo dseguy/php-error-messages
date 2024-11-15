@@ -4,8 +4,13 @@ Cannot assign an empty string to a string offset
 ------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot assign an empty string to a string offset: It is possible to access an individual character inside a string, and replace it with another character.
+
+		:og:type: article
+		:og:title: Cannot assign an empty string to a string offset
+		:og:description: It is possible to access an individual character inside a string, and replace it with another character
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-assign-an-empty-string-to-a-string-offset.html
 
 Description
 ___________

@@ -4,8 +4,13 @@ Constant expression contains invalid operations
 -----------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Constant expression contains invalid operations: The Constant expressions are the value of a constant, global or class, that is not a literal value.
+
+		:og:type: article
+		:og:title: Constant expression contains invalid operations
+		:og:description: The Constant expressions are the value of a constant, global or class, that is not a literal value
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/constant-expression-contains-invalid-operations.html
 
 Description
 ___________

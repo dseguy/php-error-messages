@@ -4,8 +4,13 @@ New expressions are not supported in this context
 -------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			New expressions are not supported in this context: It is not possible to use directly an object as value for a class constant.
+
+		:og:type: article
+		:og:title: New expressions are not supported in this context
+		:og:description: It is not possible to use directly an object as value for a class constant
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/new-expressions-are-not-supported-in-this-context.html
 
 Description
 ___________

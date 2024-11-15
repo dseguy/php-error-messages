@@ -4,8 +4,13 @@ exponent cannot have a fractional part
 --------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			exponent cannot have a fractional part: The exponent argument, aka the second, must be an integer value.
+
+		:og:type: article
+		:og:title: exponent cannot have a fractional part
+		:og:description: The exponent argument, aka the second, must be an integer value
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/exponent-cannot-have-a-fractional-part.html
 
 Description
 ___________

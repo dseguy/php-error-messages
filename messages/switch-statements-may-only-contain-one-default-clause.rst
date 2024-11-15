@@ -4,8 +4,13 @@ Switch statements may only contain one default clause
 -----------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Switch statements may only contain one default clause: The switch expression uses cases and a default entry.
+
+		:og:type: article
+		:og:title: Switch statements may only contain one default clause
+		:og:description: The switch expression uses cases and a default entry
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/switch-statements-may-only-contain-one-default-clause.html
 
 Description
 ___________

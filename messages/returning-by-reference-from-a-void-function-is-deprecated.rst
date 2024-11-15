@@ -4,8 +4,13 @@ Returning by reference from a void function is deprecated
 ---------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Returning by reference from a void function is deprecated: The return type ``void`` means that no value is returned, not even NULL.
+
+		:og:type: article
+		:og:title: Returning by reference from a void function is deprecated
+		:og:description: The return type ``void`` means that no value is returned, not even NULL
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/returning-by-reference-from-a-void-function-is-deprecated.html
 
 Description
 ___________

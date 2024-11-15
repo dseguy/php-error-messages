@@ -4,8 +4,13 @@ Cannot unset $this
 ------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot unset $this: It is never possible to unset the pseudo-variable ``$this``, inside a class or outside.
+
+		:og:type: article
+		:og:title: Cannot unset $this
+		:og:description: It is never possible to unset the pseudo-variable ``$this``, inside a class or outside
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-unset-%24this.html
 
 Description
 ___________

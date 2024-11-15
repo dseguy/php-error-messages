@@ -4,8 +4,13 @@ Type contains both true and false, bool must be used instead
 ------------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Type contains both true and false, bool must be used instead: PHP has several types.
+
+		:og:type: article
+		:og:title: Type contains both true and false, bool must be used instead
+		:og:description: PHP has several types
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/type-contains-both-true-and-false%2C-bool-must-be-used-instead.html
 
 Description
 ___________

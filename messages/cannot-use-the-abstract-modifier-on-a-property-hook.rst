@@ -4,8 +4,13 @@ Cannot use the abstract modifier on a property hook
 ---------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot use the abstract modifier on a property hook: It is not possible to make individual property hooks abstract.
+
+		:og:type: article
+		:og:title: Cannot use the abstract modifier on a property hook
+		:og:description: It is not possible to make individual property hooks abstract
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-use-the-abstract-modifier-on-a-property-hook.html
 
 Description
 ___________

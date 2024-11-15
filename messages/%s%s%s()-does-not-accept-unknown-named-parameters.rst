@@ -4,8 +4,13 @@
 -------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			%s%s%s() does not accept unknown named parameters: printf() and sprintf() take a format string as first argument, and an arbitrary number of arguments after that.
+
+		:og:type: article
+		:og:title: %s%s%s() does not accept unknown named parameters
+		:og:description: printf() and sprintf() take a format string as first argument, and an arbitrary number of arguments after that
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/%25s%25s%25s%28%29-does-not-accept-unknown-named-parameters.html
 
 Description
 ___________

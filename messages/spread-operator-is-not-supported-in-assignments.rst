@@ -4,8 +4,13 @@ Spread operator is not supported in assignments
 -----------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Spread operator is not supported in assignments: The spread operator cannot be used with the list() operator.
+
+		:og:type: article
+		:og:title: Spread operator is not supported in assignments
+		:og:description: The spread operator cannot be used with the list() operator
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/spread-operator-is-not-supported-in-assignments.html
 
 Description
 ___________

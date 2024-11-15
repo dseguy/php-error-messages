@@ -4,8 +4,13 @@ Type %s contains both iterable and array
 ----------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Type %s contains both iterable and array: Since PHP 8.
+
+		:og:type: article
+		:og:title: Type %s contains both iterable and array
+		:og:description: Since PHP 8
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/type-%25s-contains-both-iterable-and-array.html
 
 Description
 ___________

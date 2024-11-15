@@ -4,8 +4,13 @@ Declaration of y::foo() must be compatible with x::foo($a)
 ----------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Declaration of y::foo() must be compatible with x::foo($a): Classes methods signature have to be compatible between a parent class and a child class.
+
+		:og:type: article
+		:og:title: Declaration of y::foo() must be compatible with x::foo($a)
+		:og:description: Classes methods signature have to be compatible between a parent class and a child class
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/declaration-of-y%3A%3Afoo%28%29-must-be-compatible-with-x%3A%3Afoo%28%24a%29.html
 
 Description
 ___________

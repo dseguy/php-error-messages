@@ -4,8 +4,13 @@ Cannot use ::class with dynamic class name
 ------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot use ::class with dynamic class name: Until PHP 8.
+
+		:og:type: article
+		:og:title: Cannot use ::class with dynamic class name
+		:og:description: Until PHP 8
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%3A%3Aclass-with-dynamic-class-name.html
 
 Description
 ___________

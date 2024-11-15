@@ -4,8 +4,13 @@ jump into a finally block is disallowed
 ---------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			jump into a finally block is disallowed: It is not possible to make a goto, when the label is in a finally block.
+
+		:og:type: article
+		:og:title: jump into a finally block is disallowed
+		:og:description: It is not possible to make a goto, when the label is in a finally block
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/jump-into-a-finally-block-is-disallowed.html
 
 Description
 ___________

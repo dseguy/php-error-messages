@@ -4,8 +4,13 @@ Cannot declare promoted property in an abstract constructor
 -----------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot declare promoted property in an abstract constructor: It is not possible to use a promoted property in an abstract constructor.
+
+		:og:type: article
+		:og:title: Cannot declare promoted property in an abstract constructor
+		:og:description: It is not possible to use a promoted property in an abstract constructor
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-declare-promoted-property-in-an-abstract-constructor.html
 
 Description
 ___________

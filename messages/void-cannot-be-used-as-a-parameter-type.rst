@@ -4,8 +4,13 @@ void cannot be used as a parameter type
 ---------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			void cannot be used as a parameter type: Void is a type, that can only be used with return type, on methods or functions.
+
+		:og:type: article
+		:og:title: void cannot be used as a parameter type
+		:og:description: Void is a type, that can only be used with return type, on methods or functions
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/void-cannot-be-used-as-a-parameter-type.html
 
 Description
 ___________

@@ -4,8 +4,13 @@ Only hooked properties may be declared abstract
 -----------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Only hooked properties may be declared abstract: Hooked properties may be declared abstract, as long as the class is also abstract, and that one of the hook, ``get`` or ``set`` or both, have no body block.
+
+		:og:type: article
+		:og:title: Only hooked properties may be declared abstract
+		:og:description: Hooked properties may be declared abstract, as long as the class is also abstract, and that one of the hook, ``get`` or ``set`` or both, have no body block
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/only-hooked-properties-may-be-declared-abstract.html
 
 Description
 ___________

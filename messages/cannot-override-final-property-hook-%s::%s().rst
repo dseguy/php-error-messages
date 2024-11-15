@@ -4,8 +4,13 @@ Cannot override final property hook %s::%s()
 --------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot override final property hook %s::%s(): Property hooks may be declared final, just like any other methods.
+
+		:og:type: article
+		:og:title: Cannot override final property hook %s::%s()
+		:og:description: Property hooks may be declared final, just like any other methods
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-override-final-property-hook-%25s%3A%3A%25s%28%29.html
 
 Description
 ___________

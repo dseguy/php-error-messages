@@ -4,8 +4,13 @@ Only variable references should be yielded by reference
 -------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
-			Only variable references should be yielded by reference: With the ``&`` option in the signature, a generator is yielding values by reference, and not by value.
+		:description:
+			Only variable references should be yielded by reference: With the ``&amp;`` option in the signature, a generator is yielding values by reference, and not by value.
+
+		:og:type: article
+		:og:title: Only variable references should be yielded by reference
+		:og:description: With the ``&amp;`` option in the signature, a generator is yielding values by reference, and not by value
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/only-variable-references-should-be-yielded-by-reference.html
 
 Description
 ___________

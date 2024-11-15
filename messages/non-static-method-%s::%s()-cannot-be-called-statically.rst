@@ -4,8 +4,13 @@ Non-static method %s::%s() cannot be called statically
 ------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Non-static method %s::%s() cannot be called statically: While a non-static method can call a static method, the contrary is not possible.
+
+		:og:type: article
+		:og:title: Non-static method %s::%s() cannot be called statically
+		:og:description: While a non-static method can call a static method, the contrary is not possible
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/non-static-method-%25s%3A%3A%25s%28%29-cannot-be-called-statically.html
 
 Description
 ___________

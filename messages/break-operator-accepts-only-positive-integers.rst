@@ -4,8 +4,13 @@ break operator accepts only positive integers
 ---------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			break operator accepts only positive integers: break indicates the number of nested loop to break from.
+
+		:og:type: article
+		:og:title: break operator accepts only positive integers
+		:og:description: break indicates the number of nested loop to break from
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/break-operator-accepts-only-positive-integers.html
 
 Description
 ___________

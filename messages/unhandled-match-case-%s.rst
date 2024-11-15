@@ -4,8 +4,13 @@ Unhandled match case %s
 -----------------------
  
 	.. meta::
-		:description lang=en:
-			Unhandled match case %s: The error is emitted when the ``matching`` value is not found in the list of entry of the expression (here true is not in the list of 1 and 2), and also when the expression doesn't have a default entry.
+		:description:
+			Unhandled match case %s: The error is emitted when the ``matching`` value is not found in the list of entry of the expression (here true is not in the list of 1 and 2), and also when the expression doesn&#039;t have a default entry.
+
+		:og:type: article
+		:og:title: Unhandled match case %s
+		:og:description: The error is emitted when the ``matching`` value is not found in the list of entry of the expression (here true is not in the list of 1 and 2), and also when the expression doesn&#039;t have a default entry
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/unhandled-match-case-%25s.html
 
 Description
 ___________

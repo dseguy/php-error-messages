@@ -4,8 +4,13 @@ Cannot use lexical variable $x as a parameter name
 --------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot use lexical variable $x as a parameter name: It is not possible to use a parameter and import a variable of the same name.
+
+		:og:type: article
+		:og:title: Cannot use lexical variable $x as a parameter name
+		:og:description: It is not possible to use a parameter and import a variable of the same name
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-use-lexical-variable-x-as-a-parameter-name.html
 
 Description
 ___________

@@ -4,8 +4,13 @@ A non-numeric value encountered
 -------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			A non-numeric value encountered: When the operands have to be integer, PHP tries to cast the value to an integer before perform the operation.
+
+		:og:type: article
+		:og:title: A non-numeric value encountered
+		:og:description: When the operands have to be integer, PHP tries to cast the value to an integer before perform the operation
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/a-non-numeric-value-encountered.html
 
 Description
 ___________

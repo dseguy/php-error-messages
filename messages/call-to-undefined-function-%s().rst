@@ -4,8 +4,13 @@ Call to undefined function %s()
 -------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Call to undefined function %s(): This error is displayed when the called function is not defined.
+
+		:og:type: article
+		:og:title: Call to undefined function %s()
+		:og:description: This error is displayed when the called function is not defined
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-function-%25s%28%29.html
 
 Description
 ___________

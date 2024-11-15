@@ -4,8 +4,13 @@ Multiple access type modifiers are not allowed
 ----------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Multiple access type modifiers are not allowed: Only one visibility option is necessary to set the visibility of a property.
+
+		:og:type: article
+		:og:title: Multiple access type modifiers are not allowed
+		:og:description: Only one visibility option is necessary to set the visibility of a property
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/multiple-access-type-modifiers-are-not-allowed.html
 
 Description
 ___________

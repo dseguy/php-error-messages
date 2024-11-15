@@ -4,8 +4,13 @@ Cannot use try without catch or finally
 ---------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot use try without catch or finally: Try command have catch and finally clauses.
+
+		:og:type: article
+		:og:title: Cannot use try without catch or finally
+		:og:description: Try command have catch and finally clauses
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-use-try-without-catch-or-finally.html
 
 Description
 ___________

@@ -4,8 +4,13 @@ Invalid argument supplied for foreach()
 ---------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Invalid argument supplied for foreach(): foreach() works on arrays or objects.
+
+		:og:type: article
+		:og:title: Invalid argument supplied for foreach()
+		:og:description: foreach() works on arrays or objects
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/invalid-argument-supplied-for-foreach%28%29.html
 
 Description
 ___________

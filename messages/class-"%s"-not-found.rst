@@ -4,8 +4,13 @@ Class "%s" not found
 --------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Class "%s" not found: This error message is reported when the class could not be loaded, or when the name of the class is invalid.
+
+		:og:type: article
+		:og:title: Class &quot;%s&quot; not found
+		:og:description: This error message is reported when the class could not be loaded, or when the name of the class is invalid
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/class-%5C%22%25s%5C%22-not-found.html
 
 Description
 ___________

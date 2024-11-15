@@ -4,8 +4,13 @@ Non-static method %s::%s() should not be called statically
 ----------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Non-static method %s::%s() should not be called statically: A non-static method requires an object to be called, as PHP will populate that object in the ``$this`` method.
+
+		:og:type: article
+		:og:title: Non-static method %s::%s() should not be called statically
+		:og:description: A non-static method requires an object to be called, as PHP will populate that object in the ``$this`` method
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/non-static-method-%25s%3A%3A%25s%28%29-should-not-be-called-statically.html
 
 Description
 ___________

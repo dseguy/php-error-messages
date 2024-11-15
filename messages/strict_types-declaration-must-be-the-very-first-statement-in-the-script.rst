@@ -4,8 +4,13 @@ strict_types declaration must be the very first statement in the script
 -----------------------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			strict_types declaration must be the very first statement in the script: This error appears when the declare statement is not the first statement in the file.
+
+		:og:type: article
+		:og:title: strict_types declaration must be the very first statement in the script
+		:og:description: This error appears when the declare statement is not the first statement in the file
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/strict_types-declaration-must-be-the-very-first-statement-in-the-script.html
 
 Description
 ___________

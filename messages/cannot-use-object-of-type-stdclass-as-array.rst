@@ -4,8 +4,13 @@ Cannot use object of type stdClass as array
 -------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot use object of type stdClass as array: The array syntax ``$variable[index]`` is only available for arrays and strings.
+
+		:og:type: article
+		:og:title: Cannot use object of type stdClass as array
+		:og:description: The array syntax ``$variable[index]`` is only available for arrays and strings
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-use-object-of-type-stdclass-as-array.html
 
 Description
 ___________

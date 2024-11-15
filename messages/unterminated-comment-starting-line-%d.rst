@@ -4,8 +4,13 @@ Unterminated comment starting line %d
 -------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Unterminated comment starting line %d: The multi-line comments with ``/* .
+
+		:og:type: article
+		:og:title: Unterminated comment starting line %d
+		:og:description: The multi-line comments with ``/* 
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/unterminated-comment-starting-line-%25d.html
 
 Description
 ___________

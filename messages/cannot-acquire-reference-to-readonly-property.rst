@@ -4,8 +4,13 @@ Cannot acquire reference to readonly property
 ----------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot acquire reference to readonly property : It is not possible to create a reference to a readonly property.
+
+		:og:type: article
+		:og:title: Cannot acquire reference to readonly property 
+		:og:description: It is not possible to create a reference to a readonly property
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-acquire-reference-to-readonly-property.html
 
 Description
 ___________

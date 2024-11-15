@@ -4,8 +4,13 @@ Cannot specify default value for virtual hooked property
 --------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
-			Cannot specify default value for virtual hooked property: It is possible to create a virtual property, by defining one accessor that doesn't refer to the defined property.
+		:description:
+			Cannot specify default value for virtual hooked property: It is possible to create a virtual property, by defining one accessor that doesn&#039;t refer to the defined property.
+
+		:og:type: article
+		:og:title: Cannot specify default value for virtual hooked property
+		:og:description: It is possible to create a virtual property, by defining one accessor that doesn&#039;t refer to the defined property
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-specify-default-value-for-virtual-hooked-property-%25s%3A%3A%24%25s.html
 
 Description
 ___________

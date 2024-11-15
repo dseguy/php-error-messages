@@ -4,8 +4,13 @@ Cannot use empty list
 ---------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot use empty list: list() must contain at least one non-empty element.
+
+		:og:type: article
+		:og:title: Cannot use empty list
+		:og:description: list() must contain at least one non-empty element
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-use-empty-list.html
 
 Description
 ___________

@@ -4,8 +4,13 @@ Cannot unset string offsets
 ---------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot unset string offsets: While strings and arrays share the same syntax with square brackets, to access individual elements, that syntax is not available with the unset() function.
+
+		:og:type: article
+		:og:title: Cannot unset string offsets
+		:og:description: While strings and arrays share the same syntax with square brackets, to access individual elements, that syntax is not available with the unset() function
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-unset-string-offsets.html
 
 Description
 ___________

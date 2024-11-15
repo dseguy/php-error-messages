@@ -4,8 +4,13 @@ Cannot use the abstract modifier on a property
 ----------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot use the abstract modifier on a property: Properties cannot be abstract, as they are always available in the class where they are defined.
+
+		:og:type: article
+		:og:title: Cannot use the abstract modifier on a property
+		:og:description: Properties cannot be abstract, as they are always available in the class where they are defined
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-use-the-abstract-modifier-on-a-property.html
 
 Description
 ___________

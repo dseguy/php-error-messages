@@ -4,8 +4,13 @@ Cannot declare self-referencing constant
 ----------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot declare self-referencing constant: A self-referencing constant is a constant that is defined by itself.
+
+		:og:type: article
+		:og:title: Cannot declare self-referencing constant
+		:og:description: A self-referencing constant is a constant that is defined by itself
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-declare-self-referencing-constant.html
 
 Description
 ___________

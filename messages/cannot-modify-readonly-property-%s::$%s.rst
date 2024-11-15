@@ -4,8 +4,13 @@ Cannot modify readonly property %s::$%s
 ---------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot modify readonly property %s::$%s: readonly properties can only be set once.
+
+		:og:type: article
+		:og:title: Cannot modify readonly property %s::$%s
+		:og:description: readonly properties can only be set once
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-modify-readonly-property-%25s%3A%3A%24%25s.html
 
 Description
 ___________

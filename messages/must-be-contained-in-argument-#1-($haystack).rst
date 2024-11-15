@@ -4,8 +4,13 @@
 ------------------------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			%s(): Argument #3 ($offset) must be contained in argument #1 ($haystack): strpos() searches for a string called ``$needle`` in another string called ``$haystack``, starting at the offset passed as third argument, and called ``$offset``.
+
+		:og:type: article
+		:og:title: %s(): Argument #3 ($offset) must be contained in argument #1 ($haystack)
+		:og:description: strpos() searches for a string called ``$needle`` in another string called ``$haystack``, starting at the offset passed as third argument, and called ``$offset``
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/must-be-contained-in-argument-%231-%28%24haystack%29.html
 
 Description
 ___________

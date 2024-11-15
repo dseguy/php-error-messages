@@ -4,8 +4,13 @@ Cannot unset offset in a non-array variable
 -------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot unset offset in a non-array variable: The array syntax ``$variable[index]`` is only available for arrays and strings.
+
+		:og:type: article
+		:og:title: Cannot unset offset in a non-array variable
+		:og:description: The array syntax ``$variable[index]`` is only available for arrays and strings
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-unset-offset-in-a-non-array-variable.html
 
 Description
 ___________

@@ -4,8 +4,13 @@ Cannot use 'never' as class name as it is reserved
 --------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot use 'never' as class name as it is reserved: never is a PHP reserved keyword, since PHP 8.
+
+		:og:type: article
+		:og:title: Cannot use &#039;never&#039; as class name as it is reserved
+		:og:description: never is a PHP reserved keyword, since PHP 8
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%27never%27-as-class-name-as-it-is-reserved.html
 
 Description
 ___________

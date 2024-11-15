@@ -4,8 +4,13 @@ Cannot access offset of type %s in isset or empty
 -------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot access offset of type %s in isset or empty: In an array notation, the offset may be a variable, or any container.
+
+		:og:type: article
+		:og:title: Cannot access offset of type %s in isset or empty
+		:og:description: In an array notation, the offset may be a variable, or any container
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-access-offset-of-type-%25s-in-isset-or-empty.html
 
 Description
 ___________

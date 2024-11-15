@@ -4,8 +4,13 @@
 ------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			%s cannot use %s - it is not a trait: In a class definition, the use expression must only use traits.
+
+		:og:type: article
+		:og:title: %s cannot use %s - it is not a trait
+		:og:description: In a class definition, the use expression must only use traits
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/%25s-cannot-use-%25s---it-is-not-a-trait.html
 
 Description
 ___________

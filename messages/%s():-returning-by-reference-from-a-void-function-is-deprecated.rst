@@ -4,8 +4,13 @@
 ---------------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			%s(): Returning by reference from a void function is deprecated: The void type means that the function is not returning anything.
+
+		:og:type: article
+		:og:title: %s(): Returning by reference from a void function is deprecated
+		:og:description: The void type means that the function is not returning anything
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/%25s%28%29%3A-returning-by-reference-from-a-void-function-is-deprecated.html
 
 Description
 ___________

@@ -4,8 +4,13 @@ Required Trait %s wasn't added to %s
 ------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Required Trait %s wasn't added to %s: This error happens during name conflict resolution for traits.
+
+		:og:type: article
+		:og:title: Required Trait %s wasn&#039;t added to %s
+		:og:description: This error happens during name conflict resolution for traits
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/required-trait-%25s-wasn%27t-added-to-%25s.html
 
 Description
 ___________

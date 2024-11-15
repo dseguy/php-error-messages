@@ -4,8 +4,13 @@ array_product(): Multiplication is not supported on type object
 ---------------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			array_product(): Multiplication is not supported on type object: array_product() multiplies each element in the first argument, with each other.
+
+		:og:type: article
+		:og:title: array_product(): Multiplication is not supported on type object
+		:og:description: array_product() multiplies each element in the first argument, with each other
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/array_product%28%29%3A-multiplication-is-not-supported-on-type-object.html
 
 Description
 ___________

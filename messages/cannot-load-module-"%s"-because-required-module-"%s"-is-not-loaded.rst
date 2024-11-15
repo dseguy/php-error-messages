@@ -4,8 +4,13 @@ Cannot load module "%s" because required module "%s" is not loaded
 ------------------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot load module "%s" because required module "%s" is not loaded: This is an error in the structure of the compiled PHP parser.
+
+		:og:type: article
+		:og:title: Cannot load module &quot;%s&quot; because required module &quot;%s&quot; is not loaded
+		:og:description: This is an error in the structure of the compiled PHP parser
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-load-module-%5C%22%25s%5C%22-because-required-module-%5C%22%25s%5C%22-is-not-loaded.html
 
 Description
 ___________

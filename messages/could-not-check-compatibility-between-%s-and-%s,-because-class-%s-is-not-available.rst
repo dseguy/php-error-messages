@@ -4,8 +4,13 @@ Could not check compatibility between %s and %s, because class %s is not availab
 ----------------------------------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Could not check compatibility between %s and %s, because class %s is not available: This error message signals that PHP could not find all the needed classes and interfaces to reach a conclusion about the compatibility of ``X``, compared to ``W``.
+
+		:og:type: article
+		:og:title: Could not check compatibility between %s and %s, because class %s is not available
+		:og:description: This error message signals that PHP could not find all the needed classes and interfaces to reach a conclusion about the compatibility of ``X``, compared to ``W``
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/could-not-check-compatibility-between-%25s-and-%25s%2C-because-class-%25s-is-not-available.html
 
 Description
 ___________

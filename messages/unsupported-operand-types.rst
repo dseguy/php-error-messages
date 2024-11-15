@@ -4,8 +4,13 @@ Unsupported operand types
 -------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Unsupported operand types: This error is emitted when PHP cannot find a reasonable way to use the parameters of an operator.
+
+		:og:type: article
+		:og:title: Unsupported operand types
+		:og:description: This error is emitted when PHP cannot find a reasonable way to use the parameters of an operator
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/unsupported-operand-types.html
 
 Description
 ___________

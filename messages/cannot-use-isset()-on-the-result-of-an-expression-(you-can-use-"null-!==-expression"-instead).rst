@@ -4,8 +4,13 @@ Cannot use isset() on the result of an expression (you can use "null !== express
 ---------------------------------------------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot use isset() on the result of an expression (you can use "null !== expression" instead): isset() is meant to check the existence of an data container, such as a variable, an array element, a property of an object.
+
+		:og:type: article
+		:og:title: Cannot use isset() on the result of an expression (you can use &quot;null !== expression&quot; instead)
+		:og:description: isset() is meant to check the existence of an data container, such as a variable, an array element, a property of an object
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-use-isset%28%29-on-the-result-of-an-expression-%28you-can-use-%22null-%21%3D%3D-expression%22-instead%29.html
 
 Description
 ___________

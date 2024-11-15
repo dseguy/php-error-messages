@@ -4,8 +4,13 @@ Multiple readonly modifiers are not allowed
 -------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Multiple readonly modifiers are not allowed: Only one readonly option is necessary to make a property read-only.
+
+		:og:type: article
+		:og:title: Multiple readonly modifiers are not allowed
+		:og:description: Only one readonly option is necessary to make a property read-only
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/multiple-readonly-modifiers-are-not-allowed.html
 
 Description
 ___________

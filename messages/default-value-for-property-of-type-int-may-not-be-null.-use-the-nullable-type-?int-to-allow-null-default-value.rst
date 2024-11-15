@@ -4,8 +4,13 @@ Default value for property of type int may not be null. Use the nullable type ?i
 --------------------------------------------------------------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Default value for property of type int may not be null. Use the nullable type ?int to allow null default value: When an argument is typed, and has a null default value, PHP makes it automagically nullable.
+
+		:og:type: article
+		:og:title: Default value for property of type int may not be null. Use the nullable type ?int to allow null default value
+		:og:description: When an argument is typed, and has a null default value, PHP makes it automagically nullable
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/default-value-for-property-of-type-int-may-not-be-null.-use-the-nullable-type-%3Fint-to-allow-null-default-value.html
 
 Description
 ___________

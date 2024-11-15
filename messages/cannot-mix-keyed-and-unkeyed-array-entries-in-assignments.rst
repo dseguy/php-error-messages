@@ -4,8 +4,13 @@ Cannot mix keyed and unkeyed array entries in assignments
 ---------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot mix keyed and unkeyed array entries in assignments: list() is a construct that maps an array to a set of variables.
+
+		:og:type: article
+		:og:title: Cannot mix keyed and unkeyed array entries in assignments
+		:og:description: list() is a construct that maps an array to a set of variables
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-mix-keyed-and-unkeyed-array-entries-in-assignments.html
 
 Description
 ___________

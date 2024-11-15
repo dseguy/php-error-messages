@@ -4,8 +4,13 @@ Implicit conversion from float-string "%s" to int loses precision
 -----------------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Implicit conversion from float-string "%s" to int loses precision: In cases where integers are required, PHP applies a type cast and convert floats and strings into integers.
+
+		:og:type: article
+		:og:title: Implicit conversion from float-string &quot;%s&quot; to int loses precision
+		:og:description: In cases where integers are required, PHP applies a type cast and convert floats and strings into integers
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/implicit-conversion-from-float-string.html
 
 Description
 ___________

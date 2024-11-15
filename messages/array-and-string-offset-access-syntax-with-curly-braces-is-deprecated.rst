@@ -4,8 +4,13 @@ Array and string offset access syntax with curly braces is deprecated
 ---------------------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Array and string offset access syntax with curly braces is deprecated: PHP used to support the curly braces ``{}`` to access elements in an array and a string.
+
+		:og:type: article
+		:og:title: Array and string offset access syntax with curly braces is deprecated
+		:og:description: PHP used to support the curly braces ``{}`` to access elements in an array and a string
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/array-and-string-offset-access-syntax-with-curly-braces-is-deprecated.html
 
 Description
 ___________

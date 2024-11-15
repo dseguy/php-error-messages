@@ -4,8 +4,13 @@ Must not use parent::$%s::%s() outside a property hook
 -------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Must not use parent::$%s::%s() outside a property hook : Property hooks are actual methods: they can call other methods to fulfill their mission.
+
+		:og:type: article
+		:og:title: Must not use parent::$%s::%s() outside a property hook 
+		:og:description: Property hooks are actual methods: they can call other methods to fulfill their mission
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/must-not-use-parent%3A%3A%24%25s%3A%3A%25s%28%29-outside-a-property-hook.html
 
 Description
 ___________

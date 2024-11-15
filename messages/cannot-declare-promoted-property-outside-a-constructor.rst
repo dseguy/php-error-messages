@@ -4,8 +4,13 @@ Cannot declare promoted property outside a constructor
 ------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot declare promoted property outside a constructor: A promoted property is the declaration of a property, as part of the signature of the constructor.
+
+		:og:type: article
+		:og:title: Cannot declare promoted property outside a constructor
+		:og:description: A promoted property is the declaration of a property, as part of the signature of the constructor
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-declare-promoted-property-outside-a-constructor.html
 
 Description
 ___________

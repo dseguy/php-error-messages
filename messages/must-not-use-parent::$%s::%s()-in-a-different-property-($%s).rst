@@ -4,8 +4,13 @@ Must not use parent::$%s::%s() in a different property ($%s)
 ------------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Must not use parent::$%s::%s() in a different property ($%s): Property hooks are actual methods: they can call other methods to fulfill their mission.
+
+		:og:type: article
+		:og:title: Must not use parent::$%s::%s() in a different property ($%s)
+		:og:description: Property hooks are actual methods: they can call other methods to fulfill their mission
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/must-not-use-parent%3A%3A%24%25s%3A%3A%25s%28%29-in-a-different-property-%28%24%25s%29.html
 
 Description
 ___________

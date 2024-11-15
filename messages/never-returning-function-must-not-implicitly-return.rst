@@ -4,8 +4,13 @@ never-returning function must not implicitly return
 ---------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			never-returning function must not implicitly return: A never returning function or method never reaches the end of the method, or any return operation.
+
+		:og:type: article
+		:og:title: never-returning function must not implicitly return
+		:og:description: A never returning function or method never reaches the end of the method, or any return operation
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/never-returning-function-must-not-implicitly-return.html
 
 Description
 ___________

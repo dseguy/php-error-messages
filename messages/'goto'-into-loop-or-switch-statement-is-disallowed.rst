@@ -4,8 +4,13 @@
 --------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			'goto' into loop or switch statement is disallowed: It is not possible to put a label inside a loop (for, foreach, while, do.
+
+		:og:type: article
+		:og:title: &#039;goto&#039; into loop or switch statement is disallowed
+		:og:description: It is not possible to put a label inside a loop (for, foreach, while, do
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/%27goto%27-into-loop-or-switch-statement-is-disallowed.html
 
 Description
 ___________

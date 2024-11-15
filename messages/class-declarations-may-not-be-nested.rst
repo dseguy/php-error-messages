@@ -4,8 +4,13 @@ Class declarations may not be nested
 ------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Class declarations may not be nested: It is not allowed to define a class, trait, interface or enum inside another class, trait or enum.
+
+		:og:type: article
+		:og:title: Class declarations may not be nested
+		:og:description: It is not allowed to define a class, trait, interface or enum inside another class, trait or enum
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/class-declarations-may-not-be-nested.html
 
 Description
 ___________

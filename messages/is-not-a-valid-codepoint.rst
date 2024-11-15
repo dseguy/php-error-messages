@@ -4,8 +4,13 @@ is not a valid codepoint
 ------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			is not a valid codepoint: Some functions uses integers to represents UTF-8 characters, on top of their string representation.
+
+		:og:type: article
+		:og:title: is not a valid codepoint
+		:og:description: Some functions uses integers to represents UTF-8 characters, on top of their string representation
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/is-not-a-valid-codepoint.html
 
 Description
 ___________

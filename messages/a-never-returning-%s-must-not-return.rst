@@ -4,8 +4,13 @@ A never-returning %s must not return
 ------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			A never-returning %s must not return: A function that never returns, aka, with the ``never`` return type, must not use the return statement.
+
+		:og:type: article
+		:og:title: A never-returning %s must not return
+		:og:description: A function that never returns, aka, with the ``never`` return type, must not use the return statement
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/a-never-returning-%25s-must-not-return.html
 
 Description
 ___________

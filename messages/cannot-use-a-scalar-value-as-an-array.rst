@@ -4,8 +4,13 @@ Cannot use a scalar value as an array
 -------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot use a scalar value as an array: Scalar values cannot be modified with the array syntax: for example, it makes no sense to modify the third indexed element on an integer.
+
+		:og:type: article
+		:og:title: Cannot use a scalar value as an array
+		:og:description: Scalar values cannot be modified with the array syntax: for example, it makes no sense to modify the third indexed element on an integer
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-use-a-scalar-value-as-an-array.html
 
 Description
 ___________

@@ -4,8 +4,13 @@ Undefined offset
 ----------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Undefined offset: This notice is emitted when an offset (string or integer) is being used before being defined.
+
+		:og:type: article
+		:og:title: Undefined offset
+		:og:description: This notice is emitted when an offset (string or integer) is being used before being defined
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/undefined-offset.html
 
 Description
 ___________

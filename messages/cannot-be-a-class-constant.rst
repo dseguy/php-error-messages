@@ -4,8 +4,13 @@ cannot be a class constant
 --------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			cannot be a class constant: Class constants must be defined in classes, enums, traits or interfaces.
+
+		:og:type: article
+		:og:title: cannot be a class constant
+		:og:description: Class constants must be defined in classes, enums, traits or interfaces
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-be-a-class-constant.html
 
 Description
 ___________

@@ -4,8 +4,13 @@ Cannot use positional argument after argument unpacking
 -------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot use positional argument after argument unpacking: It is not possible to put simple arguments after an unpacked argument.
+
+		:og:type: article
+		:og:title: Cannot use positional argument after argument unpacking
+		:og:description: It is not possible to put simple arguments after an unpacked argument
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-use-positional-argument-after-argument-unpacking.html
 
 Description
 ___________

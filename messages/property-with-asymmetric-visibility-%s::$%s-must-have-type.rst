@@ -4,8 +4,13 @@ Property with asymmetric visibility %s::$%s must have type
 ----------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Property with asymmetric visibility %s::$%s must have type: Asymmetric visibility, such as ``protected(set)`` only applies to a typed property.
+
+		:og:type: article
+		:og:title: Property with asymmetric visibility %s::$%s must have type
+		:og:description: Asymmetric visibility, such as ``protected(set)`` only applies to a typed property
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/property-with-asymmetric-visibility-%25s%3A%3A%24%25s-must-have-type.html
 
 Description
 ___________

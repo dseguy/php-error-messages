@@ -4,8 +4,13 @@ Class constant %s::%s cannot have type %s
 -----------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Class constant %s::%s cannot have type %s: Some native PHP types are not allowed with a class constant.
+
+		:og:type: article
+		:og:title: Class constant %s::%s cannot have type %s
+		:og:description: Some native PHP types are not allowed with a class constant
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/class-constant-%25s%3A%3A%25s-cannot-have-type-%25s.html
 
 Description
 ___________

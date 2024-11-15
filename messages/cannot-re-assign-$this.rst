@@ -4,8 +4,13 @@ Cannot re-assign $this
 ----------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot re-assign $this: It is never possible to assign a new value to the pseudo-variable ``$this``, inside a class or outside.
+
+		:og:type: article
+		:og:title: Cannot re-assign $this
+		:og:description: It is never possible to assign a new value to the pseudo-variable ``$this``, inside a class or outside
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-re-assign-%24this.html
 
 Description
 ___________

@@ -4,8 +4,13 @@ Parameter uses 'parent' as type hint although class does not have a parent\!
 ----------------------------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Parameter uses 'parent' as type hint although class does not have a parent\!: This error is a Reflection API error.
+
+		:og:type: article
+		:og:title: Parameter uses &#039;parent&#039; as type hint although class does not have a parent\!
+		:og:description: This error is a Reflection API error
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/parameter-uses-%27parent%27-as-type-hint-although-class-does-not-have-a-parent%5C%21.html
 
 Description
 ___________

@@ -4,8 +4,13 @@ Call to %s %s::%s() from global scope
 -------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Call to %s %s::%s() from global scope: This error reports that the requested method exists, but is not available from the context of call.
+
+		:og:type: article
+		:og:title: Call to %s %s::%s() from global scope
+		:og:description: This error reports that the requested method exists, but is not available from the context of call
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/call-to-%25s-%25s%3A%3A%25s%28%29-from-global-scope.html
 
 Description
 ___________

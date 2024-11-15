@@ -4,8 +4,13 @@ Typed static property %s::$%s must not be accessed before initialization
 ------------------------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Typed static property %s::$%s must not be accessed before initialization: Typed static properties are undefined until they are assigned for the first time.
+
+		:og:type: article
+		:og:title: Typed static property %s::$%s must not be accessed before initialization
+		:og:description: Typed static properties are undefined until they are assigned for the first time
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/typed-static-property-%25s%3A%3A%24%25s-must-not-be-accessed-before-initialization.html
 
 Description
 ___________

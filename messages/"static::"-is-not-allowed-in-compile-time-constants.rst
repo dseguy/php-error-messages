@@ -4,8 +4,13 @@
 ---------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			"static::" is not allowed in compile-time constants: The ``static`` keyword is a relative class identifier.
+
+		:og:type: article
+		:og:title: &quot;static::&quot; is not allowed in compile-time constants
+		:og:description: The ``static`` keyword is a relative class identifier
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/%22static%3A%3A%22-is-not-allowed-in-compile-time-constants.html
 
 Description
 ___________

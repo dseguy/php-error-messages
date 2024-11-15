@@ -4,8 +4,13 @@
 ------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			'\%s' is an invalid class name: ``self`` describes the current class.
+
+		:og:type: article
+		:og:title: &#039;\%s&#039; is an invalid class name
+		:og:description: ``self`` describes the current class
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/%27%5C%25s%27-is-an-invalid-class-name.html
 
 Description
 ___________

@@ -4,8 +4,13 @@ Property cannot be both final and private
 -----------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Property cannot be both final and private: When a property is final, it cannot be overridden in a child class.
+
+		:og:type: article
+		:og:title: Property cannot be both final and private
+		:og:description: When a property is final, it cannot be overridden in a child class
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/property-cannot-be-both-final-and-private.html
 
 Description
 ___________

@@ -4,8 +4,13 @@
 ------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			'goto' to undefined label '%s': This error is displayed when a goto command has no corresponding label in the method.
+
+		:og:type: article
+		:og:title: &#039;goto&#039; to undefined label &#039;%s&#039;
+		:og:description: This error is displayed when a goto command has no corresponding label in the method
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/%27goto%27-to-undefined-label-%27%25s%27.html
 
 Description
 ___________

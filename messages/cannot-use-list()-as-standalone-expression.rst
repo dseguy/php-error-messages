@@ -4,8 +4,13 @@ Cannot use list() as standalone expression
 ------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot use list() as standalone expression: list() assigns values from an array to a list of variables (or data containers).
+
+		:og:type: article
+		:og:title: Cannot use list() as standalone expression
+		:og:description: list() assigns values from an array to a list of variables (or data containers)
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-use-list%28%29-as-standalone-expression.html
 
 Description
 ___________

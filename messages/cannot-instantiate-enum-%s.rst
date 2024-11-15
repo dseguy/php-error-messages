@@ -4,8 +4,13 @@ Cannot instantiate enum %s
 --------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot instantiate enum %s: Enumeration cannot be instantiated directly.
+
+		:og:type: article
+		:og:title: Cannot instantiate enum %s
+		:og:description: Enumeration cannot be instantiated directly
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-instantiate-enum-%25s.html
 
 Description
 ___________

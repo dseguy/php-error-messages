@@ -4,8 +4,13 @@ get_defined_functions(): Setting $exclude_disabled to false has no effect
 -------------------------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			get_defined_functions(): Setting $exclude_disabled to false has no effect: The first (and only) parameter of the PHP native function get_defined_functions() is deprecated since PHP 8.
+
+		:og:type: article
+		:og:title: get_defined_functions(): Setting $exclude_disabled to false has no effect
+		:og:description: The first (and only) parameter of the PHP native function get_defined_functions() is deprecated since PHP 8
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/get_defined_functions%28%29%3A-setting-%24exclude_disabled-to-false-has-no-effect.html
 
 Description
 ___________

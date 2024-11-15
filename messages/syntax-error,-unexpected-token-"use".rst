@@ -4,8 +4,13 @@ syntax error, unexpected token "use"
 ------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			syntax error, unexpected token "use": ``use`` expression must be place at the top level of a file, a namespace block, or a class, enum or trait block.
+
+		:og:type: article
+		:og:title: syntax error, unexpected token &quot;use&quot;
+		:og:description: ``use`` expression must be place at the top level of a file, a namespace block, or a class, enum or trait block
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22use%22.html
 
 Description
 ___________

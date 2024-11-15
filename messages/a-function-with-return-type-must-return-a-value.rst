@@ -4,8 +4,13 @@ A function with return type must return a value
 -----------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			A function with return type must return a value: When a function has a return type, it must have a return command in its block, which must also have an argument.
+
+		:og:type: article
+		:og:title: A function with return type must return a value
+		:og:description: When a function has a return type, it must have a return command in its block, which must also have an argument
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/a-function-with-return-type-must-return-a-value.html
 
 Description
 ___________

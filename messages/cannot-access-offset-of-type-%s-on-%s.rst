@@ -4,8 +4,13 @@ Cannot access offset of type %s on %s
 -------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot access offset of type %s on %s: In an array notation, the offset may be a variable, or any container.
+
+		:og:type: article
+		:og:title: Cannot access offset of type %s on %s
+		:og:description: In an array notation, the offset may be a variable, or any container
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-access-offset-of-type-%25s-on-%25s.html
 
 Description
 ___________

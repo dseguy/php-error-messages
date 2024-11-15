@@ -4,8 +4,13 @@ Cannot override final %s::%s() with %s::%s()
 --------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot override final %s::%s() with %s::%s(): The ``final`` keyword prevents any child class to define the same constant or method.
+
+		:og:type: article
+		:og:title: Cannot override final %s::%s() with %s::%s()
+		:og:description: The ``final`` keyword prevents any child class to define the same constant or method
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-override-final-%25s%3A%3A%25s%28%29-with-%25s%3A%3A%25s%28%29.html
 
 Description
 ___________

@@ -4,8 +4,13 @@ b cannot implement a - it is not an interface
 ---------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			b cannot implement a - it is not an interface: implements is a keyword that only applies to interfaces.
+
+		:og:type: article
+		:og:title: b cannot implement a - it is not an interface
+		:og:description: implements is a keyword that only applies to interfaces
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/b-cannot-implement-a---it-is-not-an-interface.html
 
 Description
 ___________

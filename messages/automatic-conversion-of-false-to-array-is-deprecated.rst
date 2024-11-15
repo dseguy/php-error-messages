@@ -4,8 +4,13 @@ Automatic conversion of false to array is deprecated
 ----------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Automatic conversion of false to array is deprecated: The array syntax ``$variable[index]`` is only available for arrays and strings.
+
+		:og:type: article
+		:og:title: Automatic conversion of false to array is deprecated
+		:og:description: The array syntax ``$variable[index]`` is only available for arrays and strings
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/automatic-conversion-of-false-to-array-is-deprecated.html
 
 Description
 ___________

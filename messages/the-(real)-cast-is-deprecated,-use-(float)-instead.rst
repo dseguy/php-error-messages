@@ -4,8 +4,13 @@ The (real) cast is deprecated, use (float) instead
 --------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			The (real) cast is deprecated, use (float) instead: The ``(real)`` cast operator is deprecated in PHP 7.
+
+		:og:type: article
+		:og:title: The (real) cast is deprecated, use (float) instead
+		:og:description: The ``(real)`` cast operator is deprecated in PHP 7
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/the-%28real%29-cast-is-deprecated%2C-use-%28float%29-instead.html
 
 Description
 ___________

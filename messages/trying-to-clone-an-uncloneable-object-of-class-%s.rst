@@ -4,8 +4,13 @@ Trying to clone an uncloneable object of class %s
 -------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Trying to clone an uncloneable object of class %s: It is not possible to instantiate an enumeration, nor to clone its cases.
+
+		:og:type: article
+		:og:title: Trying to clone an uncloneable object of class %s
+		:og:description: It is not possible to instantiate an enumeration, nor to clone its cases
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/trying-to-clone-an-uncloneable-object-of-class-%25s.html
 
 Description
 ___________

@@ -4,8 +4,13 @@ Constructors cannot declare a return type
 -----------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Constructors cannot declare a return type: There can be no return type for a constructor method.
+
+		:og:type: article
+		:og:title: Constructors cannot declare a return type
+		:og:description: There can be no return type for a constructor method
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/constructors-cannot-declare-a-return-type.html
 
 Description
 ___________

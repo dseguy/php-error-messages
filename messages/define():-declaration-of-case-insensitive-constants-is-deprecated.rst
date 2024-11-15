@@ -4,8 +4,13 @@ define(): Declaration of case-insensitive constants is deprecated
 -----------------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			define(): Declaration of case-insensitive constants is deprecated: The third argument of define() used to allow the creation of a case-insensitive global constant.
+
+		:og:type: article
+		:og:title: define(): Declaration of case-insensitive constants is deprecated
+		:og:description: The third argument of define() used to allow the creation of a case-insensitive global constant
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/define%28%29%3A-declaration-of-case-insensitive-constants-is-deprecated.html
 
 Description
 ___________

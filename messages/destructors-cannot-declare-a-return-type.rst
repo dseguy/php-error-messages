@@ -4,8 +4,13 @@ Destructors cannot declare a return type
 ----------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Destructors cannot declare a return type: There can be no return type for a destructor method.
+
+		:og:type: article
+		:og:title: Destructors cannot declare a return type
+		:og:description: There can be no return type for a destructor method
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/destructors-cannot-declare-a-return-type.html
 
 Description
 ___________

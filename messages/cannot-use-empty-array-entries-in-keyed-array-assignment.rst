@@ -4,8 +4,13 @@ Cannot use empty array entries in keyed array assignment
 --------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot use empty array entries in keyed array assignment: The list() (also known as [] on the left side of the = sign), can skip some values, by using consecutive commas.
+
+		:og:type: article
+		:og:title: Cannot use empty array entries in keyed array assignment
+		:og:description: The list() (also known as [] on the left side of the = sign), can skip some values, by using consecutive commas
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-use-empty-array-entries-in-keyed-array-assignment.html
 
 Description
 ___________

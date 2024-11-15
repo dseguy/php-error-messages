@@ -4,8 +4,13 @@ Cannot use [] for reading
 -------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot use [] for reading: The append operator ``[]`` is a write operator: it alters the underlying variable.
+
+		:og:type: article
+		:og:title: Cannot use [] for reading
+		:og:description: The append operator ``[]`` is a write operator: it alters the underlying variable
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%5B%5D-for-reading.html
 
 Description
 ___________

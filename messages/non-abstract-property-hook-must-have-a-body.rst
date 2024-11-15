@@ -4,8 +4,13 @@ Non-abstract property hook must have a body
 -------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Non-abstract property hook must have a body: Property hooks, both ``set`` and ``get``, may be made abstract by replacing the body block by a semi-colon.
+
+		:og:type: article
+		:og:title: Non-abstract property hook must have a body
+		:og:description: Property hooks, both ``set`` and ``get``, may be made abstract by replacing the body block by a semi-colon
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/non-abstract-property-hook-must-have-a-body.html
 
 Description
 ___________

@@ -4,8 +4,13 @@ Indirect modification of overloaded element of %s has no effect
 ---------------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Indirect modification of overloaded element of %s has no effect: The variable ``$object`` is an object.
+
+		:og:type: article
+		:og:title: Indirect modification of overloaded element of %s has no effect
+		:og:description: The variable ``$object`` is an object
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/indirect-modification-of-overloaded-element-of-%25s-has-no-effect.html
 
 Description
 ___________

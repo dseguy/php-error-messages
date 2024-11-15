@@ -4,8 +4,13 @@ Cannot use positional argument after named argument
 ---------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot use positional argument after named argument: When using a mix of array unpacking and arguments, it is not possible to put the arguments after the unpacked argument.
+
+		:og:type: article
+		:og:title: Cannot use positional argument after named argument
+		:og:description: When using a mix of array unpacking and arguments, it is not possible to put the arguments after the unpacked argument
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-use-positional-argument-after-named-argument.html
 
 Description
 ___________

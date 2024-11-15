@@ -4,8 +4,13 @@ Cannot apply #[AllowDynamicProperties] to readonly class %s
 -----------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot apply #[AllowDynamicProperties] to readonly class %s: Readonly classes are classes whose properties are set once, and never changed afterwards.
+
+		:og:type: article
+		:og:title: Cannot apply #[AllowDynamicProperties] to readonly class %s
+		:og:description: Readonly classes are classes whose properties are set once, and never changed afterwards
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-apply-%23%5Ballowdynamicproperties%5D-to-readonly-class-%25s.html
 
 Description
 ___________

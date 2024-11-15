@@ -4,8 +4,13 @@ Duplicate named parameter $%s
 -----------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Duplicate named parameter $%s: Parameter shall only be passed once.
+
+		:og:type: article
+		:og:title: Duplicate named parameter $%s
+		:og:description: Parameter shall only be passed once
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/duplicate-named-parameter-%24%25s.html
 
 Description
 ___________

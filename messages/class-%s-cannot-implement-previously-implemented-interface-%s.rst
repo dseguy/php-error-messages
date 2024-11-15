@@ -4,8 +4,13 @@ Class %s cannot implement previously implemented interface %s
 -------------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Class %s cannot implement previously implemented interface %s: It is not allowed to use several times the same interface in a ``implements`` clause, for classes, or ``extends`` for interfaces.
+
+		:og:type: article
+		:og:title: Class %s cannot implement previously implemented interface %s
+		:og:description: It is not allowed to use several times the same interface in a ``implements`` clause, for classes, or ``extends`` for interfaces
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/class-%25s-cannot-implement-previously-implemented-interface-%25s.html
 
 Description
 ___________

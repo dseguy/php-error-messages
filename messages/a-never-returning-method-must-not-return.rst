@@ -4,8 +4,13 @@ A never-returning method must not return
 ----------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			A never-returning method must not return: When using the ``never`` keyword, the method shall not use the ``return`` keyword.
+
+		:og:type: article
+		:og:title: A never-returning method must not return
+		:og:description: When using the ``never`` keyword, the method shall not use the ``return`` keyword
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/a-never-returning-method-must-not-return.html
 
 Description
 ___________

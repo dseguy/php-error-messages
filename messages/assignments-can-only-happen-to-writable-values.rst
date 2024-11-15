@@ -4,8 +4,13 @@ Assignments can only happen to writable values
 ----------------------------------------------
  
 	.. meta::
-		:description lang=en:
-			Assignments can only happen to writable values: With the list() operator, the right part of the => operator must be a variable or equivalent.
+		:description:
+			Assignments can only happen to writable values: With the list() operator, the right part of the =&gt; operator must be a variable or equivalent.
+
+		:og:type: article
+		:og:title: Assignments can only happen to writable values
+		:og:description: With the list() operator, the right part of the =&gt; operator must be a variable or equivalent
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/assignments-can-only-happen-to-writable-values.html
 
 Description
 ___________

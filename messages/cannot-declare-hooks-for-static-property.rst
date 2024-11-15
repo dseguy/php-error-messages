@@ -4,8 +4,13 @@ Cannot declare hooks for static property
 ----------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot declare hooks for static property: Static properties cannot have a property hook.
+
+		:og:type: article
+		:og:title: Cannot declare hooks for static property
+		:og:description: Static properties cannot have a property hook
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-declare-hooks-for-static-property.html
 
 Description
 ___________

@@ -4,8 +4,13 @@ Cannot call constructor
 -----------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot call constructor: When there is no need to define a constructor, it may be skipped.
+
+		:og:type: article
+		:og:title: Cannot call constructor
+		:og:description: When there is no need to define a constructor, it may be skipped
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-call-constructor.html
 
 Description
 ___________

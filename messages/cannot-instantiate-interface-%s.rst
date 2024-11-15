@@ -4,8 +4,13 @@ Cannot instantiate interface %s
 -------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot instantiate interface %s: An interface represents an abstract class, and cannot be instantiated alone.
+
+		:og:type: article
+		:og:title: Cannot instantiate interface %s
+		:og:description: An interface represents an abstract class, and cannot be instantiated alone
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-instantiate-interface-%25s.html
 
 Description
 ___________

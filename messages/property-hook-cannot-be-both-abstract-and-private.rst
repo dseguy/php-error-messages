@@ -4,8 +4,13 @@ Property hook cannot be both abstract and private
 -------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Property hook cannot be both abstract and private: Property hook may be private, as in only available to current class, or abstract, as in always redefined in a child class, but not both at the same time.
+
+		:og:type: article
+		:og:title: Property hook cannot be both abstract and private
+		:og:description: Property hook may be private, as in only available to current class, or abstract, as in always redefined in a child class, but not both at the same time
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/property-hook-cannot-be-both-abstract-and-private.html
 
 Description
 ___________

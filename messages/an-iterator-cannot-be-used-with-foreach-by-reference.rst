@@ -4,8 +4,13 @@ An iterator cannot be used with foreach by reference
 ----------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			An iterator cannot be used with foreach by reference: It is posssible to use a foreach loop with a reference on the blind variable: this allows the original data to be modified.
+
+		:og:type: article
+		:og:title: An iterator cannot be used with foreach by reference
+		:og:description: It is posssible to use a foreach loop with a reference on the blind variable: this allows the original data to be modified
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/an-iterator-cannot-be-used-with-foreach-by-reference.html
 
 Description
 ___________

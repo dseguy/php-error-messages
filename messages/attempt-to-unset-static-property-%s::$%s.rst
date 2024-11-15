@@ -4,8 +4,13 @@ Attempt to unset static property %s::$%s
 ----------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Attempt to unset static property %s::$%s: It is not possible to unset a static property.
+
+		:og:type: article
+		:og:title: Attempt to unset static property %s::$%s
+		:og:description: It is not possible to unset a static property
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/attempt-to-unset-static-property-%25s%3A%3A%24%25s.html
 
 Description
 ___________

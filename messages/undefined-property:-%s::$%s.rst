@@ -4,8 +4,13 @@ Undefined property: %s::$%s
 ---------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Undefined property: %s::$%s: This error is reported when reading an undefined property.
+
+		:og:type: article
+		:og:title: Undefined property: %s::$%s
+		:og:description: This error is reported when reading an undefined property
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/undefined-property%3A-%25s%3A%3A%24%25s.html
 
 Description
 ___________

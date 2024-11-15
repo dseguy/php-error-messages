@@ -4,8 +4,13 @@ Attribute class "%s" not found
 ------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Attribute class "%s" not found: This error reports that a class was not found.
+
+		:og:type: article
+		:og:title: Attribute class &quot;%s&quot; not found
+		:og:description: This error reports that a class was not found
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/attribute-class-%5C%22%25s%5C%22-not-found.html
 
 Description
 ___________

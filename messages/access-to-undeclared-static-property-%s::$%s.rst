@@ -4,8 +4,13 @@ Access to undeclared static property %s::$%s
 --------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Access to undeclared static property %s::$%s: This error is reported when reading an undefined static property.
+
+		:og:type: article
+		:og:title: Access to undeclared static property %s::$%s
+		:og:description: This error is reported when reading an undefined static property
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/access-to-undeclared-static-property-%25s%3A%3A%24%25s.html
 
 Description
 ___________

@@ -4,8 +4,13 @@
 ----------------------------------------------------------------------------------------------------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			%s and %s define the same constant (%s) in the composition of %s. However, the definition differs and is considered incompatible. Class was composed: There is not conflict resolution, when a class and a trait defined the same constant.
+
+		:og:type: article
+		:og:title: %s and %s define the same constant (%s) in the composition of %s. However, the definition differs and is considered incompatible. Class was composed
+		:og:description: There is not conflict resolution, when a class and a trait defined the same constant
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/%25s-and-%25s-define-the-same-constant-%28%25s%29-in-the-composition-of-%25s.-however%2C-the-definition-differs-and-is-considered-incompatible.-class-was-composed.html
 
 Description
 ___________

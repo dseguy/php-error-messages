@@ -4,8 +4,13 @@ Return value must be of type int, string returned
 -------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Return value must be of type int, string returned: The type of the returned value must match the type of the method signature.
+
+		:og:type: article
+		:og:title: Return value must be of type int, string returned
+		:og:description: The type of the returned value must match the type of the method signature
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/return-value-must-be-of-type-int%2C-string-returned.html
 
 Description
 ___________

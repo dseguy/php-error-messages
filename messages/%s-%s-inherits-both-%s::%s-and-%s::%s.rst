@@ -4,8 +4,13 @@
 -------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			%s %s inherits both %s::%s and %s::%s: PHP reports duplicate constant definitions in different interfaces.
+
+		:og:type: article
+		:og:title: %s %s inherits both %s::%s and %s::%s
+		:og:description: PHP reports duplicate constant definitions in different interfaces
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/%25s-%25s-inherits-both-%25s%3A%3A%25s-and-%25s%3A%3A%25s.html
 
 Description
 ___________

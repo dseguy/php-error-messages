@@ -4,8 +4,13 @@ Cannot use temporary expression in write context
 ------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot use temporary expression in write context: Literal values and constants, global or class, cannot be used for writing: they are immutable.
+
+		:og:type: article
+		:og:title: Cannot use temporary expression in write context
+		:og:description: Literal values and constants, global or class, cannot be used for writing: they are immutable
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-use-temporary-expression-in-write-context.html
 
 Description
 ___________

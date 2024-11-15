@@ -4,8 +4,13 @@ Calling static trait method %s::%s is deprecated
 ------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Calling static trait method %s::%s is deprecated: Traits cannot be used independently from a host class.
+
+		:og:type: article
+		:og:title: Calling static trait method %s::%s is deprecated
+		:og:description: Traits cannot be used independently from a host class
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/calling-static-trait-method-%25s%3A%3A%25s-is-deprecated.html
 
 Description
 ___________

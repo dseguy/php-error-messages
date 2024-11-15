@@ -4,8 +4,13 @@ X::foo() has #[\Override] attribute, but no matching parent method exists
 -------------------------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			X::foo() has #[\Override] attribute, but no matching parent method exists: This error message has two sources: it happens, at compilation time, when the class has no parent, yet has a method with Override attribute.
+
+		:og:type: article
+		:og:title: X::foo() has #[\Override] attribute, but no matching parent method exists
+		:og:description: This error message has two sources: it happens, at compilation time, when the class has no parent, yet has a method with Override attribute
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/x%3A%3Afoo%28%29-has-%23%5B%5Coverride%5D-attribute%2C-but-no-matching-parent-method-exists.html
 
 Description
 ___________

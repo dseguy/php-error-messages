@@ -4,8 +4,13 @@ continue operator accepts only positive integers
 ------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			continue operator accepts only positive integers: continue indicates the number of nested loop to continue in.
+
+		:og:type: article
+		:og:title: continue operator accepts only positive integers
+		:og:description: continue indicates the number of nested loop to continue in
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/continue-operator-accepts-only-positive-integers.html
 
 Description
 ___________

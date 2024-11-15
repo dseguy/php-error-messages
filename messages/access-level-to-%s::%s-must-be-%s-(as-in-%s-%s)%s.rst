@@ -4,8 +4,13 @@ Access level to %s::%s must be %s (as in %s %s)%s
 -------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Access level to %s::%s must be %s (as in %s %s)%s: This error is emitted when a class constant is given more restrictive visibility than in the interface.
+
+		:og:type: article
+		:og:title: Access level to %s::%s must be %s (as in %s %s)%s
+		:og:description: This error is emitted when a class constant is given more restrictive visibility than in the interface
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/access-level-to-%25s%3A%3A%25s-must-be-%25s-%28as-in-%25s-%25s%29%25s.html
 
 Description
 ___________

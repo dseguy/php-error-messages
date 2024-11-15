@@ -4,8 +4,13 @@ Implicitly marking parameter $%s as nullable is deprecated, the explicit nullabl
 -----------------------------------------------------------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Implicitly marking parameter $%s as nullable is deprecated, the explicit nullable type must be used instead: Until PHP 8.
+
+		:og:type: article
+		:og:title: Implicitly marking parameter $%s as nullable is deprecated, the explicit nullable type must be used instead
+		:og:description: Until PHP 8
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/%25s%28%29%3A-implicitly-marking-parameter-%24%25s-as-nullable-is-deprecated%2C-the-explicit-nullable-type-must-be-used-instead.html
 
 Description
 ___________

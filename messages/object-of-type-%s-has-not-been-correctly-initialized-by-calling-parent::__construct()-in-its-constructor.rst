@@ -4,8 +4,13 @@ Object of type %s has not been correctly initialized by calling parent::__constr
 --------------------------------------------------------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Object of type %s has not been correctly initialized by calling parent::__construct() in its constructor: PHP needs an explicit call to the parent constructor to init the parent class.
+
+		:og:type: article
+		:og:title: Object of type %s has not been correctly initialized by calling parent::__construct() in its constructor
+		:og:description: PHP needs an explicit call to the parent constructor to init the parent class
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/object-of-type-%25s-has-not-been-correctly-initialized-by-calling-parent%3A%3A__construct%28%29-in-its-constructor.html
 
 Description
 ___________

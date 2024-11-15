@@ -4,8 +4,13 @@ Traits cannot have constants
 ----------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Traits cannot have constants: Constants were authorised in traits in PHP 8.
+
+		:og:type: article
+		:og:title: Traits cannot have constants
+		:og:description: Constants were authorised in traits in PHP 8
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/traits-cannot-have-constants.html
 
 Description
 ___________

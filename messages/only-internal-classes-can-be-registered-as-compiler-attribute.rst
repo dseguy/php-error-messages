@@ -4,8 +4,13 @@ Only internal classes can be registered as compiler attribute
 -------------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Only internal classes can be registered as compiler attribute: This error could not be reproduced so far.
+
+		:og:type: article
+		:og:title: Only internal classes can be registered as compiler attribute
+		:og:description: This error could not be reproduced so far
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/only-internal-classes-can-be-registered-as-compiler-attribute.html
 
 Description
 ___________

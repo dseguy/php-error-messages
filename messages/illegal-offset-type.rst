@@ -4,8 +4,13 @@ Illegal offset type
 -------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Illegal offset type: PHP only uses integers and strings as array index.
+
+		:og:type: article
+		:og:title: Illegal offset type
+		:og:description: PHP only uses integers and strings as array index
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/illegal-offset-type.html
 
 Description
 ___________

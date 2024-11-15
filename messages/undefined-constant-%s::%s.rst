@@ -4,8 +4,13 @@ Undefined constant %s::%s
 -------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Undefined constant %s::%s: The requested class constant could not be found.
+
+		:og:type: article
+		:og:title: Undefined constant %s::%s
+		:og:description: The requested class constant could not be found
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/undefined-constant-%25s%3A%3A%25s.html
 
 Description
 ___________

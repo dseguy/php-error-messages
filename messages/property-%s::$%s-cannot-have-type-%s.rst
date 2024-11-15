@@ -4,8 +4,13 @@ Property %s::$%s cannot have type %s
 ------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Property %s::$%s cannot have type %s: Some native PHP types are not allowed with a property.
+
+		:og:type: article
+		:og:title: Property %s::$%s cannot have type %s
+		:og:description: Some native PHP types are not allowed with a property
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/property-%25s%3A%3A%24%25s-cannot-have-type-%25s.html
 
 Description
 ___________

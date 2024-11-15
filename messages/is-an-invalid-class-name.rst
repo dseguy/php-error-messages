@@ -4,8 +4,13 @@
 -----------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			'%s' is an invalid class name: This error is emitted when a fully qualified name is used as a type (property, constant, parameter, returntype), and that cannot be a valid name.
+
+		:og:type: article
+		:og:title: &#039;%s&#039; is an invalid class name
+		:og:description: This error is emitted when a fully qualified name is used as a type (property, constant, parameter, returntype), and that cannot be a valid name
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/is-an-invalid-class-name.html
 
 Description
 ___________

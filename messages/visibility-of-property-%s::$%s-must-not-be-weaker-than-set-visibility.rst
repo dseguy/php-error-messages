@@ -4,8 +4,13 @@ Visibility of property %s::$%s must not be weaker than set visibility
 ---------------------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Visibility of property %s::$%s must not be weaker than set visibility: When using asymmetric visibility, it is not allowed to have a weaker (public) visibility for writing than for reading (private).
+
+		:og:type: article
+		:og:title: Visibility of property %s::$%s must not be weaker than set visibility
+		:og:description: When using asymmetric visibility, it is not allowed to have a weaker (public) visibility for writing than for reading (private)
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/visibility-of-property-%25s%3A%3A%24%25s-must-not-be-weaker-than-set-visibility.html
 
 Description
 ___________

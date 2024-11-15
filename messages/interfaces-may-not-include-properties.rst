@@ -4,8 +4,13 @@ Interfaces may not include properties
 -------------------------------------
  
 	.. meta::
-		:description lang=en:
-			Interfaces may not include properties: Interfaces can define methods and constants, though they can't define properties.
+		:description:
+			Interfaces may not include properties: Interfaces can define methods and constants, though they can&#039;t define properties.
+
+		:og:type: article
+		:og:title: Interfaces may not include properties
+		:og:description: Interfaces can define methods and constants, though they can&#039;t define properties
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/interfaces-may-not-include-properties.html
 
 Description
 ___________

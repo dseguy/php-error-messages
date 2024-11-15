@@ -4,8 +4,13 @@ Method %s::%s() cannot be static
 --------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Method %s::%s() cannot be static: Some PHP special methods cannot be static.
+
+		:og:type: article
+		:og:title: Method %s::%s() cannot be static
+		:og:description: Some PHP special methods cannot be static
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/method-%25s%3A%3A%25s%28%29-cannot-be-static.html
 
 Description
 ___________

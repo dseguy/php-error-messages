@@ -4,8 +4,13 @@ must be a valid rounding mode (RoundingMode::\*)
 ------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			must be a valid rounding mode (RoundingMode::\*): PHP has 4 rounding modes, to be used with the round() native function.
+
+		:og:type: article
+		:og:title: must be a valid rounding mode (RoundingMode::\*)
+		:og:description: PHP has 4 rounding modes, to be used with the round() native function
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/must-be-a-valid-rounding-mode-%28roundingmode%3A%3A%2A%29.html
 
 Description
 ___________

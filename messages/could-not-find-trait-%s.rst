@@ -4,8 +4,13 @@ Could not find trait %s
 -----------------------
  
 	.. meta::
-		:description lang=en:
-			Could not find trait %s: A trait is named in a use expression inside a class, but it doesn't exist, or is not yet loaded by PHP.
+		:description:
+			Could not find trait %s: A trait is named in a use expression inside a class, but it doesn&#039;t exist, or is not yet loaded by PHP.
+
+		:og:type: article
+		:og:title: Could not find trait %s
+		:og:description: A trait is named in a use expression inside a class, but it doesn&#039;t exist, or is not yet loaded by PHP
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/could-not-find-trait-%25s.html
 
 Description
 ___________

@@ -4,8 +4,13 @@ Label '%s' already defined
 --------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Label '%s' already defined: A goto label has been defined twice or more.
+
+		:og:type: article
+		:og:title: Label &#039;%s&#039; already defined
+		:og:description: A goto label has been defined twice or more
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/label-%27%25s%27-already-defined.html
 
 Description
 ___________

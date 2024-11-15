@@ -4,8 +4,13 @@ Call to a member function %s() on %s
 ------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Call to a member function %s() on %s: This error happens when the object syntax is used on a string.
+
+		:og:type: article
+		:og:title: Call to a member function %s() on %s
+		:og:description: This error happens when the object syntax is used on a string
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/call-to-a-member-function-%25s%28%29-on-%25s.html
 
 Description
 ___________

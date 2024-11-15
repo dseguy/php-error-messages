@@ -4,8 +4,13 @@ Array to string conversion
 --------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Array to string conversion: This error appears when an array is converted into a string, without a proper type cast.
+
+		:og:type: article
+		:og:title: Array to string conversion
+		:og:description: This error appears when an array is converted into a string, without a proper type cast
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/array-to-string-conversion.html
 
 Description
 ___________

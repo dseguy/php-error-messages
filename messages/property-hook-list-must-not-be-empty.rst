@@ -4,8 +4,13 @@ Property hook list must not be empty
 ------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Property hook list must not be empty: It is possible to add a block, after a property definition.
+
+		:og:type: article
+		:og:title: Property hook list must not be empty
+		:og:description: It is possible to add a block, after a property definition
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/property-hook-list-must-not-be-empty.html
 
 Description
 ___________

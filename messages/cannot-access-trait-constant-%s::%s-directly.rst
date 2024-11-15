@@ -4,8 +4,13 @@ Cannot access trait constant %s::%s directly
 --------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot access trait constant %s::%s directly: Traits cannot be used indepently from a host class.
+
+		:og:type: article
+		:og:title: Cannot access trait constant %s::%s directly
+		:og:description: Traits cannot be used indepently from a host class
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-access-trait-constant-%25s%3A%3A%25s-directly.html
 
 Description
 ___________

@@ -4,8 +4,13 @@ Calling get_class() without arguments is deprecated
 ---------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Calling get_class() without arguments is deprecated: get_class() used to allow its usage without an argument.
+
+		:og:type: article
+		:og:title: Calling get_class() without arguments is deprecated
+		:og:description: get_class() used to allow its usage without an argument
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/calling-get_class%28%29-without-arguments-is-deprecated.html
 
 Description
 ___________

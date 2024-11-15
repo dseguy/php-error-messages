@@ -4,8 +4,13 @@ Generator return type must be a supertype of Generator
 ------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Generator return type must be a supertype of Generator: When a method or a function uses a ``yield`` keyword, it becomes a generator.
+
+		:og:type: article
+		:og:title: Generator return type must be a supertype of Generator
+		:og:description: When a method or a function uses a ``yield`` keyword, it becomes a generator
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/generator-return-type-must-be-a-supertype-of-generator.html
 
 Description
 ___________

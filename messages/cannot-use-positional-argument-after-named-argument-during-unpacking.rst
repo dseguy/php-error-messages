@@ -4,8 +4,13 @@ Cannot use positional argument after named argument during unpacking
 --------------------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot use positional argument after named argument during unpacking: Unpacking only positional arguments, with array_keys() and when the order is already correct.
+
+		:og:type: article
+		:og:title: Cannot use positional argument after named argument during unpacking
+		:og:description: Unpacking only positional arguments, with array_keys() and when the order is already correct
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-use-positional-argument-after-named-argument-during-unpacking.html
 
 Description
 ___________

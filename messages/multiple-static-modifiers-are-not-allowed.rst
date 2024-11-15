@@ -4,8 +4,13 @@ Multiple static modifiers are not allowed
 -----------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Multiple static modifiers are not allowed: Only one static option is necessary to make a property static.
+
+		:og:type: article
+		:og:title: Multiple static modifiers are not allowed
+		:og:description: Only one static option is necessary to make a property static
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/multiple-static-modifiers-are-not-allowed.html
 
 Description
 ___________

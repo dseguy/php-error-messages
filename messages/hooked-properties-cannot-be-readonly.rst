@@ -4,8 +4,13 @@ Hooked properties cannot be readonly
 ------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Hooked properties cannot be readonly: The readonly keyword is not allowed on hooked properties.
+
+		:og:type: article
+		:og:title: Hooked properties cannot be readonly
+		:og:description: The readonly keyword is not allowed on hooked properties
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/hooked-properties-cannot-be-readonly.html
 
 Description
 ___________

@@ -4,8 +4,13 @@ Cannot redefine class constant
 ------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot redefine class constant: It is only allowed to defined a constant once per class.
+
+		:og:type: article
+		:og:title: Cannot redefine class constant
+		:og:description: It is only allowed to defined a constant once per class
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-redefine-class-constant.html
 
 Description
 ___________

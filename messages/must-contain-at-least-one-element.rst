@@ -4,8 +4,13 @@ must contain at least one element
 ---------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			must contain at least one element: min() and max() only work on arrays that contains at least one element.
+
+		:og:type: article
+		:og:title: must contain at least one element
+		:og:description: min() and max() only work on arrays that contains at least one element
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/must-contain-at-least-one-element.html
 
 Description
 ___________

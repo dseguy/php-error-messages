@@ -4,8 +4,13 @@ Undefined variable
 ------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Undefined variable: This notice is emitted when a variable is being used before being defined.
+
+		:og:type: article
+		:og:title: Undefined variable
+		:og:description: This notice is emitted when a variable is being used before being defined
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/undefined-variable.html
 
 Description
 ___________

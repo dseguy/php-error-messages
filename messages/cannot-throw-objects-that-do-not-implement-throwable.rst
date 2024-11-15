@@ -4,8 +4,13 @@ Cannot throw objects that do not implement Throwable
 ----------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot throw objects that do not implement Throwable: All classes that are thrown must implement the interfave Throwable.
+
+		:og:type: article
+		:og:title: Cannot throw objects that do not implement Throwable
+		:og:description: All classes that are thrown must implement the interfave Throwable
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-throw-objects-that-do-not-implement-throwable.html
 
 Description
 ___________

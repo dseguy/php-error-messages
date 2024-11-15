@@ -4,8 +4,13 @@ Named parameter $x overwrites previous argument
 -----------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Named parameter $x overwrites previous argument: Named parameter and positional arguments are setting the same argument, with different name.
+
+		:og:type: article
+		:og:title: Named parameter $x overwrites previous argument
+		:og:description: Named parameter and positional arguments are setting the same argument, with different name
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/named-parameter-%24x-overwrites-previous-argument.html
 
 Description
 ___________

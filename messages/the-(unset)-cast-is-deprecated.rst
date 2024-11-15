@@ -4,8 +4,13 @@ The (unset) cast is deprecated
 ------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			The (unset) cast is deprecated: Removing a variable, a property or an array index with the cast operator (unset) is deprecated since PHP 7.
+
+		:og:type: article
+		:og:title: The (unset) cast is deprecated
+		:og:description: Removing a variable, a property or an array index with the cast operator (unset) is deprecated since PHP 7
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/the-%28unset%29-cast-is-deprecated.html
 
 Description
 ___________

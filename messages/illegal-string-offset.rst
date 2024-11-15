@@ -4,8 +4,13 @@ illegal string offset
 ---------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			illegal string offset: String shall use the array syntax, with the square brackets.
+
+		:og:type: article
+		:og:title: illegal string offset
+		:og:description: String shall use the array syntax, with the square brackets
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/illegal-string-offset.html
 
 Description
 ___________

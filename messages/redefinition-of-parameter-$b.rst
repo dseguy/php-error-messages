@@ -4,8 +4,13 @@ Redefinition of parameter $b
 ----------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Redefinition of parameter $b: Parameters must all have distinct names in a method signature.
+
+		:og:type: article
+		:og:title: Redefinition of parameter $b
+		:og:description: Parameters must all have distinct names in a method signature
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/redefinition-of-parameter-%24b.html
 
 Description
 ___________

@@ -4,8 +4,13 @@ Cannot instantiate trait %s
 ---------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Cannot instantiate trait %s: Traits cannot be instantiated directly.
+
+		:og:type: article
+		:og:title: Cannot instantiate trait %s
+		:og:description: Traits cannot be instantiated directly
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-instantiate-trait-%25s.html
 
 Description
 ___________

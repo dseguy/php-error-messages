@@ -4,8 +4,13 @@ Defining a custom assert() function is not allowed,
 ---------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Defining a custom assert() function is not allowed,: assert() is a PHP native function, used to create assertions.
+
+		:og:type: article
+		:og:title: Defining a custom assert() function is not allowed,
+		:og:description: assert() is a PHP native function, used to create assertions
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/defining-a-custom-assert%28%29-function-is-not-allowed%2C.html
 
 Description
 ___________

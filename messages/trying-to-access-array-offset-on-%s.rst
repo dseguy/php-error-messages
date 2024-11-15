@@ -4,8 +4,13 @@ Trying to access array offset on %s
 -----------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Trying to access array offset on %s: Null, boolean (true and false), integers and floats are not valid with the array syntax.
+
+		:og:type: article
+		:og:title: Trying to access array offset on %s
+		:og:description: Null, boolean (true and false), integers and floats are not valid with the array syntax
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/trying-to-access-array-offset-on-%25s.html
 
 Description
 ___________

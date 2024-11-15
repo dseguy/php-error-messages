@@ -4,8 +4,13 @@ Uninitialized string offset
 ---------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			Uninitialized string offset: This error appears when using the array syntax on strings, while the requested index is too large, or too small.
+
+		:og:type: article
+		:og:title: Uninitialized string offset
+		:og:description: This error appears when using the array syntax on strings, while the requested index is too large, or too small
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/uninitialized-string-offset.html
 
 Description
 ___________

@@ -4,8 +4,13 @@ array_merge() does not accept unknown named parameters
 ------------------------------------------------------
  
 	.. meta::
-		:description lang=en:
+		:description:
 			array_merge() does not accept unknown named parameters: array_merge() accepts one parameter, called ``\$arrays``.
+
+		:og:type: article
+		:og:title: array_merge() does not accept unknown named parameters
+		:og:description: array_merge() accepts one parameter, called ``\$arrays``
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/array_merge%28%29-does-not-accept-unknown-named-parameters.html
 
 Description
 ___________
