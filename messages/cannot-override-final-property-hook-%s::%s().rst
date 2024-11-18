@@ -49,6 +49,11 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Cannot override final property hook $p::get()
+
 Solutions
 _________
 

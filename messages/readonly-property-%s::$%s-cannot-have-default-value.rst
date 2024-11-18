@@ -32,6 +32,11 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Readonly property x::$i cannot have default value
+
 Solutions
 _________
 

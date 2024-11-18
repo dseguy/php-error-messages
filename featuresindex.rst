@@ -82,12 +82,8 @@ Features index
 
    * assignation
 
-      * :ref:`cannot-re-assign-\$this`
-
-
-   * assignement
-
       * :ref:`assignments-can-only-happen-to-writable-values`
+      * :ref:`cannot-re-assign-\$this`
 
 
    * asymmetric-property
@@ -124,6 +120,7 @@ Features index
 
    * call
 
+      * :ref:`call-to-%s-%s::%s()-from-global-scope`
       * :ref:`never-returning-function-must-not-implicitly-return`
 
 
@@ -240,17 +237,12 @@ Features index
       * :ref:`cannot-call-constructor`
 
 
-   * context
-
-      * :ref:`cannot-modify-readonly-property-%s::\$%s`
-
-
    * continue
 
       * :ref:`continue-operator-accepts-only-positive-integers`
 
 
-   * curly-brackets
+   * curly-bracket
 
       * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-deprecated`
       * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported`
@@ -270,6 +262,7 @@ Features index
    * default
 
       * :ref:`default-value-for-property-of-type-int-may-not-be-null.-use-the-nullable-type-?int-to-allow-null-default-value`
+      * :ref:`readonly-property-%s::\$%s-cannot-have-default-value`
 
 
    * definition
@@ -277,7 +270,7 @@ Features index
       * :ref:`access-to-undeclared-static-property-%s::\$%s`
       * :ref:`call-to-undefined-function-%s()`
       * :ref:`redefinition-of-parameter-\$b`
-      * :ref:`undefined-property:-%s::\$%s`
+      * :ref:`undefined-property-%s::\$%s`
 
 
    * deprecated
@@ -383,6 +376,7 @@ Features index
       * :ref:`foreach()-argument-must-be-of-type-array|object`
       * :ref:`invalid-argument-supplied-for-foreach()`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-variable`
+      * :ref:`the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls`
 
 
    * fully-qualified-name
@@ -496,6 +490,12 @@ Features index
       * :ref:`cannot-use-empty-array-entries-in-keyed-array-assignment`
       * :ref:`cannot-use-empty-list`
       * :ref:`spread-operator-is-not-supported-in-assignments`
+      * :ref:`the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls`
+
+
+   * loop
+
+      * :ref:`the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls`
 
 
    * magic-method
@@ -656,6 +656,7 @@ Features index
    * parent
 
       * :ref:`\'\%s\'-is-an-invalid-class-name`
+      * :ref:`cannot-access-parent::-when-current-class-scope-has-no-parent`
 
 
    * parenthesis
@@ -688,7 +689,7 @@ Features index
       * :ref:`default-value-for-property-of-type-int-may-not-be-null.-use-the-nullable-type-?int-to-allow-null-default-value`
       * :ref:`interfaces-may-not-include-properties`
       * :ref:`property-%s::\$%s-cannot-have-type-%s`
-      * :ref:`undefined-property:-%s::\$%s`
+      * :ref:`undefined-property-%s::\$%s`
 
 
    * property hook
@@ -734,6 +735,7 @@ Features index
       * :ref:`multiple-readonly-modifiers-are-not-allowed`
       * :ref:`readonly-class-%s-cannot-use-trait-with-a-non-readonly-property-%s::\$%s`
       * :ref:`readonly-class-bar-cannot-extend-non-readonly-class-foo`
+      * :ref:`readonly-property-%s::\$%s-cannot-have-default-value`
       * :ref:`static-property-%s::\$%s-cannot-be-readonly`
 
 
@@ -787,6 +789,13 @@ Features index
    * scalar-typehint
 
       * :ref:`type-declaration-\'%s\'-must-be-unqualified`
+
+
+   * scope
+
+      * :ref:`call-to-%s-%s::%s()-from-global-scope`
+      * :ref:`cannot-access-parent::-when-current-class-scope-has-no-parent`
+      * :ref:`cannot-modify-readonly-property-%s::\$%s`
 
 
    * self
@@ -982,3 +991,9 @@ Features index
    * yield
 
       * :ref:`only-variable-references-should-be-yielded-by-reference`
+      * :ref:`the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls`
+
+
+   * yield from
+
+      * :ref:`the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls`

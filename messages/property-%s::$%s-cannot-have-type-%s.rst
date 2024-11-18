@@ -30,6 +30,11 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Property x::$p cannot have type callable
+
 Solutions
 _________
 

@@ -34,6 +34,11 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Cannot apply #[AllowDynamicProperties] to readonly class x
+
 Solutions
 _________
 

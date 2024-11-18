@@ -52,4 +52,4 @@ _________
 Related Error Messages
 ______________________
 
-+ :ref:`undefined-property:-%s::$%s`
++ :ref:`undefined-property-%s::$%s`

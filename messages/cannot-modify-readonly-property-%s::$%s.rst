@@ -41,6 +41,11 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Cannot modify readonly property x::$property
+
 Solutions
 _________
 

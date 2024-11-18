@@ -38,6 +38,11 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Cannot override final x::foo() with y::foo()
+
 Solutions
 _________
 

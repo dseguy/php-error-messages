@@ -36,6 +36,11 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Readonly class x cannot use trait with a non-readonly property t::$a
+
 Solutions
 _________
 

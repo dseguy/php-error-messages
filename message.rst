@@ -47,6 +47,7 @@ PHP Error Messages
    messages/call-to-%s-%s::%s()-from-global-scope.rst
    messages/call-to-a-member-function-%s()-on-%s.rst
    messages/call-to-undefined-function-%s().rst
+   messages/call-to-undefined-function-each().rst
    messages/call-to-undefined-function-exit().rst
    messages/call-to-undefined-function.rst
    messages/call-to-undefined-method-%s::%s().rst
@@ -222,6 +223,7 @@ PHP Error Messages
    messages/the-(real)-cast-is-deprecated,-use-(float)-instead.rst
    messages/the-(unset)-cast-is-deprecated.rst
    messages/the-(unset)-cast-is-no-longer-supported.rst
+   messages/the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls.rst
    messages/traits-cannot-have-constants.rst
    messages/trying-to-access-array-offset-on-%s.rst
    messages/trying-to-clone-an-uncloneable-object-of-class-%s.rst
@@ -236,7 +238,7 @@ PHP Error Messages
    messages/undefined-constant-%s::%s.rst
    messages/undefined-constant-"%s.rst
    messages/undefined-offset.rst
-   messages/undefined-property:-%s::$%s.rst
+   messages/undefined-property-%s::$%s.rst
    messages/undefined-variable.rst
    messages/unhandled-match-case-%s.rst
    messages/uninitialized-string-offset.rst

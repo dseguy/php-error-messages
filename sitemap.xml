@@ -127,6 +127,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-function-%s().html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-function-each().html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-function-exit().html</loc>
  </url>
  <url>
@@ -652,6 +655,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-(unset)-cast-is-no-longer-supported.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/traits-cannot-have-constants.html</loc>
  </url>
  <url>
@@ -694,7 +700,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/undefined-offset.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/undefined-property:-%s::$%s.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/undefined-property-%s::$%s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/undefined-variable.html</loc>

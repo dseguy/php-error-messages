@@ -175,6 +175,7 @@ Tag index
 
    * removed
 
+      * :ref:`call-to-undefined-function-each()`
       * :ref:`the-(real)-cast-has-been-removed,-use-(float)-instead`
       * :ref:`the-(real)-cast-is-deprecated,-use-(float)-instead`
 
