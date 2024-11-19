@@ -44,5 +44,10 @@ _________
 + Use yield from.
 + Use foreach().
 
+Related Error Messages
+______________________
+
++ :ref:`call-to-undefined-function`
+
 
 In previous PHP versions, this error message used to be :ref:`the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls`.

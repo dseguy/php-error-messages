@@ -170,6 +170,7 @@ Features index
       * :ref:`%s-%s-inherits-both-%s::%s-and-%s::%s`
       * :ref:`%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed`
       * :ref:`cannot-be-a-class-constant`
+      * :ref:`cannot-redefine-class-constant`
       * :ref:`class-constant-%s::%s-cannot-have-type-%s`
       * :ref:`constant-%s::%s-is-deprecated`
       * :ref:`traits-cannot-have-constants`
@@ -179,6 +180,11 @@ Features index
    * class-operator
 
       * :ref:`a-class-constant-must-not-be-called-class.-it-is-reserved-for-class-name-fetching`
+
+
+   * clone
+
+      * :ref:`__clone-method-called-on-non-object`
 
 
    * closure
@@ -280,6 +286,11 @@ Features index
       * :ref:`get_defined_functions():-setting-\$exclude_disabled-to-false-has-no-effect`
 
 
+   * each
+
+      * :ref:`call-to-undefined-function-each()`
+
+
    * ellipsis
 
       * :ref:`cannot-unpack-array-with-string-keys`
@@ -310,6 +321,7 @@ Features index
 
    * exception
 
+      * :ref:`cannot-throw-objects-that-do-not-implement-throwable`
       * :ref:`cannot-use-try-without-catch-or-finally`
 
 
@@ -327,6 +339,7 @@ Features index
    * expression
 
       * :ref:`cannot-use-isset()-on-the-result-of-an-expression-(you-can-use-"null-!==-expression"-instead)`
+      * :ref:`cannot-use-list()-as-standalone-expression`
 
 
    * extension
@@ -389,6 +402,7 @@ Features index
       * :ref:`%s():-returning-by-reference-from-a-void-function-is-deprecated`
       * :ref:`a-never-returning-function-must-not-return`
       * :ref:`call-to-undefined-function-%s()`
+      * :ref:`call-to-undefined-function-each()`
       * :ref:`call-to-undefined-function`
 
 
@@ -424,15 +438,24 @@ Features index
       * :ref:`readonly-class-bar-cannot-extend-non-readonly-class-foo`
 
 
+   * inheritence
+
+      * :ref:`cannot-redefine-class-constant`
+
+
+   * instance
+
+      * :ref:`cannot-instantiate-trait-%s`
+
+
+   * instanceof
+
+      * :ref:`__clone-method-called-on-non-object`
+
+
    * instantiate
 
       * :ref:`cannot-instantiate-interface-%s`
-      * :ref:`cannot-instantiate-trait-t`
-
-
-   * instantiation
-
-      * :ref:`cannot-instantiate-trait-%s`
 
 
    * interface
@@ -450,6 +473,11 @@ Features index
 
       * :ref:`using-\${expr}-(variable-variables)-in-strings-is-deprecated,-use-{\${expr}}-instead`
       * :ref:`using-\${var}-in-strings-is-deprecated,-use-{\$var}-instead`
+
+
+   * is_object
+
+      * :ref:`__clone-method-called-on-non-object`
 
 
    * isset
@@ -489,6 +517,7 @@ Features index
       * :ref:`cannot-use-empty-array-elements-in-arrays`
       * :ref:`cannot-use-empty-array-entries-in-keyed-array-assignment`
       * :ref:`cannot-use-empty-list`
+      * :ref:`cannot-use-list()-as-standalone-expression`
       * :ref:`spread-operator-is-not-supported-in-assignments`
       * :ref:`the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls`
 
@@ -878,6 +907,7 @@ Features index
 
    * throw
 
+      * :ref:`cannot-throw-objects-that-do-not-implement-throwable`
       * :ref:`never-returning-function-must-not-implicitly-return`
 
 
@@ -891,7 +921,6 @@ Features index
       * :ref:`calling-static-trait-method-%s::%s-is-deprecated`
       * :ref:`cannot-access-trait-constant-%s::%s-directly`
       * :ref:`cannot-instantiate-trait-%s`
-      * :ref:`cannot-instantiate-trait-t`
       * :ref:`readonly-class-%s-cannot-use-trait-with-a-non-readonly-property-%s::\$%s`
       * :ref:`required-trait-%s-wasn\'t-added-to-%s`
       * :ref:`traits-cannot-have-constants`
@@ -994,6 +1023,6 @@ Features index
       * :ref:`the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls`
 
 
-   * yield from
+   * yield-from
 
       * :ref:`the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls`

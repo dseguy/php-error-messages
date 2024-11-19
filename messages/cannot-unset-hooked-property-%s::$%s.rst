@@ -25,7 +25,7 @@ _______
    <?php
    
    class x {
-       public string $x {
+       public string $property {
            get => $this->x;
        }
    }
@@ -36,9 +36,13 @@ _______
    ?>
    
 
+
+Literal Examples
+****************
++ Cannot unset hooked property x::$property
+
 Solutions
 _________
 
 + Assign null, or a null value to this property.
 + Reset the property to its default value.
-+ Cannot unset hooked property x::$x

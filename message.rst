@@ -18,6 +18,7 @@ PHP Error Messages
    messages/'goto'-into-loop-or-switch-statement-is-disallowed.rst
    messages/'goto'-to-undefined-label-'%s'.rst
    messages/'namespace\%s'-is-an-invalid-class-name.rst
+   messages/__clone-method-called-on-non-object.rst
    messages/a-class-constant-must-not-be-called-class.-it-is-reserved-for-class-name-fetching.rst
    messages/a-function-with-return-type-must-return-a-value.rst
    messages/a-never-returning-%s-must-not-return.rst
@@ -72,7 +73,6 @@ PHP Error Messages
    messages/cannot-instantiate-enum-%s.rst
    messages/cannot-instantiate-interface-%s.rst
    messages/cannot-instantiate-trait-%s.rst
-   messages/cannot-instantiate-trait-t.rst
    messages/cannot-load-module-"%s"-because-required-module-"%s"-is-not-loaded.rst
    messages/cannot-make-non-abstract-method-i::foo()-abstract-in-class-j.rst
    messages/cannot-mix-keyed-and-unkeyed-array-entries-in-assignments.rst
@@ -99,7 +99,7 @@ PHP Error Messages
    messages/cannot-use-empty-array-entries-in-keyed-array-assignment.rst
    messages/cannot-use-empty-list.rst
    messages/cannot-use-isset()-on-the-result-of-an-expression-(you-can-use-"null-!==-expression"-instead).rst
-   messages/cannot-use-lexical-variable-x-as-a-parameter-name.rst
+   messages/cannot-use-lexical-variable-%s-as-a-parameter-name.rst
    messages/cannot-use-list()-as-standalone-expression.rst
    messages/cannot-use-object-of-type-%s-as-array.rst
    messages/cannot-use-object-of-type-stdclass-as-array.rst

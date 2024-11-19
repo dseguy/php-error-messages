@@ -36,6 +36,11 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Cannot use object of type x as array
+
 Solutions
 _________
 

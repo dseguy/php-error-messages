@@ -40,6 +40,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/'namespace\%s'-is-an-invalid-class-name.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/__clone-method-called-on-non-object.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/a-class-constant-must-not-be-called-class.-it-is-reserved-for-class-name-fetching.html</loc>
  </url>
  <url>
@@ -202,9 +205,6 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-instantiate-trait-%s.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-instantiate-trait-t.html</loc>
- </url>
- <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-load-module-&quot;%s&quot;-because-required-module-&quot;%s&quot;-is-not-loaded.html</loc>
  </url>
  <url>
@@ -283,7 +283,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-isset()-on-the-result-of-an-expression-(you-can-use-&quot;null-!==-expression&quot;-instead).html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-lexical-variable-x-as-a-parameter-name.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-lexical-variable-%s-as-a-parameter-name.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-list()-as-standalone-expression.html</loc>
