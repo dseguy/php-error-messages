@@ -45,6 +45,7 @@ const BASE_KEYS = [
  'phpError',
  'changedBehavior',
  'extension',
+ 'analyze',
 ];
 
 $behaviors = array();
@@ -169,6 +170,8 @@ foreach($files as $file) {
 		buildlog("No previous for $file");
 		++$warnings;
 		continue;
+	} elseif ($error->previous === 'no-previous-error') {
+	    // just omits
 	} elseif (!empty($error->previous)) {
 		if (!file_exists('errors/'.$error->previous.'.ini')) {
 			buildlog($error->previous." doesn't exist as a previous error");
@@ -187,6 +190,8 @@ foreach($files as $file) {
 		buildlog("No next for $file");
 		++$warnings;
 		continue;
+	} elseif ($error->previous === 'no-next-error') {
+	    // just omits
 	} elseif (!empty($error->next)) {
 		if (!file_exists('errors/'.$error->next.'.ini')) {
 			buildlog($error->next." doesn't exist as a next error in $file");

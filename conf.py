@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'PHP error message reference'
+project = 'PHP error messages'
 copyright = '2023-2024, Damien Seguy'
 author = 'Damien Seguy'
 release = '1.0'
@@ -39,3 +39,12 @@ lexers['php-annotations'] = PhpLexer(startinline=True)
 # Extra config to verify read the docs
 html_extra_path = ["googlee919cb0917e4fefc.html", 
                                         "sitemap.xml"]
+                                        
+html_theme_options = {
+#    'logo': 'logo.png',
+    'analytics_id': 'G-29LCZ34CDW',
+    'github_button': True,
+    'github_repo':'php-error-messages',
+    'github_user':'dseguy',
+    'description': 'All the PHP error messages, under one roof, with explanations.',
+}
