@@ -48,6 +48,11 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Must not use parent::$q::get() outside a property hook
+
 Solutions
 _________
 

@@ -162,6 +162,7 @@ PHP Error Messages
    messages/invalid-argument-supplied-for-foreach().rst
    messages/invalid-characters-passed-for-attempted-conversion,-these-have-been-ignored.rst
    messages/is-an-invalid-class-name.rst
+   messages/is-an-invalid-offset.rst
    messages/is-not-a-valid-codepoint.rst
    messages/jump-into-a-finally-block-is-disallowed.rst
    messages/jump-out-of-a-finally-block-is-disallowed.rst

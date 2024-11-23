@@ -27,6 +27,11 @@ Tag index
       * :ref:`unparenthesized-\`a-?-b-:-c-?-d-:-e\`-is-not-supported.`
 
 
+   * child-class
+
+      * :ref:`cannot-%s-readonly-property-%s::$%s-from-%s%s`
+
+
    * class
 
       * :ref:`class-b-cannot-implement-previously-implemented-interface-i`
@@ -115,6 +120,11 @@ Tag index
       * :ref:`\'goto\'-into-loop-or-switch-statement-is-disallowed`
 
 
+   * implicit
+
+      * :ref:`%s():-implicitly-marking-parameter-$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead`
+
+
    * keyword
 
       * :ref:`cannot-use-\'mixed\'-as-class-name-as-it-is-reserved`
@@ -147,7 +157,6 @@ Tag index
 
    * not generated
 
-      * :ref:`case-%s::%s-does-not-exist`
       * :ref:`classes-must-be-first-marked-as-attribute-before-being-able-to-be-registered-as-internal-attribute-class`
       * :ref:`only-internal-classes-can-be-registered-as-compiler-attribute`
       * :ref:`static-function-%s%s%s()-cannot-be-abstract`
@@ -160,6 +169,7 @@ Tag index
 
    * readonly
 
+      * :ref:`cannot-%s-readonly-property-%s::$%s-from-%s%s`
       * :ref:`cannot-acquire-reference-to-readonly-property`
 
 

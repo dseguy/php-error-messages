@@ -37,6 +37,11 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Typed static property x::$p must not be accessed before initialization
+
 Solutions
 _________
 

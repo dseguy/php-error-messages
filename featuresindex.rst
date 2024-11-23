@@ -52,6 +52,7 @@ Features index
       * :ref:`implicit-conversion-from-float-string`
       * :ref:`indirect-modification-of-overloaded-element-of-%s-has-no-effect`
       * :ref:`indirect-modification-of-overloaded-property-%s::\$%s-has-no-effect`
+      * :ref:`is-an-invalid-offset`
       * :ref:`syntax-error,-unexpected-token-"{"`
       * :ref:`undefined-array-key`
       * :ref:`undefined-offset`
@@ -159,11 +160,6 @@ Features index
       * :ref:`illegal-class-name`
 
 
-   * class constant
-
-      * :ref:`undefined-constant-%s::%s`
-
-
    * class-constant
 
       * :ref:`"static::"-is-not-allowed-in-compile-time-constants`
@@ -175,11 +171,13 @@ Features index
       * :ref:`constant-%s::%s-is-deprecated`
       * :ref:`traits-cannot-have-constants`
       * :ref:`undefined-class-constant-\'%s::%s\'`
+      * :ref:`undefined-constant-%s::%s`
 
 
    * class-operator
 
       * :ref:`a-class-constant-must-not-be-called-class.-it-is-reserved-for-class-name-fetching`
+      * :ref:`cannot-use-::class-with-dynamic-class-name`
 
 
    * clone
@@ -435,12 +433,8 @@ Features index
    * inheritance
 
       * :ref:`cannot-declare-promoted-property-in-an-abstract-constructor`
-      * :ref:`readonly-class-bar-cannot-extend-non-readonly-class-foo`
-
-
-   * inheritence
-
       * :ref:`cannot-redefine-class-constant`
+      * :ref:`readonly-class-bar-cannot-extend-non-readonly-class-foo`
 
 
    * instance
@@ -560,6 +554,7 @@ Features index
       * :ref:`call-to-undefined-method-%s::%s()`
       * :ref:`cannot-use-\'readonly\'-as-method-modifier`
       * :ref:`non-static-method-%s::%s()-cannot-be-called-statically`
+      * :ref:`non-static-method-%s::%s()-should-not-be-called-statically`
       * :ref:`trying-to-invoke-%s-method-%s::%s()-from-scope-%s`
 
 
@@ -839,6 +834,11 @@ Features index
       * :ref:`array_product():-multiplication-is-not-supported-on-type-string`
 
 
+   * spl
+
+      * :ref:`is-an-invalid-offset`
+
+
    * static
 
       * :ref:`"static::"-is-not-allowed-in-compile-time-constants`
@@ -850,14 +850,10 @@ Features index
       * :ref:`static-property-x::\$y-cannot-be-readonly`
 
 
-   * static property
-
-      * :ref:`accessing-static-trait-property-%s::\$%s-is-deprecated`
-
-
    * static-property
 
       * :ref:`access-to-undeclared-static-property-%s::\$%s`
+      * :ref:`accessing-static-trait-property-%s::\$%s-is-deprecated`
       * :ref:`attempt-to-unset-static-property-%s::\$%s`
       * :ref:`cannot-declare-hooks-for-static-property`
 
@@ -921,6 +917,7 @@ Features index
       * :ref:`calling-static-trait-method-%s::%s-is-deprecated`
       * :ref:`cannot-access-trait-constant-%s::%s-directly`
       * :ref:`cannot-instantiate-trait-%s`
+      * :ref:`class-%s-is-not-a-trait`
       * :ref:`readonly-class-%s-cannot-use-trait-with-a-non-readonly-property-%s::\$%s`
       * :ref:`required-trait-%s-wasn\'t-added-to-%s`
       * :ref:`traits-cannot-have-constants`
@@ -976,6 +973,7 @@ Features index
    * use-alias
 
       * :ref:`call-to-undefined-function`
+      * :ref:`class-%s-is-not-a-trait`
 
 
    * variable
@@ -998,6 +996,7 @@ Features index
 
    * visibility
 
+      * :ref:`access-level-to-%s::%s-must-be-%s-(as-in-%s-%s)%s`
       * :ref:`multiple-access-type-modifiers-are-not-allowed`
       * :ref:`private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes`
       * :ref:`trying-to-invoke-%s-method-%s::%s()-from-scope-%s`

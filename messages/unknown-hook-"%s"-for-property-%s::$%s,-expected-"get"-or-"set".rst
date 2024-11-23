@@ -35,6 +35,11 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Unknown hook "got" for property X::$property, expected "get" or "set"
+
 Solutions
 _________
 

@@ -34,6 +34,11 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Non-static method x::foo() should not be called statically
+
 Solutions
 _________
 

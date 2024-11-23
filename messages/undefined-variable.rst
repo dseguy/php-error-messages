@@ -15,7 +15,11 @@ Undefined variable
 Description
 ___________
  
-This notice is emitted when a variable is being used before being defined. In a word, the variable is not created yet, so PHP creates it on the fly, as NULL, then uses it. 
+This notice is emitted when a variable is being used before being defined. In a word, the variable is not created yet, so PHP creates it on the fly, as NULL, then uses it.
+
+The situation arises when reading a variable, such as the ``echo`` call here. It doesn't happen upon writing, as it is the way to make a variable definition. 
+
+It also happens when using the ``compact`` native function: it collects the values of variables into an array, and emits this error whenever the variable doesn't exist. The entry is also skipped in the result.
 
 Example
 _______
@@ -25,6 +29,8 @@ _______
    <?php
    
    echo $x;
+   
+   compact('a');
    
    ?>
 

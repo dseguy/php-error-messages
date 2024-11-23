@@ -59,3 +59,8 @@ _________
 + Check the use expression at the beginning of the file: the import expression might be missing.
 + Use the function_exists() function before calling a function whose name is stored in a variable.
 + Use a try/catch around the function call, and catch Error (not exceptions).
+
+Related Error Messages
+______________________
+
++ :ref:`call-to-undefined-function-each()`

@@ -44,6 +44,11 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Must not use parent::$q::get() in a different property ($p)
+
 Solutions
 _________
 

@@ -33,6 +33,11 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Accessing static trait property T::$property is deprecated, it should only be accessed on a class using the trait
+
 Solutions
 _________
 

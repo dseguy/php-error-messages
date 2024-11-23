@@ -38,6 +38,7 @@ Related Error Messages
 ______________________
 
 + :ref:`undefined-variable`
++ :ref:`is-an-invalid-offset`
 
 
 In previous PHP versions, this error message used to be :ref:`undefined-offset`.

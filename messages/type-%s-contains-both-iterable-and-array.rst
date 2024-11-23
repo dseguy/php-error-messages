@@ -1,14 +1,14 @@
 .. _type-%s-contains-both-iterable-and-array:
 
-Type %s contains both iterable and array
-----------------------------------------
+Type %s contains both iterable and array, which is redundant
+------------------------------------------------------------
  
 	.. meta::
 		:description:
-			Type %s contains both iterable and array: Since PHP 8.
+			Type %s contains both iterable and array, which is redundant: Since PHP 8.
 
 		:og:type: article
-		:og:title: Type %s contains both iterable and array
+		:og:title: Type %s contains both iterable and array, which is redundant
 		:og:description: Since PHP 8
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/type-%25s-contains-both-iterable-and-array.html
 
@@ -34,6 +34,11 @@ _______
    function goo() : array|array { }
    
    ?>
+
+
+Literal Examples
+****************
++ Type iterable|array contains both iterable and array, which is redundant
 
 Solutions
 _________

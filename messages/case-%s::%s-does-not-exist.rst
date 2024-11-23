@@ -22,7 +22,22 @@ _______
 
 .. code-block:: php
 
+   <?php
    
+   enum E {
+       case a;
+   }
+   
+   $reflectionEnum = new ReflectionEnum(E::class);
+   $reflectionEnum->getCase('b');
+   
+   
+   ?>
+
+
+Literal Examples
+****************
++ Case E::b does not exist
 
 Solutions
 _________

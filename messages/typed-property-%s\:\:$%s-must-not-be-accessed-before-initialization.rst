@@ -38,6 +38,11 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Typed property x::$p must not be accessed before initialization
+
 Solutions
 _________
 

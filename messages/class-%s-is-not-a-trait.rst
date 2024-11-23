@@ -38,6 +38,11 @@ _______
    }
    ?>
 
+
+Literal Examples
+****************
++ Class x is not a trait, Only traits may be used in 'as' and 'insteadof' statements
+
 Solutions
 _________
 

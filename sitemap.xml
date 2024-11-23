@@ -472,6 +472,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/is-an-invalid-class-name.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/is-an-invalid-offset.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/is-not-a-valid-codepoint.html</loc>
  </url>
  <url>

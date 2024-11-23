@@ -33,3 +33,6 @@ _________
 
 + Use get_class().
 + Use instanceof.
+
+
+In more recent PHP versions, this error message is now :ref:`no-next-error`.
