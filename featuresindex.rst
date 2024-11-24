@@ -53,6 +53,7 @@ Features index
       * :ref:`indirect-modification-of-overloaded-element-of-%s-has-no-effect`
       * :ref:`indirect-modification-of-overloaded-property-%s::\$%s-has-no-effect`
       * :ref:`is-an-invalid-offset`
+      * :ref:`must-contain-at-least-one-element`
       * :ref:`syntax-error,-unexpected-token-"{"`
       * :ref:`undefined-array-key`
       * :ref:`undefined-offset`
@@ -239,6 +240,7 @@ Features index
    * constructor
 
       * :ref:`cannot-call-constructor`
+      * :ref:`object-of-type-%s-has-not-been-correctly-initialized-by-calling-parent::__construct()-in-its-constructor`
 
 
    * continue
@@ -250,6 +252,11 @@ Features index
 
       * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-deprecated`
       * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported`
+
+
+   * datetime
+
+      * :ref:`object-of-type-%s-has-not-been-correctly-initialized-by-calling-parent::__construct()-in-its-constructor`
 
 
    * declaration
@@ -681,11 +688,17 @@ Features index
 
       * :ref:`\'\%s\'-is-an-invalid-class-name`
       * :ref:`cannot-access-parent::-when-current-class-scope-has-no-parent`
+      * :ref:`object-of-type-%s-has-not-been-correctly-initialized-by-calling-parent::__construct()-in-its-constructor`
 
 
    * parenthesis
 
       * :ref:`unparenthesized-\`a-?-b-:-c-?-d-:-e\`-is-not-supported.`
+
+
+   * printf
+
+      * :ref:`%d-arguments-are-required,-%d`
 
 
    * private
@@ -719,8 +732,6 @@ Features index
    * property hook
 
       * :ref:`cannot-use-the-abstract-modifier-on-a-property`
-      * :ref:`hooked-properties-cannot-be-readonly`
-      * :ref:`only-hooked-properties-may-be-declared-abstract`
       * :ref:`property-hook-cannot-be-both-abstract-and-private`
 
 
@@ -734,11 +745,13 @@ Features index
       * :ref:`cannot-unset-hooked-property-%s::\$%s`
       * :ref:`cannot-use-the-abstract-modifier-on-a-property-hook`
       * :ref:`cannot-use-the-final-modifier-on-a-property`
+      * :ref:`hooked-properties-cannot-be-readonly`
       * :ref:`interfaces-may-only-include-hooked-properties`
       * :ref:`must-not-use-parent::\$%s::%s()-in-a-different-property-(\$%s)`
       * :ref:`must-not-use-parent::\$%s::%s()-in-a-different-property-hook-(%s)`
       * :ref:`must-not-use-parent::\$%s::%s()-outside-a-property-hook`
       * :ref:`non-abstract-property-hook-must-have-a-body`
+      * :ref:`only-hooked-properties-may-be-declared-abstract`
       * :ref:`property-cannot-be-both-final-and-private`
       * :ref:`property-hook-cannot-be-both-final-and-private`
       * :ref:`unknown-hook-"%s"-for-property-%s::\$%s,-expected-"get"-or-"set"`
@@ -918,6 +931,7 @@ Features index
       * :ref:`cannot-access-trait-constant-%s::%s-directly`
       * :ref:`cannot-instantiate-trait-%s`
       * :ref:`class-%s-is-not-a-trait`
+      * :ref:`could-not-find-trait-%s`
       * :ref:`readonly-class-%s-cannot-use-trait-with-a-non-readonly-property-%s::\$%s`
       * :ref:`required-trait-%s-wasn\'t-added-to-%s`
       * :ref:`traits-cannot-have-constants`

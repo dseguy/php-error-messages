@@ -6,6 +6,7 @@ PHP Error Messages
    :caption: Contents:
 
    messages/"static::"-is-not-allowed-in-compile-time-constants.rst
+   messages/%d-arguments-are-required,-%d.rst
    messages/%s%s%s()-does-not-accept-unknown-named-parameters.rst
    messages/%s():-implicitly-marking-parameter-$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead.rst
    messages/%s():-returning-by-reference-from-a-void-function-is-deprecated.rst

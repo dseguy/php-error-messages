@@ -51,7 +51,6 @@ Tag index
    * collision
 
       * :ref:`%s-%s-inherits-both-%s::%s-and-%s::%s`
-      * :ref:`could-not-find-trait-%s`
 
 
    * constant
@@ -232,7 +231,6 @@ Tag index
 
    * trait
 
-      * :ref:`could-not-find-trait-%s`
       * :ref:`required-trait-%s-wasn\'t-added-to-%s`
 
 

@@ -39,6 +39,11 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Could not find trait C
+
 Solutions
 _________
 

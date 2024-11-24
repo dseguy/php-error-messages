@@ -4,6 +4,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/&quot;static::&quot;-is-not-allowed-in-compile-time-constants.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/%d-arguments-are-required,-%d.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%s%s%s()-does-not-accept-unknown-named-parameters.html</loc>
  </url>
  <url>

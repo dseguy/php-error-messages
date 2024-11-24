@@ -34,6 +34,11 @@ _______
    var_dump($o->format(d));
    ?>
 
+
+Literal Examples
+****************
++ Object of type x has not been correctly initialized by calling parent::__construct() in its constructor
+
 Solutions
 _________
 
