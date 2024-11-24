@@ -27,6 +27,7 @@ root_doc = 'index'
 
 html_theme = 'alabaster'
 html_static_path = ['_static']
+html_favicon = '_static/logo.png'
 
 # load PhpLexer
 from sphinx.highlighting import lexers
@@ -41,7 +42,7 @@ html_extra_path = ["googlee919cb0917e4fefc.html",
                                         "sitemap.xml"]
                                         
 html_theme_options = {
-#    'logo': 'logo.png',
+    'logo': 'logo.png',
     'analytics_id': 'G-29LCZ34CDW',
     'github_button': True,
     'github_repo':'php-error-messages',
