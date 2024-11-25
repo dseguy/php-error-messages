@@ -244,6 +244,7 @@ PHP Error Messages
    messages/undefined-variable.rst
    messages/unhandled-match-case-%s.rst
    messages/uninitialized-string-offset.rst
+   messages/unknown-format-specifier-"%c.rst
    messages/unknown-hook-"%s"-for-property-%s::$%s,-expected-"get"-or-"set".rst
    messages/unparenthesized-`a-?-b-:-c-?-d-:-e`-is-not-supported..rst
    messages/unsupported-operand-types.rst

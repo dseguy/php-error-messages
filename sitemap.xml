@@ -718,6 +718,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/uninitialized-string-offset.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/unknown-format-specifier-&quot;%c.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unknown-hook-&quot;%s&quot;-for-property-%s::$%s,-expected-&quot;get&quot;-or-&quot;set&quot;.html</loc>
  </url>
  <url>

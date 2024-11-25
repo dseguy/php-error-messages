@@ -47,6 +47,11 @@ _______
    echo Done\n;
    ?>
 
+
+Literal Examples
+****************
++ class test inherits both test1::FOO and test2::FOO
+
 Solutions
 _________
 

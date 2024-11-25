@@ -55,6 +55,7 @@ Features index
       * :ref:`is-an-invalid-offset`
       * :ref:`must-contain-at-least-one-element`
       * :ref:`syntax-error,-unexpected-token-"{"`
+      * :ref:`type-%s-contains-both-iterable-and-array`
       * :ref:`undefined-array-key`
       * :ref:`undefined-offset`
 
@@ -108,6 +109,11 @@ Features index
    * autovivification
 
       * :ref:`automatic-conversion-of-false-to-array-is-deprecated`
+
+
+   * bool
+
+      * :ref:`type-contains-both-true-and-false,-bool-must-be-used-instead`
 
 
    * boolean
@@ -312,16 +318,12 @@ Features index
    * enum
 
       * :ref:`cannot-instantiate-enum-%s`
+      * :ref:`trying-to-clone-an-uncloneable-object-of-class-%s`
 
 
    * enum-backed
 
       * :ref:`enum-case-value-must-be-compile-time-evaluatable`
-
-
-   * enumeration
-
-      * :ref:`trying-to-clone-an-uncloneable-object-of-class-%s`
 
 
    * exception
@@ -355,6 +357,7 @@ Features index
    * false
 
       * :ref:`trying-to-access-array-offset-on-%s`
+      * :ref:`type-contains-both-true-and-false,-bool-must-be-used-instead`
 
 
    * ffi
@@ -395,6 +398,11 @@ Features index
       * :ref:`invalid-argument-supplied-for-foreach()`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-variable`
       * :ref:`the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls`
+
+
+   * format
+
+      * :ref:`unknown-format-specifier-"%c`
 
 
    * fully-qualified-name
@@ -487,6 +495,11 @@ Features index
       * :ref:`cannot-use-isset()-on-the-result-of-an-expression-(you-can-use-"null-!==-expression"-instead)`
       * :ref:`typed-property-%s::\$%s-must-not-be-accessed-before-initialization`
       * :ref:`typed-static-property-%s::\$%s-must-not-be-accessed-before-initialization`
+
+
+   * iterable
+
+      * :ref:`type-%s-contains-both-iterable-and-array`
 
 
    * iterator
@@ -699,6 +712,7 @@ Features index
    * printf
 
       * :ref:`%d-arguments-are-required,-%d`
+      * :ref:`unknown-format-specifier-"%c`
 
 
    * private
@@ -732,7 +746,6 @@ Features index
    * property hook
 
       * :ref:`cannot-use-the-abstract-modifier-on-a-property`
-      * :ref:`property-hook-cannot-be-both-abstract-and-private`
 
 
    * property-hook
@@ -753,6 +766,7 @@ Features index
       * :ref:`non-abstract-property-hook-must-have-a-body`
       * :ref:`only-hooked-properties-may-be-declared-abstract`
       * :ref:`property-cannot-be-both-final-and-private`
+      * :ref:`property-hook-cannot-be-both-abstract-and-private`
       * :ref:`property-hook-cannot-be-both-final-and-private`
       * :ref:`unknown-hook-"%s"-for-property-%s::\$%s,-expected-"get"-or-"set"`
 
@@ -940,6 +954,7 @@ Features index
    * true
 
       * :ref:`trying-to-access-array-offset-on-%s`
+      * :ref:`type-contains-both-true-and-false,-bool-must-be-used-instead`
 
 
    * type

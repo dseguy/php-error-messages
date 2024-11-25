@@ -31,6 +31,11 @@ _______
    	
    ?>
 
+
+Literal Examples
+****************
++ Required parameter $b follows optional parameter $b
+
 Solutions
 _________
 
