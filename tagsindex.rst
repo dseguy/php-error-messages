@@ -27,11 +27,6 @@ Tag index
       * :ref:`unparenthesized-\`a-?-b-:-c-?-d-:-e\`-is-not-supported.`
 
 
-   * child-class
-
-      * :ref:`cannot-%s-readonly-property-%s::$%s-from-%s%s`
-
-
    * class
 
       * :ref:`class-b-cannot-implement-previously-implemented-interface-i`
@@ -157,6 +152,7 @@ Tag index
    * not generated
 
       * :ref:`classes-must-be-first-marked-as-attribute-before-being-able-to-be-registered-as-internal-attribute-class`
+      * :ref:`failed-to-open-stream-from-socketpair`
       * :ref:`only-internal-classes-can-be-registered-as-compiler-attribute`
       * :ref:`static-function-%s%s%s()-cannot-be-abstract`
 
@@ -168,7 +164,6 @@ Tag index
 
    * readonly
 
-      * :ref:`cannot-%s-readonly-property-%s::$%s-from-%s%s`
       * :ref:`cannot-acquire-reference-to-readonly-property`
 
 

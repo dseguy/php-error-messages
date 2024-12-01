@@ -19,6 +19,9 @@ This error is emitted when a class constant is supported in the current PHP engi
 
 The error is emitted every time the class constant is used: it may be for its actual intend, or anywhere else.
 
+The error message is also emitted with the usage of the Deprecated attribute, since PHP 8.4.
+
+
 Example
 _______
 
@@ -26,9 +29,19 @@ _______
 
    <?php
    
-   error_reporting(E_STRICT);
+   class X {
+   	#[Deprecated()]
+   	public const D = deprecated;
+   }
+   
+   echo X::D;
    
    ?>
+
+
+Literal Examples
+****************
++ Constant X::D is deprecated
 
 Solutions
 _________

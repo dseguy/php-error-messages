@@ -30,6 +30,11 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Constant E_STRICT is deprecated
+
 Solutions
 _________
 

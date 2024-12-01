@@ -8,6 +8,8 @@ PHP Error Messages
    messages/"static::"-is-not-allowed-in-compile-time-constants.rst
    messages/%d-arguments-are-required,-%d.rst
    messages/%s%s%s()-does-not-accept-unknown-named-parameters.rst
+   messages/%s():-argument-#%d%s%s%s-cannot-not-be-passed-by-reference.rst
+   messages/%s():-argument-#%d%s%s%s-could-not-be-passed-by-reference.rst
    messages/%s():-implicitly-marking-parameter-$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead.rst
    messages/%s():-returning-by-reference-from-a-void-function-is-deprecated.rst
    messages/%s-%s-inherits-both-%s::%s-and-%s::%s.rst
@@ -15,6 +17,8 @@ PHP Error Messages
    messages/%s-cannot-use-%s---it-is-not-a-trait.rst
    messages/%s-function-%s::%s()-cannot-be-declared-private.rst
    messages/%s-virtual-property-%s::$%s-must-not-specify-asymmetric-visibility.rst
+   messages/'%s'-operator-accepts-only-positive-integers.rst
+   messages/'%s'-operator-with-non-integer-operand.rst
    messages/'\%s'-is-an-invalid-class-name.rst
    messages/'goto'-into-loop-or-switch-statement-is-disallowed.rst
    messages/'goto'-to-undefined-label-'%s'.rst
@@ -56,6 +60,7 @@ PHP Error Messages
    messages/calling-get_class()-without-arguments-is-deprecated.rst
    messages/calling-get_parent_class()-without-arguments-is-deprecated.rst
    messages/calling-static-trait-method-%s::%s-is-deprecated.rst
+   messages/cannot-%s-readonly-property-%s::$%s-from-%s%s.rst
    messages/cannot-access-offset-of-type-%s-in-isset-or-empty.rst
    messages/cannot-access-offset-of-type-%s-on-%s.rst
    messages/cannot-access-offset-of-type-%s-on-string.rst
@@ -80,6 +85,7 @@ PHP Error Messages
    messages/cannot-modify-readonly-property-%s::$%s.rst
    messages/cannot-override-final-%s::%s()-with-%s::%s().rst
    messages/cannot-override-final-property-hook-%s::%s().rst
+   messages/cannot-perform-bitwise-not-on-%s.rst
    messages/cannot-re-assign-$this.rst
    messages/cannot-redeclare-property-hook.rst
    messages/cannot-redefine-class-constant.rst
@@ -138,11 +144,13 @@ PHP Error Messages
    messages/define():-declaration-of-case-insensitive-constants-is-deprecated.rst
    messages/defining-a-custom-assert()-function-is-not-allowed,.rst
    messages/destructors-cannot-declare-a-return-type.rst
+   messages/division-of-php_int_min-by--1-is-not-an-integer.rst
    messages/duplicate-declaration-of-static-variable-$%s.rst
    messages/duplicate-named-parameter-$%s.rst
    messages/duplicate-type-%s-is-redundant.rst
    messages/enum-case-value-must-be-compile-time-evaluatable.rst
    messages/exponent-cannot-have-a-fractional-part.rst
+   messages/failed-to-open-stream-from-socketpair.rst
    messages/fetching-properties-on-non-enums-in-constant-expressions-is-not-allowed.rst
    messages/ffi-api-is-restricted-by-"ffi.enable"-configuration-directive.rst
    messages/foreach()-argument-must-be-of-type-array|object.rst
@@ -155,6 +163,7 @@ PHP Error Messages
    messages/illegal-string-offset.rst
    messages/implicit-conversion-from-float-string.rst
    messages/increment-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php.rst
+   messages/index-invalid-or-out-of-range.rst
    messages/indirect-modification-of-overloaded-element-of-%s-has-no-effect.rst
    messages/indirect-modification-of-overloaded-property-%s::$%s-has-no-effect.rst
    messages/interface-%s-cannot-contain-non-abstract-method-%s().rst
@@ -193,6 +202,7 @@ PHP Error Messages
    messages/only-hooked-properties-may-be-declared-abstract.rst
    messages/only-internal-classes-can-be-registered-as-compiler-attribute.rst
    messages/only-variable-references-should-be-yielded-by-reference.rst
+   messages/only-variables-should-be-passed-by-reference.rst
    messages/optional-parameter-$%s-declared-before-required-parameter-$%s-is-implicitly-treated-as-a-required-parameter.rst
    messages/parameter-uses-'parent'-as-type-hint-although-class-does-not-have-a-parent\!.rst
    messages/power-of-base-0-and-negative-exponent-is-deprecated.rst

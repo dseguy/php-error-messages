@@ -50,6 +50,11 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Indirect modification of overloaded element of $object has no effect
+
 Solutions
 _________
 

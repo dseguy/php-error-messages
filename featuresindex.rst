@@ -37,6 +37,7 @@ Features index
    * argument
 
       * :ref:`calling-get_parent_class()-without-arguments-is-deprecated`
+      * :ref:`only-variables-should-be-passed-by-reference`
 
 
    * array
@@ -50,6 +51,7 @@ Features index
       * :ref:`cannot-use-object-of-type-%s-as-array`
       * :ref:`illegal-offset-type`
       * :ref:`implicit-conversion-from-float-string`
+      * :ref:`index-invalid-or-out-of-range`
       * :ref:`indirect-modification-of-overloaded-element-of-%s-has-no-effect`
       * :ref:`indirect-modification-of-overloaded-property-%s::\$%s-has-no-effect`
       * :ref:`is-an-invalid-offset`
@@ -63,12 +65,6 @@ Features index
    * array syntax
 
       * :ref:`cannot-use-string-offset-as-an-array`
-
-
-   * array-index
-
-      * :ref:`cannot-mix-keyed-and-unkeyed-array-entries-in-assignments`
-      * :ref:`undefined-array-key`
 
 
    * array-offset
@@ -111,18 +107,20 @@ Features index
       * :ref:`automatic-conversion-of-false-to-array-is-deprecated`
 
 
-   * bool
+   * bitwise
 
-      * :ref:`type-contains-both-true-and-false,-bool-must-be-used-instead`
+      * :ref:`cannot-perform-bitwise-not-on-%s`
 
 
    * boolean
 
       * :ref:`increment-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php`
+      * :ref:`type-contains-both-true-and-false,-bool-must-be-used-instead`
 
 
    * break
 
+      * :ref:`\'%s\'-operator-accepts-only-positive-integers`
       * :ref:`break-operator-accepts-only-positive-integers`
 
 
@@ -158,12 +156,18 @@ Features index
       * :ref:`invalid-characters-passed-for-attempted-conversion,-these-have-been-ignored`
 
 
+   * child-class
+
+      * :ref:`cannot-%s-readonly-property-%s::\$%s-from-%s%s`
+
+
    * class
 
       * :ref:`%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed`
       * :ref:`a-class-constant-must-not-be-called-class.-it-is-reserved-for-class-name-fetching`
       * :ref:`calling-get_class()-without-arguments-is-deprecated`
       * :ref:`cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s`
+      * :ref:`class-\"%s\"-not-found`
       * :ref:`illegal-class-name`
 
 
@@ -251,6 +255,7 @@ Features index
 
    * continue
 
+      * :ref:`\'%s\'-operator-accepts-only-positive-integers`
       * :ref:`continue-operator-accepts-only-positive-integers`
 
 
@@ -419,6 +424,11 @@ Features index
       * :ref:`call-to-undefined-function`
 
 
+   * generator
+
+      * :ref:`generator-return-type-must-be-a-supertype-of-generator`
+
+
    * goto
 
       * :ref:`\'goto\'-into-loop-or-switch-statement-is-disallowed`
@@ -445,6 +455,13 @@ Features index
       * :ref:`implicit-conversion-from-float-string`
 
 
+   * index-array
+
+      * :ref:`cannot-mix-keyed-and-unkeyed-array-entries-in-assignments`
+      * :ref:`index-invalid-or-out-of-range`
+      * :ref:`undefined-array-key`
+
+
    * inheritance
 
       * :ref:`cannot-declare-promoted-property-in-an-abstract-constructor`
@@ -465,6 +482,11 @@ Features index
    * instantiate
 
       * :ref:`cannot-instantiate-interface-%s`
+
+
+   * integer
+
+      * :ref:`division-of-php_int_min-by--1-is-not-an-integer`
 
 
    * interface
@@ -538,6 +560,7 @@ Features index
 
    * loop
 
+      * :ref:`\'%s\'-operator-accepts-only-positive-integers`
       * :ref:`the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls`
 
 
@@ -743,11 +766,6 @@ Features index
       * :ref:`undefined-property-%s::\$%s`
 
 
-   * property hook
-
-      * :ref:`cannot-use-the-abstract-modifier-on-a-property`
-
-
    * property-hook
 
       * :ref:`abstract-property-hook-cannot-have-body`
@@ -757,6 +775,7 @@ Features index
       * :ref:`cannot-specify-default-value-for-virtual-hooked-property-%s::\$%s`
       * :ref:`cannot-unset-hooked-property-%s::\$%s`
       * :ref:`cannot-use-the-abstract-modifier-on-a-property-hook`
+      * :ref:`cannot-use-the-abstract-modifier-on-a-property`
       * :ref:`cannot-use-the-final-modifier-on-a-property`
       * :ref:`hooked-properties-cannot-be-readonly`
       * :ref:`interfaces-may-only-include-hooked-properties`
@@ -778,6 +797,7 @@ Features index
 
    * readonly
 
+      * :ref:`cannot-%s-readonly-property-%s::\$%s-from-%s%s`
       * :ref:`cannot-acquire-reference-to-readonly-property`
       * :ref:`cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s`
       * :ref:`cannot-modify-readonly-property-%s::\$%s`
@@ -801,6 +821,7 @@ Features index
       * :ref:`cannot-acquire-reference-to-readonly-property`
       * :ref:`cannot-use-variable-\$%s-twice`
       * :ref:`only-variable-references-should-be-yielded-by-reference`
+      * :ref:`only-variables-should-be-passed-by-reference`
       * :ref:`returning-by-reference-from-a-void-function-is-deprecated`
 
 
@@ -825,6 +846,8 @@ Features index
    * return-type
 
       * :ref:`a-function-with-return-type-must-return-a-value`
+      * :ref:`division-of-php_int_min-by--1-is-not-an-integer`
+      * :ref:`return-value-must-be-of-type-int,-string-returned`
 
 
    * rounding
@@ -835,10 +858,6 @@ Features index
    * scalar-type
 
       * :ref:`cannot-use-a-scalar-value-as-an-array`
-
-
-   * scalar-typehint
-
       * :ref:`type-declaration-\'%s\'-must-be-unqualified`
 
 
@@ -906,6 +925,11 @@ Features index
       * :ref:`illegal-string-offset`
       * :ref:`uninitialized-string-offset`
       * :ref:`using-\${var}-in-strings-is-deprecated,-use-{\$var}-instead`
+
+
+   * supertype
+
+      * :ref:`generator-return-type-must-be-a-supertype-of-generator`
 
 
    * surprising

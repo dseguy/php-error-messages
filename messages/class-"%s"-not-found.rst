@@ -35,6 +35,13 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Class \"x\" not found
++ Class \"4f\" not found
++ Class \"class\" not found
+
 Solutions
 _________
 

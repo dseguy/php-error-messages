@@ -51,3 +51,4 @@ Related Error Messages
 ______________________
 
 + :ref:`a-non-numeric-value-encountered`
++ :ref:`cannot-perform-bitwise-not-on-%s`
