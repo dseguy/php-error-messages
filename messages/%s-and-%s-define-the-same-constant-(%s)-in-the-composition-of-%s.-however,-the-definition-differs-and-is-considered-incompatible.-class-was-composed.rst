@@ -47,6 +47,11 @@ _______
    }
    ?>
 
+
+Literal Examples
+****************
++ y and t define the same constant (B) in the composition of y. However, the definition differs and is considered incompatible. Class was composed
+
 Solutions
 _________
 

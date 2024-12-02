@@ -99,6 +99,11 @@ Tag index
       * :ref:`cannot-use-try-without-catch-or-finally`
 
 
+   * forbidden
+
+      * :ref:`non-enum-class-%s-cannot-implement-interface-%s`
+
+
    * fully-qualified-name
 
       * :ref:`\'\%s\'-is-an-invalid-class-name`
@@ -187,6 +192,11 @@ Tag index
    * removed message
 
       * :ref:`traits-cannot-have-constants`
+
+
+   * reserved
+
+      * :ref:`non-enum-class-%s-cannot-implement-interface-%s`
 
 
    * silent-cast

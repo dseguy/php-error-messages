@@ -6,6 +6,7 @@ Features index
 
    * $this
 
+      * :ref:`cannot-re-assign-\$this`
       * :ref:`cannot-unset-\$this`
       * :ref:`using-\$this-when-not-in-object-context`
 
@@ -36,6 +37,7 @@ Features index
 
    * argument
 
+      * :ref:`%s():-argument-#%d%s%s%s-cannot-not-be-passed-by-reference`
       * :ref:`calling-get_parent_class()-without-arguments-is-deprecated`
       * :ref:`only-variables-should-be-passed-by-reference`
 
@@ -62,14 +64,14 @@ Features index
       * :ref:`undefined-offset`
 
 
-   * array syntax
-
-      * :ref:`cannot-use-string-offset-as-an-array`
-
-
    * array-offset
 
       * :ref:`trying-to-access-array-offset-on-%s`
+
+
+   * array-syntax
+
+      * :ref:`cannot-use-string-offset-as-an-array`
 
 
    * arrayaccess
@@ -323,6 +325,7 @@ Features index
    * enum
 
       * :ref:`cannot-instantiate-enum-%s`
+      * :ref:`non-enum-class-%s-cannot-implement-interface-%s`
       * :ref:`trying-to-clone-an-uncloneable-object-of-class-%s`
 
 
@@ -479,7 +482,7 @@ Features index
       * :ref:`__clone-method-called-on-non-object`
 
 
-   * instantiate
+   * instantiation
 
       * :ref:`cannot-instantiate-interface-%s`
 
@@ -498,6 +501,7 @@ Features index
       * :ref:`datetimeinterface-can\\'t-be-implemented-by-user-classes`
       * :ref:`interface-%s-cannot-contain-non-abstract-method-%s()`
       * :ref:`interfaces-may-not-include-properties`
+      * :ref:`non-enum-class-%s-cannot-implement-interface-%s`
 
 
    * interpolation
@@ -817,6 +821,7 @@ Features index
 
    * reference
 
+      * :ref:`%s():-argument-#%d%s%s%s-cannot-not-be-passed-by-reference`
       * :ref:`an-iterator-cannot-be-used-with-foreach-by-reference`
       * :ref:`cannot-acquire-reference-to-readonly-property`
       * :ref:`cannot-use-variable-\$%s-twice`
@@ -947,11 +952,6 @@ Features index
       * :ref:`unparenthesized-\`a-?-b-:-c-?-d-:-e\`-is-not-supported.`
 
 
-   * this
-
-      * :ref:`cannot-re-assign-\$this`
-
-
    * throw
 
       * :ref:`cannot-throw-objects-that-do-not-implement-throwable`
@@ -985,16 +985,12 @@ Features index
 
       * :ref:`%s():-implicitly-marking-parameter-\$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead`
       * :ref:`duplicate-type-%s-is-redundant`
+      * :ref:`is-an-invalid-class-name`
 
 
    * typed-property
 
       * :ref:`property-with-asymmetric-visibility-%s::\$%s-must-have-type`
-
-
-   * typehint
-
-      * :ref:`is-an-invalid-class-name`
 
 
    * typo

@@ -12,6 +12,7 @@ PHP Error Messages
    messages/%s():-argument-#%d%s%s%s-could-not-be-passed-by-reference.rst
    messages/%s():-implicitly-marking-parameter-$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead.rst
    messages/%s():-returning-by-reference-from-a-void-function-is-deprecated.rst
+   messages/%s-%s-cannot-implement-previously-implemented-interface-%s.rst
    messages/%s-%s-inherits-both-%s::%s-and-%s::%s.rst
    messages/%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed.rst
    messages/%s-cannot-use-%s---it-is-not-a-trait.rst
@@ -196,6 +197,7 @@ PHP Error Messages
    messages/new-expressions-are-not-supported-in-this-context.rst
    messages/no-code-may-exist-outside-of-namespace-{}.rst
    messages/non-abstract-property-hook-must-have-a-body.rst
+   messages/non-enum-class-%s-cannot-implement-interface-%s.rst
    messages/non-static-method-%s::%s()-cannot-be-called-statically.rst
    messages/non-static-method-%s::%s()-should-not-be-called-statically.rst
    messages/object-of-type-%s-has-not-been-correctly-initialized-by-calling-parent::__construct()-in-its-constructor.rst

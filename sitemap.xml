@@ -22,6 +22,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%s():-returning-by-reference-from-a-void-function-is-deprecated.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/%s-%s-cannot-implement-previously-implemented-interface-%s.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%s-%s-inherits-both-%s::%s-and-%s::%s.html</loc>
  </url>
  <url>
@@ -572,6 +575,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/non-abstract-property-hook-must-have-a-body.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/non-enum-class-%s-cannot-implement-interface-%s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/non-static-method-%s::%s()-cannot-be-called-statically.html</loc>
