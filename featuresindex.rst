@@ -11,6 +11,11 @@ Features index
       * :ref:`using-\$this-when-not-in-object-context`
 
 
+   * __destructor
+
+      * :ref:`destructors-cannot-declare-a-return-type`
+
+
    * abstract
 
       * :ref:`%s-function-%s::%s()-cannot-be-declared-private`
@@ -81,6 +86,11 @@ Features index
       * :ref:`cannot-access-offset-of-type-%s-on-string`
 
 
+   * assert
+
+      * :ref:`defining-a-custom-assert()-function-is-not-allowed,`
+
+
    * assignation
 
       * :ref:`assignments-can-only-happen-to-writable-values`
@@ -109,7 +119,7 @@ Features index
       * :ref:`automatic-conversion-of-false-to-array-is-deprecated`
 
 
-   * bitwise
+   * bitwise-operator
 
       * :ref:`cannot-perform-bitwise-not-on-%s`
 
@@ -137,7 +147,7 @@ Features index
       * :ref:`case-%s::%s-does-not-exist`
 
 
-   * case-insensitivity
+   * case-sensitivity
 
       * :ref:`define():-argument-#3-(\$case_insensitive)-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported`
       * :ref:`define():-declaration-of-case-insensitive-constants-is-deprecated`
@@ -217,6 +227,12 @@ Features index
    * comment
 
       * :ref:`unterminated-comment-starting-line-%d`
+
+
+   * compatibility
+
+      * :ref:`declaration-of-%s-must-be-compatible-with-%s`
+      * :ref:`declaration-of-y::foo()-must-be-compatible-with-x::foo(\$a)`
 
 
    * compile-time
@@ -325,6 +341,8 @@ Features index
    * enum
 
       * :ref:`cannot-instantiate-enum-%s`
+      * :ref:`enum-%s-cannot-include-magic-method-%s`
+      * :ref:`enum-%s-cannot-include-properties`
       * :ref:`non-enum-class-%s-cannot-implement-interface-%s`
       * :ref:`trying-to-clone-an-uncloneable-object-of-class-%s`
 
@@ -572,6 +590,7 @@ Features index
 
       * :ref:`call-to-undefined-method-%s::%s()`
       * :ref:`cannot-use-the-final-modifier-on-a-property`
+      * :ref:`enum-%s-cannot-include-magic-method-%s`
       * :ref:`method-%s::%s()-cannot-be-static`
       * :ref:`property-cannot-be-both-final-and-private`
       * :ref:`property-hook-cannot-be-both-final-and-private`
@@ -765,6 +784,7 @@ Features index
       * :ref:`cannot-acquire-reference-to-readonly-property`
       * :ref:`cannot-declare-variadic-promoted-property`
       * :ref:`default-value-for-property-of-type-int-may-not-be-null.-use-the-nullable-type-?int-to-allow-null-default-value`
+      * :ref:`enum-%s-cannot-include-properties`
       * :ref:`interfaces-may-not-include-properties`
       * :ref:`property-%s::\$%s-cannot-have-type-%s`
       * :ref:`undefined-property-%s::\$%s`
@@ -845,6 +865,7 @@ Features index
 
       * :ref:`a-function-with-return-type-must-return-a-value`
       * :ref:`a-never-returning-%s-must-not-return`
+      * :ref:`destructors-cannot-declare-a-return-type`
       * :ref:`never-returning-function-must-not-implicitly-return`
 
 
@@ -883,6 +904,11 @@ Features index
       * :ref:`array_product():-multiplication-is-not-supported-on-type-array`
       * :ref:`array_product():-multiplication-is-not-supported-on-type-object`
       * :ref:`array_product():-multiplication-is-not-supported-on-type-string`
+
+
+   * socket
+
+      * :ref:`failed-to-open-stream-from-socketpair`
 
 
    * spl
@@ -970,6 +996,7 @@ Features index
       * :ref:`cannot-instantiate-trait-%s`
       * :ref:`class-%s-is-not-a-trait`
       * :ref:`could-not-find-trait-%s`
+      * :ref:`enum-%s-cannot-include-properties`
       * :ref:`readonly-class-%s-cannot-use-trait-with-a-non-readonly-property-%s::\$%s`
       * :ref:`required-trait-%s-wasn\'t-added-to-%s`
       * :ref:`traits-cannot-have-constants`

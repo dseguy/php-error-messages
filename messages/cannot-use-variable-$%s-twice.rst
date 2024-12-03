@@ -30,6 +30,11 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Cannot use variable $a twice
+
 Solutions
 _________
 

@@ -139,6 +139,7 @@ PHP Error Messages
    messages/could-not-check-compatibility-between-%s-and-%s,-because-class-%s-is-not-available.rst
    messages/could-not-find-trait-%s.rst
    messages/datetimeinterface-can\\'t-be-implemented-by-user-classes.rst
+   messages/declaration-of-%s-must-be-compatible-with-%s.rst
    messages/declaration-of-y::foo()-must-be-compatible-with-x::foo($a).rst
    messages/default-value-for-property-of-type-int-may-not-be-null.-use-the-nullable-type-?int-to-allow-null-default-value.rst
    messages/define():-argument-#3-($case_insensitive)-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported.rst
@@ -149,6 +150,8 @@ PHP Error Messages
    messages/duplicate-declaration-of-static-variable-$%s.rst
    messages/duplicate-named-parameter-$%s.rst
    messages/duplicate-type-%s-is-redundant.rst
+   messages/enum-%s-cannot-include-magic-method-%s.rst
+   messages/enum-%s-cannot-include-properties.rst
    messages/enum-case-value-must-be-compile-time-evaluatable.rst
    messages/exponent-cannot-have-a-fractional-part.rst
    messages/failed-to-open-stream-from-socketpair.rst

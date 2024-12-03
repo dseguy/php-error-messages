@@ -403,6 +403,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/datetimeinterface-can\\'t-be-implemented-by-user-classes.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/declaration-of-%s-must-be-compatible-with-%s.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/declaration-of-y::foo()-must-be-compatible-with-x::foo($a).html</loc>
  </url>
  <url>
@@ -431,6 +434,12 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/duplicate-type-%s-is-redundant.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/enum-%s-cannot-include-magic-method-%s.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/enum-%s-cannot-include-properties.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/enum-case-value-must-be-compile-time-evaluatable.html</loc>
