@@ -56,6 +56,9 @@ Features index
       * :ref:`cannot-unset-offset-in-a-non-array-variable`
       * :ref:`cannot-use-[]-for-reading`
       * :ref:`cannot-use-object-of-type-%s-as-array`
+      * :ref:`cannot-use-object-of-type-stdclass-as-array`
+      * :ref:`illegal-offset-type-in-isset-or-empty`
+      * :ref:`illegal-offset-type-in-unset`
       * :ref:`illegal-offset-type`
       * :ref:`implicit-conversion-from-float-string`
       * :ref:`index-invalid-or-out-of-range`
@@ -83,7 +86,6 @@ Features index
 
       * :ref:`cannot-access-offset-of-type-%s-in-isset-or-empty`
       * :ref:`cannot-access-offset-of-type-%s-on-%s`
-      * :ref:`cannot-access-offset-of-type-%s-on-string`
 
 
    * assert
@@ -156,6 +158,8 @@ Features index
    * cast
 
       * :ref:`array-to-string-conversion`
+      * :ref:`illegal-offset-type-in-isset-or-empty`
+      * :ref:`illegal-offset-type-in-unset`
       * :ref:`illegal-offset-type`
       * :ref:`the-(real)-cast-has-been-removed,-use-(float)-instead`
       * :ref:`the-(real)-cast-is-deprecated,-use-(float)-instead`
@@ -188,6 +192,7 @@ Features index
       * :ref:`"static::"-is-not-allowed-in-compile-time-constants`
       * :ref:`%s-%s-inherits-both-%s::%s-and-%s::%s`
       * :ref:`%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed`
+      * :ref:`cannot-assign-%s-to-class-constant-%s::%s-of-type`
       * :ref:`cannot-be-a-class-constant`
       * :ref:`cannot-redefine-class-constant`
       * :ref:`class-constant-%s::%s-cannot-have-type-%s`
@@ -467,11 +472,14 @@ Features index
    * implements
 
       * :ref:`b-cannot-implement-a---it-is-not-an-interface`
+      * :ref:`class-%s-cannot-implement-both-iterator-and-iteratoraggregate-at-the-same-time`
 
 
    * index
 
       * :ref:`cannot-use-positional-argument-after-named-argument-during-unpacking`
+      * :ref:`illegal-offset-type-in-isset-or-empty`
+      * :ref:`illegal-offset-type-in-unset`
       * :ref:`illegal-offset-type`
       * :ref:`implicit-conversion-from-float-string`
 
@@ -549,6 +557,7 @@ Features index
    * iterator
 
       * :ref:`an-iterator-cannot-be-used-with-foreach-by-reference`
+      * :ref:`class-%s-cannot-implement-both-iterator-and-iteratoraggregate-at-the-same-time`
 
 
    * keys
@@ -567,6 +576,11 @@ Features index
       * :ref:`jump-into-a-finally-block-is-disallowed`
       * :ref:`jump-out-of-a-finally-block-is-disallowed`
       * :ref:`label-\'%s\'-already-defined`
+
+
+   * lexical
+
+      * :ref:`cannot-use-lexical-variable-%s-as-a-parameter-name`
 
 
    * list
@@ -687,6 +701,7 @@ Features index
    * object
 
       * :ref:`cannot-use-object-of-type-%s-as-array`
+      * :ref:`cannot-use-object-of-type-stdclass-as-array`
 
 
    * object-syntax
@@ -732,6 +747,7 @@ Features index
    * parameter
 
       * :ref:`%s():-implicitly-marking-parameter-\$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead`
+      * :ref:`cannot-use-lexical-variable-%s-as-a-parameter-name`
       * :ref:`named-parameter-\$x-overwrites-previous-argument`
       * :ref:`optional-parameter-\$%s-declared-before-required-parameter-\$%s-is-implicitly-treated-as-a-required-parameter`
       * :ref:`redefinition-of-parameter-\$b`
@@ -940,6 +956,11 @@ Features index
       * :ref:`duplicate-declaration-of-static-variable-\$%s`
 
 
+   * stdclass
+
+      * :ref:`cannot-use-object-of-type-stdclass-as-array`
+
+
    * strict_types
 
       * :ref:`strict_types-declaration-must-be-the-very-first-statement-in-the-script`
@@ -1011,6 +1032,7 @@ Features index
    * type
 
       * :ref:`%s():-implicitly-marking-parameter-\$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead`
+      * :ref:`cannot-assign-%s-to-class-constant-%s::%s-of-type`
       * :ref:`duplicate-type-%s-is-redundant`
       * :ref:`is-an-invalid-class-name`
 

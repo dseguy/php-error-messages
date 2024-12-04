@@ -178,9 +178,6 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-access-offset-of-type-%s-on-%s.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-access-offset-of-type-%s-on-string.html</loc>
- </url>
- <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-access-parent::-when-current-class-scope-has-no-parent.html</loc>
  </url>
  <url>
@@ -191,6 +188,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-assign-%s-to-class-constant-%s::%s-of-type.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-assign-an-empty-string-to-a-string-offset.html</loc>
@@ -473,6 +473,12 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/illegal-class-name.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/illegal-offset-type-in-isset-or-empty.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/illegal-offset-type-in-unset.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/illegal-offset-type.html</loc>

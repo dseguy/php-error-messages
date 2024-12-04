@@ -41,6 +41,11 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Class foo cannot implement previously implemented interface i
+
 Solutions
 _________
 

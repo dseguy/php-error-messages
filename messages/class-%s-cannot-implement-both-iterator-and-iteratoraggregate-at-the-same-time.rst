@@ -28,6 +28,11 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Class A cannot implement both Iterator and IteratorAggregate at the same time
+
 Solutions
 _________
 

@@ -85,6 +85,8 @@ Tag index
       * :ref:`access-level-to-%s::%s-must-be-%s-(as-in-%s-%s)%s`
       * :ref:`cannot-call-constructor`
       * :ref:`cannot-override-final-property-hook-%s::%s()`
+      * :ref:`illegal-offset-type-in-isset-or-empty`
+      * :ref:`illegal-offset-type-in-unset`
       * :ref:`illegal-offset-type`
       * :ref:`never-returning-function-must-not-implicitly-return`
 

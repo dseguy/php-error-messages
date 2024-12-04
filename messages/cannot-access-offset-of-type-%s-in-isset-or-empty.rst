@@ -53,6 +53,5 @@ Related Error Messages
 ______________________
 
 + :ref:`illegal-offset-type`
-
-
-In previous PHP versions, this error message used to be :ref:`cannot-access-offset-of-type-%s-on-string`.
++ :ref:`illegal-offset-type-in-unset`
++ :ref:`illegal-offset-type-in-isset-or-empty`

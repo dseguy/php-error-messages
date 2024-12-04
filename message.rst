@@ -64,11 +64,11 @@ PHP Error Messages
    messages/cannot-%s-readonly-property-%s::$%s-from-%s%s.rst
    messages/cannot-access-offset-of-type-%s-in-isset-or-empty.rst
    messages/cannot-access-offset-of-type-%s-on-%s.rst
-   messages/cannot-access-offset-of-type-%s-on-string.rst
    messages/cannot-access-parent::-when-current-class-scope-has-no-parent.rst
    messages/cannot-access-trait-constant-%s::%s-directly.rst
    messages/cannot-acquire-reference-to-readonly-property.rst
    messages/cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s.rst
+   messages/cannot-assign-%s-to-class-constant-%s::%s-of-type.rst
    messages/cannot-assign-an-empty-string-to-a-string-offset.rst
    messages/cannot-be-a-class-constant.rst
    messages/cannot-call-constructor.rst
@@ -163,6 +163,8 @@ PHP Error Messages
    messages/has-#[\override]-attribute,-but-no-matching-parent-method-exists.rst
    messages/hooked-properties-cannot-be-readonly.rst
    messages/illegal-class-name.rst
+   messages/illegal-offset-type-in-isset-or-empty.rst
+   messages/illegal-offset-type-in-unset.rst
    messages/illegal-offset-type.rst
    messages/illegal-string-offset.rst
    messages/implicit-conversion-from-float-string.rst
