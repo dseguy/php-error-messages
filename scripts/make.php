@@ -190,7 +190,7 @@ foreach($files as $file) {
 		buildlog("No next for $file");
 		++$warnings;
 		continue;
-	} elseif ($error->previous === 'no-next-error') {
+	} elseif ($error->next === 'no-next-error') {
 	    // just omits
 	} elseif (!empty($error->next)) {
 		if (!file_exists('errors/'.$error->next.'.ini')) {
