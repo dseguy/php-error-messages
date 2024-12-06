@@ -11,6 +11,7 @@ PHP Error Messages
    messages/%s():-argument-#%d%s%s%s-cannot-not-be-passed-by-reference.rst
    messages/%s():-argument-#%d%s%s%s-could-not-be-passed-by-reference.rst
    messages/%s():-implicitly-marking-parameter-$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead.rst
+   messages/%s():-never-returning-%s-must-not-implicitly-return.rst
    messages/%s():-returning-by-reference-from-a-void-function-is-deprecated.rst
    messages/%s-%s-cannot-implement-previously-implemented-interface-%s.rst
    messages/%s-%s-inherits-both-%s::%s-and-%s::%s.rst
@@ -47,6 +48,7 @@ PHP Error Messages
    messages/array_product():-multiplication-is-not-supported-on-type-string.rst
    messages/assignments-can-only-happen-to-writable-values.rst
    messages/attempt-to-unset-static-property-%s::$%s.rst
+   messages/attribute-"%s"-cannot-target-%s-(allowed-targets:-%s).rst
    messages/attribute-class-"%s"-not-found.rst
    messages/automatic-conversion-of-false-to-array-is-deprecated.rst
    messages/b-cannot-implement-a---it-is-not-an-interface.rst
@@ -88,6 +90,7 @@ PHP Error Messages
    messages/cannot-override-final-property-hook-%s::%s().rst
    messages/cannot-perform-bitwise-not-on-%s.rst
    messages/cannot-re-assign-$this.rst
+   messages/cannot-redeclare-%s()-(previously-declared-in-%s:%d).rst
    messages/cannot-redeclare-property-hook.rst
    messages/cannot-redefine-class-constant.rst
    messages/cannot-specify-default-value-for-virtual-hooked-property-%s::$%s.rst
@@ -125,6 +128,7 @@ PHP Error Messages
    messages/case-%s::%s-does-not-exist.rst
    messages/class-%s-cannot-implement-both-iterator-and-iteratoraggregate-at-the-same-time.rst
    messages/class-%s-cannot-implement-previously-implemented-interface-%s.rst
+   messages/class-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-methods.rst
    messages/class-%s-is-not-a-trait.rst
    messages/class-"%s"-not-found.rst
    messages/class-b-cannot-implement-previously-implemented-interface-i.rst
@@ -167,7 +171,7 @@ PHP Error Messages
    messages/illegal-offset-type-in-unset.rst
    messages/illegal-offset-type.rst
    messages/illegal-string-offset.rst
-   messages/implicit-conversion-from-float-string.rst
+   messages/implicit-conversion-from-float-string-"%s"-to-int-loses.rst
    messages/increment-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php.rst
    messages/index-invalid-or-out-of-range.rst
    messages/indirect-modification-of-overloaded-element-of-%s-has-no-effect.rst
@@ -201,6 +205,7 @@ PHP Error Messages
    messages/never-returning-function-must-not-implicitly-return.rst
    messages/new-expressions-are-not-supported-in-this-context.rst
    messages/no-code-may-exist-outside-of-namespace-{}.rst
+   messages/non-abstract-method-%s::%s()-must-contain-body.rst
    messages/non-abstract-property-hook-must-have-a-body.rst
    messages/non-enum-class-%s-cannot-implement-interface-%s.rst
    messages/non-static-method-%s::%s()-cannot-be-called-statically.rst

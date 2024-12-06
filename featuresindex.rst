@@ -23,6 +23,7 @@ Features index
       * :ref:`cannot-declare-promoted-property-in-an-abstract-constructor`
       * :ref:`cannot-make-non-abstract-method-i::foo()-abstract-in-class-j`
       * :ref:`cannot-use-the-abstract-modifier-on-a-property`
+      * :ref:`class-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-methods`
       * :ref:`interface-%s-cannot-contain-non-abstract-method-%s()`
       * :ref:`non-abstract-property-hook-must-have-a-body`
       * :ref:`only-hooked-properties-may-be-declared-abstract`
@@ -60,7 +61,7 @@ Features index
       * :ref:`illegal-offset-type-in-isset-or-empty`
       * :ref:`illegal-offset-type-in-unset`
       * :ref:`illegal-offset-type`
-      * :ref:`implicit-conversion-from-float-string`
+      * :ref:`implicit-conversion-from-float-string-\"%s\"-to-int-loses`
       * :ref:`index-invalid-or-out-of-range`
       * :ref:`indirect-modification-of-overloaded-element-of-%s-has-no-effect`
       * :ref:`indirect-modification-of-overloaded-property-%s::\$%s-has-no-effect`
@@ -112,6 +113,7 @@ Features index
 
    * attribute
 
+      * :ref:`attribute-\"%s\"-cannot-target-%s-(allowed-targets:-%s)`
       * :ref:`has-#[\override]-attribute,-but-no-matching-parent-method-exists`
       * :ref:`x::foo()-has-#[\override]-attribute,-but-no-matching-parent-method-exists`
 
@@ -142,6 +144,11 @@ Features index
 
       * :ref:`call-to-%s-%s::%s()-from-global-scope`
       * :ref:`never-returning-function-must-not-implicitly-return`
+
+
+   * callable
+
+      * :ref:`class-constant-%s::%s-cannot-have-type-%s`
 
 
    * case
@@ -325,6 +332,11 @@ Features index
       * :ref:`get_defined_functions():-setting-\$exclude_disabled-to-false-has-no-effect`
 
 
+   * die
+
+      * :ref:`%s():-never-returning-%s-must-not-implicitly-return`
+
+
    * each
 
       * :ref:`call-to-undefined-function-each()`
@@ -370,6 +382,7 @@ Features index
 
    * exit
 
+      * :ref:`%s():-never-returning-%s-must-not-implicitly-return`
       * :ref:`call-to-undefined-function-exit()`
       * :ref:`never-returning-function-must-not-implicitly-return`
 
@@ -419,7 +432,7 @@ Features index
 
    * float
 
-      * :ref:`implicit-conversion-from-float-string`
+      * :ref:`implicit-conversion-from-float-string-\"%s\"-to-int-loses`
 
 
    * foreach
@@ -481,7 +494,7 @@ Features index
       * :ref:`illegal-offset-type-in-isset-or-empty`
       * :ref:`illegal-offset-type-in-unset`
       * :ref:`illegal-offset-type`
-      * :ref:`implicit-conversion-from-float-string`
+      * :ref:`implicit-conversion-from-float-string-\"%s\"-to-int-loses`
 
 
    * index-array
@@ -645,6 +658,7 @@ Features index
 
    * name
 
+      * :ref:`cannot-redeclare-%s()-(previously-declared-in-%s:%d)`
       * :ref:`illegal-class-name`
 
 
@@ -676,9 +690,11 @@ Features index
 
    * never
 
+      * :ref:`%s():-never-returning-%s-must-not-implicitly-return`
       * :ref:`a-never-returning-%s-must-not-return`
       * :ref:`a-never-returning-function-must-not-return`
       * :ref:`cannot-use-\'never\'-as-class-name-as-it-is-reserved`
+      * :ref:`class-constant-%s::%s-cannot-have-type-%s`
       * :ref:`never-cannot-be-used-as-a-parameter-type`
       * :ref:`never-returning-function-must-not-implicitly-return`
 
@@ -879,6 +895,7 @@ Features index
 
    * return
 
+      * :ref:`%s():-never-returning-%s-must-not-implicitly-return`
       * :ref:`a-function-with-return-type-must-return-a-value`
       * :ref:`a-never-returning-%s-must-not-return`
       * :ref:`destructors-cannot-declare-a-return-type`
@@ -1104,6 +1121,7 @@ Features index
 
       * :ref:`%s():-returning-by-reference-from-a-void-function-is-deprecated`
       * :ref:`a-function-with-return-type-must-return-a-value`
+      * :ref:`class-constant-%s::%s-cannot-have-type-%s`
       * :ref:`property-x::\$p-cannot-have-type-void`
       * :ref:`returning-by-reference-from-a-void-function-is-deprecated`
       * :ref:`void-cannot-be-used-as-a-parameter-type`

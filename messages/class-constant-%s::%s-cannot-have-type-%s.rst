@@ -15,7 +15,7 @@ Class constant %s::%s cannot have type %s
 Description
 ___________
  
-Some native PHP types are not allowed with a class constant. This is the case of void, never and callable. Any mention of them, alone or in a compsed type generates this error. 
+Some native PHP types are not allowed with a class constant. This is the case of ``void``, ``never`` and ``callable``. Any mention of them, alone or in a compsed type generates this error. 
 
 Example
 _______
@@ -24,11 +24,16 @@ _______
 
    <?php
    
-   class x {
+   class X {
    	const callable|int A = 1;
    }
    
    ?>
+
+
+Literal Examples
+****************
++ Class constant X::A cannot have type callable|int
 
 Solutions
 _________

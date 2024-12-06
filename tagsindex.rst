@@ -4,6 +4,11 @@ Tag index
 -----------------------------
 
 
+   * abstract
+
+      * :ref:`non-abstract-method-%s::%s()-must-contain-body`
+
+
    * arrays
 
       * :ref:`automatic-conversion-of-false-to-array-is-deprecated`
@@ -91,6 +96,11 @@ Tag index
       * :ref:`never-returning-function-must-not-implicitly-return`
 
 
+   * execution only
+
+      * :ref:`%s():-never-returning-%s-must-not-implicitly-return`
+
+
    * ffi
 
       * :ref:`ffi-api-is-restricted-by-\"ffi.enable\"-configuration-directive`
@@ -172,6 +182,11 @@ Tag index
    * readonly
 
       * :ref:`cannot-acquire-reference-to-readonly-property`
+
+
+   * redeclare
+
+      * :ref:`cannot-redeclare-%s()-(previously-declared-in-%s:%d)`
 
 
    * reference

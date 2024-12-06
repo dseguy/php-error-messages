@@ -33,6 +33,9 @@ _______
    // it is not possible to have a class with the name 'class'
    ('class')::c;
    
+   // it is not possible to have static, self or parent in a string to call a method
+   static::foo();
+   
    ?>
 
 
@@ -48,6 +51,7 @@ _________
 + Check spelling and namespace for that class.
 + Create the associated class.
 + Avoid using getInstance() on that attribute.
++ Do not use static, parent or self in a string to call a method statically.
 
 Related Error Messages
 ______________________
