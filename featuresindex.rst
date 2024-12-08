@@ -38,7 +38,9 @@ Features index
 
    * argument
 
+      * :ref:`%s%s%s():-argument-#%d%s%s%s-must-be-passed-by-reference,-value-given`
       * :ref:`%s():-argument-#%d%s%s%s-cannot-not-be-passed-by-reference`
+      * :ref:`argument-#%d-(\$%s)-must-be-of-type-%s,-%s-given`
       * :ref:`calling-get_parent_class()-without-arguments-is-deprecated`
       * :ref:`only-variables-should-be-passed-by-reference`
 
@@ -134,6 +136,16 @@ Features index
       * :ref:`\'%s\'-operator-accepts-only-positive-integers`
       * :ref:`\'%s\'-operator-with-non-integer-operand`
       * :ref:`break-operator-accepts-only-positive-integers`
+
+
+   * by-reference
+
+      * :ref:`cannot-pass-parameter-%d-by-reference`
+
+
+   * by-value
+
+      * :ref:`cannot-pass-parameter-%d-by-reference`
 
 
    * call
@@ -319,7 +331,7 @@ Features index
 
       * :ref:`access-to-undeclared-static-property-%s::\$%s`
       * :ref:`call-to-undefined-function-%s()`
-      * :ref:`redefinition-of-parameter-\$b`
+      * :ref:`redefinition-of-parameter-\$%s`
       * :ref:`undefined-property-%s::\$%s`
 
 
@@ -780,7 +792,7 @@ Features index
       * :ref:`cannot-use-lexical-variable-%s-as-a-parameter-name`
       * :ref:`named-parameter-\$x-overwrites-previous-argument`
       * :ref:`optional-parameter-\$%s-declared-before-required-parameter-\$%s-is-implicitly-treated-as-a-required-parameter`
-      * :ref:`redefinition-of-parameter-\$b`
+      * :ref:`redefinition-of-parameter-\$%s`
       * :ref:`required-parameter-\$%s-follows-optional-parameter-\$%s`
 
 
@@ -887,9 +899,11 @@ Features index
 
    * reference
 
+      * :ref:`%s%s%s():-argument-#%d%s%s%s-must-be-passed-by-reference,-value-given`
       * :ref:`%s():-argument-#%d%s%s%s-cannot-not-be-passed-by-reference`
       * :ref:`an-iterator-cannot-be-used-with-foreach-by-reference`
       * :ref:`cannot-acquire-reference-to-readonly-property`
+      * :ref:`cannot-pass-parameter-%d-by-reference`
       * :ref:`cannot-use-variable-\$%s-twice`
       * :ref:`only-variable-references-should-be-yielded-by-reference`
       * :ref:`only-variables-should-be-passed-by-reference`
@@ -1074,6 +1088,7 @@ Features index
    * type
 
       * :ref:`%s():-implicitly-marking-parameter-\$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead`
+      * :ref:`argument-#%d-(\$%s)-must-be-of-type-%s,-%s-given`
       * :ref:`cannot-assign-%s-to-class-constant-%s::%s-of-type`
       * :ref:`duplicate-type-%s-is-redundant`
       * :ref:`is-an-invalid-class-name`

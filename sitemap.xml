@@ -10,6 +10,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%s%s%s()-does-not-accept-unknown-named-parameters.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/%s%s%s():-argument-#%d%s%s%s-must-be-passed-by-reference,-value-given.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%s():-argument-#%d%s%s%s-cannot-not-be-passed-by-reference.html</loc>
  </url>
  <url>
@@ -101,6 +104,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/an-iterator-cannot-be-used-with-foreach-by-reference.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/argument-#%d-($%s)-must-be-of-type-%s,-%s-given.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/array-and-string-offset-access-syntax-with-curly-braces-is-deprecated.html</loc>
@@ -251,6 +257,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-override-final-property-hook-%s::%s().html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-pass-parameter-%d-by-reference.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-perform-bitwise-not-on-%s.html</loc>
@@ -679,7 +688,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/readonly-property-%s::$%s-cannot-have-default-value.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/redefinition-of-parameter-$b.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/redefinition-of-parameter-$%s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/required-parameter-$%s-follows-optional-parameter-$%s.html</loc>

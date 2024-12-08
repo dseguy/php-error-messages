@@ -33,6 +33,11 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ abstract function X::foo() cannot be declared private
+
 Solutions
 _________
 

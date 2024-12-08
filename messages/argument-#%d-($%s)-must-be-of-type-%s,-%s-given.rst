@@ -1,0 +1,51 @@
+.. _argument-#%d-(\$%s)-must-be-of-type-%s,-%s-given:
+
+Argument #%d ($%s) must be of type %s, %s given
+-----------------------------------------------
+ 
+	.. meta::
+		:description:
+			Argument #%d ($%s) must be of type %s, %s given: This error is emitted when data of a wrong type is given to a typed argument.
+
+		:og:type: article
+		:og:title: Argument #%d ($%s) must be of type %s, %s given
+		:og:description: This error is emitted when data of a wrong type is given to a typed argument
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/argument-%23%25d-%28%24%25s%29-must-be-of-type-%25s%2C-%25s-given.html
+
+Description
+___________
+ 
+This error is emitted when data of a wrong type is given to a typed argument. 
+
+The first parameter that fails the type constraint is reported. There might be other type failures after this one, though they are hidden by the first one encountered.
+
+
+Example
+_______
+
+.. code-block:: php
+
+   <?php
+   
+   function foo(int $x) {}
+   
+   foo(1); // OK
+   
+   foo('2'); // OK, with strict_types = 0 
+   
+   foo('abc'); // not OK
+   
+   ?>
+
+
+Literal Examples
+****************
++ Argument #%d ($%1) must be of type int, string given
+
+Solutions
+_________
+
++ Pass the correct argument to the method.
++ Cast the value to the requested type.
++ Change the type in the signature of the called method.
++ Add the type in the signature of the called method.

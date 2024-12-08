@@ -8,6 +8,7 @@ PHP Error Messages
    messages/"static::"-is-not-allowed-in-compile-time-constants.rst
    messages/%d-arguments-are-required,-%d.rst
    messages/%s%s%s()-does-not-accept-unknown-named-parameters.rst
+   messages/%s%s%s():-argument-#%d%s%s%s-must-be-passed-by-reference,-value-given.rst
    messages/%s():-argument-#%d%s%s%s-cannot-not-be-passed-by-reference.rst
    messages/%s():-argument-#%d%s%s%s-could-not-be-passed-by-reference.rst
    messages/%s():-implicitly-marking-parameter-$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead.rst
@@ -39,6 +40,7 @@ PHP Error Messages
    messages/accessing-static-trait-property-%s::$%s-is-deprecated,-it-should-only-be-accessed-on-a-class-using-the-trait.rst
    messages/accessing-static-trait-property-%s::$%s-is-deprecated.rst
    messages/an-iterator-cannot-be-used-with-foreach-by-reference.rst
+   messages/argument-#%d-($%s)-must-be-of-type-%s,-%s-given.rst
    messages/array-and-string-offset-access-syntax-with-curly-braces-is-deprecated.rst
    messages/array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported.rst
    messages/array-callback-has-to-contain-indices-0-and-1.rst
@@ -89,6 +91,7 @@ PHP Error Messages
    messages/cannot-modify-readonly-property-%s::$%s.rst
    messages/cannot-override-final-%s::%s()-with-%s::%s().rst
    messages/cannot-override-final-property-hook-%s::%s().rst
+   messages/cannot-pass-parameter-%d-by-reference.rst
    messages/cannot-perform-bitwise-not-on-%s.rst
    messages/cannot-re-assign-$this.rst
    messages/cannot-redeclare-%s()-(previously-declared-in-%s:%d).rst
@@ -231,7 +234,7 @@ PHP Error Messages
    messages/readonly-class-%s-cannot-use-trait-with-a-non-readonly-property-%s::$%s.rst
    messages/readonly-class-bar-cannot-extend-non-readonly-class-foo.rst
    messages/readonly-property-%s::$%s-cannot-have-default-value.rst
-   messages/redefinition-of-parameter-$b.rst
+   messages/redefinition-of-parameter-$%s.rst
    messages/required-parameter-$%s-follows-optional-parameter-$%s.rst
    messages/required-trait-%s-wasn\'t-added-to-%s.rst
    messages/return-value-must-be-of-type-int,-string-returned.rst
