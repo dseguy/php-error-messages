@@ -11,11 +11,6 @@ Features index
       * :ref:`using-\$this-when-not-in-object-context`
 
 
-   * __destructor
-
-      * :ref:`destructors-cannot-declare-a-return-type`
-
-
    * abstract
 
       * :ref:`%s-function-%s::%s()-cannot-be-declared-private`
@@ -137,6 +132,7 @@ Features index
    * break
 
       * :ref:`\'%s\'-operator-accepts-only-positive-integers`
+      * :ref:`\'%s\'-operator-with-non-integer-operand`
       * :ref:`break-operator-accepts-only-positive-integers`
 
 
@@ -243,6 +239,7 @@ Features index
 
    * compatibility
 
+      * :ref:`could-not-check-compatibility-between-%s-and-%s,-because-class-%s-is-not-available`
       * :ref:`declaration-of-%s-must-be-compatible-with-%s`
       * :ref:`declaration-of-y::foo()-must-be-compatible-with-x::foo(\$a)`
 
@@ -286,6 +283,7 @@ Features index
    * continue
 
       * :ref:`\'%s\'-operator-accepts-only-positive-integers`
+      * :ref:`\'%s\'-operator-with-non-integer-operand`
       * :ref:`continue-operator-accepts-only-positive-integers`
 
 
@@ -332,6 +330,11 @@ Features index
       * :ref:`get_defined_functions():-setting-\$exclude_disabled-to-false-has-no-effect`
 
 
+   * destructor
+
+      * :ref:`destructors-cannot-declare-a-return-type`
+
+
    * die
 
       * :ref:`%s():-never-returning-%s-must-not-implicitly-return`
@@ -369,8 +372,14 @@ Features index
       * :ref:`enum-case-value-must-be-compile-time-evaluatable`
 
 
+   * error
+
+      * :ref:`%s-%s-cannot-implement-interface-%s,-extend-exception-or-error-instead`
+
+
    * exception
 
+      * :ref:`%s-%s-cannot-implement-interface-%s,-extend-exception-or-error-instead`
       * :ref:`cannot-throw-objects-that-do-not-implement-throwable`
       * :ref:`cannot-use-try-without-catch-or-finally`
 
@@ -391,6 +400,11 @@ Features index
 
       * :ref:`cannot-use-isset()-on-the-result-of-an-expression-(you-can-use-"null-!==-expression"-instead)`
       * :ref:`cannot-use-list()-as-standalone-expression`
+
+
+   * extends
+
+      * :ref:`class-%s-cannot-extend-final-class-%s`
 
 
    * extension
@@ -414,9 +428,11 @@ Features index
       * :ref:`cannot-override-final-%s::%s()-with-%s::%s()`
       * :ref:`cannot-override-final-property-hook-%s::%s()`
       * :ref:`cannot-use-the-final-modifier-on-a-property`
+      * :ref:`class-%s-cannot-extend-final-class-%s`
       * :ref:`private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes`
       * :ref:`property-cannot-be-both-final-and-private`
       * :ref:`property-hook-cannot-be-both-final-and-private`
+      * :ref:`the-\"generator\"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated`
 
 
    * finally
@@ -465,7 +481,9 @@ Features index
 
    * generator
 
+      * :ref:`class-%s-cannot-extend-final-class-%s`
       * :ref:`generator-return-type-must-be-a-supertype-of-generator`
+      * :ref:`the-\"generator\"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated`
 
 
    * goto
@@ -484,6 +502,7 @@ Features index
 
    * implements
 
+      * :ref:`%s-%s-cannot-implement-previously-implemented-interface-%s`
       * :ref:`b-cannot-implement-a---it-is-not-an-interface`
       * :ref:`class-%s-cannot-implement-both-iterator-and-iteratoraggregate-at-the-same-time`
 
@@ -500,6 +519,7 @@ Features index
    * index-array
 
       * :ref:`cannot-mix-keyed-and-unkeyed-array-entries-in-assignments`
+      * :ref:`cannot-unpack-array-with-string-keys`
       * :ref:`index-invalid-or-out-of-range`
       * :ref:`undefined-array-key`
 
@@ -513,17 +533,13 @@ Features index
 
    * instance
 
+      * :ref:`cannot-instantiate-interface-%s`
       * :ref:`cannot-instantiate-trait-%s`
 
 
    * instanceof
 
       * :ref:`__clone-method-called-on-non-object`
-
-
-   * instantiation
-
-      * :ref:`cannot-instantiate-interface-%s`
 
 
    * integer
@@ -533,6 +549,7 @@ Features index
 
    * interface
 
+      * :ref:`%s-%s-cannot-implement-previously-implemented-interface-%s`
       * :ref:`%s-%s-inherits-both-%s::%s-and-%s::%s`
       * :ref:`b-cannot-implement-a---it-is-not-an-interface`
       * :ref:`cannot-instantiate-interface-%s`
@@ -571,11 +588,6 @@ Features index
 
       * :ref:`an-iterator-cannot-be-used-with-foreach-by-reference`
       * :ref:`class-%s-cannot-implement-both-iterator-and-iteratoraggregate-at-the-same-time`
-
-
-   * keys
-
-      * :ref:`cannot-unpack-array-with-string-keys`
 
 
    * keyword
@@ -626,6 +638,7 @@ Features index
    * match
 
       * :ref:`match-expressions-may-only-contain-one-default-arm`
+      * :ref:`syntax-error,-unexpected-token-"match"`
       * :ref:`unhandled-match-case-%s`
 
 
@@ -741,6 +754,7 @@ Features index
 
    * operator
 
+      * :ref:`\'%s\'-operator-with-non-integer-operand`
       * :ref:`unsupported-operand-types`
 
 
@@ -893,6 +907,11 @@ Features index
       * :ref:`\'namespace\%s\'-is-an-invalid-class-name`
 
 
+   * relaxed-keyword
+
+      * :ref:`syntax-error,-unexpected-token-"match"`
+
+
    * return
 
       * :ref:`%s():-never-returning-%s-must-not-implicitly-return`
@@ -1009,6 +1028,7 @@ Features index
    * switch
 
       * :ref:`switch-statements-may-only-contain-one-default-clause`
+      * :ref:`syntax-error,-unexpected-token-"match"`
 
 
    * ternary
@@ -1020,6 +1040,11 @@ Features index
 
       * :ref:`cannot-throw-objects-that-do-not-implement-throwable`
       * :ref:`never-returning-function-must-not-implicitly-return`
+
+
+   * throwable
+
+      * :ref:`%s-%s-cannot-implement-interface-%s,-extend-exception-or-error-instead`
 
 
    * trait
@@ -1135,9 +1160,11 @@ Features index
    * yield
 
       * :ref:`only-variable-references-should-be-yielded-by-reference`
+      * :ref:`the-\"generator\"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated`
       * :ref:`the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls`
 
 
    * yield-from
 
+      * :ref:`the-\"generator\"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated`
       * :ref:`the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls`

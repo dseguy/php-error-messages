@@ -179,6 +179,11 @@ Tag index
       * :ref:`illegal-string-offset`
 
 
+   * partial-lint
+
+      * :ref:`could-not-check-compatibility-between-%s-and-%s,-because-class-%s-is-not-available`
+
+
    * readonly
 
       * :ref:`cannot-acquire-reference-to-readonly-property`

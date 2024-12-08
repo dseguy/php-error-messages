@@ -13,6 +13,7 @@ PHP Error Messages
    messages/%s():-implicitly-marking-parameter-$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead.rst
    messages/%s():-never-returning-%s-must-not-implicitly-return.rst
    messages/%s():-returning-by-reference-from-a-void-function-is-deprecated.rst
+   messages/%s-%s-cannot-implement-interface-%s,-extend-exception-or-error-instead.rst
    messages/%s-%s-cannot-implement-previously-implemented-interface-%s.rst
    messages/%s-%s-inherits-both-%s::%s-and-%s::%s.rst
    messages/%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed.rst
@@ -126,6 +127,7 @@ PHP Error Messages
    messages/cannot-use-try-without-catch-or-finally.rst
    messages/cannot-use-variable-$%s-twice.rst
    messages/case-%s::%s-does-not-exist.rst
+   messages/class-%s-cannot-extend-final-class-%s.rst
    messages/class-%s-cannot-implement-both-iterator-and-iteratoraggregate-at-the-same-time.rst
    messages/class-%s-cannot-implement-previously-implemented-interface-%s.rst
    messages/class-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-methods.rst
@@ -241,12 +243,14 @@ PHP Error Messages
    messages/strict_types-declaration-must-be-the-very-first-statement-in-the-script.rst
    messages/switch-statements-may-only-contain-one-default-clause.rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-variable.rst
+   messages/syntax-error,-unexpected-token-"match".rst
    messages/syntax-error,-unexpected-token-"use".rst
    messages/syntax-error,-unexpected-token-"{".rst
    messages/the-(real)-cast-has-been-removed,-use-(float)-instead.rst
    messages/the-(real)-cast-is-deprecated,-use-(float)-instead.rst
    messages/the-(unset)-cast-is-deprecated.rst
    messages/the-(unset)-cast-is-no-longer-supported.rst
+   messages/the-"generator"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated.rst
    messages/the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls.rst
    messages/traits-cannot-have-constants.rst
    messages/trying-to-access-array-offset-on-%s.rst

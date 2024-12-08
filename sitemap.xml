@@ -25,6 +25,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%s():-returning-by-reference-from-a-void-function-is-deprecated.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/%s-%s-cannot-implement-interface-%s,-extend-exception-or-error-instead.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%s-%s-cannot-implement-previously-implemented-interface-%s.html</loc>
  </url>
  <url>
@@ -362,6 +365,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/case-%s::%s-does-not-exist.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/class-%s-cannot-extend-final-class-%s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/class-%s-cannot-implement-both-iterator-and-iteratoraggregate-at-the-same-time.html</loc>
@@ -709,6 +715,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-identifier-&quot;%s&quot;,-expecting-variable.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-&quot;match&quot;.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-&quot;use&quot;.html</loc>
  </url>
  <url>
@@ -725,6 +734,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-(unset)-cast-is-no-longer-supported.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-&quot;generator&quot;-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls.html</loc>
