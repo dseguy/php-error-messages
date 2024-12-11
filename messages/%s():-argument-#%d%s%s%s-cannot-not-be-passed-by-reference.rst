@@ -49,5 +49,10 @@ _________
 + Store the value in a variable, and pass the variable to the method.
 + Remove the reference from the called method signature.
 
+Related Error Messages
+______________________
+
++ :ref:`only-variable-references-should-be-returned-by-reference`
+
 
 In more recent PHP versions, this error message is now :ref:`%s():-argument-#%d%s%s%s-could-not-be-passed-by-reference`.

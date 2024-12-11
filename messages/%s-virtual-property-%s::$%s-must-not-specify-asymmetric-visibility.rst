@@ -28,13 +28,25 @@ _______
 
    <?php
    
-   class x {
+   class X {
    	public private(set) int $p {
    		set {}
    	}
    }
    
+   class Y {
+   	public private(set) int $p {
+   		get {}
+   	}
+   }
+   
    ?>
+
+
+Literal Examples
+****************
++ Write-only virtual property X::$p must not specify asymmetric visibility
++ Readonly-only virtual property Y::$p must not specify asymmetric visibility
 
 Solutions
 _________

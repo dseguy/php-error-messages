@@ -394,9 +394,6 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/class-&quot;%s&quot;-not-found.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/class-b-cannot-implement-previously-implemented-interface-i.html</loc>
- </url>
- <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/class-constant-%s::%s-cannot-have-type-%s.html</loc>
  </url>
  <url>
@@ -638,6 +635,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/only-internal-classes-can-be-registered-as-compiler-attribute.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/only-variable-references-should-be-returned-by-reference.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/only-variable-references-should-be-yielded-by-reference.html</loc>

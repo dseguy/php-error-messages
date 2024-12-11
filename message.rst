@@ -136,7 +136,6 @@ PHP Error Messages
    messages/class-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-methods.rst
    messages/class-%s-is-not-a-trait.rst
    messages/class-"%s"-not-found.rst
-   messages/class-b-cannot-implement-previously-implemented-interface-i.rst
    messages/class-constant-%s::%s-cannot-have-type-%s.rst
    messages/class-declarations-may-not-be-nested.rst
    messages/classes-must-be-first-marked-as-attribute-before-being-able-to-be-registered-as-internal-attribute-class.rst
@@ -218,6 +217,7 @@ PHP Error Messages
    messages/object-of-type-%s-has-not-been-correctly-initialized-by-calling-parent::__construct()-in-its-constructor.rst
    messages/only-hooked-properties-may-be-declared-abstract.rst
    messages/only-internal-classes-can-be-registered-as-compiler-attribute.rst
+   messages/only-variable-references-should-be-returned-by-reference.rst
    messages/only-variable-references-should-be-yielded-by-reference.rst
    messages/only-variables-should-be-passed-by-reference.rst
    messages/optional-parameter-$%s-declared-before-required-parameter-$%s-is-implicitly-treated-as-a-required-parameter.rst

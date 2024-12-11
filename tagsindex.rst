@@ -32,20 +32,10 @@ Tag index
       * :ref:`unparenthesized-\`a-?-b-:-c-?-d-:-e\`-is-not-supported.`
 
 
-   * class
-
-      * :ref:`class-b-cannot-implement-previously-implemented-interface-i`
-
-
    * class constant
 
       * :ref:`undefined-class-constant-\'%s::%s\'`
       * :ref:`undefined-constant-%s::%s`
-
-
-   * class_alias
-
-      * :ref:`class-b-cannot-implement-previously-implemented-interface-i`
 
 
    * collision

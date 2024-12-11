@@ -20,6 +20,7 @@ Features index
       * :ref:`cannot-use-the-abstract-modifier-on-a-property`
       * :ref:`class-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-methods`
       * :ref:`interface-%s-cannot-contain-non-abstract-method-%s()`
+      * :ref:`non-abstract-method-%s::%s()-must-contain-body`
       * :ref:`non-abstract-property-hook-must-have-a-body`
       * :ref:`only-hooked-properties-may-be-declared-abstract`
       * :ref:`property-hook-cannot-be-both-abstract-and-private`
@@ -40,6 +41,7 @@ Features index
 
       * :ref:`%s%s%s():-argument-#%d%s%s%s-must-be-passed-by-reference,-value-given`
       * :ref:`%s():-argument-#%d%s%s%s-cannot-not-be-passed-by-reference`
+      * :ref:`%s():-argument-#%d%s%s%s-could-not-be-passed-by-reference`
       * :ref:`argument-#%d-(\$%s)-must-be-of-type-%s,-%s-given`
       * :ref:`calling-get_parent_class()-without-arguments-is-deprecated`
       * :ref:`only-variables-should-be-passed-by-reference`
@@ -123,6 +125,11 @@ Features index
    * bitwise-operator
 
       * :ref:`cannot-perform-bitwise-not-on-%s`
+
+
+   * body
+
+      * :ref:`non-abstract-method-%s::%s()-must-contain-body`
 
 
    * boolean
@@ -276,6 +283,11 @@ Features index
       * :ref:`undefined-constant-\"%s`
 
 
+   * constant-expression
+
+      * :ref:`fetching-properties-on-non-enums-in-constant-expressions-is-not-allowed`
+
+
    * constant-in-trait
 
       * :ref:`traits-cannot-have-constants`
@@ -289,6 +301,7 @@ Features index
    * constructor
 
       * :ref:`cannot-call-constructor`
+      * :ref:`constructors-cannot-declare-a-return-type`
       * :ref:`object-of-type-%s-has-not-been-correctly-initialized-by-calling-parent::__construct()-in-its-constructor`
 
 
@@ -375,6 +388,7 @@ Features index
       * :ref:`cannot-instantiate-enum-%s`
       * :ref:`enum-%s-cannot-include-magic-method-%s`
       * :ref:`enum-%s-cannot-include-properties`
+      * :ref:`fetching-properties-on-non-enums-in-constant-expressions-is-not-allowed`
       * :ref:`non-enum-class-%s-cannot-implement-interface-%s`
       * :ref:`trying-to-clone-an-uncloneable-object-of-class-%s`
 
@@ -718,6 +732,7 @@ Features index
       * :ref:`%s():-never-returning-%s-must-not-implicitly-return`
       * :ref:`a-never-returning-%s-must-not-return`
       * :ref:`a-never-returning-function-must-not-return`
+      * :ref:`a-never-returning-method-must-not-return`
       * :ref:`cannot-use-\'never\'-as-class-name-as-it-is-reserved`
       * :ref:`class-constant-%s::%s-cannot-have-type-%s`
       * :ref:`never-cannot-be-used-as-a-parameter-type`
@@ -792,6 +807,7 @@ Features index
       * :ref:`cannot-use-lexical-variable-%s-as-a-parameter-name`
       * :ref:`named-parameter-\$x-overwrites-previous-argument`
       * :ref:`optional-parameter-\$%s-declared-before-required-parameter-\$%s-is-implicitly-treated-as-a-required-parameter`
+      * :ref:`parameter-uses-\'parent\'-as-type-hint-although-class-does-not-have-a-parent\!`
       * :ref:`redefinition-of-parameter-\$%s`
       * :ref:`required-parameter-\$%s-follows-optional-parameter-\$%s`
 
@@ -806,6 +822,7 @@ Features index
       * :ref:`\'\%s\'-is-an-invalid-class-name`
       * :ref:`cannot-access-parent::-when-current-class-scope-has-no-parent`
       * :ref:`object-of-type-%s-has-not-been-correctly-initialized-by-calling-parent::__construct()-in-its-constructor`
+      * :ref:`parameter-uses-\'parent\'-as-type-hint-although-class-does-not-have-a-parent\!`
 
 
    * parenthesis
@@ -901,10 +918,12 @@ Features index
 
       * :ref:`%s%s%s():-argument-#%d%s%s%s-must-be-passed-by-reference,-value-given`
       * :ref:`%s():-argument-#%d%s%s%s-cannot-not-be-passed-by-reference`
+      * :ref:`%s():-argument-#%d%s%s%s-could-not-be-passed-by-reference`
       * :ref:`an-iterator-cannot-be-used-with-foreach-by-reference`
       * :ref:`cannot-acquire-reference-to-readonly-property`
       * :ref:`cannot-pass-parameter-%d-by-reference`
       * :ref:`cannot-use-variable-\$%s-twice`
+      * :ref:`only-variable-references-should-be-returned-by-reference`
       * :ref:`only-variable-references-should-be-yielded-by-reference`
       * :ref:`only-variables-should-be-passed-by-reference`
       * :ref:`returning-by-reference-from-a-void-function-is-deprecated`
@@ -931,8 +950,10 @@ Features index
       * :ref:`%s():-never-returning-%s-must-not-implicitly-return`
       * :ref:`a-function-with-return-type-must-return-a-value`
       * :ref:`a-never-returning-%s-must-not-return`
+      * :ref:`a-never-returning-method-must-not-return`
       * :ref:`destructors-cannot-declare-a-return-type`
       * :ref:`never-returning-function-must-not-implicitly-return`
+      * :ref:`only-variable-references-should-be-returned-by-reference`
 
 
    * return-type
@@ -940,6 +961,11 @@ Features index
       * :ref:`a-function-with-return-type-must-return-a-value`
       * :ref:`division-of-php_int_min-by--1-is-not-an-integer`
       * :ref:`return-value-must-be-of-type-int,-string-returned`
+
+
+   * returntype
+
+      * :ref:`constructors-cannot-declare-a-return-type`
 
 
    * rounding
