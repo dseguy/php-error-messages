@@ -148,7 +148,7 @@ foreach($files as $file) {
 		++$warnings;
 		continue;
 	} else {
-		if (empty(array_filter($error->features))) {
+		if (empty(array_filter($error->features)) && !in_array('not generated', $error->tags)) {
 			buildlog("No features in $file");
 			++$warnings;
 		}
@@ -305,7 +305,7 @@ foreach($files as $file) {
 			
 			if ($target === $related) {
 				buildlog("Remove self related '$target' in $file");
-				++$warning;
+				++$warnings;
 			}
 		}
 	}
