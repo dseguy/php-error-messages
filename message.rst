@@ -37,6 +37,8 @@ PHP Error Messages
    messages/abstract-property-hook-cannot-have-body.rst
    messages/access-level-to-%s::%s-must-be-%s-(as-in-%s-%s)%s.rst
    messages/access-to-undeclared-static-property-%s::$%s.rst
+   messages/access-type-for-interface-constant-%s::%s-must-be-public.rst
+   messages/access-type-for-interface-method-%s::%s()-must-be-public.rst
    messages/accessing-static-trait-property-%s::$%s-is-deprecated,-it-should-only-be-accessed-on-a-class-using-the-trait.rst
    messages/accessing-static-trait-property-%s::$%s-is-deprecated.rst
    messages/an-iterator-cannot-be-used-with-foreach-by-reference.rst
@@ -82,6 +84,7 @@ PHP Error Messages
    messages/cannot-declare-promoted-property-outside-a-constructor.rst
    messages/cannot-declare-self-referencing-constant.rst
    messages/cannot-declare-variadic-promoted-property.rst
+   messages/cannot-inherit-previously-inherited-or-override-constant-%s-from-interface-%s.rst
    messages/cannot-instantiate-enum-%s.rst
    messages/cannot-instantiate-interface-%s.rst
    messages/cannot-instantiate-trait-%s.rst

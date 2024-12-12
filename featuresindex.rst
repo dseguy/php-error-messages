@@ -205,6 +205,7 @@ Features index
       * :ref:`a-class-constant-must-not-be-called-class.-it-is-reserved-for-class-name-fetching`
       * :ref:`calling-get_class()-without-arguments-is-deprecated`
       * :ref:`cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s`
+      * :ref:`cannot-inherit-previously-inherited-or-override-constant-%s-from-interface-%s`
       * :ref:`class-\"%s\"-not-found`
       * :ref:`illegal-class-name`
 
@@ -216,6 +217,7 @@ Features index
       * :ref:`%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed`
       * :ref:`cannot-assign-%s-to-class-constant-%s::%s-of-type`
       * :ref:`cannot-be-a-class-constant`
+      * :ref:`cannot-inherit-previously-inherited-or-override-constant-%s-from-interface-%s`
       * :ref:`cannot-redefine-class-constant`
       * :ref:`class-constant-%s::%s-cannot-have-type-%s`
       * :ref:`constant-%s::%s-is-deprecated`
@@ -553,6 +555,7 @@ Features index
    * inheritance
 
       * :ref:`cannot-declare-promoted-property-in-an-abstract-constructor`
+      * :ref:`cannot-inherit-previously-inherited-or-override-constant-%s-from-interface-%s`
       * :ref:`cannot-redefine-class-constant`
       * :ref:`readonly-class-bar-cannot-extend-non-readonly-class-foo`
 
@@ -577,7 +580,10 @@ Features index
 
       * :ref:`%s-%s-cannot-implement-previously-implemented-interface-%s`
       * :ref:`%s-%s-inherits-both-%s::%s-and-%s::%s`
+      * :ref:`access-type-for-interface-constant-%s::%s-must-be-public`
+      * :ref:`access-type-for-interface-method-%s::%s()-must-be-public`
       * :ref:`b-cannot-implement-a---it-is-not-an-interface`
+      * :ref:`cannot-inherit-previously-inherited-or-override-constant-%s-from-interface-%s`
       * :ref:`cannot-instantiate-interface-%s`
       * :ref:`class-%s-cannot-implement-previously-implemented-interface-%s`
       * :ref:`datetimeinterface-can\\'t-be-implemented-by-user-classes`
@@ -1178,6 +1184,8 @@ Features index
    * visibility
 
       * :ref:`access-level-to-%s::%s-must-be-%s-(as-in-%s-%s)%s`
+      * :ref:`access-type-for-interface-constant-%s::%s-must-be-public`
+      * :ref:`access-type-for-interface-method-%s::%s()-must-be-public`
       * :ref:`multiple-access-type-modifiers-are-not-allowed`
       * :ref:`private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes`
       * :ref:`trying-to-invoke-%s-method-%s::%s()-from-scope-%s`
