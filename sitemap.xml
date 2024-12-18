@@ -13,6 +13,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%s%s%s():-argument-#%d%s%s%s-must-be-passed-by-reference,-value-given.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/%s%s%s():-return-value-must-be-of-type-%s,-%s-returned.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%s():-argument-#%d%s%s%s-cannot-not-be-passed-by-reference.html</loc>
  </url>
  <url>
@@ -35,6 +38,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%s-%s-inherits-both-%s::%s-and-%s::%s.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/%s-%s-must-implement-interface-%s-as-part-of-either-%s-or-%s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed.html</loc>
@@ -253,6 +259,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-load-module-&quot;%s&quot;-because-required-module-&quot;%s&quot;-is-not-loaded.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-make-non-abstract-method-%s::%s()-abstract-in-class-%s.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-make-non-abstract-method-i::foo()-abstract-in-class-j.html</loc>
  </url>
  <url>
@@ -398,6 +407,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/class-%s-is-not-a-trait.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/class-%s-must-implement-interface-%s-as-part-of-either-%s-or-%s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/class-&quot;%s&quot;-not-found.html</loc>
@@ -730,7 +742,13 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/switch-statements-may-only-contain-one-default-clause.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-')',-expecting-'|'-or-variable-(t_variable).html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-identifier-&quot;%s&quot;,-expecting-variable.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-&quot;:&quot;.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-&quot;match&quot;.html</loc>
@@ -818,6 +836,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unknown-hook-&quot;%s&quot;-for-property-%s::$%s,-expected-&quot;get&quot;-or-&quot;set&quot;.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/unknown-named-parameter-$%s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unparenthesized-`a-?-b-:-c-?-d-:-e`-is-not-supported..html</loc>

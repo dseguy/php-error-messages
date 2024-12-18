@@ -49,7 +49,9 @@ Solutions
 _________
 
 + Check spelling and namespace for that class.
-+ Create the associated class.
++ Create the required class.
++ Check if the class is defined in an extension, and the extension is included in the current PHP engine.
++ Check if the class is defined in a dependency, and the dependency is included in the current composer.json.
 + Avoid using getInstance() on that attribute.
 + Do not use static, parent or self in a string to call a method statically.
 

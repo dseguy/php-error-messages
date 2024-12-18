@@ -16,6 +16,7 @@ Features index
       * :ref:`%s-function-%s::%s()-cannot-be-declared-private`
       * :ref:`abstract-property-hook-cannot-have-body`
       * :ref:`cannot-declare-promoted-property-in-an-abstract-constructor`
+      * :ref:`cannot-make-non-abstract-method-%s::%s()-abstract-in-class-%s`
       * :ref:`cannot-make-non-abstract-method-i::foo()-abstract-in-class-j`
       * :ref:`cannot-use-the-abstract-modifier-on-a-property`
       * :ref:`class-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-methods`
@@ -72,11 +73,6 @@ Features index
       * :ref:`undefined-offset`
 
 
-   * array-offset
-
-      * :ref:`trying-to-access-array-offset-on-%s`
-
-
    * array-syntax
 
       * :ref:`cannot-use-string-offset-as-an-array`
@@ -88,7 +84,7 @@ Features index
       * :ref:`cannot-access-offset-of-type-%s-on-%s`
 
 
-   * assert
+   * assertion
 
       * :ref:`defining-a-custom-assert()-function-is-not-allowed,`
 
@@ -188,6 +184,16 @@ Features index
       * :ref:`the-(unset)-cast-is-no-longer-supported`
 
 
+   * catch
+
+      * :ref:`syntax-error,-unexpected-\')\',-expecting-\'|\'-or-variable-(t_variable)`
+
+
+   * catch-anonymous
+
+      * :ref:`syntax-error,-unexpected-\')\',-expecting-\'|\'-or-variable-(t_variable)`
+
+
    * character
 
       * :ref:`cannot-assign-an-empty-string-to-a-string-offset`
@@ -206,6 +212,7 @@ Features index
       * :ref:`calling-get_class()-without-arguments-is-deprecated`
       * :ref:`cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s`
       * :ref:`cannot-inherit-previously-inherited-or-override-constant-%s-from-interface-%s`
+      * :ref:`cannot-make-non-abstract-method-%s::%s()-abstract-in-class-%s`
       * :ref:`class-\"%s\"-not-found`
       * :ref:`illegal-class-name`
 
@@ -360,11 +367,6 @@ Features index
    * destructor
 
       * :ref:`destructors-cannot-declare-a-return-type`
-
-
-   * die
-
-      * :ref:`%s():-never-returning-%s-must-not-implicitly-return`
 
 
    * each
@@ -556,6 +558,7 @@ Features index
 
       * :ref:`cannot-declare-promoted-property-in-an-abstract-constructor`
       * :ref:`cannot-inherit-previously-inherited-or-override-constant-%s-from-interface-%s`
+      * :ref:`cannot-make-non-abstract-method-%s::%s()-abstract-in-class-%s`
       * :ref:`cannot-redefine-class-constant`
       * :ref:`readonly-class-bar-cannot-extend-non-readonly-class-foo`
 
@@ -580,12 +583,14 @@ Features index
 
       * :ref:`%s-%s-cannot-implement-previously-implemented-interface-%s`
       * :ref:`%s-%s-inherits-both-%s::%s-and-%s::%s`
+      * :ref:`%s-%s-must-implement-interface-%s-as-part-of-either-%s-or-%s`
       * :ref:`access-type-for-interface-constant-%s::%s-must-be-public`
       * :ref:`access-type-for-interface-method-%s::%s()-must-be-public`
       * :ref:`b-cannot-implement-a---it-is-not-an-interface`
       * :ref:`cannot-inherit-previously-inherited-or-override-constant-%s-from-interface-%s`
       * :ref:`cannot-instantiate-interface-%s`
       * :ref:`class-%s-cannot-implement-previously-implemented-interface-%s`
+      * :ref:`class-%s-must-implement-interface-%s-as-part-of-either-%s-or-%s`
       * :ref:`datetimeinterface-can\\'t-be-implemented-by-user-classes`
       * :ref:`interface-%s-cannot-contain-non-abstract-method-%s()`
       * :ref:`interfaces-may-not-include-properties`
@@ -707,12 +712,22 @@ Features index
       * :ref:`illegal-class-name`
 
 
+   * named parameter
+
+      * :ref:`syntax-error,-unexpected-token-":"`
+
+
    * named-parameter
 
       * :ref:`%s%s%s()-does-not-accept-unknown-named-parameters`
       * :ref:`array_merge()-does-not-accept-unknown-named-parameters`
       * :ref:`duplicate-named-parameter-\$%s`
       * :ref:`optional-parameter-\$%s-declared-before-required-parameter-\$%s-is-implicitly-treated-as-a-required-parameter`
+
+
+   * named-parameters
+
+      * :ref:`unknown-named-parameter-\$%s`
 
 
    * namespace
@@ -777,6 +792,7 @@ Features index
       * :ref:`cannot-unset-offset-in-a-non-array-variable`
       * :ref:`cannot-unset-string-offsets`
       * :ref:`illegal-string-offset`
+      * :ref:`trying-to-access-array-offset-on-%s`
       * :ref:`uninitialized-string-offset`
 
 
@@ -953,6 +969,7 @@ Features index
 
    * return
 
+      * :ref:`%s%s%s():-return-value-must-be-of-type-%s,-%s-returned`
       * :ref:`%s():-never-returning-%s-must-not-implicitly-return`
       * :ref:`a-function-with-return-type-must-return-a-value`
       * :ref:`a-never-returning-%s-must-not-return`
@@ -971,6 +988,7 @@ Features index
 
    * returntype
 
+      * :ref:`%s%s%s():-return-value-must-be-of-type-%s,-%s-returned`
       * :ref:`constructors-cannot-declare-a-return-type`
 
 
@@ -1091,6 +1109,8 @@ Features index
    * throwable
 
       * :ref:`%s-%s-cannot-implement-interface-%s,-extend-exception-or-error-instead`
+      * :ref:`%s-%s-must-implement-interface-%s-as-part-of-either-%s-or-%s`
+      * :ref:`class-%s-must-implement-interface-%s-as-part-of-either-%s-or-%s`
 
 
    * trait
@@ -1115,6 +1135,11 @@ Features index
 
       * :ref:`trying-to-access-array-offset-on-%s`
       * :ref:`type-contains-both-true-and-false,-bool-must-be-used-instead`
+
+
+   * try
+
+      * :ref:`syntax-error,-unexpected-\')\',-expecting-\'|\'-or-variable-(t_variable)`
 
 
    * type

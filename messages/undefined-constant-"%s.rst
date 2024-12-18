@@ -5,17 +5,23 @@ Undefined constant "%s
  
 	.. meta::
 		:description:
-			Undefined constant "%s: The requested class doesn&#039;t exist.
+			Undefined constant "%s: The requested constant doesn&#039;t exist.
 
 		:og:type: article
 		:og:title: Undefined constant &quot;%s
-		:og:description: The requested class doesn&#039;t exist
+		:og:description: The requested constant doesn&#039;t exist
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/undefined-constant-%5C%22%25s.html
 
 Description
 ___________
  
-The requested class doesn't exist. 
+The requested constant doesn't exist. 
+
+The constant may be defined at different places in the code : 
+
++ In the running code: it could be in a different file, which was not included yet, or later in the code.
++ In a dependency: use the name of the constant to find which dependency defines this constant. Then, make sure the dependency is satisfied.
++ In an extension: use the name of the constant to find which PHP extension defines this constant. For example, ``XML_PI_NODE`` is from the ext/xml extension, which may not be in the current PHP engine.
 
 There is a distinct message for class constants.
 
@@ -37,6 +43,7 @@ _______
 Literal Examples
 ****************
 + Undefined constant "A"
++ Undefined constant "XML_PI_NODE"
 
 Solutions
 _________
@@ -44,6 +51,8 @@ _________
 + Find the actual name of the requested constant.
 + Check the namespace, or its import: ``use const``.
 + Check if the constant is used after its definition.
++ Check if the constant is defined in a PHP extension, and the extension was forgotten.
++ Check if the constant is defined in a dependency, and the dependency was forgotten.
 
 Related Error Messages
 ______________________

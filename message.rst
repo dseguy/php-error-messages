@@ -9,6 +9,7 @@ PHP Error Messages
    messages/%d-arguments-are-required,-%d.rst
    messages/%s%s%s()-does-not-accept-unknown-named-parameters.rst
    messages/%s%s%s():-argument-#%d%s%s%s-must-be-passed-by-reference,-value-given.rst
+   messages/%s%s%s():-return-value-must-be-of-type-%s,-%s-returned.rst
    messages/%s():-argument-#%d%s%s%s-cannot-not-be-passed-by-reference.rst
    messages/%s():-argument-#%d%s%s%s-could-not-be-passed-by-reference.rst
    messages/%s():-implicitly-marking-parameter-$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead.rst
@@ -17,6 +18,7 @@ PHP Error Messages
    messages/%s-%s-cannot-implement-interface-%s,-extend-exception-or-error-instead.rst
    messages/%s-%s-cannot-implement-previously-implemented-interface-%s.rst
    messages/%s-%s-inherits-both-%s::%s-and-%s::%s.rst
+   messages/%s-%s-must-implement-interface-%s-as-part-of-either-%s-or-%s.rst
    messages/%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed.rst
    messages/%s-cannot-use-%s---it-is-not-a-trait.rst
    messages/%s-function-%s::%s()-cannot-be-declared-private.rst
@@ -89,6 +91,7 @@ PHP Error Messages
    messages/cannot-instantiate-interface-%s.rst
    messages/cannot-instantiate-trait-%s.rst
    messages/cannot-load-module-"%s"-because-required-module-"%s"-is-not-loaded.rst
+   messages/cannot-make-non-abstract-method-%s::%s()-abstract-in-class-%s.rst
    messages/cannot-make-non-abstract-method-i::foo()-abstract-in-class-j.rst
    messages/cannot-mix-keyed-and-unkeyed-array-entries-in-assignments.rst
    messages/cannot-modify-readonly-property-%s::$%s.rst
@@ -138,6 +141,7 @@ PHP Error Messages
    messages/class-%s-cannot-implement-previously-implemented-interface-%s.rst
    messages/class-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-methods.rst
    messages/class-%s-is-not-a-trait.rst
+   messages/class-%s-must-implement-interface-%s-as-part-of-either-%s-or-%s.rst
    messages/class-"%s"-not-found.rst
    messages/class-constant-%s::%s-cannot-have-type-%s.rst
    messages/class-declarations-may-not-be-nested.rst
@@ -248,7 +252,9 @@ PHP Error Messages
    messages/static-property-x::$y-cannot-be-readonly.rst
    messages/strict_types-declaration-must-be-the-very-first-statement-in-the-script.rst
    messages/switch-statements-may-only-contain-one-default-clause.rst
+   messages/syntax-error,-unexpected-')',-expecting-'|'-or-variable-(t_variable).rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-variable.rst
+   messages/syntax-error,-unexpected-token-":".rst
    messages/syntax-error,-unexpected-token-"match".rst
    messages/syntax-error,-unexpected-token-"use".rst
    messages/syntax-error,-unexpected-token-"{".rst
@@ -278,6 +284,7 @@ PHP Error Messages
    messages/uninitialized-string-offset.rst
    messages/unknown-format-specifier-"%c.rst
    messages/unknown-hook-"%s"-for-property-%s::$%s,-expected-"get"-or-"set".rst
+   messages/unknown-named-parameter-$%s.rst
    messages/unparenthesized-`a-?-b-:-c-?-d-:-e`-is-not-supported..rst
    messages/unsupported-operand-types.rst
    messages/unterminated-comment-starting-line-%d.rst

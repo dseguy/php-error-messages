@@ -17,6 +17,9 @@ ___________
  
 The requested class constant doesn't exist.
 
+In the case of an enumeration, this error message is also displayed for the cases: they do have the same syntax, so it is not possible to know if it is a constant or a case.
+
+
 Example
 _______
 
@@ -28,12 +31,17 @@ _______
    
    echo x::Y; 
    
+   enum e { case A;}
+   
+   echo e::B;
+   
    ?>
 
 
 Literal Examples
 ****************
 + Undefined class constant 'x::Y'
++ Undefined class constant 'e::B'
 
 Solutions
 _________
