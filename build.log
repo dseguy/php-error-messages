@@ -1,0 +1,19 @@
+No file feature known for printf in errors/%d-arguments-are-required,-%d.ini
+No file feature known for returntype in errors/%s%s%s():-return-value-must-be-of-type-%s,-%s-returned.ini
+No description for errors/cannot-re-assign-auto-global-variable-%s.ini
+No file feature known for reading in errors/cannot-use-[]-for-reading.ini
+No file feature known for surprising in errors/cannot-use-temporary-expression-in-write-context.ini
+No file feature known for returntype in errors/constructors-cannot-declare-a-return-type.ini
+No file feature known for compatibility in errors/could-not-check-compatibility-between-%s-and-%s,-because-class-%s-is-not-available.ini
+No file feature known for compatibility in errors/declaration-of-%s-must-be-compatible-with-%s.ini
+No file feature known for compatibility in errors/declaration-of-y::foo()-must-be-compatible-with-x::foo($a).ini
+No file feature known for math in errors/exponent-cannot-have-a-fractional-part.ini
+No file feature known for constant-expression in errors/fetching-properties-on-non-enums-in-constant-expressions-is-not-allowed.ini
+No file feature known for datetime in errors/object-of-type-%s-has-not-been-correctly-initialized-by-calling-parent::__construct()-in-its-constructor.ini
+No file feature known for math in errors/power-of-base-0-and-negative-exponent-is-deprecated.ini
+No file feature known for try in errors/syntax-error,-unexpected-\')\',-expecting-\'|\'-or-variable-(t_variable).ini
+No file feature known for catch-anonymous in errors/syntax-error,-unexpected-\')\',-expecting-\'|\'-or-variable-(t_variable).ini
+No file feature known for named parameter in errors/syntax-error,-unexpected-token-":".ini
+No file feature known for relaxed-keyword in errors/syntax-error,-unexpected-token-"match".ini
+No file feature known for printf in errors/unknown-format-specifier-"%c.ini
+No file feature known for named-parameters in errors/unknown-named-parameter-$%s.ini

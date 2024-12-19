@@ -486,7 +486,7 @@ foreach($errors as $file => $message) {
 	
 	$errorlist[] = '   messages/'.$name.'.rst';
 	
-	$sitemap->addItem('https://php-errors.readthedocs.io/en/latest/messages/'.$message->id.'.html');
+	$sitemap->addItem('https://php-errors.readthedocs.io/en/latest/messages/'.urlencode($message->id).'.html');
 }
 
 $changed = file_get_contents('message.rst.in');
