@@ -11,6 +11,11 @@ Features index
       * :ref:`using-\$this-when-not-in-object-context`
 
 
+   * __toString
+
+      * :ref:`object-of-class-%s-could-not-be-converted-to-%s`
+
+
    * abstract
 
       * :ref:`%s-function-%s::%s()-cannot-be-declared-private`
@@ -76,6 +81,7 @@ Features index
    * array-syntax
 
       * :ref:`cannot-use-string-offset-as-an-array`
+      * :ref:`syntax-error,-unexpected-\'[\',-expecting-\';\'-or-\',\'`
 
 
    * arrayaccess
@@ -179,6 +185,7 @@ Features index
       * :ref:`illegal-offset-type-in-isset-or-empty`
       * :ref:`illegal-offset-type-in-unset`
       * :ref:`illegal-offset-type`
+      * :ref:`object-of-class-%s-could-not-be-converted-to-%s`
       * :ref:`the-(real)-cast-has-been-removed,-use-(float)-instead`
       * :ref:`the-(real)-cast-is-deprecated,-use-(float)-instead`
       * :ref:`the-(unset)-cast-is-no-longer-supported`
@@ -852,6 +859,11 @@ Features index
       * :ref:`unparenthesized-\`a-?-b-:-c-?-d-:-e\`-is-not-supported.`
 
 
+   * php-variable
+
+      * :ref:`undefined-variable`
+
+
    * printf
 
       * :ref:`%d-arguments-are-required,-%d`
@@ -990,6 +1002,7 @@ Features index
 
       * :ref:`%s%s%s():-return-value-must-be-of-type-%s,-%s-returned`
       * :ref:`constructors-cannot-declare-a-return-type`
+      * :ref:`returning-bool-from-comparison-function-is-deprecated`
 
 
    * rounding
@@ -1025,6 +1038,11 @@ Features index
    * socket
 
       * :ref:`failed-to-open-stream-from-socketpair`
+
+
+   * spaceship
+
+      * :ref:`returning-bool-from-comparison-function-is-deprecated`
 
 
    * spl
@@ -1063,6 +1081,7 @@ Features index
 
    * strict_types
 
+      * :ref:`object-of-class-%s-could-not-be-converted-to-%s`
       * :ref:`strict_types-declaration-must-be-the-very-first-statement-in-the-script`
 
 
@@ -1075,6 +1094,7 @@ Features index
       * :ref:`cannot-use-string-offset-as-an-array`
       * :ref:`cannot-use-string-offset-as-an-object`
       * :ref:`illegal-string-offset`
+      * :ref:`syntax-error,-unexpected-\'[\',-expecting-\';\'-or-\',\'`
       * :ref:`uninitialized-string-offset`
       * :ref:`using-\${var}-in-strings-is-deprecated,-use-{\$var}-instead`
 

@@ -45,6 +45,7 @@ PHP Error Messages
    messages/accessing-static-trait-property-%s::$%s-is-deprecated.rst
    messages/an-iterator-cannot-be-used-with-foreach-by-reference.rst
    messages/argument-#%d-($%s)-must-be-of-type-%s,-%s-given.rst
+   messages/argument-#1-($value)-must-contain-at-least-one-element.rst
    messages/array-and-string-offset-access-syntax-with-curly-braces-is-deprecated.rst
    messages/array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported.rst
    messages/array-callback-has-to-contain-indices-0-and-1.rst
@@ -221,6 +222,7 @@ PHP Error Messages
    messages/non-enum-class-%s-cannot-implement-interface-%s.rst
    messages/non-static-method-%s::%s()-cannot-be-called-statically.rst
    messages/non-static-method-%s::%s()-should-not-be-called-statically.rst
+   messages/object-of-class-%s-could-not-be-converted-to-%s.rst
    messages/object-of-type-%s-has-not-been-correctly-initialized-by-calling-parent::__construct()-in-its-constructor.rst
    messages/only-hooked-properties-may-be-declared-abstract.rst
    messages/only-internal-classes-can-be-registered-as-compiler-attribute.rst
@@ -245,6 +247,7 @@ PHP Error Messages
    messages/required-parameter-$%s-follows-optional-parameter-$%s.rst
    messages/required-trait-%s-wasn\'t-added-to-%s.rst
    messages/return-value-must-be-of-type-int,-string-returned.rst
+   messages/returning-bool-from-comparison-function-is-deprecated.rst
    messages/returning-by-reference-from-a-void-function-is-deprecated.rst
    messages/spread-operator-is-not-supported-in-assignments.rst
    messages/static-function-%s%s%s()-cannot-be-abstract.rst
@@ -253,6 +256,7 @@ PHP Error Messages
    messages/strict_types-declaration-must-be-the-very-first-statement-in-the-script.rst
    messages/switch-statements-may-only-contain-one-default-clause.rst
    messages/syntax-error,-unexpected-')',-expecting-'|'-or-variable-(t_variable).rst
+   messages/syntax-error,-unexpected-'[',-expecting-';'-or-','.rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-variable.rst
    messages/syntax-error,-unexpected-token-":".rst
    messages/syntax-error,-unexpected-token-"match".rst

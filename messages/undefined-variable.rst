@@ -21,6 +21,9 @@ The situation arises when reading a variable, such as the ``echo`` call here. It
 
 It also happens when using the ``compact`` native function: it collects the values of variables into an array, and emits this error whenever the variable doesn't exist. The entry is also skipped in the result.
 
+The error may be related to a PHP defined variable, which is not available due to version or context. For example, ``$phperrormsg`` was removed in PHP 8.0, and ``$_GET`` is not available in command line context, aka, without a web server.
+
+
 Example
 _______
 
@@ -38,6 +41,8 @@ Solutions
 _________
 
 + Give the variable a default value.
++ Check if the version supports the PHP defined variable.
++ Check if the context supports the variable: web or command line.
 
 Related Error Messages
 ______________________
