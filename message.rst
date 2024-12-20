@@ -101,6 +101,7 @@ PHP Error Messages
    messages/cannot-pass-parameter-%d-by-reference.rst
    messages/cannot-perform-bitwise-not-on-%s.rst
    messages/cannot-re-assign-$this.rst
+   messages/cannot-re-assign-auto-global-variable-%s.rst
    messages/cannot-redeclare-%s()-(previously-declared-in-%s:%d).rst
    messages/cannot-redeclare-property-hook.rst
    messages/cannot-redefine-class-constant.rst
@@ -262,6 +263,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-"match".rst
    messages/syntax-error,-unexpected-token-"use".rst
    messages/syntax-error,-unexpected-token-"{".rst
+   messages/the-$escape-parameter-must-be-provided-as-its-default-value-will-change.rst
    messages/the-(real)-cast-has-been-removed,-use-(float)-instead.rst
    messages/the-(real)-cast-is-deprecated,-use-(float)-instead.rst
    messages/the-(unset)-cast-is-deprecated.rst
@@ -275,6 +277,7 @@ PHP Error Messages
    messages/type-%s-contains-both-iterable-and-array.rst
    messages/type-contains-both-true-and-false,-bool-must-be-used-instead.rst
    messages/type-declaration-'%s'-must-be-unqualified.rst
+   messages/type-must-be-a-single-character.rst
    messages/typed-property-%s\:\:$%s-must-not-be-accessed-before-initialization.rst
    messages/typed-static-property-%s::$%s-must-not-be-accessed-before-initialization.rst
    messages/undefined-array-key.rst

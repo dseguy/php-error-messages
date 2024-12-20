@@ -37,3 +37,4 @@ Related Error Messages
 ______________________
 
 + :ref:`cannot-unset-$this`
++ :ref:`cannot-re-assign-auto-global-variable-%s`

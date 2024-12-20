@@ -38,6 +38,11 @@ Features index
       * :ref:`cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s`
 
 
+   * anonymous-catch
+
+      * :ref:`syntax-error,-unexpected-\')\',-expecting-\'|\'-or-variable-(t_variable)`
+
+
    * append
 
       * :ref:`cannot-use-[]-for-reading`
@@ -196,11 +201,6 @@ Features index
       * :ref:`syntax-error,-unexpected-\')\',-expecting-\'|\'-or-variable-(t_variable)`
 
 
-   * catch-anonymous
-
-      * :ref:`syntax-error,-unexpected-\')\',-expecting-\'|\'-or-variable-(t_variable)`
-
-
    * character
 
       * :ref:`cannot-assign-an-empty-string-to-a-string-offset`
@@ -328,6 +328,11 @@ Features index
       * :ref:`continue-operator-accepts-only-positive-integers`
 
 
+   * csv
+
+      * :ref:`the-\$escape-parameter-must-be-provided-as-its-default-value-will-change`
+
+
    * curly-bracket
 
       * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-deprecated`
@@ -412,6 +417,11 @@ Features index
    * error
 
       * :ref:`%s-%s-cannot-implement-interface-%s,-extend-exception-or-error-instead`
+
+
+   * escape
+
+      * :ref:`the-\$escape-parameter-must-be-provided-as-its-default-value-will-change`
 
 
    * exception
@@ -719,17 +729,14 @@ Features index
       * :ref:`illegal-class-name`
 
 
-   * named parameter
-
-      * :ref:`syntax-error,-unexpected-token-":"`
-
-
    * named-parameter
 
       * :ref:`%s%s%s()-does-not-accept-unknown-named-parameters`
       * :ref:`array_merge()-does-not-accept-unknown-named-parameters`
       * :ref:`duplicate-named-parameter-\$%s`
       * :ref:`optional-parameter-\$%s-declared-before-required-parameter-\$%s-is-implicitly-treated-as-a-required-parameter`
+      * :ref:`syntax-error,-unexpected-token-":"`
+      * :ref:`the-\$escape-parameter-must-be-provided-as-its-default-value-will-change`
 
 
    * named-parameters
@@ -996,13 +1003,13 @@ Features index
       * :ref:`a-function-with-return-type-must-return-a-value`
       * :ref:`division-of-php_int_min-by--1-is-not-an-integer`
       * :ref:`return-value-must-be-of-type-int,-string-returned`
+      * :ref:`returning-bool-from-comparison-function-is-deprecated`
 
 
    * returntype
 
       * :ref:`%s%s%s():-return-value-must-be-of-type-%s,-%s-returned`
       * :ref:`constructors-cannot-declare-a-return-type`
-      * :ref:`returning-bool-from-comparison-function-is-deprecated`
 
 
    * rounding
@@ -1033,6 +1040,11 @@ Features index
       * :ref:`array_product():-multiplication-is-not-supported-on-type-array`
       * :ref:`array_product():-multiplication-is-not-supported-on-type-object`
       * :ref:`array_product():-multiplication-is-not-supported-on-type-string`
+
+
+   * snmp
+
+      * :ref:`type-must-be-a-single-character`
 
 
    * socket
@@ -1099,6 +1111,11 @@ Features index
       * :ref:`using-\${var}-in-strings-is-deprecated,-use-{\$var}-instead`
 
 
+   * superglobal
+
+      * :ref:`cannot-re-assign-auto-global-variable-%s`
+
+
    * supertype
 
       * :ref:`generator-return-type-must-be-a-supertype-of-generator`
@@ -1157,7 +1174,7 @@ Features index
       * :ref:`type-contains-both-true-and-false,-bool-must-be-used-instead`
 
 
-   * try
+   * try-catch
 
       * :ref:`syntax-error,-unexpected-\')\',-expecting-\'|\'-or-variable-(t_variable)`
 
@@ -1206,6 +1223,11 @@ Features index
 
       * :ref:`call-to-undefined-function`
       * :ref:`class-%s-is-not-a-trait`
+
+
+   * validation
+
+      * :ref:`argument-#1-(\$value)-must-contain-at-least-one-element`
 
 
    * variable

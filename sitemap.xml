@@ -289,6 +289,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-re-assign-%24this.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-re-assign-auto-global-variable-%25s.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-%25s%28%29-%28previously-declared-in-%25s%3A%25d%29.html</loc>
  </url>
  <url>
@@ -772,6 +775,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%7B%22.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-%24escape-parameter-must-be-provided-as-its-default-value-will-change.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-%28real%29-cast-has-been-removed%2C-use-%28float%29-instead.html</loc>
  </url>
  <url>
@@ -809,6 +815,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/type-declaration-%27%25s%27-must-be-unqualified.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/type-must-be-a-single-character.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/typed-property-%25s%5C%3A%5C%3A%24%25s-must-not-be-accessed-before-initialization.html</loc>
