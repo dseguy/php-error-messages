@@ -49,3 +49,8 @@ html_theme_options = {
     'github_user':'dseguy',
     'description': 'All the PHP error messages, under one roof, with explanations.',
 }
+
+html_js_files = [
+    'js/custom.js',
+    'https://www.googletagmanager.com/gtag/js?id=G-29LCZ34CDW'
+]
