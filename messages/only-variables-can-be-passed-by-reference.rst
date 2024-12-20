@@ -1,16 +1,16 @@
-.. _only-variables-should-be-passed-by-reference:
+.. _only-variables-can-be-passed-by-reference:
 
-Only variables should be passed by reference
---------------------------------------------
+Only variables can be passed by reference
+-----------------------------------------
  
 	.. meta::
 		:description:
-			Only variables should be passed by reference: Methods arguments may be passed by value or by reference.
+			Only variables can be passed by reference: Methods arguments may be passed by value or by reference.
 
 		:og:type: article
-		:og:title: Only variables should be passed by reference
+		:og:title: Only variables can be passed by reference
 		:og:description: Methods arguments may be passed by value or by reference
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/only-variables-should-be-passed-by-reference.html
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/only-variables-can-be-passed-by-reference.html
 
 Description
 ___________
@@ -31,14 +31,9 @@ _______
 
    <?php
    
-   function foo(int &$int) {
-       // doSomething
-   }
+   function foo(&$a) {}
    
-   // the result of a function is still a literal value
-   foo(abs(-3));
-   // a direct literal value generates that error
-   foo(3);
+   foo(1);
    
    ?>
 
@@ -54,4 +49,4 @@ _________
 + Remove the reference from the called method signature.
 
 
-In previous PHP versions, this error message used to be :ref:`only-variables-can-be-passed-by-reference`.
+In more recent PHP versions, this error message is now :ref:`only-variables-should-be-passed-by-reference`.

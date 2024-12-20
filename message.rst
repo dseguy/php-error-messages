@@ -229,6 +229,7 @@ PHP Error Messages
    messages/only-internal-classes-can-be-registered-as-compiler-attribute.rst
    messages/only-variable-references-should-be-returned-by-reference.rst
    messages/only-variable-references-should-be-yielded-by-reference.rst
+   messages/only-variables-can-be-passed-by-reference.rst
    messages/only-variables-should-be-passed-by-reference.rst
    messages/optional-parameter-$%s-declared-before-required-parameter-$%s-is-implicitly-treated-as-a-required-parameter.rst
    messages/parameter-uses-'parent'-as-type-hint-although-class-does-not-have-a-parent\!.rst
@@ -260,6 +261,8 @@ PHP Error Messages
    messages/syntax-error,-unexpected-'[',-expecting-';'-or-','.rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-variable.rst
    messages/syntax-error,-unexpected-token-":".rst
+   messages/syntax-error,-unexpected-token-"?".rst
+   messages/syntax-error,-unexpected-token-"??".rst
    messages/syntax-error,-unexpected-token-"match".rst
    messages/syntax-error,-unexpected-token-"use".rst
    messages/syntax-error,-unexpected-token-"{".rst

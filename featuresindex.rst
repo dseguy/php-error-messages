@@ -55,6 +55,7 @@ Features index
       * :ref:`%s():-argument-#%d%s%s%s-could-not-be-passed-by-reference`
       * :ref:`argument-#%d-(\$%s)-must-be-of-type-%s,-%s-given`
       * :ref:`calling-get_parent_class()-without-arguments-is-deprecated`
+      * :ref:`only-variables-can-be-passed-by-reference`
       * :ref:`only-variables-should-be-passed-by-reference`
 
 
@@ -261,6 +262,7 @@ Features index
 
    * coalesce
 
+      * :ref:`syntax-error,-unexpected-token-"??"`
       * :ref:`typed-property-%s::\$%s-must-not-be-accessed-before-initialization`
       * :ref:`typed-static-property-%s::\$%s-must-not-be-accessed-before-initialization`
 
@@ -422,7 +424,7 @@ Features index
       * :ref:`%s-%s-cannot-implement-interface-%s,-extend-exception-or-error-instead`
 
 
-   * escape
+   * escape-data
 
       * :ref:`the-\$escape-parameter-must-be-provided-as-its-default-value-will-change`
 
@@ -740,10 +742,6 @@ Features index
       * :ref:`optional-parameter-\$%s-declared-before-required-parameter-\$%s-is-implicitly-treated-as-a-required-parameter`
       * :ref:`syntax-error,-unexpected-token-":"`
       * :ref:`the-\$escape-parameter-must-be-provided-as-its-default-value-will-change`
-
-
-   * named-parameters
-
       * :ref:`unknown-named-parameter-\$%s`
 
 
@@ -969,6 +967,7 @@ Features index
       * :ref:`cannot-use-variable-\$%s-twice`
       * :ref:`only-variable-references-should-be-returned-by-reference`
       * :ref:`only-variable-references-should-be-yielded-by-reference`
+      * :ref:`only-variables-can-be-passed-by-reference`
       * :ref:`only-variables-should-be-passed-by-reference`
       * :ref:`returning-by-reference-from-a-void-function-is-deprecated`
 
@@ -984,7 +983,7 @@ Features index
       * :ref:`\'namespace\%s\'-is-an-invalid-class-name`
 
 
-   * relaxed-keyword
+   * relaxed-syntax
 
       * :ref:`syntax-error,-unexpected-token-"match"`
 
@@ -1139,6 +1138,7 @@ Features index
 
    * ternary
 
+      * :ref:`syntax-error,-unexpected-token-"?"`
       * :ref:`unparenthesized-\`a-?-b-:-c-?-d-:-e\`-is-not-supported.`
 
 
@@ -1191,6 +1191,7 @@ Features index
       * :ref:`cannot-assign-%s-to-class-constant-%s::%s-of-type`
       * :ref:`duplicate-type-%s-is-redundant`
       * :ref:`is-an-invalid-class-name`
+      * :ref:`syntax-error,-unexpected-token-"?"`
 
 
    * typed-property
