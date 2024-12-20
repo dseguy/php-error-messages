@@ -295,6 +295,9 @@ PHP Error Messages
    messages/unparenthesized-`a-?-b-:-c-?-d-:-e`-is-not-supported..rst
    messages/unsupported-operand-types.rst
    messages/unterminated-comment-starting-line-%d.rst
+   messages/use-of-"parent"-in-callables-is-deprecated.rst
+   messages/use-of-"self"-in-callables-is-deprecated.rst
+   messages/use-of-"static"-in-callables-is-deprecated.rst
    messages/using-$this-when-not-in-object-context.rst
    messages/using-${expr}-(variable-variables)-in-strings-is-deprecated,-use-{${expr}}-instead.rst
    messages/using-${var}-in-strings-is-deprecated,-use-{$var}-instead.rst

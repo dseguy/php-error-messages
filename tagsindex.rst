@@ -132,6 +132,13 @@ Tag index
       * :ref:`cannot-use-\'never\'-as-class-name-as-it-is-reserved`
 
 
+   * late-static-binding
+
+      * :ref:`use-of-\"parent\"-in-callables-is-deprecated`
+      * :ref:`use-of-\"self\"-in-callables-is-deprecated`
+      * :ref:`use-of-\"static\"-in-callables-is-deprecated`
+
+
    * lint
 
       * :ref:`a-function-with-return-type-must-return-a-value`

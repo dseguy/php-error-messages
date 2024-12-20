@@ -254,6 +254,9 @@ Features index
    * closure
 
       * :ref:`cannot-use-variable-\$%s-twice`
+      * :ref:`use-of-\"parent\"-in-callables-is-deprecated`
+      * :ref:`use-of-\"self\"-in-callables-is-deprecated`
+      * :ref:`use-of-\"static\"-in-callables-is-deprecated`
 
 
    * coalesce
@@ -1000,16 +1003,12 @@ Features index
 
    * return-type
 
+      * :ref:`%s%s%s():-return-value-must-be-of-type-%s,-%s-returned`
       * :ref:`a-function-with-return-type-must-return-a-value`
+      * :ref:`constructors-cannot-declare-a-return-type`
       * :ref:`division-of-php_int_min-by--1-is-not-an-integer`
       * :ref:`return-value-must-be-of-type-int,-string-returned`
       * :ref:`returning-bool-from-comparison-function-is-deprecated`
-
-
-   * returntype
-
-      * :ref:`%s%s%s():-return-value-must-be-of-type-%s,-%s-returned`
-      * :ref:`constructors-cannot-declare-a-return-type`
 
 
    * rounding
@@ -1028,6 +1027,9 @@ Features index
       * :ref:`call-to-%s-%s::%s()-from-global-scope`
       * :ref:`cannot-access-parent::-when-current-class-scope-has-no-parent`
       * :ref:`cannot-modify-readonly-property-%s::\$%s`
+      * :ref:`use-of-\"parent\"-in-callables-is-deprecated`
+      * :ref:`use-of-\"self\"-in-callables-is-deprecated`
+      * :ref:`use-of-\"static\"-in-callables-is-deprecated`
 
 
    * self
@@ -1071,6 +1073,9 @@ Features index
       * :ref:`non-static-method-%s::%s()-should-not-be-called-statically`
       * :ref:`static-property-%s::\$%s-cannot-be-readonly`
       * :ref:`static-property-x::\$y-cannot-be-readonly`
+      * :ref:`use-of-\"parent\"-in-callables-is-deprecated`
+      * :ref:`use-of-\"self\"-in-callables-is-deprecated`
+      * :ref:`use-of-\"static\"-in-callables-is-deprecated`
 
 
    * static-property
