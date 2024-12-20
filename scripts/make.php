@@ -269,6 +269,7 @@ foreach($files as $file) {
     		buildlog("extension should be an array in $file");
 	    	++$warnings;
 	    } else {
+	        $error->extension = array_filter($error->extension);
 	        foreach($error->extension as $extension) {
 	            if (!file_exists("../analyzeG3/human/en/Features/$extension.ini")) {
             		buildlog("extension $extension is not defined in the dictionary in $file");
@@ -290,6 +291,9 @@ foreach($files as $file) {
 		
 		foreach($error->related as $related) {
 			if (!file_exists('errors/'.$related.'.ini')) {
+			    if (str_contains(' ', $related)) {
+			        buildlog("related should not contain spaces in $file.");
+			    }
 				buildlog("No such related file as '$related' in $file");
 				++$warnings;
 				die("No such related file as '$related' in $file");
