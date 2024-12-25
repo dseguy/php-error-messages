@@ -51,12 +51,14 @@ Features index
    * argument
 
       * :ref:`%s%s%s():-argument-#%d%s%s%s-must-be-passed-by-reference,-value-given`
+      * :ref:`%s()-expects-exactly-0-arguments,-%d-given`
       * :ref:`%s():-argument-#%d%s%s%s-cannot-not-be-passed-by-reference`
       * :ref:`%s():-argument-#%d%s%s%s-could-not-be-passed-by-reference`
       * :ref:`argument-#%d-(\$%s)-must-be-of-type-%s,-%s-given`
       * :ref:`calling-get_parent_class()-without-arguments-is-deprecated`
       * :ref:`only-variables-can-be-passed-by-reference`
       * :ref:`only-variables-should-be-passed-by-reference`
+      * :ref:`too-few-arguments-to-function-%s%s%s(),-%d-passed-in-%s-on-line-%d-and-%s-%d-expected`
 
 
    * array
@@ -165,8 +167,11 @@ Features index
 
    * call
 
+      * :ref:`%s()-expects-exactly-0-arguments,-%d-given`
       * :ref:`call-to-%s-%s::%s()-from-global-scope`
       * :ref:`never-returning-function-must-not-implicitly-return`
+      * :ref:`too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d-expected`
+      * :ref:`too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d`
 
 
    * callable
@@ -254,6 +259,7 @@ Features index
 
    * closure
 
+      * :ref:`cannot-bind-an-instance-to-a-static-closure`
       * :ref:`cannot-use-variable-\$%s-twice`
       * :ref:`use-of-\"parent\"-in-callables-is-deprecated`
       * :ref:`use-of-\"self\"-in-callables-is-deprecated`
@@ -364,6 +370,12 @@ Features index
 
       * :ref:`default-value-for-property-of-type-int-may-not-be-null.-use-the-nullable-type-?int-to-allow-null-default-value`
       * :ref:`readonly-property-%s::\$%s-cannot-have-default-value`
+
+
+   * default-value
+
+      * :ref:`cannot-use-%s-as-default-value-for-parameter-\$%s-of-type-%s`
+      * :ref:`default-value-for-parameters-with-a-%s-type-can-only-be-%s-or-null`
 
 
    * definition
@@ -720,6 +732,8 @@ Features index
       * :ref:`cannot-use-\'readonly\'-as-method-modifier`
       * :ref:`non-static-method-%s::%s()-cannot-be-called-statically`
       * :ref:`non-static-method-%s::%s()-should-not-be-called-statically`
+      * :ref:`too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d-expected`
+      * :ref:`too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d`
       * :ref:`trying-to-invoke-%s-method-%s::%s()-from-scope-%s`
 
 
@@ -790,6 +804,11 @@ Features index
       * :ref:`call-to-a-member-function-%s()-on-%s`
 
 
+   * nullsafe-object-operator
+
+      * :ref:`%s()-argument-#%d%s%s%s-cannot-be-passed-by-reference`
+
+
    * object
 
       * :ref:`cannot-use-object-of-type-%s-as-array`
@@ -841,7 +860,9 @@ Features index
    * parameter
 
       * :ref:`%s():-implicitly-marking-parameter-\$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead`
+      * :ref:`cannot-use-%s-as-default-value-for-parameter-\$%s-of-type-%s`
       * :ref:`cannot-use-lexical-variable-%s-as-a-parameter-name`
+      * :ref:`default-value-for-parameters-with-a-%s-type-can-only-be-%s-or-null`
       * :ref:`named-parameter-\$x-overwrites-previous-argument`
       * :ref:`optional-parameter-\$%s-declared-before-required-parameter-\$%s-is-implicitly-treated-as-a-required-parameter`
       * :ref:`parameter-uses-\'parent\'-as-type-hint-although-class-does-not-have-a-parent\!`
@@ -959,6 +980,7 @@ Features index
    * reference
 
       * :ref:`%s%s%s():-argument-#%d%s%s%s-must-be-passed-by-reference,-value-given`
+      * :ref:`%s()-argument-#%d%s%s%s-cannot-be-passed-by-reference`
       * :ref:`%s():-argument-#%d%s%s%s-cannot-not-be-passed-by-reference`
       * :ref:`%s():-argument-#%d%s%s%s-could-not-be-passed-by-reference`
       * :ref:`an-iterator-cannot-be-used-with-foreach-by-reference`
@@ -1025,6 +1047,7 @@ Features index
 
       * :ref:`call-to-%s-%s::%s()-from-global-scope`
       * :ref:`cannot-access-parent::-when-current-class-scope-has-no-parent`
+      * :ref:`cannot-bind-an-instance-to-a-static-closure`
       * :ref:`cannot-modify-readonly-property-%s::\$%s`
       * :ref:`use-of-\"parent\"-in-callables-is-deprecated`
       * :ref:`use-of-\"self\"-in-callables-is-deprecated`
@@ -1189,6 +1212,8 @@ Features index
       * :ref:`%s():-implicitly-marking-parameter-\$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead`
       * :ref:`argument-#%d-(\$%s)-must-be-of-type-%s,-%s-given`
       * :ref:`cannot-assign-%s-to-class-constant-%s::%s-of-type`
+      * :ref:`cannot-use-%s-as-default-value-for-parameter-\$%s-of-type-%s`
+      * :ref:`default-value-for-parameters-with-a-%s-type-can-only-be-%s-or-null`
       * :ref:`duplicate-type-%s-is-redundant`
       * :ref:`is-an-invalid-class-name`
       * :ref:`syntax-error,-unexpected-token-"?"`

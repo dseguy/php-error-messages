@@ -10,6 +10,8 @@ PHP Error Messages
    messages/%s%s%s()-does-not-accept-unknown-named-parameters.rst
    messages/%s%s%s():-argument-#%d%s%s%s-must-be-passed-by-reference,-value-given.rst
    messages/%s%s%s():-return-value-must-be-of-type-%s,-%s-returned.rst
+   messages/%s():-argument-#%d%s%s%s-cannot-be-passed-by-reference.rst
+   messages/%s()-expects-exactly-0-arguments,-%d-given.rst
    messages/%s():-argument-#%d%s%s%s-cannot-not-be-passed-by-reference.rst
    messages/%s():-argument-#%d%s%s%s-could-not-be-passed-by-reference.rst
    messages/%s():-implicitly-marking-parameter-$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead.rst
@@ -81,6 +83,7 @@ PHP Error Messages
    messages/cannot-assign-%s-to-class-constant-%s::%s-of-type.rst
    messages/cannot-assign-an-empty-string-to-a-string-offset.rst
    messages/cannot-be-a-class-constant.rst
+   messages/cannot-bind-an-instance-to-a-static-closure.rst
    messages/cannot-call-constructor.rst
    messages/cannot-declare-hooks-for-static-property.rst
    messages/cannot-declare-promoted-property-in-an-abstract-constructor.rst
@@ -112,6 +115,7 @@ PHP Error Messages
    messages/cannot-unset-hooked-property-%s::$%s.rst
    messages/cannot-unset-offset-in-a-non-array-variable.rst
    messages/cannot-unset-string-offsets.rst
+   messages/cannot-use-%s-as-default-value-for-parameter-$%s-of-type-%s.rst
    messages/cannot-use-'mixed'-as-class-name-as-it-is-reserved.rst
    messages/cannot-use-'never'-as-class-name-as-it-is-reserved.rst
    messages/cannot-use-'readonly'-as-method-modifier.rst
@@ -158,6 +162,7 @@ PHP Error Messages
    messages/datetimeinterface-can\\'t-be-implemented-by-user-classes.rst
    messages/declaration-of-%s-must-be-compatible-with-%s.rst
    messages/declaration-of-y::foo()-must-be-compatible-with-x::foo($a).rst
+   messages/default-value-for-parameters-with-a-%s-type-can-only-be-%s-or-null.rst
    messages/default-value-for-property-of-type-int-may-not-be-null.-use-the-nullable-type-?int-to-allow-null-default-value.rst
    messages/define():-argument-#3-($case_insensitive)-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported.rst
    messages/define():-declaration-of-case-insensitive-constants-is-deprecated.rst
@@ -273,6 +278,9 @@ PHP Error Messages
    messages/the-(unset)-cast-is-no-longer-supported.rst
    messages/the-"generator"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated.rst
    messages/the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls.rst
+   messages/too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d-expected.rst
+   messages/too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d.rst
+   messages/too-few-arguments-to-function-%s%s%s(),-%d-passed-in-%s-on-line-%d-and-%s-%d-expected.rst
    messages/traits-cannot-have-constants.rst
    messages/trying-to-access-array-offset-on-%s.rst
    messages/trying-to-clone-an-uncloneable-object-of-class-%s.rst

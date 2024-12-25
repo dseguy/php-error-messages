@@ -9,6 +9,12 @@ Tag index
       * :ref:`non-abstract-method-%s::%s()-must-contain-body`
 
 
+   * argument
+
+      * :ref:`too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d-expected`
+      * :ref:`too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d`
+
+
    * arrays
 
       * :ref:`automatic-conversion-of-false-to-array-is-deprecated`
