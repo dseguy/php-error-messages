@@ -300,6 +300,11 @@ Features index
       * :ref:`class-declarations-may-not-be-nested`
 
 
+   * const
+
+      * :ref:`syntax-error,-unexpected-\'-\',-expecting-\'=\'`
+
+
    * constant
 
       * :ref:`"static::"-is-not-allowed-in-compile-time-constants`
@@ -307,6 +312,7 @@ Features index
       * :ref:`constant-%s-is-deprecated`
       * :ref:`define():-argument-#3-(\$case_insensitive)-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported`
       * :ref:`define():-declaration-of-case-insensitive-constants-is-deprecated`
+      * :ref:`syntax-error,-unexpected-\'-\',-expecting-\'=\'`
       * :ref:`undefined-constant-\"%s`
 
 

@@ -10,7 +10,7 @@ PHP Error Messages
    messages/%s%s%s()-does-not-accept-unknown-named-parameters.rst
    messages/%s%s%s():-argument-#%d%s%s%s-must-be-passed-by-reference,-value-given.rst
    messages/%s%s%s():-return-value-must-be-of-type-%s,-%s-returned.rst
-   messages/%s():-argument-#%d%s%s%s-cannot-be-passed-by-reference.rst
+   messages/%s()-argument-#%d%s%s%s-cannot-be-passed-by-reference.rst
    messages/%s()-expects-exactly-0-arguments,-%d-given.rst
    messages/%s():-argument-#%d%s%s%s-cannot-not-be-passed-by-reference.rst
    messages/%s():-argument-#%d%s%s%s-could-not-be-passed-by-reference.rst
@@ -263,6 +263,7 @@ PHP Error Messages
    messages/strict_types-declaration-must-be-the-very-first-statement-in-the-script.rst
    messages/switch-statements-may-only-contain-one-default-clause.rst
    messages/syntax-error,-unexpected-')',-expecting-'|'-or-variable-(t_variable).rst
+   messages/syntax-error,-unexpected-'-',-expecting-'='.rst
    messages/syntax-error,-unexpected-'[',-expecting-';'-or-','.rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-variable.rst
    messages/syntax-error,-unexpected-token-":".rst
