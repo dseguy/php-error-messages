@@ -59,6 +59,7 @@ $files = array_diff($files, ['errors/skeleton.ini']);
 $stats = array('author' => 0,
 				);
 $errors   = array();
+$syntaxErrors = array();
 $titles   = array();
 $reciproq = array();
 $nextprev = array();
@@ -123,6 +124,10 @@ foreach($files as $file) {
 		print "Omitting $file\n";
 		continue;
 	}
+	
+	if (isset($error->examples)) {
+    	$error->examples = array_filter($error->examples);
+	}
 
 	if (!is_array($error->tags)) {
 		print("No array for tags in $file\n");
@@ -141,6 +146,11 @@ foreach($files as $file) {
 		buildlog("No code for $file");
 		++$warnings;
 		continue;
+	}
+
+	if (preg_match('/(trait|class|enum|interface|const) [a-z]/', $error->code, $r)) {
+		buildlog("No lower case name in code in $file");
+		++$warnings;
 	}
 
 	if (!is_array($error->features)) {
@@ -336,6 +346,10 @@ foreach($files as $file) {
 			buildlog("seeAlso is not an array in $file");
 			++$warnings;
 		}
+	}
+	
+	if (in_array('syntax-error', $error->tags, true)) {
+	    $syntaxErrors[$error->error] = $error->id;
 	}
 	$errors[$file] = $error;
 	$titles[basename($file, '.ini')] = $error->error;
@@ -536,10 +550,27 @@ foreach($features as $feature => $refs) {
 
 file_put_contents('featuresindex.rst', implode(PHP_EOL, $featuresRst));
 
+$syntaxErrorsRst = array('.. _syntaxerror:',
+'',
+'Syntax errors',
+'-----------------------------',
+'',
+'Here is a list of classic syntax errors, met in every day code. Some common solutions are listed with them, so as to help anyone meeting them.',
+'',
+);
+ksort($syntaxErrors);
+$syntaxErrorsRst[] = '';
+foreach($syntaxErrors as $title => $ref) {
+	$syntaxErrorsRst[] = '      * :ref:`'.$ref.'`';
+}
+$syntaxErrorsRst[] = '';
+
+file_put_contents('syntaxerror.rst', implode(PHP_EOL, $syntaxErrorsRst));
 
 
 // Final summary
 print "processed ".count($tags)." tags\n";
+print "processed ".count($syntaxErrors)." syntax errors\n";
 print "processed ".count($features)." features\n";
 print "processed ".count($files)." files\n";
 print "processed ".count($extensions)." extensions\n";
