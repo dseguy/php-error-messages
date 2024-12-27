@@ -26,7 +26,7 @@ _______
 
    <?php
    
-   class x {
+   class X {
        const int A = '3';
    }
    ?>

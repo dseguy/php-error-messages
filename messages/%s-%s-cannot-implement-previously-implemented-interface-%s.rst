@@ -33,15 +33,15 @@ _______
 
    <?php
    
-   enum x implements unitenum {}
+   enum X implements UnitEnum {}
    
-   interface j extends i, i {}
+   interface J extends I, I {}
    
-   class x implements i {}
+   class X implements I {}
    
    // This is OK
    // It is also duplicate and useless, but valid.
-   class y extends x implements i {}
+   class Y extends X implements I {}
    
    ?>
 

@@ -121,6 +121,12 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/accessing-static-trait-property-%25s%3A%3A%24%25s-is-deprecated.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/an-alias-%28%25s%29-was-defined-for-method-%25s%28%29%2C-but-this-method-does-not-exist.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/an-alias-was-defined-for-%25s%3A%3A%25s-but-this-method-does-not-exist.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/an-iterator-cannot-be-used-with-foreach-by-reference.html</loc>
  </url>
  <url>
@@ -442,6 +448,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/classes-must-be-first-marked-as-attribute-before-being-able-to-be-registered-as-internal-attribute-class.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/constant-%25s-already-defined.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/constant-%25s-is-deprecated.html</loc>
  </url>
  <url>
@@ -643,6 +652,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/namespace-declarations-cannot-be-nested.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/needle-is-not-a-string-or-an-integer.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/never-cannot-be-used-as-a-parameter-type.html</loc>
  </url>
  <url>
@@ -668,6 +680,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/non-static-method-%25s%3A%3A%25s%28%29-should-not-be-called-statically.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/non-string-needles-will-be-interpreted-as-strings-in-the-future.-use-an-explicit-chr%28%29-call-to-preserve-the-current-behavior.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/object-of-class-%25s-could-not-be-converted-to-%25s.html</loc>

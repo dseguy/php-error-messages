@@ -24,11 +24,6 @@ _______
 
    
 
-
-Literal Examples
-****************
-+ 
-
 Solutions
 _________
 

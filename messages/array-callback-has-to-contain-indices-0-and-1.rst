@@ -29,9 +29,11 @@ _______
 
    <?php
    
-   class x { static function foo() {} }
+   class X { 
+       static function foo() {} 
+   }
    
-   $callback = [3 => x::class, 'foo'];
+   $callback = [3 => X::class, 'foo'];
    
    $callback();
    

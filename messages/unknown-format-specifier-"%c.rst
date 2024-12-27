@@ -28,11 +28,6 @@ _______
        //Unknown format specifier \w\\
    ?>
 
-
-Literal Examples
-****************
-+ 
-
 Solutions
 _________
 

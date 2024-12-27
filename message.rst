@@ -45,6 +45,8 @@ PHP Error Messages
    messages/access-type-for-interface-method-%s::%s()-must-be-public.rst
    messages/accessing-static-trait-property-%s::$%s-is-deprecated,-it-should-only-be-accessed-on-a-class-using-the-trait.rst
    messages/accessing-static-trait-property-%s::$%s-is-deprecated.rst
+   messages/an-alias-(%s)-was-defined-for-method-%s(),-but-this-method-does-not-exist.rst
+   messages/an-alias-was-defined-for-%s::%s-but-this-method-does-not-exist.rst
    messages/an-iterator-cannot-be-used-with-foreach-by-reference.rst
    messages/argument-#%d-($%s)-must-be-of-type-%s,-%s-given.rst
    messages/argument-#1-($value)-must-contain-at-least-one-element.rst
@@ -152,6 +154,7 @@ PHP Error Messages
    messages/class-constant-%s::%s-cannot-have-type-%s.rst
    messages/class-declarations-may-not-be-nested.rst
    messages/classes-must-be-first-marked-as-attribute-before-being-able-to-be-registered-as-internal-attribute-class.rst
+   messages/constant-%s-already-defined.rst
    messages/constant-%s-is-deprecated.rst
    messages/constant-%s::%s-is-deprecated.rst
    messages/constant-expression-contains-invalid-operations.rst
@@ -219,6 +222,7 @@ PHP Error Messages
    messages/must-not-use-parent::$%s::%s()-outside-a-property-hook.rst
    messages/named-parameter-$x-overwrites-previous-argument.rst
    messages/namespace-declarations-cannot-be-nested.rst
+   messages/needle-is-not-a-string-or-an-integer.rst
    messages/never-cannot-be-used-as-a-parameter-type.rst
    messages/never-returning-function-must-not-implicitly-return.rst
    messages/new-expressions-are-not-supported-in-this-context.rst
@@ -228,6 +232,7 @@ PHP Error Messages
    messages/non-enum-class-%s-cannot-implement-interface-%s.rst
    messages/non-static-method-%s::%s()-cannot-be-called-statically.rst
    messages/non-static-method-%s::%s()-should-not-be-called-statically.rst
+   messages/non-string-needles-will-be-interpreted-as-strings-in-the-future.-use-an-explicit-chr()-call-to-preserve-the-current-behavior.rst
    messages/object-of-class-%s-could-not-be-converted-to-%s.rst
    messages/object-of-type-%s-has-not-been-correctly-initialized-by-calling-parent::__construct()-in-its-constructor.rst
    messages/only-hooked-properties-may-be-declared-abstract.rst

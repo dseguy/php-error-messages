@@ -26,12 +26,12 @@ _______
 
    <?php
    
-   class x {
+   class X {
        public function foo() {}
        private function goo() {}
    }
    
-   $x = new x;
+   $x = new X;
    $x->goo();
    
    ?>

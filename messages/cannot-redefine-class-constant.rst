@@ -23,6 +23,8 @@ At the class, interface, trait level, the constants must all be distinct.
 
 At the enumeration level, the naming conflict may arise between a case and a const: the error message is then the same.
 
+This error applies to class constants, and there is a different error for global constants.
+
 
 Example
 _______
@@ -49,3 +51,8 @@ _________
 + Remove one of the constant.
 + Rename one of the constant.
 + Move one of the constant to a parent, trait or interface.
+
+Related Error Messages
+______________________
+
++ :ref:`constant-%s-already-defined`

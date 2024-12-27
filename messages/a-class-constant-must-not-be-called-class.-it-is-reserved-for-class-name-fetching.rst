@@ -26,8 +26,9 @@ _______
 
    <?php
    
-   class x {
-   	const class = 1;
+   class X {
+   	const CLASS = 1;
+   	// the problem is case insensitive: class, Class, CLass... are all forbidden
    }
    
    ?>

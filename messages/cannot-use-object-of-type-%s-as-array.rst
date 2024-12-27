@@ -29,9 +29,9 @@ _______
 
    <?php
    
-   class x {}
+   class X {}
    
-   $x = new x;
+   $x = new X;
    echo $x[0];
    
    ?>

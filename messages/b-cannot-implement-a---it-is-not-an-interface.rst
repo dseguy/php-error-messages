@@ -27,11 +27,11 @@ _______
 
    <?php
    
-   class a {}
+   class A {}
    
-   class b implements a {}
+   class B implements A {}
    
-   interface b extends a {}
+   interface B extends A {}
    
    ?>
 

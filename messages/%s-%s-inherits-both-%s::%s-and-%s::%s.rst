@@ -33,15 +33,15 @@ _______
 
    <?php
    
-   interface test1 {
+   interface Test1 {
        const FOO = 10;
    }
    
-   interface test2 {
+   interface Test2 {
        const FOO = 10;
    }
    
-   class test implements test1, test2 {
+   class Test implements Test1, Test2 {
    }
    
    echo Done\n;

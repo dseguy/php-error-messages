@@ -29,13 +29,13 @@ _______
 
    <?php
    
-   interface i {
-       const C = static::name;
+   interface I {
+       const C = static::NAME;
    }
    
-   class x {
+   class X {
    	public $c = static::name;
-       function foo( $c = static::name) {}
+       function foo($c = static::NAME) {}
    }
    
    ?>

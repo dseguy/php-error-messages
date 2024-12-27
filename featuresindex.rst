@@ -33,6 +33,12 @@ Features index
       * :ref:`static-function-%s%s%s()-cannot-be-abstract`
 
 
+   * alias
+
+      * :ref:`an-alias-(%s)-was-defined-for-method-%s(),-but-this-method-does-not-exist`
+      * :ref:`an-alias-was-defined-for-%s::%s-but-this-method-does-not-exist`
+
+
    * allowdynamicproperties
 
       * :ref:`cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s`
@@ -125,6 +131,11 @@ Features index
       * :ref:`attribute-\"%s\"-cannot-target-%s-(allowed-targets:-%s)`
       * :ref:`has-#[\override]-attribute,-but-no-matching-parent-method-exists`
       * :ref:`x::foo()-has-#[\override]-attribute,-but-no-matching-parent-method-exists`
+
+
+   * automagic
+
+      * :ref:`non-string-needles-will-be-interpreted-as-strings-in-the-future.-use-an-explicit-chr()-call-to-preserve-the-current-behavior`
 
 
    * autovivification
@@ -309,6 +320,7 @@ Features index
 
       * :ref:`"static::"-is-not-allowed-in-compile-time-constants`
       * :ref:`cannot-declare-self-referencing-constant`
+      * :ref:`constant-%s-already-defined`
       * :ref:`constant-%s-is-deprecated`
       * :ref:`define():-argument-#3-(\$case_insensitive)-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported`
       * :ref:`define():-declaration-of-case-insensitive-constants-is-deprecated`
@@ -734,6 +746,8 @@ Features index
 
       * :ref:`%s():-returning-by-reference-from-a-void-function-is-deprecated`
       * :ref:`%s-function-%s::%s()-cannot-be-declared-private`
+      * :ref:`an-alias-(%s)-was-defined-for-method-%s(),-but-this-method-does-not-exist`
+      * :ref:`an-alias-was-defined-for-%s::%s-but-this-method-does-not-exist`
       * :ref:`call-to-undefined-method-%s::%s()`
       * :ref:`cannot-use-\'readonly\'-as-method-modifier`
       * :ref:`non-static-method-%s::%s()-cannot-be-called-statically`
@@ -1222,6 +1236,7 @@ Features index
       * :ref:`default-value-for-parameters-with-a-%s-type-can-only-be-%s-or-null`
       * :ref:`duplicate-type-%s-is-redundant`
       * :ref:`is-an-invalid-class-name`
+      * :ref:`needle-is-not-a-string-or-an-integer`
       * :ref:`syntax-error,-unexpected-token-"?"`
 
 
@@ -1258,6 +1273,8 @@ Features index
 
    * use-alias
 
+      * :ref:`an-alias-(%s)-was-defined-for-method-%s(),-but-this-method-does-not-exist`
+      * :ref:`an-alias-was-defined-for-%s::%s-but-this-method-does-not-exist`
       * :ref:`call-to-undefined-function`
       * :ref:`class-%s-is-not-a-trait`
 

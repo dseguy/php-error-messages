@@ -3,6 +3,8 @@
 Syntax errors
 -----------------------------
 
+Here is a list of classic syntax errors, met in every day code. Some common solutions are listed with them, so as to help anyone meeting them.
+
 
       * :ref:`syntax-error,-unexpected-')',-expecting-'|'-or-variable-(t_variable)`
       * :ref:`syntax-error,-unexpected-'-',-expecting-'='`

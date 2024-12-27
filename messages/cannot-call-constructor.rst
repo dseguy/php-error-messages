@@ -28,9 +28,9 @@ _______
 
    <?php
    
-   class x {}
+   class X {}
    
-   class y extends x {
+   class Y extends X {
    	function __construct() {
    		parent::__construct();
    	}

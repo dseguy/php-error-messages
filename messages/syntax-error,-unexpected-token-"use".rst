@@ -32,11 +32,6 @@ _______
        use stdclass as A;
    }
 
-
-Literal Examples
-****************
-+ 
-
 Solutions
 _________
 
