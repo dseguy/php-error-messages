@@ -26,18 +26,18 @@ _______
 
    <?php
    
-   class x extends datetime {
+   class X extends DateTime {
    	public function __construct() { }
    }
    
-   $o = new x;
-   var_dump($o->format(d));
+   $object = new X;
+   var_dump(object->format("d"));
    ?>
 
 
 Literal Examples
 ****************
-+ Object of type x has not been correctly initialized by calling parent::__construct() in its constructor
++ Object of type X has not been correctly initialized by calling parent::__construct() in its constructor
 
 Solutions
 _________

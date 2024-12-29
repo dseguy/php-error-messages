@@ -25,6 +25,7 @@ PHP Error Messages
    messages/%s-cannot-use-%s---it-is-not-a-trait.rst
    messages/%s-function-%s::%s()-cannot-be-declared-private.rst
    messages/%s-virtual-property-%s::$%s-must-not-specify-asymmetric-visibility.rst
+   messages/%s::%s-cannot-override-final-constant-%s::%s.rst
    messages/'%s'-operator-accepts-only-positive-integers.rst
    messages/'%s'-operator-with-non-integer-operand.rst
    messages/'\%s'-is-an-invalid-class-name.rst
@@ -291,6 +292,7 @@ PHP Error Messages
    messages/trying-to-access-array-offset-on-%s.rst
    messages/trying-to-clone-an-uncloneable-object-of-class-%s.rst
    messages/trying-to-invoke-%s-method-%s::%s()-from-scope-%s.rst
+   messages/type-%c:-unknown-format-code.rst
    messages/type-%s-contains-both-iterable-and-array.rst
    messages/type-contains-both-true-and-false,-bool-must-be-used-instead.rst
    messages/type-declaration-'%s'-must-be-unqualified.rst

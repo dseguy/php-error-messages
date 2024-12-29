@@ -517,6 +517,7 @@ Features index
 
    * final
 
+      * :ref:`%s::%s-cannot-override-final-constant-%s::%s`
       * :ref:`cannot-override-final-%s::%s()-with-%s::%s()`
       * :ref:`cannot-override-final-property-hook-%s::%s()`
       * :ref:`cannot-use-the-final-modifier-on-a-property`
@@ -885,6 +886,11 @@ Features index
 
       * :ref:`indirect-modification-of-overloaded-element-of-%s-has-no-effect`
       * :ref:`indirect-modification-of-overloaded-property-%s::\$%s-has-no-effect`
+
+
+   * pack
+
+      * :ref:`type-%c:-unknown-format-code`
 
 
    * parameter

@@ -28,7 +28,7 @@ _______
 
    <?php
    
-   class x {
+   class X {
    	private $p {
    		final get => 2;
    		set => $this->p = $value;

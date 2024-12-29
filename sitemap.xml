@@ -61,6 +61,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s-virtual-property-%25s%3A%3A%24%25s-must-not-specify-asymmetric-visibility.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s%3A%3A%25s-cannot-override-final-constant-%25s%3A%3A%25s.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%27%25s%27-operator-accepts-only-positive-integers.html</loc>
  </url>
  <url>
@@ -857,6 +860,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/trying-to-invoke-%25s-method-%25s%3A%3A%25s%28%29-from-scope-%25s.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/type-%25c%3A-unknown-format-code.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/type-%25s-contains-both-iterable-and-array.html</loc>

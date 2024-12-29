@@ -24,15 +24,11 @@ _______
 
    <?php
    
-   class x {
-   	final const A = 1;
-   	
+   class X {
    	final function foo() {}
    }
    
-   class y extends x {
-   	const A = 1;
-   	
+   class Y extends X {
    	function foo() {}
    }
    
@@ -48,3 +44,8 @@ _________
 
 + Remove the final option in the parent class.
 + Rename the non-final constant or method in the child class.
+
+Related Error Messages
+______________________
+
++ :ref:`%s::%s-cannot-override-final-constant-%s::%s`

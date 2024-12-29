@@ -26,13 +26,13 @@ _______
 
    <?php
    
-   class x {
+   class X {
        public string $q { 
            get => 'in parent';
        }
    }
    
-   class y extends x {
+   class Y extends X {
        public string $q { 
            get => parent::$q::get();
        }
@@ -43,8 +43,8 @@ _______
        }
    }
    
-   $y = new y;
-   echo $y->q;
+   $objectY = new X;
+   echo $objectY->q;
    
    ?>
 
