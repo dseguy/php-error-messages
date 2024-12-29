@@ -49,3 +49,11 @@ _________
 + Cast the value to the requested type.
 + Change the type in the signature of the called method.
 + Add the type in the signature of the called method.
+
+Related Error Messages
+______________________
+
++ :ref:`using-array_key_exists()-on-objects-is-deprecated.`
+
+
+In previous PHP versions, this error message used to be :ref:`using-array_key_exists()-on-objects-is-deprecated.`.

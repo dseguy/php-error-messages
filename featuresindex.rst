@@ -98,6 +98,16 @@ Features index
       * :ref:`syntax-error,-unexpected-\'[\',-expecting-\';\'-or-\',\'`
 
 
+   * arrayObject
+
+      * :ref:`using-array_key_exists()-on-objects-is-deprecated.`
+
+
+   * array_key_exists
+
+      * :ref:`using-array_key_exists()-on-objects-is-deprecated.`
+
+
    * arrayaccess
 
       * :ref:`cannot-access-offset-of-type-%s-in-isset-or-empty`
@@ -1238,6 +1248,7 @@ Features index
       * :ref:`is-an-invalid-class-name`
       * :ref:`needle-is-not-a-string-or-an-integer`
       * :ref:`syntax-error,-unexpected-token-"?"`
+      * :ref:`using-array_key_exists()-on-objects-is-deprecated.`
 
 
    * typed-property

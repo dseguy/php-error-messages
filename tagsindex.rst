@@ -63,6 +63,7 @@ Tag index
 
       * :ref:`constant-%s-is-deprecated`
       * :ref:`constant-%s::%s-is-deprecated`
+      * :ref:`using-array_key_exists()-on-objects-is-deprecated.`
 
 
    * edge case

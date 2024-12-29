@@ -27,7 +27,7 @@ _______
 
    <?php
    
-   class x {
+   class X {
       private public(set) string $p;
    
    	// valid but useless

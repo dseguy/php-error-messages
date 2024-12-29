@@ -29,12 +29,12 @@ _______
 
    <?php
    
-   class x {
+   class X {
    	#[Override]
    	function foo();
    }
    
-   class y extends x {
+   class Y extends X {
    	#[Override]
    	function goo();
    }

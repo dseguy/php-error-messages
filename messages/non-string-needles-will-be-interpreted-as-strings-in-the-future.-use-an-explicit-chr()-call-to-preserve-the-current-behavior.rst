@@ -39,3 +39,8 @@ _________
 
 + Use ``chr(99)`` instead of ``99``, to ensure the second argument is a string.
 + Convert the second argument into a string first.
+
+Related Error Messages
+______________________
+
++ :ref:`needle-is-not-a-string-or-an-integer`

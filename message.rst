@@ -318,6 +318,7 @@ PHP Error Messages
    messages/using-$this-when-not-in-object-context.rst
    messages/using-${expr}-(variable-variables)-in-strings-is-deprecated,-use-{${expr}}-instead.rst
    messages/using-${var}-in-strings-is-deprecated,-use-{$var}-instead.rst
+   messages/using-array_key_exists()-on-objects-is-deprecated..rst
    messages/visibility-of-property-%s::$%s-must-not-be-weaker-than-set-visibility.rst
    messages/void-cannot-be-used-as-a-parameter-type.rst
    messages/x::foo()-has-#[\override]-attribute,-but-no-matching-parent-method-exists.rst
