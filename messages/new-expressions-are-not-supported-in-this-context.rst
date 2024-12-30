@@ -35,7 +35,7 @@ _______
    
    const CONSTANT_B = new B;
    
-   class x {
+   class X {
    	// This is not possible
    	const A = new B;
    

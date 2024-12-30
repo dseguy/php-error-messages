@@ -796,6 +796,7 @@ Features index
       * :ref:`call-to-undefined-function`
       * :ref:`namespace-declarations-cannot-be-nested`
       * :ref:`no-code-may-exist-outside-of-namespace-{}`
+      * :ref:`syntax-error,-unexpected-fully-qualified-name-\"\\xxx\",-expecting-\"{\"`
 
 
    * native
