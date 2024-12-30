@@ -39,11 +39,12 @@ lexers['php-annotations'] = PhpLexer(startinline=True)
 
 # Extra config to verify read the docs
 html_extra_path = ["googlee919cb0917e4fefc.html", 
-                                        "sitemap.xml"]
+                                        "sitemap.xml",
+                                        "BingSiteAuth.xml"]
                                         
 html_theme_options = {
     'logo': 'logo.png',
-    'analytics_id': 'G-29LCZ34CDW',
+#    'analytics_id': 'G-29LCZ34CDW',
     'github_button': True,
     'github_repo':'php-error-messages',
     'github_user':'dseguy',
