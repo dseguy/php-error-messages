@@ -282,6 +282,9 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-":".rst
    messages/syntax-error,-unexpected-token-"?".rst
    messages/syntax-error,-unexpected-token-"??".rst
+   messages/syntax-error,-unexpected-token-"if",-expecting-")".rst
+   messages/syntax-error,-unexpected-token-"if",-expecting-"]".rst
+   messages/syntax-error,-unexpected-token-"if".rst
    messages/syntax-error,-unexpected-token-"match".rst
    messages/syntax-error,-unexpected-token-"use".rst
    messages/syntax-error,-unexpected-token-"{".rst

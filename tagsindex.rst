@@ -262,6 +262,7 @@ Tag index
       * :ref:`syntax-error,-unexpected-token-":"`
       * :ref:`syntax-error,-unexpected-token-"?"`
       * :ref:`syntax-error,-unexpected-token-"??"`
+      * :ref:`syntax-error,-unexpected-token-"if"`
       * :ref:`syntax-error,-unexpected-token-"match"`
       * :ref:`syntax-error,-unexpected-token-"use"`
       * :ref:`syntax-error,-unexpected-token-"{"`

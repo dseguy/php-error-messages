@@ -24,13 +24,13 @@ _______
 
    <?php
    
-   interface i {
+   interface I {
        function foo();
        
        const C = 1;
    }
    
-   class x implements i {
+   class X implements I {
        private function foo() {}
    
        protected const C = 1;

@@ -96,6 +96,7 @@ Features index
 
       * :ref:`cannot-use-string-offset-as-an-array`
       * :ref:`syntax-error,-unexpected-\'[\',-expecting-\';\'-or-\',\'`
+      * :ref:`syntax-error,-unexpected-token-"if",-expecting-"]"`
 
 
    * arrayObject
@@ -493,6 +494,7 @@ Features index
 
       * :ref:`cannot-use-isset()-on-the-result-of-an-expression-(you-can-use-"null-!==-expression"-instead)`
       * :ref:`cannot-use-list()-as-standalone-expression`
+      * :ref:`syntax-error,-unexpected-token-"if"`
 
 
    * extends
@@ -585,6 +587,11 @@ Features index
       * :ref:`call-to-undefined-function`
 
 
+   * functioncall
+
+      * :ref:`syntax-error,-unexpected-token-"if",-expecting-")"`
+
+
    * generator
 
       * :ref:`class-%s-cannot-extend-final-class-%s`
@@ -604,6 +611,12 @@ Features index
    * iconv
 
       * :ref:`must-be-contained-in-argument-#1-(\$haystack)`
+
+
+   * if-then
+
+      * :ref:`syntax-error,-unexpected-token-"if",-expecting-"]"`
+      * :ref:`syntax-error,-unexpected-token-"if"`
 
 
    * implements
@@ -942,6 +955,7 @@ Features index
 
    * parenthesis
 
+      * :ref:`syntax-error,-unexpected-token-"if"`
       * :ref:`unparenthesized-\`a-?-b-:-c-?-d-:-e\`-is-not-supported.`
 
 
