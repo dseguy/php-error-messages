@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'PHP error messages'
-copyright = '2023-2024, Damien Seguy'
+copyright = '2023-2025, Damien Seguy'
 author = 'Damien Seguy'
 release = '1.0'
 
