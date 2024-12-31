@@ -140,6 +140,11 @@ foreach($files as $file) {
 			$target = addcslashes($target, '`\'');
 			$tags[$tag][] = $target;
 		}
+		
+		if (str_contains($error->error, 'syntax error') && !in_array('syntax-error', $error->tags)) {
+    		buildlog("Missing syntax-error in $file");
+    		++$warnings;
+		}
 	}
 
 	if (empty($error->code) && !in_array('not generated', $error->tags)) {
