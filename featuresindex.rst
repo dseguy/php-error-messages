@@ -193,6 +193,7 @@ Features index
       * :ref:`%s()-expects-exactly-0-arguments,-%d-given`
       * :ref:`call-to-%s-%s::%s()-from-global-scope`
       * :ref:`never-returning-function-must-not-implicitly-return`
+      * :ref:`syntax-error,-unexpected-token-"if",-expecting-")"`
       * :ref:`too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d-expected`
       * :ref:`too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d`
 
@@ -587,11 +588,6 @@ Features index
       * :ref:`call-to-undefined-function`
 
 
-   * functioncall
-
-      * :ref:`syntax-error,-unexpected-token-"if",-expecting-")"`
-
-
    * generator
 
       * :ref:`class-%s-cannot-extend-final-class-%s`
@@ -615,6 +611,7 @@ Features index
 
    * if-then
 
+      * :ref:`syntax-error,-unexpected-token-"if",-expecting-")"`
       * :ref:`syntax-error,-unexpected-token-"if",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-token-"if"`
 
