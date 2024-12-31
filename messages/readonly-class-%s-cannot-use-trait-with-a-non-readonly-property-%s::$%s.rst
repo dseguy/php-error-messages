@@ -26,12 +26,12 @@ _______
 
    <?php
    
-   trait t {
-   	private $a;
+   trait T {
+   	private $property;
    }
    
-   readonly class x {
-   	use t;
+   readonly class X {
+   	use T;
    }
    
    ?>

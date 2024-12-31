@@ -24,8 +24,8 @@ _______
 
    <?php
    
-   class x {
-   	static readonly int $y;
+   class X {
+   	static readonly int $property;
    }
    
    ?>

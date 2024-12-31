@@ -26,11 +26,11 @@ _______
 
    <?php
    
-   class x {
+   class X {
    	public $a = 1;
    }
    
-   $x = new x;
+   $x = new X;
    echo $x->a;
    echo $x->b;
    

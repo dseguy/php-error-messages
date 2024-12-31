@@ -24,7 +24,7 @@ _______
 
    <?php
    
-   class x {
+   class X {
    	static protected(set) int $property;
    }
    

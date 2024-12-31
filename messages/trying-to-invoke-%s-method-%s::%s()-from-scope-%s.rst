@@ -26,18 +26,18 @@ _______
 
    <?php
    
-   class x {
+   class X {
        protected function foo() {}
    }
    
-   class y {
+   class Y {
        function g() {
-           $x = new x;
+           $x = new X;
            $x->foo();
        }
    }
    
-   (new y)->g();
+   (new Y)->g();
    
    ?>
 

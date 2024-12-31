@@ -151,6 +151,7 @@ Features index
    * autovivification
 
       * :ref:`automatic-conversion-of-false-to-array-is-deprecated`
+      * :ref:`cannot-auto-initialize-an-array-inside-property-%s::\$%s-of-type-%s`
 
 
    * bitwise-operator
@@ -626,6 +627,11 @@ Features index
       * :ref:`readonly-class-bar-cannot-extend-non-readonly-class-foo`
 
 
+   * initialisation
+
+      * :ref:`cannot-auto-initialize-an-array-inside-property-%s::\$%s-of-type-%s`
+
+
    * instance
 
       * :ref:`cannot-instantiate-interface-%s`
@@ -828,6 +834,7 @@ Features index
 
    * null
 
+      * :ref:`%s():-passing-null-to-parameter-#%`
       * :ref:`trying-to-access-array-offset-on-%s`
 
 
@@ -957,6 +964,7 @@ Features index
 
       * :ref:`accessing-static-trait-property-%s::\$%s-is-deprecated`
       * :ref:`cannot-acquire-reference-to-readonly-property`
+      * :ref:`cannot-auto-initialize-an-array-inside-property-%s::\$%s-of-type-%s`
       * :ref:`cannot-declare-variadic-promoted-property`
       * :ref:`default-value-for-property-of-type-int-may-not-be-null.-use-the-nullable-type-?int-to-allow-null-default-value`
       * :ref:`enum-%s-cannot-include-properties`
@@ -1249,6 +1257,7 @@ Features index
       * :ref:`%s():-implicitly-marking-parameter-\$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead`
       * :ref:`argument-#%d-(\$%s)-must-be-of-type-%s,-%s-given`
       * :ref:`cannot-assign-%s-to-class-constant-%s::%s-of-type`
+      * :ref:`cannot-auto-initialize-an-array-inside-property-%s::\$%s-of-type-%s`
       * :ref:`cannot-use-%s-as-default-value-for-parameter-\$%s-of-type-%s`
       * :ref:`default-value-for-parameters-with-a-%s-type-can-only-be-%s-or-null`
       * :ref:`duplicate-type-%s-is-redundant`
@@ -1266,6 +1275,11 @@ Features index
    * typo
 
       * :ref:`call-to-undefined-function`
+
+
+   * union-type
+
+      * :ref:`syntax-error,-unexpected-\'|\',-expecting-variable-(t_variable)`
 
 
    * unpacking

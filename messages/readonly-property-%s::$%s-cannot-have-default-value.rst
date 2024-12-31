@@ -26,7 +26,7 @@ _______
 
    <?php
    
-   class x {
+   class T {
    	public readonly int $i = 1;
    }
    

@@ -29,21 +29,21 @@ _______
 
    <?php
    
-   class x {
+   class X {
    	private const A = 2;
    }
    
-   trait t { 
+   trait T { 
    	protected const null|int A = 1 + 1;
    	public const null|int B = 1;
    	public const null|int C = 1 + 2;
    }
    
-   class y extends x {
+   class Y extends X {
    	protected const int B = 2;
    	public const ?int C = 3;
    	
-   	use t; 
+   	use T; 
    }
    ?>
 

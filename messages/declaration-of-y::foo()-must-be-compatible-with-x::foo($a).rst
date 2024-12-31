@@ -50,12 +50,12 @@ _______
 
    <?php
    
-   class x {
+   class X {
        function foo($a) {}
        
    }
    
-   class y extends x {
+   class Y extends X {
        function foo() {}
        
    }

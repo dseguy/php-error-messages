@@ -28,7 +28,7 @@ _______
 
    <?php
    
-   class x {
+   class X {
    	final private $p;
    }
    

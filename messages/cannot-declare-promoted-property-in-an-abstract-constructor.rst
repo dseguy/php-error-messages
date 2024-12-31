@@ -29,7 +29,7 @@ _______
 
    <?php
    
-   abstract class a {
+   abstract class X {
    	abstract function __construct(private string $a);
    }
    

@@ -24,8 +24,8 @@ _______
 
    <?php
    
-   class x {
-       private void $p;
+   class X {
+       private void $property;
    }
    
    ?>

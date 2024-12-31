@@ -34,6 +34,13 @@ _______
    $variable[0] = 1;
    // $variable is now an array
    
+   class X {
+       public bool|array $property = false;
+   }
+   
+   $x = new X;
+   $x->property['d'] = 3;
+   
    ?>
 
 Solutions
@@ -46,3 +53,4 @@ Related Error Messages
 ______________________
 
 + :ref:`cannot-unset-offset-in-a-non-array-variable`
++ :ref:`cannot-auto-initialize-an-array-inside-property-%s::$%s-of-type-%s`

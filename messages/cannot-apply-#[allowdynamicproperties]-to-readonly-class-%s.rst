@@ -28,8 +28,8 @@ _______
    <?php
    
    #[AllowDynamicProperties]
-   readonly class x {
-   	private $p = 1;
+   readonly class X {
+   	private $property = 1;
    }
    
    ?>

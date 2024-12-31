@@ -27,13 +27,13 @@ _______
 
    <?php
    
-   class x {}
+   class X {}
    
-   echo x::Y; 
+   echo X::Y; 
    
-   enum e { case A;}
+   enum E { case A;}
    
-   echo e::B;
+   echo E::B;
    
    ?>
 

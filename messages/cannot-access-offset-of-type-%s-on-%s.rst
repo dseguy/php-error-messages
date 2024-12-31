@@ -66,3 +66,4 @@ ______________________
 + :ref:`illegal-offset-type`
 + :ref:`illegal-offset-type-in-unset`
 + :ref:`illegal-offset-type-in-isset-or-empty`
++ :ref:`cannot-auto-initialize-an-array-inside-property-%s::$%s-of-type-%s`

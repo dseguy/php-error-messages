@@ -24,11 +24,11 @@ _______
 
    <?php
    
-   trait t {
+   trait T {
        const X = 1;
    }
    
-   echo t::X;
+   echo T::X;
    
    ?>
 

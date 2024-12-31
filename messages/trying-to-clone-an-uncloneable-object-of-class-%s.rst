@@ -24,11 +24,11 @@ _______
 
    <?php
    
-   enum e {
+   enum E {
        case A;
    }
    
-   clone e::A;
+   clone E::A;
    
    ?>
 

@@ -27,7 +27,7 @@ _______
 
    <?php
    
-   class x implements DateTimeInterface {}
+   class X implements DateTimeInterface {}
    
    ?>
 

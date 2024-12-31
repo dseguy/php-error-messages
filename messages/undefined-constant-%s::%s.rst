@@ -26,12 +26,12 @@ _______
 
    <?php
    
-   class x {
+   class X {
    	const Z = 1;
    	private A = 2;
    }
    
-   echo x::Y; 
+   echo X::Y; 
    
    ?>
 

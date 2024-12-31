@@ -24,8 +24,8 @@ _______
 
    <?php
    
-   class x {
-   	public callable|int $p = 1;
+   class X {
+   	public callable|int $property = 1;
    }
    
    ?>

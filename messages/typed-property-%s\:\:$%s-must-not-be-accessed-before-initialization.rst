@@ -29,11 +29,11 @@ _______
 
    <?php
    
-   class x {
-   	public int $p;
+   class X {
+   	public int $property;
    }
    
-   $x = new x;
+   $x = new X;
    echo $x->p;
    
    ?>

@@ -16,6 +16,7 @@ PHP Error Messages
    messages/%s():-argument-#%d%s%s%s-could-not-be-passed-by-reference.rst
    messages/%s():-implicitly-marking-parameter-$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead.rst
    messages/%s():-never-returning-%s-must-not-implicitly-return.rst
+   messages/%s():-passing-null-to-parameter-#%.rst
    messages/%s():-returning-by-reference-from-a-void-function-is-deprecated.rst
    messages/%s-%s-cannot-implement-interface-%s,-extend-exception-or-error-instead.rst
    messages/%s-%s-cannot-implement-previously-implemented-interface-%s.rst
@@ -85,6 +86,7 @@ PHP Error Messages
    messages/cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s.rst
    messages/cannot-assign-%s-to-class-constant-%s::%s-of-type.rst
    messages/cannot-assign-an-empty-string-to-a-string-offset.rst
+   messages/cannot-auto-initialize-an-array-inside-property-%s::$%s-of-type-%s.rst
    messages/cannot-be-a-class-constant.rst
    messages/cannot-bind-an-instance-to-a-static-closure.rst
    messages/cannot-call-constructor.rst
@@ -163,6 +165,8 @@ PHP Error Messages
    messages/continue-operator-accepts-only-positive-integers.rst
    messages/could-not-check-compatibility-between-%s-and-%s,-because-class-%s-is-not-available.rst
    messages/could-not-find-trait-%s.rst
+   messages/couldn't-open-stream-%s.rst
+   messages/couldn't-open-stream:-%s.rst
    messages/datetimeinterface-can\\'t-be-implemented-by-user-classes.rst
    messages/declaration-of-%s-must-be-compatible-with-%s.rst
    messages/declaration-of-y::foo()-must-be-compatible-with-x::foo($a).rst
@@ -271,6 +275,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-')',-expecting-'|'-or-variable-(t_variable).rst
    messages/syntax-error,-unexpected-'-',-expecting-'='.rst
    messages/syntax-error,-unexpected-'[',-expecting-';'-or-','.rst
+   messages/syntax-error,-unexpected-'|',-expecting-variable-(t_variable).rst
    messages/syntax-error,-unexpected-fully-qualified-name-"\xxx",-expecting-"{".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-variable.rst
    messages/syntax-error,-unexpected-token-":".rst
