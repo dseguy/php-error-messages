@@ -17,7 +17,9 @@ ___________
  
 Named parameter and positional arguments are setting the same argument, with different name. PHP reports this to avoid overwritting the first with the second. 
 
-In the example, there are two cases for this error: either a repetition of the same parameter in the argument list, or a mix of positional and named parameters, which leads to the second overwriting the first. 
+In the first example, there are two cases for this error: either a repetition of the same parameter in the argument list, or a mix of positional and named parameters, which leads to the second overwriting the first. 
+
+In the second example, a mix of named and positionned arguments is used, and there is a duplicate for the 
 
 There is a distinct error message when this happens to in attributes calls. 
 
@@ -29,10 +31,18 @@ _______
 
    <?php
    
-   function foo($a, $b) {}
+   function foo($a, $b) { print_r($b); }
    
    foo(a: 1, a:1);
    foo(1, a:1);
+   
+   // 1 is given to $a, by its position 0
+   // 2 is given to $a, by its name 'a': this is a conflict
+   $args = [1, a => 2];
+   foo(...$args); // error
+   
+   $args = [a => 1, 2];
+   foo(...$args); // Cannot use positional argument after named argument during unpacking
    
    ?>
 
@@ -47,3 +57,6 @@ Related Error Messages
 ______________________
 
 + :ref:`duplicate-named-parameter-$%s`
++ :ref:`cannot-use-positional-argument-after-named-argument-during-unpacking`
++ :ref:`cannot-use-positional-argument-after-named-argument`
++ :ref:`cannot-use-positional-argument-after-argument-unpacking`

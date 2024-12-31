@@ -24,15 +24,15 @@ _______
 
    <?php
    
-   interface i {}
+   interface I {}
    
-   //Cannot instantiate interface i
-   new i();
+   //Cannot instantiate interface I
+   new I();
    
-   class xi implements i {
+   class XI implements I {
    }
    
-   new xi(); 
+   new XI(); 
    
    ?>
 

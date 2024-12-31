@@ -51,3 +51,8 @@ _________
 + Move the positional arguments to be beginning of the signature call.
 + Sort the unpacked array with krsort() or ksort(), before or after PHP 8.2.
 + Remove the positional arguments.
+
+Related Error Messages
+______________________
+
++ :ref:`named-parameter-$x-overwrites-previous-argument`

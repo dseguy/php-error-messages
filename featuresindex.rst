@@ -516,6 +516,18 @@ Features index
       * :ref:`ffi-api-is-restricted-by-\"ffi.enable\"-configuration-directive`
 
 
+   * file
+
+      * :ref:`couldn\'t-open-stream-%s`
+      * :ref:`couldn\'t-open-stream:-%s`
+
+
+   * file-mode
+
+      * :ref:`couldn\'t-open-stream-%s`
+      * :ref:`couldn\'t-open-stream:-%s`
+
+
    * final
 
       * :ref:`%s::%s-cannot-override-final-constant-%s::%s`
@@ -789,6 +801,7 @@ Features index
 
       * :ref:`%s%s%s()-does-not-accept-unknown-named-parameters`
       * :ref:`array_merge()-does-not-accept-unknown-named-parameters`
+      * :ref:`cannot-combine-named-arguments-and-argument-unpacking`
       * :ref:`duplicate-named-parameter-\$%s`
       * :ref:`optional-parameter-\$%s-declared-before-required-parameter-\$%s-is-implicitly-treated-as-a-required-parameter`
       * :ref:`syntax-error,-unexpected-token-":"`
@@ -1284,6 +1297,7 @@ Features index
 
    * unpacking
 
+      * :ref:`cannot-combine-named-arguments-and-argument-unpacking`
       * :ref:`cannot-use-positional-argument-after-argument-unpacking`
       * :ref:`cannot-use-positional-argument-after-named-argument`
       * :ref:`keys-must-be-of-type-int|string-during-array-unpacking`

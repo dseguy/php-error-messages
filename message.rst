@@ -90,6 +90,7 @@ PHP Error Messages
    messages/cannot-be-a-class-constant.rst
    messages/cannot-bind-an-instance-to-a-static-closure.rst
    messages/cannot-call-constructor.rst
+   messages/cannot-combine-named-arguments-and-argument-unpacking.rst
    messages/cannot-declare-hooks-for-static-property.rst
    messages/cannot-declare-promoted-property-in-an-abstract-constructor.rst
    messages/cannot-declare-promoted-property-outside-a-constructor.rst

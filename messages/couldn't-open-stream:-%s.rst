@@ -33,9 +33,9 @@ _______
    // k is not an open option
    fopen($path, '+k');
    
-   //`+wr' is not a valid mode for fopen 
+   //`wr' is not a valid mode for fopen 
    // write-only w and read-only r are mutually exclusive
-   fopen($path, '+wr');
+   fopen($path, 'wr');
    
    
    ?>

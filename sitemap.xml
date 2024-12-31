@@ -256,6 +256,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-call-constructor.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-combine-named-arguments-and-argument-unpacking.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-declare-hooks-for-static-property.html</loc>
  </url>
  <url>

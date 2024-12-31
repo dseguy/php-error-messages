@@ -34,7 +34,8 @@ _______
    fopen($path, '+k');
    
    //`+wr' is not a valid mode for fopen 
-   // write-only w and read-only r are mutually exclusive
+   // write-only w, read-only r and + are mutually exclusive
+   // w+, r+ and rw are all valid
    fopen($path, '+wr');
    
    

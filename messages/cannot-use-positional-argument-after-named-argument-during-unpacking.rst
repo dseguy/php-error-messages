@@ -41,3 +41,8 @@ _________
 + Add the missing argument names to finish the argument array.
 + Move the positional argument to the beginning of the array (array_unshift, or append it at the array creation), when the argument order makes it possible.
 + Use ksort() on the keys, when it makes sense.
+
+Related Error Messages
+______________________
+
++ :ref:`named-parameter-$x-overwrites-previous-argument`

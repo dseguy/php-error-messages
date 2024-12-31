@@ -26,16 +26,16 @@ _______
 
    <?php
    
-   enum d {
+   enum D {
       private $p = 1;
    }
    
-   trait t {
+   trait T {
       private int $property; 
    }
    
-   enum e {
-       use t;
+   enum E {
+       use T;
    }
    
    ?>

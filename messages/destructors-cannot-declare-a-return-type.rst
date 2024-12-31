@@ -24,10 +24,8 @@ _______
 
    <?php
    
-   class x {
-   	function __destruct() : int {
-   	
-   	}
+   class X {
+   	function __destruct() : int {}
    }
    
    ?>

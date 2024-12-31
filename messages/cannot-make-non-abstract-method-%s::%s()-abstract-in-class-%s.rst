@@ -27,11 +27,11 @@ _______
 
    <?php
    
-   class x {
+   class X {
        function foo() {}
    }
    
-   abstract class y extends x {
+   abstract class Y extends X {
        abstract function foo();
    }
    

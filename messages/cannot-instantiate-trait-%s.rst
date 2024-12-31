@@ -24,10 +24,10 @@ _______
 
    <?php
    
-   trait t {}
+   trait T {}
    
-   //Cannot instantiate trait t
-   new t();
+   //Cannot instantiate trait T
+   new T();
    
    ?>
 

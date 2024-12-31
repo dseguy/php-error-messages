@@ -26,7 +26,7 @@ _______
 
    <?php
    
-   enum e {
+   enum E {
        function __get($a) {}
    }
    
