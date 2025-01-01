@@ -1086,6 +1086,7 @@ Features index
       * :ref:`a-function-with-return-type-must-return-a-value`
       * :ref:`a-never-returning-%s-must-not-return`
       * :ref:`a-never-returning-method-must-not-return`
+      * :ref:`a-void-%s-must-not-return-a-value`
       * :ref:`destructors-cannot-declare-a-return-type`
       * :ref:`never-returning-function-must-not-implicitly-return`
       * :ref:`only-variable-references-should-be-returned-by-reference`
@@ -1265,6 +1266,12 @@ Features index
       * :ref:`traits-cannot-have-constants`
 
 
+   * traversable
+
+      * :ref:`%s-%s-must-implement-interface-%s-as-part-of-either-%s-or-%s`
+      * :ref:`class-%s-must-implement-interface-%s-as-part-of-either-%s-or-%s`
+
+
    * true
 
       * :ref:`trying-to-access-array-offset-on-%s`
@@ -1373,6 +1380,7 @@ Features index
 
       * :ref:`%s():-returning-by-reference-from-a-void-function-is-deprecated`
       * :ref:`a-function-with-return-type-must-return-a-value`
+      * :ref:`a-void-%s-must-not-return-a-value`
       * :ref:`class-constant-%s::%s-cannot-have-type-%s`
       * :ref:`property-x::\$p-cannot-have-type-void`
       * :ref:`returning-by-reference-from-a-void-function-is-deprecated`

@@ -37,7 +37,7 @@ _______
 
 Literal Examples
 ****************
-+ Cannot redeclare foo() (previously declared in %s:%d)
++ Cannot redeclare foo() (previously declared in file:3)
 
 Solutions
 _________

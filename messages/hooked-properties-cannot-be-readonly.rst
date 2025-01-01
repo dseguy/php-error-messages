@@ -24,7 +24,7 @@ _______
 
    <?php
    
-   class x {
+   class X {
        public readonly string $x {
        	get => $this->x;
        	

@@ -35,7 +35,7 @@ _______
 
 Literal Examples
 ****************
-+ Type %c: unknown format code
++ Type z: unknown format code
 
 Solutions
 _________

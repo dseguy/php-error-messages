@@ -28,7 +28,7 @@ _______
 
    <?php
    
-   class x {
+   class X {
    	private private static A $b;
    }
    

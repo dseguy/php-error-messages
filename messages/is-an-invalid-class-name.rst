@@ -26,7 +26,7 @@ _______
 
    <?php
    
-   class x {
+   class X {
    	function foo(\self $s) {}
    }
    

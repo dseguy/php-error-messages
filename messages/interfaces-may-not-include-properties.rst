@@ -24,7 +24,7 @@ _______
 
    <?php
    
-   interface i {
+   interface I {
    	private $property;
    }
    

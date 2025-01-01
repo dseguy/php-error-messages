@@ -5,17 +5,17 @@ has #[\Override] attribute, but no matching parent method exists
  
 	.. meta::
 		:description:
-			has #[\Override] attribute, but no matching parent method exists: Override is a PHP attribute, that checks if a method is actually overriding the same method from a parent class.
+			has #[\Override] attribute, but no matching parent method exists: ``Override`` is a PHP attribute, that checks if a method is actually overriding the same method from a parent class.
 
 		:og:type: article
 		:og:title: has #[\Override] attribute, but no matching parent method exists
-		:og:description: Override is a PHP attribute, that checks if a method is actually overriding the same method from a parent class
+		:og:description: ``Override`` is a PHP attribute, that checks if a method is actually overriding the same method from a parent class
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/has-%23%5B%5Coverride%5D-attribute%2C-but-no-matching-parent-method-exists.html
 
 Description
 ___________
  
-Override is a PHP attribute, that checks if a method is actually overriding the same method from a parent class. This means that there should be a method in one of the parent class, that have the same name.
+``Override`` is a PHP attribute, that checks if a method is actually overriding the same method from a parent class. This means that there should be a method in one of the parent class, that have the same name.
 
 When no such method is found, it signals that the method with the attribute is now orphaned. It should be renamed, to fit another method.
 
@@ -32,10 +32,9 @@ _______
    <?php
    
    #[Attribute]
-   class x {
-   }
+   class X {}
    
-   class y extends x {
+   class Y extends X {
    	#[Override]
    	function foo() {}
    }

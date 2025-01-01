@@ -40,7 +40,7 @@ _______
 
 Literal Examples
 ****************
-+ Argument #%d ($%1) must be of type int, string given
++ Argument #1 ($x) must be of type int, string given
 
 Solutions
 _________

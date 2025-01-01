@@ -106,6 +106,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/a-non-numeric-value-encountered.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/a-void-%25s-must-not-return-a-value.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/abstract-property-hook-cannot-have-body.html</loc>
  </url>
  <url>

@@ -38,8 +38,8 @@ _______
 
 Literal Examples
 ****************
-+ foo(): Implicitly marking parameter $%s as nullable is deprecated, the explicit nullable type must be used instead
-+ X::bar(): Implicitly marking parameter $%s as nullable is deprecated, the explicit nullable type must be used instead
++ foo(): Implicitly marking parameter $s as nullable is deprecated, the explicit nullable type must be used instead
++ X::bar(): Implicitly marking parameter $s as nullable is deprecated, the explicit nullable type must be used instead
 
 Solutions
 _________

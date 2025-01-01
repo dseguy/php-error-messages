@@ -31,13 +31,13 @@ _______
 
    <?php
    
-   interface i  {
+   interface I {
    	function foo() {}
    	
    	function bar() ;
    }
    
-   abstract class ci  {
+   abstract class CI  {
    	function foo() {}
    	
    	abstract function bar() ;
@@ -48,7 +48,7 @@ _______
 
 Literal Examples
 ****************
-+ Interface i cannot contain non abstract method foo()
++ Interface I cannot contain non abstract method foo()
 
 Solutions
 _________
