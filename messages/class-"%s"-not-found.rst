@@ -25,7 +25,7 @@ _______
    <?php
    
    // No x definition in the code
-   new x; 
+   new X; 
    
    // it is not possible to have a class with the name '4f'
    ('4f')::c;

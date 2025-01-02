@@ -39,3 +39,5 @@ Related Error Messages
 ______________________
 
 + :ref:`constructors-cannot-declare-a-return-type`
++ :ref:`constructor-%s::%s()-cannot-declare-a-return-type`
++ :ref:`method-%s::%s()-cannot-declare-a-return-type`

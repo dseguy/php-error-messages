@@ -24,9 +24,9 @@ _______
 
    <?php
    
-   class x {}
+   class X {}
    
-   class y {
+   class Y {
    	use x; 
    }
    ?>

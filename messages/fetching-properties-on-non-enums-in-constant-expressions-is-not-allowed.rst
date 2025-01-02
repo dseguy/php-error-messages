@@ -34,7 +34,7 @@ _______
    const Y = new Y();
    
    enum Z : string {
-   	case z = 'foo';
+   	case Z = 'foo';
    }
    
    class x {

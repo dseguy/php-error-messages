@@ -37,9 +37,9 @@ _______
    
    function foo( $a) : namespace\self {};
    
-   class x {
+   class X {
        private namespace\self $f;
-       // private namespace\x $f;
+       private namespace\x $f2;
    }
    
    ?>

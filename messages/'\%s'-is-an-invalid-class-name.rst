@@ -35,9 +35,9 @@ _______
    
    function foo( $a) : \self {};
    
-   class x {
+   class X {
        private \self $f;
-       // private \x $f;
+       private \x $f2;
    }
    
    ?>

@@ -295,9 +295,6 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-make-non-abstract-method-%25s%3A%3A%25s%28%29-abstract-in-class-%25s.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-make-non-abstract-method-i%3A%3Afoo%28%29-abstract-in-class-j.html</loc>
- </url>
- <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-mix-keyed-and-unkeyed-array-entries-in-assignments.html</loc>
  </url>
  <url>
@@ -355,6 +352,12 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%25s-as-default-value-for-parameter-%24%25s-of-type-%25s.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%27abstract%27-as-constant-modifier.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%27final%27-as-constant-modifier.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%27mixed%27-as-class-name-as-it-is-reserved.html</loc>
  </url>
  <url>
@@ -362,6 +365,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%27readonly%27-as-method-modifier.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%27static%27-as-constant-modifier.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%3A%3Aclass-with-dynamic-class-name.html</loc>
@@ -413,6 +419,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-temporary-expression-in-write-context.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-the-%25s-modifier-on-a-%25s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-the-abstract-modifier-on-a-property-hook.html</loc>
@@ -473,6 +482,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/constant-expression-contains-invalid-operations.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/constructor-%25s%3A%3A%25s%28%29-cannot-declare-a-return-type.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/constructors-cannot-declare-a-return-type.html</loc>
@@ -638,6 +650,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/method-%25s%3A%3A%25s%28%29-cannot-be-static.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/method-%25s%3A%3A%25s%28%29-cannot-declare-a-return-type.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/multiple-access-type-modifiers-are-not-allowed.html</loc>

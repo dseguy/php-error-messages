@@ -29,7 +29,7 @@ _______
 
    <?php
    
-   class x {
+   class X {
    	// invalid, because of the usage of the variable
    	const X = $a;
    }

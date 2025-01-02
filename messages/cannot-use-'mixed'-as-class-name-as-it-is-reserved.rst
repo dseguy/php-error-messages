@@ -30,10 +30,10 @@ _______
 
    <?php
    
-   class mixed {}
-   interface mixed {}
-   trait mixed {}
-   enum mixed {}
+   class Mixed {}
+   interface Mixed {}
+   trait Mixed {}
+   enum Mixed {}
    
    ?>
 

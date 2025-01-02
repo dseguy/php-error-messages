@@ -22,7 +22,9 @@ Features index
       * :ref:`abstract-property-hook-cannot-have-body`
       * :ref:`cannot-declare-promoted-property-in-an-abstract-constructor`
       * :ref:`cannot-make-non-abstract-method-%s::%s()-abstract-in-class-%s`
-      * :ref:`cannot-make-non-abstract-method-i::foo()-abstract-in-class-j`
+      * :ref:`cannot-use-\'abstract\'-as-constant-modifier`
+      * :ref:`cannot-use-\'final\'-as-constant-modifier`
+      * :ref:`cannot-use-the-%s-modifier-on-a-%s`
       * :ref:`cannot-use-the-abstract-modifier-on-a-property`
       * :ref:`class-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-methods`
       * :ref:`interface-%s-cannot-contain-non-abstract-method-%s()`
@@ -263,6 +265,10 @@ Features index
       * :ref:`cannot-be-a-class-constant`
       * :ref:`cannot-inherit-previously-inherited-or-override-constant-%s-from-interface-%s`
       * :ref:`cannot-redefine-class-constant`
+      * :ref:`cannot-use-\'abstract\'-as-constant-modifier`
+      * :ref:`cannot-use-\'final\'-as-constant-modifier`
+      * :ref:`cannot-use-\'static\'-as-constant-modifier`
+      * :ref:`cannot-use-the-%s-modifier-on-a-%s`
       * :ref:`class-constant-%s::%s-cannot-have-type-%s`
       * :ref:`constant-%s::%s-is-deprecated`
       * :ref:`traits-cannot-have-constants`
@@ -305,6 +311,11 @@ Features index
    * comment
 
       * :ref:`unterminated-comment-starting-line-%d`
+
+
+   * compact
+
+      * :ref:`undefined-variable`
 
 
    * compatibility
@@ -359,7 +370,9 @@ Features index
    * constructor
 
       * :ref:`cannot-call-constructor`
+      * :ref:`constructor-%s::%s()-cannot-declare-a-return-type`
       * :ref:`constructors-cannot-declare-a-return-type`
+      * :ref:`method-%s::%s()-cannot-declare-a-return-type`
       * :ref:`object-of-type-%s-has-not-been-correctly-initialized-by-calling-parent::__construct()-in-its-constructor`
 
 
@@ -536,6 +549,7 @@ Features index
       * :ref:`%s::%s-cannot-override-final-constant-%s::%s`
       * :ref:`cannot-override-final-%s::%s()-with-%s::%s()`
       * :ref:`cannot-override-final-property-hook-%s::%s()`
+      * :ref:`cannot-use-the-%s-modifier-on-a-%s`
       * :ref:`cannot-use-the-final-modifier-on-a-property`
       * :ref:`class-%s-cannot-extend-final-class-%s`
       * :ref:`private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes`
@@ -1096,8 +1110,10 @@ Features index
 
       * :ref:`%s%s%s():-return-value-must-be-of-type-%s,-%s-returned`
       * :ref:`a-function-with-return-type-must-return-a-value`
+      * :ref:`constructor-%s::%s()-cannot-declare-a-return-type`
       * :ref:`constructors-cannot-declare-a-return-type`
       * :ref:`division-of-php_int_min-by--1-is-not-an-integer`
+      * :ref:`method-%s::%s()-cannot-declare-a-return-type`
       * :ref:`return-value-must-be-of-type-int,-string-returned`
       * :ref:`returning-bool-from-comparison-function-is-deprecated`
 
@@ -1160,6 +1176,8 @@ Features index
 
       * :ref:`"static::"-is-not-allowed-in-compile-time-constants`
       * :ref:`\'\%s\'-is-an-invalid-class-name`
+      * :ref:`cannot-use-\'static\'-as-constant-modifier`
+      * :ref:`cannot-use-the-%s-modifier-on-a-%s`
       * :ref:`multiple-static-modifiers-are-not-allowed`
       * :ref:`non-static-method-%s::%s()-cannot-be-called-statically`
       * :ref:`non-static-method-%s::%s()-should-not-be-called-statically`

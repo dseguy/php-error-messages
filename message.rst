@@ -103,7 +103,6 @@ PHP Error Messages
    messages/cannot-instantiate-trait-%s.rst
    messages/cannot-load-module-"%s"-because-required-module-"%s"-is-not-loaded.rst
    messages/cannot-make-non-abstract-method-%s::%s()-abstract-in-class-%s.rst
-   messages/cannot-make-non-abstract-method-i::foo()-abstract-in-class-j.rst
    messages/cannot-mix-keyed-and-unkeyed-array-entries-in-assignments.rst
    messages/cannot-modify-readonly-property-%s::$%s.rst
    messages/cannot-override-final-%s::%s()-with-%s::%s().rst
@@ -123,9 +122,12 @@ PHP Error Messages
    messages/cannot-unset-offset-in-a-non-array-variable.rst
    messages/cannot-unset-string-offsets.rst
    messages/cannot-use-%s-as-default-value-for-parameter-$%s-of-type-%s.rst
+   messages/cannot-use-'abstract'-as-constant-modifier.rst
+   messages/cannot-use-'final'-as-constant-modifier.rst
    messages/cannot-use-'mixed'-as-class-name-as-it-is-reserved.rst
    messages/cannot-use-'never'-as-class-name-as-it-is-reserved.rst
    messages/cannot-use-'readonly'-as-method-modifier.rst
+   messages/cannot-use-'static'-as-constant-modifier.rst
    messages/cannot-use-::class-with-dynamic-class-name.rst
    messages/cannot-use-[]-for-reading.rst
    messages/cannot-use-a-scalar-value-as-an-array.rst
@@ -143,6 +145,7 @@ PHP Error Messages
    messages/cannot-use-string-offset-as-an-array.rst
    messages/cannot-use-string-offset-as-an-object.rst
    messages/cannot-use-temporary-expression-in-write-context.rst
+   messages/cannot-use-the-%s-modifier-on-a-%s.rst
    messages/cannot-use-the-abstract-modifier-on-a-property-hook.rst
    messages/cannot-use-the-abstract-modifier-on-a-property.rst
    messages/cannot-use-the-final-modifier-on-a-property.rst
@@ -163,6 +166,7 @@ PHP Error Messages
    messages/constant-%s-is-deprecated.rst
    messages/constant-%s::%s-is-deprecated.rst
    messages/constant-expression-contains-invalid-operations.rst
+   messages/constructor-%s::%s()-cannot-declare-a-return-type.rst
    messages/constructors-cannot-declare-a-return-type.rst
    messages/continue-operator-accepts-only-positive-integers.rst
    messages/could-not-check-compatibility-between-%s-and-%s,-because-class-%s-is-not-available.rst
@@ -218,6 +222,7 @@ PHP Error Messages
    messages/label-'%s'-already-defined.rst
    messages/match-expressions-may-only-contain-one-default-arm.rst
    messages/method-%s::%s()-cannot-be-static.rst
+   messages/method-%s::%s()-cannot-declare-a-return-type.rst
    messages/multiple-access-type-modifiers-are-not-allowed.rst
    messages/multiple-readonly-modifiers-are-not-allowed.rst
    messages/multiple-static-modifiers-are-not-allowed.rst
