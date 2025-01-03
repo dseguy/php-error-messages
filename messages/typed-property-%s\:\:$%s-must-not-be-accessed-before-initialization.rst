@@ -56,3 +56,8 @@ ______________________
 
 + :ref:`attempt-to-unset-static-property-%s::$%s`
 + :ref:`typed-static-property-%s::$%s-must-not-be-accessed-before-initialization`
+
+See Also
+________
+
++ `Typed property must not be accessed before initialization <https://madewithlove.com/blog/typed-property-must-not-be-accessed-before-initialization/>`_

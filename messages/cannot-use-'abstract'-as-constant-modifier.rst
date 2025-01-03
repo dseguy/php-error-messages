@@ -24,7 +24,7 @@ _______
 
    <?php
    
-   class x {
+   class X {
    	private static const A  = 1;
    }
    

@@ -29,12 +29,12 @@ _______
 
    <?php
    
-   class x {}
+   class X {}
    
-   trait t {}
+   trait T {}
    
-   class y extends x {
-   	use t{ x::foo instead of t; }; 
+   class Y extends X {
+   	use T{ X::foo instead of T; }; 
    }
    ?>
 

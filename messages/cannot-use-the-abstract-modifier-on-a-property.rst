@@ -26,7 +26,7 @@ _______
 
    <?php
    
-   abstract class x {
+   abstract class X {
        public abstract string $x;
    }
    

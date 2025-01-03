@@ -26,7 +26,7 @@ _______
 
    <?php
    
-   class x implements Throwable {}
+   class X implements Throwable {}
    
    ?>
 

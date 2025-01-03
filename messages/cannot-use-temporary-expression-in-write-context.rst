@@ -65,3 +65,10 @@ Solutions
 _________
 
 + Store the literal value in a variable, a property or an array index before writing to it.
+
+Related Error Messages
+______________________
+
++ :ref:`syntax-error,-unexpected-';',-expecting-'['`
++ :ref:`syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"["`
++ :ref:`syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"{"-or-"["`

@@ -256,6 +256,7 @@ PHP Error Messages
    messages/optional-parameter-$%s-declared-before-required-parameter-$%s-is-implicitly-treated-as-a-required-parameter.rst
    messages/parameter-uses-'parent'-as-type-hint-although-class-does-not-have-a-parent\!.rst
    messages/power-of-base-0-and-negative-exponent-is-deprecated.rst
+   messages/private-constant-%s::%s-cannot-be-final-as-it-is-not-visible-to-other-classes.rst
    messages/private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes.rst
    messages/property-%s::$%s-cannot-have-type-%s.rst
    messages/property-cannot-be-both-final-and-private.rst
@@ -280,12 +281,18 @@ PHP Error Messages
    messages/strict_types-declaration-must-be-the-very-first-statement-in-the-script.rst
    messages/switch-statements-may-only-contain-one-default-clause.rst
    messages/syntax-error,-unexpected-')',-expecting-'|'-or-variable-(t_variable).rst
+   messages/syntax-error,-unexpected-','.rst
    messages/syntax-error,-unexpected-'-',-expecting-'='.rst
+   messages/syntax-error,-unexpected-';',-expecting-'['.rst
    messages/syntax-error,-unexpected-'[',-expecting-';'-or-','.rst
    messages/syntax-error,-unexpected-'|',-expecting-variable-(t_variable).rst
    messages/syntax-error,-unexpected-fully-qualified-name-"\xxx",-expecting-"{".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-variable.rst
+   messages/syntax-error,-unexpected-token-"&",-expecting-end-of-file.rst
+   messages/syntax-error,-unexpected-token-"&".rst
    messages/syntax-error,-unexpected-token-":".rst
+   messages/syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"[".rst
+   messages/syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"{"-or-"[".rst
    messages/syntax-error,-unexpected-token-"?".rst
    messages/syntax-error,-unexpected-token-"??".rst
    messages/syntax-error,-unexpected-token-"if",-expecting-")".rst

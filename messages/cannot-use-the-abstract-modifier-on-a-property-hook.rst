@@ -24,8 +24,8 @@ _______
 
    <?php
    
-   abstract class x {
-   	public $p {
+   abstract class X {
+   	public $property {
    		abstract get;
    	}
    }

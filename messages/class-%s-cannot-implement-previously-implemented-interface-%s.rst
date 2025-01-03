@@ -29,15 +29,15 @@ _______
 
    <?php
    
-   use i as j;
+   use I as J;
    
-   interface i {}
+   interface I {}
    
    // Multiple ways to reference an interface
-   class foo implements i, \i, j {}
+   class Foo implements I, \I, J {}
    
    // This applies to interfaces too
-   interface bar extends i, \i, j {}
+   interface Bar extends I, \I, J {}
    
    ?>
 

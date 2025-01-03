@@ -28,8 +28,8 @@ _______
 
    <?php
    
-   class x {
-   	final private $p;
+   class X {
+   	final private $property;
    }
    
    ?>

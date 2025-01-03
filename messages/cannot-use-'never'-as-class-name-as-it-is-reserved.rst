@@ -30,10 +30,10 @@ _______
 
    <?php
    
-   class never {}
-   interface never {}
-   trait never {}
-   enum never {}
+   class Never {}
+   interface Never {}
+   trait Never {}
+   enum Never {}
    
    ?>
 

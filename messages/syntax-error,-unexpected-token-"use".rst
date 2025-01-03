@@ -29,7 +29,7 @@ _______
 
    <?php 
    if ($a) {
-       use stdclass as A;
+       use StdClass as A;
    }
 
 Solutions

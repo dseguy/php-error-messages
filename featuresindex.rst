@@ -46,6 +46,11 @@ Features index
       * :ref:`cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s`
 
 
+   * and
+
+      * :ref:`syntax-error,-unexpected-token-"&"`
+
+
    * anonymous-catch
 
       * :ref:`syntax-error,-unexpected-\')\',-expecting-\'|\'-or-variable-(t_variable)`
@@ -160,6 +165,11 @@ Features index
    * bitwise-operator
 
       * :ref:`cannot-perform-bitwise-not-on-%s`
+
+
+   * block
+
+      * :ref:`syntax-error,-unexpected-\',\'`
 
 
    * body
@@ -349,6 +359,7 @@ Features index
       * :ref:`define():-argument-#3-(\$case_insensitive)-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported`
       * :ref:`define():-declaration-of-case-insensitive-constants-is-deprecated`
       * :ref:`syntax-error,-unexpected-\'-\',-expecting-\'=\'`
+      * :ref:`syntax-error,-unexpected-token-"&",-expecting-end-of-file`
       * :ref:`undefined-constant-\"%s`
 
 
@@ -440,6 +451,11 @@ Features index
    * destructor
 
       * :ref:`destructors-cannot-declare-a-return-type`
+
+
+   * do-while
+
+      * :ref:`syntax-error,-unexpected-\',\'`
 
 
    * each
@@ -552,6 +568,7 @@ Features index
       * :ref:`cannot-use-the-%s-modifier-on-a-%s`
       * :ref:`cannot-use-the-final-modifier-on-a-property`
       * :ref:`class-%s-cannot-extend-final-class-%s`
+      * :ref:`private-constant-%s::%s-cannot-be-final-as-it-is-not-visible-to-other-classes`
       * :ref:`private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes`
       * :ref:`property-cannot-be-both-final-and-private`
       * :ref:`property-hook-cannot-be-both-final-and-private`
@@ -625,6 +642,7 @@ Features index
 
    * if-then
 
+      * :ref:`syntax-error,-unexpected-\',\'`
       * :ref:`syntax-error,-unexpected-token-"if",-expecting-")"`
       * :ref:`syntax-error,-unexpected-token-"if",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-token-"if"`
@@ -758,6 +776,7 @@ Features index
       * :ref:`cannot-use-empty-list`
       * :ref:`cannot-use-list()-as-standalone-expression`
       * :ref:`spread-operator-is-not-supported-in-assignments`
+      * :ref:`syntax-error,-unexpected-\',\'`
       * :ref:`the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls`
 
 
@@ -780,6 +799,7 @@ Features index
    * match
 
       * :ref:`match-expressions-may-only-contain-one-default-arm`
+      * :ref:`syntax-error,-unexpected-\',\'`
       * :ref:`syntax-error,-unexpected-token-"match"`
       * :ref:`unhandled-match-case-%s`
 
@@ -966,6 +986,7 @@ Features index
 
    * parenthesis
 
+      * :ref:`syntax-error,-unexpected-\',\'`
       * :ref:`syntax-error,-unexpected-token-"if"`
       * :ref:`unparenthesized-\`a-?-b-:-c-?-d-:-e\`-is-not-supported.`
 
@@ -985,6 +1006,7 @@ Features index
 
       * :ref:`%s-function-%s::%s()-cannot-be-declared-private`
       * :ref:`cannot-use-the-final-modifier-on-a-property`
+      * :ref:`private-constant-%s::%s-cannot-be-final-as-it-is-not-visible-to-other-classes`
       * :ref:`private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes`
       * :ref:`property-cannot-be-both-final-and-private`
       * :ref:`property-hook-cannot-be-both-abstract-and-private`
@@ -1075,6 +1097,11 @@ Features index
       * :ref:`only-variables-can-be-passed-by-reference`
       * :ref:`only-variables-should-be-passed-by-reference`
       * :ref:`returning-by-reference-from-a-void-function-is-deprecated`
+      * :ref:`syntax-error,-unexpected-\';\',-expecting-\'[\'`
+      * :ref:`syntax-error,-unexpected-token-"&",-expecting-end-of-file`
+      * :ref:`syntax-error,-unexpected-token-"&"`
+      * :ref:`syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"["`
+      * :ref:`syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"{"-or-"["`
 
 
    * reflection
@@ -1244,6 +1271,7 @@ Features index
    * switch
 
       * :ref:`switch-statements-may-only-contain-one-default-clause`
+      * :ref:`syntax-error,-unexpected-\',\'`
       * :ref:`syntax-error,-unexpected-token-"match"`
 
 
@@ -1403,6 +1431,11 @@ Features index
       * :ref:`property-x::\$p-cannot-have-type-void`
       * :ref:`returning-by-reference-from-a-void-function-is-deprecated`
       * :ref:`void-cannot-be-used-as-a-parameter-type`
+
+
+   * while
+
+      * :ref:`syntax-error,-unexpected-\',\'`
 
 
    * writable
