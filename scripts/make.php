@@ -1,5 +1,9 @@
 <?php
 
+// @todo : when the version is not 8.x+, there should be a next
+// Unless the error is removed. 
+// @todo : when the version is not 7.0, there should be a previous
+
 include 'vendor/autoload.php';
 
 use samdark\sitemap\Sitemap;
@@ -46,6 +50,7 @@ const BASE_KEYS = [
  'changedBehavior',
  'extension',
  'analyze',
+ // '3v4l'
 ];
 
 $behaviors = array();
@@ -127,6 +132,12 @@ foreach($files as $file) {
 	
 	if (isset($error->examples)) {
     	$error->examples = array_filter($error->examples);
+    	
+    	foreach($error->examples as $example) {
+    	    if (str_contains($example, '%')) {
+        		buildlog("Suspicious % in example '$example' in $file");
+    	    }
+    	}
 	}
 
 	if (!is_array($error->tags)) {
@@ -219,6 +230,16 @@ foreach($files as $file) {
 				$nextprev[$error->next] = $target;
 			}
 		}
+	}
+
+	if (empty($error->phpVersion)) {
+		buildlog("Empty phpVersion for $file");
+		++$warnings;
+		continue;
+	} else {
+	    if ($error->phpVersion[-1] !== '+' && $error->phpVersion[-1] !== '-' && empty($error->next)) {
+	        print "The error '$error->id' was finished in $error->phpVersion\n";
+	    }
 	}
 
 	if (!$error->generated) {
@@ -365,7 +386,6 @@ if (!empty($reciproq)) {
 		[$a, $b] = explode(' - ', $origin);
 		[$o, $t] = explode(' - ', $origin);
 		buildlog("$o lacks a related[] to $t");
-		print "$o lacks a related[] to $t\n";
 		++$warnings;
 	}
 }
@@ -497,6 +517,9 @@ foreach($errors as $file => $message) {
 		$entry[] = str_repeat('_', strlen('Changed Behavior'));
 		$entry[] = '';
 		$e = "This error may appear in different PHP versions ";
+		if (!is_iterable($message->changedBehavior)) {
+		    die("changedBehavior is not an array in $file\n");
+		}
 		foreach($message->changedBehavior as $behavior) {
 			$e .= "`".$behavior." <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/".$behavior.".html>`_, ";
 		}

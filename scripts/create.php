@@ -11,6 +11,7 @@ print "Creating entry for '$message'\n";
 $name = strtolower($message);
 $name = trim($name);
 $name = str_replace(' ', '-', $name);
+$name = str_replace('/', '-', $name);
 
 if (file_exists('errors/'.$name.'.ini')) {
 	print "There is already an entry for 'errors/$name.ini'. Aborting\n";
