@@ -50,7 +50,7 @@ const BASE_KEYS = [
  'changedBehavior',
  'extension',
  'analyze',
- // '3v4l'
+ '3v4l'
 ];
 
 $behaviors = array();
