@@ -28,6 +28,7 @@ PHP Error Messages
    messages/%s-function-%s::%s()-cannot-be-declared-private.rst
    messages/%s-virtual-property-%s::$%s-must-not-specify-asymmetric-visibility.rst
    messages/%s::%s-cannot-override-final-constant-%s::%s.rst
+   messages/%s"-will-be-interpreted-as-a-class-name.-did-you-mean-"%s"?-write-"\%s"%s-to-suppress-this-warning.rst
    messages/'%s'-operator-accepts-only-positive-integers.rst
    messages/'%s'-operator-with-non-integer-operand.rst
    messages/'\%s'-is-an-invalid-class-name.rst
@@ -299,9 +300,11 @@ PHP Error Messages
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-variable.rst
    messages/syntax-error,-unexpected-token-"&",-expecting-end-of-file.rst
    messages/syntax-error,-unexpected-token-"&".rst
+   messages/syntax-error,-unexpected-token-"(",-expecting-identifier-or-variable-or-"{"-or-"$".rst
    messages/syntax-error,-unexpected-token-":".rst
    messages/syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"[".rst
    messages/syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"{"-or-"[".rst
+   messages/syntax-error,-unexpected-token-"=",-expecting-identifier-or-variable-or-"{"-or-"$".rst
    messages/syntax-error,-unexpected-token-"?".rst
    messages/syntax-error,-unexpected-token-"??".rst
    messages/syntax-error,-unexpected-token-"if",-expecting-")".rst

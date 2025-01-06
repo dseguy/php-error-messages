@@ -28,7 +28,7 @@ _______
 
    <?php
    
-   class x {
+   class X {
        const A = x::A + 1;
    
        const B = self::C + 1;

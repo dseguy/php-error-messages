@@ -1,0 +1,46 @@
+.. _syntax-error,-unexpected-token-"=",-expecting-identifier-or-variable-or-"{"-or-"\$":
+
+syntax error, unexpected token "=", expecting identifier or variable or "{" or "$"
+----------------------------------------------------------------------------------
+ 
+	.. meta::
+		:description:
+			syntax error, unexpected token "=", expecting identifier or variable or "{" or "$": The object operators ``-&gt;`` and ``.
+
+		:og:type: article
+		:og:title: syntax error, unexpected token &quot;=&quot;, expecting identifier or variable or &quot;{&quot; or &quot;$&quot;
+		:og:description: The object operators ``-&gt;`` and ``
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%3D%22%2C-expecting-identifier-or-variable-or-%22%7B%22-or-%22%24%22.html
+
+Description
+___________
+ 
+The object operators ``->`` and ``?->`` both expect a name as second operand, aka on the right. Here, the name was forgotten and the operator tried to use ``=`` as a name, which is not allowed.
+
+Example
+_______
+
+.. code-block:: php
+
+   <?php
+   
+   // missing a property
+   $object-> = 3;
+   
+   // missing a property
+   $object?-> = 3;
+   
+   ?>
+
+Solutions
+_________
+
++ Add a name after the ``->`` and ``?->``, such as ``$object->property``.
++ Add a name inside a variable after the ``->`` and ``?->``, such as ``$object->$name``.
++ Add a name inside an expression after the ``->`` and ``?->``, such as ``$object->{$variable . 'suffix'}``.
++ Add a name inside an variable variable after the ``->`` and ``?->``, such as ``$object->$$variable``.
+
+Related Error Messages
+______________________
+
++ :ref:`syntax-error,-unexpected-token-"(",-expecting-identifier-or-variable-or-"{"-or-"$"`

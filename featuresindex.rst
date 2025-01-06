@@ -7,6 +7,7 @@ Features index
    * $globals
 
       * :ref:`\$globals-can-only-be-modified-using-the-\$globals[\$name]-=-\$value-syntax`
+      * :ref:`%s():-argument-#%d%s%s%s-cannot-be-passed-by-reference`
 
 
    * $this
@@ -387,6 +388,7 @@ Features index
    * constant
 
       * :ref:`"static::"-is-not-allowed-in-compile-time-constants`
+      * :ref:`%s():-argument-#%d%s%s%s-cannot-be-passed-by-reference`
       * :ref:`cannot-declare-self-referencing-constant`
       * :ref:`constant-%s-already-defined`
       * :ref:`constant-%s-is-deprecated`
@@ -419,6 +421,7 @@ Features index
       * :ref:`constructors-cannot-declare-a-return-type`
       * :ref:`method-%s::%s()-cannot-declare-a-return-type`
       * :ref:`object-of-type-%s-has-not-been-correctly-initialized-by-calling-parent::__construct()-in-its-constructor`
+      * :ref:`the-parent-constructor-was-not-called:-the-object-is-in-an-invalid-state`
 
 
    * continue
@@ -821,6 +824,11 @@ Features index
       * :ref:`the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls`
 
 
+   * literal
+
+      * :ref:`%s():-argument-#%d%s%s%s-cannot-be-passed-by-reference`
+
+
    * loop
 
       * :ref:`\'%s\'-operator-accepts-only-positive-integers`
@@ -866,6 +874,7 @@ Features index
       * :ref:`cannot-use-\'readonly\'-as-method-modifier`
       * :ref:`non-static-method-%s::%s()-cannot-be-called-statically`
       * :ref:`non-static-method-%s::%s()-should-not-be-called-statically`
+      * :ref:`syntax-error,-unexpected-token-"(",-expecting-identifier-or-variable-or-"{"-or-"\$"`
       * :ref:`too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d-expected`
       * :ref:`too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d`
       * :ref:`trying-to-invoke-%s-method-%s::%s()-from-scope-%s`
@@ -906,6 +915,11 @@ Features index
    * native
 
       * :ref:`only-internal-classes-can-be-registered-as-compiler-attribute`
+
+
+   * native-type
+
+      * :ref:`%s\"-will-be-interpreted-as-a-class-name.-did-you-mean-\"%s\"?-write-\"\\%s\"%s-to-suppress-this-warning`
 
 
    * nesting
@@ -1071,6 +1085,7 @@ Features index
       * :ref:`enum-%s-cannot-include-properties`
       * :ref:`interfaces-may-not-include-properties`
       * :ref:`property-%s::\$%s-cannot-have-type-%s`
+      * :ref:`syntax-error,-unexpected-token-"=",-expecting-identifier-or-variable-or-"{"-or-"\$"`
       * :ref:`undefined-property-%s::\$%s`
 
 
@@ -1128,6 +1143,7 @@ Features index
 
       * :ref:`%s%s%s():-argument-#%d%s%s%s-must-be-passed-by-reference,-value-given`
       * :ref:`%s()-argument-#%d%s%s%s-cannot-be-passed-by-reference`
+      * :ref:`%s():-argument-#%d%s%s%s-cannot-be-passed-by-reference`
       * :ref:`%s():-argument-#%d%s%s%s-cannot-not-be-passed-by-reference`
       * :ref:`%s():-argument-#%d%s%s%s-could-not-be-passed-by-reference`
       * :ref:`an-iterator-cannot-be-used-with-foreach-by-reference`
@@ -1375,6 +1391,7 @@ Features index
    * type
 
       * :ref:`%s():-implicitly-marking-parameter-\$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead`
+      * :ref:`%s\"-will-be-interpreted-as-a-class-name.-did-you-mean-\"%s\"?-write-\"\\%s\"%s-to-suppress-this-warning`
       * :ref:`argument-#%d-(\$%s)-must-be-of-type-%s,-%s-given`
       * :ref:`cannot-assign-%s-to-class-constant-%s::%s-of-type`
       * :ref:`cannot-auto-initialize-an-array-inside-property-%s::\$%s-of-type-%s`
@@ -1447,6 +1464,12 @@ Features index
    * variable
 
       * :ref:`undefined-variable`
+
+
+   * variable-variable
+
+      * :ref:`syntax-error,-unexpected-token-"(",-expecting-identifier-or-variable-or-"{"-or-"\$"`
+      * :ref:`syntax-error,-unexpected-token-"=",-expecting-identifier-or-variable-or-"{"-or-"\$"`
 
 
    * variadic

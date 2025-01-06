@@ -30,12 +30,12 @@ _______
 
    <?php
    
-   class x {
+   class X {
    	public readonly int $property;
    	public int $other;
    }
    
-   $x = new x;
+   $x = new X;
    $x->other = 3;
    $x->property = 5;
    

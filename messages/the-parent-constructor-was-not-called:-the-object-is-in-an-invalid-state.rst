@@ -53,4 +53,5 @@ _______
 Solutions
 _________
 
-+ 
++ Call the parent constructor.
++ Use another parent class.

@@ -31,7 +31,7 @@ _______
 Solutions
 _________
 
-+ 
++ Use a valid open mode.
 
 See Also
 ________

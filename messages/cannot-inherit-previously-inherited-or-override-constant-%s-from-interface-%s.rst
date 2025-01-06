@@ -24,11 +24,11 @@ _______
 
    <?php
    
-   interface i {
+   interface I {
        const A = 1;
    }
    
-   class x implements i {
+   class X implements I {
        const A = 2;
    }
    

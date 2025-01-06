@@ -16,9 +16,11 @@ Here is a list of classic syntax errors, met in every day code. Some common solu
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-variable`
       * :ref:`syntax-error,-unexpected-token-"&"`
       * :ref:`syntax-error,-unexpected-token-"&",-expecting-end-of-file`
+      * :ref:`syntax-error,-unexpected-token-"(",-expecting-identifier-or-variable-or-"{"-or-"$"`
       * :ref:`syntax-error,-unexpected-token-":"`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"["`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"{"-or-"["`
+      * :ref:`syntax-error,-unexpected-token-"=",-expecting-identifier-or-variable-or-"{"-or-"$"`
       * :ref:`syntax-error,-unexpected-token-"?"`
       * :ref:`syntax-error,-unexpected-token-"??"`
       * :ref:`syntax-error,-unexpected-token-"if"`

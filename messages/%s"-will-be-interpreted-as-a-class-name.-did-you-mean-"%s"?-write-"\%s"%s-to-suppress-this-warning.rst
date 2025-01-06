@@ -1,0 +1,45 @@
+.. _%s"-will-be-interpreted-as-a-class-name.-did-you-mean-"%s"?-write-"\%s"%s-to-suppress-this-warning:
+
+"%s" will be interpreted as a class name. Did you mean "%s"? Write "\%s"%s to suppress this warning
+---------------------------------------------------------------------------------------------------
+ 
+	.. meta::
+		:description:
+			"%s" will be interpreted as a class name. Did you mean "%s"? Write "\%s"%s to suppress this warning: PHP offers several native type, such as ``bool`` or ``int``.
+
+		:og:type: article
+		:og:title: &quot;%s&quot; will be interpreted as a class name. Did you mean &quot;%s&quot;? Write &quot;\%s&quot;%s to suppress this warning
+		:og:description: PHP offers several native type, such as ``bool`` or ``int``
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/%25s%5C%22-will-be-interpreted-as-a-class-name.-did-you-mean-%5C%22%25s%5C%22%3F-write-%5C%22%5C%5C%25s%5C%22%25s-to-suppress-this-warning.html
+
+Description
+___________
+ 
+PHP offers several native type, such as ``bool`` or ``int``. These names may also be confused with ``boolean`` and ``integer``, which are not PHP native types. They are valid for custom code usage, including creating classes or interfaces. To avoid such confusion, PHP emits this error message to make sure that ``integer`` is confused with ``int``.
+
+``boolean``, for ``bool``, ``integer``, for ``int``, ``double``, for ``float``, and ``resource``, for ``\resource``, are all subjects to this error.
+
+
+Example
+_______
+
+.. code-block:: php
+
+   <?php
+   
+       function foo() : boolean {} 
+   
+   ?>
+
+
+Literal Examples
+****************
++ "boolean" will be interpreted as a class name. Did you mean "bool"? Write "\boolean" to suppress this warning
++ "resource" will be interpreted as a class name. Did you mean "\resource"?
+
+Solutions
+_________
+
++ Use the PHP native type.
++ Create a ``use`` statement for the actual type.
++ Add the initial ``\`` with this name.

@@ -26,15 +26,15 @@ _______
 
    <?php
    
-   enum e {
+   enum E {
    	case A;
    }
    
    //Cannot instantiate enum e
-   new e();
+   new E();
    
-   // e
-   print get_class(e::A);
+   // E
+   print get_class(E::A);
    
    ?>
 
