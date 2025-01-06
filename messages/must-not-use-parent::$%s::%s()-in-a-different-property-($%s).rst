@@ -26,20 +26,20 @@ _______
 
    <?php
    
-   class x {
+   class X {
        public string $q { 
            get => 'in parent';
        }
    }
    
-   class y extends x {
-       public string $p { 
-           // Must not use parent::$q::get() in a different property ($p)
+   class Y extends X {
+       public string $property { 
+           // Must not use parent::$q::get() in a different property ($property)
            get => parent::$q::get();
        }
    }
    
-   $y = new y;
+   $y = new Y;
    echo $y->q;
    
    ?>

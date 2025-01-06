@@ -24,7 +24,7 @@ _______
 
    <?php
    
-   class x implements unitenum {}
+   class X implements YnitEnum {}
    
    ?>
 

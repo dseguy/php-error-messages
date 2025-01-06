@@ -26,11 +26,11 @@ _______
 
    <?php
    
-   class x {
+   class X {
    	function foo() { echo __METHOD__;}
    }
    
-   x::foo();
+   X::foo();
    
    ?>
 

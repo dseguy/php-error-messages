@@ -26,11 +26,11 @@ _______
 
    <?php
    
-   class x {
+   class X {
    	private readonly readonly A $b;
    }
    
-   readonly readonly class y {
+   readonly readonly class Y {
    }
    
    ?>

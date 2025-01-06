@@ -37,16 +37,16 @@ _______
    	case Z = 'foo';
    }
    
-   class x {
+   class X {
    	const XZ = Z::z->value;
    	const X = Y->y;
    }
    
    // OK: foo
-   echo x::XZ;
+   echo X::XZ;
    
    //Fetching properties on non-enums in constant expressions is not allowed
-   echo x::X;
+   echo X::X;
    
    ?>
 

@@ -15,6 +15,11 @@ Tag index
       * :ref:`too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d`
 
 
+   * argument-value
+
+      * :ref:`must-be-a-valid-comparison-operator`
+
+
    * arrays
 
       * :ref:`automatic-conversion-of-false-to-array-is-deprecated`
@@ -47,6 +52,11 @@ Tag index
    * collision
 
       * :ref:`%s-%s-inherits-both-%s::%s-and-%s::%s`
+
+
+   * confusion
+
+      * :ref:`%s\"-will-be-interpreted-as-a-class-name.-did-you-mean-\"%s\"?-write-\"\\%s\"%s-to-suppress-this-warning`
 
 
    * constant
@@ -181,6 +191,12 @@ Tag index
    * offset
 
       * :ref:`illegal-string-offset`
+
+
+   * operators
+
+      * :ref:`the-behavior-of-unparenthesized-expressions-containing-both-\'.\'-and-\'+\'-\'-\'-will-change-in-php-8:-\'+\'-\'-\'-will-take-a-higher-precedence`
+      * :ref:`the-behavior-of-unparenthesized-expressions-containing-both-\'.\'-and-\'>>\'-\'<<\'-will-change-in-php-8:-\'<<\'-\'>>\'-will-take-a-higher-precedence`
 
 
    * partial-lint

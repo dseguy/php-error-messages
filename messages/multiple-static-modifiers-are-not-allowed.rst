@@ -29,7 +29,7 @@ _______
 
    <?php
    
-   class x {
+   class X {
    	private static static A $b;
    
    	private static static function a() {}

@@ -6,6 +6,7 @@ PHP Error Messages
    :caption: Contents:
 
    messages/"static::"-is-not-allowed-in-compile-time-constants.rst
+   messages/$globals-can-only-be-modified-using-the-$globals[$name]-=-$value-syntax.rst
    messages/%d-arguments-are-required,-%d.rst
    messages/%s%s%s()-does-not-accept-unknown-named-parameters.rst
    messages/%s%s%s():-argument-#%d%s%s%s-must-be-passed-by-reference,-value-given.rst
@@ -33,7 +34,10 @@ PHP Error Messages
    messages/'goto'-into-loop-or-switch-statement-is-disallowed.rst
    messages/'goto'-to-undefined-label-'%s'.rst
    messages/'namespace\%s'-is-an-invalid-class-name.rst
+   messages/__autoload()-is-deprecated,-use-spl_autoload_register()-instead.rst
+   messages/__autoload()-is-no-longer-supported,-use-spl_autoload_register()-instead.rst
    messages/__clone-method-called-on-non-object.rst
+   messages/`%s'-is-not-a-valid-mode-for-fopen.rst
    messages/a-class-constant-must-not-be-called-class.-it-is-reserved-for-class-name-fetching.rst
    messages/a-function-with-return-type-must-return-a-value.rst
    messages/a-never-returning-%s-must-not-return.rst
@@ -213,6 +217,8 @@ PHP Error Messages
    messages/interfaces-may-only-include-hooked-properties.rst
    messages/invalid-argument-supplied-for-foreach().rst
    messages/invalid-characters-passed-for-attempted-conversion,-these-have-been-ignored.rst
+   messages/invalid-utf-8-codepoint-escape.rst
+   messages/invalid-utf-8-codepoint-escape:-codepoint-too-large.rst
    messages/is-an-invalid-class-name.rst
    messages/is-an-invalid-offset.rst
    messages/is-not-a-valid-codepoint.rst
@@ -226,6 +232,8 @@ PHP Error Messages
    messages/multiple-access-type-modifiers-are-not-allowed.rst
    messages/multiple-readonly-modifiers-are-not-allowed.rst
    messages/multiple-static-modifiers-are-not-allowed.rst
+   messages/must-be-a-user-defined-class-name,-internal-class-name-given.rst
+   messages/must-be-a-valid-comparison-operator.rst
    messages/must-be-a-valid-rounding-mode-(roundingmode\:\:*).rst
    messages/must-be-contained-in-argument-#1-($haystack).rst
    messages/must-contain-at-least-one-element.rst
@@ -271,6 +279,7 @@ PHP Error Messages
    messages/redefinition-of-parameter-$%s.rst
    messages/required-parameter-$%s-follows-optional-parameter-$%s.rst
    messages/required-trait-%s-wasn\'t-added-to-%s.rst
+   messages/return-type-of-%s::%s()-should-either-be-compatible-with-%s::%s():-mixed.rst
    messages/return-value-must-be-of-type-int,-string-returned.rst
    messages/returning-bool-from-comparison-function-is-deprecated.rst
    messages/returning-by-reference-from-a-void-function-is-deprecated.rst
@@ -307,7 +316,10 @@ PHP Error Messages
    messages/the-(unset)-cast-is-deprecated.rst
    messages/the-(unset)-cast-is-no-longer-supported.rst
    messages/the-"generator"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated.rst
+   messages/the-behavior-of-unparenthesized-expressions-containing-both-'.'-and-'+'-'-'-will-change-in-php-8:-'+'-'-'-will-take-a-higher-precedence.rst
+   messages/the-behavior-of-unparenthesized-expressions-containing-both-'.'-and-'>>'-'<<'-will-change-in-php-8:-'<<'-'>>'-will-take-a-higher-precedence.rst
    messages/the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls.rst
+   messages/the-parent-constructor-was-not-called:-the-object-is-in-an-invalid-state.rst
    messages/too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d-expected.rst
    messages/too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d.rst
    messages/too-few-arguments-to-function-%s%s%s(),-%d-passed-in-%s-on-line-%d-and-%s-%d-expected.rst

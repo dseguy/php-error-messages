@@ -4,11 +4,21 @@ Features index
 -----------------------------
 
 
+   * $globals
+
+      * :ref:`\$globals-can-only-be-modified-using-the-\$globals[\$name]-=-\$value-syntax`
+
+
    * $this
 
       * :ref:`cannot-re-assign-\$this`
       * :ref:`cannot-unset-\$this`
       * :ref:`using-\$this-when-not-in-object-context`
+
+
+   * ReturnTypeWillChange
+
+      * :ref:`return-type-of-%s::%s()-should-either-be-compatible-with-%s::%s():-mixed`
 
 
    * __toString
@@ -33,6 +43,11 @@ Features index
       * :ref:`only-hooked-properties-may-be-declared-abstract`
       * :ref:`property-hook-cannot-be-both-abstract-and-private`
       * :ref:`static-function-%s%s%s()-cannot-be-abstract`
+
+
+   * addition
+
+      * :ref:`the-behavior-of-unparenthesized-expressions-containing-both-\'.\'-and-\'+\'-\'-\'-will-change-in-php-8:-\'+\'-\'-\'-will-take-a-higher-precedence`
 
 
    * alias
@@ -67,6 +82,7 @@ Features index
       * :ref:`%s()-expects-exactly-0-arguments,-%d-given`
       * :ref:`%s():-argument-#%d%s%s%s-cannot-not-be-passed-by-reference`
       * :ref:`%s():-argument-#%d%s%s%s-could-not-be-passed-by-reference`
+      * :ref:`\`%s\'-is-not-a-valid-mode-for-fopen`
       * :ref:`argument-#%d-(\$%s)-must-be-of-type-%s,-%s-given`
       * :ref:`calling-get_parent_class()-without-arguments-is-deprecated`
       * :ref:`only-variables-can-be-passed-by-reference`
@@ -151,6 +167,12 @@ Features index
       * :ref:`x::foo()-has-#[\override]-attribute,-but-no-matching-parent-method-exists`
 
 
+   * autoload
+
+      * :ref:`__autoload()-is-deprecated,-use-spl_autoload_register()-instead`
+      * :ref:`__autoload()-is-no-longer-supported,-use-spl_autoload_register()-instead`
+
+
    * automagic
 
       * :ref:`non-string-needles-will-be-interpreted-as-strings-in-the-future.-use-an-explicit-chr()-call-to-preserve-the-current-behavior`
@@ -160,6 +182,11 @@ Features index
 
       * :ref:`automatic-conversion-of-false-to-array-is-deprecated`
       * :ref:`cannot-auto-initialize-an-array-inside-property-%s::\$%s-of-type-%s`
+
+
+   * bitshift-operator
+
+      * :ref:`the-behavior-of-unparenthesized-expressions-containing-both-\'.\'-and-\'>>\'-\'<<\'-will-change-in-php-8:-\'<<\'-\'>>\'-will-take-a-higher-precedence`
 
 
    * bitwise-operator
@@ -264,6 +291,7 @@ Features index
       * :ref:`cannot-make-non-abstract-method-%s::%s()-abstract-in-class-%s`
       * :ref:`class-\"%s\"-not-found`
       * :ref:`illegal-class-name`
+      * :ref:`must-be-a-user-defined-class-name,-internal-class-name-given`
 
 
    * class-constant
@@ -338,6 +366,12 @@ Features index
    * compile-time
 
       * :ref:`calling-get_class()-without-arguments-is-deprecated`
+
+
+   * concatenation
+
+      * :ref:`the-behavior-of-unparenthesized-expressions-containing-both-\'.\'-and-\'+\'-\'-\'-will-change-in-php-8:-\'+\'-\'-\'-will-take-a-higher-precedence`
+      * :ref:`the-behavior-of-unparenthesized-expressions-containing-both-\'.\'-and-\'>>\'-\'<<\'-will-change-in-php-8:-\'<<\'-\'>>\'-will-take-a-higher-precedence`
 
 
    * conditional-structure
@@ -499,6 +533,12 @@ Features index
    * escape-data
 
       * :ref:`the-\$escape-parameter-must-be-provided-as-its-default-value-will-change`
+
+
+   * escape-sequence
+
+      * :ref:`invalid-utf-8-codepoint-escape`
+      * :ref:`invalid-utf-8-codepoint-escape:-codepoint-too-large`
 
 
    * exception
@@ -718,6 +758,7 @@ Features index
       * :ref:`interface-%s-cannot-contain-non-abstract-method-%s()`
       * :ref:`interfaces-may-not-include-properties`
       * :ref:`non-enum-class-%s-cannot-implement-interface-%s`
+      * :ref:`return-type-of-%s::%s()-should-either-be-compatible-with-%s::%s():-mixed`
 
 
    * interpolation
@@ -1059,6 +1100,7 @@ Features index
 
    * reading
 
+      * :ref:`\$globals-can-only-be-modified-using-the-\$globals[\$name]-=-\$value-syntax`
       * :ref:`cannot-use-[]-for-reading`
 
 
@@ -1196,6 +1238,7 @@ Features index
 
    * spl
 
+      * :ref:`__autoload()-is-no-longer-supported,-use-spl_autoload_register()-instead`
       * :ref:`is-an-invalid-offset`
 
 
@@ -1339,6 +1382,7 @@ Features index
       * :ref:`default-value-for-parameters-with-a-%s-type-can-only-be-%s-or-null`
       * :ref:`duplicate-type-%s-is-redundant`
       * :ref:`is-an-invalid-class-name`
+      * :ref:`must-be-a-valid-comparison-operator`
       * :ref:`needle-is-not-a-string-or-an-integer`
       * :ref:`syntax-error,-unexpected-token-"?"`
       * :ref:`using-array_key_exists()-on-objects-is-deprecated.`
@@ -1352,6 +1396,12 @@ Features index
    * typo
 
       * :ref:`call-to-undefined-function`
+
+
+   * unicode
+
+      * :ref:`invalid-utf-8-codepoint-escape`
+      * :ref:`invalid-utf-8-codepoint-escape:-codepoint-too-large`
 
 
    * union-type
@@ -1441,6 +1491,11 @@ Features index
    * writable
 
       * :ref:`assignments-can-only-happen-to-writable-values`
+
+
+   * writing
+
+      * :ref:`\$globals-can-only-be-modified-using-the-\$globals[\$name]-=-\$value-syntax`
 
 
    * yield

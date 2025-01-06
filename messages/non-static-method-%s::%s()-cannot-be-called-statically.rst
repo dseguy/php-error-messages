@@ -24,7 +24,7 @@ _______
 
    <?php
    
-   class x {
+   class X {
        static function foo() {
            //Non-static method x::foo() cannot be called statically
            self::goo();
@@ -33,7 +33,7 @@ _______
        function goo() {}
    }
    
-   (new x)->foo();
+   (new X)->foo();
    
    ?>
 

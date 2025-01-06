@@ -19,13 +19,11 @@ FFI is an extension that allows loading C libraries, and building C data structu
 
 Since this error message is provided by FFI, it means FFI is installed on the system, but it is not enabled in the php.ini.
 
-
 Example
 _______
 
 .. code-block:: php
 
-   
    <?php
    // create FFI object, loading libc and exporting function printf()
    $ffi = FFI::cdef(
@@ -33,7 +31,6 @@ _______
        "libc.so.6");
    
    ?>
-   
 
 Solutions
 _________
