@@ -187,6 +187,7 @@ Features index
 
    * bitshift-operator
 
+      * :ref:`syntax-error,-unexpected-token-"<<"`
       * :ref:`the-behavior-of-unparenthesized-expressions-containing-both-\'.\'-and-\'>>\'-\'<<\'-will-change-in-php-8:-\'<<\'-\'>>\'-will-take-a-higher-precedence`
 
 
@@ -579,6 +580,7 @@ Features index
    * extends
 
       * :ref:`class-%s-cannot-extend-final-class-%s`
+      * :ref:`syntax-error,-unexpected-token-"extends",-expecting-"{"`
 
 
    * extension
@@ -703,6 +705,7 @@ Features index
       * :ref:`%s-%s-cannot-implement-previously-implemented-interface-%s`
       * :ref:`b-cannot-implement-a---it-is-not-an-interface`
       * :ref:`class-%s-cannot-implement-both-iterator-and-iteratoraggregate-at-the-same-time`
+      * :ref:`syntax-error,-unexpected-token-"extends",-expecting-"{"`
 
 
    * index
@@ -841,6 +844,11 @@ Features index
       * :ref:`\'%s\'-not-in-the-\'loop\'-or-\'switch\'-context`
       * :ref:`\'%s\'-operator-accepts-only-positive-integers`
       * :ref:`the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls`
+
+
+   * magic-constant
+
+      * :ref:`syntax-error,-unexpected-token-"__namespace__",-expecting-"("`
 
 
    * magic-method

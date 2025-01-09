@@ -26,10 +26,10 @@ _______
 
    <?php
    
-   class x {
-   	public $p {
+   class X {
+   	public $property {
    		final get => 2;
-   		set => $this->p = $value;
+   		set => $this->property = $value;
    	}
    	// No hook can be changed
    	public final $q {
@@ -37,10 +37,10 @@ _______
    	}
    }
    
-   class y extends x {
-   	public final $p {
+   class Y extends X {
+   	public final $property {
    		get => 3;                 // This one cannot be overriden
-   		set => $this->p = $value; // This one is OK
+   		set => $this->property = $value; // This one is OK
    	}
    	public final $q {
    		get => 2;

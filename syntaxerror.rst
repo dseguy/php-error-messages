@@ -24,11 +24,14 @@ Here is a list of classic syntax errors, met in every day code. Some common solu
       * :ref:`syntax-error,-unexpected-token-"=",-expecting-identifier-or-variable-or-"{"-or-"$"`
       * :ref:`syntax-error,-unexpected-token-"?"`
       * :ref:`syntax-error,-unexpected-token-"??"`
+      * :ref:`syntax-error,-unexpected-token-"__namespace__",-expecting-"("`
       * :ref:`syntax-error,-unexpected-token-"break"`
       * :ref:`syntax-error,-unexpected-token-"continue"`
+      * :ref:`syntax-error,-unexpected-token-"extends",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"if"`
       * :ref:`syntax-error,-unexpected-token-"if",-expecting-")"`
       * :ref:`syntax-error,-unexpected-token-"if",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-token-"match"`
       * :ref:`syntax-error,-unexpected-token-"use"`
       * :ref:`syntax-error,-unexpected-token-"{"`
+      * :ref:`syntax-error,-unexpected-token-<<`

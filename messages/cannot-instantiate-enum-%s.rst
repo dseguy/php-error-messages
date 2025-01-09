@@ -30,7 +30,7 @@ _______
    	case A;
    }
    
-   //Cannot instantiate enum e
+   //Cannot instantiate enum E
    new E();
    
    // E
