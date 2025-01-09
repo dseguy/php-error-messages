@@ -42,7 +42,7 @@ _______
    	const X = Y->y;
    }
    
-   // OK: foo
+   // OK
    echo X::XZ;
    
    //Fetching properties on non-enums in constant expressions is not allowed

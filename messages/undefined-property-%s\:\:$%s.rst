@@ -1,4 +1,4 @@
-.. _undefined-property-%s::\$%s:
+.. _undefined-property-%s\:\:\$%s:
 
 Undefined property %s::$%s
 --------------------------
@@ -52,3 +52,4 @@ Related Error Messages
 ______________________
 
 + :ref:`access-to-undeclared-static-property-%s::$%s`
++ :ref:`property-%s-does-not-exist`

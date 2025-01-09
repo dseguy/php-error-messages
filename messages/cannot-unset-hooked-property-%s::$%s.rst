@@ -24,13 +24,13 @@ _______
 
    <?php
    
-   class x {
+   class X {
        public string $property {
            get => $this->x;
        }
    }
    
-   $x = new x;
+   $x = new X;
    unset($x->x);
    
    ?>

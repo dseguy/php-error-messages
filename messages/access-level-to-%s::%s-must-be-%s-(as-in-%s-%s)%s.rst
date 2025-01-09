@@ -27,11 +27,11 @@ _______
 
    <?php
    
-   interface i {
+   interface I {
        public const A   = 'public';
    }
    
-   class x implements i {
+   class X implements I {
        private const A   = 'public';
    }
    

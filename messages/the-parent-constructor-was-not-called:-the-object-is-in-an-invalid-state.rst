@@ -30,7 +30,7 @@ _______
 
    <?php
    // PHP bug 8318
-   class bug8318 extends \SplFileObject
+   class Bug8318 extends \SplFileObject
    {
        public function __construct()
        {
@@ -42,7 +42,7 @@ _______
        }
    }
    
-   $cl = new bug8318;
+   $cl = new Bug8318;
    try {
        $cl->fpassthru();
    } catch (\Error $e) {

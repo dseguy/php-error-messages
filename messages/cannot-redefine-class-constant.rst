@@ -33,11 +33,11 @@ _______
 
    <?php
    
-   class x {
+   class X {
    	const A = 1, A = 1;
    }
    
-   enum e {
+   enum E {
    	case B;
    
    	const B = 1;

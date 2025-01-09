@@ -26,11 +26,11 @@ _______
 
    <?php
    
-   class x {
+   class X {
    	public static $a = 1;
    }
    
-   $x = new x;
+   $x = new X;
    echo X::$a; // OK
    echo X::$b;
    

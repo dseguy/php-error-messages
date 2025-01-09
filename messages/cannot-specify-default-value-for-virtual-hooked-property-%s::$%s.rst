@@ -24,8 +24,8 @@ _______
 
    <?php
    
-   class x {
-   	public int $p = 3 {
+   class X {
+   	public int $property = 3 {
    		get {}
    	}
    }
@@ -36,4 +36,4 @@ Solutions
 _________
 
 + Remove the property hooks, to regain usage of the default value.
-+ Define a property hook that makes use of the property ``$this->p``.
++ Define a property hook that makes use of the property ``$this->property``.

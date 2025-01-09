@@ -213,9 +213,12 @@ Features index
 
    * break
 
+      * :ref:`\'%s\'-not-in-the-\'loop\'-or-\'switch\'-context`
       * :ref:`\'%s\'-operator-accepts-only-positive-integers`
       * :ref:`\'%s\'-operator-with-non-integer-operand`
       * :ref:`break-operator-accepts-only-positive-integers`
+      * :ref:`syntax-error,-unexpected-token-"break"`
+      * :ref:`syntax-error,-unexpected-token-"continue"`
 
 
    * by-reference
@@ -426,9 +429,12 @@ Features index
 
    * continue
 
+      * :ref:`\'%s\'-not-in-the-\'loop\'-or-\'switch\'-context`
       * :ref:`\'%s\'-operator-accepts-only-positive-integers`
       * :ref:`\'%s\'-operator-with-non-integer-operand`
       * :ref:`continue-operator-accepts-only-positive-integers`
+      * :ref:`syntax-error,-unexpected-token-"break"`
+      * :ref:`syntax-error,-unexpected-token-"continue"`
 
 
    * csv
@@ -595,6 +601,7 @@ Features index
 
       * :ref:`couldn\'t-open-stream-%s`
       * :ref:`couldn\'t-open-stream:-%s`
+      * :ref:`no-such-file-or-directory`
 
 
    * file-mode
@@ -831,6 +838,7 @@ Features index
 
    * loop
 
+      * :ref:`\'%s\'-not-in-the-\'loop\'-or-\'switch\'-context`
       * :ref:`\'%s\'-operator-accepts-only-positive-integers`
       * :ref:`the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls`
 
@@ -847,8 +855,11 @@ Features index
 
    * match
 
+      * :ref:`\'%s\'-not-in-the-\'loop\'-or-\'switch\'-context`
       * :ref:`match-expressions-may-only-contain-one-default-arm`
       * :ref:`syntax-error,-unexpected-\',\'`
+      * :ref:`syntax-error,-unexpected-token-"break"`
+      * :ref:`syntax-error,-unexpected-token-"continue"`
       * :ref:`syntax-error,-unexpected-token-"match"`
       * :ref:`unhandled-match-case-%s`
 
@@ -883,6 +894,11 @@ Features index
    * mixed
 
       * :ref:`cannot-use-\'mixed\'-as-class-name-as-it-is-reserved`
+
+
+   * multiplication
+
+      * :ref:`syntax-error,-unexpected-token-"*"`
 
 
    * name
@@ -1046,9 +1062,20 @@ Features index
       * :ref:`unparenthesized-\`a-?-b-:-c-?-d-:-e\`-is-not-supported.`
 
 
+   * phar
+
+      * :ref:`entry-%s-does-not-exist-and-cannot-be-deleted`
+      * :ref:`unlink-of-\"%s\"-failed,-file-does-not-exist`
+
+
    * php-variable
 
       * :ref:`undefined-variable`
+
+
+   * power
+
+      * :ref:`syntax-error,-unexpected-token-"*"`
 
 
    * printf
@@ -1292,6 +1319,12 @@ Features index
       * :ref:`cannot-use-object-of-type-stdclass-as-array`
 
 
+   * stream
+
+      * :ref:`entry-%s-does-not-exist-and-cannot-be-deleted`
+      * :ref:`unlink-of-\"%s\"-failed,-file-does-not-exist`
+
+
    * strict_types
 
       * :ref:`object-of-class-%s-could-not-be-converted-to-%s`
@@ -1329,8 +1362,11 @@ Features index
 
    * switch
 
+      * :ref:`\'%s\'-not-in-the-\'loop\'-or-\'switch\'-context`
       * :ref:`switch-statements-may-only-contain-one-default-clause`
       * :ref:`syntax-error,-unexpected-\',\'`
+      * :ref:`syntax-error,-unexpected-token-"break"`
+      * :ref:`syntax-error,-unexpected-token-"continue"`
       * :ref:`syntax-error,-unexpected-token-"match"`
 
 

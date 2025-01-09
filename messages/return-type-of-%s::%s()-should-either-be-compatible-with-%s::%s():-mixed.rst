@@ -50,7 +50,7 @@ _______
 
 Literal Examples
 ****************
-+ Return type of %s::%s() should either be compatible with %s::%s(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
++ Return type of MyJsonSerialize::jsonserialize() should either be compatible with JsonSerialize::jsonserialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
 
 Solutions
 _________

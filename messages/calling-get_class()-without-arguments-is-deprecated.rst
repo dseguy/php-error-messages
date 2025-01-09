@@ -28,7 +28,7 @@ _______
 
    <?php
    
-   class x {
+   class X {
    	function foo() {
    		echo get_class();         // x
    		echo get_class($this);    // y
@@ -37,9 +37,9 @@ _______
    	}
    }
    
-   class y extends x {}
+   class Y extends X {}
    
-   echo (new y)->foo();
+   echo (new Y)->foo();
    
    ?>
 

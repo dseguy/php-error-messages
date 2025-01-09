@@ -17,7 +17,7 @@ ___________
  
 Since PHP 8.3, constants may have a type specification. In this case, the default value must match the requested type. 
 
-In particular, there is not type juggling, so type has to match exactly. 
+In particular, there is not type juggling, so type has to match exactly.
 
 Example
 _______

@@ -46,4 +46,4 @@ ______________________
 + :ref:`cannot-use-temporary-expression-in-write-context`
 
 
-In previous PHP versions, this error message used to be :ref:`syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"{"-or-"["`.
+In previous PHP versions, this error message used to be :ref:`syntax-error,-unexpected-token-"\;",-expecting-"->"-or-"?->"-or-"{"-or-"["`.

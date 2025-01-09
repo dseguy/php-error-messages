@@ -36,7 +36,7 @@ _______
        }
    }
    
-   $x = new y;
+   $x = new Y;
    echo $x->property;
    
    ?>

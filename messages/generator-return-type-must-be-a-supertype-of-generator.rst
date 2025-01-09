@@ -28,7 +28,7 @@ _______
 
    <?php
    
-   function foo() : x {
+   function foo() : X {
    	yield 1;
    	
    	return true;

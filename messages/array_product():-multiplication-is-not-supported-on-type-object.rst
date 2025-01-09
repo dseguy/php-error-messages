@@ -31,9 +31,9 @@ _______
 
    <?php
    
-   var_dump(array_product([new stdClass()] )); // returns 1
+   var_dump(array_product([new StdClass()] )); // returns 1
    
-   var_dump(array_product([new stdClass(), 3] )); // returns 99
+   var_dump(array_product([new StdClass(), 3] )); // returns 99
    
    ?>
 

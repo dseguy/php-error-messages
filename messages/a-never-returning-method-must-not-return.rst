@@ -29,7 +29,7 @@ _______
 
    <?php
    
-   class x {
+   class X {
    	function foo() : never {
    		return true;
    	}

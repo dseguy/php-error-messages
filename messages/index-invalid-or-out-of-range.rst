@@ -5,22 +5,21 @@ Index invalid or out of range
  
 	.. meta::
 		:description:
-			Index invalid or out of range: This error message is returned by the SplFixedArray object, when trying to access indices outside the validity interval.
+			Index invalid or out of range: This error message is returned by the ``SplFixedArray`` object, when trying to access indices outside the validity interval.
 
 		:og:type: article
 		:og:title: Index invalid or out of range
-		:og:description: This error message is returned by the SplFixedArray object, when trying to access indices outside the validity interval
+		:og:description: This error message is returned by the ``SplFixedArray`` object, when trying to access indices outside the validity interval
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/index-invalid-or-out-of-range.html
 
 Description
 ___________
  
-This error message is returned by the SplFixedArray object, when trying to access indices outside the validity interval. A SplFixedArray has a limited number of elements, set at the beginiing, or updated laster with ``setSize()``.
+This error message is returned by the ``SplFixedArray`` object, when trying to access indices outside the validity interval. A SplFixedArray has a limited number of elements, set at the beginiing, or updated laster with ``setSize()``.
 
 On a regular array, accessing an undefined index is a warning, not a fatal error.
 
 A different message is emited when the index is not an integer.
-
 
 Example
 _______
@@ -29,7 +28,7 @@ _______
 
    <?php
    
-   $object = new splFixedArray(3);
+   $object = new SplFixedArray(3);
    
    $object[1] = 3;
    echo $object[1]; // OK

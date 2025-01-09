@@ -27,11 +27,11 @@ _______
 
    <?php
    
-   class x {
+   class X {
        function foo() {}
    }
    
-   $x = new x;
+   $x = new X;
    $x->goo();
    
    ?>

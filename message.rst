@@ -13,6 +13,7 @@ PHP Error Messages
    messages/%s%s%s():-return-value-must-be-of-type-%s,-%s-returned.rst
    messages/%s()-argument-#%d%s%s%s-cannot-be-passed-by-reference.rst
    messages/%s()-expects-exactly-0-arguments,-%d-given.rst
+   messages/%s():-argument-#%d%s%s%s-cannot-be-passed-by-reference.rst
    messages/%s():-argument-#%d%s%s%s-cannot-not-be-passed-by-reference.rst
    messages/%s():-argument-#%d%s%s%s-could-not-be-passed-by-reference.rst
    messages/%s():-implicitly-marking-parameter-$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead.rst
@@ -29,6 +30,7 @@ PHP Error Messages
    messages/%s-virtual-property-%s::$%s-must-not-specify-asymmetric-visibility.rst
    messages/%s::%s-cannot-override-final-constant-%s::%s.rst
    messages/%s"-will-be-interpreted-as-a-class-name.-did-you-mean-"%s"?-write-"\%s"%s-to-suppress-this-warning.rst
+   messages/'%s'-not-in-the-'loop'-or-'switch'-context.rst
    messages/'%s'-operator-accepts-only-positive-integers.rst
    messages/'%s'-operator-with-non-integer-operand.rst
    messages/'\%s'-is-an-invalid-class-name.rst
@@ -191,6 +193,7 @@ PHP Error Messages
    messages/duplicate-declaration-of-static-variable-$%s.rst
    messages/duplicate-named-parameter-$%s.rst
    messages/duplicate-type-%s-is-redundant.rst
+   messages/entry-%s-does-not-exist-and-cannot-be-deleted.rst
    messages/enum-%s-cannot-include-magic-method-%s.rst
    messages/enum-%s-cannot-include-properties.rst
    messages/enum-case-value-must-be-compile-time-evaluatable.rst
@@ -248,6 +251,7 @@ PHP Error Messages
    messages/never-returning-function-must-not-implicitly-return.rst
    messages/new-expressions-are-not-supported-in-this-context.rst
    messages/no-code-may-exist-outside-of-namespace-{}.rst
+   messages/no-such-file-or-directory.rst
    messages/non-abstract-method-%s::%s()-must-contain-body.rst
    messages/non-abstract-property-hook-must-have-a-body.rst
    messages/non-enum-class-%s-cannot-implement-interface-%s.rst
@@ -267,6 +271,7 @@ PHP Error Messages
    messages/power-of-base-0-and-negative-exponent-is-deprecated.rst
    messages/private-constant-%s::%s-cannot-be-final-as-it-is-not-visible-to-other-classes.rst
    messages/private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes.rst
+   messages/property-%s-does-not-exist.rst
    messages/property-%s::$%s-cannot-have-type-%s.rst
    messages/property-cannot-be-both-final-and-private.rst
    messages/property-hook-cannot-be-both-abstract-and-private.rst
@@ -301,12 +306,15 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-"&",-expecting-end-of-file.rst
    messages/syntax-error,-unexpected-token-"&".rst
    messages/syntax-error,-unexpected-token-"(",-expecting-identifier-or-variable-or-"{"-or-"$".rst
+   messages/syntax-error,-unexpected-token-"*".rst
    messages/syntax-error,-unexpected-token-":".rst
    messages/syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"[".rst
    messages/syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"{"-or-"[".rst
    messages/syntax-error,-unexpected-token-"=",-expecting-identifier-or-variable-or-"{"-or-"$".rst
    messages/syntax-error,-unexpected-token-"?".rst
    messages/syntax-error,-unexpected-token-"??".rst
+   messages/syntax-error,-unexpected-token-"break".rst
+   messages/syntax-error,-unexpected-token-"continue".rst
    messages/syntax-error,-unexpected-token-"if",-expecting-")".rst
    messages/syntax-error,-unexpected-token-"if",-expecting-"]".rst
    messages/syntax-error,-unexpected-token-"if".rst
@@ -342,13 +350,14 @@ PHP Error Messages
    messages/undefined-constant-%s::%s.rst
    messages/undefined-constant-"%s.rst
    messages/undefined-offset.rst
-   messages/undefined-property-%s::$%s.rst
+   messages/undefined-property-%s\:\:$%s.rst
    messages/undefined-variable.rst
    messages/unhandled-match-case-%s.rst
    messages/uninitialized-string-offset.rst
    messages/unknown-format-specifier-"%c.rst
    messages/unknown-hook-"%s"-for-property-%s::$%s,-expected-"get"-or-"set".rst
    messages/unknown-named-parameter-$%s.rst
+   messages/unlink-of-"%s"-failed,-file-does-not-exist.rst
    messages/unparenthesized-`a-?-b-:-c-?-d-:-e`-is-not-supported..rst
    messages/unsupported-operand-types.rst
    messages/unterminated-comment-starting-line-%d.rst

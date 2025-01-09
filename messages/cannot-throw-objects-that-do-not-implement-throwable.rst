@@ -24,9 +24,9 @@ _______
 
    <?php
    
-   class x {}
+   class X {}
    
-   throw new x();
+   throw new X();
    
    ?>
 

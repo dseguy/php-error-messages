@@ -37,7 +37,7 @@ _______
    foo(1, a:1);
    
    // 1 is given to $a, by its position 0
-   // 2 is given to $a, by its name 'a': this is a conflict
+   // 2 is given to $a, by its name 'a' : this is a conflict
    $args = [1, a => 2];
    foo(...$args); // error
    

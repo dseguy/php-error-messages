@@ -36,7 +36,6 @@ _______
    foreach($array as $k => $v){
        $a->add($k,$v);
        
-       
        // error when writing on an index out of bound
        // the first $k + 1 is beyond the count of the list (0), and fails.
        $a->add($k + 1,$v);
