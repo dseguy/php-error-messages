@@ -32,7 +32,19 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ '\self' is an invalid class name
++ '\parent' is an invalid class name
++ '\static' is an invalid class name
+
 Solutions
 _________
 
 + Do not use PHP keywords as fully qualified name with a type.
+
+Related Error Messages
+______________________
+
++ :ref:`type-declaration-'%s'-must-be-unqualified`

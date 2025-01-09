@@ -1114,6 +1114,7 @@ Features index
 
       * :ref:`accessing-static-trait-property-%s::\$%s-is-deprecated`
       * :ref:`cannot-acquire-reference-to-readonly-property`
+      * :ref:`cannot-assign-%s-to-property-%s::\$%s-of-type-%s`
       * :ref:`cannot-auto-initialize-an-array-inside-property-%s::\$%s-of-type-%s`
       * :ref:`cannot-declare-variadic-promoted-property`
       * :ref:`default-value-for-property-of-type-int-may-not-be-null.-use-the-nullable-type-?int-to-allow-null-default-value`
@@ -1263,6 +1264,11 @@ Features index
    * self
 
       * :ref:`\'\%s\'-is-an-invalid-class-name`
+
+
+   * short-tag
+
+      * :ref:`unclosed-\'{\'`
 
 
    * silent
@@ -1438,6 +1444,7 @@ Features index
       * :ref:`%s\"-will-be-interpreted-as-a-class-name.-did-you-mean-\"%s\"?-write-\"\\%s\"%s-to-suppress-this-warning`
       * :ref:`argument-#%d-(\$%s)-must-be-of-type-%s,-%s-given`
       * :ref:`cannot-assign-%s-to-class-constant-%s::%s-of-type`
+      * :ref:`cannot-assign-%s-to-property-%s::\$%s-of-type-%s`
       * :ref:`cannot-auto-initialize-an-array-inside-property-%s::\$%s-of-type-%s`
       * :ref:`cannot-use-%s-as-default-value-for-parameter-\$%s-of-type-%s`
       * :ref:`default-value-for-parameters-with-a-%s-type-can-only-be-%s-or-null`

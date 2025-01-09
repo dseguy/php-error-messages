@@ -24,9 +24,14 @@ _______
 
    <?php
    
-   $fp = fopen($path, +rw);
+   $fp = fopen($path, "+rw");
    
    ?>
+
+
+Literal Examples
+****************
++ `+rw' is not a valid mode for fopen
 
 Solutions
 _________

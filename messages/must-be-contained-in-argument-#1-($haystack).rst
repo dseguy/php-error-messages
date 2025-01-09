@@ -1,14 +1,14 @@
 .. _must-be-contained-in-argument-#1-(\$haystack):
 
-%s(): Argument #3 ($offset) must be contained in argument #1 ($haystack)
-------------------------------------------------------------------------
+%s(): Argument #%d ($%s) must be contained in argument #%d ($%s)
+----------------------------------------------------------------
  
 	.. meta::
 		:description:
-			%s(): Argument #3 ($offset) must be contained in argument #1 ($haystack): strpos() searches for a string called ``$needle`` in another string called ``$haystack``, starting at the offset passed as third argument, and called ``$offset``.
+			%s(): Argument #%d ($%s) must be contained in argument #%d ($%s): strpos() searches for a string called ``$needle`` in another string called ``$haystack``, starting at the offset passed as third argument, and called ``$offset``.
 
 		:og:type: article
-		:og:title: %s(): Argument #3 ($offset) must be contained in argument #1 ($haystack)
+		:og:title: %s(): Argument #%d ($%s) must be contained in argument #%d ($%s)
 		:og:description: strpos() searches for a string called ``$needle`` in another string called ``$haystack``, starting at the offset passed as third argument, and called ``$offset``
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/must-be-contained-in-argument-%231-%28%24haystack%29.html
 
@@ -34,6 +34,11 @@ _______
    var_dump(strpos('abc', 'a', 4));
    
    ?>
+
+
+Literal Examples
+****************
++ strpos(): Argument #3 ($offset) must be contained in argument #1 ($haystack)
 
 Solutions
 _________

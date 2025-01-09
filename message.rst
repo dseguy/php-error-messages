@@ -93,6 +93,7 @@ PHP Error Messages
    messages/cannot-acquire-reference-to-readonly-property.rst
    messages/cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s.rst
    messages/cannot-assign-%s-to-class-constant-%s::%s-of-type.rst
+   messages/cannot-assign-%s-to-property-%s::$%s-of-type-%s.rst
    messages/cannot-assign-an-empty-string-to-a-string-offset.rst
    messages/cannot-auto-initialize-an-array-inside-property-%s::$%s-of-type-%s.rst
    messages/cannot-be-a-class-constant.rst
@@ -310,7 +311,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-":".rst
    messages/syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"[".rst
    messages/syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"{"-or-"[".rst
-   messages/syntax-error,-unexpected-token-<<.rst
+   messages/syntax-error,-unexpected-token-"<<".rst
    messages/syntax-error,-unexpected-token-"=",-expecting-identifier-or-variable-or-"{"-or-"$".rst
    messages/syntax-error,-unexpected-token-"?".rst
    messages/syntax-error,-unexpected-token-"??".rst
@@ -348,6 +349,7 @@ PHP Error Messages
    messages/type-must-be-a-single-character.rst
    messages/typed-property-%s\:\:$%s-must-not-be-accessed-before-initialization.rst
    messages/typed-static-property-%s::$%s-must-not-be-accessed-before-initialization.rst
+   messages/unclosed-'{'.rst
    messages/undefined-array-key.rst
    messages/undefined-class-constant-'%s\:\:%s'.rst
    messages/undefined-constant-%s::%s.rst

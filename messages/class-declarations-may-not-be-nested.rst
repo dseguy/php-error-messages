@@ -31,7 +31,7 @@ _______
    
    class X {
    	function foo() {
-   		class y {}
+   		class Y {}
    	}
    }
    

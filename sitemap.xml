@@ -265,6 +265,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-assign-%25s-to-class-constant-%25s%3A%3A%25s-of-type.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-assign-%25s-to-property-%25s%3A%3A%24%25s-of-type-%25s.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-assign-an-empty-string-to-a-string-offset.html</loc>
  </url>
  <url>
@@ -916,7 +919,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%3B%22%2C-expecting-%22-%3E%22-or-%22%3F-%3E%22-or-%22%7B%22-or-%22%5B%22.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%3C%3C.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%3C%3C%22.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%3D%22%2C-expecting-identifier-or-variable-or-%22%7B%22-or-%22%24%22.html</loc>
@@ -1028,6 +1031,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/typed-static-property-%25s%3A%3A%24%25s-must-not-be-accessed-before-initialization.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/unclosed-%27%7B%27.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/undefined-array-key.html</loc>

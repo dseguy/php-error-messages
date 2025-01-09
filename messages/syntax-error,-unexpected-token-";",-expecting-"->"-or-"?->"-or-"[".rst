@@ -19,6 +19,9 @@ The ``&`` reference operator turns a value into a reference. It works with data 
 
 The error message suggestion to use extra operators such as ``[`` or ``->`` leads to a distinct error: ``Cannot use temporary expression in write context``.
 
+This error is also raised with a reference on a ``new`` operator. The problem is on the reference operator, but the parser tries to understand more details later in the code before coming back to it.
+
+
 Example
 _______
 
@@ -32,6 +35,9 @@ _______
    //Cannot use temporary expression in write context
    $c = &B[2]; 
    
+   // The error is actually on the &
+   $x = & new x();
+   
    ?>
 
 Solutions
@@ -39,6 +45,7 @@ _________
 
 + Store the constant in a variable, and make the reference on the variable.
 + Use constants by value, not by reference.
++ Remove the reference operator ``&`` before the new call.
 
 Related Error Messages
 ______________________
