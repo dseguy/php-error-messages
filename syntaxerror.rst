@@ -6,6 +6,7 @@ Syntax errors
 Here is a list of classic syntax errors, met in every day code. Some common solutions are listed with them, so as to help anyone meeting them.
 
 
+      * :ref:`invalid-numeric-literal`
       * :ref:`syntax-error,-unexpected-')',-expecting-'|'-or-variable-(t_variable)`
       * :ref:`syntax-error,-unexpected-','`
       * :ref:`syntax-error,-unexpected-'-',-expecting-'='`

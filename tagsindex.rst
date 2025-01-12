@@ -193,6 +193,11 @@ Tag index
       * :ref:`illegal-string-offset`
 
 
+   * old behavior
+
+      * :ref:`creating-default-object-from-empty-value`
+
+
    * operators
 
       * :ref:`the-behavior-of-unparenthesized-expressions-containing-both-\'.\'-and-\'+\'-\'-\'-will-change-in-php-8:-\'+\'-\'-\'-will-take-a-higher-precedence`
@@ -271,6 +276,7 @@ Tag index
 
    * syntax-error
 
+      * :ref:`invalid-numeric-literal`
       * :ref:`syntax-error,-unexpected-\')\',-expecting-\'|\'-or-variable-(t_variable)`
       * :ref:`syntax-error,-unexpected-\',\'`
       * :ref:`syntax-error,-unexpected-\'-\',-expecting-\'=\'`

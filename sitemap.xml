@@ -70,6 +70,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s-virtual-property-%25s%3A%3A%24%25s-must-not-specify-asymmetric-visibility.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s%3A%3A%25s%28%29-has-%23%5B%5Coverride%5D-attribute%2C-but-no-matching-parent-method-exists.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s%3A%3A%25s-cannot-override-final-constant-%25s%3A%3A%25s.html</loc>
  </url>
  <url>
@@ -529,6 +532,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/couldn%27t-open-stream%3A-%25s.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/creating-default-object-from-empty-value.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/datetimeinterface-can%5C%5C%27t-be-implemented-by-user-classes.html</loc>
  </url>
  <url>
@@ -551,6 +557,15 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/defining-a-custom-assert%28%29-function-is-not-allowed%2C.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/delimiter-must-not-be-alphanumeric%2C-backslash%2C-or-nul-byte.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/delimiter-must-not-be-alphanumeric%2C-backslash%2C-or-nul.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/delimiter-must-not-be-alphanumeric-or-backslash.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/destructors-cannot-declare-a-return-type.html</loc>
@@ -652,6 +667,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/invalid-characters-passed-for-attempted-conversion%2C-these-have-been-ignored.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/invalid-numeric-literal.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/invalid-utf-8-codepoint-escape.html</loc>
  </url>
  <url>
@@ -740,6 +758,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/no-code-may-exist-outside-of-namespace-%7B%7D.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/no-ending-delimiter-%27%25c%27-found.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/no-such-file-or-directory.html</loc>
@@ -1111,6 +1132,6 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/void-cannot-be-used-as-a-parameter-type.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/x%3A%3Afoo%28%29-has-%23%5B%5Coverride%5D-attribute%2C-but-no-matching-parent-method-exists.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/wrong-encoding%2C-conversion-from-%22%25s%22-to-%22%25s%22-is-not-allowed.html</loc>
  </url>
 </urlset>

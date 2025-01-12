@@ -163,9 +163,9 @@ Features index
 
    * attribute
 
+      * :ref:`%s::%s()-has-#[\override]-attribute,-but-no-matching-parent-method-exists`
       * :ref:`attribute-\"%s\"-cannot-target-%s-(allowed-targets:-%s)`
       * :ref:`has-#[\override]-attribute,-but-no-matching-parent-method-exists`
-      * :ref:`x::foo()-has-#[\override]-attribute,-but-no-matching-parent-method-exists`
 
 
    * autoload
@@ -183,6 +183,11 @@ Features index
 
       * :ref:`automatic-conversion-of-false-to-array-is-deprecated`
       * :ref:`cannot-auto-initialize-an-array-inside-property-%s::\$%s-of-type-%s`
+
+
+   * binary
+
+      * :ref:`invalid-numeric-literal`
 
 
    * bitshift-operator
@@ -520,6 +525,11 @@ Features index
       * :ref:`typed-static-property-%s::\$%s-must-not-be-accessed-before-initialization`
 
 
+   * encoding
+
+      * :ref:`wrong-encoding,-conversion-from-\"%s\"-to-\"%s\"-is-not-allowed`
+
+
    * enum
 
       * :ref:`cannot-instantiate-enum-%s`
@@ -568,6 +578,11 @@ Features index
       * :ref:`%s():-never-returning-%s-must-not-implicitly-return`
       * :ref:`call-to-undefined-function-exit()`
       * :ref:`never-returning-function-must-not-implicitly-return`
+
+
+   * exponent
+
+      * :ref:`syntax-error,-unexpected-token-"*"`
 
 
    * expression
@@ -687,9 +702,15 @@ Features index
       * :ref:`label-\'%s\'-already-defined`
 
 
+   * hexadecimal
+
+      * :ref:`invalid-numeric-literal`
+
+
    * iconv
 
       * :ref:`must-be-contained-in-argument-#1-(\$haystack)`
+      * :ref:`wrong-encoding,-conversion-from-\"%s\"-to-\"%s\"-is-not-allowed`
 
 
    * if-then
@@ -996,6 +1017,11 @@ Features index
       * :ref:`cannot-use-string-offset-as-an-object`
 
 
+   * octal
+
+      * :ref:`invalid-numeric-literal`
+
+
    * offset
 
       * :ref:`cannot-unset-offset-in-a-non-array-variable`
@@ -1023,7 +1049,7 @@ Features index
 
    * override
 
-      * :ref:`x::foo()-has-#[\override]-attribute,-but-no-matching-parent-method-exists`
+      * :ref:`%s::%s()-has-#[\override]-attribute,-but-no-matching-parent-method-exists`
 
 
    * overwrite
@@ -1079,11 +1105,6 @@ Features index
    * php-variable
 
       * :ref:`undefined-variable`
-
-
-   * power
-
-      * :ref:`syntax-error,-unexpected-token-"*"`
 
 
    * printf
@@ -1202,6 +1223,14 @@ Features index
 
       * :ref:`attribute-class-\"%s\"-not-found`
       * :ref:`case-%s::%s-does-not-exist`
+
+
+   * regex
+
+      * :ref:`delimiter-must-not-be-alphanumeric,-backslash,-or-nul-byte`
+      * :ref:`delimiter-must-not-be-alphanumeric,-backslash,-or-nul`
+      * :ref:`delimiter-must-not-be-alphanumeric-or-backslash`
+      * :ref:`no-ending-delimiter-\'%c\'-found`
 
 
    * relative-types

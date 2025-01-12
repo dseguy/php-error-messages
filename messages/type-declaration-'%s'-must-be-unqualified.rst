@@ -52,4 +52,5 @@ Related Error Messages
 ______________________
 
 + :ref:`'namespace\%s'-is-an-invalid-class-name`
++ :ref:`is-an-invalid-class-name`
 + :ref:`'\%s'-is-an-invalid-class-name`

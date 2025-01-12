@@ -28,6 +28,7 @@ PHP Error Messages
    messages/%s-cannot-use-%s---it-is-not-a-trait.rst
    messages/%s-function-%s::%s()-cannot-be-declared-private.rst
    messages/%s-virtual-property-%s::$%s-must-not-specify-asymmetric-visibility.rst
+   messages/%s::%s()-has-#[\override]-attribute,-but-no-matching-parent-method-exists.rst
    messages/%s::%s-cannot-override-final-constant-%s::%s.rst
    messages/%s"-will-be-interpreted-as-a-class-name.-did-you-mean-"%s"?-write-"\%s"%s-to-suppress-this-warning.rst
    messages/'%s'-not-in-the-'loop'-or-'switch'-context.rst
@@ -181,6 +182,7 @@ PHP Error Messages
    messages/could-not-find-trait-%s.rst
    messages/couldn't-open-stream-%s.rst
    messages/couldn't-open-stream:-%s.rst
+   messages/creating-default-object-from-empty-value.rst
    messages/datetimeinterface-can\\'t-be-implemented-by-user-classes.rst
    messages/declaration-of-%s-must-be-compatible-with-%s.rst
    messages/declaration-of-y::foo()-must-be-compatible-with-x::foo($a).rst
@@ -189,6 +191,9 @@ PHP Error Messages
    messages/define():-argument-#3-($case_insensitive)-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported.rst
    messages/define():-declaration-of-case-insensitive-constants-is-deprecated.rst
    messages/defining-a-custom-assert()-function-is-not-allowed,.rst
+   messages/delimiter-must-not-be-alphanumeric,-backslash,-or-nul-byte.rst
+   messages/delimiter-must-not-be-alphanumeric,-backslash,-or-nul.rst
+   messages/delimiter-must-not-be-alphanumeric-or-backslash.rst
    messages/destructors-cannot-declare-a-return-type.rst
    messages/division-of-php_int_min-by--1-is-not-an-integer.rst
    messages/duplicate-declaration-of-static-variable-$%s.rst
@@ -222,6 +227,7 @@ PHP Error Messages
    messages/interfaces-may-only-include-hooked-properties.rst
    messages/invalid-argument-supplied-for-foreach().rst
    messages/invalid-characters-passed-for-attempted-conversion,-these-have-been-ignored.rst
+   messages/invalid-numeric-literal.rst
    messages/invalid-utf-8-codepoint-escape.rst
    messages/invalid-utf-8-codepoint-escape:-codepoint-too-large.rst
    messages/is-an-invalid-class-name.rst
@@ -252,6 +258,7 @@ PHP Error Messages
    messages/never-returning-function-must-not-implicitly-return.rst
    messages/new-expressions-are-not-supported-in-this-context.rst
    messages/no-code-may-exist-outside-of-namespace-{}.rst
+   messages/no-ending-delimiter-'%c'-found.rst
    messages/no-such-file-or-directory.rst
    messages/non-abstract-method-%s::%s()-must-contain-body.rst
    messages/non-abstract-property-hook-must-have-a-body.rst
@@ -375,4 +382,4 @@ PHP Error Messages
    messages/using-array_key_exists()-on-objects-is-deprecated..rst
    messages/visibility-of-property-%s::$%s-must-not-be-weaker-than-set-visibility.rst
    messages/void-cannot-be-used-as-a-parameter-type.rst
-   messages/x::foo()-has-#[\override]-attribute,-but-no-matching-parent-method-exists.rst
+   messages/wrong-encoding,-conversion-from-"%s"-to-"%s"-is-not-allowed.rst

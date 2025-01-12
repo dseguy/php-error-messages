@@ -25,7 +25,7 @@ _______
    <?php
        $closure = static function () { return __METHOD__;};
    
-       $closure->bindTo(new stdclass());
+       $closure->bindTo(new Stdclass());
        $closure();
    
    ?>

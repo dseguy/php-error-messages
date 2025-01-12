@@ -36,7 +36,7 @@ _______
    $c = &B[2]; 
    
    // The error is actually on the &
-   $x = & new x();
+   $x = & new X();
    
    ?>
 

@@ -39,7 +39,7 @@ _______
    #[Attribute(Attribute::TARGET_FUNCTION | Attribute::TARGET_METHOD)]
    class X { }
    
-   // the object is created: it may be used without error.
+   // the object is created. It may be used without error.
    $ref = new ReflectionObject(new #[X] class() { });
    $attr = $ref->getAttributes()[0];
    
