@@ -75,6 +75,12 @@ $ids      = array();
 $extensions = array();
 $warnings = 0;
 foreach($files as $file) {
+    $raw = file_get_contents($file);
+    if (preg_match_all('/..[^\\\\= \[]""/s', $raw, $r)) {
+        print $raw;
+        print_r($r);
+        die();
+    }
 	$error = parse_ini_file($file, INI_SCANNER_RAW);
 	
 	if (isset($errors[$file])) {
@@ -105,7 +111,7 @@ foreach($files as $file) {
 	
 	$ids[$error->id] = 1;
 	
-	if (str_contains($error->id, '%') && !isset($error->examples)) {
+	if (str_contains($error->error, '%') && !isset($error->examples)) {
 		buildlog("No examples for $file");
 		++$warnings;
 	}
@@ -164,8 +170,8 @@ foreach($files as $file) {
 		continue;
 	}
 
-	if (preg_match('/(trait|class|enum|interface|const) [a-z]/', $error->code, $r)) {
-		buildlog("No lower case name in code in $file");
+	if (preg_match('/(trait|class|enum|interface|const|new|implements|extends|:) (?!(int|string|bool|void|never|float|callable|array|iterable|mixed|null|stdClass))[a-z]/', $error->code, $r)) {
+		buildlog("No lower case name '$r[0]' in code in $file");
 		++$warnings;
 	}
 
