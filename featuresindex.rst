@@ -139,6 +139,11 @@ Features index
       * :ref:`cannot-access-offset-of-type-%s-on-%s`
 
 
+   * ascii
+
+      * :ref:`octal-escape-sequence-overflow-\\%s-is-greater-than-\\377`
+
+
    * assertion
 
       * :ref:`defining-a-custom-assert()-function-is-not-allowed,`
@@ -559,6 +564,7 @@ Features index
 
       * :ref:`invalid-utf-8-codepoint-escape`
       * :ref:`invalid-utf-8-codepoint-escape:-codepoint-too-large`
+      * :ref:`octal-escape-sequence-overflow-\\%s-is-greater-than-\\377`
 
 
    * exception
@@ -1020,6 +1026,7 @@ Features index
    * octal
 
       * :ref:`invalid-numeric-literal`
+      * :ref:`octal-escape-sequence-overflow-\\%s-is-greater-than-\\377`
 
 
    * offset
@@ -1430,6 +1437,11 @@ Features index
       * :ref:`%s-%s-cannot-implement-interface-%s,-extend-exception-or-error-instead`
       * :ref:`%s-%s-must-implement-interface-%s-as-part-of-either-%s-or-%s`
       * :ref:`class-%s-must-implement-interface-%s-as-part-of-either-%s-or-%s`
+
+
+   * trailing-comma
+
+      * :ref:`syntax-error,-unexpected-\')\',-expecting-variable-(t_variable)`
 
 
    * trait

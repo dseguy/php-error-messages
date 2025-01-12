@@ -268,6 +268,7 @@ PHP Error Messages
    messages/non-string-needles-will-be-interpreted-as-strings-in-the-future.-use-an-explicit-chr()-call-to-preserve-the-current-behavior.rst
    messages/object-of-class-%s-could-not-be-converted-to-%s.rst
    messages/object-of-type-%s-has-not-been-correctly-initialized-by-calling-parent::__construct()-in-its-constructor.rst
+   messages/octal-escape-sequence-overflow-\%s-is-greater-than-\377.rst
    messages/only-hooked-properties-may-be-declared-abstract.rst
    messages/only-internal-classes-can-be-registered-as-compiler-attribute.rst
    messages/only-variable-references-should-be-returned-by-reference.rst
@@ -304,6 +305,7 @@ PHP Error Messages
    messages/strict_types-declaration-must-be-the-very-first-statement-in-the-script.rst
    messages/switch-statements-may-only-contain-one-default-clause.rst
    messages/syntax-error,-unexpected-')',-expecting-'|'-or-variable-(t_variable).rst
+   messages/syntax-error,-unexpected-')',-expecting-variable-(t_variable).rst
    messages/syntax-error,-unexpected-','.rst
    messages/syntax-error,-unexpected-'-',-expecting-'='.rst
    messages/syntax-error,-unexpected-';',-expecting-'['.rst

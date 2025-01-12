@@ -1,0 +1,38 @@
+.. _octal-escape-sequence-overflow-\%s-is-greater-than-\377:
+
+Octal escape sequence overflow \%s is greater than \377
+-------------------------------------------------------
+ 
+	.. meta::
+		:description:
+			Octal escape sequence overflow \%s is greater than \377: Octal escape is a notation for double quoted strings, where a backslash followed by 3 digits is replaced by the character with this ASCII number.
+
+		:og:type: article
+		:og:title: Octal escape sequence overflow \%s is greater than \377
+		:og:description: Octal escape is a notation for double quoted strings, where a backslash followed by 3 digits is replaced by the character with this ASCII number
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/octal-escape-sequence-overflow-%5C%5C%25s-is-greater-than-%5C%5C377.html
+
+Description
+___________
+ 
+Octal escape is a notation for double quoted strings, where a backslash followed by 3 digits is replaced by the character with this ASCII number. These ASCII numbers have a limit of 0o377. 
+
+Between ``0o377`` and ``0o777``, numbers are valid octals, and not ASCII numbers, so the error message appears. 
+
+Beyond ``0o777``, the sequence is not a valid octal anymore, and PHP does not process it, nor emit an error message.
+
+Example
+_______
+
+.. code-block:: php
+
+   <?php
+   
+   $a = "\500";
+   ?>
+
+Solutions
+_________
+
++ Check the value in the octal sequence to be valid.
++ Add backslashes, to make the characters literals.
