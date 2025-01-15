@@ -49,7 +49,7 @@ const BASE_KEYS = [
  'phpError',
  'changedBehavior',
  'extension',
- 'analyze',
+ 'analyzer',
  '3v4l'
 ];
 
