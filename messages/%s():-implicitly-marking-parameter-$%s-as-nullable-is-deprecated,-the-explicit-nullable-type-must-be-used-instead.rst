@@ -52,3 +52,8 @@ Related Error Messages
 ______________________
 
 + :ref:`default-value-for-property-of-type-int-may-not-be-null.-use-the-nullable-type-?int-to-allow-null-default-value`
+
+Changed Behavior
+________________
+
+This error may appear in different PHP versions `implicitNullable <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/implicitNullable.html>`_.

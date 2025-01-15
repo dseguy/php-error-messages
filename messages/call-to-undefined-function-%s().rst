@@ -15,7 +15,7 @@ Call to undefined function %s()
 Description
 ___________
  
-This error is displayed when the called function is not defined. 
+This error is displayed when the called function is not defined. There are many places in the code where a function may be defined: in the PHP core engine, in PHP extensions, in dependencies, in the current file, in an included file. Also, since PHP 8.0, a function, disabled with the ``disable_functions`` directive, is shown as undefined, rather than forbidden.
 
 Example
 _______
@@ -32,6 +32,8 @@ _______
 Literal Examples
 ****************
 + Call to undefined function undefined_function()
++ Call to undefined function shell_exec()
++ Call to undefined function mb_substr()
 
 Solutions
 _________
@@ -45,3 +47,7 @@ _________
 + The ``use`` expression, used to import that function from another namespace, misses the ``function`` keyword: ``use foo as A`` instead of ``use function foo as A``.
 + The function is actually a closure: a ``$`` is missing: ``$variable()``, instead of ``variable()``.
 + This is actually a constant, and extra ``()`` were added.
++ The function was disabled with ``disable_functions``.
+
+
+In previous PHP versions, this error message used to be :ref:`%s()-has-been-disabled-for-security-reasons`.

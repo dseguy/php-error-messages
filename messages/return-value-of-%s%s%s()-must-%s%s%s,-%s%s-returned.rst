@@ -1,16 +1,16 @@
-.. _return-value-must-be-of-type-int,-string-returned:
+.. _return-value-of-%s%s%s()-must-%s%s%s,-%s%s-returned:
 
-Return value must be of type int, string returned
--------------------------------------------------
+Return value of %s%s%s() must %s%s%s, %s%s returned
+---------------------------------------------------
  
 	.. meta::
 		:description:
-			Return value must be of type int, string returned: The type of the returned value must match the type of the method signature.
+			Return value of %s%s%s() must %s%s%s, %s%s returned: The type of the returned value must match the type of the method signature.
 
 		:og:type: article
-		:og:title: Return value must be of type int, string returned
+		:og:title: Return value of %s%s%s() must %s%s%s, %s%s returned
 		:og:description: The type of the returned value must match the type of the method signature
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/return-value-must-be-of-type-int%2C-string-returned.html
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/return-value-of-%25s%25s%25s%28%29-must-%25s%25s%25s%2C-%25s%25s-returned.html
 
 Description
 ___________
@@ -33,6 +33,11 @@ _______
    	return 'abc';
    }
    ?>
+
+
+Literal Examples
+****************
++ Return value of foo() must be int, string returned
 
 Solutions
 _________

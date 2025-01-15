@@ -46,5 +46,5 @@ _________
 Related Error Messages
 ______________________
 
-+ :ref:`return-value-must-be-of-type-int,-string-returned`
++ :ref:`return-value-of-%s%s%s()-must-%s%s%s,-%s%s-returned`
 + :ref:`%s%s%s():-return-value-must-be-of-type-%s,-%s-returned`

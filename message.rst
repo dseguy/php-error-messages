@@ -13,6 +13,7 @@ PHP Error Messages
    messages/%s%s%s():-return-value-must-be-of-type-%s,-%s-returned.rst
    messages/%s()-argument-#%d%s%s%s-cannot-be-passed-by-reference.rst
    messages/%s()-expects-exactly-0-arguments,-%d-given.rst
+   messages/%s()-has-been-disabled-for-security-reasons.rst
    messages/%s():-argument-#%d%s%s%s-cannot-be-passed-by-reference.rst
    messages/%s():-argument-#%d%s%s%s-cannot-not-be-passed-by-reference.rst
    messages/%s():-argument-#%d%s%s%s-could-not-be-passed-by-reference.rst
@@ -70,6 +71,7 @@ PHP Error Messages
    messages/array_product():-multiplication-is-not-supported-on-type-object.rst
    messages/array_product():-multiplication-is-not-supported-on-type-string.rst
    messages/assignments-can-only-happen-to-writable-values.rst
+   messages/attempt-to-assign-property-"%s"-on-null.rst
    messages/attempt-to-unset-static-property-%s::$%s.rst
    messages/attribute-"%s"-cannot-target-%s-(allowed-targets:-%s).rst
    messages/attribute-class-"%s"-not-found.rst
@@ -199,6 +201,7 @@ PHP Error Messages
    messages/duplicate-declaration-of-static-variable-$%s.rst
    messages/duplicate-named-parameter-$%s.rst
    messages/duplicate-type-%s-is-redundant.rst
+   messages/empty-delimiter.rst
    messages/entry-%s-does-not-exist-and-cannot-be-deleted.rst
    messages/enum-%s-cannot-include-magic-method-%s.rst
    messages/enum-%s-cannot-include-properties.rst
@@ -209,6 +212,7 @@ PHP Error Messages
    messages/ffi-api-is-restricted-by-"ffi.enable"-configuration-directive.rst
    messages/foreach()-argument-must-be-of-type-array|object.rst
    messages/generator-return-type-must-be-a-supertype-of-generator.rst
+   messages/generators-cannot-return-values-using-"return".rst
    messages/get_defined_functions():-setting-$exclude_disabled-to-false-has-no-effect.rst
    messages/has-#[\override]-attribute,-but-no-matching-parent-method-exists.rst
    messages/hooked-properties-cannot-be-readonly.rst
@@ -240,6 +244,7 @@ PHP Error Messages
    messages/match-expressions-may-only-contain-one-default-arm.rst
    messages/method-%s::%s()-cannot-be-static.rst
    messages/method-%s::%s()-cannot-declare-a-return-type.rst
+   messages/method-%s::__tostring()-must-not-throw-an-exception,-caught-%s:-%s.rst
    messages/multiple-access-type-modifiers-are-not-allowed.rst
    messages/multiple-readonly-modifiers-are-not-allowed.rst
    messages/multiple-static-modifiers-are-not-allowed.rst
@@ -267,6 +272,10 @@ PHP Error Messages
    messages/non-static-method-%s::%s()-should-not-be-called-statically.rst
    messages/non-string-needles-will-be-interpreted-as-strings-in-the-future.-use-an-explicit-chr()-call-to-preserve-the-current-behavior.rst
    messages/object-of-class-%s-could-not-be-converted-to-%s.rst
+   messages/object-of-class-%s-could-not-be-converted-to-bool.rst
+   messages/object-of-class-%s-could-not-be-converted-to-float.rst
+   messages/object-of-class-%s-could-not-be-converted-to-int.rst
+   messages/object-of-class-%s-could-not-be-converted-to-string.rst
    messages/object-of-type-%s-has-not-been-correctly-initialized-by-calling-parent::__construct()-in-its-constructor.rst
    messages/octal-escape-sequence-overflow-\%s-is-greater-than-\377.rst
    messages/only-hooked-properties-may-be-declared-abstract.rst
@@ -276,6 +285,7 @@ PHP Error Messages
    messages/only-variables-can-be-passed-by-reference.rst
    messages/only-variables-should-be-passed-by-reference.rst
    messages/optional-parameter-$%s-declared-before-required-parameter-$%s-is-implicitly-treated-as-a-required-parameter.rst
+   messages/parameter-%d-must-be-passed-by-reference.rst
    messages/parameter-uses-'parent'-as-type-hint-although-class-does-not-have-a-parent\!.rst
    messages/power-of-base-0-and-negative-exponent-is-deprecated.rst
    messages/private-constant-%s::%s-cannot-be-final-as-it-is-not-visible-to-other-classes.rst
@@ -295,7 +305,8 @@ PHP Error Messages
    messages/required-parameter-$%s-follows-optional-parameter-$%s.rst
    messages/required-trait-%s-wasn\'t-added-to-%s.rst
    messages/return-type-of-%s::%s()-should-either-be-compatible-with-%s::%s():-mixed.rst
-   messages/return-value-must-be-of-type-int,-string-returned.rst
+   messages/return-value-of-%s%s%s()-must-%s%s%s,-%s%s-returned.rst
+   messages/returning-bool-from-comparison-function-is-deprecated,-return-an-integer-less-than,-equal-to,-or-greater-than-zero.rst
    messages/returning-bool-from-comparison-function-is-deprecated.rst
    messages/returning-by-reference-from-a-void-function-is-deprecated.rst
    messages/spread-operator-is-not-supported-in-assignments.rst
@@ -347,6 +358,8 @@ PHP Error Messages
    messages/too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d-expected.rst
    messages/too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d.rst
    messages/too-few-arguments-to-function-%s%s%s(),-%d-passed-in-%s-on-line-%d-and-%s-%d-expected.rst
+   messages/trait-"%s"-not-found.rst
+   messages/trait-method-%s::%s-has-not-been-applied-as-%s::%s.rst
    messages/traits-cannot-have-constants.rst
    messages/trying-to-access-array-offset-on-%s.rst
    messages/trying-to-clone-an-uncloneable-object-of-class-%s.rst

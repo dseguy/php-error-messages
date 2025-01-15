@@ -27,6 +27,12 @@ Features index
       * :ref:`object-of-class-%s-could-not-be-converted-to-%s`
 
 
+   * __tostring
+
+      * :ref:`method-%s::__tostring()-must-not-throw-an-exception,-caught-%s:-%s`
+      * :ref:`object-of-class-%s-could-not-be-converted-to-string`
+
+
    * abstract
 
       * :ref:`%s-function-%s::%s()-cannot-be-declared-private`
@@ -88,6 +94,7 @@ Features index
       * :ref:`calling-get_parent_class()-without-arguments-is-deprecated`
       * :ref:`only-variables-can-be-passed-by-reference`
       * :ref:`only-variables-should-be-passed-by-reference`
+      * :ref:`parameter-%d-must-be-passed-by-reference`
       * :ref:`too-few-arguments-to-function-%s%s%s(),-%d-passed-in-%s-on-line-%d-and-%s-%d-expected`
 
 
@@ -507,6 +514,11 @@ Features index
       * :ref:`destructors-cannot-declare-a-return-type`
 
 
+   * directive
+
+      * :ref:`%s()-has-been-disabled-for-security-reasons`
+
+
    * do-while
 
       * :ref:`syntax-error,-unexpected-\',\'`
@@ -696,6 +708,7 @@ Features index
 
       * :ref:`class-%s-cannot-extend-final-class-%s`
       * :ref:`generator-return-type-must-be-a-supertype-of-generator`
+      * :ref:`generators-cannot-return-values-using-\"return\"`
       * :ref:`the-\"generator\"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated`
 
 
@@ -998,6 +1011,7 @@ Features index
    * null
 
       * :ref:`%s():-passing-null-to-parameter-#%`
+      * :ref:`attempt-to-assign-property-"%s"-on-null`
       * :ref:`trying-to-access-array-offset-on-%s`
 
 
@@ -1141,6 +1155,7 @@ Features index
    * property
 
       * :ref:`accessing-static-trait-property-%s::\$%s-is-deprecated`
+      * :ref:`attempt-to-assign-property-"%s"-on-null`
       * :ref:`cannot-acquire-reference-to-readonly-property`
       * :ref:`cannot-assign-%s-to-property-%s::\$%s-of-type-%s`
       * :ref:`cannot-auto-initialize-an-array-inside-property-%s::\$%s-of-type-%s`
@@ -1148,6 +1163,7 @@ Features index
       * :ref:`default-value-for-property-of-type-int-may-not-be-null.-use-the-nullable-type-?int-to-allow-null-default-value`
       * :ref:`enum-%s-cannot-include-properties`
       * :ref:`interfaces-may-not-include-properties`
+      * :ref:`property-%s-does-not-exist`
       * :ref:`property-%s::\$%s-cannot-have-type-%s`
       * :ref:`syntax-error,-unexpected-token-"=",-expecting-identifier-or-variable-or-"{"-or-"\$"`
       * :ref:`undefined-property-%s::\$%s`
@@ -1218,6 +1234,7 @@ Features index
       * :ref:`only-variable-references-should-be-yielded-by-reference`
       * :ref:`only-variables-can-be-passed-by-reference`
       * :ref:`only-variables-should-be-passed-by-reference`
+      * :ref:`parameter-%d-must-be-passed-by-reference`
       * :ref:`returning-by-reference-from-a-void-function-is-deprecated`
       * :ref:`syntax-error,-unexpected-\';\',-expecting-\'[\'`
       * :ref:`syntax-error,-unexpected-token-"&",-expecting-end-of-file`
@@ -1259,6 +1276,7 @@ Features index
       * :ref:`a-never-returning-method-must-not-return`
       * :ref:`a-void-%s-must-not-return-a-value`
       * :ref:`destructors-cannot-declare-a-return-type`
+      * :ref:`generators-cannot-return-values-using-\"return\"`
       * :ref:`never-returning-function-must-not-implicitly-return`
       * :ref:`only-variable-references-should-be-returned-by-reference`
 
@@ -1271,8 +1289,13 @@ Features index
       * :ref:`constructors-cannot-declare-a-return-type`
       * :ref:`division-of-php_int_min-by--1-is-not-an-integer`
       * :ref:`method-%s::%s()-cannot-declare-a-return-type`
-      * :ref:`return-value-must-be-of-type-int,-string-returned`
+      * :ref:`return-value-of-%s%s%s()-must-%s%s%s,-%s%s-returned`
       * :ref:`returning-bool-from-comparison-function-is-deprecated`
+
+
+   * returntype
+
+      * :ref:`returning-bool-from-comparison-function-is-deprecated,-return-an-integer-less-than,-equal-to,-or-greater-than-zero`
 
 
    * rounding
@@ -1324,6 +1347,11 @@ Features index
       * :ref:`failed-to-open-stream-from-socketpair`
 
 
+   * sort
+
+      * :ref:`returning-bool-from-comparison-function-is-deprecated,-return-an-integer-less-than,-equal-to,-or-greater-than-zero`
+
+
    * spaceship
 
       * :ref:`returning-bool-from-comparison-function-is-deprecated`
@@ -1367,6 +1395,7 @@ Features index
    * stdclass
 
       * :ref:`cannot-use-object-of-type-stdclass-as-array`
+      * :ref:`creating-default-object-from-empty-value`
 
 
    * stream
@@ -1378,6 +1407,7 @@ Features index
    * strict_types
 
       * :ref:`object-of-class-%s-could-not-be-converted-to-%s`
+      * :ref:`return-value-of-%s%s%s()-must-%s%s%s,-%s%s-returned`
       * :ref:`strict_types-declaration-must-be-the-very-first-statement-in-the-script`
 
 
@@ -1389,6 +1419,7 @@ Features index
       * :ref:`cannot-assign-an-empty-string-to-a-string-offset`
       * :ref:`cannot-use-string-offset-as-an-array`
       * :ref:`cannot-use-string-offset-as-an-object`
+      * :ref:`empty-delimiter`
       * :ref:`illegal-string-offset`
       * :ref:`syntax-error,-unexpected-\'[\',-expecting-\';\'-or-\',\'`
       * :ref:`uninitialized-string-offset`
@@ -1459,7 +1490,14 @@ Features index
       * :ref:`enum-%s-cannot-include-properties`
       * :ref:`readonly-class-%s-cannot-use-trait-with-a-non-readonly-property-%s::\$%s`
       * :ref:`required-trait-%s-wasn\'t-added-to-%s`
+      * :ref:`trait-"%s"-not-found`
+      * :ref:`trait-method-%s::%s-has-not-been-applied-as-%s::%s`
       * :ref:`traits-cannot-have-constants`
+
+
+   * trait-use
+
+      * :ref:`trait-method-%s::%s-has-not-been-applied-as-%s::%s`
 
 
    * traversable
@@ -1495,6 +1533,13 @@ Features index
       * :ref:`needle-is-not-a-string-or-an-integer`
       * :ref:`syntax-error,-unexpected-token-"?"`
       * :ref:`using-array_key_exists()-on-objects-is-deprecated.`
+
+
+   * type-juggling
+
+      * :ref:`object-of-class-%s-could-not-be-converted-to-bool`
+      * :ref:`object-of-class-%s-could-not-be-converted-to-float`
+      * :ref:`object-of-class-%s-could-not-be-converted-to-int`
 
 
    * typed-property

@@ -55,3 +55,6 @@ Related Error Messages
 ______________________
 
 + :ref:`cannot-pass-parameter-%d-by-reference`
+
+
+In previous PHP versions, this error message used to be :ref:`parameter-%d-must-be-passed-by-reference`.

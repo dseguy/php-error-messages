@@ -55,3 +55,6 @@ See Also
 ________
 
 + `Iterables <https://www.php.net/manual/en/language.types.iterable.php>`_
+
+
+In more recent PHP versions, this error message is now :ref:`duplicate-type-%s-is-redundant`.

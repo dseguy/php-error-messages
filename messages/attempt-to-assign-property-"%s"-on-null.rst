@@ -1,0 +1,46 @@
+.. _attempt-to-assign-property-"%s"-on-null:
+
+Attempt to assign property "%s" on null
+---------------------------------------
+ 
+	.. meta::
+		:description:
+			Attempt to assign property "%s" on null: ``null`` is not an object, and it can&#039;t be used as such.
+
+		:og:type: article
+		:og:title: Attempt to assign property &quot;%s&quot; on null
+		:og:description: ``null`` is not an object, and it can&#039;t be used as such
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/attempt-to-assign-property-%22%25s%22-on-null.html
+
+Description
+___________
+ 
+``null`` is not an object, and it can't be used as such. Until PHP 8.0, the engine would automatically create a ``stdClass`` object, and replace the ``null`` value with it. This is not the case anymore.
+
+Example
+_______
+
+.. code-block:: php
+
+   <?php
+   
+   $a = null;
+   
+   $a->b = 1;
+   ?>
+
+
+Literal Examples
+****************
++ Attempt to assign property "b" on null
+
+Solutions
+_________
+
++ Instantiate any object and replace ``null`` with it.
++ Explicitly instantiate a ``stdClass``` object and replace ``null`` with it.
++ Remove the property usage.
++ Use another variable to use this property.
+
+
+In previous PHP versions, this error message used to be :ref:`creating-default-object-from-empty-value`.

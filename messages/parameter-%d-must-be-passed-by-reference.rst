@@ -1,16 +1,16 @@
-.. _cannot-pass-parameter-%d-by-reference:
+.. _parameter-%d-must-be-passed-by-reference:
 
-Cannot pass parameter %d by reference
--------------------------------------
+Parameter %d must be passed by reference
+----------------------------------------
  
 	.. meta::
 		:description:
-			Cannot pass parameter %d by reference: When a parameter is set to be passed by reference, there is a ``&amp;`` character before its name.
+			Parameter %d must be passed by reference: When a parameter is set to be passed by reference, there is a ``&amp;`` character before its name.
 
 		:og:type: article
-		:og:title: Cannot pass parameter %d by reference
+		:og:title: Parameter %d must be passed by reference
 		:og:description: When a parameter is set to be passed by reference, there is a ``&amp;`` character before its name
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-pass-parameter-%25d-by-reference.html
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/parameter-%25d-must-be-passed-by-reference.html
 
 Description
 ___________
@@ -43,7 +43,7 @@ _______
 
 Literal Examples
 ****************
-+ Cannot pass parameter 1 by reference
++ foo(): Argument #1 ($a) must be passed by reference, value given
 
 Solutions
 _________
@@ -54,5 +54,7 @@ _________
 Related Error Messages
 ______________________
 
-+ :ref:`%s%s%s():-argument-#%d%s%s%s-must-be-passed-by-reference,-value-given`
-+ :ref:`parameter-%d-must-be-passed-by-reference`
++ :ref:`cannot-pass-parameter-%d-by-reference`
+
+
+In more recent PHP versions, this error message is now :ref:`%s%s%s():-argument-#%d%s%s%s-must-be-passed-by-reference,-value-given`.

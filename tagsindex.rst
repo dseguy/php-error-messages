@@ -101,6 +101,7 @@ Tag index
       * :ref:`illegal-offset-type-in-unset`
       * :ref:`illegal-offset-type`
       * :ref:`never-returning-function-must-not-implicitly-return`
+      * :ref:`trait-method-%s::%s-has-not-been-applied-as-%s::%s`
 
 
    * execution only
@@ -259,11 +260,6 @@ Tag index
       * :ref:`void-cannot-be-used-as-a-parameter-type`
 
 
-   * strict_types
-
-      * :ref:`return-value-must-be-of-type-int,-string-returned`
-
-
    * string
 
       * :ref:`illegal-string-offset`
@@ -278,6 +274,7 @@ Tag index
 
       * :ref:`invalid-numeric-literal`
       * :ref:`syntax-error,-unexpected-\')\',-expecting-\'|\'-or-variable-(t_variable)`
+      * :ref:`syntax-error,-unexpected-\')\',-expecting-variable-(t_variable)`
       * :ref:`syntax-error,-unexpected-\',\'`
       * :ref:`syntax-error,-unexpected-\'-\',-expecting-\'=\'`
       * :ref:`syntax-error,-unexpected-\';\',-expecting-\'[\'`
@@ -323,11 +320,6 @@ Tag index
       * :ref:`call-to-a-member-function-%s()-on-%s`
       * :ref:`class-constant-%s::%s-cannot-have-type-%s`
       * :ref:`property-%s::$%s-cannot-have-type-%s`
-
-
-   * type juggling
-
-      * :ref:`return-value-must-be-of-type-int,-string-returned`
 
 
    * undefined
