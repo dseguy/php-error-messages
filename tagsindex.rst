@@ -281,6 +281,7 @@ Tag index
       * :ref:`syntax-error,-unexpected-\'[\',-expecting-\';\'-or-\',\'`
       * :ref:`syntax-error,-unexpected-\'|\',-expecting-variable-(t_variable)`
       * :ref:`syntax-error,-unexpected-fully-qualified-name-\"\\xxx\",-expecting-\"{\"`
+      * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-variable`
       * :ref:`syntax-error,-unexpected-token-"&",-expecting-end-of-file`
       * :ref:`syntax-error,-unexpected-token-"&"`

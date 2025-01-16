@@ -22,6 +22,11 @@ Features index
       * :ref:`return-type-of-%s::%s()-should-either-be-compatible-with-%s::%s():-mixed`
 
 
+   * __set_state
+
+      * :ref:`method-%s::%s()-must-be-static`
+
+
    * __toString
 
       * :ref:`object-of-class-%s-could-not-be-converted-to-%s`
@@ -536,6 +541,11 @@ Features index
       * :ref:`syntax-error,-unexpected-\',\'`
 
 
+   * double-quote
+
+      * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";"`
+
+
    * each
 
       * :ref:`call-to-undefined-function-each()`
@@ -732,6 +742,11 @@ Features index
       * :ref:`jump-into-a-finally-block-is-disallowed`
       * :ref:`jump-out-of-a-finally-block-is-disallowed`
       * :ref:`label-\'%s\'-already-defined`
+
+
+   * heredoc
+
+      * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";"`
 
 
    * hexadecimal-integer
@@ -1381,6 +1396,11 @@ Features index
       * :ref:`array_product():-multiplication-is-not-supported-on-type-string`
 
 
+   * single-quote
+
+      * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";"`
+
+
    * snmp
 
       * :ref:`type-must-be-a-single-character`
@@ -1467,6 +1487,7 @@ Features index
       * :ref:`illegal-string-offset`
       * :ref:`only-the-first-byte-will-be-assigned-to-the-string-offset`
       * :ref:`syntax-error,-unexpected-\'[\',-expecting-\';\'-or-\',\'`
+      * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";"`
       * :ref:`uninitialized-string-offset`
       * :ref:`using-\${var}-in-strings-is-deprecated,-use-{\$var}-instead`
 

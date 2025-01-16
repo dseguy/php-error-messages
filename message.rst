@@ -332,6 +332,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-'[',-expecting-';'-or-','.rst
    messages/syntax-error,-unexpected-'|',-expecting-variable-(t_variable).rst
    messages/syntax-error,-unexpected-fully-qualified-name-"\xxx",-expecting-"{".rst
+   messages/syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-variable.rst
    messages/syntax-error,-unexpected-token-"&",-expecting-end-of-file.rst
    messages/syntax-error,-unexpected-token-"&".rst
