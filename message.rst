@@ -67,11 +67,13 @@ PHP Error Messages
    messages/array-callback-has-to-contain-indices-0-and-1.rst
    messages/array-to-string-conversion.rst
    messages/array_merge()-does-not-accept-unknown-named-parameters.rst
+   messages/array_merge()-expects-at-least-1-parameter,-0-given.rst
    messages/array_product():-multiplication-is-not-supported-on-type-array.rst
    messages/array_product():-multiplication-is-not-supported-on-type-object.rst
    messages/array_product():-multiplication-is-not-supported-on-type-string.rst
    messages/assignments-can-only-happen-to-writable-values.rst
    messages/attempt-to-assign-property-"%s"-on-null.rst
+   messages/attempt-to-read-property-"%s"-on-%s.rst
    messages/attempt-to-unset-static-property-%s::$%s.rst
    messages/attribute-"%s"-cannot-target-%s-(allowed-targets:-%s).rst
    messages/attribute-class-"%s"-not-found.rst
@@ -180,6 +182,7 @@ PHP Error Messages
    messages/constructor-%s::%s()-cannot-declare-a-return-type.rst
    messages/constructors-cannot-declare-a-return-type.rst
    messages/continue-operator-accepts-only-positive-integers.rst
+   messages/continue"-targeting-switch-is-equivalent-to-"break.rst
    messages/could-not-check-compatibility-between-%s-and-%s,-because-class-%s-is-not-available.rst
    messages/could-not-find-trait-%s.rst
    messages/couldn't-open-stream-%s.rst
@@ -214,6 +217,10 @@ PHP Error Messages
    messages/generator-return-type-must-be-a-supertype-of-generator.rst
    messages/generators-cannot-return-values-using-"return".rst
    messages/get_defined_functions():-setting-$exclude_disabled-to-false-has-no-effect.rst
+   messages/handling-base64-via-mbstring-is-deprecated;-use-base64_encode-base64_decode-instead.rst
+   messages/handling-html-entities-via-mbstring-is-deprecated;-use-htmlspecialchars,-htmlentities,-or-mb_encode_numericentity-mb_decode_numericentity.rst
+   messages/handling-qprint-via-mbstring-is-deprecated;-use-quoted_printable_encode-quoted_printable_decode.rst
+   messages/handling-uuencode-via-mbstring-is-deprecated;-use-convert_uuencode-convert_uudecode-instead.rst
    messages/has-#[\override]-attribute,-but-no-matching-parent-method-exists.rst
    messages/hooked-properties-cannot-be-readonly.rst
    messages/illegal-class-name.rst
@@ -250,6 +257,7 @@ PHP Error Messages
    messages/multiple-static-modifiers-are-not-allowed.rst
    messages/must-be-a-user-defined-class-name,-internal-class-name-given.rst
    messages/must-be-a-valid-comparison-operator.rst
+   messages/must-be-a-valid-encoding,-"%s"-given.rst
    messages/must-be-a-valid-rounding-mode-(roundingmode\:\:*).rst
    messages/must-be-contained-in-argument-#1-($haystack).rst
    messages/must-contain-at-least-one-element.rst
@@ -280,6 +288,7 @@ PHP Error Messages
    messages/octal-escape-sequence-overflow-\%s-is-greater-than-\377.rst
    messages/only-hooked-properties-may-be-declared-abstract.rst
    messages/only-internal-classes-can-be-registered-as-compiler-attribute.rst
+   messages/only-the-first-byte-will-be-assigned-to-the-string-offset.rst
    messages/only-variable-references-should-be-returned-by-reference.rst
    messages/only-variable-references-should-be-yielded-by-reference.rst
    messages/only-variables-can-be-passed-by-reference.rst
@@ -358,6 +367,7 @@ PHP Error Messages
    messages/too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d-expected.rst
    messages/too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d.rst
    messages/too-few-arguments-to-function-%s%s%s(),-%d-passed-in-%s-on-line-%d-and-%s-%d-expected.rst
+   messages/too-few-arguments.rst
    messages/trait-"%s"-not-found.rst
    messages/trait-method-%s::%s-has-not-been-applied-as-%s::%s.rst
    messages/traits-cannot-have-constants.rst

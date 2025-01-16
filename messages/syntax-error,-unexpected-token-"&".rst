@@ -35,7 +35,7 @@ _______
    foo(&$c);
    
    // Cannot return a reference at call time
-   $d = &foo(&$c);
+   $d = &foo($c);
    
    ?>
 

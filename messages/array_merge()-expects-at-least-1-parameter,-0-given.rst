@@ -1,0 +1,40 @@
+.. _array_merge()-expects-at-least-1-parameter,-0-given:
+
+array_merge() expects at least 1 parameter, 0 given
+---------------------------------------------------
+ 
+	.. meta::
+		:description:
+			array_merge() expects at least 1 parameter, 0 given: Until PHP 7.
+
+		:og:type: article
+		:og:title: array_merge() expects at least 1 parameter, 0 given
+		:og:description: Until PHP 7
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/array_merge%28%29-expects-at-least-1-parameter%2C-0-given.html
+
+Description
+___________
+ 
+Until PHP 7.4, array_merge() always needed at least one argument to execute. This means that using the variadic operator on an empty array yielded no argument, and then, an error.
+
+Since PHP 7.4, array_merge() handles graciously the case of no arguments, by returning an empty array, and not more error.
+
+This applies to array_merge() and array_merge_recursive().
+
+Example
+_______
+
+.. code-block:: php
+
+   <?php
+   
+   $array = [];
+   
+   $array2 = array_merge(...[]);
+   
+   ?>
+
+Solutions
+_________
+
++ Check for non-empty array before using it with array_merge().

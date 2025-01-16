@@ -1,0 +1,47 @@
+.. _handling-qprint-via-mbstring-is-deprecated;-use-quoted_printable_encode-quoted_printable_decode:
+
+Handling QPrint via mbstring is deprecated; use quoted_printable_encode/quoted_printable_decode
+-----------------------------------------------------------------------------------------------
+ 
+	.. meta::
+		:description:
+			Handling QPrint via mbstring is deprecated; use quoted_printable_encode/quoted_printable_decode: Since PHP 8.
+
+		:og:type: article
+		:og:title: Handling QPrint via mbstring is deprecated; use quoted_printable_encode/quoted_printable_decode
+		:og:description: Since PHP 8
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/handling-qprint-via-mbstring-is-deprecated%3B-use-quoted_printable_encode-quoted_printable_decode.html
+
+Description
+___________
+ 
+Since PHP 8.2, several encodings were dropped from mbstring, including ``QPrint``. 
+
+This is a deprecation, so the feature is available until PHP 9.
+
+
+Example
+_______
+
+.. code-block:: php
+
+   <?php
+   
+   mb_convert_encoding('foo', 'qprint');
+   
+   ?>
+
+Solutions
+_________
+
++ It is recommended to use the ``quoted_printable_encode()`` and ``quoted_printable_decode()`` functions to do this.
+
+Related Error Messages
+______________________
+
++ :ref:`handling-base64-via-mbstring-is-deprecated;-use-base64_encode-base64_decode-instead`
++ :ref:`handling-html-entities-via-mbstring-is-deprecated;-use-htmlspecialchars,-htmlentities,-or-mb_encode_numericentity-mb_decode_numericentity`
++ :ref:`handling-uuencode-via-mbstring-is-deprecated;-use-convert_uuencode-convert_uudecode-instead`
+
+
+In previous PHP versions, this error message used to be :ref:`no-previous-error`.

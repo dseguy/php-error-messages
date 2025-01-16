@@ -140,6 +140,11 @@ Features index
       * :ref:`using-array_key_exists()-on-objects-is-deprecated.`
 
 
+   * array_merge
+
+      * :ref:`array_merge()-expects-at-least-1-parameter,-0-given`
+
+
    * arrayaccess
 
       * :ref:`cannot-access-offset-of-type-%s-in-isset-or-empty`
@@ -197,7 +202,12 @@ Features index
       * :ref:`cannot-auto-initialize-an-array-inside-property-%s::\$%s-of-type-%s`
 
 
-   * binary
+   * base64
+
+      * :ref:`handling-base64-via-mbstring-is-deprecated;-use-base64_encode-base64_decode-instead`
+
+
+   * binary-integer
 
       * :ref:`invalid-numeric-literal`
 
@@ -235,6 +245,7 @@ Features index
       * :ref:`\'%s\'-operator-accepts-only-positive-integers`
       * :ref:`\'%s\'-operator-with-non-integer-operand`
       * :ref:`break-operator-accepts-only-positive-integers`
+      * :ref:`continue\"-targeting-switch-is-equivalent-to-\"break`
       * :ref:`syntax-error,-unexpected-token-"break"`
       * :ref:`syntax-error,-unexpected-token-"continue"`
 
@@ -451,6 +462,7 @@ Features index
       * :ref:`\'%s\'-operator-accepts-only-positive-integers`
       * :ref:`\'%s\'-operator-with-non-integer-operand`
       * :ref:`continue-operator-accepts-only-positive-integers`
+      * :ref:`continue\"-targeting-switch-is-equivalent-to-\"break`
       * :ref:`syntax-error,-unexpected-token-"break"`
       * :ref:`syntax-error,-unexpected-token-"continue"`
 
@@ -544,6 +556,7 @@ Features index
 
    * encoding
 
+      * :ref:`must-be-a-valid-encoding,-\"%s\"-given`
       * :ref:`wrong-encoding,-conversion-from-\"%s\"-to-\"%s\"-is-not-allowed`
 
 
@@ -721,9 +734,14 @@ Features index
       * :ref:`label-\'%s\'-already-defined`
 
 
-   * hexadecimal
+   * hexadecimal-integer
 
       * :ref:`invalid-numeric-literal`
+
+
+   * html-entity
+
+      * :ref:`handling-html-entities-via-mbstring-is-deprecated;-use-htmlspecialchars,-htmlentities,-or-mb_encode_numericentity-mb_decode_numericentity`
 
 
    * iconv
@@ -920,6 +938,11 @@ Features index
 
    * mbstring
 
+      * :ref:`handling-base64-via-mbstring-is-deprecated;-use-base64_encode-base64_decode-instead`
+      * :ref:`handling-html-entities-via-mbstring-is-deprecated;-use-htmlspecialchars,-htmlentities,-or-mb_encode_numericentity-mb_decode_numericentity`
+      * :ref:`handling-qprint-via-mbstring-is-deprecated;-use-quoted_printable_encode-quoted_printable_decode`
+      * :ref:`handling-uuencode-via-mbstring-is-deprecated;-use-convert_uuencode-convert_uudecode-instead`
+      * :ref:`must-be-a-valid-encoding,-\"%s\"-given`
       * :ref:`must-be-contained-in-argument-#1-(\$haystack)`
 
 
@@ -942,6 +965,11 @@ Features index
    * mixed
 
       * :ref:`cannot-use-\'mixed\'-as-class-name-as-it-is-reserved`
+
+
+   * multi-byte
+
+      * :ref:`only-the-first-byte-will-be-assigned-to-the-string-offset`
 
 
    * multiplication
@@ -1027,8 +1055,14 @@ Features index
 
    * object
 
+      * :ref:`attempt-to-read-property-\"%s\"-on-%s`
       * :ref:`cannot-use-object-of-type-%s-as-array`
       * :ref:`cannot-use-object-of-type-stdclass-as-array`
+
+
+   * object-notation
+
+      * :ref:`attempt-to-read-property-\"%s\"-on-%s`
 
 
    * object-syntax
@@ -1039,8 +1073,12 @@ Features index
 
    * octal
 
-      * :ref:`invalid-numeric-literal`
       * :ref:`octal-escape-sequence-overflow-\\%s-is-greater-than-\\377`
+
+
+   * octal-integer
+
+      * :ref:`invalid-numeric-literal`
 
 
    * offset
@@ -1131,6 +1169,7 @@ Features index
    * printf
 
       * :ref:`%d-arguments-are-required,-%d`
+      * :ref:`too-few-arguments`
       * :ref:`unknown-format-specifier-"%c`
 
 
@@ -1191,6 +1230,11 @@ Features index
       * :ref:`property-hook-cannot-be-both-abstract-and-private`
       * :ref:`property-hook-cannot-be-both-final-and-private`
       * :ref:`unknown-hook-"%s"-for-property-%s::\$%s,-expected-"get"-or-"set"`
+
+
+   * quoted-printable
+
+      * :ref:`handling-qprint-via-mbstring-is-deprecated;-use-quoted_printable_encode-quoted_printable_decode`
 
 
    * reading
@@ -1421,6 +1465,7 @@ Features index
       * :ref:`cannot-use-string-offset-as-an-object`
       * :ref:`empty-delimiter`
       * :ref:`illegal-string-offset`
+      * :ref:`only-the-first-byte-will-be-assigned-to-the-string-offset`
       * :ref:`syntax-error,-unexpected-\'[\',-expecting-\';\'-or-\',\'`
       * :ref:`uninitialized-string-offset`
       * :ref:`using-\${var}-in-strings-is-deprecated,-use-{\$var}-instead`
@@ -1591,6 +1636,11 @@ Features index
       * :ref:`an-alias-was-defined-for-%s::%s-but-this-method-does-not-exist`
       * :ref:`call-to-undefined-function`
       * :ref:`class-%s-is-not-a-trait`
+
+
+   * uuencoding
+
+      * :ref:`handling-uuencode-via-mbstring-is-deprecated;-use-convert_uuencode-convert_uudecode-instead`
 
 
    * validation
