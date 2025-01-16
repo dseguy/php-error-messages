@@ -1046,6 +1046,12 @@ Features index
       * :ref:`never-returning-function-must-not-implicitly-return`
 
 
+   * new
+
+      * :ref:`syntax-error,-unexpected-token-"->"`
+      * :ref:`syntax-error,-unexpected-token-"?->"`
+
+
    * new-in-initializer
 
       * :ref:`new-expressions-are-not-supported-in-this-context`

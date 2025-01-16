@@ -287,12 +287,14 @@ Tag index
       * :ref:`syntax-error,-unexpected-token-"&"`
       * :ref:`syntax-error,-unexpected-token-"(",-expecting-identifier-or-variable-or-"{"-or-"$"`
       * :ref:`syntax-error,-unexpected-token-"*"`
+      * :ref:`syntax-error,-unexpected-token-"->"`
       * :ref:`syntax-error,-unexpected-token-":"`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"["`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"{"-or-"["`
       * :ref:`syntax-error,-unexpected-token-"<<"`
       * :ref:`syntax-error,-unexpected-token-"=",-expecting-identifier-or-variable-or-"{"-or-"$"`
       * :ref:`syntax-error,-unexpected-token-"?"`
+      * :ref:`syntax-error,-unexpected-token-"?->"`
       * :ref:`syntax-error,-unexpected-token-"??"`
       * :ref:`syntax-error,-unexpected-token-"__namespace__",-expecting-"("`
       * :ref:`syntax-error,-unexpected-token-"break"`

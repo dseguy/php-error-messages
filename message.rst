@@ -338,12 +338,14 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-"&".rst
    messages/syntax-error,-unexpected-token-"(",-expecting-identifier-or-variable-or-"{"-or-"$".rst
    messages/syntax-error,-unexpected-token-"*".rst
+   messages/syntax-error,-unexpected-token-"->".rst
    messages/syntax-error,-unexpected-token-":".rst
    messages/syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"[".rst
    messages/syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"{"-or-"[".rst
    messages/syntax-error,-unexpected-token-"<<".rst
    messages/syntax-error,-unexpected-token-"=",-expecting-identifier-or-variable-or-"{"-or-"$".rst
    messages/syntax-error,-unexpected-token-"?".rst
+   messages/syntax-error,-unexpected-token-"?->".rst
    messages/syntax-error,-unexpected-token-"??".rst
    messages/syntax-error,-unexpected-token-"__namespace__",-expecting-"(".rst
    messages/syntax-error,-unexpected-token-"break".rst
