@@ -3,23 +3,22 @@
 Object of class %s could not be converted to bool
 -------------------------------------------------
  
-	.. meta::
-		:description:
-			Object of class %s could not be converted to bool: PHP reports that the object cannot be used as a boolean.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Object of class %s could not be converted to bool: PHP reports that the object cannot be used as a boolean.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Object of class %s could not be converted to bool
 		:og:description: PHP reports that the object cannot be used as a boolean
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/object-of-class-%25s-could-not-be-converted-to-bool.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Object of class %s could not be converted to bool
+		:twitter:description: Object of class %s could not be converted to bool: PHP reports that the object cannot be used as a boolean
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Object of class %s could not be converted to bool
-	:twitter:description: Object of class %s could not be converted to bool: PHP reports that the object cannot be used as a boolean
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

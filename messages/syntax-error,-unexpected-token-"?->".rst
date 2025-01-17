@@ -3,23 +3,22 @@
 syntax error, unexpected token "?->"
 ------------------------------------
  
-	.. meta::
-		:description:
-			syntax error, unexpected token "?->": This error reports that the object syntax was not expected there.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		syntax error, unexpected token "?->": This error reports that the object syntax was not expected there.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: syntax error, unexpected token &quot;?-&gt;&quot;
 		:og:description: This error reports that the object syntax was not expected there
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%3F-%3E%22.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: syntax error, unexpected token "?->"
+		:twitter:description: syntax error, unexpected token "?->": This error reports that the object syntax was not expected there
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: syntax error, unexpected token "?->"
-	:twitter:description: syntax error, unexpected token "?->": This error reports that the object syntax was not expected there
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

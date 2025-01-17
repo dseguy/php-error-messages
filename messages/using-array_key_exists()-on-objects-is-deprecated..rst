@@ -3,23 +3,22 @@
 Using array_key_exists() on objects is deprecated.
 --------------------------------------------------
  
-	.. meta::
-		:description:
-			Using array_key_exists() on objects is deprecated.: array_key_exists() used to accept both arrays and objects.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Using array_key_exists() on objects is deprecated.: array_key_exists() used to accept both arrays and objects.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Using array_key_exists() on objects is deprecated.
 		:og:description: array_key_exists() used to accept both arrays and objects
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/using-array_key_exists%28%29-on-objects-is-deprecated..html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Using array_key_exists() on objects is deprecated.
+		:twitter:description: Using array_key_exists() on objects is deprecated.: array_key_exists() used to accept both arrays and objects
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Using array_key_exists() on objects is deprecated.
-	:twitter:description: Using array_key_exists() on objects is deprecated.: array_key_exists() used to accept both arrays and objects
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

@@ -3,23 +3,22 @@
 Cannot declare self-referencing constant
 ----------------------------------------
  
-	.. meta::
-		:description:
-			Cannot declare self-referencing constant: A self-referencing constant is a constant that is defined by itself.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Cannot declare self-referencing constant: A self-referencing constant is a constant that is defined by itself.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Cannot declare self-referencing constant
 		:og:description: A self-referencing constant is a constant that is defined by itself
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-declare-self-referencing-constant.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Cannot declare self-referencing constant
+		:twitter:description: Cannot declare self-referencing constant: A self-referencing constant is a constant that is defined by itself
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Cannot declare self-referencing constant
-	:twitter:description: Cannot declare self-referencing constant: A self-referencing constant is a constant that is defined by itself
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

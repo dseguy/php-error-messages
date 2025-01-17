@@ -3,23 +3,22 @@
 Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
 ---------------------------------------------------------------------------------------------
  
-	.. meta::
-		:description:
-			Cannot use isset() on the result of an expression (you can use "null !== expression" instead): isset() is meant to check the existence of an data container, such as a variable, an array element, a property of an object.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Cannot use isset() on the result of an expression (you can use "null !== expression" instead): isset() is meant to check the existence of an data container, such as a variable, an array element, a property of an object.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Cannot use isset() on the result of an expression (you can use &quot;null !== expression&quot; instead)
 		:og:description: isset() is meant to check the existence of an data container, such as a variable, an array element, a property of an object
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-use-isset%28%29-on-the-result-of-an-expression-%28you-can-use-%22null-%21%3D%3D-expression%22-instead%29.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+		:twitter:description: Cannot use isset() on the result of an expression (you can use "null !== expression" instead): isset() is meant to check the existence of an data container, such as a variable, an array element, a property of an object
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
-	:twitter:description: Cannot use isset() on the result of an expression (you can use "null !== expression" instead): isset() is meant to check the existence of an data container, such as a variable, an array element, a property of an object
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

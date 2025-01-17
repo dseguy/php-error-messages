@@ -3,23 +3,22 @@
 Automatic conversion of false to array is deprecated
 ----------------------------------------------------
  
-	.. meta::
-		:description:
-			Automatic conversion of false to array is deprecated: The array syntax ``$variable[index]`` is only available for arrays and strings.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Automatic conversion of false to array is deprecated: The array syntax ``$variable[index]`` is only available for arrays and strings.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Automatic conversion of false to array is deprecated
 		:og:description: The array syntax ``$variable[index]`` is only available for arrays and strings
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/automatic-conversion-of-false-to-array-is-deprecated.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Automatic conversion of false to array is deprecated
+		:twitter:description: Automatic conversion of false to array is deprecated: The array syntax ``$variable[index]`` is only available for arrays and strings
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Automatic conversion of false to array is deprecated
-	:twitter:description: Automatic conversion of false to array is deprecated: The array syntax ``$variable[index]`` is only available for arrays and strings
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

@@ -3,23 +3,22 @@
 must contain at least one element
 ---------------------------------
  
-	.. meta::
-		:description:
-			must contain at least one element: min() and max() only work on arrays that contains at least one element.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		must contain at least one element: min() and max() only work on arrays that contains at least one element.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: must contain at least one element
 		:og:description: min() and max() only work on arrays that contains at least one element
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/must-contain-at-least-one-element.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: must contain at least one element
+		:twitter:description: must contain at least one element: min() and max() only work on arrays that contains at least one element
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: must contain at least one element
-	:twitter:description: must contain at least one element: min() and max() only work on arrays that contains at least one element
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

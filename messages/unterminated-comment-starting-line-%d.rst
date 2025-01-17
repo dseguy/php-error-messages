@@ -3,23 +3,22 @@
 Unterminated comment starting line %d
 -------------------------------------
  
-	.. meta::
-		:description:
-			Unterminated comment starting line %d: The multi-line comments with ``/* .
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Unterminated comment starting line %d: The multi-line comments with ``/* .
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Unterminated comment starting line %d
 		:og:description: The multi-line comments with ``/* 
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/unterminated-comment-starting-line-%25d.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Unterminated comment starting line %d
+		:twitter:description: Unterminated comment starting line %d: The multi-line comments with ``/* 
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Unterminated comment starting line %d
-	:twitter:description: Unterminated comment starting line %d: The multi-line comments with ``/* 
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

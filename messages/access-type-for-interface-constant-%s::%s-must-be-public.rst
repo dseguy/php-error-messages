@@ -3,23 +3,22 @@
 Access type for interface constant %s::%s must be public
 --------------------------------------------------------
  
-	.. meta::
-		:description:
-			Access type for interface constant %s::%s must be public: An method or a constant, that are defined in an interface, must appear as ``public`` in all the implementing classes.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Access type for interface constant %s::%s must be public: An method or a constant, that are defined in an interface, must appear as ``public`` in all the implementing classes.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Access type for interface constant %s::%s must be public
 		:og:description: An method or a constant, that are defined in an interface, must appear as ``public`` in all the implementing classes
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/access-type-for-interface-constant-%25s%3A%3A%25s-must-be-public.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Access type for interface constant %s::%s must be public
+		:twitter:description: Access type for interface constant %s::%s must be public: An method or a constant, that are defined in an interface, must appear as ``public`` in all the implementing classes
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Access type for interface constant %s::%s must be public
-	:twitter:description: Access type for interface constant %s::%s must be public: An method or a constant, that are defined in an interface, must appear as ``public`` in all the implementing classes
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

@@ -3,23 +3,22 @@
 Illegal offset type in isset or empty
 -------------------------------------
  
-	.. meta::
-		:description:
-			Illegal offset type in isset or empty: PHP only uses integers and strings as array index.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Illegal offset type in isset or empty: PHP only uses integers and strings as array index.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Illegal offset type in isset or empty
 		:og:description: PHP only uses integers and strings as array index
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/illegal-offset-type-in-isset-or-empty.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Illegal offset type in isset or empty
+		:twitter:description: Illegal offset type in isset or empty: PHP only uses integers and strings as array index
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Illegal offset type in isset or empty
-	:twitter:description: Illegal offset type in isset or empty: PHP only uses integers and strings as array index
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

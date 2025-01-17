@@ -3,23 +3,22 @@
 %s(): Argument #%d%s%s%s could not be passed by reference
 ---------------------------------------------------------
  
-	.. meta::
-		:description:
-			%s(): Argument #%d%s%s%s could not be passed by reference: Methods arguments may be passed by value or by reference.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		%s(): Argument #%d%s%s%s could not be passed by reference: Methods arguments may be passed by value or by reference.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: %s(): Argument #%d%s%s%s could not be passed by reference
 		:og:description: Methods arguments may be passed by value or by reference
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/%25s%28%29%3A-argument-%23%25d%25s%25s%25s-could-not-be-passed-by-reference.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: %s(): Argument #%d%s%s%s could not be passed by reference
+		:twitter:description: %s(): Argument #%d%s%s%s could not be passed by reference: Methods arguments may be passed by value or by reference
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: %s(): Argument #%d%s%s%s could not be passed by reference
-	:twitter:description: %s(): Argument #%d%s%s%s could not be passed by reference: Methods arguments may be passed by value or by reference
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

@@ -3,23 +3,22 @@
 Cannot use a scalar value as an array
 -------------------------------------
  
-	.. meta::
-		:description:
-			Cannot use a scalar value as an array: Scalar values cannot be modified with the array syntax: for example, it makes no sense to modify the third indexed element on an integer.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Cannot use a scalar value as an array: Scalar values cannot be modified with the array syntax: for example, it makes no sense to modify the third indexed element on an integer.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Cannot use a scalar value as an array
 		:og:description: Scalar values cannot be modified with the array syntax: for example, it makes no sense to modify the third indexed element on an integer
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-use-a-scalar-value-as-an-array.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Cannot use a scalar value as an array
+		:twitter:description: Cannot use a scalar value as an array: Scalar values cannot be modified with the array syntax: for example, it makes no sense to modify the third indexed element on an integer
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Cannot use a scalar value as an array
-	:twitter:description: Cannot use a scalar value as an array: Scalar values cannot be modified with the array syntax: for example, it makes no sense to modify the third indexed element on an integer
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

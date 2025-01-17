@@ -3,23 +3,22 @@
 Invalid argument supplied for foreach()
 ---------------------------------------
  
-	.. meta::
-		:description:
-			Invalid argument supplied for foreach(): foreach() works on arrays or objects.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Invalid argument supplied for foreach(): foreach() works on arrays or objects.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Invalid argument supplied for foreach()
 		:og:description: foreach() works on arrays or objects
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/invalid-argument-supplied-for-foreach%28%29.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Invalid argument supplied for foreach()
+		:twitter:description: Invalid argument supplied for foreach(): foreach() works on arrays or objects
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Invalid argument supplied for foreach()
-	:twitter:description: Invalid argument supplied for foreach(): foreach() works on arrays or objects
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

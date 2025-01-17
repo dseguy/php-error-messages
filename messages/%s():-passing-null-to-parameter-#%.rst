@@ -3,23 +3,22 @@
 %s(): Passing null to parameter #%d (%s) of type string is deprecated 
 ----------------------------------------------------------------------
  
-	.. meta::
-		:description:
-			%s(): Passing null to parameter #%d (%s) of type string is deprecated : Since PHP 8.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		%s(): Passing null to parameter #%d (%s) of type string is deprecated : Since PHP 8.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: %s(): Passing null to parameter #%d (%s) of type string is deprecated 
 		:og:description: Since PHP 8
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/%25s%28%29%3A-passing-null-to-parameter-%23%25.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: %s(): Passing null to parameter #%d (%s) of type string is deprecated 
+		:twitter:description: %s(): Passing null to parameter #%d (%s) of type string is deprecated : Since PHP 8
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: %s(): Passing null to parameter #%d (%s) of type string is deprecated 
-	:twitter:description: %s(): Passing null to parameter #%d (%s) of type string is deprecated : Since PHP 8
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

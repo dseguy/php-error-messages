@@ -3,23 +3,22 @@
 define(): Declaration of case-insensitive constants is deprecated
 -----------------------------------------------------------------
  
-	.. meta::
-		:description:
-			define(): Declaration of case-insensitive constants is deprecated: The third argument of define() used to allow the creation of a case-insensitive global constant.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		define(): Declaration of case-insensitive constants is deprecated: The third argument of define() used to allow the creation of a case-insensitive global constant.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: define(): Declaration of case-insensitive constants is deprecated
 		:og:description: The third argument of define() used to allow the creation of a case-insensitive global constant
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/define%28%29%3A-declaration-of-case-insensitive-constants-is-deprecated.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: define(): Declaration of case-insensitive constants is deprecated
+		:twitter:description: define(): Declaration of case-insensitive constants is deprecated: The third argument of define() used to allow the creation of a case-insensitive global constant
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: define(): Declaration of case-insensitive constants is deprecated
-	:twitter:description: define(): Declaration of case-insensitive constants is deprecated: The third argument of define() used to allow the creation of a case-insensitive global constant
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

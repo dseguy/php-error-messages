@@ -3,23 +3,22 @@
 Property %s::$%s cannot have type %s
 ------------------------------------
  
-	.. meta::
-		:description:
-			Property %s::$%s cannot have type %s: Some native PHP types are not allowed with a property.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Property %s::$%s cannot have type %s: Some native PHP types are not allowed with a property.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Property %s::$%s cannot have type %s
 		:og:description: Some native PHP types are not allowed with a property
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/property-%25s%3A%3A%24%25s-cannot-have-type-%25s.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Property %s::$%s cannot have type %s
+		:twitter:description: Property %s::$%s cannot have type %s: Some native PHP types are not allowed with a property
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Property %s::$%s cannot have type %s
-	:twitter:description: Property %s::$%s cannot have type %s: Some native PHP types are not allowed with a property
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

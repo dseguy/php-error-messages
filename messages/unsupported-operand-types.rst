@@ -3,23 +3,22 @@
 Unsupported operand types
 -------------------------
  
-	.. meta::
-		:description:
-			Unsupported operand types: This error is emitted when PHP cannot find a reasonable way to use the parameters of an operator.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Unsupported operand types: This error is emitted when PHP cannot find a reasonable way to use the parameters of an operator.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Unsupported operand types
 		:og:description: This error is emitted when PHP cannot find a reasonable way to use the parameters of an operator
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/unsupported-operand-types.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Unsupported operand types
+		:twitter:description: Unsupported operand types: This error is emitted when PHP cannot find a reasonable way to use the parameters of an operator
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Unsupported operand types
-	:twitter:description: Unsupported operand types: This error is emitted when PHP cannot find a reasonable way to use the parameters of an operator
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

@@ -3,23 +3,22 @@
 Non-abstract method %s::%s() must contain body
 ----------------------------------------------
  
-	.. meta::
-		:description:
-			Non-abstract method %s::%s() must contain body: A method must have a body block.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Non-abstract method %s::%s() must contain body: A method must have a body block.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Non-abstract method %s::%s() must contain body
 		:og:description: A method must have a body block
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/non-abstract-method-%25s%3A%3A%25s%28%29-must-contain-body.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Non-abstract method %s::%s() must contain body
+		:twitter:description: Non-abstract method %s::%s() must contain body: A method must have a body block
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Non-abstract method %s::%s() must contain body
-	:twitter:description: Non-abstract method %s::%s() must contain body: A method must have a body block
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

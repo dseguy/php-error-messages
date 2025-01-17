@@ -3,23 +3,22 @@
 Call to undefined method %s::%s()
 ---------------------------------
  
-	.. meta::
-		:description:
-			Call to undefined method %s::%s(): This message is emitted when no method with the requested name could be found on the class, or its parents or traits.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Call to undefined method %s::%s(): This message is emitted when no method with the requested name could be found on the class, or its parents or traits.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Call to undefined method %s::%s()
 		:og:description: This message is emitted when no method with the requested name could be found on the class, or its parents or traits
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-method-%25s%3A%3A%25s%28%29.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Call to undefined method %s::%s()
+		:twitter:description: Call to undefined method %s::%s(): This message is emitted when no method with the requested name could be found on the class, or its parents or traits
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Call to undefined method %s::%s()
-	:twitter:description: Call to undefined method %s::%s(): This message is emitted when no method with the requested name could be found on the class, or its parents or traits
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

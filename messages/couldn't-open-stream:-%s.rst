@@ -3,23 +3,22 @@
 Couldn't open stream: %s
 ------------------------
  
-	.. meta::
-		:description:
-			Couldn't open stream: %s: When opening a stream, or file, a mode of operation is needed.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Couldn't open stream: %s: When opening a stream, or file, a mode of operation is needed.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Couldn&#039;t open stream: %s
 		:og:description: When opening a stream, or file, a mode of operation is needed
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/couldn%27t-open-stream%3A-%25s.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Couldn't open stream: %s
+		:twitter:description: Couldn't open stream: %s: When opening a stream, or file, a mode of operation is needed
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Couldn't open stream: %s
-	:twitter:description: Couldn't open stream: %s: When opening a stream, or file, a mode of operation is needed
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

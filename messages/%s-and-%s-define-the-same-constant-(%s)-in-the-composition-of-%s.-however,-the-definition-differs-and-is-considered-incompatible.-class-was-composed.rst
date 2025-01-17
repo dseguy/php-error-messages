@@ -3,23 +3,22 @@
 %s and %s define the same constant (%s) in the composition of %s. However, the definition differs and is considered incompatible. Class was composed
 ----------------------------------------------------------------------------------------------------------------------------------------------------
  
-	.. meta::
-		:description:
-			%s and %s define the same constant (%s) in the composition of %s. However, the definition differs and is considered incompatible. Class was composed: There is not conflict resolution, when a class and a trait defined the same constant.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		%s and %s define the same constant (%s) in the composition of %s. However, the definition differs and is considered incompatible. Class was composed: There is not conflict resolution, when a class and a trait defined the same constant.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: %s and %s define the same constant (%s) in the composition of %s. However, the definition differs and is considered incompatible. Class was composed
 		:og:description: There is not conflict resolution, when a class and a trait defined the same constant
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/%25s-and-%25s-define-the-same-constant-%28%25s%29-in-the-composition-of-%25s.-however%2C-the-definition-differs-and-is-considered-incompatible.-class-was-composed.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: %s and %s define the same constant (%s) in the composition of %s. However, the definition differs and is considered incompatible. Class was composed
+		:twitter:description: %s and %s define the same constant (%s) in the composition of %s. However, the definition differs and is considered incompatible. Class was composed: There is not conflict resolution, when a class and a trait defined the same constant
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: %s and %s define the same constant (%s) in the composition of %s. However, the definition differs and is considered incompatible. Class was composed
-	:twitter:description: %s and %s define the same constant (%s) in the composition of %s. However, the definition differs and is considered incompatible. Class was composed: There is not conflict resolution, when a class and a trait defined the same constant
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

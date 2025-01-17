@@ -3,23 +3,22 @@
 Too few arguments
 -----------------
  
-	.. meta::
-		:description:
-			Too few arguments: Functions such as ``printf()`` require at least one argument, the format.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Too few arguments: Functions such as ``printf()`` require at least one argument, the format.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Too few arguments
 		:og:description: Functions such as ``printf()`` require at least one argument, the format
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/too-few-arguments.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Too few arguments
+		:twitter:description: Too few arguments: Functions such as ``printf()`` require at least one argument, the format
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Too few arguments
-	:twitter:description: Too few arguments: Functions such as ``printf()`` require at least one argument, the format
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

@@ -3,23 +3,22 @@
 Named parameter $x overwrites previous argument
 -----------------------------------------------
  
-	.. meta::
-		:description:
-			Named parameter $x overwrites previous argument: Named parameter and positional arguments are setting the same argument, with different name.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Named parameter $x overwrites previous argument: Named parameter and positional arguments are setting the same argument, with different name.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Named parameter $x overwrites previous argument
 		:og:description: Named parameter and positional arguments are setting the same argument, with different name
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/named-parameter-%24x-overwrites-previous-argument.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Named parameter $x overwrites previous argument
+		:twitter:description: Named parameter $x overwrites previous argument: Named parameter and positional arguments are setting the same argument, with different name
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Named parameter $x overwrites previous argument
-	:twitter:description: Named parameter $x overwrites previous argument: Named parameter and positional arguments are setting the same argument, with different name
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

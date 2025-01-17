@@ -3,23 +3,22 @@
 Cannot use empty array entries in keyed array assignment
 --------------------------------------------------------
  
-	.. meta::
-		:description:
-			Cannot use empty array entries in keyed array assignment: The list() (also known as [] on the left side of the = sign), can skip some values, by using consecutive commas.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Cannot use empty array entries in keyed array assignment: The list() (also known as [] on the left side of the = sign), can skip some values, by using consecutive commas.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Cannot use empty array entries in keyed array assignment
 		:og:description: The list() (also known as [] on the left side of the = sign), can skip some values, by using consecutive commas
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-use-empty-array-entries-in-keyed-array-assignment.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Cannot use empty array entries in keyed array assignment
+		:twitter:description: Cannot use empty array entries in keyed array assignment: The list() (also known as [] on the left side of the = sign), can skip some values, by using consecutive commas
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Cannot use empty array entries in keyed array assignment
-	:twitter:description: Cannot use empty array entries in keyed array assignment: The list() (also known as [] on the left side of the = sign), can skip some values, by using consecutive commas
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

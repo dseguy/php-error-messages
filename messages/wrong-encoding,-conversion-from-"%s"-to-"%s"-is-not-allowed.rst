@@ -3,23 +3,22 @@
 Wrong encoding, conversion from "%s" to "%s" is not allowed
 -----------------------------------------------------------
  
-	.. meta::
-		:description:
-			Wrong encoding, conversion from "%s" to "%s" is not allowed: This message reports that the origin or the destination encoding is not supported on this server.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Wrong encoding, conversion from "%s" to "%s" is not allowed: This message reports that the origin or the destination encoding is not supported on this server.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Wrong encoding, conversion from &quot;%s&quot; to &quot;%s&quot; is not allowed
 		:og:description: This message reports that the origin or the destination encoding is not supported on this server
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/wrong-encoding%2C-conversion-from-%5C%22%25s%5C%22-to-%5C%22%25s%5C%22-is-not-allowed.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Wrong encoding, conversion from "%s" to "%s" is not allowed
+		:twitter:description: Wrong encoding, conversion from "%s" to "%s" is not allowed: This message reports that the origin or the destination encoding is not supported on this server
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Wrong encoding, conversion from "%s" to "%s" is not allowed
-	:twitter:description: Wrong encoding, conversion from "%s" to "%s" is not allowed: This message reports that the origin or the destination encoding is not supported on this server
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

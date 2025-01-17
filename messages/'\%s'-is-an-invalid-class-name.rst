@@ -3,23 +3,22 @@
 '\%s' is an invalid class name
 ------------------------------
  
-	.. meta::
-		:description:
-			'\%s' is an invalid class name: ``self`` describes the current class.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		'\%s' is an invalid class name: ``self`` describes the current class.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: &#039;\%s&#039; is an invalid class name
 		:og:description: ``self`` describes the current class
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/%27%5C%25s%27-is-an-invalid-class-name.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: '\%s' is an invalid class name
+		:twitter:description: '\%s' is an invalid class name: ``self`` describes the current class
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: '\%s' is an invalid class name
-	:twitter:description: '\%s' is an invalid class name: ``self`` describes the current class
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

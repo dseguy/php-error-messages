@@ -3,23 +3,22 @@
 Type declaration '%s' must be unqualified
 -----------------------------------------
  
-	.. meta::
-		:description:
-			Type declaration '%s' must be unqualified: Scalar types are absolute, and shall not be written with the initial ``\``.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Type declaration '%s' must be unqualified: Scalar types are absolute, and shall not be written with the initial ``\``.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Type declaration &#039;%s&#039; must be unqualified
 		:og:description: Scalar types are absolute, and shall not be written with the initial ``\``
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/type-declaration-%27%25s%27-must-be-unqualified.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Type declaration '%s' must be unqualified
+		:twitter:description: Type declaration '%s' must be unqualified: Scalar types are absolute, and shall not be written with the initial ``\``
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Type declaration '%s' must be unqualified
-	:twitter:description: Type declaration '%s' must be unqualified: Scalar types are absolute, and shall not be written with the initial ``\``
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

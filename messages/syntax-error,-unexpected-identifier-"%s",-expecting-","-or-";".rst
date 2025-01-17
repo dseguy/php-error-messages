@@ -3,23 +3,22 @@
 syntax error, unexpected identifier "%s", expecting "," or ";"
 --------------------------------------------------------------
  
-	.. meta::
-		:description:
-			syntax error, unexpected identifier "%s", expecting "," or ";": This error is not related to the upcoming identifier, but to the previous delimiters.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		syntax error, unexpected identifier "%s", expecting "," or ";": This error is not related to the upcoming identifier, but to the previous delimiters.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: syntax error, unexpected identifier &quot;%s&quot;, expecting &quot;,&quot; or &quot;;&quot;
 		:og:description: This error is not related to the upcoming identifier, but to the previous delimiters
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-identifier-%22%25s%22%2C-expecting-%22%2C%22-or-%22%3B%22.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: syntax error, unexpected identifier "%s", expecting "," or ";"
+		:twitter:description: syntax error, unexpected identifier "%s", expecting "," or ";": This error is not related to the upcoming identifier, but to the previous delimiters
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: syntax error, unexpected identifier "%s", expecting "," or ";"
-	:twitter:description: syntax error, unexpected identifier "%s", expecting "," or ";": This error is not related to the upcoming identifier, but to the previous delimiters
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

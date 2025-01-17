@@ -3,23 +3,22 @@
 is an invalid offset
 --------------------
  
-	.. meta::
-		:description:
-			is an invalid offset: The requested value could not be found in the underlying array.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		is an invalid offset: The requested value could not be found in the underlying array.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: is an invalid offset
 		:og:description: The requested value could not be found in the underlying array
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/is-an-invalid-offset.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: is an invalid offset
+		:twitter:description: is an invalid offset: The requested value could not be found in the underlying array
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: is an invalid offset
-	:twitter:description: is an invalid offset: The requested value could not be found in the underlying array
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

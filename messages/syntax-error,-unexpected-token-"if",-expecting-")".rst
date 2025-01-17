@@ -3,23 +3,22 @@
 syntax error, unexpected token "if", expecting ")"
 --------------------------------------------------
  
-	.. meta::
-		:description:
-			syntax error, unexpected token "if", expecting ")": If-then commands are standalone commands.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		syntax error, unexpected token "if", expecting ")": If-then commands are standalone commands.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: syntax error, unexpected token &quot;if&quot;, expecting &quot;)&quot;
 		:og:description: If-then commands are standalone commands
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22if%22%2C-expecting-%22%29%22.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: syntax error, unexpected token "if", expecting ")"
+		:twitter:description: syntax error, unexpected token "if", expecting ")": If-then commands are standalone commands
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: syntax error, unexpected token "if", expecting ")"
-	:twitter:description: syntax error, unexpected token "if", expecting ")": If-then commands are standalone commands
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

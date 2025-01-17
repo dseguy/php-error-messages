@@ -3,23 +3,22 @@
 Object of type %s has not been correctly initialized by calling parent::__construct() in its constructor
 --------------------------------------------------------------------------------------------------------
  
-	.. meta::
-		:description:
-			Object of type %s has not been correctly initialized by calling parent::__construct() in its constructor: PHP needs an explicit call to the parent constructor to init the parent class.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Object of type %s has not been correctly initialized by calling parent::__construct() in its constructor: PHP needs an explicit call to the parent constructor to init the parent class.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Object of type %s has not been correctly initialized by calling parent::__construct() in its constructor
 		:og:description: PHP needs an explicit call to the parent constructor to init the parent class
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/object-of-type-%25s-has-not-been-correctly-initialized-by-calling-parent%3A%3A__construct%28%29-in-its-constructor.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Object of type %s has not been correctly initialized by calling parent::__construct() in its constructor
+		:twitter:description: Object of type %s has not been correctly initialized by calling parent::__construct() in its constructor: PHP needs an explicit call to the parent constructor to init the parent class
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Object of type %s has not been correctly initialized by calling parent::__construct() in its constructor
-	:twitter:description: Object of type %s has not been correctly initialized by calling parent::__construct() in its constructor: PHP needs an explicit call to the parent constructor to init the parent class
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

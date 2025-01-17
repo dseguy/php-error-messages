@@ -3,23 +3,22 @@
 Indirect modification of overloaded property %s::$%s has no effect
 ------------------------------------------------------------------
  
-	.. meta::
-		:description:
-			Indirect modification of overloaded property %s::$%s has no effect: The variable $object is an object.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Indirect modification of overloaded property %s::$%s has no effect: The variable $object is an object.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Indirect modification of overloaded property %s::$%s has no effect
 		:og:description: The variable $object is an object
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/indirect-modification-of-overloaded-property-%25s%3A%3A%24%25s-has-no-effect.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Indirect modification of overloaded property %s::$%s has no effect
+		:twitter:description: Indirect modification of overloaded property %s::$%s has no effect: The variable $object is an object
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Indirect modification of overloaded property %s::$%s has no effect
-	:twitter:description: Indirect modification of overloaded property %s::$%s has no effect: The variable $object is an object
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

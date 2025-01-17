@@ -3,23 +3,22 @@
 Cannot use the %s modifier on a %s
 ----------------------------------
  
-	.. meta::
-		:description:
-			Cannot use the %s modifier on a %s: This is a generic error message for cases where a keyword cannot be used with a class structure.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Cannot use the %s modifier on a %s: This is a generic error message for cases where a keyword cannot be used with a class structure.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Cannot use the %s modifier on a %s
 		:og:description: This is a generic error message for cases where a keyword cannot be used with a class structure
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-use-the-%25s-modifier-on-a-%25s.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Cannot use the %s modifier on a %s
+		:twitter:description: Cannot use the %s modifier on a %s: This is a generic error message for cases where a keyword cannot be used with a class structure
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Cannot use the %s modifier on a %s
-	:twitter:description: Cannot use the %s modifier on a %s: This is a generic error message for cases where a keyword cannot be used with a class structure
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

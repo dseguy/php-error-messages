@@ -3,23 +3,22 @@
 jump into a finally block is disallowed
 ---------------------------------------
  
-	.. meta::
-		:description:
-			jump into a finally block is disallowed: It is not possible to make a goto, when the label is in a finally block.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		jump into a finally block is disallowed: It is not possible to make a goto, when the label is in a finally block.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: jump into a finally block is disallowed
 		:og:description: It is not possible to make a goto, when the label is in a finally block
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/jump-into-a-finally-block-is-disallowed.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: jump into a finally block is disallowed
+		:twitter:description: jump into a finally block is disallowed: It is not possible to make a goto, when the label is in a finally block
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: jump into a finally block is disallowed
-	:twitter:description: jump into a finally block is disallowed: It is not possible to make a goto, when the label is in a finally block
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

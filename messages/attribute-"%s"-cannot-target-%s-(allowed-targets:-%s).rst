@@ -3,23 +3,22 @@
 Attribute "%s" cannot target %s (allowed targets: %s)
 -----------------------------------------------------
  
-	.. meta::
-		:description:
-			Attribute "%s" cannot target %s (allowed targets: %s): Attributes are built with a specific target, and may not be applicable to any structure.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Attribute "%s" cannot target %s (allowed targets: %s): Attributes are built with a specific target, and may not be applicable to any structure.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Attribute &quot;%s&quot; cannot target %s (allowed targets: %s)
 		:og:description: Attributes are built with a specific target, and may not be applicable to any structure
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/attribute-%5C%22%25s%5C%22-cannot-target-%25s-%28allowed-targets%3A-%25s%29.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Attribute "%s" cannot target %s (allowed targets: %s)
+		:twitter:description: Attribute "%s" cannot target %s (allowed targets: %s): Attributes are built with a specific target, and may not be applicable to any structure
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Attribute "%s" cannot target %s (allowed targets: %s)
-	:twitter:description: Attribute "%s" cannot target %s (allowed targets: %s): Attributes are built with a specific target, and may not be applicable to any structure
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

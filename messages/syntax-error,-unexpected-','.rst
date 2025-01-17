@@ -3,23 +3,22 @@
 syntax error, unexpected ','
 ----------------------------
  
-	.. meta::
-		:description:
-			syntax error, unexpected ',': Commas are used as a separator in lists of items, such as parameters, arguments, elements of an array.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		syntax error, unexpected ',': Commas are used as a separator in lists of items, such as parameters, arguments, elements of an array.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: syntax error, unexpected &#039;,&#039;
 		:og:description: Commas are used as a separator in lists of items, such as parameters, arguments, elements of an array
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-%27%2C%27.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: syntax error, unexpected ','
+		:twitter:description: syntax error, unexpected ',': Commas are used as a separator in lists of items, such as parameters, arguments, elements of an array
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: syntax error, unexpected ','
-	:twitter:description: syntax error, unexpected ',': Commas are used as a separator in lists of items, such as parameters, arguments, elements of an array
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

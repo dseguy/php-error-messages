@@ -3,23 +3,22 @@
 Increment on type bool has no effect, this will change in the next major version of PHP
 ---------------------------------------------------------------------------------------
  
-	.. meta::
-		:description:
-			Increment on type bool has no effect, this will change in the next major version of PHP: Post increment on a boolean leaves the value unchanged.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Increment on type bool has no effect, this will change in the next major version of PHP: Post increment on a boolean leaves the value unchanged.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Increment on type bool has no effect, this will change in the next major version of PHP
 		:og:description: Post increment on a boolean leaves the value unchanged
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/increment-on-type-bool-has-no-effect%2C-this-will-change-in-the-next-major-version-of-php.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Increment on type bool has no effect, this will change in the next major version of PHP
+		:twitter:description: Increment on type bool has no effect, this will change in the next major version of PHP: Post increment on a boolean leaves the value unchanged
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Increment on type bool has no effect, this will change in the next major version of PHP
-	:twitter:description: Increment on type bool has no effect, this will change in the next major version of PHP: Post increment on a boolean leaves the value unchanged
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

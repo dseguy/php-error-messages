@@ -3,23 +3,22 @@
 Cannot assign %s to property %s::$%s of type %s
 -----------------------------------------------
  
-	.. meta::
-		:description:
-			Cannot assign %s to property %s::$%s of type %s: This error signals that the wrong type was used when assigning values to a property.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Cannot assign %s to property %s::$%s of type %s: This error signals that the wrong type was used when assigning values to a property.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Cannot assign %s to property %s::$%s of type %s
 		:og:description: This error signals that the wrong type was used when assigning values to a property
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-assign-%25s-to-property-%25s%3A%3A%24%25s-of-type-%25s.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Cannot assign %s to property %s::$%s of type %s
+		:twitter:description: Cannot assign %s to property %s::$%s of type %s: This error signals that the wrong type was used when assigning values to a property
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Cannot assign %s to property %s::$%s of type %s
-	:twitter:description: Cannot assign %s to property %s::$%s of type %s: This error signals that the wrong type was used when assigning values to a property
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

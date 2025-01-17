@@ -3,23 +3,22 @@
 Illegal offset type
 -------------------
  
-	.. meta::
-		:description:
-			Illegal offset type: PHP only uses integers and strings as array index.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Illegal offset type: PHP only uses integers and strings as array index.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Illegal offset type
 		:og:description: PHP only uses integers and strings as array index
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/illegal-offset-type.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Illegal offset type
+		:twitter:description: Illegal offset type: PHP only uses integers and strings as array index
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Illegal offset type
-	:twitter:description: Illegal offset type: PHP only uses integers and strings as array index
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

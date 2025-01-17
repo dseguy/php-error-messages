@@ -3,23 +3,22 @@
 Class constant %s::%s cannot have type %s
 -----------------------------------------
  
-	.. meta::
-		:description:
-			Class constant %s::%s cannot have type %s: Some native PHP types are not allowed with a class constant.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Class constant %s::%s cannot have type %s: Some native PHP types are not allowed with a class constant.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Class constant %s::%s cannot have type %s
 		:og:description: Some native PHP types are not allowed with a class constant
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/class-constant-%25s%3A%3A%25s-cannot-have-type-%25s.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Class constant %s::%s cannot have type %s
+		:twitter:description: Class constant %s::%s cannot have type %s: Some native PHP types are not allowed with a class constant
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Class constant %s::%s cannot have type %s
-	:twitter:description: Class constant %s::%s cannot have type %s: Some native PHP types are not allowed with a class constant
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

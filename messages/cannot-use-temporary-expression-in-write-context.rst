@@ -3,23 +3,22 @@
 Cannot use temporary expression in write context
 ------------------------------------------------
  
-	.. meta::
-		:description:
-			Cannot use temporary expression in write context: Literal values and constants, global or class, cannot be used for writing: they are immutable.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Cannot use temporary expression in write context: Literal values and constants, global or class, cannot be used for writing: they are immutable.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Cannot use temporary expression in write context
 		:og:description: Literal values and constants, global or class, cannot be used for writing: they are immutable
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-use-temporary-expression-in-write-context.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Cannot use temporary expression in write context
+		:twitter:description: Cannot use temporary expression in write context: Literal values and constants, global or class, cannot be used for writing: they are immutable
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Cannot use temporary expression in write context
-	:twitter:description: Cannot use temporary expression in write context: Literal values and constants, global or class, cannot be used for writing: they are immutable
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

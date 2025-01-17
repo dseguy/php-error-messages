@@ -3,23 +3,22 @@
 Calling get_class() without arguments is deprecated
 ---------------------------------------------------
  
-	.. meta::
-		:description:
-			Calling get_class() without arguments is deprecated: get_class() used to allow its usage without an argument.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Calling get_class() without arguments is deprecated: get_class() used to allow its usage without an argument.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Calling get_class() without arguments is deprecated
 		:og:description: get_class() used to allow its usage without an argument
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/calling-get_class%28%29-without-arguments-is-deprecated.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Calling get_class() without arguments is deprecated
+		:twitter:description: Calling get_class() without arguments is deprecated: get_class() used to allow its usage without an argument
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Calling get_class() without arguments is deprecated
-	:twitter:description: Calling get_class() without arguments is deprecated: get_class() used to allow its usage without an argument
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

@@ -3,23 +3,22 @@
 array_product(): Multiplication is not supported on type object
 ---------------------------------------------------------------
  
-	.. meta::
-		:description:
-			array_product(): Multiplication is not supported on type object: array_product() multiplies each element in the first argument, with each other.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		array_product(): Multiplication is not supported on type object: array_product() multiplies each element in the first argument, with each other.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: array_product(): Multiplication is not supported on type object
 		:og:description: array_product() multiplies each element in the first argument, with each other
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/array_product%28%29%3A-multiplication-is-not-supported-on-type-object.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: array_product(): Multiplication is not supported on type object
+		:twitter:description: array_product(): Multiplication is not supported on type object: array_product() multiplies each element in the first argument, with each other
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: array_product(): Multiplication is not supported on type object
-	:twitter:description: array_product(): Multiplication is not supported on type object: array_product() multiplies each element in the first argument, with each other
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

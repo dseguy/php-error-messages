@@ -3,23 +3,22 @@
 Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero
 ------------------------------------------------------------------------------------------------------------------
  
-	.. meta::
-		:description:
-			Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero: ``usort()`` requires a callback function, that is used to put set the order in the array.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero: ``usort()`` requires a callback function, that is used to put set the order in the array.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero
 		:og:description: ``usort()`` requires a callback function, that is used to put set the order in the array
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/returning-bool-from-comparison-function-is-deprecated%2C-return-an-integer-less-than%2C-equal-to%2C-or-greater-than-zero.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero
+		:twitter:description: Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero: ``usort()`` requires a callback function, that is used to put set the order in the array
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero
-	:twitter:description: Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero: ``usort()`` requires a callback function, that is used to put set the order in the array
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

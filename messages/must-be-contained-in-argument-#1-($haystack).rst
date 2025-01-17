@@ -3,23 +3,22 @@
 %s(): Argument #%d ($%s) must be contained in argument #%d ($%s)
 ----------------------------------------------------------------
  
-	.. meta::
-		:description:
-			%s(): Argument #%d ($%s) must be contained in argument #%d ($%s): strpos() searches for a string called ``$needle`` in another string called ``$haystack``, starting at the offset passed as third argument, and called ``$offset``.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		%s(): Argument #%d ($%s) must be contained in argument #%d ($%s): strpos() searches for a string called ``$needle`` in another string called ``$haystack``, starting at the offset passed as third argument, and called ``$offset``.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: %s(): Argument #%d ($%s) must be contained in argument #%d ($%s)
 		:og:description: strpos() searches for a string called ``$needle`` in another string called ``$haystack``, starting at the offset passed as third argument, and called ``$offset``
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/must-be-contained-in-argument-%231-%28%24haystack%29.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: %s(): Argument #%d ($%s) must be contained in argument #%d ($%s)
+		:twitter:description: %s(): Argument #%d ($%s) must be contained in argument #%d ($%s): strpos() searches for a string called ``$needle`` in another string called ``$haystack``, starting at the offset passed as third argument, and called ``$offset``
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: %s(): Argument #%d ($%s) must be contained in argument #%d ($%s)
-	:twitter:description: %s(): Argument #%d ($%s) must be contained in argument #%d ($%s): strpos() searches for a string called ``$needle`` in another string called ``$haystack``, starting at the offset passed as third argument, and called ``$offset``
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

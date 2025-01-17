@@ -3,23 +3,22 @@
 'namespace\%s' is an invalid class name
 ---------------------------------------
  
-	.. meta::
-		:description:
-			'namespace\%s' is an invalid class name: ``namespace``, when used in a fully qualified name, represents the current namespace.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		'namespace\%s' is an invalid class name: ``namespace``, when used in a fully qualified name, represents the current namespace.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: &#039;namespace\%s&#039; is an invalid class name
 		:og:description: ``namespace``, when used in a fully qualified name, represents the current namespace
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/%27namespace%5C%25s%27-is-an-invalid-class-name.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: 'namespace\%s' is an invalid class name
+		:twitter:description: 'namespace\%s' is an invalid class name: ``namespace``, when used in a fully qualified name, represents the current namespace
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: 'namespace\%s' is an invalid class name
-	:twitter:description: 'namespace\%s' is an invalid class name: ``namespace``, when used in a fully qualified name, represents the current namespace
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

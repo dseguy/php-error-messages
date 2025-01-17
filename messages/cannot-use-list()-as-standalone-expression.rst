@@ -3,23 +3,22 @@
 Cannot use list() as standalone expression
 ------------------------------------------
  
-	.. meta::
-		:description:
-			Cannot use list() as standalone expression: list() assigns values from an array to a list of variables (or data containers).
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Cannot use list() as standalone expression: list() assigns values from an array to a list of variables (or data containers).
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Cannot use list() as standalone expression
 		:og:description: list() assigns values from an array to a list of variables (or data containers)
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-use-list%28%29-as-standalone-expression.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Cannot use list() as standalone expression
+		:twitter:description: Cannot use list() as standalone expression: list() assigns values from an array to a list of variables (or data containers)
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Cannot use list() as standalone expression
-	:twitter:description: Cannot use list() as standalone expression: list() assigns values from an array to a list of variables (or data containers)
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

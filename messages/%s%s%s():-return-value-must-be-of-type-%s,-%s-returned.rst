@@ -3,23 +3,22 @@
 %s%s%s(): Return value must be of type %s, %s returned
 ------------------------------------------------------
  
-	.. meta::
-		:description:
-			%s%s%s(): Return value must be of type %s, %s returned: This error appears when calling a method with a return value, but without an explicit return statement.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		%s%s%s(): Return value must be of type %s, %s returned: This error appears when calling a method with a return value, but without an explicit return statement.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: %s%s%s(): Return value must be of type %s, %s returned
 		:og:description: This error appears when calling a method with a return value, but without an explicit return statement
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/%25s%25s%25s%28%29%3A-return-value-must-be-of-type-%25s%2C-%25s-returned.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: %s%s%s(): Return value must be of type %s, %s returned
+		:twitter:description: %s%s%s(): Return value must be of type %s, %s returned: This error appears when calling a method with a return value, but without an explicit return statement
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: %s%s%s(): Return value must be of type %s, %s returned
-	:twitter:description: %s%s%s(): Return value must be of type %s, %s returned: This error appears when calling a method with a return value, but without an explicit return statement
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

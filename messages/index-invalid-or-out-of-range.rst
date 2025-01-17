@@ -3,23 +3,22 @@
 Index invalid or out of range
 -----------------------------
  
-	.. meta::
-		:description:
-			Index invalid or out of range: This error message is returned by the ``SplFixedArray`` object, when trying to access indices outside the validity interval.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Index invalid or out of range: This error message is returned by the ``SplFixedArray`` object, when trying to access indices outside the validity interval.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Index invalid or out of range
 		:og:description: This error message is returned by the ``SplFixedArray`` object, when trying to access indices outside the validity interval
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/index-invalid-or-out-of-range.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Index invalid or out of range
+		:twitter:description: Index invalid or out of range: This error message is returned by the ``SplFixedArray`` object, when trying to access indices outside the validity interval
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Index invalid or out of range
-	:twitter:description: Index invalid or out of range: This error message is returned by the ``SplFixedArray`` object, when trying to access indices outside the validity interval
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

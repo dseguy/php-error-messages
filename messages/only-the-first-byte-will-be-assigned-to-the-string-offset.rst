@@ -3,23 +3,22 @@
 Only the first byte will be assigned to the string offset
 ---------------------------------------------------------
  
-	.. meta::
-		:description:
-			Only the first byte will be assigned to the string offset: The array notation is available with strings, to both write and read.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Only the first byte will be assigned to the string offset: The array notation is available with strings, to both write and read.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Only the first byte will be assigned to the string offset
 		:og:description: The array notation is available with strings, to both write and read
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/only-the-first-byte-will-be-assigned-to-the-string-offset.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Only the first byte will be assigned to the string offset
+		:twitter:description: Only the first byte will be assigned to the string offset: The array notation is available with strings, to both write and read
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Only the first byte will be assigned to the string offset
-	:twitter:description: Only the first byte will be assigned to the string offset: The array notation is available with strings, to both write and read
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

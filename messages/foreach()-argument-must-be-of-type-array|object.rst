@@ -3,23 +3,22 @@
 foreach() argument must be of type array|object
 -----------------------------------------------
  
-	.. meta::
-		:description:
-			foreach() argument must be of type array|object: foreach() works on arrays or objects.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		foreach() argument must be of type array|object: foreach() works on arrays or objects.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: foreach() argument must be of type array|object
 		:og:description: foreach() works on arrays or objects
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/foreach%28%29-argument-must-be-of-type-array%7Cobject.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: foreach() argument must be of type array|object
+		:twitter:description: foreach() argument must be of type array|object: foreach() works on arrays or objects
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: foreach() argument must be of type array|object
-	:twitter:description: foreach() argument must be of type array|object: foreach() works on arrays or objects
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

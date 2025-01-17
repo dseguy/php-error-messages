@@ -3,23 +3,22 @@
 array_merge() does not accept unknown named parameters
 ------------------------------------------------------
  
-	.. meta::
-		:description:
-			array_merge() does not accept unknown named parameters: array_merge() accepts one parameter, called ``\$arrays``.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		array_merge() does not accept unknown named parameters: array_merge() accepts one parameter, called ``\$arrays``.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: array_merge() does not accept unknown named parameters
 		:og:description: array_merge() accepts one parameter, called ``\$arrays``
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/array_merge%28%29-does-not-accept-unknown-named-parameters.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: array_merge() does not accept unknown named parameters
+		:twitter:description: array_merge() does not accept unknown named parameters: array_merge() accepts one parameter, called ``\$arrays``
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: array_merge() does not accept unknown named parameters
-	:twitter:description: array_merge() does not accept unknown named parameters: array_merge() accepts one parameter, called ``\$arrays``
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

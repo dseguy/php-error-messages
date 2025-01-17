@@ -3,23 +3,22 @@
 Defining a custom assert() function is not allowed,
 ---------------------------------------------------
  
-	.. meta::
-		:description:
-			Defining a custom assert() function is not allowed,: assert() is a PHP native function, used to create assertions.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Defining a custom assert() function is not allowed,: assert() is a PHP native function, used to create assertions.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Defining a custom assert() function is not allowed,
 		:og:description: assert() is a PHP native function, used to create assertions
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/defining-a-custom-assert%28%29-function-is-not-allowed%2C.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Defining a custom assert() function is not allowed,
+		:twitter:description: Defining a custom assert() function is not allowed,: assert() is a PHP native function, used to create assertions
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Defining a custom assert() function is not allowed,
-	:twitter:description: Defining a custom assert() function is not allowed,: assert() is a PHP native function, used to create assertions
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

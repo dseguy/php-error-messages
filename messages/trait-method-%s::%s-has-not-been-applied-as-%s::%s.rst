@@ -3,23 +3,22 @@
 Trait method %s::%s has not been applied as %s::%s
 --------------------------------------------------
  
-	.. meta::
-		:description:
-			Trait method %s::%s has not been applied as %s::%s: Two methods with the same name were imported with two distinct traits: PHP could not decide which one to use.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Trait method %s::%s has not been applied as %s::%s: Two methods with the same name were imported with two distinct traits: PHP could not decide which one to use.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Trait method %s::%s has not been applied as %s::%s
 		:og:description: Two methods with the same name were imported with two distinct traits: PHP could not decide which one to use
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/trait-method-%25s%3A%3A%25s-has-not-been-applied-as-%25s%3A%3A%25s.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Trait method %s::%s has not been applied as %s::%s
+		:twitter:description: Trait method %s::%s has not been applied as %s::%s: Two methods with the same name were imported with two distinct traits: PHP could not decide which one to use
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Trait method %s::%s has not been applied as %s::%s
-	:twitter:description: Trait method %s::%s has not been applied as %s::%s: Two methods with the same name were imported with two distinct traits: PHP could not decide which one to use
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

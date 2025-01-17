@@ -3,23 +3,22 @@
 Default value for parameters with a %s type can only be %s or NULL
 ------------------------------------------------------------------
  
-	.. meta::
-		:description:
-			Default value for parameters with a %s type can only be %s or NULL: The default value of the parameter is not compatible with the type of the same parameter.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Default value for parameters with a %s type can only be %s or NULL: The default value of the parameter is not compatible with the type of the same parameter.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Default value for parameters with a %s type can only be %s or NULL
 		:og:description: The default value of the parameter is not compatible with the type of the same parameter
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/default-value-for-parameters-with-a-%25s-type-can-only-be-%25s-or-null.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Default value for parameters with a %s type can only be %s or NULL
+		:twitter:description: Default value for parameters with a %s type can only be %s or NULL: The default value of the parameter is not compatible with the type of the same parameter
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Default value for parameters with a %s type can only be %s or NULL
-	:twitter:description: Default value for parameters with a %s type can only be %s or NULL: The default value of the parameter is not compatible with the type of the same parameter
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

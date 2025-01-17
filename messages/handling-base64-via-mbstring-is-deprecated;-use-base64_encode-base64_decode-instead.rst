@@ -3,23 +3,22 @@
 Handling Base64 via mbstring is deprecated; use base64_encode/base64_decode instead
 -----------------------------------------------------------------------------------
  
-	.. meta::
-		:description:
-			Handling Base64 via mbstring is deprecated; use base64_encode/base64_decode instead: Since PHP 8.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Handling Base64 via mbstring is deprecated; use base64_encode/base64_decode instead: Since PHP 8.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Handling Base64 via mbstring is deprecated; use base64_encode/base64_decode instead
 		:og:description: Since PHP 8
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/handling-base64-via-mbstring-is-deprecated%3B-use-base64_encode-base64_decode-instead.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Handling Base64 via mbstring is deprecated; use base64_encode/base64_decode instead
+		:twitter:description: Handling Base64 via mbstring is deprecated; use base64_encode/base64_decode instead: Since PHP 8
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Handling Base64 via mbstring is deprecated; use base64_encode/base64_decode instead
-	:twitter:description: Handling Base64 via mbstring is deprecated; use base64_encode/base64_decode instead: Since PHP 8
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

@@ -3,23 +3,22 @@
 Cannot use positional argument after argument unpacking
 -------------------------------------------------------
  
-	.. meta::
-		:description:
-			Cannot use positional argument after argument unpacking: It is not possible to put simple arguments after an unpacked argument.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Cannot use positional argument after argument unpacking: It is not possible to put simple arguments after an unpacked argument.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Cannot use positional argument after argument unpacking
 		:og:description: It is not possible to put simple arguments after an unpacked argument
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-use-positional-argument-after-argument-unpacking.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Cannot use positional argument after argument unpacking
+		:twitter:description: Cannot use positional argument after argument unpacking: It is not possible to put simple arguments after an unpacked argument
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Cannot use positional argument after argument unpacking
-	:twitter:description: Cannot use positional argument after argument unpacking: It is not possible to put simple arguments after an unpacked argument
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

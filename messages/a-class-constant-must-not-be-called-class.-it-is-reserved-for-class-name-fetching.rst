@@ -3,23 +3,22 @@
 A class constant must not be called class. it is reserved for class name fetching
 ---------------------------------------------------------------------------------
  
-	.. meta::
-		:description:
-			A class constant must not be called class. it is reserved for class name fetching: Class constants can use a lot of names, but not the name &#039;class&#039;.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		A class constant must not be called class. it is reserved for class name fetching: Class constants can use a lot of names, but not the name &#039;class&#039;.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: A class constant must not be called class. it is reserved for class name fetching
 		:og:description: Class constants can use a lot of names, but not the name &#039;class&#039;
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/a-class-constant-must-not-be-called-class.-it-is-reserved-for-class-name-fetching.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: A class constant must not be called class. it is reserved for class name fetching
+		:twitter:description: A class constant must not be called class. it is reserved for class name fetching: Class constants can use a lot of names, but not the name 'class'
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: A class constant must not be called class. it is reserved for class name fetching
-	:twitter:description: A class constant must not be called class. it is reserved for class name fetching: Class constants can use a lot of names, but not the name 'class'
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

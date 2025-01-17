@@ -3,23 +3,22 @@
 Cannot use string offset as an array
 ------------------------------------
  
-	.. meta::
-		:description:
-			Cannot use string offset as an array: It is possible to use the array syntax ``$s[$i]`` on a string, to access an individual character.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Cannot use string offset as an array: It is possible to use the array syntax ``$s[$i]`` on a string, to access an individual character.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Cannot use string offset as an array
 		:og:description: It is possible to use the array syntax ``$s[$i]`` on a string, to access an individual character
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-use-string-offset-as-an-array.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Cannot use string offset as an array
+		:twitter:description: Cannot use string offset as an array: It is possible to use the array syntax ``$s[$i]`` on a string, to access an individual character
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Cannot use string offset as an array
-	:twitter:description: Cannot use string offset as an array: It is possible to use the array syntax ``$s[$i]`` on a string, to access an individual character
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

@@ -3,23 +3,22 @@
 Accessing static trait property %s::$%s is deprecated, it should only be accessed on a class using the trait
 ------------------------------------------------------------------------------------------------------------
  
-	.. meta::
-		:description:
-			Accessing static trait property %s::$%s is deprecated, it should only be accessed on a class using the trait: Traits should not be used as standalone structure, but rather as a part of a class.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Accessing static trait property %s::$%s is deprecated, it should only be accessed on a class using the trait: Traits should not be used as standalone structure, but rather as a part of a class.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Accessing static trait property %s::$%s is deprecated, it should only be accessed on a class using the trait
 		:og:description: Traits should not be used as standalone structure, but rather as a part of a class
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/accessing-static-trait-property-%25s%3A%3A%24%25s-is-deprecated%2C-it-should-only-be-accessed-on-a-class-using-the-trait.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Accessing static trait property %s::$%s is deprecated, it should only be accessed on a class using the trait
+		:twitter:description: Accessing static trait property %s::$%s is deprecated, it should only be accessed on a class using the trait: Traits should not be used as standalone structure, but rather as a part of a class
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Accessing static trait property %s::$%s is deprecated, it should only be accessed on a class using the trait
-	:twitter:description: Accessing static trait property %s::$%s is deprecated, it should only be accessed on a class using the trait: Traits should not be used as standalone structure, but rather as a part of a class
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

@@ -3,23 +3,22 @@
 Cannot acquire reference to readonly property 
 ----------------------------------------------
  
-	.. meta::
-		:description:
-			Cannot acquire reference to readonly property : It is not possible to create a reference to a readonly property.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Cannot acquire reference to readonly property : It is not possible to create a reference to a readonly property.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Cannot acquire reference to readonly property 
 		:og:description: It is not possible to create a reference to a readonly property
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-acquire-reference-to-readonly-property.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Cannot acquire reference to readonly property 
+		:twitter:description: Cannot acquire reference to readonly property : It is not possible to create a reference to a readonly property
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Cannot acquire reference to readonly property 
-	:twitter:description: Cannot acquire reference to readonly property : It is not possible to create a reference to a readonly property
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

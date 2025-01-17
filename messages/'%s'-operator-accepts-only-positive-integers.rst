@@ -3,23 +3,22 @@
 '%s' operator accepts only positive integers
 --------------------------------------------
  
-	.. meta::
-		:description:
-			'%s' operator accepts only positive integers: The ``break`` and ``continue`` operators only accepts a positive integer as explicit operand.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		'%s' operator accepts only positive integers: The ``break`` and ``continue`` operators only accepts a positive integer as explicit operand.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: &#039;%s&#039; operator accepts only positive integers
 		:og:description: The ``break`` and ``continue`` operators only accepts a positive integer as explicit operand
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/%27%25s%27-operator-accepts-only-positive-integers.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: '%s' operator accepts only positive integers
+		:twitter:description: '%s' operator accepts only positive integers: The ``break`` and ``continue`` operators only accepts a positive integer as explicit operand
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: '%s' operator accepts only positive integers
-	:twitter:description: '%s' operator accepts only positive integers: The ``break`` and ``continue`` operators only accepts a positive integer as explicit operand
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

@@ -3,23 +3,22 @@
 Implicit conversion from float-string "%s" to int loses
 -------------------------------------------------------
  
-	.. meta::
-		:description:
-			Implicit conversion from float-string "%s" to int loses: In cases where integers are required, PHP applies a type cast and convert floats and strings into integers.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Implicit conversion from float-string "%s" to int loses: In cases where integers are required, PHP applies a type cast and convert floats and strings into integers.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Implicit conversion from float-string &quot;%s&quot; to int loses
 		:og:description: In cases where integers are required, PHP applies a type cast and convert floats and strings into integers
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/implicit-conversion-from-float-string-%5C%22%25s%5C%22-to-int-loses.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Implicit conversion from float-string "%s" to int loses
+		:twitter:description: Implicit conversion from float-string "%s" to int loses: In cases where integers are required, PHP applies a type cast and convert floats and strings into integers
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Implicit conversion from float-string "%s" to int loses
-	:twitter:description: Implicit conversion from float-string "%s" to int loses: In cases where integers are required, PHP applies a type cast and convert floats and strings into integers
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

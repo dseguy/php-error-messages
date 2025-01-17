@@ -3,23 +3,22 @@
 "static::" is not allowed in compile-time constants
 ---------------------------------------------------
  
-	.. meta::
-		:description:
-			"static::" is not allowed in compile-time constants: The ``static`` keyword is a relative class identifier.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		"static::" is not allowed in compile-time constants: The ``static`` keyword is a relative class identifier.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: &quot;static::&quot; is not allowed in compile-time constants
 		:og:description: The ``static`` keyword is a relative class identifier
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/%22static%3A%3A%22-is-not-allowed-in-compile-time-constants.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: "static::" is not allowed in compile-time constants
+		:twitter:description: "static::" is not allowed in compile-time constants: The ``static`` keyword is a relative class identifier
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: "static::" is not allowed in compile-time constants
-	:twitter:description: "static::" is not allowed in compile-time constants: The ``static`` keyword is a relative class identifier
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

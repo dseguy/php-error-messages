@@ -3,23 +3,22 @@
 Typed static property %s::$%s must not be accessed before initialization
 ------------------------------------------------------------------------
  
-	.. meta::
-		:description:
-			Typed static property %s::$%s must not be accessed before initialization: Typed static properties are undefined until they are assigned for the first time.
-
-	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+.. meta::
+	:description:
+		Typed static property %s::$%s must not be accessed before initialization: Typed static properties are undefined until they are assigned for the first time.
+		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Typed static property %s::$%s must not be accessed before initialization
 		:og:description: Typed static properties are undefined until they are assigned for the first time
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/typed-static-property-%25s%3A%3A%24%25s-must-not-be-accessed-before-initialization.html
 	    :og:locale: en
+		:twitter:card: summary_large_image
+		:twitter:site: @exakat
+		:twitter:title: Typed static property %s::$%s must not be accessed before initialization
+		:twitter:description: Typed static property %s::$%s must not be accessed before initialization: Typed static properties are undefined until they are assigned for the first time
+		:twitter:creator: @exakat
+		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
-	:twitter:card: summary_large_image
-	:twitter:site: @exakat
-	:twitter:title: Typed static property %s::$%s must not be accessed before initialization
-	:twitter:description: Typed static property %s::$%s must not be accessed before initialization: Typed static properties are undefined until they are assigned for the first time
-	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  
