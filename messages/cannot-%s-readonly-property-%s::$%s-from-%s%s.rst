@@ -45,6 +45,7 @@ _______
 Literal Examples
 ****************
 + Cannot initialize readonly property X::$property from scope Y
++ Cannot initialize readonly property X::$property from global scope
 
 Solutions
 _________

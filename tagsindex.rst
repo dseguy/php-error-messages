@@ -283,6 +283,7 @@ Tag index
       * :ref:`syntax-error,-unexpected-fully-qualified-name-\"\\xxx\",-expecting-\"{\"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-variable`
+      * :ref:`syntax-error,-unexpected-string-content`
       * :ref:`syntax-error,-unexpected-token-"&",-expecting-end-of-file`
       * :ref:`syntax-error,-unexpected-token-"&"`
       * :ref:`syntax-error,-unexpected-token-"(",-expecting-identifier-or-variable-or-"{"-or-"$"`
@@ -306,6 +307,9 @@ Tag index
       * :ref:`syntax-error,-unexpected-token-"match"`
       * :ref:`syntax-error,-unexpected-token-"use"`
       * :ref:`syntax-error,-unexpected-token-"{"`
+      * :ref:`syntax-error,-unexpected-token-"}"`
+      * :ref:`unclosed-\'{\'`
+      * :ref:`unmatched-\'}\'`
 
 
    * trait

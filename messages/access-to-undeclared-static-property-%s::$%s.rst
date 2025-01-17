@@ -17,7 +17,7 @@ ___________
  
 This error is reported when reading an undefined static property. The property must be defined before usage, or it yields a Fatal error.
 
-This error is related to static properties: a different error is emitted for properties.
+This error is related to static properties: a different error is emitted for non-static properties.
 
 Example
 _______
@@ -34,6 +34,9 @@ _______
    echo X::$a; // OK
    echo X::$b;
    
+   $name = 'C';
+   echo X::${$c}; // dynamic properties
+   
    ?>
 
 
@@ -47,7 +50,9 @@ _________
 + Define the static property in the requested class.
 + Fix the name of the property on that class.
 + Fix the name of the class of the property.
-+ Use a property to handle this situation.
++ Use a non-static property to handle this situation.
++ Use property_exists() or isset() to check if the property exists before using it.
++ Check if the dynamic name of the property is a string, before usage.
 
 Related Error Messages
 ______________________

@@ -7,6 +7,8 @@ Here is a list of classic syntax errors, met in every day code. Some common solu
 
 
       * :ref:`invalid-numeric-literal`
+      * :ref:`unclosed-'{'`
+      * :ref:`unmatched-\'}\'`
       * :ref:`syntax-error,-unexpected-')',-expecting-'|'-or-variable-(t_variable)`
       * :ref:`syntax-error,-unexpected-')',-expecting-variable-(t_variable)`
       * :ref:`syntax-error,-unexpected-','`
@@ -17,6 +19,7 @@ Here is a list of classic syntax errors, met in every day code. Some common solu
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"\xxx",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-variable`
+      * :ref:`syntax-error,-unexpected-string-content`
       * :ref:`syntax-error,-unexpected-token-"&"`
       * :ref:`syntax-error,-unexpected-token-"&",-expecting-end-of-file`
       * :ref:`syntax-error,-unexpected-token-"(",-expecting-identifier-or-variable-or-"{"-or-"$"`
@@ -40,3 +43,4 @@ Here is a list of classic syntax errors, met in every day code. Some common solu
       * :ref:`syntax-error,-unexpected-token-"match"`
       * :ref:`syntax-error,-unexpected-token-"use"`
       * :ref:`syntax-error,-unexpected-token-"{"`
+      * :ref:`syntax-error,-unexpected-token-"}"`

@@ -94,6 +94,8 @@ PHP Error Messages
    messages/cannot-access-offset-of-type-%s-in-isset-or-empty.rst
    messages/cannot-access-offset-of-type-%s-on-%s.rst
    messages/cannot-access-parent::-when-current-class-scope-has-no-parent.rst
+   messages/cannot-access-parent::-when-no-class-scope-is-active.rst
+   messages/cannot-access-self::-when-no-class-scope-is-active.rst
    messages/cannot-access-static::-when-no-class-scope-is-active.rst
    messages/cannot-access-trait-constant-%s::%s-directly.rst
    messages/cannot-acquire-reference-to-readonly-property.rst
@@ -135,6 +137,7 @@ PHP Error Messages
    messages/cannot-unset-hooked-property-%s::$%s.rst
    messages/cannot-unset-offset-in-a-non-array-variable.rst
    messages/cannot-unset-string-offsets.rst
+   messages/cannot-use-"%s"-when-no-class-scope-is-active.rst
    messages/cannot-use-"static"-when-no-class-scope-is-active.rst
    messages/cannot-use-%s-as-default-value-for-parameter-$%s-of-type-%s.rst
    messages/cannot-use-'abstract'-as-constant-modifier.rst
@@ -235,6 +238,7 @@ PHP Error Messages
    messages/index-invalid-or-out-of-range.rst
    messages/indirect-modification-of-overloaded-element-of-%s-has-no-effect.rst
    messages/indirect-modification-of-overloaded-property-%s::$%s-has-no-effect.rst
+   messages/interface-"%s"-not-found.rst
    messages/interface-%s-cannot-contain-non-abstract-method-%s().rst
    messages/interfaces-may-not-include-properties.rst
    messages/interfaces-may-only-include-hooked-properties.rst
@@ -255,6 +259,7 @@ PHP Error Messages
    messages/method-%s::%s()-cannot-declare-a-return-type.rst
    messages/method-%s::%s()-must-be-static.rst
    messages/method-%s::__tostring()-must-not-throw-an-exception,-caught-%s:-%s.rst
+   messages/method-name-must-be-a-string.rst
    messages/multiple-access-type-modifiers-are-not-allowed.rst
    messages/multiple-readonly-modifiers-are-not-allowed.rst
    messages/multiple-static-modifiers-are-not-allowed.rst
@@ -338,6 +343,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-fully-qualified-name-"\xxx",-expecting-"{".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-variable.rst
+   messages/syntax-error,-unexpected-string-content.rst
    messages/syntax-error,-unexpected-token-"&",-expecting-end-of-file.rst
    messages/syntax-error,-unexpected-token-"&".rst
    messages/syntax-error,-unexpected-token-"(",-expecting-identifier-or-variable-or-"{"-or-"$".rst
@@ -361,6 +367,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-"match".rst
    messages/syntax-error,-unexpected-token-"use".rst
    messages/syntax-error,-unexpected-token-"{".rst
+   messages/syntax-error,-unexpected-token-"}".rst
    messages/the-$escape-parameter-must-be-provided-as-its-default-value-will-change.rst
    messages/the-(real)-cast-has-been-removed,-use-(float)-instead.rst
    messages/the-(real)-cast-is-deprecated,-use-(float)-instead.rst
@@ -402,6 +409,7 @@ PHP Error Messages
    messages/unknown-hook-"%s"-for-property-%s::$%s,-expected-"get"-or-"set".rst
    messages/unknown-named-parameter-$%s.rst
    messages/unlink-of-"%s"-failed,-file-does-not-exist.rst
+   messages/unmatched-\'}\'.rst
    messages/unparenthesized-`a-?-b-:-c-?-d-:-e`-is-not-supported..rst
    messages/unsupported-operand-types.rst
    messages/unterminated-comment-starting-line-%d.rst

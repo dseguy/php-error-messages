@@ -1,0 +1,52 @@
+.. _unmatched-\'}\':
+
+Unmatched \'}\'
+---------------
+ 
+	.. meta::
+		:description:
+			Unmatched \'}\': PHP has encountered a closing curly brackets, but has no related opening curly bracket.
+
+		:og:type: article
+		:og:title: Unmatched \&#039;}\&#039;
+		:og:description: PHP has encountered a closing curly brackets, but has no related opening curly bracket
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/unmatched-%27%7D%27.html
+
+Description
+___________
+ 
+PHP has encountered a closing curly brackets, but has no related opening curly bracket. 
+
+In more complex situations, there might be opening and closing brackets: this error reports that there are more closing ones than opening. Eventually, some will not have a matching bracket.
+
+Inside double-quoted strings, the unmatched closing brackets are ignored, and used as literal value. 
+
+
+Example
+_______
+
+.. code-block:: php
+
+   <?php
+   
+   $a = 1 + 2}
+   
+   // 3 opening, 4 closing. 
+   {{{$b = 1 + 2}}}}
+   
+   // this unmatched closing bracket is taken as literal
+   $b = "$a} = 1+2"; 
+   
+   ?>
+
+Solutions
+_________
+
++ Remove the closing curly bracket.
++ Add an opening closing curly bracket.
+
+Related Error Messages
+______________________
+
++ :ref:`unclosed-'{'`
++ :ref:`syntax-error,-unexpected-string-content`

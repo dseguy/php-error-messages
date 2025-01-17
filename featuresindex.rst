@@ -123,6 +123,7 @@ Features index
       * :ref:`is-an-invalid-offset`
       * :ref:`must-contain-at-least-one-element`
       * :ref:`syntax-error,-unexpected-token-"{"`
+      * :ref:`syntax-error,-unexpected-token-"}"`
       * :ref:`type-%s-contains-both-iterable-and-array`
       * :ref:`undefined-array-key`
       * :ref:`undefined-offset`
@@ -231,6 +232,7 @@ Features index
    * block
 
       * :ref:`syntax-error,-unexpected-\',\'`
+      * :ref:`unmatched-\'}\'`
 
 
    * body
@@ -242,6 +244,11 @@ Features index
 
       * :ref:`increment-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php`
       * :ref:`type-contains-both-true-and-false,-bool-must-be-used-instead`
+
+
+   * bracket
+
+      * :ref:`unmatched-\'}\'`
 
 
    * break
@@ -841,6 +848,7 @@ Features index
       * :ref:`class-%s-cannot-implement-previously-implemented-interface-%s`
       * :ref:`class-%s-must-implement-interface-%s-as-part-of-either-%s-or-%s`
       * :ref:`datetimeinterface-can\\'t-be-implemented-by-user-classes`
+      * :ref:`interface-"%s"-not-found`
       * :ref:`interface-%s-cannot-contain-non-abstract-method-%s()`
       * :ref:`interfaces-may-not-include-properties`
       * :ref:`non-enum-class-%s-cannot-implement-interface-%s`
@@ -969,6 +977,7 @@ Features index
       * :ref:`an-alias-was-defined-for-%s::%s-but-this-method-does-not-exist`
       * :ref:`call-to-undefined-method-%s::%s()`
       * :ref:`cannot-use-\'readonly\'-as-method-modifier`
+      * :ref:`method-name-must-be-a-string`
       * :ref:`non-static-method-%s::%s()-cannot-be-called-statically`
       * :ref:`non-static-method-%s::%s()-should-not-be-called-statically`
       * :ref:`syntax-error,-unexpected-token-"(",-expecting-identifier-or-variable-or-"{"-or-"\$"`
@@ -996,6 +1005,7 @@ Features index
 
       * :ref:`cannot-redeclare-%s()-(previously-declared-in-%s:%d)`
       * :ref:`illegal-class-name`
+      * :ref:`method-name-must-be-a-string`
 
 
    * named-parameter
@@ -1165,6 +1175,8 @@ Features index
 
       * :ref:`\'\%s\'-is-an-invalid-class-name`
       * :ref:`cannot-access-parent::-when-current-class-scope-has-no-parent`
+      * :ref:`cannot-access-parent::-when-no-class-scope-is-active`
+      * :ref:`cannot-use-"%s"-when-no-class-scope-is-active`
       * :ref:`object-of-type-%s-has-not-been-correctly-initialized-by-calling-parent::__construct()-in-its-constructor`
       * :ref:`parameter-uses-\'parent\'-as-type-hint-although-class-does-not-have-a-parent\!`
 
@@ -1389,6 +1401,8 @@ Features index
    * self
 
       * :ref:`\'\%s\'-is-an-invalid-class-name`
+      * :ref:`cannot-access-self::-when-no-class-scope-is-active`
+      * :ref:`cannot-use-"%s"-when-no-class-scope-is-active`
 
 
    * short-tag
@@ -1439,6 +1453,7 @@ Features index
       * :ref:`"static::"-is-not-allowed-in-compile-time-constants`
       * :ref:`\'\%s\'-is-an-invalid-class-name`
       * :ref:`cannot-access-static::-when-no-class-scope-is-active`
+      * :ref:`cannot-use-"%s"-when-no-class-scope-is-active`
       * :ref:`cannot-use-"static"-when-no-class-scope-is-active`
       * :ref:`cannot-use-\'static\'-as-constant-modifier`
       * :ref:`cannot-use-the-%s-modifier-on-a-%s`
