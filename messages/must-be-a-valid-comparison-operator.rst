@@ -7,11 +7,19 @@ must be a valid comparison operator
 		:description:
 			must be a valid comparison operator: version_compare() compares version strings, using an operator, passed as third parameter.
 
+	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: must be a valid comparison operator
 		:og:description: version_compare() compares version strings, using an operator, passed as third parameter
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/must-be-a-valid-comparison-operator.html
+	    :og:locale: en
 
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: must be a valid comparison operator
+	:twitter:description: must be a valid comparison operator: version_compare() compares version strings, using an operator, passed as third parameter
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

@@ -7,11 +7,19 @@ Class %s is not a trait, Only traits may be used in 'as' and 'insteadof' stateme
 		:description:
 			Class %s is not a trait, Only traits may be used in 'as' and 'insteadof' statements: It is not possible to use a class name in a use block: the block only uses traits information.
 
+	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Class %s is not a trait, Only traits may be used in &#039;as&#039; and &#039;insteadof&#039; statements
 		:og:description: It is not possible to use a class name in a use block: the block only uses traits information
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/class-%25s-is-not-a-trait.html
+	    :og:locale: en
 
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Class %s is not a trait, Only traits may be used in 'as' and 'insteadof' statements
+	:twitter:description: Class %s is not a trait, Only traits may be used in 'as' and 'insteadof' statements: It is not possible to use a class name in a use block: the block only uses traits information
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

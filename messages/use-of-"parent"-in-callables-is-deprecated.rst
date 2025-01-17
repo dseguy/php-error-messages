@@ -7,11 +7,19 @@ Use of "parent" in callables is deprecated
 		:description:
 			Use of "parent" in callables is deprecated: Since PHP 8.
 
+	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Use of &quot;parent&quot; in callables is deprecated
 		:og:description: Since PHP 8
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/use-of-%5C%22parent%5C%22-in-callables-is-deprecated.html
+	    :og:locale: en
 
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Use of "parent" in callables is deprecated
+	:twitter:description: Use of "parent" in callables is deprecated: Since PHP 8
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

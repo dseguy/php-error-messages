@@ -7,11 +7,19 @@ Duplicate type %s is redundant
 		:description:
 			Duplicate type %s is redundant: When declaring a complex type, each part of the type must be unique.
 
+	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Duplicate type %s is redundant
 		:og:description: When declaring a complex type, each part of the type must be unique
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/duplicate-type-%25s-is-redundant.html
+	    :og:locale: en
 
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Duplicate type %s is redundant
+	:twitter:description: Duplicate type %s is redundant: When declaring a complex type, each part of the type must be unique
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

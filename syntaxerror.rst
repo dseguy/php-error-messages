@@ -8,7 +8,7 @@ Here is a list of classic syntax errors, met in every day code. Some common solu
 
       * :ref:`invalid-numeric-literal`
       * :ref:`unclosed-'{'`
-      * :ref:`unmatched-\'}\'`
+      * :ref:`unmatched-'}'`
       * :ref:`syntax-error,-unexpected-')',-expecting-'|'-or-variable-(t_variable)`
       * :ref:`syntax-error,-unexpected-')',-expecting-variable-(t_variable)`
       * :ref:`syntax-error,-unexpected-','`

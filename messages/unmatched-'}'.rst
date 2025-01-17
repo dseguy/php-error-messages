@@ -1,17 +1,25 @@
-.. _unmatched-\'}\':
+.. _unmatched-'}':
 
-Unmatched \'}\'
----------------
+Unmatched '}'
+-------------
  
 	.. meta::
 		:description:
-			Unmatched \'}\': PHP has encountered a closing curly brackets, but has no related opening curly bracket.
+			Unmatched '}': PHP has encountered a closing curly brackets, but has no related opening curly bracket.
 
+	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
-		:og:title: Unmatched \&#039;}\&#039;
+		:og:title: Unmatched &#039;}&#039;
 		:og:description: PHP has encountered a closing curly brackets, but has no related opening curly bracket
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/unmatched-%27%7D%27.html
+	    :og:locale: en
 
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Unmatched '}'
+	:twitter:description: Unmatched '}': PHP has encountered a closing curly brackets, but has no related opening curly bracket
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

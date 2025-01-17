@@ -1213,7 +1213,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unlink-of-%22%25s%22-failed%2C-file-does-not-exist.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/unmatched-%5C%27%7D%5C%27.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/unmatched-%27%7D%27.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unparenthesized-%60a-%3F-b-%3A-c-%3F-d-%3A-e%60-is-not-supported..html</loc>

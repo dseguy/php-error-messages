@@ -409,7 +409,7 @@ PHP Error Messages
    messages/unknown-hook-"%s"-for-property-%s::$%s,-expected-"get"-or-"set".rst
    messages/unknown-named-parameter-$%s.rst
    messages/unlink-of-"%s"-failed,-file-does-not-exist.rst
-   messages/unmatched-\'}\'.rst
+   messages/unmatched-'}'.rst
    messages/unparenthesized-`a-?-b-:-c-?-d-:-e`-is-not-supported..rst
    messages/unsupported-operand-types.rst
    messages/unterminated-comment-starting-line-%d.rst

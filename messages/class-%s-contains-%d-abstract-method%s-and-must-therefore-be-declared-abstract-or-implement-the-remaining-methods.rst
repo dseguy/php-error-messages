@@ -7,11 +7,19 @@ Class %s contains %d abstract method%s and must therefore be declared abstract o
 		:description:
 			Class %s contains %d abstract method%s and must therefore be declared abstract or implement the remaining methods: A long as there is one absract method in a class, the whole class must be declared abstract.
 
+	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Class %s contains %d abstract method%s and must therefore be declared abstract or implement the remaining methods
 		:og:description: A long as there is one absract method in a class, the whole class must be declared abstract
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/class-%25s-contains-%25d-abstract-method%25s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-methods.html
+	    :og:locale: en
 
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Class %s contains %d abstract method%s and must therefore be declared abstract or implement the remaining methods
+	:twitter:description: Class %s contains %d abstract method%s and must therefore be declared abstract or implement the remaining methods: A long as there is one absract method in a class, the whole class must be declared abstract
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

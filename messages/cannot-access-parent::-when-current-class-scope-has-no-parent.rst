@@ -7,11 +7,19 @@ Cannot access parent:: when current class scope has no parent
 		:description:
 			Cannot access parent:: when current class scope has no parent: The trait X has a property, which is typed with a relative type: ``parent``.
 
+	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Cannot access parent:: when current class scope has no parent
 		:og:description: The trait X has a property, which is typed with a relative type: ``parent``
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-access-parent%3A%3A-when-current-class-scope-has-no-parent.html
+	    :og:locale: en
 
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Cannot access parent:: when current class scope has no parent
+	:twitter:description: Cannot access parent:: when current class scope has no parent: The trait X has a property, which is typed with a relative type: ``parent``
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

@@ -7,11 +7,19 @@ Call to undefined function each()
 		:description:
 			Call to undefined function each(): each() used to be a PHP native function.
 
+	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Call to undefined function each()
 		:og:description: each() used to be a PHP native function
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-function-each%28%29.html
+	    :og:locale: en
 
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Call to undefined function each()
+	:twitter:description: Call to undefined function each(): each() used to be a PHP native function
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

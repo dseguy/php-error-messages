@@ -7,11 +7,19 @@ Calling static trait method %s::%s is deprecated
 		:description:
 			Calling static trait method %s::%s is deprecated: Traits cannot be used independently from a host class.
 
+	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Calling static trait method %s::%s is deprecated
 		:og:description: Traits cannot be used independently from a host class
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/calling-static-trait-method-%25s%3A%3A%25s-is-deprecated.html
+	    :og:locale: en
 
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Calling static trait method %s::%s is deprecated
+	:twitter:description: Calling static trait method %s::%s is deprecated: Traits cannot be used independently from a host class
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

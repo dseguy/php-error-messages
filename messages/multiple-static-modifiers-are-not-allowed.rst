@@ -7,11 +7,19 @@ Multiple static modifiers are not allowed
 		:description:
 			Multiple static modifiers are not allowed: Only one static option is necessary to make a property static.
 
+	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Multiple static modifiers are not allowed
 		:og:description: Only one static option is necessary to make a property static
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/multiple-static-modifiers-are-not-allowed.html
+	    :og:locale: en
 
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Multiple static modifiers are not allowed
+	:twitter:description: Multiple static modifiers are not allowed: Only one static option is necessary to make a property static
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

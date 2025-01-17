@@ -7,11 +7,19 @@ Cannot redeclare %s() (previously declared in %s:%d)
 		:description:
 			Cannot redeclare %s() (previously declared in %s:%d): Functions must have a unique name: there cannot be two functions with the same name.
 
+	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Cannot redeclare %s() (previously declared in %s:%d)
 		:og:description: Functions must have a unique name: there cannot be two functions with the same name
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-%25s%28%29-%28previously-declared-in-%25s%3A%25d%29.html
+	    :og:locale: en
 
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Cannot redeclare %s() (previously declared in %s:%d)
+	:twitter:description: Cannot redeclare %s() (previously declared in %s:%d): Functions must have a unique name: there cannot be two functions with the same name
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

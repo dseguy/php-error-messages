@@ -7,11 +7,19 @@ A non-numeric value encountered
 		:description:
 			A non-numeric value encountered: When the operands have to be integer, PHP tries to cast the value to an integer before perform the operation.
 
+	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: A non-numeric value encountered
 		:og:description: When the operands have to be integer, PHP tries to cast the value to an integer before perform the operation
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/a-non-numeric-value-encountered.html
+	    :og:locale: en
 
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: A non-numeric value encountered
+	:twitter:description: A non-numeric value encountered: When the operands have to be integer, PHP tries to cast the value to an integer before perform the operation
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

@@ -7,11 +7,19 @@ Declaration of %s must be compatible with %s
 		:description:
 			Declaration of %s must be compatible with %s: Classes methods signature have to be compatible between a parent class and a child class.
 
+	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Declaration of %s must be compatible with %s
 		:og:description: Classes methods signature have to be compatible between a parent class and a child class
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/declaration-of-%25s-must-be-compatible-with-%25s.html
+	    :og:locale: en
 
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Declaration of %s must be compatible with %s
+	:twitter:description: Declaration of %s must be compatible with %s: Classes methods signature have to be compatible between a parent class and a child class
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

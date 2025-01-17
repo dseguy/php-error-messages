@@ -7,11 +7,19 @@ Type contains both true and false, bool must be used instead
 		:description:
 			Type contains both true and false, bool must be used instead: PHP has several types.
 
+	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Type contains both true and false, bool must be used instead
 		:og:description: PHP has several types
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/type-contains-both-true-and-false%2C-bool-must-be-used-instead.html
+	    :og:locale: en
 
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Type contains both true and false, bool must be used instead
+	:twitter:description: Type contains both true and false, bool must be used instead: PHP has several types
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

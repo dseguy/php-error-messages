@@ -7,11 +7,19 @@ Optional parameter %s declared before required parameter %s is implicitly treate
 		:description:
 			Optional parameter %s declared before required parameter %s is implicitly treated as a required parameter: An optional parameter has a default value, while a required parameter doesn&#039;t.
 
+	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Optional parameter %s declared before required parameter %s is implicitly treated as a required parameter
 		:og:description: An optional parameter has a default value, while a required parameter doesn&#039;t
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/optional-parameter-%24%25s-declared-before-required-parameter-%24%25s-is-implicitly-treated-as-a-required-parameter.html
+	    :og:locale: en
 
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Optional parameter %s declared before required parameter %s is implicitly treated as a required parameter
+	:twitter:description: Optional parameter %s declared before required parameter %s is implicitly treated as a required parameter: An optional parameter has a default value, while a required parameter doesn't
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

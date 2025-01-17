@@ -7,11 +7,19 @@ Call to undefined function exit()
 		:description:
 			Call to undefined function exit(): exit and die used to be language constructures, until PHP 8.
 
+	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Call to undefined function exit()
 		:og:description: exit and die used to be language constructures, until PHP 8
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-function-exit%28%29.html
+	    :og:locale: en
 
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Call to undefined function exit()
+	:twitter:description: Call to undefined function exit(): exit and die used to be language constructures, until PHP 8
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

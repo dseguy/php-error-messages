@@ -7,11 +7,19 @@ Array to string conversion
 		:description:
 			Array to string conversion: This error appears when an array is converted into a string, without a proper type cast.
 
+	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Array to string conversion
 		:og:description: This error appears when an array is converted into a string, without a proper type cast
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/array-to-string-conversion.html
+	    :og:locale: en
 
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Array to string conversion
+	:twitter:description: Array to string conversion: This error appears when an array is converted into a string, without a proper type cast
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

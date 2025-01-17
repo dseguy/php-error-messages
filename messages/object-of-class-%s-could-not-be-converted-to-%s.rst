@@ -7,11 +7,19 @@ Object of class %s could not be converted to %s
 		:description:
 			Object of class %s could not be converted to %s: An object cannot be converted automatically into a string, without calling a dedicated method, or setting up the magic method called ``__toString``.
 
+	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Object of class %s could not be converted to %s
 		:og:description: An object cannot be converted automatically into a string, without calling a dedicated method, or setting up the magic method called ``__toString``
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/object-of-class-%25s-could-not-be-converted-to-%25s.html
+	    :og:locale: en
 
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Object of class %s could not be converted to %s
+	:twitter:description: Object of class %s could not be converted to %s: An object cannot be converted automatically into a string, without calling a dedicated method, or setting up the magic method called ``__toString``
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

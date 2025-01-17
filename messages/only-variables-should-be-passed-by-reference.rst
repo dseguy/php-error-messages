@@ -7,11 +7,19 @@ Only variables should be passed by reference
 		:description:
 			Only variables should be passed by reference: Methods arguments may be passed by value or by reference.
 
+	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Only variables should be passed by reference
 		:og:description: Methods arguments may be passed by value or by reference
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/only-variables-should-be-passed-by-reference.html
+	    :og:locale: en
 
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Only variables should be passed by reference
+	:twitter:description: Only variables should be passed by reference: Methods arguments may be passed by value or by reference
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

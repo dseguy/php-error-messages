@@ -7,11 +7,19 @@ Delimiter must not be alphanumeric, backslash, or NUL byte
 		:description:
 			Delimiter must not be alphanumeric, backslash, or NUL byte: The first character of a regex is the delimiter, that delimits the regex.
 
+	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Delimiter must not be alphanumeric, backslash, or NUL byte
 		:og:description: The first character of a regex is the delimiter, that delimits the regex
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/delimiter-must-not-be-alphanumeric%2C-backslash%2C-or-nul-byte.html
+	    :og:locale: en
 
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Delimiter must not be alphanumeric, backslash, or NUL byte
+	:twitter:description: Delimiter must not be alphanumeric, backslash, or NUL byte: The first character of a regex is the delimiter, that delimits the regex
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

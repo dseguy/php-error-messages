@@ -7,11 +7,19 @@ Returning bool from comparison function is deprecated
 		:description:
 			Returning bool from comparison function is deprecated: The comparison function should return 0, 1 or -1, and not just booleans.
 
+	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Returning bool from comparison function is deprecated
 		:og:description: The comparison function should return 0, 1 or -1, and not just booleans
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/returning-bool-from-comparison-function-is-deprecated.html
+	    :og:locale: en
 
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Returning bool from comparison function is deprecated
+	:twitter:description: Returning bool from comparison function is deprecated: The comparison function should return 0, 1 or -1, and not just booleans
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

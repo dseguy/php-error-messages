@@ -7,11 +7,19 @@ Entry %s does not exist and cannot be deleted
 		:description:
 			Entry %s does not exist and cannot be deleted: PHP reports failure when trying to remove a file that does not exists in a phar archive.
 
+	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Entry %s does not exist and cannot be deleted
 		:og:description: PHP reports failure when trying to remove a file that does not exists in a phar archive
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/entry-%25s-does-not-exist-and-cannot-be-deleted.html
+	    :og:locale: en
 
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Entry %s does not exist and cannot be deleted
+	:twitter:description: Entry %s does not exist and cannot be deleted: PHP reports failure when trying to remove a file that does not exists in a phar archive
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

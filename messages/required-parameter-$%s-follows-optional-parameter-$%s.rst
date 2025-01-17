@@ -7,11 +7,19 @@ Required parameter $%s follows optional parameter $%s
 		:description:
 			Required parameter $%s follows optional parameter $%s: An optional parameter has a default value, while a required parameter doesn&#039;t.
 
+	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Required parameter $%s follows optional parameter $%s
 		:og:description: An optional parameter has a default value, while a required parameter doesn&#039;t
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/required-parameter-%24%25s-follows-optional-parameter-%24%25s.html
+	    :og:locale: en
 
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Required parameter $%s follows optional parameter $%s
+	:twitter:description: Required parameter $%s follows optional parameter $%s: An optional parameter has a default value, while a required parameter doesn't
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

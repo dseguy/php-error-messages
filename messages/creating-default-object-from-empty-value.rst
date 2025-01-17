@@ -7,11 +7,19 @@ Creating default object from empty value
 		:description:
 			Creating default object from empty value: This deprecation message is emitted in PHP 7.
 
+	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Creating default object from empty value
 		:og:description: This deprecation message is emitted in PHP 7
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/creating-default-object-from-empty-value.html
+	    :og:locale: en
 
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Creating default object from empty value
+	:twitter:description: Creating default object from empty value: This deprecation message is emitted in PHP 7
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

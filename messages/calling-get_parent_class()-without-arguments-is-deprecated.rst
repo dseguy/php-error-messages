@@ -7,11 +7,19 @@ Calling get_parent_class() without arguments is deprecated
 		:description:
 			Calling get_parent_class() without arguments is deprecated: Using null as a parameter for the get_class() and get_parent_class() native call is deprecated since PHP 8.
 
+	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Calling get_parent_class() without arguments is deprecated
 		:og:description: Using null as a parameter for the get_class() and get_parent_class() native call is deprecated since PHP 8
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/calling-get_parent_class%28%29-without-arguments-is-deprecated.html
+	    :og:locale: en
 
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Calling get_parent_class() without arguments is deprecated
+	:twitter:description: Calling get_parent_class() without arguments is deprecated: Using null as a parameter for the get_class() and get_parent_class() native call is deprecated since PHP 8
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

@@ -7,11 +7,19 @@ The behavior of unparenthesized expressions containing both '.' and '>>'/'<<' wi
 		:description:
 			The behavior of unparenthesized expressions containing both '.' and '>>'/'<<' will change in PHP 8: '<<'/'>>' will take a higher precedence: ``&lt;&lt;``/``&gt;&gt;`` and ``.
 
+	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: The behavior of unparenthesized expressions containing both &#039;.&#039; and &#039;&gt;&gt;&#039;/&#039;&lt;&lt;&#039; will change in PHP 8: &#039;&lt;&lt;&#039;/&#039;&gt;&gt;&#039; will take a higher precedence
 		:og:description: ``&lt;&lt;``/``&gt;&gt;`` and ``
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/the-behavior-of-unparenthesized-expressions-containing-both-%27.%27-and-%27%3E%3E%27-%27%3C%3C%27-will-change-in-php-8%3A-%27%3C%3C%27-%27%3E%3E%27-will-take-a-higher-precedence.html
+	    :og:locale: en
 
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: The behavior of unparenthesized expressions containing both '.' and '>>'/'<<' will change in PHP 8: '<<'/'>>' will take a higher precedence
+	:twitter:description: The behavior of unparenthesized expressions containing both '.' and '>>'/'<<' will change in PHP 8: '<<'/'>>' will take a higher precedence: ``<<``/``>>`` and ``
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

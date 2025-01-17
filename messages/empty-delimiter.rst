@@ -7,11 +7,19 @@ Empty delimiter
 		:description:
 			Empty delimiter: The explode() function doesn&#039;t work without a non-empty delimiter.
 
+	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Empty delimiter
 		:og:description: The explode() function doesn&#039;t work without a non-empty delimiter
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/empty-delimiter.html
+	    :og:locale: en
 
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Empty delimiter
+	:twitter:description: Empty delimiter: The explode() function doesn't work without a non-empty delimiter
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

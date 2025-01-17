@@ -7,11 +7,19 @@ Attribute class "%s" not found
 		:description:
 			Attribute class "%s" not found: This error reports that a class was not found.
 
+	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Attribute class &quot;%s&quot; not found
 		:og:description: This error reports that a class was not found
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/attribute-class-%5C%22%25s%5C%22-not-found.html
+	    :og:locale: en
 
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Attribute class "%s" not found
+	:twitter:description: Attribute class "%s" not found: This error reports that a class was not found
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

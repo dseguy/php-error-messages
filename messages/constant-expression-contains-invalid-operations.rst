@@ -7,11 +7,19 @@ Constant expression contains invalid operations
 		:description:
 			Constant expression contains invalid operations: The Constant expressions are the value of a constant, global or class, that is not a literal value.
 
+	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Constant expression contains invalid operations
 		:og:description: The Constant expressions are the value of a constant, global or class, that is not a literal value
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/constant-expression-contains-invalid-operations.html
+	    :og:locale: en
 
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Constant expression contains invalid operations
+	:twitter:description: Constant expression contains invalid operations: The Constant expressions are the value of a constant, global or class, that is not a literal value
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

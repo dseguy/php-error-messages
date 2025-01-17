@@ -7,11 +7,19 @@ Readonly class Bar cannot extend non-readonly class Foo
 		:description:
 			Readonly class Bar cannot extend non-readonly class Foo: A readonly class cannot extends a non-readonly class.
 
+	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Readonly class Bar cannot extend non-readonly class Foo
 		:og:description: A readonly class cannot extends a non-readonly class
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/readonly-class-bar-cannot-extend-non-readonly-class-foo.html
+	    :og:locale: en
 
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Readonly class Bar cannot extend non-readonly class Foo
+	:twitter:description: Readonly class Bar cannot extend non-readonly class Foo: A readonly class cannot extends a non-readonly class
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

@@ -7,11 +7,19 @@ Division of PHP_INT_MIN by -1 is not an integer
 		:description:
 			Division of PHP_INT_MIN by -1 is not an integer: In the specific case of the integer division of PHP_MIN_INT by -1, a specific error is reported: the result is not an integer.
 
+	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Division of PHP_INT_MIN by -1 is not an integer
 		:og:description: In the specific case of the integer division of PHP_MIN_INT by -1, a specific error is reported: the result is not an integer
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/division-of-php_int_min-by--1-is-not-an-integer.html
+	    :og:locale: en
 
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Division of PHP_INT_MIN by -1 is not an integer
+	:twitter:description: Division of PHP_INT_MIN by -1 is not an integer: In the specific case of the integer division of PHP_MIN_INT by -1, a specific error is reported: the result is not an integer
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

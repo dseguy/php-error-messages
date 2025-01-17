@@ -7,11 +7,19 @@ syntax error, unexpected token "(", expecting identifier or variable or "{" or "
 		:description:
 			syntax error, unexpected token "(", expecting identifier or variable or "{" or "$": The object operators ``-&gt;`` and ``.
 
+	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: syntax error, unexpected token &quot;(&quot;, expecting identifier or variable or &quot;{&quot; or &quot;$&quot;
 		:og:description: The object operators ``-&gt;`` and ``
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%28%22%2C-expecting-identifier-or-variable-or-%22%7B%22-or-%22%24%22.html
+	    :og:locale: en
 
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+	:twitter:description: syntax error, unexpected token "(", expecting identifier or variable or "{" or "$": The object operators ``->`` and ``
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

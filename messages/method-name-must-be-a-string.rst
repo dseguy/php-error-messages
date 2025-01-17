@@ -7,11 +7,19 @@ Method name must be a string
 		:description:
 			Method name must be a string: When using a dynamic syntax to call a method, the name of the method must be a string.
 
+	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Method name must be a string
 		:og:description: When using a dynamic syntax to call a method, the name of the method must be a string
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/method-name-must-be-a-string.html
+	    :og:locale: en
 
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Method name must be a string
+	:twitter:description: Method name must be a string: When using a dynamic syntax to call a method, the name of the method must be a string
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

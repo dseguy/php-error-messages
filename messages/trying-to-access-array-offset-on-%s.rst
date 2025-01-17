@@ -7,11 +7,19 @@ Trying to access array offset on %s
 		:description:
 			Trying to access array offset on %s: Null, boolean (true and false), integers and floats are not valid with the array syntax.
 
+	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Trying to access array offset on %s
 		:og:description: Null, boolean (true and false), integers and floats are not valid with the array syntax
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/trying-to-access-array-offset-on-%25s.html
+	    :og:locale: en
 
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Trying to access array offset on %s
+	:twitter:description: Trying to access array offset on %s: Null, boolean (true and false), integers and floats are not valid with the array syntax
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

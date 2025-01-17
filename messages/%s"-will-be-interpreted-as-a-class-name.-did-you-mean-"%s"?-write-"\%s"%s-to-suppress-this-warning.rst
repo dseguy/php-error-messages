@@ -7,11 +7,19 @@
 		:description:
 			"%s" will be interpreted as a class name. Did you mean "%s"? Write "\%s"%s to suppress this warning: PHP offers several native type, such as ``bool`` or ``int``.
 
+	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: &quot;%s&quot; will be interpreted as a class name. Did you mean &quot;%s&quot;? Write &quot;\%s&quot;%s to suppress this warning
 		:og:description: PHP offers several native type, such as ``bool`` or ``int``
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/%25s%5C%22-will-be-interpreted-as-a-class-name.-did-you-mean-%5C%22%25s%5C%22%3F-write-%5C%22%5C%5C%25s%5C%22%25s-to-suppress-this-warning.html
+	    :og:locale: en
 
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: "%s" will be interpreted as a class name. Did you mean "%s"? Write "\%s"%s to suppress this warning
+	:twitter:description: "%s" will be interpreted as a class name. Did you mean "%s"? Write "\%s"%s to suppress this warning: PHP offers several native type, such as ``bool`` or ``int``
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

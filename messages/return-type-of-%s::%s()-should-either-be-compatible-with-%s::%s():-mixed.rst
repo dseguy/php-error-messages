@@ -7,11 +7,19 @@ Return type of %s::%s() should either be compatible with %s::%s(): mixed
 		:description:
 			Return type of %s::%s() should either be compatible with %s::%s(): mixed: Native PHP interfaces, which define a type, expect the derived methods to use the same time.
 
+	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Return type of %s::%s() should either be compatible with %s::%s(): mixed
 		:og:description: Native PHP interfaces, which define a type, expect the derived methods to use the same time
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/return-type-of-%25s%3A%3A%25s%28%29-should-either-be-compatible-with-%25s%3A%3A%25s%28%29%3A-mixed.html
+	    :og:locale: en
 
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Return type of %s::%s() should either be compatible with %s::%s(): mixed
+	:twitter:description: Return type of %s::%s() should either be compatible with %s::%s(): mixed: Native PHP interfaces, which define a type, expect the derived methods to use the same time
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  

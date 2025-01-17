@@ -7,11 +7,19 @@ Type must be a single character
 		:description:
 			Type must be a single character: The ``type`` argument of the snmp2_set() function is a list of types: one or more.
 
+	    :og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 		:og:type: article
 		:og:title: Type must be a single character
 		:og:description: The ``type`` argument of the snmp2_set() function is a list of types: one or more
 		:og:url: https://php-errors.readthedocs.io/en/latest/messages/type-must-be-a-single-character.html
+	    :og:locale: en
 
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Type must be a single character
+	:twitter:description: Type must be a single character: The ``type`` argument of the snmp2_set() function is a list of types: one or more
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 Description
 ___________
  
