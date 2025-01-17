@@ -28,9 +28,10 @@ _______
        case 1:
            continue;
    }
+   
    ?>
 
 Solutions
 _________
 
-+ Use ``break``
++ Use ``break``.

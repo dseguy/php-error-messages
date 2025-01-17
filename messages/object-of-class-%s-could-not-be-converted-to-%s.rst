@@ -28,7 +28,7 @@ _______
    
    class X {}
    
-   $x = new x;
+   $x = new X;
    // This would work if the __toString() method is defined in X
    echo $x;
    

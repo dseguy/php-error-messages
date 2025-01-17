@@ -1225,6 +1225,7 @@ Features index
       * :ref:`interfaces-may-not-include-properties`
       * :ref:`property-%s-does-not-exist`
       * :ref:`property-%s::\$%s-cannot-have-type-%s`
+      * :ref:`property-%s::\$%s-does-not-exist`
       * :ref:`syntax-error,-unexpected-token-"=",-expecting-identifier-or-variable-or-"{"-or-"\$"`
       * :ref:`undefined-property-%s::\$%s`
 
@@ -1437,6 +1438,8 @@ Features index
 
       * :ref:`"static::"-is-not-allowed-in-compile-time-constants`
       * :ref:`\'\%s\'-is-an-invalid-class-name`
+      * :ref:`cannot-access-static::-when-no-class-scope-is-active`
+      * :ref:`cannot-use-"static"-when-no-class-scope-is-active`
       * :ref:`cannot-use-\'static\'-as-constant-modifier`
       * :ref:`cannot-use-the-%s-modifier-on-a-%s`
       * :ref:`multiple-static-modifiers-are-not-allowed`

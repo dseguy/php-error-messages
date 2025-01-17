@@ -38,7 +38,7 @@ _________
 + Cast an array to ``(object)``.
 
 
-In more recent PHP versions, this error message is now :ref:`attempt-to-assign-property-"a"-on-null`.
+In more recent PHP versions, this error message is now :ref:`attempt-to-assign-property-"%s"-on-null`.
 
 Changed Behavior
 ________________

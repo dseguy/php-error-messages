@@ -94,6 +94,7 @@ PHP Error Messages
    messages/cannot-access-offset-of-type-%s-in-isset-or-empty.rst
    messages/cannot-access-offset-of-type-%s-on-%s.rst
    messages/cannot-access-parent::-when-current-class-scope-has-no-parent.rst
+   messages/cannot-access-static::-when-no-class-scope-is-active.rst
    messages/cannot-access-trait-constant-%s::%s-directly.rst
    messages/cannot-acquire-reference-to-readonly-property.rst
    messages/cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s.rst
@@ -134,6 +135,7 @@ PHP Error Messages
    messages/cannot-unset-hooked-property-%s::$%s.rst
    messages/cannot-unset-offset-in-a-non-array-variable.rst
    messages/cannot-unset-string-offsets.rst
+   messages/cannot-use-"static"-when-no-class-scope-is-active.rst
    messages/cannot-use-%s-as-default-value-for-parameter-$%s-of-type-%s.rst
    messages/cannot-use-'abstract'-as-constant-modifier.rst
    messages/cannot-use-'final'-as-constant-modifier.rst
@@ -251,6 +253,7 @@ PHP Error Messages
    messages/match-expressions-may-only-contain-one-default-arm.rst
    messages/method-%s::%s()-cannot-be-static.rst
    messages/method-%s::%s()-cannot-declare-a-return-type.rst
+   messages/method-%s::%s()-must-be-static.rst
    messages/method-%s::__tostring()-must-not-throw-an-exception,-caught-%s:-%s.rst
    messages/multiple-access-type-modifiers-are-not-allowed.rst
    messages/multiple-readonly-modifiers-are-not-allowed.rst
@@ -301,6 +304,7 @@ PHP Error Messages
    messages/private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes.rst
    messages/property-%s-does-not-exist.rst
    messages/property-%s::$%s-cannot-have-type-%s.rst
+   messages/property-%s::$%s-does-not-exist.rst
    messages/property-cannot-be-both-final-and-private.rst
    messages/property-hook-cannot-be-both-abstract-and-private.rst
    messages/property-hook-cannot-be-both-final-and-private.rst

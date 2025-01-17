@@ -1,16 +1,16 @@
-.. _property-%s-does-not-exist:
+.. _property-%s::\$%s-does-not-exist:
 
-Property %s does not exist
---------------------------
+Property %s::$%s does not exist
+-------------------------------
  
 	.. meta::
 		:description:
-			Property %s does not exist: This error happens when the Reflection API fails at getting the description of a non-existent property.
+			Property %s::$%s does not exist: This error happens when the Reflection API fails at getting the description of a non-existent property.
 
 		:og:type: article
-		:og:title: Property %s does not exist
+		:og:title: Property %s::$%s does not exist
 		:og:description: This error happens when the Reflection API fails at getting the description of a non-existent property
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/property-%25s-does-not-exist.html
+		:og:url: https://php-errors.readthedocs.io/en/latest/messages/property-%25s%3A%3A%24%25s-does-not-exist.html
 
 Description
 ___________
@@ -31,7 +31,7 @@ _______
 
 Literal Examples
 ****************
-+ Property unknown does not exist
++ Property ReflectionClass::$unknown does not exist
 
 Solutions
 _________
@@ -44,4 +44,4 @@ ______________________
 + :ref:`undefined-property-%s::$%s`
 
 
-In more recent PHP versions, this error message is now :ref:`property-%s::$%s-does-not-exist`.
+In previous PHP versions, this error message used to be :ref:`property-%s-does-not-exist`.
