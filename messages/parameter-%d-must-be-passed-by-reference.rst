@@ -6,18 +6,18 @@ Parameter %d must be passed by reference
 .. meta::
 	:description:
 		Parameter %d must be passed by reference: When a parameter is set to be passed by reference, there is a ``&amp;`` character before its name.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Parameter %d must be passed by reference
-		:og:description: When a parameter is set to be passed by reference, there is a ``&amp;`` character before its name
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/parameter-%25d-must-be-passed-by-reference.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Parameter %d must be passed by reference
-		:twitter:description: Parameter %d must be passed by reference: When a parameter is set to be passed by reference, there is a ``&`` character before its name
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Parameter %d must be passed by reference
+	:og:description: When a parameter is set to be passed by reference, there is a ``&amp;`` character before its name
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/parameter-%25d-must-be-passed-by-reference.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Parameter %d must be passed by reference
+	:twitter:description: Parameter %d must be passed by reference: When a parameter is set to be passed by reference, there is a ``&`` character before its name
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

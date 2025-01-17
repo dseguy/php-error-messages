@@ -6,18 +6,18 @@ Unknown hook "%s" for property %s::$%s, expected "get" or "set"
 .. meta::
 	:description:
 		Unknown hook "%s" for property %s::$%s, expected "get" or "set": Property hooks can only be named &#039;get&#039; or &#039;set&#039;, as of PHP 8.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Unknown hook &quot;%s&quot; for property %s::$%s, expected &quot;get&quot; or &quot;set&quot;
-		:og:description: Property hooks can only be named &#039;get&#039; or &#039;set&#039;, as of PHP 8
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/unknown-hook-%22%25s%22-for-property-%25s%3A%3A%24%25s%2C-expected-%22get%22-or-%22set%22.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Unknown hook "%s" for property %s::$%s, expected "get" or "set"
-		:twitter:description: Unknown hook "%s" for property %s::$%s, expected "get" or "set": Property hooks can only be named 'get' or 'set', as of PHP 8
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Unknown hook &quot;%s&quot; for property %s::$%s, expected &quot;get&quot; or &quot;set&quot;
+	:og:description: Property hooks can only be named &#039;get&#039; or &#039;set&#039;, as of PHP 8
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/unknown-hook-%22%25s%22-for-property-%25s%3A%3A%24%25s%2C-expected-%22get%22-or-%22set%22.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Unknown hook "%s" for property %s::$%s, expected "get" or "set"
+	:twitter:description: Unknown hook "%s" for property %s::$%s, expected "get" or "set": Property hooks can only be named 'get' or 'set', as of PHP 8
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

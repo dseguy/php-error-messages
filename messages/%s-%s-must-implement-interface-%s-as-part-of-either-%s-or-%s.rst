@@ -6,18 +6,18 @@
 .. meta::
 	:description:
 		%s %s must implement interface %s as part of either %s or %s: It is not possible to implement directly the mentionned interface.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: %s %s must implement interface %s as part of either %s or %s
-		:og:description: It is not possible to implement directly the mentionned interface
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/%25s-%25s-must-implement-interface-%25s-as-part-of-either-%25s-or-%25s.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: %s %s must implement interface %s as part of either %s or %s
-		:twitter:description: %s %s must implement interface %s as part of either %s or %s: It is not possible to implement directly the mentionned interface
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: %s %s must implement interface %s as part of either %s or %s
+	:og:description: It is not possible to implement directly the mentionned interface
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/%25s-%25s-must-implement-interface-%25s-as-part-of-either-%25s-or-%25s.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: %s %s must implement interface %s as part of either %s or %s
+	:twitter:description: %s %s must implement interface %s as part of either %s or %s: It is not possible to implement directly the mentionned interface
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

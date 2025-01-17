@@ -6,18 +6,18 @@ never-returning function must not implicitly return
 .. meta::
 	:description:
 		never-returning function must not implicitly return: A never returning function or method never reaches the end of the method, or any return operation.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: never-returning function must not implicitly return
-		:og:description: A never returning function or method never reaches the end of the method, or any return operation
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/never-returning-function-must-not-implicitly-return.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: never-returning function must not implicitly return
-		:twitter:description: never-returning function must not implicitly return: A never returning function or method never reaches the end of the method, or any return operation
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: never-returning function must not implicitly return
+	:og:description: A never returning function or method never reaches the end of the method, or any return operation
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/never-returning-function-must-not-implicitly-return.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: never-returning function must not implicitly return
+	:twitter:description: never-returning function must not implicitly return: A never returning function or method never reaches the end of the method, or any return operation
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

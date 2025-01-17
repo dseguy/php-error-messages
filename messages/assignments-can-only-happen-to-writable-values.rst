@@ -6,18 +6,18 @@ Assignments can only happen to writable values
 .. meta::
 	:description:
 		Assignments can only happen to writable values: With the list() operator, the right part of the =&gt; operator must be a variable or equivalent.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Assignments can only happen to writable values
-		:og:description: With the list() operator, the right part of the =&gt; operator must be a variable or equivalent
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/assignments-can-only-happen-to-writable-values.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Assignments can only happen to writable values
-		:twitter:description: Assignments can only happen to writable values: With the list() operator, the right part of the => operator must be a variable or equivalent
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Assignments can only happen to writable values
+	:og:description: With the list() operator, the right part of the =&gt; operator must be a variable or equivalent
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/assignments-can-only-happen-to-writable-values.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Assignments can only happen to writable values
+	:twitter:description: Assignments can only happen to writable values: With the list() operator, the right part of the => operator must be a variable or equivalent
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

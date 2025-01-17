@@ -6,18 +6,18 @@ Interface "%s" not found
 .. meta::
 	:description:
 		Interface "%s" not found: This error message is reported when the interface could not be loaded, or when the name of the class is invalid.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Interface &quot;%s&quot; not found
-		:og:description: This error message is reported when the interface could not be loaded, or when the name of the class is invalid
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/interface-%22%25s%22-not-found.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Interface "%s" not found
-		:twitter:description: Interface "%s" not found: This error message is reported when the interface could not be loaded, or when the name of the class is invalid
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Interface &quot;%s&quot; not found
+	:og:description: This error message is reported when the interface could not be loaded, or when the name of the class is invalid
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/interface-%22%25s%22-not-found.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Interface "%s" not found
+	:twitter:description: Interface "%s" not found: This error message is reported when the interface could not be loaded, or when the name of the class is invalid
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

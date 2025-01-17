@@ -6,18 +6,18 @@ The (real) cast is deprecated, use (float) instead
 .. meta::
 	:description:
 		The (real) cast is deprecated, use (float) instead: The ``(real)`` cast operator is deprecated in PHP 7.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: The (real) cast is deprecated, use (float) instead
-		:og:description: The ``(real)`` cast operator is deprecated in PHP 7
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/the-%28real%29-cast-is-deprecated%2C-use-%28float%29-instead.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: The (real) cast is deprecated, use (float) instead
-		:twitter:description: The (real) cast is deprecated, use (float) instead: The ``(real)`` cast operator is deprecated in PHP 7
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: The (real) cast is deprecated, use (float) instead
+	:og:description: The ``(real)`` cast operator is deprecated in PHP 7
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/the-%28real%29-cast-is-deprecated%2C-use-%28float%29-instead.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: The (real) cast is deprecated, use (float) instead
+	:twitter:description: The (real) cast is deprecated, use (float) instead: The ``(real)`` cast operator is deprecated in PHP 7
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

@@ -6,18 +6,18 @@ Case %s::%s does not exist
 .. meta::
 	:description:
 		Case %s::%s does not exist: This error is reported by the Reflection API, when trying to generate the informational object ``ReflectionEnumUnitCase``, with a non-existing Case.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Case %s::%s does not exist
-		:og:description: This error is reported by the Reflection API, when trying to generate the informational object ``ReflectionEnumUnitCase``, with a non-existing Case
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/case-%25s%3A%3A%25s-does-not-exist.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Case %s::%s does not exist
-		:twitter:description: Case %s::%s does not exist: This error is reported by the Reflection API, when trying to generate the informational object ``ReflectionEnumUnitCase``, with a non-existing Case
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Case %s::%s does not exist
+	:og:description: This error is reported by the Reflection API, when trying to generate the informational object ``ReflectionEnumUnitCase``, with a non-existing Case
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/case-%25s%3A%3A%25s-does-not-exist.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Case %s::%s does not exist
+	:twitter:description: Case %s::%s does not exist: This error is reported by the Reflection API, when trying to generate the informational object ``ReflectionEnumUnitCase``, with a non-existing Case
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

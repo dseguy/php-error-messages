@@ -6,18 +6,18 @@ Cannot mix keyed and unkeyed array entries in assignments
 .. meta::
 	:description:
 		Cannot mix keyed and unkeyed array entries in assignments: list() is a construct that maps an array to a set of variables.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Cannot mix keyed and unkeyed array entries in assignments
-		:og:description: list() is a construct that maps an array to a set of variables
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-mix-keyed-and-unkeyed-array-entries-in-assignments.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Cannot mix keyed and unkeyed array entries in assignments
-		:twitter:description: Cannot mix keyed and unkeyed array entries in assignments: list() is a construct that maps an array to a set of variables
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Cannot mix keyed and unkeyed array entries in assignments
+	:og:description: list() is a construct that maps an array to a set of variables
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-mix-keyed-and-unkeyed-array-entries-in-assignments.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Cannot mix keyed and unkeyed array entries in assignments
+	:twitter:description: Cannot mix keyed and unkeyed array entries in assignments: list() is a construct that maps an array to a set of variables
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

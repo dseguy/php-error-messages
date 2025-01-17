@@ -6,18 +6,18 @@ Cannot use empty list
 .. meta::
 	:description:
 		Cannot use empty list: list() must contain at least one non-empty element.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Cannot use empty list
-		:og:description: list() must contain at least one non-empty element
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-use-empty-list.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Cannot use empty list
-		:twitter:description: Cannot use empty list: list() must contain at least one non-empty element
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Cannot use empty list
+	:og:description: list() must contain at least one non-empty element
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-use-empty-list.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Cannot use empty list
+	:twitter:description: Cannot use empty list: list() must contain at least one non-empty element
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

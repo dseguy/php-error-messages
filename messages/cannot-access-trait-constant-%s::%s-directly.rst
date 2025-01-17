@@ -6,18 +6,18 @@ Cannot access trait constant %s::%s directly
 .. meta::
 	:description:
 		Cannot access trait constant %s::%s directly: Traits cannot be used indepently from a host class.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Cannot access trait constant %s::%s directly
-		:og:description: Traits cannot be used indepently from a host class
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-access-trait-constant-%25s%3A%3A%25s-directly.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Cannot access trait constant %s::%s directly
-		:twitter:description: Cannot access trait constant %s::%s directly: Traits cannot be used indepently from a host class
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Cannot access trait constant %s::%s directly
+	:og:description: Traits cannot be used indepently from a host class
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-access-trait-constant-%25s%3A%3A%25s-directly.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Cannot access trait constant %s::%s directly
+	:twitter:description: Cannot access trait constant %s::%s directly: Traits cannot be used indepently from a host class
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

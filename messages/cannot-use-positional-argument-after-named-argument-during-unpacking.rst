@@ -6,18 +6,18 @@ Cannot use positional argument after named argument during unpacking
 .. meta::
 	:description:
 		Cannot use positional argument after named argument during unpacking: Unpacking only positional arguments, with array_keys() and when the order is already correct.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Cannot use positional argument after named argument during unpacking
-		:og:description: Unpacking only positional arguments, with array_keys() and when the order is already correct
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-use-positional-argument-after-named-argument-during-unpacking.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Cannot use positional argument after named argument during unpacking
-		:twitter:description: Cannot use positional argument after named argument during unpacking: Unpacking only positional arguments, with array_keys() and when the order is already correct
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Cannot use positional argument after named argument during unpacking
+	:og:description: Unpacking only positional arguments, with array_keys() and when the order is already correct
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-use-positional-argument-after-named-argument-during-unpacking.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Cannot use positional argument after named argument during unpacking
+	:twitter:description: Cannot use positional argument after named argument during unpacking: Unpacking only positional arguments, with array_keys() and when the order is already correct
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

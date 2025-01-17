@@ -6,18 +6,18 @@ Cannot make non abstract method %s::%s() abstract in class %s
 .. meta::
 	:description:
 		Cannot make non abstract method %s::%s() abstract in class %s: Once a method has a body, it cannot be made ``abstract`` again.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Cannot make non abstract method %s::%s() abstract in class %s
-		:og:description: Once a method has a body, it cannot be made ``abstract`` again
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-make-non-abstract-method-%25s%3A%3A%25s%28%29-abstract-in-class-%25s.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Cannot make non abstract method %s::%s() abstract in class %s
-		:twitter:description: Cannot make non abstract method %s::%s() abstract in class %s: Once a method has a body, it cannot be made ``abstract`` again
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Cannot make non abstract method %s::%s() abstract in class %s
+	:og:description: Once a method has a body, it cannot be made ``abstract`` again
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-make-non-abstract-method-%25s%3A%3A%25s%28%29-abstract-in-class-%25s.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Cannot make non abstract method %s::%s() abstract in class %s
+	:twitter:description: Cannot make non abstract method %s::%s() abstract in class %s: Once a method has a body, it cannot be made ``abstract`` again
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

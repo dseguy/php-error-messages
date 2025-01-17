@@ -6,18 +6,18 @@ Cannot auto-initialize an array inside property %s::$%s of type %s
 .. meta::
 	:description:
 		Cannot auto-initialize an array inside property %s::$%s of type %s: The last command is using the array syntax on the property ``$property``.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Cannot auto-initialize an array inside property %s::$%s of type %s
-		:og:description: The last command is using the array syntax on the property ``$property``
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-auto-initialize-an-array-inside-property-%25s%3A%3A%24%25s-of-type-%25s.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Cannot auto-initialize an array inside property %s::$%s of type %s
-		:twitter:description: Cannot auto-initialize an array inside property %s::$%s of type %s: The last command is using the array syntax on the property ``$property``
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Cannot auto-initialize an array inside property %s::$%s of type %s
+	:og:description: The last command is using the array syntax on the property ``$property``
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-auto-initialize-an-array-inside-property-%25s%3A%3A%24%25s-of-type-%25s.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Cannot auto-initialize an array inside property %s::$%s of type %s
+	:twitter:description: Cannot auto-initialize an array inside property %s::$%s of type %s: The last command is using the array syntax on the property ``$property``
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

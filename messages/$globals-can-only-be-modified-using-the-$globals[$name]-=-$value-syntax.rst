@@ -6,18 +6,18 @@ $GLOBALS can only be modified using the $GLOBALS[$name] = $value syntax
 .. meta::
 	:description:
 		$GLOBALS can only be modified using the $GLOBALS[$name] = $value syntax: Since PHP 8.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: $GLOBALS can only be modified using the $GLOBALS[$name] = $value syntax
-		:og:description: Since PHP 8
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/%24globals-can-only-be-modified-using-the-%24globals%5B%24name%5D-%3D-%24value-syntax.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: $GLOBALS can only be modified using the $GLOBALS[$name] = $value syntax
-		:twitter:description: $GLOBALS can only be modified using the $GLOBALS[$name] = $value syntax: Since PHP 8
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: $GLOBALS can only be modified using the $GLOBALS[$name] = $value syntax
+	:og:description: Since PHP 8
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/%24globals-can-only-be-modified-using-the-%24globals%5B%24name%5D-%3D-%24value-syntax.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: $GLOBALS can only be modified using the $GLOBALS[$name] = $value syntax
+	:twitter:description: $GLOBALS can only be modified using the $GLOBALS[$name] = $value syntax: Since PHP 8
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

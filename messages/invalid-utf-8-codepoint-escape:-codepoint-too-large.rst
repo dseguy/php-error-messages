@@ -6,18 +6,18 @@ Invalid UTF-8 codepoint escape: Codepoint too large
 .. meta::
 	:description:
 		Invalid UTF-8 codepoint escape: Codepoint too large: PHP supports unicode as escape sequence.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Invalid UTF-8 codepoint escape: Codepoint too large
-		:og:description: PHP supports unicode as escape sequence
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/invalid-utf-8-codepoint-escape%3A-codepoint-too-large.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Invalid UTF-8 codepoint escape: Codepoint too large
-		:twitter:description: Invalid UTF-8 codepoint escape: Codepoint too large: PHP supports unicode as escape sequence
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Invalid UTF-8 codepoint escape: Codepoint too large
+	:og:description: PHP supports unicode as escape sequence
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/invalid-utf-8-codepoint-escape%3A-codepoint-too-large.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Invalid UTF-8 codepoint escape: Codepoint too large
+	:twitter:description: Invalid UTF-8 codepoint escape: Codepoint too large: PHP supports unicode as escape sequence
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

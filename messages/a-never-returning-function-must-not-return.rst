@@ -6,18 +6,18 @@ A never-returning function must not return
 .. meta::
 	:description:
 		A never-returning function must not return: When using the ``never`` keyword, the function shall not use the ``return`` keyword.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: A never-returning function must not return
-		:og:description: When using the ``never`` keyword, the function shall not use the ``return`` keyword
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/a-never-returning-function-must-not-return.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: A never-returning function must not return
-		:twitter:description: A never-returning function must not return: When using the ``never`` keyword, the function shall not use the ``return`` keyword
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: A never-returning function must not return
+	:og:description: When using the ``never`` keyword, the function shall not use the ``return`` keyword
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/a-never-returning-function-must-not-return.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: A never-returning function must not return
+	:twitter:description: A never-returning function must not return: When using the ``never`` keyword, the function shall not use the ``return`` keyword
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

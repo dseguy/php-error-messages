@@ -6,18 +6,18 @@ Attempt to assign property "%s" on null
 .. meta::
 	:description:
 		Attempt to assign property "%s" on null: ``null`` is not an object, and it can&#039;t be used as such.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Attempt to assign property &quot;%s&quot; on null
-		:og:description: ``null`` is not an object, and it can&#039;t be used as such
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/attempt-to-assign-property-%22%25s%22-on-null.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Attempt to assign property "%s" on null
-		:twitter:description: Attempt to assign property "%s" on null: ``null`` is not an object, and it can't be used as such
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Attempt to assign property &quot;%s&quot; on null
+	:og:description: ``null`` is not an object, and it can&#039;t be used as such
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/attempt-to-assign-property-%22%25s%22-on-null.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Attempt to assign property "%s" on null
+	:twitter:description: Attempt to assign property "%s" on null: ``null`` is not an object, and it can't be used as such
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

@@ -6,18 +6,18 @@ Cannot apply #[AllowDynamicProperties] to readonly class %s
 .. meta::
 	:description:
 		Cannot apply #[AllowDynamicProperties] to readonly class %s: Readonly classes are classes whose properties are set once, and never changed afterwards.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Cannot apply #[AllowDynamicProperties] to readonly class %s
-		:og:description: Readonly classes are classes whose properties are set once, and never changed afterwards
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-apply-%23%5Ballowdynamicproperties%5D-to-readonly-class-%25s.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Cannot apply #[AllowDynamicProperties] to readonly class %s
-		:twitter:description: Cannot apply #[AllowDynamicProperties] to readonly class %s: Readonly classes are classes whose properties are set once, and never changed afterwards
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Cannot apply #[AllowDynamicProperties] to readonly class %s
+	:og:description: Readonly classes are classes whose properties are set once, and never changed afterwards
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-apply-%23%5Ballowdynamicproperties%5D-to-readonly-class-%25s.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Cannot apply #[AllowDynamicProperties] to readonly class %s
+	:twitter:description: Cannot apply #[AllowDynamicProperties] to readonly class %s: Readonly classes are classes whose properties are set once, and never changed afterwards
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

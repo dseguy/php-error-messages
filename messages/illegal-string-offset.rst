@@ -6,18 +6,18 @@ illegal string offset
 .. meta::
 	:description:
 		illegal string offset: String shall use the array syntax, with the square brackets.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: illegal string offset
-		:og:description: String shall use the array syntax, with the square brackets
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/illegal-string-offset.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: illegal string offset
-		:twitter:description: illegal string offset: String shall use the array syntax, with the square brackets
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: illegal string offset
+	:og:description: String shall use the array syntax, with the square brackets
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/illegal-string-offset.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: illegal string offset
+	:twitter:description: illegal string offset: String shall use the array syntax, with the square brackets
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

@@ -6,18 +6,18 @@ Traits cannot have constants
 .. meta::
 	:description:
 		Traits cannot have constants: Constants were authorised in traits in PHP 8.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Traits cannot have constants
-		:og:description: Constants were authorised in traits in PHP 8
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/traits-cannot-have-constants.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Traits cannot have constants
-		:twitter:description: Traits cannot have constants: Constants were authorised in traits in PHP 8
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Traits cannot have constants
+	:og:description: Constants were authorised in traits in PHP 8
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/traits-cannot-have-constants.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Traits cannot have constants
+	:twitter:description: Traits cannot have constants: Constants were authorised in traits in PHP 8
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

@@ -6,18 +6,18 @@ Undefined constant %s::%s
 .. meta::
 	:description:
 		Undefined constant %s::%s: The requested class constant could not be found.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Undefined constant %s::%s
-		:og:description: The requested class constant could not be found
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/undefined-constant-%25s%3A%3A%25s.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Undefined constant %s::%s
-		:twitter:description: Undefined constant %s::%s: The requested class constant could not be found
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Undefined constant %s::%s
+	:og:description: The requested class constant could not be found
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/undefined-constant-%25s%3A%3A%25s.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Undefined constant %s::%s
+	:twitter:description: Undefined constant %s::%s: The requested class constant could not be found
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

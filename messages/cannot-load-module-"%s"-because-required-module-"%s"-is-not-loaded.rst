@@ -6,18 +6,18 @@ Cannot load module "%s" because required module "%s" is not loaded
 .. meta::
 	:description:
 		Cannot load module "%s" because required module "%s" is not loaded: This is an error in the structure of the compiled PHP parser.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Cannot load module &quot;%s&quot; because required module &quot;%s&quot; is not loaded
-		:og:description: This is an error in the structure of the compiled PHP parser
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-load-module-%5C%22%25s%5C%22-because-required-module-%5C%22%25s%5C%22-is-not-loaded.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Cannot load module "%s" because required module "%s" is not loaded
-		:twitter:description: Cannot load module "%s" because required module "%s" is not loaded: This is an error in the structure of the compiled PHP parser
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Cannot load module &quot;%s&quot; because required module &quot;%s&quot; is not loaded
+	:og:description: This is an error in the structure of the compiled PHP parser
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-load-module-%5C%22%25s%5C%22-because-required-module-%5C%22%25s%5C%22-is-not-loaded.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Cannot load module "%s" because required module "%s" is not loaded
+	:twitter:description: Cannot load module "%s" because required module "%s" is not loaded: This is an error in the structure of the compiled PHP parser
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

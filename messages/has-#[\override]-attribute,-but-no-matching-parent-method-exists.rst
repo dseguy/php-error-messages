@@ -6,18 +6,18 @@ has #[\Override] attribute, but no matching parent method exists
 .. meta::
 	:description:
 		has #[\Override] attribute, but no matching parent method exists: ``Override`` is a PHP attribute, that checks if a method is actually overriding the same method from a parent class.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: has #[\Override] attribute, but no matching parent method exists
-		:og:description: ``Override`` is a PHP attribute, that checks if a method is actually overriding the same method from a parent class
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/has-%23%5B%5Coverride%5D-attribute%2C-but-no-matching-parent-method-exists.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: has #[\Override] attribute, but no matching parent method exists
-		:twitter:description: has #[\Override] attribute, but no matching parent method exists: ``Override`` is a PHP attribute, that checks if a method is actually overriding the same method from a parent class
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: has #[\Override] attribute, but no matching parent method exists
+	:og:description: ``Override`` is a PHP attribute, that checks if a method is actually overriding the same method from a parent class
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/has-%23%5B%5Coverride%5D-attribute%2C-but-no-matching-parent-method-exists.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: has #[\Override] attribute, but no matching parent method exists
+	:twitter:description: has #[\Override] attribute, but no matching parent method exists: ``Override`` is a PHP attribute, that checks if a method is actually overriding the same method from a parent class
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

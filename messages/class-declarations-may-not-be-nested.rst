@@ -6,18 +6,18 @@ Class declarations may not be nested
 .. meta::
 	:description:
 		Class declarations may not be nested: It is not allowed to define a class, trait, interface or enum inside another class, trait or enum.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Class declarations may not be nested
-		:og:description: It is not allowed to define a class, trait, interface or enum inside another class, trait or enum
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/class-declarations-may-not-be-nested.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Class declarations may not be nested
-		:twitter:description: Class declarations may not be nested: It is not allowed to define a class, trait, interface or enum inside another class, trait or enum
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Class declarations may not be nested
+	:og:description: It is not allowed to define a class, trait, interface or enum inside another class, trait or enum
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/class-declarations-may-not-be-nested.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Class declarations may not be nested
+	:twitter:description: Class declarations may not be nested: It is not allowed to define a class, trait, interface or enum inside another class, trait or enum
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

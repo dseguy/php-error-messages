@@ -6,18 +6,18 @@ Switch statements may only contain one default clause
 .. meta::
 	:description:
 		Switch statements may only contain one default clause: The switch expression uses cases and a default entry.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Switch statements may only contain one default clause
-		:og:description: The switch expression uses cases and a default entry
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/switch-statements-may-only-contain-one-default-clause.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Switch statements may only contain one default clause
-		:twitter:description: Switch statements may only contain one default clause: The switch expression uses cases and a default entry
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Switch statements may only contain one default clause
+	:og:description: The switch expression uses cases and a default entry
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/switch-statements-may-only-contain-one-default-clause.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Switch statements may only contain one default clause
+	:twitter:description: Switch statements may only contain one default clause: The switch expression uses cases and a default entry
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

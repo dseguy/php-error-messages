@@ -6,18 +6,18 @@
 .. meta::
 	:description:
 		%s(): never-returning %s must not implicitly return: An implicit return is a method reaching the end of its body block, and ending its execution without an explicit ``return`` statement.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: %s(): never-returning %s must not implicitly return
-		:og:description: An implicit return is a method reaching the end of its body block, and ending its execution without an explicit ``return`` statement
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/%25s%28%29%3A-never-returning-%25s-must-not-implicitly-return.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: %s(): never-returning %s must not implicitly return
-		:twitter:description: %s(): never-returning %s must not implicitly return: An implicit return is a method reaching the end of its body block, and ending its execution without an explicit ``return`` statement
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: %s(): never-returning %s must not implicitly return
+	:og:description: An implicit return is a method reaching the end of its body block, and ending its execution without an explicit ``return`` statement
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/%25s%28%29%3A-never-returning-%25s-must-not-implicitly-return.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: %s(): never-returning %s must not implicitly return
+	:twitter:description: %s(): never-returning %s must not implicitly return: An implicit return is a method reaching the end of its body block, and ending its execution without an explicit ``return`` statement
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

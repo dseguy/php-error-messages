@@ -6,18 +6,18 @@ Non-string needles will be interpreted as strings in the future. Use an explicit
 .. meta::
 	:description:
 		Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior: Until PHP 8.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior
-		:og:description: Until PHP 8
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/non-string-needles-will-be-interpreted-as-strings-in-the-future.-use-an-explicit-chr%28%29-call-to-preserve-the-current-behavior.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior
-		:twitter:description: Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior: Until PHP 8
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior
+	:og:description: Until PHP 8
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/non-string-needles-will-be-interpreted-as-strings-in-the-future.-use-an-explicit-chr%28%29-call-to-preserve-the-current-behavior.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior
+	:twitter:description: Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior: Until PHP 8
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

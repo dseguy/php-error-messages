@@ -6,18 +6,18 @@ Cannot access static:: when no class scope is active
 .. meta::
 	:description:
 		Cannot access static:: when no class scope is active: ``static`` refers to the class that was called to access the class elements (constants, method, properties.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Cannot access static:: when no class scope is active
-		:og:description: ``static`` refers to the class that was called to access the class elements (constants, method, properties
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-access-static%3A%3A-when-no-class-scope-is-active.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Cannot access static:: when no class scope is active
-		:twitter:description: Cannot access static:: when no class scope is active: ``static`` refers to the class that was called to access the class elements (constants, method, properties
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Cannot access static:: when no class scope is active
+	:og:description: ``static`` refers to the class that was called to access the class elements (constants, method, properties
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-access-static%3A%3A-when-no-class-scope-is-active.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Cannot access static:: when no class scope is active
+	:twitter:description: Cannot access static:: when no class scope is active: ``static`` refers to the class that was called to access the class elements (constants, method, properties
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

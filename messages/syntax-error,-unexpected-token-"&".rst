@@ -6,18 +6,18 @@ syntax error, unexpected token "&"
 .. meta::
 	:description:
 		syntax error, unexpected token "&": The ``&amp;`` operator is used in two distinct situations: as the bitwise operator, between two different values.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: syntax error, unexpected token &quot;&amp;&quot;
-		:og:description: The ``&amp;`` operator is used in two distinct situations: as the bitwise operator, between two different values
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%26%22.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: syntax error, unexpected token "&"
-		:twitter:description: syntax error, unexpected token "&": The ``&`` operator is used in two distinct situations: as the bitwise operator, between two different values
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: syntax error, unexpected token &quot;&amp;&quot;
+	:og:description: The ``&amp;`` operator is used in two distinct situations: as the bitwise operator, between two different values
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%26%22.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: syntax error, unexpected token "&"
+	:twitter:description: syntax error, unexpected token "&": The ``&`` operator is used in two distinct situations: as the bitwise operator, between two different values
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

@@ -6,18 +6,18 @@
 .. meta::
 	:description:
 		%s():-Argument #%d%s%s%s cannot be passed by reference: This error is emitted when a literal value is used instead of a data container, such as a variable, or a property.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: %s():-Argument #%d%s%s%s cannot be passed by reference
-		:og:description: This error is emitted when a literal value is used instead of a data container, such as a variable, or a property
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/%25s%28%29-argument-%23%25d%25s%25s%25s-cannot-be-passed-by-reference.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: %s():-Argument #%d%s%s%s cannot be passed by reference
-		:twitter:description: %s():-Argument #%d%s%s%s cannot be passed by reference: This error is emitted when a literal value is used instead of a data container, such as a variable, or a property
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: %s():-Argument #%d%s%s%s cannot be passed by reference
+	:og:description: This error is emitted when a literal value is used instead of a data container, such as a variable, or a property
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/%25s%28%29-argument-%23%25d%25s%25s%25s-cannot-be-passed-by-reference.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: %s():-Argument #%d%s%s%s cannot be passed by reference
+	:twitter:description: %s():-Argument #%d%s%s%s cannot be passed by reference: This error is emitted when a literal value is used instead of a data container, such as a variable, or a property
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

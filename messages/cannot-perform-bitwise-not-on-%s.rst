@@ -6,18 +6,18 @@ Cannot perform bitwise not on %s
 .. meta::
 	:description:
 		Cannot perform bitwise not on %s: Bitwise operations are only available on integers.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Cannot perform bitwise not on %s
-		:og:description: Bitwise operations are only available on integers
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-perform-bitwise-not-on-%25s.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Cannot perform bitwise not on %s
-		:twitter:description: Cannot perform bitwise not on %s: Bitwise operations are only available on integers
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Cannot perform bitwise not on %s
+	:og:description: Bitwise operations are only available on integers
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-perform-bitwise-not-on-%25s.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Cannot perform bitwise not on %s
+	:twitter:description: Cannot perform bitwise not on %s: Bitwise operations are only available on integers
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

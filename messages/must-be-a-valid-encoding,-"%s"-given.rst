@@ -6,18 +6,18 @@ must be a valid encoding, "%s" given
 .. meta::
 	:description:
 		must be a valid encoding, "%s" given: The encoding arguments, in any ``mb_`` function, must be a supported encoding.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: must be a valid encoding, &quot;%s&quot; given
-		:og:description: The encoding arguments, in any ``mb_`` function, must be a supported encoding
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/must-be-a-valid-encoding%2C-%5C%22%25s%5C%22-given.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: must be a valid encoding, "%s" given
-		:twitter:description: must be a valid encoding, "%s" given: The encoding arguments, in any ``mb_`` function, must be a supported encoding
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: must be a valid encoding, &quot;%s&quot; given
+	:og:description: The encoding arguments, in any ``mb_`` function, must be a supported encoding
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/must-be-a-valid-encoding%2C-%5C%22%25s%5C%22-given.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: must be a valid encoding, "%s" given
+	:twitter:description: must be a valid encoding, "%s" given: The encoding arguments, in any ``mb_`` function, must be a supported encoding
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

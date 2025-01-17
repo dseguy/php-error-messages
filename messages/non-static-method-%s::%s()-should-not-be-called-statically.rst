@@ -6,18 +6,18 @@ Non-static method %s::%s() should not be called statically
 .. meta::
 	:description:
 		Non-static method %s::%s() should not be called statically: A non-static method requires an object to be called, as PHP will populate that object in the ``$this`` method.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Non-static method %s::%s() should not be called statically
-		:og:description: A non-static method requires an object to be called, as PHP will populate that object in the ``$this`` method
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/non-static-method-%25s%3A%3A%25s%28%29-should-not-be-called-statically.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Non-static method %s::%s() should not be called statically
-		:twitter:description: Non-static method %s::%s() should not be called statically: A non-static method requires an object to be called, as PHP will populate that object in the ``$this`` method
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Non-static method %s::%s() should not be called statically
+	:og:description: A non-static method requires an object to be called, as PHP will populate that object in the ``$this`` method
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/non-static-method-%25s%3A%3A%25s%28%29-should-not-be-called-statically.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Non-static method %s::%s() should not be called statically
+	:twitter:description: Non-static method %s::%s() should not be called statically: A non-static method requires an object to be called, as PHP will populate that object in the ``$this`` method
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

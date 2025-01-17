@@ -6,18 +6,18 @@ syntax error, unexpected ';', expecting '['
 .. meta::
 	:description:
 		syntax error, unexpected ';', expecting '[': The ``&amp;`` reference operator turns a value into a reference.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: syntax error, unexpected &#039;;&#039;, expecting &#039;[&#039;
-		:og:description: The ``&amp;`` reference operator turns a value into a reference
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-%27%3B%27%2C-expecting-%27%5B%27.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: syntax error, unexpected ';', expecting '['
-		:twitter:description: syntax error, unexpected ';', expecting '[': The ``&`` reference operator turns a value into a reference
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: syntax error, unexpected &#039;;&#039;, expecting &#039;[&#039;
+	:og:description: The ``&amp;`` reference operator turns a value into a reference
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-%27%3B%27%2C-expecting-%27%5B%27.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: syntax error, unexpected ';', expecting '['
+	:twitter:description: syntax error, unexpected ';', expecting '[': The ``&`` reference operator turns a value into a reference
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

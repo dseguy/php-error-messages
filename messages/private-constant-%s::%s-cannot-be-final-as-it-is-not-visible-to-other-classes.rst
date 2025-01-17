@@ -6,18 +6,18 @@ Private constant %s::%s cannot be final as it is not visible to other classes
 .. meta::
 	:description:
 		Private constant %s::%s cannot be final as it is not visible to other classes: A ``private`` constant is restricted to being used by its definition class only: as such, it is not visible to other classes, including children.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Private constant %s::%s cannot be final as it is not visible to other classes
-		:og:description: A ``private`` constant is restricted to being used by its definition class only: as such, it is not visible to other classes, including children
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/private-constant-%25s%3A%3A%25s-cannot-be-final-as-it-is-not-visible-to-other-classes.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Private constant %s::%s cannot be final as it is not visible to other classes
-		:twitter:description: Private constant %s::%s cannot be final as it is not visible to other classes: A ``private`` constant is restricted to being used by its definition class only: as such, it is not visible to other classes, including children
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Private constant %s::%s cannot be final as it is not visible to other classes
+	:og:description: A ``private`` constant is restricted to being used by its definition class only: as such, it is not visible to other classes, including children
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/private-constant-%25s%3A%3A%25s-cannot-be-final-as-it-is-not-visible-to-other-classes.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Private constant %s::%s cannot be final as it is not visible to other classes
+	:twitter:description: Private constant %s::%s cannot be final as it is not visible to other classes: A ``private`` constant is restricted to being used by its definition class only: as such, it is not visible to other classes, including children
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

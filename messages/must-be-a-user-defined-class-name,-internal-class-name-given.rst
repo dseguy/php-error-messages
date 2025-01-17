@@ -6,18 +6,18 @@ must be a user-defined class name, internal class name given
 .. meta::
 	:description:
 		must be a user-defined class name, internal class name given: class_alias() creates an alias for a class, an enumeration, an interface or a trait.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: must be a user-defined class name, internal class name given
-		:og:description: class_alias() creates an alias for a class, an enumeration, an interface or a trait
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/must-be-a-user-defined-class-name%2C-internal-class-name-given.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: must be a user-defined class name, internal class name given
-		:twitter:description: must be a user-defined class name, internal class name given: class_alias() creates an alias for a class, an enumeration, an interface or a trait
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: must be a user-defined class name, internal class name given
+	:og:description: class_alias() creates an alias for a class, an enumeration, an interface or a trait
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/must-be-a-user-defined-class-name%2C-internal-class-name-given.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: must be a user-defined class name, internal class name given
+	:twitter:description: must be a user-defined class name, internal class name given: class_alias() creates an alias for a class, an enumeration, an interface or a trait
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

@@ -6,18 +6,18 @@ Cannot %s readonly property %s::$%s from %s%s
 .. meta::
 	:description:
 		Cannot %s readonly property %s::$%s from %s%s: Until PHP 8.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Cannot %s readonly property %s::$%s from %s%s
-		:og:description: Until PHP 8
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-%25s-readonly-property-%25s%3A%3A%24%25s-from-%25s%25s.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Cannot %s readonly property %s::$%s from %s%s
-		:twitter:description: Cannot %s readonly property %s::$%s from %s%s: Until PHP 8
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Cannot %s readonly property %s::$%s from %s%s
+	:og:description: Until PHP 8
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-%25s-readonly-property-%25s%3A%3A%24%25s-from-%25s%25s.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Cannot %s readonly property %s::$%s from %s%s
+	:twitter:description: Cannot %s readonly property %s::$%s from %s%s: Until PHP 8
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

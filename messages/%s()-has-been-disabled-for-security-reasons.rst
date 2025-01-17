@@ -6,18 +6,18 @@
 .. meta::
 	:description:
 		%s() has been disabled for security reasons: The function mentionned in the message was disabled with the ``disable_functions`` directive.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: %s() has been disabled for security reasons
-		:og:description: The function mentionned in the message was disabled with the ``disable_functions`` directive
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/%25s%28%29-has-been-disabled-for-security-reasons.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: %s() has been disabled for security reasons
-		:twitter:description: %s() has been disabled for security reasons: The function mentionned in the message was disabled with the ``disable_functions`` directive
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: %s() has been disabled for security reasons
+	:og:description: The function mentionned in the message was disabled with the ``disable_functions`` directive
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/%25s%28%29-has-been-disabled-for-security-reasons.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: %s() has been disabled for security reasons
+	:twitter:description: %s() has been disabled for security reasons: The function mentionned in the message was disabled with the ``disable_functions`` directive
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

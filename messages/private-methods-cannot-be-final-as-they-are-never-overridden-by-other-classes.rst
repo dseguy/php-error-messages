@@ -6,18 +6,18 @@ Private methods cannot be final as they are never overridden by other classes
 .. meta::
 	:description:
 		Private methods cannot be final as they are never overridden by other classes: Final methods are only available in the class where they are defined.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Private methods cannot be final as they are never overridden by other classes
-		:og:description: Final methods are only available in the class where they are defined
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Private methods cannot be final as they are never overridden by other classes
-		:twitter:description: Private methods cannot be final as they are never overridden by other classes: Final methods are only available in the class where they are defined
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Private methods cannot be final as they are never overridden by other classes
+	:og:description: Final methods are only available in the class where they are defined
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Private methods cannot be final as they are never overridden by other classes
+	:twitter:description: Private methods cannot be final as they are never overridden by other classes: Final methods are only available in the class where they are defined
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

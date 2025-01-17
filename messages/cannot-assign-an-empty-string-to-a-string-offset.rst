@@ -6,18 +6,18 @@ Cannot assign an empty string to a string offset
 .. meta::
 	:description:
 		Cannot assign an empty string to a string offset: It is possible to access an individual character inside a string, and replace it with another character.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Cannot assign an empty string to a string offset
-		:og:description: It is possible to access an individual character inside a string, and replace it with another character
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-assign-an-empty-string-to-a-string-offset.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Cannot assign an empty string to a string offset
-		:twitter:description: Cannot assign an empty string to a string offset: It is possible to access an individual character inside a string, and replace it with another character
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Cannot assign an empty string to a string offset
+	:og:description: It is possible to access an individual character inside a string, and replace it with another character
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-assign-an-empty-string-to-a-string-offset.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Cannot assign an empty string to a string offset
+	:twitter:description: Cannot assign an empty string to a string offset: It is possible to access an individual character inside a string, and replace it with another character
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

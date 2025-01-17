@@ -6,18 +6,18 @@ Invalid characters passed for attempted conversion, these have been ignored
 .. meta::
 	:description:
 		Invalid characters passed for attempted conversion, these have been ignored: This error is emitted when a character outside the range of validity is used.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Invalid characters passed for attempted conversion, these have been ignored
-		:og:description: This error is emitted when a character outside the range of validity is used
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/invalid-characters-passed-for-attempted-conversion%2C-these-have-been-ignored.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Invalid characters passed for attempted conversion, these have been ignored
-		:twitter:description: Invalid characters passed for attempted conversion, these have been ignored: This error is emitted when a character outside the range of validity is used
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Invalid characters passed for attempted conversion, these have been ignored
+	:og:description: This error is emitted when a character outside the range of validity is used
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/invalid-characters-passed-for-attempted-conversion%2C-these-have-been-ignored.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Invalid characters passed for attempted conversion, these have been ignored
+	:twitter:description: Invalid characters passed for attempted conversion, these have been ignored: This error is emitted when a character outside the range of validity is used
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

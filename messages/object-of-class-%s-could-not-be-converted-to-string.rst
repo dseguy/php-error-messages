@@ -6,18 +6,18 @@ Object of class %s could not be converted to string
 .. meta::
 	:description:
 		Object of class %s could not be converted to string: PHP reports that the object cannot be used as a string.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Object of class %s could not be converted to string
-		:og:description: PHP reports that the object cannot be used as a string
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/object-of-class-%25s-could-not-be-converted-to-string.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Object of class %s could not be converted to string
-		:twitter:description: Object of class %s could not be converted to string: PHP reports that the object cannot be used as a string
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Object of class %s could not be converted to string
+	:og:description: PHP reports that the object cannot be used as a string
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/object-of-class-%25s-could-not-be-converted-to-string.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Object of class %s could not be converted to string
+	:twitter:description: Object of class %s could not be converted to string: PHP reports that the object cannot be used as a string
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

@@ -6,18 +6,18 @@ Cannot unset string offsets
 .. meta::
 	:description:
 		Cannot unset string offsets: While strings and arrays share the same syntax with square brackets, to access individual elements, that syntax is not available with the unset() function.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Cannot unset string offsets
-		:og:description: While strings and arrays share the same syntax with square brackets, to access individual elements, that syntax is not available with the unset() function
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-unset-string-offsets.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Cannot unset string offsets
-		:twitter:description: Cannot unset string offsets: While strings and arrays share the same syntax with square brackets, to access individual elements, that syntax is not available with the unset() function
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Cannot unset string offsets
+	:og:description: While strings and arrays share the same syntax with square brackets, to access individual elements, that syntax is not available with the unset() function
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-unset-string-offsets.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Cannot unset string offsets
+	:twitter:description: Cannot unset string offsets: While strings and arrays share the same syntax with square brackets, to access individual elements, that syntax is not available with the unset() function
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

@@ -6,18 +6,18 @@ Cannot use %s as default value for parameter $%s of type %s
 .. meta::
 	:description:
 		Cannot use %s as default value for parameter $%s of type %s: The default value of the parameter is not compatible with the type of the same parameter.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Cannot use %s as default value for parameter $%s of type %s
-		:og:description: The default value of the parameter is not compatible with the type of the same parameter
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%25s-as-default-value-for-parameter-%24%25s-of-type-%25s.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Cannot use %s as default value for parameter $%s of type %s
-		:twitter:description: Cannot use %s as default value for parameter $%s of type %s: The default value of the parameter is not compatible with the type of the same parameter
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Cannot use %s as default value for parameter $%s of type %s
+	:og:description: The default value of the parameter is not compatible with the type of the same parameter
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%25s-as-default-value-for-parameter-%24%25s-of-type-%25s.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Cannot use %s as default value for parameter $%s of type %s
+	:twitter:description: Cannot use %s as default value for parameter $%s of type %s: The default value of the parameter is not compatible with the type of the same parameter
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

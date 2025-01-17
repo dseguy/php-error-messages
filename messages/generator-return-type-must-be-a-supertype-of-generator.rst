@@ -6,18 +6,18 @@ Generator return type must be a supertype of Generator
 .. meta::
 	:description:
 		Generator return type must be a supertype of Generator: When a method or a function uses a ``yield`` keyword, it becomes a generator.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Generator return type must be a supertype of Generator
-		:og:description: When a method or a function uses a ``yield`` keyword, it becomes a generator
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/generator-return-type-must-be-a-supertype-of-generator.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Generator return type must be a supertype of Generator
-		:twitter:description: Generator return type must be a supertype of Generator: When a method or a function uses a ``yield`` keyword, it becomes a generator
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Generator return type must be a supertype of Generator
+	:og:description: When a method or a function uses a ``yield`` keyword, it becomes a generator
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/generator-return-type-must-be-a-supertype-of-generator.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Generator return type must be a supertype of Generator
+	:twitter:description: Generator return type must be a supertype of Generator: When a method or a function uses a ``yield`` keyword, it becomes a generator
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

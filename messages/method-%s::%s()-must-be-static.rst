@@ -6,18 +6,18 @@ Method %s::%s() must be static
 .. meta::
 	:description:
 		Method %s::%s() must be static: The magic method ``__set_state`` must be static.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Method %s::%s() must be static
-		:og:description: The magic method ``__set_state`` must be static
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/method-%25s%3A%3A%25s%28%29-must-be-static.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Method %s::%s() must be static
-		:twitter:description: Method %s::%s() must be static: The magic method ``__set_state`` must be static
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Method %s::%s() must be static
+	:og:description: The magic method ``__set_state`` must be static
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/method-%25s%3A%3A%25s%28%29-must-be-static.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Method %s::%s() must be static
+	:twitter:description: Method %s::%s() must be static: The magic method ``__set_state`` must be static
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

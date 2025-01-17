@@ -6,25 +6,25 @@
 .. meta::
 	:description:
 		%d arguments are required, %d given: The actual number of arguments of the function is commanded by the first argument: there must be an extra argument for every ``%s`` in that argument.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: %d arguments are required, %d given
-		:og:description: The actual number of arguments of the function is commanded by the first argument: there must be an extra argument for every ``%s`` in that argument
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/%25d-arguments-are-required%2C-%25d.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: %d arguments are required, %d given
-		:twitter:description: %d arguments are required, %d given: The actual number of arguments of the function is commanded by the first argument: there must be an extra argument for every ``%s`` in that argument
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: %d arguments are required, %d given
+	:og:description: The actual number of arguments of the function is commanded by the first argument: there must be an extra argument for every ``%s`` in that argument
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/%25d-arguments-are-required%2C-%25d.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: %d arguments are required, %d given
+	:twitter:description: %d arguments are required, %d given: The actual number of arguments of the function is commanded by the first argument: there must be an extra argument for every ``%s`` in that argument
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________
  
-The actual number of arguments of the function is commanded by the first argument: there must be an extra argument for every ``%s`` in that argument. In the illustration code, there are 3 expected arguments, on top of the first one, and only 2 arguments, including the first one.
+The actual number of arguments of the function is commanded by the first argument: there must be an extra argument for every ``%s`` in that argument. In the illustration code, there are 4 expected arguments, on top of the first one, and only 2 arguments, including the first one.
 
-This error message is related to the PHP native functions ``printf``, ``vprintf``, ``sprintf``.
+This error message is related to the PHP native functions ``printf()``, ``vprintf``, ``sprintf``.
 
 Example
 _______
@@ -33,7 +33,7 @@ _______
 
    <?php
    
-   printf(' a %s %s %s', $a1);
+   printf('%s %s %s %s', $variable);
    
    ?>
 

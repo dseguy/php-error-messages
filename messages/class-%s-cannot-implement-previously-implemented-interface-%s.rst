@@ -6,18 +6,18 @@ Class %s cannot implement previously implemented interface %s
 .. meta::
 	:description:
 		Class %s cannot implement previously implemented interface %s: It is not allowed to use several times the same interface in a ``implements`` clause, for classes, or ``extends`` for interfaces.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Class %s cannot implement previously implemented interface %s
-		:og:description: It is not allowed to use several times the same interface in a ``implements`` clause, for classes, or ``extends`` for interfaces
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/class-%25s-cannot-implement-previously-implemented-interface-%25s.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Class %s cannot implement previously implemented interface %s
-		:twitter:description: Class %s cannot implement previously implemented interface %s: It is not allowed to use several times the same interface in a ``implements`` clause, for classes, or ``extends`` for interfaces
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Class %s cannot implement previously implemented interface %s
+	:og:description: It is not allowed to use several times the same interface in a ``implements`` clause, for classes, or ``extends`` for interfaces
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/class-%25s-cannot-implement-previously-implemented-interface-%25s.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Class %s cannot implement previously implemented interface %s
+	:twitter:description: Class %s cannot implement previously implemented interface %s: It is not allowed to use several times the same interface in a ``implements`` clause, for classes, or ``extends`` for interfaces
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

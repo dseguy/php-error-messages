@@ -6,18 +6,18 @@ Undefined variable
 .. meta::
 	:description:
 		Undefined variable: This notice is emitted when a variable is being used before being defined.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Undefined variable
-		:og:description: This notice is emitted when a variable is being used before being defined
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/undefined-variable.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Undefined variable
-		:twitter:description: Undefined variable: This notice is emitted when a variable is being used before being defined
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Undefined variable
+	:og:description: This notice is emitted when a variable is being used before being defined
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/undefined-variable.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Undefined variable
+	:twitter:description: Undefined variable: This notice is emitted when a variable is being used before being defined
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

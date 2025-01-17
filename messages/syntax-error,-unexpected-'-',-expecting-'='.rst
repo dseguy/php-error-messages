@@ -6,18 +6,18 @@ syntax error, unexpected '-', expecting '='
 .. meta::
 	:description:
 		syntax error, unexpected '-', expecting '=': When defining a constant, the constant name must be valid.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: syntax error, unexpected &#039;-&#039;, expecting &#039;=&#039;
-		:og:description: When defining a constant, the constant name must be valid
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-%27-%27%2C-expecting-%27%3D%27.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: syntax error, unexpected '-', expecting '='
-		:twitter:description: syntax error, unexpected '-', expecting '=': When defining a constant, the constant name must be valid
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: syntax error, unexpected &#039;-&#039;, expecting &#039;=&#039;
+	:og:description: When defining a constant, the constant name must be valid
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-%27-%27%2C-expecting-%27%3D%27.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: syntax error, unexpected '-', expecting '='
+	:twitter:description: syntax error, unexpected '-', expecting '=': When defining a constant, the constant name must be valid
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

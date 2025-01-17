@@ -6,18 +6,18 @@ array_merge() expects at least 1 parameter, 0 given
 .. meta::
 	:description:
 		array_merge() expects at least 1 parameter, 0 given: Until PHP 7.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: array_merge() expects at least 1 parameter, 0 given
-		:og:description: Until PHP 7
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/array_merge%28%29-expects-at-least-1-parameter%2C-0-given.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: array_merge() expects at least 1 parameter, 0 given
-		:twitter:description: array_merge() expects at least 1 parameter, 0 given: Until PHP 7
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: array_merge() expects at least 1 parameter, 0 given
+	:og:description: Until PHP 7
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/array_merge%28%29-expects-at-least-1-parameter%2C-0-given.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: array_merge() expects at least 1 parameter, 0 given
+	:twitter:description: array_merge() expects at least 1 parameter, 0 given: Until PHP 7
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

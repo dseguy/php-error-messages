@@ -6,18 +6,18 @@ Power of base 0 and negative exponent is deprecated
 .. meta::
 	:description:
 		Power of base 0 and negative exponent is deprecated: Requesting a negative exponent on 0 yields this error message.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Power of base 0 and negative exponent is deprecated
-		:og:description: Requesting a negative exponent on 0 yields this error message
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/power-of-base-0-and-negative-exponent-is-deprecated.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Power of base 0 and negative exponent is deprecated
-		:twitter:description: Power of base 0 and negative exponent is deprecated: Requesting a negative exponent on 0 yields this error message
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Power of base 0 and negative exponent is deprecated
+	:og:description: Requesting a negative exponent on 0 yields this error message
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/power-of-base-0-and-negative-exponent-is-deprecated.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Power of base 0 and negative exponent is deprecated
+	:twitter:description: Power of base 0 and negative exponent is deprecated: Requesting a negative exponent on 0 yields this error message
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

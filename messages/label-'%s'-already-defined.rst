@@ -6,18 +6,18 @@ Label '%s' already defined
 .. meta::
 	:description:
 		Label '%s' already defined: A goto label has been defined twice or more.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Label &#039;%s&#039; already defined
-		:og:description: A goto label has been defined twice or more
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/label-%27%25s%27-already-defined.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Label '%s' already defined
-		:twitter:description: Label '%s' already defined: A goto label has been defined twice or more
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Label &#039;%s&#039; already defined
+	:og:description: A goto label has been defined twice or more
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/label-%27%25s%27-already-defined.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Label '%s' already defined
+	:twitter:description: Label '%s' already defined: A goto label has been defined twice or more
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

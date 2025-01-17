@@ -6,18 +6,18 @@ Only hooked properties may be declared abstract
 .. meta::
 	:description:
 		Only hooked properties may be declared abstract: Hooked properties may be declared abstract, as long as the class is also abstract, and that one of the hook, ``get`` or ``set`` or both, have no body block.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Only hooked properties may be declared abstract
-		:og:description: Hooked properties may be declared abstract, as long as the class is also abstract, and that one of the hook, ``get`` or ``set`` or both, have no body block
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/only-hooked-properties-may-be-declared-abstract.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Only hooked properties may be declared abstract
-		:twitter:description: Only hooked properties may be declared abstract: Hooked properties may be declared abstract, as long as the class is also abstract, and that one of the hook, ``get`` or ``set`` or both, have no body block
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Only hooked properties may be declared abstract
+	:og:description: Hooked properties may be declared abstract, as long as the class is also abstract, and that one of the hook, ``get`` or ``set`` or both, have no body block
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/only-hooked-properties-may-be-declared-abstract.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Only hooked properties may be declared abstract
+	:twitter:description: Only hooked properties may be declared abstract: Hooked properties may be declared abstract, as long as the class is also abstract, and that one of the hook, ``get`` or ``set`` or both, have no body block
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

@@ -6,18 +6,18 @@ The each() function is deprecated. This message will be suppressed on further ca
 .. meta::
 	:description:
 		The each() function is deprecated. This message will be suppressed on further calls: The function ``each`` was deprecated in PHP 7.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: The each() function is deprecated. This message will be suppressed on further calls
-		:og:description: The function ``each`` was deprecated in PHP 7
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/the-each%28%29-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: The each() function is deprecated. This message will be suppressed on further calls
-		:twitter:description: The each() function is deprecated. This message will be suppressed on further calls: The function ``each`` was deprecated in PHP 7
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: The each() function is deprecated. This message will be suppressed on further calls
+	:og:description: The function ``each`` was deprecated in PHP 7
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/the-each%28%29-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: The each() function is deprecated. This message will be suppressed on further calls
+	:twitter:description: The each() function is deprecated. This message will be suppressed on further calls: The function ``each`` was deprecated in PHP 7
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

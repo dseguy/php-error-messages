@@ -6,18 +6,18 @@ Cannot combine named arguments and argument unpacking
 .. meta::
 	:description:
 		Cannot combine named arguments and argument unpacking: In PHP 8.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Cannot combine named arguments and argument unpacking
-		:og:description: In PHP 8
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-combine-named-arguments-and-argument-unpacking.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Cannot combine named arguments and argument unpacking
-		:twitter:description: Cannot combine named arguments and argument unpacking: In PHP 8
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Cannot combine named arguments and argument unpacking
+	:og:description: In PHP 8
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-combine-named-arguments-and-argument-unpacking.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Cannot combine named arguments and argument unpacking
+	:twitter:description: Cannot combine named arguments and argument unpacking: In PHP 8
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

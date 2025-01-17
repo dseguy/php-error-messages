@@ -6,18 +6,18 @@ Delimiter must not be alphanumeric, backslash, or NUL
 .. meta::
 	:description:
 		Delimiter must not be alphanumeric, backslash, or NUL: The first character of a regex is the delimiter, that delimits the regex.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Delimiter must not be alphanumeric, backslash, or NUL
-		:og:description: The first character of a regex is the delimiter, that delimits the regex
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/delimiter-must-not-be-alphanumeric%2C-backslash%2C-or-nul.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Delimiter must not be alphanumeric, backslash, or NUL
-		:twitter:description: Delimiter must not be alphanumeric, backslash, or NUL: The first character of a regex is the delimiter, that delimits the regex
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Delimiter must not be alphanumeric, backslash, or NUL
+	:og:description: The first character of a regex is the delimiter, that delimits the regex
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/delimiter-must-not-be-alphanumeric%2C-backslash%2C-or-nul.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Delimiter must not be alphanumeric, backslash, or NUL
+	:twitter:description: Delimiter must not be alphanumeric, backslash, or NUL: The first character of a regex is the delimiter, that delimits the regex
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

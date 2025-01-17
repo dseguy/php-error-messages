@@ -6,18 +6,18 @@ Cannot instantiate interface %s
 .. meta::
 	:description:
 		Cannot instantiate interface %s: An interface represents an abstract class, and cannot be instantiated alone.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Cannot instantiate interface %s
-		:og:description: An interface represents an abstract class, and cannot be instantiated alone
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-instantiate-interface-%25s.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Cannot instantiate interface %s
-		:twitter:description: Cannot instantiate interface %s: An interface represents an abstract class, and cannot be instantiated alone
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Cannot instantiate interface %s
+	:og:description: An interface represents an abstract class, and cannot be instantiated alone
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-instantiate-interface-%25s.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Cannot instantiate interface %s
+	:twitter:description: Cannot instantiate interface %s: An interface represents an abstract class, and cannot be instantiated alone
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

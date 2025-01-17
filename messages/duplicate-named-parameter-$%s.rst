@@ -6,18 +6,18 @@ Duplicate named parameter $%s
 .. meta::
 	:description:
 		Duplicate named parameter $%s: Parameter shall only be passed once.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Duplicate named parameter $%s
-		:og:description: Parameter shall only be passed once
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/duplicate-named-parameter-%24%25s.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Duplicate named parameter $%s
-		:twitter:description: Duplicate named parameter $%s: Parameter shall only be passed once
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Duplicate named parameter $%s
+	:og:description: Parameter shall only be passed once
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/duplicate-named-parameter-%24%25s.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Duplicate named parameter $%s
+	:twitter:description: Duplicate named parameter $%s: Parameter shall only be passed once
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

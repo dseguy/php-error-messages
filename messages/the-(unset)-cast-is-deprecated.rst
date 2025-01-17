@@ -6,18 +6,18 @@ The (unset) cast is deprecated
 .. meta::
 	:description:
 		The (unset) cast is deprecated: Removing a variable, a property or an array index with the cast operator (unset) is deprecated since PHP 7.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: The (unset) cast is deprecated
-		:og:description: Removing a variable, a property or an array index with the cast operator (unset) is deprecated since PHP 7
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/the-%28unset%29-cast-is-deprecated.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: The (unset) cast is deprecated
-		:twitter:description: The (unset) cast is deprecated: Removing a variable, a property or an array index with the cast operator (unset) is deprecated since PHP 7
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: The (unset) cast is deprecated
+	:og:description: Removing a variable, a property or an array index with the cast operator (unset) is deprecated since PHP 7
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/the-%28unset%29-cast-is-deprecated.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: The (unset) cast is deprecated
+	:twitter:description: The (unset) cast is deprecated: Removing a variable, a property or an array index with the cast operator (unset) is deprecated since PHP 7
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

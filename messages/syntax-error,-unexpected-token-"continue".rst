@@ -6,18 +6,18 @@ syntax error, unexpected token "continue"
 .. meta::
 	:description:
 		syntax error, unexpected token "continue": ``continue`` is a token that stop the current loop or ``switch``, and proceed from the end of that loop.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: syntax error, unexpected token &quot;continue&quot;
-		:og:description: ``continue`` is a token that stop the current loop or ``switch``, and proceed from the end of that loop
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22continue%22.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: syntax error, unexpected token "continue"
-		:twitter:description: syntax error, unexpected token "continue": ``continue`` is a token that stop the current loop or ``switch``, and proceed from the end of that loop
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: syntax error, unexpected token &quot;continue&quot;
+	:og:description: ``continue`` is a token that stop the current loop or ``switch``, and proceed from the end of that loop
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22continue%22.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: syntax error, unexpected token "continue"
+	:twitter:description: syntax error, unexpected token "continue": ``continue`` is a token that stop the current loop or ``switch``, and proceed from the end of that loop
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________

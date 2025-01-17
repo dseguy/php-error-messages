@@ -6,18 +6,18 @@ Returning by reference from a void function is deprecated
 .. meta::
 	:description:
 		Returning by reference from a void function is deprecated: The return type ``void`` means that no value is returned, not even NULL.
-		:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
-		:og:type: article
-		:og:title: Returning by reference from a void function is deprecated
-		:og:description: The return type ``void`` means that no value is returned, not even NULL
-		:og:url: https://php-errors.readthedocs.io/en/latest/messages/returning-by-reference-from-a-void-function-is-deprecated.html
-	    :og:locale: en
-		:twitter:card: summary_large_image
-		:twitter:site: @exakat
-		:twitter:title: Returning by reference from a void function is deprecated
-		:twitter:description: Returning by reference from a void function is deprecated: The return type ``void`` means that no value is returned, not even NULL
-		:twitter:creator: @exakat
-		:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Returning by reference from a void function is deprecated
+	:og:description: The return type ``void`` means that no value is returned, not even NULL
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/returning-by-reference-from-a-void-function-is-deprecated.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Returning by reference from a void function is deprecated
+	:twitter:description: Returning by reference from a void function is deprecated: The return type ``void`` means that no value is returned, not even NULL
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________
