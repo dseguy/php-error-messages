@@ -39,9 +39,11 @@ lexers['php-annotations'] = PhpLexer(startinline=True)
 
 # Extra config to verify read the docs
 html_extra_path = ["googlee919cb0917e4fefc.html", 
-                                        "sitemap.xml",
-                                        "BingSiteAuth.xml"]
-                                        
+                   "sitemap.xml",
+                   "BingSiteAuth.xml",
+                   "robots.txt",
+                   ]
+
 html_theme_options = {
     'logo': 'logo.png',
 #    'analytics_id': 'G-29LCZ34CDW',

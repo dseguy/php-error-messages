@@ -170,7 +170,7 @@ foreach($files as $file) {
 		continue;
 	}
 
-	if (preg_match('/(trait|class|enum|interface|const|new|implements|extends|:) (?!(int|string|bool|void|never|float|callable|array|iterable|mixed|null|stdClass))[a-z]/', $error->code, $r)) {
+	if (preg_match('/(trait|class|enum|interface|const|new|implements|extends|:|namespace) (?!(int|string|bool|void|never|float|callable|array|iterable|mixed|null|stdClass))[a-z]/', $error->code, $r)) {
 		buildlog("No lower case name '$r[0]' in code in $file");
 		++$warnings;
 	}
