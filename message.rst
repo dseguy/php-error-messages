@@ -31,6 +31,7 @@ PHP Error Messages
    messages/%s-function-%s::%s()-cannot-be-declared-private.rst
    messages/%s-virtual-property-%s::$%s-must-not-specify-asymmetric-visibility.rst
    messages/%s::%s()-has-#[\override]-attribute,-but-no-matching-parent-method-exists.rst
+   messages/%s::%s():-return-type-must-be-%s-when-declared.rst
    messages/%s::%s-cannot-override-final-constant-%s::%s.rst
    messages/%s"-will-be-interpreted-as-a-class-name.-did-you-mean-"%s"?-write-"\%s"%s-to-suppress-this-warning.rst
    messages/'%s'-not-in-the-'loop'-or-'switch'-context.rst
@@ -83,6 +84,8 @@ PHP Error Messages
    messages/b-cannot-implement-a---it-is-not-an-interface.rst
    messages/break-operator-accepts-only-positive-integers.rst
    messages/call-to-%s-%s::%s()-from-global-scope.rst
+   messages/call-to-%s-%s::%s()-from-invalid.rst
+   messages/call-to-%s-method-%s::%s()-from-%s%s.rst
    messages/call-to-a-member-function-%s()-on-%s.rst
    messages/call-to-undefined-function-%s().rst
    messages/call-to-undefined-function-each().rst
@@ -92,6 +95,7 @@ PHP Error Messages
    messages/calling-get_class()-without-arguments-is-deprecated.rst
    messages/calling-get_parent_class()-without-arguments-is-deprecated.rst
    messages/calling-static-trait-method-%s::%s-is-deprecated.rst
+   messages/can\'t-inherit-abstract-function-%s::%s()-(previously-declared-abstract-in-%s).rst
    messages/can\'t-use-nullsafe-operator-in-write-context.rst
    messages/cannot-%s-readonly-property-%s::$%s-from-%s%s.rst
    messages/cannot-access-%s-const-%s::%s.rst
@@ -349,6 +353,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-';',-expecting-'['.rst
    messages/syntax-error,-unexpected-'[',-expecting-';'-or-','.rst
    messages/syntax-error,-unexpected-'|',-expecting-variable-(t_variable).rst
+   messages/syntax-error,-unexpected-end-of-file.rst
    messages/syntax-error,-unexpected-fully-qualified-name-"\xxx",-expecting-"{".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-variable.rst
@@ -389,6 +394,7 @@ PHP Error Messages
    messages/the-behavior-of-unparenthesized-expressions-containing-both-'.'-and-'+'-'-'-will-change-in-php-8:-'+'-'-'-will-take-a-higher-precedence.rst
    messages/the-behavior-of-unparenthesized-expressions-containing-both-'.'-and-'>>'-'<<'-will-change-in-php-8:-'<<'-'>>'-will-take-a-higher-precedence.rst
    messages/the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls.rst
+   messages/the-magic-method-%s::%s()-must-have-public-visibility.rst
    messages/the-parent-constructor-was-not-called:-the-object-is-in-an-invalid-state.rst
    messages/too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d-expected.rst
    messages/too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d.rst

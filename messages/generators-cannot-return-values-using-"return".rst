@@ -22,7 +22,7 @@ Generators cannot return values using "return"
 Description
 ___________
  
-In PHP 5.x, geneatores were not allowed to have return values. It was added in PHP 7.0.
+In PHP 5.x, generators were not allowed to have return values. This feature was added in PHP 7.0, and, after running the full course, generator deliver their return value when calling the ``getReturn`` method.
 
 Example
 _______

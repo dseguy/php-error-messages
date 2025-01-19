@@ -58,3 +58,4 @@ Related Error Messages
 ______________________
 
 + :ref:`cannot-access-%s-constant-%s::%s`
++ :ref:`cannot-access-%s-const-%s::%s`

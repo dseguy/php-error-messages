@@ -56,3 +56,4 @@ Related Error Messages
 ______________________
 
 + :ref:`cannot-use-%s-as-default-value-for-parameter-$%s-of-type-%s`
++ :ref:`cannot-use-%s-as-default-value-for-property-%s::$%s-of-type-%s`

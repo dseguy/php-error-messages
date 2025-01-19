@@ -59,3 +59,4 @@ ______________________
 
 + :ref:`attribute-class-\"%s\"-not-found`
 + :ref:`illegal-class-name`
++ :ref:`%s-cannot-implement-%s---it-is-not-an-interface`

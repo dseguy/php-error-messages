@@ -42,6 +42,7 @@ Features index
 
       * :ref:`%s-function-%s::%s()-cannot-be-declared-private`
       * :ref:`abstract-property-hook-cannot-have-body`
+      * :ref:`can\'t-inherit-abstract-function-%s::%s()-(previously-declared-abstract-in-%s)`
       * :ref:`cannot-declare-promoted-property-in-an-abstract-constructor`
       * :ref:`cannot-make-non-abstract-method-%s::%s()-abstract-in-class-%s`
       * :ref:`cannot-use-\'abstract\'-as-constant-modifier`
@@ -946,12 +947,16 @@ Features index
 
    * magic-method
 
+      * :ref:`%s::%s():-return-type-must-be-%s-when-declared`
+      * :ref:`call-to-%s-%s::%s()-from-invalid`
+      * :ref:`call-to-%s-method-%s::%s()-from-%s%s`
       * :ref:`call-to-undefined-method-%s::%s()`
       * :ref:`cannot-use-the-final-modifier-on-a-property`
       * :ref:`enum-%s-cannot-include-magic-method-%s`
       * :ref:`method-%s::%s()-cannot-be-static`
       * :ref:`property-cannot-be-both-final-and-private`
       * :ref:`property-hook-cannot-be-both-final-and-private`
+      * :ref:`the-magic-method-%s::%s()-must-have-public-visibility`
 
 
    * match
@@ -987,7 +992,10 @@ Features index
       * :ref:`%s-function-%s::%s()-cannot-be-declared-private`
       * :ref:`an-alias-(%s)-was-defined-for-method-%s(),-but-this-method-does-not-exist`
       * :ref:`an-alias-was-defined-for-%s::%s-but-this-method-does-not-exist`
+      * :ref:`call-to-%s-%s::%s()-from-invalid`
+      * :ref:`call-to-%s-method-%s::%s()-from-%s%s`
       * :ref:`call-to-undefined-method-%s::%s()`
+      * :ref:`can\'t-inherit-abstract-function-%s::%s()-(previously-declared-abstract-in-%s)`
       * :ref:`cannot-use-\'readonly\'-as-method-modifier`
       * :ref:`method-name-must-be-a-string`
       * :ref:`non-static-method-%s::%s()-cannot-be-called-statically`
@@ -1398,6 +1406,7 @@ Features index
 
    * returntype
 
+      * :ref:`%s::%s():-return-type-must-be-%s-when-declared`
       * :ref:`returning-bool-from-comparison-function-is-deprecated,-return-an-integer-less-than,-equal-to,-or-greater-than-zero`
 
 
@@ -1428,6 +1437,11 @@ Features index
       * :ref:`\'\%s\'-is-an-invalid-class-name`
       * :ref:`cannot-access-self::-when-no-class-scope-is-active`
       * :ref:`cannot-use-"%s"-when-no-class-scope-is-active`
+
+
+   * semicolon
+
+      * :ref:`syntax-error,-unexpected-end-of-file`
 
 
    * short-tag
@@ -1750,11 +1764,14 @@ Features index
       * :ref:`access-level-to-%s::%s-must-be-%s-(as-in-%s-%s)%s`
       * :ref:`access-type-for-interface-constant-%s::%s-must-be-public`
       * :ref:`access-type-for-interface-method-%s::%s()-must-be-public`
+      * :ref:`call-to-%s-%s::%s()-from-invalid`
+      * :ref:`call-to-%s-method-%s::%s()-from-%s%s`
       * :ref:`cannot-access-%s-const-%s::%s`
       * :ref:`cannot-access-%s-constant-%s::%s`
       * :ref:`cannot-access-%s-property-%s::\$%s`
       * :ref:`multiple-access-type-modifiers-are-not-allowed`
       * :ref:`private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes`
+      * :ref:`the-magic-method-%s::%s()-must-have-public-visibility`
       * :ref:`trying-to-invoke-%s-method-%s::%s()-from-scope-%s`
 
 
