@@ -9,6 +9,8 @@ include 'vendor/autoload.php';
 use samdark\sitemap\Sitemap;
 use samdark\sitemap\Index;
 
+const MINIMUM_DESCRIPTION_SIZE = 100;
+
 
 const LEVELS = array('E_NOTICE' => 1,
 					 'E_COMPILATION_ERROR' => 1,
@@ -61,6 +63,8 @@ $behaviors[] = "";
 
 $files = glob('errors/*.ini');
 $files = array_diff($files, ['errors/skeleton.ini']);
+//$files = array_slice($files, 0, 10);
+
 $stats = array('author' => 0,
 				);
 $errors   = array();
@@ -120,7 +124,11 @@ foreach($files as $file) {
 		buildlog("No description for $file");
 		++$warnings;
 		continue;
+	} elseif (strlen($error->description) < MINIMUM_DESCRIPTION_SIZE) {
+		buildlog("Description is too short: ".strlen($error->description)." for $file");
+		++$warnings;
 	}
+
 
 	if (isset($error->examples) && empty($error->examples)) {
 		buildlog("Empty examples for $file");
@@ -415,26 +423,26 @@ foreach($errors as $file => $message) {
 	$entry[] = str_repeat('-', strlen($message->error));
 	$entry[] = ' ';
 
-	$entry[] = '	.. meta::';
-	$entry[] = '		:description:';
 	$first = preg_split('/[\.\?;'.PHP_EOL.']/', $message->description)[0];
-	$entry[] = '			'.$message->error.': '.htmlspecialchars($first).'.';
+
+	$entry[] = '.. meta::';
+	$entry[] = '	:description:';
+	$entry[] = '		'.$message->error.': '.htmlspecialchars($first).'.';
+	$entry[] = '	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png';
+	$entry[] = '	:og:type: article';
+	$entry[] = '	:og:title: '.htmlspecialchars($message->error);
+	$entry[] = '	:og:description: '.htmlspecialchars($first);
+	$entry[] = '	:og:url: https://php-errors.readthedocs.io/en/latest/messages/'.urlencode(basename($file, '.ini')).'.html';
+	$entry[] = '	:og:locale: en';
+	$entry[] = '	:twitter:card: summary_large_image';
+	$entry[] = '	:twitter:site: @exakat';
+	$entry[] = '	:twitter:title: '.$message->error.'';
+	$entry[] = '	:twitter:description: '.$message->error.': '.$first.'';
+	$entry[] = '	:twitter:creator: @exakat';
+	$entry[] = '	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png';
+
 	$entry[] = '';
-	$entry[] = '		:og:type: article';
-	$entry[] = '		:og:title: '.htmlspecialchars($message->error);
-	$entry[] = '		:og:description: '.htmlspecialchars($first);
-	$entry[] = '		:og:url: https://php-errors.readthedocs.io/en/latest/messages/'.urlencode(basename($file, '.ini')).'.html';
-	$entry[] = '';
-
-/*
-<meta property="og:url"                content="http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html" />
-<meta property="og:type"               content="article" />
-<meta property="og:title"              content="When Great Minds Don’t Think Alike" />
-<meta property="og:description"        content="How much does culture influence creative thinking?" />
-<meta property="og:image"              content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />
-*/
-
-
+	
 	$entry[] = 'Description';
 	$entry[] = str_repeat('_', strlen('Description'));
 	$entry[] = ' ';
