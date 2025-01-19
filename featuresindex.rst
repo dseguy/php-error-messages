@@ -334,6 +334,7 @@ Features index
       * :ref:`cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s`
       * :ref:`cannot-inherit-previously-inherited-or-override-constant-%s-from-interface-%s`
       * :ref:`cannot-make-non-abstract-method-%s::%s()-abstract-in-class-%s`
+      * :ref:`class-%s-cannot-extend-%s-%s`
       * :ref:`class-\"%s\"-not-found`
       * :ref:`illegal-class-name`
       * :ref:`must-be-a-user-defined-class-name,-internal-class-name-given`
@@ -344,6 +345,8 @@ Features index
       * :ref:`"static::"-is-not-allowed-in-compile-time-constants`
       * :ref:`%s-%s-inherits-both-%s::%s-and-%s::%s`
       * :ref:`%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed`
+      * :ref:`cannot-access-%s-const-%s::%s`
+      * :ref:`cannot-access-%s-constant-%s::%s`
       * :ref:`cannot-assign-%s-to-class-constant-%s::%s-of-type`
       * :ref:`cannot-be-a-class-constant`
       * :ref:`cannot-inherit-previously-inherited-or-override-constant-%s-from-interface-%s`
@@ -374,6 +377,7 @@ Features index
 
       * :ref:`cannot-bind-an-instance-to-a-static-closure`
       * :ref:`cannot-use-variable-\$%s-twice`
+      * :ref:`syntax-error,-unexpected-token-"("`
       * :ref:`use-of-\"parent\"-in-callables-is-deprecated`
       * :ref:`use-of-\"self\"-in-callables-is-deprecated`
       * :ref:`use-of-\"static\"-in-callables-is-deprecated`
@@ -406,6 +410,8 @@ Features index
       * :ref:`could-not-check-compatibility-between-%s-and-%s,-because-class-%s-is-not-available`
       * :ref:`declaration-of-%s-must-be-compatible-with-%s`
       * :ref:`declaration-of-y::foo()-must-be-compatible-with-x::foo(\$a)`
+      * :ref:`type-of-%s::\$%s-must-be-%s%s-(as-in-class-%s)`
+      * :ref:`type-of-%s::\$%s-must-not-be-defined-(as-in-class-%s)`
 
 
    * compile-time
@@ -464,6 +470,7 @@ Features index
       * :ref:`constructor-%s::%s()-cannot-declare-a-return-type`
       * :ref:`constructors-cannot-declare-a-return-type`
       * :ref:`method-%s::%s()-cannot-declare-a-return-type`
+      * :ref:`methods-with-the-same-name-as-their-class-will-not-be-constructors-in-a-future-version-of-php;-%s-has-a-deprecated-constructor`
       * :ref:`object-of-type-%s-has-not-been-correctly-initialized-by-calling-parent::__construct()-in-its-constructor`
       * :ref:`the-parent-constructor-was-not-called:-the-object-is-in-an-invalid-state`
 
@@ -515,6 +522,7 @@ Features index
    * default-value
 
       * :ref:`cannot-use-%s-as-default-value-for-parameter-\$%s-of-type-%s`
+      * :ref:`cannot-use-%s-as-default-value-for-property-%s::\$%s-of-type-%s`
       * :ref:`default-value-for-parameters-with-a-%s-type-can-only-be-%s-or-null`
 
 
@@ -682,6 +690,7 @@ Features index
       * :ref:`cannot-override-final-property-hook-%s::%s()`
       * :ref:`cannot-use-the-%s-modifier-on-a-%s`
       * :ref:`cannot-use-the-final-modifier-on-a-property`
+      * :ref:`class-%s-cannot-extend-%s-%s`
       * :ref:`class-%s-cannot-extend-final-class-%s`
       * :ref:`private-constant-%s::%s-cannot-be-final-as-it-is-not-visible-to-other-classes`
       * :ref:`private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes`
@@ -783,6 +792,7 @@ Features index
    * implements
 
       * :ref:`%s-%s-cannot-implement-previously-implemented-interface-%s`
+      * :ref:`%s-cannot-implement-%s---it-is-not-an-interface`
       * :ref:`b-cannot-implement-a---it-is-not-an-interface`
       * :ref:`class-%s-cannot-implement-both-iterator-and-iteratoraggregate-at-the-same-time`
       * :ref:`syntax-error,-unexpected-token-"extends",-expecting-"{"`
@@ -912,6 +922,8 @@ Features index
       * :ref:`cannot-use-list()-as-standalone-expression`
       * :ref:`spread-operator-is-not-supported-in-assignments`
       * :ref:`syntax-error,-unexpected-\',\'`
+      * :ref:`syntax-error,-unexpected-token-",",-expecting-variable-or-"\$"`
+      * :ref:`syntax-error,-unexpected-token-",",-expecting-variable`
       * :ref:`the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls`
 
 
@@ -981,6 +993,7 @@ Features index
       * :ref:`non-static-method-%s::%s()-cannot-be-called-statically`
       * :ref:`non-static-method-%s::%s()-should-not-be-called-statically`
       * :ref:`syntax-error,-unexpected-token-"(",-expecting-identifier-or-variable-or-"{"-or-"\$"`
+      * :ref:`syntax-error,-unexpected-token-"("`
       * :ref:`too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d-expected`
       * :ref:`too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d`
       * :ref:`trying-to-invoke-%s-method-%s::%s()-from-scope-%s`
@@ -1071,6 +1084,7 @@ Features index
 
       * :ref:`%s():-passing-null-to-parameter-#%`
       * :ref:`attempt-to-assign-property-"%s"-on-null`
+      * :ref:`can\'t-use-nullsafe-operator-in-write-context`
       * :ref:`trying-to-access-array-offset-on-%s`
 
 
@@ -1082,6 +1096,11 @@ Features index
    * nullsafe-object-operator
 
       * :ref:`%s()-argument-#%d%s%s%s-cannot-be-passed-by-reference`
+
+
+   * nullsafe-operator
+
+      * :ref:`can\'t-use-nullsafe-operator-in-write-context`
 
 
    * object
@@ -1157,6 +1176,7 @@ Features index
 
       * :ref:`%s():-implicitly-marking-parameter-\$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead`
       * :ref:`cannot-use-%s-as-default-value-for-parameter-\$%s-of-type-%s`
+      * :ref:`cannot-use-%s-as-default-value-for-property-%s::\$%s-of-type-%s`
       * :ref:`cannot-use-lexical-variable-%s-as-a-parameter-name`
       * :ref:`default-value-for-parameters-with-a-%s-type-can-only-be-%s-or-null`
       * :ref:`named-parameter-\$x-overwrites-previous-argument`
@@ -1228,6 +1248,7 @@ Features index
 
       * :ref:`accessing-static-trait-property-%s::\$%s-is-deprecated`
       * :ref:`attempt-to-assign-property-"%s"-on-null`
+      * :ref:`cannot-access-%s-property-%s::\$%s`
       * :ref:`cannot-acquire-reference-to-readonly-property`
       * :ref:`cannot-assign-%s-to-property-%s::\$%s-of-type-%s`
       * :ref:`cannot-auto-initialize-an-array-inside-property-%s::\$%s-of-type-%s`
@@ -1238,7 +1259,11 @@ Features index
       * :ref:`property-%s-does-not-exist`
       * :ref:`property-%s::\$%s-cannot-have-type-%s`
       * :ref:`property-%s::\$%s-does-not-exist`
+      * :ref:`syntax-error,-unexpected-token-",",-expecting-variable-or-"\$"`
+      * :ref:`syntax-error,-unexpected-token-",",-expecting-variable`
       * :ref:`syntax-error,-unexpected-token-"=",-expecting-identifier-or-variable-or-"{"-or-"\$"`
+      * :ref:`type-of-%s::\$%s-must-be-%s%s-(as-in-class-%s)`
+      * :ref:`type-of-%s::\$%s-must-not-be-defined-(as-in-class-%s)`
       * :ref:`undefined-property-%s::\$%s`
 
 
@@ -1452,6 +1477,7 @@ Features index
 
       * :ref:`"static::"-is-not-allowed-in-compile-time-constants`
       * :ref:`\'\%s\'-is-an-invalid-class-name`
+      * :ref:`accessing-static-property-%s::\$%s-as-non-static`
       * :ref:`cannot-access-static::-when-no-class-scope-is-active`
       * :ref:`cannot-use-"%s"-when-no-class-scope-is-active`
       * :ref:`cannot-use-"static"-when-no-class-scope-is-active`
@@ -1512,6 +1538,7 @@ Features index
       * :ref:`only-the-first-byte-will-be-assigned-to-the-string-offset`
       * :ref:`syntax-error,-unexpected-\'[\',-expecting-\';\'-or-\',\'`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";"`
+      * :ref:`syntax-error,-unexpected-string-content`
       * :ref:`uninitialized-string-offset`
       * :ref:`using-\${var}-in-strings-is-deprecated,-use-{\$var}-instead`
 
@@ -1616,6 +1643,7 @@ Features index
       * :ref:`cannot-assign-%s-to-property-%s::\$%s-of-type-%s`
       * :ref:`cannot-auto-initialize-an-array-inside-property-%s::\$%s-of-type-%s`
       * :ref:`cannot-use-%s-as-default-value-for-parameter-\$%s-of-type-%s`
+      * :ref:`cannot-use-%s-as-default-value-for-property-%s::\$%s-of-type-%s`
       * :ref:`default-value-for-parameters-with-a-%s-type-can-only-be-%s-or-null`
       * :ref:`duplicate-type-%s-is-redundant`
       * :ref:`is-an-invalid-class-name`
@@ -1722,6 +1750,9 @@ Features index
       * :ref:`access-level-to-%s::%s-must-be-%s-(as-in-%s-%s)%s`
       * :ref:`access-type-for-interface-constant-%s::%s-must-be-public`
       * :ref:`access-type-for-interface-method-%s::%s()-must-be-public`
+      * :ref:`cannot-access-%s-const-%s::%s`
+      * :ref:`cannot-access-%s-constant-%s::%s`
+      * :ref:`cannot-access-%s-property-%s::\$%s`
       * :ref:`multiple-access-type-modifiers-are-not-allowed`
       * :ref:`private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes`
       * :ref:`trying-to-invoke-%s-method-%s::%s()-from-scope-%s`

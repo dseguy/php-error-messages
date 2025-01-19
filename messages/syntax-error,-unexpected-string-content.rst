@@ -38,9 +38,11 @@ _______
 Solutions
 _________
 
-+ 
++ Close the string with a single quote.
++ Close the string with a double quote.
 
 Related Error Messages
 ______________________
 
 + :ref:`unclosed-'{'`
++ :ref:`unmatched-'}'`

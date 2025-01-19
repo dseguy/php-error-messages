@@ -60,3 +60,4 @@ ______________________
 
 + :ref:`access-to-undeclared-static-property-%s::$%s`
 + :ref:`property-%s-does-not-exist`
++ :ref:`property-%s::$%s-does-not-exist`

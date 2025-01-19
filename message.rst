@@ -26,6 +26,7 @@ PHP Error Messages
    messages/%s-%s-inherits-both-%s::%s-and-%s::%s.rst
    messages/%s-%s-must-implement-interface-%s-as-part-of-either-%s-or-%s.rst
    messages/%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed.rst
+   messages/%s-cannot-implement-%s---it-is-not-an-interface.rst
    messages/%s-cannot-use-%s---it-is-not-a-trait.rst
    messages/%s-function-%s::%s()-cannot-be-declared-private.rst
    messages/%s-virtual-property-%s::$%s-must-not-specify-asymmetric-visibility.rst
@@ -55,6 +56,7 @@ PHP Error Messages
    messages/access-to-undeclared-static-property-%s::$%s.rst
    messages/access-type-for-interface-constant-%s::%s-must-be-public.rst
    messages/access-type-for-interface-method-%s::%s()-must-be-public.rst
+   messages/accessing-static-property-%s::$%s-as-non-static.rst
    messages/accessing-static-trait-property-%s::$%s-is-deprecated,-it-should-only-be-accessed-on-a-class-using-the-trait.rst
    messages/accessing-static-trait-property-%s::$%s-is-deprecated.rst
    messages/an-alias-(%s)-was-defined-for-method-%s(),-but-this-method-does-not-exist.rst
@@ -90,7 +92,11 @@ PHP Error Messages
    messages/calling-get_class()-without-arguments-is-deprecated.rst
    messages/calling-get_parent_class()-without-arguments-is-deprecated.rst
    messages/calling-static-trait-method-%s::%s-is-deprecated.rst
+   messages/can\'t-use-nullsafe-operator-in-write-context.rst
    messages/cannot-%s-readonly-property-%s::$%s-from-%s%s.rst
+   messages/cannot-access-%s-const-%s::%s.rst
+   messages/cannot-access-%s-constant-%s::%s.rst
+   messages/cannot-access-%s-property-%s::$%s.rst
    messages/cannot-access-offset-of-type-%s-in-isset-or-empty.rst
    messages/cannot-access-offset-of-type-%s-on-%s.rst
    messages/cannot-access-parent::-when-current-class-scope-has-no-parent.rst
@@ -140,6 +146,7 @@ PHP Error Messages
    messages/cannot-use-"%s"-when-no-class-scope-is-active.rst
    messages/cannot-use-"static"-when-no-class-scope-is-active.rst
    messages/cannot-use-%s-as-default-value-for-parameter-$%s-of-type-%s.rst
+   messages/cannot-use-%s-as-default-value-for-property-%s::$%s-of-type-%s.rst
    messages/cannot-use-'abstract'-as-constant-modifier.rst
    messages/cannot-use-'final'-as-constant-modifier.rst
    messages/cannot-use-'mixed'-as-class-name-as-it-is-reserved.rst
@@ -170,6 +177,7 @@ PHP Error Messages
    messages/cannot-use-try-without-catch-or-finally.rst
    messages/cannot-use-variable-$%s-twice.rst
    messages/case-%s::%s-does-not-exist.rst
+   messages/class-%s-cannot-extend-%s-%s.rst
    messages/class-%s-cannot-extend-final-class-%s.rst
    messages/class-%s-cannot-implement-both-iterator-and-iteratoraggregate-at-the-same-time.rst
    messages/class-%s-cannot-implement-previously-implemented-interface-%s.rst
@@ -260,6 +268,7 @@ PHP Error Messages
    messages/method-%s::%s()-must-be-static.rst
    messages/method-%s::__tostring()-must-not-throw-an-exception,-caught-%s:-%s.rst
    messages/method-name-must-be-a-string.rst
+   messages/methods-with-the-same-name-as-their-class-will-not-be-constructors-in-a-future-version-of-php;-%s-has-a-deprecated-constructor.rst
    messages/multiple-access-type-modifiers-are-not-allowed.rst
    messages/multiple-readonly-modifiers-are-not-allowed.rst
    messages/multiple-static-modifiers-are-not-allowed.rst
@@ -347,7 +356,10 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-"&",-expecting-end-of-file.rst
    messages/syntax-error,-unexpected-token-"&".rst
    messages/syntax-error,-unexpected-token-"(",-expecting-identifier-or-variable-or-"{"-or-"$".rst
+   messages/syntax-error,-unexpected-token-"(".rst
    messages/syntax-error,-unexpected-token-"*".rst
+   messages/syntax-error,-unexpected-token-",",-expecting-variable-or-"$".rst
+   messages/syntax-error,-unexpected-token-",",-expecting-variable.rst
    messages/syntax-error,-unexpected-token-"->".rst
    messages/syntax-error,-unexpected-token-":".rst
    messages/syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"[".rst
@@ -393,6 +405,8 @@ PHP Error Messages
    messages/type-contains-both-true-and-false,-bool-must-be-used-instead.rst
    messages/type-declaration-'%s'-must-be-unqualified.rst
    messages/type-must-be-a-single-character.rst
+   messages/type-of-%s::$%s-must-be-%s%s-(as-in-class-%s).rst
+   messages/type-of-%s::$%s-must-not-be-defined-(as-in-class-%s).rst
    messages/typed-property-%s\:\:$%s-must-not-be-accessed-before-initialization.rst
    messages/typed-static-property-%s::$%s-must-not-be-accessed-before-initialization.rst
    messages/unclosed-'{'.rst

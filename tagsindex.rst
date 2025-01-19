@@ -237,6 +237,11 @@ Tag index
       * :ref:`the-(real)-cast-is-deprecated,-use-(float)-instead`
 
 
+   * removed feature
+
+      * :ref:`methods-with-the-same-name-as-their-class-will-not-be-constructors-in-a-future-version-of-php;-%s-has-a-deprecated-constructor`
+
+
    * removed message
 
       * :ref:`traits-cannot-have-constants`
@@ -287,7 +292,10 @@ Tag index
       * :ref:`syntax-error,-unexpected-token-"&",-expecting-end-of-file`
       * :ref:`syntax-error,-unexpected-token-"&"`
       * :ref:`syntax-error,-unexpected-token-"(",-expecting-identifier-or-variable-or-"{"-or-"$"`
+      * :ref:`syntax-error,-unexpected-token-"("`
       * :ref:`syntax-error,-unexpected-token-"*"`
+      * :ref:`syntax-error,-unexpected-token-",",-expecting-variable-or-"$"`
+      * :ref:`syntax-error,-unexpected-token-",",-expecting-variable`
       * :ref:`syntax-error,-unexpected-token-"->"`
       * :ref:`syntax-error,-unexpected-token-":"`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"["`
