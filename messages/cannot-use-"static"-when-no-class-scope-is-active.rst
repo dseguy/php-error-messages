@@ -43,6 +43,3 @@ _________
 
 
 In previous PHP versions, this error message used to be :ref:`cannot-access-static::-when-no-class-scope-is-active`.
-
-
-In more recent PHP versions, this error message is now :ref:`no-next-error`.

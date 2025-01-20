@@ -108,7 +108,9 @@ PHP Error Messages
    messages/cannot-access-self::-when-no-class-scope-is-active.rst
    messages/cannot-access-static::-when-no-class-scope-is-active.rst
    messages/cannot-access-trait-constant-%s::%s-directly.rst
+   messages/cannot-acquire-reference-to-$globals.rst
    messages/cannot-acquire-reference-to-readonly-property.rst
+   messages/cannot-acquire-reference-to-readonly-property-%s::$%s.rst
    messages/cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s.rst
    messages/cannot-assign-%s-to-class-constant-%s::%s-of-type.rst
    messages/cannot-assign-%s-to-property-%s::$%s-of-type-%s.rst
@@ -226,6 +228,7 @@ PHP Error Messages
    messages/enum-%s-cannot-include-magic-method-%s.rst
    messages/enum-%s-cannot-include-properties.rst
    messages/enum-case-value-must-be-compile-time-evaluatable.rst
+   messages/error-at-offset-%zd-of-%zd.rst
    messages/exponent-cannot-have-a-fractional-part.rst
    messages/failed-to-open-stream-from-socketpair.rst
    messages/fetching-properties-on-non-enums-in-constant-expressions-is-not-allowed.rst
@@ -350,6 +353,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-')',-expecting-variable-(t_variable).rst
    messages/syntax-error,-unexpected-','.rst
    messages/syntax-error,-unexpected-'-',-expecting-'='.rst
+   messages/syntax-error,-unexpected-\'::\',-expecting-\'(\'.rst
    messages/syntax-error,-unexpected-';',-expecting-'['.rst
    messages/syntax-error,-unexpected-'[',-expecting-';'-or-','.rst
    messages/syntax-error,-unexpected-'|',-expecting-variable-(t_variable).rst
@@ -367,6 +371,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-",",-expecting-variable.rst
    messages/syntax-error,-unexpected-token-"->".rst
    messages/syntax-error,-unexpected-token-":".rst
+   messages/syntax-error,-unexpected-token-"::".rst
    messages/syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"[".rst
    messages/syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"{"-or-"[".rst
    messages/syntax-error,-unexpected-token-"<<".rst

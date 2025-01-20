@@ -22,7 +22,7 @@ Static property %s::$%s cannot be readonly
 Description
 ___________
  
-Static properties cannot use the readonly option. 
+Static properties cannot use the readonly option. ``readonly`` does not support static properties.
 
 Example
 _______

@@ -44,6 +44,3 @@ _________
 
 + Upgrade to PHP 7.0 or more recent.
 + Use a global variable to export data from the method.
-
-
-In more recent PHP versions, this error message is now :ref:`no-next-error`.

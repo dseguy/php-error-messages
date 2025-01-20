@@ -899,6 +899,7 @@ Features index
    * keyword
 
       * :ref:`never-cannot-be-used-as-a-parameter-type`
+      * :ref:`syntax-error,-unexpected-token-"::"`
 
 
    * label
@@ -919,6 +920,7 @@ Features index
       * :ref:`cannot-mix-keyed-and-unkeyed-array-entries-in-assignments`
       * :ref:`cannot-use-empty-array-elements-in-arrays`
       * :ref:`cannot-use-empty-array-entries-in-keyed-array-assignment`
+      * :ref:`cannot-use-empty-list`
       * :ref:`cannot-use-empty-list`
       * :ref:`cannot-use-list()-as-standalone-expression`
       * :ref:`spread-operator-is-not-supported-in-assignments`
@@ -1257,7 +1259,9 @@ Features index
       * :ref:`accessing-static-trait-property-%s::\$%s-is-deprecated`
       * :ref:`attempt-to-assign-property-"%s"-on-null`
       * :ref:`cannot-access-%s-property-%s::\$%s`
-      * :ref:`cannot-acquire-reference-to-readonly-property`
+      * :ref:`cannot-acquire-reference-to-\$globals`
+      * :ref:`cannot-acquire-reference-to-readonly-property %s::\$%s`
+      * :ref:`cannot-acquire-reference-to-readonly-property-%s::\$%s`
       * :ref:`cannot-assign-%s-to-property-%s::\$%s-of-type-%s`
       * :ref:`cannot-auto-initialize-an-array-inside-property-%s::\$%s-of-type-%s`
       * :ref:`cannot-declare-variadic-promoted-property`
@@ -1313,7 +1317,9 @@ Features index
    * readonly
 
       * :ref:`cannot-%s-readonly-property-%s::\$%s-from-%s%s`
-      * :ref:`cannot-acquire-reference-to-readonly-property`
+      * :ref:`cannot-acquire-reference-to-\$globals`
+      * :ref:`cannot-acquire-reference-to-readonly-property %s::\$%s`
+      * :ref:`cannot-acquire-reference-to-readonly-property-%s::\$%s`
       * :ref:`cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s`
       * :ref:`cannot-modify-readonly-property-%s::\$%s`
       * :ref:`cannot-use-\'readonly\'-as-method-modifier`
@@ -1338,7 +1344,9 @@ Features index
       * :ref:`%s():-argument-#%d%s%s%s-cannot-not-be-passed-by-reference`
       * :ref:`%s():-argument-#%d%s%s%s-could-not-be-passed-by-reference`
       * :ref:`an-iterator-cannot-be-used-with-foreach-by-reference`
-      * :ref:`cannot-acquire-reference-to-readonly-property`
+      * :ref:`cannot-acquire-reference-to-\$globals`
+      * :ref:`cannot-acquire-reference-to-readonly-property %s::\$%s`
+      * :ref:`cannot-acquire-reference-to-readonly-property-%s::\$%s`
       * :ref:`cannot-pass-parameter-%d-by-reference`
       * :ref:`cannot-use-variable-\$%s-twice`
       * :ref:`only-variable-references-should-be-returned-by-reference`
@@ -1442,6 +1450,11 @@ Features index
    * semicolon
 
       * :ref:`syntax-error,-unexpected-end-of-file`
+
+
+   * serialization
+
+      * :ref:`error-at-offset-%zd-of-%zd`
 
 
    * short-tag

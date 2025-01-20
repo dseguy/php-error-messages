@@ -49,6 +49,3 @@ ______________________
 + :ref:`handling-base64-via-mbstring-is-deprecated;-use-base64_encode-base64_decode-instead`
 + :ref:`handling-html-entities-via-mbstring-is-deprecated;-use-htmlspecialchars,-htmlentities,-or-mb_encode_numericentity-mb_decode_numericentity`
 + :ref:`handling-qprint-via-mbstring-is-deprecated;-use-quoted_printable_encode-quoted_printable_decode`
-
-
-In previous PHP versions, this error message used to be :ref:`no-previous-error`.

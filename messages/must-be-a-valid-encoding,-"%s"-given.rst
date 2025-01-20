@@ -52,6 +52,3 @@ Solutions
 _________
 
 + Check the encoding with mb_list_encodings() before using one.
-
-
-In previous PHP versions, this error message used to be :ref:`no-previous-error`.

@@ -1,21 +1,21 @@
-.. _cannot-acquire-reference-to-readonly-property:
+.. _cannot-acquire-reference-to-readonly-property-%s::\$%s:
 
-Cannot acquire reference to readonly property 
-----------------------------------------------
+Cannot acquire reference to readonly property %s::$%s
+-----------------------------------------------------
  
 .. meta::
 	:description:
-		Cannot acquire reference to readonly property : It is not possible to create a reference to a readonly property.
+		Cannot acquire reference to readonly property %s::$%s: It is not possible to create a reference to a readonly property.
 	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
-	:og:title: Cannot acquire reference to readonly property 
+	:og:title: Cannot acquire reference to readonly property %s::$%s
 	:og:description: It is not possible to create a reference to a readonly property
-	:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-acquire-reference-to-readonly-property+%25s%3A%3A%24%25s.html
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-acquire-reference-to-readonly-property-%25s%3A%3A%24%25s.html
 	:og:locale: en
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Cannot acquire reference to readonly property 
-	:twitter:description: Cannot acquire reference to readonly property : It is not possible to create a reference to a readonly property
+	:twitter:title: Cannot acquire reference to readonly property %s::$%s
+	:twitter:description: Cannot acquire reference to readonly property %s::$%s: It is not possible to create a reference to a readonly property
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 

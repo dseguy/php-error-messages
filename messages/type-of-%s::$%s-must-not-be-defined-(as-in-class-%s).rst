@@ -35,7 +35,7 @@ _______
        public $a;
    }
    
-   class Y extends x {
+   class Y extends X {
        public array $a;
    }
    

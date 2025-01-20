@@ -148,6 +148,8 @@ Tag index
 
       * :ref:`cannot-use-\'mixed\'-as-class-name-as-it-is-reserved`
       * :ref:`cannot-use-\'never\'-as-class-name-as-it-is-reserved`
+      * :ref:`syntax-error,-unexpected-\'::\',-expecting-\'(\'`
+      * :ref:`syntax-error,-unexpected-token-"::"`
 
 
    * late-static-binding
@@ -212,7 +214,9 @@ Tag index
 
    * readonly
 
-      * :ref:`cannot-acquire-reference-to-readonly-property`
+      * :ref:`cannot-acquire-reference-to-$globals`
+      * :ref:`cannot-acquire-reference-to-readonly-property %s::$%s`
+      * :ref:`cannot-acquire-reference-to-readonly-property-%s::$%s`
 
 
    * redeclare
@@ -222,7 +226,9 @@ Tag index
 
    * reference
 
-      * :ref:`cannot-acquire-reference-to-readonly-property`
+      * :ref:`cannot-acquire-reference-to-$globals`
+      * :ref:`cannot-acquire-reference-to-readonly-property %s::$%s`
+      * :ref:`cannot-acquire-reference-to-readonly-property-%s::$%s`
 
 
    * relative-types
@@ -282,6 +288,7 @@ Tag index
       * :ref:`syntax-error,-unexpected-\')\',-expecting-variable-(t_variable)`
       * :ref:`syntax-error,-unexpected-\',\'`
       * :ref:`syntax-error,-unexpected-\'-\',-expecting-\'=\'`
+      * :ref:`syntax-error,-unexpected-\'::\',-expecting-\'(\'`
       * :ref:`syntax-error,-unexpected-\';\',-expecting-\'[\'`
       * :ref:`syntax-error,-unexpected-\'[\',-expecting-\';\'-or-\',\'`
       * :ref:`syntax-error,-unexpected-\'|\',-expecting-variable-(t_variable)`
@@ -299,6 +306,7 @@ Tag index
       * :ref:`syntax-error,-unexpected-token-",",-expecting-variable`
       * :ref:`syntax-error,-unexpected-token-"->"`
       * :ref:`syntax-error,-unexpected-token-":"`
+      * :ref:`syntax-error,-unexpected-token-"::"`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"["`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"{"-or-"["`
       * :ref:`syntax-error,-unexpected-token-"<<"`

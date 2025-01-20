@@ -61,3 +61,8 @@ _________
 + Copy ``$GLOBALS`` to a variable and pass this variable.
 + Copy the constant value to a variable and pass this variable.
 + Copy the literal value to a variable and pass this variable.
+
+Related Error Messages
+______________________
+
++ :ref:`cannot-acquire-reference-to-$globals`

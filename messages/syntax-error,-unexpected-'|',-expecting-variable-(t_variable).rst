@@ -46,6 +46,3 @@ _________
 + Upgrade to PHP 8.0.
 + Find a common supertype to the two (or more) involved types.
 + Remove all types.
-
-
-In more recent PHP versions, this error message is now :ref:`no-next-error`.
