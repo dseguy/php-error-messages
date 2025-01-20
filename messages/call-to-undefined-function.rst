@@ -71,3 +71,4 @@ Related Error Messages
 ______________________
 
 + :ref:`call-to-undefined-function-each()`
++ :ref:`call-to-undefined-function-exit()`

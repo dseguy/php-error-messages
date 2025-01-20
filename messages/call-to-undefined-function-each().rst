@@ -22,7 +22,7 @@ Call to undefined function each()
 Description
 ___________
  
-each() used to be a PHP native function. It was deprecated in PHP 8.0, and is now undefined.
+each() used to be a PHP native function. It was deprecated in PHP 7.4, and is undefined since PHP 8.0.
 
 Example
 _______
@@ -42,14 +42,15 @@ Solutions
 _________
 
 + Downgrade to PHP 7.x.
-+ Use yield.
-+ Use yield from.
-+ Use foreach().
++ Use ``yield``.
++ Use ``yield from``.
++ Use ``foreach()``.
 
 Related Error Messages
 ______________________
 
 + :ref:`call-to-undefined-function`
++ :ref:`call-to-undefined-function-exit()`
 
 
 In previous PHP versions, this error message used to be :ref:`the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls`.

@@ -1094,6 +1094,7 @@ Features index
 
       * :ref:`%s():-passing-null-to-parameter-#%`
       * :ref:`attempt-to-assign-property-"%s"-on-null`
+      * :ref:`attempt-to-read-property-\"%s\"-on-%s`
       * :ref:`can\'t-use-nullsafe-operator-in-write-context`
       * :ref:`trying-to-access-array-offset-on-%s`
 

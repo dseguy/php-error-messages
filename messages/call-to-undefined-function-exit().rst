@@ -43,3 +43,9 @@ Solutions
 _________
 
 + Upgrade to PHP 8.4.
+
+Related Error Messages
+______________________
+
++ :ref:`call-to-undefined-function`
++ :ref:`call-to-undefined-function-each()`
