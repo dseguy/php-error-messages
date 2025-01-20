@@ -77,6 +77,8 @@ $tags     = array();
 $features = array();
 $ids      = array();
 $extensions = array();
+$rules = array();
+$links = 0;
 $warnings = 0;
 foreach($files as $file) {
     $raw = file_get_contents($file);
@@ -128,7 +130,6 @@ foreach($files as $file) {
 		buildlog("Description is too short: ".strlen($error->description)." for $file");
 		++$warnings;
 	}
-
 
 	if (isset($error->examples) && empty($error->examples)) {
 		buildlog("Empty examples for $file");
@@ -246,13 +247,32 @@ foreach($files as $file) {
 		}
 	}
 
+	if (!isset($error->analyzer)) {
+//		buildlog("No analyzer entry for $file");
+		++$warnings;
+//		continue;
+	} else {
+	    $error->analyzer = array_filter($error->analyzer);
+	    
+	    foreach($error->analyzer as $analyze) {
+    	    if (!file_exists('../analyzeG3/human/en/'.$analyze.'.ini')) {
+	    		buildlog($analyze." doesn't exist as an exakat rule in $file");
+		    	++$warnings;
+    	    } else {
+    	        $rules[$analyze] ??= 0;
+    	        @$rules[$analyze]++;
+    	    }
+	    }
+	}
+
 	if (empty($error->phpVersion)) {
 		buildlog("Empty phpVersion for $file");
 		++$warnings;
 		continue;
 	} else {
 	    if ($error->phpVersion[-1] !== '+' && $error->phpVersion[-1] !== '-' && empty($error->next)) {
-	        print "The error '$error->id' was finished in $error->phpVersion\n";
+	        buildlog("The error '$error->id' was finished in $error->phpVersion");
+    		++$warnings;
 	    }
 	}
 
@@ -357,6 +377,7 @@ foreach($files as $file) {
 				}
 			}
 			
+		    ++$links;
 			if ($target === $related) {
 				buildlog("Remove self related '$target' in $file");
 				++$warnings;
@@ -514,13 +535,13 @@ foreach($errors as $file => $message) {
 		$entry[] = '';
 	}
 
-	if (!empty($message->previous)) {
+	if (!empty($message->previous) && $message->previous !== 'no-previous-error') {
 		$entry[] = '';
 		$entry[] = "In previous PHP versions, this error message used to be :ref:`".$message->previous."`.";
 		$entry[] = '';
 	}
 
-	if (!empty($message->next)) {
+	if (!empty($message->next) && $message->next !== 'no-next-error') {
 		$entry[] = '';
 		$entry[] = "In more recent PHP versions, this error message is now :ref:`".$message->next."`.";
 		$entry[] = '';
@@ -615,7 +636,9 @@ print "processed ".count($tags)." tags\n";
 print "processed ".count($syntaxErrors)." syntax errors\n";
 print "processed ".count($features)." features\n";
 print "processed ".count($files)." files\n";
+print "processed ".count($rules)." rules\n";
 print "processed ".count($extensions)." extensions\n";
+print "processed $links related\n";
 print "warnings: $warnings\n";
 
 $sitemap->write();
