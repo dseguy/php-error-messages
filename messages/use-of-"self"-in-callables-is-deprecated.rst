@@ -10,7 +10,7 @@ Use of "self" in callables is deprecated
 	:og:type: article
 	:og:title: Use of &quot;self&quot; in callables is deprecated
 	:og:description: Since PHP 8
-	:og:url: https://php-errors.readthedocs.io/en/latest/messages/use-of-%5C%22self%5C%22-in-callables-is-deprecated.html
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/use-of-%22self%22-in-callables-is-deprecated.html
 	:og:locale: en
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
@@ -54,8 +54,8 @@ _________
 Related Error Messages
 ______________________
 
-+ :ref:`use-of-\"parent\"-in-callables-is-deprecated`
-+ :ref:`use-of-\"static\"-in-callables-is-deprecated`
++ :ref:`use-of-"parent"-in-callables-is-deprecated`
++ :ref:`use-of-"static"-in-callables-is-deprecated`
 
 See Also
 ________

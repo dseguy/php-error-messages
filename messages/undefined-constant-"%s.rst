@@ -10,7 +10,7 @@ Undefined constant "%s
 	:og:type: article
 	:og:title: Undefined constant &quot;%s
 	:og:description: The requested constant doesn&#039;t exist
-	:og:url: https://php-errors.readthedocs.io/en/latest/messages/undefined-constant-%5C%22%25s.html
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/undefined-constant-%22%25s.html
 	:og:locale: en
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat

@@ -10,7 +10,7 @@
 	:og:type: article
 	:og:title: &quot;%s&quot; will be interpreted as a class name. Did you mean &quot;%s&quot;? Write &quot;\%s&quot;%s to suppress this warning
 	:og:description: PHP offers several native type, such as ``bool`` or ``int``
-	:og:url: https://php-errors.readthedocs.io/en/latest/messages/%25s%5C%22-will-be-interpreted-as-a-class-name.-did-you-mean-%5C%22%25s%5C%22%3F-write-%5C%22%5C%5C%25s%5C%22%25s-to-suppress-this-warning.html
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/%25s%22-will-be-interpreted-as-a-class-name.-did-you-mean-%22%25s%22%3F-write-%22%25s%22%25s-to-suppress-this-warning.html
 	:og:locale: en
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat

@@ -56,4 +56,6 @@ Related Error Messages
 ______________________
 
 + :ref:`unclosed-'{'`
++ :ref:`unmatched-']'`
++ :ref:`unmatched-')'`
 + :ref:`syntax-error,-unexpected-string-content`

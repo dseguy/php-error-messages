@@ -54,5 +54,5 @@ _________
 Related Error Messages
 ______________________
 
-+ :ref:`class-\"%s\"-not-found`
++ :ref:`class-"%s"-not-found`
 + :ref:`interface-"%s"-not-found`

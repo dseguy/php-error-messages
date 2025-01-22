@@ -10,7 +10,7 @@ Attribute "%s" cannot target %s (allowed targets: %s)
 	:og:type: article
 	:og:title: Attribute &quot;%s&quot; cannot target %s (allowed targets: %s)
 	:og:description: Attributes are built with a specific target, and may not be applicable to any structure
-	:og:url: https://php-errors.readthedocs.io/en/latest/messages/attribute-%5C%22%25s%5C%22-cannot-target-%25s-%28allowed-targets%3A-%25s%29.html
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/attribute-%22%25s%22-cannot-target-%25s-%28allowed-targets%3A-%25s%29.html
 	:og:locale: en
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat

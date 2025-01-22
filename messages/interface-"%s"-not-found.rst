@@ -42,8 +42,8 @@ _______
 
 Literal Examples
 ****************
-+ Interface \"4f\" not found
-+ Interface \"interface\" not found
++ Interface "4f" not found
++ Interface "interface" not found
 
 Solutions
 _________
@@ -57,6 +57,6 @@ _________
 Related Error Messages
 ______________________
 
-+ :ref:`attribute-class-\"%s\"-not-found`
++ :ref:`attribute-class-"%s"-not-found`
 + :ref:`illegal-class-name`
 + :ref:`%s-cannot-implement-%s---it-is-not-an-interface`

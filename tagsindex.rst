@@ -54,14 +54,19 @@ Tag index
       * :ref:`%s-%s-inherits-both-%s::%s-and-%s::%s`
 
 
+   * compile error
+
+      * :ref:`cannot-use-empty-list`
+
+
    * confusion
 
-      * :ref:`%s\"-will-be-interpreted-as-a-class-name.-did-you-mean-\"%s\"?-write-\"\\%s\"%s-to-suppress-this-warning`
+      * :ref:`%s"-will-be-interpreted-as-a-class-name.-did-you-mean-"%s"?-write-"%s"%s-to-suppress-this-warning`
 
 
    * constant
 
-      * :ref:`undefined-constant-\"%s`
+      * :ref:`undefined-constant-"%s`
 
 
    * deprecated
@@ -154,9 +159,9 @@ Tag index
 
    * late-static-binding
 
-      * :ref:`use-of-\"parent\"-in-callables-is-deprecated`
-      * :ref:`use-of-\"self\"-in-callables-is-deprecated`
-      * :ref:`use-of-\"static\"-in-callables-is-deprecated`
+      * :ref:`use-of-"parent"-in-callables-is-deprecated`
+      * :ref:`use-of-"self"-in-callables-is-deprecated`
+      * :ref:`use-of-"static"-in-callables-is-deprecated`
 
 
    * lint
@@ -309,6 +314,7 @@ Tag index
       * :ref:`syntax-error,-unexpected-token-"::"`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"["`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"{"-or-"["`
+      * :ref:`syntax-error,-unexpected-token-";"`
       * :ref:`syntax-error,-unexpected-token-"<<"`
       * :ref:`syntax-error,-unexpected-token-"=",-expecting-identifier-or-variable-or-"{"-or-"$"`
       * :ref:`syntax-error,-unexpected-token-"?"`
@@ -325,7 +331,11 @@ Tag index
       * :ref:`syntax-error,-unexpected-token-"use"`
       * :ref:`syntax-error,-unexpected-token-"{"`
       * :ref:`syntax-error,-unexpected-token-"}"`
+      * :ref:`unclosed-\'(\'`
+      * :ref:`unclosed-\'[\'`
       * :ref:`unclosed-\'{\'`
+      * :ref:`unmatched-\')\'`
+      * :ref:`unmatched-\']\'`
       * :ref:`unmatched-\'}\'`
 
 

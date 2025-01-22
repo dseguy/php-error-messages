@@ -10,7 +10,7 @@ Attribute class "%s" not found
 	:og:type: article
 	:og:title: Attribute class &quot;%s&quot; not found
 	:og:description: This error reports that a class was not found
-	:og:url: https://php-errors.readthedocs.io/en/latest/messages/attribute-class-%5C%22%25s%5C%22-not-found.html
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/attribute-class-%22%25s%22-not-found.html
 	:og:locale: en
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
@@ -61,5 +61,5 @@ _________
 Related Error Messages
 ______________________
 
-+ :ref:`class-\"%s\"-not-found`
++ :ref:`class-"%s"-not-found`
 + :ref:`interface-"%s"-not-found`

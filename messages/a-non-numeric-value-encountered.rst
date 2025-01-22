@@ -49,5 +49,5 @@ _________
 Related Error Messages
 ______________________
 
-+ :ref:`implicit-conversion-from-float-string-\"%s\"-to-int-loses`
++ :ref:`implicit-conversion-from-float-string-"%s"-to-int-loses`
 + :ref:`unsupported-operand-types`

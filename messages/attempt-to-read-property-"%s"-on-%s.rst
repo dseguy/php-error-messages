@@ -10,7 +10,7 @@ Attempt to read property "%s" on %s
 	:og:type: article
 	:og:title: Attempt to read property &quot;%s&quot; on %s
 	:og:description: This error reports that a non-object was used with an object syntax
-	:og:url: https://php-errors.readthedocs.io/en/latest/messages/attempt-to-read-property-%5C%22%25s%5C%22-on-%25s.html
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/attempt-to-read-property-%22%25s%22-on-%25s.html
 	:og:locale: en
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat

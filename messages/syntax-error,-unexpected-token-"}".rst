@@ -34,7 +34,11 @@ _______
 
    <?php
    
+   // print needs a ; at the end of the command
    if ($c == 3) { print 'OK'.PHP_EOL }
+   
+   // The curly brackets are balanced, but not the parenthesis
+   if (in_array(1, [2, 4]) {}
    
    ?>
 
@@ -47,3 +51,5 @@ Related Error Messages
 ______________________
 
 + :ref:`syntax-error,-unexpected-token-"{"`
++ :ref:`syntax-error,-unexpected-token-"("`
++ :ref:`syntax-error,-unexpected-token-")"`

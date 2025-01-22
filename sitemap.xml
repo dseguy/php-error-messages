@@ -10,6 +10,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%25d-arguments-are-required%2C-%25d.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s%22-will-be-interpreted-as-a-class-name.-did-you-mean-%22%25s%22%3F-write-%22%5C%25s%22%25s-to-suppress-this-warning.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s%25s%25s%28%29-does-not-accept-unknown-named-parameters.html</loc>
  </url>
  <url>
@@ -83,9 +86,6 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s%3A%3A%25s-cannot-override-final-constant-%25s%3A%3A%25s.html</loc>
- </url>
- <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s%22-will-be-interpreted-as-a-class-name.-did-you-mean-%22%25s%22%3F-write-%22%5C%25s%22%25s-to-suppress-this-warning.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%27%25s%27-not-in-the-%27loop%27-or-%27switch%27-context.html</loc>
@@ -535,6 +535,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/case-%25s%3A%3A%25s-does-not-exist.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/class-%22%25s%22-not-found.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/class-%25s-cannot-extend-%25s-%25s.html</loc>
  </url>
  <url>
@@ -554,9 +557,6 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/class-%25s-must-implement-interface-%25s-as-part-of-either-%25s-or-%25s.html</loc>
- </url>
- <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/class-%22%25s%22-not-found.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/class-constant-%25s%3A%3A%25s-cannot-have-type-%25s.html</loc>
@@ -586,10 +586,10 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/constructors-cannot-declare-a-return-type.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/continue-operator-accepts-only-positive-integers.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/continue%22-targeting-switch-is-equivalent-to-%22break.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/continue%22-targeting-switch-is-equivalent-to-%22break.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/continue-operator-accepts-only-positive-integers.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/could-not-check-compatibility-between-%25s-and-%25s%2C-because-class-%25s-is-not-available.html</loc>
@@ -859,6 +859,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/needle-is-not-a-string-or-an-integer.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/nesting-level-too-deep---recursive-dependency%3F.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/never-cannot-be-used-as-a-parameter-type.html</loc>
  </url>
  <url>
@@ -944,6 +947,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/parameter-uses-%27parent%27-as-type-hint-although-class-does-not-have-a-parent%5C%21.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/passing-the-encoding-as-third-parameter-is-deprecated.-use-an-explicit-zero-offset.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/power-of-base-0-and-negative-exponent-is-deprecated.html</loc>
@@ -1084,6 +1090,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%28%22.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%29%22.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%2A%22.html</loc>
  </url>
  <url>
@@ -1106,6 +1115,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%3B%22%2C-expecting-%22-%3E%22-or-%22%3F-%3E%22-or-%22%7B%22-or-%22%5B%22.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%3B%22.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%3C%3C%22.html</loc>
@@ -1246,6 +1258,12 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/typed-static-property-%25s%3A%3A%24%25s-must-not-be-accessed-before-initialization.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/unclosed-%27%28%27.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/unclosed-%27%5B%27.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unclosed-%27%7B%27.html</loc>
  </url>
  <url>
@@ -1255,10 +1273,10 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/undefined-class-constant-%27%25s%5C%3A%5C%3A%25s%27.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/undefined-constant-%25s%3A%3A%25s.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/undefined-constant-%22%25s.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/undefined-constant-%22%25s.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/undefined-constant-%25s%3A%3A%25s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/undefined-offset.html</loc>
@@ -1286,6 +1304,12 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unlink-of-%22%25s%22-failed%2C-file-does-not-exist.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/unmatched-%27%29%27.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/unmatched-%27%5D%27.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unmatched-%27%7D%27.html</loc>

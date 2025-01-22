@@ -5,24 +5,24 @@ Cannot access %s constant %s::%s
  
 .. meta::
 	:description:
-		Cannot access %s constant %s::%s: Constants have visibility, which restrict access to the defining class (``private``), or the class and its children (``protected``).
+		Cannot access %s constant %s::%s: Class constants have visibility, which restrict access to the defining class (``private``), or the class and its children (``protected``).
 	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot access %s constant %s::%s
-	:og:description: Constants have visibility, which restrict access to the defining class (``private``), or the class and its children (``protected``)
+	:og:description: Class constants have visibility, which restrict access to the defining class (``private``), or the class and its children (``protected``)
 	:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-access-%25s-constant-%25s%3A%3A%25s.html
 	:og:locale: en
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Cannot access %s constant %s::%s
-	:twitter:description: Cannot access %s constant %s::%s: Constants have visibility, which restrict access to the defining class (``private``), or the class and its children (``protected``)
+	:twitter:description: Cannot access %s constant %s::%s: Class constants have visibility, which restrict access to the defining class (``private``), or the class and its children (``protected``)
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________
  
-Constants have visibility, which restrict access to the defining class (``private``), or the class and its children (``protected``). 
+Class constants have visibility, which restrict access to the defining class (``private``), or the class and its children (``protected``). 
 
 Example
 _______

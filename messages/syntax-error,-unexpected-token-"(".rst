@@ -41,3 +41,8 @@ Solutions
 _________
 
 + Add the name to the method.
+
+Related Error Messages
+______________________
+
++ :ref:`syntax-error,-unexpected-token-"}"`

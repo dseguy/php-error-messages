@@ -7,7 +7,11 @@ Here is a list of classic syntax errors, met in every day code. Some common solu
 
 
       * :ref:`invalid-numeric-literal`
+      * :ref:`unclosed-'('`
+      * :ref:`unclosed-'['`
       * :ref:`unclosed-'{'`
+      * :ref:`unmatched-')'`
+      * :ref:`unmatched-']'`
       * :ref:`unmatched-'}'`
       * :ref:`syntax-error,-unexpected-')',-expecting-'|'-or-variable-(t_variable)`
       * :ref:`syntax-error,-unexpected-')',-expecting-variable-(t_variable)`
@@ -32,6 +36,7 @@ Here is a list of classic syntax errors, met in every day code. Some common solu
       * :ref:`syntax-error,-unexpected-token-"->"`
       * :ref:`syntax-error,-unexpected-token-":"`
       * :ref:`syntax-error,-unexpected-token-"::"`
+      * :ref:`syntax-error,-unexpected-token-";"`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"["`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"{"-or-"["`
       * :ref:`syntax-error,-unexpected-token-"<<"`

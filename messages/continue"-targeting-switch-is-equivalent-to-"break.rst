@@ -10,7 +10,7 @@ continue" targeting switch is equivalent to "break
 	:og:type: article
 	:og:title: continue&quot; targeting switch is equivalent to &quot;break
 	:og:description: The recommendation is to use ``break`` inside a switch, and ``continue`` in loops
-	:og:url: https://php-errors.readthedocs.io/en/latest/messages/continue%5C%22-targeting-switch-is-equivalent-to-%5C%22break.html
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/continue%22-targeting-switch-is-equivalent-to-%22break.html
 	:og:locale: en
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat

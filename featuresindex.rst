@@ -117,7 +117,7 @@ Features index
       * :ref:`illegal-offset-type-in-isset-or-empty`
       * :ref:`illegal-offset-type-in-unset`
       * :ref:`illegal-offset-type`
-      * :ref:`implicit-conversion-from-float-string-\"%s\"-to-int-loses`
+      * :ref:`implicit-conversion-from-float-string-"%s"-to-int-loses`
       * :ref:`index-invalid-or-out-of-range`
       * :ref:`indirect-modification-of-overloaded-element-of-%s-has-no-effect`
       * :ref:`indirect-modification-of-overloaded-property-%s::\$%s-has-no-effect`
@@ -188,7 +188,7 @@ Features index
    * attribute
 
       * :ref:`%s::%s()-has-#[\override]-attribute,-but-no-matching-parent-method-exists`
-      * :ref:`attribute-\"%s\"-cannot-target-%s-(allowed-targets:-%s)`
+      * :ref:`attribute-"%s"-cannot-target-%s-(allowed-targets:-%s)`
       * :ref:`has-#[\override]-attribute,-but-no-matching-parent-method-exists`
 
 
@@ -258,7 +258,7 @@ Features index
       * :ref:`\'%s\'-operator-accepts-only-positive-integers`
       * :ref:`\'%s\'-operator-with-non-integer-operand`
       * :ref:`break-operator-accepts-only-positive-integers`
-      * :ref:`continue\"-targeting-switch-is-equivalent-to-\"break`
+      * :ref:`continue"-targeting-switch-is-equivalent-to-"break`
       * :ref:`syntax-error,-unexpected-token-"break"`
       * :ref:`syntax-error,-unexpected-token-"continue"`
 
@@ -335,8 +335,8 @@ Features index
       * :ref:`cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s`
       * :ref:`cannot-inherit-previously-inherited-or-override-constant-%s-from-interface-%s`
       * :ref:`cannot-make-non-abstract-method-%s::%s()-abstract-in-class-%s`
+      * :ref:`class-"%s"-not-found`
       * :ref:`class-%s-cannot-extend-%s-%s`
-      * :ref:`class-\"%s\"-not-found`
       * :ref:`illegal-class-name`
       * :ref:`must-be-a-user-defined-class-name,-internal-class-name-given`
 
@@ -379,9 +379,9 @@ Features index
       * :ref:`cannot-bind-an-instance-to-a-static-closure`
       * :ref:`cannot-use-variable-\$%s-twice`
       * :ref:`syntax-error,-unexpected-token-"("`
-      * :ref:`use-of-\"parent\"-in-callables-is-deprecated`
-      * :ref:`use-of-\"self\"-in-callables-is-deprecated`
-      * :ref:`use-of-\"static\"-in-callables-is-deprecated`
+      * :ref:`use-of-"parent"-in-callables-is-deprecated`
+      * :ref:`use-of-"self"-in-callables-is-deprecated`
+      * :ref:`use-of-"static"-in-callables-is-deprecated`
 
 
    * coalesce
@@ -447,7 +447,7 @@ Features index
       * :ref:`define():-declaration-of-case-insensitive-constants-is-deprecated`
       * :ref:`syntax-error,-unexpected-\'-\',-expecting-\'=\'`
       * :ref:`syntax-error,-unexpected-token-"&",-expecting-end-of-file`
-      * :ref:`undefined-constant-\"%s`
+      * :ref:`undefined-constant-"%s`
 
 
    * constant-expression
@@ -481,8 +481,8 @@ Features index
       * :ref:`\'%s\'-not-in-the-\'loop\'-or-\'switch\'-context`
       * :ref:`\'%s\'-operator-accepts-only-positive-integers`
       * :ref:`\'%s\'-operator-with-non-integer-operand`
+      * :ref:`continue"-targeting-switch-is-equivalent-to-"break`
       * :ref:`continue-operator-accepts-only-positive-integers`
-      * :ref:`continue\"-targeting-switch-is-equivalent-to-\"break`
       * :ref:`syntax-error,-unexpected-token-"break"`
       * :ref:`syntax-error,-unexpected-token-"continue"`
 
@@ -506,7 +506,7 @@ Features index
    * declaration
 
       * :ref:`access-to-undeclared-static-property-%s::\$%s`
-      * :ref:`undefined-constant-\"%s`
+      * :ref:`undefined-constant-"%s`
 
 
    * declare
@@ -582,8 +582,8 @@ Features index
 
    * encoding
 
-      * :ref:`must-be-a-valid-encoding,-\"%s\"-given`
-      * :ref:`wrong-encoding,-conversion-from-\"%s\"-to-\"%s\"-is-not-allowed`
+      * :ref:`must-be-a-valid-encoding,-"%s"-given`
+      * :ref:`wrong-encoding,-conversion-from-"%s"-to-"%s"-is-not-allowed`
 
 
    * enum
@@ -713,7 +713,7 @@ Features index
 
    * float
 
-      * :ref:`implicit-conversion-from-float-string-\"%s\"-to-int-loses`
+      * :ref:`implicit-conversion-from-float-string-"%s"-to-int-loses`
 
 
    * foreach
@@ -748,7 +748,7 @@ Features index
 
       * :ref:`class-%s-cannot-extend-final-class-%s`
       * :ref:`generator-return-type-must-be-a-supertype-of-generator`
-      * :ref:`generators-cannot-return-values-using-\"return\"`
+      * :ref:`generators-cannot-return-values-using-"return"`
       * :ref:`the-\"generator\"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated`
 
 
@@ -779,7 +779,7 @@ Features index
    * iconv
 
       * :ref:`must-be-contained-in-argument-#1-(\$haystack)`
-      * :ref:`wrong-encoding,-conversion-from-\"%s\"-to-\"%s\"-is-not-allowed`
+      * :ref:`wrong-encoding,-conversion-from-"%s"-to-"%s"-is-not-allowed`
 
 
    * if-then
@@ -805,7 +805,7 @@ Features index
       * :ref:`illegal-offset-type-in-isset-or-empty`
       * :ref:`illegal-offset-type-in-unset`
       * :ref:`illegal-offset-type`
-      * :ref:`implicit-conversion-from-float-string-\"%s\"-to-int-loses`
+      * :ref:`implicit-conversion-from-float-string-"%s"-to-int-loses`
 
 
    * index-array
@@ -984,7 +984,7 @@ Features index
       * :ref:`handling-html-entities-via-mbstring-is-deprecated;-use-htmlspecialchars,-htmlentities,-or-mb_encode_numericentity-mb_decode_numericentity`
       * :ref:`handling-qprint-via-mbstring-is-deprecated;-use-quoted_printable_encode-quoted_printable_decode`
       * :ref:`handling-uuencode-via-mbstring-is-deprecated;-use-convert_uuencode-convert_uudecode-instead`
-      * :ref:`must-be-a-valid-encoding,-\"%s\"-given`
+      * :ref:`must-be-a-valid-encoding,-"%s"-given`
       * :ref:`must-be-contained-in-argument-#1-(\$haystack)`
 
 
@@ -1059,7 +1059,7 @@ Features index
 
    * native-type
 
-      * :ref:`%s\"-will-be-interpreted-as-a-class-name.-did-you-mean-\"%s\"?-write-\"\\%s\"%s-to-suppress-this-warning`
+      * :ref:`%s"-will-be-interpreted-as-a-class-name.-did-you-mean-"%s"?-write-"%s"%s-to-suppress-this-warning`
 
 
    * nesting
@@ -1094,7 +1094,7 @@ Features index
 
       * :ref:`%s():-passing-null-to-parameter-#%`
       * :ref:`attempt-to-assign-property-"%s"-on-null`
-      * :ref:`attempt-to-read-property-\"%s\"-on-%s`
+      * :ref:`attempt-to-read-property-"%s"-on-%s`
       * :ref:`can\'t-use-nullsafe-operator-in-write-context`
       * :ref:`trying-to-access-array-offset-on-%s`
 
@@ -1116,14 +1116,14 @@ Features index
 
    * object
 
-      * :ref:`attempt-to-read-property-\"%s\"-on-%s`
+      * :ref:`attempt-to-read-property-"%s"-on-%s`
       * :ref:`cannot-use-object-of-type-%s-as-array`
       * :ref:`cannot-use-object-of-type-stdclass-as-array`
 
 
    * object-notation
 
-      * :ref:`attempt-to-read-property-\"%s\"-on-%s`
+      * :ref:`attempt-to-read-property-"%s"-on-%s`
 
 
    * object-syntax
@@ -1216,6 +1216,9 @@ Features index
 
       * :ref:`syntax-error,-unexpected-\',\'`
       * :ref:`syntax-error,-unexpected-token-"if"`
+      * :ref:`unclosed-\'(\'`
+      * :ref:`unmatched-\')\'`
+      * :ref:`unmatched-\']\'`
       * :ref:`unparenthesized-\`a-?-b-:-c-?-d-:-e\`-is-not-supported.`
 
 
@@ -1337,6 +1340,11 @@ Features index
       * :ref:`cannot-declare-self-referencing-constant`
 
 
+   * recursive-array
+
+      * :ref:`nesting-level-too-deep---recursive-dependency?`
+
+
    * reference
 
       * :ref:`%s%s%s():-argument-#%d%s%s%s-must-be-passed-by-reference,-value-given`
@@ -1365,7 +1373,7 @@ Features index
 
    * reflection
 
-      * :ref:`attribute-class-\"%s\"-not-found`
+      * :ref:`attribute-class-"%s"-not-found`
       * :ref:`case-%s::%s-does-not-exist`
 
 
@@ -1396,7 +1404,7 @@ Features index
       * :ref:`a-never-returning-method-must-not-return`
       * :ref:`a-void-%s-must-not-return-a-value`
       * :ref:`destructors-cannot-declare-a-return-type`
-      * :ref:`generators-cannot-return-values-using-\"return\"`
+      * :ref:`generators-cannot-return-values-using-"return"`
       * :ref:`never-returning-function-must-not-implicitly-return`
       * :ref:`only-variable-references-should-be-returned-by-reference`
 
@@ -1436,9 +1444,9 @@ Features index
       * :ref:`cannot-access-parent::-when-current-class-scope-has-no-parent`
       * :ref:`cannot-bind-an-instance-to-a-static-closure`
       * :ref:`cannot-modify-readonly-property-%s::\$%s`
-      * :ref:`use-of-\"parent\"-in-callables-is-deprecated`
-      * :ref:`use-of-\"self\"-in-callables-is-deprecated`
-      * :ref:`use-of-\"static\"-in-callables-is-deprecated`
+      * :ref:`use-of-"parent"-in-callables-is-deprecated`
+      * :ref:`use-of-"self"-in-callables-is-deprecated`
+      * :ref:`use-of-"static"-in-callables-is-deprecated`
 
 
    * self
@@ -1501,6 +1509,11 @@ Features index
       * :ref:`is-an-invalid-offset`
 
 
+   * square-bracket
+
+      * :ref:`unclosed-\'[\'`
+
+
    * static
 
       * :ref:`"static::"-is-not-allowed-in-compile-time-constants`
@@ -1516,9 +1529,9 @@ Features index
       * :ref:`non-static-method-%s::%s()-should-not-be-called-statically`
       * :ref:`static-property-%s::\$%s-cannot-be-readonly`
       * :ref:`static-property-x::\$y-cannot-be-readonly`
-      * :ref:`use-of-\"parent\"-in-callables-is-deprecated`
-      * :ref:`use-of-\"self\"-in-callables-is-deprecated`
-      * :ref:`use-of-\"static\"-in-callables-is-deprecated`
+      * :ref:`use-of-"parent"-in-callables-is-deprecated`
+      * :ref:`use-of-"self"-in-callables-is-deprecated`
+      * :ref:`use-of-"static"-in-callables-is-deprecated`
 
 
    * static-property
@@ -1664,8 +1677,8 @@ Features index
 
    * type
 
+      * :ref:`%s"-will-be-interpreted-as-a-class-name.-did-you-mean-"%s"?-write-"%s"%s-to-suppress-this-warning`
       * :ref:`%s():-implicitly-marking-parameter-\$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead`
-      * :ref:`%s\"-will-be-interpreted-as-a-class-name.-did-you-mean-\"%s\"?-write-\"\\%s\"%s-to-suppress-this-warning`
       * :ref:`argument-#%d-(\$%s)-must-be-of-type-%s,-%s-given`
       * :ref:`cannot-assign-%s-to-class-constant-%s::%s-of-type`
       * :ref:`cannot-assign-%s-to-property-%s::\$%s-of-type-%s`

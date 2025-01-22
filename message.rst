@@ -8,6 +8,7 @@ PHP Error Messages
    messages/"static::"-is-not-allowed-in-compile-time-constants.rst
    messages/$globals-can-only-be-modified-using-the-$globals[$name]-=-$value-syntax.rst
    messages/%d-arguments-are-required,-%d.rst
+   messages/%s"-will-be-interpreted-as-a-class-name.-did-you-mean-"%s"?-write-"\%s"%s-to-suppress-this-warning.rst
    messages/%s%s%s()-does-not-accept-unknown-named-parameters.rst
    messages/%s%s%s():-argument-#%d%s%s%s-must-be-passed-by-reference,-value-given.rst
    messages/%s%s%s():-return-value-must-be-of-type-%s,-%s-returned.rst
@@ -33,7 +34,6 @@ PHP Error Messages
    messages/%s::%s()-has-#[\override]-attribute,-but-no-matching-parent-method-exists.rst
    messages/%s::%s():-return-type-must-be-%s-when-declared.rst
    messages/%s::%s-cannot-override-final-constant-%s::%s.rst
-   messages/%s"-will-be-interpreted-as-a-class-name.-did-you-mean-"%s"?-write-"\%s"%s-to-suppress-this-warning.rst
    messages/'%s'-not-in-the-'loop'-or-'switch'-context.rst
    messages/'%s'-operator-accepts-only-positive-integers.rst
    messages/'%s'-operator-with-non-integer-operand.rst
@@ -183,6 +183,7 @@ PHP Error Messages
    messages/cannot-use-try-without-catch-or-finally.rst
    messages/cannot-use-variable-$%s-twice.rst
    messages/case-%s::%s-does-not-exist.rst
+   messages/class-"%s"-not-found.rst
    messages/class-%s-cannot-extend-%s-%s.rst
    messages/class-%s-cannot-extend-final-class-%s.rst
    messages/class-%s-cannot-implement-both-iterator-and-iteratoraggregate-at-the-same-time.rst
@@ -190,7 +191,6 @@ PHP Error Messages
    messages/class-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-methods.rst
    messages/class-%s-is-not-a-trait.rst
    messages/class-%s-must-implement-interface-%s-as-part-of-either-%s-or-%s.rst
-   messages/class-"%s"-not-found.rst
    messages/class-constant-%s::%s-cannot-have-type-%s.rst
    messages/class-declarations-may-not-be-nested.rst
    messages/classes-must-be-first-marked-as-attribute-before-being-able-to-be-registered-as-internal-attribute-class.rst
@@ -200,8 +200,8 @@ PHP Error Messages
    messages/constant-expression-contains-invalid-operations.rst
    messages/constructor-%s::%s()-cannot-declare-a-return-type.rst
    messages/constructors-cannot-declare-a-return-type.rst
-   messages/continue-operator-accepts-only-positive-integers.rst
    messages/continue"-targeting-switch-is-equivalent-to-"break.rst
+   messages/continue-operator-accepts-only-positive-integers.rst
    messages/could-not-check-compatibility-between-%s-and-%s,-because-class-%s-is-not-available.rst
    messages/could-not-find-trait-%s.rst
    messages/couldn't-open-stream-%s.rst
@@ -291,6 +291,7 @@ PHP Error Messages
    messages/named-parameter-$x-overwrites-previous-argument.rst
    messages/namespace-declarations-cannot-be-nested.rst
    messages/needle-is-not-a-string-or-an-integer.rst
+   messages/nesting-level-too-deep---recursive-dependency?.rst
    messages/never-cannot-be-used-as-a-parameter-type.rst
    messages/never-returning-function-must-not-implicitly-return.rst
    messages/new-expressions-are-not-supported-in-this-context.rst
@@ -320,6 +321,7 @@ PHP Error Messages
    messages/optional-parameter-$%s-declared-before-required-parameter-$%s-is-implicitly-treated-as-a-required-parameter.rst
    messages/parameter-%d-must-be-passed-by-reference.rst
    messages/parameter-uses-'parent'-as-type-hint-although-class-does-not-have-a-parent\!.rst
+   messages/passing-the-encoding-as-third-parameter-is-deprecated.-use-an-explicit-zero-offset.rst
    messages/power-of-base-0-and-negative-exponent-is-deprecated.rst
    messages/private-constant-%s::%s-cannot-be-final-as-it-is-not-visible-to-other-classes.rst
    messages/private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes.rst
@@ -366,6 +368,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-"&".rst
    messages/syntax-error,-unexpected-token-"(",-expecting-identifier-or-variable-or-"{"-or-"$".rst
    messages/syntax-error,-unexpected-token-"(".rst
+   messages/syntax-error,-unexpected-token-")".rst
    messages/syntax-error,-unexpected-token-"*".rst
    messages/syntax-error,-unexpected-token-",",-expecting-variable-or-"$".rst
    messages/syntax-error,-unexpected-token-",",-expecting-variable.rst
@@ -374,6 +377,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-"::".rst
    messages/syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"[".rst
    messages/syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"{"-or-"[".rst
+   messages/syntax-error,-unexpected-token-";".rst
    messages/syntax-error,-unexpected-token-"<<".rst
    messages/syntax-error,-unexpected-token-"=",-expecting-identifier-or-variable-or-"{"-or-"$".rst
    messages/syntax-error,-unexpected-token-"?".rst
@@ -420,11 +424,13 @@ PHP Error Messages
    messages/type-of-%s::$%s-must-not-be-defined-(as-in-class-%s).rst
    messages/typed-property-%s\:\:$%s-must-not-be-accessed-before-initialization.rst
    messages/typed-static-property-%s::$%s-must-not-be-accessed-before-initialization.rst
+   messages/unclosed-'('.rst
+   messages/unclosed-'['.rst
    messages/unclosed-'{'.rst
    messages/undefined-array-key.rst
    messages/undefined-class-constant-'%s\:\:%s'.rst
-   messages/undefined-constant-%s::%s.rst
    messages/undefined-constant-"%s.rst
+   messages/undefined-constant-%s::%s.rst
    messages/undefined-offset.rst
    messages/undefined-property-%s\:\:$%s.rst
    messages/undefined-variable.rst
@@ -434,6 +440,8 @@ PHP Error Messages
    messages/unknown-hook-"%s"-for-property-%s::$%s,-expected-"get"-or-"set".rst
    messages/unknown-named-parameter-$%s.rst
    messages/unlink-of-"%s"-failed,-file-does-not-exist.rst
+   messages/unmatched-')'.rst
+   messages/unmatched-']'.rst
    messages/unmatched-'}'.rst
    messages/unparenthesized-`a-?-b-:-c-?-d-:-e`-is-not-supported..rst
    messages/unsupported-operand-types.rst

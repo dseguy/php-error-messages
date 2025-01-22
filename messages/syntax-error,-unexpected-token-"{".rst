@@ -36,10 +36,11 @@ _______
 
    <?php
    
+   // the curly bracket array syntax has been removed
    $a{1} = 2;
    
-   if (in_array(1, [2, 4]) {}
-   
+   // curly brackets start a new block, and blocks are not allowed inside expressions (the && )
+   $a == 1 && {1} : 3;
    
    ?>
 
@@ -48,3 +49,8 @@ _________
 
 + Move to the square bracked array syntax only.
 + Add the missing closing parenthesis to the if() statement.
+
+Related Error Messages
+______________________
+
++ :ref:`syntax-error,-unexpected-token-"}"`

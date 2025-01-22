@@ -61,5 +61,5 @@ _________
 Related Error Messages
 ______________________
 
-+ :ref:`unmatched-'}'`
++ :ref:`unclosed-'('`
 + :ref:`syntax-error,-unexpected-string-content`

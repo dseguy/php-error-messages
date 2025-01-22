@@ -10,7 +10,7 @@ Wrong encoding, conversion from "%s" to "%s" is not allowed
 	:og:type: article
 	:og:title: Wrong encoding, conversion from &quot;%s&quot; to &quot;%s&quot; is not allowed
 	:og:description: This message reports that the origin or the destination encoding is not supported on this server
-	:og:url: https://php-errors.readthedocs.io/en/latest/messages/wrong-encoding%2C-conversion-from-%5C%22%25s%5C%22-to-%5C%22%25s%5C%22-is-not-allowed.html
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/wrong-encoding%2C-conversion-from-%22%25s%22-to-%22%25s%22-is-not-allowed.html
 	:og:locale: en
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat

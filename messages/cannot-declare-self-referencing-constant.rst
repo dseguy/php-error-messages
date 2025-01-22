@@ -54,4 +54,4 @@ _________
 Related Error Messages
 ______________________
 
-+ :ref:`undefined-constant-\"%s`
++ :ref:`undefined-constant-"%s`
