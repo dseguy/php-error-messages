@@ -32,10 +32,10 @@ _______
    <?php
    
    class Test {
-       public readonly int $prop;
+       public readonly int $property;
    
        public function init() {
-           $this->prop = 1;
+           $this->property = 1;
        }
    }
    
@@ -43,12 +43,17 @@ _______
    $test->init();
    
    try {
-       foreach ($test as &$prop) {}
+       foreach ($test as &$property) {}
    } catch (Error $e) {
        echo $e->getMessage(), \n;
    }
    
    ?>
+
+
+Literal Examples
+****************
++ Cannot acquire reference to readonly property Test::$property
 
 Solutions
 _________

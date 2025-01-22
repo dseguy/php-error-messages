@@ -5,24 +5,24 @@ Class %s cannot implement both Iterator and IteratorAggregate at the same time
  
 .. meta::
 	:description:
-		Class %s cannot implement both Iterator and IteratorAggregate at the same time: These two interfaces are are .
+		Class %s cannot implement both Iterator and IteratorAggregate at the same time: These two interfaces are incompatible one another.
 	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Class %s cannot implement both Iterator and IteratorAggregate at the same time
-	:og:description: These two interfaces are are 
+	:og:description: These two interfaces are incompatible one another
 	:og:url: https://php-errors.readthedocs.io/en/latest/messages/class-%25s-cannot-implement-both-iterator-and-iteratoraggregate-at-the-same-time.html
 	:og:locale: en
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Class %s cannot implement both Iterator and IteratorAggregate at the same time
-	:twitter:description: Class %s cannot implement both Iterator and IteratorAggregate at the same time: These two interfaces are are 
+	:twitter:description: Class %s cannot implement both Iterator and IteratorAggregate at the same time: These two interfaces are incompatible one another
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 Description
 ___________
  
-These two interfaces are are 
+These two interfaces are incompatible one another. There must be only one of them.
 
 Example
 _______
@@ -31,7 +31,7 @@ _______
 
    <?php
    
-   class A extends Iterator, IteratorAggregate {}
+   class A implements Iterator, IteratorAggregate {}
    
    ?>
 

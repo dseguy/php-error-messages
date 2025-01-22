@@ -51,5 +51,5 @@ _______
 Solutions
 _________
 
-+ Do not make direct comparisons of recursive arrays
-+ Do not try to count recursive arrays
++ Do not make direct comparisons of recursive arrays.
++ Do not try to count recursive arrays.

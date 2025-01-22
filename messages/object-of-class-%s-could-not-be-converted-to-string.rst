@@ -57,6 +57,16 @@ _______
    // valid
    echo (new X);
    
+   $array1 = [E::A];
+   $array2 = [E::B];
+   enum E: string {
+       case A = 'a';
+       case B = 'b';
+   }
+   
+   // hidden necessary string conversion
+   array_intersect($array1, $array2); // also with other array_intersect* functions
+   
    ?>
 
 

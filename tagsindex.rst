@@ -81,6 +81,11 @@ Tag index
       * :ref:`using-array_key_exists()-on-objects-is-deprecated.`
 
 
+   * directive
+
+      * :ref:`maximum-execution-time-of-%d-second%s-exceeded`
+
+
    * edge case
 
       * :ref:`is-an-invalid-class-name`
@@ -302,10 +307,13 @@ Tag index
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-variable`
       * :ref:`syntax-error,-unexpected-string-content`
+      * :ref:`syntax-error,-unexpected-token-"#[",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-token-"&",-expecting-end-of-file`
       * :ref:`syntax-error,-unexpected-token-"&"`
       * :ref:`syntax-error,-unexpected-token-"(",-expecting-identifier-or-variable-or-"{"-or-"$"`
       * :ref:`syntax-error,-unexpected-token-"("`
+      * :ref:`syntax-error,-unexpected-token-")",-expecting-"function"-or-"fn"-or-"static"-or-"#["`
+      * :ref:`syntax-error,-unexpected-token-")"`
       * :ref:`syntax-error,-unexpected-token-"*"`
       * :ref:`syntax-error,-unexpected-token-",",-expecting-variable-or-"$"`
       * :ref:`syntax-error,-unexpected-token-",",-expecting-variable`
@@ -314,6 +322,7 @@ Tag index
       * :ref:`syntax-error,-unexpected-token-"::"`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"["`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"{"-or-"["`
+      * :ref:`syntax-error,-unexpected-token-";",-expecting-"function"-or-"fn"-or-"static"-or-"#["`
       * :ref:`syntax-error,-unexpected-token-";"`
       * :ref:`syntax-error,-unexpected-token-"<<"`
       * :ref:`syntax-error,-unexpected-token-"=",-expecting-identifier-or-variable-or-"{"-or-"$"`

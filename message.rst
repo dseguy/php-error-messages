@@ -97,6 +97,8 @@ PHP Error Messages
    messages/calling-static-trait-method-%s::%s-is-deprecated.rst
    messages/can\'t-inherit-abstract-function-%s::%s()-(previously-declared-abstract-in-%s).rst
    messages/can\'t-use-nullsafe-operator-in-write-context.rst
+   messages/can-only-flip-string-and-integer-values,-entry-skipped.rst
+   messages/can-only-throw-objects.rst
    messages/cannot-%s-readonly-property-%s::$%s-from-%s%s.rst
    messages/cannot-access-%s-const-%s::%s.rst
    messages/cannot-access-%s-constant-%s::%s.rst
@@ -348,7 +350,6 @@ PHP Error Messages
    messages/spread-operator-is-not-supported-in-assignments.rst
    messages/static-function-%s%s%s()-cannot-be-abstract.rst
    messages/static-property-%s::$%s-cannot-be-readonly.rst
-   messages/static-property-x::$y-cannot-be-readonly.rst
    messages/strict_types-declaration-must-be-the-very-first-statement-in-the-script.rst
    messages/switch-statements-may-only-contain-one-default-clause.rst
    messages/syntax-error,-unexpected-')',-expecting-'|'-or-variable-(t_variable).rst
@@ -364,10 +365,12 @@ PHP Error Messages
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-variable.rst
    messages/syntax-error,-unexpected-string-content.rst
+   messages/syntax-error,-unexpected-token-"#[",-expecting-","-or-";".rst
    messages/syntax-error,-unexpected-token-"&",-expecting-end-of-file.rst
    messages/syntax-error,-unexpected-token-"&".rst
    messages/syntax-error,-unexpected-token-"(",-expecting-identifier-or-variable-or-"{"-or-"$".rst
    messages/syntax-error,-unexpected-token-"(".rst
+   messages/syntax-error,-unexpected-token-")",-expecting-"function"-or-"fn"-or-"static"-or-"#[".rst
    messages/syntax-error,-unexpected-token-")".rst
    messages/syntax-error,-unexpected-token-"*".rst
    messages/syntax-error,-unexpected-token-",",-expecting-variable-or-"$".rst
@@ -377,6 +380,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-"::".rst
    messages/syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"[".rst
    messages/syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"{"-or-"[".rst
+   messages/syntax-error,-unexpected-token-";",-expecting-"function"-or-"fn"-or-"static"-or-"#[".rst
    messages/syntax-error,-unexpected-token-";".rst
    messages/syntax-error,-unexpected-token-"<<".rst
    messages/syntax-error,-unexpected-token-"=",-expecting-identifier-or-variable-or-"{"-or-"$".rst

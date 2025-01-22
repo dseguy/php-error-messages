@@ -33,7 +33,7 @@ _______
 
    <?php
    
-   // if () needs a second closing ), but PHP keeps parsing it until the semi colon.
+   // 'if' needs a second closing ), but PHP keeps parsing it until the semi colon.
    if ($d !== foo() {
        exit(1);
    }

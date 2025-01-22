@@ -109,6 +109,7 @@ Features index
       * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-deprecated`
       * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported`
       * :ref:`array-to-string-conversion`
+      * :ref:`can-only-flip-string-and-integer-values,-entry-skipped`
       * :ref:`cannot-unpack-array-with-string-keys`
       * :ref:`cannot-unset-offset-in-a-non-array-variable`
       * :ref:`cannot-use-[]-for-reading`
@@ -158,6 +159,12 @@ Features index
       * :ref:`cannot-access-offset-of-type-%s-on-%s`
 
 
+   * arrow-function
+
+      * :ref:`syntax-error,-unexpected-token-")",-expecting-"function"-or-"fn"-or-"static"-or-"#["`
+      * :ref:`syntax-error,-unexpected-token-";",-expecting-"function"-or-"fn"-or-"static"-or-"#["`
+
+
    * ascii
 
       * :ref:`octal-escape-sequence-overflow-\\%s-is-greater-than-\\377`
@@ -190,6 +197,7 @@ Features index
       * :ref:`%s::%s()-has-#[\override]-attribute,-but-no-matching-parent-method-exists`
       * :ref:`attribute-"%s"-cannot-target-%s-(allowed-targets:-%s)`
       * :ref:`has-#[\override]-attribute,-but-no-matching-parent-method-exists`
+      * :ref:`syntax-error,-unexpected-token-"#[",-expecting-","-or-";"`
 
 
    * autoload
@@ -379,6 +387,8 @@ Features index
       * :ref:`cannot-bind-an-instance-to-a-static-closure`
       * :ref:`cannot-use-variable-\$%s-twice`
       * :ref:`syntax-error,-unexpected-token-"("`
+      * :ref:`syntax-error,-unexpected-token-")",-expecting-"function"-or-"fn"-or-"static"-or-"#["`
+      * :ref:`syntax-error,-unexpected-token-";",-expecting-"function"-or-"fn"-or-"static"-or-"#["`
       * :ref:`use-of-"parent"-in-callables-is-deprecated`
       * :ref:`use-of-"self"-in-callables-is-deprecated`
       * :ref:`use-of-"static"-in-callables-is-deprecated`
@@ -398,6 +408,8 @@ Features index
 
    * comment
 
+      * :ref:`syntax-error,-unexpected-token-")",-expecting-"function"-or-"fn"-or-"static"-or-"#["`
+      * :ref:`syntax-error,-unexpected-token-";",-expecting-"function"-or-"fn"-or-"static"-or-"#["`
       * :ref:`unterminated-comment-starting-line-%d`
 
 
@@ -583,6 +595,7 @@ Features index
    * encoding
 
       * :ref:`must-be-a-valid-encoding,-"%s"-given`
+      * :ref:`passing-the-encoding-as-third-parameter-is-deprecated.-use-an-explicit-zero-offset`
       * :ref:`wrong-encoding,-conversion-from-"%s"-to-"%s"-is-not-allowed`
 
 
@@ -621,6 +634,7 @@ Features index
    * exception
 
       * :ref:`%s-%s-cannot-implement-interface-%s,-extend-exception-or-error-instead`
+      * :ref:`can-only-throw-objects`
       * :ref:`cannot-throw-objects-that-do-not-implement-throwable`
       * :ref:`cannot-use-try-without-catch-or-finally`
 
@@ -785,6 +799,7 @@ Features index
    * if-then
 
       * :ref:`syntax-error,-unexpected-\',\'`
+      * :ref:`syntax-error,-unexpected-token-";"`
       * :ref:`syntax-error,-unexpected-token-"if",-expecting-")"`
       * :ref:`syntax-error,-unexpected-token-"if",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-token-"if"`
@@ -966,6 +981,7 @@ Features index
       * :ref:`\'%s\'-not-in-the-\'loop\'-or-\'switch\'-context`
       * :ref:`match-expressions-may-only-contain-one-default-arm`
       * :ref:`syntax-error,-unexpected-\',\'`
+      * :ref:`syntax-error,-unexpected-\'::\',-expecting-\'(\'`
       * :ref:`syntax-error,-unexpected-token-"break"`
       * :ref:`syntax-error,-unexpected-token-"continue"`
       * :ref:`syntax-error,-unexpected-token-"match"`
@@ -1449,6 +1465,11 @@ Features index
       * :ref:`use-of-"static"-in-callables-is-deprecated`
 
 
+   * scope-resolution-operator
+
+      * :ref:`syntax-error,-unexpected-\'::\',-expecting-\'(\'`
+
+
    * self
 
       * :ref:`\'\%s\'-is-an-invalid-class-name`
@@ -1528,7 +1549,6 @@ Features index
       * :ref:`non-static-method-%s::%s()-cannot-be-called-statically`
       * :ref:`non-static-method-%s::%s()-should-not-be-called-statically`
       * :ref:`static-property-%s::\$%s-cannot-be-readonly`
-      * :ref:`static-property-x::\$y-cannot-be-readonly`
       * :ref:`use-of-"parent"-in-callables-is-deprecated`
       * :ref:`use-of-"self"-in-callables-is-deprecated`
       * :ref:`use-of-"static"-in-callables-is-deprecated`
@@ -1561,6 +1581,7 @@ Features index
 
    * strict_types
 
+      * :ref:`can-only-flip-string-and-integer-values,-entry-skipped`
       * :ref:`object-of-class-%s-could-not-be-converted-to-%s`
       * :ref:`return-value-of-%s%s%s()-must-%s%s%s,-%s%s-returned`
       * :ref:`strict_types-declaration-must-be-the-very-first-statement-in-the-script`
@@ -1617,6 +1638,7 @@ Features index
 
    * throw
 
+      * :ref:`can-only-throw-objects`
       * :ref:`cannot-throw-objects-that-do-not-implement-throwable`
       * :ref:`never-returning-function-must-not-implicitly-return`
 
@@ -1760,6 +1782,7 @@ Features index
    * validation
 
       * :ref:`argument-#1-(\$value)-must-contain-at-least-one-element`
+      * :ref:`passing-the-encoding-as-third-parameter-is-deprecated.-use-an-explicit-zero-offset`
 
 
    * variable

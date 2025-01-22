@@ -46,3 +46,5 @@ ______________________
 
 + :ref:`unclosed-'{'`
 + :ref:`unmatched-'}'`
++ :ref:`unmatched-')'`
++ :ref:`unmatched-']'`
