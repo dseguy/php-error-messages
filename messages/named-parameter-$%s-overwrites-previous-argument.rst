@@ -1,21 +1,21 @@
-.. _named-parameter-\$x-overwrites-previous-argument:
+.. _named-parameter-\$%s-overwrites-previous-argument:
 
-Named parameter $x overwrites previous argument
------------------------------------------------
+Named parameter $%s overwrites previous argument
+------------------------------------------------
  
 .. meta::
 	:description:
-		Named parameter $x overwrites previous argument: Named parameter and positional arguments are setting the same argument, with different name.
+		Named parameter $%s overwrites previous argument: Named parameter and positional arguments are setting the same argument, with different name.
 	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
-	:og:title: Named parameter $x overwrites previous argument
+	:og:title: Named parameter $%s overwrites previous argument
 	:og:description: Named parameter and positional arguments are setting the same argument, with different name
-	:og:url: https://php-errors.readthedocs.io/en/latest/messages/named-parameter-%24x-overwrites-previous-argument.html
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/named-parameter-%24%25s-overwrites-previous-argument.html
 	:og:locale: en
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Named parameter $x overwrites previous argument
-	:twitter:description: Named parameter $x overwrites previous argument: Named parameter and positional arguments are setting the same argument, with different name
+	:twitter:title: Named parameter $%s overwrites previous argument
+	:twitter:description: Named parameter $%s overwrites previous argument: Named parameter and positional arguments are setting the same argument, with different name
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
@@ -28,8 +28,7 @@ In the first example, there are two cases for this error: either a repetition of
 
 In the second example, a mix of named and positionned arguments is used, and there is a duplicate for the 
 
-There is a distinct error message when this happens to in attributes calls. 
-
+There is a distinct error message when this happens to in attributes calls.
 
 Example
 _______
@@ -51,7 +50,15 @@ _______
    $args = [a => 1, 2];
    foo(...$args); // Cannot use positional argument after named argument during unpacking
    
+   $args = [b => 1];
+   foo(...$args, b: 2); // b is overwritten
+   
    ?>
+
+
+Literal Examples
+****************
++ Named parameter $%s overwrites previous argument
 
 Solutions
 _________

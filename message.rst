@@ -290,7 +290,7 @@ PHP Error Messages
    messages/must-not-use-parent::$%s::%s()-in-a-different-property-($%s).rst
    messages/must-not-use-parent::$%s::%s()-in-a-different-property-hook-(%s).rst
    messages/must-not-use-parent::$%s::%s()-outside-a-property-hook.rst
-   messages/named-parameter-$x-overwrites-previous-argument.rst
+   messages/named-parameter-$%s-overwrites-previous-argument.rst
    messages/namespace-declarations-cannot-be-nested.rst
    messages/needle-is-not-a-string-or-an-integer.rst
    messages/nesting-level-too-deep---recursive-dependency?.rst

@@ -10,7 +10,7 @@ syntax error, unexpected fully qualified name "\XXX", expecting "{"
 	:og:type: article
 	:og:title: syntax error, unexpected fully qualified name &quot;\XXX&quot;, expecting &quot;{&quot;
 	:og:description: Until PHP 8
-	:og:url: https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-fully-qualified-name-%5C%22%5C%5Cxxx%5C%22%2C-expecting-%5C%22%7B%5C%22.html
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-fully-qualified-name-%22%25s%22%2C-expecting-%22%7B%22.html
 	:og:locale: en
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat

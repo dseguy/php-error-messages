@@ -51,4 +51,4 @@ Related Error Messages
 ______________________
 
 + :ref:`cannot-use-empty-list`
-+ :ref:`named-parameter-$x-overwrites-previous-argument`
++ :ref:`named-parameter-$%s-overwrites-previous-argument`

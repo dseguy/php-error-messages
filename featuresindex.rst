@@ -1065,7 +1065,7 @@ Features index
       * :ref:`call-to-undefined-function`
       * :ref:`namespace-declarations-cannot-be-nested`
       * :ref:`no-code-may-exist-outside-of-namespace-{}`
-      * :ref:`syntax-error,-unexpected-fully-qualified-name-\"\\xxx\",-expecting-\"{\"`
+      * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"{"`
 
 
    * native
@@ -1206,7 +1206,7 @@ Features index
       * :ref:`cannot-use-%s-as-default-value-for-property-%s::\$%s-of-type-%s`
       * :ref:`cannot-use-lexical-variable-%s-as-a-parameter-name`
       * :ref:`default-value-for-parameters-with-a-%s-type-can-only-be-%s-or-null`
-      * :ref:`named-parameter-\$x-overwrites-previous-argument`
+      * :ref:`named-parameter-\$%s-overwrites-previous-argument`
       * :ref:`optional-parameter-\$%s-declared-before-required-parameter-\$%s-is-implicitly-treated-as-a-required-parameter`
       * :ref:`parameter-uses-\'parent\'-as-type-hint-although-class-does-not-have-a-parent\!`
       * :ref:`redefinition-of-parameter-\$%s`
