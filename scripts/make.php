@@ -249,7 +249,7 @@ foreach($files as $file) {
 
 	if (!isset($error->analyzer)) {
 //		buildlog("No analyzer entry for $file");
-		++$warnings;
+//		++$warnings;
 //		continue;
 	} else {
 	    $error->analyzer = array_filter($error->analyzer);
