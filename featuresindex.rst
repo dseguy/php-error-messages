@@ -115,6 +115,7 @@ Features index
       * :ref:`cannot-use-[]-for-reading`
       * :ref:`cannot-use-object-of-type-%s-as-array`
       * :ref:`cannot-use-object-of-type-stdclass-as-array`
+      * :ref:`foreach()-argument-must-be-of-type-array|object`
       * :ref:`illegal-offset-type-in-isset-or-empty`
       * :ref:`illegal-offset-type-in-unset`
       * :ref:`illegal-offset-type`
@@ -909,6 +910,7 @@ Features index
 
       * :ref:`an-iterator-cannot-be-used-with-foreach-by-reference`
       * :ref:`class-%s-cannot-implement-both-iterator-and-iteratoraggregate-at-the-same-time`
+      * :ref:`foreach()-argument-must-be-of-type-array|object`
 
 
    * keyword
@@ -1853,6 +1855,7 @@ Features index
 
    * yield
 
+      * :ref:`foreach()-argument-must-be-of-type-array|object`
       * :ref:`only-variable-references-should-be-yielded-by-reference`
       * :ref:`the-\"generator\"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated`
       * :ref:`the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls`

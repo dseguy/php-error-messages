@@ -37,7 +37,7 @@ _______
    // Also valid, the unpacked arguments are the last
    foo($a, $b, ...$c, ...$d);
    
-   // Not valida
+   // Not valid
    foo(...$a, $b, ...$c);
    
    ?>
