@@ -26,7 +26,7 @@ array_flip() converts values into keys and keys into values. The former values u
 
 In general, non-scalar values cannot be converted, and are skipped: this is the case of arrays.
 
-In particular, string or integer backed enumerations and stringeable objects are not converted to strings. This applies with or without strict_types.
+In particular, string or integer backed enumerations and stringable objects are not converted to strings. This applies with or without strict_types.
 
 
 Example
@@ -42,7 +42,7 @@ _______
        case A = 'a';
    }
    
-   class X implements Stringeable {
+   class X implements Stringable {
        function __toString() {
            return 'X';
        }

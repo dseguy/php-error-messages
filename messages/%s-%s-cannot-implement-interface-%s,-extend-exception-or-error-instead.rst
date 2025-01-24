@@ -26,8 +26,7 @@ ___________
 
 As the message suggest, the best is to extends an existing class that already implements ``Throwable``, such as ``Error``, ``Exception`` or any of their children classes.
 
-Several interfaces are reserved by PHP: ``UnitEnum``, ``BackedEnum``, ``Throwable``. 
-
+Several interfaces are reserved by PHP: ``UnitEnum``, ``BackedEnum``, ``Throwable``.
 
 Example
 _______
@@ -39,7 +38,6 @@ _______
    class X implements Throwable {}
    
    ?>
-   
 
 
 Literal Examples

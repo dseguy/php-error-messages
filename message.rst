@@ -375,8 +375,10 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-"*".rst
    messages/syntax-error,-unexpected-token-",",-expecting-variable-or-"$".rst
    messages/syntax-error,-unexpected-token-",",-expecting-variable.rst
+   messages/syntax-error,-unexpected-token-"->",-expecting-","-or-";".rst
    messages/syntax-error,-unexpected-token-"->".rst
    messages/syntax-error,-unexpected-token-":".rst
+   messages/syntax-error,-unexpected-token-"::",-expecting-","-or-";".rst
    messages/syntax-error,-unexpected-token-"::".rst
    messages/syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"[".rst
    messages/syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"{"-or-"[".rst
@@ -385,6 +387,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-"<<".rst
    messages/syntax-error,-unexpected-token-"=",-expecting-identifier-or-variable-or-"{"-or-"$".rst
    messages/syntax-error,-unexpected-token-"?".rst
+   messages/syntax-error,-unexpected-token-"?->",-expecting-","-or-";".rst
    messages/syntax-error,-unexpected-token-"?->".rst
    messages/syntax-error,-unexpected-token-"??".rst
    messages/syntax-error,-unexpected-token-"__namespace__",-expecting-"(".rst

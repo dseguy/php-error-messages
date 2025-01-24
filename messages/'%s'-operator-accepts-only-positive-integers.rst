@@ -28,7 +28,6 @@ The ``break`` and ``continue`` operators only accepts a positive integer as expl
 
 It makes no sense to exit 0 loops (no need for ``break`` then), or a negative number of loop (call a new ``foreach``). Break only works with literal integers, and doesn't compile otherwise.
 
-
 Example
 _______
 
@@ -41,7 +40,6 @@ _______
    continue -1;
    
    ?>
-   
 
 
 Literal Examples

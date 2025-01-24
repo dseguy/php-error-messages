@@ -24,7 +24,7 @@ ___________
  
 The semi-colon marks the end of a command. They are needed in blocks, or sequences of commands.
 
-Here, the semi colon signals the end of the ``exit`` command, and PHP is still parsing the if condition. 
+Here, the semi colon signals the end of the ``exit`` command, and PHP is still parsing the if condition.
 
 Example
 _______
@@ -37,6 +37,7 @@ _______
    if ($d !== foo() {
        exit(1);
    }
+   
    ?>
 
 Solutions

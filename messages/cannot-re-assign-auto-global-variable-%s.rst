@@ -28,7 +28,6 @@ The error is not emitted when the same superglobal variables are used as variabl
 
 This applies to all PHP superglobal, such as ``$_ENV``, ``$GLOBALS``, or ``$_POST``. See the full list in annex.
 
-
 Example
 _______
 
@@ -42,10 +41,15 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ Cannot re-assign auto-global variable $_POST
+
 Solutions
 _________
 
-+ Use a name of the parameter that is not a superglobal.
++ Use a parameter anme that is not a superglobal or a special PHP variable.
 
 Related Error Messages
 ______________________

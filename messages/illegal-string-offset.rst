@@ -28,7 +28,6 @@ When the index cannot be converted to an integer, this warning is displayed. PHP
 
 An extended error also appear if the result of the conversion is larger than the length of the string.
 
-
 Example
 _______
 
@@ -41,7 +40,6 @@ _______
      var_dump(foobar[-4foo]);
      // displays 'o' + a warning
    ?>
-   
 
 Solutions
 _________

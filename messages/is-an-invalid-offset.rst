@@ -52,7 +52,6 @@ _______
    print $a[4];
    
    ?>
-   
 
 
 Literal Examples

@@ -26,6 +26,8 @@ Only one visibility option is necessary to set the visibility of a property. Two
 
 This message applies to private, protected and public options.
 
+This message appears when compiling PHP 8.4+ code, with asymmetric visibility, against PHP 8.3 or older. In that case, ``protected(set)`` is not recognized as a token, and only the ``protected`` part is used, leading to the error.
+
 There are similar messages for multiple readonly, or multiple static.
 
 Example
@@ -39,12 +41,19 @@ _______
    	private private static A $b;
    }
    
+   class Y
+   {
+       public protected(set) string $name;
+   }
+   
    ?>
 
 Solutions
 _________
 
 + Drop the extra visibility, and keep only one.
++ Compile with PHP 8.4 and more recent.
++ Remove asymmetric visibility.
 
 Related Error Messages
 ______________________

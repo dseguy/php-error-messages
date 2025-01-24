@@ -28,8 +28,7 @@ In this case, the attribute has been placed inside an expression, so only a clos
 
 In the end, the closure is not compatible with the ``+`` or similar operator, so the suggestion is not valid here. It could be valid with a comma.
 
-This error appears after PHP 8.0: this is when the ``#[`` token was introduced. Until that version, ``#`` introduces a comment, until the end of the line. 
-
+This error appears after PHP 8.0: this is when the ``#[`` token was introduced. Until that version, ``#`` introduces a comment, until the end of the line.
 
 Example
 _______

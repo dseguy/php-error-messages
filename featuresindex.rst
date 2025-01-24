@@ -190,6 +190,7 @@ Features index
    * asymmetric-visibility
 
       * :ref:`%s-virtual-property-%s::\$%s-must-not-specify-asymmetric-visibility`
+      * :ref:`multiple-access-type-modifiers-are-not-allowed`
       * :ref:`visibility-of-property-%s::\$%s-must-not-be-weaker-than-set-visibility`
 
 
@@ -765,6 +766,13 @@ Features index
       * :ref:`generator-return-type-must-be-a-supertype-of-generator`
       * :ref:`generators-cannot-return-values-using-"return"`
       * :ref:`the-\"generator\"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated`
+
+
+   * global
+
+      * :ref:`syntax-error,-unexpected-token-"->",-expecting-","-or-";"`
+      * :ref:`syntax-error,-unexpected-token-"::",-expecting-","-or-";"`
+      * :ref:`syntax-error,-unexpected-token-"?->",-expecting-","-or-";"`
 
 
    * goto
@@ -1567,6 +1575,9 @@ Features index
    * static-variable
 
       * :ref:`duplicate-declaration-of-static-variable-\$%s`
+      * :ref:`syntax-error,-unexpected-token-"->",-expecting-","-or-";"`
+      * :ref:`syntax-error,-unexpected-token-"::",-expecting-","-or-";"`
+      * :ref:`syntax-error,-unexpected-token-"?->",-expecting-","-or-";"`
 
 
    * stdclass
@@ -1605,6 +1616,12 @@ Features index
       * :ref:`syntax-error,-unexpected-string-content`
       * :ref:`uninitialized-string-offset`
       * :ref:`using-\${var}-in-strings-is-deprecated,-use-{\$var}-instead`
+
+
+   * stringable
+
+      * :ref:`can-only-flip-string-and-integer-values,-entry-skipped`
+      * :ref:`object-of-class-%s-could-not-be-converted-to-string`
 
 
    * superglobal

@@ -26,7 +26,7 @@ Parameter shall only be passed once. For named parameters, this means that the s
 
 This problem is never raised with positional arguments, which are automatically indexed. 
 
-There is a distinct error message when this happens to in method calls. 
+There is a distinct error message when this happens to in method calls.
 
 Example
 _______
@@ -41,7 +41,6 @@ _______
    class Test {}
    
    ?>
-   
 
 
 Literal Examples

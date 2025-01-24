@@ -41,7 +41,6 @@ _______
    unset($x->x);
    
    ?>
-   
 
 
 Literal Examples

@@ -22,13 +22,13 @@ Object of class %s could not be converted to string
 Description
 ___________
  
-PHP reports that the object cannot be used as a string. Converting an object into a string is only possible when the magic method ``__toString()`` is implemented, or when the interface ``Stringeable`` is implemented.
+PHP reports that the object cannot be used as a string. Converting an object into a string is only possible when the magic method ``__toString()`` is implemented, or when the interface ``Stringable`` is implemented.
 
 In that case, the object is automatically converted into a string, thanks to that method. Otherwise, it is a Fatal error.
 
 This is a distinct error than passing an object in a string argument: in that case, it is a Type error.
 
-A lot of native PHP classes support the conversion, but not all of them. Check for ``stringeable`` interface before using them.
+A lot of native PHP classes support the conversion, but not all of them. Check for ``stringable`` interface before using them.
 
 
 Example
@@ -43,7 +43,7 @@ _______
    //error!
    echo (new Y); 
    
-   // X could also be implementing Stringeable, to enforce the __toString() method
+   // X could also be implementing Stringable, to enforce the __toString() method
    class X {
        function __construct(array $arg) {
            $this->a = $arg;
@@ -78,7 +78,7 @@ Literal Examples
 Solutions
 _________
 
-+ Implement the ``Stringeable`` interface on the class, or its parent.
++ Implement the ``Stringable`` interface on the class, or its parent.
 + Implement the ``__toString`` method n the class, or its parent.
 + Call a method that returns a string, on that object.
 + Use ``print_r`` or ``var_dump`` to get the details inside the object.

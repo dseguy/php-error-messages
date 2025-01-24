@@ -22,7 +22,7 @@ Class %s cannot extend %s %s
 Description
 ___________
  
-A class that is marked ``final`` cannot be extended. 
+A class that is marked ``final`` cannot be extended.
 
 Example
 _______
@@ -36,7 +36,6 @@ _______
    class Y extends X {}
    
    ?>
-   
 
 
 Literal Examples

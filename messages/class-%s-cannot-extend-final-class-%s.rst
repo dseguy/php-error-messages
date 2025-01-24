@@ -32,7 +32,7 @@ _______
 
 .. code-block:: php
 
-   <?
+   <?php
    
    class X extends Generator {}
    
