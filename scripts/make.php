@@ -129,6 +129,9 @@ foreach($files as $file) {
 	} elseif (strlen($error->description) < MINIMUM_DESCRIPTION_SIZE) {
 		buildlog("Description is too short: ".strlen($error->description)." for $file");
 		++$warnings;
+	} elseif ($error->description[-1] !== '.') {
+		buildlog("Description is not finished by a dot for $file");
+		++$warnings;
 	}
 
 	if (isset($error->examples) && empty($error->examples)) {
@@ -177,6 +180,12 @@ foreach($files as $file) {
 		buildlog("No code for $file");
 		++$warnings;
 		continue;
+	} elseif (substr($error->code, 0, 5) !== '<?php') {
+		buildlog("No opening tags in code for $file");
+		++$warnings;
+	} elseif (substr($error->code, -2) !== '?>') {
+		buildlog("No closing tags in code for $file");
+		++$warnings;
 	}
 
 	if (preg_match('/(trait|class|enum|interface|const|new|implements|extends|:|namespace) (?!(int|string|bool|void|never|float|callable|array|iterable|mixed|null|stdClass))[a-z]/', $error->code, $r)) {
