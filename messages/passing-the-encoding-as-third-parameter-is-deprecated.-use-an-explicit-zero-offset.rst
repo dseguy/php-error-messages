@@ -19,6 +19,10 @@ Passing the encoding as third parameter is deprecated. Use an explicit zero offs
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/passing-the-encoding-as-third-parameter-is-deprecated.-use-an-explicit-zero-offset.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/passing-the-encoding-as-third-parameter-is-deprecated.-use-an-explicit-zero-offset.html","name":"Passing the encoding as third parameter is deprecated. Use an explicit zero offset","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 22 Jan 2025 16:03:10 +0000","dateModified":"Wed, 22 Jan 2025 16:03:10 +0000","description":"PHP used to recognize automatically the third parameter when it was actually the encoding, and noth the offset of start","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/passing-the-encoding-as-third-parameter-is-deprecated.-use-an-explicit-zero-offset.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

@@ -19,6 +19,10 @@ Keys must be of type int|string during array unpacking
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/keys-must-be-of-type-int|string-during-array-unpacking.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/keys-must-be-of-type-int|string-during-array-unpacking.html","name":"Keys must be of type int|string during array unpacking","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 15 Nov 2024 13:45:36 +0000","dateModified":"Fri, 15 Nov 2024 13:45:36 +0000","description":"Argument unpacking is the transformation of an array into a list of arguments","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/keys-must-be-of-type-int|string-during-array-unpacking.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

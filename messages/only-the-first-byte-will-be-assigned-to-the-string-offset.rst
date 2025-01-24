@@ -19,6 +19,10 @@ Only the first byte will be assigned to the string offset
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/only-the-first-byte-will-be-assigned-to-the-string-offset.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/only-the-first-byte-will-be-assigned-to-the-string-offset.html","name":"Only the first byte will be assigned to the string offset","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jan 2025 10:08:51 +0000","dateModified":"Thu, 16 Jan 2025 10:08:51 +0000","description":"The array notation is available with strings, to both write and read","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/only-the-first-byte-will-be-assigned-to-the-string-offset.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

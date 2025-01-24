@@ -19,6 +19,10 @@ Cannot acquire reference to readonly property
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-acquire-reference-to-readonly-property.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-acquire-reference-to-readonly-property.html","name":"Cannot acquire reference to readonly property ","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 20 Jan 2025 10:47:10 +0000","dateModified":"Fri, 18 Oct 2024 17:31:06 +0000","description":"It is not possible to create a reference to a readonly property","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-acquire-reference-to-readonly-property.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

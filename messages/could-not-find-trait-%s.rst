@@ -19,6 +19,10 @@ Could not find trait %s
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/could-not-find-trait-%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/could-not-find-trait-%s.html","name":"Could not find trait %s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 24 Nov 2024 21:31:14 +0000","dateModified":"Sun, 24 Nov 2024 21:31:14 +0000","description":"A trait is named in a use expression inside a class, but it doesn't exist, or is not yet loaded by PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/could-not-find-trait-%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

@@ -19,6 +19,10 @@ Private constant %s::%s cannot be final as it is not visible to other classes
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/private-constant-%s::%s-cannot-be-final-as-it-is-not-visible-to-other-classes.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/private-constant-%s::%s-cannot-be-final-as-it-is-not-visible-to-other-classes.html","name":"Private constant %s::%s cannot be final as it is not visible to other classes","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Jan 2025 09:40:28 +0000","dateModified":"Thu, 02 Jan 2025 09:40:28 +0000","description":"A ``private`` constant is restricted to being used by its definition class only: as such, it is not visible to other classes, including children","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/private-constant-%s::%s-cannot-be-final-as-it-is-not-visible-to-other-classes.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

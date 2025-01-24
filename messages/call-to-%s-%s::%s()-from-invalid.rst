@@ -19,6 +19,10 @@ Call to %s %s::%s() from invalid
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/call-to-%s-%s::%s()-from-invalid.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/call-to-%s-%s::%s()-from-invalid.html","name":"Call to %s %s::%s() from invalid","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 20 Jan 2025 17:07:15 +0000","dateModified":"Sun, 19 Jan 2025 21:30:15 +0000","description":"A ``private`` method shall only be called from within its own class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/call-to-%s-%s::%s()-from-invalid.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

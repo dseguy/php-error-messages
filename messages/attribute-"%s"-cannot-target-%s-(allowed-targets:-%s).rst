@@ -19,6 +19,10 @@ Attribute "%s" cannot target %s (allowed targets: %s)
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/attribute-\"%s\"-cannot-target-%s-(allowed-targets:-%s).html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/attribute-\"%s\"-cannot-target-%s-(allowed-targets:-%s).html","name":"Attribute \"%s\" cannot target %s (allowed targets: %s)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 22 Jan 2025 11:37:35 +0000","dateModified":"Wed, 15 Jan 2025 15:15:57 +0000","description":"Attributes are built with a specific target, and may not be applicable to any structure","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/attribute-\"%s\"-cannot-target-%s-(allowed-targets:-%s).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

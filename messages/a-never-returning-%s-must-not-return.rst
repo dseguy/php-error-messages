@@ -19,6 +19,10 @@ A never-returning %s must not return
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/a-never-returning-%s-must-not-return.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/a-never-returning-%s-must-not-return.html","name":"A never-returning %s must not return","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 11 Nov 2024 21:30:38 +0000","dateModified":"Mon, 11 Nov 2024 21:30:38 +0000","description":"A function that never returns, aka, with the ``never`` return type, must not use the return statement","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/a-never-returning-%s-must-not-return.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

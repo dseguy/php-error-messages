@@ -19,6 +19,10 @@ Cannot access trait constant %s::%s directly
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-access-trait-constant-%s::%s-directly.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-access-trait-constant-%s::%s-directly.html","name":"Cannot access trait constant %s::%s directly","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 18 Nov 2024 10:18:29 +0000","dateModified":"Mon, 18 Nov 2024 10:18:29 +0000","description":"Traits cannot be used indepently from a host class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-access-trait-constant-%s::%s-directly.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

@@ -19,6 +19,10 @@ $GLOBALS can only be modified using the $GLOBALS[$name] = $value syntax
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/$globals-can-only-be-modified-using-the-$globals[$name]-=-$value-syntax.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/$globals-can-only-be-modified-using-the-$globals[$name]-=-$value-syntax.html","name":"$GLOBALS can only be modified using the $GLOBALS[$name] = $value syntax","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jan 2025 10:37:06 +0000","dateModified":"Mon, 06 Jan 2025 10:37:06 +0000","description":"Since PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/$globals-can-only-be-modified-using-the-$globals[$name]-=-$value-syntax.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

@@ -19,6 +19,10 @@ Cannot assign %s to class constant %s::%s of type
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-assign-%s-to-class-constant-%s::%s-of-type.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-assign-%s-to-class-constant-%s::%s-of-type.html","name":"Cannot assign %s to class constant %s::%s of type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jan 2025 10:58:34 +0000","dateModified":"Tue, 07 Jan 2025 10:58:34 +0000","description":"Since PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-assign-%s-to-class-constant-%s::%s-of-type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

@@ -19,6 +19,10 @@ Cannot use string offset as an object
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-string-offset-as-an-object.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-string-offset-as-an-object.html","name":"Cannot use string offset as an object","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 11 Nov 2024 21:49:25 +0000","dateModified":"Mon, 11 Nov 2024 21:49:25 +0000","description":"It is possible to use the array syntax ``$s[$i]`` on a string, to access an individual character","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-use-string-offset-as-an-object.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

@@ -19,6 +19,10 @@ Only variable references should be yielded by reference
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/only-variable-references-should-be-yielded-by-reference.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/only-variable-references-should-be-yielded-by-reference.html","name":"Only variable references should be yielded by reference","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jan 2025 10:45:37 +0000","dateModified":"Mon, 06 Jan 2025 10:45:37 +0000","description":"With the ``&`` option in the signature, a generator is yielding values by reference, and not by value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/only-variable-references-should-be-yielded-by-reference.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

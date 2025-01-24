@@ -19,6 +19,10 @@ Cannot access offset of type %s in isset or empty
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-access-offset-of-type-%s-in-isset-or-empty.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-access-offset-of-type-%s-in-isset-or-empty.html","name":"Cannot access offset of type %s in isset or empty","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 04 Dec 2024 17:57:27 +0000","dateModified":"Wed, 04 Dec 2024 17:57:27 +0000","description":"In an array notation, the offset may be a variable, or any container","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-access-offset-of-type-%s-in-isset-or-empty.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

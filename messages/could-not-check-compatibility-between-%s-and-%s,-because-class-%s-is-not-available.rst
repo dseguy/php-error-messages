@@ -19,6 +19,10 @@ Could not check compatibility between %s and %s, because class %s is not availab
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/could-not-check-compatibility-between-%s-and-%s,-because-class-%s-is-not-available.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/could-not-check-compatibility-between-%s-and-%s,-because-class-%s-is-not-available.html","name":"Could not check compatibility between %s and %s, because class %s is not available","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 08 Dec 2024 14:23:45 +0000","dateModified":"Sun, 08 Dec 2024 14:23:45 +0000","description":"This error message signals that PHP could not find all the needed classes and interfaces to reach a conclusion about the compatibility of ``V``, compared to ``W``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/could-not-check-compatibility-between-%s-and-%s,-because-class-%s-is-not-available.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

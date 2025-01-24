@@ -19,6 +19,10 @@ Cannot use temporary expression in write context
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-temporary-expression-in-write-context.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-temporary-expression-in-write-context.html","name":"Cannot use temporary expression in write context","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 03 Jan 2025 09:59:47 +0000","dateModified":"Fri, 03 Jan 2025 09:59:47 +0000","description":"Literal values and constants, global or class, cannot be used for writing: they are immutable","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-use-temporary-expression-in-write-context.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

@@ -19,6 +19,10 @@ Cannot bind an instance to a static closure
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-bind-an-instance-to-a-static-closure.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-bind-an-instance-to-a-static-closure.html","name":"Cannot bind an instance to a static closure","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 12 Jan 2025 09:42:42 +0000","dateModified":"Sun, 12 Jan 2025 09:42:42 +0000","description":"The ``Closure::bind()`` method gives the scope of execution of a closure","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-bind-an-instance-to-a-static-closure.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

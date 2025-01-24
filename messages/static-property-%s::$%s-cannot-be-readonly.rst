@@ -19,6 +19,10 @@ Static property %s::$%s cannot be readonly
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/static-property-%s::$%s-cannot-be-readonly.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/static-property-%s::$%s-cannot-be-readonly.html","name":"Static property %s::$%s cannot be readonly","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 20 Jan 2025 10:36:30 +0000","dateModified":"Mon, 20 Jan 2025 10:36:30 +0000","description":"Static properties cannot use the readonly option","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static-property-%s::$%s-cannot-be-readonly.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

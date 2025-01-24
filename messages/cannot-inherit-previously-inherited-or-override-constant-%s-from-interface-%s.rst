@@ -19,6 +19,10 @@ Cannot inherit previously-inherited or override constant %s from interface %s
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-inherit-previously-inherited-or-override-constant-%s-from-interface-%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-inherit-previously-inherited-or-override-constant-%s-from-interface-%s.html","name":"Cannot inherit previously-inherited or override constant %s from interface %s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jan 2025 16:36:10 +0000","dateModified":"Mon, 06 Jan 2025 16:36:10 +0000","description":"Until PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-inherit-previously-inherited-or-override-constant-%s-from-interface-%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

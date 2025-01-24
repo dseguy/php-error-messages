@@ -19,6 +19,10 @@ Type of %s::$%s must be %s%s (as in class %s)
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/type-of-%s::$%s-must-be-%s%s-(as-in-class-%s).html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/type-of-%s::$%s-must-be-%s%s-(as-in-class-%s).html","name":"Type of %s::$%s must be %s%s (as in class %s)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 20 Jan 2025 10:35:54 +0000","dateModified":"Mon, 20 Jan 2025 10:35:54 +0000","description":"Property definitions must be compatible one another, between a parent and a child class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/type-of-%s::$%s-must-be-%s%s-(as-in-class-%s).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

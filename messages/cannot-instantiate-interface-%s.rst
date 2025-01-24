@@ -19,6 +19,10 @@ Cannot instantiate interface %s
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-instantiate-interface-%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-instantiate-interface-%s.html","name":"Cannot instantiate interface %s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Dec 2024 10:28:36 +0000","dateModified":"Tue, 31 Dec 2024 10:28:36 +0000","description":"An interface represents an abstract class, and cannot be instantiated alone","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-instantiate-interface-%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

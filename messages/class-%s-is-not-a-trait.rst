@@ -19,6 +19,10 @@ Class %s is not a trait, Only traits may be used in 'as' and 'insteadof' stateme
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/class-%s-is-not-a-trait.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/class-%s-is-not-a-trait.html","name":"Class %s is not a trait, Only traits may be used in 'as' and 'insteadof' statements","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Jan 2025 10:01:57 +0000","dateModified":"Thu, 02 Jan 2025 10:01:57 +0000","description":"It is not possible to use a class name in a use block: the block only uses traits information","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class-%s-is-not-a-trait.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

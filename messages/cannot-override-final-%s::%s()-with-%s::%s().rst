@@ -19,6 +19,10 @@ Cannot override final %s::%s() with %s::%s()
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-override-final-%s::%s()-with-%s::%s().html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-override-final-%s::%s()-with-%s::%s().html","name":"Cannot override final %s::%s() with %s::%s()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 29 Dec 2024 17:45:54 +0000","dateModified":"Sun, 29 Dec 2024 17:45:54 +0000","description":"The ``final`` keyword prevents any child class to define the same constant or method","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-override-final-%s::%s()-with-%s::%s().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

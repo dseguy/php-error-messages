@@ -19,6 +19,10 @@
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s-%s-cannot-implement-interface-%s,-extend-exception-or-error-instead.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s-%s-cannot-implement-interface-%s,-extend-exception-or-error-instead.html","name":"%s %s cannot implement interface %s, extend Exception or Error instead","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jan 2025 14:02:56 +0000","dateModified":"Fri, 24 Jan 2025 14:02:56 +0000","description":"``Throwable`` is a PHP native and reserved interface","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/%s-%s-cannot-implement-interface-%s,-extend-exception-or-error-instead.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

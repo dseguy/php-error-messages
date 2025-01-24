@@ -19,6 +19,10 @@ Power of base 0 and negative exponent is deprecated
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/power-of-base-0-and-negative-exponent-is-deprecated.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/power-of-base-0-and-negative-exponent-is-deprecated.html","name":"Power of base 0 and negative exponent is deprecated","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 12 Nov 2024 18:42:39 +0000","dateModified":"Tue, 12 Nov 2024 18:42:39 +0000","description":"Requesting a negative exponent on 0 yields this error message","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/power-of-base-0-and-negative-exponent-is-deprecated.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

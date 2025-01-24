@@ -19,6 +19,10 @@ Must not use parent::$%s::%s() outside a property hook
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/must-not-use-parent::$%s::%s()-outside-a-property-hook.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/must-not-use-parent::$%s::%s()-outside-a-property-hook.html","name":"Must not use parent::$%s::%s() outside a property hook ","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 29 Dec 2024 17:49:30 +0000","dateModified":"Sun, 29 Dec 2024 17:49:30 +0000","description":"Property hooks are actual methods: they can call other methods to fulfill their mission","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/must-not-use-parent::$%s::%s()-outside-a-property-hook.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

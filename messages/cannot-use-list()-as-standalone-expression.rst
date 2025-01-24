@@ -19,6 +19,10 @@ Cannot use list() as standalone expression
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-list()-as-standalone-expression.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-list()-as-standalone-expression.html","name":"Cannot use list() as standalone expression","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 19 Nov 2024 17:08:00 +0000","dateModified":"Tue, 19 Nov 2024 17:08:00 +0000","description":"list() assigns values from an array to a list of variables (or data containers)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-use-list()-as-standalone-expression.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

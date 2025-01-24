@@ -19,6 +19,10 @@ Call to a member function %s() on %s
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/call-to-a-member-function-%s()-on-%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/call-to-a-member-function-%s()-on-%s.html","name":"Call to a member function %s() on %s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Jan 2025 08:50:07 +0000","dateModified":"Thu, 02 Jan 2025 08:50:07 +0000","description":"This error happens when the object syntax is used on a string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/call-to-a-member-function-%s()-on-%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

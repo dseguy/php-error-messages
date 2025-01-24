@@ -19,6 +19,10 @@
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%d-arguments-are-required,-%d.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%d-arguments-are-required,-%d.html","name":"%d arguments are required, %d given","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 17 Jan 2025 15:02:51 +0000","dateModified":"Fri, 17 Jan 2025 15:02:51 +0000","description":"The actual number of arguments of the function is commanded by the first argument: there must be an extra argument for every ``%s`` in that argument","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/%d-arguments-are-required,-%d.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

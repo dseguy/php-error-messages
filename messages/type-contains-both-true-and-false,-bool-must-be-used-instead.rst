@@ -19,6 +19,10 @@ Type contains both true and false, bool must be used instead
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/type-contains-both-true-and-false,-bool-must-be-used-instead.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/type-contains-both-true-and-false,-bool-must-be-used-instead.html","name":"Type contains both true and false, bool must be used instead","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 28 Nov 2024 06:36:19 +0000","dateModified":"Thu, 28 Nov 2024 06:36:19 +0000","description":"PHP has several types","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/type-contains-both-true-and-false,-bool-must-be-used-instead.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

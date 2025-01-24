@@ -19,6 +19,10 @@ exponent cannot have a fractional part
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/exponent-cannot-have-a-fractional-part.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/exponent-cannot-have-a-fractional-part.html","name":"exponent cannot have a fractional part","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 15 Nov 2024 13:48:14 +0000","dateModified":"Fri, 15 Nov 2024 13:48:14 +0000","description":"The exponent argument, aka the second, must be an integer value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/exponent-cannot-have-a-fractional-part.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

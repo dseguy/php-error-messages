@@ -19,6 +19,10 @@ Unknown format specifier "%c
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/unknown-format-specifier-\"%c.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/unknown-format-specifier-\"%c.html","name":"Unknown format specifier \"%c","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 25 Nov 2024 22:28:36 +0000","dateModified":"Mon, 25 Nov 2024 22:28:36 +0000","description":"printf() accepts a string of formats, as the first arguments","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unknown-format-specifier-\"%c.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

@@ -19,6 +19,10 @@ Index invalid or out of range
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/index-invalid-or-out-of-range.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/index-invalid-or-out-of-range.html","name":"Index invalid or out of range","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jan 2025 09:35:39 +0000","dateModified":"Thu, 09 Jan 2025 09:35:39 +0000","description":"This error message is returned by the ``SplFixedArray`` object, when trying to access indices outside the validity interval","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/index-invalid-or-out-of-range.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

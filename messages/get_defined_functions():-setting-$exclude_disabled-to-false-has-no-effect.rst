@@ -19,6 +19,10 @@ get_defined_functions(): Setting $exclude_disabled to false has no effect
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/get_defined_functions():-setting-$exclude_disabled-to-false-has-no-effect.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/get_defined_functions():-setting-$exclude_disabled-to-false-has-no-effect.html","name":"get_defined_functions(): Setting $exclude_disabled to false has no effect","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 28 Oct 2024 20:49:57 +0000","dateModified":"Sun, 27 Oct 2024 09:03:22 +0000","description":"The first (and only) parameter of the PHP native function get_defined_functions() is deprecated since PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/get_defined_functions():-setting-$exclude_disabled-to-false-has-no-effect.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

@@ -19,6 +19,10 @@ Cannot use isset() on the result of an expression (you can use "null !== express
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-isset()-on-the-result-of-an-expression-(you-can-use-\"null-!==-expression\"-instead).html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-isset()-on-the-result-of-an-expression-(you-can-use-\"null-!==-expression\"-instead).html","name":"Cannot use isset() on the result of an expression (you can use \"null !== expression\" instead)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 15 Nov 2024 13:35:29 +0000","dateModified":"Fri, 15 Nov 2024 13:35:29 +0000","description":"isset() is meant to check the existence of an data container, such as a variable, an array element, a property of an object","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-use-isset()-on-the-result-of-an-expression-(you-can-use-\"null-!==-expression\"-instead).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

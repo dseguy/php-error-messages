@@ -19,6 +19,10 @@ Call to %s %s::%s() from global scope
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/call-to-%s-%s::%s()-from-global-scope.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/call-to-%s-%s::%s()-from-global-scope.html","name":"Call to %s %s::%s() from global scope","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 27 Dec 2024 17:08:17 +0000","dateModified":"Fri, 27 Dec 2024 17:08:17 +0000","description":"This error reports that the requested method exists, but is not available from the context of call","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/call-to-%s-%s::%s()-from-global-scope.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

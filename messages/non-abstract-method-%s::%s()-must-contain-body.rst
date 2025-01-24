@@ -19,6 +19,10 @@ Non-abstract method %s::%s() must contain body
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/non-abstract-method-%s::%s()-must-contain-body.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/non-abstract-method-%s::%s()-must-contain-body.html","name":"Non-abstract method %s::%s() must contain body","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 11 Dec 2024 19:09:52 +0000","dateModified":"Wed, 11 Dec 2024 19:09:52 +0000","description":"A method must have a body block","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/non-abstract-method-%s::%s()-must-contain-body.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

@@ -19,6 +19,10 @@ Static function %s%s%s() cannot be abstract
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/static-function-%s%s%s()-cannot-be-abstract.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/static-function-%s%s%s()-cannot-be-abstract.html","name":"Static function %s%s%s() cannot be abstract","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Jan 2025 09:29:52 +0000","dateModified":"Thu, 02 Jan 2025 09:29:52 +0000","description":"This error could not be reproduced so far","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static-function-%s%s%s()-cannot-be-abstract.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

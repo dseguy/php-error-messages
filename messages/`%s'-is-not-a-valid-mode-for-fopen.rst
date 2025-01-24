@@ -19,6 +19,10 @@
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/`%s'-is-not-a-valid-mode-for-fopen.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/`%s'-is-not-a-valid-mode-for-fopen.html","name":"`%s' is not a valid mode for fopen","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jan 2025 10:58:51 +0000","dateModified":"Thu, 09 Jan 2025 10:58:51 +0000","description":"There are several modes when opening a file, as passed with the 2nd argument","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/`%s'-is-not-a-valid-mode-for-fopen.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

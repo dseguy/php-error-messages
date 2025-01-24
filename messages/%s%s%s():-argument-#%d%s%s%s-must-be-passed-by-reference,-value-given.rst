@@ -19,6 +19,10 @@
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s%s%s():-argument-#%d%s%s%s-must-be-passed-by-reference,-value-given.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s%s%s():-argument-#%d%s%s%s-must-be-passed-by-reference,-value-given.html","name":"%s%s%s(): Argument #%d%s%s%s must be passed by reference, value given","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 12 Jan 2025 21:14:42 +0000","dateModified":"Sun, 12 Jan 2025 21:14:42 +0000","description":"When a parameter is set to be passed by reference, there is a ``&`` character before its name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/%s%s%s():-argument-#%d%s%s%s-must-be-passed-by-reference,-value-given.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

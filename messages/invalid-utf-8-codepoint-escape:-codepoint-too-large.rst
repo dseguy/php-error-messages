@@ -19,6 +19,10 @@ Invalid UTF-8 codepoint escape: Codepoint too large
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/invalid-utf-8-codepoint-escape:-codepoint-too-large.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/invalid-utf-8-codepoint-escape:-codepoint-too-large.html","name":"Invalid UTF-8 codepoint escape: Codepoint too large","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 03 Jan 2025 21:23:30 +0000","dateModified":"Fri, 03 Jan 2025 21:23:30 +0000","description":"PHP supports unicode as escape sequence","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/invalid-utf-8-codepoint-escape:-codepoint-too-large.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

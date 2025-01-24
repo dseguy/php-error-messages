@@ -19,6 +19,10 @@ Type declaration '%s' must be unqualified
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/type-declaration-'%s'-must-be-unqualified.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/type-declaration-'%s'-must-be-unqualified.html","name":"Type declaration '%s' must be unqualified","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 12 Jan 2025 09:40:58 +0000","dateModified":"Sun, 12 Jan 2025 09:40:58 +0000","description":"Scalar types are absolute, and shall not be written with the initial ``\\``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/type-declaration-'%s'-must-be-unqualified.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  

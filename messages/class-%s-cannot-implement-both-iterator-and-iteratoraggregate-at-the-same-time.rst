@@ -19,6 +19,10 @@ Class %s cannot implement both Iterator and IteratorAggregate at the same time
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/class-%s-cannot-implement-both-iterator-and-iteratoraggregate-at-the-same-time.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/class-%s-cannot-implement-both-iterator-and-iteratoraggregate-at-the-same-time.html","name":"Class %s cannot implement both Iterator and IteratorAggregate at the same time","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 22 Jan 2025 16:01:25 +0000","dateModified":"Wed, 22 Jan 2025 16:01:25 +0000","description":"These two interfaces are incompatible one another","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class-%s-cannot-implement-both-iterator-and-iteratoraggregate-at-the-same-time.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
 Description
 ___________
  
