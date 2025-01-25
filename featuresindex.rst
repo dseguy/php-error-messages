@@ -1026,6 +1026,7 @@ Features index
       * :ref:`can\'t-inherit-abstract-function-%s::%s()-(previously-declared-abstract-in-%s)`
       * :ref:`cannot-use-\'readonly\'-as-method-modifier`
       * :ref:`method-name-must-be-a-string`
+      * :ref:`must-be-a-valid-method-name`
       * :ref:`non-static-method-%s::%s()-cannot-be-called-statically`
       * :ref:`non-static-method-%s::%s()-should-not-be-called-statically`
       * :ref:`syntax-error,-unexpected-token-"(",-expecting-identifier-or-variable-or-"{"-or-"\$"`
@@ -1400,7 +1401,9 @@ Features index
    * reflection
 
       * :ref:`attribute-class-"%s"-not-found`
+      * :ref:`cannot-be-null-when-argument-#1-(\$objectormethod)-is-an-object`
       * :ref:`case-%s::%s-does-not-exist`
+      * :ref:`must-be-a-valid-method-name`
 
 
    * regex
@@ -1438,6 +1441,7 @@ Features index
    * return-type
 
       * :ref:`%s%s%s():-return-value-must-be-of-type-%s,-%s-returned`
+      * :ref:`%s::%s():-return-type-must-be-%s-when-declared`
       * :ref:`a-function-with-return-type-must-return-a-value`
       * :ref:`constructor-%s::%s()-cannot-declare-a-return-type`
       * :ref:`constructors-cannot-declare-a-return-type`
@@ -1449,7 +1453,6 @@ Features index
 
    * returntype
 
-      * :ref:`%s::%s():-return-type-must-be-%s-when-declared`
       * :ref:`returning-bool-from-comparison-function-is-deprecated,-return-an-integer-less-than,-equal-to,-or-greater-than-zero`
 
 

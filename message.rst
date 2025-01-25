@@ -119,6 +119,7 @@ PHP Error Messages
    messages/cannot-assign-an-empty-string-to-a-string-offset.rst
    messages/cannot-auto-initialize-an-array-inside-property-%s::$%s-of-type-%s.rst
    messages/cannot-be-a-class-constant.rst
+   messages/cannot-be-null-when-argument-#1-($objectormethod)-is-an-object.rst
    messages/cannot-bind-an-instance-to-a-static-closure.rst
    messages/cannot-call-constructor.rst
    messages/cannot-combine-named-arguments-and-argument-unpacking.rst
@@ -284,6 +285,7 @@ PHP Error Messages
    messages/must-be-a-user-defined-class-name,-internal-class-name-given.rst
    messages/must-be-a-valid-comparison-operator.rst
    messages/must-be-a-valid-encoding,-"%s"-given.rst
+   messages/must-be-a-valid-method-name.rst
    messages/must-be-a-valid-rounding-mode-(roundingmode\:\:*).rst
    messages/must-be-contained-in-argument-#1-($haystack).rst
    messages/must-contain-at-least-one-element.rst
