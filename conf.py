@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'PHP error messages'
-copyright = '2023-2025, Damien Seguy'
+copyright = '2023-2025, Damien Seguy - <a href="https://www.exakat.io/">Exakat</a>'
 author = 'Damien Seguy'
 release = '1.0'
 
@@ -50,7 +50,7 @@ html_theme_options = {
     'github_button': True,
     'github_repo':'php-error-messages',
     'github_user':'dseguy',
-    'description': 'All the PHP error messages, under one roof, with explanations.',
+    'description': 'All the PHP error messages, with explanations.',
 }
 
 html_js_files = [
