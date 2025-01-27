@@ -924,6 +924,7 @@ Features index
    * keyword
 
       * :ref:`never-cannot-be-used-as-a-parameter-type`
+      * :ref:`syntax-error,-unexpected-token-"%s",-expecting-identifier`
       * :ref:`syntax-error,-unexpected-token-"::"`
 
 
@@ -938,6 +939,11 @@ Features index
    * lexical
 
       * :ref:`cannot-use-lexical-variable-%s-as-a-parameter-name`
+
+
+   * lexical-variable
+
+      * :ref:`named-parameter-\$%s-overwrites-previous-argument`
 
 
    * list
@@ -1004,6 +1010,11 @@ Features index
       * :ref:`power-of-base-0-and-negative-exponent-is-deprecated`
 
 
+   * max_execution_time
+
+      * :ref:`maximum-execution-time-of-%d-second%s-exceeded`
+
+
    * mbstring
 
       * :ref:`handling-base64-via-mbstring-is-deprecated;-use-base64_encode-base64_decode-instead`
@@ -1054,6 +1065,7 @@ Features index
    * name
 
       * :ref:`cannot-redeclare-%s()-(previously-declared-in-%s:%d)`
+      * :ref:`cannot-redeclare-function-%s()-(previously-declared-in-%s:%d)`
       * :ref:`illegal-class-name`
       * :ref:`method-name-must-be-a-string`
 
@@ -1242,6 +1254,7 @@ Features index
    * parenthesis
 
       * :ref:`syntax-error,-unexpected-\',\'`
+      * :ref:`syntax-error,-unexpected-token-")"`
       * :ref:`syntax-error,-unexpected-token-"if"`
       * :ref:`unclosed-\'(\'`
       * :ref:`unmatched-\')\'`
@@ -1258,6 +1271,12 @@ Features index
    * php-variable
 
       * :ref:`undefined-variable`
+
+
+   * postgresql
+
+      * :ref:`must-be-one-of-pgsql_assoc,-pgsql_num,-or-pgsql_both`
+      * :ref:`must-be-one-of-pgsql_notice_last,-pgsql_notice_all,-or-pgsql_notice_clear`
 
 
    * printf
@@ -1689,6 +1708,7 @@ Features index
       * :ref:`cannot-instantiate-trait-%s`
       * :ref:`class-%s-is-not-a-trait`
       * :ref:`could-not-find-trait-%s`
+      * :ref:`enum-"%s"-not-found`
       * :ref:`enum-%s-cannot-include-properties`
       * :ref:`readonly-class-%s-cannot-use-trait-with-a-non-readonly-property-%s::\$%s`
       * :ref:`required-trait-%s-wasn\'t-added-to-%s`
@@ -1804,7 +1824,17 @@ Features index
    * validation
 
       * :ref:`argument-#1-(\$value)-must-contain-at-least-one-element`
+      * :ref:`passing-false-or-null-is-deprecated-since-8.4`
       * :ref:`passing-the-encoding-as-third-parameter-is-deprecated.-use-an-explicit-zero-offset`
+      * :ref:`security-level-must-be-one-of-"noauthnopriv",-"authnopriv",-or-"authpriv`
+      * :ref:`security-protocol-must-be-one-of-"aes128",-or-"aes-e_error`
+      * :ref:`security-protocol-must-be-one-of-"des",-"aes128",-or-"aes-e_error`
+
+
+   * valueerror
+
+      * :ref:`must-be-one-of-pgsql_assoc,-pgsql_num,-or-pgsql_both`
+      * :ref:`must-be-one-of-pgsql_notice_last,-pgsql_notice_all,-or-pgsql_notice_clear`
 
 
    * variable

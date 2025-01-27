@@ -415,6 +415,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-%25s%28%29-%28previously-declared-in-%25s%3A%25d%29.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-function-%25s%28%29-%28previously-declared-in-%25s%3A%25d%29.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-property-hook.html</loc>
  </url>
  <url>
@@ -670,6 +673,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/entry-%25s-does-not-exist-and-cannot-be-deleted.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/enum-%22%25s%22-not-found.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/enum-%25s-cannot-include-magic-method-%25s.html</loc>
  </url>
  <url>
@@ -805,6 +811,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/match-expressions-may-only-contain-one-default-arm.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/maximum-execution-time-of-%25d-second%25s-exceeded.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/method-%25s%3A%3A%25s%28%29-cannot-be-static.html</loc>
  </url>
  <url>
@@ -848,6 +857,12 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-contained-in-argument-%231-%28%24haystack%29.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-one-of-pgsql_assoc%2C-pgsql_num%2C-or-pgsql_both.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-one-of-pgsql_notice_last%2C-pgsql_notice_all%2C-or-pgsql_notice_clear.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-contain-at-least-one-element.html</loc>
@@ -961,6 +976,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/parameter-uses-%27parent%27-as-type-hint-although-class-does-not-have-a-parent%5C%21.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/passing-false-or-null-is-deprecated-since-8.4.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/passing-the-encoding-as-third-parameter-is-deprecated.-use-an-explicit-zero-offset.html</loc>
  </url>
  <url>
@@ -1033,6 +1051,15 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/returning-by-reference-from-a-void-function-is-deprecated.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/security-level-must-be-one-of-%22noauthnopriv%22%2C-%22authnopriv%22%2C-or-%22authpriv.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/security-protocol-must-be-one-of-%22aes128%22%2C-or-%22aes-e_error.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/security-protocol-must-be-one-of-%22des%22%2C-%22aes128%22%2C-or-%22aes-e_error.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/spread-operator-is-not-supported-in-assignments.html</loc>
  </url>
  <url>
@@ -1088,6 +1115,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%23%5B%22%2C-expecting-%22%2C%22-or-%22%3B%22.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%25s%22%2C-expecting-identifier.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%26%22%2C-expecting-end-of-file.html</loc>

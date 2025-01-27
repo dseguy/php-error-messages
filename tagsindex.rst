@@ -196,6 +196,7 @@ Tag index
    * not generated
 
       * :ref:`classes-must-be-first-marked-as-attribute-before-being-able-to-be-registered-as-internal-attribute-class`
+      * :ref:`enum-"%s"-not-found`
       * :ref:`failed-to-open-stream-from-socketpair`
       * :ref:`only-internal-classes-can-be-registered-as-compiler-attribute`
       * :ref:`static-function-%s%s%s()-cannot-be-abstract`
@@ -232,6 +233,7 @@ Tag index
    * redeclare
 
       * :ref:`cannot-redeclare-%s()-(previously-declared-in-%s:%d)`
+      * :ref:`cannot-redeclare-function-%s()-(previously-declared-in-%s:%d)`
 
 
    * reference
@@ -308,6 +310,7 @@ Tag index
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-variable`
       * :ref:`syntax-error,-unexpected-string-content`
       * :ref:`syntax-error,-unexpected-token-"#[",-expecting-","-or-";"`
+      * :ref:`syntax-error,-unexpected-token-"%s",-expecting-identifier`
       * :ref:`syntax-error,-unexpected-token-"&",-expecting-end-of-file`
       * :ref:`syntax-error,-unexpected-token-"&"`
       * :ref:`syntax-error,-unexpected-token-"(",-expecting-identifier-or-variable-or-"{"-or-"$"`

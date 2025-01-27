@@ -21,7 +21,7 @@ Too few arguments
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/too-few-arguments.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/too-few-arguments.html","name":"Too few arguments","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jan 2025 10:34:21 +0000","dateModified":"Thu, 16 Jan 2025 10:34:21 +0000","description":"Functions such as ``printf()`` require at least one argument, the format","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/too-few-arguments.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/too-few-arguments.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/too-few-arguments.html","name":"Too few arguments","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 27 Jan 2025 10:54:07 +0000","dateModified":"Mon, 27 Jan 2025 10:54:07 +0000","description":"Functions such as ``printf()`` require at least one argument, the format","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/too-few-arguments.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -54,3 +54,6 @@ _________
 
 + Check that the format (first argument), has only the required placeholders ``%s``, ``%i``...
 + Check that the ``printf()`` has enough arguments to match the format.
+
+
+In more recent PHP versions, this error message is now :ref:`%d-arguments-are-required,-%d`.

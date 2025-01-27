@@ -21,12 +21,12 @@ syntax error, unexpected token "extends", expecting "{"
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\"extends\",-expecting-\"{\".html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\"extends\",-expecting-\"{\".html","name":"syntax error, unexpected token \"extends\", expecting \"{\"","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jan 2025 10:09:26 +0000","dateModified":"Thu, 09 Jan 2025 10:09:26 +0000","description":"When declaring a class, the ``extends`` keyword must appear before the ``implements`` one","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\"extends\",-expecting-\"{\".html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\"extends\",-expecting-\"{\".html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\"extends\",-expecting-\"{\".html","name":"syntax error, unexpected token \"extends\", expecting \"{\"","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 26 Jan 2025 18:35:50 +0000","dateModified":"Sun, 26 Jan 2025 18:35:50 +0000","description":"When declaring a class, the ``extends`` keyword must appear before the ``implements`` one","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\"extends\",-expecting-\"{\".html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
  
-When declaring a class, the ``extends`` keyword must appear before the ``implements`` one.
+When declaring a class, the ``extends`` keyword must appear before the ``implements`` one. There is only one (or no) class extension, so the ``extends`` list is often shorter than the implements list.
 
 Example
 _______
@@ -34,6 +34,7 @@ _______
 .. code-block:: php
 
    <?php
+   
    class X implements I1, I2 extends W {}
    
    ?>

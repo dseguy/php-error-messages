@@ -21,14 +21,14 @@ A class constant must not be called class. it is reserved for class name fetchin
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/a-class-constant-must-not-be-called-class.-it-is-reserved-for-class-name-fetching.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/a-class-constant-must-not-be-called-class.-it-is-reserved-for-class-name-fetching.html","name":"A class constant must not be called class. it is reserved for class name fetching","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 27 Dec 2024 11:16:08 +0000","dateModified":"Fri, 27 Dec 2024 11:16:08 +0000","description":"Class constants can use a lot of names, but not the name 'class'","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/a-class-constant-must-not-be-called-class.-it-is-reserved-for-class-name-fetching.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/a-class-constant-must-not-be-called-class.-it-is-reserved-for-class-name-fetching.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/a-class-constant-must-not-be-called-class.-it-is-reserved-for-class-name-fetching.html","name":"A class constant must not be called class. it is reserved for class name fetching","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 27 Jan 2025 10:55:51 +0000","dateModified":"Mon, 27 Jan 2025 10:55:51 +0000","description":"Class constants can use a lot of names, but not the name 'class'","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/a-class-constant-must-not-be-called-class.-it-is-reserved-for-class-name-fetching.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
  
 Class constants can use a lot of names, but not the name 'class'. This is used by default to fetch the full name of the class, and there is no need to defined it. 
 
-Hence, it is not possible to define a class constant called 'class', case non-withstanding, as it conflict with the default constant.'
+Hence, it is not possible to define a class constant called 'class', case non-withstanding, as it conflict with the default constant.
 
 Example
 _______

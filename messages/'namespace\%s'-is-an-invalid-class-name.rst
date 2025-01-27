@@ -21,7 +21,7 @@
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/'namespace\\%s'-is-an-invalid-class-name.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/'namespace\\%s'-is-an-invalid-class-name.html","name":"'namespace\\%s' is an invalid class name","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 25 Jan 2025 12:13:38 +0000","dateModified":"Sat, 25 Jan 2025 12:13:38 +0000","description":"``namespace``, when used in a fully qualified name, represents the current namespace","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/'namespace\\%s'-is-an-invalid-class-name.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/'namespace\\%s'-is-an-invalid-class-name.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/'namespace\\%s'-is-an-invalid-class-name.html","name":"'namespace\\%s' is an invalid class name","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 27 Jan 2025 10:56:18 +0000","dateModified":"Mon, 27 Jan 2025 10:56:18 +0000","description":"``namespace``, when used in a fully qualified name, represents the current namespace","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/'namespace\\%s'-is-an-invalid-class-name.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -35,7 +35,6 @@ As such, ``self``` doesn't have an absolute path version, such as ``namespace\se
 This error is also emitted for ``static`` and ``parent``. 
 
 Omitting the ``namespace`` keyword, and writing ``\self``, is also forbidden for the same reason.
-
 
 Example
 _______

@@ -21,7 +21,7 @@ syntax error, unexpected token "use"
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\"use\".html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\"use\".html","name":"syntax error, unexpected token \"use\"","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 12 Jan 2025 09:44:31 +0000","dateModified":"Sun, 12 Jan 2025 09:44:31 +0000","description":"``use`` expression must be place at the top level of a file, a namespace block, or a class, enum or trait block","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\"use\".html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\"use\".html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\"use\".html","name":"syntax error, unexpected token \"use\"","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 26 Jan 2025 18:36:32 +0000","dateModified":"Sun, 26 Jan 2025 18:36:32 +0000","description":"``use`` expression must be place at the top level of a file, a namespace block, or a class, enum or trait block","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\"use\".html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -32,7 +32,6 @@ In particular, when set in a structure such as a ``foreach``, it yields a syntax
 
 Besides that, the command is actually valid.
 
-
 Example
 _______
 
@@ -42,6 +41,8 @@ _______
    if ($a) {
        use stdClass as A;
    }
+   
+   ?>
 
 Solutions
 _________

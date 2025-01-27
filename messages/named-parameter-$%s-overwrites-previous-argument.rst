@@ -21,7 +21,7 @@ Named parameter $%s overwrites previous argument
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/named-parameter-$%s-overwrites-previous-argument.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/named-parameter-$%s-overwrites-previous-argument.html","name":"Named parameter $%s overwrites previous argument","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 22 Jan 2025 17:01:54 +0000","dateModified":"Wed, 22 Jan 2025 17:01:54 +0000","description":"Named parameter and positional arguments are setting the same argument, with different name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/named-parameter-$%s-overwrites-previous-argument.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/named-parameter-$%s-overwrites-previous-argument.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/named-parameter-$%s-overwrites-previous-argument.html","name":"Named parameter $%s overwrites previous argument","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 26 Jan 2025 18:41:34 +0000","dateModified":"Sun, 26 Jan 2025 18:41:34 +0000","description":"Named parameter and positional arguments are setting the same argument, with different name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/named-parameter-$%s-overwrites-previous-argument.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -62,7 +62,7 @@ _______
 
 Literal Examples
 ****************
-+ Named parameter $%s overwrites previous argument
++ Named parameter $a overwrites previous argument
 
 Solutions
 _________

@@ -21,7 +21,7 @@
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/\"static::\"-is-not-allowed-in-compile-time-constants.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/\"static::\"-is-not-allowed-in-compile-time-constants.html","name":"\"static::\" is not allowed in compile-time constants","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 20 Jan 2025 11:07:57 +0000","dateModified":"Mon, 20 Jan 2025 11:07:57 +0000","description":"The ``static`` keyword is a relative class identifier","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/\"static::\"-is-not-allowed-in-compile-time-constants.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/\"static::\"-is-not-allowed-in-compile-time-constants.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/\"static::\"-is-not-allowed-in-compile-time-constants.html","name":"\"static::\" is not allowed in compile-time constants","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 27 Jan 2025 10:11:36 +0000","dateModified":"Mon, 27 Jan 2025 10:11:36 +0000","description":"The ``static`` keyword is a relative class identifier","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/\"static::\"-is-not-allowed-in-compile-time-constants.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -30,8 +30,7 @@ The ``static`` keyword is a relative class identifier. It is resolved at executi
 
 In the case of constants, such as class constants or default values in parameters or properties, they must be known at compile time, to be usable as soon as the application start. 
 
-On the other hand, ``self`` and ``parent`` are valid relative values, as there can only be one. 
-
+On the other hand, ``self`` and ``parent`` are valid relative values, as there can only be one.
 
 Example
 _______

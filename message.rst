@@ -143,6 +143,7 @@ PHP Error Messages
    messages/cannot-re-assign-$this.rst
    messages/cannot-re-assign-auto-global-variable-%s.rst
    messages/cannot-redeclare-%s()-(previously-declared-in-%s:%d).rst
+   messages/cannot-redeclare-function-%s()-(previously-declared-in-%s:%d).rst
    messages/cannot-redeclare-property-hook.rst
    messages/cannot-redefine-class-constant.rst
    messages/cannot-specify-default-value-for-virtual-hooked-property-%s::$%s.rst
@@ -228,6 +229,7 @@ PHP Error Messages
    messages/duplicate-type-%s-is-redundant.rst
    messages/empty-delimiter.rst
    messages/entry-%s-does-not-exist-and-cannot-be-deleted.rst
+   messages/enum-"%s"-not-found.rst
    messages/enum-%s-cannot-include-magic-method-%s.rst
    messages/enum-%s-cannot-include-properties.rst
    messages/enum-case-value-must-be-compile-time-evaluatable.rst
@@ -273,6 +275,7 @@ PHP Error Messages
    messages/keys-must-be-of-type-int|string-during-array-unpacking.rst
    messages/label-'%s'-already-defined.rst
    messages/match-expressions-may-only-contain-one-default-arm.rst
+   messages/maximum-execution-time-of-%d-second%s-exceeded.rst
    messages/method-%s::%s()-cannot-be-static.rst
    messages/method-%s::%s()-cannot-declare-a-return-type.rst
    messages/method-%s::%s()-must-be-static.rst
@@ -288,6 +291,8 @@ PHP Error Messages
    messages/must-be-a-valid-method-name.rst
    messages/must-be-a-valid-rounding-mode-(roundingmode\:\:*).rst
    messages/must-be-contained-in-argument-#1-($haystack).rst
+   messages/must-be-one-of-pgsql_assoc,-pgsql_num,-or-pgsql_both.rst
+   messages/must-be-one-of-pgsql_notice_last,-pgsql_notice_all,-or-pgsql_notice_clear.rst
    messages/must-contain-at-least-one-element.rst
    messages/must-not-use-parent::$%s::%s()-in-a-different-property-($%s).rst
    messages/must-not-use-parent::$%s::%s()-in-a-different-property-hook-(%s).rst
@@ -325,6 +330,7 @@ PHP Error Messages
    messages/optional-parameter-$%s-declared-before-required-parameter-$%s-is-implicitly-treated-as-a-required-parameter.rst
    messages/parameter-%d-must-be-passed-by-reference.rst
    messages/parameter-uses-'parent'-as-type-hint-although-class-does-not-have-a-parent\!.rst
+   messages/passing-false-or-null-is-deprecated-since-8.4.rst
    messages/passing-the-encoding-as-third-parameter-is-deprecated.-use-an-explicit-zero-offset.rst
    messages/power-of-base-0-and-negative-exponent-is-deprecated.rst
    messages/private-constant-%s::%s-cannot-be-final-as-it-is-not-visible-to-other-classes.rst
@@ -349,6 +355,9 @@ PHP Error Messages
    messages/returning-bool-from-comparison-function-is-deprecated,-return-an-integer-less-than,-equal-to,-or-greater-than-zero.rst
    messages/returning-bool-from-comparison-function-is-deprecated.rst
    messages/returning-by-reference-from-a-void-function-is-deprecated.rst
+   messages/security-level-must-be-one-of-"noauthnopriv",-"authnopriv",-or-"authpriv.rst
+   messages/security-protocol-must-be-one-of-"aes128",-or-"aes-e_error.rst
+   messages/security-protocol-must-be-one-of-"des",-"aes128",-or-"aes-e_error.rst
    messages/spread-operator-is-not-supported-in-assignments.rst
    messages/static-function-%s%s%s()-cannot-be-abstract.rst
    messages/static-property-%s::$%s-cannot-be-readonly.rst
@@ -368,6 +377,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-variable.rst
    messages/syntax-error,-unexpected-string-content.rst
    messages/syntax-error,-unexpected-token-"#[",-expecting-","-or-";".rst
+   messages/syntax-error,-unexpected-token-"%s",-expecting-identifier.rst
    messages/syntax-error,-unexpected-token-"&",-expecting-end-of-file.rst
    messages/syntax-error,-unexpected-token-"&".rst
    messages/syntax-error,-unexpected-token-"(",-expecting-identifier-or-variable-or-"{"-or-"$".rst
