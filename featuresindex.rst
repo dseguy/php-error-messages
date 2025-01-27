@@ -257,11 +257,6 @@ Features index
       * :ref:`type-contains-both-true-and-false,-bool-must-be-used-instead`
 
 
-   * bracket
-
-      * :ref:`unmatched-\'}\'`
-
-
    * break
 
       * :ref:`\'%s\'-not-in-the-\'loop\'-or-\'switch\'-context`
@@ -324,6 +319,11 @@ Features index
    * catch
 
       * :ref:`syntax-error,-unexpected-\')\',-expecting-\'|\'-or-variable-(t_variable)`
+
+
+   * chaining-new-without-parenthesis
+
+      * :ref:`syntax-error,-unexpected-token-"("`
 
 
    * character
@@ -655,6 +655,7 @@ Features index
 
    * exponent
 
+      * :ref:`syntax-error,-unexpected-token-"%"`
       * :ref:`syntax-error,-unexpected-token-"*"`
 
 
@@ -1052,6 +1053,11 @@ Features index
       * :ref:`cannot-use-\'mixed\'-as-class-name-as-it-is-reserved`
 
 
+   * modulo
+
+      * :ref:`syntax-error,-unexpected-token-"*"`
+
+
    * multi-byte
 
       * :ref:`only-the-first-byte-will-be-assigned-to-the-string-offset`
@@ -1059,6 +1065,7 @@ Features index
 
    * multiplication
 
+      * :ref:`syntax-error,-unexpected-token-"%"`
       * :ref:`syntax-error,-unexpected-token-"*"`
 
 
@@ -1564,7 +1571,9 @@ Features index
 
    * square-bracket
 
+      * :ref:`syntax-error,-unexpected-token-"]"`
       * :ref:`unclosed-\'[\'`
+      * :ref:`unmatched-\'}\'`
 
 
    * static

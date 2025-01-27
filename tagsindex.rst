@@ -39,6 +39,7 @@ Tag index
       * :ref:`cannot-use-::class-with-dynamic-class-name`
       * :ref:`cannot-use-the-abstract-modifier-on-a-property`
       * :ref:`power-of-base-0-and-negative-exponent-is-deprecated`
+      * :ref:`syntax-error,-unexpected-token-"("`
       * :ref:`undefined-variable`
       * :ref:`unparenthesized-\`a-?-b-:-c-?-d-:-e\`-is-not-supported.`
 
@@ -310,6 +311,7 @@ Tag index
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-variable`
       * :ref:`syntax-error,-unexpected-string-content`
       * :ref:`syntax-error,-unexpected-token-"#[",-expecting-","-or-";"`
+      * :ref:`syntax-error,-unexpected-token-"%"`
       * :ref:`syntax-error,-unexpected-token-"%s",-expecting-identifier`
       * :ref:`syntax-error,-unexpected-token-"&",-expecting-end-of-file`
       * :ref:`syntax-error,-unexpected-token-"&"`
@@ -335,6 +337,7 @@ Tag index
       * :ref:`syntax-error,-unexpected-token-"?->",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-token-"?->"`
       * :ref:`syntax-error,-unexpected-token-"??"`
+      * :ref:`syntax-error,-unexpected-token-"]"`
       * :ref:`syntax-error,-unexpected-token-"__namespace__",-expecting-"("`
       * :ref:`syntax-error,-unexpected-token-"break"`
       * :ref:`syntax-error,-unexpected-token-"continue"`

@@ -943,6 +943,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/object-of-type-%25s-has-not-been-correctly-initialized-by-calling-parent%3A%3A__construct%28%29-in-its-constructor.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/object-of-type-%25s-is-not-callable.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/octal-escape-sequence-overflow-%5C%25s-is-greater-than-%5C377.html</loc>
  </url>
  <url>
@@ -1117,6 +1120,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%23%5B%22%2C-expecting-%22%2C%22-or-%22%3B%22.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%25%22.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%25s%22%2C-expecting-identifier.html</loc>
  </url>
  <url>
@@ -1190,6 +1196,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%3F%3F%22.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%5D%22.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22__namespace__%22%2C-expecting-%22%28%22.html</loc>
@@ -1400,6 +1409,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/using-array_key_exists%28%29-on-objects-is-deprecated..html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/value-of-type-%25s-is-not-callable.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/visibility-of-property-%25s%3A%3A%24%25s-must-not-be-weaker-than-set-visibility.html</loc>

@@ -21,13 +21,12 @@ syntax error, unexpected token "*"
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\"*\".html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\"*\".html","name":"syntax error, unexpected token \"*\"","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 12 Jan 2025 09:41:59 +0000","dateModified":"Sun, 12 Jan 2025 09:41:59 +0000","description":"PHP accepts one star ``*``, for multiplication and two stars ``**``, for power, since PHP 7","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\"*\".html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\"*\".html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\"*\".html","name":"syntax error, unexpected token \"*\"","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 27 Jan 2025 17:35:42 +0000","dateModified":"Mon, 27 Jan 2025 17:35:42 +0000","description":"PHP accepts one star ``*``, for multiplication and two stars ``**``, for power, since PHP 7","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\"*\".html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
  
 PHP accepts one star ``*``, for multiplication and two stars ``**``, for power, since PHP 7.0. More stars are not supported as operator.
-
 
 Example
 _______
@@ -35,6 +34,9 @@ _______
 .. code-block:: php
 
    <?php
+   
+   // star cannot be used directly after a +
+   $a = 2 + * 3;
    
    // No such operator as 3 stars
    $a = 2 *** 3;
@@ -44,4 +46,11 @@ _______
 Solutions
 _________
 
++ Remove the previous operator, before the star.
++ Finish the previous operation, before the star.
 + Remove the superfluous star.
+
+Related Error Messages
+______________________
+
++ :ref:`syntax-error,-unexpected-token-"%"`

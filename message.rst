@@ -319,6 +319,7 @@ PHP Error Messages
    messages/object-of-class-%s-could-not-be-converted-to-int.rst
    messages/object-of-class-%s-could-not-be-converted-to-string.rst
    messages/object-of-type-%s-has-not-been-correctly-initialized-by-calling-parent::__construct()-in-its-constructor.rst
+   messages/object-of-type-%s-is-not-callable.rst
    messages/octal-escape-sequence-overflow-\%s-is-greater-than-\377.rst
    messages/only-hooked-properties-may-be-declared-abstract.rst
    messages/only-internal-classes-can-be-registered-as-compiler-attribute.rst
@@ -377,6 +378,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-variable.rst
    messages/syntax-error,-unexpected-string-content.rst
    messages/syntax-error,-unexpected-token-"#[",-expecting-","-or-";".rst
+   messages/syntax-error,-unexpected-token-"%".rst
    messages/syntax-error,-unexpected-token-"%s",-expecting-identifier.rst
    messages/syntax-error,-unexpected-token-"&",-expecting-end-of-file.rst
    messages/syntax-error,-unexpected-token-"&".rst
@@ -402,6 +404,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-"?->",-expecting-","-or-";".rst
    messages/syntax-error,-unexpected-token-"?->".rst
    messages/syntax-error,-unexpected-token-"??".rst
+   messages/syntax-error,-unexpected-token-"]".rst
    messages/syntax-error,-unexpected-token-"__namespace__",-expecting-"(".rst
    messages/syntax-error,-unexpected-token-"break".rst
    messages/syntax-error,-unexpected-token-"continue".rst
@@ -472,6 +475,7 @@ PHP Error Messages
    messages/using-${expr}-(variable-variables)-in-strings-is-deprecated,-use-{${expr}}-instead.rst
    messages/using-${var}-in-strings-is-deprecated,-use-{$var}-instead.rst
    messages/using-array_key_exists()-on-objects-is-deprecated..rst
+   messages/value-of-type-%s-is-not-callable.rst
    messages/visibility-of-property-%s::$%s-must-not-be-weaker-than-set-visibility.rst
    messages/void-cannot-be-used-as-a-parameter-type.rst
    messages/wrong-encoding,-conversion-from-"%s"-to-"%s"-is-not-allowed.rst
