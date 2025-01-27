@@ -82,11 +82,6 @@ $links = 0;
 $warnings = 0;
 foreach($files as $file) {
     $raw = file_get_contents($file);
-    if (preg_match_all('/..[^\\\\= \[]""/s', $raw, $r)) {
-        print $raw;
-        print_r($r);
-        die();
-    }
 	$error = parse_ini_file($file, INI_SCANNER_RAW);
 	
 	if (isset($errors[$file])) {
@@ -173,6 +168,10 @@ foreach($files as $file) {
 		if (str_contains($error->error, 'syntax error') && !in_array('syntax-error', $error->tags)) {
     		buildlog("Missing syntax-error in $file");
     		++$warnings;
+		}
+		
+		if (in_array('not-generated', $error->tags)) {
+		    $error->description = "This error could not be reproduced so far. Help us by sending us any generating code.";
 		}
 	}
 
@@ -473,6 +472,42 @@ foreach($errors as $file => $message) {
 
 	$entry[] = '';
 	
+	$entry[] = '.. raw:: html';
+	$entry[] = '';
+	$ldjson = ['@context' => "https://schema.org",
+	    '@graph' => [
+	        ["@type" => "WebPage",
+	        "@id" => "https://php-errors.readthedocs.io/en/latest/tips/".$message->id.".html",
+	        "url" => "https://php-errors.readthedocs.io/en/latest/tips/".$message->id.".html",
+	        "name" => $message->error,
+	        "isPartOf" => [
+	            "@id" =>  "https://www.exakat.io/"
+	        ],
+	        "datePublished" => date('r', filectime($file)),
+	        "dateModified" => date('r', filemtime($file)),
+	        "description" => $first,
+	        "inLanguage" => 'en-US',
+	        "potentialAction" => [
+	            [
+	            '@type' => 'ReadAction',
+	            'target' => ["https://php-tips.readthedocs.io/en/latest/tips/".$message->id.".html"]
+	            ]
+	        ],
+	        
+	        ],
+	        ["@type" => "WebSite",
+	         "@id"=>  "https://www.exakat.io/",
+             "url"=>  "https://www.exakat.io/",
+             "name"=>  "Exakat",
+             "description"=>  "Smart PHP static analysis",
+             "inLanguage"=>  "en-US"
+            ],
+	    ]
+	
+	];
+
+	$entry[] = '	<script type="application/ld+json">'.json_encode($ldjson).'</script>';
+	$entry[] = '';	
 	$entry[] = 'Description';
 	$entry[] = str_repeat('_', strlen('Description'));
 	$entry[] = ' ';
