@@ -346,6 +346,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-be-a-class-constant.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-be-lc_all.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-be-null-when-argument-%231-%28%24objectormethod%29-is-an-object.html</loc>
  </url>
  <url>

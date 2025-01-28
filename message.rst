@@ -120,6 +120,7 @@ PHP Error Messages
    messages/cannot-assign-an-empty-string-to-a-string-offset.rst
    messages/cannot-auto-initialize-an-array-inside-property-%s::$%s-of-type-%s.rst
    messages/cannot-be-a-class-constant.rst
+   messages/cannot-be-lc_all.rst
    messages/cannot-be-null-when-argument-#1-($objectormethod)-is-an-object.rst
    messages/cannot-bind-an-instance-to-a-static-closure.rst
    messages/cannot-call-constructor.rst
