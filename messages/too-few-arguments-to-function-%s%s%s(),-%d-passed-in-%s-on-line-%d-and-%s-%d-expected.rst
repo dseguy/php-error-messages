@@ -21,7 +21,7 @@ Too few arguments to function %s%s%s(), %d passed in %s on line %d and %s %d exp
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/too-few-arguments-to-function-%s%s%s(),-%d-passed-in-%s-on-line-%d-and-%s-%d-expected.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/too-few-arguments-to-function-%s%s%s(),-%d-passed-in-%s-on-line-%d-and-%s-%d-expected.html","name":"Too few arguments to function %s%s%s(), %d passed in %s on line %d and %s %d expected","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 23 Dec 2024 09:45:08 +0000","dateModified":"Mon, 23 Dec 2024 09:45:08 +0000","description":"This error is emitted when the number of arguments to call a method or a function is not enough","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/too-few-arguments-to-function-%s%s%s(),-%d-passed-in-%s-on-line-%d-and-%s-%d-expected.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/too-few-arguments-to-function-%s%s%s(),-%d-passed-in-%s-on-line-%d-and-%s-%d-expected.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/too-few-arguments-to-function-%s%s%s(),-%d-passed-in-%s-on-line-%d-and-%s-%d-expected.html","name":"Too few arguments to function %s%s%s(), %d passed in %s on line %d and %s %d expected","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 28 Jan 2025 11:05:59 +0000","dateModified":"Tue, 28 Jan 2025 11:05:59 +0000","description":"This error is emitted when the number of arguments to call a method or a function is not enough","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/too-few-arguments-to-function-%s%s%s(),-%d-passed-in-%s-on-line-%d-and-%s-%d-expected.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -30,8 +30,7 @@ This error is emitted when the number of arguments to call a method or a functio
 
 Without the required number of arguments at function call, the function cannot execute, as some variables would be missing.
 
-This error covers situations where all the arguments are compulsory. 
-
+This error covers situations where all the arguments are compulsory.
 
 Example
 _______

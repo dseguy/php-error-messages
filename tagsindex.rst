@@ -194,6 +194,13 @@ Tag index
       * :ref:`cannot-use-object-of-type-%s-as-array`
 
 
+   * no-closing-tag
+
+      * :ref:`syntax-error,-unexpected-end-of-file`
+      * :ref:`syntax-error,-unexpected-string-content`
+      * :ref:`syntax-error,-unexpected-token-";",-expecting-"function"-or-"fn"-or-"static"-or-"#["`
+
+
    * not generated
 
       * :ref:`classes-must-be-first-marked-as-attribute-before-being-able-to-be-registered-as-internal-attribute-class`
@@ -346,6 +353,9 @@ Tag index
       * :ref:`syntax-error,-unexpected-token-"if",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-token-"if"`
       * :ref:`syntax-error,-unexpected-token-"match"`
+      * :ref:`syntax-error,-unexpected-token-"namespace",-expecting-"{"`
+      * :ref:`syntax-error,-unexpected-token-"namespace"`
+      * :ref:`syntax-error,-unexpected-token-"use",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-token-"use"`
       * :ref:`syntax-error,-unexpected-token-"{"`
       * :ref:`syntax-error,-unexpected-token-"}"`

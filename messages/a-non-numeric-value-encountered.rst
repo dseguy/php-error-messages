@@ -21,7 +21,7 @@ A non-numeric value encountered
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/a-non-numeric-value-encountered.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/a-non-numeric-value-encountered.html","name":"A non-numeric value encountered","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 22 Jan 2025 12:01:05 +0000","dateModified":"Wed, 22 Jan 2025 12:01:05 +0000","description":"When the operands have to be integer, PHP tries to cast the value to an integer before perform the operation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/a-non-numeric-value-encountered.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/a-non-numeric-value-encountered.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/a-non-numeric-value-encountered.html","name":"A non-numeric value encountered","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 28 Jan 2025 11:00:08 +0000","dateModified":"Tue, 28 Jan 2025 11:00:08 +0000","description":"When the operands have to be integer, PHP tries to cast the value to an integer before perform the operation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/a-non-numeric-value-encountered.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -32,7 +32,6 @@ Here, the string may be converted to the integer 3, but also will loose some of 
 
 When the value cannot be converted to integer due to its type, a fatal error 'Unsupported operand types' is raised.
 
-
 Example
 _______
 
@@ -40,7 +39,7 @@ _______
 
    <?php
    
-   var_dump(3df % 2);
+   var_dump("3df" % 2);
    
    ?>
 
@@ -55,3 +54,6 @@ ______________________
 
 + :ref:`implicit-conversion-from-float-string-"%s"-to-int-loses`
 + :ref:`unsupported-operand-types`
+
+
+In previous PHP versions, this error message used to be :ref:`a-non-well-formed-numeric-value-encountered`.

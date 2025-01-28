@@ -21,15 +21,14 @@
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s-cannot-implement-%s---it-is-not-an-interface.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s-cannot-implement-%s---it-is-not-an-interface.html","name":"%s cannot implement %s - it is not an interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 18 Jan 2025 09:25:16 +0000","dateModified":"Sat, 18 Jan 2025 09:25:16 +0000","description":"The ``implements`` keyword must use an interface, and cannot use anything else","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/%s-cannot-implement-%s---it-is-not-an-interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s-cannot-implement-%s---it-is-not-an-interface.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s-cannot-implement-%s---it-is-not-an-interface.html","name":"%s cannot implement %s - it is not an interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 28 Jan 2025 10:51:26 +0000","dateModified":"Tue, 28 Jan 2025 10:51:26 +0000","description":"The ``implements`` keyword must use an interface, and cannot use anything else","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/%s-cannot-implement-%s---it-is-not-an-interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
  
 The ``implements`` keyword must use an interface, and cannot use anything else. In particular, it cannot be another class, enumeration or trait. All four structures CITE (class, Interface, Trait and Enumeration) use the same namespaces, and they cannot be told apart by reading the name only. 
 
-Indeed, when the structure has no definition, PHP repots ``interface-"e" not found``.
-
+Indeed, when the structure has no definition, PHP reports ``interface-"E" not found``.
 
 Example
 _______

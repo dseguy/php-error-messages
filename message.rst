@@ -51,6 +51,7 @@ PHP Error Messages
    messages/a-never-returning-function-must-not-return.rst
    messages/a-never-returning-method-must-not-return.rst
    messages/a-non-numeric-value-encountered.rst
+   messages/a-non-well-formed-numeric-value-encountered.rst
    messages/a-void-%s-must-not-return-a-value.rst
    messages/abstract-property-hook-cannot-have-body.rst
    messages/access-level-to-%s::%s-must-be-%s-(as-in-%s-%s)%s.rst
@@ -413,6 +414,9 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-"if",-expecting-"]".rst
    messages/syntax-error,-unexpected-token-"if".rst
    messages/syntax-error,-unexpected-token-"match".rst
+   messages/syntax-error,-unexpected-token-"namespace",-expecting-"{".rst
+   messages/syntax-error,-unexpected-token-"namespace".rst
+   messages/syntax-error,-unexpected-token-"use",-expecting-","-or-";".rst
    messages/syntax-error,-unexpected-token-"use".rst
    messages/syntax-error,-unexpected-token-"{".rst
    messages/syntax-error,-unexpected-token-"}".rst

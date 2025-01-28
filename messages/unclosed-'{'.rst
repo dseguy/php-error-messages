@@ -21,7 +21,7 @@ Unclosed '{'
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/unclosed-'{'.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/unclosed-'{'.html","name":"Unclosed '{'","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 22 Jan 2025 16:04:36 +0000","dateModified":"Wed, 22 Jan 2025 16:04:36 +0000","description":"The most frequent situation is an unbalanced block: blocks are delimited with curly brackets, and there must be the same number of opening and closing","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unclosed-'{'.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/unclosed-'{'.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/unclosed-'{'.html","name":"Unclosed '{'","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 28 Jan 2025 11:03:26 +0000","dateModified":"Tue, 28 Jan 2025 11:03:26 +0000","description":"The most frequent situation is an unbalanced block: blocks are delimited with curly brackets, and there must be the same number of opening and closing","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unclosed-'{'.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -53,6 +53,7 @@ _______
    // bracket is buried in the string
    { $b = "1+2; }
    
+   ?>
 
 Solutions
 _________

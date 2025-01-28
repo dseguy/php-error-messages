@@ -21,17 +21,16 @@ A never-returning function must not return
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/a-never-returning-function-must-not-return.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/a-never-returning-function-must-not-return.html","name":"A never-returning function must not return","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 11 Nov 2024 21:29:21 +0000","dateModified":"Mon, 11 Nov 2024 21:29:21 +0000","description":"When using the ``never`` keyword, the function shall not use the ``return`` keyword","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/a-never-returning-function-must-not-return.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/a-never-returning-function-must-not-return.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/a-never-returning-function-must-not-return.html","name":"A never-returning function must not return","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 28 Jan 2025 10:52:24 +0000","dateModified":"Tue, 28 Jan 2025 10:52:24 +0000","description":"When using the ``never`` keyword, the function shall not use the ``return`` keyword","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/a-never-returning-function-must-not-return.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
  
 When using the ``never`` keyword, the function shall not use the ``return`` keyword. ``never`` means that the function will not return, but rather ``die``, throw an exception, or trigger an error.
 
-Also note that ``never`` cannot be used in a union type.
+Also note that ``never`` cannot be used in a union or intersection type.
 
-This error message applies to functions, closures and arrow functions. In PHP 8.4, a separate message applies to methods. 
-
+This error message applies to functions, closures and arrow functions. In PHP 8.4, a separate message applies to methods.
 
 Example
 _______

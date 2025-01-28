@@ -21,7 +21,7 @@ syntax error, unexpected token "::"
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\"::\".html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\"::\".html","name":"syntax error, unexpected token \"::\"","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 20 Jan 2025 11:07:15 +0000","dateModified":"Mon, 20 Jan 2025 11:07:15 +0000","description":"In this situation, the keyword ``or`` is reserved by PHP and cannot be used as a class name, a function name, or a global constant","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\"::\".html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\"::\".html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\"::\".html","name":"syntax error, unexpected token \"::\"","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 27 Jan 2025 21:56:57 +0000","dateModified":"Mon, 27 Jan 2025 21:56:57 +0000","description":"In this situation, the keyword ``or`` is reserved by PHP and cannot be used as a class name, a function name, or a global constant","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\"::\".html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -32,6 +32,8 @@ By extension, the ``or`` keyword cannot be used in static object notations, such
 
 This error may arise with other keywords, such as ``switch``, ``and``, ``foreach``, etc, for similar reasons. It also may happen when a new keyword is reserved by PHP, between two versions.
 
+The error also appears when the left operand of the ``::`` is missing, or not applicable. Here, there is an illustration with ``echo``.
+
 
 Example
 _______
@@ -41,6 +43,8 @@ _______
    <?php
    
    1 or::A;
+   
+   echo ::class;
    
    ?>
 

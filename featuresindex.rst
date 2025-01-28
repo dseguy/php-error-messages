@@ -243,6 +243,7 @@ Features index
    * block
 
       * :ref:`syntax-error,-unexpected-\',\'`
+      * :ref:`syntax-error,-unexpected-token-"namespace",-expecting-"{"`
       * :ref:`unmatched-\'}\'`
 
 
@@ -291,6 +292,7 @@ Features index
    * callable
 
       * :ref:`class-constant-%s::%s-cannot-have-type-%s`
+      * :ref:`value-of-type-%s-is-not-callable`
 
 
    * case
@@ -526,6 +528,7 @@ Features index
    * declare
 
       * :ref:`no-code-may-exist-outside-of-namespace-{}`
+      * :ref:`syntax-error,-unexpected-token-"namespace"`
 
 
    * default
@@ -866,6 +869,11 @@ Features index
       * :ref:`__clone-method-called-on-non-object`
 
 
+   * instruction
+
+      * :ref:`syntax-error,-unexpected-token-"use",-expecting-","-or-";"`
+
+
    * integer
 
       * :ref:`division-of-php_int_min-by--1-is-not-an-integer`
@@ -1096,6 +1104,8 @@ Features index
       * :ref:`namespace-declarations-cannot-be-nested`
       * :ref:`no-code-may-exist-outside-of-namespace-{}`
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"{"`
+      * :ref:`syntax-error,-unexpected-token-"namespace",-expecting-"{"`
+      * :ref:`syntax-error,-unexpected-token-"namespace"`
 
 
    * native
@@ -1629,11 +1639,13 @@ Features index
       * :ref:`object-of-class-%s-could-not-be-converted-to-%s`
       * :ref:`return-value-of-%s%s%s()-must-%s%s%s,-%s%s-returned`
       * :ref:`strict_types-declaration-must-be-the-very-first-statement-in-the-script`
+      * :ref:`syntax-error,-unexpected-token-"namespace"`
 
 
    * string
 
       * :ref:`a-non-numeric-value-encountered`
+      * :ref:`a-non-well-formed-numeric-value-encountered`
       * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-deprecated`
       * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported`
       * :ref:`cannot-assign-an-empty-string-to-a-string-offset`
@@ -1838,6 +1850,11 @@ Features index
       * :ref:`security-level-must-be-one-of-"noauthnopriv",-"authnopriv",-or-"authpriv`
       * :ref:`security-protocol-must-be-one-of-"aes128",-or-"aes-e_error`
       * :ref:`security-protocol-must-be-one-of-"des",-"aes128",-or-"aes-e_error`
+
+
+   * value
+
+      * :ref:`value-of-type-%s-is-not-callable`
 
 
    * valueerror

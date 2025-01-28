@@ -21,7 +21,7 @@ Type must be a single character
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/type-must-be-a-single-character.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/type-must-be-a-single-character.html","name":"Type must be a single character","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 20 Dec 2024 13:43:40 +0000","dateModified":"Fri, 20 Dec 2024 13:43:40 +0000","description":"The ``type`` argument of the snmp2_set() function is a list of types: one or more","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/type-must-be-a-single-character.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/type-must-be-a-single-character.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/type-must-be-a-single-character.html","name":"Type must be a single character","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 28 Jan 2025 10:17:34 +0000","dateModified":"Tue, 28 Jan 2025 10:17:34 +0000","description":"The ``type`` argument of the snmp2_set() function is a list of types: one or more","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/type-must-be-a-single-character.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -29,7 +29,6 @@ ___________
 The ``type`` argument of the snmp2_set() function is a list of types: one or more. Each type must a string of a single character, no more, no less.
 
 The allowed values are : '=', 'i', 'u', 's', 'x', 'd', 'n', 'o', 't', 'a', 'b', 'U', 'I', 'F', 'D'.
-
 
 Example
 _______

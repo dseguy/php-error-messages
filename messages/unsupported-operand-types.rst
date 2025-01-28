@@ -21,7 +21,7 @@ Unsupported operand types
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/unsupported-operand-types.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/unsupported-operand-types.html","name":"Unsupported operand types","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 01 Dec 2024 21:43:18 +0000","dateModified":"Sun, 01 Dec 2024 21:43:18 +0000","description":"This error is emitted when PHP cannot find a reasonable way to use the parameters of an operator","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unsupported-operand-types.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/unsupported-operand-types.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/unsupported-operand-types.html","name":"Unsupported operand types","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 28 Jan 2025 11:05:10 +0000","dateModified":"Tue, 28 Jan 2025 11:05:10 +0000","description":"This error is emitted when PHP cannot find a reasonable way to use the parameters of an operator","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unsupported-operand-types.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -63,3 +63,4 @@ ______________________
 
 + :ref:`a-non-numeric-value-encountered`
 + :ref:`cannot-perform-bitwise-not-on-%s`
++ :ref:`a-non-well-formed-numeric-value-encountered`
