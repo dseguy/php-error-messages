@@ -145,6 +145,7 @@ PHP Error Messages
    messages/cannot-re-assign-$this.rst
    messages/cannot-re-assign-auto-global-variable-%s.rst
    messages/cannot-redeclare-%s()-(previously-declared-in-%s:%d).rst
+   messages/cannot-redeclare-%s::%s().rst
    messages/cannot-redeclare-function-%s()-(previously-declared-in-%s:%d).rst
    messages/cannot-redeclare-property-hook.rst
    messages/cannot-redefine-class-constant.rst
@@ -235,6 +236,7 @@ PHP Error Messages
    messages/enum-%s-cannot-include-magic-method-%s.rst
    messages/enum-%s-cannot-include-properties.rst
    messages/enum-backing-type-must-be-int-or-string.rst
+   messages/enum-case-type-%s-does-not-match-enum-backing-type-%s.rst
    messages/enum-case-value-must-be-compile-time-evaluatable.rst
    messages/error-at-offset-%zd-of-%zd.rst
    messages/exponent-cannot-have-a-fractional-part.rst

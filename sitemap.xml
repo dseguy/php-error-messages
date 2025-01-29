@@ -421,6 +421,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-%25s%28%29-%28previously-declared-in-%25s%3A%25d%29.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-%25s%3A%3A%25s%28%29.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-function-%25s%28%29-%28previously-declared-in-%25s%3A%25d%29.html</loc>
  </url>
  <url>
@@ -689,6 +692,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/enum-backing-type-must-be-int-or-string.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/enum-case-type-%25s-does-not-match-enum-backing-type-%25s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/enum-case-value-must-be-compile-time-evaluatable.html</loc>

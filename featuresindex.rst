@@ -222,7 +222,9 @@ Features index
 
    * backed-enum
 
+      * :ref:`cannot-redeclare-%s::%s()`
       * :ref:`enum-backing-type-must-be-int-or-string`
+      * :ref:`enum-case-type-%s-does-not-match-enum-backing-type-%s`
       * :ref:`unbacked-enum-%s-cannot-be-converted-to-a-string`
 
 
@@ -354,6 +356,7 @@ Features index
       * :ref:`cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s`
       * :ref:`cannot-inherit-previously-inherited-or-override-constant-%s-from-interface-%s`
       * :ref:`cannot-make-non-abstract-method-%s::%s()-abstract-in-class-%s`
+      * :ref:`cannot-redeclare-%s::%s()`
       * :ref:`class-"%s"-not-found`
       * :ref:`class-%s-cannot-extend-%s-%s`
       * :ref:`illegal-class-name`
@@ -620,9 +623,11 @@ Features index
    * enum
 
       * :ref:`cannot-instantiate-enum-%s`
+      * :ref:`cannot-redeclare-%s::%s()`
       * :ref:`enum-%s-cannot-include-magic-method-%s`
       * :ref:`enum-%s-cannot-include-properties`
       * :ref:`enum-backing-type-must-be-int-or-string`
+      * :ref:`enum-case-type-%s-does-not-match-enum-backing-type-%s`
       * :ref:`fetching-properties-on-non-enums-in-constant-expressions-is-not-allowed`
       * :ref:`non-enum-class-%s-cannot-implement-interface-%s`
       * :ref:`trying-to-clone-an-uncloneable-object-of-class-%s`
@@ -1060,6 +1065,7 @@ Features index
       * :ref:`call-to-%s-method-%s::%s()-from-%s%s`
       * :ref:`call-to-undefined-method-%s::%s()`
       * :ref:`can\'t-inherit-abstract-function-%s::%s()-(previously-declared-abstract-in-%s)`
+      * :ref:`cannot-redeclare-%s::%s()`
       * :ref:`cannot-use-\'readonly\'-as-method-modifier`
       * :ref:`method-name-must-be-a-string`
       * :ref:`must-be-a-valid-method-name`
