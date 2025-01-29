@@ -180,6 +180,7 @@ Features index
 
       * :ref:`assignments-can-only-happen-to-writable-values`
       * :ref:`cannot-re-assign-\$this`
+      * :ref:`syntax-error,-unexpected-token-"="`
 
 
    * asymmetric-property
@@ -217,6 +218,12 @@ Features index
 
       * :ref:`automatic-conversion-of-false-to-array-is-deprecated`
       * :ref:`cannot-auto-initialize-an-array-inside-property-%s::\$%s-of-type-%s`
+
+
+   * backed-enum
+
+      * :ref:`enum-backing-type-must-be-int-or-string`
+      * :ref:`unbacked-enum-%s-cannot-be-converted-to-a-string`
 
 
    * base64
@@ -463,6 +470,7 @@ Features index
       * :ref:`define():-declaration-of-case-insensitive-constants-is-deprecated`
       * :ref:`syntax-error,-unexpected-\'-\',-expecting-\'=\'`
       * :ref:`syntax-error,-unexpected-token-"&",-expecting-end-of-file`
+      * :ref:`syntax-error,-unexpected-token-"="`
       * :ref:`undefined-constant-"%s`
 
 
@@ -528,7 +536,10 @@ Features index
    * declare
 
       * :ref:`no-code-may-exist-outside-of-namespace-{}`
+      * :ref:`syntax-error,-unexpected-token-")",-expecting-"="`
+      * :ref:`syntax-error,-unexpected-token-"=",-expecting-identifier`
       * :ref:`syntax-error,-unexpected-token-"namespace"`
+      * :ref:`unsupported-declare-\'%s\'`
 
 
    * default
@@ -601,6 +612,8 @@ Features index
 
       * :ref:`must-be-a-valid-encoding,-"%s"-given`
       * :ref:`passing-the-encoding-as-third-parameter-is-deprecated.-use-an-explicit-zero-offset`
+      * :ref:`syntax-error,-unexpected-token-"=",-expecting-identifier`
+      * :ref:`unsupported-declare-\'%s\'`
       * :ref:`wrong-encoding,-conversion-from-"%s"-to-"%s"-is-not-allowed`
 
 
@@ -609,9 +622,11 @@ Features index
       * :ref:`cannot-instantiate-enum-%s`
       * :ref:`enum-%s-cannot-include-magic-method-%s`
       * :ref:`enum-%s-cannot-include-properties`
+      * :ref:`enum-backing-type-must-be-int-or-string`
       * :ref:`fetching-properties-on-non-enums-in-constant-expressions-is-not-allowed`
       * :ref:`non-enum-class-%s-cannot-implement-interface-%s`
       * :ref:`trying-to-clone-an-uncloneable-object-of-class-%s`
+      * :ref:`unbacked-enum-%s-cannot-be-converted-to-a-string`
 
 
    * enum-backed
@@ -762,6 +777,7 @@ Features index
       * :ref:`call-to-undefined-function-%s()`
       * :ref:`call-to-undefined-function-each()`
       * :ref:`call-to-undefined-function`
+      * :ref:`syntax-error,-unexpected-token-"=",-expecting-variable`
 
 
    * generator
@@ -1251,6 +1267,7 @@ Features index
       * :ref:`parameter-uses-\'parent\'-as-type-hint-although-class-does-not-have-a-parent\!`
       * :ref:`redefinition-of-parameter-\$%s`
       * :ref:`required-parameter-\$%s-follows-optional-parameter-\$%s`
+      * :ref:`syntax-error,-unexpected-token-"=",-expecting-variable`
 
 
    * parameter-removal
@@ -1639,7 +1656,9 @@ Features index
       * :ref:`object-of-class-%s-could-not-be-converted-to-%s`
       * :ref:`return-value-of-%s%s%s()-must-%s%s%s,-%s%s-returned`
       * :ref:`strict_types-declaration-must-be-the-very-first-statement-in-the-script`
+      * :ref:`syntax-error,-unexpected-token-"=",-expecting-identifier`
       * :ref:`syntax-error,-unexpected-token-"namespace"`
+      * :ref:`unsupported-declare-\'%s\'`
 
 
    * string
@@ -1657,6 +1676,7 @@ Features index
       * :ref:`syntax-error,-unexpected-\'[\',-expecting-\';\'-or-\',\'`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-string-content`
+      * :ref:`unbacked-enum-%s-cannot-be-converted-to-a-string`
       * :ref:`uninitialized-string-offset`
       * :ref:`using-\${var}-in-strings-is-deprecated,-use-{\$var}-instead`
 
@@ -1710,6 +1730,16 @@ Features index
       * :ref:`%s-%s-cannot-implement-interface-%s,-extend-exception-or-error-instead`
       * :ref:`%s-%s-must-implement-interface-%s-as-part-of-either-%s-or-%s`
       * :ref:`class-%s-must-implement-interface-%s-as-part-of-either-%s-or-%s`
+
+
+   * tick
+
+      * :ref:`unsupported-declare-\'%s\'`
+
+
+   * ticks
+
+      * :ref:`syntax-error,-unexpected-token-"=",-expecting-identifier`
 
 
    * trailing-comma

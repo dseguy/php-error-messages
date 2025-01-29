@@ -234,6 +234,7 @@ PHP Error Messages
    messages/enum-"%s"-not-found.rst
    messages/enum-%s-cannot-include-magic-method-%s.rst
    messages/enum-%s-cannot-include-properties.rst
+   messages/enum-backing-type-must-be-int-or-string.rst
    messages/enum-case-value-must-be-compile-time-evaluatable.rst
    messages/error-at-offset-%zd-of-%zd.rst
    messages/exponent-cannot-have-a-fractional-part.rst
@@ -386,6 +387,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-"&".rst
    messages/syntax-error,-unexpected-token-"(",-expecting-identifier-or-variable-or-"{"-or-"$".rst
    messages/syntax-error,-unexpected-token-"(".rst
+   messages/syntax-error,-unexpected-token-")",-expecting-"=".rst
    messages/syntax-error,-unexpected-token-")",-expecting-"function"-or-"fn"-or-"static"-or-"#[".rst
    messages/syntax-error,-unexpected-token-")".rst
    messages/syntax-error,-unexpected-token-"*".rst
@@ -402,6 +404,9 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-";".rst
    messages/syntax-error,-unexpected-token-"<<".rst
    messages/syntax-error,-unexpected-token-"=",-expecting-identifier-or-variable-or-"{"-or-"$".rst
+   messages/syntax-error,-unexpected-token-"=",-expecting-identifier.rst
+   messages/syntax-error,-unexpected-token-"=",-expecting-variable.rst
+   messages/syntax-error,-unexpected-token-"=".rst
    messages/syntax-error,-unexpected-token-"?".rst
    messages/syntax-error,-unexpected-token-"?->",-expecting-","-or-";".rst
    messages/syntax-error,-unexpected-token-"?->".rst
@@ -451,6 +456,7 @@ PHP Error Messages
    messages/type-of-%s::$%s-must-not-be-defined-(as-in-class-%s).rst
    messages/typed-property-%s\:\:$%s-must-not-be-accessed-before-initialization.rst
    messages/typed-static-property-%s::$%s-must-not-be-accessed-before-initialization.rst
+   messages/unbacked-enum-%s-cannot-be-converted-to-a-string.rst
    messages/unclosed-'('.rst
    messages/unclosed-'['.rst
    messages/unclosed-'{'.rst
@@ -471,6 +477,7 @@ PHP Error Messages
    messages/unmatched-']'.rst
    messages/unmatched-'}'.rst
    messages/unparenthesized-`a-?-b-:-c-?-d-:-e`-is-not-supported..rst
+   messages/unsupported-declare-\'%s\'.rst
    messages/unsupported-operand-types.rst
    messages/unterminated-comment-starting-line-%d.rst
    messages/use-of-"parent"-in-callables-is-deprecated.rst

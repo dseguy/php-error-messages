@@ -21,7 +21,7 @@ Unsupported operand types
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/unsupported-operand-types.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/unsupported-operand-types.html","name":"Unsupported operand types","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 28 Jan 2025 11:05:10 +0000","dateModified":"Tue, 28 Jan 2025 11:05:10 +0000","description":"This error is emitted when PHP cannot find a reasonable way to use the parameters of an operator","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unsupported-operand-types.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/unsupported-operand-types.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/unsupported-operand-types.html","name":"Unsupported operand types","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 29 Jan 2025 10:22:42 +0000","dateModified":"Wed, 29 Jan 2025 10:22:42 +0000","description":"This error is emitted when PHP cannot find a reasonable way to use the parameters of an operator","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unsupported-operand-types.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -39,7 +39,6 @@ This error applies to all operators, with matching constraints.
 Conversion to string my be automatically happening, when the strict_typing is not active. 
 
 The error is reported for the first or the second argument. It may also applies to both, though PHP stops at the first one it finds.
-
 
 Example
 _______

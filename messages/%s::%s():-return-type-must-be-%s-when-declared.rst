@@ -21,7 +21,7 @@
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s::%s():-return-type-must-be-%s-when-declared.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s::%s():-return-type-must-be-%s-when-declared.html","name":"%s::%s(): Return type must be %s when declared","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 25 Jan 2025 12:14:19 +0000","dateModified":"Sat, 25 Jan 2025 12:14:19 +0000","description":"The magic methods ``__sleep`` and ``__serialize`` may be left without a return type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/%s::%s():-return-type-must-be-%s-when-declared.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s::%s():-return-type-must-be-%s-when-declared.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s::%s():-return-type-must-be-%s-when-declared.html","name":"%s::%s(): Return type must be %s when declared","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 29 Jan 2025 09:44:29 +0000","dateModified":"Wed, 29 Jan 2025 09:44:29 +0000","description":"The magic methods ``__sleep`` and ``__serialize`` may be left without a return type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/%s::%s():-return-type-must-be-%s-when-declared.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -39,9 +39,7 @@ Here is the list of compulsory return types:
 + __set() : ``void``
 + __serialize() : ``array``
 + __isset() : ``bool``
-+ __toString() : ``string``
-
-
++ __toString() : ``string``.
 
 Example
 _______

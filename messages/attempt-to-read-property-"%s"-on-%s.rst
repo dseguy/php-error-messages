@@ -21,7 +21,7 @@ Attempt to read property "%s" on %s
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/attempt-to-read-property-\"%s\"-on-%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/attempt-to-read-property-\"%s\"-on-%s.html","name":"Attempt to read property \"%s\" on %s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 22 Jan 2025 11:15:13 +0000","dateModified":"Mon, 20 Jan 2025 11:19:57 +0000","description":"This error reports that a non-object was used with an object syntax","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/attempt-to-read-property-\"%s\"-on-%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/attempt-to-read-property-\"%s\"-on-%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/attempt-to-read-property-\"%s\"-on-%s.html","name":"Attempt to read property \"%s\" on %s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 29 Jan 2025 11:00:17 +0000","dateModified":"Wed, 29 Jan 2025 11:00:17 +0000","description":"This error reports that a non-object was used with an object syntax","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/attempt-to-read-property-\"%s\"-on-%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -29,7 +29,6 @@ ___________
 This error reports that a non-object was used with an object syntax. Non-objects are integers, floats, strings, null, booleans, etc.
 
 This is a warning, so PHP will continue execution, using ``null`` as a result of this operation.
-
 
 Example
 _______

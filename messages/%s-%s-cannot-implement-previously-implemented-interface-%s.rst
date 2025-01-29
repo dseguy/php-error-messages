@@ -21,7 +21,7 @@
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s-%s-cannot-implement-previously-implemented-interface-%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s-%s-cannot-implement-previously-implemented-interface-%s.html","name":"%s %s cannot implement previously implemented interface %s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 27 Dec 2024 11:11:36 +0000","dateModified":"Fri, 27 Dec 2024 11:11:36 +0000","description":"This error reports that an interface has already been implemented by a parent, and, as such, should not be implemented again","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/%s-%s-cannot-implement-previously-implemented-interface-%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s-%s-cannot-implement-previously-implemented-interface-%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s-%s-cannot-implement-previously-implemented-interface-%s.html","name":"%s %s cannot implement previously implemented interface %s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 29 Jan 2025 09:45:57 +0000","dateModified":"Wed, 29 Jan 2025 09:45:57 +0000","description":"This error reports that an interface has already been implemented by a parent, and, as such, should not be implemented again","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/%s-%s-cannot-implement-previously-implemented-interface-%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -35,7 +35,6 @@ For interfaces and classes, it applies to repetitions of interfaces in the imple
 It doesn't apply to duplicate implements between a parent and a child class or interface.
 
 It doesn't apply to trait, that have no relationship with interfaces.
-
 
 Example
 _______

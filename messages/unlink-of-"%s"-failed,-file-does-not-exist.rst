@@ -21,15 +21,14 @@ unlink of "%s" failed, file does not exist
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/unlink-of-\"%s\"-failed,-file-does-not-exist.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/unlink-of-\"%s\"-failed,-file-does-not-exist.html","name":"unlink of \"%s\" failed, file does not exist","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jan 2025 09:49:50 +0000","dateModified":"Thu, 09 Jan 2025 09:49:50 +0000","description":"PHP reports failure when trying to remove a file that does not exists in a phar archive","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unlink-of-\"%s\"-failed,-file-does-not-exist.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/unlink-of-\"%s\"-failed,-file-does-not-exist.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/unlink-of-\"%s\"-failed,-file-does-not-exist.html","name":"unlink of \"%s\" failed, file does not exist","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 29 Jan 2025 09:47:24 +0000","dateModified":"Wed, 29 Jan 2025 09:47:24 +0000","description":"PHP reports failure when trying to remove a file that does not exists in a phar archive","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unlink-of-\"%s\"-failed,-file-does-not-exist.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
  
 PHP reports failure when trying to remove a file that does not exists in a phar archive. This error message does not appear when using the regular filesystem, or the ``delete`` method on a ``phar`` object.
 
-This error message is part of the stream system. 
-
+This error message is part of the stream system.
 
 Example
 _______

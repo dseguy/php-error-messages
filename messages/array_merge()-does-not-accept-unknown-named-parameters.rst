@@ -21,7 +21,7 @@ array_merge() does not accept unknown named parameters
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/array_merge()-does-not-accept-unknown-named-parameters.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/array_merge()-does-not-accept-unknown-named-parameters.html","name":"array_merge() does not accept unknown named parameters","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 10 Nov 2024 09:11:02 +0000","dateModified":"Sun, 10 Nov 2024 09:11:02 +0000","description":"array_merge() accepts one parameter, called ``\\$arrays``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_merge()-does-not-accept-unknown-named-parameters.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/array_merge()-does-not-accept-unknown-named-parameters.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/array_merge()-does-not-accept-unknown-named-parameters.html","name":"array_merge() does not accept unknown named parameters","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 29 Jan 2025 09:48:24 +0000","dateModified":"Wed, 29 Jan 2025 09:48:24 +0000","description":"array_merge() accepts one parameter, called ``\\$arrays``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_merge()-does-not-accept-unknown-named-parameters.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -35,7 +35,6 @@ The solution is to spread the array, after removing the string keys: with intege
 There are several PHP native functions that behave like that: array_merge(), array_diff_key(), etc. In fact, any native method which has a variadic parameter.
 
 PHP doesn't emit an error when spreading an array with unkown keys in a custom function.
-
 
 Example
 _______

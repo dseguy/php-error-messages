@@ -21,7 +21,7 @@ Unmatched ']'
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/unmatched-']'.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/unmatched-']'.html","name":"Unmatched ']'","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 21 Jan 2025 10:38:04 +0000","dateModified":"Tue, 21 Jan 2025 10:38:04 +0000","description":"PHP has encountered a closing parenthesis, but has no related opening parenthesis","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unmatched-']'.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/unmatched-']'.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/unmatched-']'.html","name":"Unmatched ']'","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 29 Jan 2025 09:47:35 +0000","dateModified":"Wed, 29 Jan 2025 09:47:35 +0000","description":"PHP has encountered a closing parenthesis, but has no related opening parenthesis","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unmatched-']'.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -30,8 +30,7 @@ PHP has encountered a closing parenthesis, but has no related opening parenthesi
 
 In more complex situations, there might be opening and closing parenthesis: this error reports that there are more closing ones than opening. Eventually, some will not have a matching bracket.
 
-Inside double-quoted strings, the unmatched closing brackets are ignored, and used as literal value. 
-
+Inside double-quoted strings, the unmatched closing brackets are ignored, and used as literal value.
 
 Example
 _______
