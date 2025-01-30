@@ -471,6 +471,7 @@ Features index
       * :ref:`constant-%s-is-deprecated`
       * :ref:`define():-argument-#3-(\$case_insensitive)-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported`
       * :ref:`define():-declaration-of-case-insensitive-constants-is-deprecated`
+      * :ref:`instanceof-expects-an-object-instance,-constant-given`
       * :ref:`syntax-error,-unexpected-\'-\',-expecting-\'=\'`
       * :ref:`syntax-error,-unexpected-token-"&",-expecting-end-of-file`
       * :ref:`syntax-error,-unexpected-token-"="`
@@ -674,6 +675,7 @@ Features index
       * :ref:`%s():-never-returning-%s-must-not-implicitly-return`
       * :ref:`call-to-undefined-function-exit()`
       * :ref:`never-returning-function-must-not-implicitly-return`
+      * :ref:`syntax-error,-unexpected-token-"exit"`
 
 
    * exponent
@@ -715,7 +717,10 @@ Features index
 
       * :ref:`couldn\'t-open-stream-%s`
       * :ref:`couldn\'t-open-stream:-%s`
+      * :ref:`filename-cannot-be-empty`
       * :ref:`no-such-file-or-directory`
+      * :ref:`path-cannot-be-empty`
+      * :ref:`path-must-not-be-empty`
 
 
    * file-mode
@@ -888,6 +893,7 @@ Features index
    * instanceof
 
       * :ref:`__clone-method-called-on-non-object`
+      * :ref:`instanceof-expects-an-object-instance,-constant-given`
 
 
    * instruction
@@ -897,6 +903,7 @@ Features index
 
    * integer
 
+      * :ref:`a-non-numeric-value-encountered`
       * :ref:`division-of-php_int_min-by--1-is-not-an-integer`
 
 
@@ -1774,11 +1781,6 @@ Features index
       * :ref:`traits-cannot-have-constants`
 
 
-   * trait-use
-
-      * :ref:`trait-method-%s::%s-has-not-been-applied-as-%s::%s`
-
-
    * traversable
 
       * :ref:`%s-%s-must-implement-interface-%s-as-part-of-either-%s-or-%s`
@@ -1871,6 +1873,11 @@ Features index
       * :ref:`an-alias-was-defined-for-%s::%s-but-this-method-does-not-exist`
       * :ref:`call-to-undefined-function`
       * :ref:`class-%s-is-not-a-trait`
+
+
+   * use-trait
+
+      * :ref:`trait-method-%s::%s-has-not-been-applied-as-%s::%s`
 
 
    * uuencoding

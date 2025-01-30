@@ -21,7 +21,7 @@ Couldn't open stream: %s
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/couldn't-open-stream:-%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/couldn't-open-stream:-%s.html","name":"Couldn't open stream: %s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Dec 2024 10:24:26 +0000","dateModified":"Tue, 31 Dec 2024 10:24:26 +0000","description":"When opening a stream, or file, a mode of operation is needed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/couldn't-open-stream:-%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/couldn't-open-stream:-%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/couldn't-open-stream:-%s.html","name":"Couldn't open stream: %s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 30 Jan 2025 15:30:00 +0000","dateModified":"Thu, 30 Jan 2025 15:30:00 +0000","description":"When opening a stream, or file, a mode of operation is needed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/couldn't-open-stream:-%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -50,6 +50,14 @@ _______
    
    
    ?>
+
+
+Literal Examples
+****************
++ Couldn't open stream: '+k' is not a valid mode for fopen
++ Couldn't open stream: Is a directory
++ Couldn't open stream: Inappropriate ioctl for device
++ Couldn't open stream: Invalid argument
 
 Solutions
 _________

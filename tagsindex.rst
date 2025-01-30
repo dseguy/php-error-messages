@@ -349,6 +349,7 @@ Tag index
       * :ref:`syntax-error,-unexpected-token-"__namespace__",-expecting-"("`
       * :ref:`syntax-error,-unexpected-token-"break"`
       * :ref:`syntax-error,-unexpected-token-"continue"`
+      * :ref:`syntax-error,-unexpected-token-"exit"`
       * :ref:`syntax-error,-unexpected-token-"extends",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"if",-expecting-")"`
       * :ref:`syntax-error,-unexpected-token-"if",-expecting-"]"`

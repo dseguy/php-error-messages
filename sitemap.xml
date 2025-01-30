@@ -715,6 +715,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/ffi-api-is-restricted-by-%22ffi.enable%22-configuration-directive.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/filename-cannot-be-empty.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/foreach%28%29-argument-must-be-of-type-array%7Cobject.html</loc>
  </url>
  <url>
@@ -773,6 +776,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/indirect-modification-of-overloaded-property-%25s%3A%3A%24%25s-has-no-effect.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/instanceof-expects-an-object-instance%2C-constant-given.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/interface-%22%25s%22-not-found.html</loc>
@@ -998,6 +1004,12 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/passing-the-encoding-as-third-parameter-is-deprecated.-use-an-explicit-zero-offset.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/path-cannot-be-empty.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/path-must-not-be-empty.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/power-of-base-0-and-negative-exponent-is-deprecated.html</loc>
@@ -1235,6 +1247,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22continue%22.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22exit%22.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22extends%22%2C-expecting-%22%7B%22.html</loc>

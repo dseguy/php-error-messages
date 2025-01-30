@@ -243,6 +243,7 @@ PHP Error Messages
    messages/failed-to-open-stream-from-socketpair.rst
    messages/fetching-properties-on-non-enums-in-constant-expressions-is-not-allowed.rst
    messages/ffi-api-is-restricted-by-"ffi.enable"-configuration-directive.rst
+   messages/filename-cannot-be-empty.rst
    messages/foreach()-argument-must-be-of-type-array|object.rst
    messages/generator-return-type-must-be-a-supertype-of-generator.rst
    messages/generators-cannot-return-values-using-"return".rst
@@ -263,6 +264,7 @@ PHP Error Messages
    messages/index-invalid-or-out-of-range.rst
    messages/indirect-modification-of-overloaded-element-of-%s-has-no-effect.rst
    messages/indirect-modification-of-overloaded-property-%s::$%s-has-no-effect.rst
+   messages/instanceof-expects-an-object-instance,-constant-given.rst
    messages/interface-"%s"-not-found.rst
    messages/interface-%s-cannot-contain-non-abstract-method-%s().rst
    messages/interfaces-may-not-include-properties.rst
@@ -338,6 +340,8 @@ PHP Error Messages
    messages/parameter-uses-'parent'-as-type-hint-although-class-does-not-have-a-parent\!.rst
    messages/passing-false-or-null-is-deprecated-since-8.4.rst
    messages/passing-the-encoding-as-third-parameter-is-deprecated.-use-an-explicit-zero-offset.rst
+   messages/path-cannot-be-empty.rst
+   messages/path-must-not-be-empty.rst
    messages/power-of-base-0-and-negative-exponent-is-deprecated.rst
    messages/private-constant-%s::%s-cannot-be-final-as-it-is-not-visible-to-other-classes.rst
    messages/private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes.rst
@@ -417,6 +421,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-"__namespace__",-expecting-"(".rst
    messages/syntax-error,-unexpected-token-"break".rst
    messages/syntax-error,-unexpected-token-"continue".rst
+   messages/syntax-error,-unexpected-token-"exit".rst
    messages/syntax-error,-unexpected-token-"extends",-expecting-"{".rst
    messages/syntax-error,-unexpected-token-"if",-expecting-")".rst
    messages/syntax-error,-unexpected-token-"if",-expecting-"]".rst

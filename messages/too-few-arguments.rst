@@ -21,7 +21,7 @@ Too few arguments
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/too-few-arguments.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/too-few-arguments.html","name":"Too few arguments","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 27 Jan 2025 10:54:07 +0000","dateModified":"Mon, 27 Jan 2025 10:54:07 +0000","description":"Functions such as ``printf()`` require at least one argument, the format","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/too-few-arguments.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/too-few-arguments.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/too-few-arguments.html","name":"Too few arguments","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 30 Jan 2025 14:57:57 +0000","dateModified":"Thu, 30 Jan 2025 14:57:57 +0000","description":"Functions such as ``printf()`` require at least one argument, the format","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/too-few-arguments.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -31,7 +31,6 @@ Functions such as ``printf()`` require at least one argument, the format. In tha
 Not that extra arguments are ignored silently by PHP.
 
 This applies to ``printf()``, ``sprintf()``, ``fprintf()``.
-
 
 Example
 _______
