@@ -327,6 +327,7 @@ Tag index
       * :ref:`syntax-error,-unexpected-token-")",-expecting-"function"-or-"fn"-or-"static"-or-"#["`
       * :ref:`syntax-error,-unexpected-token-")"`
       * :ref:`syntax-error,-unexpected-token-"*"`
+      * :ref:`syntax-error,-unexpected-token-",",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-token-",",-expecting-variable-or-"$"`
       * :ref:`syntax-error,-unexpected-token-",",-expecting-variable`
       * :ref:`syntax-error,-unexpected-token-"->",-expecting-","-or-";"`
@@ -334,8 +335,10 @@ Tag index
       * :ref:`syntax-error,-unexpected-token-":"`
       * :ref:`syntax-error,-unexpected-token-"::",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-token-"::"`
+      * :ref:`syntax-error,-unexpected-token-";",-expecting-")"`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"["`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"{"-or-"["`
+      * :ref:`syntax-error,-unexpected-token-";",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-"function"-or-"fn"-or-"static"-or-"#["`
       * :ref:`syntax-error,-unexpected-token-";"`
       * :ref:`syntax-error,-unexpected-token-"<<"`

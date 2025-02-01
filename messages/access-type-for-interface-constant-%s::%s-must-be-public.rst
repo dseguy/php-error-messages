@@ -21,12 +21,12 @@ Access type for interface constant %s::%s must be public
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/access-type-for-interface-constant-%s::%s-must-be-public.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/access-type-for-interface-constant-%s::%s-must-be-public.html","name":"Access type for interface constant %s::%s must be public","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jan 2025 10:58:54 +0000","dateModified":"Tue, 07 Jan 2025 10:58:54 +0000","description":"An method or a constant, that are defined in an interface, must appear as ``public`` in all the implementing classes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/access-type-for-interface-constant-%s::%s-must-be-public.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/access-type-for-interface-constant-%s::%s-must-be-public.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/access-type-for-interface-constant-%s::%s-must-be-public.html","name":"Access type for interface constant %s::%s must be public","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 31 Jan 2025 10:45:37 +0000","dateModified":"Fri, 31 Jan 2025 10:45:37 +0000","description":"An method or a constant, that are defined in an interface, must appear as ``public`` in all the implementing classes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/access-type-for-interface-constant-%s::%s-must-be-public.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
  
-An method or a constant, that are defined in an interface, must appear as ``public`` in all the implementing classes. They cannot be made ``protected`` or ``private``, as they would be no accessible. 
+An method or a constant, that are defined in an interface, must appear as ``public`` in all the implementing classes. They cannot be made ``protected`` or ``private``, as they would be no accessible.
 
 Example
 _______
@@ -36,11 +36,7 @@ _______
    <?php
    
    interface I {
-       const C = 1;
-   }
-   
-   class X implements I {
-       protected const C = 1;
+       private const C = 1;
    }
    
    ?>
@@ -48,14 +44,14 @@ _______
 
 Literal Examples
 ****************
-+ Access type for interface constant x::c must be public
++ Access type for interface constant I::C must be public
 
 Solutions
 _________
 
-+ Set the visibility to public in the class.
-+ Remove the method in the interface.
-+ Remove the implements keyword in the class.
++ Set the visibility to public in the interface.
++ Remove the visibility in the interface.
++ Remove the constant in the interface.
 
 Related Error Messages
 ______________________

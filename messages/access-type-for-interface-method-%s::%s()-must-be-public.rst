@@ -5,28 +5,28 @@ Access type for interface method %s::%s() must be public
  
 .. meta::
 	:description:
-		Access type for interface method %s::%s() must be public: An method or a constant, that are defined in an interface, must appear as ``public`` in all the implementing classes.
+		Access type for interface method %s::%s() must be public: An method, that is defined in an interface, must appear as ``public``.
 	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Access type for interface method %s::%s() must be public
-	:og:description: An method or a constant, that are defined in an interface, must appear as ``public`` in all the implementing classes
+	:og:description: An method, that is defined in an interface, must appear as ``public``
 	:og:url: https://php-errors.readthedocs.io/en/latest/messages/access-type-for-interface-method-%25s%3A%3A%25s%28%29-must-be-public.html
 	:og:locale: en
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Access type for interface method %s::%s() must be public
-	:twitter:description: Access type for interface method %s::%s() must be public: An method or a constant, that are defined in an interface, must appear as ``public`` in all the implementing classes
+	:twitter:description: Access type for interface method %s::%s() must be public: An method, that is defined in an interface, must appear as ``public``
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/access-type-for-interface-method-%s::%s()-must-be-public.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/access-type-for-interface-method-%s::%s()-must-be-public.html","name":"Access type for interface method %s::%s() must be public","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Dec 2024 10:53:00 +0000","dateModified":"Tue, 31 Dec 2024 10:53:00 +0000","description":"An method or a constant, that are defined in an interface, must appear as ``public`` in all the implementing classes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/access-type-for-interface-method-%s::%s()-must-be-public.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/access-type-for-interface-method-%s::%s()-must-be-public.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/access-type-for-interface-method-%s::%s()-must-be-public.html","name":"Access type for interface method %s::%s() must be public","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 31 Jan 2025 10:46:19 +0000","dateModified":"Fri, 31 Jan 2025 10:46:19 +0000","description":"An method, that is defined in an interface, must appear as ``public``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/access-type-for-interface-method-%s::%s()-must-be-public.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
  
-An method or a constant, that are defined in an interface, must appear as ``public`` in all the implementing classes. They cannot be made ``protected`` or ``private``, as they would be no accessible. 
+An method, that is defined in an interface, must appear as ``public``. They cannot be made ``protected`` or ``private``, as they would be no accessible. 
 
 Example
 _______
@@ -36,14 +36,8 @@ _______
    <?php
    
    interface I {
-       function foo();
+       private function foo();
        
-       const C = 1;
-   }
-   
-   class X implements I {
-       private function foo() {}
-   
        protected const C = 1;
    }
    
@@ -52,14 +46,13 @@ _______
 
 Literal Examples
 ****************
-+ Access type for interface method x::foo() must be public
++ Access type for interface method I::foo() must be public
 
 Solutions
 _________
 
-+ Set the visibility to public in the class.
-+ Remove the method in the interface.
-+ Remove the implements keyword in the class.
++ Set the visibility to public in the interface.
++ Remove the visibility in the interface.
 
 Related Error Messages
 ______________________

@@ -8,6 +8,7 @@ PHP Error Messages
    messages/"static::"-is-not-allowed-in-compile-time-constants.rst
    messages/$globals-can-only-be-modified-using-the-$globals[$name]-=-$value-syntax.rst
    messages/%d-arguments-are-required,-%d.rst
+   messages/%s"-returned-as-member-variable-from-__sleep()-but-does-not-exist.rst
    messages/%s"-will-be-interpreted-as-a-class-name.-did-you-mean-"%s"?-write-"\%s"%s-to-suppress-this-warning.rst
    messages/%s%s%s()-does-not-accept-unknown-named-parameters.rst
    messages/%s%s%s():-argument-#%d%s%s%s-must-be-passed-by-reference,-value-given.rst
@@ -70,6 +71,7 @@ PHP Error Messages
    messages/array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported.rst
    messages/array-callback-has-to-contain-indices-0-and-1.rst
    messages/array-to-string-conversion.rst
+   messages/array_key_exists():-argument-#2-($array)-must-be-of-type-array,-%s-given.rst
    messages/array_merge()-does-not-accept-unknown-named-parameters.rst
    messages/array_merge()-expects-at-least-1-parameter,-0-given.rst
    messages/array_product():-multiplication-is-not-supported-on-type-array.rst
@@ -161,11 +163,14 @@ PHP Error Messages
    messages/cannot-use-%s-as-default-value-for-parameter-$%s-of-type-%s.rst
    messages/cannot-use-%s-as-default-value-for-property-%s::$%s-of-type-%s.rst
    messages/cannot-use-'abstract'-as-constant-modifier.rst
+   messages/cannot-use-'abstract'-as-method-modifier.rst
    messages/cannot-use-'final'-as-constant-modifier.rst
+   messages/cannot-use-'final'-as-method-modifier.rst
    messages/cannot-use-'mixed'-as-class-name-as-it-is-reserved.rst
    messages/cannot-use-'never'-as-class-name-as-it-is-reserved.rst
    messages/cannot-use-'readonly'-as-method-modifier.rst
    messages/cannot-use-'static'-as-constant-modifier.rst
+   messages/cannot-use-'static'-as-method-modifier.rst
    messages/cannot-use-::class-with-dynamic-class-name.rst
    messages/cannot-use-[]-for-reading.rst
    messages/cannot-use-a-scalar-value-as-an-array.rst
@@ -214,9 +219,11 @@ PHP Error Messages
    messages/couldn't-open-stream-%s.rst
    messages/couldn't-open-stream:-%s.rst
    messages/creating-default-object-from-empty-value.rst
+   messages/creation-of-dynamic-property-%s::$%s-is-deprecated.rst
    messages/datetimeinterface-can\\'t-be-implemented-by-user-classes.rst
    messages/declaration-of-%s-must-be-compatible-with-%s.rst
-   messages/declaration-of-y::foo()-must-be-compatible-with-x::foo($a).rst
+   messages/declaration-of-%s::%s()-must-be-compatible-with-%s::%s().rst
+   messages/declaration-of-case-insensitive-constants-is-no-longer-supported.rst
    messages/default-value-for-parameters-with-a-%s-type-can-only-be-%s-or-null.rst
    messages/default-value-for-property-of-type-int-may-not-be-null.-use-the-nullable-type-?int-to-allow-null-default-value.rst
    messages/define():-argument-#3-($case_insensitive)-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported.rst
@@ -247,6 +254,7 @@ PHP Error Messages
    messages/foreach()-argument-must-be-of-type-array|object.rst
    messages/generator-return-type-must-be-a-supertype-of-generator.rst
    messages/generators-cannot-return-values-using-"return".rst
+   messages/get_called_class()-must-be-called-from-within-a-class.rst
    messages/get_defined_functions():-setting-$exclude_disabled-to-false-has-no-effect.rst
    messages/handling-base64-via-mbstring-is-deprecated;-use-base64_encode-base64_decode-instead.rst
    messages/handling-html-entities-via-mbstring-is-deprecated;-use-htmlspecialchars,-htmlentities,-or-mb_encode_numericentity-mb_decode_numericentity.rst
@@ -298,6 +306,7 @@ PHP Error Messages
    messages/must-be-a-valid-method-name.rst
    messages/must-be-a-valid-rounding-mode-(roundingmode\:\:*).rst
    messages/must-be-contained-in-argument-#1-($haystack).rst
+   messages/must-be-of-type-%s,-%s-given.rst
    messages/must-be-one-of-pgsql_assoc,-pgsql_num,-or-pgsql_both.rst
    messages/must-be-one-of-pgsql_notice_last,-pgsql_notice_all,-or-pgsql_notice_clear.rst
    messages/must-contain-at-least-one-element.rst
@@ -397,6 +406,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-")",-expecting-"function"-or-"fn"-or-"static"-or-"#[".rst
    messages/syntax-error,-unexpected-token-")".rst
    messages/syntax-error,-unexpected-token-"*".rst
+   messages/syntax-error,-unexpected-token-",",-expecting-"]".rst
    messages/syntax-error,-unexpected-token-",",-expecting-variable-or-"$".rst
    messages/syntax-error,-unexpected-token-",",-expecting-variable.rst
    messages/syntax-error,-unexpected-token-"->",-expecting-","-or-";".rst
@@ -404,9 +414,12 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-":".rst
    messages/syntax-error,-unexpected-token-"::",-expecting-","-or-";".rst
    messages/syntax-error,-unexpected-token-"::".rst
+   messages/syntax-error,-unexpected-token-";",-expecting-")".rst
    messages/syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"[".rst
    messages/syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"{"-or-"[".rst
+   messages/syntax-error,-unexpected-token-";",-expecting-"]".rst
    messages/syntax-error,-unexpected-token-";",-expecting-"function"-or-"fn"-or-"static"-or-"#[".rst
+   messages/syntax-error,-unexpected-token-";",-expecting-"{".rst
    messages/syntax-error,-unexpected-token-";".rst
    messages/syntax-error,-unexpected-token-"<<".rst
    messages/syntax-error,-unexpected-token-"=",-expecting-identifier-or-variable-or-"{"-or-"$".rst
@@ -430,6 +443,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-"namespace",-expecting-"{".rst
    messages/syntax-error,-unexpected-token-"namespace".rst
    messages/syntax-error,-unexpected-token-"use",-expecting-","-or-";".rst
+   messages/syntax-error,-unexpected-token-"use",-expecting-"{".rst
    messages/syntax-error,-unexpected-token-"use".rst
    messages/syntax-error,-unexpected-token-"{".rst
    messages/syntax-error,-unexpected-token-"}".rst

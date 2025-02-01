@@ -27,6 +27,13 @@ Features index
       * :ref:`method-%s::%s()-must-be-static`
 
 
+   * __sleep
+
+      * :ref:`%s"-returned-as-member-variable-from-__sleep()-but-does-not-exist`
+      * :ref:`%s::__sleep()-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize`
+      * :ref:`__sleep-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize.`
+
+
    * __toString
 
       * :ref:`object-of-class-%s-could-not-be-converted-to-%s`
@@ -46,6 +53,7 @@ Features index
       * :ref:`cannot-declare-promoted-property-in-an-abstract-constructor`
       * :ref:`cannot-make-non-abstract-method-%s::%s()-abstract-in-class-%s`
       * :ref:`cannot-use-\'abstract\'-as-constant-modifier`
+      * :ref:`cannot-use-\'abstract\'-as-method-modifier`
       * :ref:`cannot-use-\'final\'-as-constant-modifier`
       * :ref:`cannot-use-the-%s-modifier-on-a-%s`
       * :ref:`cannot-use-the-abstract-modifier-on-a-property`
@@ -67,11 +75,15 @@ Features index
 
       * :ref:`an-alias-(%s)-was-defined-for-method-%s(),-but-this-method-does-not-exist`
       * :ref:`an-alias-was-defined-for-%s::%s-but-this-method-does-not-exist`
+      * :ref:`cannot-use-\'abstract\'-as-method-modifier`
+      * :ref:`cannot-use-\'final\'-as-method-modifier`
+      * :ref:`cannot-use-\'static\'-as-method-modifier`
 
 
    * allowdynamicproperties
 
       * :ref:`cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s`
+      * :ref:`creation-of-dynamic-property-%s::\$%s-is-deprecated`
 
 
    * and
@@ -109,6 +121,7 @@ Features index
       * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-deprecated`
       * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported`
       * :ref:`array-to-string-conversion`
+      * :ref:`array_key_exists():-argument-#2-(\$array)-must-be-of-type-array,-%s-given`
       * :ref:`can-only-flip-string-and-integer-values,-entry-skipped`
       * :ref:`cannot-unpack-array-with-string-keys`
       * :ref:`cannot-unset-offset-in-a-non-array-variable`
@@ -136,6 +149,7 @@ Features index
 
       * :ref:`cannot-use-string-offset-as-an-array`
       * :ref:`syntax-error,-unexpected-\'[\',-expecting-\';\'-or-\',\'`
+      * :ref:`syntax-error,-unexpected-token-",",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-token-"if",-expecting-"]"`
 
 
@@ -226,6 +240,13 @@ Features index
       * :ref:`enum-backing-type-must-be-int-or-string`
       * :ref:`enum-case-type-%s-does-not-match-enum-backing-type-%s`
       * :ref:`unbacked-enum-%s-cannot-be-converted-to-a-string`
+
+
+   * balanced
+
+      * :ref:`syntax-error,-unexpected-token-",",-expecting-"]"`
+      * :ref:`syntax-error,-unexpected-token-";",-expecting-")"`
+      * :ref:`syntax-error,-unexpected-token-";",-expecting-"]"`
 
 
    * base64
@@ -436,7 +457,7 @@ Features index
 
       * :ref:`could-not-check-compatibility-between-%s-and-%s,-because-class-%s-is-not-available`
       * :ref:`declaration-of-%s-must-be-compatible-with-%s`
-      * :ref:`declaration-of-y::foo()-must-be-compatible-with-x::foo(\$a)`
+      * :ref:`declaration-of-%s::%s()-must-be-compatible-with-%s::%s()`
       * :ref:`type-of-%s::\$%s-must-be-%s%s-(as-in-class-%s)`
       * :ref:`type-of-%s::\$%s-must-not-be-defined-(as-in-class-%s)`
 
@@ -459,6 +480,7 @@ Features index
 
    * const
 
+      * :ref:`declaration-of-case-insensitive-constants-is-no-longer-supported`
       * :ref:`syntax-error,-unexpected-\'-\',-expecting-\'=\'`
 
 
@@ -559,6 +581,11 @@ Features index
       * :ref:`default-value-for-parameters-with-a-%s-type-can-only-be-%s-or-null`
 
 
+   * define
+
+      * :ref:`declaration-of-case-insensitive-constants-is-no-longer-supported`
+
+
    * definition
 
       * :ref:`access-to-undeclared-static-property-%s::\$%s`
@@ -592,6 +619,11 @@ Features index
    * double-quote
 
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";"`
+
+
+   * dynamic-property
+
+      * :ref:`creation-of-dynamic-property-%s::\$%s-is-deprecated`
 
 
    * each
@@ -1010,6 +1042,11 @@ Features index
       * :ref:`the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls`
 
 
+   * magic-class
+
+      * :ref:`get_called_class()-must-be-called-from-within-a-class`
+
+
    * magic-constant
 
       * :ref:`syntax-error,-unexpected-token-"__namespace__",-expecting-"("`
@@ -1110,6 +1147,9 @@ Features index
 
       * :ref:`cannot-redeclare-%s()-(previously-declared-in-%s:%d)`
       * :ref:`cannot-redeclare-function-%s()-(previously-declared-in-%s:%d)`
+      * :ref:`cannot-use-\'abstract\'-as-method-modifier`
+      * :ref:`cannot-use-\'final\'-as-method-modifier`
+      * :ref:`cannot-use-\'static\'-as-method-modifier`
       * :ref:`illegal-class-name`
       * :ref:`method-name-must-be-a-string`
 
@@ -1133,8 +1173,10 @@ Features index
       * :ref:`namespace-declarations-cannot-be-nested`
       * :ref:`no-code-may-exist-outside-of-namespace-{}`
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"{"`
+      * :ref:`syntax-error,-unexpected-token-";",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"namespace",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"namespace"`
+      * :ref:`syntax-error,-unexpected-token-"use",-expecting-"{"`
 
 
    * native
@@ -1556,6 +1598,13 @@ Features index
       * :ref:`cannot-use-"%s"-when-no-class-scope-is-active`
 
 
+   * semi-colon
+
+      * :ref:`syntax-error,-unexpected-token-",",-expecting-"]"`
+      * :ref:`syntax-error,-unexpected-token-";",-expecting-")"`
+      * :ref:`syntax-error,-unexpected-token-";",-expecting-"]"`
+
+
    * semicolon
 
       * :ref:`syntax-error,-unexpected-end-of-file`
@@ -1625,6 +1674,7 @@ Features index
       * :ref:`cannot-use-"%s"-when-no-class-scope-is-active`
       * :ref:`cannot-use-"static"-when-no-class-scope-is-active`
       * :ref:`cannot-use-\'static\'-as-constant-modifier`
+      * :ref:`cannot-use-\'static\'-as-method-modifier`
       * :ref:`cannot-use-the-%s-modifier-on-a-%s`
       * :ref:`multiple-static-modifiers-are-not-allowed`
       * :ref:`non-static-method-%s::%s()-cannot-be-called-statically`
@@ -1666,6 +1716,7 @@ Features index
    * strict_types
 
       * :ref:`can-only-flip-string-and-integer-values,-entry-skipped`
+      * :ref:`must-be-of-type-%s,-%s-given`
       * :ref:`object-of-class-%s-could-not-be-converted-to-%s`
       * :ref:`return-value-of-%s%s%s()-must-%s%s%s,-%s%s-returned`
       * :ref:`strict_types-declaration-must-be-the-very-first-statement-in-the-script`
@@ -1747,12 +1798,8 @@ Features index
 
    * tick
 
-      * :ref:`unsupported-declare-\'%s\'`
-
-
-   * ticks
-
       * :ref:`syntax-error,-unexpected-token-"=",-expecting-identifier`
+      * :ref:`unsupported-declare-\'%s\'`
 
 
    * trailing-comma
@@ -1774,6 +1821,7 @@ Features index
       * :ref:`could-not-find-trait-%s`
       * :ref:`enum-"%s"-not-found`
       * :ref:`enum-%s-cannot-include-properties`
+      * :ref:`get_called_class()-must-be-called-from-within-a-class`
       * :ref:`readonly-class-%s-cannot-use-trait-with-a-non-readonly-property-%s::\$%s`
       * :ref:`required-trait-%s-wasn\'t-added-to-%s`
       * :ref:`trait-"%s"-not-found`
@@ -1812,6 +1860,7 @@ Features index
       * :ref:`duplicate-type-%s-is-redundant`
       * :ref:`is-an-invalid-class-name`
       * :ref:`must-be-a-valid-comparison-operator`
+      * :ref:`must-be-of-type-%s,-%s-given`
       * :ref:`needle-is-not-a-string-or-an-integer`
       * :ref:`syntax-error,-unexpected-token-"?"`
       * :ref:`using-array_key_exists()-on-objects-is-deprecated.`
@@ -1864,6 +1913,7 @@ Features index
 
    * use
 
+      * :ref:`syntax-error,-unexpected-token-"use",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"use"`
 
 
