@@ -180,6 +180,12 @@ Features index
       * :ref:`syntax-error,-unexpected-token-";",-expecting-"function"-or-"fn"-or-"static"-or-"#["`
 
 
+   * as
+
+      * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";"`
+      * :ref:`syntax-error,-unexpected-token-"as"`
+
+
    * ascii
 
       * :ref:`octal-escape-sequence-overflow-\\%s-is-greater-than-\\377`
@@ -614,6 +620,11 @@ Features index
    * do-while
 
       * :ref:`syntax-error,-unexpected-\',\'`
+
+
+   * double-colon
+
+      * :ref:`syntax-error,-unexpected-token-":",-expecting-"]"`
 
 
    * double-quote
@@ -1161,6 +1172,7 @@ Features index
       * :ref:`cannot-combine-named-arguments-and-argument-unpacking`
       * :ref:`duplicate-named-parameter-\$%s`
       * :ref:`optional-parameter-\$%s-declared-before-required-parameter-\$%s-is-implicitly-treated-as-a-required-parameter`
+      * :ref:`syntax-error,-unexpected-token-":",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-token-":"`
       * :ref:`the-\$escape-parameter-must-be-provided-as-its-default-value-will-change`
       * :ref:`unknown-named-parameter-\$%s`
@@ -1778,6 +1790,7 @@ Features index
 
    * ternary
 
+      * :ref:`syntax-error,-unexpected-token-":",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-token-"?"`
       * :ref:`unparenthesized-\`a-?-b-:-c-?-d-:-e\`-is-not-supported.`
 
@@ -1913,6 +1926,8 @@ Features index
 
    * use
 
+      * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";"`
+      * :ref:`syntax-error,-unexpected-token-"as"`
       * :ref:`syntax-error,-unexpected-token-"use",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"use"`
 
