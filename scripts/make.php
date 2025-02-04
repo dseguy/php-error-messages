@@ -117,7 +117,7 @@ foreach($files as $file) {
 		++$warnings;
 	}
 
-	if (empty($error->description)) {
+	if (empty($error->description) && !in_array('not generated', $error->tags)) {
 		buildlog("No description for $file");
 		++$warnings;
 		continue;
@@ -179,10 +179,10 @@ foreach($files as $file) {
 		buildlog("No code for $file");
 		++$warnings;
 		continue;
-	} elseif (substr($error->code, 0, 5) !== '<?php') {
+	} elseif (!in_array('not generated', $error->tags) && substr($error->code, 0, 5) !== '<?php') {
 		buildlog("No opening tags in code for $file");
 		++$warnings;
-	} elseif (substr($error->code, -2) !== '?>') {
+	} elseif (!in_array('no-closing-tag', $error->tags) && !in_array('not generated', $error->tags) && substr($error->code, -2) !== '?>') {
 		buildlog("No closing tags in code for $file");
 		++$warnings;
 	}
@@ -223,7 +223,7 @@ foreach($files as $file) {
 	    // just omits
 	} elseif (!empty($error->previous)) {
 		if (!file_exists('errors/'.$error->previous.'.ini')) {
-			buildlog($error->previous." doesn't exist as a previous error");
+			buildlog($error->previous." doesn't exist as a previous error in $file");
 			++$warnings;
 		} else {
 			$target = str_replace(array('errors/', '.ini'), '', $file);
