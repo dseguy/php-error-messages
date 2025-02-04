@@ -35,6 +35,7 @@ PHP Error Messages
    messages/%s::%s()-has-#[\override]-attribute,-but-no-matching-parent-method-exists.rst
    messages/%s::%s():-return-type-must-be-%s-when-declared.rst
    messages/%s::%s-cannot-override-final-constant-%s::%s.rst
+   messages/%s::__sleep()-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize.rst
    messages/'%s'-not-in-the-'loop'-or-'switch'-context.rst
    messages/'%s'-operator-accepts-only-positive-integers.rst
    messages/'%s'-operator-with-non-integer-operand.rst
@@ -45,6 +46,7 @@ PHP Error Messages
    messages/__autoload()-is-deprecated,-use-spl_autoload_register()-instead.rst
    messages/__autoload()-is-no-longer-supported,-use-spl_autoload_register()-instead.rst
    messages/__clone-method-called-on-non-object.rst
+   messages/__sleep-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize..rst
    messages/`%s'-is-not-a-valid-mode-for-fopen.rst
    messages/a-class-constant-must-not-be-called-class.-it-is-reserved-for-class-name-fetching.rst
    messages/a-function-with-return-type-must-return-a-value.rst
@@ -290,6 +292,7 @@ PHP Error Messages
    messages/keys-must-be-of-type-int|string-during-array-unpacking.rst
    messages/label-'%s'-already-defined.rst
    messages/match-expressions-may-only-contain-one-default-arm.rst
+   messages/maximum-depth-of-%d-exceeded.-the-depth-limit-can-be-changed-using-the-max_depth-unserialize()-option.rst
    messages/maximum-execution-time-of-%d-second%s-exceeded.rst
    messages/method-%s::%s()-cannot-be-static.rst
    messages/method-%s::%s()-cannot-declare-a-return-type.rst
@@ -435,6 +438,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-"__namespace__",-expecting-"(".rst
    messages/syntax-error,-unexpected-token-"as".rst
    messages/syntax-error,-unexpected-token-"break".rst
+   messages/syntax-error,-unexpected-token-"class",-expecting-"]".rst
    messages/syntax-error,-unexpected-token-"continue".rst
    messages/syntax-error,-unexpected-token-"exit".rst
    messages/syntax-error,-unexpected-token-"extends",-expecting-"{".rst
@@ -480,6 +484,7 @@ PHP Error Messages
    messages/typed-property-%s\:\:$%s-must-not-be-accessed-before-initialization.rst
    messages/typed-static-property-%s::$%s-must-not-be-accessed-before-initialization.rst
    messages/unbacked-enum-%s-cannot-be-converted-to-a-string.rst
+   messages/unclosed-\'(\'-does-not-match-\']\'.rst
    messages/unclosed-'('.rst
    messages/unclosed-'['.rst
    messages/unclosed-'{'.rst

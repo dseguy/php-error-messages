@@ -149,6 +149,7 @@ Features index
 
       * :ref:`cannot-use-string-offset-as-an-array`
       * :ref:`syntax-error,-unexpected-\'[\',-expecting-\';\'-or-\',\'`
+      * :ref:`syntax-error,-unexpected-single-quoted-string-"%s",-expecting-")"`
       * :ref:`syntax-error,-unexpected-token-",",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-token-"if",-expecting-"]"`
 
@@ -221,6 +222,7 @@ Features index
       * :ref:`attribute-"%s"-cannot-target-%s-(allowed-targets:-%s)`
       * :ref:`has-#[\override]-attribute,-but-no-matching-parent-method-exists`
       * :ref:`syntax-error,-unexpected-token-"#[",-expecting-","-or-";"`
+      * :ref:`syntax-error,-unexpected-token-"class",-expecting-"]"`
 
 
    * autoload
@@ -253,6 +255,8 @@ Features index
       * :ref:`syntax-error,-unexpected-token-",",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-")"`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-"]"`
+      * :ref:`syntax-error,-unexpected-token-"class",-expecting-"]"`
+      * :ref:`unclosed-\'(\'-does-not-match-\']\'`
 
 
    * base64
@@ -430,6 +434,7 @@ Features index
       * :ref:`syntax-error,-unexpected-token-"("`
       * :ref:`syntax-error,-unexpected-token-")",-expecting-"function"-or-"fn"-or-"static"-or-"#["`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-"function"-or-"fn"-or-"static"-or-"#["`
+      * :ref:`syntax-error,-unexpected-token-"as"`
       * :ref:`use-of-"parent"-in-callables-is-deprecated`
       * :ref:`use-of-"self"-in-callables-is-deprecated`
       * :ref:`use-of-"static"-in-callables-is-deprecated`
@@ -683,6 +688,11 @@ Features index
       * :ref:`enum-case-value-must-be-compile-time-evaluatable`
 
 
+   * enum-case
+
+      * :ref:`trying-to-clone-an-uncloneable-object-of-class-%s`
+
+
    * error
 
       * :ref:`%s-%s-cannot-implement-interface-%s,-extend-exception-or-error-instead`
@@ -810,6 +820,7 @@ Features index
       * :ref:`foreach()-argument-must-be-of-type-array|object`
       * :ref:`invalid-argument-supplied-for-foreach()`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-variable`
+      * :ref:`syntax-error,-unexpected-token-"as"`
       * :ref:`the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls`
 
 
@@ -831,6 +842,11 @@ Features index
       * :ref:`call-to-undefined-function-each()`
       * :ref:`call-to-undefined-function`
       * :ref:`syntax-error,-unexpected-token-"=",-expecting-variable`
+
+
+   * functioncall
+
+      * :ref:`syntax-error,-unexpected-single-quoted-string-"%s",-expecting-")"`
 
 
    * generator
@@ -1046,6 +1062,11 @@ Features index
       * :ref:`%s():-argument-#%d%s%s%s-cannot-be-passed-by-reference`
 
 
+   * locale
+
+      * :ref:`cannot-be-lc_all`
+
+
    * loop
 
       * :ref:`\'%s\'-not-in-the-\'loop\'-or-\'switch\'-context`
@@ -1172,6 +1193,7 @@ Features index
       * :ref:`cannot-combine-named-arguments-and-argument-unpacking`
       * :ref:`duplicate-named-parameter-\$%s`
       * :ref:`optional-parameter-\$%s-declared-before-required-parameter-\$%s-is-implicitly-treated-as-a-required-parameter`
+      * :ref:`syntax-error,-unexpected-single-quoted-string-"%s",-expecting-")"`
       * :ref:`syntax-error,-unexpected-token-":",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-token-":"`
       * :ref:`the-\$escape-parameter-must-be-provided-as-its-default-value-will-change`
@@ -1246,10 +1268,6 @@ Features index
    * nullsafe-object-operator
 
       * :ref:`%s()-argument-#%d%s%s%s-cannot-be-passed-by-reference`
-
-
-   * nullsafe-operator
-
       * :ref:`can\'t-use-nullsafe-operator-in-write-context`
 
 
@@ -1260,13 +1278,9 @@ Features index
       * :ref:`cannot-use-object-of-type-stdclass-as-array`
 
 
-   * object-notation
-
-      * :ref:`attempt-to-read-property-"%s"-on-%s`
-
-
    * object-syntax
 
+      * :ref:`attempt-to-read-property-"%s"-on-%s`
       * :ref:`call-to-a-member-function-%s()-on-%s`
       * :ref:`cannot-use-string-offset-as-an-object`
 
@@ -1357,6 +1371,7 @@ Features index
       * :ref:`syntax-error,-unexpected-\',\'`
       * :ref:`syntax-error,-unexpected-token-")"`
       * :ref:`syntax-error,-unexpected-token-"if"`
+      * :ref:`unclosed-\'(\'-does-not-match-\']\'`
       * :ref:`unclosed-\'(\'`
       * :ref:`unmatched-\')\'`
       * :ref:`unmatched-\']\'`
@@ -1614,12 +1629,12 @@ Features index
 
       * :ref:`syntax-error,-unexpected-token-",",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-")"`
-      * :ref:`syntax-error,-unexpected-token-";",-expecting-"]"`
 
 
    * semicolon
 
       * :ref:`syntax-error,-unexpected-end-of-file`
+      * :ref:`syntax-error,-unexpected-token-";",-expecting-"]"`
 
 
    * serialization
@@ -1673,6 +1688,7 @@ Features index
    * square-bracket
 
       * :ref:`syntax-error,-unexpected-token-"]"`
+      * :ref:`unclosed-\'(\'-does-not-match-\']\'`
       * :ref:`unclosed-\'[\'`
       * :ref:`unmatched-\'}\'`
 

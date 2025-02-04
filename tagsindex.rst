@@ -170,6 +170,11 @@ Tag index
       * :ref:`use-of-"static"-in-callables-is-deprecated`
 
 
+   * limits
+
+      * :ref:`maximum-depth-of-%d-exceeded.-the-depth-limit-can-be-changed-using-the-max_depth-unserialize()-option`
+
+
    * lint
 
       * :ref:`a-function-with-return-type-must-return-a-value`
@@ -278,6 +283,11 @@ Tag index
       * :ref:`non-enum-class-%s-cannot-implement-interface-%s`
 
 
+   * security
+
+      * :ref:`maximum-depth-of-%d-exceeded.-the-depth-limit-can-be-changed-using-the-max_depth-unserialize()-option`
+
+
    * silent-cast
 
       * :ref:`array_product():-multiplication-is-not-supported-on-type-array`
@@ -324,6 +334,7 @@ Tag index
       * :ref:`syntax-error,-unexpected-token-"&"`
       * :ref:`syntax-error,-unexpected-token-"(",-expecting-identifier-or-variable-or-"{"-or-"$"`
       * :ref:`syntax-error,-unexpected-token-"("`
+      * :ref:`syntax-error,-unexpected-token-")",-expecting-"="`
       * :ref:`syntax-error,-unexpected-token-")",-expecting-"function"-or-"fn"-or-"static"-or-"#["`
       * :ref:`syntax-error,-unexpected-token-")"`
       * :ref:`syntax-error,-unexpected-token-"*"`
@@ -332,6 +343,7 @@ Tag index
       * :ref:`syntax-error,-unexpected-token-",",-expecting-variable`
       * :ref:`syntax-error,-unexpected-token-"->",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-token-"->"`
+      * :ref:`syntax-error,-unexpected-token-":",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-token-":"`
       * :ref:`syntax-error,-unexpected-token-"::",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-token-"::"`
@@ -340,16 +352,20 @@ Tag index
       * :ref:`syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"{"-or-"["`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-"function"-or-"fn"-or-"static"-or-"#["`
+      * :ref:`syntax-error,-unexpected-token-";",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-";"`
       * :ref:`syntax-error,-unexpected-token-"<<"`
       * :ref:`syntax-error,-unexpected-token-"=",-expecting-identifier-or-variable-or-"{"-or-"$"`
+      * :ref:`syntax-error,-unexpected-token-"=",-expecting-identifier`
       * :ref:`syntax-error,-unexpected-token-"=",-expecting-variable`
+      * :ref:`syntax-error,-unexpected-token-"="`
       * :ref:`syntax-error,-unexpected-token-"?"`
       * :ref:`syntax-error,-unexpected-token-"?->",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-token-"?->"`
       * :ref:`syntax-error,-unexpected-token-"??"`
       * :ref:`syntax-error,-unexpected-token-"]"`
       * :ref:`syntax-error,-unexpected-token-"__namespace__",-expecting-"("`
+      * :ref:`syntax-error,-unexpected-token-"as"`
       * :ref:`syntax-error,-unexpected-token-"break"`
       * :ref:`syntax-error,-unexpected-token-"continue"`
       * :ref:`syntax-error,-unexpected-token-"exit"`
@@ -361,6 +377,7 @@ Tag index
       * :ref:`syntax-error,-unexpected-token-"namespace",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"namespace"`
       * :ref:`syntax-error,-unexpected-token-"use",-expecting-","-or-";"`
+      * :ref:`syntax-error,-unexpected-token-"use",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"use"`
       * :ref:`syntax-error,-unexpected-token-"{"`
       * :ref:`syntax-error,-unexpected-token-"}"`

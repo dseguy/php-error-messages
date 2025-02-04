@@ -21,12 +21,12 @@ Cannot inherit previously-inherited or override constant %s from interface %s
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-inherit-previously-inherited-or-override-constant-%s-from-interface-%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-inherit-previously-inherited-or-override-constant-%s-from-interface-%s.html","name":"Cannot inherit previously-inherited or override constant %s from interface %s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 06 Jan 2025 16:36:10 +0000","dateModified":"Mon, 06 Jan 2025 16:36:10 +0000","description":"Until PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-inherit-previously-inherited-or-override-constant-%s-from-interface-%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-inherit-previously-inherited-or-override-constant-%s-from-interface-%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-inherit-previously-inherited-or-override-constant-%s-from-interface-%s.html","name":"Cannot inherit previously-inherited or override constant %s from interface %s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Feb 2025 15:56:32 +0000","dateModified":"Tue, 04 Feb 2025 15:56:32 +0000","description":"Until PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-inherit-previously-inherited-or-override-constant-%s-from-interface-%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
  
-Until PHP 8.1, it was not possible to override a constant when it was defined in an interface, even with the same definition. 
+Until PHP 8.1, it was not possible to override a constant when it was defined in an interface, even with the same definition.
 
 Example
 _______

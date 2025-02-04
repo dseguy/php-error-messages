@@ -21,7 +21,7 @@ Cannot use 'readonly' as method modifier
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-'readonly'-as-method-modifier.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-'readonly'-as-method-modifier.html","name":"Cannot use 'readonly' as method modifier","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 03 Jan 2025 10:09:37 +0000","dateModified":"Fri, 03 Jan 2025 10:09:37 +0000","description":"readonly is an option for properties, and it is not available for methods nor constants","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-use-'readonly'-as-method-modifier.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-'readonly'-as-method-modifier.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-'readonly'-as-method-modifier.html","name":"Cannot use 'readonly' as method modifier","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Feb 2025 17:34:18 +0000","dateModified":"Tue, 04 Feb 2025 17:34:18 +0000","description":"readonly is an option for properties, and it is not available for methods nor constants","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-use-'readonly'-as-method-modifier.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -45,3 +45,10 @@ Solutions
 _________
 
 + Remove the option from the method signature.
+
+Related Error Messages
+______________________
+
++ :ref:`cannot-use-'abstract'-as-method-modifier`
++ :ref:`cannot-use-'final'-as-method-modifier`
++ :ref:`cannot-use-'static'-as-method-modifier`

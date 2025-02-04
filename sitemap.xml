@@ -91,6 +91,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s%3A%3A%25s-cannot-override-final-constant-%25s%3A%3A%25s.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s%3A%3A__sleep%28%29-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%27%25s%27-not-in-the-%27loop%27-or-%27switch%27-context.html</loc>
  </url>
  <url>
@@ -119,6 +122,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/__clone-method-called-on-non-object.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/__sleep-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize..html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%60%25s%27-is-not-a-valid-mode-for-fopen.html</loc>
@@ -856,6 +862,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/match-expressions-may-only-contain-one-default-arm.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/maximum-depth-of-%25d-exceeded.-the-depth-limit-can-be-changed-using-the-max_depth-unserialize%28%29-option.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/maximum-execution-time-of-%25d-second%25s-exceeded.html</loc>
  </url>
  <url>
@@ -1291,6 +1300,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22break%22.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22class%22%2C-expecting-%22%5D%22.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22continue%22.html</loc>
  </url>
  <url>
@@ -1424,6 +1436,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unbacked-enum-%25s-cannot-be-converted-to-a-string.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/unclosed-%5C%27%28%5C%27-does-not-match-%5C%27%5D%5C%27.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unclosed-%27%28%27.html</loc>

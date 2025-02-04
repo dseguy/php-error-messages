@@ -21,7 +21,7 @@ Constant expression contains invalid operations
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/constant-expression-contains-invalid-operations.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/constant-expression-contains-invalid-operations.html","name":"Constant expression contains invalid operations","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Jan 2025 09:33:44 +0000","dateModified":"Thu, 02 Jan 2025 09:33:44 +0000","description":"The Constant expressions are the value of a constant, global or class, that is not a literal value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/constant-expression-contains-invalid-operations.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/constant-expression-contains-invalid-operations.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/constant-expression-contains-invalid-operations.html","name":"Constant expression contains invalid operations","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Feb 2025 15:50:22 +0000","dateModified":"Tue, 04 Feb 2025 15:50:22 +0000","description":"The Constant expressions are the value of a constant, global or class, that is not a literal value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/constant-expression-contains-invalid-operations.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -56,3 +56,8 @@ Related Error Messages
 ______________________
 
 + :ref:`fetching-properties-on-non-enums-in-constant-expressions-is-not-allowed`
+
+Changed Behavior
+________________
+
+This error may appear in different PHP versions `cloneConstant <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/cloneConstant.html>`_.

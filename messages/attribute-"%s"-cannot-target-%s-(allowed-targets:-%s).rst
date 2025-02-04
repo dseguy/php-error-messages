@@ -21,7 +21,7 @@ Attribute "%s" cannot target %s (allowed targets: %s)
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/attribute-\"%s\"-cannot-target-%s-(allowed-targets:-%s).html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/attribute-\"%s\"-cannot-target-%s-(allowed-targets:-%s).html","name":"Attribute \"%s\" cannot target %s (allowed targets: %s)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 22 Jan 2025 11:37:35 +0000","dateModified":"Wed, 15 Jan 2025 15:15:57 +0000","description":"Attributes are built with a specific target, and may not be applicable to any structure","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/attribute-\"%s\"-cannot-target-%s-(allowed-targets:-%s).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/attribute-\"%s\"-cannot-target-%s-(allowed-targets:-%s).html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/attribute-\"%s\"-cannot-target-%s-(allowed-targets:-%s).html","name":"Attribute \"%s\" cannot target %s (allowed targets: %s)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Feb 2025 15:53:51 +0000","dateModified":"Tue, 04 Feb 2025 15:53:51 +0000","description":"Attributes are built with a specific target, and may not be applicable to any structure","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/attribute-\"%s\"-cannot-target-%s-(allowed-targets:-%s).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -30,8 +30,7 @@ Attributes are built with a specific target, and may not be applicable to any st
 
 With a custom structure, the error is shown when requesting an instance of the attribute. Otherwise, this error remains silent, and the structure may be used without error.
 
-With a PHP native attribute, the engine decides when it makes use of it. 
-
+With a PHP native attribute, the engine decides when it makes use of it.
 
 Example
 _______
