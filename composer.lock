@@ -4,8 +4,45 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9cae4a9a84e486362b94bb97f43e0d21",
+    "content-hash": "671ef0b699c9f8676531f66f3dae598a",
     "packages": [
+        {
+            "name": "matomo/ini",
+            "version": "3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/matomo-org/component-ini.git",
+                "reference": "b55c55da943f4ccd564d48fe6b218fbdada98c1a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/matomo-org/component-ini/zipball/b55c55da943f4ccd564d48fe6b218fbdada98c1a",
+                "reference": "b55c55da943f4ccd564d48fe6b218fbdada98c1a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "phpbench/phpbench": "^1.0",
+                "phpunit/phpunit": "^8.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Matomo\\Ini\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "support": {
+                "issues": "https://github.com/matomo-org/component-ini/issues",
+                "source": "https://github.com/matomo-org/component-ini/tree/3.0.1"
+            },
+            "time": "2022-11-09T08:19:54+00:00"
+        },
         {
             "name": "samdark/sitemap",
             "version": "2.4.1",
@@ -69,10 +106,10 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
+    "platform": {},
+    "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }

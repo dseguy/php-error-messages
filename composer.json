@@ -1,5 +1,6 @@
 {
     "require": {
-        "samdark/sitemap": "^2.4"
+        "samdark/sitemap": "^2.4",
+        "matomo/ini": "^3.0"
     }
 }
