@@ -1,4 +1,7 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://php-tips.readthedocs.io/en/latest/sitemap.xml
+User-agent: *
+Disallow: /_sources/
+
+Sitemap: https://php-errors.readthedocs.io/en/latest/sitemap.xml
