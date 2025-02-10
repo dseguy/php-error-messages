@@ -21,12 +21,12 @@ Unknown format specifier "%c
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/unknown-format-specifier-\"%c.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/unknown-format-specifier-\"%c.html","name":"Unknown format specifier \"%c","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 25 Nov 2024 22:28:36 +0000","dateModified":"Mon, 25 Nov 2024 22:28:36 +0000","description":"printf() accepts a string of formats, as the first arguments","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unknown-format-specifier-\"%c.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/unknown-format-specifier-\"%c.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/unknown-format-specifier-\"%c.html","name":"Unknown format specifier \"%c","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 10 Feb 2025 18:59:32 +0000","dateModified":"Mon, 10 Feb 2025 18:59:32 +0000","description":"printf() accepts a string of formats, as the first arguments","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unknown-format-specifier-\"%c.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
  
-printf() accepts a string of formats, as the first arguments. A format is a ``%`` character, followed by a letter. Some letters are not allowed: ``a, i, j, k, l, m, n, p, q, r, t, v, w, y, z, A, B, C, D, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, Y, Z``
+printf() accepts a string of formats, as the first arguments. A format is a ``%`` character, followed by a letter. Some letters are not allowed: ``a, i, j, k, l, m, n, p, q, r, t, v, w, y, z, A, B, C, D, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, Y, Z``.
 
 Example
 _______
@@ -35,8 +35,8 @@ _______
 
    <?php
    
-       printf(\%we3e\\, 123); 
-       //Unknown format specifier \w\\
+       printf(\%we3e\, 123); 
+       //Unknown format specifier \w\
    ?>
 
 Solutions

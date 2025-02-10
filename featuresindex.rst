@@ -386,6 +386,13 @@ Features index
       * :ref:`cannot-%s-readonly-property-%s::\$%s-from-%s%s`
 
 
+   * cite
+
+      * :ref:`syntax-error,-unexpected-token-"private",-expecting-"{"`
+      * :ref:`syntax-error,-unexpected-token-"protected",-expecting-"{"`
+      * :ref:`syntax-error,-unexpected-token-"public",-expecting-"{"`
+
+
    * class
 
       * :ref:`%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed`
@@ -399,6 +406,12 @@ Features index
       * :ref:`class-%s-cannot-extend-%s-%s`
       * :ref:`illegal-class-name`
       * :ref:`must-be-a-user-defined-class-name,-internal-class-name-given`
+      * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"{"`
+      * :ref:`syntax-error,-unexpected-identifier-"%s"`
+      * :ref:`syntax-error,-unexpected-token-"extends",-expecting-identifier`
+      * :ref:`syntax-error,-unexpected-token-"private",-expecting-"{"`
+      * :ref:`syntax-error,-unexpected-token-"protected",-expecting-"{"`
+      * :ref:`syntax-error,-unexpected-token-"public",-expecting-"{"`
 
 
    * class-constant
@@ -692,6 +705,9 @@ Features index
       * :ref:`enum-case-type-%s-does-not-match-enum-backing-type-%s`
       * :ref:`fetching-properties-on-non-enums-in-constant-expressions-is-not-allowed`
       * :ref:`non-enum-class-%s-cannot-implement-interface-%s`
+      * :ref:`syntax-error,-unexpected-token-"private",-expecting-"{"`
+      * :ref:`syntax-error,-unexpected-token-"protected",-expecting-"{"`
+      * :ref:`syntax-error,-unexpected-token-"public",-expecting-"{"`
       * :ref:`trying-to-clone-an-uncloneable-object-of-class-%s`
       * :ref:`unbacked-enum-%s-cannot-be-converted-to-a-string`
 
@@ -760,7 +776,9 @@ Features index
    * extends
 
       * :ref:`class-%s-cannot-extend-final-class-%s`
+      * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"extends",-expecting-"{"`
+      * :ref:`syntax-error,-unexpected-token-"extends",-expecting-identifier`
 
 
    * extension
@@ -912,6 +930,11 @@ Features index
       * :ref:`wrong-encoding,-conversion-from-"%s"-to-"%s"-is-not-allowed`
 
 
+   * identifier
+
+      * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"{"`
+
+
    * if-then
 
       * :ref:`syntax-error,-unexpected-\',\'`
@@ -927,6 +950,7 @@ Features index
       * :ref:`%s-cannot-implement-%s---it-is-not-an-interface`
       * :ref:`b-cannot-implement-a---it-is-not-an-interface`
       * :ref:`class-%s-cannot-implement-both-iterator-and-iteratoraggregate-at-the-same-time`
+      * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"extends",-expecting-"{"`
 
 
@@ -1002,6 +1026,11 @@ Features index
       * :ref:`interfaces-may-not-include-properties`
       * :ref:`non-enum-class-%s-cannot-implement-interface-%s`
       * :ref:`return-type-of-%s::%s()-should-either-be-compatible-with-%s::%s():-mixed`
+      * :ref:`syntax-error,-unexpected-identifier-"%s"`
+      * :ref:`syntax-error,-unexpected-token-"extends",-expecting-identifier`
+      * :ref:`syntax-error,-unexpected-token-"private",-expecting-"{"`
+      * :ref:`syntax-error,-unexpected-token-"protected",-expecting-"{"`
+      * :ref:`syntax-error,-unexpected-token-"public",-expecting-"{"`
 
 
    * interpolation
@@ -1202,6 +1231,7 @@ Features index
       * :ref:`cannot-use-\'static\'-as-method-modifier`
       * :ref:`illegal-class-name`
       * :ref:`method-name-must-be-a-string`
+      * :ref:`syntax-error,-unexpected-token-"extends",-expecting-identifier`
 
 
    * named-parameter
@@ -1879,6 +1909,9 @@ Features index
       * :ref:`get_called_class()-must-be-called-from-within-a-class`
       * :ref:`readonly-class-%s-cannot-use-trait-with-a-non-readonly-property-%s::\$%s`
       * :ref:`required-trait-%s-wasn\'t-added-to-%s`
+      * :ref:`syntax-error,-unexpected-token-"private",-expecting-"{"`
+      * :ref:`syntax-error,-unexpected-token-"protected",-expecting-"{"`
+      * :ref:`syntax-error,-unexpected-token-"public",-expecting-"{"`
       * :ref:`trait-"%s"-not-found`
       * :ref:`trait-method-%s::%s-has-not-been-applied-as-%s::%s`
       * :ref:`traits-cannot-have-constants`

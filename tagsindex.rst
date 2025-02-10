@@ -199,6 +199,11 @@ Tag index
       * :ref:`cannot-use-object-of-type-%s-as-array`
 
 
+   * name
+
+      * :ref:`syntax-error,-unexpected-identifier-"%s"`
+
+
    * no-closing-tag
 
       * :ref:`syntax-error,-unexpected-end-of-file`
@@ -326,6 +331,7 @@ Tag index
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%d",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";"`
+      * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-variable`
       * :ref:`syntax-error,-unexpected-single-quoted-string-"%s",-expecting-")"`
       * :ref:`syntax-error,-unexpected-string-content`
@@ -375,12 +381,16 @@ Tag index
       * :ref:`syntax-error,-unexpected-token-"continue"`
       * :ref:`syntax-error,-unexpected-token-"exit"`
       * :ref:`syntax-error,-unexpected-token-"extends",-expecting-"{"`
+      * :ref:`syntax-error,-unexpected-token-"extends",-expecting-identifier`
       * :ref:`syntax-error,-unexpected-token-"if",-expecting-")"`
       * :ref:`syntax-error,-unexpected-token-"if",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-token-"if"`
       * :ref:`syntax-error,-unexpected-token-"match"`
       * :ref:`syntax-error,-unexpected-token-"namespace",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"namespace"`
+      * :ref:`syntax-error,-unexpected-token-"private",-expecting-"{"`
+      * :ref:`syntax-error,-unexpected-token-"protected",-expecting-"{"`
+      * :ref:`syntax-error,-unexpected-token-"public",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"use",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-token-"use",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"use"`

@@ -25,6 +25,7 @@ Here is a list of classic syntax errors, met in every day code. Some common solu
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%d",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"\xxx",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";"`
+      * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-variable`
       * :ref:`syntax-error,-unexpected-single-quoted-string-"%s",-expecting-")"`
       * :ref:`syntax-error,-unexpected-string-content`
@@ -74,12 +75,16 @@ Here is a list of classic syntax errors, met in every day code. Some common solu
       * :ref:`syntax-error,-unexpected-token-"continue"`
       * :ref:`syntax-error,-unexpected-token-"exit"`
       * :ref:`syntax-error,-unexpected-token-"extends",-expecting-"{"`
+      * :ref:`syntax-error,-unexpected-token-"extends",-expecting-identifier`
       * :ref:`syntax-error,-unexpected-token-"if"`
       * :ref:`syntax-error,-unexpected-token-"if",-expecting-")"`
       * :ref:`syntax-error,-unexpected-token-"if",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-token-"match"`
       * :ref:`syntax-error,-unexpected-token-"namespace"`
       * :ref:`syntax-error,-unexpected-token-"namespace",-expecting-"{"`
+      * :ref:`syntax-error,-unexpected-token-"private",-expecting-"{"`
+      * :ref:`syntax-error,-unexpected-token-"protected",-expecting-"{"`
+      * :ref:`syntax-error,-unexpected-token-"public",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"use"`
       * :ref:`syntax-error,-unexpected-token-"use",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-token-"use",-expecting-"{"`

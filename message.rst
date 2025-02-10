@@ -397,7 +397,9 @@ PHP Error Messages
    messages/syntax-error,-unexpected-fully-qualified-name-"%d",-expecting-"{".rst
    messages/syntax-error,-unexpected-fully-qualified-name-"\xxx",-expecting-"{".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";".rst
+   messages/syntax-error,-unexpected-identifier-"%s",-expecting-"{".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-variable.rst
+   messages/syntax-error,-unexpected-identifier-"%s".rst
    messages/syntax-error,-unexpected-single-quoted-string-"%s",-expecting-")".rst
    messages/syntax-error,-unexpected-string-content.rst
    messages/syntax-error,-unexpected-token-"#[",-expecting-","-or-";".rst
@@ -446,12 +448,16 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-"continue".rst
    messages/syntax-error,-unexpected-token-"exit".rst
    messages/syntax-error,-unexpected-token-"extends",-expecting-"{".rst
+   messages/syntax-error,-unexpected-token-"extends",-expecting-identifier.rst
    messages/syntax-error,-unexpected-token-"if",-expecting-")".rst
    messages/syntax-error,-unexpected-token-"if",-expecting-"]".rst
    messages/syntax-error,-unexpected-token-"if".rst
    messages/syntax-error,-unexpected-token-"match".rst
    messages/syntax-error,-unexpected-token-"namespace",-expecting-"{".rst
    messages/syntax-error,-unexpected-token-"namespace".rst
+   messages/syntax-error,-unexpected-token-"private",-expecting-"{".rst
+   messages/syntax-error,-unexpected-token-"protected",-expecting-"{".rst
+   messages/syntax-error,-unexpected-token-"public",-expecting-"{".rst
    messages/syntax-error,-unexpected-token-"use",-expecting-","-or-";".rst
    messages/syntax-error,-unexpected-token-"use",-expecting-"{".rst
    messages/syntax-error,-unexpected-token-"use".rst
