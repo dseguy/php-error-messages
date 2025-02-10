@@ -21,7 +21,7 @@ Can\'t use nullsafe operator in write context
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/can\\'t-use-nullsafe-operator-in-write-context.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/can\\'t-use-nullsafe-operator-in-write-context.html","name":"Can\\'t use nullsafe operator in write context","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Feb 2025 17:45:43 +0000","dateModified":"Tue, 04 Feb 2025 17:45:43 +0000","description":"The nullsafe operator is only available for reading, not writing","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/can\\'t-use-nullsafe-operator-in-write-context.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/can\\'t-use-nullsafe-operator-in-write-context.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/can\\'t-use-nullsafe-operator-in-write-context.html","name":"Can\\'t use nullsafe operator in write context","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 10 Feb 2025 09:35:56 +0000","dateModified":"Mon, 10 Feb 2025 09:35:56 +0000","description":"The nullsafe operator is only available for reading, not writing","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/can\\'t-use-nullsafe-operator-in-write-context.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -31,7 +31,6 @@ The nullsafe operator is only available for reading, not writing. Aka, it cannot
 The nullsafe operator replaces any non-existing property with a ``null`` value: that value is not an object, and cannot handle properties on its own.
 
 This limitation applies to assignations, short assignations, such as ``.=``, ``+=``, etc., pre and post incrementations ``++$a->b``, and references arguments.
-
 
 Example
 _______

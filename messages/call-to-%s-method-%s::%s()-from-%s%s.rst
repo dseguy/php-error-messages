@@ -21,7 +21,7 @@ Call to %s method %s::%s() from %s%s
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/call-to-%s-method-%s::%s()-from-%s%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/call-to-%s-method-%s::%s()-from-%s%s.html","name":"Call to %s method %s::%s() from %s%s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 19 Jan 2025 21:30:03 +0000","dateModified":"Sun, 19 Jan 2025 21:30:03 +0000","description":"A ``private`` method shall only be called from within its own class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/call-to-%s-method-%s::%s()-from-%s%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/call-to-%s-method-%s::%s()-from-%s%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/call-to-%s-method-%s::%s()-from-%s%s.html","name":"Call to %s method %s::%s() from %s%s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 10 Feb 2025 09:35:35 +0000","dateModified":"Mon, 10 Feb 2025 09:35:35 +0000","description":"A ``private`` method shall only be called from within its own class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/call-to-%s-method-%s::%s()-from-%s%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -31,7 +31,6 @@ A ``private`` method shall only be called from within its own class. It cannot b
 A ``protected`` method shall only be called from within its own class, or any of it parent or children. It cannot be called from another non-related class, or from the global space. In particular, the method cannot be called directly, or indirectly: for example, ``new X`` indirectly calls the ``__construct`` method. 
 
 A ``public`` method may be called from anywhere in the code.
-
 
 Example
 _______

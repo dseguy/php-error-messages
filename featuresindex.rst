@@ -22,6 +22,11 @@ Features index
       * :ref:`return-type-of-%s::%s()-should-either-be-compatible-with-%s::%s():-mixed`
 
 
+   * __invoke
+
+      * :ref:`object-of-type-%s-is-not-callable`
+
+
    * __set_state
 
       * :ref:`method-%s::%s()-must-be-static`
@@ -184,6 +189,7 @@ Features index
    * as
 
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";"`
+      * :ref:`syntax-error,-unexpected-token-";",-expecting-identifier`
       * :ref:`syntax-error,-unexpected-token-"as"`
 
 
@@ -332,6 +338,7 @@ Features index
    * callable
 
       * :ref:`class-constant-%s::%s-cannot-have-type-%s`
+      * :ref:`object-of-type-%s-is-not-callable`
       * :ref:`value-of-type-%s-is-not-callable`
 
 
@@ -574,6 +581,7 @@ Features index
 
       * :ref:`no-code-may-exist-outside-of-namespace-{}`
       * :ref:`syntax-error,-unexpected-token-")",-expecting-"="`
+      * :ref:`syntax-error,-unexpected-token-";",-expecting-","-or-")"`
       * :ref:`syntax-error,-unexpected-token-"=",-expecting-identifier`
       * :ref:`syntax-error,-unexpected-token-"namespace"`
       * :ref:`unsupported-declare-\'%s\'`
@@ -610,6 +618,11 @@ Features index
       * :ref:`constant-%s-is-deprecated`
       * :ref:`constant-%s::%s-is-deprecated`
       * :ref:`get_defined_functions():-setting-\$exclude_disabled-to-false-has-no-effect`
+
+
+   * depth
+
+      * :ref:`maximum-depth-of-%d-exceeded.-the-depth-limit-can-be-changed-using-the-max_depth-unserialize()-option`
 
 
    * destructor
@@ -862,6 +875,11 @@ Features index
       * :ref:`syntax-error,-unexpected-token-"->",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-token-"::",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-token-"?->",-expecting-","-or-";"`
+
+
+   * global-namespace
+
+      * :ref:`syntax-error,-unexpected-fully-qualified-name-"%d",-expecting-"{"`
 
 
    * goto
@@ -1206,11 +1224,17 @@ Features index
       * :ref:`call-to-undefined-function`
       * :ref:`namespace-declarations-cannot-be-nested`
       * :ref:`no-code-may-exist-outside-of-namespace-{}`
+      * :ref:`syntax-error,-unexpected-fully-qualified-name-"%d",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"namespace",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"namespace"`
       * :ref:`syntax-error,-unexpected-token-"use",-expecting-"{"`
+
+
+   * namespace-name
+
+      * :ref:`syntax-error,-unexpected-fully-qualified-name-"%d",-expecting-"{"`
 
 
    * native
@@ -1276,6 +1300,7 @@ Features index
       * :ref:`attempt-to-read-property-"%s"-on-%s`
       * :ref:`cannot-use-object-of-type-%s-as-array`
       * :ref:`cannot-use-object-of-type-stdclass-as-array`
+      * :ref:`object-of-type-%s-is-not-callable`
 
 
    * object-syntax
@@ -1733,6 +1758,7 @@ Features index
 
       * :ref:`cannot-use-object-of-type-stdclass-as-array`
       * :ref:`creating-default-object-from-empty-value`
+      * :ref:`creation-of-dynamic-property-%s::\$%s-is-deprecated`
 
 
    * stream
@@ -1943,6 +1969,7 @@ Features index
    * use
 
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";"`
+      * :ref:`syntax-error,-unexpected-token-";",-expecting-identifier`
       * :ref:`syntax-error,-unexpected-token-"as"`
       * :ref:`syntax-error,-unexpected-token-"use",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"use"`

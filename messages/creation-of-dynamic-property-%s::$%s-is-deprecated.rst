@@ -21,7 +21,7 @@ Creation of dynamic property %s::$%s is deprecated
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/creation-of-dynamic-property-%s::$%s-is-deprecated.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/creation-of-dynamic-property-%s::$%s-is-deprecated.html","name":"Creation of dynamic property %s::$%s is deprecated","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 31 Jan 2025 10:01:44 +0000","dateModified":"Fri, 31 Jan 2025 10:01:44 +0000","description":"When PHP uses an undefined property for a writing access, it used to create that property on the fly","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/creation-of-dynamic-property-%s::$%s-is-deprecated.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/creation-of-dynamic-property-%s::$%s-is-deprecated.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/creation-of-dynamic-property-%s::$%s-is-deprecated.html","name":"Creation of dynamic property %s::$%s is deprecated","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 10 Feb 2025 09:39:24 +0000","dateModified":"Mon, 10 Feb 2025 09:39:24 +0000","description":"When PHP uses an undefined property for a writing access, it used to create that property on the fly","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/creation-of-dynamic-property-%s::$%s-is-deprecated.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -51,4 +51,7 @@ _______
 Solutions
 _________
 
-+ 
++ Declare the property in the class definition.
++ Create an array and store the properties there.
++ Create a stdClass object and store the properties there.
++ Add the ``#[AllowDynamicProperties]``.

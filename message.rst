@@ -394,9 +394,11 @@ PHP Error Messages
    messages/syntax-error,-unexpected-'[',-expecting-';'-or-','.rst
    messages/syntax-error,-unexpected-'|',-expecting-variable-(t_variable).rst
    messages/syntax-error,-unexpected-end-of-file.rst
+   messages/syntax-error,-unexpected-fully-qualified-name-"%d",-expecting-"{".rst
    messages/syntax-error,-unexpected-fully-qualified-name-"\xxx",-expecting-"{".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-variable.rst
+   messages/syntax-error,-unexpected-single-quoted-string-"%s",-expecting-")".rst
    messages/syntax-error,-unexpected-string-content.rst
    messages/syntax-error,-unexpected-token-"#[",-expecting-","-or-";".rst
    messages/syntax-error,-unexpected-token-"%".rst
@@ -419,11 +421,13 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-"::",-expecting-","-or-";".rst
    messages/syntax-error,-unexpected-token-"::".rst
    messages/syntax-error,-unexpected-token-";",-expecting-")".rst
+   messages/syntax-error,-unexpected-token-";",-expecting-","-or-")".rst
    messages/syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"[".rst
    messages/syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"{"-or-"[".rst
    messages/syntax-error,-unexpected-token-";",-expecting-"]".rst
    messages/syntax-error,-unexpected-token-";",-expecting-"function"-or-"fn"-or-"static"-or-"#[".rst
    messages/syntax-error,-unexpected-token-";",-expecting-"{".rst
+   messages/syntax-error,-unexpected-token-";",-expecting-identifier.rst
    messages/syntax-error,-unexpected-token-";".rst
    messages/syntax-error,-unexpected-token-"<<".rst
    messages/syntax-error,-unexpected-token-"=",-expecting-identifier-or-variable-or-"{"-or-"$".rst
