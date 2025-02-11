@@ -23,6 +23,8 @@ $ini = str_replace('id = ""', 'id = "'.addslashes($name).'"', $ini);
 $ini = str_replace('error = ""', 'error = "'.addslashes($message).'"', $ini);
 if (str_contains($message, 'syntax error')) {
     $ini = str_replace('tags[] = ""', 'tags[] = "syntax-error"'.PHP_EOL.'tags[] = ""', $ini);
+    $ini = str_replace('phpVersion = ""', 'phpVersion = "7.0+"', $ini);
+    $ini = str_replace('level = ""', 'level = "E_COMPILE_ERROR"', $ini);
 }
 
 // @todo : also add a call to getMessage to find more details about the error message
