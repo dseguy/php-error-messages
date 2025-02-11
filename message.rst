@@ -393,7 +393,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-','.rst
    messages/syntax-error,-unexpected-'-',-expecting-'='.rst
    messages/syntax-error,-unexpected-\'::\',-expecting-\'(\'.rst
-   messages/syntax-error,-unexpected-\'::\'-(t_paamayim_nekudotayim),-expecting-\';\'-or-\',\'.rst
+   messages/syntax-error,-unexpected-'::'-(t_paamayim_nekudotayim),-expecting-';'-or-','.rst
    messages/syntax-error,-unexpected-';',-expecting-'['.rst
    messages/syntax-error,-unexpected-'[',-expecting-';'-or-','.rst
    messages/syntax-error,-unexpected-'|',-expecting-variable-(t_variable).rst
