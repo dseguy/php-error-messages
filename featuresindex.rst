@@ -115,6 +115,9 @@ Features index
       * :ref:`\`%s\'-is-not-a-valid-mode-for-fopen`
       * :ref:`argument-#%d-(\$%s)-must-be-of-type-%s,-%s-given`
       * :ref:`calling-get_parent_class()-without-arguments-is-deprecated`
+      * :ref:`func_get_arg()-cannot-be-called-from-the-global-scope`
+      * :ref:`func_get_args()-cannot-be-called-from-the-global-scope`
+      * :ref:`func_num_args()-must-be-called-from-a-function-context`
       * :ref:`only-variables-can-be-passed-by-reference`
       * :ref:`only-variables-should-be-passed-by-reference`
       * :ref:`parameter-%d-must-be-passed-by-reference`
@@ -872,6 +875,9 @@ Features index
       * :ref:`call-to-undefined-function-%s()`
       * :ref:`call-to-undefined-function-each()`
       * :ref:`call-to-undefined-function`
+      * :ref:`func_get_arg()-cannot-be-called-from-the-global-scope`
+      * :ref:`func_get_args()-cannot-be-called-from-the-global-scope`
+      * :ref:`func_num_args()-must-be-called-from-a-function-context`
       * :ref:`syntax-error,-unexpected-token-"=",-expecting-variable`
 
 
@@ -1035,6 +1041,7 @@ Features index
 
    * interpolation
 
+      * :ref:`syntax-error,-unexpected-\'[\',-expecting-\';\'-or-\',\'`
       * :ref:`using-\${expr}-(variable-variables)-in-strings-is-deprecated,-use-{\${expr}}-instead`
       * :ref:`using-\${var}-in-strings-is-deprecated,-use-{\$var}-instead`
 
@@ -1398,6 +1405,9 @@ Features index
       * :ref:`cannot-use-%s-as-default-value-for-property-%s::\$%s-of-type-%s`
       * :ref:`cannot-use-lexical-variable-%s-as-a-parameter-name`
       * :ref:`default-value-for-parameters-with-a-%s-type-can-only-be-%s-or-null`
+      * :ref:`func_get_arg()-cannot-be-called-from-the-global-scope`
+      * :ref:`func_get_args()-cannot-be-called-from-the-global-scope`
+      * :ref:`func_num_args()-must-be-called-from-a-function-context`
       * :ref:`named-parameter-\$%s-overwrites-previous-argument`
       * :ref:`optional-parameter-\$%s-declared-before-required-parameter-\$%s-is-implicitly-treated-as-a-required-parameter`
       * :ref:`parameter-uses-\'parent\'-as-type-hint-although-class-does-not-have-a-parent\!`
@@ -1638,12 +1648,8 @@ Features index
       * :ref:`division-of-php_int_min-by--1-is-not-an-integer`
       * :ref:`method-%s::%s()-cannot-declare-a-return-type`
       * :ref:`return-value-of-%s%s%s()-must-%s%s%s,-%s%s-returned`
-      * :ref:`returning-bool-from-comparison-function-is-deprecated`
-
-
-   * returntype
-
       * :ref:`returning-bool-from-comparison-function-is-deprecated,-return-an-integer-less-than,-equal-to,-or-greater-than-zero`
+      * :ref:`returning-bool-from-comparison-function-is-deprecated`
 
 
    * rounding

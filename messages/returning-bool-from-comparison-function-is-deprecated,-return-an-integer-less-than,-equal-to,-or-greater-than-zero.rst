@@ -21,7 +21,7 @@ Returning bool from comparison function is deprecated, return an integer less th
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/returning-bool-from-comparison-function-is-deprecated,-return-an-integer-less-than,-equal-to,-or-greater-than-zero.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/returning-bool-from-comparison-function-is-deprecated,-return-an-integer-less-than,-equal-to,-or-greater-than-zero.html","name":"Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Jan 2025 15:23:32 +0000","dateModified":"Wed, 15 Jan 2025 15:23:32 +0000","description":"``usort()`` requires a callback function, that is used to put set the order in the array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/returning-bool-from-comparison-function-is-deprecated,-return-an-integer-less-than,-equal-to,-or-greater-than-zero.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/returning-bool-from-comparison-function-is-deprecated,-return-an-integer-less-than,-equal-to,-or-greater-than-zero.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/returning-bool-from-comparison-function-is-deprecated,-return-an-integer-less-than,-equal-to,-or-greater-than-zero.html","name":"Returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 11 Feb 2025 15:31:07 +0000","dateModified":"Tue, 11 Feb 2025 15:31:07 +0000","description":"``usort()`` requires a callback function, that is used to put set the order in the array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/returning-bool-from-comparison-function-is-deprecated,-return-an-integer-less-than,-equal-to,-or-greater-than-zero.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -41,7 +41,6 @@ Also, note that any positive integer is considered as 1, and any negative intege
 This applies to ``usort()``, ``uasort()``, ``uksort()``. 
 
 Not that without ``declare(strict_types=)``, the integer result of the callback is converted into a boolean, where 1 and -1 are both ``true``. This may lead to strange results.
-
 
 Example
 _______

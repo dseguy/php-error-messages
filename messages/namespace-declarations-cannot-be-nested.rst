@@ -21,7 +21,7 @@ Namespace declarations cannot be nested
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/namespace-declarations-cannot-be-nested.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/namespace-declarations-cannot-be-nested.html","name":"Namespace declarations cannot be nested","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 11 Nov 2024 21:20:14 +0000","dateModified":"Mon, 11 Nov 2024 21:20:14 +0000","description":"Namespace declaration, with blocks, cannot be nested one into the other","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/namespace-declarations-cannot-be-nested.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/namespace-declarations-cannot-be-nested.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/namespace-declarations-cannot-be-nested.html","name":"Namespace declarations cannot be nested","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 11 Feb 2025 15:30:06 +0000","dateModified":"Tue, 11 Feb 2025 15:30:06 +0000","description":"Namespace declaration, with blocks, cannot be nested one into the other","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/namespace-declarations-cannot-be-nested.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -29,7 +29,6 @@ ___________
 Namespace declaration, with blocks, cannot be nested one into the other. Namespaces must be one next to each other. 
 
 Usually, there is only one namespace per file, without a block.
-
 
 Example
 _______

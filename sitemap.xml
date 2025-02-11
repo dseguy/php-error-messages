@@ -748,6 +748,15 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/foreach%28%29-argument-must-be-of-type-array%7Cobject.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/func_get_arg%28%29-cannot-be-called-from-the-global-scope.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/func_get_args%28%29-cannot-be-called-from-the-global-scope.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/func_num_args%28%29-must-be-called-from-a-function-context.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/generator-return-type-must-be-a-supertype-of-generator.html</loc>
  </url>
  <url>
@@ -1154,6 +1163,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-%5C%27%3A%3A%5C%27%2C-expecting-%5C%27%28%5C%27.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-%5C%27%3A%3A%5C%27-%28t_paamayim_nekudotayim%29%2C-expecting-%5C%27%3B%5C%27-or-%5C%27%2C%5C%27.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-%27%3B%27%2C-expecting-%27%5B%27.html</loc>

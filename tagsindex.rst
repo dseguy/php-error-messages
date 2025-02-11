@@ -324,6 +324,7 @@ Tag index
       * :ref:`syntax-error,-unexpected-\',\'`
       * :ref:`syntax-error,-unexpected-\'-\',-expecting-\'=\'`
       * :ref:`syntax-error,-unexpected-\'::\',-expecting-\'(\'`
+      * :ref:`syntax-error,-unexpected-\'::\'-(t_paamayim_nekudotayim),-expecting-\';\'-or-\',\'`
       * :ref:`syntax-error,-unexpected-\';\',-expecting-\'[\'`
       * :ref:`syntax-error,-unexpected-\'[\',-expecting-\';\'-or-\',\'`
       * :ref:`syntax-error,-unexpected-\'|\',-expecting-variable-(t_variable)`

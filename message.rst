@@ -254,6 +254,9 @@ PHP Error Messages
    messages/ffi-api-is-restricted-by-"ffi.enable"-configuration-directive.rst
    messages/filename-cannot-be-empty.rst
    messages/foreach()-argument-must-be-of-type-array|object.rst
+   messages/func_get_arg()-cannot-be-called-from-the-global-scope.rst
+   messages/func_get_args()-cannot-be-called-from-the-global-scope.rst
+   messages/func_num_args()-must-be-called-from-a-function-context.rst
    messages/generator-return-type-must-be-a-supertype-of-generator.rst
    messages/generators-cannot-return-values-using-"return".rst
    messages/get_called_class()-must-be-called-from-within-a-class.rst
@@ -390,6 +393,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-','.rst
    messages/syntax-error,-unexpected-'-',-expecting-'='.rst
    messages/syntax-error,-unexpected-\'::\',-expecting-\'(\'.rst
+   messages/syntax-error,-unexpected-\'::\'-(t_paamayim_nekudotayim),-expecting-\';\'-or-\',\'.rst
    messages/syntax-error,-unexpected-';',-expecting-'['.rst
    messages/syntax-error,-unexpected-'[',-expecting-';'-or-','.rst
    messages/syntax-error,-unexpected-'|',-expecting-variable-(t_variable).rst
