@@ -656,11 +656,6 @@ Features index
       * :ref:`syntax-error,-unexpected-\',\'`
 
 
-   * double-colon
-
-      * :ref:`syntax-error,-unexpected-token-":",-expecting-"]"`
-
-
    * double-quote
 
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";"`
@@ -1531,6 +1526,7 @@ Features index
       * :ref:`property-cannot-be-both-final-and-private`
       * :ref:`property-hook-cannot-be-both-abstract-and-private`
       * :ref:`property-hook-cannot-be-both-final-and-private`
+      * :ref:`syntax-error,-unexpected-token-"{",-expecting-","-or-";"`
       * :ref:`unknown-hook-"%s"-for-property-%s::\$%s,-expected-"get"-or-"set"`
 
 
@@ -1677,6 +1673,7 @@ Features index
    * scope-resolution-operator
 
       * :ref:`syntax-error,-unexpected-\'::\',-expecting-\'(\'`
+      * :ref:`syntax-error,-unexpected-token-":",-expecting-"]"`
 
 
    * self

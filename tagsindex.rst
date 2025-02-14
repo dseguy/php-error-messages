@@ -395,6 +395,7 @@ Tag index
       * :ref:`syntax-error,-unexpected-token-"use",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-token-"use",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"use"`
+      * :ref:`syntax-error,-unexpected-token-"{",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-token-"{"`
       * :ref:`syntax-error,-unexpected-token-"}"`
       * :ref:`unclosed-\'(\'`

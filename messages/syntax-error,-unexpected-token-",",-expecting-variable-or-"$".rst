@@ -21,7 +21,7 @@ syntax error, unexpected token ",", expecting variable or "$"
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\",\",-expecting-variable-or-\"$\".html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\",\",-expecting-variable-or-\"$\".html","name":"syntax error, unexpected token \",\", expecting variable or \"$\"","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 19 Jan 2025 10:15:24 +0000","dateModified":"Sun, 19 Jan 2025 10:15:24 +0000","description":"This error is reported when a list of global variable is expected after the ``global`` keyword","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\",\",-expecting-variable-or-\"$\".html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\",\",-expecting-variable-or-\"$\".html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\",\",-expecting-variable-or-\"$\".html","name":"syntax error, unexpected token \",\", expecting variable or \"$\"","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 14 Feb 2025 21:42:50 +0000","dateModified":"Fri, 14 Feb 2025 21:42:50 +0000","description":"This error is reported when a list of global variable is expected after the ``global`` keyword","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\",\",-expecting-variable-or-\"$\".html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -32,7 +32,6 @@ There is a similar case with the visibility options ``public``, ``protected`` an
 
 Generally speaking, there can be no two successive commas in an expression, except with the ``list()`` keyword.
 
-
 Example
 _______
 
@@ -40,11 +39,12 @@ _______
 
    <?php
    
-   class x {
+   class X {
    	public function foo() {
    	    global $a, , $c;
    	}
    }
+   
    ?>
 
 Solutions

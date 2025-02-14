@@ -21,12 +21,12 @@ syntax error, unexpected token "extends", expecting identifier
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\"extends\",-expecting-identifier.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\"extends\",-expecting-identifier.html","name":"syntax error, unexpected token \"extends\", expecting identifier","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 10 Feb 2025 18:27:34 +0000","dateModified":"Mon, 10 Feb 2025 18:27:34 +0000","description":"The ``extends`` keyword may only be used after a class name, an interface name, or the parenthesis of an anonymous class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\"extends\",-expecting-identifier.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\"extends\",-expecting-identifier.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\"extends\",-expecting-identifier.html","name":"syntax error, unexpected token \"extends\", expecting identifier","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 14 Feb 2025 21:43:44 +0000","dateModified":"Fri, 14 Feb 2025 21:43:44 +0000","description":"The ``extends`` keyword may only be used after a class name, an interface name, or the parenthesis of an anonymous class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\"extends\",-expecting-identifier.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
  
-The ``extends`` keyword may only be used after a class name, an interface name, or the parenthesis of an anonymous class. 
+The ``extends`` keyword may only be used after a class name, an interface name, or the parenthesis of an anonymous class.
 
 Example
 _______
@@ -35,8 +35,10 @@ _______
 
    <?php
    
+   // missing class name
    class extends B {}
    
+   // missing interface name
    interface extends B {}
    
    ?>

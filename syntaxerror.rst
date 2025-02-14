@@ -90,4 +90,5 @@ Here is a list of classic syntax errors, met in every day code. Some common solu
       * :ref:`syntax-error,-unexpected-token-"use",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-token-"use",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"{"`
+      * :ref:`syntax-error,-unexpected-token-"{",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-token-"}"`

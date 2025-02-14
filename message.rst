@@ -465,6 +465,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-"use",-expecting-","-or-";".rst
    messages/syntax-error,-unexpected-token-"use",-expecting-"{".rst
    messages/syntax-error,-unexpected-token-"use".rst
+   messages/syntax-error,-unexpected-token-"{",-expecting-","-or-";".rst
    messages/syntax-error,-unexpected-token-"{".rst
    messages/syntax-error,-unexpected-token-"}".rst
    messages/the-$escape-parameter-must-be-provided-as-its-default-value-will-change.rst
