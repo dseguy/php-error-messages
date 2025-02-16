@@ -491,6 +491,8 @@ Features index
 
    * compatibility
 
+      * :ref:`cannot-make-non-static-method-%s::%s()-static-in-class-%s`
+      * :ref:`cannot-make-static-method-%s::%s()-non-static-in-class-%s`
       * :ref:`could-not-check-compatibility-between-%s-and-%s,-because-class-%s-is-not-available`
       * :ref:`declaration-of-%s-must-be-compatible-with-%s`
       * :ref:`declaration-of-%s::%s()-must-be-compatible-with-%s::%s()`
@@ -970,6 +972,11 @@ Features index
       * :ref:`undefined-array-key`
 
 
+   * infinite
+
+      * :ref:`must-be-a-finite-value`
+
+
    * inheritance
 
       * :ref:`cannot-declare-promoted-property-in-an-abstract-constructor`
@@ -1082,10 +1089,6 @@ Features index
    * lexical
 
       * :ref:`cannot-use-lexical-variable-%s-as-a-parameter-name`
-
-
-   * lexical-variable
-
       * :ref:`named-parameter-\$%s-overwrites-previous-argument`
 
 
@@ -1188,6 +1191,8 @@ Features index
       * :ref:`call-to-%s-method-%s::%s()-from-%s%s`
       * :ref:`call-to-undefined-method-%s::%s()`
       * :ref:`can\'t-inherit-abstract-function-%s::%s()-(previously-declared-abstract-in-%s)`
+      * :ref:`cannot-make-non-static-method-%s::%s()-static-in-class-%s`
+      * :ref:`cannot-make-static-method-%s::%s()-non-static-in-class-%s`
       * :ref:`cannot-redeclare-%s::%s()`
       * :ref:`cannot-use-\'readonly\'-as-method-modifier`
       * :ref:`method-name-must-be-a-string`
@@ -1259,6 +1264,11 @@ Features index
       * :ref:`syntax-error,-unexpected-token-"namespace",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"namespace"`
       * :ref:`syntax-error,-unexpected-token-"use",-expecting-"{"`
+
+
+   * nan
+
+      * :ref:`must-be-a-finite-value`
 
 
    * native
@@ -1667,6 +1677,7 @@ Features index
    * scope-resolution-operator
 
       * :ref:`syntax-error,-unexpected-\'::\',-expecting-\'(\'`
+      * :ref:`syntax-error,-unexpected-\'::\'-(t_paamayim_nekudotayim),-expecting-\';\'-or-\',\'`
       * :ref:`syntax-error,-unexpected-token-":",-expecting-"]"`
 
 
@@ -1747,6 +1758,8 @@ Features index
       * :ref:`\'-%s\'-is-an-invalid-class-name`
       * :ref:`accessing-static-property-%s::\$%s-as-non-static`
       * :ref:`cannot-access-static::-when-no-class-scope-is-active`
+      * :ref:`cannot-make-non-static-method-%s::%s()-static-in-class-%s`
+      * :ref:`cannot-make-static-method-%s::%s()-non-static-in-class-%s`
       * :ref:`cannot-use-"%s"-when-no-class-scope-is-active`
       * :ref:`cannot-use-"static"-when-no-class-scope-is-active`
       * :ref:`cannot-use-\'static\'-as-constant-modifier`

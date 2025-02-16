@@ -140,6 +140,8 @@ PHP Error Messages
    messages/cannot-instantiate-trait-%s.rst
    messages/cannot-load-module-"%s"-because-required-module-"%s"-is-not-loaded.rst
    messages/cannot-make-non-abstract-method-%s::%s()-abstract-in-class-%s.rst
+   messages/cannot-make-non-static-method-%s::%s()-static-in-class-%s.rst
+   messages/cannot-make-static-method-%s::%s()-non-static-in-class-%s.rst
    messages/cannot-mix-keyed-and-unkeyed-array-entries-in-assignments.rst
    messages/cannot-modify-readonly-property-%s::$%s.rst
    messages/cannot-override-final-%s::%s()-with-%s::%s().rst
