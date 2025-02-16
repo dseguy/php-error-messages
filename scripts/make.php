@@ -64,6 +64,7 @@ $behaviors[] = "";
 $files = glob('errors/*.ini');
 $files = array_diff($files, ['errors/skeleton.ini']);
 //$files = array_slice($files, 0, 10);
+//$files = ['errors/namespace--%s-is-ok.ini',];
 
 $stats = array('author' => 0,
 				);
@@ -82,6 +83,12 @@ $links = 0;
 $warnings = 0;
 foreach($files as $file) {
     $raw = file_get_contents($file);
+    
+    if (str_contains($raw, '```')) {
+		buildlog("Warning : $file contains triple `.");
+		++$warnings;
+    }
+
 	$error = parse_ini_file($file, INI_SCANNER_RAW);
 	
 	if (isset($errors[$file])) {
