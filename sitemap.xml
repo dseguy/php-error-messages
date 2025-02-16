@@ -82,7 +82,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s-virtual-property-%25s%3A%3A%24%25s-must-not-specify-asymmetric-visibility.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s%3A%3A%25s%28%29-has-%23%5B%5Coverride%5D-attribute%2C-but-no-matching-parent-method-exists.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s%3A%3A%25s%28%29-has-%23%5B-override%5D-attribute%2C-but-no-matching-parent-method-exists.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s%3A%3A%25s%28%29%3A-return-type-must-be-%25s-when-declared.html</loc>
@@ -784,7 +784,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/handling-uuencode-via-mbstring-is-deprecated%3B-use-convert_uuencode-convert_uudecode-instead.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/has-%23%5B%5Coverride%5D-attribute%2C-but-no-matching-parent-method-exists.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/has-%23%5B-override%5D-attribute%2C-but-no-matching-parent-method-exists.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/hooked-properties-cannot-be-readonly.html</loc>
@@ -1015,7 +1015,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/object-of-type-%25s-is-not-callable.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/octal-escape-sequence-overflow-%25s-is-greater-than-%5C%5C377.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/octal-escape-sequence-overflow-%25s-is-greater-than--377.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/only-hooked-properties-may-be-declared-abstract.html</loc>
@@ -1045,7 +1045,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/parameter-%25d-must-be-passed-by-reference.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/parameter-uses-%27parent%27-as-type-hint-although-class-does-not-have-a-parent%5C%21.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/parameter-uses-%27parent%27-as-type-hint-although-class-does-not-have-a-parent%21.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/passing-false-or-null-is-deprecated-since-8.4.html</loc>

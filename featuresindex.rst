@@ -103,6 +103,7 @@ Features index
 
    * append
 
+      * :ref:`cannot-add-element-to-the-array-as-the-next-element-is-already-occupied`
       * :ref:`cannot-use-[]-for-reading`
 
 
@@ -153,11 +154,6 @@ Features index
       * :ref:`undefined-offset`
 
 
-   * array-append
-
-      * :ref:`cannot-add-element-to-the-array-as-the-next-element-is-already-occupied`
-
-
    * array-syntax
 
       * :ref:`cannot-use-string-offset-as-an-array`
@@ -203,7 +199,7 @@ Features index
 
    * ascii
 
-      * :ref:`octal-escape-sequence-overflow-%s-is-greater-than-\\377`
+      * :ref:`octal-escape-sequence-overflow-%s-is-greater-than--377`
 
 
    * assertion
@@ -233,9 +229,9 @@ Features index
 
    * attribute
 
-      * :ref:`%s::%s()-has-#[\override]-attribute,-but-no-matching-parent-method-exists`
+      * :ref:`%s::%s()-has-#[-override]-attribute,-but-no-matching-parent-method-exists`
       * :ref:`attribute-"%s"-cannot-target-%s-(allowed-targets:-%s)`
-      * :ref:`has-#[\override]-attribute,-but-no-matching-parent-method-exists`
+      * :ref:`has-#[-override]-attribute,-but-no-matching-parent-method-exists`
       * :ref:`syntax-error,-unexpected-token-"#[",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-token-"class",-expecting-"]"`
 
@@ -740,7 +736,7 @@ Features index
 
       * :ref:`invalid-utf-8-codepoint-escape`
       * :ref:`invalid-utf-8-codepoint-escape:-codepoint-too-large`
-      * :ref:`octal-escape-sequence-overflow-%s-is-greater-than-\\377`
+      * :ref:`octal-escape-sequence-overflow-%s-is-greater-than--377`
 
 
    * exception
@@ -1340,7 +1336,7 @@ Features index
 
    * octal
 
-      * :ref:`octal-escape-sequence-overflow-%s-is-greater-than-\\377`
+      * :ref:`octal-escape-sequence-overflow-%s-is-greater-than--377`
 
 
    * octal-integer
@@ -1375,7 +1371,7 @@ Features index
 
    * override
 
-      * :ref:`%s::%s()-has-#[\override]-attribute,-but-no-matching-parent-method-exists`
+      * :ref:`%s::%s()-has-#[-override]-attribute,-but-no-matching-parent-method-exists`
 
 
    * overwrite
@@ -1401,7 +1397,7 @@ Features index
       * :ref:`func_num_args()-must-be-called-from-a-function-context`
       * :ref:`named-parameter-\$%s-overwrites-previous-argument`
       * :ref:`optional-parameter-\$%s-declared-before-required-parameter-\$%s-is-implicitly-treated-as-a-required-parameter`
-      * :ref:`parameter-uses-\'parent\'-as-type-hint-although-class-does-not-have-a-parent\!`
+      * :ref:`parameter-uses-\'parent\'-as-type-hint-although-class-does-not-have-a-parent!`
       * :ref:`redefinition-of-parameter-\$%s`
       * :ref:`required-parameter-\$%s-follows-optional-parameter-\$%s`
       * :ref:`syntax-error,-unexpected-token-"=",-expecting-variable`
@@ -1419,7 +1415,7 @@ Features index
       * :ref:`cannot-access-parent::-when-no-class-scope-is-active`
       * :ref:`cannot-use-"%s"-when-no-class-scope-is-active`
       * :ref:`object-of-type-%s-has-not-been-correctly-initialized-by-calling-parent::__construct()-in-its-constructor`
-      * :ref:`parameter-uses-\'parent\'-as-type-hint-although-class-does-not-have-a-parent\!`
+      * :ref:`parameter-uses-\'parent\'-as-type-hint-although-class-does-not-have-a-parent!`
 
 
    * parenthesis
@@ -1681,15 +1677,11 @@ Features index
       * :ref:`cannot-use-"%s"-when-no-class-scope-is-active`
 
 
-   * semi-colon
-
-      * :ref:`syntax-error,-unexpected-token-",",-expecting-"]"`
-      * :ref:`syntax-error,-unexpected-token-";",-expecting-")"`
-
-
    * semicolon
 
       * :ref:`syntax-error,-unexpected-end-of-file`
+      * :ref:`syntax-error,-unexpected-token-",",-expecting-"]"`
+      * :ref:`syntax-error,-unexpected-token-";",-expecting-")"`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-"]"`
 
 

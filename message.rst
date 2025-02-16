@@ -32,7 +32,7 @@ PHP Error Messages
    messages/%s-cannot-use-%s---it-is-not-a-trait.rst
    messages/%s-function-%s::%s()-cannot-be-declared-private.rst
    messages/%s-virtual-property-%s::$%s-must-not-specify-asymmetric-visibility.rst
-   messages/%s::%s()-has-#[\override]-attribute,-but-no-matching-parent-method-exists.rst
+   messages/%s::%s()-has-#[-override]-attribute,-but-no-matching-parent-method-exists.rst
    messages/%s::%s():-return-type-must-be-%s-when-declared.rst
    messages/%s::%s-cannot-override-final-constant-%s::%s.rst
    messages/%s::__sleep()-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize.rst
@@ -266,7 +266,7 @@ PHP Error Messages
    messages/handling-html-entities-via-mbstring-is-deprecated;-use-htmlspecialchars,-htmlentities,-or-mb_encode_numericentity-mb_decode_numericentity.rst
    messages/handling-qprint-via-mbstring-is-deprecated;-use-quoted_printable_encode-quoted_printable_decode.rst
    messages/handling-uuencode-via-mbstring-is-deprecated;-use-convert_uuencode-convert_uudecode-instead.rst
-   messages/has-#[\override]-attribute,-but-no-matching-parent-method-exists.rst
+   messages/has-#[-override]-attribute,-but-no-matching-parent-method-exists.rst
    messages/hooked-properties-cannot-be-readonly.rst
    messages/illegal-class-name.rst
    messages/illegal-offset-type-in-isset-or-empty.rst
@@ -343,7 +343,7 @@ PHP Error Messages
    messages/object-of-class-%s-could-not-be-converted-to-string.rst
    messages/object-of-type-%s-has-not-been-correctly-initialized-by-calling-parent::__construct()-in-its-constructor.rst
    messages/object-of-type-%s-is-not-callable.rst
-   messages/octal-escape-sequence-overflow-%s-is-greater-than-\\377.rst
+   messages/octal-escape-sequence-overflow-%s-is-greater-than--377.rst
    messages/only-hooked-properties-may-be-declared-abstract.rst
    messages/only-internal-classes-can-be-registered-as-compiler-attribute.rst
    messages/only-the-first-byte-will-be-assigned-to-the-string-offset.rst
@@ -353,7 +353,7 @@ PHP Error Messages
    messages/only-variables-should-be-passed-by-reference.rst
    messages/optional-parameter-$%s-declared-before-required-parameter-$%s-is-implicitly-treated-as-a-required-parameter.rst
    messages/parameter-%d-must-be-passed-by-reference.rst
-   messages/parameter-uses-'parent'-as-type-hint-although-class-does-not-have-a-parent\!.rst
+   messages/parameter-uses-'parent'-as-type-hint-although-class-does-not-have-a-parent!.rst
    messages/passing-false-or-null-is-deprecated-since-8.4.rst
    messages/passing-the-encoding-as-third-parameter-is-deprecated.-use-an-explicit-zero-offset.rst
    messages/path-cannot-be-empty.rst
