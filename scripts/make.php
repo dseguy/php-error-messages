@@ -106,6 +106,12 @@ foreach($files as $file) {
 		continue;
 	}
 	
+	if ($error->id !== basename($file, '.ini')) {
+		buildlog("Asynch id and file name $error->id <=> ".basename($file, '.ini')."\n");
+		++$warnings;
+	}
+	$error->id = trim($error->id, '_`');
+	
 	if (isset($errors[$error->id])) {
 		die("Duplicate id in $file");
 	}
@@ -203,6 +209,7 @@ foreach($files as $file) {
 		}
 		foreach(array_filter($error->features) as $feature) {
 			$target = str_replace(array('errors/', '.ini'), '', $file);
+			$target = trim($target, '_`');
 			$target = addcslashes($target, '`\'$');
 			
 			if (!file_exists("../analyzeG3/human/en/Features/$feature.ini")) {
@@ -448,7 +455,7 @@ foreach($errors as $file => $message) {
     $entry[] = ".. _".addcslashes($message->id, '$').":";
 	$entry[] = '';
 	
-	$entry[] = $message->error;
+	$entry[] = trim($message->error, '`');
 	$entry[] = str_repeat('-', strlen($message->error));
 	$entry[] = ' ';
 
@@ -552,7 +559,7 @@ foreach($errors as $file => $message) {
 		$entry[] = '';
 		
 		foreach($message->related as $related) {
-			$entry[] = '+ `'.$related.'`_';
+			$entry[] = '+ `'.trim($related, '_`').'`_';
 		}
 		$entry[] = '';
 	}
@@ -563,7 +570,7 @@ foreach($errors as $file => $message) {
 		$entry[] = '';
 		
 		foreach($message->related as $target) {
-			$entry[] = '+ :ref:`'.$target.'`';
+			$entry[] = '+ :ref:`'.trim($target, '_`').'`';
 		}
 		$entry[] = '';
 	}
@@ -581,13 +588,13 @@ foreach($errors as $file => $message) {
 
 	if (!empty($message->previous) && $message->previous !== 'no-previous-error') {
 		$entry[] = '';
-		$entry[] = "In previous PHP versions, this error message used to be :ref:`".$message->previous."`.";
+		$entry[] = "In previous PHP versions, this error message used to be :ref:`".trim($message->previous, '_`')."`.";
 		$entry[] = '';
 	}
 
 	if (!empty($message->next) && $message->next !== 'no-next-error') {
 		$entry[] = '';
-		$entry[] = "In more recent PHP versions, this error message is now :ref:`".$message->next."`.";
+		$entry[] = "In more recent PHP versions, this error message is now :ref:`".trim($message->next, '_`')."`.";
 		$entry[] = '';
 	}
 
@@ -697,6 +704,7 @@ function check(stdClass $tip, string $file) : string {
 
 function make_anchor(string $title) : string {
 	$title = '`'.strtr(strtolower($title), ' ', '-').'`';
+	$title = trim($title, '_`');
 	$title = addslashes($title, '$');
 	return $title;
 }
