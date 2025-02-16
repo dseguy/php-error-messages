@@ -58,4 +58,4 @@ ______________________
 + :ref:`%s"-returned-as-member-variable-from-__sleep()-but-does-not-exist`
 
 
-In previous PHP versions, this error message used to be :ref:`__sleep-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize.`.
+In previous PHP versions, this error message used to be :ref:`sleep-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize.`.

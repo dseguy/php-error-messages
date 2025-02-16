@@ -50,4 +50,4 @@ _________
 Related Error Messages
 ______________________
 
-+ :ref:`__clone-method-called-on-non-object`
++ :ref:`clone-method-called-on-non-object`

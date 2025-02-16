@@ -11,15 +11,15 @@ Welcome to PHP error messages database!
    :caption: Contents:
 
    message
+   syntaxerror
+   tagsindex
+   featuresindex
 
 
 
 Indices and tables
 ==================
 
-* :ref:`tagsindex`
-* :ref:`featuresindex`
-* :ref:`syntaxerror`
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`

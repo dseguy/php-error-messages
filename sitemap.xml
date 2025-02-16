@@ -115,19 +115,19 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%27namespace%5C%25s%27-is-an-invalid-class-name.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/__autoload%28%29-is-deprecated%2C-use-spl_autoload_register%28%29-instead.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/autoload%28%29-is-deprecated%2C-use-spl_autoload_register%28%29-instead.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/__autoload%28%29-is-no-longer-supported%2C-use-spl_autoload_register%28%29-instead.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/autoload%28%29-is-no-longer-supported%2C-use-spl_autoload_register%28%29-instead.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/__clone-method-called-on-non-object.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/clone-method-called-on-non-object.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/__sleep-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize..html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/sleep-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize..html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/%60%25s%27-is-not-a-valid-mode-for-fopen.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s%27-is-not-a-valid-mode-for-fopen.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/a-class-constant-must-not-be-called-class.-it-is-reserved-for-class-name-fetching.html</loc>
@@ -655,7 +655,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/creation-of-dynamic-property-%25s%3A%3A%24%25s-is-deprecated.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/datetimeinterface-can%5C%27t-be-implemented-by-user-classes.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/datetimeinterface-can%27t-be-implemented-by-user-classes.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/declaration-of-%25s-must-be-compatible-with-%25s.html</loc>

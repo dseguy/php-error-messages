@@ -43,11 +43,11 @@ PHP Error Messages
    messages/'goto'-into-loop-or-switch-statement-is-disallowed.rst
    messages/'goto'-to-undefined-label-'%s'.rst
    messages/'namespace\%s'-is-an-invalid-class-name.rst
-   messages/__autoload()-is-deprecated,-use-spl_autoload_register()-instead.rst
-   messages/__autoload()-is-no-longer-supported,-use-spl_autoload_register()-instead.rst
-   messages/__clone-method-called-on-non-object.rst
-   messages/__sleep-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize..rst
-   messages/`%s'-is-not-a-valid-mode-for-fopen.rst
+   messages/autoload()-is-deprecated,-use-spl_autoload_register()-instead.rst
+   messages/autoload()-is-no-longer-supported,-use-spl_autoload_register()-instead.rst
+   messages/clone-method-called-on-non-object.rst
+   messages/sleep-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize..rst
+   messages/%s'-is-not-a-valid-mode-for-fopen.rst
    messages/a-class-constant-must-not-be-called-class.-it-is-reserved-for-class-name-fetching.rst
    messages/a-function-with-return-type-must-return-a-value.rst
    messages/a-never-returning-%s-must-not-return.rst
@@ -223,7 +223,7 @@ PHP Error Messages
    messages/couldn't-open-stream:-%s.rst
    messages/creating-default-object-from-empty-value.rst
    messages/creation-of-dynamic-property-%s::$%s-is-deprecated.rst
-   messages/datetimeinterface-can\'t-be-implemented-by-user-classes.rst
+   messages/datetimeinterface-can't-be-implemented-by-user-classes.rst
    messages/declaration-of-%s-must-be-compatible-with-%s.rst
    messages/declaration-of-%s::%s()-must-be-compatible-with-%s::%s().rst
    messages/declaration-of-case-insensitive-constants-is-no-longer-supported.rst

@@ -36,7 +36,7 @@ Features index
 
       * :ref:`%s"-returned-as-member-variable-from-__sleep()-but-does-not-exist`
       * :ref:`%s::__sleep()-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize`
-      * :ref:`__sleep-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize.`
+      * :ref:`sleep-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize.`
 
 
    * __toString
@@ -112,7 +112,7 @@ Features index
       * :ref:`%s()-expects-exactly-0-arguments,-%d-given`
       * :ref:`%s():-argument-#%d%s%s%s-cannot-not-be-passed-by-reference`
       * :ref:`%s():-argument-#%d%s%s%s-could-not-be-passed-by-reference`
-      * :ref:`\`%s\'-is-not-a-valid-mode-for-fopen`
+      * :ref:`%s\'-is-not-a-valid-mode-for-fopen`
       * :ref:`argument-#%d-(\$%s)-must-be-of-type-%s,-%s-given`
       * :ref:`calling-get_parent_class()-without-arguments-is-deprecated`
       * :ref:`func_get_arg()-cannot-be-called-from-the-global-scope`
@@ -242,8 +242,8 @@ Features index
 
    * autoload
 
-      * :ref:`__autoload()-is-deprecated,-use-spl_autoload_register()-instead`
-      * :ref:`__autoload()-is-no-longer-supported,-use-spl_autoload_register()-instead`
+      * :ref:`autoload()-is-deprecated,-use-spl_autoload_register()-instead`
+      * :ref:`autoload()-is-no-longer-supported,-use-spl_autoload_register()-instead`
 
 
    * automagic
@@ -453,7 +453,7 @@ Features index
 
    * clone
 
-      * :ref:`__clone-method-called-on-non-object`
+      * :ref:`clone-method-called-on-non-object`
 
 
    * closure
@@ -996,7 +996,7 @@ Features index
 
    * instanceof
 
-      * :ref:`__clone-method-called-on-non-object`
+      * :ref:`clone-method-called-on-non-object`
       * :ref:`instanceof-expects-an-object-instance,-constant-given`
 
 
@@ -1023,7 +1023,7 @@ Features index
       * :ref:`cannot-instantiate-interface-%s`
       * :ref:`class-%s-cannot-implement-previously-implemented-interface-%s`
       * :ref:`class-%s-must-implement-interface-%s-as-part-of-either-%s-or-%s`
-      * :ref:`datetimeinterface-can\\'t-be-implemented-by-user-classes`
+      * :ref:`datetimeinterface-can\'t-be-implemented-by-user-classes`
       * :ref:`interface-"%s"-not-found`
       * :ref:`interface-%s-cannot-contain-non-abstract-method-%s()`
       * :ref:`interfaces-may-not-include-properties`
@@ -1045,7 +1045,7 @@ Features index
 
    * is_object
 
-      * :ref:`__clone-method-called-on-non-object`
+      * :ref:`clone-method-called-on-non-object`
 
 
    * isset
@@ -1737,7 +1737,7 @@ Features index
 
    * spl
 
-      * :ref:`__autoload()-is-no-longer-supported,-use-spl_autoload_register()-instead`
+      * :ref:`autoload()-is-no-longer-supported,-use-spl_autoload_register()-instead`
       * :ref:`is-an-invalid-offset`
 
 

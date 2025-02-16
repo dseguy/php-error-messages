@@ -1,27 +1,27 @@
 .. _must-be-a-valid-rounding-mode-(roundingmode::*):
 
-must be a valid rounding mode (RoundingMode::*)
------------------------------------------------
+must be a valid rounding mode (RoundingMode::\*)
+------------------------------------------------
  
 .. meta::
 	:description:
-		must be a valid rounding mode (RoundingMode::*): PHP has 4 rounding modes, to be used with the round() native function.
+		must be a valid rounding mode (RoundingMode::\*): PHP has 4 rounding modes, to be used with the round() native function.
 	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
-	:og:title: must be a valid rounding mode (RoundingMode::*)
+	:og:title: must be a valid rounding mode (RoundingMode::\*)
 	:og:description: PHP has 4 rounding modes, to be used with the round() native function
 	:og:url: https://php-errors.readthedocs.io/en/latest/messages/must-be-a-valid-rounding-mode-%28roundingmode%3A%3A%2A%29.html
 	:og:locale: en
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: must be a valid rounding mode (RoundingMode::*)
-	:twitter:description: must be a valid rounding mode (RoundingMode::*): PHP has 4 rounding modes, to be used with the round() native function
+	:twitter:title: must be a valid rounding mode (RoundingMode::\*)
+	:twitter:description: must be a valid rounding mode (RoundingMode::\*): PHP has 4 rounding modes, to be used with the round() native function
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/must-be-a-valid-rounding-mode-(roundingmode::*).html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/must-be-a-valid-rounding-mode-(roundingmode::*).html","name":"must be a valid rounding mode (RoundingMode::*)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 17:45:02 +0000","dateModified":"Sun, 16 Feb 2025 17:45:02 +0000","description":"PHP has 4 rounding modes, to be used with the round() native function","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/must-be-a-valid-rounding-mode-(roundingmode::*).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/must-be-a-valid-rounding-mode-(roundingmode::*).html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/must-be-a-valid-rounding-mode-(roundingmode::*).html","name":"must be a valid rounding mode (RoundingMode::\\*)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 19:09:30 +0000","dateModified":"Sun, 16 Feb 2025 19:09:30 +0000","description":"PHP has 4 rounding modes, to be used with the round() native function","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/must-be-a-valid-rounding-mode-(roundingmode::*).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
