@@ -21,7 +21,7 @@ Call to undefined function exit()
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/call-to-undefined-function-exit().html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/call-to-undefined-function-exit().html","name":"Call to undefined function exit()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 20 Jan 2025 17:08:08 +0000","dateModified":"Mon, 20 Jan 2025 17:08:08 +0000","description":"exit and die used to be language constructures, until PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/call-to-undefined-function-exit().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/call-to-undefined-function-exit().html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/call-to-undefined-function-exit().html","name":"Call to undefined function exit()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"exit and die used to be language constructures, until PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/call-to-undefined-function-exit().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -29,7 +29,6 @@ ___________
 exit and die used to be language constructures, until PHP 8.4. Then, they could not be used in a dynamic function call, such as shown here. Indeed, language constructs are not accessible with that syntax.
 
 Since PHP 8.4, ``die`` and ``exit`` are defined as functions, and shall be used with the dynamic call feature.
-
 
 Example
 _______

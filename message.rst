@@ -9,7 +9,6 @@ PHP Error Messages
    messages/$globals-can-only-be-modified-using-the-$globals[$name]-=-$value-syntax.rst
    messages/%d-arguments-are-required,-%d.rst
    messages/%s"-returned-as-member-variable-from-__sleep()-but-does-not-exist.rst
-   messages/%s"-will-be-interpreted-as-a-class-name.-did-you-mean-"%s"?-write-"\%s"%s-to-suppress-this-warning.rst
    messages/%s%s%s()-does-not-accept-unknown-named-parameters.rst
    messages/%s%s%s():-argument-#%d%s%s%s-must-be-passed-by-reference,-value-given.rst
    messages/%s%s%s():-return-value-must-be-of-type-%s,-%s-returned.rst
@@ -100,8 +99,7 @@ PHP Error Messages
    messages/calling-get_class()-without-arguments-is-deprecated.rst
    messages/calling-get_parent_class()-without-arguments-is-deprecated.rst
    messages/calling-static-trait-method-%s::%s-is-deprecated.rst
-   messages/can\'t-inherit-abstract-function-%s::%s()-(previously-declared-abstract-in-%s).rst
-   messages/can\'t-use-nullsafe-operator-in-write-context.rst
+   messages/can't-use-nullsafe-operator-in-write-context.rst
    messages/can-only-flip-string-and-integer-values,-entry-skipped.rst
    messages/can-only-throw-objects.rst
    messages/cannot-%s-readonly-property-%s::$%s-from-%s%s.rst
@@ -116,7 +114,6 @@ PHP Error Messages
    messages/cannot-access-static::-when-no-class-scope-is-active.rst
    messages/cannot-access-trait-constant-%s::%s-directly.rst
    messages/cannot-acquire-reference-to-$globals.rst
-   messages/cannot-acquire-reference-to-readonly-property.rst
    messages/cannot-acquire-reference-to-readonly-property-%s::$%s.rst
    messages/cannot-add-element-to-the-array-as-the-next-element-is-already-occupied.rst
    messages/cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s.rst
@@ -139,7 +136,6 @@ PHP Error Messages
    messages/cannot-instantiate-enum-%s.rst
    messages/cannot-instantiate-interface-%s.rst
    messages/cannot-instantiate-trait-%s.rst
-   messages/cannot-load-module-"%s"-because-required-module-"%s"-is-not-loaded.rst
    messages/cannot-make-non-abstract-method-%s::%s()-abstract-in-class-%s.rst
    messages/cannot-mix-keyed-and-unkeyed-array-entries-in-assignments.rst
    messages/cannot-modify-readonly-property-%s::$%s.rst
@@ -224,7 +220,7 @@ PHP Error Messages
    messages/couldn't-open-stream:-%s.rst
    messages/creating-default-object-from-empty-value.rst
    messages/creation-of-dynamic-property-%s::$%s-is-deprecated.rst
-   messages/datetimeinterface-can\\'t-be-implemented-by-user-classes.rst
+   messages/datetimeinterface-can\'t-be-implemented-by-user-classes.rst
    messages/declaration-of-%s-must-be-compatible-with-%s.rst
    messages/declaration-of-%s::%s()-must-be-compatible-with-%s::%s().rst
    messages/declaration-of-case-insensitive-constants-is-no-longer-supported.rst
@@ -312,7 +308,7 @@ PHP Error Messages
    messages/must-be-a-valid-comparison-operator.rst
    messages/must-be-a-valid-encoding,-"%s"-given.rst
    messages/must-be-a-valid-method-name.rst
-   messages/must-be-a-valid-rounding-mode-(roundingmode\:\:*).rst
+   messages/must-be-a-valid-rounding-mode-(roundingmode::*).rst
    messages/must-be-contained-in-argument-#1-($haystack).rst
    messages/must-be-of-type-%s,-%s-given.rst
    messages/must-be-one-of-pgsql_assoc,-pgsql_num,-or-pgsql_both.rst
@@ -344,7 +340,6 @@ PHP Error Messages
    messages/object-of-class-%s-could-not-be-converted-to-string.rst
    messages/object-of-type-%s-has-not-been-correctly-initialized-by-calling-parent::__construct()-in-its-constructor.rst
    messages/object-of-type-%s-is-not-callable.rst
-   messages/octal-escape-sequence-overflow-\%s-is-greater-than-\377.rst
    messages/only-hooked-properties-may-be-declared-abstract.rst
    messages/only-internal-classes-can-be-registered-as-compiler-attribute.rst
    messages/only-the-first-byte-will-be-assigned-to-the-string-offset.rst
@@ -376,7 +371,7 @@ PHP Error Messages
    messages/readonly-property-%s::$%s-cannot-have-default-value.rst
    messages/redefinition-of-parameter-$%s.rst
    messages/required-parameter-$%s-follows-optional-parameter-$%s.rst
-   messages/required-trait-%s-wasn\'t-added-to-%s.rst
+   messages/required-trait-%s-wasn't-added-to-%s.rst
    messages/return-type-of-%s::%s()-should-either-be-compatible-with-%s::%s():-mixed.rst
    messages/return-value-of-%s%s%s()-must-%s%s%s,-%s%s-returned.rst
    messages/returning-bool-from-comparison-function-is-deprecated,-return-an-integer-less-than,-equal-to,-or-greater-than-zero.rst
@@ -394,14 +389,13 @@ PHP Error Messages
    messages/syntax-error,-unexpected-')',-expecting-variable-(t_variable).rst
    messages/syntax-error,-unexpected-','.rst
    messages/syntax-error,-unexpected-'-',-expecting-'='.rst
-   messages/syntax-error,-unexpected-\'::\',-expecting-\'(\'.rst
+   messages/syntax-error,-unexpected-'::',-expecting-'('.rst
    messages/syntax-error,-unexpected-'::'-(t_paamayim_nekudotayim),-expecting-';'-or-','.rst
    messages/syntax-error,-unexpected-';',-expecting-'['.rst
    messages/syntax-error,-unexpected-'[',-expecting-';'-or-','.rst
    messages/syntax-error,-unexpected-'|',-expecting-variable-(t_variable).rst
    messages/syntax-error,-unexpected-end-of-file.rst
-   messages/syntax-error,-unexpected-fully-qualified-name-"%d",-expecting-"{".rst
-   messages/syntax-error,-unexpected-fully-qualified-name-"\xxx",-expecting-"{".rst
+   messages/syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"{".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-"{".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-variable.rst
@@ -475,7 +469,6 @@ PHP Error Messages
    messages/the-(real)-cast-is-deprecated,-use-(float)-instead.rst
    messages/the-(unset)-cast-is-deprecated.rst
    messages/the-(unset)-cast-is-no-longer-supported.rst
-   messages/the-"generator"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated.rst
    messages/the-behavior-of-unparenthesized-expressions-containing-both-'.'-and-'+'-'-'-will-change-in-php-8:-'+'-'-'-will-take-a-higher-precedence.rst
    messages/the-behavior-of-unparenthesized-expressions-containing-both-'.'-and-'>>'-'<<'-will-change-in-php-8:-'<<'-'>>'-will-take-a-higher-precedence.rst
    messages/the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls.rst
@@ -498,19 +491,19 @@ PHP Error Messages
    messages/type-must-be-a-single-character.rst
    messages/type-of-%s::$%s-must-be-%s%s-(as-in-class-%s).rst
    messages/type-of-%s::$%s-must-not-be-defined-(as-in-class-%s).rst
-   messages/typed-property-%s\:\:$%s-must-not-be-accessed-before-initialization.rst
+   messages/typed-property-%s::$%s-must-not-be-accessed-before-initialization.rst
    messages/typed-static-property-%s::$%s-must-not-be-accessed-before-initialization.rst
    messages/unbacked-enum-%s-cannot-be-converted-to-a-string.rst
-   messages/unclosed-\'(\'-does-not-match-\']\'.rst
+   messages/unclosed-'('-does-not-match-']'.rst
    messages/unclosed-'('.rst
    messages/unclosed-'['.rst
    messages/unclosed-'{'.rst
    messages/undefined-array-key.rst
-   messages/undefined-class-constant-'%s\:\:%s'.rst
+   messages/undefined-class-constant-'%s::%s'.rst
    messages/undefined-constant-"%s.rst
    messages/undefined-constant-%s::%s.rst
    messages/undefined-offset.rst
-   messages/undefined-property-%s\:\:$%s.rst
+   messages/undefined-property-%s::$%s.rst
    messages/undefined-variable.rst
    messages/unhandled-match-case-%s.rst
    messages/uninitialized-string-offset.rst
@@ -522,7 +515,7 @@ PHP Error Messages
    messages/unmatched-']'.rst
    messages/unmatched-'}'.rst
    messages/unparenthesized-`a-?-b-:-c-?-d-:-e`-is-not-supported..rst
-   messages/unsupported-declare-\'%s\'.rst
+   messages/unsupported-declare-'%s'.rst
    messages/unsupported-operand-types.rst
    messages/unterminated-comment-starting-line-%d.rst
    messages/use-of-"parent"-in-callables-is-deprecated.rst

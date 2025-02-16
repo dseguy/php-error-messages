@@ -21,7 +21,7 @@ No ending delimiter '%c' found
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/no-ending-delimiter-'%c'-found.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/no-ending-delimiter-'%c'-found.html","name":"No ending delimiter '%c' found","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 12 Jan 2025 09:21:36 +0000","dateModified":"Sun, 12 Jan 2025 09:21:36 +0000","description":"This error is a regex related error, not a PHP one","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-ending-delimiter-'%c'-found.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/no-ending-delimiter-'%c'-found.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/no-ending-delimiter-'%c'-found.html","name":"No ending delimiter '%c' found","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"This error is a regex related error, not a PHP one","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-ending-delimiter-'%c'-found.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -29,7 +29,6 @@ ___________
 This error is a regex related error, not a PHP one. The regular expression is the first argument of the call. It is invalid, as regex are supposed to start and end with the same non-alphanumeric character. 
 
 Then, PHP stops the process, and returns false. In this case, false may be confused with a failure to find the pattern in the string, and yield unexpected results.
-
 
 Example
 _______
@@ -62,4 +61,4 @@ ______________________
 See Also
 ________
 
-+ `PCRE Patterns <https://www.php.net/manual/en/pcre.pattern.php>`_
++ `PCREPatterns <https://www.php.net/manual/en/pcre.pattern.php>`_

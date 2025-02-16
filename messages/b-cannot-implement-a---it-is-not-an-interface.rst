@@ -21,7 +21,7 @@ b cannot implement a - it is not an interface
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/b-cannot-implement-a---it-is-not-an-interface.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/b-cannot-implement-a---it-is-not-an-interface.html","name":"b cannot implement a - it is not an interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 27 Dec 2024 17:07:45 +0000","dateModified":"Fri, 27 Dec 2024 17:07:45 +0000","description":"implements is a keyword that only applies to interfaces","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/b-cannot-implement-a---it-is-not-an-interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/b-cannot-implement-a---it-is-not-an-interface.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/b-cannot-implement-a---it-is-not-an-interface.html","name":"b cannot implement a - it is not an interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"implements is a keyword that only applies to interfaces","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/b-cannot-implement-a---it-is-not-an-interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -29,7 +29,6 @@ ___________
 implements is a keyword that only applies to interfaces. Classes, traits and enum are all triggering this message.
 
 The error message also applies with the extends keyword, when building an inteface.
-
 
 Example
 _______

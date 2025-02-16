@@ -21,7 +21,7 @@ Invalid UTF-8 codepoint escape: Codepoint too large
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/invalid-utf-8-codepoint-escape:-codepoint-too-large.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/invalid-utf-8-codepoint-escape:-codepoint-too-large.html","name":"Invalid UTF-8 codepoint escape: Codepoint too large","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 03 Jan 2025 21:23:30 +0000","dateModified":"Fri, 03 Jan 2025 21:23:30 +0000","description":"PHP supports unicode as escape sequence","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/invalid-utf-8-codepoint-escape:-codepoint-too-large.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/invalid-utf-8-codepoint-escape:-codepoint-too-large.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/invalid-utf-8-codepoint-escape:-codepoint-too-large.html","name":"Invalid UTF-8 codepoint escape: Codepoint too large","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"PHP supports unicode as escape sequence","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/invalid-utf-8-codepoint-escape:-codepoint-too-large.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -29,7 +29,6 @@ ___________
 PHP supports unicode as escape sequence. They are used in double-quoted strings, and use the ``\u{73}`` format. The digits must represent a valid unicode codepoint: here, 73 represents the ASCII letter ``s``.
 
 When a valid escape sequence is detected, PHP use the integer between the curly braces. Unicode comprises 1,114,112 code points in the range 0 to 10FFFF. Beyond that value, codepoint are undefined, and do not represent anything anymore.
-
 
 Example
 _______
@@ -53,4 +52,4 @@ ______________________
 See Also
 ________
 
-+ `Double quoted <https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.double>`_
++ `Doublequoted <https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.double>`_

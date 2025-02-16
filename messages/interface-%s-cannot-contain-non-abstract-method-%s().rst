@@ -21,7 +21,7 @@ Interface %s cannot contain non abstract method %s()
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/interface-%s-cannot-contain-non-abstract-method-%s().html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/interface-%s-cannot-contain-non-abstract-method-%s().html","name":"Interface %s cannot contain non abstract method %s()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Jan 2025 17:24:43 +0000","dateModified":"Wed, 01 Jan 2025 17:24:43 +0000","description":"In an interface, there can only be methods signature, and no method body","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/interface-%s-cannot-contain-non-abstract-method-%s().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/interface-%s-cannot-contain-non-abstract-method-%s().html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/interface-%s-cannot-contain-non-abstract-method-%s().html","name":"Interface %s cannot contain non abstract method %s()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"In an interface, there can only be methods signature, and no method body","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/interface-%s-cannot-contain-non-abstract-method-%s().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -33,7 +33,6 @@ Methods in an interface are considered abstract by default. There is no need to 
 Hence, in an interface, there are only abstract methods: methods without a body. The abstract keyword is implicit in an interface; When the interface is partially implemented by a class, the remaining methods must be declared abstract in that class. 
 
 If some methods have to be made concrete (aka, not abstract), it is possible to create an abstract class, with a mix of abstract and concrete methods, which can then be extended by the target class.
-
 
 Example
 _______

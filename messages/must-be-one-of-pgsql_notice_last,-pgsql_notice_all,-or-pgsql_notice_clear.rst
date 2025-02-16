@@ -21,7 +21,7 @@ must be one of PGSQL_NOTICE_LAST, PGSQL_NOTICE_ALL, or PGSQL_NOTICE_CLEAR
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/must-be-one-of-pgsql_notice_last,-pgsql_notice_all,-or-pgsql_notice_clear.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/must-be-one-of-pgsql_notice_last,-pgsql_notice_all,-or-pgsql_notice_clear.html","name":"must be one of PGSQL_NOTICE_LAST, PGSQL_NOTICE_ALL, or PGSQL_NOTICE_CLEAR","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 26 Jan 2025 17:21:10 +0000","dateModified":"Sun, 26 Jan 2025 17:21:10 +0000","description":"pg_last_notice() 2nd argument must be one of 3 possible pgsql constants: PGSQL_NOTICE_LAST, PGSQL_NOTICE_ALL, or PGSQL_NOTICE_CLEAR","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/must-be-one-of-pgsql_notice_last,-pgsql_notice_all,-or-pgsql_notice_clear.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/must-be-one-of-pgsql_notice_last,-pgsql_notice_all,-or-pgsql_notice_clear.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/must-be-one-of-pgsql_notice_last,-pgsql_notice_all,-or-pgsql_notice_clear.html","name":"must be one of PGSQL_NOTICE_LAST, PGSQL_NOTICE_ALL, or PGSQL_NOTICE_CLEAR","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"pg_last_notice() 2nd argument must be one of 3 possible pgsql constants: PGSQL_NOTICE_LAST, PGSQL_NOTICE_ALL, or PGSQL_NOTICE_CLEAR","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/must-be-one-of-pgsql_notice_last,-pgsql_notice_all,-or-pgsql_notice_clear.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -29,7 +29,6 @@ ___________
 pg_last_notice() 2nd argument must be one of 3 possible pgsql constants: PGSQL_NOTICE_LAST, PGSQL_NOTICE_ALL, or PGSQL_NOTICE_CLEAR.
 
 It is possible to use raw integers, instead of the constants, although this is not recommended.
-
 
 Example
 _______
@@ -54,4 +53,4 @@ _________
 See Also
 ________
 
-+ `Predefined Constants <https://www.php.net/manual/en/pgsql.constants.php#constant.pgsql-notice-all>`_
++ `PredefinedConstants <https://www.php.net/manual/en/pgsql.constants.php#constant.pgsql-notice-all>`_

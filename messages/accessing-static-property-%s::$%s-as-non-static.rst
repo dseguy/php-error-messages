@@ -21,7 +21,7 @@ Accessing static property %s::$%s as non static
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/accessing-static-property-%s::$%s-as-non-static.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/accessing-static-property-%s::$%s-as-non-static.html","name":"Accessing static property %s::$%s as non static","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 19 Jan 2025 09:59:34 +0000","dateModified":"Sun, 19 Jan 2025 09:59:34 +0000","description":"The ``property`` property is declared as static, and should be access with the ``::`` operator","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/accessing-static-property-%s::$%s-as-non-static.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/accessing-static-property-%s::$%s-as-non-static.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/accessing-static-property-%s::$%s-as-non-static.html","name":"Accessing static property %s::$%s as non static","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"The ``property`` property is declared as static, and should be access with the ``::`` operator","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/accessing-static-property-%s::$%s-as-non-static.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -30,8 +30,7 @@ The ``property`` property is declared as static, and should be access with the `
 
 Accessing that property with the ``->`` or ``?->`` object operators is quite safe, as there is no confusion with the name of the property, and the object holds the name of the host class.
 
-On the other hand, using the object operators does not provide accurate information about the actual property. 
-
+On the other hand, using the object operators does not provide accurate information about the actual property.
 
 Example
 _______

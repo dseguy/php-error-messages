@@ -21,12 +21,12 @@ Access type for interface method %s::%s() must be public
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/access-type-for-interface-method-%s::%s()-must-be-public.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/access-type-for-interface-method-%s::%s()-must-be-public.html","name":"Access type for interface method %s::%s() must be public","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 31 Jan 2025 10:46:19 +0000","dateModified":"Fri, 31 Jan 2025 10:46:19 +0000","description":"An method, that is defined in an interface, must appear as ``public``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/access-type-for-interface-method-%s::%s()-must-be-public.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/access-type-for-interface-method-%s::%s()-must-be-public.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/access-type-for-interface-method-%s::%s()-must-be-public.html","name":"Access type for interface method %s::%s() must be public","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"An method, that is defined in an interface, must appear as ``public``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/access-type-for-interface-method-%s::%s()-must-be-public.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
  
-An method, that is defined in an interface, must appear as ``public``. They cannot be made ``protected`` or ``private``, as they would be no accessible. 
+An method, that is defined in an interface, must appear as ``public``. They cannot be made ``protected`` or ``private``, as they would be no accessible.
 
 Example
 _______

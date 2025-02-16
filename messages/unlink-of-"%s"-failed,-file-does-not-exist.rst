@@ -10,7 +10,7 @@ unlink of "%s" failed, file does not exist
 	:og:type: article
 	:og:title: unlink of &quot;%s&quot; failed, file does not exist
 	:og:description: PHP reports failure when trying to remove a file that does not exists in a phar archive
-	:og:url: https://php-errors.readthedocs.io/en/latest/messages/unlink-of-%5C%22%25s%5C%22-failed%2C-file-does-not-exist.html
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/unlink-of-%22%25s%22-failed%2C-file-does-not-exist.html
 	:og:locale: en
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
@@ -21,7 +21,7 @@ unlink of "%s" failed, file does not exist
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/unlink-of-\"%s\"-failed,-file-does-not-exist.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/unlink-of-\"%s\"-failed,-file-does-not-exist.html","name":"unlink of \"%s\" failed, file does not exist","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 29 Jan 2025 09:47:24 +0000","dateModified":"Wed, 29 Jan 2025 09:47:24 +0000","description":"PHP reports failure when trying to remove a file that does not exists in a phar archive","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unlink-of-\"%s\"-failed,-file-does-not-exist.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/unlink-of-\"%s\"-failed,-file-does-not-exist.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/unlink-of-\"%s\"-failed,-file-does-not-exist.html","name":"unlink of \"%s\" failed, file does not exist","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 17:21:11 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"PHP reports failure when trying to remove a file that does not exists in a phar archive","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unlink-of-\"%s\"-failed,-file-does-not-exist.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________

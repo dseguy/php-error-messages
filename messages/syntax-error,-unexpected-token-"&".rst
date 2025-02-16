@@ -21,7 +21,7 @@ syntax error, unexpected token "&"
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\"&\".html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\"&\".html","name":"syntax error, unexpected token \"&\"","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jan 2025 09:38:08 +0000","dateModified":"Thu, 16 Jan 2025 09:38:08 +0000","description":"The ``&`` operator is used in two distinct situations: as the bitwise operator, between two different values","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\"&\".html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\"&\".html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\"&\".html","name":"syntax error, unexpected token \"&\"","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"The ``&`` operator is used in two distinct situations: as the bitwise operator, between two different values","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\"&\".html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -30,8 +30,7 @@ The ``&`` operator is used in two distinct situations: as the bitwise operator, 
 
 As the reference operator, it may be used in a method signature, to identify a passed-by-reference argument. It may not be used anymore at call time, for sending an argument nor receiving a value. 
 
-The reference operator returns a new reference, and it should be stored in another variable (or any data container). Otherwise, it is 
-
+The reference operator returns a new reference, and it should be stored in another variable (or any data container). Otherwise, it is.
 
 Example
 _______

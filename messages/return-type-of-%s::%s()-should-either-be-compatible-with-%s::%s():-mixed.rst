@@ -21,7 +21,7 @@ Return type of %s::%s() should either be compatible with %s::%s(): mixed
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/return-type-of-%s::%s()-should-either-be-compatible-with-%s::%s():-mixed.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/return-type-of-%s::%s()-should-either-be-compatible-with-%s::%s():-mixed.html","name":"Return type of %s::%s() should either be compatible with %s::%s(): mixed","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jan 2025 10:53:32 +0000","dateModified":"Tue, 07 Jan 2025 10:53:32 +0000","description":"Native PHP interfaces, which define a type, expect the derived methods to use the same time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/return-type-of-%s::%s()-should-either-be-compatible-with-%s::%s():-mixed.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/return-type-of-%s::%s()-should-either-be-compatible-with-%s::%s():-mixed.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/return-type-of-%s::%s()-should-either-be-compatible-with-%s::%s():-mixed.html","name":"Return type of %s::%s() should either be compatible with %s::%s(): mixed","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"Native PHP interfaces, which define a type, expect the derived methods to use the same time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/return-type-of-%s::%s()-should-either-be-compatible-with-%s::%s():-mixed.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -41,9 +41,7 @@ This rule covers the following interfaces :
 + Iterator
 + JsonSerializable
 + php_user_filter
-+ SessionHandlerInterface
-
-
++ SessionHandlerInterface.
 
 Example
 _______

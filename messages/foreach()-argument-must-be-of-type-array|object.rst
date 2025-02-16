@@ -21,7 +21,7 @@ foreach() argument must be of type array|object
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/foreach()-argument-must-be-of-type-array|object.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/foreach()-argument-must-be-of-type-array|object.html","name":"foreach() argument must be of type array|object","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 22 Jan 2025 17:23:08 +0000","dateModified":"Wed, 22 Jan 2025 17:23:08 +0000","description":"foreach() works on arrays or objects","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/foreach()-argument-must-be-of-type-array|object.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/foreach()-argument-must-be-of-type-array|object.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/foreach()-argument-must-be-of-type-array|object.html","name":"foreach() argument must be of type array|object","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"foreach() works on arrays or objects","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/foreach()-argument-must-be-of-type-array|object.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -32,7 +32,7 @@ For the arrays, all the elements of the array are read.
 
 For the objects, it is either the public properties, read like an array; or the object has the Iterator interface: then, there is a list of specific methods to implements, which control how the object is traversed; the object may be a generator, which is a method that uses the ``yield`` keyword; finally, the object may be a PHP native iterator, or a child of them. 
 
-Then, any other type is forbidden to be used with foreach(). This means all scalars elements, including string, integer and null. 
+Then, any other type is forbidden to be used with foreach(). This means all scalars elements, including string, integer and null.
 
 Example
 _______
@@ -54,9 +54,9 @@ _________
 See Also
 ________
 
-+ `PHP Iterators <https://inspector.dev/php-iterators-for-walking-through-data-structures-fasttips/>`_
-+ `PHP's Iterator <https://www.php.net/iterator>`_
-+ `PHP's Generator <https://www.php.net/manual/en/class.generator.php>`_
++ `PHPIterators <https://inspector.dev/php-iterators-for-walking-through-data-structures-fasttips/>`_
++ `PHPsIterator <https://www.php.net/iterator>`_
++ `PHPsGenerator <https://www.php.net/manual/en/class.generator.php>`_
 
 
 In previous PHP versions, this error message used to be :ref:`invalid-argument-supplied-for-foreach()`.

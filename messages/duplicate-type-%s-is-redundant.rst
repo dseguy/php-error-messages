@@ -21,7 +21,7 @@ Duplicate type %s is redundant
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/duplicate-type-%s-is-redundant.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/duplicate-type-%s-is-redundant.html","name":"Duplicate type %s is redundant","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Jan 2025 15:15:02 +0000","dateModified":"Wed, 15 Jan 2025 15:15:02 +0000","description":"When declaring a complex type, each part of the type must be unique","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/duplicate-type-%s-is-redundant.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/duplicate-type-%s-is-redundant.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/duplicate-type-%s-is-redundant.html","name":"Duplicate type %s is redundant","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"When declaring a complex type, each part of the type must be unique","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/duplicate-type-%s-is-redundant.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -33,7 +33,6 @@ This constraint is actually easier to explain than to detail: of course, it is i
 Then, there is also the possiblity for the type to be part of a composed type, such as bool (which is true|false), or mixed, or iterable, etc. 
 
 Only the first redundant type is reported.
-
 
 Example
 _______

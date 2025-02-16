@@ -21,16 +21,14 @@ Cannot use list() as standalone expression
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-list()-as-standalone-expression.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-list()-as-standalone-expression.html","name":"Cannot use list() as standalone expression","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 19 Nov 2024 17:08:00 +0000","dateModified":"Tue, 19 Nov 2024 17:08:00 +0000","description":"list() assigns values from an array to a list of variables (or data containers)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-use-list()-as-standalone-expression.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-list()-as-standalone-expression.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-list()-as-standalone-expression.html","name":"Cannot use list() as standalone expression","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"list() assigns values from an array to a list of variables (or data containers)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-use-list()-as-standalone-expression.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
  
 list() assigns values from an array to a list of variables (or data containers). As such, it is a write operation, which should be on the left side of an assignment, or in other write positions, such as a foreach() blind variables or inside another list. list() cannot be used in a read position, as in the code example: list() as not result.
 
-list() also has a short syntax version, ``[]``. That short syntax is converted to an array automatically, so it doesn't yield any error then. 
-
-
+list() also has a short syntax version, ``[]``. That short syntax is converted to an array automatically, so it doesn't yield any error then.
 
 Example
 _______

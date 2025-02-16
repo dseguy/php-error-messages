@@ -21,15 +21,14 @@ Cannot apply #[AllowDynamicProperties] to readonly class %s
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s.html","name":"Cannot apply #[AllowDynamicProperties] to readonly class %s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Dec 2024 10:01:20 +0000","dateModified":"Tue, 31 Dec 2024 10:01:20 +0000","description":"Readonly classes are classes whose properties are set once, and never changed afterwards","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s.html","name":"Cannot apply #[AllowDynamicProperties] to readonly class %s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"Readonly classes are classes whose properties are set once, and never changed afterwards","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
  
 Readonly classes are classes whose properties are set once, and never changed afterwards. The readonly option may be added to the individual property, or globally, at the class level. 
 
-Since PHP 8.1, dynamic properties are deprecated. A dynamic property is a property which is used at execution time, aka ``$object->dynamic = 2;``, and has no explicit definition in the class block. Dynamic properties are created, yet they don't have any option, including the ``readonly`` option. In consequence, ``#[AllowDynamicProperties]`` and ``readonly`` at the class level are incompatible.`
-
+Since PHP 8.1, dynamic properties are deprecated. A dynamic property is a property which is used at execution time, aka ``$object->dynamic = 2;``, and has no explicit definition in the class block. Dynamic properties are created, yet they don't have any option, including the ``readonly`` option. In consequence, ``#[AllowDynamicProperties]`` and ``readonly`` at the class level are incompatible.`.
 
 Example
 _______

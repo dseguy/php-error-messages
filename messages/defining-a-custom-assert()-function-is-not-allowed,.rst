@@ -21,7 +21,7 @@ Defining a custom assert() function is not allowed,
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/defining-a-custom-assert()-function-is-not-allowed,.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/defining-a-custom-assert()-function-is-not-allowed,.html","name":"Defining a custom assert() function is not allowed,","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 13 Dec 2024 16:41:42 +0000","dateModified":"Fri, 13 Dec 2024 16:41:42 +0000","description":"assert() is a PHP native function, used to create assertions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/defining-a-custom-assert()-function-is-not-allowed,.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/defining-a-custom-assert()-function-is-not-allowed,.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/defining-a-custom-assert()-function-is-not-allowed,.html","name":"Defining a custom assert() function is not allowed,","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"assert() is a PHP native function, used to create assertions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/defining-a-custom-assert()-function-is-not-allowed,.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -51,4 +51,4 @@ _________
 See Also
 ________
 
-+ `assert() <https://www.php.net/manual/en/function.assert.php>`_
++ `assert <https://www.php.net/manual/en/function.assert.php>`_

@@ -21,7 +21,7 @@ No such file or directory
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/no-such-file-or-directory.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/no-such-file-or-directory.html","name":"No such file or directory","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jan 2025 09:40:31 +0000","dateModified":"Thu, 09 Jan 2025 09:40:31 +0000","description":"PHP reports, as warning, a failure to remove a file that doesn't exists","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-such-file-or-directory.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/no-such-file-or-directory.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/no-such-file-or-directory.html","name":"No such file or directory","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 17:21:50 +0000","dateModified":"Sun, 16 Feb 2025 17:21:50 +0000","description":"PHP reports, as warning, a failure to remove a file that doesn't exists","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-such-file-or-directory.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -52,5 +52,5 @@ _________
 Related Error Messages
 ______________________
 
-+ :ref:`unlink-of-\"%s\"-failed,-file-does-not-exist`
++ :ref:`unlink-of-"%s"-failed,-file-does-not-exist`
 + :ref:`entry-%s-does-not-exist-and-cannot-be-deleted`

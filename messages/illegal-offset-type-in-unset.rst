@@ -21,7 +21,7 @@ Illegal offset type in unset
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/illegal-offset-type-in-unset.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/illegal-offset-type-in-unset.html","name":"Illegal offset type in unset","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 04 Dec 2024 17:52:52 +0000","dateModified":"Wed, 04 Dec 2024 17:52:52 +0000","description":"PHP only uses integers and strings as array index","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/illegal-offset-type-in-unset.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/illegal-offset-type-in-unset.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/illegal-offset-type-in-unset.html","name":"Illegal offset type in unset","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"PHP only uses integers and strings as array index","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/illegal-offset-type-in-unset.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -31,7 +31,6 @@ PHP only uses integers and strings as array index. While certain other types may
 This error is is specific to ``unset``: this function is usually very silent, yet an dedicated error message was created for the type check.
 
 This error is reported at compile time when PHP can detect the type then, otherwise, it is reported at execution time.
-
 
 Example
 _______

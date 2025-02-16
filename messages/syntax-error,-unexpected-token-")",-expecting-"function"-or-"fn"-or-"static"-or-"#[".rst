@@ -21,7 +21,7 @@ syntax error, unexpected token ")", expecting "function" or "fn" or "static" or 
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\")\",-expecting-\"function\"-or-\"fn\"-or-\"static\"-or-\"#[\".html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\")\",-expecting-\"function\"-or-\"fn\"-or-\"static\"-or-\"#[\".html","name":"syntax error, unexpected token \")\", expecting \"function\" or \"fn\" or \"static\" or \"#[\"","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 22 Jan 2025 15:52:40 +0000","dateModified":"Wed, 22 Jan 2025 15:52:40 +0000","description":"In this command, an attribute has been configured","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\")\",-expecting-\"function\"-or-\"fn\"-or-\"static\"-or-\"#[\".html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\")\",-expecting-\"function\"-or-\"fn\"-or-\"static\"-or-\"#[\".html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\")\",-expecting-\"function\"-or-\"fn\"-or-\"static\"-or-\"#[\".html","name":"syntax error, unexpected token \")\", expecting \"function\" or \"fn\" or \"static\" or \"#[\"","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"In this command, an attribute has been configured","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\")\",-expecting-\"function\"-or-\"fn\"-or-\"static\"-or-\"#[\".html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -30,8 +30,7 @@ In this command, an attribute has been configured. The attributes can only prece
 
 In this case, the attribute has been placed inside an function call, so only a closure can be declared.
 
-This error appears after PHP 8.0: this is when the ``#[`` token was introduced. Until that version, ``#`` introduces a comment, until the end of the line. 
-
+This error appears after PHP 8.0: this is when the ``#[`` token was introduced. Until that version, ``#`` introduces a comment, until the end of the line.
 
 Example
 _______

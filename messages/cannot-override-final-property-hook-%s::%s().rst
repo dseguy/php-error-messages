@@ -21,14 +21,14 @@ Cannot override final property hook %s::%s()
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-override-final-property-hook-%s::%s().html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-override-final-property-hook-%s::%s().html","name":"Cannot override final property hook %s::%s()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 09 Jan 2025 10:11:24 +0000","dateModified":"Thu, 09 Jan 2025 10:11:24 +0000","description":"Property hooks may be declared final, just like any other methods","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-override-final-property-hook-%s::%s().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-override-final-property-hook-%s::%s().html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-override-final-property-hook-%s::%s().html","name":"Cannot override final property hook %s::%s()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"Property hooks may be declared final, just like any other methods","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-override-final-property-hook-%s::%s().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
  
 Property hooks may be declared final, just like any other methods. In that case, it is not possible to override then with a new definition in a child class. 
 
-The property may be declared final as whole, in the property definition; otherwise, each individual hook may be declared final. 
+The property may be declared final as whole, in the property definition; otherwise, each individual hook may be declared final.
 
 Example
 _______

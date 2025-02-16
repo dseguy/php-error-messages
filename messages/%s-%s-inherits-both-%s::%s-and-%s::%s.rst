@@ -21,7 +21,7 @@
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s-%s-inherits-both-%s::%s-and-%s::%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s-%s-inherits-both-%s::%s-and-%s::%s.html","name":"%s %s inherits both %s::%s and %s::%s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 27 Dec 2024 11:12:08 +0000","dateModified":"Fri, 27 Dec 2024 11:12:08 +0000","description":"PHP reports duplicate constant definitions in different interfaces","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/%s-%s-inherits-both-%s::%s-and-%s::%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s-%s-inherits-both-%s::%s-and-%s::%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s-%s-inherits-both-%s::%s-and-%s::%s.html","name":"%s %s inherits both %s::%s and %s::%s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"PHP reports duplicate constant definitions in different interfaces","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/%s-%s-inherits-both-%s::%s-and-%s::%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -35,7 +35,6 @@ So, shall we always give unique names across interfaces? Or just avoid multiple 
 There is no 'use' expression to solve the conflict. The same applies to traits, though they can resolve conflicts with the use expression.
 
 Also, multiple same methods in different interface are OK.
-
 
 Example
 _______

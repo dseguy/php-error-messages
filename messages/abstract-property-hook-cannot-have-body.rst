@@ -21,12 +21,12 @@ Abstract property hook cannot have body
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/abstract-property-hook-cannot-have-body.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/abstract-property-hook-cannot-have-body.html","name":"Abstract property hook cannot have body","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 28 Oct 2024 20:49:57 +0000","dateModified":"Fri, 18 Oct 2024 17:30:21 +0000","description":"Property hooks, both ``set`` and ``get``, may be made abstract by adding the keyword to the property definition","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/abstract-property-hook-cannot-have-body.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/abstract-property-hook-cannot-have-body.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/abstract-property-hook-cannot-have-body.html","name":"Abstract property hook cannot have body","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"Property hooks, both ``set`` and ``get``, may be made abstract by adding the keyword to the property definition","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/abstract-property-hook-cannot-have-body.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
  
-Property hooks, both ``set`` and ``get``, may be made abstract by adding the keyword to the property definition. And, just like methods, abstract property hooks cannot have a body. 
+Property hooks, both ``set`` and ``get``, may be made abstract by adding the keyword to the property definition. And, just like methods, abstract property hooks cannot have a body.
 
 Example
 _______

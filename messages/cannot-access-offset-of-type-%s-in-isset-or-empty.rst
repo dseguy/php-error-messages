@@ -21,7 +21,7 @@ Cannot access offset of type %s in isset or empty
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-access-offset-of-type-%s-in-isset-or-empty.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-access-offset-of-type-%s-in-isset-or-empty.html","name":"Cannot access offset of type %s in isset or empty","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 04 Dec 2024 17:57:27 +0000","dateModified":"Wed, 04 Dec 2024 17:57:27 +0000","description":"In an array notation, the offset may be a variable, or any container","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-access-offset-of-type-%s-in-isset-or-empty.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-access-offset-of-type-%s-in-isset-or-empty.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-access-offset-of-type-%s-in-isset-or-empty.html","name":"Cannot access offset of type %s in isset or empty","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"In an array notation, the offset may be a variable, or any container","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-access-offset-of-type-%s-in-isset-or-empty.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -31,7 +31,6 @@ In an array notation, the offset may be a variable, or any container. Yet, it mu
 This error is reported when a value which type is not cast to integer (such as ``null``, ``boolean``, ``float``) or string is used. Here, it is an object. 
 
 It is also a specific message, emitted when the error happens as an argument of ``isset`` or ``empty``. Both function have an error suppression feature, and yet, this error is reported.
-
 
 Example
 _______

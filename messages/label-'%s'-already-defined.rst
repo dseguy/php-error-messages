@@ -21,7 +21,7 @@ Label '%s' already defined
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/label-'%s'-already-defined.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/label-'%s'-already-defined.html","name":"Label '%s' already defined","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 11 Nov 2024 21:42:05 +0000","dateModified":"Mon, 11 Nov 2024 21:42:05 +0000","description":"A goto label has been defined twice or more","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/label-'%s'-already-defined.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/label-'%s'-already-defined.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/label-'%s'-already-defined.html","name":"Label '%s' already defined","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"A goto label has been defined twice or more","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/label-'%s'-already-defined.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -31,7 +31,6 @@ A goto label has been defined twice or more. This is not allowed, as the ``goto`
 Note that a single unused label is allowed, and is considered dead code. 
 
 Multiple identical labels are possible, in different method contexts.
-
 
 Example
 _______

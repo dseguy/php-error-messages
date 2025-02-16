@@ -21,12 +21,12 @@ Hooked properties cannot be readonly
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/hooked-properties-cannot-be-readonly.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/hooked-properties-cannot-be-readonly.html","name":"Hooked properties cannot be readonly","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Jan 2025 17:26:08 +0000","dateModified":"Wed, 01 Jan 2025 17:26:08 +0000","description":"The readonly keyword is not allowed on hooked properties","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/hooked-properties-cannot-be-readonly.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/hooked-properties-cannot-be-readonly.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/hooked-properties-cannot-be-readonly.html","name":"Hooked properties cannot be readonly","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"The readonly keyword is not allowed on hooked properties","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/hooked-properties-cannot-be-readonly.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
  
-The readonly keyword is not allowed on hooked properties. On the other hand, it is possible to emulate that feature, by writing the ``set`` method. 
+The readonly keyword is not allowed on hooked properties. On the other hand, it is possible to emulate that feature, by writing the ``set`` method.
 
 Example
 _______

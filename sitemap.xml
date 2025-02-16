@@ -13,9 +13,6 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s%22-returned-as-member-variable-from-__sleep%28%29-but-does-not-exist.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s%22-will-be-interpreted-as-a-class-name.-did-you-mean-%22%25s%22%3F-write-%22%5C%25s%22%25s-to-suppress-this-warning.html</loc>
- </url>
- <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s%25s%25s%28%29-does-not-accept-unknown-named-parameters.html</loc>
  </url>
  <url>
@@ -286,10 +283,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/calling-static-trait-method-%25s%3A%3A%25s-is-deprecated.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/can%5C%27t-inherit-abstract-function-%25s%3A%3A%25s%28%29-%28previously-declared-abstract-in-%25s%29.html</loc>
- </url>
- <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/can%5C%27t-use-nullsafe-operator-in-write-context.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/can%27t-use-nullsafe-operator-in-write-context.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/can-only-flip-string-and-integer-values%2C-entry-skipped.html</loc>
@@ -332,9 +326,6 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-acquire-reference-to-%24globals.html</loc>
- </url>
- <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-acquire-reference-to-readonly-property.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-acquire-reference-to-readonly-property-%25s%3A%3A%24%25s.html</loc>
@@ -401,9 +392,6 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-instantiate-trait-%25s.html</loc>
- </url>
- <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-load-module-%22%25s%22-because-required-module-%22%25s%22-is-not-loaded.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-make-non-abstract-method-%25s%3A%3A%25s%28%29-abstract-in-class-%25s.html</loc>
@@ -658,7 +646,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/creation-of-dynamic-property-%25s%3A%3A%24%25s-is-deprecated.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/datetimeinterface-can%5C%5C%27t-be-implemented-by-user-classes.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/datetimeinterface-can%5C%27t-be-implemented-by-user-classes.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/declaration-of-%25s-must-be-compatible-with-%25s.html</loc>
@@ -922,7 +910,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-a-valid-method-name.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-a-valid-rounding-mode-%28roundingmode%5C%3A%5C%3A%2A%29.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-a-valid-rounding-mode-%28roundingmode%3A%3A%2A%29.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-contained-in-argument-%231-%28%24haystack%29.html</loc>
@@ -1018,9 +1006,6 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/object-of-type-%25s-is-not-callable.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/octal-escape-sequence-overflow-%5C%25s-is-greater-than-%5C377.html</loc>
- </url>
- <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/only-hooked-properties-may-be-declared-abstract.html</loc>
  </url>
  <url>
@@ -1114,7 +1099,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/required-parameter-%24%25s-follows-optional-parameter-%24%25s.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/required-trait-%25s-wasn%5C%27t-added-to-%25s.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/required-trait-%25s-wasn%27t-added-to-%25s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/return-type-of-%25s%3A%3A%25s%28%29-should-either-be-compatible-with-%25s%3A%3A%25s%28%29%3A-mixed.html</loc>
@@ -1168,7 +1153,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-%27-%27%2C-expecting-%27%3D%27.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-%5C%27%3A%3A%5C%27%2C-expecting-%5C%27%28%5C%27.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-%27%3A%3A%27%2C-expecting-%27%28%27.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-%27%3A%3A%27-%28t_paamayim_nekudotayim%29%2C-expecting-%27%3B%27-or-%27%2C%27.html</loc>
@@ -1186,10 +1171,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-end-of-file.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-fully-qualified-name-%22%25d%22%2C-expecting-%22%7B%22.html</loc>
- </url>
- <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-fully-qualified-name-%22%5Cxxx%22%2C-expecting-%22%7B%22.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-fully-qualified-name-%22%25s%22%2C-expecting-%22%7B%22.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-identifier-%22%25s%22%2C-expecting-%22%2C%22-or-%22%3B%22.html</loc>
@@ -1411,9 +1393,6 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-%28unset%29-cast-is-no-longer-supported.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-%22generator%22-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated.html</loc>
- </url>
- <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-behavior-of-unparenthesized-expressions-containing-both-%27.%27-and-%27%2B%27-%27-%27-will-change-in-php-8%3A-%27%2B%27-%27-%27-will-take-a-higher-precedence.html</loc>
  </url>
  <url>
@@ -1480,7 +1459,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/type-of-%25s%3A%3A%24%25s-must-not-be-defined-%28as-in-class-%25s%29.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/typed-property-%25s%5C%3A%5C%3A%24%25s-must-not-be-accessed-before-initialization.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/typed-property-%25s%3A%3A%24%25s-must-not-be-accessed-before-initialization.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/typed-static-property-%25s%3A%3A%24%25s-must-not-be-accessed-before-initialization.html</loc>
@@ -1489,7 +1468,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unbacked-enum-%25s-cannot-be-converted-to-a-string.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/unclosed-%5C%27%28%5C%27-does-not-match-%5C%27%5D%5C%27.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/unclosed-%27%28%27-does-not-match-%27%5D%27.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unclosed-%27%28%27.html</loc>
@@ -1504,7 +1483,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/undefined-array-key.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/undefined-class-constant-%27%25s%5C%3A%5C%3A%25s%27.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/undefined-class-constant-%27%25s%3A%3A%25s%27.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/undefined-constant-%22%25s.html</loc>
@@ -1516,7 +1495,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/undefined-offset.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/undefined-property-%25s%5C%3A%5C%3A%24%25s.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/undefined-property-%25s%3A%3A%24%25s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/undefined-variable.html</loc>
@@ -1552,7 +1531,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unparenthesized-%60a-%3F-b-%3A-c-%3F-d-%3A-e%60-is-not-supported..html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/unsupported-declare-%5C%27%25s%5C%27.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/unsupported-declare-%27%25s%27.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unsupported-operand-types.html</loc>

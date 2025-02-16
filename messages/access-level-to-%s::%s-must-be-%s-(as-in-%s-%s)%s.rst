@@ -21,7 +21,7 @@ Access level to %s::%s must be %s (as in %s %s)%s
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/access-level-to-%s::%s-must-be-%s-(as-in-%s-%s)%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/access-level-to-%s::%s-must-be-%s-(as-in-%s-%s)%s.html","name":"Access level to %s::%s must be %s (as in %s %s)%s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 07 Jan 2025 17:45:55 +0000","dateModified":"Tue, 07 Jan 2025 17:45:55 +0000","description":"This error is emitted when a class constant is given more restrictive visibility than in the interface","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/access-level-to-%s::%s-must-be-%s-(as-in-%s-%s)%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/access-level-to-%s::%s-must-be-%s-(as-in-%s-%s)%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/access-level-to-%s::%s-must-be-%s-(as-in-%s-%s)%s.html","name":"Access level to %s::%s must be %s (as in %s %s)%s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"This error is emitted when a class constant is given more restrictive visibility than in the interface","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/access-level-to-%s::%s-must-be-%s-(as-in-%s-%s)%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -29,7 +29,6 @@ ___________
 This error is emitted when a class constant is given more restrictive visibility than in the interface. 
 
 Anything in an interface is public, and so does any re-declaration in the host class.
-
 
 Example
 _______

@@ -21,14 +21,14 @@ Cannot use empty array entries in keyed array assignment
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-empty-array-entries-in-keyed-array-assignment.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-empty-array-entries-in-keyed-array-assignment.html","name":"Cannot use empty array entries in keyed array assignment","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 02 Jan 2025 09:11:06 +0000","dateModified":"Thu, 02 Jan 2025 09:11:06 +0000","description":"The list() (also known as [] on the left side of the = sign), can skip some values, by using consecutive commas","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-use-empty-array-entries-in-keyed-array-assignment.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-empty-array-entries-in-keyed-array-assignment.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-empty-array-entries-in-keyed-array-assignment.html","name":"Cannot use empty array entries in keyed array assignment","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"The list() (also known as [] on the left side of the = sign), can skip some values, by using consecutive commas","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-use-empty-array-entries-in-keyed-array-assignment.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
  
 The list() (also known as [] on the left side of the = sign), can skip some values, by using consecutive commas. This feature is only available with positional list(), which assign the n-th argument to the n-th element of the array.
 
-Since PHP 7.1, list() accepts named element: this feature match the keys with their equivalent in the array, instead of matching the positions. With that feature, skipping an element in the array is useless: it is also not accepted by the PHP engine. 
+Since PHP 7.1, list() accepts named element: this feature match the keys with their equivalent in the array, instead of matching the positions. With that feature, skipping an element in the array is useless: it is also not accepted by the PHP engine.
 
 Example
 _______

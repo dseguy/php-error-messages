@@ -21,7 +21,7 @@ Object of class %s could not be converted to string
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/object-of-class-%s-could-not-be-converted-to-string.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/object-of-class-%s-could-not-be-converted-to-string.html","name":"Object of class %s could not be converted to string","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 22 Jan 2025 17:25:13 +0000","dateModified":"Wed, 22 Jan 2025 17:25:13 +0000","description":"PHP reports that the object cannot be used as a string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/object-of-class-%s-could-not-be-converted-to-string.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/object-of-class-%s-could-not-be-converted-to-string.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/object-of-class-%s-could-not-be-converted-to-string.html","name":"Object of class %s could not be converted to string","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"PHP reports that the object cannot be used as a string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/object-of-class-%s-could-not-be-converted-to-string.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -33,7 +33,6 @@ In that case, the object is automatically converted into a string, thanks to tha
 This is a distinct error than passing an object in a string argument: in that case, it is a Type error.
 
 A lot of native PHP classes support the conversion, but not all of them. Check for ``stringable`` interface before using them.
-
 
 Example
 _______
@@ -97,4 +96,4 @@ ______________________
 See Also
 ________
 
-+ `4 Solutions For Object of class stdclass could not be converted to string error <https://agethemes.com/object-of-class-stdclass-could-not-be-converted-to-string/>`_
++ `4SolutionsForObjectofclassstdclasscouldnotbeconvertedtostringerror <https://agethemes.com/object-of-class-stdclass-could-not-be-converted-to-string/>`_

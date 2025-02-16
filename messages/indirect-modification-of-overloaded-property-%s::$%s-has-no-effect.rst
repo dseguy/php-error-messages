@@ -21,7 +21,7 @@ Indirect modification of overloaded property %s::$%s has no effect
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/indirect-modification-of-overloaded-property-%s::$%s-has-no-effect.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/indirect-modification-of-overloaded-property-%s::$%s-has-no-effect.html","name":"Indirect modification of overloaded property %s::$%s has no effect","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 12 Nov 2024 18:50:38 +0000","dateModified":"Tue, 12 Nov 2024 18:50:38 +0000","description":"The variable $object is an object","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/indirect-modification-of-overloaded-property-%s::$%s-has-no-effect.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/indirect-modification-of-overloaded-property-%s::$%s-has-no-effect.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/indirect-modification-of-overloaded-property-%s::$%s-has-no-effect.html","name":"Indirect modification of overloaded property %s::$%s has no effect","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"The variable $object is an object","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/indirect-modification-of-overloaded-property-%s::$%s-has-no-effect.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -32,8 +32,7 @@ While the syntax makes $object->something looks like a actual property and an ar
 
 There are different variations of that situation : for example, an increment or decrement on the value on a property is not possible either. 
 
-There is no call that will relay to the magic method that this property is being appended or incremented. 
-
+There is no call that will relay to the magic method that this property is being appended or incremented.
 
 Example
 _______

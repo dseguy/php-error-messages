@@ -21,7 +21,7 @@ Invalid numeric literal
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/invalid-numeric-literal.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/invalid-numeric-literal.html","name":"Invalid numeric literal","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Jan 2025 16:57:16 +0000","dateModified":"Wed, 15 Jan 2025 16:57:16 +0000","description":"This error reports an invalid number, hardcoded in the source code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/invalid-numeric-literal.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/invalid-numeric-literal.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/invalid-numeric-literal.html","name":"Invalid numeric literal","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"This error reports an invalid number, hardcoded in the source code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/invalid-numeric-literal.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -36,8 +36,7 @@ Then, PHP supports binary, octal and hexadecimal format. In the case above, the 
 
 This is also the case for illegal characters in binary (anything other than ``1`` and ``0``), or hexadecimal (anything other than digits, and letters from  ``a`` and ``f``).
 
-An old convention was to consider octal any number that starts with a leading 0. 
-
+An old convention was to consider octal any number that starts with a leading 0.
 
 Example
 _______

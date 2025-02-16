@@ -21,12 +21,12 @@ Non-static method %s::%s() cannot be called statically
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/non-static-method-%s::%s()-cannot-be-called-statically.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/non-static-method-%s::%s()-cannot-be-called-statically.html","name":"Non-static method %s::%s() cannot be called statically","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 05 Jan 2025 10:40:06 +0000","dateModified":"Sun, 05 Jan 2025 10:40:06 +0000","description":"While a non-static method can call a static method, the contrary is not possible","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/non-static-method-%s::%s()-cannot-be-called-statically.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/non-static-method-%s::%s()-cannot-be-called-statically.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/non-static-method-%s::%s()-cannot-be-called-statically.html","name":"Non-static method %s::%s() cannot be called statically","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"While a non-static method can call a static method, the contrary is not possible","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/non-static-method-%s::%s()-cannot-be-called-statically.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
  
-While a non-static method can call a static method, the contrary is not possible. In particular, the non-static method will not be able to have a valid ``$this`` variable, since the static call doesn't provide one. 
+While a non-static method can call a static method, the contrary is not possible. In particular, the non-static method will not be able to have a valid ``$this`` variable, since the static call doesn't provide one.
 
 Example
 _______

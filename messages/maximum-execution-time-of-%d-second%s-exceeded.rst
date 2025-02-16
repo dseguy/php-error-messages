@@ -21,7 +21,7 @@ Maximum execution time of %d second%s exceeded
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/maximum-execution-time-of-%d-second%s-exceeded.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/maximum-execution-time-of-%d-second%s-exceeded.html","name":"Maximum execution time of %d second%s exceeded","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 26 Jan 2025 18:47:56 +0000","dateModified":"Sun, 26 Jan 2025 18:47:56 +0000","description":"This error indicates that the application has been running for longer than an acceptable amount of time: by default, 30 seconds","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/maximum-execution-time-of-%d-second%s-exceeded.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/maximum-execution-time-of-%d-second%s-exceeded.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/maximum-execution-time-of-%d-second%s-exceeded.html","name":"Maximum execution time of %d second%s exceeded","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"This error indicates that the application has been running for longer than an acceptable amount of time: by default, 30 seconds","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/maximum-execution-time-of-%d-second%s-exceeded.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -31,7 +31,6 @@ This error indicates that the application has been running for longer than an ac
 To avoid working indefinitely on a task, PHP cancels its execution.
 
 It is common to set this duration to low levels, so as to keep execution time short. In a production environement, any such error should be investigated, and refactored.
-
 
 Example
 _______

@@ -21,7 +21,7 @@ Delimiter must not be alphanumeric or backslash
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/delimiter-must-not-be-alphanumeric-or-backslash.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/delimiter-must-not-be-alphanumeric-or-backslash.html","name":"Delimiter must not be alphanumeric or backslash","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 12 Jan 2025 09:19:54 +0000","dateModified":"Sun, 12 Jan 2025 09:19:54 +0000","description":"The first character of a regex is the delimiter, that delimits the regex","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/delimiter-must-not-be-alphanumeric-or-backslash.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/delimiter-must-not-be-alphanumeric-or-backslash.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/delimiter-must-not-be-alphanumeric-or-backslash.html","name":"Delimiter must not be alphanumeric or backslash","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"The first character of a regex is the delimiter, that delimits the regex","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/delimiter-must-not-be-alphanumeric-or-backslash.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -58,7 +58,7 @@ ______________________
 See Also
 ________
 
-+ `PCRE Patterns <https://www.php.net/manual/en/pcre.pattern.php>`_
++ `PCREPatterns <https://www.php.net/manual/en/pcre.pattern.php>`_
 
 
 In more recent PHP versions, this error message is now :ref:`delimiter-must-not-be-alphanumeric,-backslash,-or-nul`.

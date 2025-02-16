@@ -21,7 +21,7 @@ Typed static property %s::$%s must not be accessed before initialization
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/typed-static-property-%s::$%s-must-not-be-accessed-before-initialization.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/typed-static-property-%s::$%s-must-not-be-accessed-before-initialization.html","name":"Typed static property %s::$%s must not be accessed before initialization","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 25 Jan 2025 12:07:30 +0000","dateModified":"Sat, 25 Jan 2025 12:07:30 +0000","description":"Typed static properties are undefined until they are assigned for the first time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/typed-static-property-%s::$%s-must-not-be-accessed-before-initialization.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/typed-static-property-%s::$%s-must-not-be-accessed-before-initialization.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/typed-static-property-%s::$%s-must-not-be-accessed-before-initialization.html","name":"Typed static property %s::$%s must not be accessed before initialization","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"Typed static properties are undefined until they are assigned for the first time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/typed-static-property-%s::$%s-must-not-be-accessed-before-initialization.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -68,4 +68,4 @@ ______________________
 See Also
 ________
 
-+ `Typed property must not be accessed before initialization <https://madewithlove.com/blog/typed-property-must-not-be-accessed-before-initialization/>`_
++ `Typedpropertymustnotbeaccessedbeforeinitialization <https://madewithlove.com/blog/typed-property-must-not-be-accessed-before-initialization/>`_

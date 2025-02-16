@@ -21,7 +21,7 @@ Empty delimiter
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/empty-delimiter.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/empty-delimiter.html","name":"Empty delimiter","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jan 2025 15:08:36 +0000","dateModified":"Tue, 14 Jan 2025 15:08:36 +0000","description":"The explode() function doesn't work without a non-empty delimiter","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/empty-delimiter.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/empty-delimiter.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/empty-delimiter.html","name":"Empty delimiter","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"The explode() function doesn't work without a non-empty delimiter","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/empty-delimiter.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -50,5 +50,5 @@ _________
 See Also
 ________
 
-+ `Converting String to Array in PHP Using Different Methods <https://www.simplilearn.com/tutorials/php-tutorial/string-to-array-in-php>`_
-+ `Empty delimeter on 3v4l <https://3v4l.org/MetTo>`_
++ `ConvertingStringtoArrayinPHPUsingDifferentMethods <https://www.simplilearn.com/tutorials/php-tutorial/string-to-array-in-php>`_
++ `Emptydelimeteron3v4l <https://3v4l.org/MetTo>`_

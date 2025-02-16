@@ -21,7 +21,7 @@ Cannot use 'abstract' as method modifier
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-'abstract'-as-method-modifier.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-'abstract'-as-method-modifier.html","name":"Cannot use 'abstract' as method modifier","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 31 Jan 2025 09:27:57 +0000","dateModified":"Fri, 31 Jan 2025 09:27:57 +0000","description":"When resolving name conflicts during trait imports, it is not possible to use ``abstract`` with the ``as`` keyword","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-use-'abstract'-as-method-modifier.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-'abstract'-as-method-modifier.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-'abstract'-as-method-modifier.html","name":"Cannot use 'abstract' as method modifier","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"When resolving name conflicts during trait imports, it is not possible to use ``abstract`` with the ``as`` keyword","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-use-'abstract'-as-method-modifier.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -29,7 +29,6 @@ ___________
 When resolving name conflicts during trait imports, it is not possible to use ``abstract`` with the ``as`` keyword. The situation is actually confusing: ``abstract`` may be the name of the alias, or it could also be understood as the modifier.
 
 The same situation arise with ``abstract``, ``final`` or ``readonly``. On the other hand, it is valid to use the visibility modifier to actually change the visibility on the alias.
-
 
 Example
 _______

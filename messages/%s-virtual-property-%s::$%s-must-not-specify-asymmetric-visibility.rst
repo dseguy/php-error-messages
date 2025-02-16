@@ -21,7 +21,7 @@
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s-virtual-property-%s::$%s-must-not-specify-asymmetric-visibility.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s-virtual-property-%s::$%s-must-not-specify-asymmetric-visibility.html","name":"%s virtual property %s::$%s must not specify asymmetric visibility","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 11 Dec 2024 19:14:35 +0000","dateModified":"Wed, 11 Dec 2024 19:14:35 +0000","description":"A virtual property is related to property hooks: it is a property whose hook do not use the underlying property for storage, but uses another one (or, like here, none)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/%s-virtual-property-%s::$%s-must-not-specify-asymmetric-visibility.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s-virtual-property-%s::$%s-must-not-specify-asymmetric-visibility.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s-virtual-property-%s::$%s-must-not-specify-asymmetric-visibility.html","name":"%s virtual property %s::$%s must not specify asymmetric visibility","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"A virtual property is related to property hooks: it is a property whose hook do not use the underlying property for storage, but uses another one (or, like here, none)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/%s-virtual-property-%s::$%s-must-not-specify-asymmetric-visibility.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -29,8 +29,6 @@ ___________
 A virtual property is related to property hooks: it is a property whose hook do not use the underlying property for storage, but uses another one (or, like here, none). 
 
 When the set or get visibility doesn't apply, this error is displayed. The error message may start with ``Read-only`` or ``Write-only``.
-
-
 
 Example
 _______

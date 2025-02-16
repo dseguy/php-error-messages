@@ -21,7 +21,7 @@ has #[\Override] attribute, but no matching parent method exists
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/has-#[\\override]-attribute,-but-no-matching-parent-method-exists.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/has-#[\\override]-attribute,-but-no-matching-parent-method-exists.html","name":"has #[\\Override] attribute, but no matching parent method exists","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Jan 2025 17:25:55 +0000","dateModified":"Wed, 01 Jan 2025 17:25:55 +0000","description":"``Override`` is a PHP attribute, that checks if a method is actually overriding the same method from a parent class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/has-#[\\override]-attribute,-but-no-matching-parent-method-exists.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/has-#[\\override]-attribute,-but-no-matching-parent-method-exists.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/has-#[\\override]-attribute,-but-no-matching-parent-method-exists.html","name":"has #[\\Override] attribute, but no matching parent method exists","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"``Override`` is a PHP attribute, that checks if a method is actually overriding the same method from a parent class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/has-#[\\override]-attribute,-but-no-matching-parent-method-exists.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -33,7 +33,6 @@ When no such method is found, it signals that the method with the attribute is n
 The error is emitted when a method has the Override but no such method exists in the parent; it is also emitted when Override is used in a class or an interface that has no parent. No error is emitted on traits or enums. 
 
 This error is a compile time error, when PHP can solve it at compile time: this means both the class with the Override attribute, and the parent class is available at compile time. It is also an execution time error, when the Override is set in a method in a trait.
-
 
 Example
 _______

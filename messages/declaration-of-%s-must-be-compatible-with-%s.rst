@@ -21,7 +21,7 @@ Declaration of %s must be compatible with %s
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/declaration-of-%s-must-be-compatible-with-%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/declaration-of-%s-must-be-compatible-with-%s.html","name":"Declaration of %s must be compatible with %s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 30 Jan 2025 15:26:14 +0000","dateModified":"Thu, 30 Jan 2025 15:26:14 +0000","description":"Classes methods signature have to be compatible between a parent class and a child class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/declaration-of-%s-must-be-compatible-with-%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/declaration-of-%s-must-be-compatible-with-%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/declaration-of-%s-must-be-compatible-with-%s.html","name":"Declaration of %s must be compatible with %s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"Classes methods signature have to be compatible between a parent class and a child class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/declaration-of-%s-must-be-compatible-with-%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -50,9 +50,7 @@ Forbidden variations
 + Add or remove the return type
 + Add or remove the reference option
 + Add or remove the variadic option
-+ Add or remove the static option
-
-
++ Add or remove the static option.
 
 Example
 _______

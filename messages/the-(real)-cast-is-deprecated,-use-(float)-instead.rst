@@ -21,12 +21,12 @@ The (real) cast is deprecated, use (float) instead
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/the-(real)-cast-is-deprecated,-use-(float)-instead.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/the-(real)-cast-is-deprecated,-use-(float)-instead.html","name":"The (real) cast is deprecated, use (float) instead","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 01 Nov 2024 09:02:21 +0000","dateModified":"Fri, 01 Nov 2024 09:02:21 +0000","description":"The ``(real)`` cast operator is deprecated in PHP 7","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/the-(real)-cast-is-deprecated,-use-(float)-instead.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/the-(real)-cast-is-deprecated,-use-(float)-instead.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/the-(real)-cast-is-deprecated,-use-(float)-instead.html","name":"The (real) cast is deprecated, use (float) instead","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"The ``(real)`` cast operator is deprecated in PHP 7","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/the-(real)-cast-is-deprecated,-use-(float)-instead.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
  
-The ``(real)`` cast operator is deprecated in PHP 7.4. It will be completely removed in PHP 8.0. 
+The ``(real)`` cast operator is deprecated in PHP 7.4. It will be completely removed in PHP 8.0.
 
 Example
 _______

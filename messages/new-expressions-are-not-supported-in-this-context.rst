@@ -21,7 +21,7 @@ New expressions are not supported in this context
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/new-expressions-are-not-supported-in-this-context.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/new-expressions-are-not-supported-in-this-context.html","name":"New expressions are not supported in this context","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 30 Dec 2024 09:31:43 +0000","dateModified":"Mon, 30 Dec 2024 09:31:43 +0000","description":"It is not possible to use directly an object as value for a class constant","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/new-expressions-are-not-supported-in-this-context.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/new-expressions-are-not-supported-in-this-context.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/new-expressions-are-not-supported-in-this-context.html","name":"New expressions are not supported in this context","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"It is not possible to use directly an object as value for a class constant","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/new-expressions-are-not-supported-in-this-context.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -33,7 +33,6 @@ It is also not allowed to use an object as default value for properties, static 
 On the other hand, it is possible to use an object stored in a global constant. And, since it is possible to use a global constant as a value for a class constant, it is easy to work around this limitation. The same trick is possible with properties, as long as the target object is not self.
 
 Properties cannot use their host class as default values: it leads to a chicken and egg problem. The global constant must be created with an object of the class, which is then immediately instantiated with a default value based on the global constant.
-
 
 Example
 _______

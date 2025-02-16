@@ -10,7 +10,7 @@ FFI API is restricted by "ffi.enable" configuration directive
 	:og:type: article
 	:og:title: FFI API is restricted by &quot;ffi.enable&quot; configuration directive
 	:og:description: FFI is an extension that allows loading C libraries, and building C data structure from PHP
-	:og:url: https://php-errors.readthedocs.io/en/latest/messages/ffi-api-is-restricted-by-%5C%22ffi.enable%5C%22-configuration-directive.html
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/ffi-api-is-restricted-by-%22ffi.enable%22-configuration-directive.html
 	:og:locale: en
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
@@ -21,7 +21,7 @@ FFI API is restricted by "ffi.enable" configuration directive
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/ffi-api-is-restricted-by-\"ffi.enable\"-configuration-directive.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/ffi-api-is-restricted-by-\"ffi.enable\"-configuration-directive.html","name":"FFI API is restricted by \"ffi.enable\" configuration directive","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 05 Jan 2025 10:38:49 +0000","dateModified":"Sun, 05 Jan 2025 10:38:49 +0000","description":"FFI is an extension that allows loading C libraries, and building C data structure from PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/ffi-api-is-restricted-by-\"ffi.enable\"-configuration-directive.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/ffi-api-is-restricted-by-\"ffi.enable\"-configuration-directive.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/ffi-api-is-restricted-by-\"ffi.enable\"-configuration-directive.html","name":"FFI API is restricted by \"ffi.enable\" configuration directive","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 17:46:32 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"FFI is an extension that allows loading C libraries, and building C data structure from PHP","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/ffi-api-is-restricted-by-\"ffi.enable\"-configuration-directive.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________

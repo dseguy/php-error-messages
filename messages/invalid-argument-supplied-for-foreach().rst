@@ -21,14 +21,14 @@ Invalid argument supplied for foreach()
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/invalid-argument-supplied-for-foreach().html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/invalid-argument-supplied-for-foreach().html","name":"Invalid argument supplied for foreach()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 28 Oct 2024 20:49:57 +0000","dateModified":"Thu, 17 Oct 2024 18:01:46 +0000","description":"foreach() works on arrays or objects","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/invalid-argument-supplied-for-foreach().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/invalid-argument-supplied-for-foreach().html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/invalid-argument-supplied-for-foreach().html","name":"Invalid argument supplied for foreach()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"foreach() works on arrays or objects","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/invalid-argument-supplied-for-foreach().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
  
 foreach() works on arrays or objects. For the array, all the elements of the array are read; for the objects, it is either the public properties, read like an array, or the Iterator interface, which uses specific methods. 
 
-Then, any other type is forbidden to be used with foreach(). This means all scalars elements, including string, integer and null. 
+Then, any other type is forbidden to be used with foreach(). This means all scalars elements, including string, integer and null.
 
 Example
 _______

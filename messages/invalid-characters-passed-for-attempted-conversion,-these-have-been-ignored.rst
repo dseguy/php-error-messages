@@ -21,7 +21,7 @@ Invalid characters passed for attempted conversion, these have been ignored
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/invalid-characters-passed-for-attempted-conversion,-these-have-been-ignored.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/invalid-characters-passed-for-attempted-conversion,-these-have-been-ignored.html","name":"Invalid characters passed for attempted conversion, these have been ignored","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 15 Nov 2024 13:47:48 +0000","dateModified":"Fri, 15 Nov 2024 13:47:48 +0000","description":"This error is emitted when a character outside the range of validity is used","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/invalid-characters-passed-for-attempted-conversion,-these-have-been-ignored.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/invalid-characters-passed-for-attempted-conversion,-these-have-been-ignored.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/invalid-characters-passed-for-attempted-conversion,-these-have-been-ignored.html","name":"Invalid characters passed for attempted conversion, these have been ignored","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"This error is emitted when a character outside the range of validity is used","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/invalid-characters-passed-for-attempted-conversion,-these-have-been-ignored.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -31,7 +31,6 @@ This error is emitted when a character outside the range of validity is used.
 In the example above, the ``octdec()`` function converts a string from octal to decimal. Octals are written with figures from 0 to 8. In this case, 9 is excluded. 
 
 The same error is emitted with the other maths bases : for example, using 'a' in a decimal, or 'X' in a hexadecimal, etc.
-
 
 Example
 _______

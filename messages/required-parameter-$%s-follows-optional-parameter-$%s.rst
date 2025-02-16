@@ -21,15 +21,14 @@ Required parameter $%s follows optional parameter $%s
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/required-parameter-$%s-follows-optional-parameter-$%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/required-parameter-$%s-follows-optional-parameter-$%s.html","name":"Required parameter $%s follows optional parameter $%s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 25 Nov 2024 22:30:40 +0000","dateModified":"Mon, 25 Nov 2024 22:30:40 +0000","description":"An optional parameter has a default value, while a required parameter doesn't","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/required-parameter-$%s-follows-optional-parameter-$%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/required-parameter-$%s-follows-optional-parameter-$%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/required-parameter-$%s-follows-optional-parameter-$%s.html","name":"Required parameter $%s follows optional parameter $%s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"An optional parameter has a default value, while a required parameter doesn't","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/required-parameter-$%s-follows-optional-parameter-$%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
  
 An optional parameter has a default value, while a required parameter doesn't. In a method signature, PHP recommends to set the required parameters first, then the optional parameter. 
 
-When this is not the case, PHP is unable to understand if an argument has to be assigned to a parameter, or if it can be skipped, and assigned to the next required. When this happens, any required parameter makes previously defined parameter also required. 
-
+When this is not the case, PHP is unable to understand if an argument has to be assigned to a parameter, or if it can be skipped, and assigned to the next required. When this happens, any required parameter makes previously defined parameter also required.
 
 Example
 _______

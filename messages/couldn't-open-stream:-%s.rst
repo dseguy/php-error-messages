@@ -21,7 +21,7 @@ Couldn't open stream: %s
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/couldn't-open-stream:-%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/couldn't-open-stream:-%s.html","name":"Couldn't open stream: %s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 30 Jan 2025 15:30:00 +0000","dateModified":"Thu, 30 Jan 2025 15:30:00 +0000","description":"When opening a stream, or file, a mode of operation is needed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/couldn't-open-stream:-%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/couldn't-open-stream:-%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/couldn't-open-stream:-%s.html","name":"Couldn't open stream: %s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"When opening a stream, or file, a mode of operation is needed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/couldn't-open-stream:-%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -31,7 +31,6 @@ When opening a stream, or file, a mode of operation is needed.
 There are several valid modes: 'r', 'r+', 'w', 'w+', 'a', 'a+', 'x', 'x+', 'c', 'c+', 'e'. Check docs for details about them.
 
 All other strings are not supported, and yield this error.
-
 
 Example
 _______

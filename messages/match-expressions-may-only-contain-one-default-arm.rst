@@ -21,12 +21,12 @@ Match expressions may only contain one default arm
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/match-expressions-may-only-contain-one-default-arm.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/match-expressions-may-only-contain-one-default-arm.html","name":"Match expressions may only contain one default arm","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 28 Oct 2024 20:49:57 +0000","dateModified":"Wed, 09 Oct 2024 16:01:45 +0000","description":"match() expression may have one ``default`` entry, but no more than that","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/match-expressions-may-only-contain-one-default-arm.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/match-expressions-may-only-contain-one-default-arm.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/match-expressions-may-only-contain-one-default-arm.html","name":"Match expressions may only contain one default arm","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"match() expression may have one ``default`` entry, but no more than that","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/match-expressions-may-only-contain-one-default-arm.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
  
-match() expression may have one ``default`` entry, but no more than that. It is the same than for switch()
+match() expression may have one ``default`` entry, but no more than that. It is the same than for switch().
 
 Example
 _______

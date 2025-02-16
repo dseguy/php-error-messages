@@ -21,7 +21,7 @@ Argument #%d ($%s) must be of type %s, %s given
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/argument-#%d-($%s)-must-be-of-type-%s,-%s-given.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/argument-#%d-($%s)-must-be-of-type-%s,-%s-given.html","name":"Argument #%d ($%s) must be of type %s, %s given","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 01 Jan 2025 17:23:03 +0000","dateModified":"Wed, 01 Jan 2025 17:23:03 +0000","description":"This error is emitted when data of a wrong type is given to a typed argument","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/argument-#%d-($%s)-must-be-of-type-%s,-%s-given.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/argument-#%d-($%s)-must-be-of-type-%s,-%s-given.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/argument-#%d-($%s)-must-be-of-type-%s,-%s-given.html","name":"Argument #%d ($%s) must be of type %s, %s given","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"This error is emitted when data of a wrong type is given to a typed argument","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/argument-#%d-($%s)-must-be-of-type-%s,-%s-given.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -29,7 +29,6 @@ ___________
 This error is emitted when data of a wrong type is given to a typed argument. 
 
 The first parameter that fails the type constraint is reported. There might be other type failures after this one, though they are hidden by the first one encountered.
-
 
 Example
 _______

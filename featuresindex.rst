@@ -54,7 +54,6 @@ Features index
 
       * :ref:`%s-function-%s::%s()-cannot-be-declared-private`
       * :ref:`abstract-property-hook-cannot-have-body`
-      * :ref:`can\'t-inherit-abstract-function-%s::%s()-(previously-declared-abstract-in-%s)`
       * :ref:`cannot-declare-promoted-property-in-an-abstract-constructor`
       * :ref:`cannot-make-non-abstract-method-%s::%s()-abstract-in-class-%s`
       * :ref:`cannot-use-\'abstract\'-as-constant-modifier`
@@ -199,11 +198,6 @@ Features index
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-identifier`
       * :ref:`syntax-error,-unexpected-token-"as"`
-
-
-   * ascii
-
-      * :ref:`octal-escape-sequence-overflow-\\%s-is-greater-than-\\377`
 
 
    * assertion
@@ -740,7 +734,6 @@ Features index
 
       * :ref:`invalid-utf-8-codepoint-escape`
       * :ref:`invalid-utf-8-codepoint-escape:-codepoint-too-large`
-      * :ref:`octal-escape-sequence-overflow-\\%s-is-greater-than-\\377`
 
 
    * exception
@@ -785,11 +778,6 @@ Features index
       * :ref:`syntax-error,-unexpected-token-"extends",-expecting-identifier`
 
 
-   * extension
-
-      * :ref:`cannot-load-module-\"%s\"-because-required-module-\"%s\"-is-not-loaded`
-
-
    * false
 
       * :ref:`trying-to-access-array-offset-on-%s`
@@ -798,7 +786,7 @@ Features index
 
    * ffi
 
-      * :ref:`ffi-api-is-restricted-by-\"ffi.enable\"-configuration-directive`
+      * :ref:`ffi-api-is-restricted-by-"ffi.enable"-configuration-directive`
 
 
    * file
@@ -831,7 +819,6 @@ Features index
       * :ref:`private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes`
       * :ref:`property-cannot-be-both-final-and-private`
       * :ref:`property-hook-cannot-be-both-final-and-private`
-      * :ref:`the-\"generator\"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated`
 
 
    * finally
@@ -893,7 +880,6 @@ Features index
       * :ref:`class-%s-cannot-extend-final-class-%s`
       * :ref:`generator-return-type-must-be-a-supertype-of-generator`
       * :ref:`generators-cannot-return-values-using-"return"`
-      * :ref:`the-\"generator\"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated`
 
 
    * global
@@ -901,11 +887,6 @@ Features index
       * :ref:`syntax-error,-unexpected-token-"->",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-token-"::",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-token-"?->",-expecting-","-or-";"`
-
-
-   * global-namespace
-
-      * :ref:`syntax-error,-unexpected-fully-qualified-name-"%d",-expecting-"{"`
 
 
    * goto
@@ -1196,7 +1177,6 @@ Features index
       * :ref:`call-to-%s-%s::%s()-from-invalid`
       * :ref:`call-to-%s-method-%s::%s()-from-%s%s`
       * :ref:`call-to-undefined-method-%s::%s()`
-      * :ref:`can\'t-inherit-abstract-function-%s::%s()-(previously-declared-abstract-in-%s)`
       * :ref:`cannot-redeclare-%s::%s()`
       * :ref:`cannot-use-\'readonly\'-as-method-modifier`
       * :ref:`method-name-must-be-a-string`
@@ -1263,7 +1243,6 @@ Features index
       * :ref:`call-to-undefined-function`
       * :ref:`namespace-declarations-cannot-be-nested`
       * :ref:`no-code-may-exist-outside-of-namespace-{}`
-      * :ref:`syntax-error,-unexpected-fully-qualified-name-"%d",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"namespace",-expecting-"{"`
@@ -1271,19 +1250,9 @@ Features index
       * :ref:`syntax-error,-unexpected-token-"use",-expecting-"{"`
 
 
-   * namespace-name
-
-      * :ref:`syntax-error,-unexpected-fully-qualified-name-"%d",-expecting-"{"`
-
-
    * native
 
       * :ref:`only-internal-classes-can-be-registered-as-compiler-attribute`
-
-
-   * native-type
-
-      * :ref:`%s"-will-be-interpreted-as-a-class-name.-did-you-mean-"%s"?-write-"%s"%s-to-suppress-this-warning`
 
 
    * nesting
@@ -1347,11 +1316,6 @@ Features index
       * :ref:`attempt-to-read-property-"%s"-on-%s`
       * :ref:`call-to-a-member-function-%s()-on-%s`
       * :ref:`cannot-use-string-offset-as-an-object`
-
-
-   * octal
-
-      * :ref:`octal-escape-sequence-overflow-\\%s-is-greater-than-\\377`
 
 
    * octal-integer
@@ -1448,7 +1412,7 @@ Features index
    * phar
 
       * :ref:`entry-%s-does-not-exist-and-cannot-be-deleted`
-      * :ref:`unlink-of-\"%s\"-failed,-file-does-not-exist`
+      * :ref:`unlink-of-"%s"-failed,-file-does-not-exist`
 
 
    * php-variable
@@ -1498,7 +1462,6 @@ Features index
       * :ref:`attempt-to-assign-property-"%s"-on-null`
       * :ref:`cannot-access-%s-property-%s::\$%s`
       * :ref:`cannot-acquire-reference-to-\$globals`
-      * :ref:`cannot-acquire-reference-to-readonly-property %s::\$%s`
       * :ref:`cannot-acquire-reference-to-readonly-property-%s::\$%s`
       * :ref:`cannot-assign-%s-to-property-%s::\$%s-of-type-%s`
       * :ref:`cannot-auto-initialize-an-array-inside-property-%s::\$%s-of-type-%s`
@@ -1557,7 +1520,6 @@ Features index
 
       * :ref:`cannot-%s-readonly-property-%s::\$%s-from-%s%s`
       * :ref:`cannot-acquire-reference-to-\$globals`
-      * :ref:`cannot-acquire-reference-to-readonly-property %s::\$%s`
       * :ref:`cannot-acquire-reference-to-readonly-property-%s::\$%s`
       * :ref:`cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s`
       * :ref:`cannot-modify-readonly-property-%s::\$%s`
@@ -1589,7 +1551,6 @@ Features index
       * :ref:`%s():-argument-#%d%s%s%s-could-not-be-passed-by-reference`
       * :ref:`an-iterator-cannot-be-used-with-foreach-by-reference`
       * :ref:`cannot-acquire-reference-to-\$globals`
-      * :ref:`cannot-acquire-reference-to-readonly-property %s::\$%s`
       * :ref:`cannot-acquire-reference-to-readonly-property-%s::\$%s`
       * :ref:`cannot-pass-parameter-%d-by-reference`
       * :ref:`cannot-use-variable-\$%s-twice`
@@ -1809,7 +1770,7 @@ Features index
    * stream
 
       * :ref:`entry-%s-does-not-exist-and-cannot-be-deleted`
-      * :ref:`unlink-of-\"%s\"-failed,-file-does-not-exist`
+      * :ref:`unlink-of-"%s"-failed,-file-does-not-exist`
 
 
    * strict_types
@@ -1951,7 +1912,6 @@ Features index
 
    * type
 
-      * :ref:`%s"-will-be-interpreted-as-a-class-name.-did-you-mean-"%s"?-write-"%s"%s-to-suppress-this-warning`
       * :ref:`%s():-implicitly-marking-parameter-\$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead`
       * :ref:`argument-#%d-(\$%s)-must-be-of-type-%s,-%s-given`
       * :ref:`cannot-assign-%s-to-class-constant-%s::%s-of-type`
@@ -2132,11 +2092,9 @@ Features index
 
       * :ref:`foreach()-argument-must-be-of-type-array|object`
       * :ref:`only-variable-references-should-be-yielded-by-reference`
-      * :ref:`the-\"generator\"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated`
       * :ref:`the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls`
 
 
    * yield-from
 
-      * :ref:`the-\"generator\"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated`
       * :ref:`the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls`

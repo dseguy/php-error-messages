@@ -21,7 +21,7 @@ An iterator cannot be used with foreach by reference
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/an-iterator-cannot-be-used-with-foreach-by-reference.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/an-iterator-cannot-be-used-with-foreach-by-reference.html","name":"An iterator cannot be used with foreach by reference","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 28 Oct 2024 20:49:57 +0000","dateModified":"Sat, 28 Sep 2024 09:37:44 +0000","description":"It is posssible to use a foreach loop with a reference on the blind variable: this allows the original data to be modified","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/an-iterator-cannot-be-used-with-foreach-by-reference.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/an-iterator-cannot-be-used-with-foreach-by-reference.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/an-iterator-cannot-be-used-with-foreach-by-reference.html","name":"An iterator cannot be used with foreach by reference","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"It is posssible to use a foreach loop with a reference on the blind variable: this allows the original data to be modified","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/an-iterator-cannot-be-used-with-foreach-by-reference.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -29,7 +29,6 @@ ___________
 It is posssible to use a foreach loop with a reference on the blind variable: this allows the original data to be modified. 
 
 Such feature is possible with an array as a source, but it is not possible with an iterator as a source. The iterator allows reading, but has no support for writing the individual elements it emits.
-
 
 Example
 _______

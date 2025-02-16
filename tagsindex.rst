@@ -60,11 +60,6 @@ Tag index
       * :ref:`cannot-use-empty-list`
 
 
-   * confusion
-
-      * :ref:`%s"-will-be-interpreted-as-a-class-name.-did-you-mean-"%s"?-write-"%s"%s-to-suppress-this-warning`
-
-
    * constant
 
       * :ref:`undefined-constant-"%s`
@@ -122,7 +117,7 @@ Tag index
 
    * ffi
 
-      * :ref:`ffi-api-is-restricted-by-\"ffi.enable\"-configuration-directive`
+      * :ref:`ffi-api-is-restricted-by-"ffi.enable"-configuration-directive`
 
 
    * finally
@@ -244,7 +239,6 @@ Tag index
    * readonly
 
       * :ref:`cannot-acquire-reference-to-$globals`
-      * :ref:`cannot-acquire-reference-to-readonly-property %s::$%s`
       * :ref:`cannot-acquire-reference-to-readonly-property-%s::$%s`
 
 
@@ -257,7 +251,6 @@ Tag index
    * reference
 
       * :ref:`cannot-acquire-reference-to-$globals`
-      * :ref:`cannot-acquire-reference-to-readonly-property %s::$%s`
       * :ref:`cannot-acquire-reference-to-readonly-property-%s::$%s`
 
 
@@ -329,7 +322,6 @@ Tag index
       * :ref:`syntax-error,-unexpected-\'[\',-expecting-\';\'-or-\',\'`
       * :ref:`syntax-error,-unexpected-\'|\',-expecting-variable-(t_variable)`
       * :ref:`syntax-error,-unexpected-end-of-file`
-      * :ref:`syntax-error,-unexpected-fully-qualified-name-"%d",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"{"`
