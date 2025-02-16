@@ -10,7 +10,7 @@ Cannot load module "%s" because required module "%s" is not loaded
 	:og:type: article
 	:og:title: Cannot load module &quot;%s&quot; because required module &quot;%s&quot; is not loaded
 	:og:description: This is an error in the structure of the compiled PHP parser
-	:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-load-module-%5C%22%25s%5C%22-because-required-module-%5C%22%25s%5C%22-is-not-loaded.html
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-load-module-%22%25s%22-because-required-module-%22%25s%22-is-not-loaded.html
 	:og:locale: en
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
@@ -21,7 +21,7 @@ Cannot load module "%s" because required module "%s" is not loaded
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-load-module-\"%s\"-because-required-module-\"%s\"-is-not-loaded.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-load-module-\"%s\"-because-required-module-\"%s\"-is-not-loaded.html","name":"Cannot load module \"%s\" because required module \"%s\" is not loaded","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 14 Nov 2024 17:09:56 +0000","dateModified":"Thu, 14 Nov 2024 17:09:56 +0000","description":"This is an error in the structure of the compiled PHP parser","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-load-module-\"%s\"-because-required-module-\"%s\"-is-not-loaded.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-load-module-\"%s\"-because-required-module-\"%s\"-is-not-loaded.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-load-module-\"%s\"-because-required-module-\"%s\"-is-not-loaded.html","name":"Cannot load module \"%s\" because required module \"%s\" is not loaded","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 17:56:35 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"This is an error in the structure of the compiled PHP parser","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-load-module-\"%s\"-because-required-module-\"%s\"-is-not-loaded.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________

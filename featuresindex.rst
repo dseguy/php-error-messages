@@ -54,6 +54,7 @@ Features index
 
       * :ref:`%s-function-%s::%s()-cannot-be-declared-private`
       * :ref:`abstract-property-hook-cannot-have-body`
+      * :ref:`can\'t-inherit-abstract-function-%s::%s()-(previously-declared-abstract-in-%s)`
       * :ref:`cannot-declare-promoted-property-in-an-abstract-constructor`
       * :ref:`cannot-make-non-abstract-method-%s::%s()-abstract-in-class-%s`
       * :ref:`cannot-use-\'abstract\'-as-constant-modifier`
@@ -198,6 +199,11 @@ Features index
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-identifier`
       * :ref:`syntax-error,-unexpected-token-"as"`
+
+
+   * ascii
+
+      * :ref:`octal-escape-sequence-overflow-%s-is-greater-than-\\377`
 
 
    * assertion
@@ -734,6 +740,7 @@ Features index
 
       * :ref:`invalid-utf-8-codepoint-escape`
       * :ref:`invalid-utf-8-codepoint-escape:-codepoint-too-large`
+      * :ref:`octal-escape-sequence-overflow-%s-is-greater-than-\\377`
 
 
    * exception
@@ -778,6 +785,11 @@ Features index
       * :ref:`syntax-error,-unexpected-token-"extends",-expecting-identifier`
 
 
+   * extension
+
+      * :ref:`cannot-load-module-"%s"-because-required-module-"%s"-is-not-loaded`
+
+
    * false
 
       * :ref:`trying-to-access-array-offset-on-%s`
@@ -819,6 +831,7 @@ Features index
       * :ref:`private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes`
       * :ref:`property-cannot-be-both-final-and-private`
       * :ref:`property-hook-cannot-be-both-final-and-private`
+      * :ref:`the-"generator"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated`
 
 
    * finally
@@ -880,6 +893,7 @@ Features index
       * :ref:`class-%s-cannot-extend-final-class-%s`
       * :ref:`generator-return-type-must-be-a-supertype-of-generator`
       * :ref:`generators-cannot-return-values-using-"return"`
+      * :ref:`the-"generator"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated`
 
 
    * global
@@ -1177,6 +1191,7 @@ Features index
       * :ref:`call-to-%s-%s::%s()-from-invalid`
       * :ref:`call-to-%s-method-%s::%s()-from-%s%s`
       * :ref:`call-to-undefined-method-%s::%s()`
+      * :ref:`can\'t-inherit-abstract-function-%s::%s()-(previously-declared-abstract-in-%s)`
       * :ref:`cannot-redeclare-%s::%s()`
       * :ref:`cannot-use-\'readonly\'-as-method-modifier`
       * :ref:`method-name-must-be-a-string`
@@ -1255,6 +1270,11 @@ Features index
       * :ref:`only-internal-classes-can-be-registered-as-compiler-attribute`
 
 
+   * native-type
+
+      * :ref:`%s"-will-be-interpreted-as-a-class-name.-did-you-mean-"%s"?-write-"%s"%s-to-suppress-this-warning`
+
+
    * nesting
 
       * :ref:`namespace-declarations-cannot-be-nested`
@@ -1316,6 +1336,11 @@ Features index
       * :ref:`attempt-to-read-property-"%s"-on-%s`
       * :ref:`call-to-a-member-function-%s()-on-%s`
       * :ref:`cannot-use-string-offset-as-an-object`
+
+
+   * octal
+
+      * :ref:`octal-escape-sequence-overflow-%s-is-greater-than-\\377`
 
 
    * octal-integer
@@ -1912,6 +1937,7 @@ Features index
 
    * type
 
+      * :ref:`%s"-will-be-interpreted-as-a-class-name.-did-you-mean-"%s"?-write-"%s"%s-to-suppress-this-warning`
       * :ref:`%s():-implicitly-marking-parameter-\$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead`
       * :ref:`argument-#%d-(\$%s)-must-be-of-type-%s,-%s-given`
       * :ref:`cannot-assign-%s-to-class-constant-%s::%s-of-type`
@@ -2092,9 +2118,11 @@ Features index
 
       * :ref:`foreach()-argument-must-be-of-type-array|object`
       * :ref:`only-variable-references-should-be-yielded-by-reference`
+      * :ref:`the-"generator"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated`
       * :ref:`the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls`
 
 
    * yield-from
 
+      * :ref:`the-"generator"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated`
       * :ref:`the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls`

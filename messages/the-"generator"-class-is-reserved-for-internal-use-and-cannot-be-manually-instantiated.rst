@@ -10,7 +10,7 @@ The "Generator" class is reserved for internal use and cannot be manually instan
 	:og:type: article
 	:og:title: The &quot;Generator&quot; class is reserved for internal use and cannot be manually instantiated
 	:og:description: Generator is a PHP native class
-	:og:url: https://php-errors.readthedocs.io/en/latest/messages/the-%5C%22generator%5C%22-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated.html
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/the-%22generator%22-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated.html
 	:og:locale: en
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
@@ -21,7 +21,7 @@ The "Generator" class is reserved for internal use and cannot be manually instan
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/the-\"generator\"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/the-\"generator\"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated.html","name":"The \"Generator\" class is reserved for internal use and cannot be manually instantiated","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 08 Dec 2024 14:31:24 +0000","dateModified":"Sun, 08 Dec 2024 14:31:24 +0000","description":"Generator is a PHP native class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/the-\"generator\"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/the-\"generator\"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/the-\"generator\"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated.html","name":"The \"Generator\" class is reserved for internal use and cannot be manually instantiated","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 17:48:57 +0000","dateModified":"Sun, 16 Feb 2025 12:29:19 +0000","description":"Generator is a PHP native class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/the-\"generator\"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________

@@ -9,6 +9,7 @@ PHP Error Messages
    messages/$globals-can-only-be-modified-using-the-$globals[$name]-=-$value-syntax.rst
    messages/%d-arguments-are-required,-%d.rst
    messages/%s"-returned-as-member-variable-from-__sleep()-but-does-not-exist.rst
+   messages/%s"-will-be-interpreted-as-a-class-name.-did-you-mean-"%s"?-write-"%s"%s-to-suppress-this-warning.rst
    messages/%s%s%s()-does-not-accept-unknown-named-parameters.rst
    messages/%s%s%s():-argument-#%d%s%s%s-must-be-passed-by-reference,-value-given.rst
    messages/%s%s%s():-return-value-must-be-of-type-%s,-%s-returned.rst
@@ -99,6 +100,7 @@ PHP Error Messages
    messages/calling-get_class()-without-arguments-is-deprecated.rst
    messages/calling-get_parent_class()-without-arguments-is-deprecated.rst
    messages/calling-static-trait-method-%s::%s-is-deprecated.rst
+   messages/can't-inherit-abstract-function-%s::%s()-(previously-declared-abstract-in-%s).rst
    messages/can't-use-nullsafe-operator-in-write-context.rst
    messages/can-only-flip-string-and-integer-values,-entry-skipped.rst
    messages/can-only-throw-objects.rst
@@ -136,6 +138,7 @@ PHP Error Messages
    messages/cannot-instantiate-enum-%s.rst
    messages/cannot-instantiate-interface-%s.rst
    messages/cannot-instantiate-trait-%s.rst
+   messages/cannot-load-module-"%s"-because-required-module-"%s"-is-not-loaded.rst
    messages/cannot-make-non-abstract-method-%s::%s()-abstract-in-class-%s.rst
    messages/cannot-mix-keyed-and-unkeyed-array-entries-in-assignments.rst
    messages/cannot-modify-readonly-property-%s::$%s.rst
@@ -340,6 +343,7 @@ PHP Error Messages
    messages/object-of-class-%s-could-not-be-converted-to-string.rst
    messages/object-of-type-%s-has-not-been-correctly-initialized-by-calling-parent::__construct()-in-its-constructor.rst
    messages/object-of-type-%s-is-not-callable.rst
+   messages/octal-escape-sequence-overflow-%s-is-greater-than-\\377.rst
    messages/only-hooked-properties-may-be-declared-abstract.rst
    messages/only-internal-classes-can-be-registered-as-compiler-attribute.rst
    messages/only-the-first-byte-will-be-assigned-to-the-string-offset.rst
@@ -464,6 +468,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-"{",-expecting-","-or-";".rst
    messages/syntax-error,-unexpected-token-"{".rst
    messages/syntax-error,-unexpected-token-"}".rst
+   messages/the-"generator"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated.rst
    messages/the-$escape-parameter-must-be-provided-as-its-default-value-will-change.rst
    messages/the-(real)-cast-has-been-removed,-use-(float)-instead.rst
    messages/the-(real)-cast-is-deprecated,-use-(float)-instead.rst
