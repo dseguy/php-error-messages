@@ -118,6 +118,7 @@ PHP Error Messages
    messages/cannot-acquire-reference-to-$globals.rst
    messages/cannot-acquire-reference-to-readonly-property.rst
    messages/cannot-acquire-reference-to-readonly-property-%s::$%s.rst
+   messages/cannot-add-element-to-the-array-as-the-next-element-is-already-occupied.rst
    messages/cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s.rst
    messages/cannot-assign-%s-to-class-constant-%s::%s-of-type.rst
    messages/cannot-assign-%s-to-property-%s::$%s-of-type-%s.rst
@@ -143,6 +144,7 @@ PHP Error Messages
    messages/cannot-mix-keyed-and-unkeyed-array-entries-in-assignments.rst
    messages/cannot-modify-readonly-property-%s::$%s.rst
    messages/cannot-override-final-%s::%s()-with-%s::%s().rst
+   messages/cannot-override-final-property-%s::$%s.rst
    messages/cannot-override-final-property-hook-%s::%s().rst
    messages/cannot-pass-parameter-%d-by-reference.rst
    messages/cannot-perform-bitwise-not-on-%s.rst

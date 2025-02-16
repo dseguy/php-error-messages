@@ -21,7 +21,7 @@ syntax error, unexpected ','
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-','.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-','.html","name":"syntax error, unexpected ','","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 03 Jan 2025 10:01:05 +0000","dateModified":"Fri, 03 Jan 2025 10:01:05 +0000","description":"Commas are used as a separator in lists of items, such as parameters, arguments, elements of an array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-','.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-','.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-','.html","name":"syntax error, unexpected ','","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:19:45 +0000","dateModified":"Sun, 16 Feb 2025 12:19:45 +0000","description":"Commas are used as a separator in lists of items, such as parameters, arguments, elements of an array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-','.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -33,7 +33,6 @@ This happens with ``switch``, ``match()``, ``if()``, or parenthesis, which all a
 It also happens with curly braces, which uses semi-colon ``;`` as a separator.
 
 The unexpected ``,`` appears when there is nothing between separators: for example, an empty argument, or a missing variable in a ``global`` call. The only situation where it is acceptable is inside a ``list()`` expression.
-
 
 Example
 _______

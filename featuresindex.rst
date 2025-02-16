@@ -153,6 +153,11 @@ Features index
       * :ref:`undefined-offset`
 
 
+   * array-append
+
+      * :ref:`cannot-add-element-to-the-array-as-the-next-element-is-already-occupied`
+
+
    * array-syntax
 
       * :ref:`cannot-use-string-offset-as-an-array`
@@ -221,6 +226,7 @@ Features index
    * asymmetric-visibility
 
       * :ref:`%s-virtual-property-%s::\$%s-must-not-specify-asymmetric-visibility`
+      * :ref:`cannot-override-final-property-%s::\$%s`
       * :ref:`multiple-access-type-modifiers-are-not-allowed`
       * :ref:`visibility-of-property-%s::\$%s-must-not-be-weaker-than-set-visibility`
 
@@ -815,6 +821,7 @@ Features index
 
       * :ref:`%s::%s-cannot-override-final-constant-%s::%s`
       * :ref:`cannot-override-final-%s::%s()-with-%s::%s()`
+      * :ref:`cannot-override-final-property-%s::\$%s`
       * :ref:`cannot-override-final-property-hook-%s::%s()`
       * :ref:`cannot-use-the-%s-modifier-on-a-%s`
       * :ref:`cannot-use-the-final-modifier-on-a-property`
@@ -1447,6 +1454,11 @@ Features index
    * php-variable
 
       * :ref:`undefined-variable`
+
+
+   * php_max_int
+
+      * :ref:`cannot-add-element-to-the-array-as-the-next-element-is-already-occupied`
 
 
    * postgresql
