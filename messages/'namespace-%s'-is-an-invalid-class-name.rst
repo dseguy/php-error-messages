@@ -1,4 +1,4 @@
-.. _'namespace\%s'-is-an-invalid-class-name:
+.. _'namespace-%s'-is-an-invalid-class-name:
 
 'namespace\\%s' is an invalid class name
 ----------------------------------------
@@ -10,7 +10,7 @@
 	:og:type: article
 	:og:title: &#039;namespace\\%s&#039; is an invalid class name
 	:og:description: ``namespace``, when used in a fully qualified name, represents the current namespace
-	:og:url: https://php-errors.readthedocs.io/en/latest/messages/%27namespace%5C%25s%27-is-an-invalid-class-name.html
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/%27namespace-%25s%27-is-an-invalid-class-name.html
 	:og:locale: en
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
@@ -21,7 +21,7 @@
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/'namespace\\%s'-is-an-invalid-class-name.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/'namespace\\%s'-is-an-invalid-class-name.html","name":"'namespace\\\\%s' is an invalid class name","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 20:44:06 +0000","dateModified":"Sun, 16 Feb 2025 20:44:06 +0000","description":"``namespace``, when used in a fully qualified name, represents the current namespace","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/'namespace\\%s'-is-an-invalid-class-name.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/'namespace-%s'-is-an-invalid-class-name.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/'namespace-%s'-is-an-invalid-class-name.html","name":"'namespace\\\\%s' is an invalid class name","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 20:59:28 +0000","dateModified":"Sun, 16 Feb 2025 20:58:25 +0000","description":"``namespace``, when used in a fully qualified name, represents the current namespace","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/'namespace-%s'-is-an-invalid-class-name.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -69,4 +69,4 @@ Related Error Messages
 ______________________
 
 + :ref:`type-declaration-'%s'-must-be-unqualified`
-+ :ref:`'\%s'-is-an-invalid-class-name`
++ :ref:`'-%s'-is-an-invalid-class-name`

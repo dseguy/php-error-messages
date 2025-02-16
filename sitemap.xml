@@ -103,7 +103,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%27%25s%27-operator-with-non-integer-operand.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/%27%5C%25s%27-is-an-invalid-class-name.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/%27-%25s%27-is-an-invalid-class-name.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%27goto%27-into-loop-or-switch-statement-is-disallowed.html</loc>
@@ -112,7 +112,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%27goto%27-to-undefined-label-%27%25s%27.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/%27namespace%5C%25s%27-is-an-invalid-class-name.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/%27namespace-%25s%27-is-an-invalid-class-name.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/autoload%28%29-is-deprecated%2C-use-spl_autoload_register%28%29-instead.html</loc>

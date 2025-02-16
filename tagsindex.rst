@@ -137,7 +137,7 @@ Tag index
 
    * fully-qualified-name
 
-      * :ref:`\'\%s\'-is-an-invalid-class-name`
+      * :ref:`\'-%s\'-is-an-invalid-class-name`
 
 
    * funny
@@ -261,7 +261,7 @@ Tag index
 
    * relative-types
 
-      * :ref:`\'\%s\'-is-an-invalid-class-name`
+      * :ref:`\'-%s\'-is-an-invalid-class-name`
 
 
    * removed

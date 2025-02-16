@@ -1,4 +1,4 @@
-.. _'\%s'-is-an-invalid-class-name:
+.. _'-%s'-is-an-invalid-class-name:
 
 '\%s' is an invalid class name
 ------------------------------
@@ -10,7 +10,7 @@
 	:og:type: article
 	:og:title: &#039;\%s&#039; is an invalid class name
 	:og:description: ``self`` describes the current class
-	:og:url: https://php-errors.readthedocs.io/en/latest/messages/%27%5C%25s%27-is-an-invalid-class-name.html
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/%27-%25s%27-is-an-invalid-class-name.html
 	:og:locale: en
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
@@ -21,7 +21,7 @@
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/'\\%s'-is-an-invalid-class-name.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/'\\%s'-is-an-invalid-class-name.html","name":"'\\%s' is an invalid class name","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 12:23:23 +0000","dateModified":"Sun, 16 Feb 2025 12:23:23 +0000","description":"``self`` describes the current class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/'\\%s'-is-an-invalid-class-name.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/'-%s'-is-an-invalid-class-name.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/'-%s'-is-an-invalid-class-name.html","name":"'\\%s' is an invalid class name","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 20:58:53 +0000","dateModified":"Sun, 16 Feb 2025 20:58:53 +0000","description":"``self`` describes the current class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/'-%s'-is-an-invalid-class-name.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -69,4 +69,4 @@ Related Error Messages
 ______________________
 
 + :ref:`type-declaration-'%s'-must-be-unqualified`
-+ :ref:`'namespace\%s'-is-an-invalid-class-name`
++ :ref:`'namespace-%s'-is-an-invalid-class-name`

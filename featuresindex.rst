@@ -867,7 +867,7 @@ Features index
 
    * fully-qualified-name
 
-      * :ref:`\'namespace\%s\'-is-an-invalid-class-name`
+      * :ref:`\'namespace-%s\'-is-an-invalid-class-name`
 
 
    * function
@@ -1254,7 +1254,7 @@ Features index
 
    * namespace
 
-      * :ref:`\'namespace\%s\'-is-an-invalid-class-name`
+      * :ref:`\'namespace-%s\'-is-an-invalid-class-name`
       * :ref:`call-to-undefined-function`
       * :ref:`namespace-declarations-cannot-be-nested`
       * :ref:`no-code-may-exist-outside-of-namespace-{}`
@@ -1414,7 +1414,7 @@ Features index
 
    * parent
 
-      * :ref:`\'\%s\'-is-an-invalid-class-name`
+      * :ref:`\'-%s\'-is-an-invalid-class-name`
       * :ref:`cannot-access-parent::-when-current-class-scope-has-no-parent`
       * :ref:`cannot-access-parent::-when-no-class-scope-is-active`
       * :ref:`cannot-use-"%s"-when-no-class-scope-is-active`
@@ -1610,7 +1610,7 @@ Features index
 
    * relative-types
 
-      * :ref:`\'namespace\%s\'-is-an-invalid-class-name`
+      * :ref:`\'namespace-%s\'-is-an-invalid-class-name`
 
 
    * relaxed-syntax
@@ -1676,7 +1676,7 @@ Features index
 
    * self
 
-      * :ref:`\'\%s\'-is-an-invalid-class-name`
+      * :ref:`\'-%s\'-is-an-invalid-class-name`
       * :ref:`cannot-access-self::-when-no-class-scope-is-active`
       * :ref:`cannot-use-"%s"-when-no-class-scope-is-active`
 
@@ -1752,7 +1752,7 @@ Features index
    * static
 
       * :ref:`"static::"-is-not-allowed-in-compile-time-constants`
-      * :ref:`\'\%s\'-is-an-invalid-class-name`
+      * :ref:`\'-%s\'-is-an-invalid-class-name`
       * :ref:`accessing-static-property-%s::\$%s-as-non-static`
       * :ref:`cannot-access-static::-when-no-class-scope-is-active`
       * :ref:`cannot-use-"%s"-when-no-class-scope-is-active`

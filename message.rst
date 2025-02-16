@@ -39,10 +39,10 @@ PHP Error Messages
    messages/'%s'-not-in-the-'loop'-or-'switch'-context.rst
    messages/'%s'-operator-accepts-only-positive-integers.rst
    messages/'%s'-operator-with-non-integer-operand.rst
-   messages/'\%s'-is-an-invalid-class-name.rst
+   messages/'-%s'-is-an-invalid-class-name.rst
    messages/'goto'-into-loop-or-switch-statement-is-disallowed.rst
    messages/'goto'-to-undefined-label-'%s'.rst
-   messages/'namespace\%s'-is-an-invalid-class-name.rst
+   messages/'namespace-%s'-is-an-invalid-class-name.rst
    messages/autoload()-is-deprecated,-use-spl_autoload_register()-instead.rst
    messages/autoload()-is-no-longer-supported,-use-spl_autoload_register()-instead.rst
    messages/clone-method-called-on-non-object.rst
