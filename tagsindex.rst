@@ -330,6 +330,7 @@ Tag index
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"{"`
+      * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-variable-or-"$"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-variable`
       * :ref:`syntax-error,-unexpected-identifier-"%s"`
       * :ref:`syntax-error,-unexpected-single-quoted-string-"%s",-expecting-")"`

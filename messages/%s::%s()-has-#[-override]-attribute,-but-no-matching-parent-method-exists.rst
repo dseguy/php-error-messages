@@ -1,27 +1,27 @@
 .. _%s::%s()-has-#[-override]-attribute,-but-no-matching-parent-method-exists:
 
-%s::%s() has #[\\Override] attribute, but no matching parent method exists
---------------------------------------------------------------------------
+%s::%s() has #[\Override] attribute, but no matching parent method exists
+-------------------------------------------------------------------------
  
 .. meta::
 	:description:
-		%s::%s() has #[\\Override] attribute, but no matching parent method exists: This error message has two sources: it happens, at compilation time, when the class has no parent, yet has a method with Override attribute.
+		%s::%s() has #[\Override] attribute, but no matching parent method exists: This error message has two sources: it happens, at compilation time, when the class has no parent, yet has a method with Override attribute.
 	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
-	:og:title: %s::%s() has #[\\Override] attribute, but no matching parent method exists
+	:og:title: %s::%s() has #[\Override] attribute, but no matching parent method exists
 	:og:description: This error message has two sources: it happens, at compilation time, when the class has no parent, yet has a method with Override attribute
 	:og:url: https://php-errors.readthedocs.io/en/latest/messages/%25s%3A%3A%25s%28%29-has-%23%5B-override%5D-attribute%2C-but-no-matching-parent-method-exists.html
 	:og:locale: en
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: %s::%s() has #[\\Override] attribute, but no matching parent method exists
-	:twitter:description: %s::%s() has #[\\Override] attribute, but no matching parent method exists: This error message has two sources: it happens, at compilation time, when the class has no parent, yet has a method with Override attribute
+	:twitter:title: %s::%s() has #[\Override] attribute, but no matching parent method exists
+	:twitter:description: %s::%s() has #[\Override] attribute, but no matching parent method exists: This error message has two sources: it happens, at compilation time, when the class has no parent, yet has a method with Override attribute
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s::%s()-has-#[-override]-attribute,-but-no-matching-parent-method-exists.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s::%s()-has-#[-override]-attribute,-but-no-matching-parent-method-exists.html","name":"%s::%s() has #[\\\\Override] attribute, but no matching parent method exists","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Feb 2025 21:12:48 +0000","dateModified":"Sun, 16 Feb 2025 21:12:48 +0000","description":"This error message has two sources: it happens, at compilation time, when the class has no parent, yet has a method with Override attribute","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/%s::%s()-has-#[-override]-attribute,-but-no-matching-parent-method-exists.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s::%s()-has-#[-override]-attribute,-but-no-matching-parent-method-exists.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s::%s()-has-#[-override]-attribute,-but-no-matching-parent-method-exists.html","name":"%s::%s() has #[\\Override] attribute, but no matching parent method exists","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 21 Feb 2025 18:53:43 +0000","dateModified":"Fri, 21 Feb 2025 18:53:43 +0000","description":"This error message has two sources: it happens, at compilation time, when the class has no parent, yet has a method with Override attribute","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/%s::%s()-has-#[-override]-attribute,-but-no-matching-parent-method-exists.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________

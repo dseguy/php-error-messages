@@ -442,6 +442,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-%25s%28%29-%28previously-declared-in-%25s%3A%25d%29.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-%25s-property-%25s%3A%3A%24%25s-as-%25s-%25s%3A%3A%24%25s.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-%25s%3A%3A%25s%28%29.html</loc>
  </url>
  <url>
@@ -503,6 +506,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%27never%27-as-class-name-as-it-is-reserved.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%5C%27readonly%5C%27-as-%25s-modifier.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%27readonly%27-as-method-modifier.html</loc>
@@ -766,6 +772,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/func_num_args%28%29-must-be-called-from-a-function-context.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/function-name-must-be-a-string.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/generator-return-type-must-be-a-supertype-of-generator.html</loc>
  </url>
  <url>
@@ -961,6 +970,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/needle-is-not-a-string-or-an-integer.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/negative-power-of-zero.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/nesting-level-too-deep---recursive-dependency%3F.html</loc>
  </url>
  <url>
@@ -1022,6 +1034,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/octal-escape-sequence-overflow-%25s-is-greater-than--377.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/offset-not-contained-in-string..html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/only-hooked-properties-may-be-declared-abstract.html</loc>
@@ -1111,6 +1126,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/readonly-property-%25s%3A%3A%24%25s-cannot-have-default-value.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/readonly-property-%25s%3A%3A%24%25s-must-have-type.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/redefinition-of-parameter-%24%25s.html</loc>
  </url>
  <url>
@@ -1196,6 +1214,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-identifier-%22%25s%22%2C-expecting-%22%7B%22.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-identifier-%22%25s%22%2C-expecting-variable-or-%22%24%22.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-identifier-%22%25s%22%2C-expecting-variable.html</loc>
@@ -1573,10 +1594,10 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/using-%24this-when-not-in-object-context.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/using-%24%7Bexpr%7D-%28variable-variables%29-in-strings-is-deprecated%2C-use-%7B%24%7Bexpr%7D%7D-instead.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/using--%28variable-variables%29-in-strings-is-deprecated%2C-use-%7B%24%7Bexpr%7D%7D-instead.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/using-%24%7Bvar%7D-in-strings-is-deprecated%2C-use-%7B%24var%7D-instead.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/using--in-strings-is-deprecated%2C-use-%7B%24var%7D-instead.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/using-array_key_exists%28%29-on-objects-is-deprecated..html</loc>

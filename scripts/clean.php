@@ -4,10 +4,10 @@ include 'vendor/autoload.php';
 
 $file = $argv[1] ?? 'errors/call-to-%s-%s::%s()-from-invalid.ini';
 
-$files = glob('errors/*');
-foreach($files as $file) {
-    clean($file);
-}
+//$files = glob('errors/*');
+//foreach($files as $file) {
+//    clean($file);
+//}
 
 clean($file);
 

@@ -655,6 +655,11 @@ Features index
       * :ref:`%s()-has-been-disabled-for-security-reasons`
 
 
+   * division
+
+      * :ref:`negative-power-of-zero`
+
+
    * do-while
 
       * :ref:`syntax-error,-unexpected-\',\'`
@@ -663,6 +668,11 @@ Features index
    * double-quote
 
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";"`
+
+
+   * dynamic-call
+
+      * :ref:`function-name-must-be-a-string`
 
 
    * dynamic-property
@@ -894,6 +904,11 @@ Features index
       * :ref:`the-"generator"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated`
 
 
+   * get_class
+
+      * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-variable-or-"\$"`
+
+
    * global
 
       * :ref:`syntax-error,-unexpected-token-"->",-expecting-","-or-";"`
@@ -928,6 +943,7 @@ Features index
    * iconv
 
       * :ref:`must-be-contained-in-argument-#1-(\$haystack)`
+      * :ref:`offset-not-contained-in-string.`
       * :ref:`wrong-encoding,-conversion-from-"%s"-to-"%s"-is-not-allowed`
 
 
@@ -1179,6 +1195,7 @@ Features index
       * :ref:`handling-uuencode-via-mbstring-is-deprecated;-use-convert_uuencode-convert_uudecode-instead`
       * :ref:`must-be-a-valid-encoding,-"%s"-given`
       * :ref:`must-be-contained-in-argument-#1-(\$haystack)`
+      * :ref:`offset-not-contained-in-string.`
 
 
    * method
@@ -1194,6 +1211,7 @@ Features index
       * :ref:`cannot-make-non-static-method-%s::%s()-static-in-class-%s`
       * :ref:`cannot-make-static-method-%s::%s()-non-static-in-class-%s`
       * :ref:`cannot-redeclare-%s::%s()`
+      * :ref:`cannot-use-\'readonly\'-as-%s-modifier`
       * :ref:`cannot-use-\'readonly\'-as-method-modifier`
       * :ref:`method-name-must-be-a-string`
       * :ref:`must-be-a-valid-method-name`
@@ -1300,6 +1318,7 @@ Features index
 
    * new
 
+      * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-variable-or-"\$"`
       * :ref:`syntax-error,-unexpected-token-"->"`
       * :ref:`syntax-error,-unexpected-token-"?->"`
 
@@ -1462,6 +1481,11 @@ Features index
       * :ref:`must-be-one-of-pgsql_notice_last,-pgsql_notice_all,-or-pgsql_notice_clear`
 
 
+   * power
+
+      * :ref:`negative-power-of-zero`
+
+
    * printf
 
       * :ref:`%d-arguments-are-required,-%d`
@@ -1497,6 +1521,7 @@ Features index
       * :ref:`cannot-assign-%s-to-property-%s::\$%s-of-type-%s`
       * :ref:`cannot-auto-initialize-an-array-inside-property-%s::\$%s-of-type-%s`
       * :ref:`cannot-declare-variadic-promoted-property`
+      * :ref:`cannot-redeclare-%s-property-%s::\$%s-as-%s-%s::\$%s`
       * :ref:`default-value-for-property-of-type-int-may-not-be-null.-use-the-nullable-type-?int-to-allow-null-default-value`
       * :ref:`enum-%s-cannot-include-properties`
       * :ref:`interfaces-may-not-include-properties`
@@ -1554,12 +1579,15 @@ Features index
       * :ref:`cannot-acquire-reference-to-readonly-property-%s::\$%s`
       * :ref:`cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s`
       * :ref:`cannot-modify-readonly-property-%s::\$%s`
+      * :ref:`cannot-redeclare-%s-property-%s::\$%s-as-%s-%s::\$%s`
+      * :ref:`cannot-use-\'readonly\'-as-%s-modifier`
       * :ref:`cannot-use-\'readonly\'-as-method-modifier`
       * :ref:`hooked-properties-cannot-be-readonly`
       * :ref:`multiple-readonly-modifiers-are-not-allowed`
       * :ref:`readonly-class-%s-cannot-use-trait-with-a-non-readonly-property-%s::\$%s`
       * :ref:`readonly-class-bar-cannot-extend-non-readonly-class-foo`
       * :ref:`readonly-property-%s::\$%s-cannot-have-default-value`
+      * :ref:`readonly-property-%s::\$%s-must-have-type`
       * :ref:`static-property-%s::\$%s-cannot-be-readonly`
 
 
@@ -1760,6 +1788,7 @@ Features index
       * :ref:`cannot-access-static::-when-no-class-scope-is-active`
       * :ref:`cannot-make-non-static-method-%s::%s()-static-in-class-%s`
       * :ref:`cannot-make-static-method-%s::%s()-non-static-in-class-%s`
+      * :ref:`cannot-redeclare-%s-property-%s::\$%s-as-%s-%s::\$%s`
       * :ref:`cannot-use-"%s"-when-no-class-scope-is-active`
       * :ref:`cannot-use-"static"-when-no-class-scope-is-active`
       * :ref:`cannot-use-\'static\'-as-constant-modifier`
@@ -1956,6 +1985,7 @@ Features index
       * :ref:`must-be-a-valid-comparison-operator`
       * :ref:`must-be-of-type-%s,-%s-given`
       * :ref:`needle-is-not-a-string-or-an-integer`
+      * :ref:`readonly-property-%s::\$%s-must-have-type`
       * :ref:`syntax-error,-unexpected-token-"?"`
       * :ref:`using-array_key_exists()-on-objects-is-deprecated.`
 

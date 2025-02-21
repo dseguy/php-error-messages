@@ -152,6 +152,7 @@ PHP Error Messages
    messages/cannot-re-assign-$this.rst
    messages/cannot-re-assign-auto-global-variable-%s.rst
    messages/cannot-redeclare-%s()-(previously-declared-in-%s:%d).rst
+   messages/cannot-redeclare-%s-property-%s::$%s-as-%s-%s::$%s.rst
    messages/cannot-redeclare-%s::%s().rst
    messages/cannot-redeclare-function-%s()-(previously-declared-in-%s:%d).rst
    messages/cannot-redeclare-property-hook.rst
@@ -173,6 +174,7 @@ PHP Error Messages
    messages/cannot-use-'final'-as-method-modifier.rst
    messages/cannot-use-'mixed'-as-class-name-as-it-is-reserved.rst
    messages/cannot-use-'never'-as-class-name-as-it-is-reserved.rst
+   messages/cannot-use-\'readonly\'-as-%s-modifier.rst
    messages/cannot-use-'readonly'-as-method-modifier.rst
    messages/cannot-use-'static'-as-constant-modifier.rst
    messages/cannot-use-'static'-as-method-modifier.rst
@@ -260,6 +262,7 @@ PHP Error Messages
    messages/func_get_arg()-cannot-be-called-from-the-global-scope.rst
    messages/func_get_args()-cannot-be-called-from-the-global-scope.rst
    messages/func_num_args()-must-be-called-from-a-function-context.rst
+   messages/function-name-must-be-a-string.rst
    messages/generator-return-type-must-be-a-supertype-of-generator.rst
    messages/generators-cannot-return-values-using-"return".rst
    messages/get_called_class()-must-be-called-from-within-a-class.rst
@@ -325,6 +328,7 @@ PHP Error Messages
    messages/named-parameter-$%s-overwrites-previous-argument.rst
    messages/namespace-declarations-cannot-be-nested.rst
    messages/needle-is-not-a-string-or-an-integer.rst
+   messages/negative-power-of-zero.rst
    messages/nesting-level-too-deep---recursive-dependency?.rst
    messages/never-cannot-be-used-as-a-parameter-type.rst
    messages/never-returning-function-must-not-implicitly-return.rst
@@ -346,6 +350,7 @@ PHP Error Messages
    messages/object-of-type-%s-has-not-been-correctly-initialized-by-calling-parent::__construct()-in-its-constructor.rst
    messages/object-of-type-%s-is-not-callable.rst
    messages/octal-escape-sequence-overflow-%s-is-greater-than--377.rst
+   messages/offset-not-contained-in-string..rst
    messages/only-hooked-properties-may-be-declared-abstract.rst
    messages/only-internal-classes-can-be-registered-as-compiler-attribute.rst
    messages/only-the-first-byte-will-be-assigned-to-the-string-offset.rst
@@ -375,6 +380,7 @@ PHP Error Messages
    messages/readonly-class-%s-cannot-use-trait-with-a-non-readonly-property-%s::$%s.rst
    messages/readonly-class-bar-cannot-extend-non-readonly-class-foo.rst
    messages/readonly-property-%s::$%s-cannot-have-default-value.rst
+   messages/readonly-property-%s::$%s-must-have-type.rst
    messages/redefinition-of-parameter-$%s.rst
    messages/required-parameter-$%s-follows-optional-parameter-$%s.rst
    messages/required-trait-%s-wasn't-added-to-%s.rst
@@ -404,6 +410,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"{".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-"{".rst
+   messages/syntax-error,-unexpected-identifier-"%s",-expecting-variable-or-"$".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-variable.rst
    messages/syntax-error,-unexpected-identifier-"%s".rst
    messages/syntax-error,-unexpected-single-quoted-string-"%s",-expecting-")".rst
@@ -529,8 +536,8 @@ PHP Error Messages
    messages/use-of-"self"-in-callables-is-deprecated.rst
    messages/use-of-"static"-in-callables-is-deprecated.rst
    messages/using-$this-when-not-in-object-context.rst
-   messages/using-${expr}-(variable-variables)-in-strings-is-deprecated,-use-{${expr}}-instead.rst
-   messages/using-${var}-in-strings-is-deprecated,-use-{$var}-instead.rst
+   messages/using--(variable-variables)-in-strings-is-deprecated,-use-{${expr}}-instead.rst
+   messages/using--in-strings-is-deprecated,-use-{$var}-instead.rst
    messages/using-array_key_exists()-on-objects-is-deprecated..rst
    messages/value-of-type-%s-is-not-callable.rst
    messages/visibility-of-property-%s::$%s-must-not-be-weaker-than-set-visibility.rst
