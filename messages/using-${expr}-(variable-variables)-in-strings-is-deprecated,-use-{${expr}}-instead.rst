@@ -1,4 +1,4 @@
-.. _using--(variable-variables)-in-strings-is-deprecated,-use-{\${expr}}-instead:
+.. _using-\${expr}-(variable-variables)-in-strings-is-deprecated,-use-{\${expr}}-instead:
 
 Using  (variable variables) in strings is deprecated, use {${expr}} instead
 ---------------------------------------------------------------------------
@@ -21,7 +21,7 @@ Using  (variable variables) in strings is deprecated, use {${expr}} instead
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/using--(variable-variables)-in-strings-is-deprecated,-use-{${expr}}-instead.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/using--(variable-variables)-in-strings-is-deprecated,-use-{${expr}}-instead.html","name":"Using  (variable variables) in strings is deprecated, use {${expr}} instead","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 21 Feb 2025 19:00:11 +0000","dateModified":"Fri, 21 Feb 2025 19:00:11 +0000","description":"The interpolation syntax ```` is deprecated","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/using--(variable-variables)-in-strings-is-deprecated,-use-{${expr}}-instead.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/using-${expr}-(variable-variables)-in-strings-is-deprecated,-use-{${expr}}-instead.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/using-${expr}-(variable-variables)-in-strings-is-deprecated,-use-{${expr}}-instead.html","name":"Using  (variable variables) in strings is deprecated, use {${expr}} instead","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 22 Feb 2025 13:42:29 +0000","dateModified":"Sat, 22 Feb 2025 13:42:29 +0000","description":"The interpolation syntax ```` is deprecated","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/using-${expr}-(variable-variables)-in-strings-is-deprecated,-use-{${expr}}-instead.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________

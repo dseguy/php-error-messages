@@ -411,6 +411,7 @@ Features index
       * :ref:`class-%s-cannot-extend-%s-%s`
       * :ref:`illegal-class-name`
       * :ref:`must-be-a-user-defined-class-name,-internal-class-name-given`
+      * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"function"-or-"const"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-identifier-"%s"`
       * :ref:`syntax-error,-unexpected-token-"extends",-expecting-identifier`
@@ -436,6 +437,7 @@ Features index
       * :ref:`cannot-use-the-%s-modifier-on-a-%s`
       * :ref:`class-constant-%s::%s-cannot-have-type-%s`
       * :ref:`constant-%s::%s-is-deprecated`
+      * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"function"-or-"const"`
       * :ref:`traits-cannot-have-constants`
       * :ref:`undefined-class-constant-\'%s::%s\'`
       * :ref:`undefined-constant-%s::%s`
@@ -1217,7 +1219,9 @@ Features index
       * :ref:`must-be-a-valid-method-name`
       * :ref:`non-static-method-%s::%s()-cannot-be-called-statically`
       * :ref:`non-static-method-%s::%s()-should-not-be-called-statically`
+      * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"function"-or-"const"`
       * :ref:`syntax-error,-unexpected-token-"(",-expecting-identifier-or-variable-or-"{"-or-"\$"`
+      * :ref:`syntax-error,-unexpected-token-"(",-expecting-variable`
       * :ref:`syntax-error,-unexpected-token-"("`
       * :ref:`too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d-expected`
       * :ref:`too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d`
@@ -1528,6 +1532,8 @@ Features index
       * :ref:`property-%s-does-not-exist`
       * :ref:`property-%s::\$%s-cannot-have-type-%s`
       * :ref:`property-%s::\$%s-does-not-exist`
+      * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"function"-or-"const"`
+      * :ref:`syntax-error,-unexpected-token-"(",-expecting-variable`
       * :ref:`syntax-error,-unexpected-token-",",-expecting-variable-or-"\$"`
       * :ref:`syntax-error,-unexpected-token-",",-expecting-variable`
       * :ref:`syntax-error,-unexpected-token-"=",-expecting-identifier-or-variable-or-"{"-or-"\$"`
@@ -1580,6 +1586,7 @@ Features index
       * :ref:`cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s`
       * :ref:`cannot-modify-readonly-property-%s::\$%s`
       * :ref:`cannot-redeclare-%s-property-%s::\$%s-as-%s-%s::\$%s`
+      * :ref:`cannot-unset-readonly-property-%s::\$%s`
       * :ref:`cannot-use-\'readonly\'-as-%s-modifier`
       * :ref:`cannot-use-\'readonly\'-as-method-modifier`
       * :ref:`hooked-properties-cannot-be-readonly`
@@ -1727,6 +1734,11 @@ Features index
    * serialization
 
       * :ref:`error-at-offset-%zd-of-%zd`
+
+
+   * serialize
+
+      * :ref:`unserializing-the-\'s\'-format-is-deprecated`
 
 
    * short-tag
@@ -2030,6 +2042,7 @@ Features index
 
       * :ref:`attempt-to-unset-static-property-%s::\$%s`
       * :ref:`cannot-unset-\$this`
+      * :ref:`cannot-unset-readonly-property-%s::\$%s`
       * :ref:`cannot-unset-string-offsets`
       * :ref:`the-(unset)-cast-is-deprecated`
       * :ref:`the-(unset)-cast-is-no-longer-supported`

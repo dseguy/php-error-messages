@@ -475,6 +475,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-unset-offset-in-a-non-array-variable.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-unset-readonly-property-%25s%3A%3A%24%25s.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-unset-string-offsets.html</loc>
  </url>
  <url>
@@ -508,7 +511,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%27never%27-as-class-name-as-it-is-reserved.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%5C%27readonly%5C%27-as-%25s-modifier.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%27readonly%27-as-%25s-modifier.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%27readonly%27-as-method-modifier.html</loc>
@@ -1213,6 +1216,12 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-identifier-%22%25s%22%2C-expecting-%22%2C%22-or-%22%3B%22.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-identifier-%22%25s%22%2C-expecting-%22function%22-or-%22const%22.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-identifier-%22%25s%22%2C-expecting-%22function%22.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-identifier-%22%25s%22%2C-expecting-%22%7B%22.html</loc>
  </url>
  <url>
@@ -1247,6 +1256,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%28%22%2C-expecting-identifier-or-variable-or-%22%7B%22-or-%22%24%22.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%28%22%2C-expecting-variable.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%28%22.html</loc>
@@ -1573,6 +1585,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unparenthesized-%60a-%3F-b-%3A-c-%3F-d-%3A-e%60-is-not-supported..html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/unserializing-the-%27s%27-format-is-deprecated.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unsupported-declare-%27%25s%27.html</loc>
  </url>
  <url>
@@ -1594,10 +1609,10 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/using-%24this-when-not-in-object-context.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/using--%28variable-variables%29-in-strings-is-deprecated%2C-use-%7B%24%7Bexpr%7D%7D-instead.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/using-%24%7Bexpr%7D-%28variable-variables%29-in-strings-is-deprecated%2C-use-%7B%24%7Bexpr%7D%7D-instead.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/using--in-strings-is-deprecated%2C-use-%7B%24var%7D-instead.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/using-%24%7Bvar%7D-in-strings-is-deprecated%2C-use-%7B%24var%7D-instead.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/using-array_key_exists%28%29-on-objects-is-deprecated..html</loc>

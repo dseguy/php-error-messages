@@ -163,6 +163,7 @@ PHP Error Messages
    messages/cannot-unset-$this.rst
    messages/cannot-unset-hooked-property-%s::$%s.rst
    messages/cannot-unset-offset-in-a-non-array-variable.rst
+   messages/cannot-unset-readonly-property-%s::$%s.rst
    messages/cannot-unset-string-offsets.rst
    messages/cannot-use-"%s"-when-no-class-scope-is-active.rst
    messages/cannot-use-"static"-when-no-class-scope-is-active.rst
@@ -174,7 +175,7 @@ PHP Error Messages
    messages/cannot-use-'final'-as-method-modifier.rst
    messages/cannot-use-'mixed'-as-class-name-as-it-is-reserved.rst
    messages/cannot-use-'never'-as-class-name-as-it-is-reserved.rst
-   messages/cannot-use-\'readonly\'-as-%s-modifier.rst
+   messages/cannot-use-'readonly'-as-%s-modifier.rst
    messages/cannot-use-'readonly'-as-method-modifier.rst
    messages/cannot-use-'static'-as-constant-modifier.rst
    messages/cannot-use-'static'-as-method-modifier.rst
@@ -409,6 +410,8 @@ PHP Error Messages
    messages/syntax-error,-unexpected-end-of-file.rst
    messages/syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"{".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";".rst
+   messages/syntax-error,-unexpected-identifier-"%s",-expecting-"function"-or-"const".rst
+   messages/syntax-error,-unexpected-identifier-"%s",-expecting-"function".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-"{".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-variable-or-"$".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-variable.rst
@@ -421,6 +424,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-"&",-expecting-end-of-file.rst
    messages/syntax-error,-unexpected-token-"&".rst
    messages/syntax-error,-unexpected-token-"(",-expecting-identifier-or-variable-or-"{"-or-"$".rst
+   messages/syntax-error,-unexpected-token-"(",-expecting-variable.rst
    messages/syntax-error,-unexpected-token-"(".rst
    messages/syntax-error,-unexpected-token-")",-expecting-"=".rst
    messages/syntax-error,-unexpected-token-")",-expecting-"function"-or-"fn"-or-"static"-or-"#[".rst
@@ -529,6 +533,7 @@ PHP Error Messages
    messages/unmatched-']'.rst
    messages/unmatched-'}'.rst
    messages/unparenthesized-`a-?-b-:-c-?-d-:-e`-is-not-supported..rst
+   messages/unserializing-the-'s'-format-is-deprecated.rst
    messages/unsupported-declare-'%s'.rst
    messages/unsupported-operand-types.rst
    messages/unterminated-comment-starting-line-%d.rst
@@ -536,8 +541,8 @@ PHP Error Messages
    messages/use-of-"self"-in-callables-is-deprecated.rst
    messages/use-of-"static"-in-callables-is-deprecated.rst
    messages/using-$this-when-not-in-object-context.rst
-   messages/using--(variable-variables)-in-strings-is-deprecated,-use-{${expr}}-instead.rst
-   messages/using--in-strings-is-deprecated,-use-{$var}-instead.rst
+   messages/using-${expr}-(variable-variables)-in-strings-is-deprecated,-use-{${expr}}-instead.rst
+   messages/using-${var}-in-strings-is-deprecated,-use-{$var}-instead.rst
    messages/using-array_key_exists()-on-objects-is-deprecated..rst
    messages/value-of-type-%s-is-not-callable.rst
    messages/visibility-of-property-%s::$%s-must-not-be-weaker-than-set-visibility.rst

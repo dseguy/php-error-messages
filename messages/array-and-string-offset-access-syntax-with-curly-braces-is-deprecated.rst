@@ -21,7 +21,7 @@ Array and string offset access syntax with curly braces is deprecated
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/array-and-string-offset-access-syntax-with-curly-braces-is-deprecated.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/array-and-string-offset-access-syntax-with-curly-braces-is-deprecated.html","name":"Array and string offset access syntax with curly braces is deprecated","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 21 Feb 2025 18:53:43 +0000","dateModified":"Fri, 21 Feb 2025 18:53:43 +0000","description":"PHP used to support the curly braces ``{}`` to access elements in an array and a string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array-and-string-offset-access-syntax-with-curly-braces-is-deprecated.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/array-and-string-offset-access-syntax-with-curly-braces-is-deprecated.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/array-and-string-offset-access-syntax-with-curly-braces-is-deprecated.html","name":"Array and string offset access syntax with curly braces is deprecated","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 22 Feb 2025 13:45:38 +0000","dateModified":"Sat, 22 Feb 2025 13:45:38 +0000","description":"PHP used to support the curly braces ``{}`` to access elements in an array and a string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array-and-string-offset-access-syntax-with-curly-braces-is-deprecated.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -51,3 +51,6 @@ _________
 
 
 In previous PHP versions, this error message used to be :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported`.
+
+
+In more recent PHP versions, this error message is now :ref:`syntax-error,-unexpected-token-"{",-expecting-","-or-";"`.

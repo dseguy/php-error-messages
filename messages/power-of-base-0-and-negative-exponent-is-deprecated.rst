@@ -21,7 +21,7 @@ Power of base 0 and negative exponent is deprecated
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/power-of-base-0-and-negative-exponent-is-deprecated.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/power-of-base-0-and-negative-exponent-is-deprecated.html","name":"Power of base 0 and negative exponent is deprecated","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 21 Feb 2025 18:53:43 +0000","dateModified":"Fri, 21 Feb 2025 18:53:43 +0000","description":"Requesting a negative exponent on 0 yields this error message","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/power-of-base-0-and-negative-exponent-is-deprecated.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/power-of-base-0-and-negative-exponent-is-deprecated.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/power-of-base-0-and-negative-exponent-is-deprecated.html","name":"Power of base 0 and negative exponent is deprecated","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 22 Feb 2025 13:56:18 +0000","dateModified":"Sat, 22 Feb 2025 13:56:18 +0000","description":"Requesting a negative exponent on 0 yields this error message","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/power-of-base-0-and-negative-exponent-is-deprecated.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -47,3 +47,8 @@ _________
 + Check for 0 before raising a negative power. Positive powers are OK.
 + Check for negative power before raising a power of 0.
 + Use the PHP 8.4 function fpow() that has the future behavior, with a try/catch structure.
+
+Related Error Messages
+______________________
+
++ :ref:`negative-power-of-zero`
