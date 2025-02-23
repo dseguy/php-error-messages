@@ -715,6 +715,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/destructors-cannot-declare-a-return-type.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/disabling-session.use_only_cookies-ini-setting-is-deprecated.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/division-of-php_int_min-by--1-is-not-an-integer.html</loc>
  </url>
  <url>
@@ -728,6 +731,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/empty-delimiter.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/enabling-session.use_trans_sid-ini-setting-is-deprecated.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/entry-%25s-does-not-exist-and-cannot-be-deleted.html</loc>
@@ -929,6 +935,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/multiple-static-modifiers-are-not-allowed.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-a-finite-value.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-a-user-defined-class-name%2C-internal-class-name-given.html</loc>

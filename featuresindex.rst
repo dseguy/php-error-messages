@@ -1146,13 +1146,9 @@ Features index
       * :ref:`the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls`
 
 
-   * magic-class
-
-      * :ref:`get_called_class()-must-be-called-from-within-a-class`
-
-
    * magic-constant
 
+      * :ref:`get_called_class()-must-be-called-from-within-a-class`
       * :ref:`syntax-error,-unexpected-token-"__namespace__",-expecting-"("`
 
 
@@ -1372,14 +1368,10 @@ Features index
       * :ref:`cannot-use-string-offset-as-an-object`
 
 
-   * octal
-
-      * :ref:`octal-escape-sequence-overflow-%s-is-greater-than--377`
-
-
    * octal-integer
 
       * :ref:`invalid-numeric-literal`
+      * :ref:`octal-escape-sequence-overflow-%s-is-greater-than--377`
 
 
    * offset
@@ -1739,10 +1731,6 @@ Features index
    * serialization
 
       * :ref:`error-at-offset-%zd-of-%zd`
-
-
-   * serialize
-
       * :ref:`unserializing-the-\'s\'-format-is-deprecated`
 
 
@@ -2082,7 +2070,7 @@ Features index
       * :ref:`trait-method-%s::%s-has-not-been-applied-as-%s::%s`
 
 
-   * uuencoding
+   * uuencode
 
       * :ref:`handling-uuencode-via-mbstring-is-deprecated;-use-convert_uuencode-convert_uudecode-instead`
 

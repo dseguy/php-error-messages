@@ -21,12 +21,12 @@ Cannot use "%s" as a type name as it is reserved
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-\"%s\"-as-a-type-name-as-it-is-reserved.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-\"%s\"-as-a-type-name-as-it-is-reserved.html","name":"Cannot use \"%s\" as a type name as it is reserved","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 23 Feb 2025 02:55:27 +0000","dateModified":"Sun, 23 Feb 2025 02:55:27 +0000","description":"array is a native PHP type, and it cannot be used with the leading ``\\``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-use-\"%s\"-as-a-type-name-as-it-is-reserved.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-\"%s\"-as-a-type-name-as-it-is-reserved.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-\"%s\"-as-a-type-name-as-it-is-reserved.html","name":"Cannot use \"%s\" as a type name as it is reserved","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 23 Feb 2025 14:18:14 +0000","dateModified":"Sun, 23 Feb 2025 14:18:14 +0000","description":"array is a native PHP type, and it cannot be used with the leading ``\\``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-use-\"%s\"-as-a-type-name-as-it-is-reserved.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
  
-array is a native PHP type, and it cannot be used with the leading ``\``. This is also the case for the other native types, such as ``int`` or ``string``, although they provide a different error message.` 
+array is a native PHP type, and it cannot be used with the leading ``\``. This is also the case for the other native types, such as ``int`` or ``string``, although they provide a different error message.
 
 Example
 _______

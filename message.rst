@@ -243,11 +243,13 @@ PHP Error Messages
    messages/delimiter-must-not-be-alphanumeric,-backslash,-or-nul.rst
    messages/delimiter-must-not-be-alphanumeric-or-backslash.rst
    messages/destructors-cannot-declare-a-return-type.rst
+   messages/disabling-session.use_only_cookies-ini-setting-is-deprecated.rst
    messages/division-of-php_int_min-by--1-is-not-an-integer.rst
    messages/duplicate-declaration-of-static-variable-$%s.rst
    messages/duplicate-named-parameter-$%s.rst
    messages/duplicate-type-%s-is-redundant.rst
    messages/empty-delimiter.rst
+   messages/enabling-session.use_trans_sid-ini-setting-is-deprecated.rst
    messages/entry-%s-does-not-exist-and-cannot-be-deleted.rst
    messages/enum-"%s"-not-found.rst
    messages/enum-%s-cannot-include-magic-method-%s.rst
@@ -315,6 +317,7 @@ PHP Error Messages
    messages/multiple-access-type-modifiers-are-not-allowed.rst
    messages/multiple-readonly-modifiers-are-not-allowed.rst
    messages/multiple-static-modifiers-are-not-allowed.rst
+   messages/must-be-a-finite-value.rst
    messages/must-be-a-user-defined-class-name,-internal-class-name-given.rst
    messages/must-be-a-valid-comparison-operator.rst
    messages/must-be-a-valid-encoding,-"%s"-given.rst
