@@ -131,9 +131,11 @@ Features index
       * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported`
       * :ref:`array-to-string-conversion`
       * :ref:`array_key_exists():-argument-#2-(\$array)-must-be-of-type-array,-%s-given`
+      * :ref:`calling-%s()-on-an-object-is-deprecated`
       * :ref:`can-only-flip-string-and-integer-values,-entry-skipped`
       * :ref:`cannot-unpack-array-with-string-keys`
       * :ref:`cannot-unset-offset-in-a-non-array-variable`
+      * :ref:`cannot-use-"%s"-as-a-type-name-as-it-is-reserved`
       * :ref:`cannot-use-[]-for-reading`
       * :ref:`cannot-use-object-of-type-%s-as-array`
       * :ref:`cannot-use-object-of-type-stdclass-as-array`
@@ -655,6 +657,8 @@ Features index
    * directive
 
       * :ref:`%s()-has-been-disabled-for-security-reasons`
+      * :ref:`disabling-session.use_only_cookies-ini-setting-is-deprecated`
+      * :ref:`enabling-session.use_trans_sid-ini-setting-is-deprecated`
 
 
    * division
@@ -1355,6 +1359,7 @@ Features index
    * object
 
       * :ref:`attempt-to-read-property-"%s"-on-%s`
+      * :ref:`calling-%s()-on-an-object-is-deprecated`
       * :ref:`cannot-use-object-of-type-%s-as-array`
       * :ref:`cannot-use-object-of-type-stdclass-as-array`
       * :ref:`object-of-type-%s-is-not-callable`
@@ -1741,6 +1746,12 @@ Features index
       * :ref:`unserializing-the-\'s\'-format-is-deprecated`
 
 
+   * session
+
+      * :ref:`disabling-session.use_only_cookies-ini-setting-is-deprecated`
+      * :ref:`enabling-session.use_trans_sid-ini-setting-is-deprecated`
+
+
    * short-tag
 
       * :ref:`unclosed-\'{\'`
@@ -1989,6 +2000,7 @@ Features index
       * :ref:`cannot-assign-%s-to-class-constant-%s::%s-of-type`
       * :ref:`cannot-assign-%s-to-property-%s::\$%s-of-type-%s`
       * :ref:`cannot-auto-initialize-an-array-inside-property-%s::\$%s-of-type-%s`
+      * :ref:`cannot-use-"%s"-as-a-type-name-as-it-is-reserved`
       * :ref:`cannot-use-%s-as-default-value-for-parameter-\$%s-of-type-%s`
       * :ref:`cannot-use-%s-as-default-value-for-property-%s::\$%s-of-type-%s`
       * :ref:`default-value-for-parameters-with-a-%s-type-can-only-be-%s-or-null`

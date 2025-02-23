@@ -97,6 +97,7 @@ PHP Error Messages
    messages/call-to-undefined-function-exit().rst
    messages/call-to-undefined-function.rst
    messages/call-to-undefined-method-%s::%s().rst
+   messages/calling-%s()-on-an-object-is-deprecated.rst
    messages/calling-get_class()-without-arguments-is-deprecated.rst
    messages/calling-get_parent_class()-without-arguments-is-deprecated.rst
    messages/calling-static-trait-method-%s::%s-is-deprecated.rst
@@ -165,6 +166,7 @@ PHP Error Messages
    messages/cannot-unset-offset-in-a-non-array-variable.rst
    messages/cannot-unset-readonly-property-%s::$%s.rst
    messages/cannot-unset-string-offsets.rst
+   messages/cannot-use-"%s"-as-a-type-name-as-it-is-reserved.rst
    messages/cannot-use-"%s"-when-no-class-scope-is-active.rst
    messages/cannot-use-"static"-when-no-class-scope-is-active.rst
    messages/cannot-use-%s-as-default-value-for-parameter-$%s-of-type-%s.rst

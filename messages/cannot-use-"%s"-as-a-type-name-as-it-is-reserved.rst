@@ -1,0 +1,56 @@
+.. _cannot-use-"%s"-as-a-type-name-as-it-is-reserved:
+
+Cannot use "%s" as a type name as it is reserved
+------------------------------------------------
+ 
+.. meta::
+	:description:
+		Cannot use "%s" as a type name as it is reserved: array is a native PHP type, and it cannot be used with the leading ``\``.
+	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Cannot use &quot;%s&quot; as a type name as it is reserved
+	:og:description: array is a native PHP type, and it cannot be used with the leading ``\``
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%22%25s%22-as-a-type-name-as-it-is-reserved.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Cannot use "%s" as a type name as it is reserved
+	:twitter:description: Cannot use "%s" as a type name as it is reserved: array is a native PHP type, and it cannot be used with the leading ``\``
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-\"%s\"-as-a-type-name-as-it-is-reserved.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-\"%s\"-as-a-type-name-as-it-is-reserved.html","name":"Cannot use \"%s\" as a type name as it is reserved","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 23 Feb 2025 02:55:27 +0000","dateModified":"Sun, 23 Feb 2025 02:55:27 +0000","description":"array is a native PHP type, and it cannot be used with the leading ``\\``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-use-\"%s\"-as-a-type-name-as-it-is-reserved.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Description
+___________
+ 
+array is a native PHP type, and it cannot be used with the leading ``\``. This is also the case for the other native types, such as ``int`` or ``string``, although they provide a different error message.` 
+
+Example
+_______
+
+.. code-block:: php
+
+   <?php
+   
+   function foo(\array $array) {}
+   
+   ?>
+
+
+Literal Examples
+****************
++ Cannot use "array" as a type name as it is reserved
+
+Solutions
+_________
+
++ Remove the leading ``\``, before the ``array``.
++ Change the type from ``array`` to an actual class.
+
+Related Error Messages
+______________________
+
++ :ref:`type-declaration-'%s'-must-be-unqualified`
