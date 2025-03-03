@@ -1147,6 +1147,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/readonly-property-%25s%3A%3A%24%25s-must-have-type.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/recursion-detected.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/redefinition-of-parameter-%24%25s.html</loc>
  </url>
  <url>

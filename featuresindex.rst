@@ -490,6 +490,7 @@ Features index
 
    * compact
 
+      * :ref:`recursion-detected`
       * :ref:`undefined-variable`
 
 
@@ -1622,6 +1623,7 @@ Features index
       * :ref:`only-variables-can-be-passed-by-reference`
       * :ref:`only-variables-should-be-passed-by-reference`
       * :ref:`parameter-%d-must-be-passed-by-reference`
+      * :ref:`recursion-detected`
       * :ref:`returning-by-reference-from-a-void-function-is-deprecated`
       * :ref:`syntax-error,-unexpected-\';\',-expecting-\'[\'`
       * :ref:`syntax-error,-unexpected-token-"&",-expecting-end-of-file`
@@ -1718,6 +1720,11 @@ Features index
       * :ref:`\'-%s\'-is-an-invalid-class-name`
       * :ref:`cannot-access-self::-when-no-class-scope-is-active`
       * :ref:`cannot-use-"%s"-when-no-class-scope-is-active`
+
+
+   * self-reference
+
+      * :ref:`recursion-detected`
 
 
    * semicolon

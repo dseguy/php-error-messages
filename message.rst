@@ -387,6 +387,7 @@ PHP Error Messages
    messages/readonly-class-bar-cannot-extend-non-readonly-class-foo.rst
    messages/readonly-property-%s::$%s-cannot-have-default-value.rst
    messages/readonly-property-%s::$%s-must-have-type.rst
+   messages/recursion-detected.rst
    messages/redefinition-of-parameter-$%s.rst
    messages/required-parameter-$%s-follows-optional-parameter-$%s.rst
    messages/required-trait-%s-wasn't-added-to-%s.rst
