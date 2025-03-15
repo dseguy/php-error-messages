@@ -21,7 +21,7 @@ Implicit conversion from float-string "%s" to int loses
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/implicit-conversion-from-float-string-\"%s\"-to-int-loses.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/implicit-conversion-from-float-string-\"%s\"-to-int-loses.html","name":"Implicit conversion from float-string \"%s\" to int loses","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 21 Feb 2025 18:53:43 +0000","dateModified":"Fri, 21 Feb 2025 18:53:43 +0000","description":"In cases where integers are required, PHP applies a type cast and convert floats and strings into integers","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/implicit-conversion-from-float-string-\"%s\"-to-int-loses.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/implicit-conversion-from-float-string-\"%s\"-to-int-loses.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/implicit-conversion-from-float-string-\"%s\"-to-int-loses.html","name":"Implicit conversion from float-string \"%s\" to int loses","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 15 Mar 2025 09:07:56 +0000","dateModified":"Sat, 15 Mar 2025 09:07:56 +0000","description":"In cases where integers are required, PHP applies a type cast and convert floats and strings into integers","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/implicit-conversion-from-float-string-\"%s\"-to-int-loses.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -41,7 +41,7 @@ _______
 
    <?php
    
-   $a = ['1.23' => 3];
+   $a = [1.23 => 3];
    
    ?>
 
@@ -61,3 +61,8 @@ ______________________
 
 + :ref:`a-non-numeric-value-encountered`
 + :ref:`a-non-well-formed-numeric-value-encountered`
+
+Changed Behavior
+________________
+
+This error may appear in different PHP versions `implicitConversionToInt <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/implicitConversionToInt.html>`_.

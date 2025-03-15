@@ -87,7 +87,10 @@ Features index
 
    * allowdynamicproperties
 
+      * :ref:`cannot-apply-#[allowdynamicproperties]-to-enum-%s`
+      * :ref:`cannot-apply-#[allowdynamicproperties]-to-interface-%s`
       * :ref:`cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s`
+      * :ref:`cannot-apply-#[allowdynamicproperties]-to-trait-%s`
       * :ref:`creation-of-dynamic-property-%s::\$%s-is-deprecated`
 
 
@@ -405,7 +408,10 @@ Features index
       * :ref:`%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed`
       * :ref:`a-class-constant-must-not-be-called-class.-it-is-reserved-for-class-name-fetching`
       * :ref:`calling-get_class()-without-arguments-is-deprecated`
+      * :ref:`cannot-apply-#[allowdynamicproperties]-to-enum-%s`
+      * :ref:`cannot-apply-#[allowdynamicproperties]-to-interface-%s`
       * :ref:`cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s`
+      * :ref:`cannot-apply-#[allowdynamicproperties]-to-trait-%s`
       * :ref:`cannot-inherit-previously-inherited-or-override-constant-%s-from-interface-%s`
       * :ref:`cannot-make-non-abstract-method-%s::%s()-abstract-in-class-%s`
       * :ref:`cannot-redeclare-%s::%s()`
@@ -536,6 +542,7 @@ Features index
       * :ref:`constant-%s-is-deprecated`
       * :ref:`define():-argument-#3-(\$case_insensitive)-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported`
       * :ref:`define():-declaration-of-case-insensitive-constants-is-deprecated`
+      * :ref:`dynamic-class-names-are-not-allowed-in-compile-time-class-constant-references`
       * :ref:`instanceof-expects-an-object-instance,-constant-given`
       * :ref:`syntax-error,-unexpected-\'-\',-expecting-\'=\'`
       * :ref:`syntax-error,-unexpected-token-"&",-expecting-end-of-file`
@@ -589,6 +596,11 @@ Features index
 
       * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-deprecated`
       * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported`
+
+
+   * date
+
+      * :ref:`unknown-or-bad-format-(%s)`
 
 
    * datetime
@@ -716,6 +728,7 @@ Features index
 
    * enum
 
+      * :ref:`cannot-apply-#[allowdynamicproperties]-to-enum-%s`
       * :ref:`cannot-instantiate-enum-%s`
       * :ref:`cannot-redeclare-%s::%s()`
       * :ref:`enum-%s-cannot-include-magic-method-%s`
@@ -878,6 +891,7 @@ Features index
    * format
 
       * :ref:`unknown-format-specifier-"%c`
+      * :ref:`unknown-or-bad-format-(%s)`
 
 
    * fully-qualified-name
@@ -1045,6 +1059,7 @@ Features index
       * :ref:`access-type-for-interface-constant-%s::%s-must-be-public`
       * :ref:`access-type-for-interface-method-%s::%s()-must-be-public`
       * :ref:`b-cannot-implement-a---it-is-not-an-interface`
+      * :ref:`cannot-apply-#[allowdynamicproperties]-to-interface-%s`
       * :ref:`cannot-inherit-previously-inherited-or-override-constant-%s-from-interface-%s`
       * :ref:`cannot-instantiate-interface-%s`
       * :ref:`class-%s-cannot-implement-previously-implemented-interface-%s`
@@ -1738,6 +1753,7 @@ Features index
    * serialization
 
       * :ref:`error-at-offset-%zd-of-%zd`
+      * :ref:`extra-data-starting-at-offset-%d-of-%zd-bytes`
       * :ref:`unserializing-the-\'s\'-format-is-deprecated`
 
 
@@ -1954,6 +1970,7 @@ Features index
       * :ref:`call-to-undefined-method-%s::%s()`
       * :ref:`calling-static-trait-method-%s::%s-is-deprecated`
       * :ref:`cannot-access-trait-constant-%s::%s-directly`
+      * :ref:`cannot-apply-#[allowdynamicproperties]-to-trait-%s`
       * :ref:`cannot-instantiate-trait-%s`
       * :ref:`class-%s-is-not-a-trait`
       * :ref:`could-not-find-trait-%s`
@@ -2090,6 +2107,7 @@ Features index
       * :ref:`security-level-must-be-one-of-"noauthnopriv",-"authnopriv",-or-"authpriv`
       * :ref:`security-protocol-must-be-one-of-"aes128",-or-"aes-e_error`
       * :ref:`security-protocol-must-be-one-of-"des",-"aes128",-or-"aes-e_error`
+      * :ref:`unknown-filter-with-id`
 
 
    * value
@@ -2105,6 +2123,7 @@ Features index
 
    * variable
 
+      * :ref:`dynamic-class-names-are-not-allowed-in-compile-time-class-constant-references`
       * :ref:`undefined-variable`
 
 

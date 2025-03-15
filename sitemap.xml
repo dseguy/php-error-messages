@@ -343,7 +343,16 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-add-element-to-the-array-as-the-next-element-is-already-occupied.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-apply-%23%5Ballowdynamicproperties%5D-to-enum-%25s.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-apply-%23%5Ballowdynamicproperties%5D-to-interface-%25s.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-apply-%23%5Ballowdynamicproperties%5D-to-readonly-class-%25s.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-apply-%23%5Ballowdynamicproperties%5D-to-trait-%25s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-assign-%25s-to-class-constant-%25s%3A%3A%25s-of-type.html</loc>
@@ -730,6 +739,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/duplicate-type-%25s-is-redundant.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/dynamic-class-names-are-not-allowed-in-compile-time-class-constant-references.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/empty-delimiter.html</loc>
  </url>
  <url>
@@ -761,6 +773,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/exponent-cannot-have-a-fractional-part.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/extra-data-starting-at-offset-%25d-of-%25zd-bytes.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/failed-to-open-stream-from-socketpair.html</loc>
@@ -1579,6 +1594,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/uninitialized-string-offset.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/unknown-filter-with-id.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unknown-format-specifier-%22%25c.html</loc>
  </url>
  <url>
@@ -1586,6 +1604,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unknown-named-parameter-%24%25s.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/unknown-or-bad-format-%28%25s%29.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unlink-of-%22%25s%22-failed%2C-file-does-not-exist.html</loc>

@@ -21,7 +21,7 @@ Non-static method %s::%s() should not be called statically
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/non-static-method-%s::%s()-should-not-be-called-statically.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/non-static-method-%s::%s()-should-not-be-called-statically.html","name":"Non-static method %s::%s() should not be called statically","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 21 Feb 2025 18:53:43 +0000","dateModified":"Fri, 21 Feb 2025 18:53:43 +0000","description":"A non-static method requires an object to be called, as PHP will populate that object in the ``$this`` method","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/non-static-method-%s::%s()-should-not-be-called-statically.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/non-static-method-%s::%s()-should-not-be-called-statically.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/non-static-method-%s::%s()-should-not-be-called-statically.html","name":"Non-static method %s::%s() should not be called statically","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 15 Mar 2025 08:24:03 +0000","dateModified":"Sat, 15 Mar 2025 08:24:03 +0000","description":"A non-static method requires an object to be called, as PHP will populate that object in the ``$this`` method","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/non-static-method-%s::%s()-should-not-be-called-statically.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -60,3 +60,6 @@ Related Error Messages
 ______________________
 
 + :ref:`non-static-method-%s::%s()-cannot-be-called-statically`
+
+
+In more recent PHP versions, this error message is now :ref:`non-static-method-%s::%s()-cannot-be-called-statically`.

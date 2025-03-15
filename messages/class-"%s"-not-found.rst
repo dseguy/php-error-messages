@@ -21,12 +21,14 @@ Class "%s" not found
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/class-\"%s\"-not-found.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/class-\"%s\"-not-found.html","name":"Class \"%s\" not found","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 21 Feb 2025 18:53:43 +0000","dateModified":"Fri, 21 Feb 2025 18:53:43 +0000","description":"This error message is reported when the class could not be loaded, or when the name of the class is invalid","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class-\"%s\"-not-found.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/class-\"%s\"-not-found.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/class-\"%s\"-not-found.html","name":"Class \"%s\" not found","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 07 Mar 2025 10:19:06 +0000","dateModified":"Fri, 07 Mar 2025 10:19:06 +0000","description":"This error message is reported when the class could not be loaded, or when the name of the class is invalid","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/class-\"%s\"-not-found.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
  
 This error message is reported when the class could not be loaded, or when the name of the class is invalid. 
+
+It appears when the classes are defined after they are required. It applies to classes in the same file, and never with autoloading.
 
 It also appears when unserializing an enumeration: PHP cannot distinguish a class constant or an enumeration case, so it reports a class error. Yet, this is the enuneration missing.
 
@@ -52,6 +54,11 @@ _______
    // unserializing an enumeration, but no such enumration.
    print_r(unserialize("a:1:{i:0;E:3:"f:A";}"));
    
+   
+   // B is defined after being required by A, so this is a fatal error.
+   class A extends B {}
+   class B extends C {}
+   class C {}
    ?>
 
 
@@ -71,6 +78,7 @@ _________
 + Avoid using getInstance() on that attribute.
 + Do not use static, parent or self in a string to call a method statically.
 + Check that the enumeration is loaded.
++ Put classes in different files, and use autoload.
 
 Related Error Messages
 ______________________

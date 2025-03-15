@@ -119,7 +119,10 @@ PHP Error Messages
    messages/cannot-acquire-reference-to-$globals.rst
    messages/cannot-acquire-reference-to-readonly-property-%s::$%s.rst
    messages/cannot-add-element-to-the-array-as-the-next-element-is-already-occupied.rst
+   messages/cannot-apply-#[allowdynamicproperties]-to-enum-%s.rst
+   messages/cannot-apply-#[allowdynamicproperties]-to-interface-%s.rst
    messages/cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s.rst
+   messages/cannot-apply-#[allowdynamicproperties]-to-trait-%s.rst
    messages/cannot-assign-%s-to-class-constant-%s::%s-of-type.rst
    messages/cannot-assign-%s-to-property-%s::$%s-of-type-%s.rst
    messages/cannot-assign-an-empty-string-to-a-string-offset.rst
@@ -248,6 +251,7 @@ PHP Error Messages
    messages/duplicate-declaration-of-static-variable-$%s.rst
    messages/duplicate-named-parameter-$%s.rst
    messages/duplicate-type-%s-is-redundant.rst
+   messages/dynamic-class-names-are-not-allowed-in-compile-time-class-constant-references.rst
    messages/empty-delimiter.rst
    messages/enabling-session.use_trans_sid-ini-setting-is-deprecated.rst
    messages/entry-%s-does-not-exist-and-cannot-be-deleted.rst
@@ -259,6 +263,7 @@ PHP Error Messages
    messages/enum-case-value-must-be-compile-time-evaluatable.rst
    messages/error-at-offset-%zd-of-%zd.rst
    messages/exponent-cannot-have-a-fractional-part.rst
+   messages/extra-data-starting-at-offset-%d-of-%zd-bytes.rst
    messages/failed-to-open-stream-from-socketpair.rst
    messages/fetching-properties-on-non-enums-in-constant-expressions-is-not-allowed.rst
    messages/ffi-api-is-restricted-by-"ffi.enable"-configuration-directive.rst
@@ -531,9 +536,11 @@ PHP Error Messages
    messages/undefined-variable.rst
    messages/unhandled-match-case-%s.rst
    messages/uninitialized-string-offset.rst
+   messages/unknown-filter-with-id.rst
    messages/unknown-format-specifier-"%c.rst
    messages/unknown-hook-"%s"-for-property-%s::$%s,-expected-"get"-or-"set".rst
    messages/unknown-named-parameter-$%s.rst
+   messages/unknown-or-bad-format-(%s).rst
    messages/unlink-of-"%s"-failed,-file-does-not-exist.rst
    messages/unmatched-')'.rst
    messages/unmatched-']'.rst
