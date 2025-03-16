@@ -21,7 +21,7 @@ Returning bool from comparison function is deprecated
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/returning-bool-from-comparison-function-is-deprecated.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/returning-bool-from-comparison-function-is-deprecated.html","name":"Returning bool from comparison function is deprecated","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 21 Feb 2025 18:53:43 +0000","dateModified":"Fri, 21 Feb 2025 18:53:43 +0000","description":"The comparison function should return 0, 1 or -1, and not just booleans","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/returning-bool-from-comparison-function-is-deprecated.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/returning-bool-from-comparison-function-is-deprecated.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/returning-bool-from-comparison-function-is-deprecated.html","name":"Returning bool from comparison function is deprecated","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Mar 2025 09:33:46 +0000","dateModified":"Sun, 16 Mar 2025 09:33:46 +0000","description":"The comparison function should return 0, 1 or -1, and not just booleans","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/returning-bool-from-comparison-function-is-deprecated.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -50,3 +50,8 @@ _________
 + Set the returntype of the comparison function to int.
 + Use the spaceship operator as possible.
 + Cast the result to integer.
+
+Changed Behavior
+________________
+
+This error may appear in different PHP versions `sortClosureReturnType <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/sortClosureReturnType.html>`_.

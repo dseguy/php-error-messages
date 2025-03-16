@@ -487,6 +487,11 @@ Features index
       * :ref:`is-not-a-valid-codepoint`
 
 
+   * comma
+
+      * :ref:`syntax-error,-unexpected-token-"use",-expecting-","-or-";"`
+
+
    * comment
 
       * :ref:`syntax-error,-unexpected-token-")",-expecting-"function"-or-"fn"-or-"static"-or-"#["`
@@ -909,6 +914,7 @@ Features index
       * :ref:`func_get_arg()-cannot-be-called-from-the-global-scope`
       * :ref:`func_get_args()-cannot-be-called-from-the-global-scope`
       * :ref:`func_num_args()-must-be-called-from-a-function-context`
+      * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"function"`
       * :ref:`syntax-error,-unexpected-token-"=",-expecting-variable`
 
 
@@ -970,12 +976,14 @@ Features index
 
    * identifier
 
+      * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"function"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"{"`
 
 
    * if-then
 
       * :ref:`syntax-error,-unexpected-\',\'`
+      * :ref:`syntax-error,-unexpected-\'elseif\'`
       * :ref:`syntax-error,-unexpected-token-";"`
       * :ref:`syntax-error,-unexpected-token-"if",-expecting-")"`
       * :ref:`syntax-error,-unexpected-token-"if",-expecting-"]"`
@@ -1112,7 +1120,9 @@ Features index
    * keyword
 
       * :ref:`never-cannot-be-used-as-a-parameter-type`
+      * :ref:`syntax-error,-unexpected-\'match\'`
       * :ref:`syntax-error,-unexpected-token-"%s",-expecting-identifier`
+      * :ref:`syntax-error,-unexpected-token-"::",-expecting-":"`
       * :ref:`syntax-error,-unexpected-token-"::"`
 
 
@@ -1188,6 +1198,7 @@ Features index
       * :ref:`match-expressions-may-only-contain-one-default-arm`
       * :ref:`syntax-error,-unexpected-\',\'`
       * :ref:`syntax-error,-unexpected-\'::\',-expecting-\'(\'`
+      * :ref:`syntax-error,-unexpected-\'match\'`
       * :ref:`syntax-error,-unexpected-token-"break"`
       * :ref:`syntax-error,-unexpected-token-"continue"`
       * :ref:`syntax-error,-unexpected-token-"match"`
@@ -1673,6 +1684,11 @@ Features index
       * :ref:`syntax-error,-unexpected-token-"match"`
 
 
+   * reserved-name
+
+      * :ref:`syntax-error,-unexpected-token-"::",-expecting-":"`
+
+
    * return
 
       * :ref:`%s%s%s():-return-value-must-be-of-type-%s,-%s-returned`
@@ -1740,6 +1756,11 @@ Features index
    * self-reference
 
       * :ref:`recursion-detected`
+
+
+   * semi-colon
+
+      * :ref:`syntax-error,-unexpected-token-"use",-expecting-","-or-";"`
 
 
    * semicolon

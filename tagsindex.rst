@@ -325,6 +325,8 @@ Tag index
       * :ref:`syntax-error,-unexpected-\'::\'-(t_paamayim_nekudotayim),-expecting-\';\'-or-\',\'`
       * :ref:`syntax-error,-unexpected-\';\',-expecting-\'[\'`
       * :ref:`syntax-error,-unexpected-\'[\',-expecting-\';\'-or-\',\'`
+      * :ref:`syntax-error,-unexpected-\'elseif\'`
+      * :ref:`syntax-error,-unexpected-\'match\'`
       * :ref:`syntax-error,-unexpected-\'|\',-expecting-variable-(t_variable)`
       * :ref:`syntax-error,-unexpected-end-of-file`
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"{"`
@@ -357,6 +359,7 @@ Tag index
       * :ref:`syntax-error,-unexpected-token-":",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-token-":"`
       * :ref:`syntax-error,-unexpected-token-"::",-expecting-","-or-";"`
+      * :ref:`syntax-error,-unexpected-token-"::",-expecting-":"`
       * :ref:`syntax-error,-unexpected-token-"::"`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-")"`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-","-or-")"`

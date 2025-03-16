@@ -417,6 +417,8 @@ PHP Error Messages
    messages/syntax-error,-unexpected-'::'-(t_paamayim_nekudotayim),-expecting-';'-or-','.rst
    messages/syntax-error,-unexpected-';',-expecting-'['.rst
    messages/syntax-error,-unexpected-'[',-expecting-';'-or-','.rst
+   messages/syntax-error,-unexpected-'elseif'.rst
+   messages/syntax-error,-unexpected-'match'.rst
    messages/syntax-error,-unexpected-'|',-expecting-variable-(t_variable).rst
    messages/syntax-error,-unexpected-end-of-file.rst
    messages/syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"{".rst
@@ -449,6 +451,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-":",-expecting-"]".rst
    messages/syntax-error,-unexpected-token-":".rst
    messages/syntax-error,-unexpected-token-"::",-expecting-","-or-";".rst
+   messages/syntax-error,-unexpected-token-"::",-expecting-":".rst
    messages/syntax-error,-unexpected-token-"::".rst
    messages/syntax-error,-unexpected-token-";",-expecting-")".rst
    messages/syntax-error,-unexpected-token-";",-expecting-","-or-")".rst
