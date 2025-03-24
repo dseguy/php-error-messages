@@ -23,8 +23,8 @@ Here is a list of classic syntax errors, met in every day code. Some common solu
       * :ref:`syntax-error,-unexpected-'[',-expecting-';'-or-','`
       * :ref:`syntax-error,-unexpected-'elseif'`
       * :ref:`syntax-error,-unexpected-'match'`
+      * :ref:`syntax-error,-unexpected-'throw'-(t_throw)`
       * :ref:`syntax-error,-unexpected-'|',-expecting-variable-(t_variable)`
-      * :ref:`syntax-error,-unexpected-\'throw\'-(t_throw)`
       * :ref:`syntax-error,-unexpected-end-of-file`
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-identifier-"%s"`
@@ -83,14 +83,17 @@ Here is a list of classic syntax errors, met in every day code. Some common solu
       * :ref:`syntax-error,-unexpected-token-"class",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-token-"continue"`
       * :ref:`syntax-error,-unexpected-token-"exit"`
+      * :ref:`syntax-error,-unexpected-token-"extends"`
       * :ref:`syntax-error,-unexpected-token-"extends",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"extends",-expecting-identifier`
       * :ref:`syntax-error,-unexpected-token-"if"`
       * :ref:`syntax-error,-unexpected-token-"if",-expecting-")"`
       * :ref:`syntax-error,-unexpected-token-"if",-expecting-"]"`
+      * :ref:`syntax-error,-unexpected-token-"implements"`
       * :ref:`syntax-error,-unexpected-token-"match"`
       * :ref:`syntax-error,-unexpected-token-"namespace"`
       * :ref:`syntax-error,-unexpected-token-"namespace",-expecting-"{"`
+      * :ref:`syntax-error,-unexpected-token-"private",-expecting-"("`
       * :ref:`syntax-error,-unexpected-token-"private",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"protected",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"public",-expecting-"{"`

@@ -22,6 +22,11 @@ Features index
       * :ref:`return-type-of-%s::%s()-should-either-be-compatible-with-%s::%s():-mixed`
 
 
+   * __callStatic
+
+      * :ref:`method-%s::%s()-must-be-static`
+
+
    * __invoke
 
       * :ref:`object-of-type-%s-is-not-callable`
@@ -428,6 +433,8 @@ Features index
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-identifier-"%s"`
       * :ref:`syntax-error,-unexpected-token-"extends",-expecting-identifier`
+      * :ref:`syntax-error,-unexpected-token-"extends"`
+      * :ref:`syntax-error,-unexpected-token-"implements"`
       * :ref:`syntax-error,-unexpected-token-"private",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"protected",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"public",-expecting-"{"`
@@ -748,6 +755,7 @@ Features index
       * :ref:`enum-case-type-%s-does-not-match-enum-backing-type-%s`
       * :ref:`fetching-properties-on-non-enums-in-constant-expressions-is-not-allowed`
       * :ref:`non-enum-class-%s-cannot-implement-interface-%s`
+      * :ref:`syntax-error,-unexpected-token-"implements"`
       * :ref:`syntax-error,-unexpected-token-"private",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"protected",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"public",-expecting-"{"`
@@ -825,6 +833,7 @@ Features index
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"extends",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"extends",-expecting-identifier`
+      * :ref:`syntax-error,-unexpected-token-"extends"`
 
 
    * extension
@@ -1007,6 +1016,7 @@ Features index
       * :ref:`class-%s-cannot-implement-both-iterator-and-iteratoraggregate-at-the-same-time`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"extends",-expecting-"{"`
+      * :ref:`syntax-error,-unexpected-token-"implements"`
 
 
    * index
@@ -1090,6 +1100,7 @@ Features index
       * :ref:`return-type-of-%s::%s()-should-either-be-compatible-with-%s::%s():-mixed`
       * :ref:`syntax-error,-unexpected-identifier-"%s"`
       * :ref:`syntax-error,-unexpected-token-"extends",-expecting-identifier`
+      * :ref:`syntax-error,-unexpected-token-"extends"`
       * :ref:`syntax-error,-unexpected-token-"private",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"protected",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"public",-expecting-"{"`
@@ -1552,6 +1563,7 @@ Features index
       * :ref:`cannot-declare-promoted-property-in-an-abstract-constructor`
       * :ref:`cannot-declare-promoted-property-outside-a-constructor`
       * :ref:`cannot-declare-variadic-promoted-property`
+      * :ref:`syntax-error,-unexpected-token-"private",-expecting-"("`
 
 
    * property
@@ -1806,6 +1818,11 @@ Features index
       * :ref:`unclosed-\'{\'`
 
 
+   * signature
+
+      * :ref:`syntax-error,-unexpected-token-"private",-expecting-"("`
+
+
    * silent
 
       * :ref:`array_product():-multiplication-is-not-supported-on-type-array`
@@ -1866,6 +1883,7 @@ Features index
       * :ref:`cannot-use-\'static\'-as-constant-modifier`
       * :ref:`cannot-use-\'static\'-as-method-modifier`
       * :ref:`cannot-use-the-%s-modifier-on-a-%s`
+      * :ref:`method-%s::%s()-must-be-static`
       * :ref:`multiple-static-modifiers-are-not-allowed`
       * :ref:`non-static-method-%s::%s()-cannot-be-called-statically`
       * :ref:`non-static-method-%s::%s()-should-not-be-called-statically`

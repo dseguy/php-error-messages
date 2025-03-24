@@ -421,7 +421,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-'[',-expecting-';'-or-','.rst
    messages/syntax-error,-unexpected-'elseif'.rst
    messages/syntax-error,-unexpected-'match'.rst
-   messages/syntax-error,-unexpected-\'throw\'-(t_throw).rst
+   messages/syntax-error,-unexpected-'throw'-(t_throw).rst
    messages/syntax-error,-unexpected-'|',-expecting-variable-(t_variable).rst
    messages/syntax-error,-unexpected-end-of-file.rst
    messages/syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"{".rst
@@ -483,12 +483,15 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-"exit".rst
    messages/syntax-error,-unexpected-token-"extends",-expecting-"{".rst
    messages/syntax-error,-unexpected-token-"extends",-expecting-identifier.rst
+   messages/syntax-error,-unexpected-token-"extends".rst
    messages/syntax-error,-unexpected-token-"if",-expecting-")".rst
    messages/syntax-error,-unexpected-token-"if",-expecting-"]".rst
    messages/syntax-error,-unexpected-token-"if".rst
+   messages/syntax-error,-unexpected-token-"implements".rst
    messages/syntax-error,-unexpected-token-"match".rst
    messages/syntax-error,-unexpected-token-"namespace",-expecting-"{".rst
    messages/syntax-error,-unexpected-token-"namespace".rst
+   messages/syntax-error,-unexpected-token-"private",-expecting-"(".rst
    messages/syntax-error,-unexpected-token-"private",-expecting-"{".rst
    messages/syntax-error,-unexpected-token-"protected",-expecting-"{".rst
    messages/syntax-error,-unexpected-token-"public",-expecting-"{".rst
