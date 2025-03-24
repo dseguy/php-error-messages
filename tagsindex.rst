@@ -233,6 +233,7 @@ Tag index
    * operators
 
       * :ref:`the-behavior-of-unparenthesized-expressions-containing-both-\'.\'-and-\'+\'-\'-\'-will-change-in-php-8:-\'+\'-\'-\'-will-take-a-higher-precedence`
+      * :ref:`the-behavior-of-unparenthesized-expressions-containing-both-\'.\'-and-\'<<\'-\'>>\'-will-change-in-php-8:-\'<<\'-\'>>\'-will-take-a-higher-precedence`
       * :ref:`the-behavior-of-unparenthesized-expressions-containing-both-\'.\'-and-\'>>\'-\'<<\'-will-change-in-php-8:-\'<<\'-\'>>\'-will-take-a-higher-precedence`
 
 
@@ -327,6 +328,7 @@ Tag index
       * :ref:`syntax-error,-unexpected-\'[\',-expecting-\';\'-or-\',\'`
       * :ref:`syntax-error,-unexpected-\'elseif\'`
       * :ref:`syntax-error,-unexpected-\'match\'`
+      * :ref:`syntax-error,-unexpected-\'throw\'-(t_throw)`
       * :ref:`syntax-error,-unexpected-\'|\',-expecting-variable-(t_variable)`
       * :ref:`syntax-error,-unexpected-end-of-file`
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"{"`

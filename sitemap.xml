@@ -802,6 +802,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/func_num_args%28%29-must-be-called-from-a-function-context.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/function-libxml_disable_entity_loader%28%29-is-deprecated-since-8.0%2C-as-external-entity-loading-is-disabled-by-default.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/function-name-must-be-a-string.html</loc>
  </url>
  <url>
@@ -1102,6 +1105,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/parameter-uses-%27parent%27-as-type-hint-although-class-does-not-have-a-parent%21.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/passing-e_user_error-to-trigger_error%28%29-is-deprecated-since-8.4%2C-throw-an-exception-or-call-exit-with-a-string-message-instead.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/passing-false-or-null-is-deprecated-since-8.4.html</loc>
  </url>
  <url>
@@ -1241,6 +1247,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-%27match%27.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-%5C%27throw%5C%27-%28t_throw%29.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-%27%7C%27%2C-expecting-variable-%28t_variable%29.html</loc>
@@ -1492,6 +1501,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-behavior-of-unparenthesized-expressions-containing-both-%27.%27-and-%27%2B%27-%27-%27-will-change-in-php-8%3A-%27%2B%27-%27-%27-will-take-a-higher-precedence.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-behavior-of-unparenthesized-expressions-containing-both-%27.%27-and-%27%3C%3C%27-%27%3E%3E%27-will-change-in-php-8%3A-%27%3C%3C%27-%27%3E%3E%27-will-take-a-higher-precedence.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-behavior-of-unparenthesized-expressions-containing-both-%27.%27-and-%27%3E%3E%27-%27%3C%3C%27-will-change-in-php-8%3A-%27%3C%3C%27-%27%3E%3E%27-will-take-a-higher-precedence.html</loc>
  </url>
  <url>
@@ -1652,6 +1664,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/use-of-%22static%22-in-callables-is-deprecated.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/using-%22_%22-as-%25s-is-deprecated-since-8.4.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/using-%24this-when-not-in-object-context.html</loc>

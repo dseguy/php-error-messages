@@ -272,6 +272,7 @@ PHP Error Messages
    messages/func_get_arg()-cannot-be-called-from-the-global-scope.rst
    messages/func_get_args()-cannot-be-called-from-the-global-scope.rst
    messages/func_num_args()-must-be-called-from-a-function-context.rst
+   messages/function-libxml_disable_entity_loader()-is-deprecated-since-8.0,-as-external-entity-loading-is-disabled-by-default.rst
    messages/function-name-must-be-a-string.rst
    messages/generator-return-type-must-be-a-supertype-of-generator.rst
    messages/generators-cannot-return-values-using-"return".rst
@@ -372,6 +373,7 @@ PHP Error Messages
    messages/optional-parameter-$%s-declared-before-required-parameter-$%s-is-implicitly-treated-as-a-required-parameter.rst
    messages/parameter-%d-must-be-passed-by-reference.rst
    messages/parameter-uses-'parent'-as-type-hint-although-class-does-not-have-a-parent!.rst
+   messages/passing-e_user_error-to-trigger_error()-is-deprecated-since-8.4,-throw-an-exception-or-call-exit-with-a-string-message-instead.rst
    messages/passing-false-or-null-is-deprecated-since-8.4.rst
    messages/passing-the-encoding-as-third-parameter-is-deprecated.-use-an-explicit-zero-offset.rst
    messages/path-cannot-be-empty.rst
@@ -419,6 +421,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-'[',-expecting-';'-or-','.rst
    messages/syntax-error,-unexpected-'elseif'.rst
    messages/syntax-error,-unexpected-'match'.rst
+   messages/syntax-error,-unexpected-\'throw\'-(t_throw).rst
    messages/syntax-error,-unexpected-'|',-expecting-variable-(t_variable).rst
    messages/syntax-error,-unexpected-end-of-file.rst
    messages/syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"{".rst
@@ -502,6 +505,7 @@ PHP Error Messages
    messages/the-(unset)-cast-is-deprecated.rst
    messages/the-(unset)-cast-is-no-longer-supported.rst
    messages/the-behavior-of-unparenthesized-expressions-containing-both-'.'-and-'+'-'-'-will-change-in-php-8:-'+'-'-'-will-take-a-higher-precedence.rst
+   messages/the-behavior-of-unparenthesized-expressions-containing-both-'.'-and-'<<'-'>>'-will-change-in-php-8:-'<<'-'>>'-will-take-a-higher-precedence.rst
    messages/the-behavior-of-unparenthesized-expressions-containing-both-'.'-and-'>>'-'<<'-will-change-in-php-8:-'<<'-'>>'-will-take-a-higher-precedence.rst
    messages/the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls.rst
    messages/the-magic-method-%s::%s()-must-have-public-visibility.rst
@@ -556,6 +560,7 @@ PHP Error Messages
    messages/use-of-"parent"-in-callables-is-deprecated.rst
    messages/use-of-"self"-in-callables-is-deprecated.rst
    messages/use-of-"static"-in-callables-is-deprecated.rst
+   messages/using-"_"-as-%s-is-deprecated-since-8.4.rst
    messages/using-$this-when-not-in-object-context.rst
    messages/using-${expr}-(variable-variables)-in-strings-is-deprecated,-use-{${expr}}-instead.rst
    messages/using-${var}-in-strings-is-deprecated,-use-{$var}-instead.rst

@@ -285,6 +285,11 @@ Features index
       * :ref:`invalid-numeric-literal`
 
 
+   * bitshift-opeartor
+
+      * :ref:`the-behavior-of-unparenthesized-expressions-containing-both-\'.\'-and-\'<<\'-\'>>\'-will-change-in-php-8:-\'<<\'-\'>>\'-will-take-a-higher-precedence`
+
+
    * bitshift-operator
 
       * :ref:`syntax-error,-unexpected-token-"<<"`
@@ -524,6 +529,7 @@ Features index
    * concatenation
 
       * :ref:`the-behavior-of-unparenthesized-expressions-containing-both-\'.\'-and-\'+\'-\'-\'-will-change-in-php-8:-\'+\'-\'-\'-will-take-a-higher-precedence`
+      * :ref:`the-behavior-of-unparenthesized-expressions-containing-both-\'.\'-and-\'<<\'-\'>>\'-will-change-in-php-8:-\'<<\'-\'>>\'-will-take-a-higher-precedence`
       * :ref:`the-behavior-of-unparenthesized-expressions-containing-both-\'.\'-and-\'>>\'-\'<<\'-will-change-in-php-8:-\'<<\'-\'>>\'-will-take-a-higher-precedence`
 
 
@@ -762,6 +768,7 @@ Features index
    * error
 
       * :ref:`%s-%s-cannot-implement-interface-%s,-extend-exception-or-error-instead`
+      * :ref:`passing-e_user_error-to-trigger_error()-is-deprecated-since-8.4,-throw-an-exception-or-call-exit-with-a-string-message-instead`
 
 
    * escape-data
@@ -782,6 +789,7 @@ Features index
       * :ref:`can-only-throw-objects`
       * :ref:`cannot-throw-objects-that-do-not-implement-throwable`
       * :ref:`cannot-use-try-without-catch-or-finally`
+      * :ref:`passing-e_user_error-to-trigger_error()-is-deprecated-since-8.4,-throw-an-exception-or-call-exit-with-a-string-message-instead`
 
 
    * execution-time
@@ -807,6 +815,7 @@ Features index
 
       * :ref:`cannot-use-isset()-on-the-result-of-an-expression-(you-can-use-"null-!==-expression"-instead)`
       * :ref:`cannot-use-list()-as-standalone-expression`
+      * :ref:`syntax-error,-unexpected-\'throw\'-(t_throw)`
       * :ref:`syntax-error,-unexpected-token-"if"`
 
 
@@ -1050,6 +1059,7 @@ Features index
 
    * instruction
 
+      * :ref:`syntax-error,-unexpected-\'throw\'-(t_throw)`
       * :ref:`syntax-error,-unexpected-token-"use",-expecting-","-or-";"`
 
 
@@ -1487,6 +1497,11 @@ Features index
       * :ref:`unparenthesized-\`a-?-b-:-c-?-d-:-e\`-is-not-supported.`
 
 
+   * pattern-matching
+
+      * :ref:`using-"_"-as-%s-is-deprecated-since-8.4`
+
+
    * phar
 
       * :ref:`entry-%s-does-not-exist-and-cannot-be-deleted`
@@ -1578,6 +1593,7 @@ Features index
       * :ref:`cannot-use-the-abstract-modifier-on-a-property`
       * :ref:`cannot-use-the-final-modifier-on-a-property`
       * :ref:`hooked-properties-cannot-be-readonly`
+      * :ref:`interfaces-may-not-include-properties`
       * :ref:`interfaces-may-only-include-hooked-properties`
       * :ref:`must-not-use-parent::\$%s::%s()-in-a-different-property-(\$%s)`
       * :ref:`must-not-use-parent::\$%s::%s()-in-a-different-property-hook-(%s)`
@@ -1687,6 +1703,7 @@ Features index
    * reserved-name
 
       * :ref:`syntax-error,-unexpected-token-"::",-expecting-":"`
+      * :ref:`using-"_"-as-%s-is-deprecated-since-8.4`
 
 
    * return
@@ -1962,6 +1979,7 @@ Features index
       * :ref:`can-only-throw-objects`
       * :ref:`cannot-throw-objects-that-do-not-implement-throwable`
       * :ref:`never-returning-function-must-not-implicitly-return`
+      * :ref:`syntax-error,-unexpected-\'throw\'-(t_throw)`
 
 
    * throwable
