@@ -237,6 +237,8 @@ PHP Error Messages
    messages/declaration-of-%s-must-be-compatible-with-%s.rst
    messages/declaration-of-%s::%s()-must-be-compatible-with-%s::%s().rst
    messages/declaration-of-case-insensitive-constants-is-no-longer-supported.rst
+   messages/decrement-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php.rst
+   messages/decrement-on-type-null-has-no-effect,-this-will-change-in-the-next-major-version-of-php.rst
    messages/default-value-for-parameters-with-a-%s-type-can-only-be-%s-or-null.rst
    messages/default-value-for-property-of-type-int-may-not-be-null.-use-the-nullable-type-?int-to-allow-null-default-value.rst
    messages/define():-argument-#3-($case_insensitive)-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported.rst
@@ -492,6 +494,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-"namespace",-expecting-"{".rst
    messages/syntax-error,-unexpected-token-"namespace".rst
    messages/syntax-error,-unexpected-token-"private",-expecting-"(".rst
+   messages/syntax-error,-unexpected-token-"private",-expecting-")".rst
    messages/syntax-error,-unexpected-token-"private",-expecting-"{".rst
    messages/syntax-error,-unexpected-token-"protected",-expecting-"{".rst
    messages/syntax-error,-unexpected-token-"public",-expecting-"{".rst
@@ -499,6 +502,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-"use",-expecting-"{".rst
    messages/syntax-error,-unexpected-token-"use".rst
    messages/syntax-error,-unexpected-token-"{",-expecting-","-or-";".rst
+   messages/syntax-error,-unexpected-token-"{",-expecting-variable.rst
    messages/syntax-error,-unexpected-token-"{".rst
    messages/syntax-error,-unexpected-token-"}".rst
    messages/the-"generator"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated.rst

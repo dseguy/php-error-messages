@@ -21,7 +21,7 @@ Increment on type bool has no effect, this will change in the next major version
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/increment-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/increment-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php.html","name":"Increment on type bool has no effect, this will change in the next major version of PHP","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 21 Feb 2025 18:53:43 +0000","dateModified":"Fri, 21 Feb 2025 18:53:43 +0000","description":"Post increment on a boolean leaves the value unchanged","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/increment-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/increment-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/increment-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php.html","name":"Increment on type bool has no effect, this will change in the next major version of PHP","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 25 Mar 2025 21:29:24 +0000","dateModified":"Tue, 25 Mar 2025 21:29:24 +0000","description":"Post increment on a boolean leaves the value unchanged","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/increment-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -54,6 +54,12 @@ _________
 
 + Avoid initializing variables with booleans before incrementing them.
 + In case of doubt, check the type before the increment.
+
+Related Error Messages
+______________________
+
++ :ref:`decrement-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php`
++ :ref:`decrement-on-type-null-has-no-effect,-this-will-change-in-the-next-major-version-of-php`
 
 See Also
 ________

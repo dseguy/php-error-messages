@@ -320,6 +320,7 @@ Features index
 
    * boolean
 
+      * :ref:`decrement-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php`
       * :ref:`increment-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php`
       * :ref:`type-contains-both-true-and-false,-bool-must-be-used-instead`
 
@@ -1019,6 +1020,11 @@ Features index
       * :ref:`syntax-error,-unexpected-token-"implements"`
 
 
+   * increment
+
+      * :ref:`decrement-on-type-null-has-no-effect,-this-will-change-in-the-next-major-version-of-php`
+
+
    * index
 
       * :ref:`cannot-use-positional-argument-after-named-argument-during-unpacking`
@@ -1327,6 +1333,7 @@ Features index
 
       * :ref:`\'namespace-%s\'-is-an-invalid-class-name`
       * :ref:`call-to-undefined-function`
+      * :ref:`cannot-use-\'namespace\'-as-namespace-name`
       * :ref:`namespace-declarations-cannot-be-nested`
       * :ref:`no-code-may-exist-outside-of-namespace-{}`
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"{"`
@@ -1386,6 +1393,7 @@ Features index
       * :ref:`attempt-to-assign-property-"%s"-on-null`
       * :ref:`attempt-to-read-property-"%s"-on-%s`
       * :ref:`can\'t-use-nullsafe-operator-in-write-context`
+      * :ref:`decrement-on-type-null-has-no-effect,-this-will-change-in-the-next-major-version-of-php`
       * :ref:`trying-to-access-array-offset-on-%s`
 
 
@@ -1564,6 +1572,7 @@ Features index
       * :ref:`cannot-declare-promoted-property-outside-a-constructor`
       * :ref:`cannot-declare-variadic-promoted-property`
       * :ref:`syntax-error,-unexpected-token-"private",-expecting-"("`
+      * :ref:`syntax-error,-unexpected-token-"private",-expecting-")"`
 
 
    * property
@@ -1787,17 +1796,13 @@ Features index
       * :ref:`recursion-detected`
 
 
-   * semi-colon
-
-      * :ref:`syntax-error,-unexpected-token-"use",-expecting-","-or-";"`
-
-
    * semicolon
 
       * :ref:`syntax-error,-unexpected-end-of-file`
       * :ref:`syntax-error,-unexpected-token-",",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-")"`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-"]"`
+      * :ref:`syntax-error,-unexpected-token-"use",-expecting-","-or-";"`
 
 
    * serialization
@@ -1821,6 +1826,7 @@ Features index
    * signature
 
       * :ref:`syntax-error,-unexpected-token-"private",-expecting-"("`
+      * :ref:`syntax-error,-unexpected-token-"{",-expecting-variable`
 
 
    * silent

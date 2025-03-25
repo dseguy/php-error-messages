@@ -697,6 +697,12 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/declaration-of-case-insensitive-constants-is-no-longer-supported.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/decrement-on-type-bool-has-no-effect%2C-this-will-change-in-the-next-major-version-of-php.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/decrement-on-type-null-has-no-effect%2C-this-will-change-in-the-next-major-version-of-php.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/default-value-for-parameters-with-a-%25s-type-can-only-be-%25s-or-null.html</loc>
  </url>
  <url>
@@ -1462,6 +1468,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22private%22%2C-expecting-%22%28%22.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22private%22%2C-expecting-%22%29%22.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22private%22%2C-expecting-%22%7B%22.html</loc>
  </url>
  <url>
@@ -1481,6 +1490,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%7B%22%2C-expecting-%22%2C%22-or-%22%3B%22.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%7B%22%2C-expecting-variable.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%7B%22.html</loc>
