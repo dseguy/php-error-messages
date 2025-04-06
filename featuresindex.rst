@@ -430,6 +430,7 @@ Features index
       * :ref:`class-%s-cannot-extend-%s-%s`
       * :ref:`illegal-class-name`
       * :ref:`must-be-a-user-defined-class-name,-internal-class-name-given`
+      * :ref:`must-be-a-valid-class-name,-%s-given`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"function"-or-"const"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-identifier-"%s"`
@@ -674,6 +675,11 @@ Features index
       * :ref:`constant-%s-is-deprecated`
       * :ref:`constant-%s::%s-is-deprecated`
       * :ref:`get_defined_functions():-setting-\$exclude_disabled-to-false-has-no-effect`
+
+
+   * deprecation
+
+      * :ref:`constant-%s::%s-is-deprecated`
 
 
    * depth
@@ -1931,6 +1937,7 @@ Features index
    * strict_types
 
       * :ref:`can-only-flip-string-and-integer-values,-entry-skipped`
+      * :ref:`cannot-assign-%s-to-property-%s::\$%s-of-type-%s`
       * :ref:`must-be-of-type-%s,-%s-given`
       * :ref:`object-of-class-%s-could-not-be-converted-to-%s`
       * :ref:`return-value-of-%s%s%s()-must-%s%s%s,-%s%s-returned`

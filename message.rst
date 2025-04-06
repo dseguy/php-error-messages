@@ -327,6 +327,7 @@ PHP Error Messages
    messages/multiple-static-modifiers-are-not-allowed.rst
    messages/must-be-a-finite-value.rst
    messages/must-be-a-user-defined-class-name,-internal-class-name-given.rst
+   messages/must-be-a-valid-class-name,-%s-given.rst
    messages/must-be-a-valid-comparison-operator.rst
    messages/must-be-a-valid-encoding,-"%s"-given.rst
    messages/must-be-a-valid-method-name.rst

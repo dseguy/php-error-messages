@@ -21,7 +21,7 @@ Calling %s() on an object is deprecated
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/calling-%s()-on-an-object-is-deprecated.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/calling-%s()-on-an-object-is-deprecated.html","name":"Calling %s() on an object is deprecated","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 23 Feb 2025 02:54:27 +0000","dateModified":"Sun, 23 Feb 2025 02:54:27 +0000","description":"``prev()``, ``current()``, ``next()`` and ``reset()`` where php native functions used to navigate in arrays","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/calling-%s()-on-an-object-is-deprecated.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/calling-%s()-on-an-object-is-deprecated.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/calling-%s()-on-an-object-is-deprecated.html","name":"Calling %s() on an object is deprecated","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 06 Apr 2025 08:11:36 +0000","dateModified":"Sun, 06 Apr 2025 08:11:36 +0000","description":"``prev()``, ``current()``, ``next()`` and ``reset()`` where php native functions used to navigate in arrays","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/calling-%s()-on-an-object-is-deprecated.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -53,3 +53,8 @@ Solutions
 _________
 
 + Cast the object to an array, and store it in a variable before using the mentioned functions.
+
+Changed Behavior
+________________
+
+This error may appear in different PHP versions `passingObjectIsDeprecated <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/passingObjectIsDeprecated.html>`_.

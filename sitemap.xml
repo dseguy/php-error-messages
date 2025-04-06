@@ -967,6 +967,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-a-user-defined-class-name%2C-internal-class-name-given.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-a-valid-class-name%2C-%25s-given.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-a-valid-comparison-operator.html</loc>
  </url>
  <url>
