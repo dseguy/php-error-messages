@@ -344,6 +344,7 @@ Features index
    * by-value
 
       * :ref:`cannot-pass-parameter-%d-by-reference`
+      * :ref:`indirect-modification-of-%s::\$%s-is-not-allowed`
 
 
    * call
@@ -610,6 +611,11 @@ Features index
    * csv
 
       * :ref:`the-\$escape-parameter-must-be-provided-as-its-default-value-will-change`
+
+
+   * curl
+
+      * :ref:`contains-an-invalid-curl-option`
 
 
    * curly-bracket
@@ -911,6 +917,7 @@ Features index
    * foreach
 
       * :ref:`an-iterator-cannot-be-used-with-foreach-by-reference`
+      * :ref:`cannot-create-reference-to-property-%s::\$%s`
       * :ref:`foreach()-argument-must-be-of-type-array|object`
       * :ref:`invalid-argument-supplied-for-foreach()`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-variable`
@@ -1611,6 +1618,7 @@ Features index
    * property-hook
 
       * :ref:`abstract-property-hook-cannot-have-body`
+      * :ref:`cannot-create-reference-to-property-%s::\$%s`
       * :ref:`cannot-declare-hooks-for-static-property`
       * :ref:`cannot-override-final-property-hook-%s::%s()`
       * :ref:`cannot-redeclare-property-hook`
@@ -1619,7 +1627,9 @@ Features index
       * :ref:`cannot-use-the-abstract-modifier-on-a-property-hook`
       * :ref:`cannot-use-the-abstract-modifier-on-a-property`
       * :ref:`cannot-use-the-final-modifier-on-a-property`
+      * :ref:`cannot-use-the-static-modifier-on-a-property-hook`
       * :ref:`hooked-properties-cannot-be-readonly`
+      * :ref:`indirect-modification-of-%s::\$%s-is-not-allowed`
       * :ref:`interfaces-may-not-include-properties`
       * :ref:`interfaces-may-only-include-hooked-properties`
       * :ref:`must-not-use-parent::\$%s::%s()-in-a-different-property-(\$%s)`
@@ -1685,8 +1695,10 @@ Features index
       * :ref:`an-iterator-cannot-be-used-with-foreach-by-reference`
       * :ref:`cannot-acquire-reference-to-\$globals`
       * :ref:`cannot-acquire-reference-to-readonly-property-%s::\$%s`
+      * :ref:`cannot-create-reference-to-property-%s::\$%s`
       * :ref:`cannot-pass-parameter-%d-by-reference`
       * :ref:`cannot-use-variable-\$%s-twice`
+      * :ref:`indirect-modification-of-%s::\$%s-is-not-allowed`
       * :ref:`only-variable-references-should-be-returned-by-reference`
       * :ref:`only-variable-references-should-be-yielded-by-reference`
       * :ref:`only-variables-can-be-passed-by-reference`
@@ -2078,6 +2090,7 @@ Features index
 
       * :ref:`%s"-will-be-interpreted-as-a-class-name.-did-you-mean-"%s"?-write-"%s"%s-to-suppress-this-warning`
       * :ref:`%s():-implicitly-marking-parameter-\$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead`
+      * :ref:`%s-is-not-supported-on-type-%s`
       * :ref:`argument-#%d-(\$%s)-must-be-of-type-%s,-%s-given`
       * :ref:`cannot-assign-%s-to-class-constant-%s::%s-of-type`
       * :ref:`cannot-assign-%s-to-property-%s::\$%s-of-type-%s`

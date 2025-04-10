@@ -79,6 +79,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s-function-%25s%3A%3A%25s%28%29-cannot-be-declared-private.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s-is-not-supported-on-type-%25s.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s-virtual-property-%25s%3A%3A%24%25s-must-not-specify-asymmetric-visibility.html</loc>
  </url>
  <url>
@@ -385,6 +388,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-combine-named-arguments-and-argument-unpacking.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-create-reference-to-property-%25s%3A%3A%24%25s.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-declare-hooks-for-static-property.html</loc>
  </url>
  <url>
@@ -523,6 +529,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%27mixed%27-as-class-name-as-it-is-reserved.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%27namespace%27-as-namespace-name.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%27never%27-as-class-name-as-it-is-reserved.html</loc>
  </url>
  <url>
@@ -601,6 +610,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-the-final-modifier-on-a-property.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-the-static-modifier-on-a-property-hook.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-try-without-catch-or-finally.html</loc>
  </url>
  <url>
@@ -659,6 +671,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/constructors-cannot-declare-a-return-type.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/contains-an-invalid-curl-option.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/continue%22-targeting-switch-is-equivalent-to-%22break.html</loc>
@@ -866,6 +881,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/index-invalid-or-out-of-range.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/indirect-modification-of-%25s%3A%3A%24%25s-is-not-allowed.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/indirect-modification-of-overloaded-element-of-%25s-has-no-effect.html</loc>

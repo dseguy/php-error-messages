@@ -31,6 +31,7 @@ PHP Error Messages
    messages/%s-cannot-implement-%s---it-is-not-an-interface.rst
    messages/%s-cannot-use-%s---it-is-not-a-trait.rst
    messages/%s-function-%s::%s()-cannot-be-declared-private.rst
+   messages/%s-is-not-supported-on-type-%s.rst
    messages/%s-virtual-property-%s::$%s-must-not-specify-asymmetric-visibility.rst
    messages/%s::%s()-has-#[-override]-attribute,-but-no-matching-parent-method-exists.rst
    messages/%s::%s():-return-type-must-be-%s-when-declared.rst
@@ -133,6 +134,7 @@ PHP Error Messages
    messages/cannot-bind-an-instance-to-a-static-closure.rst
    messages/cannot-call-constructor.rst
    messages/cannot-combine-named-arguments-and-argument-unpacking.rst
+   messages/cannot-create-reference-to-property-%s::$%s.rst
    messages/cannot-declare-hooks-for-static-property.rst
    messages/cannot-declare-promoted-property-in-an-abstract-constructor.rst
    messages/cannot-declare-promoted-property-outside-a-constructor.rst
@@ -179,6 +181,7 @@ PHP Error Messages
    messages/cannot-use-'final'-as-constant-modifier.rst
    messages/cannot-use-'final'-as-method-modifier.rst
    messages/cannot-use-'mixed'-as-class-name-as-it-is-reserved.rst
+   messages/cannot-use-'namespace'-as-namespace-name.rst
    messages/cannot-use-'never'-as-class-name-as-it-is-reserved.rst
    messages/cannot-use-'readonly'-as-%s-modifier.rst
    messages/cannot-use-'readonly'-as-method-modifier.rst
@@ -205,6 +208,7 @@ PHP Error Messages
    messages/cannot-use-the-abstract-modifier-on-a-property-hook.rst
    messages/cannot-use-the-abstract-modifier-on-a-property.rst
    messages/cannot-use-the-final-modifier-on-a-property.rst
+   messages/cannot-use-the-static-modifier-on-a-property-hook.rst
    messages/cannot-use-try-without-catch-or-finally.rst
    messages/cannot-use-variable-$%s-twice.rst
    messages/case-%s::%s-does-not-exist.rst
@@ -225,6 +229,7 @@ PHP Error Messages
    messages/constant-expression-contains-invalid-operations.rst
    messages/constructor-%s::%s()-cannot-declare-a-return-type.rst
    messages/constructors-cannot-declare-a-return-type.rst
+   messages/contains-an-invalid-curl-option.rst
    messages/continue"-targeting-switch-is-equivalent-to-"break.rst
    messages/continue-operator-accepts-only-positive-integers.rst
    messages/could-not-check-compatibility-between-%s-and-%s,-because-class-%s-is-not-available.rst
@@ -294,6 +299,7 @@ PHP Error Messages
    messages/implicit-conversion-from-float-string-"%s"-to-int-loses.rst
    messages/increment-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php.rst
    messages/index-invalid-or-out-of-range.rst
+   messages/indirect-modification-of-%s::$%s-is-not-allowed.rst
    messages/indirect-modification-of-overloaded-element-of-%s-has-no-effect.rst
    messages/indirect-modification-of-overloaded-property-%s::$%s-has-no-effect.rst
    messages/instanceof-expects-an-object-instance,-constant-given.rst
