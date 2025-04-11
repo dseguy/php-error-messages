@@ -6,7 +6,7 @@ Unsupported operand types
 .. meta::
 	:description:
 		Unsupported operand types: This error is emitted when PHP cannot find a reasonable way to use the parameters of an operator.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Unsupported operand types
 	:og:description: This error is emitted when PHP cannot find a reasonable way to use the parameters of an operator
@@ -17,7 +17,7 @@ Unsupported operand types
 	:twitter:title: Unsupported operand types
 	:twitter:description: Unsupported operand types: This error is emitted when PHP cannot find a reasonable way to use the parameters of an operator
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

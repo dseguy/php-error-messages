@@ -6,7 +6,7 @@ Empty delimiter
 .. meta::
 	:description:
 		Empty delimiter: The explode() function doesn&#039;t work without a non-empty delimiter.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Empty delimiter
 	:og:description: The explode() function doesn&#039;t work without a non-empty delimiter
@@ -17,7 +17,7 @@ Empty delimiter
 	:twitter:title: Empty delimiter
 	:twitter:description: Empty delimiter: The explode() function doesn't work without a non-empty delimiter
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

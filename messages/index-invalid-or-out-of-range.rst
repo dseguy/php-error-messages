@@ -6,7 +6,7 @@ Index invalid or out of range
 .. meta::
 	:description:
 		Index invalid or out of range: This error message is returned by the ``SplFixedArray`` object, when trying to access indices outside the validity interval.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Index invalid or out of range
 	:og:description: This error message is returned by the ``SplFixedArray`` object, when trying to access indices outside the validity interval
@@ -17,7 +17,7 @@ Index invalid or out of range
 	:twitter:title: Index invalid or out of range
 	:twitter:description: Index invalid or out of range: This error message is returned by the ``SplFixedArray`` object, when trying to access indices outside the validity interval
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

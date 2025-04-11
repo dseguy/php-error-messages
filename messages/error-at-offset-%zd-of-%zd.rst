@@ -6,7 +6,7 @@ Error at offset %zd of %zd
 .. meta::
 	:description:
 		Error at offset %zd of %zd: Unserialize() reads a string, and parse it to produce a value: integer, string, array, object.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Error at offset %zd of %zd
 	:og:description: Unserialize() reads a string, and parse it to produce a value: integer, string, array, object
@@ -17,7 +17,7 @@ Error at offset %zd of %zd
 	:twitter:title: Error at offset %zd of %zd
 	:twitter:description: Error at offset %zd of %zd: Unserialize() reads a string, and parse it to produce a value: integer, string, array, object
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

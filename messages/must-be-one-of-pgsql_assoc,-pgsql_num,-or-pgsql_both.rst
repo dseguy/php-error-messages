@@ -6,7 +6,7 @@ must be one of PGSQL_ASSOC, PGSQL_NUM, or PGSQL_BOTH
 .. meta::
 	:description:
 		must be one of PGSQL_ASSOC, PGSQL_NUM, or PGSQL_BOTH: pg_fetch_all() 2nd argument must be one of 3 possible pgsql constants:  PGSQL_ASSOC, PGSQL_NUM and PGSQL_BOTH.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: must be one of PGSQL_ASSOC, PGSQL_NUM, or PGSQL_BOTH
 	:og:description: pg_fetch_all() 2nd argument must be one of 3 possible pgsql constants:  PGSQL_ASSOC, PGSQL_NUM and PGSQL_BOTH
@@ -17,7 +17,7 @@ must be one of PGSQL_ASSOC, PGSQL_NUM, or PGSQL_BOTH
 	:twitter:title: must be one of PGSQL_ASSOC, PGSQL_NUM, or PGSQL_BOTH
 	:twitter:description: must be one of PGSQL_ASSOC, PGSQL_NUM, or PGSQL_BOTH: pg_fetch_all() 2nd argument must be one of 3 possible pgsql constants:  PGSQL_ASSOC, PGSQL_NUM and PGSQL_BOTH
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
@@ -56,3 +56,8 @@ See Also
 ________
 
 + `PredefinedConstants <https://www.php.net/manual/en/pgsql.constants.php#constant.pgsql-notice-all>`_
+
+Static Analysis
+_______________
+
+This error may be tracked down with the following static analysis rules: `Functions/UseConstantAsArguments <https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/UseConstantAsArguments.html>`_.

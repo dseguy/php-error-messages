@@ -6,7 +6,7 @@ Type must be a single character
 .. meta::
 	:description:
 		Type must be a single character: The ``type`` argument of the snmp2_set() function is a list of types: one or more.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Type must be a single character
 	:og:description: The ``type`` argument of the snmp2_set() function is a list of types: one or more
@@ -17,7 +17,7 @@ Type must be a single character
 	:twitter:title: Type must be a single character
 	:twitter:description: Type must be a single character: The ``type`` argument of the snmp2_set() function is a list of types: one or more
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

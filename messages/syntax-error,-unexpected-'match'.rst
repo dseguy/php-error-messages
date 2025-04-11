@@ -6,7 +6,7 @@ syntax error, unexpected 'match'
 .. meta::
 	:description:
 		syntax error, unexpected 'match': This error is related to ``match`` being a PHP keyword.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: syntax error, unexpected &#039;match&#039;
 	:og:description: This error is related to ``match`` being a PHP keyword
@@ -17,7 +17,7 @@ syntax error, unexpected 'match'
 	:twitter:title: syntax error, unexpected 'match'
 	:twitter:description: syntax error, unexpected 'match': This error is related to ``match`` being a PHP keyword
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

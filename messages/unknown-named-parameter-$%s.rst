@@ -6,7 +6,7 @@ Unknown named parameter $%s
 .. meta::
 	:description:
 		Unknown named parameter $%s: Named parameters are the parameters of the function, or method.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Unknown named parameter $%s
 	:og:description: Named parameters are the parameters of the function, or method
@@ -17,7 +17,7 @@ Unknown named parameter $%s
 	:twitter:title: Unknown named parameter $%s
 	:twitter:description: Unknown named parameter $%s: Named parameters are the parameters of the function, or method
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

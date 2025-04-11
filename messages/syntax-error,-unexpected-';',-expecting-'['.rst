@@ -6,7 +6,7 @@ syntax error, unexpected ';', expecting '['
 .. meta::
 	:description:
 		syntax error, unexpected ';', expecting '[': The ``&amp;`` reference operator turns a value into a reference.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: syntax error, unexpected &#039;;&#039;, expecting &#039;[&#039;
 	:og:description: The ``&amp;`` reference operator turns a value into a reference
@@ -17,7 +17,7 @@ syntax error, unexpected ';', expecting '['
 	:twitter:title: syntax error, unexpected ';', expecting '['
 	:twitter:description: syntax error, unexpected ';', expecting '[': The ``&`` reference operator turns a value into a reference
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

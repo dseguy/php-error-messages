@@ -6,7 +6,7 @@ Cannot assign %s to property %s::$%s of type %s
 .. meta::
 	:description:
 		Cannot assign %s to property %s::$%s of type %s: This error signals that the wrong type of data was used when assigning a value to a property.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot assign %s to property %s::$%s of type %s
 	:og:description: This error signals that the wrong type of data was used when assigning a value to a property
@@ -17,7 +17,7 @@ Cannot assign %s to property %s::$%s of type %s
 	:twitter:title: Cannot assign %s to property %s::$%s of type %s
 	:twitter:description: Cannot assign %s to property %s::$%s of type %s: This error signals that the wrong type of data was used when assigning a value to a property
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

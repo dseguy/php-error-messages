@@ -6,7 +6,7 @@ Return value of %s%s%s() must %s%s%s, %s%s returned
 .. meta::
 	:description:
 		Return value of %s%s%s() must %s%s%s, %s%s returned: The type of the returned value must match the type of the method signature.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Return value of %s%s%s() must %s%s%s, %s%s returned
 	:og:description: The type of the returned value must match the type of the method signature
@@ -17,7 +17,7 @@ Return value of %s%s%s() must %s%s%s, %s%s returned
 	:twitter:title: Return value of %s%s%s() must %s%s%s, %s%s returned
 	:twitter:description: Return value of %s%s%s() must %s%s%s, %s%s returned: The type of the returned value must match the type of the method signature
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

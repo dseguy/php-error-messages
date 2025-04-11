@@ -6,7 +6,7 @@
 .. meta::
 	:description:
 		'%s' operator with non-integer operand: The ``break`` and ``continue`` operators only accept a positive non-null literal integer.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: &#039;%s&#039; operator with non-integer operand
 	:og:description: The ``break`` and ``continue`` operators only accept a positive non-null literal integer
@@ -17,7 +17,7 @@
 	:twitter:title: '%s' operator with non-integer operand
 	:twitter:description: '%s' operator with non-integer operand: The ``break`` and ``continue`` operators only accept a positive non-null literal integer
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

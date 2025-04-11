@@ -6,7 +6,7 @@ Cannot use 'mixed' as class name as it is reserved
 .. meta::
 	:description:
 		Cannot use 'mixed' as class name as it is reserved: mixed is a PHP reserved keyword, since PHP 8.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot use &#039;mixed&#039; as class name as it is reserved
 	:og:description: mixed is a PHP reserved keyword, since PHP 8
@@ -17,7 +17,7 @@ Cannot use 'mixed' as class name as it is reserved
 	:twitter:title: Cannot use 'mixed' as class name as it is reserved
 	:twitter:description: Cannot use 'mixed' as class name as it is reserved: mixed is a PHP reserved keyword, since PHP 8
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

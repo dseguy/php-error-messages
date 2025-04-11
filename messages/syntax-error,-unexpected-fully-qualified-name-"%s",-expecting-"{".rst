@@ -6,7 +6,7 @@ syntax error, unexpected fully qualified name "%s", expecting "{"
 .. meta::
 	:description:
 		syntax error, unexpected fully qualified name "%s", expecting "{": Until PHP 8.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: syntax error, unexpected fully qualified name &quot;%s&quot;, expecting &quot;{&quot;
 	:og:description: Until PHP 8
@@ -17,7 +17,7 @@ syntax error, unexpected fully qualified name "%s", expecting "{"
 	:twitter:title: syntax error, unexpected fully qualified name "%s", expecting "{"
 	:twitter:description: syntax error, unexpected fully qualified name "%s", expecting "{": Until PHP 8
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

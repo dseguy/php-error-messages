@@ -6,7 +6,7 @@ Property cannot be both final and private
 .. meta::
 	:description:
 		Property cannot be both final and private: When a property is final, it cannot be overridden in a child class.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Property cannot be both final and private
 	:og:description: When a property is final, it cannot be overridden in a child class
@@ -17,7 +17,7 @@ Property cannot be both final and private
 	:twitter:title: Property cannot be both final and private
 	:twitter:description: Property cannot be both final and private: When a property is final, it cannot be overridden in a child class
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

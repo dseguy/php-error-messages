@@ -6,7 +6,7 @@ unlink of "%s" failed, file does not exist
 .. meta::
 	:description:
 		unlink of "%s" failed, file does not exist: PHP reports failure when trying to remove a file that does not exists in a phar archive.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: unlink of &quot;%s&quot; failed, file does not exist
 	:og:description: PHP reports failure when trying to remove a file that does not exists in a phar archive
@@ -17,7 +17,7 @@ unlink of "%s" failed, file does not exist
 	:twitter:title: unlink of "%s" failed, file does not exist
 	:twitter:description: unlink of "%s" failed, file does not exist: PHP reports failure when trying to remove a file that does not exists in a phar archive
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

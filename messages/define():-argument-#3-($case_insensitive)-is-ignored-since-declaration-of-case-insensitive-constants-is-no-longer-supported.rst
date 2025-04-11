@@ -6,7 +6,7 @@ define(): Argument #3 ($case_insensitive) is ignored since declaration of case-i
 .. meta::
 	:description:
 		define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported: The third argument of define() used to allow the creation of a case-insensitive global constant.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported
 	:og:description: The third argument of define() used to allow the creation of a case-insensitive global constant
@@ -17,7 +17,7 @@ define(): Argument #3 ($case_insensitive) is ignored since declaration of case-i
 	:twitter:title: define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported
 	:twitter:description: define(): Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported: The third argument of define() used to allow the creation of a case-insensitive global constant
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@ Too few arguments to function %s%s%s(), %d passed in %s on line %d and %s %d exp
 .. meta::
 	:description:
 		Too few arguments to function %s%s%s(), %d passed in %s on line %d and %s %d expected: This error is emitted when the number of arguments to call a method or a function is not enough.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Too few arguments to function %s%s%s(), %d passed in %s on line %d and %s %d expected
 	:og:description: This error is emitted when the number of arguments to call a method or a function is not enough
@@ -17,7 +17,7 @@ Too few arguments to function %s%s%s(), %d passed in %s on line %d and %s %d exp
 	:twitter:title: Too few arguments to function %s%s%s(), %d passed in %s on line %d and %s %d expected
 	:twitter:description: Too few arguments to function %s%s%s(), %d passed in %s on line %d and %s %d expected: This error is emitted when the number of arguments to call a method or a function is not enough
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

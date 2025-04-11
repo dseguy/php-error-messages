@@ -6,7 +6,7 @@ Match expressions may only contain one default arm
 .. meta::
 	:description:
 		Match expressions may only contain one default arm: match() expression may have one ``default`` entry, but no more than that.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Match expressions may only contain one default arm
 	:og:description: match() expression may have one ``default`` entry, but no more than that
@@ -17,7 +17,7 @@ Match expressions may only contain one default arm
 	:twitter:title: Match expressions may only contain one default arm
 	:twitter:description: Match expressions may only contain one default arm: match() expression may have one ``default`` entry, but no more than that
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

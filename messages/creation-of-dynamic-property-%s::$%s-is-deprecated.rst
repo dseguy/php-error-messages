@@ -6,7 +6,7 @@ Creation of dynamic property %s::$%s is deprecated
 .. meta::
 	:description:
 		Creation of dynamic property %s::$%s is deprecated: When PHP uses an undefined property for a writing access, it used to create that property on the fly.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Creation of dynamic property %s::$%s is deprecated
 	:og:description: When PHP uses an undefined property for a writing access, it used to create that property on the fly
@@ -17,7 +17,7 @@ Creation of dynamic property %s::$%s is deprecated
 	:twitter:title: Creation of dynamic property %s::$%s is deprecated
 	:twitter:description: Creation of dynamic property %s::$%s is deprecated: When PHP uses an undefined property for a writing access, it used to create that property on the fly
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
@@ -59,4 +59,14 @@ _________
 Changed Behavior
 ________________
 
-This error may appear in different PHP versions `dynamicProperties <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/dynamicProperties.html>`_.
+This error may appear following an evolution in behavior, in previous versions. See `dynamicProperties <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/dynamicProperties.html>`_.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `dynamicProperties <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/dynamicProperties.html>`_.
+
+Static Analysis
+_______________
+
+This error may be tracked down with the following static analysis rules: `Classes/UndefinedProperty <https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/UndefinedProperty.html>`_.

@@ -6,7 +6,7 @@ syntax error, unexpected token ";", expecting ")"
 .. meta::
 	:description:
 		syntax error, unexpected token ";", expecting ")": A semi-colon was found after an opening parenthesis.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: syntax error, unexpected token &quot;;&quot;, expecting &quot;)&quot;
 	:og:description: A semi-colon was found after an opening parenthesis
@@ -17,7 +17,7 @@ syntax error, unexpected token ";", expecting ")"
 	:twitter:title: syntax error, unexpected token ";", expecting ")"
 	:twitter:description: syntax error, unexpected token ";", expecting ")": A semi-colon was found after an opening parenthesis
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

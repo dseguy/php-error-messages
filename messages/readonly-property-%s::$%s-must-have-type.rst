@@ -6,7 +6,7 @@ Readonly property %s::$%s must have type
 .. meta::
 	:description:
 		Readonly property %s::$%s must have type: A ``readonly`` property must be typed.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Readonly property %s::$%s must have type
 	:og:description: A ``readonly`` property must be typed
@@ -17,7 +17,7 @@ Readonly property %s::$%s must have type
 	:twitter:title: Readonly property %s::$%s must have type
 	:twitter:description: Readonly property %s::$%s must have type: A ``readonly`` property must be typed
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
@@ -53,3 +53,8 @@ _________
 + Use an union type to explicitely type the property, and commit to a restricted list of types.
 + Use the actual type for the property.
 + Remove the ``readonly`` option.
+
+Static Analysis
+_______________
+
+This error may be tracked down with the following static analysis rules: `Classes/ReadonlyCompatibility <https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/ReadonlyCompatibility.html>`_.

@@ -6,7 +6,7 @@ is not a valid codepoint
 .. meta::
 	:description:
 		is not a valid codepoint: Some functions uses integers to represents UTF-8 characters, on top of their string representation.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: is not a valid codepoint
 	:og:description: Some functions uses integers to represents UTF-8 characters, on top of their string representation
@@ -17,7 +17,7 @@ is not a valid codepoint
 	:twitter:title: is not a valid codepoint
 	:twitter:description: is not a valid codepoint: Some functions uses integers to represents UTF-8 characters, on top of their string representation
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

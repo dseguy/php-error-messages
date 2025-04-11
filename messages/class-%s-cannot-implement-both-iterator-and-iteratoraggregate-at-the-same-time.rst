@@ -6,7 +6,7 @@ Class %s cannot implement both Iterator and IteratorAggregate at the same time
 .. meta::
 	:description:
 		Class %s cannot implement both Iterator and IteratorAggregate at the same time: These two interfaces are incompatible one another.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Class %s cannot implement both Iterator and IteratorAggregate at the same time
 	:og:description: These two interfaces are incompatible one another
@@ -17,7 +17,7 @@ Class %s cannot implement both Iterator and IteratorAggregate at the same time
 	:twitter:title: Class %s cannot implement both Iterator and IteratorAggregate at the same time
 	:twitter:description: Class %s cannot implement both Iterator and IteratorAggregate at the same time: These two interfaces are incompatible one another
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

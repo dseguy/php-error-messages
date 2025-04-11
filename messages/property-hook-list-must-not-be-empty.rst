@@ -6,7 +6,7 @@ Property hook list must not be empty
 .. meta::
 	:description:
 		Property hook list must not be empty: It is possible to add a block, after a property definition.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Property hook list must not be empty
 	:og:description: It is possible to add a block, after a property definition
@@ -17,7 +17,7 @@ Property hook list must not be empty
 	:twitter:title: Property hook list must not be empty
 	:twitter:description: Property hook list must not be empty: It is possible to add a block, after a property definition
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

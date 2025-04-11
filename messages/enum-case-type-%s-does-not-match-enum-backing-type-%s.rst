@@ -6,7 +6,7 @@ Enum case type %s does not match enum backing type %s
 .. meta::
 	:description:
 		Enum case type %s does not match enum backing type %s: Enumeration may be backed with a scalar type, ``int`` or ``string``.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Enum case type %s does not match enum backing type %s
 	:og:description: Enumeration may be backed with a scalar type, ``int`` or ``string``
@@ -17,7 +17,7 @@ Enum case type %s does not match enum backing type %s
 	:twitter:title: Enum case type %s does not match enum backing type %s
 	:twitter:description: Enum case type %s does not match enum backing type %s: Enumeration may be backed with a scalar type, ``int`` or ``string``
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

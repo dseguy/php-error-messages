@@ -6,7 +6,7 @@ Enum %s cannot include magic method %s
 .. meta::
 	:description:
 		Enum %s cannot include magic method %s: Some magic methods are not allowed in an enumeration.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Enum %s cannot include magic method %s
 	:og:description: Some magic methods are not allowed in an enumeration
@@ -17,7 +17,7 @@ Enum %s cannot include magic method %s
 	:twitter:title: Enum %s cannot include magic method %s
 	:twitter:description: Enum %s cannot include magic method %s: Some magic methods are not allowed in an enumeration
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

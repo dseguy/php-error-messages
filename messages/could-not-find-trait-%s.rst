@@ -6,7 +6,7 @@ Could not find trait %s
 .. meta::
 	:description:
 		Could not find trait %s: A trait is named in a use expression inside a class, but it doesn&#039;t exist, or is not yet loaded by PHP.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Could not find trait %s
 	:og:description: A trait is named in a use expression inside a class, but it doesn&#039;t exist, or is not yet loaded by PHP
@@ -17,7 +17,7 @@ Could not find trait %s
 	:twitter:title: Could not find trait %s
 	:twitter:description: Could not find trait %s: A trait is named in a use expression inside a class, but it doesn't exist, or is not yet loaded by PHP
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

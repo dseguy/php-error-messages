@@ -6,7 +6,7 @@ An alias (%s) was defined for method %s(), but this method does not exist
 .. meta::
 	:description:
 		An alias (%s) was defined for method %s(), but this method does not exist: When importing methods from a trait, it is possible to create a method alias: give a new name to the trait method, when it is inside a class.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: An alias (%s) was defined for method %s(), but this method does not exist
 	:og:description: When importing methods from a trait, it is possible to create a method alias: give a new name to the trait method, when it is inside a class
@@ -17,7 +17,7 @@ An alias (%s) was defined for method %s(), but this method does not exist
 	:twitter:title: An alias (%s) was defined for method %s(), but this method does not exist
 	:twitter:description: An alias (%s) was defined for method %s(), but this method does not exist: When importing methods from a trait, it is possible to create a method alias: give a new name to the trait method, when it is inside a class
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

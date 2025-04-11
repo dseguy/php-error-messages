@@ -6,7 +6,7 @@ Cannot access parent:: when no class scope is active
 .. meta::
 	:description:
 		Cannot access parent:: when no class scope is active: ``parent`` refers to the parent class of the one.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot access parent:: when no class scope is active
 	:og:description: ``parent`` refers to the parent class of the one
@@ -17,7 +17,7 @@ Cannot access parent:: when no class scope is active
 	:twitter:title: Cannot access parent:: when no class scope is active
 	:twitter:description: Cannot access parent:: when no class scope is active: ``parent`` refers to the parent class of the one
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

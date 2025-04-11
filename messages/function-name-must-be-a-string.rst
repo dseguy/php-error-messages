@@ -6,7 +6,7 @@ Function name must be a string
 .. meta::
 	:description:
 		Function name must be a string: When calling a function dynamically, the name of the function, in the ``$method`` variable, must be a string, and the function must exist.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Function name must be a string
 	:og:description: When calling a function dynamically, the name of the function, in the ``$method`` variable, must be a string, and the function must exist
@@ -17,7 +17,7 @@ Function name must be a string
 	:twitter:title: Function name must be a string
 	:twitter:description: Function name must be a string: When calling a function dynamically, the name of the function, in the ``$method`` variable, must be a string, and the function must exist
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

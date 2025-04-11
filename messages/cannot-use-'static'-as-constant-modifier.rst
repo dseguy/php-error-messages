@@ -6,7 +6,7 @@ Cannot use 'static' as constant modifier
 .. meta::
 	:description:
 		Cannot use 'static' as constant modifier: ``static``` is an option for properties and methods, and it is not available for class constants.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot use &#039;static&#039; as constant modifier
 	:og:description: ``static``` is an option for properties and methods, and it is not available for class constants
@@ -17,7 +17,7 @@ Cannot use 'static' as constant modifier
 	:twitter:title: Cannot use 'static' as constant modifier
 	:twitter:description: Cannot use 'static' as constant modifier: ``static``` is an option for properties and methods, and it is not available for class constants
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

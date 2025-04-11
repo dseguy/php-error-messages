@@ -6,7 +6,7 @@ the $escape parameter must be provided as its default value will change
 .. meta::
 	:description:
 		the $escape parameter must be provided as its default value will change: The ``$escape`` parameter of various PHP functions that deal with CSV files will change in PHP 9.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: the $escape parameter must be provided as its default value will change
 	:og:description: The ``$escape`` parameter of various PHP functions that deal with CSV files will change in PHP 9
@@ -17,7 +17,7 @@ the $escape parameter must be provided as its default value will change
 	:twitter:title: the $escape parameter must be provided as its default value will change
 	:twitter:description: the $escape parameter must be provided as its default value will change: The ``$escape`` parameter of various PHP functions that deal with CSV files will change in PHP 9
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

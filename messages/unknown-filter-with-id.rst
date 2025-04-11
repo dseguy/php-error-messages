@@ -6,7 +6,7 @@ Unknown filter with ID
 .. meta::
 	:description:
 		Unknown filter with ID: filter_var_array(), and other filter functions, use the second argument to identify which filter to apply.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Unknown filter with ID
 	:og:description: filter_var_array(), and other filter functions, use the second argument to identify which filter to apply
@@ -17,7 +17,7 @@ Unknown filter with ID
 	:twitter:title: Unknown filter with ID
 	:twitter:description: Unknown filter with ID: filter_var_array(), and other filter functions, use the second argument to identify which filter to apply
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

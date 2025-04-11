@@ -6,7 +6,7 @@ Accessing static property %s::$%s as non static
 .. meta::
 	:description:
 		Accessing static property %s::$%s as non static: The ``property`` property is declared as static, and should be access with the ``::`` operator.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Accessing static property %s::$%s as non static
 	:og:description: The ``property`` property is declared as static, and should be access with the ``::`` operator
@@ -17,7 +17,7 @@ Accessing static property %s::$%s as non static
 	:twitter:title: Accessing static property %s::$%s as non static
 	:twitter:description: Accessing static property %s::$%s as non static: The ``property`` property is declared as static, and should be access with the ``::`` operator
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@ Automatic conversion of false to array is deprecated
 .. meta::
 	:description:
 		Automatic conversion of false to array is deprecated: The array syntax ``$variable[index]`` is only available for arrays and strings.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Automatic conversion of false to array is deprecated
 	:og:description: The array syntax ``$variable[index]`` is only available for arrays and strings
@@ -17,7 +17,7 @@ Automatic conversion of false to array is deprecated
 	:twitter:title: Automatic conversion of false to array is deprecated
 	:twitter:description: Automatic conversion of false to array is deprecated: The array syntax ``$variable[index]`` is only available for arrays and strings
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

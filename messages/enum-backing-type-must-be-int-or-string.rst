@@ -6,7 +6,7 @@ Enum backing type must be int or string
 .. meta::
 	:description:
 		Enum backing type must be int or string: Backed enumeration have a name and a value for each case.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Enum backing type must be int or string
 	:og:description: Backed enumeration have a name and a value for each case
@@ -17,7 +17,7 @@ Enum backing type must be int or string
 	:twitter:title: Enum backing type must be int or string
 	:twitter:description: Enum backing type must be int or string: Backed enumeration have a name and a value for each case
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

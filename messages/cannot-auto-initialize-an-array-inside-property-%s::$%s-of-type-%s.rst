@@ -6,7 +6,7 @@ Cannot auto-initialize an array inside property %s::$%s of type %s
 .. meta::
 	:description:
 		Cannot auto-initialize an array inside property %s::$%s of type %s: The last command is using the array syntax on the property ``$property``.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot auto-initialize an array inside property %s::$%s of type %s
 	:og:description: The last command is using the array syntax on the property ``$property``
@@ -17,7 +17,7 @@ Cannot auto-initialize an array inside property %s::$%s of type %s
 	:twitter:title: Cannot auto-initialize an array inside property %s::$%s of type %s
 	:twitter:description: Cannot auto-initialize an array inside property %s::$%s of type %s: The last command is using the array syntax on the property ``$property``
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

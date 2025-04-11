@@ -6,7 +6,7 @@ Defining a custom assert() function is not allowed,
 .. meta::
 	:description:
 		Defining a custom assert() function is not allowed,: assert() is a PHP native function, used to create assertions.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Defining a custom assert() function is not allowed,
 	:og:description: assert() is a PHP native function, used to create assertions
@@ -17,7 +17,7 @@ Defining a custom assert() function is not allowed,
 	:twitter:title: Defining a custom assert() function is not allowed,
 	:twitter:description: Defining a custom assert() function is not allowed,: assert() is a PHP native function, used to create assertions
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

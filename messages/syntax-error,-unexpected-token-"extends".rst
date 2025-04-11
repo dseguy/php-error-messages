@@ -6,7 +6,7 @@ syntax error, unexpected token "extends"
 .. meta::
 	:description:
 		syntax error, unexpected token "extends": ``extends`` is a PHP token, which appears inside a ``class`` or ``interface`` structure.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: syntax error, unexpected token &quot;extends&quot;
 	:og:description: ``extends`` is a PHP token, which appears inside a ``class`` or ``interface`` structure
@@ -17,7 +17,7 @@ syntax error, unexpected token "extends"
 	:twitter:title: syntax error, unexpected token "extends"
 	:twitter:description: syntax error, unexpected token "extends": ``extends`` is a PHP token, which appears inside a ``class`` or ``interface`` structure
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

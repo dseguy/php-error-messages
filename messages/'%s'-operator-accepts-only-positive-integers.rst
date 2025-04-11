@@ -6,7 +6,7 @@
 .. meta::
 	:description:
 		'%s' operator accepts only positive integers: The ``break`` and ``continue`` operators only accepts a positive integer as explicit operand.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: &#039;%s&#039; operator accepts only positive integers
 	:og:description: The ``break`` and ``continue`` operators only accepts a positive integer as explicit operand
@@ -17,7 +17,7 @@
 	:twitter:title: '%s' operator accepts only positive integers
 	:twitter:description: '%s' operator accepts only positive integers: The ``break`` and ``continue`` operators only accepts a positive integer as explicit operand
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

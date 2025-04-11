@@ -6,7 +6,7 @@ Can only throw objects
 .. meta::
 	:description:
 		Can only throw objects: The ``throw`` keyword operates on exceptions, which are always objects.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Can only throw objects
 	:og:description: The ``throw`` keyword operates on exceptions, which are always objects
@@ -17,7 +17,7 @@ Can only throw objects
 	:twitter:title: Can only throw objects
 	:twitter:description: Can only throw objects: The ``throw`` keyword operates on exceptions, which are always objects
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

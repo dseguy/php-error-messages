@@ -6,7 +6,7 @@ Can't inherit abstract function %s::%s() (previously declared abstract in %s)
 .. meta::
 	:description:
 		Can't inherit abstract function %s::%s() (previously declared abstract in %s): In PHP 7.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Can&#039;t inherit abstract function %s::%s() (previously declared abstract in %s)
 	:og:description: In PHP 7
@@ -17,7 +17,7 @@ Can't inherit abstract function %s::%s() (previously declared abstract in %s)
 	:twitter:title: Can't inherit abstract function %s::%s() (previously declared abstract in %s)
 	:twitter:description: Can't inherit abstract function %s::%s() (previously declared abstract in %s): In PHP 7
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

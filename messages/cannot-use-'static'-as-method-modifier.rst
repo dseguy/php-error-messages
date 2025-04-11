@@ -6,7 +6,7 @@ Cannot use 'static' as method modifier
 .. meta::
 	:description:
 		Cannot use 'static' as method modifier: When resolving name conflicts during trait imports, it is not possible to use ``static`` with the ``as`` keyword.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot use &#039;static&#039; as method modifier
 	:og:description: When resolving name conflicts during trait imports, it is not possible to use ``static`` with the ``as`` keyword
@@ -17,7 +17,7 @@ Cannot use 'static' as method modifier
 	:twitter:title: Cannot use 'static' as method modifier
 	:twitter:description: Cannot use 'static' as method modifier: When resolving name conflicts during trait imports, it is not possible to use ``static`` with the ``as`` keyword
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

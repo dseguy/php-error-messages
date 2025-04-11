@@ -6,7 +6,7 @@ Handling QPrint via mbstring is deprecated; use quoted_printable_encode/quoted_p
 .. meta::
 	:description:
 		Handling QPrint via mbstring is deprecated; use quoted_printable_encode/quoted_printable_decode: Since PHP 8.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Handling QPrint via mbstring is deprecated; use quoted_printable_encode/quoted_printable_decode
 	:og:description: Since PHP 8
@@ -17,7 +17,7 @@ Handling QPrint via mbstring is deprecated; use quoted_printable_encode/quoted_p
 	:twitter:title: Handling QPrint via mbstring is deprecated; use quoted_printable_encode/quoted_printable_decode
 	:twitter:description: Handling QPrint via mbstring is deprecated; use quoted_printable_encode/quoted_printable_decode: Since PHP 8
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

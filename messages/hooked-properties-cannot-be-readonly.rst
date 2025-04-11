@@ -6,7 +6,7 @@ Hooked properties cannot be readonly
 .. meta::
 	:description:
 		Hooked properties cannot be readonly: The readonly keyword is not allowed on hooked properties.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Hooked properties cannot be readonly
 	:og:description: The readonly keyword is not allowed on hooked properties
@@ -17,7 +17,7 @@ Hooked properties cannot be readonly
 	:twitter:title: Hooked properties cannot be readonly
 	:twitter:description: Hooked properties cannot be readonly: The readonly keyword is not allowed on hooked properties
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

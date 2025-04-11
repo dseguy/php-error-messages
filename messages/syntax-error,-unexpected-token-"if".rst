@@ -6,7 +6,7 @@ syntax error, unexpected token "if"
 .. meta::
 	:description:
 		syntax error, unexpected token "if": If-then expressions are standalone expressions, and cannot be used inside another expression.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: syntax error, unexpected token &quot;if&quot;
 	:og:description: If-then expressions are standalone expressions, and cannot be used inside another expression
@@ -17,7 +17,7 @@ syntax error, unexpected token "if"
 	:twitter:title: syntax error, unexpected token "if"
 	:twitter:description: syntax error, unexpected token "if": If-then expressions are standalone expressions, and cannot be used inside another expression
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

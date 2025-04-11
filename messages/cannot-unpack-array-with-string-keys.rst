@@ -6,7 +6,7 @@ Cannot unpack array with string keys
 .. meta::
 	:description:
 		Cannot unpack array with string keys: Initialy, the ellipsis operator would only work with integer-indexed arrays, and not with string-indexed arrays.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot unpack array with string keys
 	:og:description: Initialy, the ellipsis operator would only work with integer-indexed arrays, and not with string-indexed arrays
@@ -17,7 +17,7 @@ Cannot unpack array with string keys
 	:twitter:title: Cannot unpack array with string keys
 	:twitter:description: Cannot unpack array with string keys: Initialy, the ellipsis operator would only work with integer-indexed arrays, and not with string-indexed arrays
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

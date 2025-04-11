@@ -6,7 +6,7 @@ Nesting level too deep - recursive dependency?
 .. meta::
 	:description:
 		Nesting level too deep - recursive dependency?: PHP comparison may be recursive: it happens when an array contains a reference to another element of itself.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Nesting level too deep - recursive dependency?
 	:og:description: PHP comparison may be recursive: it happens when an array contains a reference to another element of itself
@@ -17,7 +17,7 @@ Nesting level too deep - recursive dependency?
 	:twitter:title: Nesting level too deep - recursive dependency?
 	:twitter:description: Nesting level too deep - recursive dependency?: PHP comparison may be recursive: it happens when an array contains a reference to another element of itself
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

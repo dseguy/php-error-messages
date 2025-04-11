@@ -6,7 +6,7 @@ DateTimeInterface can't be implemented by user classes
 .. meta::
 	:description:
 		DateTimeInterface can't be implemented by user classes: DateTimeInterface is an interface.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: DateTimeInterface can&#039;t be implemented by user classes
 	:og:description: DateTimeInterface is an interface
@@ -17,7 +17,7 @@ DateTimeInterface can't be implemented by user classes
 	:twitter:title: DateTimeInterface can't be implemented by user classes
 	:twitter:description: DateTimeInterface can't be implemented by user classes: DateTimeInterface is an interface
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

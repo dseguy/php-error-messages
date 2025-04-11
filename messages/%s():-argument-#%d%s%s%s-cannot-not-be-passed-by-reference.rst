@@ -6,7 +6,7 @@
 .. meta::
 	:description:
 		%s(): Argument #%d%s%s%s cannot not be passed by reference: Methods arguments may be passed by value or by reference.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: %s(): Argument #%d%s%s%s cannot not be passed by reference
 	:og:description: Methods arguments may be passed by value or by reference
@@ -17,7 +17,7 @@
 	:twitter:title: %s(): Argument #%d%s%s%s cannot not be passed by reference
 	:twitter:description: %s(): Argument #%d%s%s%s cannot not be passed by reference: Methods arguments may be passed by value or by reference
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

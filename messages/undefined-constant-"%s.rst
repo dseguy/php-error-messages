@@ -6,7 +6,7 @@ Undefined constant "%s
 .. meta::
 	:description:
 		Undefined constant "%s: The requested constant doesn&#039;t exist.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Undefined constant &quot;%s
 	:og:description: The requested constant doesn&#039;t exist
@@ -17,7 +17,7 @@ Undefined constant "%s
 	:twitter:title: Undefined constant "%s
 	:twitter:description: Undefined constant "%s: The requested constant doesn't exist
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

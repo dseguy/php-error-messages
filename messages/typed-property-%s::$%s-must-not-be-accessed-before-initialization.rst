@@ -6,7 +6,7 @@ Typed property %s::$%s must not be accessed before initialization
 .. meta::
 	:description:
 		Typed property %s::$%s must not be accessed before initialization: Typed properties are undefined until they are assigned for the first time.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Typed property %s::$%s must not be accessed before initialization
 	:og:description: Typed properties are undefined until they are assigned for the first time
@@ -17,7 +17,7 @@ Typed property %s::$%s must not be accessed before initialization
 	:twitter:title: Typed property %s::$%s must not be accessed before initialization
 	:twitter:description: Typed property %s::$%s must not be accessed before initialization: Typed properties are undefined until they are assigned for the first time
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@ Enum "%s" not found
 .. meta::
 	:description:
 		Enum "%s" not found: This error could not be reproduced so far.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Enum &quot;%s&quot; not found
 	:og:description: This error could not be reproduced so far
@@ -17,7 +17,7 @@ Enum "%s" not found
 	:twitter:title: Enum "%s" not found
 	:twitter:description: Enum "%s" not found: This error could not be reproduced so far
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

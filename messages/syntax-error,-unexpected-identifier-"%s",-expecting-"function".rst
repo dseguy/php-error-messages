@@ -6,7 +6,7 @@ syntax error, unexpected identifier "%s", expecting "function"
 .. meta::
 	:description:
 		syntax error, unexpected identifier "%s", expecting "function": PHP identified a name in the body of a class, although it was not preceded by a keyword.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: syntax error, unexpected identifier &quot;%s&quot;, expecting &quot;function&quot;
 	:og:description: PHP identified a name in the body of a class, although it was not preceded by a keyword
@@ -17,7 +17,7 @@ syntax error, unexpected identifier "%s", expecting "function"
 	:twitter:title: syntax error, unexpected identifier "%s", expecting "function"
 	:twitter:description: syntax error, unexpected identifier "%s", expecting "function": PHP identified a name in the body of a class, although it was not preceded by a keyword
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

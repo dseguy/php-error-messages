@@ -6,7 +6,7 @@ exponent cannot have a fractional part
 .. meta::
 	:description:
 		exponent cannot have a fractional part: The exponent argument, aka the second, must be an integer value.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: exponent cannot have a fractional part
 	:og:description: The exponent argument, aka the second, must be an integer value
@@ -17,7 +17,7 @@ exponent cannot have a fractional part
 	:twitter:title: exponent cannot have a fractional part
 	:twitter:description: exponent cannot have a fractional part: The exponent argument, aka the second, must be an integer value
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

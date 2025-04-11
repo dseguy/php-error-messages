@@ -6,7 +6,7 @@ Cannot use lexical variable %s as a parameter name
 .. meta::
 	:description:
 		Cannot use lexical variable %s as a parameter name: It is not possible to use a parameter and import a variable of the same name.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot use lexical variable %s as a parameter name
 	:og:description: It is not possible to use a parameter and import a variable of the same name
@@ -17,7 +17,7 @@ Cannot use lexical variable %s as a parameter name
 	:twitter:title: Cannot use lexical variable %s as a parameter name
 	:twitter:description: Cannot use lexical variable %s as a parameter name: It is not possible to use a parameter and import a variable of the same name
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@ Multiple readonly modifiers are not allowed
 .. meta::
 	:description:
 		Multiple readonly modifiers are not allowed: Only one readonly option is necessary to make a property read-only.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Multiple readonly modifiers are not allowed
 	:og:description: Only one readonly option is necessary to make a property read-only
@@ -17,7 +17,7 @@ Multiple readonly modifiers are not allowed
 	:twitter:title: Multiple readonly modifiers are not allowed
 	:twitter:description: Multiple readonly modifiers are not allowed: Only one readonly option is necessary to make a property read-only
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@ Access to undeclared static property %s::$%s
 .. meta::
 	:description:
 		Access to undeclared static property %s::$%s: This error is reported when reading an undefined static property.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Access to undeclared static property %s::$%s
 	:og:description: This error is reported when reading an undefined static property
@@ -17,7 +17,7 @@ Access to undeclared static property %s::$%s
 	:twitter:title: Access to undeclared static property %s::$%s
 	:twitter:description: Access to undeclared static property %s::$%s: This error is reported when reading an undefined static property
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

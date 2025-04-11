@@ -6,7 +6,7 @@ func_get_args() cannot be called from the global scope
 .. meta::
 	:description:
 		func_get_args() cannot be called from the global scope: ``func_get_args()`` returns the list of arguments used when calling a function or method.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: func_get_args() cannot be called from the global scope
 	:og:description: ``func_get_args()`` returns the list of arguments used when calling a function or method
@@ -17,7 +17,7 @@ func_get_args() cannot be called from the global scope
 	:twitter:title: func_get_args() cannot be called from the global scope
 	:twitter:description: func_get_args() cannot be called from the global scope: ``func_get_args()`` returns the list of arguments used when calling a function or method
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

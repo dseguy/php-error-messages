@@ -6,7 +6,7 @@
 .. meta::
 	:description:
 		%s::__sleep() should return an array only containing the names of instance-variables to serialize: The return type of ``__sleep`` is actually ``array``, even when it is not mentionned.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: %s::__sleep() should return an array only containing the names of instance-variables to serialize
 	:og:description: The return type of ``__sleep`` is actually ``array``, even when it is not mentionned
@@ -17,7 +17,7 @@
 	:twitter:title: %s::__sleep() should return an array only containing the names of instance-variables to serialize
 	:twitter:description: %s::__sleep() should return an array only containing the names of instance-variables to serialize: The return type of ``__sleep`` is actually ``array``, even when it is not mentionned
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

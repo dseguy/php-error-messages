@@ -6,7 +6,7 @@ Property with asymmetric visibility %s::$%s must have type
 .. meta::
 	:description:
 		Property with asymmetric visibility %s::$%s must have type: Asymmetric visibility, such as ``protected(set)`` only applies to a typed property.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Property with asymmetric visibility %s::$%s must have type
 	:og:description: Asymmetric visibility, such as ``protected(set)`` only applies to a typed property
@@ -17,7 +17,7 @@ Property with asymmetric visibility %s::$%s must have type
 	:twitter:title: Property with asymmetric visibility %s::$%s must have type
 	:twitter:description: Property with asymmetric visibility %s::$%s must have type: Asymmetric visibility, such as ``protected(set)`` only applies to a typed property
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

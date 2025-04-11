@@ -6,7 +6,7 @@ Attempt to assign property "%s" on null
 .. meta::
 	:description:
 		Attempt to assign property "%s" on null: ``null`` is not an object, and it can&#039;t be used as such.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Attempt to assign property &quot;%s&quot; on null
 	:og:description: ``null`` is not an object, and it can&#039;t be used as such
@@ -17,7 +17,7 @@ Attempt to assign property "%s" on null
 	:twitter:title: Attempt to assign property "%s" on null
 	:twitter:description: Attempt to assign property "%s" on null: ``null`` is not an object, and it can't be used as such
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

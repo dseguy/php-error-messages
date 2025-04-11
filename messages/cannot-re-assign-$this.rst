@@ -6,7 +6,7 @@ Cannot re-assign $this
 .. meta::
 	:description:
 		Cannot re-assign $this: It is never possible to assign a new value to the pseudo-variable ``$this``, inside a class or outside.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot re-assign $this
 	:og:description: It is never possible to assign a new value to the pseudo-variable ``$this``, inside a class or outside
@@ -17,7 +17,7 @@ Cannot re-assign $this
 	:twitter:title: Cannot re-assign $this
 	:twitter:description: Cannot re-assign $this: It is never possible to assign a new value to the pseudo-variable ``$this``, inside a class or outside
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

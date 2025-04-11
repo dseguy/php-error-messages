@@ -6,7 +6,7 @@ strict_types declaration must be the very first statement in the script
 .. meta::
 	:description:
 		strict_types declaration must be the very first statement in the script: This error appears when the declare statement is not the first statement in the file.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: strict_types declaration must be the very first statement in the script
 	:og:description: This error appears when the declare statement is not the first statement in the file
@@ -17,7 +17,7 @@ strict_types declaration must be the very first statement in the script
 	:twitter:title: strict_types declaration must be the very first statement in the script
 	:twitter:description: strict_types declaration must be the very first statement in the script: This error appears when the declare statement is not the first statement in the file
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

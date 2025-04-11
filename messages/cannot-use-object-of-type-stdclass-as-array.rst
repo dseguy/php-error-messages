@@ -6,7 +6,7 @@ Cannot use object of type stdClass as array
 .. meta::
 	:description:
 		Cannot use object of type stdClass as array: The array syntax ``$variable[index]`` is only available for arrays and strings.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot use object of type stdClass as array
 	:og:description: The array syntax ``$variable[index]`` is only available for arrays and strings
@@ -17,7 +17,7 @@ Cannot use object of type stdClass as array
 	:twitter:title: Cannot use object of type stdClass as array
 	:twitter:description: Cannot use object of type stdClass as array: The array syntax ``$variable[index]`` is only available for arrays and strings
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

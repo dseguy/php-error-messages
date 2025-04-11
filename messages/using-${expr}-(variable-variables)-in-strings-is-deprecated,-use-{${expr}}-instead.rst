@@ -6,7 +6,7 @@ Using ${expr} (variable variables) in strings is deprecated, use {${expr}} inste
 .. meta::
 	:description:
 		Using ${expr} (variable variables) in strings is deprecated, use {${expr}} instead: The interpolation syntax ``${expression}`` is deprecated.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Using ${expr} (variable variables) in strings is deprecated, use {${expr}} instead
 	:og:description: The interpolation syntax ``${expression}`` is deprecated
@@ -17,7 +17,7 @@ Using ${expr} (variable variables) in strings is deprecated, use {${expr}} inste
 	:twitter:title: Using ${expr} (variable variables) in strings is deprecated, use {${expr}} instead
 	:twitter:description: Using ${expr} (variable variables) in strings is deprecated, use {${expr}} instead: The interpolation syntax ``${expression}`` is deprecated
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
@@ -50,4 +50,9 @@ _________
 Changed Behavior
 ________________
 
-This error may appear in different PHP versions `dollar_curly_expression <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/dollar_curly_expression.html>`_.
+This error may appear following an evolution in behavior, in previous versions. See `dollar_curly_expression <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/dollar_curly_expression.html>`_.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `dollar_curly_expression <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/dollar_curly_expression.html>`_.

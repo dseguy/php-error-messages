@@ -6,7 +6,7 @@ No ending delimiter '%c' found
 .. meta::
 	:description:
 		No ending delimiter '%c' found: This error is a regex related error, not a PHP one.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: No ending delimiter &#039;%c&#039; found
 	:og:description: This error is a regex related error, not a PHP one
@@ -17,7 +17,7 @@ No ending delimiter '%c' found
 	:twitter:title: No ending delimiter '%c' found
 	:twitter:description: No ending delimiter '%c' found: This error is a regex related error, not a PHP one
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

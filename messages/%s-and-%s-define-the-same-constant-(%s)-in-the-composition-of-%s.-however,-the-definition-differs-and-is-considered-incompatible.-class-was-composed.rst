@@ -6,7 +6,7 @@
 .. meta::
 	:description:
 		%s and %s define the same constant (%s) in the composition of %s. However, the definition differs and is considered incompatible. Class was composed: There is not conflict resolution, when a class and a trait defined the same constant.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: %s and %s define the same constant (%s) in the composition of %s. However, the definition differs and is considered incompatible. Class was composed
 	:og:description: There is not conflict resolution, when a class and a trait defined the same constant
@@ -17,7 +17,7 @@
 	:twitter:title: %s and %s define the same constant (%s) in the composition of %s. However, the definition differs and is considered incompatible. Class was composed
 	:twitter:description: %s and %s define the same constant (%s) in the composition of %s. However, the definition differs and is considered incompatible. Class was composed: There is not conflict resolution, when a class and a trait defined the same constant
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

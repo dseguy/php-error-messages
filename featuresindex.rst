@@ -74,6 +74,7 @@ Features index
       * :ref:`only-hooked-properties-may-be-declared-abstract`
       * :ref:`property-hook-cannot-be-both-abstract-and-private`
       * :ref:`static-function-%s%s%s()-cannot-be-abstract`
+      * :ref:`syntax-error,-unexpected-token-"}",-expecting-";"-or-"{"`
 
 
    * addition
@@ -157,6 +158,8 @@ Features index
       * :ref:`indirect-modification-of-overloaded-property-%s::\$%s-has-no-effect`
       * :ref:`is-an-invalid-offset`
       * :ref:`must-contain-at-least-one-element`
+      * :ref:`only-arrays-and-traversables-can-be-unpacked`
+      * :ref:`only-arrays-can-be-unpacked-in-constant-expression`
       * :ref:`syntax-error,-unexpected-token-"{"`
       * :ref:`syntax-error,-unexpected-token-"}"`
       * :ref:`type-%s-contains-both-iterable-and-array`
@@ -492,6 +495,8 @@ Features index
 
    * coalesce
 
+      * :ref:`only-arrays-and-traversables-can-be-unpacked`
+      * :ref:`only-arrays-can-be-unpacked-in-constant-expression`
       * :ref:`syntax-error,-unexpected-token-"??"`
       * :ref:`typed-property-%s::\$%s-must-not-be-accessed-before-initialization`
       * :ref:`typed-static-property-%s::\$%s-must-not-be-accessed-before-initialization`
@@ -1290,6 +1295,8 @@ Features index
       * :ref:`syntax-error,-unexpected-token-"(",-expecting-identifier-or-variable-or-"{"-or-"\$"`
       * :ref:`syntax-error,-unexpected-token-"(",-expecting-variable`
       * :ref:`syntax-error,-unexpected-token-"("`
+      * :ref:`syntax-error,-unexpected-token-"public"`
+      * :ref:`syntax-error,-unexpected-token-"}",-expecting-";"-or-"{"`
       * :ref:`too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d-expected`
       * :ref:`too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d`
       * :ref:`trying-to-invoke-%s-method-%s::%s()-from-scope-%s`
@@ -1408,6 +1415,12 @@ Features index
       * :ref:`can\'t-use-nullsafe-operator-in-write-context`
       * :ref:`decrement-on-type-null-has-no-effect,-this-will-change-in-the-next-major-version-of-php`
       * :ref:`trying-to-access-array-offset-on-%s`
+
+
+   * null-coalesce
+
+      * :ref:`only-arrays-and-traversables-can-be-unpacked`
+      * :ref:`only-arrays-can-be-unpacked-in-constant-expression`
 
 
    * nullsafe
@@ -2073,6 +2086,8 @@ Features index
 
       * :ref:`%s-%s-must-implement-interface-%s-as-part-of-either-%s-or-%s`
       * :ref:`class-%s-must-implement-interface-%s-as-part-of-either-%s-or-%s`
+      * :ref:`only-arrays-and-traversables-can-be-unpacked`
+      * :ref:`only-arrays-can-be-unpacked-in-constant-expression`
 
 
    * true
@@ -2241,6 +2256,7 @@ Features index
       * :ref:`cannot-access-%s-property-%s::\$%s`
       * :ref:`multiple-access-type-modifiers-are-not-allowed`
       * :ref:`private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes`
+      * :ref:`syntax-error,-unexpected-token-"public"`
       * :ref:`the-magic-method-%s::%s()-must-have-public-visibility`
       * :ref:`trying-to-invoke-%s-method-%s::%s()-from-scope-%s`
 

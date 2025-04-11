@@ -6,7 +6,7 @@ Attempt to read property "%s" on %s
 .. meta::
 	:description:
 		Attempt to read property "%s" on %s: This error reports that a non-object was used with an object syntax.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Attempt to read property &quot;%s&quot; on %s
 	:og:description: This error reports that a non-object was used with an object syntax
@@ -17,7 +17,7 @@ Attempt to read property "%s" on %s
 	:twitter:title: Attempt to read property "%s" on %s
 	:twitter:description: Attempt to read property "%s" on %s: This error reports that a non-object was used with an object syntax
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

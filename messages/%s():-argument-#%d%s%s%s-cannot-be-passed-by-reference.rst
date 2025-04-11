@@ -6,7 +6,7 @@
 .. meta::
 	:description:
 		%s(): Argument #%d%s%s%s cannot be passed by reference: Passing a literal value, a constant or ``$GLOBALS`` where a reference is requested leads to this error.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: %s(): Argument #%d%s%s%s cannot be passed by reference
 	:og:description: Passing a literal value, a constant or ``$GLOBALS`` where a reference is requested leads to this error
@@ -17,7 +17,7 @@
 	:twitter:title: %s(): Argument #%d%s%s%s cannot be passed by reference
 	:twitter:description: %s(): Argument #%d%s%s%s cannot be passed by reference: Passing a literal value, a constant or ``$GLOBALS`` where a reference is requested leads to this error
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

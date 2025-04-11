@@ -6,7 +6,7 @@ Too few arguments
 .. meta::
 	:description:
 		Too few arguments: Functions such as ``printf()`` require at least one argument, the format.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Too few arguments
 	:og:description: Functions such as ``printf()`` require at least one argument, the format
@@ -17,7 +17,7 @@ Too few arguments
 	:twitter:title: Too few arguments
 	:twitter:description: Too few arguments: Functions such as ``printf()`` require at least one argument, the format
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
@@ -56,3 +56,8 @@ _________
 
 
 In more recent PHP versions, this error message is now :ref:`%d-arguments-are-required,-%d`.
+
+Static Analysis
+_______________
+
+This error may be tracked down with the following static analysis rules: `Structures/PrintfArguments <https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/PrintfArguments.html>`_.

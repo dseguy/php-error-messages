@@ -6,7 +6,7 @@ Indirect modification of %s::$%s is not allowed
 .. meta::
 	:description:
 		Indirect modification of %s::$%s is not allowed: While it is possible to create references on object&#039;s properties, it is not possible to do so on a property with a hook.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Indirect modification of %s::$%s is not allowed
 	:og:description: While it is possible to create references on object&#039;s properties, it is not possible to do so on a property with a hook
@@ -17,7 +17,7 @@ Indirect modification of %s::$%s is not allowed
 	:twitter:title: Indirect modification of %s::$%s is not allowed
 	:twitter:description: Indirect modification of %s::$%s is not allowed: While it is possible to create references on object's properties, it is not possible to do so on a property with a hook
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

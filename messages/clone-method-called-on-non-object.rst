@@ -6,7 +6,7 @@ __clone method called on non-object
 .. meta::
 	:description:
 		__clone method called on non-object: This error signals an attempt at cloning a value that is not an object.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: __clone method called on non-object
 	:og:description: This error signals an attempt at cloning a value that is not an object
@@ -17,7 +17,7 @@ __clone method called on non-object
 	:twitter:title: __clone method called on non-object
 	:twitter:description: __clone method called on non-object: This error signals an attempt at cloning a value that is not an object
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

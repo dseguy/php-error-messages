@@ -6,7 +6,7 @@ Could not check compatibility between %s and %s, because class %s is not availab
 .. meta::
 	:description:
 		Could not check compatibility between %s and %s, because class %s is not available: This error message signals that PHP could not find all the needed classes and interfaces to reach a conclusion about the compatibility of ``V``, compared to ``W``.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Could not check compatibility between %s and %s, because class %s is not available
 	:og:description: This error message signals that PHP could not find all the needed classes and interfaces to reach a conclusion about the compatibility of ``V``, compared to ``W``
@@ -17,7 +17,7 @@ Could not check compatibility between %s and %s, because class %s is not availab
 	:twitter:title: Could not check compatibility between %s and %s, because class %s is not available
 	:twitter:description: Could not check compatibility between %s and %s, because class %s is not available: This error message signals that PHP could not find all the needed classes and interfaces to reach a conclusion about the compatibility of ``V``, compared to ``W``
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@ array_product(): Multiplication is not supported on type string
 .. meta::
 	:description:
 		array_product(): Multiplication is not supported on type string: array_product() multiplies each element in the first argument, with each other.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: array_product(): Multiplication is not supported on type string
 	:og:description: array_product() multiplies each element in the first argument, with each other
@@ -17,7 +17,7 @@ array_product(): Multiplication is not supported on type string
 	:twitter:title: array_product(): Multiplication is not supported on type string
 	:twitter:description: array_product(): Multiplication is not supported on type string: array_product() multiplies each element in the first argument, with each other
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

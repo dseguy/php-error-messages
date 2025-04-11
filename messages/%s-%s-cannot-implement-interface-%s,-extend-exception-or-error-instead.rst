@@ -6,7 +6,7 @@
 .. meta::
 	:description:
 		%s %s cannot implement interface %s, extend Exception or Error instead: ``Throwable`` is a PHP native and reserved interface.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: %s %s cannot implement interface %s, extend Exception or Error instead
 	:og:description: ``Throwable`` is a PHP native and reserved interface
@@ -17,7 +17,7 @@
 	:twitter:title: %s %s cannot implement interface %s, extend Exception or Error instead
 	:twitter:description: %s %s cannot implement interface %s, extend Exception or Error instead: ``Throwable`` is a PHP native and reserved interface
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

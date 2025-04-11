@@ -6,7 +6,7 @@ Access level to %s::%s must be %s (as in %s %s)%s
 .. meta::
 	:description:
 		Access level to %s::%s must be %s (as in %s %s)%s: This error is emitted when a class constant is given more restrictive visibility than in the interface.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Access level to %s::%s must be %s (as in %s %s)%s
 	:og:description: This error is emitted when a class constant is given more restrictive visibility than in the interface
@@ -17,7 +17,7 @@ Access level to %s::%s must be %s (as in %s %s)%s
 	:twitter:title: Access level to %s::%s must be %s (as in %s %s)%s
 	:twitter:description: Access level to %s::%s must be %s (as in %s %s)%s: This error is emitted when a class constant is given more restrictive visibility than in the interface
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@ The behavior of unparenthesized expressions containing both '.' and '<<'/'>>' wi
 .. meta::
 	:description:
 		The behavior of unparenthesized expressions containing both '.' and '<<'/'>>' will change in PHP 8: '<<'/'>>' will take a higher precedence: ``&lt;&lt;``/``&gt;&gt;`` and ``.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: The behavior of unparenthesized expressions containing both &#039;.&#039; and &#039;&lt;&lt;&#039;/&#039;&gt;&gt;&#039; will change in PHP 8: &#039;&lt;&lt;&#039;/&#039;&gt;&gt;&#039; will take a higher precedence
 	:og:description: ``&lt;&lt;``/``&gt;&gt;`` and ``
@@ -17,7 +17,7 @@ The behavior of unparenthesized expressions containing both '.' and '<<'/'>>' wi
 	:twitter:title: The behavior of unparenthesized expressions containing both '.' and '<<'/'>>' will change in PHP 8: '<<'/'>>' will take a higher precedence
 	:twitter:description: The behavior of unparenthesized expressions containing both '.' and '<<'/'>>' will change in PHP 8: '<<'/'>>' will take a higher precedence: ``<<``/``>>`` and ``
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
@@ -53,4 +53,14 @@ ______________________
 Changed Behavior
 ________________
 
-This error may appear in different PHP versions `dotAndBitshift <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/dotAndBitshift.html>`_.
+This error may appear following an evolution in behavior, in previous versions. See `dotAndBitshift <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/dotAndBitshift.html>`_.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `dotAndBitshift <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/dotAndBitshift.html>`_.
+
+Static Analysis
+_______________
+
+This error may be tracked down with the following static analysis rules: `Php/ConcatAndBitshift <https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/ConcatAndBitshift.html>`_.

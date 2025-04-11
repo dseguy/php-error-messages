@@ -6,7 +6,7 @@ Unclosed '{'
 .. meta::
 	:description:
 		Unclosed '{': The most frequent situation is an unbalanced block: blocks are delimited with curly brackets, and there must be the same number of opening and closing.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Unclosed &#039;{&#039;
 	:og:description: The most frequent situation is an unbalanced block: blocks are delimited with curly brackets, and there must be the same number of opening and closing
@@ -17,7 +17,7 @@ Unclosed '{'
 	:twitter:title: Unclosed '{'
 	:twitter:description: Unclosed '{': The most frequent situation is an unbalanced block: blocks are delimited with curly brackets, and there must be the same number of opening and closing
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

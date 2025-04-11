@@ -6,7 +6,7 @@ Unclosed \'(\' does not match \']\'
 .. meta::
 	:description:
 		Unclosed \'(\' does not match \']\': This is a variation of the unbalanced parenthesis or square brackets.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Unclosed \&#039;(\&#039; does not match \&#039;]\&#039;
 	:og:description: This is a variation of the unbalanced parenthesis or square brackets
@@ -17,7 +17,7 @@ Unclosed \'(\' does not match \']\'
 	:twitter:title: Unclosed \'(\' does not match \']\'
 	:twitter:description: Unclosed \'(\' does not match \']\': This is a variation of the unbalanced parenthesis or square brackets
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

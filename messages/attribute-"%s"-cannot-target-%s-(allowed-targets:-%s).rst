@@ -6,7 +6,7 @@ Attribute "%s" cannot target %s (allowed targets: %s)
 .. meta::
 	:description:
 		Attribute "%s" cannot target %s (allowed targets: %s): Attributes are built with a specific target, and may not be applicable to any structure.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Attribute &quot;%s&quot; cannot target %s (allowed targets: %s)
 	:og:description: Attributes are built with a specific target, and may not be applicable to any structure
@@ -17,7 +17,7 @@ Attribute "%s" cannot target %s (allowed targets: %s)
 	:twitter:title: Attribute "%s" cannot target %s (allowed targets: %s)
 	:twitter:description: Attribute "%s" cannot target %s (allowed targets: %s): Attributes are built with a specific target, and may not be applicable to any structure
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
@@ -68,3 +68,8 @@ _________
 + Update the attribute to target the requested feature.
 + Remove the attribute from the forbidden feature.
 + Create another the attribute for the feature.
+
+Static Analysis
+_______________
+
+This error may be tracked down with the following static analysis rules: `Php/WrongAttributeConfiguration <https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/WrongAttributeConfiguration.html>`_.

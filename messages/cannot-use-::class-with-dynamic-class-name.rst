@@ -6,7 +6,7 @@ Cannot use ::class with dynamic class name
 .. meta::
 	:description:
 		Cannot use ::class with dynamic class name: Until PHP 8.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot use ::class with dynamic class name
 	:og:description: Until PHP 8
@@ -17,7 +17,7 @@ Cannot use ::class with dynamic class name
 	:twitter:title: Cannot use ::class with dynamic class name
 	:twitter:description: Cannot use ::class with dynamic class name: Until PHP 8
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

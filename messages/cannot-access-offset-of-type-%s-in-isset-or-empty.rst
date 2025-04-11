@@ -6,7 +6,7 @@ Cannot access offset of type %s in isset or empty
 .. meta::
 	:description:
 		Cannot access offset of type %s in isset or empty: In an array notation, the offset may be a variable, or any container.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot access offset of type %s in isset or empty
 	:og:description: In an array notation, the offset may be a variable, or any container
@@ -17,7 +17,7 @@ Cannot access offset of type %s in isset or empty
 	:twitter:title: Cannot access offset of type %s in isset or empty
 	:twitter:description: Cannot access offset of type %s in isset or empty: In an array notation, the offset may be a variable, or any container
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@ Cannot make non abstract method %s::%s() abstract in class %s
 .. meta::
 	:description:
 		Cannot make non abstract method %s::%s() abstract in class %s: Once a method has a body, it cannot be made ``abstract`` again.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot make non abstract method %s::%s() abstract in class %s
 	:og:description: Once a method has a body, it cannot be made ``abstract`` again
@@ -17,7 +17,7 @@ Cannot make non abstract method %s::%s() abstract in class %s
 	:twitter:title: Cannot make non abstract method %s::%s() abstract in class %s
 	:twitter:description: Cannot make non abstract method %s::%s() abstract in class %s: Once a method has a body, it cannot be made ``abstract`` again
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

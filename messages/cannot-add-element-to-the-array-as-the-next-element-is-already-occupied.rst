@@ -6,7 +6,7 @@ Cannot add element to the array as the next element is already occupied
 .. meta::
 	:description:
 		Cannot add element to the array as the next element is already occupied: This error appears when the largest PHP integer has been used as an index in an array.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot add element to the array as the next element is already occupied
 	:og:description: This error appears when the largest PHP integer has been used as an index in an array
@@ -17,7 +17,7 @@ Cannot add element to the array as the next element is already occupied
 	:twitter:title: Cannot add element to the array as the next element is already occupied
 	:twitter:description: Cannot add element to the array as the next element is already occupied: This error appears when the largest PHP integer has been used as an index in an array
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

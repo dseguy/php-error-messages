@@ -6,7 +6,7 @@ Cannot modify readonly property %s::$%s
 .. meta::
 	:description:
 		Cannot modify readonly property %s::$%s: readonly properties can only be set once.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot modify readonly property %s::$%s
 	:og:description: readonly properties can only be set once
@@ -17,7 +17,7 @@ Cannot modify readonly property %s::$%s
 	:twitter:title: Cannot modify readonly property %s::$%s
 	:twitter:description: Cannot modify readonly property %s::$%s: readonly properties can only be set once
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

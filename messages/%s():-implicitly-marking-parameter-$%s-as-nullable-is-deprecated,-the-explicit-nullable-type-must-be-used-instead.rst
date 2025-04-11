@@ -6,7 +6,7 @@ Implicitly marking parameter $%s as nullable is deprecated, the explicit nullabl
 .. meta::
 	:description:
 		Implicitly marking parameter $%s as nullable is deprecated, the explicit nullable type must be used instead: Until PHP 8.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Implicitly marking parameter $%s as nullable is deprecated, the explicit nullable type must be used instead
 	:og:description: Until PHP 8
@@ -17,7 +17,7 @@ Implicitly marking parameter $%s as nullable is deprecated, the explicit nullabl
 	:twitter:title: Implicitly marking parameter $%s as nullable is deprecated, the explicit nullable type must be used instead
 	:twitter:description: Implicitly marking parameter $%s as nullable is deprecated, the explicit nullable type must be used instead: Until PHP 8
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
@@ -66,4 +66,14 @@ ______________________
 Changed Behavior
 ________________
 
-This error may appear in different PHP versions `implicitNullable <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/implicitNullable.html>`_.
+This error may appear following an evolution in behavior, in previous versions. See `implicitNullable <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/implicitNullable.html>`_.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `implicitNullable <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/implicitNullable.html>`_.
+
+Static Analysis
+_______________
+
+This error may be tracked down with the following static analysis rules: `Classes/HiddenNullable <https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/HiddenNullable.html>`_.

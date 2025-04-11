@@ -6,7 +6,7 @@ syntax error, unexpected token "exit"
 .. meta::
 	:description:
 		syntax error, unexpected token "exit": This error reports a badly placed ``exit`` or ``die`` command.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: syntax error, unexpected token &quot;exit&quot;
 	:og:description: This error reports a badly placed ``exit`` or ``die`` command
@@ -17,7 +17,7 @@ syntax error, unexpected token "exit"
 	:twitter:title: syntax error, unexpected token "exit"
 	:twitter:description: syntax error, unexpected token "exit": This error reports a badly placed ``exit`` or ``die`` command
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

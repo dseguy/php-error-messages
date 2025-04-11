@@ -6,7 +6,7 @@ The (real) cast is deprecated, use (float) instead
 .. meta::
 	:description:
 		The (real) cast is deprecated, use (float) instead: The ``(real)`` cast operator is deprecated since PHP 7.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: The (real) cast is deprecated, use (float) instead
 	:og:description: The ``(real)`` cast operator is deprecated since PHP 7
@@ -17,7 +17,7 @@ The (real) cast is deprecated, use (float) instead
 	:twitter:title: The (real) cast is deprecated, use (float) instead
 	:twitter:description: The (real) cast is deprecated, use (float) instead: The ``(real)`` cast operator is deprecated since PHP 7
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

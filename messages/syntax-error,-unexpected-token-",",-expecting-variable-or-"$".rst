@@ -6,7 +6,7 @@ syntax error, unexpected token ",", expecting variable or "$"
 .. meta::
 	:description:
 		syntax error, unexpected token ",", expecting variable or "$": This error is reported when a list of global variable is expected after the ``global`` keyword.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: syntax error, unexpected token &quot;,&quot;, expecting variable or &quot;$&quot;
 	:og:description: This error is reported when a list of global variable is expected after the ``global`` keyword
@@ -17,7 +17,7 @@ syntax error, unexpected token ",", expecting variable or "$"
 	:twitter:title: syntax error, unexpected token ",", expecting variable or "$"
 	:twitter:description: syntax error, unexpected token ",", expecting variable or "$": This error is reported when a list of global variable is expected after the ``global`` keyword
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

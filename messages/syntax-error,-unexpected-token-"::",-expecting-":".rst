@@ -6,7 +6,7 @@ syntax error, unexpected token "::", expecting ":"
 .. meta::
 	:description:
 		syntax error, unexpected token "::", expecting ":": In this example, ``Match`` is a PHP keyword, and cannot be part of a static call, with the operator ``::``.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: syntax error, unexpected token &quot;::&quot;, expecting &quot;:&quot;
 	:og:description: In this example, ``Match`` is a PHP keyword, and cannot be part of a static call, with the operator ``::``
@@ -17,7 +17,7 @@ syntax error, unexpected token "::", expecting ":"
 	:twitter:title: syntax error, unexpected token "::", expecting ":"
 	:twitter:description: syntax error, unexpected token "::", expecting ":": In this example, ``Match`` is a PHP keyword, and cannot be part of a static call, with the operator ``::``
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

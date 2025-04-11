@@ -6,7 +6,7 @@ Attempt to unset static property %s::$%s
 .. meta::
 	:description:
 		Attempt to unset static property %s::$%s: It is not possible to unset a static property.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Attempt to unset static property %s::$%s
 	:og:description: It is not possible to unset a static property
@@ -17,7 +17,7 @@ Attempt to unset static property %s::$%s
 	:twitter:title: Attempt to unset static property %s::$%s
 	:twitter:description: Attempt to unset static property %s::$%s: It is not possible to unset a static property
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@
 .. meta::
 	:description:
 		'goto' into loop or switch statement is disallowed: It is not possible to put a label inside a loop (for, foreach, while, do.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: &#039;goto&#039; into loop or switch statement is disallowed
 	:og:description: It is not possible to put a label inside a loop (for, foreach, while, do
@@ -17,7 +17,7 @@
 	:twitter:title: 'goto' into loop or switch statement is disallowed
 	:twitter:description: 'goto' into loop or switch statement is disallowed: It is not possible to put a label inside a loop (for, foreach, while, do
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

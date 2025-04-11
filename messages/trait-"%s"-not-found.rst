@@ -6,7 +6,7 @@ Trait "%s" not found
 .. meta::
 	:description:
 		Trait "%s" not found: This error appears when a trait is mentioned in the conflict resolution expression, but the trait is not part of the class.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Trait &quot;%s&quot; not found
 	:og:description: This error appears when a trait is mentioned in the conflict resolution expression, but the trait is not part of the class
@@ -17,7 +17,7 @@ Trait "%s" not found
 	:twitter:title: Trait "%s" not found
 	:twitter:description: Trait "%s" not found: This error appears when a trait is mentioned in the conflict resolution expression, but the trait is not part of the class
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@ Call to undefined function %s()
 .. meta::
 	:description:
 		Call to undefined function %s(): This error is displayed when the called function is not defined.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Call to undefined function %s()
 	:og:description: This error is displayed when the called function is not defined
@@ -17,7 +17,7 @@ Call to undefined function %s()
 	:twitter:title: Call to undefined function %s()
 	:twitter:description: Call to undefined function %s(): This error is displayed when the called function is not defined
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

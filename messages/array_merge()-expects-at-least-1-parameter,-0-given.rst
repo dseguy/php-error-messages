@@ -6,7 +6,7 @@ array_merge() expects at least 1 parameter, 0 given
 .. meta::
 	:description:
 		array_merge() expects at least 1 parameter, 0 given: Until PHP 7.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: array_merge() expects at least 1 parameter, 0 given
 	:og:description: Until PHP 7
@@ -17,7 +17,7 @@ array_merge() expects at least 1 parameter, 0 given
 	:twitter:title: array_merge() expects at least 1 parameter, 0 given
 	:twitter:description: array_merge() expects at least 1 parameter, 0 given: Until PHP 7
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
@@ -49,3 +49,8 @@ Solutions
 _________
 
 + Check for non-empty array before using it with array_merge().
+
+Static Analysis
+_______________
+
+This error may be tracked down with the following static analysis rules: `Structures/ArrayMergeAndVariadic <https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/ArrayMergeAndVariadic.html>`_.

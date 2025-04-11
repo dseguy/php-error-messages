@@ -6,7 +6,7 @@ Cannot perform bitwise not on %s
 .. meta::
 	:description:
 		Cannot perform bitwise not on %s: Bitwise operations are only available on integers.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot perform bitwise not on %s
 	:og:description: Bitwise operations are only available on integers
@@ -17,7 +17,7 @@ Cannot perform bitwise not on %s
 	:twitter:title: Cannot perform bitwise not on %s
 	:twitter:description: Cannot perform bitwise not on %s: Bitwise operations are only available on integers
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@ Using "_" as %s is deprecated since 8.4
 .. meta::
 	:description:
 		Using "_" as %s is deprecated since 8.4: ``_`` (underscore) is a valid class name, although it has become a reserved PHP word in PHP 8.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Using &quot;_&quot; as %s is deprecated since 8.4
 	:og:description: ``_`` (underscore) is a valid class name, although it has become a reserved PHP word in PHP 8
@@ -17,7 +17,7 @@ Using "_" as %s is deprecated since 8.4
 	:twitter:title: Using "_" as %s is deprecated since 8.4
 	:twitter:description: Using "_" as %s is deprecated since 8.4: ``_`` (underscore) is a valid class name, although it has become a reserved PHP word in PHP 8
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

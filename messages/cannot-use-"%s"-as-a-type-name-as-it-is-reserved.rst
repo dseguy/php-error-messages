@@ -6,7 +6,7 @@ Cannot use "%s" as a type name as it is reserved
 .. meta::
 	:description:
 		Cannot use "%s" as a type name as it is reserved: array is a native PHP type, and it cannot be used with the leading ``\``.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot use &quot;%s&quot; as a type name as it is reserved
 	:og:description: array is a native PHP type, and it cannot be used with the leading ``\``
@@ -17,7 +17,7 @@ Cannot use "%s" as a type name as it is reserved
 	:twitter:title: Cannot use "%s" as a type name as it is reserved
 	:twitter:description: Cannot use "%s" as a type name as it is reserved: array is a native PHP type, and it cannot be used with the leading ``\``
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

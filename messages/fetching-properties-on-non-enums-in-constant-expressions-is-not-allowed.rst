@@ -6,7 +6,7 @@ Fetching properties on non-enums in constant expressions is not allowed
 .. meta::
 	:description:
 		Fetching properties on non-enums in constant expressions is not allowed: Constant expressions are expressions that build the value of a constant.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Fetching properties on non-enums in constant expressions is not allowed
 	:og:description: Constant expressions are expressions that build the value of a constant
@@ -17,7 +17,7 @@ Fetching properties on non-enums in constant expressions is not allowed
 	:twitter:title: Fetching properties on non-enums in constant expressions is not allowed
 	:twitter:description: Fetching properties on non-enums in constant expressions is not allowed: Constant expressions are expressions that build the value of a constant
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

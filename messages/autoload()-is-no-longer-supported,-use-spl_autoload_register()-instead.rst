@@ -6,7 +6,7 @@ __autoload() is no longer supported, use spl_autoload_register() instead
 .. meta::
 	:description:
 		__autoload() is no longer supported, use spl_autoload_register() instead: The initial autoloader was a custom function, that was called whenever a class, interface or trait had to be loaded, but could not be found by PHP yet.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: __autoload() is no longer supported, use spl_autoload_register() instead
 	:og:description: The initial autoloader was a custom function, that was called whenever a class, interface or trait had to be loaded, but could not be found by PHP yet
@@ -17,7 +17,7 @@ __autoload() is no longer supported, use spl_autoload_register() instead
 	:twitter:title: __autoload() is no longer supported, use spl_autoload_register() instead
 	:twitter:description: __autoload() is no longer supported, use spl_autoload_register() instead: The initial autoloader was a custom function, that was called whenever a class, interface or trait had to be loaded, but could not be found by PHP yet
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@ syntax error, unexpected token "->"
 .. meta::
 	:description:
 		syntax error, unexpected token "->": This error reports that the object syntax was not expected there.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: syntax error, unexpected token &quot;-&gt;&quot;
 	:og:description: This error reports that the object syntax was not expected there
@@ -17,7 +17,7 @@ syntax error, unexpected token "->"
 	:twitter:title: syntax error, unexpected token "->"
 	:twitter:description: syntax error, unexpected token "->": This error reports that the object syntax was not expected there
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

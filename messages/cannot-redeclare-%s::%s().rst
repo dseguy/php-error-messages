@@ -6,7 +6,7 @@ Cannot redeclare %s::%s()
 .. meta::
 	:description:
 		Cannot redeclare %s::%s(): Each method in a class must have a distinct name.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot redeclare %s::%s()
 	:og:description: Each method in a class must have a distinct name
@@ -17,7 +17,7 @@ Cannot redeclare %s::%s()
 	:twitter:title: Cannot redeclare %s::%s()
 	:twitter:description: Cannot redeclare %s::%s(): Each method in a class must have a distinct name
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@
 .. meta::
 	:description:
 		%s is not supported on type %s: This error is reported when an operation is attempted indirectly on a wrong type of data.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: %s is not supported on type %s
 	:og:description: This error is reported when an operation is attempted indirectly on a wrong type of data
@@ -17,7 +17,7 @@
 	:twitter:title: %s is not supported on type %s
 	:twitter:description: %s is not supported on type %s: This error is reported when an operation is attempted indirectly on a wrong type of data
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

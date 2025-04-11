@@ -6,7 +6,7 @@ Object of type %s has not been correctly initialized by calling parent::__constr
 .. meta::
 	:description:
 		Object of type %s has not been correctly initialized by calling parent::__construct() in its constructor: PHP needs an explicit call to the parent constructor to init the parent class.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Object of type %s has not been correctly initialized by calling parent::__construct() in its constructor
 	:og:description: PHP needs an explicit call to the parent constructor to init the parent class
@@ -17,7 +17,7 @@ Object of type %s has not been correctly initialized by calling parent::__constr
 	:twitter:title: Object of type %s has not been correctly initialized by calling parent::__construct() in its constructor
 	:twitter:description: Object of type %s has not been correctly initialized by calling parent::__construct() in its constructor: PHP needs an explicit call to the parent constructor to init the parent class
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

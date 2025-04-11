@@ -6,7 +6,7 @@ syntax error, unexpected token "#[", expecting "," or ";"
 .. meta::
 	:description:
 		syntax error, unexpected token "#[", expecting "," or ";": The ``#[`` token marks the beginning of an attribute.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: syntax error, unexpected token &quot;#[&quot;, expecting &quot;,&quot; or &quot;;&quot;
 	:og:description: The ``#[`` token marks the beginning of an attribute
@@ -17,7 +17,7 @@ syntax error, unexpected token "#[", expecting "," or ";"
 	:twitter:title: syntax error, unexpected token "#[", expecting "," or ";"
 	:twitter:description: syntax error, unexpected token "#[", expecting "," or ";": The ``#[`` token marks the beginning of an attribute
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

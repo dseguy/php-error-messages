@@ -6,7 +6,7 @@
 .. meta::
 	:description:
 		%s(): Passing null to parameter #%d (%s) of type string is deprecated : Since PHP 8.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: %s(): Passing null to parameter #%d (%s) of type string is deprecated 
 	:og:description: Since PHP 8
@@ -17,7 +17,7 @@
 	:twitter:title: %s(): Passing null to parameter #%d (%s) of type string is deprecated 
 	:twitter:description: %s(): Passing null to parameter #%d (%s) of type string is deprecated : Since PHP 8
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@ Cannot combine named arguments and argument unpacking
 .. meta::
 	:description:
 		Cannot combine named arguments and argument unpacking: In PHP 8.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot combine named arguments and argument unpacking
 	:og:description: In PHP 8
@@ -17,7 +17,7 @@ Cannot combine named arguments and argument unpacking
 	:twitter:title: Cannot combine named arguments and argument unpacking
 	:twitter:description: Cannot combine named arguments and argument unpacking: In PHP 8
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@ syntax error, unexpected token "use", expecting "," or ";"
 .. meta::
 	:description:
 		syntax error, unexpected token "use", expecting "," or ";": The previous ``use`` command was not properly finished with a semi-colon.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: syntax error, unexpected token &quot;use&quot;, expecting &quot;,&quot; or &quot;;&quot;
 	:og:description: The previous ``use`` command was not properly finished with a semi-colon
@@ -17,7 +17,7 @@ syntax error, unexpected token "use", expecting "," or ";"
 	:twitter:title: syntax error, unexpected token "use", expecting "," or ";"
 	:twitter:description: syntax error, unexpected token "use", expecting "," or ";": The previous ``use`` command was not properly finished with a semi-colon
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

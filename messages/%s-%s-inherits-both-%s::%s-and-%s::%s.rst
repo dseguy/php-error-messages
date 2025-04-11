@@ -6,7 +6,7 @@
 .. meta::
 	:description:
 		%s %s inherits both %s::%s and %s::%s: PHP reports duplicate constant definitions in different interfaces.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: %s %s inherits both %s::%s and %s::%s
 	:og:description: PHP reports duplicate constant definitions in different interfaces
@@ -17,7 +17,7 @@
 	:twitter:title: %s %s inherits both %s::%s and %s::%s
 	:twitter:description: %s %s inherits both %s::%s and %s::%s: PHP reports duplicate constant definitions in different interfaces
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

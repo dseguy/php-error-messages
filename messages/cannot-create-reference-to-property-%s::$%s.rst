@@ -6,7 +6,7 @@ Cannot create reference to property %s::$%s
 .. meta::
 	:description:
 		Cannot create reference to property %s::$%s: While it is possible to acquire a reference on an object&#039;s property, it is not possible to acquire that reference on a property with hooks.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot create reference to property %s::$%s
 	:og:description: While it is possible to acquire a reference on an object&#039;s property, it is not possible to acquire that reference on a property with hooks
@@ -17,7 +17,7 @@ Cannot create reference to property %s::$%s
 	:twitter:title: Cannot create reference to property %s::$%s
 	:twitter:description: Cannot create reference to property %s::$%s: While it is possible to acquire a reference on an object's property, it is not possible to acquire that reference on a property with hooks
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@
 .. meta::
 	:description:
 		%s cannot use %s - it is not a trait: In a class definition, the use expression must only use traits.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: %s cannot use %s - it is not a trait
 	:og:description: In a class definition, the use expression must only use traits
@@ -17,7 +17,7 @@
 	:twitter:title: %s cannot use %s - it is not a trait
 	:twitter:description: %s cannot use %s - it is not a trait: In a class definition, the use expression must only use traits
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@ Class %s cannot extend final class %s
 .. meta::
 	:description:
 		Class %s cannot extend final class %s: A ``final`` class is a class that cannot be extended.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Class %s cannot extend final class %s
 	:og:description: A ``final`` class is a class that cannot be extended
@@ -17,7 +17,7 @@ Class %s cannot extend final class %s
 	:twitter:title: Class %s cannot extend final class %s
 	:twitter:description: Class %s cannot extend final class %s: A ``final`` class is a class that cannot be extended
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

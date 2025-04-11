@@ -6,7 +6,7 @@ Illegal offset type
 .. meta::
 	:description:
 		Illegal offset type: PHP only uses integers and strings as array index.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Illegal offset type
 	:og:description: PHP only uses integers and strings as array index
@@ -17,7 +17,7 @@ Illegal offset type
 	:twitter:title: Illegal offset type
 	:twitter:description: Illegal offset type: PHP only uses integers and strings as array index
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

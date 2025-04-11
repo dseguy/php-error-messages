@@ -6,7 +6,7 @@ $GLOBALS can only be modified using the $GLOBALS[$name] = $value syntax
 .. meta::
 	:description:
 		$GLOBALS can only be modified using the $GLOBALS[$name] = $value syntax: Since PHP 8.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: $GLOBALS can only be modified using the $GLOBALS[$name] = $value syntax
 	:og:description: Since PHP 8
@@ -17,7 +17,7 @@ $GLOBALS can only be modified using the $GLOBALS[$name] = $value syntax
 	:twitter:title: $GLOBALS can only be modified using the $GLOBALS[$name] = $value syntax
 	:twitter:description: $GLOBALS can only be modified using the $GLOBALS[$name] = $value syntax: Since PHP 8
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

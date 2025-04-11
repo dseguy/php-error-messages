@@ -6,7 +6,7 @@ Creating default object from empty value
 .. meta::
 	:description:
 		Creating default object from empty value: This deprecation message is emitted in PHP 7.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Creating default object from empty value
 	:og:description: This deprecation message is emitted in PHP 7
@@ -17,7 +17,7 @@ Creating default object from empty value
 	:twitter:title: Creating default object from empty value
 	:twitter:description: Creating default object from empty value: This deprecation message is emitted in PHP 7
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
@@ -53,4 +53,9 @@ In more recent PHP versions, this error message is now :ref:`attempt-to-assign-p
 Changed Behavior
 ________________
 
-This error may appear in different PHP versions `creatingObjectOnNull <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/creatingObjectOnNull.html>`_.
+This error may appear following an evolution in behavior, in previous versions. See `creatingObjectOnNull <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/creatingObjectOnNull.html>`_.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `creatingObjectOnNull <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/creatingObjectOnNull.html>`_.

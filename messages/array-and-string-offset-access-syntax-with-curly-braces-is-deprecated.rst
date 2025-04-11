@@ -6,7 +6,7 @@ Array and string offset access syntax with curly braces is deprecated
 .. meta::
 	:description:
 		Array and string offset access syntax with curly braces is deprecated: PHP used to support the curly braces ``{}`` to access elements in an array and a string.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Array and string offset access syntax with curly braces is deprecated
 	:og:description: PHP used to support the curly braces ``{}`` to access elements in an array and a string
@@ -17,7 +17,7 @@ Array and string offset access syntax with curly braces is deprecated
 	:twitter:title: Array and string offset access syntax with curly braces is deprecated
 	:twitter:description: Array and string offset access syntax with curly braces is deprecated: PHP used to support the curly braces ``{}`` to access elements in an array and a string
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
@@ -58,4 +58,9 @@ In more recent PHP versions, this error message is now :ref:`syntax-error,-unexp
 Changed Behavior
 ________________
 
-This error may appear in different PHP versions `curly_braces <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/curly_braces.html>`_.
+This error may appear following an evolution in behavior, in previous versions. See `curly_braces <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/curly_braces.html>`_.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `curly_braces <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/curly_braces.html>`_.

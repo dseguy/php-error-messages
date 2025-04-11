@@ -6,7 +6,7 @@
 .. meta::
 	:description:
 		%s" returned as member variable from __sleep() but does not exist: The magic method ``__sleep`` must return a list of properties of the current class.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: %s&quot; returned as member variable from __sleep() but does not exist
 	:og:description: The magic method ``__sleep`` must return a list of properties of the current class
@@ -17,7 +17,7 @@
 	:twitter:title: %s" returned as member variable from __sleep() but does not exist
 	:twitter:description: %s" returned as member variable from __sleep() but does not exist: The magic method ``__sleep`` must return a list of properties of the current class
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

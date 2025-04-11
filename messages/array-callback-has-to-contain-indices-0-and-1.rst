@@ -6,7 +6,7 @@ Array callback has to contain indices 0 and 1
 .. meta::
 	:description:
 		Array callback has to contain indices 0 and 1: PHP uses an array format to represents callback methods: it is an array with two elements.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Array callback has to contain indices 0 and 1
 	:og:description: PHP uses an array format to represents callback methods: it is an array with two elements
@@ -17,7 +17,7 @@ Array callback has to contain indices 0 and 1
 	:twitter:title: Array callback has to contain indices 0 and 1
 	:twitter:description: Array callback has to contain indices 0 and 1: PHP uses an array format to represents callback methods: it is an array with two elements
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

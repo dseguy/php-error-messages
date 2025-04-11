@@ -6,7 +6,7 @@ syntax error, unexpected token ";", expecting "->" or "?->" or "{" or "["
 .. meta::
 	:description:
 		syntax error, unexpected token ";", expecting "->" or "?->" or "{" or "[": The ``&amp;`` reference operator turns a value into a reference.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: syntax error, unexpected token &quot;;&quot;, expecting &quot;-&gt;&quot; or &quot;?-&gt;&quot; or &quot;{&quot; or &quot;[&quot;
 	:og:description: The ``&amp;`` reference operator turns a value into a reference
@@ -17,7 +17,7 @@ syntax error, unexpected token ";", expecting "->" or "?->" or "{" or "["
 	:twitter:title: syntax error, unexpected token ";", expecting "->" or "?->" or "{" or "["
 	:twitter:description: syntax error, unexpected token ";", expecting "->" or "?->" or "{" or "[": The ``&`` reference operator turns a value into a reference
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@
 .. meta::
 	:description:
 		'namespace\%s' is an invalid class name: ``namespace``, when used in a fully qualified name, represents the current namespace.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: &#039;namespace\%s&#039; is an invalid class name
 	:og:description: ``namespace``, when used in a fully qualified name, represents the current namespace
@@ -17,7 +17,7 @@
 	:twitter:title: 'namespace\%s' is an invalid class name
 	:twitter:description: 'namespace\%s' is an invalid class name: ``namespace``, when used in a fully qualified name, represents the current namespace
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

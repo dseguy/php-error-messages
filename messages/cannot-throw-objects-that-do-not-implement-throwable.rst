@@ -6,7 +6,7 @@ Cannot throw objects that do not implement Throwable
 .. meta::
 	:description:
 		Cannot throw objects that do not implement Throwable: All classes that are thrown must implement the interfave Throwable.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot throw objects that do not implement Throwable
 	:og:description: All classes that are thrown must implement the interfave Throwable
@@ -17,7 +17,7 @@ Cannot throw objects that do not implement Throwable
 	:twitter:title: Cannot throw objects that do not implement Throwable
 	:twitter:description: Cannot throw objects that do not implement Throwable: All classes that are thrown must implement the interfave Throwable
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

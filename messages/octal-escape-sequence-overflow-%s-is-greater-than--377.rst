@@ -6,7 +6,7 @@ Octal escape sequence overflow \%s is greater than \377
 .. meta::
 	:description:
 		Octal escape sequence overflow \%s is greater than \377: Octal escape is a notation for double quoted strings, where a backslash followed by 3 digits is replaced by the character with this ASCII number.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Octal escape sequence overflow \%s is greater than \377
 	:og:description: Octal escape is a notation for double quoted strings, where a backslash followed by 3 digits is replaced by the character with this ASCII number
@@ -17,7 +17,7 @@ Octal escape sequence overflow \%s is greater than \377
 	:twitter:title: Octal escape sequence overflow \%s is greater than \377
 	:twitter:description: Octal escape sequence overflow \%s is greater than \377: Octal escape is a notation for double quoted strings, where a backslash followed by 3 digits is replaced by the character with this ASCII number
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

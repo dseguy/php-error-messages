@@ -6,7 +6,7 @@
 .. meta::
 	:description:
 		%s(): Returning by reference from a void function is deprecated: The void type means that the function is not returning anything.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: %s(): Returning by reference from a void function is deprecated
 	:og:description: The void type means that the function is not returning anything
@@ -17,7 +17,7 @@
 	:twitter:title: %s(): Returning by reference from a void function is deprecated
 	:twitter:description: %s(): Returning by reference from a void function is deprecated: The void type means that the function is not returning anything
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
@@ -54,4 +54,14 @@ _________
 Changed Behavior
 ________________
 
-This error may appear in different PHP versions `return_reference_on_void.php <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/return_reference_on_void.php.html>`_.
+This error may appear following an evolution in behavior, in previous versions. See `return_reference_on_void.php <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/return_reference_on_void.php.html>`_.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `return_reference_on_void.php <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/return_reference_on_void.php.html>`_.
+
+Static Analysis
+_______________
+
+This error may be tracked down with the following static analysis rules: `Structures/ReturnVoid <https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/ReturnVoid.html>`_.

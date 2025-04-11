@@ -6,7 +6,7 @@
 .. meta::
 	:description:
 		%s() has been disabled for security reasons: The function mentionned in the message was disabled with the ``disable_functions`` directive.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: %s() has been disabled for security reasons
 	:og:description: The function mentionned in the message was disabled with the ``disable_functions`` directive
@@ -17,7 +17,7 @@
 	:twitter:title: %s() has been disabled for security reasons
 	:twitter:description: %s() has been disabled for security reasons: The function mentionned in the message was disabled with the ``disable_functions`` directive
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@ must be a valid class name, %s given
 .. meta::
 	:description:
 		must be a valid class name, %s given: get_parent_class() expects an argument, which must be either an object, or a valid class name.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: must be a valid class name, %s given
 	:og:description: get_parent_class() expects an argument, which must be either an object, or a valid class name
@@ -17,7 +17,7 @@ must be a valid class name, %s given
 	:twitter:title: must be a valid class name, %s given
 	:twitter:description: must be a valid class name, %s given: get_parent_class() expects an argument, which must be either an object, or a valid class name
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

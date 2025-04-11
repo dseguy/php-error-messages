@@ -6,7 +6,7 @@ Unclosed '('
 .. meta::
 	:description:
 		Unclosed '(': The closing parenthesis is missing.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Unclosed &#039;(&#039;
 	:og:description: The closing parenthesis is missing
@@ -17,7 +17,7 @@ Unclosed '('
 	:twitter:title: Unclosed '('
 	:twitter:description: Unclosed '(': The closing parenthesis is missing
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

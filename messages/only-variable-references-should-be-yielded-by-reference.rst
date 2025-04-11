@@ -6,7 +6,7 @@ Only variable references should be yielded by reference
 .. meta::
 	:description:
 		Only variable references should be yielded by reference: With the ``&amp;`` option in the signature, a generator is yielding values by reference, and not by value.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Only variable references should be yielded by reference
 	:og:description: With the ``&amp;`` option in the signature, a generator is yielding values by reference, and not by value
@@ -17,7 +17,7 @@ Only variable references should be yielded by reference
 	:twitter:title: Only variable references should be yielded by reference
 	:twitter:description: Only variable references should be yielded by reference: With the ``&`` option in the signature, a generator is yielding values by reference, and not by value
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

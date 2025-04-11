@@ -6,7 +6,7 @@ The each() function is deprecated. This message will be suppressed on further ca
 .. meta::
 	:description:
 		The each() function is deprecated. This message will be suppressed on further calls: The function ``each`` was deprecated in PHP 7.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: The each() function is deprecated. This message will be suppressed on further calls
 	:og:description: The function ``each`` was deprecated in PHP 7
@@ -17,7 +17,7 @@ The each() function is deprecated. This message will be suppressed on further ca
 	:twitter:title: The each() function is deprecated. This message will be suppressed on further calls
 	:twitter:description: The each() function is deprecated. This message will be suppressed on further calls: The function ``each`` was deprecated in PHP 7
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
@@ -52,3 +52,8 @@ _________
 
 
 In more recent PHP versions, this error message is now :ref:`call-to-undefined-function-each()`.
+
+Static Analysis
+_______________
+
+This error may be tracked down with the following static analysis rules: `Php/Php72RemovedFunctions <https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/Php72RemovedFunctions.html>`_.

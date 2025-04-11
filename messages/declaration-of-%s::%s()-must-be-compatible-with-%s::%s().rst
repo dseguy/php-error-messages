@@ -6,7 +6,7 @@ Declaration of %s::%s() must be compatible with %s::%s()
 .. meta::
 	:description:
 		Declaration of %s::%s() must be compatible with %s::%s(): Classes methods signature have to be compatible between a parent class and a child class.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Declaration of %s::%s() must be compatible with %s::%s()
 	:og:description: Classes methods signature have to be compatible between a parent class and a child class
@@ -17,7 +17,7 @@ Declaration of %s::%s() must be compatible with %s::%s()
 	:twitter:title: Declaration of %s::%s() must be compatible with %s::%s()
 	:twitter:description: Declaration of %s::%s() must be compatible with %s::%s(): Classes methods signature have to be compatible between a parent class and a child class
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

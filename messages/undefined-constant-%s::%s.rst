@@ -6,7 +6,7 @@ Undefined constant %s::%s
 .. meta::
 	:description:
 		Undefined constant %s::%s: The requested class constant could not be found.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Undefined constant %s::%s
 	:og:description: The requested class constant could not be found
@@ -17,7 +17,7 @@ Undefined constant %s::%s
 	:twitter:title: Undefined constant %s::%s
 	:twitter:description: Undefined constant %s::%s: The requested class constant could not be found
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

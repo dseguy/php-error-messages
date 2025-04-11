@@ -6,7 +6,7 @@ syntax error, unexpected token "&"
 .. meta::
 	:description:
 		syntax error, unexpected token "&": The ``&amp;`` operator is used in two distinct situations: as the bitwise operator, between two different values.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: syntax error, unexpected token &quot;&amp;&quot;
 	:og:description: The ``&amp;`` operator is used in two distinct situations: as the bitwise operator, between two different values
@@ -17,7 +17,7 @@ syntax error, unexpected token "&"
 	:twitter:title: syntax error, unexpected token "&"
 	:twitter:description: syntax error, unexpected token "&": The ``&`` operator is used in two distinct situations: as the bitwise operator, between two different values
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

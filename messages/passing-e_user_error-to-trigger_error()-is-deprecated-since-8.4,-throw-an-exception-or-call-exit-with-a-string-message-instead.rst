@@ -6,7 +6,7 @@ Passing E_USER_ERROR to trigger_error() is deprecated since 8.4, throw an except
 .. meta::
 	:description:
 		Passing E_USER_ERROR to trigger_error() is deprecated since 8.4, throw an exception or call exit with a string message instead: The error level ``E_USER_ERROR`` is deprecated since PHP 8.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Passing E_USER_ERROR to trigger_error() is deprecated since 8.4, throw an exception or call exit with a string message instead
 	:og:description: The error level ``E_USER_ERROR`` is deprecated since PHP 8
@@ -17,7 +17,7 @@ Passing E_USER_ERROR to trigger_error() is deprecated since 8.4, throw an except
 	:twitter:title: Passing E_USER_ERROR to trigger_error() is deprecated since 8.4, throw an exception or call exit with a string message instead
 	:twitter:description: Passing E_USER_ERROR to trigger_error() is deprecated since 8.4, throw an exception or call exit with a string message instead: The error level ``E_USER_ERROR`` is deprecated since PHP 8
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

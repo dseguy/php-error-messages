@@ -6,7 +6,7 @@ Access type for interface method %s::%s() must be public
 .. meta::
 	:description:
 		Access type for interface method %s::%s() must be public: An method, that is defined in an interface, must appear as ``public``.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Access type for interface method %s::%s() must be public
 	:og:description: An method, that is defined in an interface, must appear as ``public``
@@ -17,7 +17,7 @@ Access type for interface method %s::%s() must be public
 	:twitter:title: Access type for interface method %s::%s() must be public
 	:twitter:description: Access type for interface method %s::%s() must be public: An method, that is defined in an interface, must appear as ``public``
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@ is an invalid offset
 .. meta::
 	:description:
 		is an invalid offset: The requested value could not be found in the underlying array.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: is an invalid offset
 	:og:description: The requested value could not be found in the underlying array
@@ -17,7 +17,7 @@ is an invalid offset
 	:twitter:title: is an invalid offset
 	:twitter:description: is an invalid offset: The requested value could not be found in the underlying array
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

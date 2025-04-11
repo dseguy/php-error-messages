@@ -6,7 +6,7 @@ Method %s::%s() cannot be static
 .. meta::
 	:description:
 		Method %s::%s() cannot be static: Some PHP special methods cannot be static.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Method %s::%s() cannot be static
 	:og:description: Some PHP special methods cannot be static
@@ -17,7 +17,7 @@ Method %s::%s() cannot be static
 	:twitter:title: Method %s::%s() cannot be static
 	:twitter:description: Method %s::%s() cannot be static: Some PHP special methods cannot be static
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

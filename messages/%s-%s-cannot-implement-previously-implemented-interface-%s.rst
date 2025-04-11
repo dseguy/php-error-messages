@@ -6,7 +6,7 @@
 .. meta::
 	:description:
 		%s %s cannot implement previously implemented interface %s: This error reports that an interface has already been implemented by a parent, and, as such, should not be implemented again.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: %s %s cannot implement previously implemented interface %s
 	:og:description: This error reports that an interface has already been implemented by a parent, and, as such, should not be implemented again
@@ -17,7 +17,7 @@
 	:twitter:title: %s %s cannot implement previously implemented interface %s
 	:twitter:description: %s %s cannot implement previously implemented interface %s: This error reports that an interface has already been implemented by a parent, and, as such, should not be implemented again
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

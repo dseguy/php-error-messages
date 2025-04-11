@@ -6,7 +6,7 @@ Generators cannot return values using "return"
 .. meta::
 	:description:
 		Generators cannot return values using "return": In PHP 5.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Generators cannot return values using &quot;return&quot;
 	:og:description: In PHP 5
@@ -17,7 +17,7 @@ Generators cannot return values using "return"
 	:twitter:title: Generators cannot return values using "return"
 	:twitter:description: Generators cannot return values using "return": In PHP 5
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

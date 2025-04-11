@@ -1,27 +1,27 @@
 .. _implicit-conversion-from-float-string-"%s"-to-int-loses:
 
-Implicit conversion from float-string "%s" to int loses
--------------------------------------------------------
+Implicit conversion from float-string "%s" to int loses precision
+-----------------------------------------------------------------
  
 .. meta::
 	:description:
-		Implicit conversion from float-string "%s" to int loses: In cases where integers are required, PHP applies a type cast and convert floats and strings into integers.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+		Implicit conversion from float-string "%s" to int loses precision: In cases where integers are required, PHP applies a type cast and convert floats and strings into integers.
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
-	:og:title: Implicit conversion from float-string &quot;%s&quot; to int loses
+	:og:title: Implicit conversion from float-string &quot;%s&quot; to int loses precision
 	:og:description: In cases where integers are required, PHP applies a type cast and convert floats and strings into integers
 	:og:url: https://php-errors.readthedocs.io/en/latest/messages/implicit-conversion-from-float-string-%22%25s%22-to-int-loses.html
 	:og:locale: en
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Implicit conversion from float-string "%s" to int loses
-	:twitter:description: Implicit conversion from float-string "%s" to int loses: In cases where integers are required, PHP applies a type cast and convert floats and strings into integers
+	:twitter:title: Implicit conversion from float-string "%s" to int loses precision
+	:twitter:description: Implicit conversion from float-string "%s" to int loses precision: In cases where integers are required, PHP applies a type cast and convert floats and strings into integers
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/implicit-conversion-from-float-string-\"%s\"-to-int-loses.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/implicit-conversion-from-float-string-\"%s\"-to-int-loses.html","name":"Implicit conversion from float-string \"%s\" to int loses","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 15 Mar 2025 09:07:56 +0000","dateModified":"Sat, 15 Mar 2025 09:07:56 +0000","description":"In cases where integers are required, PHP applies a type cast and convert floats and strings into integers","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/implicit-conversion-from-float-string-\"%s\"-to-int-loses.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/implicit-conversion-from-float-string-\"%s\"-to-int-loses.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/implicit-conversion-from-float-string-\"%s\"-to-int-loses.html","name":"Implicit conversion from float-string \"%s\" to int loses precision","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 11 Apr 2025 17:17:05 +0000","dateModified":"Fri, 11 Apr 2025 17:17:05 +0000","description":"In cases where integers are required, PHP applies a type cast and convert floats and strings into integers","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/implicit-conversion-from-float-string-\"%s\"-to-int-loses.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -65,4 +65,14 @@ ______________________
 Changed Behavior
 ________________
 
-This error may appear in different PHP versions `implicitConversionToInt <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/implicitConversionToInt.html>`_.
+This error may appear following an evolution in behavior, in previous versions. See `implicitConversionToInt <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/implicitConversionToInt.html>`_.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `implicitConversionToInt <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/implicitConversionToInt.html>`_.
+
+Static Analysis
+_______________
+
+This error may be tracked down with the following static analysis rules: `Structures/ImplicitConversionToInt <https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/ImplicitConversionToInt.html>`_.

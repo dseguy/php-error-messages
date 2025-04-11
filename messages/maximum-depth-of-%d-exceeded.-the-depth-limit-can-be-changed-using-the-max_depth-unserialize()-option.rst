@@ -6,7 +6,7 @@ Maximum depth of %d exceeded. The depth limit can be changed using the max_depth
 .. meta::
 	:description:
 		Maximum depth of %d exceeded. The depth limit can be changed using the max_depth unserialize() option: PHP 7.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Maximum depth of %d exceeded. The depth limit can be changed using the max_depth unserialize() option
 	:og:description: PHP 7
@@ -17,7 +17,7 @@ Maximum depth of %d exceeded. The depth limit can be changed using the max_depth
 	:twitter:title: Maximum depth of %d exceeded. The depth limit can be changed using the max_depth unserialize() option
 	:twitter:description: Maximum depth of %d exceeded. The depth limit can be changed using the max_depth unserialize() option: PHP 7
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

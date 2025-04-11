@@ -6,7 +6,7 @@ Attribute class "%s" not found
 .. meta::
 	:description:
 		Attribute class "%s" not found: This error reports that a class was not found.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Attribute class &quot;%s&quot; not found
 	:og:description: This error reports that a class was not found
@@ -17,7 +17,7 @@ Attribute class "%s" not found
 	:twitter:title: Attribute class "%s" not found
 	:twitter:description: Attribute class "%s" not found: This error reports that a class was not found
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

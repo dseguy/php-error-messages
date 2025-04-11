@@ -6,7 +6,7 @@ Typed static property %s::$%s must not be accessed before initialization
 .. meta::
 	:description:
 		Typed static property %s::$%s must not be accessed before initialization: Typed static properties are undefined until they are assigned for the first time.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Typed static property %s::$%s must not be accessed before initialization
 	:og:description: Typed static properties are undefined until they are assigned for the first time
@@ -17,7 +17,7 @@ Typed static property %s::$%s must not be accessed before initialization
 	:twitter:title: Typed static property %s::$%s must not be accessed before initialization
 	:twitter:description: Typed static property %s::$%s must not be accessed before initialization: Typed static properties are undefined until they are assigned for the first time
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

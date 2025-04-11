@@ -6,7 +6,7 @@ Method %s::__toString() must not throw an exception, caught %s: %s
 .. meta::
 	:description:
 		Method %s::__toString() must not throw an exception, caught %s: %s: Until PHP 8.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Method %s::__toString() must not throw an exception, caught %s: %s
 	:og:description: Until PHP 8
@@ -17,7 +17,7 @@ Method %s::__toString() must not throw an exception, caught %s: %s
 	:twitter:title: Method %s::__toString() must not throw an exception, caught %s: %s
 	:twitter:description: Method %s::__toString() must not throw an exception, caught %s: %s: Until PHP 8
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@ Invalid argument supplied for foreach()
 .. meta::
 	:description:
 		Invalid argument supplied for foreach(): foreach() works on arrays or objects.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Invalid argument supplied for foreach()
 	:og:description: foreach() works on arrays or objects
@@ -17,7 +17,7 @@ Invalid argument supplied for foreach()
 	:twitter:title: Invalid argument supplied for foreach()
 	:twitter:description: Invalid argument supplied for foreach(): foreach() works on arrays or objects
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

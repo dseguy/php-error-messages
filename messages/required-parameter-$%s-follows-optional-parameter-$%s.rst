@@ -6,7 +6,7 @@ Required parameter $%s follows optional parameter $%s
 .. meta::
 	:description:
 		Required parameter $%s follows optional parameter $%s: An optional parameter has a default value, while a required parameter doesn&#039;t.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Required parameter $%s follows optional parameter $%s
 	:og:description: An optional parameter has a default value, while a required parameter doesn&#039;t
@@ -17,7 +17,7 @@ Required parameter $%s follows optional parameter $%s
 	:twitter:title: Required parameter $%s follows optional parameter $%s
 	:twitter:description: Required parameter $%s follows optional parameter $%s: An optional parameter has a default value, while a required parameter doesn't
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
@@ -58,4 +58,9 @@ In more recent PHP versions, this error message is now :ref:`optional-parameter-
 Changed Behavior
 ________________
 
-This error may appear in different PHP versions `OptionalParameterLast <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/OptionalParameterLast.html>`_.
+This error may appear following an evolution in behavior, in previous versions. See `OptionalParameterLast <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/OptionalParameterLast.html>`_.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `OptionalParameterLast <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/OptionalParameterLast.html>`_.

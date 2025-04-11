@@ -6,7 +6,7 @@ Unknown or bad format (%s)
 .. meta::
 	:description:
 		Unknown or bad format (%s): This error is emitted by the Date extension, when creating a DatePeriod class.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Unknown or bad format (%s)
 	:og:description: This error is emitted by the Date extension, when creating a DatePeriod class
@@ -17,7 +17,7 @@ Unknown or bad format (%s)
 	:twitter:title: Unknown or bad format (%s)
 	:twitter:description: Unknown or bad format (%s): This error is emitted by the Date extension, when creating a DatePeriod class
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

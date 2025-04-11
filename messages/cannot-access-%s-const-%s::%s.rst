@@ -6,7 +6,7 @@ Cannot access %s const %s::%s
 .. meta::
 	:description:
 		Cannot access %s const %s::%s: Constants have visibility, which restrict access to the defining class (``private``), or the class and its children (``protected``).
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot access %s const %s::%s
 	:og:description: Constants have visibility, which restrict access to the defining class (``private``), or the class and its children (``protected``)
@@ -17,7 +17,7 @@ Cannot access %s const %s::%s
 	:twitter:title: Cannot access %s const %s::%s
 	:twitter:description: Cannot access %s const %s::%s: Constants have visibility, which restrict access to the defining class (``private``), or the class and its children (``protected``)
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
@@ -62,3 +62,8 @@ ______________________
 
 
 In more recent PHP versions, this error message is now :ref:`cannot-access-%s-constant-%s::%s`.
+
+Static Analysis
+_______________
+
+This error may be tracked down with the following static analysis rules: `Classes/UnreachableConstant <https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/UnreachableConstant.html>`_.

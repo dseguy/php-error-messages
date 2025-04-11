@@ -6,7 +6,7 @@ FFI API is restricted by "ffi.enable" configuration directive
 .. meta::
 	:description:
 		FFI API is restricted by "ffi.enable" configuration directive: FFI is an extension that allows loading C libraries, and building C data structure from PHP.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: FFI API is restricted by &quot;ffi.enable&quot; configuration directive
 	:og:description: FFI is an extension that allows loading C libraries, and building C data structure from PHP
@@ -17,7 +17,7 @@ FFI API is restricted by "ffi.enable" configuration directive
 	:twitter:title: FFI API is restricted by "ffi.enable" configuration directive
 	:twitter:description: FFI API is restricted by "ffi.enable" configuration directive: FFI is an extension that allows loading C libraries, and building C data structure from PHP
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@
 .. meta::
 	:description:
 		%s::%s cannot override final constant %s::%s: The ``final`` keyword prevents any child class to define the same constant or method.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: %s::%s cannot override final constant %s::%s
 	:og:description: The ``final`` keyword prevents any child class to define the same constant or method
@@ -17,7 +17,7 @@
 	:twitter:title: %s::%s cannot override final constant %s::%s
 	:twitter:description: %s::%s cannot override final constant %s::%s: The ``final`` keyword prevents any child class to define the same constant or method
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

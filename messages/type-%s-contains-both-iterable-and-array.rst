@@ -6,7 +6,7 @@ Type %s contains both iterable and array, which is redundant
 .. meta::
 	:description:
 		Type %s contains both iterable and array, which is redundant: Since PHP 8.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Type %s contains both iterable and array, which is redundant
 	:og:description: Since PHP 8
@@ -17,7 +17,7 @@ Type %s contains both iterable and array, which is redundant
 	:twitter:title: Type %s contains both iterable and array, which is redundant
 	:twitter:description: Type %s contains both iterable and array, which is redundant: Since PHP 8
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

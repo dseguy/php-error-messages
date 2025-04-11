@@ -6,7 +6,7 @@ Cannot use %s as default value for property %s::$%s of type %s
 .. meta::
 	:description:
 		Cannot use %s as default value for property %s::$%s of type %s: The default value of the property is not compatible with the type of the same property.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot use %s as default value for property %s::$%s of type %s
 	:og:description: The default value of the property is not compatible with the type of the same property
@@ -17,7 +17,7 @@ Cannot use %s as default value for property %s::$%s of type %s
 	:twitter:title: Cannot use %s as default value for property %s::$%s of type %s
 	:twitter:description: Cannot use %s as default value for property %s::$%s of type %s: The default value of the property is not compatible with the type of the same property
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

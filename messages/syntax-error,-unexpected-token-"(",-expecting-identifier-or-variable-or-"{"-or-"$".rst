@@ -6,7 +6,7 @@ syntax error, unexpected token "(", expecting identifier or variable or "{" or "
 .. meta::
 	:description:
 		syntax error, unexpected token "(", expecting identifier or variable or "{" or "$": The object operators ``-&gt;`` and ``.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: syntax error, unexpected token &quot;(&quot;, expecting identifier or variable or &quot;{&quot; or &quot;$&quot;
 	:og:description: The object operators ``-&gt;`` and ``
@@ -17,7 +17,7 @@ syntax error, unexpected token "(", expecting identifier or variable or "{" or "
 	:twitter:title: syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
 	:twitter:description: syntax error, unexpected token "(", expecting identifier or variable or "{" or "$": The object operators ``->`` and ``
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

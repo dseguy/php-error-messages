@@ -6,7 +6,7 @@ never cannot be used as a parameter type
 .. meta::
 	:description:
 		never cannot be used as a parameter type: Never is a PHP return type, that is used to indicate that a method will not return a value.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: never cannot be used as a parameter type
 	:og:description: Never is a PHP return type, that is used to indicate that a method will not return a value
@@ -17,7 +17,7 @@ never cannot be used as a parameter type
 	:twitter:title: never cannot be used as a parameter type
 	:twitter:description: never cannot be used as a parameter type: Never is a PHP return type, that is used to indicate that a method will not return a value
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

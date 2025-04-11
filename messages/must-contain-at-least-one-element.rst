@@ -6,7 +6,7 @@ must contain at least one element
 .. meta::
 	:description:
 		must contain at least one element: min() and max() only work on arrays that contains at least one element.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: must contain at least one element
 	:og:description: min() and max() only work on arrays that contains at least one element
@@ -17,7 +17,7 @@ must contain at least one element
 	:twitter:title: must contain at least one element
 	:twitter:description: must contain at least one element: min() and max() only work on arrays that contains at least one element
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

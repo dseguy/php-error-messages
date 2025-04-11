@@ -6,7 +6,7 @@ cannot be null when argument #1 ($objectOrMethod) is an object
 .. meta::
 	:description:
 		cannot be null when argument #1 ($objectOrMethod) is an object: The ReflectionMethod class requires 2 argument: the first with the class, and the second with the method name.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: cannot be null when argument #1 ($objectOrMethod) is an object
 	:og:description: The ReflectionMethod class requires 2 argument: the first with the class, and the second with the method name
@@ -17,7 +17,7 @@ cannot be null when argument #1 ($objectOrMethod) is an object
 	:twitter:title: cannot be null when argument #1 ($objectOrMethod) is an object
 	:twitter:description: cannot be null when argument #1 ($objectOrMethod) is an object: The ReflectionMethod class requires 2 argument: the first with the class, and the second with the method name
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

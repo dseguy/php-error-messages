@@ -6,7 +6,7 @@ Duplicate declaration of static variable $%s
 .. meta::
 	:description:
 		Duplicate declaration of static variable $%s: It is not allowed anymore to declare twice a static variable in a method.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Duplicate declaration of static variable $%s
 	:og:description: It is not allowed anymore to declare twice a static variable in a method
@@ -17,7 +17,7 @@ Duplicate declaration of static variable $%s
 	:twitter:title: Duplicate declaration of static variable $%s
 	:twitter:description: Duplicate declaration of static variable $%s: It is not allowed anymore to declare twice a static variable in a method
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

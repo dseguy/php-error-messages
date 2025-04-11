@@ -6,7 +6,7 @@ syntax error, unexpected token "&", expecting end of file
 .. meta::
 	:description:
 		syntax error, unexpected token "&", expecting end of file: ``&amp;`` is the reference operator.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: syntax error, unexpected token &quot;&amp;&quot;, expecting end of file
 	:og:description: ``&amp;`` is the reference operator
@@ -17,7 +17,7 @@ syntax error, unexpected token "&", expecting end of file
 	:twitter:title: syntax error, unexpected token "&", expecting end of file
 	:twitter:description: syntax error, unexpected token "&", expecting end of file: ``&`` is the reference operator
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

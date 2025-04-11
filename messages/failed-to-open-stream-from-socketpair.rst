@@ -6,7 +6,7 @@ Failed to open stream from socketpair
 .. meta::
 	:description:
 		Failed to open stream from socketpair: This error could not be reproduced so far.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Failed to open stream from socketpair
 	:og:description: This error could not be reproduced so far
@@ -17,7 +17,7 @@ Failed to open stream from socketpair
 	:twitter:title: Failed to open stream from socketpair
 	:twitter:description: Failed to open stream from socketpair: This error could not be reproduced so far
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

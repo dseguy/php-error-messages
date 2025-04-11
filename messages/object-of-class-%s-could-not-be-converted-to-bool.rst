@@ -6,7 +6,7 @@ Object of class %s could not be converted to bool
 .. meta::
 	:description:
 		Object of class %s could not be converted to bool: PHP reports that the object cannot be used as a boolean.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Object of class %s could not be converted to bool
 	:og:description: PHP reports that the object cannot be used as a boolean
@@ -17,7 +17,7 @@ Object of class %s could not be converted to bool
 	:twitter:title: Object of class %s could not be converted to bool
 	:twitter:description: Object of class %s could not be converted to bool: PHP reports that the object cannot be used as a boolean
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

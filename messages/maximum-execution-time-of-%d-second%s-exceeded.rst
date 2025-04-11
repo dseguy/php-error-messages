@@ -6,7 +6,7 @@ Maximum execution time of %d second%s exceeded
 .. meta::
 	:description:
 		Maximum execution time of %d second%s exceeded: This error indicates that the application has been running for longer than an acceptable amount of time: by default, 30 seconds.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Maximum execution time of %d second%s exceeded
 	:og:description: This error indicates that the application has been running for longer than an acceptable amount of time: by default, 30 seconds
@@ -17,7 +17,7 @@ Maximum execution time of %d second%s exceeded
 	:twitter:title: Maximum execution time of %d second%s exceeded
 	:twitter:description: Maximum execution time of %d second%s exceeded: This error indicates that the application has been running for longer than an acceptable amount of time: by default, 30 seconds
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

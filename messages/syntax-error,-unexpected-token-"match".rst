@@ -6,7 +6,7 @@ syntax error, unexpected token "match"
 .. meta::
 	:description:
 		syntax error, unexpected token "match": In PHP 8.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: syntax error, unexpected token &quot;match&quot;
 	:og:description: In PHP 8
@@ -17,7 +17,7 @@ syntax error, unexpected token "match"
 	:twitter:title: syntax error, unexpected token "match"
 	:twitter:description: syntax error, unexpected token "match": In PHP 8
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

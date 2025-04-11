@@ -6,7 +6,7 @@ Recursion detected
 .. meta::
 	:description:
 		Recursion detected: The ``compact`` function accepts an array of arguments.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Recursion detected
 	:og:description: The ``compact`` function accepts an array of arguments
@@ -17,7 +17,7 @@ Recursion detected
 	:twitter:title: Recursion detected
 	:twitter:description: Recursion detected: The ``compact`` function accepts an array of arguments
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

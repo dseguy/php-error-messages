@@ -6,7 +6,7 @@ syntax error, unexpected identifier "%s", expecting "," or ";"
 .. meta::
 	:description:
 		syntax error, unexpected identifier "%s", expecting "," or ";": This error is not related to the upcoming identifier, but to the previous delimiters.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: syntax error, unexpected identifier &quot;%s&quot;, expecting &quot;,&quot; or &quot;;&quot;
 	:og:description: This error is not related to the upcoming identifier, but to the previous delimiters
@@ -17,7 +17,7 @@ syntax error, unexpected identifier "%s", expecting "," or ";"
 	:twitter:title: syntax error, unexpected identifier "%s", expecting "," or ";"
 	:twitter:description: syntax error, unexpected identifier "%s", expecting "," or ";": This error is not related to the upcoming identifier, but to the previous delimiters
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

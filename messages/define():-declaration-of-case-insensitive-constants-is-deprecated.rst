@@ -6,7 +6,7 @@ define(): Declaration of case-insensitive constants is deprecated
 .. meta::
 	:description:
 		define(): Declaration of case-insensitive constants is deprecated: The third argument of define() used to allow the creation of a case-insensitive global constant.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: define(): Declaration of case-insensitive constants is deprecated
 	:og:description: The third argument of define() used to allow the creation of a case-insensitive global constant
@@ -17,7 +17,7 @@ define(): Declaration of case-insensitive constants is deprecated
 	:twitter:title: define(): Declaration of case-insensitive constants is deprecated
 	:twitter:description: define(): Declaration of case-insensitive constants is deprecated: The third argument of define() used to allow the creation of a case-insensitive global constant
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@ instanceof expects an object instance, constant given
 .. meta::
 	:description:
 		instanceof expects an object instance, constant given: Until PHP 7.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: instanceof expects an object instance, constant given
 	:og:description: Until PHP 7
@@ -17,7 +17,7 @@ instanceof expects an object instance, constant given
 	:twitter:title: instanceof expects an object instance, constant given
 	:twitter:description: instanceof expects an object instance, constant given: Until PHP 7
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

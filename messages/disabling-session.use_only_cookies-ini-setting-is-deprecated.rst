@@ -6,7 +6,7 @@ Disabling session.use_only_cookies INI setting is deprecated
 .. meta::
 	:description:
 		Disabling session.use_only_cookies INI setting is deprecated: ``session.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Disabling session.use_only_cookies INI setting is deprecated
 	:og:description: ``session
@@ -17,7 +17,7 @@ Disabling session.use_only_cookies INI setting is deprecated
 	:twitter:title: Disabling session.use_only_cookies INI setting is deprecated
 	:twitter:description: Disabling session.use_only_cookies INI setting is deprecated: ``session
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@ Must not use parent::$%s::%s() in a different property ($%s)
 .. meta::
 	:description:
 		Must not use parent::$%s::%s() in a different property ($%s): Property hooks are actual methods: they can call other methods to fulfill their mission.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Must not use parent::$%s::%s() in a different property ($%s)
 	:og:description: Property hooks are actual methods: they can call other methods to fulfill their mission
@@ -17,7 +17,7 @@ Must not use parent::$%s::%s() in a different property ($%s)
 	:twitter:title: Must not use parent::$%s::%s() in a different property ($%s)
 	:twitter:description: Must not use parent::$%s::%s() in a different property ($%s): Property hooks are actual methods: they can call other methods to fulfill their mission
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

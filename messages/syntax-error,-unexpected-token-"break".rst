@@ -6,7 +6,7 @@ syntax error, unexpected token "break"
 .. meta::
 	:description:
 		syntax error, unexpected token "break": break is a token that stop the current loop or switch, and proceed from the end of that loop.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: syntax error, unexpected token &quot;break&quot;
 	:og:description: break is a token that stop the current loop or switch, and proceed from the end of that loop
@@ -17,7 +17,7 @@ syntax error, unexpected token "break"
 	:twitter:title: syntax error, unexpected token "break"
 	:twitter:description: syntax error, unexpected token "break": break is a token that stop the current loop or switch, and proceed from the end of that loop
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@ The magic method %s::%s() must have public visibility
 .. meta::
 	:description:
 		The magic method %s::%s() must have public visibility: The magic methods must have the ``public`` visibility, as their features are available to external sources.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: The magic method %s::%s() must have public visibility
 	:og:description: The magic methods must have the ``public`` visibility, as their features are available to external sources
@@ -17,7 +17,7 @@ The magic method %s::%s() must have public visibility
 	:twitter:title: The magic method %s::%s() must have public visibility
 	:twitter:description: The magic method %s::%s() must have public visibility: The magic methods must have the ``public`` visibility, as their features are available to external sources
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@ Property %s::$%s cannot have type %s
 .. meta::
 	:description:
 		Property %s::$%s cannot have type %s: Some native PHP types are not allowed with a property.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Property %s::$%s cannot have type %s
 	:og:description: Some native PHP types are not allowed with a property
@@ -17,7 +17,7 @@ Property %s::$%s cannot have type %s
 	:twitter:title: Property %s::$%s cannot have type %s
 	:twitter:description: Property %s::$%s cannot have type %s: Some native PHP types are not allowed with a property
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

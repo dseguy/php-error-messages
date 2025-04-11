@@ -6,7 +6,7 @@ Cannot unset readonly property %s::$%s
 .. meta::
 	:description:
 		Cannot unset readonly property %s::$%s: Once a ``readonly`` property has been set, it cannot be unset.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot unset readonly property %s::$%s
 	:og:description: Once a ``readonly`` property has been set, it cannot be unset
@@ -17,7 +17,7 @@ Cannot unset readonly property %s::$%s
 	:twitter:title: Cannot unset readonly property %s::$%s
 	:twitter:description: Cannot unset readonly property %s::$%s: Once a ``readonly`` property has been set, it cannot be unset
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

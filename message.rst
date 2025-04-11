@@ -372,6 +372,8 @@ PHP Error Messages
    messages/object-of-type-%s-is-not-callable.rst
    messages/octal-escape-sequence-overflow-%s-is-greater-than--377.rst
    messages/offset-not-contained-in-string..rst
+   messages/only-arrays-and-traversables-can-be-unpacked.rst
+   messages/only-arrays-can-be-unpacked-in-constant-expression.rst
    messages/only-hooked-properties-may-be-declared-abstract.rst
    messages/only-internal-classes-can-be-registered-as-compiler-attribute.rst
    messages/only-the-first-byte-will-be-assigned-to-the-string-offset.rst
@@ -505,12 +507,14 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-"private",-expecting-"{".rst
    messages/syntax-error,-unexpected-token-"protected",-expecting-"{".rst
    messages/syntax-error,-unexpected-token-"public",-expecting-"{".rst
+   messages/syntax-error,-unexpected-token-"public".rst
    messages/syntax-error,-unexpected-token-"use",-expecting-","-or-";".rst
    messages/syntax-error,-unexpected-token-"use",-expecting-"{".rst
    messages/syntax-error,-unexpected-token-"use".rst
    messages/syntax-error,-unexpected-token-"{",-expecting-","-or-";".rst
    messages/syntax-error,-unexpected-token-"{",-expecting-variable.rst
    messages/syntax-error,-unexpected-token-"{".rst
+   messages/syntax-error,-unexpected-token-"}",-expecting-";"-or-"{".rst
    messages/syntax-error,-unexpected-token-"}".rst
    messages/the-"generator"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated.rst
    messages/the-$escape-parameter-must-be-provided-as-its-default-value-will-change.rst

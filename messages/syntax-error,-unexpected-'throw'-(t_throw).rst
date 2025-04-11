@@ -6,7 +6,7 @@ syntax error, unexpected 'throw' (T_THROW)
 .. meta::
 	:description:
 		syntax error, unexpected 'throw' (T_THROW): ``throw`` is not an expression until PHP 8.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: syntax error, unexpected &#039;throw&#039; (T_THROW)
 	:og:description: ``throw`` is not an expression until PHP 8
@@ -17,7 +17,7 @@ syntax error, unexpected 'throw' (T_THROW)
 	:twitter:title: syntax error, unexpected 'throw' (T_THROW)
 	:twitter:description: syntax error, unexpected 'throw' (T_THROW): ``throw`` is not an expression until PHP 8
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
@@ -50,4 +50,9 @@ _________
 Changed Behavior
 ________________
 
-This error may appear in different PHP versions `throwIsAnExpression <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/throwIsAnExpression.html>`_.
+This error may appear following an evolution in behavior, in previous versions. See `throwIsAnExpression <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/throwIsAnExpression.html>`_.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `throwIsAnExpression <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/throwIsAnExpression.html>`_.

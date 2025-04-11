@@ -6,7 +6,7 @@ Cannot use empty array elements in arrays
 .. meta::
 	:description:
 		Cannot use empty array elements in arrays: Arrays can only hold values.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot use empty array elements in arrays
 	:og:description: Arrays can only hold values
@@ -17,7 +17,7 @@ Cannot use empty array elements in arrays
 	:twitter:title: Cannot use empty array elements in arrays
 	:twitter:description: Cannot use empty array elements in arrays: Arrays can only hold values
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

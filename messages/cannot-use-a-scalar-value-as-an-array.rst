@@ -6,7 +6,7 @@ Cannot use a scalar value as an array
 .. meta::
 	:description:
 		Cannot use a scalar value as an array: Scalar values cannot be modified with the array syntax: for example, it makes no sense to modify the third indexed element on an integer.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot use a scalar value as an array
 	:og:description: Scalar values cannot be modified with the array syntax: for example, it makes no sense to modify the third indexed element on an integer
@@ -17,7 +17,7 @@ Cannot use a scalar value as an array
 	:twitter:title: Cannot use a scalar value as an array
 	:twitter:description: Cannot use a scalar value as an array: Scalar values cannot be modified with the array syntax: for example, it makes no sense to modify the third indexed element on an integer
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

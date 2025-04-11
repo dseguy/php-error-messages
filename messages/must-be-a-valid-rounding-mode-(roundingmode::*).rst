@@ -6,7 +6,7 @@ must be a valid rounding mode (RoundingMode::\*)
 .. meta::
 	:description:
 		must be a valid rounding mode (RoundingMode::\*): PHP has 4 rounding modes, to be used with the round() native function.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: must be a valid rounding mode (RoundingMode::\*)
 	:og:description: PHP has 4 rounding modes, to be used with the round() native function
@@ -17,7 +17,7 @@ must be a valid rounding mode (RoundingMode::\*)
 	:twitter:title: must be a valid rounding mode (RoundingMode::\*)
 	:twitter:description: must be a valid rounding mode (RoundingMode::\*): PHP has 4 rounding modes, to be used with the round() native function
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

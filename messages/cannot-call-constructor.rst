@@ -6,7 +6,7 @@ Cannot call constructor
 .. meta::
 	:description:
 		Cannot call constructor: When there is no need to define a constructor, it may be skipped.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot call constructor
 	:og:description: When there is no need to define a constructor, it may be skipped
@@ -17,7 +17,7 @@ Cannot call constructor
 	:twitter:title: Cannot call constructor
 	:twitter:description: Cannot call constructor: When there is no need to define a constructor, it may be skipped
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

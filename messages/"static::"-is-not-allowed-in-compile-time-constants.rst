@@ -6,7 +6,7 @@
 .. meta::
 	:description:
 		"static::" is not allowed in compile-time constants: The ``static`` keyword is a relative class identifier.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: &quot;static::&quot; is not allowed in compile-time constants
 	:og:description: The ``static`` keyword is a relative class identifier
@@ -17,7 +17,7 @@
 	:twitter:title: "static::" is not allowed in compile-time constants
 	:twitter:description: "static::" is not allowed in compile-time constants: The ``static`` keyword is a relative class identifier
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

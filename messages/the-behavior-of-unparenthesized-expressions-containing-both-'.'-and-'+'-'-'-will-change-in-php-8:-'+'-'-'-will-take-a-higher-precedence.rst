@@ -6,7 +6,7 @@ The behavior of unparenthesized expressions containing both '.' and '+'/'-' will
 .. meta::
 	:description:
 		The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence: ``+``/``-`` and ``.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: The behavior of unparenthesized expressions containing both &#039;.&#039; and &#039;+&#039;/&#039;-&#039; will change in PHP 8: &#039;+&#039;/&#039;-&#039; will take a higher precedence
 	:og:description: ``+``/``-`` and ``
@@ -17,7 +17,7 @@ The behavior of unparenthesized expressions containing both '.' and '+'/'-' will
 	:twitter:title: The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence
 	:twitter:description: The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence: ``+``/``-`` and ``
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
@@ -53,4 +53,14 @@ ______________________
 Changed Behavior
 ________________
 
-This error may appear in different PHP versions `dotAndMinus <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/dotAndMinus.html>`_, `dotAndPlus <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/dotAndPlus.html>`_.
+This error may appear following an evolution in behavior, in previous versions. See `dotAndMinus <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/dotAndMinus.html>`_, `dotAndPlus <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/dotAndPlus.html>`_.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `dotAndMinus <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/dotAndMinus.html>`_, `dotAndPlus <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/dotAndPlus.html>`_.
+
+Static Analysis
+_______________
+
+This error may be tracked down with the following static analysis rules: `Php/ConcatAndAddition <https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/ConcatAndAddition.html>`_.

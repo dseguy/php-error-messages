@@ -6,7 +6,7 @@ Keys must be of type int|string during array unpacking
 .. meta::
 	:description:
 		Keys must be of type int|string during array unpacking: Argument unpacking is the transformation of an array into a list of arguments.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Keys must be of type int|string during array unpacking
 	:og:description: Argument unpacking is the transformation of an array into a list of arguments
@@ -17,7 +17,7 @@ Keys must be of type int|string during array unpacking
 	:twitter:title: Keys must be of type int|string during array unpacking
 	:twitter:description: Keys must be of type int|string during array unpacking: Argument unpacking is the transformation of an array into a list of arguments
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

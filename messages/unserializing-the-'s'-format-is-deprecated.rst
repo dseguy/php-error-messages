@@ -6,7 +6,7 @@ Unserializing the 'S' format is deprecated
 .. meta::
 	:description:
 		Unserializing the 'S' format is deprecated: When using the unserialize() function, the string should not use ``S`` (upper case S) to format a string.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Unserializing the &#039;S&#039; format is deprecated
 	:og:description: When using the unserialize() function, the string should not use ``S`` (upper case S) to format a string
@@ -17,7 +17,7 @@ Unserializing the 'S' format is deprecated
 	:twitter:title: Unserializing the 'S' format is deprecated
 	:twitter:description: Unserializing the 'S' format is deprecated: When using the unserialize() function, the string should not use ``S`` (upper case S) to format a string
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
@@ -52,4 +52,9 @@ _________
 Changed Behavior
 ________________
 
-This error may appear in different PHP versions `unserialize_S <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/unserialize_S.html>`_.
+This error may appear following an evolution in behavior, in previous versions. See `unserialize_S <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/unserialize_S.html>`_.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `unserialize_S <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/unserialize_S.html>`_.

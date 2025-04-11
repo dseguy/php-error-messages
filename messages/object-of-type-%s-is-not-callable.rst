@@ -6,7 +6,7 @@ Object of type %s is not callable
 .. meta::
 	:description:
 		Object of type %s is not callable: There was an attempt to call a function whose name was provided in a variable, but that value could not be related to a callable code.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Object of type %s is not callable
 	:og:description: There was an attempt to call a function whose name was provided in a variable, but that value could not be related to a callable code
@@ -17,7 +17,7 @@ Object of type %s is not callable
 	:twitter:title: Object of type %s is not callable
 	:twitter:description: Object of type %s is not callable: There was an attempt to call a function whose name was provided in a variable, but that value could not be related to a callable code
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

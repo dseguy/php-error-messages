@@ -6,7 +6,7 @@ Class constant %s::%s cannot have type %s
 .. meta::
 	:description:
 		Class constant %s::%s cannot have type %s: Some native PHP types are not allowed with a class constant.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Class constant %s::%s cannot have type %s
 	:og:description: Some native PHP types are not allowed with a class constant
@@ -17,7 +17,7 @@ Class constant %s::%s cannot have type %s
 	:twitter:title: Class constant %s::%s cannot have type %s
 	:twitter:description: Class constant %s::%s cannot have type %s: Some native PHP types are not allowed with a class constant
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

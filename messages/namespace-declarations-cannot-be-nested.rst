@@ -6,7 +6,7 @@ Namespace declarations cannot be nested
 .. meta::
 	:description:
 		Namespace declarations cannot be nested: Namespace declaration, with blocks, cannot be nested one into the other.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Namespace declarations cannot be nested
 	:og:description: Namespace declaration, with blocks, cannot be nested one into the other
@@ -17,7 +17,7 @@ Namespace declarations cannot be nested
 	:twitter:title: Namespace declarations cannot be nested
 	:twitter:description: Namespace declarations cannot be nested: Namespace declaration, with blocks, cannot be nested one into the other
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

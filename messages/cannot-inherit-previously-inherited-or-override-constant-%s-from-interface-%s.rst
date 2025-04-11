@@ -6,7 +6,7 @@ Cannot inherit previously-inherited or override constant %s from interface %s
 .. meta::
 	:description:
 		Cannot inherit previously-inherited or override constant %s from interface %s: Until PHP 8.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot inherit previously-inherited or override constant %s from interface %s
 	:og:description: Until PHP 8
@@ -17,7 +17,7 @@ Cannot inherit previously-inherited or override constant %s from interface %s
 	:twitter:title: Cannot inherit previously-inherited or override constant %s from interface %s
 	:twitter:description: Cannot inherit previously-inherited or override constant %s from interface %s: Until PHP 8
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

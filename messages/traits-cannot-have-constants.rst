@@ -6,7 +6,7 @@ Traits cannot have constants
 .. meta::
 	:description:
 		Traits cannot have constants: Constants int traits were added in PHP 8.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Traits cannot have constants
 	:og:description: Constants int traits were added in PHP 8
@@ -17,7 +17,7 @@ Traits cannot have constants
 	:twitter:title: Traits cannot have constants
 	:twitter:description: Traits cannot have constants: Constants int traits were added in PHP 8
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

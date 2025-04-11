@@ -6,7 +6,7 @@ b cannot implement a - it is not an interface
 .. meta::
 	:description:
 		b cannot implement a - it is not an interface: implements is a keyword that only applies to interfaces.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: b cannot implement a - it is not an interface
 	:og:description: implements is a keyword that only applies to interfaces
@@ -17,7 +17,7 @@ b cannot implement a - it is not an interface
 	:twitter:title: b cannot implement a - it is not an interface
 	:twitter:description: b cannot implement a - it is not an interface: implements is a keyword that only applies to interfaces
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

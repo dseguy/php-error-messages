@@ -6,7 +6,7 @@ Static property %s::$%s cannot be readonly
 .. meta::
 	:description:
 		Static property %s::$%s cannot be readonly: Static properties cannot use the ``readonly`` option.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Static property %s::$%s cannot be readonly
 	:og:description: Static properties cannot use the ``readonly`` option
@@ -17,7 +17,7 @@ Static property %s::$%s cannot be readonly
 	:twitter:title: Static property %s::$%s cannot be readonly
 	:twitter:description: Static property %s::$%s cannot be readonly: Static properties cannot use the ``readonly`` option
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@ syntax error, unexpected token "class", expecting-"]"
 .. meta::
 	:description:
 		syntax error, unexpected token "class", expecting-"]": The previous attribute was not closed with a square bracket, and its syntax is spilling over the supporting class.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: syntax error, unexpected token &quot;class&quot;, expecting-&quot;]&quot;
 	:og:description: The previous attribute was not closed with a square bracket, and its syntax is spilling over the supporting class
@@ -17,7 +17,7 @@ syntax error, unexpected token "class", expecting-"]"
 	:twitter:title: syntax error, unexpected token "class", expecting-"]"
 	:twitter:description: syntax error, unexpected token "class", expecting-"]": The previous attribute was not closed with a square bracket, and its syntax is spilling over the supporting class
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

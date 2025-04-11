@@ -6,7 +6,7 @@ Visibility of property %s::$%s must not be weaker than set visibility
 .. meta::
 	:description:
 		Visibility of property %s::$%s must not be weaker than set visibility: When using asymmetric visibility, it is not allowed to have a weaker (public) visibility for writing than for reading (private).
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Visibility of property %s::$%s must not be weaker than set visibility
 	:og:description: When using asymmetric visibility, it is not allowed to have a weaker (public) visibility for writing than for reading (private)
@@ -17,7 +17,7 @@ Visibility of property %s::$%s must not be weaker than set visibility
 	:twitter:title: Visibility of property %s::$%s must not be weaker than set visibility
 	:twitter:description: Visibility of property %s::$%s must not be weaker than set visibility: When using asymmetric visibility, it is not allowed to have a weaker (public) visibility for writing than for reading (private)
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@ contains an invalid cURL option
 .. meta::
 	:description:
 		contains an invalid cURL option: ``curl_setopt()`` uses a cURL option as second parameter.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: contains an invalid cURL option
 	:og:description: ``curl_setopt()`` uses a cURL option as second parameter
@@ -17,7 +17,7 @@ contains an invalid cURL option
 	:twitter:title: contains an invalid cURL option
 	:twitter:description: contains an invalid cURL option: ``curl_setopt()`` uses a cURL option as second parameter
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

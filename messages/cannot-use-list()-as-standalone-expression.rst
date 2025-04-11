@@ -6,7 +6,7 @@ Cannot use list() as standalone expression
 .. meta::
 	:description:
 		Cannot use list() as standalone expression: list() assigns values from an array to a list of variables (or data containers).
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot use list() as standalone expression
 	:og:description: list() assigns values from an array to a list of variables (or data containers)
@@ -17,7 +17,7 @@ Cannot use list() as standalone expression
 	:twitter:title: Cannot use list() as standalone expression
 	:twitter:description: Cannot use list() as standalone expression: list() assigns values from an array to a list of variables (or data containers)
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

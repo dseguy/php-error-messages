@@ -6,7 +6,7 @@ Cannot override final property %s::$%s
 .. meta::
 	:description:
 		Cannot override final property %s::$%s: A property that is private for writing, is automatically considered ``final``.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot override final property %s::$%s
 	:og:description: A property that is private for writing, is automatically considered ``final``
@@ -17,7 +17,7 @@ Cannot override final property %s::$%s
 	:twitter:title: Cannot override final property %s::$%s
 	:twitter:description: Cannot override final property %s::$%s: A property that is private for writing, is automatically considered ``final``
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

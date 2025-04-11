@@ -6,7 +6,7 @@ syntax error, unexpected token "extends", expecting "{"
 .. meta::
 	:description:
 		syntax error, unexpected token "extends", expecting "{": When declaring a class, the ``extends`` keyword must appear before the ``implements`` one.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: syntax error, unexpected token &quot;extends&quot;, expecting &quot;{&quot;
 	:og:description: When declaring a class, the ``extends`` keyword must appear before the ``implements`` one
@@ -17,7 +17,7 @@ syntax error, unexpected token "extends", expecting "{"
 	:twitter:title: syntax error, unexpected token "extends", expecting "{"
 	:twitter:description: syntax error, unexpected token "extends", expecting "{": When declaring a class, the ``extends`` keyword must appear before the ``implements`` one
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@ syntax error, unexpected token "__NAMESPACE__", expecting "("
 .. meta::
 	:description:
 		syntax error, unexpected token "__NAMESPACE__", expecting "(": It is not possible to use ``__NAMESPACE__`` or any other magic constant as a function or method name.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: syntax error, unexpected token &quot;__NAMESPACE__&quot;, expecting &quot;(&quot;
 	:og:description: It is not possible to use ``__NAMESPACE__`` or any other magic constant as a function or method name
@@ -17,7 +17,7 @@ syntax error, unexpected token "__NAMESPACE__", expecting "("
 	:twitter:title: syntax error, unexpected token "__NAMESPACE__", expecting "("
 	:twitter:description: syntax error, unexpected token "__NAMESPACE__", expecting "(": It is not possible to use ``__NAMESPACE__`` or any other magic constant as a function or method name
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

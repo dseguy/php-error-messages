@@ -6,7 +6,7 @@ Method %s::%s() cannot declare a return type
 .. meta::
 	:description:
 		Method %s::%s() cannot declare a return type: There can be no return type for certain methods, such as the constructor and the desctructor.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Method %s::%s() cannot declare a return type
 	:og:description: There can be no return type for certain methods, such as the constructor and the desctructor
@@ -17,7 +17,7 @@ Method %s::%s() cannot declare a return type
 	:twitter:title: Method %s::%s() cannot declare a return type
 	:twitter:description: Method %s::%s() cannot declare a return type: There can be no return type for certain methods, such as the constructor and the desctructor
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

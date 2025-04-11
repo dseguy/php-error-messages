@@ -6,7 +6,7 @@ Call to a member function %s() on %s
 .. meta::
 	:description:
 		Call to a member function %s() on %s: This error happens when the object syntax is used on a string.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Call to a member function %s() on %s
 	:og:description: This error happens when the object syntax is used on a string
@@ -17,7 +17,7 @@ Call to a member function %s() on %s
 	:twitter:title: Call to a member function %s() on %s
 	:twitter:description: Call to a member function %s() on %s: This error happens when the object syntax is used on a string
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@ Cannot use 'abstract' as constant modifier
 .. meta::
 	:description:
 		Cannot use 'abstract' as constant modifier: ``abstract`` is an option for methods, and it is not available for class constants, properties or enumeration cases.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot use &#039;abstract&#039; as constant modifier
 	:og:description: ``abstract`` is an option for methods, and it is not available for class constants, properties or enumeration cases
@@ -17,7 +17,7 @@ Cannot use 'abstract' as constant modifier
 	:twitter:title: Cannot use 'abstract' as constant modifier
 	:twitter:description: Cannot use 'abstract' as constant modifier: ``abstract`` is an option for methods, and it is not available for class constants, properties or enumeration cases
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

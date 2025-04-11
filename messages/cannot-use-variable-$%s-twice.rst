@@ -6,7 +6,7 @@ Cannot use variable $%S twice
 .. meta::
 	:description:
 		Cannot use variable $%S twice: The same variable cannt be mentionned twice in the use part of a closure definition.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot use variable $%S twice
 	:og:description: The same variable cannt be mentionned twice in the use part of a closure definition
@@ -17,7 +17,7 @@ Cannot use variable $%S twice
 	:twitter:title: Cannot use variable $%S twice
 	:twitter:description: Cannot use variable $%S twice: The same variable cannt be mentionned twice in the use part of a closure definition
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@ The "Generator" class is reserved for internal use and cannot be manually instan
 .. meta::
 	:description:
 		The "Generator" class is reserved for internal use and cannot be manually instantiated: Generator is a PHP native class.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: The &quot;Generator&quot; class is reserved for internal use and cannot be manually instantiated
 	:og:description: Generator is a PHP native class
@@ -17,7 +17,7 @@ The "Generator" class is reserved for internal use and cannot be manually instan
 	:twitter:title: The "Generator" class is reserved for internal use and cannot be manually instantiated
 	:twitter:description: The "Generator" class is reserved for internal use and cannot be manually instantiated: Generator is a PHP native class
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

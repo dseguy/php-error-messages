@@ -6,7 +6,7 @@ must be one of PGSQL_NOTICE_LAST, PGSQL_NOTICE_ALL, or PGSQL_NOTICE_CLEAR
 .. meta::
 	:description:
 		must be one of PGSQL_NOTICE_LAST, PGSQL_NOTICE_ALL, or PGSQL_NOTICE_CLEAR: pg_last_notice() 2nd argument must be one of 3 possible pgsql constants: PGSQL_NOTICE_LAST, PGSQL_NOTICE_ALL, or PGSQL_NOTICE_CLEAR.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: must be one of PGSQL_NOTICE_LAST, PGSQL_NOTICE_ALL, or PGSQL_NOTICE_CLEAR
 	:og:description: pg_last_notice() 2nd argument must be one of 3 possible pgsql constants: PGSQL_NOTICE_LAST, PGSQL_NOTICE_ALL, or PGSQL_NOTICE_CLEAR
@@ -17,7 +17,7 @@ must be one of PGSQL_NOTICE_LAST, PGSQL_NOTICE_ALL, or PGSQL_NOTICE_CLEAR
 	:twitter:title: must be one of PGSQL_NOTICE_LAST, PGSQL_NOTICE_ALL, or PGSQL_NOTICE_CLEAR
 	:twitter:description: must be one of PGSQL_NOTICE_LAST, PGSQL_NOTICE_ALL, or PGSQL_NOTICE_CLEAR: pg_last_notice() 2nd argument must be one of 3 possible pgsql constants: PGSQL_NOTICE_LAST, PGSQL_NOTICE_ALL, or PGSQL_NOTICE_CLEAR
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
@@ -54,3 +54,8 @@ See Also
 ________
 
 + `PredefinedConstants <https://www.php.net/manual/en/pgsql.constants.php#constant.pgsql-notice-all>`_
+
+Static Analysis
+_______________
+
+This error may be tracked down with the following static analysis rules: `Functions/UseConstantAsArguments <https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/UseConstantAsArguments.html>`_.

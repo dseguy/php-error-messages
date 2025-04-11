@@ -6,7 +6,7 @@ Call to %s method %s::%s() from %s%s
 .. meta::
 	:description:
 		Call to %s method %s::%s() from %s%s: A ``private`` method shall only be called from within its own class.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Call to %s method %s::%s() from %s%s
 	:og:description: A ``private`` method shall only be called from within its own class
@@ -17,7 +17,7 @@ Call to %s method %s::%s() from %s%s
 	:twitter:title: Call to %s method %s::%s() from %s%s
 	:twitter:description: Call to %s method %s::%s() from %s%s: A ``private`` method shall only be called from within its own class
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@
 .. meta::
 	:description:
 		%s%s%s(): Return value must be of type %s, %s returned: This error appears when calling a method with a return value, but without an explicit return statement.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: %s%s%s(): Return value must be of type %s, %s returned
 	:og:description: This error appears when calling a method with a return value, but without an explicit return statement
@@ -17,7 +17,7 @@
 	:twitter:title: %s%s%s(): Return value must be of type %s, %s returned
 	:twitter:description: %s%s%s(): Return value must be of type %s, %s returned: This error appears when calling a method with a return value, but without an explicit return statement
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

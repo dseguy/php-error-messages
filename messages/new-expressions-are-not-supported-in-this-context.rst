@@ -6,7 +6,7 @@ New expressions are not supported in this context
 .. meta::
 	:description:
 		New expressions are not supported in this context: It is not possible to use directly an object as value for a class constant.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: New expressions are not supported in this context
 	:og:description: It is not possible to use directly an object as value for a class constant
@@ -17,7 +17,7 @@ New expressions are not supported in this context
 	:twitter:title: New expressions are not supported in this context
 	:twitter:description: New expressions are not supported in this context: It is not possible to use directly an object as value for a class constant
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

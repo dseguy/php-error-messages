@@ -6,7 +6,7 @@ syntax error, unexpected identifier "%s"
 .. meta::
 	:description:
 		syntax error, unexpected identifier "%s": Named structures usually start with a keyword, such as ``class``, ``interface``, ``function``, etc.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: syntax error, unexpected identifier &quot;%s&quot;
 	:og:description: Named structures usually start with a keyword, such as ``class``, ``interface``, ``function``, etc
@@ -17,7 +17,7 @@ syntax error, unexpected identifier "%s"
 	:twitter:title: syntax error, unexpected identifier "%s"
 	:twitter:description: syntax error, unexpected identifier "%s": Named structures usually start with a keyword, such as ``class``, ``interface``, ``function``, etc
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

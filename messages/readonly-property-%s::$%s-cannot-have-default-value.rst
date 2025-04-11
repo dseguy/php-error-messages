@@ -6,7 +6,7 @@ Readonly property %s::$%s cannot have default value
 .. meta::
 	:description:
 		Readonly property %s::$%s cannot have default value: A readonly property is expected to be set once, and only once, at execution time.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Readonly property %s::$%s cannot have default value
 	:og:description: A readonly property is expected to be set once, and only once, at execution time
@@ -17,7 +17,7 @@ Readonly property %s::$%s cannot have default value
 	:twitter:title: Readonly property %s::$%s cannot have default value
 	:twitter:description: Readonly property %s::$%s cannot have default value: A readonly property is expected to be set once, and only once, at execution time
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

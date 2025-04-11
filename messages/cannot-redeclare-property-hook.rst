@@ -6,7 +6,7 @@ Cannot redeclare property hook
 .. meta::
 	:description:
 		Cannot redeclare property hook: Property hooks must be all distinct, and there can only be two.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot redeclare property hook
 	:og:description: Property hooks must be all distinct, and there can only be two
@@ -17,7 +17,7 @@ Cannot redeclare property hook
 	:twitter:title: Cannot redeclare property hook
 	:twitter:description: Cannot redeclare property hook: Property hooks must be all distinct, and there can only be two
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

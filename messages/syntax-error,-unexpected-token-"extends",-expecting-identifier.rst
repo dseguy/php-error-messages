@@ -6,7 +6,7 @@ syntax error, unexpected token "extends", expecting identifier
 .. meta::
 	:description:
 		syntax error, unexpected token "extends", expecting identifier: The ``extends`` keyword may only be used after a class name, an interface name, or the parenthesis of an anonymous class.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: syntax error, unexpected token &quot;extends&quot;, expecting identifier
 	:og:description: The ``extends`` keyword may only be used after a class name, an interface name, or the parenthesis of an anonymous class
@@ -17,7 +17,7 @@ syntax error, unexpected token "extends", expecting identifier
 	:twitter:title: syntax error, unexpected token "extends", expecting identifier
 	:twitter:description: syntax error, unexpected token "extends", expecting identifier: The ``extends`` keyword may only be used after a class name, an interface name, or the parenthesis of an anonymous class
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@
 .. meta::
 	:description:
 		%s::%s(): Return type must be %s when declared: The magic methods ``__sleep`` and ``__serialize`` may be left without a return type.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: %s::%s(): Return type must be %s when declared
 	:og:description: The magic methods ``__sleep`` and ``__serialize`` may be left without a return type
@@ -17,7 +17,7 @@
 	:twitter:title: %s::%s(): Return type must be %s when declared
 	:twitter:description: %s::%s(): Return type must be %s when declared: The magic methods ``__sleep`` and ``__serialize`` may be left without a return type
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

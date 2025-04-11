@@ -6,7 +6,7 @@ Property %s::$%s does not exist
 .. meta::
 	:description:
 		Property %s::$%s does not exist: This error happens when the Reflection API fails at getting the description of a non-existent property.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Property %s::$%s does not exist
 	:og:description: This error happens when the Reflection API fails at getting the description of a non-existent property
@@ -17,7 +17,7 @@ Property %s::$%s does not exist
 	:twitter:title: Property %s::$%s does not exist
 	:twitter:description: Property %s::$%s does not exist: This error happens when the Reflection API fails at getting the description of a non-existent property
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

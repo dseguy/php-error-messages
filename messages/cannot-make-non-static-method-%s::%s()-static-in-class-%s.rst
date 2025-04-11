@@ -6,7 +6,7 @@ Cannot make non static method %s::%s() static in class %s
 .. meta::
 	:description:
 		Cannot make non static method %s::%s() static in class %s: Once a method has been defined, the ``static`` keyword, or its absence, must be preserved for the same method in the children classes.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot make non static method %s::%s() static in class %s
 	:og:description: Once a method has been defined, the ``static`` keyword, or its absence, must be preserved for the same method in the children classes
@@ -17,7 +17,7 @@ Cannot make non static method %s::%s() static in class %s
 	:twitter:title: Cannot make non static method %s::%s() static in class %s
 	:twitter:description: Cannot make non static method %s::%s() static in class %s: Once a method has been defined, the ``static`` keyword, or its absence, must be preserved for the same method in the children classes
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

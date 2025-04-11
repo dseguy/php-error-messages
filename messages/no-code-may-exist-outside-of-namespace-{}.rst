@@ -6,7 +6,7 @@ No code may exist outside of namespace {}
 .. meta::
 	:description:
 		No code may exist outside of namespace {}: When using a block notation for namespaces, there cannot be any other code outside the namespaced blocks.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: No code may exist outside of namespace {}
 	:og:description: When using a block notation for namespaces, there cannot be any other code outside the namespaced blocks
@@ -17,7 +17,7 @@ No code may exist outside of namespace {}
 	:twitter:title: No code may exist outside of namespace {}
 	:twitter:description: No code may exist outside of namespace {}: When using a block notation for namespaces, there cannot be any other code outside the namespaced blocks
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@ syntax error, unexpected 'elseif'
 .. meta::
 	:description:
 		syntax error, unexpected 'elseif': The ``elseif`` must follow a ``if`` structure.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: syntax error, unexpected &#039;elseif&#039;
 	:og:description: The ``elseif`` must follow a ``if`` structure
@@ -17,7 +17,7 @@ syntax error, unexpected 'elseif'
 	:twitter:title: syntax error, unexpected 'elseif'
 	:twitter:description: syntax error, unexpected 'elseif': The ``elseif`` must follow a ``if`` structure
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

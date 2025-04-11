@@ -6,7 +6,7 @@
 .. meta::
 	:description:
 		%s::%s() has #[\Override] attribute, but no matching parent method exists: This error message has two sources: it happens, at compilation time, when the class has no parent, yet has a method with Override attribute.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: %s::%s() has #[\Override] attribute, but no matching parent method exists
 	:og:description: This error message has two sources: it happens, at compilation time, when the class has no parent, yet has a method with Override attribute
@@ -17,7 +17,7 @@
 	:twitter:title: %s::%s() has #[\Override] attribute, but no matching parent method exists
 	:twitter:description: %s::%s() has #[\Override] attribute, but no matching parent method exists: This error message has two sources: it happens, at compilation time, when the class has no parent, yet has a method with Override attribute
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

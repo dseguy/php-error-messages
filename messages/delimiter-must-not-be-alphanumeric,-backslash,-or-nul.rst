@@ -6,7 +6,7 @@ Delimiter must not be alphanumeric, backslash, or NUL
 .. meta::
 	:description:
 		Delimiter must not be alphanumeric, backslash, or NUL: The first character of a regex is the delimiter, that delimits the regex.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Delimiter must not be alphanumeric, backslash, or NUL
 	:og:description: The first character of a regex is the delimiter, that delimits the regex
@@ -17,7 +17,7 @@ Delimiter must not be alphanumeric, backslash, or NUL
 	:twitter:title: Delimiter must not be alphanumeric, backslash, or NUL
 	:twitter:description: Delimiter must not be alphanumeric, backslash, or NUL: The first character of a regex is the delimiter, that delimits the regex
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

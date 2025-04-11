@@ -6,7 +6,7 @@
 .. meta::
 	:description:
 		%s(): Argument #%d ($%s) must be contained in argument #%d ($%s): strpos() searches for a string called ``$needle`` in another string called ``$haystack``, starting at the offset passed as third argument, and called ``$offset``.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: %s(): Argument #%d ($%s) must be contained in argument #%d ($%s)
 	:og:description: strpos() searches for a string called ``$needle`` in another string called ``$haystack``, starting at the offset passed as third argument, and called ``$offset``
@@ -17,7 +17,7 @@
 	:twitter:title: %s(): Argument #%d ($%s) must be contained in argument #%d ($%s)
 	:twitter:description: %s(): Argument #%d ($%s) must be contained in argument #%d ($%s): strpos() searches for a string called ``$needle`` in another string called ``$haystack``, starting at the offset passed as third argument, and called ``$offset``
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

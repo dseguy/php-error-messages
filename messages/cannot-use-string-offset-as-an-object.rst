@@ -6,7 +6,7 @@ Cannot use string offset as an object
 .. meta::
 	:description:
 		Cannot use string offset as an object: It is possible to use the array syntax ``$s[$i]`` on a string, to access an individual character.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot use string offset as an object
 	:og:description: It is possible to use the array syntax ``$s[$i]`` on a string, to access an individual character
@@ -17,7 +17,7 @@ Cannot use string offset as an object
 	:twitter:title: Cannot use string offset as an object
 	:twitter:description: Cannot use string offset as an object: It is possible to use the array syntax ``$s[$i]`` on a string, to access an individual character
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

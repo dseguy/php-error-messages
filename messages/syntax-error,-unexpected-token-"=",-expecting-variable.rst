@@ -6,7 +6,7 @@ syntax error, unexpected token "=", expecting variable
 .. meta::
 	:description:
 		syntax error, unexpected token "=", expecting variable: The name of the parameter was removed.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: syntax error, unexpected token &quot;=&quot;, expecting variable
 	:og:description: The name of the parameter was removed
@@ -17,7 +17,7 @@ syntax error, unexpected token "=", expecting variable
 	:twitter:title: syntax error, unexpected token "=", expecting variable
 	:twitter:description: syntax error, unexpected token "=", expecting variable: The name of the parameter was removed
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

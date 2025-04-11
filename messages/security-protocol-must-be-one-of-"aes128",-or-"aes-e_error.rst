@@ -6,7 +6,7 @@ Security protocol must be one of "AES128", or "AES E_ERROR
 .. meta::
 	:description:
 		Security protocol must be one of "AES128", or "AES E_ERROR: The fourth argument of snmp3_get() must be one of the following values, &quot;AES128&quot;, or &quot;AES&quot;.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Security protocol must be one of &quot;AES128&quot;, or &quot;AES E_ERROR
 	:og:description: The fourth argument of snmp3_get() must be one of the following values, &quot;AES128&quot;, or &quot;AES&quot;
@@ -17,7 +17,7 @@ Security protocol must be one of "AES128", or "AES E_ERROR
 	:twitter:title: Security protocol must be one of "AES128", or "AES E_ERROR
 	:twitter:description: Security protocol must be one of "AES128", or "AES E_ERROR: The fourth argument of snmp3_get() must be one of the following values, "AES128", or "AES"
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

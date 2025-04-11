@@ -6,7 +6,7 @@ syntax error, unexpected token "namespace"
 .. meta::
 	:description:
 		syntax error, unexpected token "namespace": The ``namespace`` token is one of the first to be used in a script.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: syntax error, unexpected token &quot;namespace&quot;
 	:og:description: The ``namespace`` token is one of the first to be used in a script
@@ -17,7 +17,7 @@ syntax error, unexpected token "namespace"
 	:twitter:title: syntax error, unexpected token "namespace"
 	:twitter:description: syntax error, unexpected token "namespace": The ``namespace`` token is one of the first to be used in a script
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

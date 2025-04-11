@@ -6,7 +6,7 @@ Methods with the same name as their class will not be constructors in a future v
 .. meta::
 	:description:
 		Methods with the same name as their class will not be constructors in a future version of PHP; %s has a deprecated constructor: In PHP 4, the constructor of a class was the method with the same name as the class.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Methods with the same name as their class will not be constructors in a future version of PHP; %s has a deprecated constructor
 	:og:description: In PHP 4, the constructor of a class was the method with the same name as the class
@@ -17,7 +17,7 @@ Methods with the same name as their class will not be constructors in a future v
 	:twitter:title: Methods with the same name as their class will not be constructors in a future version of PHP; %s has a deprecated constructor
 	:twitter:description: Methods with the same name as their class will not be constructors in a future version of PHP; %s has a deprecated constructor: In PHP 4, the constructor of a class was the method with the same name as the class
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

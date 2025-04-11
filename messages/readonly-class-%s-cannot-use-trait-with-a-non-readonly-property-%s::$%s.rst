@@ -6,7 +6,7 @@ Readonly class %s cannot use trait with a non-readonly property %s::$%s
 .. meta::
 	:description:
 		Readonly class %s cannot use trait with a non-readonly property %s::$%s: When a class is readonly, then even the properties added to the class from a trait have to be readonly.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Readonly class %s cannot use trait with a non-readonly property %s::$%s
 	:og:description: When a class is readonly, then even the properties added to the class from a trait have to be readonly
@@ -17,7 +17,7 @@ Readonly class %s cannot use trait with a non-readonly property %s::$%s
 	:twitter:title: Readonly class %s cannot use trait with a non-readonly property %s::$%s
 	:twitter:description: Readonly class %s cannot use trait with a non-readonly property %s::$%s: When a class is readonly, then even the properties added to the class from a trait have to be readonly
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

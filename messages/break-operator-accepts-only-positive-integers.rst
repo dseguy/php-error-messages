@@ -6,7 +6,7 @@ break operator accepts only positive integers
 .. meta::
 	:description:
 		break operator accepts only positive integers: ``break`` indicates the number of nested loop to break from.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: break operator accepts only positive integers
 	:og:description: ``break`` indicates the number of nested loop to break from
@@ -17,7 +17,7 @@ break operator accepts only positive integers
 	:twitter:title: break operator accepts only positive integers
 	:twitter:description: break operator accepts only positive integers: ``break`` indicates the number of nested loop to break from
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
@@ -53,3 +53,8 @@ Related Error Messages
 ______________________
 
 + :ref:`continue-operator-accepts-only-positive-integers`
+
+Static Analysis
+_______________
+
+This error may be tracked down with the following static analysis rules: `Structures/BreakNonInteger <https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/BreakNonInteger.html>`_.

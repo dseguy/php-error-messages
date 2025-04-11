@@ -6,7 +6,7 @@ Named parameter $%s overwrites previous argument
 .. meta::
 	:description:
 		Named parameter $%s overwrites previous argument: Named parameter and positional arguments are setting the same argument, with different name.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Named parameter $%s overwrites previous argument
 	:og:description: Named parameter and positional arguments are setting the same argument, with different name
@@ -17,11 +17,11 @@ Named parameter $%s overwrites previous argument
 	:twitter:title: Named parameter $%s overwrites previous argument
 	:twitter:description: Named parameter $%s overwrites previous argument: Named parameter and positional arguments are setting the same argument, with different name
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/named-parameter-$%s-overwrites-previous-argument.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/named-parameter-$%s-overwrites-previous-argument.html","name":"Named parameter $%s overwrites previous argument","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 21 Feb 2025 18:53:43 +0000","dateModified":"Fri, 21 Feb 2025 18:53:43 +0000","description":"Named parameter and positional arguments are setting the same argument, with different name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/named-parameter-$%s-overwrites-previous-argument.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/named-parameter-$%s-overwrites-previous-argument.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/named-parameter-$%s-overwrites-previous-argument.html","name":"Named parameter $%s overwrites previous argument","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 11 Apr 2025 16:34:35 +0000","dateModified":"Fri, 11 Apr 2025 16:34:35 +0000","description":"Named parameter and positional arguments are setting the same argument, with different name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/named-parameter-$%s-overwrites-previous-argument.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -47,7 +47,7 @@ _______
    foo(1, a:1);
    
    // 1 is given to $a, by its position 0
-   // 2 is given to $a, by its name 'a' : this is a conflict
+   // 2 is given to $a, by its name 'a'. This is a conflict
    $args = [1, a => 2];
    foo(...$args); // error
    

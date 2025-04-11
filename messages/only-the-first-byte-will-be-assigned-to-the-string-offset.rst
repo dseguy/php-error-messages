@@ -6,7 +6,7 @@ Only the first byte will be assigned to the string offset
 .. meta::
 	:description:
 		Only the first byte will be assigned to the string offset: The array notation is available with strings, to both write and read.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Only the first byte will be assigned to the string offset
 	:og:description: The array notation is available with strings, to both write and read
@@ -17,7 +17,7 @@ Only the first byte will be assigned to the string offset
 	:twitter:title: Only the first byte will be assigned to the string offset
 	:twitter:description: Only the first byte will be assigned to the string offset: The array notation is available with strings, to both write and read
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

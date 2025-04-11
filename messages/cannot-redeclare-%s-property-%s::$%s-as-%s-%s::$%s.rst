@@ -6,7 +6,7 @@ Cannot redeclare %s property %s::$%s as %s %s::$%s
 .. meta::
 	:description:
 		Cannot redeclare %s property %s::$%s as %s %s::$%s: A property must be always ``readonly`` or non-readonly, in every classes of the same family.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot redeclare %s property %s::$%s as %s %s::$%s
 	:og:description: A property must be always ``readonly`` or non-readonly, in every classes of the same family
@@ -17,7 +17,7 @@ Cannot redeclare %s property %s::$%s as %s %s::$%s
 	:twitter:title: Cannot redeclare %s property %s::$%s as %s %s::$%s
 	:twitter:description: Cannot redeclare %s property %s::$%s as %s %s::$%s: A property must be always ``readonly`` or non-readonly, in every classes of the same family
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

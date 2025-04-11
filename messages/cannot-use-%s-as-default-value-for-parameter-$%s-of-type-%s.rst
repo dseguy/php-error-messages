@@ -6,7 +6,7 @@ Cannot use %s as default value for parameter $%s of type %s
 .. meta::
 	:description:
 		Cannot use %s as default value for parameter $%s of type %s: The default value of the parameter is not compatible with the type of the parameter.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot use %s as default value for parameter $%s of type %s
 	:og:description: The default value of the parameter is not compatible with the type of the parameter
@@ -17,11 +17,11 @@ Cannot use %s as default value for parameter $%s of type %s
 	:twitter:title: Cannot use %s as default value for parameter $%s of type %s
 	:twitter:description: Cannot use %s as default value for parameter $%s of type %s: The default value of the parameter is not compatible with the type of the parameter
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-%s-as-default-value-for-parameter-$%s-of-type-%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-%s-as-default-value-for-parameter-$%s-of-type-%s.html","name":"Cannot use %s as default value for parameter $%s of type %s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 21 Feb 2025 18:53:43 +0000","dateModified":"Fri, 21 Feb 2025 18:53:43 +0000","description":"The default value of the parameter is not compatible with the type of the parameter","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-use-%s-as-default-value-for-parameter-$%s-of-type-%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-%s-as-default-value-for-parameter-$%s-of-type-%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-%s-as-default-value-for-parameter-$%s-of-type-%s.html","name":"Cannot use %s as default value for parameter $%s of type %s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 11 Apr 2025 16:45:40 +0000","dateModified":"Fri, 11 Apr 2025 16:45:40 +0000","description":"The default value of the parameter is not compatible with the type of the parameter","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-use-%s-as-default-value-for-parameter-$%s-of-type-%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -64,3 +64,11 @@ ______________________
 
 + :ref:`default-value-for-parameters-with-a-%s-type-can-only-be-%s-or-null`
 + :ref:`cannot-use-%s-as-default-value-for-property-%s::$%s-of-type-%s`
+
+
+In previous PHP versions, this error message used to be :ref:`default-value-for-parameters-with-a-%s-type-can-only-be-%s-or-null`.
+
+Static Analysis
+_______________
+
+This error may be tracked down with the following static analysis rules: `Functions/MismatchTypeAndDefault <https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/MismatchTypeAndDefault.html>`_.

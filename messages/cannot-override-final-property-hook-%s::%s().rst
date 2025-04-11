@@ -6,7 +6,7 @@ Cannot override final property hook %s::%s()
 .. meta::
 	:description:
 		Cannot override final property hook %s::%s(): Property hooks may be declared final, just like any other methods.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot override final property hook %s::%s()
 	:og:description: Property hooks may be declared final, just like any other methods
@@ -17,7 +17,7 @@ Cannot override final property hook %s::%s()
 	:twitter:title: Cannot override final property hook %s::%s()
 	:twitter:description: Cannot override final property hook %s::%s(): Property hooks may be declared final, just like any other methods
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

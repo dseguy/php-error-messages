@@ -6,7 +6,7 @@
 .. meta::
 	:description:
 		`%s' is not a valid mode for fopen: There are several modes when opening a file, as passed with the 2nd argument.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: `%s&#039; is not a valid mode for fopen
 	:og:description: There are several modes when opening a file, as passed with the 2nd argument
@@ -17,7 +17,7 @@
 	:twitter:title: `%s' is not a valid mode for fopen
 	:twitter:description: `%s' is not a valid mode for fopen: There are several modes when opening a file, as passed with the 2nd argument
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

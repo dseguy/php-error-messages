@@ -6,7 +6,7 @@ Path cannot be empty
 .. meta::
 	:description:
 		Path cannot be empty: fopen()&#039;s first argument is of type string, though the empty string is not allowed, as it does not lead to any file.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Path cannot be empty
 	:og:description: fopen()&#039;s first argument is of type string, though the empty string is not allowed, as it does not lead to any file
@@ -17,7 +17,7 @@ Path cannot be empty
 	:twitter:title: Path cannot be empty
 	:twitter:description: Path cannot be empty: fopen()'s first argument is of type string, though the empty string is not allowed, as it does not lead to any file
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

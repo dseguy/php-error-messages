@@ -6,7 +6,7 @@ Cannot use the abstract modifier on a property hook
 .. meta::
 	:description:
 		Cannot use the abstract modifier on a property hook: It is not possible to make individual property hooks abstract.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot use the abstract modifier on a property hook
 	:og:description: It is not possible to make individual property hooks abstract
@@ -17,7 +17,7 @@ Cannot use the abstract modifier on a property hook
 	:twitter:title: Cannot use the abstract modifier on a property hook
 	:twitter:description: Cannot use the abstract modifier on a property hook: It is not possible to make individual property hooks abstract
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@ syntax error, unexpected token "private", expecting ")"
 .. meta::
 	:description:
 		syntax error, unexpected token "private", expecting ")": ``private`` is not expected at this position in the code, as the previous property ``$a`` is not finished.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: syntax error, unexpected token &quot;private&quot;, expecting &quot;)&quot;
 	:og:description: ``private`` is not expected at this position in the code, as the previous property ``$a`` is not finished
@@ -17,7 +17,7 @@ syntax error, unexpected token "private", expecting ")"
 	:twitter:title: syntax error, unexpected token "private", expecting ")"
 	:twitter:description: syntax error, unexpected token "private", expecting ")": ``private`` is not expected at this position in the code, as the previous property ``$a`` is not finished
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

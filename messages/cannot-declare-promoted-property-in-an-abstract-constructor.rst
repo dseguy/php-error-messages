@@ -6,7 +6,7 @@ Cannot declare promoted property in an abstract constructor
 .. meta::
 	:description:
 		Cannot declare promoted property in an abstract constructor: It is not possible to use a promoted property in an abstract constructor.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot declare promoted property in an abstract constructor
 	:og:description: It is not possible to use a promoted property in an abstract constructor
@@ -17,7 +17,7 @@ Cannot declare promoted property in an abstract constructor
 	:twitter:title: Cannot declare promoted property in an abstract constructor
 	:twitter:description: Cannot declare promoted property in an abstract constructor: It is not possible to use a promoted property in an abstract constructor
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

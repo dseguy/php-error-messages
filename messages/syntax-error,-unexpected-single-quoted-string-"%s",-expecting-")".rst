@@ -6,7 +6,7 @@ syntax error, unexpected single quoted string "%s", expecting ")"
 .. meta::
 	:description:
 		syntax error, unexpected single quoted string "%s", expecting ")": After an identifier, such as ``name``, there can only be a delimiter, such as ``(``, ``[``, or ``:`` but not a string.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: syntax error, unexpected single quoted string &quot;%s&quot;, expecting &quot;)&quot;
 	:og:description: After an identifier, such as ``name``, there can only be a delimiter, such as ``(``, ``[``, or ``:`` but not a string
@@ -17,7 +17,7 @@ syntax error, unexpected single quoted string "%s", expecting ")"
 	:twitter:title: syntax error, unexpected single quoted string "%s", expecting ")"
 	:twitter:description: syntax error, unexpected single quoted string "%s", expecting ")": After an identifier, such as ``name``, there can only be a delimiter, such as ``(``, ``[``, or ``:`` but not a string
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

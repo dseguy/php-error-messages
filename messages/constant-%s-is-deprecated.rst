@@ -6,7 +6,7 @@ Constant %s is deprecated
 .. meta::
 	:description:
 		Constant %s is deprecated: This error is emitted when a global constant is supported in the current PHP engine, but will be removed in a future version.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Constant %s is deprecated
 	:og:description: This error is emitted when a global constant is supported in the current PHP engine, but will be removed in a future version
@@ -17,7 +17,7 @@ Constant %s is deprecated
 	:twitter:title: Constant %s is deprecated
 	:twitter:description: Constant %s is deprecated: This error is emitted when a global constant is supported in the current PHP engine, but will be removed in a future version
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

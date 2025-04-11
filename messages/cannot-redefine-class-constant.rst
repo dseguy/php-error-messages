@@ -6,7 +6,7 @@ Cannot redefine class constant
 .. meta::
 	:description:
 		Cannot redefine class constant: It is only allowed to defined a constant once per class.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot redefine class constant
 	:og:description: It is only allowed to defined a constant once per class
@@ -17,7 +17,7 @@ Cannot redefine class constant
 	:twitter:title: Cannot redefine class constant
 	:twitter:description: Cannot redefine class constant: It is only allowed to defined a constant once per class
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

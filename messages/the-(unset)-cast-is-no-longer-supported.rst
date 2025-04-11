@@ -6,7 +6,7 @@ The (unset) cast is no longer supported
 .. meta::
 	:description:
 		The (unset) cast is no longer supported: Removing a variable, a property or an array index with the cast operator (unset) was removed in PHP 8.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: The (unset) cast is no longer supported
 	:og:description: Removing a variable, a property or an array index with the cast operator (unset) was removed in PHP 8
@@ -17,7 +17,7 @@ The (unset) cast is no longer supported
 	:twitter:title: The (unset) cast is no longer supported
 	:twitter:description: The (unset) cast is no longer supported: Removing a variable, a property or an array index with the cast operator (unset) was removed in PHP 8
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

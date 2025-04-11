@@ -6,7 +6,7 @@ Cannot unset hooked property %s::$%s
 .. meta::
 	:description:
 		Cannot unset hooked property %s::$%s: It is not allowed to unset a hooked property, aka, a property with a ``get`` or ``set`` (or both) hook.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot unset hooked property %s::$%s
 	:og:description: It is not allowed to unset a hooked property, aka, a property with a ``get`` or ``set`` (or both) hook
@@ -17,7 +17,7 @@ Cannot unset hooked property %s::$%s
 	:twitter:title: Cannot unset hooked property %s::$%s
 	:twitter:description: Cannot unset hooked property %s::$%s: It is not allowed to unset a hooked property, aka, a property with a ``get`` or ``set`` (or both) hook
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

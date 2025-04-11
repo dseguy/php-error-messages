@@ -6,7 +6,7 @@ Cannot apply #[AllowDynamicProperties] to trait %s
 .. meta::
 	:description:
 		Cannot apply #[AllowDynamicProperties] to trait %s: The attribute ``AllowDynamicProperties`` has no meaning when used with a trait, even as traits can defined properties.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot apply #[AllowDynamicProperties] to trait %s
 	:og:description: The attribute ``AllowDynamicProperties`` has no meaning when used with a trait, even as traits can defined properties
@@ -17,7 +17,7 @@ Cannot apply #[AllowDynamicProperties] to trait %s
 	:twitter:title: Cannot apply #[AllowDynamicProperties] to trait %s
 	:twitter:description: Cannot apply #[AllowDynamicProperties] to trait %s: The attribute ``AllowDynamicProperties`` has no meaning when used with a trait, even as traits can defined properties
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

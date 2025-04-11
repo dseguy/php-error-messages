@@ -6,7 +6,7 @@ Unbacked enum %s cannot be converted to a string
 .. meta::
 	:description:
 		Unbacked enum %s cannot be converted to a string: http_build_query() function convert an array of strings to their URL encoded version.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Unbacked enum %s cannot be converted to a string
 	:og:description: http_build_query() function convert an array of strings to their URL encoded version
@@ -17,7 +17,7 @@ Unbacked enum %s cannot be converted to a string
 	:twitter:title: Unbacked enum %s cannot be converted to a string
 	:twitter:description: Unbacked enum %s cannot be converted to a string: http_build_query() function convert an array of strings to their URL encoded version
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

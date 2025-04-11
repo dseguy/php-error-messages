@@ -6,7 +6,7 @@ Cannot use the %s modifier on a %s
 .. meta::
 	:description:
 		Cannot use the %s modifier on a %s: This is a generic error message for cases where a keyword cannot be used with a class structure.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot use the %s modifier on a %s
 	:og:description: This is a generic error message for cases where a keyword cannot be used with a class structure
@@ -17,7 +17,7 @@ Cannot use the %s modifier on a %s
 	:twitter:title: Cannot use the %s modifier on a %s
 	:twitter:description: Cannot use the %s modifier on a %s: This is a generic error message for cases where a keyword cannot be used with a class structure
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

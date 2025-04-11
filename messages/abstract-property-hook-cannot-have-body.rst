@@ -6,7 +6,7 @@ Abstract property hook cannot have body
 .. meta::
 	:description:
 		Abstract property hook cannot have body: Property hooks, both ``set`` and ``get``, may be made abstract by adding the keyword to the property definition.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Abstract property hook cannot have body
 	:og:description: Property hooks, both ``set`` and ``get``, may be made abstract by adding the keyword to the property definition
@@ -17,7 +17,7 @@ Abstract property hook cannot have body
 	:twitter:title: Abstract property hook cannot have body
 	:twitter:description: Abstract property hook cannot have body: Property hooks, both ``set`` and ``get``, may be made abstract by adding the keyword to the property definition
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

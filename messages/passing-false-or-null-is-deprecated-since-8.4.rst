@@ -6,7 +6,7 @@ Passing false or null is deprecated since 8.4
 .. meta::
 	:description:
 		Passing false or null is deprecated since 8.4: Passsing false or null to dba_key_split() is deprecated since PHP 8.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Passing false or null is deprecated since 8.4
 	:og:description: Passsing false or null to dba_key_split() is deprecated since PHP 8
@@ -17,7 +17,7 @@ Passing false or null is deprecated since 8.4
 	:twitter:title: Passing false or null is deprecated since 8.4
 	:twitter:description: Passing false or null is deprecated since 8.4: Passsing false or null to dba_key_split() is deprecated since PHP 8
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

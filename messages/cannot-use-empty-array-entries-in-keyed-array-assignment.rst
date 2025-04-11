@@ -6,7 +6,7 @@ Cannot use empty array entries in keyed array assignment
 .. meta::
 	:description:
 		Cannot use empty array entries in keyed array assignment: The list() (also known as [] on the left side of the = sign), can skip some values, by using consecutive commas.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot use empty array entries in keyed array assignment
 	:og:description: The list() (also known as [] on the left side of the = sign), can skip some values, by using consecutive commas
@@ -17,7 +17,7 @@ Cannot use empty array entries in keyed array assignment
 	:twitter:title: Cannot use empty array entries in keyed array assignment
 	:twitter:description: Cannot use empty array entries in keyed array assignment: The list() (also known as [] on the left side of the = sign), can skip some values, by using consecutive commas
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

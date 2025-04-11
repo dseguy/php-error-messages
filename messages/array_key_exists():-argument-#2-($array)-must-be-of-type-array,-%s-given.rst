@@ -6,7 +6,7 @@ array_key_exists(): Argument #2 ($array) must be of type array, %s given
 .. meta::
 	:description:
 		array_key_exists(): Argument #2 ($array) must be of type array, %s given: Until PHP 8.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: array_key_exists(): Argument #2 ($array) must be of type array, %s given
 	:og:description: Until PHP 8
@@ -17,7 +17,7 @@ array_key_exists(): Argument #2 ($array) must be of type array, %s given
 	:twitter:title: array_key_exists(): Argument #2 ($array) must be of type array, %s given
 	:twitter:description: array_key_exists(): Argument #2 ($array) must be of type array, %s given: Until PHP 8
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
@@ -57,3 +57,8 @@ _________
 + Cast the object to array before searching.
 + Call a method on the object to convert it to an array, before searching.
 + Create a search method, among the properties, on the object.
+
+Static Analysis
+_______________
+
+This error may be tracked down with the following static analysis rules: `Php/ArrayKeyExistsWithObjects <https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/ArrayKeyExistsWithObjects.html>`_.

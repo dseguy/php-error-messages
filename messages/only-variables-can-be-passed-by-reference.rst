@@ -6,7 +6,7 @@ Only variables can be passed by reference
 .. meta::
 	:description:
 		Only variables can be passed by reference: Methods arguments may be passed by value or by reference.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Only variables can be passed by reference
 	:og:description: Methods arguments may be passed by value or by reference
@@ -17,7 +17,7 @@ Only variables can be passed by reference
 	:twitter:title: Only variables can be passed by reference
 	:twitter:description: Only variables can be passed by reference: Methods arguments may be passed by value or by reference
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@ syntax error, unexpected identifier "%s", expecting "{"
 .. meta::
 	:description:
 		syntax error, unexpected identifier "%s", expecting "{": In this case, PHP found two identifiers in a row: ``X`` and ``Y``.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: syntax error, unexpected identifier &quot;%s&quot;, expecting &quot;{&quot;
 	:og:description: In this case, PHP found two identifiers in a row: ``X`` and ``Y``
@@ -17,7 +17,7 @@ syntax error, unexpected identifier "%s", expecting "{"
 	:twitter:title: syntax error, unexpected identifier "%s", expecting "{"
 	:twitter:description: syntax error, unexpected identifier "%s", expecting "{": In this case, PHP found two identifiers in a row: ``X`` and ``Y``
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

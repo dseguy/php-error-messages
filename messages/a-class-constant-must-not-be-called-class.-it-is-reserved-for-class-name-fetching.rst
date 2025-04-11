@@ -6,7 +6,7 @@ A class constant must not be called class. it is reserved for class name fetchin
 .. meta::
 	:description:
 		A class constant must not be called class. it is reserved for class name fetching: Class constants can use a lot of names, but not the name &#039;class&#039;.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: A class constant must not be called class. it is reserved for class name fetching
 	:og:description: Class constants can use a lot of names, but not the name &#039;class&#039;
@@ -17,7 +17,7 @@ A class constant must not be called class. it is reserved for class name fetchin
 	:twitter:title: A class constant must not be called class. it is reserved for class name fetching
 	:twitter:description: A class constant must not be called class. it is reserved for class name fetching: Class constants can use a lot of names, but not the name 'class'
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

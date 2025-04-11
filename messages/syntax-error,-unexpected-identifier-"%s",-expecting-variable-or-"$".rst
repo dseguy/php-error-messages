@@ -6,7 +6,7 @@ syntax error, unexpected identifier "%s", expecting variable or "$"
 .. meta::
 	:description:
 		syntax error, unexpected identifier "%s", expecting variable or "$": ``new`` works with objects, static properties and normal properties.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: syntax error, unexpected identifier &quot;%s&quot;, expecting variable or &quot;$&quot;
 	:og:description: ``new`` works with objects, static properties and normal properties
@@ -17,7 +17,7 @@ syntax error, unexpected identifier "%s", expecting variable or "$"
 	:twitter:title: syntax error, unexpected identifier "%s", expecting variable or "$"
 	:twitter:description: syntax error, unexpected identifier "%s", expecting variable or "$": ``new`` works with objects, static properties and normal properties
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

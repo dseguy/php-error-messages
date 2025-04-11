@@ -6,7 +6,7 @@ Cannot declare hooks for static property
 .. meta::
 	:description:
 		Cannot declare hooks for static property: Static properties are not supported for property hooks.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot declare hooks for static property
 	:og:description: Static properties are not supported for property hooks
@@ -17,7 +17,7 @@ Cannot declare hooks for static property
 	:twitter:title: Cannot declare hooks for static property
 	:twitter:description: Cannot declare hooks for static property: Static properties are not supported for property hooks
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

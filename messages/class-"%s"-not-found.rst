@@ -6,7 +6,7 @@ Class "%s" not found
 .. meta::
 	:description:
 		Class "%s" not found: This error message is reported when the class could not be loaded, or when the name of the class is invalid.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Class &quot;%s&quot; not found
 	:og:description: This error message is reported when the class could not be loaded, or when the name of the class is invalid
@@ -17,7 +17,7 @@ Class "%s" not found
 	:twitter:title: Class "%s" not found
 	:twitter:description: Class "%s" not found: This error message is reported when the class could not be loaded, or when the name of the class is invalid
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

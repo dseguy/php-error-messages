@@ -6,7 +6,7 @@ Cannot bind an instance to a static closure
 .. meta::
 	:description:
 		Cannot bind an instance to a static closure: The ``Closure::bind()`` method gives the scope of execution of a closure.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot bind an instance to a static closure
 	:og:description: The ``Closure::bind()`` method gives the scope of execution of a closure
@@ -17,7 +17,7 @@ Cannot bind an instance to a static closure
 	:twitter:title: Cannot bind an instance to a static closure
 	:twitter:description: Cannot bind an instance to a static closure: The ``Closure::bind()`` method gives the scope of execution of a closure
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

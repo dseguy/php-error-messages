@@ -6,7 +6,7 @@
 .. meta::
 	:description:
 		%s function %s::%s() cannot be declared private: A method may be private, as in only available to current class, or abstract, as in always redefined in a child class, but not both at the same time.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: %s function %s::%s() cannot be declared private
 	:og:description: A method may be private, as in only available to current class, or abstract, as in always redefined in a child class, but not both at the same time
@@ -17,7 +17,7 @@
 	:twitter:title: %s function %s::%s() cannot be declared private
 	:twitter:description: %s function %s::%s() cannot be declared private: A method may be private, as in only available to current class, or abstract, as in always redefined in a child class, but not both at the same time
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

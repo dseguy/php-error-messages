@@ -6,7 +6,7 @@ Cannot acquire reference to $GLOBALS
 .. meta::
 	:description:
 		Cannot acquire reference to $GLOBALS: It is not possible to create a reference to a the superglobal ``$GLOBALS``.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot acquire reference to $GLOBALS
 	:og:description: It is not possible to create a reference to a the superglobal ``$GLOBALS``
@@ -17,7 +17,7 @@ Cannot acquire reference to $GLOBALS
 	:twitter:title: Cannot acquire reference to $GLOBALS
 	:twitter:description: Cannot acquire reference to $GLOBALS: It is not possible to create a reference to a the superglobal ``$GLOBALS``
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

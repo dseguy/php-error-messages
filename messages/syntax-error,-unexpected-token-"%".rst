@@ -6,7 +6,7 @@ syntax error, unexpected token "%"
 .. meta::
 	:description:
 		syntax error, unexpected token "%": PHP accepts one percentage ``%``, for modulo.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: syntax error, unexpected token &quot;%&quot;
 	:og:description: PHP accepts one percentage ``%``, for modulo
@@ -17,7 +17,7 @@ syntax error, unexpected token "%"
 	:twitter:title: syntax error, unexpected token "%"
 	:twitter:description: syntax error, unexpected token "%": PHP accepts one percentage ``%``, for modulo
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

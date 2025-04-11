@@ -6,7 +6,7 @@ Spread operator is not supported in assignments
 .. meta::
 	:description:
 		Spread operator is not supported in assignments: The spread operator cannot be used with the list() operator.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Spread operator is not supported in assignments
 	:og:description: The spread operator cannot be used with the list() operator
@@ -17,7 +17,7 @@ Spread operator is not supported in assignments
 	:twitter:title: Spread operator is not supported in assignments
 	:twitter:description: Spread operator is not supported in assignments: The spread operator cannot be used with the list() operator
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

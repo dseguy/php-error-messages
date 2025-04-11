@@ -6,7 +6,7 @@ syntax error, unexpected token "{", expecting variable
 .. meta::
 	:description:
 		syntax error, unexpected token "{", expecting variable: With the last comma in the signature of the method, PHP expects another parameter after it, or the end of the signature with a closing parenthesis.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: syntax error, unexpected token &quot;{&quot;, expecting variable
 	:og:description: With the last comma in the signature of the method, PHP expects another parameter after it, or the end of the signature with a closing parenthesis
@@ -17,7 +17,7 @@ syntax error, unexpected token "{", expecting variable
 	:twitter:title: syntax error, unexpected token "{", expecting variable
 	:twitter:description: syntax error, unexpected token "{", expecting variable: With the last comma in the signature of the method, PHP expects another parameter after it, or the end of the signature with a closing parenthesis
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

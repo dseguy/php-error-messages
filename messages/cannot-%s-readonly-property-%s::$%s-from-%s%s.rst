@@ -6,7 +6,7 @@ Cannot %s readonly property %s::$%s from %s%s
 .. meta::
 	:description:
 		Cannot %s readonly property %s::$%s from %s%s: Until PHP 8.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot %s readonly property %s::$%s from %s%s
 	:og:description: Until PHP 8
@@ -17,7 +17,7 @@ Cannot %s readonly property %s::$%s from %s%s
 	:twitter:title: Cannot %s readonly property %s::$%s from %s%s
 	:twitter:description: Cannot %s readonly property %s::$%s from %s%s: Until PHP 8
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@ must be a valid method name
 .. meta::
 	:description:
 		must be a valid method name: The ReflectionMethod requires a method name to be instantiated.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: must be a valid method name
 	:og:description: The ReflectionMethod requires a method name to be instantiated
@@ -17,7 +17,7 @@ must be a valid method name
 	:twitter:title: must be a valid method name
 	:twitter:description: must be a valid method name: The ReflectionMethod requires a method name to be instantiated
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

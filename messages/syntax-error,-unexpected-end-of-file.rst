@@ -6,7 +6,7 @@ syntax error, unexpected end of file
 .. meta::
 	:description:
 		syntax error, unexpected end of file: The ``unexpected end of file`` happens when PHP has not finished parsing a file, and still expected a few more tokens to complete it.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: syntax error, unexpected end of file
 	:og:description: The ``unexpected end of file`` happens when PHP has not finished parsing a file, and still expected a few more tokens to complete it
@@ -17,7 +17,7 @@ syntax error, unexpected end of file
 	:twitter:title: syntax error, unexpected end of file
 	:twitter:description: syntax error, unexpected end of file: The ``unexpected end of file`` happens when PHP has not finished parsing a file, and still expected a few more tokens to complete it
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

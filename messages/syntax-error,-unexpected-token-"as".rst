@@ -6,7 +6,7 @@ syntax error, unexpected token "as"
 .. meta::
 	:description:
 		syntax error, unexpected token "as": The ``as`` token was found, where it was not expected.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: syntax error, unexpected token &quot;as&quot;
 	:og:description: The ``as`` token was found, where it was not expected
@@ -17,7 +17,7 @@ syntax error, unexpected token "as"
 	:twitter:title: syntax error, unexpected token "as"
 	:twitter:description: syntax error, unexpected token "as": The ``as`` token was found, where it was not expected
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

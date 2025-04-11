@@ -6,7 +6,7 @@ syntax error, unexpected ','
 .. meta::
 	:description:
 		syntax error, unexpected ',': Commas are used as a separator in lists of items, such as parameters, arguments, elements of an array.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: syntax error, unexpected &#039;,&#039;
 	:og:description: Commas are used as a separator in lists of items, such as parameters, arguments, elements of an array
@@ -17,7 +17,7 @@ syntax error, unexpected ','
 	:twitter:title: syntax error, unexpected ','
 	:twitter:description: syntax error, unexpected ',': Commas are used as a separator in lists of items, such as parameters, arguments, elements of an array
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

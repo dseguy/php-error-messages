@@ -6,7 +6,7 @@ Can only flip string and integer values, entry skipped
 .. meta::
 	:description:
 		Can only flip string and integer values, entry skipped: array_flip() converts values into keys and keys into values.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Can only flip string and integer values, entry skipped
 	:og:description: array_flip() converts values into keys and keys into values
@@ -17,7 +17,7 @@ Can only flip string and integer values, entry skipped
 	:twitter:title: Can only flip string and integer values, entry skipped
 	:twitter:description: Can only flip string and integer values, entry skipped: array_flip() converts values into keys and keys into values
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@ Returning bool from comparison function is deprecated
 .. meta::
 	:description:
 		Returning bool from comparison function is deprecated: The comparison function should return 0, 1 or -1, and not just booleans.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Returning bool from comparison function is deprecated
 	:og:description: The comparison function should return 0, 1 or -1, and not just booleans
@@ -17,7 +17,7 @@ Returning bool from comparison function is deprecated
 	:twitter:title: Returning bool from comparison function is deprecated
 	:twitter:description: Returning bool from comparison function is deprecated: The comparison function should return 0, 1 or -1, and not just booleans
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
@@ -54,4 +54,9 @@ _________
 Changed Behavior
 ________________
 
-This error may appear in different PHP versions `sortClosureReturnType <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/sortClosureReturnType.html>`_.
+This error may appear following an evolution in behavior, in previous versions. See `sortClosureReturnType <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/sortClosureReturnType.html>`_.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `sortClosureReturnType <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/sortClosureReturnType.html>`_.

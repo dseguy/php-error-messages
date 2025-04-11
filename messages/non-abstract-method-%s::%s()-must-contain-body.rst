@@ -6,7 +6,7 @@ Non-abstract method %s::%s() must contain body
 .. meta::
 	:description:
 		Non-abstract method %s::%s() must contain body: A method must have a body block.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Non-abstract method %s::%s() must contain body
 	:og:description: A method must have a body block
@@ -17,7 +17,7 @@ Non-abstract method %s::%s() must contain body
 	:twitter:title: Non-abstract method %s::%s() must contain body
 	:twitter:description: Non-abstract method %s::%s() must contain body: A method must have a body block
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

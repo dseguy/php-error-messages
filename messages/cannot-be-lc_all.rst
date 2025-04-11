@@ -6,7 +6,7 @@ cannot be LC_ALL
 .. meta::
 	:description:
 		cannot be LC_ALL: The 3rd argument ($category) of dcgettext() and the 5th argument ($category) of dcngettext() cannot be LC_ALL.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: cannot be LC_ALL
 	:og:description: The 3rd argument ($category) of dcgettext() and the 5th argument ($category) of dcngettext() cannot be LC_ALL
@@ -17,7 +17,7 @@ cannot be LC_ALL
 	:twitter:title: cannot be LC_ALL
 	:twitter:description: cannot be LC_ALL: The 3rd argument ($category) of dcgettext() and the 5th argument ($category) of dcngettext() cannot be LC_ALL
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

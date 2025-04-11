@@ -6,7 +6,7 @@ Invalid UTF-8 codepoint escape
 .. meta::
 	:description:
 		Invalid UTF-8 codepoint escape: PHP supports unicode as escape sequence.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Invalid UTF-8 codepoint escape
 	:og:description: PHP supports unicode as escape sequence
@@ -17,7 +17,7 @@ Invalid UTF-8 codepoint escape
 	:twitter:title: Invalid UTF-8 codepoint escape
 	:twitter:description: Invalid UTF-8 codepoint escape: PHP supports unicode as escape sequence
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

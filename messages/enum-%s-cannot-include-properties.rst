@@ -6,7 +6,7 @@ Enum %s cannot include properties
 .. meta::
 	:description:
 		Enum %s cannot include properties: Enumeration cannot define a property.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Enum %s cannot include properties
 	:og:description: Enumeration cannot define a property
@@ -17,7 +17,7 @@ Enum %s cannot include properties
 	:twitter:title: Enum %s cannot include properties
 	:twitter:description: Enum %s cannot include properties: Enumeration cannot define a property
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

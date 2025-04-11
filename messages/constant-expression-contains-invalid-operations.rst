@@ -6,7 +6,7 @@ Constant expression contains invalid operations
 .. meta::
 	:description:
 		Constant expression contains invalid operations: The Constant expressions are the value of a constant, global or class, that is not a literal value.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Constant expression contains invalid operations
 	:og:description: The Constant expressions are the value of a constant, global or class, that is not a literal value
@@ -17,7 +17,7 @@ Constant expression contains invalid operations
 	:twitter:title: Constant expression contains invalid operations
 	:twitter:description: Constant expression contains invalid operations: The Constant expressions are the value of a constant, global or class, that is not a literal value
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
@@ -59,4 +59,9 @@ ______________________
 Changed Behavior
 ________________
 
-This error may appear in different PHP versions `cloneConstant <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/cloneConstant.html>`_.
+This error may appear following an evolution in behavior, in previous versions. See `cloneConstant <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/cloneConstant.html>`_.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `cloneConstant <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/cloneConstant.html>`_.

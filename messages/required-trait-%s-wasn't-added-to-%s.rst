@@ -6,7 +6,7 @@ Required Trait %s wasn't added to %s
 .. meta::
 	:description:
 		Required Trait %s wasn't added to %s: This error happens during name conflict resolution for traits.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Required Trait %s wasn&#039;t added to %s
 	:og:description: This error happens during name conflict resolution for traits
@@ -17,7 +17,7 @@ Required Trait %s wasn't added to %s
 	:twitter:title: Required Trait %s wasn't added to %s
 	:twitter:description: Required Trait %s wasn't added to %s: This error happens during name conflict resolution for traits
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

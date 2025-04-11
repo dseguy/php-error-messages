@@ -6,7 +6,7 @@ Illegal class name
 .. meta::
 	:description:
 		Illegal class name: Illegal class name is a compile-time error when the type of a value, used for a class is not valid.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Illegal class name
 	:og:description: Illegal class name is a compile-time error when the type of a value, used for a class is not valid
@@ -17,7 +17,7 @@ Illegal class name
 	:twitter:title: Illegal class name
 	:twitter:description: Illegal class name: Illegal class name is a compile-time error when the type of a value, used for a class is not valid
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

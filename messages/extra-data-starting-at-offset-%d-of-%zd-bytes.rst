@@ -6,7 +6,7 @@ Extra data starting at offset %d of %zd bytes
 .. meta::
 	:description:
 		Extra data starting at offset %d of %zd bytes: Some extra data were found while processing the serialized string.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Extra data starting at offset %d of %zd bytes
 	:og:description: Some extra data were found while processing the serialized string
@@ -17,7 +17,7 @@ Extra data starting at offset %d of %zd bytes
 	:twitter:title: Extra data starting at offset %d of %zd bytes
 	:twitter:description: Extra data starting at offset %d of %zd bytes: Some extra data were found while processing the serialized string
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

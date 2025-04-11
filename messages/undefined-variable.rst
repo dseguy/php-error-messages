@@ -6,7 +6,7 @@ Undefined variable
 .. meta::
 	:description:
 		Undefined variable: This notice is emitted when a variable is being used before being defined.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Undefined variable
 	:og:description: This notice is emitted when a variable is being used before being defined
@@ -17,7 +17,7 @@ Undefined variable
 	:twitter:title: Undefined variable
 	:twitter:description: Undefined variable: This notice is emitted when a variable is being used before being defined
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
@@ -62,4 +62,9 @@ ______________________
 Changed Behavior
 ________________
 
-This error may appear in different PHP versions `compactThrowsNotice <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/compactThrowsNotice.html>`_.
+This error may appear following an evolution in behavior, in previous versions. See `compactThrowsNotice <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/compactThrowsNotice.html>`_.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `compactThrowsNotice <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/compactThrowsNotice.html>`_.

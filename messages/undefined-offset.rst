@@ -6,7 +6,7 @@ Undefined offset
 .. meta::
 	:description:
 		Undefined offset: This notice is emitted when an offset (string or integer) is being used before being defined.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Undefined offset
 	:og:description: This notice is emitted when an offset (string or integer) is being used before being defined
@@ -17,7 +17,7 @@ Undefined offset
 	:twitter:title: Undefined offset
 	:twitter:description: Undefined offset: This notice is emitted when an offset (string or integer) is being used before being defined
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

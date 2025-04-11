@@ -6,7 +6,7 @@ Type declaration '%s' must be unqualified
 .. meta::
 	:description:
 		Type declaration '%s' must be unqualified: Scalar types are absolute, and shall not be written with the initial ``\``.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Type declaration &#039;%s&#039; must be unqualified
 	:og:description: Scalar types are absolute, and shall not be written with the initial ``\``
@@ -17,7 +17,7 @@ Type declaration '%s' must be unqualified
 	:twitter:title: Type declaration '%s' must be unqualified
 	:twitter:description: Type declaration '%s' must be unqualified: Scalar types are absolute, and shall not be written with the initial ``\``
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

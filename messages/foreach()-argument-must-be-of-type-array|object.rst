@@ -6,7 +6,7 @@ foreach() argument must be of type array|object
 .. meta::
 	:description:
 		foreach() argument must be of type array|object: foreach() works on arrays or objects.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: foreach() argument must be of type array|object
 	:og:description: foreach() works on arrays or objects
@@ -17,7 +17,7 @@ foreach() argument must be of type array|object
 	:twitter:title: foreach() argument must be of type array|object
 	:twitter:description: foreach() argument must be of type array|object: foreach() works on arrays or objects
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

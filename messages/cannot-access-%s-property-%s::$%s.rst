@@ -6,7 +6,7 @@ Cannot access %s property %s::$%s
 .. meta::
 	:description:
 		Cannot access %s property %s::$%s: Properties have visibility, which restrict access to the defining class (``private``), or the class and its children (``protected``).
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot access %s property %s::$%s
 	:og:description: Properties have visibility, which restrict access to the defining class (``private``), or the class and its children (``protected``)
@@ -17,7 +17,7 @@ Cannot access %s property %s::$%s
 	:twitter:title: Cannot access %s property %s::$%s
 	:twitter:description: Cannot access %s property %s::$%s: Properties have visibility, which restrict access to the defining class (``private``), or the class and its children (``protected``)
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
@@ -63,3 +63,8 @@ ______________________
 
 + :ref:`cannot-access-%s-constant-%s::%s`
 + :ref:`cannot-access-%s-const-%s::%s`
+
+Static Analysis
+_______________
+
+This error may be tracked down with the following static analysis rules: `Classes/AccessProtected <https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/AccessProtected.html>`_.

@@ -6,7 +6,7 @@ must be of type %s, %s given
 .. meta::
 	:description:
 		must be of type %s, %s given: This error message reports that the types of the provided arguments are not compatible with the expected types.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: must be of type %s, %s given
 	:og:description: This error message reports that the types of the provided arguments are not compatible with the expected types
@@ -17,7 +17,7 @@ must be of type %s, %s given
 	:twitter:title: must be of type %s, %s given
 	:twitter:description: must be of type %s, %s given: This error message reports that the types of the provided arguments are not compatible with the expected types
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

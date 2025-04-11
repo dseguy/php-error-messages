@@ -6,7 +6,7 @@ syntax error, unexpected string content
 .. meta::
 	:description:
 		syntax error, unexpected string content: This error appears when a single quote string is not properly closed.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: syntax error, unexpected string content
 	:og:description: This error appears when a single quote string is not properly closed
@@ -17,7 +17,7 @@ syntax error, unexpected string content
 	:twitter:title: syntax error, unexpected string content
 	:twitter:description: syntax error, unexpected string content: This error appears when a single quote string is not properly closed
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

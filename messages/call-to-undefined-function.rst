@@ -6,7 +6,7 @@ Call to undefined function
 .. meta::
 	:description:
 		Call to undefined function: This error appears when calling a function that is not defined.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Call to undefined function
 	:og:description: This error appears when calling a function that is not defined
@@ -17,7 +17,7 @@ Call to undefined function
 	:twitter:title: Call to undefined function
 	:twitter:description: Call to undefined function: This error appears when calling a function that is not defined
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@ Type of %s::$%s must be %s%s (as in class %s)
 .. meta::
 	:description:
 		Type of %s::$%s must be %s%s (as in class %s): Property definitions must be compatible one another, between a parent and a child class.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Type of %s::$%s must be %s%s (as in class %s)
 	:og:description: Property definitions must be compatible one another, between a parent and a child class
@@ -17,7 +17,7 @@ Type of %s::$%s must be %s%s (as in class %s)
 	:twitter:title: Type of %s::$%s must be %s%s (as in class %s)
 	:twitter:description: Type of %s::$%s must be %s%s (as in class %s): Property definitions must be compatible one another, between a parent and a child class
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@
 .. meta::
 	:description:
 		%s() expects exactly 0 arguments, %d given: The mentionned method does not accept any argument, and reports it.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: %s() expects exactly 0 arguments, %d given
 	:og:description: The mentionned method does not accept any argument, and reports it
@@ -17,7 +17,7 @@
 	:twitter:title: %s() expects exactly 0 arguments, %d given
 	:twitter:description: %s() expects exactly 0 arguments, %d given: The mentionned method does not accept any argument, and reports it
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

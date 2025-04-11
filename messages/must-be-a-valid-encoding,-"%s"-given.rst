@@ -6,7 +6,7 @@ must be a valid encoding, "%s" given
 .. meta::
 	:description:
 		must be a valid encoding, "%s" given: The encoding arguments, in any ``mb_`` function, must be a supported encoding.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: must be a valid encoding, &quot;%s&quot; given
 	:og:description: The encoding arguments, in any ``mb_`` function, must be a supported encoding
@@ -17,7 +17,7 @@ must be a valid encoding, "%s" given
 	:twitter:title: must be a valid encoding, "%s" given
 	:twitter:description: must be a valid encoding, "%s" given: The encoding arguments, in any ``mb_`` function, must be a supported encoding
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

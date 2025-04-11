@@ -6,7 +6,7 @@ Enum case value must be compile-time evaluatable
 .. meta::
 	:description:
 		Enum case value must be compile-time evaluatable: The value of a backed enumeration, string or integer, cannot be build with constant (global or classe).
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Enum case value must be compile-time evaluatable
 	:og:description: The value of a backed enumeration, string or integer, cannot be build with constant (global or classe)
@@ -17,7 +17,7 @@ Enum case value must be compile-time evaluatable
 	:twitter:title: Enum case value must be compile-time evaluatable
 	:twitter:description: Enum case value must be compile-time evaluatable: The value of a backed enumeration, string or integer, cannot be build with constant (global or classe)
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

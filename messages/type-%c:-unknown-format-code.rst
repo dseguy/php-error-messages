@@ -6,7 +6,7 @@ Type %c: unknown format code
 .. meta::
 	:description:
 		Type %c: unknown format code: pack() and unpack() convert data between a string representation and another.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Type %c: unknown format code
 	:og:description: pack() and unpack() convert data between a string representation and another
@@ -17,7 +17,7 @@ Type %c: unknown format code
 	:twitter:title: Type %c: unknown format code
 	:twitter:description: Type %c: unknown format code: pack() and unpack() convert data between a string representation and another
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

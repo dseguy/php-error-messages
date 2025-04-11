@@ -6,7 +6,7 @@ Non-static method %s::%s() cannot be called statically
 .. meta::
 	:description:
 		Non-static method %s::%s() cannot be called statically: While a non-static method can call a static method, the contrary is not possible.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Non-static method %s::%s() cannot be called statically
 	:og:description: While a non-static method can call a static method, the contrary is not possible
@@ -17,7 +17,7 @@ Non-static method %s::%s() cannot be called statically
 	:twitter:title: Non-static method %s::%s() cannot be called statically
 	:twitter:description: Non-static method %s::%s() cannot be called statically: While a non-static method can call a static method, the contrary is not possible
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
@@ -67,4 +67,14 @@ ______________________
 Changed Behavior
 ________________
 
-This error may appear in different PHP versions `nonStaticMethodCalledStatically <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/nonStaticMethodCalledStatically.html>`_.
+This error may appear following an evolution in behavior, in previous versions. See `nonStaticMethodCalledStatically <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/nonStaticMethodCalledStatically.html>`_.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `nonStaticMethodCalledStatically <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/nonStaticMethodCalledStatically.html>`_.
+
+Static Analysis
+_______________
+
+This error may be tracked down with the following static analysis rules: `Classes/NonStaticMethodsCalledStatic <https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/NonStaticMethodsCalledStatic.html>`_.

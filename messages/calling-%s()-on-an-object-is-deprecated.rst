@@ -6,7 +6,7 @@ Calling %s() on an object is deprecated
 .. meta::
 	:description:
 		Calling %s() on an object is deprecated: ``prev()``, ``current()``, ``next()`` and ``reset()`` where php native functions used to navigate in arrays.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Calling %s() on an object is deprecated
 	:og:description: ``prev()``, ``current()``, ``next()`` and ``reset()`` where php native functions used to navigate in arrays
@@ -17,7 +17,7 @@ Calling %s() on an object is deprecated
 	:twitter:title: Calling %s() on an object is deprecated
 	:twitter:description: Calling %s() on an object is deprecated: ``prev()``, ``current()``, ``next()`` and ``reset()`` where php native functions used to navigate in arrays
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
@@ -57,4 +57,9 @@ _________
 Changed Behavior
 ________________
 
-This error may appear in different PHP versions `passingObjectIsDeprecated <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/passingObjectIsDeprecated.html>`_.
+This error may appear following an evolution in behavior, in previous versions. See `passingObjectIsDeprecated <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/passingObjectIsDeprecated.html>`_.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `passingObjectIsDeprecated <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/passingObjectIsDeprecated.html>`_.

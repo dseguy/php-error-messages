@@ -6,7 +6,7 @@ Private methods cannot be final as they are never overridden by other classes
 .. meta::
 	:description:
 		Private methods cannot be final as they are never overridden by other classes: Final methods are only available in the class where they are defined.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Private methods cannot be final as they are never overridden by other classes
 	:og:description: Final methods are only available in the class where they are defined
@@ -17,7 +17,7 @@ Private methods cannot be final as they are never overridden by other classes
 	:twitter:title: Private methods cannot be final as they are never overridden by other classes
 	:twitter:description: Private methods cannot be final as they are never overridden by other classes: Final methods are only available in the class where they are defined
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

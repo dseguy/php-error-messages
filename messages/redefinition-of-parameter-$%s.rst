@@ -6,7 +6,7 @@ Redefinition of parameter $%s
 .. meta::
 	:description:
 		Redefinition of parameter $%s: Parameters must all have distinct names in a method signature.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Redefinition of parameter $%s
 	:og:description: Parameters must all have distinct names in a method signature
@@ -17,7 +17,7 @@ Redefinition of parameter $%s
 	:twitter:title: Redefinition of parameter $%s
 	:twitter:description: Redefinition of parameter $%s: Parameters must all have distinct names in a method signature
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

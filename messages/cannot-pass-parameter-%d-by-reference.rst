@@ -6,7 +6,7 @@ Cannot pass parameter %d by reference
 .. meta::
 	:description:
 		Cannot pass parameter %d by reference: When a parameter is set to be passed by reference, there is a ``&amp;`` character before its name.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot pass parameter %d by reference
 	:og:description: When a parameter is set to be passed by reference, there is a ``&amp;`` character before its name
@@ -17,7 +17,7 @@ Cannot pass parameter %d by reference
 	:twitter:title: Cannot pass parameter %d by reference
 	:twitter:description: Cannot pass parameter %d by reference: When a parameter is set to be passed by reference, there is a ``&`` character before its name
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@ Filename cannot be empty
 .. meta::
 	:description:
 		Filename cannot be empty: fopen()&#039;s first argument is of type string, though the empty string is not allowed, as it does not lead to any file.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Filename cannot be empty
 	:og:description: fopen()&#039;s first argument is of type string, though the empty string is not allowed, as it does not lead to any file
@@ -17,7 +17,7 @@ Filename cannot be empty
 	:twitter:title: Filename cannot be empty
 	:twitter:description: Filename cannot be empty: fopen()'s first argument is of type string, though the empty string is not allowed, as it does not lead to any file
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

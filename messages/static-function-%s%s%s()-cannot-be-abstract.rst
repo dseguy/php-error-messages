@@ -6,7 +6,7 @@ Static function %s%s%s() cannot be abstract
 .. meta::
 	:description:
 		Static function %s%s%s() cannot be abstract: This error could not be reproduced so far.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Static function %s%s%s() cannot be abstract
 	:og:description: This error could not be reproduced so far
@@ -17,7 +17,7 @@ Static function %s%s%s() cannot be abstract
 	:twitter:title: Static function %s%s%s() cannot be abstract
 	:twitter:description: Static function %s%s%s() cannot be abstract: This error could not be reproduced so far
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

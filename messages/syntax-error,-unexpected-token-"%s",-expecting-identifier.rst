@@ -6,7 +6,7 @@ syntax error, unexpected token "%s", expecting identifier
 .. meta::
 	:description:
 		syntax error, unexpected token "%s", expecting identifier: This error arises when a PHP token is used where a name is expected.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: syntax error, unexpected token &quot;%s&quot;, expecting identifier
 	:og:description: This error arises when a PHP token is used where a name is expected
@@ -17,7 +17,7 @@ syntax error, unexpected token "%s", expecting identifier
 	:twitter:title: syntax error, unexpected token "%s", expecting identifier
 	:twitter:description: syntax error, unexpected token "%s", expecting identifier: This error arises when a PHP token is used where a name is expected
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

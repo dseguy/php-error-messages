@@ -6,7 +6,7 @@ Call to undefined method %s::%s()
 .. meta::
 	:description:
 		Call to undefined method %s::%s(): This message is emitted when no method with the requested name could be found on the class, or its parents or traits.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Call to undefined method %s::%s()
 	:og:description: This message is emitted when no method with the requested name could be found on the class, or its parents or traits
@@ -17,7 +17,7 @@ Call to undefined method %s::%s()
 	:twitter:title: Call to undefined method %s::%s()
 	:twitter:description: Call to undefined method %s::%s(): This message is emitted when no method with the requested name could be found on the class, or its parents or traits
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

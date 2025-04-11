@@ -6,7 +6,7 @@ Cannot use "%s" when no class scope is active
 .. meta::
 	:description:
 		Cannot use "%s" when no class scope is active: `self``, ``static`` and ``parent`` refers to the classes, relative to the current one.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot use &quot;%s&quot; when no class scope is active
 	:og:description: `self``, ``static`` and ``parent`` refers to the classes, relative to the current one
@@ -17,7 +17,7 @@ Cannot use "%s" when no class scope is active
 	:twitter:title: Cannot use "%s" when no class scope is active
 	:twitter:description: Cannot use "%s" when no class scope is active: `self``, ``static`` and ``parent`` refers to the classes, relative to the current one
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@ Wrong encoding, conversion from "%s" to "%s" is not allowed
 .. meta::
 	:description:
 		Wrong encoding, conversion from "%s" to "%s" is not allowed: This message reports that the origin or the destination encoding is not supported on this server.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Wrong encoding, conversion from &quot;%s&quot; to &quot;%s&quot; is not allowed
 	:og:description: This message reports that the origin or the destination encoding is not supported on this server
@@ -17,7 +17,7 @@ Wrong encoding, conversion from "%s" to "%s" is not allowed
 	:twitter:title: Wrong encoding, conversion from "%s" to "%s" is not allowed
 	:twitter:description: Wrong encoding, conversion from "%s" to "%s" is not allowed: This message reports that the origin or the destination encoding is not supported on this server
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

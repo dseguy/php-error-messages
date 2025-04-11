@@ -6,7 +6,7 @@ array_merge() does not accept unknown named parameters
 .. meta::
 	:description:
 		array_merge() does not accept unknown named parameters: array_merge() accepts one parameter, called ``$arrays``.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: array_merge() does not accept unknown named parameters
 	:og:description: array_merge() accepts one parameter, called ``$arrays``
@@ -17,7 +17,7 @@ array_merge() does not accept unknown named parameters
 	:twitter:title: array_merge() does not accept unknown named parameters
 	:twitter:description: array_merge() does not accept unknown named parameters: array_merge() accepts one parameter, called ``$arrays``
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

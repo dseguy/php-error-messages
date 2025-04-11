@@ -6,7 +6,7 @@ Cannot override final %s::%s() with %s::%s()
 .. meta::
 	:description:
 		Cannot override final %s::%s() with %s::%s(): The ``final`` keyword prevents any child class to define the same constant or method.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot override final %s::%s() with %s::%s()
 	:og:description: The ``final`` keyword prevents any child class to define the same constant or method
@@ -17,7 +17,7 @@ Cannot override final %s::%s() with %s::%s()
 	:twitter:title: Cannot override final %s::%s() with %s::%s()
 	:twitter:description: Cannot override final %s::%s() with %s::%s(): The ``final`` keyword prevents any child class to define the same constant or method
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

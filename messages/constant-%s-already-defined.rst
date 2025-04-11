@@ -6,7 +6,7 @@ Constant %s already defined
 .. meta::
 	:description:
 		Constant %s already defined: When a global constant is defined again, PHP reports a warning, and ignores the second definition.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Constant %s already defined
 	:og:description: When a global constant is defined again, PHP reports a warning, and ignores the second definition
@@ -17,7 +17,7 @@ Constant %s already defined
 	:twitter:title: Constant %s already defined
 	:twitter:description: Constant %s already defined: When a global constant is defined again, PHP reports a warning, and ignores the second definition
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@ Parameter uses 'parent' as type hint although class does not have a parent!
 .. meta::
 	:description:
 		Parameter uses 'parent' as type hint although class does not have a parent!: This error is a Reflection API error.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Parameter uses &#039;parent&#039; as type hint although class does not have a parent!
 	:og:description: This error is a Reflection API error
@@ -17,7 +17,7 @@ Parameter uses 'parent' as type hint although class does not have a parent!
 	:twitter:title: Parameter uses 'parent' as type hint although class does not have a parent!
 	:twitter:description: Parameter uses 'parent' as type hint although class does not have a parent!: This error is a Reflection API error
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

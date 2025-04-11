@@ -6,7 +6,7 @@ Uninitialized string offset
 .. meta::
 	:description:
 		Uninitialized string offset: This error appears when using the array syntax on strings, while the requested index is too large, or too small.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Uninitialized string offset
 	:og:description: This error appears when using the array syntax on strings, while the requested index is too large, or too small
@@ -17,7 +17,7 @@ Uninitialized string offset
 	:twitter:title: Uninitialized string offset
 	:twitter:description: Uninitialized string offset: This error appears when using the array syntax on strings, while the requested index is too large, or too small
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

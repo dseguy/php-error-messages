@@ -6,7 +6,7 @@ must be a user-defined class name, internal class name given
 .. meta::
 	:description:
 		must be a user-defined class name, internal class name given: class_alias() creates an alias for a class, an enumeration, an interface or a trait.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: must be a user-defined class name, internal class name given
 	:og:description: class_alias() creates an alias for a class, an enumeration, an interface or a trait
@@ -17,7 +17,7 @@ must be a user-defined class name, internal class name given
 	:twitter:title: must be a user-defined class name, internal class name given
 	:twitter:description: must be a user-defined class name, internal class name given: class_alias() creates an alias for a class, an enumeration, an interface or a trait
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
@@ -48,4 +48,9 @@ _________
 Changed Behavior
 ________________
 
-This error may appear in different PHP versions `classAliasWithInternalClass <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/classAliasWithInternalClass.html>`_.
+This error may appear following an evolution in behavior, in previous versions. See `classAliasWithInternalClass <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/classAliasWithInternalClass.html>`_.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `classAliasWithInternalClass <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/classAliasWithInternalClass.html>`_.

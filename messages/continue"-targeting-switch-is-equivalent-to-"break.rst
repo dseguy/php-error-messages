@@ -6,7 +6,7 @@ continue" targeting switch is equivalent to "break
 .. meta::
 	:description:
 		continue" targeting switch is equivalent to "break: The recommendation is to use ``break`` inside a switch, and ``continue`` in loops.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: continue&quot; targeting switch is equivalent to &quot;break
 	:og:description: The recommendation is to use ``break`` inside a switch, and ``continue`` in loops
@@ -17,7 +17,7 @@ continue" targeting switch is equivalent to "break
 	:twitter:title: continue" targeting switch is equivalent to "break
 	:twitter:description: continue" targeting switch is equivalent to "break: The recommendation is to use ``break`` inside a switch, and ``continue`` in loops
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

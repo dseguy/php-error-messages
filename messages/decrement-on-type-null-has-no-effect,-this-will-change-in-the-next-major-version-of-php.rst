@@ -6,7 +6,7 @@ Decrement on type null has no effect, this will change in the next major version
 .. meta::
 	:description:
 		Decrement on type null has no effect, this will change in the next major version of PHP: Pre or post increment on a ``null`` leaves the value unchanged.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Decrement on type null has no effect, this will change in the next major version of PHP
 	:og:description: Pre or post increment on a ``null`` leaves the value unchanged
@@ -17,7 +17,7 @@ Decrement on type null has no effect, this will change in the next major version
 	:twitter:title: Decrement on type null has no effect, this will change in the next major version of PHP
 	:twitter:description: Decrement on type null has no effect, this will change in the next major version of PHP: Pre or post increment on a ``null`` leaves the value unchanged
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

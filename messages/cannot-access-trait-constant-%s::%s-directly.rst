@@ -6,7 +6,7 @@ Cannot access trait constant %s::%s directly
 .. meta::
 	:description:
 		Cannot access trait constant %s::%s directly: Traits cannot be used indepently from a host class.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot access trait constant %s::%s directly
 	:og:description: Traits cannot be used indepently from a host class
@@ -17,7 +17,7 @@ Cannot access trait constant %s::%s directly
 	:twitter:title: Cannot access trait constant %s::%s directly
 	:twitter:description: Cannot access trait constant %s::%s directly: Traits cannot be used indepently from a host class
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

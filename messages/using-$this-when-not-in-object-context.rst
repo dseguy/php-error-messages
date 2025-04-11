@@ -6,7 +6,7 @@ Using $this when not in object context
 .. meta::
 	:description:
 		Using $this when not in object context: A static method is also called a class method: it may be executed without a dedicated object.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Using $this when not in object context
 	:og:description: A static method is also called a class method: it may be executed without a dedicated object
@@ -17,7 +17,7 @@ Using $this when not in object context
 	:twitter:title: Using $this when not in object context
 	:twitter:description: Using $this when not in object context: A static method is also called a class method: it may be executed without a dedicated object
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

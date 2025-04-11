@@ -6,7 +6,7 @@
 .. meta::
 	:description:
 		%s virtual property %s::$%s must not specify asymmetric visibility: A virtual property is related to property hooks: it is a property whose hook do not use the underlying property for storage, but uses another one (or, like here, none).
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: %s virtual property %s::$%s must not specify asymmetric visibility
 	:og:description: A virtual property is related to property hooks: it is a property whose hook do not use the underlying property for storage, but uses another one (or, like here, none)
@@ -17,7 +17,7 @@
 	:twitter:title: %s virtual property %s::$%s must not specify asymmetric visibility
 	:twitter:description: %s virtual property %s::$%s must not specify asymmetric visibility: A virtual property is related to property hooks: it is a property whose hook do not use the underlying property for storage, but uses another one (or, like here, none)
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

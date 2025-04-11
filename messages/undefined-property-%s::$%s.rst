@@ -6,7 +6,7 @@ Undefined property %s::$%s
 .. meta::
 	:description:
 		Undefined property %s::$%s: This error is reported when reading an undefined property.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Undefined property %s::$%s
 	:og:description: This error is reported when reading an undefined property
@@ -17,7 +17,7 @@ Undefined property %s::$%s
 	:twitter:title: Undefined property %s::$%s
 	:twitter:description: Undefined property %s::$%s: This error is reported when reading an undefined property
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

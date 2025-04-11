@@ -6,7 +6,7 @@ Interfaces may only include hooked properties
 .. meta::
 	:description:
 		Interfaces may only include hooked properties: PHP 8.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Interfaces may only include hooked properties
 	:og:description: PHP 8
@@ -17,7 +17,7 @@ Interfaces may only include hooked properties
 	:twitter:title: Interfaces may only include hooked properties
 	:twitter:description: Interfaces may only include hooked properties: PHP 8
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

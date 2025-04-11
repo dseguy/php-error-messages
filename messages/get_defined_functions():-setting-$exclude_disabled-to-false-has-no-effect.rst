@@ -6,7 +6,7 @@ get_defined_functions(): Setting $exclude_disabled to false has no effect
 .. meta::
 	:description:
 		get_defined_functions(): Setting $exclude_disabled to false has no effect: The first (and only) parameter of the PHP native function get_defined_functions() is deprecated since PHP 8.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: get_defined_functions(): Setting $exclude_disabled to false has no effect
 	:og:description: The first (and only) parameter of the PHP native function get_defined_functions() is deprecated since PHP 8
@@ -17,7 +17,7 @@ get_defined_functions(): Setting $exclude_disabled to false has no effect
 	:twitter:title: get_defined_functions(): Setting $exclude_disabled to false has no effect
 	:twitter:description: get_defined_functions(): Setting $exclude_disabled to false has no effect: The first (and only) parameter of the PHP native function get_defined_functions() is deprecated since PHP 8
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

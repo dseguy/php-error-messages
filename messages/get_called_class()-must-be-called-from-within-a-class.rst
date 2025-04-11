@@ -6,7 +6,7 @@ get_called_class() must be called from within a class
 .. meta::
 	:description:
 		get_called_class() must be called from within a class: get_called_class() returns the name of the current class.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: get_called_class() must be called from within a class
 	:og:description: get_called_class() returns the name of the current class
@@ -17,7 +17,7 @@ get_called_class() must be called from within a class
 	:twitter:title: get_called_class() must be called from within a class
 	:twitter:description: get_called_class() must be called from within a class: get_called_class() returns the name of the current class
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

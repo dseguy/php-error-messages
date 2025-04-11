@@ -6,7 +6,7 @@ Class %s cannot extend %s %s
 .. meta::
 	:description:
 		Class %s cannot extend %s %s: A class that is marked ``final`` cannot be extended.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Class %s cannot extend %s %s
 	:og:description: A class that is marked ``final`` cannot be extended
@@ -17,7 +17,7 @@ Class %s cannot extend %s %s
 	:twitter:title: Class %s cannot extend %s %s
 	:twitter:description: Class %s cannot extend %s %s: A class that is marked ``final`` cannot be extended
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
@@ -51,3 +51,8 @@ _________
 
 + Remove the ``final`` keyword on the parent class.
 + Use composition in the intended child class.
+
+Static Analysis
+_______________
+
+This error may be tracked down with the following static analysis rules: `Classes/CantExtendFinal <https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/CantExtendFinal.html>`_.

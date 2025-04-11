@@ -6,7 +6,7 @@ Cannot use 'readonly' as %s modifier
 .. meta::
 	:description:
 		Cannot use 'readonly' as %s modifier: ``readonly`` is reserved for properties, and cannot be used with methods, constants, enumeration cases or static properties.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot use &#039;readonly&#039; as %s modifier
 	:og:description: ``readonly`` is reserved for properties, and cannot be used with methods, constants, enumeration cases or static properties
@@ -17,7 +17,7 @@ Cannot use 'readonly' as %s modifier
 	:twitter:title: Cannot use 'readonly' as %s modifier
 	:twitter:description: Cannot use 'readonly' as %s modifier: ``readonly`` is reserved for properties, and cannot be used with methods, constants, enumeration cases or static properties
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@ Unterminated comment starting line %d
 .. meta::
 	:description:
 		Unterminated comment starting line %d: The multi-line comments with ``/* .
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Unterminated comment starting line %d
 	:og:description: The multi-line comments with ``/* 
@@ -17,7 +17,7 @@ Unterminated comment starting line %d
 	:twitter:title: Unterminated comment starting line %d
 	:twitter:description: Unterminated comment starting line %d: The multi-line comments with ``/* 
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

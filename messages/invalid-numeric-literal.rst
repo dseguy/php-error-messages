@@ -6,7 +6,7 @@ Invalid numeric literal
 .. meta::
 	:description:
 		Invalid numeric literal: This error reports an invalid number, hardcoded in the source code.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Invalid numeric literal
 	:og:description: This error reports an invalid number, hardcoded in the source code
@@ -17,7 +17,7 @@ Invalid numeric literal
 	:twitter:title: Invalid numeric literal
 	:twitter:description: Invalid numeric literal: This error reports an invalid number, hardcoded in the source code
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@
 .. meta::
 	:description:
 		'%s' not in the 'loop' or 'switch' context: ``break`` and ``continue`` are used to jump out of a loop, and proceed from the end of that loop.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: &#039;%s&#039; not in the &#039;loop&#039; or &#039;switch&#039; context
 	:og:description: ``break`` and ``continue`` are used to jump out of a loop, and proceed from the end of that loop
@@ -17,7 +17,7 @@
 	:twitter:title: '%s' not in the 'loop' or 'switch' context
 	:twitter:description: '%s' not in the 'loop' or 'switch' context: ``break`` and ``continue`` are used to jump out of a loop, and proceed from the end of that loop
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

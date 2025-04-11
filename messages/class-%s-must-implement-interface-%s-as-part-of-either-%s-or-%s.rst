@@ -6,7 +6,7 @@ Class %s must implement interface %s as part of either %s or %s
 .. meta::
 	:description:
 		Class %s must implement interface %s as part of either %s or %s: It is not possible to implement directly the mentionned interface.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Class %s must implement interface %s as part of either %s or %s
 	:og:description: It is not possible to implement directly the mentionned interface
@@ -17,7 +17,7 @@ Class %s must implement interface %s as part of either %s or %s
 	:twitter:title: Class %s must implement interface %s as part of either %s or %s
 	:twitter:description: Class %s must implement interface %s as part of either %s or %s: It is not possible to implement directly the mentionned interface
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

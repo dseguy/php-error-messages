@@ -6,7 +6,7 @@ Passing the encoding as third parameter is deprecated. Use an explicit zero offs
 .. meta::
 	:description:
 		Passing the encoding as third parameter is deprecated. Use an explicit zero offset: PHP used to recognize automatically the third parameter when it was actually the encoding, and noth the offset of start.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Passing the encoding as third parameter is deprecated. Use an explicit zero offset
 	:og:description: PHP used to recognize automatically the third parameter when it was actually the encoding, and noth the offset of start
@@ -17,7 +17,7 @@ Passing the encoding as third parameter is deprecated. Use an explicit zero offs
 	:twitter:title: Passing the encoding as third parameter is deprecated. Use an explicit zero offset
 	:twitter:description: Passing the encoding as third parameter is deprecated. Use an explicit zero offset: PHP used to recognize automatically the third parameter when it was actually the encoding, and noth the offset of start
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@ must be a valid comparison operator
 .. meta::
 	:description:
 		must be a valid comparison operator: version_compare() compares version strings, using an operator, passed as third parameter.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: must be a valid comparison operator
 	:og:description: version_compare() compares version strings, using an operator, passed as third parameter
@@ -17,7 +17,7 @@ must be a valid comparison operator
 	:twitter:title: must be a valid comparison operator
 	:twitter:description: must be a valid comparison operator: version_compare() compares version strings, using an operator, passed as third parameter
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
@@ -53,4 +53,9 @@ _________
 Changed Behavior
 ________________
 
-This error may appear in different PHP versions `version_compare <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/version_compare.html>`_.
+This error may appear following an evolution in behavior, in previous versions. See `version_compare <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/version_compare.html>`_.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `version_compare <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/version_compare.html>`_.

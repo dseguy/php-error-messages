@@ -6,7 +6,7 @@ Unknown hook "%s" for property %s::$%s, expected "get" or "set"
 .. meta::
 	:description:
 		Unknown hook "%s" for property %s::$%s, expected "get" or "set": Property hooks can only be named &#039;get&#039; or &#039;set&#039;, as of PHP 8.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Unknown hook &quot;%s&quot; for property %s::$%s, expected &quot;get&quot; or &quot;set&quot;
 	:og:description: Property hooks can only be named &#039;get&#039; or &#039;set&#039;, as of PHP 8
@@ -17,7 +17,7 @@ Unknown hook "%s" for property %s::$%s, expected "get" or "set"
 	:twitter:title: Unknown hook "%s" for property %s::$%s, expected "get" or "set"
 	:twitter:description: Unknown hook "%s" for property %s::$%s, expected "get" or "set": Property hooks can only be named 'get' or 'set', as of PHP 8
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

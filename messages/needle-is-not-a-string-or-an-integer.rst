@@ -6,7 +6,7 @@ needle is not a string or an integer
 .. meta::
 	:description:
 		needle is not a string or an integer: The second argument may be a string, or an integer, which will be used as a string.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: needle is not a string or an integer
 	:og:description: The second argument may be a string, or an integer, which will be used as a string
@@ -17,7 +17,7 @@ needle is not a string or an integer
 	:twitter:title: needle is not a string or an integer
 	:twitter:description: needle is not a string or an integer: The second argument may be a string, or an integer, which will be used as a string
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

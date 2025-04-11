@@ -6,7 +6,7 @@ Unparenthesized `a ? b : c ? d : e` is not supported.
 .. meta::
 	:description:
 		Unparenthesized `a ? b : c ? d : e` is not supported.: The nested ternary operator requires a clear definition of priorities, by using parenthesis.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Unparenthesized `a ? b : c ? d : e` is not supported.
 	:og:description: The nested ternary operator requires a clear definition of priorities, by using parenthesis
@@ -17,7 +17,7 @@ Unparenthesized `a ? b : c ? d : e` is not supported.
 	:twitter:title: Unparenthesized `a ? b : c ? d : e` is not supported.
 	:twitter:description: Unparenthesized `a ? b : c ? d : e` is not supported.: The nested ternary operator requires a clear definition of priorities, by using parenthesis
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

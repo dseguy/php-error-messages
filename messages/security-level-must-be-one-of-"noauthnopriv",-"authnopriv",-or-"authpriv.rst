@@ -6,7 +6,7 @@ Security level must be one of "noAuthNoPriv", "authNoPriv", or "authPriv"
 .. meta::
 	:description:
 		Security level must be one of "noAuthNoPriv", "authNoPriv", or "authPriv": The third argument of snmp3_get() must be one of the following values, &quot;noAuthNoPriv&quot;, &quot;authNoPriv&quot;, or &quot;authPriv&quot;.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Security level must be one of &quot;noAuthNoPriv&quot;, &quot;authNoPriv&quot;, or &quot;authPriv&quot;
 	:og:description: The third argument of snmp3_get() must be one of the following values, &quot;noAuthNoPriv&quot;, &quot;authNoPriv&quot;, or &quot;authPriv&quot;
@@ -17,7 +17,7 @@ Security level must be one of "noAuthNoPriv", "authNoPriv", or "authPriv"
 	:twitter:title: Security level must be one of "noAuthNoPriv", "authNoPriv", or "authPriv"
 	:twitter:description: Security level must be one of "noAuthNoPriv", "authNoPriv", or "authPriv": The third argument of snmp3_get() must be one of the following values, "noAuthNoPriv", "authNoPriv", or "authPriv"
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

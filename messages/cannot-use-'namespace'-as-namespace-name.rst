@@ -6,7 +6,7 @@ Cannot use 'namespace' as namespace name
 .. meta::
 	:description:
 		Cannot use 'namespace' as namespace name: The namespace ``namespace`` keyword introduces a namespace.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot use &#039;namespace&#039; as namespace name
 	:og:description: The namespace ``namespace`` keyword introduces a namespace
@@ -17,7 +17,7 @@ Cannot use 'namespace' as namespace name
 	:twitter:title: Cannot use 'namespace' as namespace name
 	:twitter:description: Cannot use 'namespace' as namespace name: The namespace ``namespace`` keyword introduces a namespace
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

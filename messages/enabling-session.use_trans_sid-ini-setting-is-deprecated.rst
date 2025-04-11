@@ -6,7 +6,7 @@ Enabling session.use_trans_sid INI setting is deprecated
 .. meta::
 	:description:
 		Enabling session.use_trans_sid INI setting is deprecated: ``session.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Enabling session.use_trans_sid INI setting is deprecated
 	:og:description: ``session
@@ -17,7 +17,7 @@ Enabling session.use_trans_sid INI setting is deprecated
 	:twitter:title: Enabling session.use_trans_sid INI setting is deprecated
 	:twitter:description: Enabling session.use_trans_sid INI setting is deprecated: ``session
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

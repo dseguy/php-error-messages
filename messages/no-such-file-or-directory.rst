@@ -6,7 +6,7 @@ No such file or directory
 .. meta::
 	:description:
 		No such file or directory: PHP reports, as warning, a failure to remove a file that doesn&#039;t exists.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: No such file or directory
 	:og:description: PHP reports, as warning, a failure to remove a file that doesn&#039;t exists
@@ -17,7 +17,7 @@ No such file or directory
 	:twitter:title: No such file or directory
 	:twitter:description: No such file or directory: PHP reports, as warning, a failure to remove a file that doesn't exists
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

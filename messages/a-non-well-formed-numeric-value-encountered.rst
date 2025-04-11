@@ -6,7 +6,7 @@ A non well formed numeric value encountered
 .. meta::
 	:description:
 		A non well formed numeric value encountered: When the operands have to be integer, PHP tries to cast the value to an integer before perform the operation.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: A non well formed numeric value encountered
 	:og:description: When the operands have to be integer, PHP tries to cast the value to an integer before perform the operation
@@ -17,7 +17,7 @@ A non well formed numeric value encountered
 	:twitter:title: A non well formed numeric value encountered
 	:twitter:description: A non well formed numeric value encountered: When the operands have to be integer, PHP tries to cast the value to an integer before perform the operation
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

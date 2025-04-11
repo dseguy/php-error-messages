@@ -6,7 +6,7 @@ Trying to invoke %s method %s::%s() from scope %s
 .. meta::
 	:description:
 		Trying to invoke %s method %s::%s() from scope %s: This error reports that the requested method exists, but is not available from the context of call.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Trying to invoke %s method %s::%s() from scope %s
 	:og:description: This error reports that the requested method exists, but is not available from the context of call
@@ -17,7 +17,7 @@ Trying to invoke %s method %s::%s() from scope %s
 	:twitter:title: Trying to invoke %s method %s::%s() from scope %s
 	:twitter:description: Trying to invoke %s method %s::%s() from scope %s: This error reports that the requested method exists, but is not available from the context of call
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@
 .. meta::
 	:description:
 		'goto' to undefined label '%s': This error is displayed when a goto command has no corresponding label in the method.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: &#039;goto&#039; to undefined label &#039;%s&#039;
 	:og:description: This error is displayed when a goto command has no corresponding label in the method
@@ -17,7 +17,7 @@
 	:twitter:title: 'goto' to undefined label '%s'
 	:twitter:description: 'goto' to undefined label '%s': This error is displayed when a goto command has no corresponding label in the method
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

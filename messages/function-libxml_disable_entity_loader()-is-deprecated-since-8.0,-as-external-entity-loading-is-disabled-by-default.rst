@@ -6,7 +6,7 @@ Function libxml_disable_entity_loader() is deprecated since 8.0, as external ent
 .. meta::
 	:description:
 		Function libxml_disable_entity_loader() is deprecated since 8.0, as external entity loading is disabled by default: This warning signals that PHP is not using this function anymore: the features of loading external entities has been disabled, for security purposes: loading entities from a remote server without checking them was a serious vulnerability.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Function libxml_disable_entity_loader() is deprecated since 8.0, as external entity loading is disabled by default
 	:og:description: This warning signals that PHP is not using this function anymore: the features of loading external entities has been disabled, for security purposes: loading entities from a remote server without checking them was a serious vulnerability
@@ -17,7 +17,7 @@ Function libxml_disable_entity_loader() is deprecated since 8.0, as external ent
 	:twitter:title: Function libxml_disable_entity_loader() is deprecated since 8.0, as external entity loading is disabled by default
 	:twitter:description: Function libxml_disable_entity_loader() is deprecated since 8.0, as external entity loading is disabled by default: This warning signals that PHP is not using this function anymore: the features of loading external entities has been disabled, for security purposes: loading entities from a remote server without checking them was a serious vulnerability
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

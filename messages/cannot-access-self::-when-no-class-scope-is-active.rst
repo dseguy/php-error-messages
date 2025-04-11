@@ -6,7 +6,7 @@ Cannot access self:: when no class scope is active
 .. meta::
 	:description:
 		Cannot access self:: when no class scope is active: ``self`` refers to the curent class of the one.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot access self:: when no class scope is active
 	:og:description: ``self`` refers to the curent class of the one
@@ -17,7 +17,7 @@ Cannot access self:: when no class scope is active
 	:twitter:title: Cannot access self:: when no class scope is active
 	:twitter:description: Cannot access self:: when no class scope is active: ``self`` refers to the curent class of the one
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

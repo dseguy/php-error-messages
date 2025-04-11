@@ -6,7 +6,7 @@ syntax error, unexpected ')', expecting variable (T_VARIABLE)
 .. meta::
 	:description:
 		syntax error, unexpected ')', expecting variable (T_VARIABLE): This error is related to the support the trailing comma in function calls: in PHP 7.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: syntax error, unexpected &#039;)&#039;, expecting variable (T_VARIABLE)
 	:og:description: This error is related to the support the trailing comma in function calls: in PHP 7
@@ -17,7 +17,7 @@ syntax error, unexpected ')', expecting variable (T_VARIABLE)
 	:twitter:title: syntax error, unexpected ')', expecting variable (T_VARIABLE)
 	:twitter:description: syntax error, unexpected ')', expecting variable (T_VARIABLE): This error is related to the support the trailing comma in function calls: in PHP 7
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

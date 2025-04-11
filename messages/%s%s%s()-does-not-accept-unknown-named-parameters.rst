@@ -6,7 +6,7 @@
 .. meta::
 	:description:
 		%s%s%s() does not accept unknown named parameters: printf() and sprintf() take a format string as first argument, and an arbitrary number of arguments after that.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: %s%s%s() does not accept unknown named parameters
 	:og:description: printf() and sprintf() take a format string as first argument, and an arbitrary number of arguments after that
@@ -17,7 +17,7 @@
 	:twitter:title: %s%s%s() does not accept unknown named parameters
 	:twitter:description: %s%s%s() does not accept unknown named parameters: printf() and sprintf() take a format string as first argument, and an arbitrary number of arguments after that
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

@@ -6,7 +6,7 @@ Interface %s cannot contain non abstract method %s()
 .. meta::
 	:description:
 		Interface %s cannot contain non abstract method %s(): In an interface, there can only be methods signature, and no method body.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Interface %s cannot contain non abstract method %s()
 	:og:description: In an interface, there can only be methods signature, and no method body
@@ -17,7 +17,7 @@ Interface %s cannot contain non abstract method %s()
 	:twitter:title: Interface %s cannot contain non abstract method %s()
 	:twitter:description: Interface %s cannot contain non abstract method %s(): In an interface, there can only be methods signature, and no method body
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

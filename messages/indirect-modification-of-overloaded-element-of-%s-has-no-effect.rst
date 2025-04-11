@@ -6,7 +6,7 @@ Indirect modification of overloaded element of %s has no effect
 .. meta::
 	:description:
 		Indirect modification of overloaded element of %s has no effect: The variable ``$object`` is an object.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Indirect modification of overloaded element of %s has no effect
 	:og:description: The variable ``$object`` is an object
@@ -17,7 +17,7 @@ Indirect modification of overloaded element of %s has no effect
 	:twitter:title: Indirect modification of overloaded element of %s has no effect
 	:twitter:description: Indirect modification of overloaded element of %s has no effect: The variable ``$object`` is an object
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

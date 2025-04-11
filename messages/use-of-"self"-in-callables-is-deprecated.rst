@@ -6,7 +6,7 @@ Use of "self" in callables is deprecated
 .. meta::
 	:description:
 		Use of "self" in callables is deprecated: Since PHP 8.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Use of &quot;self&quot; in callables is deprecated
 	:og:description: Since PHP 8
@@ -17,7 +17,7 @@ Use of "self" in callables is deprecated
 	:twitter:title: Use of "self" in callables is deprecated
 	:twitter:description: Use of "self" in callables is deprecated: Since PHP 8
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
@@ -69,4 +69,14 @@ ________
 Changed Behavior
 ________________
 
-This error may appear in different PHP versions `codes/selfInCallable <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/codes/selfInCallable.html>`_.
+This error may appear following an evolution in behavior, in previous versions. See `codes/selfInCallable <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/codes/selfInCallable.html>`_.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `codes/selfInCallable <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/codes/selfInCallable.html>`_.
+
+Static Analysis
+_______________
+
+This error may be tracked down with the following static analysis rules: `Functions/DeprecatedCallable <https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/DeprecatedCallable.html>`_.

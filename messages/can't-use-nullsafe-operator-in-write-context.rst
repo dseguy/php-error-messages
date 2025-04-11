@@ -6,7 +6,7 @@ Can't use nullsafe operator in write context
 .. meta::
 	:description:
 		Can't use nullsafe operator in write context: The nullsafe operator is only available for reading, not writing.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Can&#039;t use nullsafe operator in write context
 	:og:description: The nullsafe operator is only available for reading, not writing
@@ -17,7 +17,7 @@ Can't use nullsafe operator in write context
 	:twitter:title: Can't use nullsafe operator in write context
 	:twitter:description: Can't use nullsafe operator in write context: The nullsafe operator is only available for reading, not writing
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

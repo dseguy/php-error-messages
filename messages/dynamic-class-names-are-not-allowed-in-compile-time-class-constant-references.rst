@@ -6,7 +6,7 @@ Dynamic class names are not allowed in compile-time class constant references
 .. meta::
 	:description:
 		Dynamic class names are not allowed in compile-time class constant references: It is not possible to create a constant while using a variable, or similar containers.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Dynamic class names are not allowed in compile-time class constant references
 	:og:description: It is not possible to create a constant while using a variable, or similar containers
@@ -17,7 +17,7 @@ Dynamic class names are not allowed in compile-time class constant references
 	:twitter:title: Dynamic class names are not allowed in compile-time class constant references
 	:twitter:description: Dynamic class names are not allowed in compile-time class constant references: It is not possible to create a constant while using a variable, or similar containers
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

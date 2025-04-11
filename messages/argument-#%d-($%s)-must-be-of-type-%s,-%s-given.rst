@@ -6,7 +6,7 @@ Argument #%d ($%s) must be of type %s, %s given
 .. meta::
 	:description:
 		Argument #%d ($%s) must be of type %s, %s given: This error is emitted when data of a wrong type is given to a typed argument.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Argument #%d ($%s) must be of type %s, %s given
 	:og:description: This error is emitted when data of a wrong type is given to a typed argument
@@ -17,7 +17,7 @@ Argument #%d ($%s) must be of type %s, %s given
 	:twitter:title: Argument #%d ($%s) must be of type %s, %s given
 	:twitter:description: Argument #%d ($%s) must be of type %s, %s given: This error is emitted when data of a wrong type is given to a typed argument
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

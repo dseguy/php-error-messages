@@ -6,7 +6,7 @@ The parent constructor was not called: the object is in an invalid state
 .. meta::
 	:description:
 		The parent constructor was not called: the object is in an invalid state: When extending certain PHP native classes, the child class must call the parent constructor to finish the instantiation of the object.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: The parent constructor was not called: the object is in an invalid state
 	:og:description: When extending certain PHP native classes, the child class must call the parent constructor to finish the instantiation of the object
@@ -17,7 +17,7 @@ The parent constructor was not called: the object is in an invalid state
 	:twitter:title: The parent constructor was not called: the object is in an invalid state
 	:twitter:description: The parent constructor was not called: the object is in an invalid state: When extending certain PHP native classes, the child class must call the parent constructor to finish the instantiation of the object
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

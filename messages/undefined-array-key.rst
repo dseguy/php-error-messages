@@ -6,7 +6,7 @@ Undefined array key
 .. meta::
 	:description:
 		Undefined array key: This notice is emitted when an offset (string or integer) is being used before being defined.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Undefined array key
 	:og:description: This notice is emitted when an offset (string or integer) is being used before being defined
@@ -17,7 +17,7 @@ Undefined array key
 	:twitter:title: Undefined array key
 	:twitter:description: Undefined array key: This notice is emitted when an offset (string or integer) is being used before being defined
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

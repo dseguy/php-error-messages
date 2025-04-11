@@ -6,7 +6,7 @@ Type contains both true and false, bool must be used instead
 .. meta::
 	:description:
 		Type contains both true and false, bool must be used instead: PHP has several types.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Type contains both true and false, bool must be used instead
 	:og:description: PHP has several types
@@ -17,11 +17,11 @@ Type contains both true and false, bool must be used instead
 	:twitter:title: Type contains both true and false, bool must be used instead
 	:twitter:description: Type contains both true and false, bool must be used instead: PHP has several types
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/type-contains-both-true-and-false,-bool-must-be-used-instead.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/type-contains-both-true-and-false,-bool-must-be-used-instead.html","name":"Type contains both true and false, bool must be used instead","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 21 Feb 2025 18:53:43 +0000","dateModified":"Fri, 21 Feb 2025 18:53:43 +0000","description":"PHP has several types","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/type-contains-both-true-and-false,-bool-must-be-used-instead.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/type-contains-both-true-and-false,-bool-must-be-used-instead.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/type-contains-both-true-and-false,-bool-must-be-used-instead.html","name":"Type contains both true and false, bool must be used instead","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 11 Apr 2025 16:35:01 +0000","dateModified":"Fri, 11 Apr 2025 16:35:01 +0000","description":"PHP has several types","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/type-contains-both-true-and-false,-bool-must-be-used-instead.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -39,7 +39,7 @@ _______
 
    <?php
    
-   function foo() : true|int|false {}
+   function foo() : int|true|false {}
    
    ?>
 

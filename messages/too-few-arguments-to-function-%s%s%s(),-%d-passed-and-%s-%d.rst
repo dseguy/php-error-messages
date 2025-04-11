@@ -6,7 +6,7 @@ Too few arguments to function %s%s%s(), %d passed and %s %d
 .. meta::
 	:description:
 		Too few arguments to function %s%s%s(), %d passed and %s %d: This error reports that not enough parameters were used when calling a method or a function.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Too few arguments to function %s%s%s(), %d passed and %s %d
 	:og:description: This error reports that not enough parameters were used when calling a method or a function
@@ -17,7 +17,7 @@ Too few arguments to function %s%s%s(), %d passed and %s %d
 	:twitter:title: Too few arguments to function %s%s%s(), %d passed and %s %d
 	:twitter:description: Too few arguments to function %s%s%s(), %d passed and %s %d: This error reports that not enough parameters were used when calling a method or a function
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 

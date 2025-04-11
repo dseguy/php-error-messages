@@ -6,7 +6,7 @@ The (real) cast operator has been removed, use (float) instead. Both operator lo
 .. meta::
 	:description:
 		The (real) cast operator has been removed, use (float) instead. Both operator looked like synonyms, and were providing the same feature.: The ``(real)`` cast operator was deprecated in PHP 7.
-	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: The (real) cast operator has been removed, use (float) instead. Both operator looked like synonyms, and were providing the same feature.
 	:og:description: The ``(real)`` cast operator was deprecated in PHP 7
@@ -17,7 +17,7 @@ The (real) cast operator has been removed, use (float) instead. Both operator lo
 	:twitter:title: The (real) cast operator has been removed, use (float) instead. Both operator looked like synonyms, and were providing the same feature.
 	:twitter:description: The (real) cast operator has been removed, use (float) instead. Both operator looked like synonyms, and were providing the same feature.: The ``(real)`` cast operator was deprecated in PHP 7
 	:twitter:creator: @exakat
-	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
