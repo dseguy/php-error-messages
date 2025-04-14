@@ -134,12 +134,14 @@ PHP Error Messages
    messages/cannot-bind-an-instance-to-a-static-closure.rst
    messages/cannot-call-constructor.rst
    messages/cannot-combine-named-arguments-and-argument-unpacking.rst
+   messages/cannot-create-dynamic-property-%s::$%s.rst
    messages/cannot-create-reference-to-property-%s::$%s.rst
    messages/cannot-declare-hooks-for-static-property.rst
    messages/cannot-declare-promoted-property-in-an-abstract-constructor.rst
    messages/cannot-declare-promoted-property-outside-a-constructor.rst
    messages/cannot-declare-self-referencing-constant.rst
    messages/cannot-declare-variadic-promoted-property.rst
+   messages/cannot-indirectly-modify-readonly-property-%s::$%s.rst
    messages/cannot-inherit-previously-inherited-or-override-constant-%s-from-interface-%s.rst
    messages/cannot-instantiate-enum-%s.rst
    messages/cannot-instantiate-interface-%s.rst
@@ -218,6 +220,7 @@ PHP Error Messages
    messages/class-%s-cannot-implement-both-iterator-and-iteratoraggregate-at-the-same-time.rst
    messages/class-%s-cannot-implement-previously-implemented-interface-%s.rst
    messages/class-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-methods.rst
+   messages/class-%s-does-not-have-a-property-named-%s.rst
    messages/class-%s-is-not-a-trait.rst
    messages/class-%s-must-implement-interface-%s-as-part-of-either-%s-or-%s.rst
    messages/class-constant-%s::%s-cannot-have-type-%s.rst
@@ -435,6 +438,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-'throw'-(t_throw).rst
    messages/syntax-error,-unexpected-'|',-expecting-variable-(t_variable).rst
    messages/syntax-error,-unexpected-end-of-file.rst
+   messages/syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function"-or-"const".rst
    messages/syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"{".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-"function"-or-"const".rst
@@ -443,6 +447,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-variable-or-"$".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-variable.rst
    messages/syntax-error,-unexpected-identifier-"%s".rst
+   messages/syntax-error,-unexpected-namespaced-name-"%s",-expecting-"function".rst
    messages/syntax-error,-unexpected-single-quoted-string-"%s",-expecting-")".rst
    messages/syntax-error,-unexpected-string-content.rst
    messages/syntax-error,-unexpected-token-"#[",-expecting-","-or-";".rst

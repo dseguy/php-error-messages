@@ -388,6 +388,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-combine-named-arguments-and-argument-unpacking.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-create-dynamic-property-%25s%3A%3A%24%25s.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-create-reference-to-property-%25s%3A%3A%24%25s.html</loc>
  </url>
  <url>
@@ -404,6 +407,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-declare-variadic-promoted-property.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-indirectly-modify-readonly-property-%25s%3A%3A%24%25s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-inherit-previously-inherited-or-override-constant-%25s-from-interface-%25s.html</loc>
@@ -638,6 +644,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/class-%25s-contains-%25d-abstract-method%25s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-methods.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/class-%25s-does-not-have-a-property-named-%25s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/class-%25s-is-not-a-trait.html</loc>
@@ -1291,6 +1300,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-end-of-file.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-fully-qualified-name-%22%25s%22%2C-expecting-%22function%22-or-%22const%22.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-fully-qualified-name-%22%25s%22%2C-expecting-%22%7B%22.html</loc>
  </url>
  <url>
@@ -1313,6 +1325,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-identifier-%22%25s%22.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-namespaced-name-%22%25s%22%2C-expecting-%22function%22.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-single-quoted-string-%22%25s%22%2C-expecting-%22%29%22.html</loc>

@@ -245,6 +245,8 @@ Features index
       * :ref:`%s::%s()-has-#[-override]-attribute,-but-no-matching-parent-method-exists`
       * :ref:`attribute-"%s"-cannot-target-%s-(allowed-targets:-%s)`
       * :ref:`has-#[-override]-attribute,-but-no-matching-parent-method-exists`
+      * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function"-or-"const"`
+      * :ref:`syntax-error,-unexpected-namespaced-name-"%s",-expecting-"function"`
       * :ref:`syntax-error,-unexpected-token-"#[",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-token-"class",-expecting-"]"`
 
@@ -463,7 +465,9 @@ Features index
       * :ref:`cannot-use-the-%s-modifier-on-a-%s`
       * :ref:`class-constant-%s::%s-cannot-have-type-%s`
       * :ref:`constant-%s::%s-is-deprecated`
+      * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function"-or-"const"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"function"-or-"const"`
+      * :ref:`syntax-error,-unexpected-namespaced-name-"%s",-expecting-"function"`
       * :ref:`traits-cannot-have-constants`
       * :ref:`undefined-class-constant-\'%s::%s\'`
       * :ref:`undefined-constant-%s::%s`
@@ -789,6 +793,11 @@ Features index
    * enum-case
 
       * :ref:`trying-to-clone-an-uncloneable-object-of-class-%s`
+
+
+   * enumeration
+
+      * :ref:`cannot-create-dynamic-property-%s::\$%s`
 
 
    * error
@@ -1363,6 +1372,12 @@ Features index
       * :ref:`syntax-error,-unexpected-token-"use",-expecting-"{"`
 
 
+   * namespaced-name
+
+      * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function"-or-"const"`
+      * :ref:`syntax-error,-unexpected-namespaced-name-"%s",-expecting-"function"`
+
+
    * nan
 
       * :ref:`must-be-a-finite-value`
@@ -1674,6 +1689,7 @@ Features index
       * :ref:`cannot-acquire-reference-to-\$globals`
       * :ref:`cannot-acquire-reference-to-readonly-property-%s::\$%s`
       * :ref:`cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s`
+      * :ref:`cannot-indirectly-modify-readonly-property-%s::\$%s`
       * :ref:`cannot-modify-readonly-property-%s::\$%s`
       * :ref:`cannot-redeclare-%s-property-%s::\$%s-as-%s-%s::\$%s`
       * :ref:`cannot-unset-readonly-property-%s::\$%s`
@@ -1709,6 +1725,7 @@ Features index
       * :ref:`cannot-acquire-reference-to-\$globals`
       * :ref:`cannot-acquire-reference-to-readonly-property-%s::\$%s`
       * :ref:`cannot-create-reference-to-property-%s::\$%s`
+      * :ref:`cannot-indirectly-modify-readonly-property-%s::\$%s`
       * :ref:`cannot-pass-parameter-%d-by-reference`
       * :ref:`cannot-use-variable-\$%s-twice`
       * :ref:`indirect-modification-of-%s::\$%s-is-not-allowed`
@@ -1731,6 +1748,7 @@ Features index
       * :ref:`attribute-class-"%s"-not-found`
       * :ref:`cannot-be-null-when-argument-#1-(\$objectormethod)-is-an-object`
       * :ref:`case-%s::%s-does-not-exist`
+      * :ref:`class-%s-does-not-have-a-property-named-%s`
       * :ref:`must-be-a-valid-method-name`
 
 
@@ -2189,6 +2207,8 @@ Features index
 
    * use-trait
 
+      * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function"-or-"const"`
+      * :ref:`syntax-error,-unexpected-namespaced-name-"%s",-expecting-"function"`
       * :ref:`trait-method-%s::%s-has-not-been-applied-as-%s::%s`
 
 

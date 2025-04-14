@@ -26,6 +26,7 @@ Here is a list of classic syntax errors, met in every day code. Some common solu
       * :ref:`syntax-error,-unexpected-'throw'-(t_throw)`
       * :ref:`syntax-error,-unexpected-'|',-expecting-variable-(t_variable)`
       * :ref:`syntax-error,-unexpected-end-of-file`
+      * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function"-or-"const"`
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-identifier-"%s"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";"`
@@ -34,6 +35,7 @@ Here is a list of classic syntax errors, met in every day code. Some common solu
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-variable`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-variable-or-"$"`
+      * :ref:`syntax-error,-unexpected-namespaced-name-"%s",-expecting-"function"`
       * :ref:`syntax-error,-unexpected-single-quoted-string-"%s",-expecting-")"`
       * :ref:`syntax-error,-unexpected-string-content`
       * :ref:`syntax-error,-unexpected-token-"#[",-expecting-","-or-";"`
