@@ -25,6 +25,11 @@ Tag index
       * :ref:`automatic-conversion-of-false-to-array-is-deprecated`
 
 
+   * bug
+
+      * :ref:`syntax-error,-unexpected-token-"(int)"`
+
+
    * catch
 
       * :ref:`cannot-use-try-without-catch-or-finally`
@@ -351,6 +356,7 @@ Tag index
       * :ref:`syntax-error,-unexpected-token-"(",-expecting-identifier-or-variable-or-"{"-or-"$"`
       * :ref:`syntax-error,-unexpected-token-"(",-expecting-variable`
       * :ref:`syntax-error,-unexpected-token-"("`
+      * :ref:`syntax-error,-unexpected-token-"(int)"`
       * :ref:`syntax-error,-unexpected-token-")",-expecting-"="`
       * :ref:`syntax-error,-unexpected-token-")",-expecting-"function"-or-"fn"-or-"static"-or-"#["`
       * :ref:`syntax-error,-unexpected-token-")"`

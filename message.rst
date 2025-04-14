@@ -458,6 +458,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-"(",-expecting-identifier-or-variable-or-"{"-or-"$".rst
    messages/syntax-error,-unexpected-token-"(",-expecting-variable.rst
    messages/syntax-error,-unexpected-token-"(".rst
+   messages/syntax-error,-unexpected-token-"(int)".rst
    messages/syntax-error,-unexpected-token-")",-expecting-"=".rst
    messages/syntax-error,-unexpected-token-")",-expecting-"function"-or-"fn"-or-"static"-or-"#[".rst
    messages/syntax-error,-unexpected-token-")".rst

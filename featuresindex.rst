@@ -387,6 +387,7 @@ Features index
       * :ref:`illegal-offset-type-in-unset`
       * :ref:`illegal-offset-type`
       * :ref:`object-of-class-%s-could-not-be-converted-to-%s`
+      * :ref:`syntax-error,-unexpected-token-"(int)"`
       * :ref:`the-(real)-cast-has-been-removed,-use-(float)-instead`
       * :ref:`the-(real)-cast-is-deprecated,-use-(float)-instead`
       * :ref:`the-(unset)-cast-is-no-longer-supported`
