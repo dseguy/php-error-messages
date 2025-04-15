@@ -372,6 +372,8 @@ Features index
    * case
 
       * :ref:`case-%s::%s-does-not-exist`
+      * :ref:`case-can-only-be-used-in-enums`
+      * :ref:`duplicate-value-in-enum-%s-for-cases-%s-and-%s`
 
 
    * case-sensitivity
@@ -772,6 +774,10 @@ Features index
       * :ref:`cannot-apply-#[allowdynamicproperties]-to-enum-%s`
       * :ref:`cannot-instantiate-enum-%s`
       * :ref:`cannot-redeclare-%s::%s()`
+      * :ref:`case-%s-of-backed-enum-%s-must-have-a-value`
+      * :ref:`case-can-only-be-used-in-enums`
+      * :ref:`duplicate-value-in-enum-%s-for-cases-%s-and-%s`
+      * :ref:`enum-%s-cannot-implement-the-serializable-interface`
       * :ref:`enum-%s-cannot-include-magic-method-%s`
       * :ref:`enum-%s-cannot-include-properties`
       * :ref:`enum-backing-type-must-be-int-or-string`
@@ -1853,6 +1859,11 @@ Features index
       * :ref:`syntax-error,-unexpected-token-";",-expecting-")"`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-token-"use",-expecting-","-or-";"`
+
+
+   * serializable
+
+      * :ref:`enum-%s-cannot-implement-the-serializable-interface`
 
 
    * serialization

@@ -625,7 +625,13 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-variable-%24%25s-twice.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/case-%25s-of-backed-enum-%25s-must-have-a-value.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/case-%25s%3A%3A%25s-does-not-exist.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/case-can-only-be-used-in-enums.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/class-%22%25s%22-not-found.html</loc>
@@ -769,6 +775,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/duplicate-type-%25s-is-redundant.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/duplicate-value-in-enum-%25s-for-cases-%25s-and-%25s.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/dynamic-class-names-are-not-allowed-in-compile-time-class-constant-references.html</loc>
  </url>
  <url>
@@ -782,6 +791,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/enum-%22%25s%22-not-found.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/enum-%25s-cannot-implement-the-serializable-interface.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/enum-%25s-cannot-include-magic-method-%25s.html</loc>

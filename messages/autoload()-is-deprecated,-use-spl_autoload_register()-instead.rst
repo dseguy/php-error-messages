@@ -21,7 +21,7 @@ __autoload() is deprecated, use spl_autoload_register() instead
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/autoload()-is-deprecated,-use-spl_autoload_register()-instead.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/autoload()-is-deprecated,-use-spl_autoload_register()-instead.html","name":"__autoload() is deprecated, use spl_autoload_register() instead","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 21 Feb 2025 18:53:43 +0000","dateModified":"Fri, 21 Feb 2025 18:53:43 +0000","description":"The initial autoloader was a custom function, that was called whenever a class, interface or trait had to be loaded, but could not be found by PHP yet","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/autoload()-is-deprecated,-use-spl_autoload_register()-instead.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/autoload()-is-deprecated,-use-spl_autoload_register()-instead.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/autoload()-is-deprecated,-use-spl_autoload_register()-instead.html","name":"__autoload() is deprecated, use spl_autoload_register() instead","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 15 Apr 2025 20:29:39 +0000","dateModified":"Tue, 15 Apr 2025 20:29:39 +0000","description":"The initial autoloader was a custom function, that was called whenever a class, interface or trait had to be loaded, but could not be found by PHP yet","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/autoload()-is-deprecated,-use-spl_autoload_register()-instead.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -49,3 +49,13 @@ _________
 
 
 In more recent PHP versions, this error message is now :ref:`autoload()-is-no-longer-supported,-use-spl_autoload_register()-instead`.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `autoload <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/autoload.html>`_.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `autoload <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/autoload.html>`_.

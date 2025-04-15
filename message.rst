@@ -213,7 +213,9 @@ PHP Error Messages
    messages/cannot-use-the-static-modifier-on-a-property-hook.rst
    messages/cannot-use-try-without-catch-or-finally.rst
    messages/cannot-use-variable-$%s-twice.rst
+   messages/case-%s-of-backed-enum-%s-must-have-a-value.rst
    messages/case-%s::%s-does-not-exist.rst
+   messages/case-can-only-be-used-in-enums.rst
    messages/class-"%s"-not-found.rst
    messages/class-%s-cannot-extend-%s-%s.rst
    messages/class-%s-cannot-extend-final-class-%s.rst
@@ -261,11 +263,13 @@ PHP Error Messages
    messages/duplicate-declaration-of-static-variable-$%s.rst
    messages/duplicate-named-parameter-$%s.rst
    messages/duplicate-type-%s-is-redundant.rst
+   messages/duplicate-value-in-enum-%s-for-cases-%s-and-%s.rst
    messages/dynamic-class-names-are-not-allowed-in-compile-time-class-constant-references.rst
    messages/empty-delimiter.rst
    messages/enabling-session.use_trans_sid-ini-setting-is-deprecated.rst
    messages/entry-%s-does-not-exist-and-cannot-be-deleted.rst
    messages/enum-"%s"-not-found.rst
+   messages/enum-%s-cannot-implement-the-serializable-interface.rst
    messages/enum-%s-cannot-include-magic-method-%s.rst
    messages/enum-%s-cannot-include-properties.rst
    messages/enum-backing-type-must-be-int-or-string.rst

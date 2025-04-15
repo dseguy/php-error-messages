@@ -21,7 +21,7 @@ array_key_exists(): Argument #2 ($array) must be of type array, %s given
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/array_key_exists():-argument-#2-($array)-must-be-of-type-array,-%s-given.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/array_key_exists():-argument-#2-($array)-must-be-of-type-array,-%s-given.html","name":"array_key_exists(): Argument #2 ($array) must be of type array, %s given","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 22 Feb 2025 13:57:31 +0000","dateModified":"Sat, 22 Feb 2025 13:57:31 +0000","description":"Until PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_key_exists():-argument-#2-($array)-must-be-of-type-array,-%s-given.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/array_key_exists():-argument-#2-($array)-must-be-of-type-array,-%s-given.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/array_key_exists():-argument-#2-($array)-must-be-of-type-array,-%s-given.html","name":"array_key_exists(): Argument #2 ($array) must be of type array, %s given","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 15 Apr 2025 20:30:40 +0000","dateModified":"Tue, 15 Apr 2025 20:30:40 +0000","description":"Until PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array_key_exists():-argument-#2-($array)-must-be-of-type-array,-%s-given.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -57,6 +57,16 @@ _________
 + Cast the object to array before searching.
 + Call a method on the object to convert it to an array, before searching.
 + Create a search method, among the properties, on the object.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `array_key_existsOnObjects <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/array_key_existsOnObjects.html>`_.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `array_key_existsOnObjects <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/array_key_existsOnObjects.html>`_.
 
 Static Analysis
 _______________
