@@ -226,6 +226,11 @@ Tag index
       * :ref:`static-function-%s%s%s()-cannot-be-abstract`
 
 
+   * not-recommended
+
+      * :ref:`syntax-error,-unexpected-token-"(",-expecting-"::"`
+
+
    * offset
 
       * :ref:`illegal-string-offset`
@@ -354,6 +359,7 @@ Tag index
       * :ref:`syntax-error,-unexpected-token-"%s",-expecting-identifier`
       * :ref:`syntax-error,-unexpected-token-"&",-expecting-end-of-file`
       * :ref:`syntax-error,-unexpected-token-"&"`
+      * :ref:`syntax-error,-unexpected-token-"(",-expecting-"::"`
       * :ref:`syntax-error,-unexpected-token-"(",-expecting-identifier-or-variable-or-"{"-or-"$"`
       * :ref:`syntax-error,-unexpected-token-"(",-expecting-variable`
       * :ref:`syntax-error,-unexpected-token-"("`
@@ -400,6 +406,7 @@ Tag index
       * :ref:`syntax-error,-unexpected-token-"extends",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"extends",-expecting-identifier`
       * :ref:`syntax-error,-unexpected-token-"extends"`
+      * :ref:`syntax-error,-unexpected-token-"final",-expecting-"("`
       * :ref:`syntax-error,-unexpected-token-"if",-expecting-")"`
       * :ref:`syntax-error,-unexpected-token-"if",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-token-"if"`

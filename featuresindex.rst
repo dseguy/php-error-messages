@@ -495,6 +495,7 @@ Features index
       * :ref:`syntax-error,-unexpected-token-")",-expecting-"function"-or-"fn"-or-"static"-or-"#["`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-"function"-or-"fn"-or-"static"-or-"#["`
       * :ref:`syntax-error,-unexpected-token-"as"`
+      * :ref:`syntax-error,-unexpected-token-"final",-expecting-"("`
       * :ref:`use-of-"parent"-in-callables-is-deprecated`
       * :ref:`use-of-"self"-in-callables-is-deprecated`
       * :ref:`use-of-"static"-in-callables-is-deprecated`
@@ -969,6 +970,7 @@ Features index
       * :ref:`func_num_args()-must-be-called-from-a-function-context`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"function"`
       * :ref:`syntax-error,-unexpected-token-"=",-expecting-variable`
+      * :ref:`syntax-error,-unexpected-token-"final",-expecting-"("`
 
 
    * functioncall
@@ -1185,6 +1187,7 @@ Features index
       * :ref:`syntax-error,-unexpected-token-"%s",-expecting-identifier`
       * :ref:`syntax-error,-unexpected-token-"::",-expecting-":"`
       * :ref:`syntax-error,-unexpected-token-"::"`
+      * :ref:`syntax-error,-unexpected-token-"final",-expecting-"("`
 
 
    * label
@@ -1774,6 +1777,7 @@ Features index
 
    * relaxed-syntax
 
+      * :ref:`syntax-error,-unexpected-token-"(",-expecting-"::"`
       * :ref:`syntax-error,-unexpected-token-"match"`
 
 
@@ -1781,6 +1785,11 @@ Features index
 
       * :ref:`syntax-error,-unexpected-token-"::",-expecting-":"`
       * :ref:`using-"_"-as-%s-is-deprecated-since-8.4`
+
+
+   * reserved-word
+
+      * :ref:`syntax-error,-unexpected-token-"final",-expecting-"("`
 
 
    * return
@@ -1955,6 +1964,7 @@ Features index
       * :ref:`non-static-method-%s::%s()-cannot-be-called-statically`
       * :ref:`non-static-method-%s::%s()-should-not-be-called-statically`
       * :ref:`static-property-%s::\$%s-cannot-be-readonly`
+      * :ref:`syntax-error,-unexpected-token-"(",-expecting-"::"`
       * :ref:`use-of-"parent"-in-callables-is-deprecated`
       * :ref:`use-of-"self"-in-callables-is-deprecated`
       * :ref:`use-of-"static"-in-callables-is-deprecated`

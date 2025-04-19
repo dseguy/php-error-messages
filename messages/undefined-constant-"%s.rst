@@ -21,7 +21,7 @@ Undefined constant "%s
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/undefined-constant-\"%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/undefined-constant-\"%s.html","name":"Undefined constant \"%s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 21 Feb 2025 18:53:43 +0000","dateModified":"Fri, 21 Feb 2025 18:53:43 +0000","description":"The requested constant doesn't exist","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/undefined-constant-\"%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/undefined-constant-\"%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/undefined-constant-\"%s.html","name":"Undefined constant \"%s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 18 Apr 2025 16:40:48 +0000","dateModified":"Fri, 18 Apr 2025 16:40:48 +0000","description":"The requested constant doesn't exist","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/undefined-constant-\"%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -36,6 +36,10 @@ The constant may be defined at different places in the code :
 
 There is a distinct message for class constants.
 
+It is possible to create a circular definition of constant, that leads to this error message. This is the case with a direct recursive definition, where the constant is used to define itself. Since the constant is not defined yet, it cannot be used in the right expression, and that leads to an 'undefined constant' error.
+
+It is also possible to build such recursive structure by using an object, and using that constant in the class of the related object. 
+
 Example
 _______
 
@@ -47,6 +51,15 @@ _______
    echo A;
    
    const A = 2;
+   
+   // Recursive constant definition
+   const A = A + 1;
+   
+   // Recursive constant definition (longer version)
+   class X {
+       const B = C;
+   }
+   const C = new X;
    
    ?>
 

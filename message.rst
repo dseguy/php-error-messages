@@ -459,6 +459,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-"%s",-expecting-identifier.rst
    messages/syntax-error,-unexpected-token-"&",-expecting-end-of-file.rst
    messages/syntax-error,-unexpected-token-"&".rst
+   messages/syntax-error,-unexpected-token-"(",-expecting-"::".rst
    messages/syntax-error,-unexpected-token-"(",-expecting-identifier-or-variable-or-"{"-or-"$".rst
    messages/syntax-error,-unexpected-token-"(",-expecting-variable.rst
    messages/syntax-error,-unexpected-token-"(".rst
@@ -505,6 +506,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-"extends",-expecting-"{".rst
    messages/syntax-error,-unexpected-token-"extends",-expecting-identifier.rst
    messages/syntax-error,-unexpected-token-"extends".rst
+   messages/syntax-error,-unexpected-token-"final",-expecting-"(".rst
    messages/syntax-error,-unexpected-token-"if",-expecting-")".rst
    messages/syntax-error,-unexpected-token-"if",-expecting-"]".rst
    messages/syntax-error,-unexpected-token-"if".rst
