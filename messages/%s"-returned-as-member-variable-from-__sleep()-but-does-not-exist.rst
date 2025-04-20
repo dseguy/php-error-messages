@@ -21,7 +21,7 @@
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s\"-returned-as-member-variable-from-__sleep()-but-does-not-exist.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s\"-returned-as-member-variable-from-__sleep()-but-does-not-exist.html","name":"%s\" returned as member variable from __sleep() but does not exist","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 21 Feb 2025 18:53:43 +0000","dateModified":"Fri, 21 Feb 2025 18:53:43 +0000","description":"The magic method ``__sleep`` must return a list of properties of the current class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/%s\"-returned-as-member-variable-from-__sleep()-but-does-not-exist.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s\"-returned-as-member-variable-from-__sleep()-but-does-not-exist.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s\"-returned-as-member-variable-from-__sleep()-but-does-not-exist.html","name":"%s\" returned as member variable from __sleep() but does not exist","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 20 Apr 2025 08:22:04 +0000","dateModified":"Sun, 20 Apr 2025 08:22:04 +0000","description":"The magic method ``__sleep`` must return a list of properties of the current class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/%s\"-returned-as-member-variable-from-__sleep()-but-does-not-exist.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -65,3 +65,4 @@ Related Error Messages
 ______________________
 
 + :ref:`sleep-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize.`
++ :ref:`%s::__sleep()-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize`

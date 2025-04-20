@@ -21,7 +21,7 @@ Unmatched ')'
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/unmatched-')'.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/unmatched-')'.html","name":"Unmatched ')'","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 21 Feb 2025 18:53:43 +0000","dateModified":"Fri, 21 Feb 2025 18:53:43 +0000","description":"PHP has encountered a closing parenthesis, but has no related opening parenthesis","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unmatched-')'.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/unmatched-')'.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/unmatched-')'.html","name":"Unmatched ')'","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 20 Apr 2025 08:40:09 +0000","dateModified":"Sun, 20 Apr 2025 08:40:09 +0000","description":"PHP has encountered a closing parenthesis, but has no related opening parenthesis","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/unmatched-')'.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -60,3 +60,4 @@ ______________________
 + :ref:`unmatched-']'`
 + :ref:`unclosed-'('-does-not-match-']'`
 + :ref:`syntax-error,-unexpected-string-content`
++ :ref:`syntax-error,-unexpected-variable-"%s",-expecting-"("`

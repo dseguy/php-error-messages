@@ -175,6 +175,7 @@ PHP Error Messages
    messages/cannot-unset-string-offsets.rst
    messages/cannot-use-"%s"-as-a-type-name-as-it-is-reserved.rst
    messages/cannot-use-"%s"-when-no-class-scope-is-active.rst
+   messages/cannot-use-"abstract"-as-method-modifier-in-trait-alias.rst
    messages/cannot-use-"static"-when-no-class-scope-is-active.rst
    messages/cannot-use-%s-as-default-value-for-parameter-$%s-of-type-%s.rst
    messages/cannot-use-%s-as-default-value-for-property-%s::$%s-of-type-%s.rst
@@ -445,6 +446,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function"-or-"const".rst
    messages/syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"{".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";".rst
+   messages/syntax-error,-unexpected-identifier-"%s",-expecting-"]".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-"function"-or-"const".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-"function".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-"{".rst
@@ -471,6 +473,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-",",-expecting-"]".rst
    messages/syntax-error,-unexpected-token-",",-expecting-variable-or-"$".rst
    messages/syntax-error,-unexpected-token-",",-expecting-variable.rst
+   messages/syntax-error,-unexpected-token-",".rst
    messages/syntax-error,-unexpected-token-"->",-expecting-","-or-";".rst
    messages/syntax-error,-unexpected-token-"->".rst
    messages/syntax-error,-unexpected-token-":",-expecting-"]".rst
@@ -528,6 +531,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-"{".rst
    messages/syntax-error,-unexpected-token-"}",-expecting-";"-or-"{".rst
    messages/syntax-error,-unexpected-token-"}".rst
+   messages/syntax-error,-unexpected-variable-"%s",-expecting-"(".rst
    messages/the-"generator"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated.rst
    messages/the-$escape-parameter-must-be-provided-as-its-default-value-will-change.rst
    messages/the-(real)-cast-has-been-removed,-use-(float)-instead.rst

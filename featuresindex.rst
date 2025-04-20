@@ -62,6 +62,7 @@ Features index
       * :ref:`can\'t-inherit-abstract-function-%s::%s()-(previously-declared-abstract-in-%s)`
       * :ref:`cannot-declare-promoted-property-in-an-abstract-constructor`
       * :ref:`cannot-make-non-abstract-method-%s::%s()-abstract-in-class-%s`
+      * :ref:`cannot-use-"abstract"-as-method-modifier-in-trait-alias`
       * :ref:`cannot-use-\'abstract\'-as-constant-modifier`
       * :ref:`cannot-use-\'abstract\'-as-method-modifier`
       * :ref:`cannot-use-\'final\'-as-constant-modifier`
@@ -86,6 +87,7 @@ Features index
 
       * :ref:`an-alias-(%s)-was-defined-for-method-%s(),-but-this-method-does-not-exist`
       * :ref:`an-alias-was-defined-for-%s::%s-but-this-method-does-not-exist`
+      * :ref:`cannot-use-"abstract"-as-method-modifier-in-trait-alias`
       * :ref:`cannot-use-\'abstract\'-as-method-modifier`
       * :ref:`cannot-use-\'final\'-as-method-modifier`
       * :ref:`cannot-use-\'static\'-as-method-modifier`
@@ -246,6 +248,7 @@ Features index
       * :ref:`attribute-"%s"-cannot-target-%s-(allowed-targets:-%s)`
       * :ref:`has-#[-override]-attribute,-but-no-matching-parent-method-exists`
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function"-or-"const"`
+      * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-namespaced-name-"%s",-expecting-"function"`
       * :ref:`syntax-error,-unexpected-token-"#[",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-token-"class",-expecting-"]"`
@@ -773,6 +776,7 @@ Features index
    * enum
 
       * :ref:`cannot-apply-#[allowdynamicproperties]-to-enum-%s`
+      * :ref:`cannot-create-dynamic-property-%s::\$%s`
       * :ref:`cannot-instantiate-enum-%s`
       * :ref:`cannot-redeclare-%s::%s()`
       * :ref:`case-%s-of-backed-enum-%s-must-have-a-value`
@@ -801,11 +805,6 @@ Features index
    * enum-case
 
       * :ref:`trying-to-clone-an-uncloneable-object-of-class-%s`
-
-
-   * enumeration
-
-      * :ref:`cannot-create-dynamic-property-%s::\$%s`
 
 
    * error
@@ -971,6 +970,7 @@ Features index
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"function"`
       * :ref:`syntax-error,-unexpected-token-"=",-expecting-variable`
       * :ref:`syntax-error,-unexpected-token-"final",-expecting-"("`
+      * :ref:`syntax-error,-unexpected-variable-"%s",-expecting-"("`
 
 
    * functioncall
@@ -1316,6 +1316,7 @@ Features index
       * :ref:`syntax-error,-unexpected-token-"("`
       * :ref:`syntax-error,-unexpected-token-"public"`
       * :ref:`syntax-error,-unexpected-token-"}",-expecting-";"-or-"{"`
+      * :ref:`syntax-error,-unexpected-variable-"%s",-expecting-"("`
       * :ref:`too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d-expected`
       * :ref:`too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d`
       * :ref:`trying-to-invoke-%s-method-%s::%s()-from-scope-%s`
@@ -1342,10 +1343,16 @@ Features index
       * :ref:`syntax-error,-unexpected-token-"*"`
 
 
+   * namd-parameter
+
+      * :ref:`syntax-error,-unexpected-token-","`
+
+
    * name
 
       * :ref:`cannot-redeclare-%s()-(previously-declared-in-%s:%d)`
       * :ref:`cannot-redeclare-function-%s()-(previously-declared-in-%s:%d)`
+      * :ref:`cannot-use-"abstract"-as-method-modifier-in-trait-alias`
       * :ref:`cannot-use-\'abstract\'-as-method-modifier`
       * :ref:`cannot-use-\'final\'-as-method-modifier`
       * :ref:`cannot-use-\'static\'-as-method-modifier`
@@ -1361,6 +1368,7 @@ Features index
       * :ref:`cannot-combine-named-arguments-and-argument-unpacking`
       * :ref:`duplicate-named-parameter-\$%s`
       * :ref:`optional-parameter-\$%s-declared-before-required-parameter-\$%s-is-implicitly-treated-as-a-required-parameter`
+      * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-single-quoted-string-"%s",-expecting-")"`
       * :ref:`syntax-error,-unexpected-token-":",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-token-":"`
