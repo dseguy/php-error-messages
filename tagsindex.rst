@@ -329,6 +329,7 @@ Tag index
    * syntax-error
 
       * :ref:`invalid-numeric-literal`
+      * :ref:`syntax-error,-unexpected-\')\',-expecting-\'=\'`
       * :ref:`syntax-error,-unexpected-\')\',-expecting-\'|\'-or-variable-(t_variable)`
       * :ref:`syntax-error,-unexpected-\')\',-expecting-variable-(t_variable)`
       * :ref:`syntax-error,-unexpected-\',\'`
@@ -344,6 +345,7 @@ Tag index
       * :ref:`syntax-error,-unexpected-end-of-file`
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function"-or-"const"`
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"{"`
+      * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-")"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"function"-or-"const"`
@@ -352,10 +354,12 @@ Tag index
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-variable-or-"$"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-variable`
       * :ref:`syntax-error,-unexpected-identifier-"%s"`
+      * :ref:`syntax-error,-unexpected-integer-"%s",-expecting-")"`
       * :ref:`syntax-error,-unexpected-namespaced-name-"%s",-expecting-"function"`
       * :ref:`syntax-error,-unexpected-single-quoted-string-"%s",-expecting-")"`
       * :ref:`syntax-error,-unexpected-string-content`
       * :ref:`syntax-error,-unexpected-token-"#[",-expecting-","-or-";"`
+      * :ref:`syntax-error,-unexpected-token-"#[",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-token-"%"`
       * :ref:`syntax-error,-unexpected-token-"%s",-expecting-identifier`
       * :ref:`syntax-error,-unexpected-token-"&",-expecting-end-of-file`
@@ -369,12 +373,14 @@ Tag index
       * :ref:`syntax-error,-unexpected-token-")",-expecting-"function"-or-"fn"-or-"static"-or-"#["`
       * :ref:`syntax-error,-unexpected-token-")"`
       * :ref:`syntax-error,-unexpected-token-"*"`
+      * :ref:`syntax-error,-unexpected-token-",",-expecting-")"`
       * :ref:`syntax-error,-unexpected-token-",",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-token-",",-expecting-variable-or-"$"`
       * :ref:`syntax-error,-unexpected-token-",",-expecting-variable`
       * :ref:`syntax-error,-unexpected-token-","`
       * :ref:`syntax-error,-unexpected-token-"->",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-token-"->"`
+      * :ref:`syntax-error,-unexpected-token-":",-expecting-")"`
       * :ref:`syntax-error,-unexpected-token-":",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-token-":"`
       * :ref:`syntax-error,-unexpected-token-"::",-expecting-","-or-";"`
@@ -416,6 +422,7 @@ Tag index
       * :ref:`syntax-error,-unexpected-token-"match"`
       * :ref:`syntax-error,-unexpected-token-"namespace",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"namespace"`
+      * :ref:`syntax-error,-unexpected-token-"new",-expecting-")"`
       * :ref:`syntax-error,-unexpected-token-"private",-expecting-"("`
       * :ref:`syntax-error,-unexpected-token-"private",-expecting-")"`
       * :ref:`syntax-error,-unexpected-token-"private",-expecting-"{"`

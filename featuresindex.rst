@@ -51,6 +51,7 @@ Features index
 
    * __tostring
 
+      * :ref:`%s::__tostring()-must-return-a-string`
       * :ref:`method-%s::__tostring()-must-not-throw-an-exception,-caught-%s:-%s`
       * :ref:`object-of-class-%s-could-not-be-converted-to-string`
 
@@ -162,11 +163,17 @@ Features index
       * :ref:`must-contain-at-least-one-element`
       * :ref:`only-arrays-and-traversables-can-be-unpacked`
       * :ref:`only-arrays-can-be-unpacked-in-constant-expression`
+      * :ref:`syntax-error,-unexpected-\')\',-expecting-\'=\'`
       * :ref:`syntax-error,-unexpected-token-"{"`
       * :ref:`syntax-error,-unexpected-token-"}"`
       * :ref:`type-%s-contains-both-iterable-and-array`
       * :ref:`undefined-array-key`
       * :ref:`undefined-offset`
+
+
+   * array-short-syntax
+
+      * :ref:`syntax-error,-unexpected-\')\',-expecting-\'=\'`
 
 
    * array-syntax
@@ -251,6 +258,7 @@ Features index
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-namespaced-name-"%s",-expecting-"function"`
       * :ref:`syntax-error,-unexpected-token-"#[",-expecting-","-or-";"`
+      * :ref:`syntax-error,-unexpected-token-"#[",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-token-"class",-expecting-"]"`
 
 
@@ -1031,6 +1039,7 @@ Features index
 
    * identifier
 
+      * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-")"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"function"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"{"`
 
@@ -1206,6 +1215,7 @@ Features index
 
    * list
 
+      * :ref:`cannot-assign-reference-to-non-referenceable-value`
       * :ref:`cannot-mix-keyed-and-unkeyed-array-entries-in-assignments`
       * :ref:`cannot-use-empty-array-elements-in-arrays`
       * :ref:`cannot-use-empty-array-entries-in-keyed-array-assignment`
@@ -1213,6 +1223,7 @@ Features index
       * :ref:`cannot-use-empty-list`
       * :ref:`cannot-use-list()-as-standalone-expression`
       * :ref:`spread-operator-is-not-supported-in-assignments`
+      * :ref:`syntax-error,-unexpected-\')\',-expecting-\'=\'`
       * :ref:`syntax-error,-unexpected-\',\'`
       * :ref:`syntax-error,-unexpected-token-",",-expecting-variable-or-"\$"`
       * :ref:`syntax-error,-unexpected-token-",",-expecting-variable`
@@ -1368,12 +1379,20 @@ Features index
       * :ref:`cannot-combine-named-arguments-and-argument-unpacking`
       * :ref:`duplicate-named-parameter-\$%s`
       * :ref:`optional-parameter-\$%s-declared-before-required-parameter-\$%s-is-implicitly-treated-as-a-required-parameter`
+      * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-")"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-single-quoted-string-"%s",-expecting-")"`
+      * :ref:`syntax-error,-unexpected-token-":",-expecting-")"`
       * :ref:`syntax-error,-unexpected-token-":",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-token-":"`
+      * :ref:`syntax-error,-unexpected-token-"new",-expecting-")"`
       * :ref:`the-\$escape-parameter-must-be-provided-as-its-default-value-will-change`
       * :ref:`unknown-named-parameter-\$%s`
+
+
+   * named-parameters
+
+      * :ref:`syntax-error,-unexpected-integer-"%s",-expecting-")"`
 
 
    * namespace
@@ -1433,6 +1452,7 @@ Features index
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-variable-or-"\$"`
       * :ref:`syntax-error,-unexpected-token-"->"`
       * :ref:`syntax-error,-unexpected-token-"?->"`
+      * :ref:`syntax-error,-unexpected-token-"new",-expecting-")"`
 
 
    * new-in-initializer
@@ -1561,6 +1581,12 @@ Features index
       * :ref:`cannot-use-"%s"-when-no-class-scope-is-active`
       * :ref:`object-of-type-%s-has-not-been-correctly-initialized-by-calling-parent::__construct()-in-its-constructor`
       * :ref:`parameter-uses-\'parent\'-as-type-hint-although-class-does-not-have-a-parent!`
+
+
+   * parenthese
+
+      * :ref:`syntax-error,-unexpected-token-",",-expecting-")"`
+      * :ref:`unclosed-\'(\'-on-line-%s-does-not-match-\']\'`
 
 
    * parenthesis
@@ -1742,6 +1768,7 @@ Features index
       * :ref:`an-iterator-cannot-be-used-with-foreach-by-reference`
       * :ref:`cannot-acquire-reference-to-\$globals`
       * :ref:`cannot-acquire-reference-to-readonly-property-%s::\$%s`
+      * :ref:`cannot-assign-reference-to-non-referenceable-value`
       * :ref:`cannot-create-reference-to-property-%s::\$%s`
       * :ref:`cannot-indirectly-modify-readonly-property-%s::\$%s`
       * :ref:`cannot-pass-parameter-%d-by-reference`
@@ -1826,6 +1853,11 @@ Features index
       * :ref:`return-value-of-%s%s%s()-must-%s%s%s,-%s%s-returned`
       * :ref:`returning-bool-from-comparison-function-is-deprecated,-return-an-integer-less-than,-equal-to,-or-greater-than-zero`
       * :ref:`returning-bool-from-comparison-function-is-deprecated`
+
+
+   * returntype
+
+      * :ref:`%s::__tostring()-must-return-a-string`
 
 
    * rounding
@@ -1949,6 +1981,7 @@ Features index
 
       * :ref:`syntax-error,-unexpected-token-"]"`
       * :ref:`unclosed-\'(\'-does-not-match-\']\'`
+      * :ref:`unclosed-\'(\'-on-line-%s-does-not-match-\']\'`
       * :ref:`unclosed-\'[\'`
       * :ref:`unmatched-\'}\'`
 

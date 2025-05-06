@@ -21,7 +21,7 @@ Calling get_class() without arguments is deprecated
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/calling-get_class()-without-arguments-is-deprecated.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/calling-get_class()-without-arguments-is-deprecated.html","name":"Calling get_class() without arguments is deprecated","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 20 Apr 2025 08:06:51 +0000","dateModified":"Sun, 20 Apr 2025 08:06:51 +0000","description":"get_class() used to allow its usage without an argument","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/calling-get_class()-without-arguments-is-deprecated.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/calling-get_class()-without-arguments-is-deprecated.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/calling-get_class()-without-arguments-is-deprecated.html","name":"Calling get_class() without arguments is deprecated","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 21 Apr 2025 07:51:12 +0000","dateModified":"Mon, 21 Apr 2025 07:51:12 +0000","description":"get_class() used to allow its usage without an argument","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/calling-get_class()-without-arguments-is-deprecated.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -63,12 +63,12 @@ _________
 Changed Behavior
 ________________
 
-This error may appear following an evolution in behavior, in previous versions. See ` <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`_.
+This error may appear following an evolution in behavior, in previous versions. See `get_classWithoutArgument <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/get_classWithoutArgument.html>`_.
 
 Changed Behavior
 ________________
 
-This error may appear following an evolution in behavior, in previous versions. See ` <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`_.
+This error may appear following an evolution in behavior, in previous versions. See `get_classWithoutArgument <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/get_classWithoutArgument.html>`_.
 
 Static Analysis
 _______________

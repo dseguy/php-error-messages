@@ -21,7 +21,7 @@ Calling get_parent_class() without arguments is deprecated
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/calling-get_parent_class()-without-arguments-is-deprecated.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/calling-get_parent_class()-without-arguments-is-deprecated.html","name":"Calling get_parent_class() without arguments is deprecated","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 04 Apr 2025 19:30:28 +0000","dateModified":"Wed, 02 Apr 2025 19:02:08 +0000","description":"Using null as a parameter for the get_class() and get_parent_class() native call is deprecated since PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/calling-get_parent_class()-without-arguments-is-deprecated.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/calling-get_parent_class()-without-arguments-is-deprecated.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/calling-get_parent_class()-without-arguments-is-deprecated.html","name":"Calling get_parent_class() without arguments is deprecated","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 21 Apr 2025 07:50:18 +0000","dateModified":"Mon, 21 Apr 2025 07:50:18 +0000","description":"Using null as a parameter for the get_class() and get_parent_class() native call is deprecated since PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/calling-get_parent_class()-without-arguments-is-deprecated.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -43,3 +43,18 @@ Solutions
 _________
 
 + Use ``$this`` as an argument.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `get_classWithoutArgument <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/get_classWithoutArgument.html>`_.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `get_classWithoutArgument <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/get_classWithoutArgument.html>`_.
+
+Static Analysis
+_______________
+
+This error may be tracked down with the following static analysis rules: `Structures/GetClassWithoutArg <https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/GetClassWithoutArg.html>`_.

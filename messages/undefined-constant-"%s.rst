@@ -1,27 +1,27 @@
 .. _undefined-constant-"%s:
 
-Undefined constant "%s
-----------------------
+Undefined constant "%s"
+-----------------------
  
 .. meta::
 	:description:
-		Undefined constant "%s: The requested constant doesn&#039;t exist.
+		Undefined constant "%s": The requested constant doesn&#039;t exist.
 	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
-	:og:title: Undefined constant &quot;%s
+	:og:title: Undefined constant &quot;%s&quot;
 	:og:description: The requested constant doesn&#039;t exist
 	:og:url: https://php-errors.readthedocs.io/en/latest/messages/undefined-constant-%22%25s.html
 	:og:locale: en
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Undefined constant "%s
-	:twitter:description: Undefined constant "%s: The requested constant doesn't exist
+	:twitter:title: Undefined constant "%s"
+	:twitter:description: Undefined constant "%s": The requested constant doesn't exist
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/undefined-constant-\"%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/undefined-constant-\"%s.html","name":"Undefined constant \"%s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 18 Apr 2025 16:40:48 +0000","dateModified":"Fri, 18 Apr 2025 16:40:48 +0000","description":"The requested constant doesn't exist","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/undefined-constant-\"%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/undefined-constant-\"%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/undefined-constant-\"%s.html","name":"Undefined constant \"%s\"","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 21 Apr 2025 07:55:07 +0000","dateModified":"Mon, 21 Apr 2025 07:55:07 +0000","description":"The requested constant doesn't exist","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/undefined-constant-\"%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -38,7 +38,7 @@ There is a distinct message for class constants.
 
 It is possible to create a circular definition of constant, that leads to this error message. This is the case with a direct recursive definition, where the constant is used to define itself. Since the constant is not defined yet, it cannot be used in the right expression, and that leads to an 'undefined constant' error.
 
-It is also possible to build such recursive structure by using an object, and using that constant in the class of the related object. 
+It is also possible to build such recursive structure by using an object, and using that constant in the class of the related object.
 
 Example
 _______

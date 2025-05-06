@@ -37,6 +37,7 @@ PHP Error Messages
    messages/%s::%s():-return-type-must-be-%s-when-declared.rst
    messages/%s::%s-cannot-override-final-constant-%s::%s.rst
    messages/%s::__sleep()-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize.rst
+   messages/%s::__tostring()-must-return-a-string.rst
    messages/'%s'-not-in-the-'loop'-or-'switch'-context.rst
    messages/'%s'-operator-accepts-only-positive-integers.rst
    messages/'%s'-operator-with-non-integer-operand.rst
@@ -127,6 +128,7 @@ PHP Error Messages
    messages/cannot-assign-%s-to-class-constant-%s::%s-of-type.rst
    messages/cannot-assign-%s-to-property-%s::$%s-of-type-%s.rst
    messages/cannot-assign-an-empty-string-to-a-string-offset.rst
+   messages/cannot-assign-reference-to-non-referenceable-value.rst
    messages/cannot-auto-initialize-an-array-inside-property-%s::$%s-of-type-%s.rst
    messages/cannot-be-a-class-constant.rst
    messages/cannot-be-lc_all.rst
@@ -430,6 +432,7 @@ PHP Error Messages
    messages/static-property-%s::$%s-cannot-be-readonly.rst
    messages/strict_types-declaration-must-be-the-very-first-statement-in-the-script.rst
    messages/switch-statements-may-only-contain-one-default-clause.rst
+   messages/syntax-error,-unexpected-\')\',-expecting-\'=\'.rst
    messages/syntax-error,-unexpected-')',-expecting-'|'-or-variable-(t_variable).rst
    messages/syntax-error,-unexpected-')',-expecting-variable-(t_variable).rst
    messages/syntax-error,-unexpected-','.rst
@@ -445,6 +448,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-end-of-file.rst
    messages/syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function"-or-"const".rst
    messages/syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"{".rst
+   messages/syntax-error,-unexpected-identifier-"%s",-expecting-")".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-"]".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-"function"-or-"const".rst
@@ -453,10 +457,12 @@ PHP Error Messages
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-variable-or-"$".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-variable.rst
    messages/syntax-error,-unexpected-identifier-"%s".rst
+   messages/syntax-error,-unexpected-integer-"%s",-expecting-")".rst
    messages/syntax-error,-unexpected-namespaced-name-"%s",-expecting-"function".rst
    messages/syntax-error,-unexpected-single-quoted-string-"%s",-expecting-")".rst
    messages/syntax-error,-unexpected-string-content.rst
    messages/syntax-error,-unexpected-token-"#[",-expecting-","-or-";".rst
+   messages/syntax-error,-unexpected-token-"#[",-expecting-"]".rst
    messages/syntax-error,-unexpected-token-"%".rst
    messages/syntax-error,-unexpected-token-"%s",-expecting-identifier.rst
    messages/syntax-error,-unexpected-token-"&",-expecting-end-of-file.rst
@@ -470,12 +476,14 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-")",-expecting-"function"-or-"fn"-or-"static"-or-"#[".rst
    messages/syntax-error,-unexpected-token-")".rst
    messages/syntax-error,-unexpected-token-"*".rst
+   messages/syntax-error,-unexpected-token-",",-expecting-")".rst
    messages/syntax-error,-unexpected-token-",",-expecting-"]".rst
    messages/syntax-error,-unexpected-token-",",-expecting-variable-or-"$".rst
    messages/syntax-error,-unexpected-token-",",-expecting-variable.rst
    messages/syntax-error,-unexpected-token-",".rst
    messages/syntax-error,-unexpected-token-"->",-expecting-","-or-";".rst
    messages/syntax-error,-unexpected-token-"->".rst
+   messages/syntax-error,-unexpected-token-":",-expecting-")".rst
    messages/syntax-error,-unexpected-token-":",-expecting-"]".rst
    messages/syntax-error,-unexpected-token-":".rst
    messages/syntax-error,-unexpected-token-"::",-expecting-","-or-";".rst
@@ -517,6 +525,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-"match".rst
    messages/syntax-error,-unexpected-token-"namespace",-expecting-"{".rst
    messages/syntax-error,-unexpected-token-"namespace".rst
+   messages/syntax-error,-unexpected-token-"new",-expecting-")".rst
    messages/syntax-error,-unexpected-token-"private",-expecting-"(".rst
    messages/syntax-error,-unexpected-token-"private",-expecting-")".rst
    messages/syntax-error,-unexpected-token-"private",-expecting-"{".rst
@@ -574,6 +583,7 @@ PHP Error Messages
    messages/undefined-constant-%s::%s.rst
    messages/undefined-offset.rst
    messages/undefined-property-%s::$%s.rst
+   messages/undefined-variable-$%s.rst
    messages/undefined-variable.rst
    messages/unhandled-match-case-%s.rst
    messages/uninitialized-string-offset.rst
