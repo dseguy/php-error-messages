@@ -246,6 +246,7 @@ Features index
       * :ref:`%s-virtual-property-%s::\$%s-must-not-specify-asymmetric-visibility`
       * :ref:`cannot-override-final-property-%s::\$%s`
       * :ref:`multiple-access-type-modifiers-are-not-allowed`
+      * :ref:`static-property-may-not-have-asymmetric-visibility`
       * :ref:`visibility-of-property-%s::\$%s-must-not-be-weaker-than-set-visibility`
 
 
@@ -1228,6 +1229,7 @@ Features index
       * :ref:`syntax-error,-unexpected-token-",",-expecting-variable-or-"\$"`
       * :ref:`syntax-error,-unexpected-token-",",-expecting-variable`
       * :ref:`the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls`
+      * :ref:`undefined-array-key`
 
 
    * literal
@@ -1668,6 +1670,7 @@ Features index
       * :ref:`cannot-acquire-reference-to-\$globals`
       * :ref:`cannot-acquire-reference-to-readonly-property-%s::\$%s`
       * :ref:`cannot-assign-%s-to-property-%s::\$%s-of-type-%s`
+      * :ref:`cannot-assign-%s-to-reference-held-by-property-%s::\$%s-of-type-%s`
       * :ref:`cannot-auto-initialize-an-array-inside-property-%s::\$%s-of-type-%s`
       * :ref:`cannot-declare-variadic-promoted-property`
       * :ref:`cannot-redeclare-%s-property-%s::\$%s-as-%s-%s::\$%s`
@@ -1768,6 +1771,7 @@ Features index
       * :ref:`an-iterator-cannot-be-used-with-foreach-by-reference`
       * :ref:`cannot-acquire-reference-to-\$globals`
       * :ref:`cannot-acquire-reference-to-readonly-property-%s::\$%s`
+      * :ref:`cannot-assign-%s-to-reference-held-by-property-%s::\$%s-of-type-%s`
       * :ref:`cannot-assign-reference-to-non-referenceable-value`
       * :ref:`cannot-create-reference-to-property-%s::\$%s`
       * :ref:`cannot-indirectly-modify-readonly-property-%s::\$%s`
@@ -2190,6 +2194,7 @@ Features index
       * :ref:`argument-#%d-(\$%s)-must-be-of-type-%s,-%s-given`
       * :ref:`cannot-assign-%s-to-class-constant-%s::%s-of-type`
       * :ref:`cannot-assign-%s-to-property-%s::\$%s-of-type-%s`
+      * :ref:`cannot-assign-%s-to-reference-held-by-property-%s::\$%s-of-type-%s`
       * :ref:`cannot-auto-initialize-an-array-inside-property-%s::\$%s-of-type-%s`
       * :ref:`cannot-use-"%s"-as-a-type-name-as-it-is-reserved`
       * :ref:`cannot-use-%s-as-default-value-for-parameter-\$%s-of-type-%s`

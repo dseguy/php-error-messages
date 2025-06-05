@@ -70,7 +70,9 @@ PHP Error Messages
    messages/an-alias-was-defined-for-%s::%s-but-this-method-does-not-exist.rst
    messages/an-iterator-cannot-be-used-with-foreach-by-reference.rst
    messages/argument-#%d-($%s)-must-be-of-type-%s,-%s-given.rst
+   messages/argument-#1-($start)-must-be-a-single-byte-string-if.rst
    messages/argument-#1-($value)-must-contain-at-least-one-element.rst
+   messages/argument-#2-($end)-must-be-a-single-byte-string-if.rst
    messages/array-and-string-offset-access-syntax-with-curly-braces-is-deprecated.rst
    messages/array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported.rst
    messages/array-callback-has-to-contain-indices-0-and-1.rst
@@ -127,6 +129,7 @@ PHP Error Messages
    messages/cannot-apply-#[allowdynamicproperties]-to-trait-%s.rst
    messages/cannot-assign-%s-to-class-constant-%s::%s-of-type.rst
    messages/cannot-assign-%s-to-property-%s::$%s-of-type-%s.rst
+   messages/cannot-assign-%s-to-reference-held-by-property-%s::$%s-of-type-%s.rst
    messages/cannot-assign-an-empty-string-to-a-string-offset.rst
    messages/cannot-assign-reference-to-non-referenceable-value.rst
    messages/cannot-auto-initialize-an-array-inside-property-%s::$%s-of-type-%s.rst
@@ -430,6 +433,7 @@ PHP Error Messages
    messages/spread-operator-is-not-supported-in-assignments.rst
    messages/static-function-%s%s%s()-cannot-be-abstract.rst
    messages/static-property-%s::$%s-cannot-be-readonly.rst
+   messages/static-property-may-not-have-asymmetric-visibility.rst
    messages/strict_types-declaration-must-be-the-very-first-statement-in-the-script.rst
    messages/switch-statements-may-only-contain-one-default-clause.rst
    messages/syntax-error,-unexpected-\')\',-expecting-\'=\'.rst
