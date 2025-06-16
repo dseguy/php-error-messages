@@ -127,6 +127,7 @@ Features index
       * :ref:`%s():-argument-#%d%s%s%s-could-not-be-passed-by-reference`
       * :ref:`%s\'-is-not-a-valid-mode-for-fopen`
       * :ref:`argument-#%d-(\$%s)-must-be-of-type-%s,-%s-given`
+      * :ref:`argument-#2-(\$end)-must-be-a-single-byte-string-if`
       * :ref:`calling-get_parent_class()-without-arguments-is-deprecated`
       * :ref:`func_get_arg()-cannot-be-called-from-the-global-scope`
       * :ref:`func_get_args()-cannot-be-called-from-the-global-scope`
@@ -321,6 +322,7 @@ Features index
    * bitwise-operator
 
       * :ref:`cannot-perform-bitwise-not-on-%s`
+      * :ref:`unsupported-operand-types:-%s-%s-%s`
 
 
    * block
@@ -362,6 +364,11 @@ Features index
 
       * :ref:`cannot-pass-parameter-%d-by-reference`
       * :ref:`indirect-modification-of-%s::\$%s-is-not-allowed`
+
+
+   * byte
+
+      * :ref:`argument-#2-(\$end)-must-be-a-single-byte-string-if`
 
 
    * call
@@ -542,6 +549,7 @@ Features index
    * compact
 
       * :ref:`recursion-detected`
+      * :ref:`undefined-variable-\$%s`
       * :ref:`undefined-variable`
 
 
@@ -1849,6 +1857,7 @@ Features index
 
       * :ref:`%s%s%s():-return-value-must-be-of-type-%s,-%s-returned`
       * :ref:`%s::%s():-return-type-must-be-%s-when-declared`
+      * :ref:`%s::__tostring()-must-return-a-string`
       * :ref:`a-function-with-return-type-must-return-a-value`
       * :ref:`constructor-%s::%s()-cannot-declare-a-return-type`
       * :ref:`constructors-cannot-declare-a-return-type`
@@ -1857,11 +1866,6 @@ Features index
       * :ref:`return-value-of-%s%s%s()-must-%s%s%s,-%s%s-returned`
       * :ref:`returning-bool-from-comparison-function-is-deprecated,-return-an-integer-less-than,-equal-to,-or-greater-than-zero`
       * :ref:`returning-bool-from-comparison-function-is-deprecated`
-
-
-   * returntype
-
-      * :ref:`%s::__tostring()-must-return-a-string`
 
 
    * rounding
@@ -1930,6 +1934,11 @@ Features index
 
       * :ref:`disabling-session.use_only_cookies-ini-setting-is-deprecated`
       * :ref:`enabling-session.use_trans_sid-ini-setting-is-deprecated`
+
+
+   * short-assignation
+
+      * :ref:`undefined-variable-\$%s`
 
 
    * short-tag
@@ -2061,6 +2070,7 @@ Features index
 
       * :ref:`a-non-numeric-value-encountered`
       * :ref:`a-non-well-formed-numeric-value-encountered`
+      * :ref:`argument-#2-(\$end)-must-be-a-single-byte-string-if`
       * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-deprecated`
       * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported`
       * :ref:`cannot-assign-an-empty-string-to-a-string-offset`
@@ -2310,6 +2320,7 @@ Features index
    * variable
 
       * :ref:`dynamic-class-names-are-not-allowed-in-compile-time-class-constant-references`
+      * :ref:`undefined-variable-\$%s`
       * :ref:`undefined-variable`
 
 

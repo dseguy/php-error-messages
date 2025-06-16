@@ -1798,6 +1798,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unsupported-operand-types.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/unsupported-operand-types%3A-%25s-%25s-%25s.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unterminated-comment-starting-line-%25d.html</loc>
  </url>
  <url>

@@ -604,6 +604,7 @@ PHP Error Messages
    messages/unserializing-the-'s'-format-is-deprecated.rst
    messages/unsupported-declare-'%s'.rst
    messages/unsupported-operand-types.rst
+   messages/unsupported-operand-types:-%s-%s-%s.rst
    messages/unterminated-comment-starting-line-%d.rst
    messages/use-of-"parent"-in-callables-is-deprecated.rst
    messages/use-of-"self"-in-callables-is-deprecated.rst
