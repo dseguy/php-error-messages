@@ -571,6 +571,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%27static%27-as-method-modifier.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use--%22%25s-%22-as-%25s-as-it-is-reserved.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%3A%3Aclass-with-dynamic-class-name.html</loc>
  </url>
  <url>
@@ -1835,6 +1838,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/void-cannot-be-used-as-a-parameter-type.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/write-of-%25zu-bytes-failed-with-errno%3D%25d-%25s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/wrong-encoding%2C-conversion-from-%22%25s%22-to-%22%25s%22-is-not-allowed.html</loc>

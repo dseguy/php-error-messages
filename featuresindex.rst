@@ -56,6 +56,11 @@ Features index
       * :ref:`object-of-class-%s-could-not-be-converted-to-string`
 
 
+   * absolute-name
+
+      * :ref:`cannot-use--"%s-"-as-%s-as-it-is-reserved`
+
+
    * abstract
 
       * :ref:`%s-function-%s::%s()-cannot-be-declared-private`
@@ -2209,6 +2214,7 @@ Features index
       * :ref:`cannot-use-"%s"-as-a-type-name-as-it-is-reserved`
       * :ref:`cannot-use-%s-as-default-value-for-parameter-\$%s-of-type-%s`
       * :ref:`cannot-use-%s-as-default-value-for-property-%s::\$%s-of-type-%s`
+      * :ref:`cannot-use--"%s-"-as-%s-as-it-is-reserved`
       * :ref:`default-value-for-parameters-with-a-%s-type-can-only-be-%s-or-null`
       * :ref:`duplicate-type-%s-is-redundant`
       * :ref:`is-an-invalid-class-name`

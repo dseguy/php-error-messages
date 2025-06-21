@@ -195,6 +195,7 @@ PHP Error Messages
    messages/cannot-use-'readonly'-as-method-modifier.rst
    messages/cannot-use-'static'-as-constant-modifier.rst
    messages/cannot-use-'static'-as-method-modifier.rst
+   messages/cannot-use--"%s-"-as-%s-as-it-is-reserved.rst
    messages/cannot-use-::class-with-dynamic-class-name.rst
    messages/cannot-use-[]-for-reading.rst
    messages/cannot-use-a-scalar-value-as-an-array.rst
@@ -617,4 +618,5 @@ PHP Error Messages
    messages/value-of-type-%s-is-not-callable.rst
    messages/visibility-of-property-%s::$%s-must-not-be-weaker-than-set-visibility.rst
    messages/void-cannot-be-used-as-a-parameter-type.rst
+   messages/write-of-%zu-bytes-failed-with-errno=%d-%s.rst
    messages/wrong-encoding,-conversion-from-"%s"-to-"%s"-is-not-allowed.rst
