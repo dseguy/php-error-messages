@@ -134,6 +134,7 @@ PHP Error Messages
    messages/cannot-assign-reference-to-non-referenceable-value.rst
    messages/cannot-auto-initialize-an-array-inside-property-%s::$%s-of-type-%s.rst
    messages/cannot-be-a-class-constant.rst
+   messages/cannot-be-empty.rst
    messages/cannot-be-lc_all.rst
    messages/cannot-be-null-when-argument-#1-($objectormethod)-is-an-object.rst
    messages/cannot-bind-an-instance-to-a-static-closure.rst
@@ -358,6 +359,7 @@ PHP Error Messages
    messages/must-be-one-of-pgsql_assoc,-pgsql_num,-or-pgsql_both.rst
    messages/must-be-one-of-pgsql_notice_last,-pgsql_notice_all,-or-pgsql_notice_clear.rst
    messages/must-contain-at-least-one-element.rst
+   messages/must-not-contain-empty-strings.rst
    messages/must-not-use-parent::$%s::%s()-in-a-different-property-($%s).rst
    messages/must-not-use-parent::$%s::%s()-in-a-different-property-hook-(%s).rst
    messages/must-not-use-parent::$%s::%s()-outside-a-property-hook.rst

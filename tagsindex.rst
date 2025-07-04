@@ -76,8 +76,14 @@ Tag index
       * :ref:`undefined-constant-"%s`
 
 
+   * crash
+
+      * :ref:`must-not-contain-empty-strings`
+
+
    * deprecated
 
+      * :ref:`function-libxml_disable_entity_loader()-is-deprecated-since-8.0,-as-external-entity-loading-is-disabled-by-default`
       * :ref:`the-(real)-cast-is-deprecated,-use-(float)-instead`
 
 
@@ -129,6 +135,8 @@ Tag index
 
    * extension
 
+      * :ref:`function-libxml_disable_entity_loader()-is-deprecated-since-8.0,-as-external-entity-loading-is-disabled-by-default`
+      * :ref:`must-not-contain-empty-strings`
       * :ref:`security-level-must-be-one-of-"noauthnopriv",-"authnopriv",-or-"authpriv`
 
 
@@ -489,3 +497,4 @@ Tag index
    * validation
 
       * :ref:`argument-#1-($start)-must-be-a-single-byte-string-if`
+      * :ref:`must-not-be-empty`

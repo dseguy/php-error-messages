@@ -388,6 +388,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-be-a-class-constant.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-be-empty.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-be-lc_all.html</loc>
  </url>
  <url>
@@ -1058,6 +1061,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-contain-at-least-one-element.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-not-contain-empty-strings.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-not-use-parent%3A%3A%24%25s%3A%3A%25s%28%29-in-a-different-property-%28%24%25s%29.html</loc>

@@ -735,6 +735,7 @@ Features index
    * deprecation
 
       * :ref:`constant-%s::%s-is-deprecated`
+      * :ref:`function-libxml_disable_entity_loader()-is-deprecated-since-8.0,-as-external-entity-loading-is-disabled-by-default`
 
 
    * depth
@@ -886,6 +887,11 @@ Features index
       * :ref:`syntax-error,-unexpected-token-"*"`
 
 
+   * exponential
+
+      * :ref:`negative-power-of-zero`
+
+
    * expression
 
       * :ref:`cannot-use-isset()-on-the-result-of-an-expression-(you-can-use-"null-!==-expression"-instead)`
@@ -1007,6 +1013,7 @@ Features index
       * :ref:`func_get_arg()-cannot-be-called-from-the-global-scope`
       * :ref:`func_get_args()-cannot-be-called-from-the-global-scope`
       * :ref:`func_num_args()-must-be-called-from-a-function-context`
+      * :ref:`function-libxml_disable_entity_loader()-is-deprecated-since-8.0,-as-external-entity-loading-is-disabled-by-default`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"function"`
       * :ref:`syntax-error,-unexpected-token-"=",-expecting-variable`
       * :ref:`syntax-error,-unexpected-token-"final",-expecting-"("`
@@ -1661,11 +1668,6 @@ Features index
       * :ref:`must-be-one-of-pgsql_notice_last,-pgsql_notice_all,-or-pgsql_notice_clear`
 
 
-   * power
-
-      * :ref:`negative-power-of-zero`
-
-
    * printf
 
       * :ref:`%d-arguments-are-required,-%d`
@@ -1952,6 +1954,7 @@ Features index
    * separator
 
       * :ref:`cannot-be-empty`
+      * :ref:`must-not-be-empty`
 
 
    * serializable
@@ -2438,3 +2441,8 @@ Features index
 
       * :ref:`the-"generator"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated`
       * :ref:`the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls`
+
+
+   * zlib
+
+      * :ref:`must-not-contain-empty-strings`
