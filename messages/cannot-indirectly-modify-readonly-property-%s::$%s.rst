@@ -21,7 +21,7 @@ Cannot indirectly modify readonly property %s::$%s
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-indirectly-modify-readonly-property-%s::$%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-indirectly-modify-readonly-property-%s::$%s.html","name":"Cannot indirectly modify readonly property %s::$%s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 20 Apr 2025 08:03:38 +0000","dateModified":"Sun, 20 Apr 2025 08:03:38 +0000","description":"A readonly property cannot be changed after it was set","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-indirectly-modify-readonly-property-%s::$%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-indirectly-modify-readonly-property-%s::$%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-indirectly-modify-readonly-property-%s::$%s.html","name":"Cannot indirectly modify readonly property %s::$%s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 29 Jun 2025 10:11:15 +0000","dateModified":"Sun, 29 Jun 2025 10:11:15 +0000","description":"A readonly property cannot be changed after it was set","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-indirectly-modify-readonly-property-%s::$%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -46,6 +46,12 @@ _______
    $object = new X;
    $variable =& $object->property;
    
+   class Y {
+       public funciton __construct(
+           readonly int &$y
+       ) {}
+   }
+   
    ?>
 
 
@@ -57,3 +63,4 @@ Solutions
 _________
 
 + Do not create a reference to a readonly property.
++ Do not create a referenced parameter with a promoted property.

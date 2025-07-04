@@ -339,6 +339,7 @@ PHP Error Messages
    messages/method-%s::%s()-cannot-be-static.rst
    messages/method-%s::%s()-cannot-declare-a-return-type.rst
    messages/method-%s::%s()-must-be-static.rst
+   messages/method-%s::__construct()-cannot-declare-a-return-type.rst
    messages/method-%s::__tostring()-must-not-throw-an-exception,-caught-%s:-%s.rst
    messages/method-name-must-be-a-string.rst
    messages/methods-with-the-same-name-as-their-class-will-not-be-constructors-in-a-future-version-of-php;-%s-has-a-deprecated-constructor.rst
@@ -437,7 +438,7 @@ PHP Error Messages
    messages/static-property-may-not-have-asymmetric-visibility.rst
    messages/strict_types-declaration-must-be-the-very-first-statement-in-the-script.rst
    messages/switch-statements-may-only-contain-one-default-clause.rst
-   messages/syntax-error,-unexpected-\')\',-expecting-\'=\'.rst
+   messages/syntax-error,-unexpected-')',-expecting-'='.rst
    messages/syntax-error,-unexpected-')',-expecting-'|'-or-variable-(t_variable).rst
    messages/syntax-error,-unexpected-')',-expecting-variable-(t_variable).rst
    messages/syntax-error,-unexpected-','.rst
@@ -452,6 +453,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-'|',-expecting-variable-(t_variable).rst
    messages/syntax-error,-unexpected-end-of-file.rst
    messages/syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function"-or-"const".rst
+   messages/syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function".rst
    messages/syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"{".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-")".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";".rst
@@ -579,6 +581,7 @@ PHP Error Messages
    messages/typed-static-property-%s::$%s-must-not-be-accessed-before-initialization.rst
    messages/unbacked-enum-%s-cannot-be-converted-to-a-string.rst
    messages/unclosed-'('-does-not-match-']'.rst
+   messages/unclosed-'('-on-line-%s-does-not-match-']'.rst
    messages/unclosed-'('.rst
    messages/unclosed-'['.rst
    messages/unclosed-'{'.rst
@@ -586,6 +589,7 @@ PHP Error Messages
    messages/undefined-class-constant-'%s::%s'.rst
    messages/undefined-constant-"%s.rst
    messages/undefined-constant-%s::%s.rst
+   messages/undefined-global-variable-%s.rst
    messages/undefined-offset.rst
    messages/undefined-property-%s::$%s.rst
    messages/undefined-variable-$%s.rst

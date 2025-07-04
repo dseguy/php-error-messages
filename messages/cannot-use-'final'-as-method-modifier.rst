@@ -21,7 +21,7 @@ Cannot use 'final' as method modifier
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-'final'-as-method-modifier.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-'final'-as-method-modifier.html","name":"Cannot use 'final' as method modifier","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 20 Apr 2025 08:09:18 +0000","dateModified":"Sun, 20 Apr 2025 08:09:18 +0000","description":"When resolving name conflicts during trait imports, it is not possible to use ``final`` with the ``as`` keyword","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-use-'final'-as-method-modifier.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-'final'-as-method-modifier.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-'final'-as-method-modifier.html","name":"Cannot use 'final' as method modifier","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 04 Jul 2025 13:28:03 +0000","dateModified":"Fri, 04 Jul 2025 13:28:03 +0000","description":"When resolving name conflicts during trait imports, it is not possible to use ``final`` with the ``as`` keyword","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-use-'final'-as-method-modifier.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -58,3 +58,4 @@ ______________________
 + :ref:`cannot-use-'abstract'-as-method-modifier`
 + :ref:`cannot-use-'static'-as-method-modifier`
 + :ref:`cannot-use-'readonly'-as-method-modifier`
++ :ref:`cannot-use-"abstract"-as-method-modifier-in-trait-alias`

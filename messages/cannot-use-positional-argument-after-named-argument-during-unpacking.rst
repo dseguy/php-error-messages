@@ -5,28 +5,28 @@ Cannot use positional argument after named argument during unpacking
  
 .. meta::
 	:description:
-		Cannot use positional argument after named argument during unpacking: Unpacking only positional arguments, with array_keys() and when the order is already correct.
+		Cannot use positional argument after named argument during unpacking: This error appears when using an array with a mix of integer and string keys, and spread it as arguments.
 	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Cannot use positional argument after named argument during unpacking
-	:og:description: Unpacking only positional arguments, with array_keys() and when the order is already correct
+	:og:description: This error appears when using an array with a mix of integer and string keys, and spread it as arguments
 	:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-use-positional-argument-after-named-argument-during-unpacking.html
 	:og:locale: en
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Cannot use positional argument after named argument during unpacking
-	:twitter:description: Cannot use positional argument after named argument during unpacking: Unpacking only positional arguments, with array_keys() and when the order is already correct
+	:twitter:description: Cannot use positional argument after named argument during unpacking: This error appears when using an array with a mix of integer and string keys, and spread it as arguments
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-positional-argument-after-named-argument-during-unpacking.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-positional-argument-after-named-argument-during-unpacking.html","name":"Cannot use positional argument after named argument during unpacking","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 21 Apr 2025 07:49:05 +0000","dateModified":"Mon, 21 Apr 2025 07:49:05 +0000","description":"Unpacking only positional arguments, with array_keys() and when the order is already correct","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-use-positional-argument-after-named-argument-during-unpacking.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-positional-argument-after-named-argument-during-unpacking.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-positional-argument-after-named-argument-during-unpacking.html","name":"Cannot use positional argument after named argument during unpacking","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 01 Jul 2025 18:28:53 +0000","dateModified":"Tue, 01 Jul 2025 18:28:53 +0000","description":"This error appears when using an array with a mix of integer and string keys, and spread it as arguments","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-use-positional-argument-after-named-argument-during-unpacking.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
  
-Unpacking only positional arguments, with array_keys() and when the order is already correct.
+This error appears when using an array with a mix of integer and string keys, and spread it as arguments. The actual order of the array is used as the order of the arguments in the function call. Then, integer keys are used as positional arguments, and string keys are as named arguments.
 
 Example
 _______

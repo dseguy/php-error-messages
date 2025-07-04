@@ -21,7 +21,7 @@ The each() function is deprecated. This message will be suppressed on further ca
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls.html","name":"The each() function is deprecated. This message will be suppressed on further calls","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 21 Feb 2025 18:53:43 +0000","dateModified":"Fri, 21 Feb 2025 18:53:43 +0000","description":"The function ``each`` was deprecated in PHP 7","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls.html","name":"The each() function is deprecated. This message will be suppressed on further calls","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 01 Jul 2025 17:34:24 +0000","dateModified":"Tue, 01 Jul 2025 17:34:24 +0000","description":"The function ``each`` was deprecated in PHP 7","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -52,6 +52,16 @@ _________
 
 
 In more recent PHP versions, this error message is now :ref:`call-to-undefined-function-each()`.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See ` <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`_.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See ` <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`_.
 
 Static Analysis
 _______________

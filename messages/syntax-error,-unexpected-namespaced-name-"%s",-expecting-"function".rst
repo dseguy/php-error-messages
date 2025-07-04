@@ -21,7 +21,7 @@ syntax error, unexpected namespaced name "%s", expecting "function"
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-namespaced-name-\"%s\",-expecting-\"function\".html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-namespaced-name-\"%s\",-expecting-\"function\".html","name":"syntax error, unexpected namespaced name \"%s\", expecting \"function\"","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 14 Apr 2025 20:17:12 +0000","dateModified":"Mon, 14 Apr 2025 20:17:12 +0000","description":"A namespaced name is an identifier with at least one backslash","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-namespaced-name-\"%s\",-expecting-\"function\".html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-namespaced-name-\"%s\",-expecting-\"function\".html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-namespaced-name-\"%s\",-expecting-\"function\".html","name":"syntax error, unexpected namespaced name \"%s\", expecting \"function\"","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 04 Jul 2025 12:47:20 +0000","dateModified":"Fri, 04 Jul 2025 12:47:20 +0000","description":"A namespaced name is an identifier with at least one backslash","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-namespaced-name-\"%s\",-expecting-\"function\".html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -45,6 +45,11 @@ _______
    
    ?>
 
+
+Literal Examples
+****************
++ syntax error, unexpected namespaced name "A\B", expecting "function\
+
 Solutions
 _________
 
@@ -52,3 +57,8 @@ _________
 + Add the ``function`` keyword before the name to make it a method, although there should not be any ``\`` in the method name.
 + Add the ``const`` keyword before the name to make it a constant, although there should not be any ``\`` in the constant name.
 + Add the ``#[`` keyword before the name to make it an attribute.
+
+Related Error Messages
+______________________
+
++ :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function"`

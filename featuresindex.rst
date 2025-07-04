@@ -8,6 +8,7 @@ Features index
 
       * :ref:`\$globals-can-only-be-modified-using-the-\$globals[\$name]-=-\$value-syntax`
       * :ref:`%s():-argument-#%d%s%s%s-cannot-be-passed-by-reference`
+      * :ref:`undefined-global-variable-%s`
 
 
    * $this
@@ -221,6 +222,7 @@ Features index
    * as
 
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";"`
+      * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-variable`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-identifier`
       * :ref:`syntax-error,-unexpected-token-"as"`
 
@@ -381,6 +383,7 @@ Features index
       * :ref:`%s()-expects-exactly-0-arguments,-%d-given`
       * :ref:`call-to-%s-%s::%s()-from-global-scope`
       * :ref:`never-returning-function-must-not-implicitly-return`
+      * :ref:`syntax-error,-unexpected-single-quoted-string-"%s",-expecting-")"`
       * :ref:`syntax-error,-unexpected-token-"if",-expecting-")"`
       * :ref:`too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d-expected`
       * :ref:`too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d`
@@ -442,6 +445,7 @@ Features index
 
    * cite
 
+      * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function"`
       * :ref:`syntax-error,-unexpected-token-"private",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"protected",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"public",-expecting-"{"`
@@ -456,6 +460,7 @@ Features index
       * :ref:`cannot-apply-#[allowdynamicproperties]-to-interface-%s`
       * :ref:`cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s`
       * :ref:`cannot-apply-#[allowdynamicproperties]-to-trait-%s`
+      * :ref:`cannot-create-dynamic-property-%s::\$%s`
       * :ref:`cannot-inherit-previously-inherited-or-override-constant-%s-from-interface-%s`
       * :ref:`cannot-make-non-abstract-method-%s::%s()-abstract-in-class-%s`
       * :ref:`cannot-redeclare-%s::%s()`
@@ -630,6 +635,7 @@ Features index
       * :ref:`constructor-%s::%s()-cannot-declare-a-return-type`
       * :ref:`constructors-cannot-declare-a-return-type`
       * :ref:`method-%s::%s()-cannot-declare-a-return-type`
+      * :ref:`method-%s::__construct()-cannot-declare-a-return-type`
       * :ref:`methods-with-the-same-name-as-their-class-will-not-be-constructors-in-a-future-version-of-php;-%s-has-a-deprecated-constructor`
       * :ref:`object-of-type-%s-has-not-been-correctly-initialized-by-calling-parent::__construct()-in-its-constructor`
       * :ref:`the-parent-constructor-was-not-called:-the-object-is-in-an-invalid-state`
@@ -712,6 +718,11 @@ Features index
       * :ref:`call-to-undefined-function-%s()`
       * :ref:`redefinition-of-parameter-\$%s`
       * :ref:`undefined-property-%s::\$%s`
+
+
+   * delimiter
+
+      * :ref:`cannot-be-empty`
 
 
    * deprecated
@@ -879,6 +890,7 @@ Features index
 
       * :ref:`cannot-use-isset()-on-the-result-of-an-expression-(you-can-use-"null-!==-expression"-instead)`
       * :ref:`cannot-use-list()-as-standalone-expression`
+      * :ref:`cannot-use-temporary-expression-in-write-context`
       * :ref:`syntax-error,-unexpected-\'throw\'-(t_throw)`
       * :ref:`syntax-error,-unexpected-token-"if"`
 
@@ -916,12 +928,18 @@ Features index
       * :ref:`no-such-file-or-directory`
       * :ref:`path-cannot-be-empty`
       * :ref:`path-must-not-be-empty`
+      * :ref:`write-of-%zu-bytes-failed-with-errno=%d-%s`
 
 
    * file-mode
 
       * :ref:`couldn\'t-open-stream-%s`
       * :ref:`couldn\'t-open-stream:-%s`
+
+
+   * file_put_contents
+
+      * :ref:`write-of-%zu-bytes-failed-with-errno=%d-%s`
 
 
    * final
@@ -993,11 +1011,6 @@ Features index
       * :ref:`syntax-error,-unexpected-token-"=",-expecting-variable`
       * :ref:`syntax-error,-unexpected-token-"final",-expecting-"("`
       * :ref:`syntax-error,-unexpected-variable-"%s",-expecting-"("`
-
-
-   * functioncall
-
-      * :ref:`syntax-error,-unexpected-single-quoted-string-"%s",-expecting-")"`
 
 
    * generator
@@ -1176,6 +1189,11 @@ Features index
       * :ref:`syntax-error,-unexpected-\'[\',-expecting-\';\'-or-\',\'`
       * :ref:`using-\${expr}-(variable-variables)-in-strings-is-deprecated,-use-{\${expr}}-instead`
       * :ref:`using-\${var}-in-strings-is-deprecated,-use-{\$var}-instead`
+
+
+   * intersection-type
+
+      * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-variable`
 
 
    * is_object
@@ -1671,6 +1689,7 @@ Features index
       * :ref:`cannot-declare-promoted-property-in-an-abstract-constructor`
       * :ref:`cannot-declare-promoted-property-outside-a-constructor`
       * :ref:`cannot-declare-variadic-promoted-property`
+      * :ref:`cannot-indirectly-modify-readonly-property-%s::\$%s`
       * :ref:`syntax-error,-unexpected-token-"private",-expecting-"("`
       * :ref:`syntax-error,-unexpected-token-"private",-expecting-")"`
 
@@ -1737,6 +1756,11 @@ Features index
       * :ref:`handling-qprint-via-mbstring-is-deprecated;-use-quoted_printable_encode-quoted_printable_decode`
 
 
+   * range
+
+      * :ref:`argument-#1-(\$start)-must-be-a-single-byte-string-if`
+
+
    * reading
 
       * :ref:`\$globals-can-only-be-modified-using-the-\$globals[\$name]-=-\$value-syntax`
@@ -1749,6 +1773,7 @@ Features index
       * :ref:`cannot-acquire-reference-to-\$globals`
       * :ref:`cannot-acquire-reference-to-readonly-property-%s::\$%s`
       * :ref:`cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s`
+      * :ref:`cannot-create-dynamic-property-%s::\$%s`
       * :ref:`cannot-indirectly-modify-readonly-property-%s::\$%s`
       * :ref:`cannot-modify-readonly-property-%s::\$%s`
       * :ref:`cannot-redeclare-%s-property-%s::\$%s-as-%s-%s::\$%s`
@@ -1868,6 +1893,7 @@ Features index
       * :ref:`constructors-cannot-declare-a-return-type`
       * :ref:`division-of-php_int_min-by--1-is-not-an-integer`
       * :ref:`method-%s::%s()-cannot-declare-a-return-type`
+      * :ref:`method-%s::__construct()-cannot-declare-a-return-type`
       * :ref:`return-value-of-%s%s%s()-must-%s%s%s,-%s%s-returned`
       * :ref:`returning-bool-from-comparison-function-is-deprecated,-return-an-integer-less-than,-equal-to,-or-greater-than-zero`
       * :ref:`returning-bool-from-comparison-function-is-deprecated`
@@ -1921,6 +1947,11 @@ Features index
       * :ref:`syntax-error,-unexpected-token-";",-expecting-")"`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-token-"use",-expecting-","-or-";"`
+
+
+   * separator
+
+      * :ref:`cannot-be-empty`
 
 
    * serializable
@@ -2101,16 +2132,12 @@ Features index
    * superglobal
 
       * :ref:`cannot-re-assign-auto-global-variable-%s`
+      * :ref:`undefined-global-variable-%s`
 
 
    * supertype
 
       * :ref:`generator-return-type-must-be-a-supertype-of-generator`
-
-
-   * surprising
-
-      * :ref:`cannot-use-temporary-expression-in-write-context`
 
 
    * switch
@@ -2121,6 +2148,11 @@ Features index
       * :ref:`syntax-error,-unexpected-token-"break"`
       * :ref:`syntax-error,-unexpected-token-"continue"`
       * :ref:`syntax-error,-unexpected-token-"match"`
+
+
+   * temporary-expression
+
+      * :ref:`cannot-use-temporary-expression-in-write-context`
 
 
    * ternary
@@ -2174,6 +2206,7 @@ Features index
       * :ref:`get_called_class()-must-be-called-from-within-a-class`
       * :ref:`readonly-class-%s-cannot-use-trait-with-a-non-readonly-property-%s::\$%s`
       * :ref:`required-trait-%s-wasn\'t-added-to-%s`
+      * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function"`
       * :ref:`syntax-error,-unexpected-token-"private",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"protected",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"public",-expecting-"{"`
@@ -2390,6 +2423,7 @@ Features index
    * writing
 
       * :ref:`\$globals-can-only-be-modified-using-the-\$globals[\$name]-=-\$value-syntax`
+      * :ref:`cannot-use-temporary-expression-in-write-context`
 
 
    * yield

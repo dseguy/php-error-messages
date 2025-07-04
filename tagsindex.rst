@@ -27,6 +27,7 @@ Tag index
 
    * bug
 
+      * :ref:`cannot-use--"%s-"-as-%s-as-it-is-reserved`
       * :ref:`syntax-error,-unexpected-token-"(int)"`
 
 
@@ -126,6 +127,11 @@ Tag index
       * :ref:`%s():-never-returning-%s-must-not-implicitly-return`
 
 
+   * extension
+
+      * :ref:`security-level-must-be-one-of-"noauthnopriv",-"authnopriv",-or-"authpriv`
+
+
    * ffi
 
       * :ref:`ffi-api-is-restricted-by-"ffi.enable"-configuration-directive`
@@ -208,6 +214,11 @@ Tag index
    * name
 
       * :ref:`syntax-error,-unexpected-identifier-"%s"`
+
+
+   * namespace
+
+      * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function"`
 
 
    * no-closing-tag
@@ -326,6 +337,11 @@ Tag index
       * :ref:`%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed`
 
 
+   * surprising
+
+      * :ref:`cannot-use-temporary-expression-in-write-context`
+
+
    * syntax-error
 
       * :ref:`invalid-numeric-literal`
@@ -344,6 +360,7 @@ Tag index
       * :ref:`syntax-error,-unexpected-\'|\',-expecting-variable-(t_variable)`
       * :ref:`syntax-error,-unexpected-end-of-file`
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function"-or-"const"`
+      * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function"`
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-")"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";"`
@@ -467,3 +484,8 @@ Tag index
 
       * :ref:`call-to-undefined-function`
       * :ref:`undefined-variable`
+
+
+   * validation
+
+      * :ref:`argument-#1-($start)-must-be-a-single-byte-string-if`
