@@ -293,6 +293,7 @@ Features index
       * :ref:`cannot-redeclare-%s::%s()`
       * :ref:`enum-backing-type-must-be-int-or-string`
       * :ref:`enum-case-type-%s-does-not-match-enum-backing-type-%s`
+      * :ref:`enum-case-value-must-be-compile-time-evaluatable`
       * :ref:`unbacked-enum-%s-cannot-be-converted-to-a-string`
 
 
@@ -315,14 +316,10 @@ Features index
       * :ref:`invalid-numeric-literal`
 
 
-   * bitshift-opeartor
-
-      * :ref:`the-behavior-of-unparenthesized-expressions-containing-both-\'.\'-and-\'<<\'-\'>>\'-will-change-in-php-8:-\'<<\'-\'>>\'-will-take-a-higher-precedence`
-
-
    * bitshift-operator
 
       * :ref:`syntax-error,-unexpected-token-"<<"`
+      * :ref:`the-behavior-of-unparenthesized-expressions-containing-both-\'.\'-and-\'<<\'-\'>>\'-will-change-in-php-8:-\'<<\'-\'>>\'-will-take-a-higher-precedence`
       * :ref:`the-behavior-of-unparenthesized-expressions-containing-both-\'.\'-and-\'>>\'-\'<<\'-will-change-in-php-8:-\'<<\'-\'>>\'-will-take-a-higher-precedence`
 
 
@@ -394,6 +391,11 @@ Features index
       * :ref:`class-constant-%s::%s-cannot-have-type-%s`
       * :ref:`object-of-type-%s-is-not-callable`
       * :ref:`value-of-type-%s-is-not-callable`
+
+
+   * callback
+
+      * :ref:`array-callback-must-have-exactly-two-elements`
 
 
    * case
@@ -831,11 +833,6 @@ Features index
       * :ref:`unbacked-enum-%s-cannot-be-converted-to-a-string`
 
 
-   * enum-backed
-
-      * :ref:`enum-case-value-must-be-compile-time-evaluatable`
-
-
    * enum-case
 
       * :ref:`trying-to-clone-an-uncloneable-object-of-class-%s`
@@ -1155,7 +1152,6 @@ Features index
    * instruction
 
       * :ref:`syntax-error,-unexpected-\'throw\'-(t_throw)`
-      * :ref:`syntax-error,-unexpected-token-"use",-expecting-","-or-";"`
 
 
    * integer
@@ -1284,6 +1280,7 @@ Features index
 
       * :ref:`\'%s\'-not-in-the-\'loop\'-or-\'switch\'-context`
       * :ref:`\'%s\'-operator-accepts-only-positive-integers`
+      * :ref:`key-element-cannot-be-a-reference`
       * :ref:`the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls`
 
 
@@ -1394,11 +1391,6 @@ Features index
       * :ref:`syntax-error,-unexpected-token-"*"`
 
 
-   * namd-parameter
-
-      * :ref:`syntax-error,-unexpected-token-","`
-
-
    * name
 
       * :ref:`cannot-redeclare-%s()-(previously-declared-in-%s:%d)`
@@ -1422,6 +1414,7 @@ Features index
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-")"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-single-quoted-string-"%s",-expecting-")"`
+      * :ref:`syntax-error,-unexpected-token-","`
       * :ref:`syntax-error,-unexpected-token-":",-expecting-")"`
       * :ref:`syntax-error,-unexpected-token-":",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-token-":"`
@@ -1623,18 +1616,14 @@ Features index
       * :ref:`parameter-uses-\'parent\'-as-type-hint-although-class-does-not-have-a-parent!`
 
 
-   * parenthese
-
-      * :ref:`syntax-error,-unexpected-token-",",-expecting-")"`
-      * :ref:`unclosed-\'(\'-on-line-%s-does-not-match-\']\'`
-
-
    * parenthesis
 
       * :ref:`syntax-error,-unexpected-\',\'`
       * :ref:`syntax-error,-unexpected-token-")"`
+      * :ref:`syntax-error,-unexpected-token-",",-expecting-")"`
       * :ref:`syntax-error,-unexpected-token-"if"`
       * :ref:`unclosed-\'(\'-does-not-match-\']\'`
+      * :ref:`unclosed-\'(\'-on-line-%s-does-not-match-\']\'`
       * :ref:`unclosed-\'(\'`
       * :ref:`unmatched-\')\'`
       * :ref:`unmatched-\']\'`

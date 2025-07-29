@@ -21,7 +21,7 @@ must not contain empty strings
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/must-not-contain-empty-strings.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/must-not-contain-empty-strings.html","name":"must not contain empty strings","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 04 Jul 2025 13:36:06 +0000","dateModified":"Fri, 04 Jul 2025 13:36:06 +0000","description":"The deflate_init() function accepts options","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/must-not-contain-empty-strings.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/must-not-contain-empty-strings.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/must-not-contain-empty-strings.html","name":"must not contain empty strings","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 29 Jul 2025 17:49:12 +0000","dateModified":"Tue, 29 Jul 2025 17:49:12 +0000","description":"The deflate_init() function accepts options","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/must-not-contain-empty-strings.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -29,7 +29,6 @@ ___________
 The deflate_init() function accepts options. Among the options, there is a dictionary, with a dictionary of preset strings. Theses strings cannot be left empty.
 
 Before PHP 8.2, this bug would crash PHP.
-
 
 Example
 _______
@@ -43,7 +42,6 @@ _______
        echo $ex->getMessage(), \n;
    }
    ?>
-   
 
 Solutions
 _________

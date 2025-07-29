@@ -21,7 +21,7 @@ Cannot use the %s modifier on a %s
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-the-%s-modifier-on-a-%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-the-%s-modifier-on-a-%s.html","name":"Cannot use the %s modifier on a %s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 24 Feb 2025 16:41:09 +0000","dateModified":"Mon, 24 Feb 2025 16:41:09 +0000","description":"This is a generic error message for cases where a keyword cannot be used with a class structure","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-use-the-%s-modifier-on-a-%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-the-%s-modifier-on-a-%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-the-%s-modifier-on-a-%s.html","name":"Cannot use the %s modifier on a %s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 29 Jul 2025 17:52:25 +0000","dateModified":"Tue, 29 Jul 2025 17:52:25 +0000","description":"This is a generic error message for cases where a keyword cannot be used with a class structure","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-use-the-%s-modifier-on-a-%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -65,3 +65,6 @@ _________
 
 + Remove the option from the class constant definition.
 + Upgrade to PHP 8.1 or later, for ``final`` on class constants.
+
+
+In previous PHP versions, this error message used to be :ref:`cannot-use-'static'-as-constant-modifier`.

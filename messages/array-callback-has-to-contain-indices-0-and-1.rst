@@ -21,7 +21,7 @@ Array callback has to contain indices 0 and 1
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/array-callback-has-to-contain-indices-0-and-1.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/array-callback-has-to-contain-indices-0-and-1.html","name":"Array callback has to contain indices 0 and 1","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 21 Feb 2025 18:53:43 +0000","dateModified":"Fri, 21 Feb 2025 18:53:43 +0000","description":"PHP uses an array format to represents callback methods: it is an array with two elements","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array-callback-has-to-contain-indices-0-and-1.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/array-callback-has-to-contain-indices-0-and-1.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/array-callback-has-to-contain-indices-0-and-1.html","name":"Array callback has to contain indices 0 and 1","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 29 Jul 2025 17:36:50 +0000","dateModified":"Tue, 29 Jul 2025 17:36:50 +0000","description":"PHP uses an array format to represents callback methods: it is an array with two elements","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/array-callback-has-to-contain-indices-0-and-1.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -56,3 +56,8 @@ _________
 + Convert the array syntax to the new x::foo(...) syntax.
 + Convert the array syntax to the string '\x::foo' syntax.
 + Remove the index in the array definition.
+
+Related Error Messages
+______________________
+
++ :ref:`array-callback-must-have-exactly-two-elements`

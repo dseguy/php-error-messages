@@ -21,7 +21,7 @@ Cannot create reference to property %s::$%s
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-create-reference-to-property-%s::$%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-create-reference-to-property-%s::$%s.html","name":"Cannot create reference to property %s::$%s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 10 Apr 2025 20:09:35 +0000","dateModified":"Thu, 10 Apr 2025 20:09:35 +0000","description":"While it is possible to acquire a reference on an object's property, it is not possible to acquire that reference on a property with hooks","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-create-reference-to-property-%s::$%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-create-reference-to-property-%s::$%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-create-reference-to-property-%s::$%s.html","name":"Cannot create reference to property %s::$%s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 29 Jul 2025 17:51:56 +0000","dateModified":"Tue, 29 Jul 2025 17:51:56 +0000","description":"While it is possible to acquire a reference on an object's property, it is not possible to acquire that reference on a property with hooks","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-create-reference-to-property-%s::$%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -58,3 +58,8 @@ _________
 + Add ``&`` before the ``get`` hook.
 + Make the property a normal property, without hooks.
 + Avoid using a reference on a property hook.
+
+Related Error Messages
+______________________
+
++ :ref:`indirect-modification-of-%s::$%s-is-not-allowed`

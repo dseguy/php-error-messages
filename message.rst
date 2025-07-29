@@ -76,6 +76,7 @@ PHP Error Messages
    messages/array-and-string-offset-access-syntax-with-curly-braces-is-deprecated.rst
    messages/array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported.rst
    messages/array-callback-has-to-contain-indices-0-and-1.rst
+   messages/array-callback-must-have-exactly-two-elements.rst
    messages/array-to-string-conversion.rst
    messages/array_key_exists():-argument-#2-($array)-must-be-of-type-array,-%s-given.rst
    messages/array_merge()-does-not-accept-unknown-named-parameters.rst
@@ -332,6 +333,7 @@ PHP Error Messages
    messages/is-not-a-valid-codepoint.rst
    messages/jump-into-a-finally-block-is-disallowed.rst
    messages/jump-out-of-a-finally-block-is-disallowed.rst
+   messages/key-element-cannot-be-a-reference.rst
    messages/keys-must-be-of-type-int|string-during-array-unpacking.rst
    messages/label-'%s'-already-defined.rst
    messages/match-expressions-may-only-contain-one-default-arm.rst
