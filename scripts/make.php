@@ -68,18 +68,20 @@ $files = array_diff($files, ['errors/skeleton.ini']);
 
 $stats = array('author' => 0,
 				);
-$errors   = array();
+$errors       = array();
 $syntaxErrors = array();
-$titles   = array();
-$reciproq = array();
-$nextprev = array();
-$tips     = array();
-$tags     = array();
-$features = array();
-$ids      = array();
-$extensions = array();
-$rules = array();
-$links = 0;
+$titles       = array();
+$reciproq     = array();
+$nextprev     = array();
+$tips         = array();
+$tags         = array();
+$features     = array();
+$ids          = array();
+$extensions   = array();
+$deprecated   = array();
+$analyzers    = array();
+$rules        = array();
+$links    = 0;
 $warnings = 0;
 foreach($files as $file) {
     $raw = file_get_contents($file);
@@ -134,7 +136,8 @@ foreach($files as $file) {
 		buildlog("No description for $file");
 		++$warnings;
 		continue;
-	} elseif (strlen($error->description) < MINIMUM_DESCRIPTION_SIZE) {
+	} elseif (strlen($error->description) < MINIMUM_DESCRIPTION_SIZE && 
+	        in_array('Not generated', $error->tags, true)) {
 		buildlog("Description is too short: ".strlen($error->description)." for $file");
 		++$warnings;
 	} elseif ($error->description[-1] !== '.') {
@@ -282,8 +285,9 @@ foreach($files as $file) {
 		    	++$warnings;
     	    } else {
     	        $rules[$analyze] ??= 0;
-    	        @$rules[$analyze]++;
+    	        $rules[$analyze]++;
     	    }
+    	    $analyzers[] = $analyze;
 	    }
 	}
 
@@ -431,6 +435,18 @@ foreach($files as $file) {
 		}
 	}
 	
+	if ($error->level === "E_DEPRECATED") {
+	    if (empty($error->changedBehavior[0])) {
+			buildlog("Missing changedBehavior (deprecated) in $file");
+			++$warnings;
+	    }
+	    
+	    if (empty($error->analyzer[0])) {
+			buildlog("Missing analyzer (deprecated) in $file");
+			++$warnings;
+	    }
+	}
+	
 	if (in_array('syntax-error', $error->tags, true)) {
 	    $syntaxErrors[$error->error] = $error->id;
 	}
@@ -471,7 +487,7 @@ foreach($errors as $file => $message) {
 	$entry[] = '.. meta::';
 	$entry[] = '	:description:';
 	$entry[] = '		'.$message->error.': '.htmlspecialchars($first).'.';
-	$entry[] = '	:og:image: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png';
+	$entry[] = '	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png';
 	$entry[] = '	:og:type: article';
 	$entry[] = '	:og:title: '.htmlspecialchars($message->error);
 	$entry[] = '	:og:description: '.htmlspecialchars($first);
@@ -482,7 +498,7 @@ foreach($errors as $file => $message) {
 	$entry[] = '	:twitter:title: '.$message->error.'';
 	$entry[] = '	:twitter:description: '.$message->error.': '.$first.'';
 	$entry[] = '	:twitter:creator: @exakat';
-	$entry[] = '	:twitter:image:src: https://php-changed-behaviors.readthedocs.io/en/latest/_static/logo.png';
+	$entry[] = '	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png';
 
 	$entry[] = '';
 	
@@ -609,7 +625,7 @@ foreach($errors as $file => $message) {
 		$entry[] = 'Changed Behavior';
 		$entry[] = str_repeat('_', strlen('Changed Behavior'));
 		$entry[] = '';
-		$e = "This error may appear in different PHP versions ";
+		$e = "This error may appear following an evolution in behavior, in previous versions. See ";
 		if (!is_iterable($message->changedBehavior)) {
 		    die("changedBehavior is not an array in $file\n");
 		}
@@ -620,8 +636,41 @@ foreach($errors as $file => $message) {
 		$entry[] = '';
 	}
 
+	if (isset($message->changedBehavior)) {
+		$entry[] = 'Changed Behavior';
+		$entry[] = str_repeat('_', strlen('Changed Behavior'));
+		$entry[] = '';
+		$e = "This error may appear following an evolution in behavior, in previous versions. See ";
+		if (!is_iterable($message->changedBehavior)) {
+		    die("changedBehavior is not an array in $file\n");
+		}
+		foreach($message->changedBehavior as $behavior) {
+			$e .= "`".$behavior." <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/".$behavior.".html>`_, ";
+		}
+		$entry[] = trim($e, ', ').'.';
+		$entry[] = '';
+	}
+
+	if (isset($message->analyzer) && !empty($message->analyzer)) {
+		$entry[] = 'Static Analysis';
+		$entry[] = str_repeat('_', strlen('Static Analysis'));
+		$entry[] = '';
+		$e = "This error may be tracked down with the following static analysis rules: ";
+		foreach($message->analyzer as $analyzer) {
+			$e .= "`".$analyzer." <https://exakat.readthedocs.io/en/latest/Reference/Rules/".$analyzer.".html>`_, ";
+		}
+		$entry[] = trim($e, ', ').'.';
+		$entry[] = '';
+	}
+
 	$name = $message->id;
-	file_put_contents('messages/'.$name.'.rst', implode(PHP_EOL, $entry));
+	$content = implode(PHP_EOL, $entry);
+	
+	// quadruple `: this means a forgotten variable for INI $var
+	if (str_contains($content, '````')) {
+	    buildlog("Quadruple ```` in RST $name\n");
+	}
+	file_put_contents('messages/'.$name.'.rst', $content);
 	
 	$errorlist[] = '   messages/'.$name.'.rst';
 	
@@ -696,6 +745,7 @@ print "processed ".count($features)." features\n";
 print "processed ".count($files)." files\n";
 print "processed ".count($rules)." rules\n";
 print "processed ".count($extensions)." extensions\n";
+print "processed ".count($analyzers)." analyzers\n";
 print "processed $links related\n";
 print "warnings: $warnings\n";
 
