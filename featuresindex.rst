@@ -234,6 +234,7 @@ Features index
 
    * assertion
 
+      * :ref:`assert.callback-ini-setting-is-deprecated`
       * :ref:`defining-a-custom-assert()-function-is-not-allowed,`
 
 
@@ -268,6 +269,7 @@ Features index
       * :ref:`syntax-error,-unexpected-namespaced-name-"%s",-expecting-"function"`
       * :ref:`syntax-error,-unexpected-token-"#[",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-token-"#[",-expecting-"]"`
+      * :ref:`syntax-error,-unexpected-token-";"`
       * :ref:`syntax-error,-unexpected-token-"class",-expecting-"]"`
 
 
@@ -516,6 +518,11 @@ Features index
    * clone
 
       * :ref:`clone-method-called-on-non-object`
+
+
+   * close-tag
+
+      * :ref:`syntax-error,-unexpected-token-";"`
 
 
    * closure
@@ -1413,6 +1420,7 @@ Features index
       * :ref:`optional-parameter-\$%s-declared-before-required-parameter-\$%s-is-implicitly-treated-as-a-required-parameter`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-")"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"]"`
+      * :ref:`syntax-error,-unexpected-integer-"%s",-expecting-")"`
       * :ref:`syntax-error,-unexpected-single-quoted-string-"%s",-expecting-")"`
       * :ref:`syntax-error,-unexpected-token-","`
       * :ref:`syntax-error,-unexpected-token-":",-expecting-")"`
@@ -1421,11 +1429,6 @@ Features index
       * :ref:`syntax-error,-unexpected-token-"new",-expecting-")"`
       * :ref:`the-\$escape-parameter-must-be-provided-as-its-default-value-will-change`
       * :ref:`unknown-named-parameter-\$%s`
-
-
-   * named-parameters
-
-      * :ref:`syntax-error,-unexpected-integer-"%s",-expecting-")"`
 
 
    * namespace
@@ -1852,12 +1855,8 @@ Features index
    * reserved-name
 
       * :ref:`syntax-error,-unexpected-token-"::",-expecting-":"`
-      * :ref:`using-"_"-as-%s-is-deprecated-since-8.4`
-
-
-   * reserved-word
-
       * :ref:`syntax-error,-unexpected-token-"final",-expecting-"("`
+      * :ref:`using-"_"-as-%s-is-deprecated-since-8.4`
 
 
    * return
@@ -1962,6 +1961,7 @@ Features index
 
       * :ref:`disabling-session.use_only_cookies-ini-setting-is-deprecated`
       * :ref:`enabling-session.use_trans_sid-ini-setting-is-deprecated`
+      * :ref:`providing-individual-callbacks-instead-of-an-object-implementing-sessionhandlerinterface-is-deprecated`
 
 
    * short-assignation

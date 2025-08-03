@@ -217,6 +217,7 @@ Tag index
       * :ref:`call-to-undefined-function-exit()`
       * :ref:`calling-static-trait-method-%s::%s-is-deprecated`
       * :ref:`cannot-use-object-of-type-%s-as-array`
+      * :ref:`providing-individual-callbacks-instead-of-an-object-implementing-sessionhandlerinterface-is-deprecated`
 
 
    * name

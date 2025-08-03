@@ -84,6 +84,7 @@ PHP Error Messages
    messages/array_product():-multiplication-is-not-supported-on-type-array.rst
    messages/array_product():-multiplication-is-not-supported-on-type-object.rst
    messages/array_product():-multiplication-is-not-supported-on-type-string.rst
+   messages/assert.callback-ini-setting-is-deprecated.rst
    messages/assignments-can-only-happen-to-writable-values.rst
    messages/attempt-to-assign-property-"%s"-on-null.rst
    messages/attempt-to-read-property-"%s"-on-%s.rst
@@ -139,6 +140,7 @@ PHP Error Messages
    messages/cannot-be-lc_all.rst
    messages/cannot-be-null-when-argument-#1-($objectormethod)-is-an-object.rst
    messages/cannot-bind-an-instance-to-a-static-closure.rst
+   messages/cannot-bind-method-%s::%s()-to-object-of-class-%s.rst
    messages/cannot-call-constructor.rst
    messages/cannot-combine-named-arguments-and-argument-unpacking.rst
    messages/cannot-create-dynamic-property-%s::$%s.rst
@@ -166,6 +168,7 @@ PHP Error Messages
    messages/cannot-perform-bitwise-not-on-%s.rst
    messages/cannot-re-assign-$this.rst
    messages/cannot-re-assign-auto-global-variable-%s.rst
+   messages/cannot-rebind-scope-of-closure-created-from-method.rst
    messages/cannot-redeclare-%s()-(previously-declared-in-%s:%d).rst
    messages/cannot-redeclare-%s-property-%s::$%s-as-%s-%s::$%s.rst
    messages/cannot-redeclare-%s::%s().rst
@@ -420,6 +423,7 @@ PHP Error Messages
    messages/property-hook-list-must-not-be-empty.rst
    messages/property-with-asymmetric-visibility-%s::$%s-must-have-type.rst
    messages/property-x::$p-cannot-have-type-void.rst
+   messages/providing-individual-callbacks-instead-of-an-object-implementing-sessionhandlerinterface-is-deprecated.rst
    messages/readonly-class-%s-cannot-use-trait-with-a-non-readonly-property-%s::$%s.rst
    messages/readonly-class-bar-cannot-extend-non-readonly-class-foo.rst
    messages/readonly-property-%s::$%s-cannot-have-default-value.rst
