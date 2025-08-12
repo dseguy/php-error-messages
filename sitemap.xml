@@ -880,6 +880,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/func_num_args%28%29-must-be-called-from-a-function-context.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/function-%25s%28%29-is-deprecated%25s.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/function-libxml_disable_entity_loader%28%29-is-deprecated-since-8.0%2C-as-external-entity-loading-is-disabled-by-default.html</loc>
  </url>
  <url>

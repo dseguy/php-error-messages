@@ -298,6 +298,7 @@ PHP Error Messages
    messages/func_get_arg()-cannot-be-called-from-the-global-scope.rst
    messages/func_get_args()-cannot-be-called-from-the-global-scope.rst
    messages/func_num_args()-must-be-called-from-a-function-context.rst
+   messages/function-%s()-is-deprecated%s.rst
    messages/function-libxml_disable_entity_loader()-is-deprecated-since-8.0,-as-external-entity-loading-is-disabled-by-default.rst
    messages/function-name-must-be-a-string.rst
    messages/generator-return-type-must-be-a-supertype-of-generator.rst

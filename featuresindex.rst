@@ -178,11 +178,6 @@ Features index
       * :ref:`undefined-offset`
 
 
-   * array-short-syntax
-
-      * :ref:`syntax-error,-unexpected-\')\',-expecting-\'=\'`
-
-
    * array-syntax
 
       * :ref:`cannot-use-string-offset-as-an-array`
@@ -556,6 +551,11 @@ Features index
    * comma
 
       * :ref:`syntax-error,-unexpected-token-"use",-expecting-","-or-";"`
+
+
+   * command
+
+      * :ref:`syntax-error,-unexpected-\'throw\'-(t_throw)`
 
 
    * comment
@@ -1017,6 +1017,7 @@ Features index
       * :ref:`func_get_arg()-cannot-be-called-from-the-global-scope`
       * :ref:`func_get_args()-cannot-be-called-from-the-global-scope`
       * :ref:`func_num_args()-must-be-called-from-a-function-context`
+      * :ref:`function-%s()-is-deprecated%s`
       * :ref:`function-libxml_disable_entity_loader()-is-deprecated-since-8.0,-as-external-entity-loading-is-disabled-by-default`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"function"`
       * :ref:`syntax-error,-unexpected-token-"=",-expecting-variable`
@@ -1154,11 +1155,6 @@ Features index
 
       * :ref:`clone-method-called-on-non-object`
       * :ref:`instanceof-expects-an-object-instance,-constant-given`
-
-
-   * instruction
-
-      * :ref:`syntax-error,-unexpected-\'throw\'-(t_throw)`
 
 
    * integer
