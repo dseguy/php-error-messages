@@ -21,7 +21,7 @@ Cannot bind method %s::%s() to object of class %s
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-bind-method-%s::%s()-to-object-of-class-%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-bind-method-%s::%s()-to-object-of-class-%s.html","name":"Cannot bind method %s::%s() to object of class %s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 03 Aug 2025 20:12:08 +0000","dateModified":"Sun, 03 Aug 2025 20:12:08 +0000","description":"This error is reported when a closure is called on an object which is not identical to the the type of the original object","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-bind-method-%s::%s()-to-object-of-class-%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-bind-method-%s::%s()-to-object-of-class-%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-bind-method-%s::%s()-to-object-of-class-%s.html","name":"Cannot bind method %s::%s() to object of class %s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 17 Aug 2025 14:25:55 +0000","dateModified":"Sun, 17 Aug 2025 14:25:55 +0000","description":"This error is reported when a closure is called on an object which is not identical to the the type of the original object","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-bind-method-%s::%s()-to-object-of-class-%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -54,4 +54,4 @@ Literal Examples
 Solutions
 _________
 
-+ 
++ Make sure the new object is of the same type as the original support one.

@@ -21,14 +21,14 @@ Extra data starting at offset %d of %zd bytes
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/extra-data-starting-at-offset-%d-of-%zd-bytes.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/extra-data-starting-at-offset-%d-of-%zd-bytes.html","name":"Extra data starting at offset %d of %zd bytes","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 15 Mar 2025 08:57:09 +0000","dateModified":"Sat, 15 Mar 2025 08:57:09 +0000","description":"Some extra data were found while processing the serialized string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/extra-data-starting-at-offset-%d-of-%zd-bytes.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/extra-data-starting-at-offset-%d-of-%zd-bytes.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/extra-data-starting-at-offset-%d-of-%zd-bytes.html","name":"Extra data starting at offset %d of %zd bytes","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 17 Aug 2025 14:23:33 +0000","dateModified":"Sun, 17 Aug 2025 14:23:33 +0000","description":"Some extra data were found while processing the serialized string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/extra-data-starting-at-offset-%d-of-%zd-bytes.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
  
 Some extra data were found while processing the serialized string. They are not needed, so they should not be there. It is recommended to investigate why too much data was provided, as it may devolve in a security issue.
 
-There is no way to check the amount of needed data before unserializing the string. 
+There is no way to check the amount of needed data before unserializing the string.
 
 Example
 _______

@@ -21,12 +21,12 @@ Enum %s cannot implement the Serializable interface
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/enum-%s-cannot-implement-the-serializable-interface.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/enum-%s-cannot-implement-the-serializable-interface.html","name":"Enum %s cannot implement the Serializable interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 27 Jul 2025 08:54:22 +0000","dateModified":"Sun, 27 Jul 2025 08:54:22 +0000","description":"Enumeration cannot be serialized: they are created as needed by the PHP engine, during execution, and they will again at the next execution","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/enum-%s-cannot-implement-the-serializable-interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/enum-%s-cannot-implement-the-serializable-interface.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/enum-%s-cannot-implement-the-serializable-interface.html","name":"Enum %s cannot implement the Serializable interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 17 Aug 2025 14:23:27 +0000","dateModified":"Sun, 17 Aug 2025 14:23:27 +0000","description":"Enumeration cannot be serialized: they are created as needed by the PHP engine, during execution, and they will again at the next execution","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/enum-%s-cannot-implement-the-serializable-interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
  
-Enumeration cannot be serialized: they are created as needed by the PHP engine, during execution, and they will again at the next execution. 
+Enumeration cannot be serialized: they are created as needed by the PHP engine, during execution, and they will again at the next execution.
 
 Example
 _______

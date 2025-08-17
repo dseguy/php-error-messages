@@ -166,6 +166,11 @@ Tag index
       * :ref:`cannot-declare-self-referencing-constant`
 
 
+   * gem
+
+      * :ref:`increment-on-non-alphanumeric-string-is-deprecated`
+
+
    * goto
 
       * :ref:`\'goto\'-into-loop-or-switch-statement-is-disallowed`

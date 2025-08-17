@@ -21,12 +21,12 @@ Indirect modification of %s::$%s is not allowed
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/indirect-modification-of-%s::$%s-is-not-allowed.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/indirect-modification-of-%s::$%s-is-not-allowed.html","name":"Indirect modification of %s::$%s is not allowed","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 10 Apr 2025 20:10:05 +0000","dateModified":"Thu, 10 Apr 2025 20:10:05 +0000","description":"While it is possible to create references on object's properties, it is not possible to do so on a property with a hook","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/indirect-modification-of-%s::$%s-is-not-allowed.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/indirect-modification-of-%s::$%s-is-not-allowed.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/indirect-modification-of-%s::$%s-is-not-allowed.html","name":"Indirect modification of %s::$%s is not allowed","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 17 Aug 2025 14:22:38 +0000","dateModified":"Sun, 17 Aug 2025 14:22:38 +0000","description":"While it is possible to create references on object's properties, it is not possible to do so on a property with a hook","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/indirect-modification-of-%s::$%s-is-not-allowed.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
  
-While it is possible to create references on object's properties, it is not possible to do so on a property with a hook. The property hook is returned by value, by default. 
+While it is possible to create references on object's properties, it is not possible to do so on a property with a hook. The property hook is returned by value, by default.
 
 Example
 _______

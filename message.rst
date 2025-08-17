@@ -316,7 +316,9 @@ PHP Error Messages
    messages/illegal-offset-type-in-unset.rst
    messages/illegal-offset-type.rst
    messages/illegal-string-offset.rst
+   messages/implicit-conversion-from-float-string-"%s"-to-int-loses-precision.rst
    messages/implicit-conversion-from-float-string-"%s"-to-int-loses.rst
+   messages/increment-on-non-alphanumeric-string-is-deprecated.rst
    messages/increment-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php.rst
    messages/index-invalid-or-out-of-range.rst
    messages/indirect-modification-of-%s::$%s-is-not-allowed.rst
@@ -365,6 +367,7 @@ PHP Error Messages
    messages/must-be-one-of-pgsql_assoc,-pgsql_num,-or-pgsql_both.rst
    messages/must-be-one-of-pgsql_notice_last,-pgsql_notice_all,-or-pgsql_notice_clear.rst
    messages/must-contain-at-least-one-element.rst
+   messages/must-not-be-empty.rst
    messages/must-not-contain-empty-strings.rst
    messages/must-not-use-parent::$%s::%s()-in-a-different-property-($%s).rst
    messages/must-not-use-parent::$%s::%s()-in-a-different-property-hook-(%s).rst

@@ -210,6 +210,8 @@ Features index
 
    * arrow-function
 
+      * :ref:`cannot-bind-method-%s::%s()-to-object-of-class-%s`
+      * :ref:`cannot-rebind-scope-of-closure-created-from-method`
       * :ref:`syntax-error,-unexpected-token-")",-expecting-"function"-or-"fn"-or-"static"-or-"#["`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-"function"-or-"fn"-or-"static"-or-"#["`
 
@@ -315,6 +317,7 @@ Features index
 
    * bitshift-operator
 
+      * :ref:`implicit-conversion-from-float-string-"%s"-to-int-loses-precision`
       * :ref:`syntax-error,-unexpected-token-"<<"`
       * :ref:`the-behavior-of-unparenthesized-expressions-containing-both-\'.\'-and-\'<<\'-\'>>\'-will-change-in-php-8:-\'<<\'-\'>>\'-will-take-a-higher-precedence`
       * :ref:`the-behavior-of-unparenthesized-expressions-containing-both-\'.\'-and-\'>>\'-\'<<\'-will-change-in-php-8:-\'<<\'-\'>>\'-will-take-a-higher-precedence`
@@ -323,6 +326,7 @@ Features index
    * bitwise-operator
 
       * :ref:`cannot-perform-bitwise-not-on-%s`
+      * :ref:`implicit-conversion-from-float-string-"%s"-to-int-loses-precision`
       * :ref:`unsupported-operand-types:-%s-%s-%s`
 
 
@@ -523,6 +527,8 @@ Features index
    * closure
 
       * :ref:`cannot-bind-an-instance-to-a-static-closure`
+      * :ref:`cannot-bind-method-%s::%s()-to-object-of-class-%s`
+      * :ref:`cannot-rebind-scope-of-closure-created-from-method`
       * :ref:`cannot-use-variable-\$%s-twice`
       * :ref:`syntax-error,-unexpected-token-"("`
       * :ref:`syntax-error,-unexpected-token-")",-expecting-"function"-or-"fn"-or-"static"-or-"#["`
@@ -2102,6 +2108,7 @@ Features index
       * :ref:`cannot-use-string-offset-as-an-object`
       * :ref:`empty-delimiter`
       * :ref:`illegal-string-offset`
+      * :ref:`increment-on-non-alphanumeric-string-is-deprecated`
       * :ref:`only-the-first-byte-will-be-assigned-to-the-string-offset`
       * :ref:`syntax-error,-unexpected-\'[\',-expecting-\';\'-or-\',\'`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";"`
@@ -2109,6 +2116,11 @@ Features index
       * :ref:`unbacked-enum-%s-cannot-be-converted-to-a-string`
       * :ref:`uninitialized-string-offset`
       * :ref:`using-\${var}-in-strings-is-deprecated,-use-{\$var}-instead`
+
+
+   * string-increment
+
+      * :ref:`increment-on-non-alphanumeric-string-is-deprecated`
 
 
    * stringable
