@@ -1062,6 +1062,7 @@ Features index
 
    * heredoc
 
+      * :ref:`invalid-indentation---tabs-and-spaces-cannot-be-mixed`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";"`
 
 

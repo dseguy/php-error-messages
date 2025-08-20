@@ -21,7 +21,7 @@ Required parameter $%s follows optional parameter $%s
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/required-parameter-$%s-follows-optional-parameter-$%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/required-parameter-$%s-follows-optional-parameter-$%s.html","name":"Required parameter $%s follows optional parameter $%s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 10 Apr 2025 20:44:24 +0000","dateModified":"Thu, 10 Apr 2025 20:44:24 +0000","description":"An optional parameter has a default value, while a required parameter doesn't","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/required-parameter-$%s-follows-optional-parameter-$%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/required-parameter-$%s-follows-optional-parameter-$%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/required-parameter-$%s-follows-optional-parameter-$%s.html","name":"Required parameter $%s follows optional parameter $%s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 20 Aug 2025 21:03:34 +0000","dateModified":"Wed, 20 Aug 2025 21:03:34 +0000","description":"An optional parameter has a default value, while a required parameter doesn't","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/required-parameter-$%s-follows-optional-parameter-$%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -64,3 +64,8 @@ Changed Behavior
 ________________
 
 This error may appear following an evolution in behavior, in previous versions. See `OptionalParameterLast <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/OptionalParameterLast.html>`_.
+
+Static Analysis
+_______________
+
+This error may be tracked down with the following static analysis rules: `Functions/WrongOptionalParameter <https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/WrongOptionalParameter.html>`_.

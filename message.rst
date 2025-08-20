@@ -331,6 +331,7 @@ PHP Error Messages
    messages/interfaces-may-only-include-hooked-properties.rst
    messages/invalid-argument-supplied-for-foreach().rst
    messages/invalid-characters-passed-for-attempted-conversion,-these-have-been-ignored.rst
+   messages/invalid-indentation---tabs-and-spaces-cannot-be-mixed.rst
    messages/invalid-numeric-literal.rst
    messages/invalid-utf-8-codepoint-escape.rst
    messages/invalid-utf-8-codepoint-escape:-codepoint-too-large.rst

@@ -21,7 +21,7 @@ Returning bool from comparison function is deprecated
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/returning-bool-from-comparison-function-is-deprecated.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/returning-bool-from-comparison-function-is-deprecated.html","name":"Returning bool from comparison function is deprecated","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 16 Mar 2025 09:33:46 +0000","dateModified":"Sun, 16 Mar 2025 09:33:46 +0000","description":"The comparison function should return 0, 1 or -1, and not just booleans","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/returning-bool-from-comparison-function-is-deprecated.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/returning-bool-from-comparison-function-is-deprecated.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/returning-bool-from-comparison-function-is-deprecated.html","name":"Returning bool from comparison function is deprecated","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 20 Aug 2025 21:01:42 +0000","dateModified":"Wed, 20 Aug 2025 21:01:42 +0000","description":"The comparison function should return 0, 1 or -1, and not just booleans","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/returning-bool-from-comparison-function-is-deprecated.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -60,3 +60,8 @@ Changed Behavior
 ________________
 
 This error may appear following an evolution in behavior, in previous versions. See `sortClosureReturnType <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/sortClosureReturnType.html>`_.
+
+Static Analysis
+_______________
+
+This error may be tracked down with the following static analysis rules: `Php/ReturnTypeForSorting <https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/ReturnTypeForSorting.html>`_.

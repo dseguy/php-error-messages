@@ -979,6 +979,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/invalid-characters-passed-for-attempted-conversion%2C-these-have-been-ignored.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/invalid-indentation---tabs-and-spaces-cannot-be-mixed.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/invalid-numeric-literal.html</loc>
  </url>
  <url>
