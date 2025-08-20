@@ -1744,6 +1744,12 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/type-declaration-%27%25s%27-must-be-unqualified.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/type-mixed-can-only-be-used-as-a-standalone-type.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/type-mixed-cannot-be-marked-as-nullable-since-mixed-already-includes-null.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/type-must-be-a-single-character.html</loc>
  </url>
  <url>

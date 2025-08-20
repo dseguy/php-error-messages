@@ -1382,6 +1382,8 @@ Features index
    * mixed
 
       * :ref:`cannot-use-\'mixed\'-as-class-name-as-it-is-reserved`
+      * :ref:`type-mixed-can-only-be-used-as-a-standalone-type`
+      * :ref:`type-mixed-cannot-be-marked-as-nullable-since-mixed-already-includes-null`
 
 
    * modulo
@@ -1512,6 +1514,11 @@ Features index
 
       * :ref:`only-arrays-and-traversables-can-be-unpacked`
       * :ref:`only-arrays-can-be-unpacked-in-constant-expression`
+
+
+   * nullable
+
+      * :ref:`type-mixed-cannot-be-marked-as-nullable-since-mixed-already-includes-null`
 
 
    * nullsafe
@@ -2256,6 +2263,8 @@ Features index
       * :ref:`needle-is-not-a-string-or-an-integer`
       * :ref:`readonly-property-%s::\$%s-must-have-type`
       * :ref:`syntax-error,-unexpected-token-"?"`
+      * :ref:`type-mixed-can-only-be-used-as-a-standalone-type`
+      * :ref:`type-mixed-cannot-be-marked-as-nullable-since-mixed-already-includes-null`
       * :ref:`using-array_key_exists()-on-objects-is-deprecated.`
 
 

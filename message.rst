@@ -586,6 +586,8 @@ PHP Error Messages
    messages/type-%s-contains-both-iterable-and-array.rst
    messages/type-contains-both-true-and-false,-bool-must-be-used-instead.rst
    messages/type-declaration-'%s'-must-be-unqualified.rst
+   messages/type-mixed-can-only-be-used-as-a-standalone-type.rst
+   messages/type-mixed-cannot-be-marked-as-nullable-since-mixed-already-includes-null.rst
    messages/type-must-be-a-single-character.rst
    messages/type-of-%s::$%s-must-be-%s%s-(as-in-class-%s).rst
    messages/type-of-%s::$%s-must-not-be-defined-(as-in-class-%s).rst

@@ -493,6 +493,7 @@ Tag index
       * :ref:`call-to-a-member-function-%s()-on-%s`
       * :ref:`class-constant-%s::%s-cannot-have-type-%s`
       * :ref:`property-%s::$%s-cannot-have-type-%s`
+      * :ref:`type-mixed-can-only-be-used-as-a-standalone-type`
 
 
    * undefined
