@@ -21,7 +21,7 @@ Static property may not have asymmetric visibility
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/static-property-may-not-have-asymmetric-visibility.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/static-property-may-not-have-asymmetric-visibility.html","name":"Static property may not have asymmetric visibility","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 10 May 2025 07:18:47 +0000","dateModified":"Sat, 10 May 2025 07:18:47 +0000","description":"Asymmetric visibility is only applicable to object properties, not static properties","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static-property-may-not-have-asymmetric-visibility.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/static-property-may-not-have-asymmetric-visibility.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/static-property-may-not-have-asymmetric-visibility.html","name":"Static property may not have asymmetric visibility","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 21 Aug 2025 04:57:04 +0000","dateModified":"Thu, 21 Aug 2025 04:57:04 +0000","description":"Asymmetric visibility is only applicable to object properties, not static properties","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static-property-may-not-have-asymmetric-visibility.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -44,3 +44,8 @@ _________
 
 + Make the property non-static.
 + Remove the asymmetric visibility.
+
+Static Analysis
+_______________
+
+This error may be tracked down with the following static analysis rules: `Php/ <https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/.html>`_.

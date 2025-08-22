@@ -95,6 +95,7 @@ Features index
       * :ref:`an-alias-(%s)-was-defined-for-method-%s(),-but-this-method-does-not-exist`
       * :ref:`an-alias-was-defined-for-%s::%s-but-this-method-does-not-exist`
       * :ref:`cannot-use-"abstract"-as-method-modifier-in-trait-alias`
+      * :ref:`cannot-use-%s-as-%s-because-%s-is-a-special-class-name`
       * :ref:`cannot-use-\'abstract\'-as-method-modifier`
       * :ref:`cannot-use-\'final\'-as-method-modifier`
       * :ref:`cannot-use-\'static\'-as-method-modifier`
@@ -467,6 +468,7 @@ Features index
       * :ref:`cannot-inherit-previously-inherited-or-override-constant-%s-from-interface-%s`
       * :ref:`cannot-make-non-abstract-method-%s::%s()-abstract-in-class-%s`
       * :ref:`cannot-redeclare-%s::%s()`
+      * :ref:`cannot-use%s-%s-as-%s-because-the-name-is-already-in-use`
       * :ref:`class-"%s"-not-found`
       * :ref:`class-%s-cannot-extend-%s-%s`
       * :ref:`illegal-class-name`
@@ -886,6 +888,7 @@ Features index
    * exit
 
       * :ref:`%s():-never-returning-%s-must-not-implicitly-return`
+      * :ref:`%s():-never-returning-function-must-not-implicitly-return`
       * :ref:`call-to-undefined-function-exit()`
       * :ref:`never-returning-function-must-not-implicitly-return`
       * :ref:`syntax-error,-unexpected-token-"exit"`
@@ -1407,7 +1410,9 @@ Features index
 
       * :ref:`cannot-redeclare-%s()-(previously-declared-in-%s:%d)`
       * :ref:`cannot-redeclare-function-%s()-(previously-declared-in-%s:%d)`
+      * :ref:`cannot-use%s-%s-as-%s-because-the-name-is-already-in-use`
       * :ref:`cannot-use-"abstract"-as-method-modifier-in-trait-alias`
+      * :ref:`cannot-use-%s-as-%s-because-%s-is-a-special-class-name`
       * :ref:`cannot-use-\'abstract\'-as-method-modifier`
       * :ref:`cannot-use-\'final\'-as-method-modifier`
       * :ref:`cannot-use-\'static\'-as-method-modifier`
@@ -1479,6 +1484,7 @@ Features index
    * never
 
       * :ref:`%s():-never-returning-%s-must-not-implicitly-return`
+      * :ref:`%s():-never-returning-function-must-not-implicitly-return`
       * :ref:`a-never-returning-%s-must-not-return`
       * :ref:`a-never-returning-function-must-not-return`
       * :ref:`a-never-returning-method-must-not-return`
@@ -1864,6 +1870,7 @@ Features index
 
    * reserved-name
 
+      * :ref:`cannot-use-%s-as-%s-because-\'%s\'-is-a-special-class-name`
       * :ref:`syntax-error,-unexpected-token-"::",-expecting-":"`
       * :ref:`syntax-error,-unexpected-token-"final",-expecting-"("`
       * :ref:`using-"_"-as-%s-is-deprecated-since-8.4`
@@ -1873,6 +1880,7 @@ Features index
 
       * :ref:`%s%s%s():-return-value-must-be-of-type-%s,-%s-returned`
       * :ref:`%s():-never-returning-%s-must-not-implicitly-return`
+      * :ref:`%s():-never-returning-function-must-not-implicitly-return`
       * :ref:`a-function-with-return-type-must-return-a-value`
       * :ref:`a-never-returning-%s-must-not-return`
       * :ref:`a-never-returning-method-must-not-return`
@@ -2020,6 +2028,11 @@ Features index
    * spaceship
 
       * :ref:`returning-bool-from-comparison-function-is-deprecated`
+
+
+   * special-typehint
+
+      * :ref:`cannot-use-%s-as-%s-because-\'%s\'-is-a-special-class-name`
 
 
    * spl
@@ -2172,6 +2185,7 @@ Features index
 
    * throw
 
+      * :ref:`%s():-never-returning-function-must-not-implicitly-return`
       * :ref:`can-only-throw-objects`
       * :ref:`cannot-throw-objects-that-do-not-implement-throwable`
       * :ref:`never-returning-function-must-not-implicitly-return`

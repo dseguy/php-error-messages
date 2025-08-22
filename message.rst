@@ -21,6 +21,7 @@ PHP Error Messages
    messages/%s():-argument-#%d%s%s%s-could-not-be-passed-by-reference.rst
    messages/%s():-implicitly-marking-parameter-$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead.rst
    messages/%s():-never-returning-%s-must-not-implicitly-return.rst
+   messages/%s():-never-returning-function-must-not-implicitly-return.rst
    messages/%s():-passing-null-to-parameter-#%.rst
    messages/%s():-returning-by-reference-from-a-void-function-is-deprecated.rst
    messages/%s-%s-cannot-implement-interface-%s,-extend-exception-or-error-instead.rst
@@ -183,10 +184,13 @@ PHP Error Messages
    messages/cannot-unset-offset-in-a-non-array-variable.rst
    messages/cannot-unset-readonly-property-%s::$%s.rst
    messages/cannot-unset-string-offsets.rst
+   messages/cannot-use%s-%s-as-%s-because-the-name-is-already-in-use.rst
    messages/cannot-use-"%s"-as-a-type-name-as-it-is-reserved.rst
    messages/cannot-use-"%s"-when-no-class-scope-is-active.rst
    messages/cannot-use-"abstract"-as-method-modifier-in-trait-alias.rst
    messages/cannot-use-"static"-when-no-class-scope-is-active.rst
+   messages/cannot-use-%s-as-%s-because-%s-is-a-special-class-name.rst
+   messages/cannot-use-%s-as-%s-because-'%s'-is-a-special-class-name.rst
    messages/cannot-use-%s-as-default-value-for-parameter-$%s-of-type-%s.rst
    messages/cannot-use-%s-as-default-value-for-property-%s::$%s-of-type-%s.rst
    messages/cannot-use-'abstract'-as-constant-modifier.rst
