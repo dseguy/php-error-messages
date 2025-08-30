@@ -21,7 +21,7 @@ syntax error, unexpected token "::"
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\"::\".html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\"::\".html","name":"syntax error, unexpected token \"::\"","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 07 Mar 2025 12:05:05 +0000","dateModified":"Fri, 07 Mar 2025 12:05:05 +0000","description":"In this situation, the keyword ``or`` is reserved by PHP and cannot be used as a class name, a function name, or a global constant","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\"::\".html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\"::\".html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\"::\".html","name":"syntax error, unexpected token \"::\"","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 30 Aug 2025 21:04:25 +0000","dateModified":"Sat, 30 Aug 2025 21:04:25 +0000","description":"In this situation, the keyword ``or`` is reserved by PHP and cannot be used as a class name, a function name, or a global constant","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/syntax-error,-unexpected-token-\"::\".html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -41,12 +41,12 @@ _______
 
    <?php
    
-   // :: on an operator
+   // double-colon on an operator
    1 or::A;
    
    echo ::class;
    
-   // :: on a number
+   // double-colon on a number
    1::class;
    
    ?>

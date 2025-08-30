@@ -752,6 +752,7 @@ Features index
    * deprecation
 
       * :ref:`constant-%s::%s-is-deprecated`
+      * :ref:`function-%s()-is-deprecated%s`
       * :ref:`function-libxml_disable_entity_loader()-is-deprecated-since-8.0,-as-external-entity-loading-is-disabled-by-default`
 
 
@@ -790,6 +791,11 @@ Features index
    * dynamic-call
 
       * :ref:`function-name-must-be-a-string`
+
+
+   * dynamic-constant
+
+      * :ref:`syntax-error,-unexpected-token-";",-expecting-"("`
 
 
    * dynamic-property

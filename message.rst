@@ -136,6 +136,7 @@ PHP Error Messages
    messages/cannot-assign-an-empty-string-to-a-string-offset.rst
    messages/cannot-assign-reference-to-non-referenceable-value.rst
    messages/cannot-auto-initialize-an-array-inside-property-%s::$%s-of-type-%s.rst
+   messages/cannot-be-0.rst
    messages/cannot-be-a-class-constant.rst
    messages/cannot-be-empty.rst
    messages/cannot-be-lc_all.rst
@@ -513,6 +514,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-"::",-expecting-","-or-";".rst
    messages/syntax-error,-unexpected-token-"::",-expecting-":".rst
    messages/syntax-error,-unexpected-token-"::".rst
+   messages/syntax-error,-unexpected-token-";",-expecting-"(".rst
    messages/syntax-error,-unexpected-token-";",-expecting-")".rst
    messages/syntax-error,-unexpected-token-";",-expecting-","-or-")".rst
    messages/syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"[".rst

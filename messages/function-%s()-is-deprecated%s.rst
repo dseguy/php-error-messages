@@ -21,7 +21,7 @@ Function %s() is deprecated%S
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/function-%s()-is-deprecated%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/function-%s()-is-deprecated%s.html","name":"Function %s() is deprecated%S","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 12 Aug 2025 20:31:11 +0000","dateModified":"Tue, 12 Aug 2025 20:31:11 +0000","description":"PHP native functions get deprecated, before being removed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/function-%s()-is-deprecated%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/function-%s()-is-deprecated%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/function-%s()-is-deprecated%s.html","name":"Function %s() is deprecated%S","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 26 Aug 2025 20:50:49 +0000","dateModified":"Tue, 26 Aug 2025 20:50:49 +0000","description":"PHP native functions get deprecated, before being removed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/function-%s()-is-deprecated%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -43,7 +43,7 @@ _______
 
 Literal Examples
 ****************
-+ Function strftime() is deprecated since 8.1, use IntlDateFormatter::format() instead 
++ Function strftime() is deprecated since 8.1, use IntlDateFormatter::format() instead
 
 Solutions
 _________
