@@ -21,7 +21,7 @@ cannot be 0
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-be-0.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-be-0.html","name":"cannot be 0","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 30 Aug 2025 15:20:51 +0000","dateModified":"Sat, 30 Aug 2025 15:20:51 +0000","description":"The third argument of range() is the step: the amount to progress for each element, compared to the previous one","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-be-0.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-be-0.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-be-0.html","name":"cannot be 0","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 02 Sep 2025 05:05:32 +0000","dateModified":"Tue, 02 Sep 2025 05:05:32 +0000","description":"The third argument of range() is the step: the amount to progress for each element, compared to the previous one","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-be-0.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -42,4 +42,4 @@ _______
 Solutions
 _________
 
-+ 
++ Use a value strictly non-zero.

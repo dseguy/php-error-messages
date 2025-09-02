@@ -506,4 +506,5 @@ Tag index
    * validation
 
       * :ref:`argument-#1-($start)-must-be-a-single-byte-string-if`
+      * :ref:`cannot-be-0`
       * :ref:`must-not-be-empty`

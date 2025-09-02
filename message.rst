@@ -152,6 +152,8 @@ PHP Error Messages
    messages/cannot-declare-promoted-property-outside-a-constructor.rst
    messages/cannot-declare-self-referencing-constant.rst
    messages/cannot-declare-variadic-promoted-property.rst
+   messages/cannot-decrement-property-%s::$%s-of-type-int-past-its-minimal-value.rst
+   messages/cannot-increment-property-%s::$%s-of-type-int-past-its-maximal-value.rst
    messages/cannot-indirectly-modify-readonly-property-%s::$%s.rst
    messages/cannot-inherit-previously-inherited-or-override-constant-%s-from-interface-%s.rst
    messages/cannot-instantiate-enum-%s.rst

@@ -18,6 +18,16 @@ Features index
       * :ref:`using-\$this-when-not-in-object-context`
 
 
+   * PHP_INT_MAX
+
+      * :ref:`cannot-increment-property-%s::\$%s-of-type-int-past-its-maximal-value`
+
+
+   * PHP_INT_MIN
+
+      * :ref:`cannot-decrement-property-%s::\$%s-of-type-int-past-its-minimal-value`
+
+
    * ReturnTypeWillChange
 
       * :ref:`return-type-of-%s::%s()-should-either-be-compatible-with-%s::%s():-mixed`
@@ -1176,6 +1186,8 @@ Features index
    * integer
 
       * :ref:`a-non-numeric-value-encountered`
+      * :ref:`cannot-decrement-property-%s::\$%s-of-type-int-past-its-minimal-value`
+      * :ref:`cannot-increment-property-%s::\$%s-of-type-int-past-its-maximal-value`
       * :ref:`division-of-php_int_min-by--1-is-not-an-integer`
 
 
@@ -1721,6 +1733,8 @@ Features index
       * :ref:`cannot-assign-%s-to-reference-held-by-property-%s::\$%s-of-type-%s`
       * :ref:`cannot-auto-initialize-an-array-inside-property-%s::\$%s-of-type-%s`
       * :ref:`cannot-declare-variadic-promoted-property`
+      * :ref:`cannot-decrement-property-%s::\$%s-of-type-int-past-its-minimal-value`
+      * :ref:`cannot-increment-property-%s::\$%s-of-type-int-past-its-maximal-value`
       * :ref:`cannot-redeclare-%s-property-%s::\$%s-as-%s-%s::\$%s`
       * :ref:`default-value-for-property-of-type-int-may-not-be-null.-use-the-nullable-type-?int-to-allow-null-default-value`
       * :ref:`enum-%s-cannot-include-properties`
@@ -1775,6 +1789,7 @@ Features index
    * range
 
       * :ref:`argument-#1-(\$start)-must-be-a-single-byte-string-if`
+      * :ref:`cannot-be-0`
 
 
    * reading

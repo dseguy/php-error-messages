@@ -442,6 +442,12 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-declare-variadic-promoted-property.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-decrement-property-%25s%3A%3A%24%25s-of-type-int-past-its-minimal-value.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-increment-property-%25s%3A%3A%24%25s-of-type-int-past-its-maximal-value.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-indirectly-modify-readonly-property-%25s%3A%3A%24%25s.html</loc>
  </url>
  <url>
