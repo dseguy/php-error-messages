@@ -91,12 +91,14 @@ Features index
       * :ref:`non-abstract-property-hook-must-have-a-body`
       * :ref:`only-hooked-properties-may-be-declared-abstract`
       * :ref:`property-hook-cannot-be-both-abstract-and-private`
+      * :ref:`property-in-interface-cannot-be-explicitly-abstract.`
       * :ref:`static-function-%s%s%s()-cannot-be-abstract`
       * :ref:`syntax-error,-unexpected-token-"}",-expecting-";"-or-"{"`
 
 
    * addition
 
+      * :ref:`array_sum():-addition-is-not-supported-on-type-array`
       * :ref:`the-behavior-of-unparenthesized-expressions-containing-both-\'.\'-and-\'+\'-\'-\'-will-change-in-php-8:-\'+\'-\'-\'-will-take-a-higher-precedence`
 
 
@@ -178,9 +180,11 @@ Features index
       * :ref:`indirect-modification-of-overloaded-element-of-%s-has-no-effect`
       * :ref:`indirect-modification-of-overloaded-property-%s::\$%s-has-no-effect`
       * :ref:`is-an-invalid-offset`
+      * :ref:`must-be-of-type-countable|array,-%s-given`
       * :ref:`must-contain-at-least-one-element`
       * :ref:`only-arrays-and-traversables-can-be-unpacked`
       * :ref:`only-arrays-can-be-unpacked-in-constant-expression`
+      * :ref:`parameter-must-be-an-array-or-an-object-that-implements-countable`
       * :ref:`syntax-error,-unexpected-\')\',-expecting-\'=\'`
       * :ref:`syntax-error,-unexpected-token-"{"`
       * :ref:`syntax-error,-unexpected-token-"}"`
@@ -679,6 +683,18 @@ Features index
       * :ref:`syntax-error,-unexpected-token-"continue"`
 
 
+   * count
+
+      * :ref:`must-be-of-type-countable|array,-%s-given`
+      * :ref:`parameter-must-be-an-array-or-an-object-that-implements-countable`
+
+
+   * countable
+
+      * :ref:`must-be-of-type-countable|array,-%s-given`
+      * :ref:`parameter-must-be-an-array-or-an-object-that-implements-countable`
+
+
    * csv
 
       * :ref:`the-\$escape-parameter-must-be-provided-as-its-default-value-will-change`
@@ -991,6 +1007,7 @@ Features index
       * :ref:`private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes`
       * :ref:`property-cannot-be-both-final-and-private`
       * :ref:`property-hook-cannot-be-both-final-and-private`
+      * :ref:`property-in-interface-cannot-be-final`
       * :ref:`the-"generator"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated`
 
 
@@ -1191,6 +1208,11 @@ Features index
       * :ref:`division-of-php_int_min-by--1-is-not-an-integer`
 
 
+   * interace
+
+      * :ref:`property-in-interface-cannot-be-explicitly-abstract.`
+
+
    * interface
 
       * :ref:`%s-%s-cannot-implement-previously-implemented-interface-%s`
@@ -1209,6 +1231,7 @@ Features index
       * :ref:`interface-%s-cannot-contain-non-abstract-method-%s()`
       * :ref:`interfaces-may-not-include-properties`
       * :ref:`non-enum-class-%s-cannot-implement-interface-%s`
+      * :ref:`property-in-interface-cannot-be-protected-or-private`
       * :ref:`return-type-of-%s::%s()-should-either-be-compatible-with-%s::%s():-mixed`
       * :ref:`syntax-error,-unexpected-identifier-"%s"`
       * :ref:`syntax-error,-unexpected-token-"extends",-expecting-identifier`
@@ -1532,6 +1555,8 @@ Features index
       * :ref:`attempt-to-read-property-"%s"-on-%s`
       * :ref:`can\'t-use-nullsafe-operator-in-write-context`
       * :ref:`decrement-on-type-null-has-no-effect,-this-will-change-in-the-next-major-version-of-php`
+      * :ref:`must-be-of-type-countable|array,-%s-given`
+      * :ref:`parameter-must-be-an-array-or-an-object-that-implements-countable`
       * :ref:`trying-to-access-array-offset-on-%s`
 
 
@@ -1683,7 +1708,7 @@ Features index
       * :ref:`undefined-variable`
 
 
-   * php_max_int
+   * php_int_max
 
       * :ref:`cannot-add-element-to-the-array-as-the-next-element-is-already-occupied`
 
@@ -1742,6 +1767,9 @@ Features index
       * :ref:`property-%s-does-not-exist`
       * :ref:`property-%s::\$%s-cannot-have-type-%s`
       * :ref:`property-%s::\$%s-does-not-exist`
+      * :ref:`property-in-interface-cannot-be-explicitly-abstract.`
+      * :ref:`property-in-interface-cannot-be-final`
+      * :ref:`property-in-interface-cannot-be-protected-or-private`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"function"-or-"const"`
       * :ref:`syntax-error,-unexpected-token-"(",-expecting-variable`
       * :ref:`syntax-error,-unexpected-token-",",-expecting-variable-or-"\$"`
@@ -1777,6 +1805,9 @@ Features index
       * :ref:`property-cannot-be-both-final-and-private`
       * :ref:`property-hook-cannot-be-both-abstract-and-private`
       * :ref:`property-hook-cannot-be-both-final-and-private`
+      * :ref:`property-in-interface-cannot-be-explicitly-abstract.`
+      * :ref:`property-in-interface-cannot-be-final`
+      * :ref:`property-in-interface-cannot-be-protected-or-private`
       * :ref:`syntax-error,-unexpected-token-"{",-expecting-","-or-";"`
       * :ref:`unknown-hook-"%s"-for-property-%s::\$%s,-expected-"get"-or-"set"`
 
@@ -2024,6 +2055,7 @@ Features index
       * :ref:`array_product():-multiplication-is-not-supported-on-type-array`
       * :ref:`array_product():-multiplication-is-not-supported-on-type-object`
       * :ref:`array_product():-multiplication-is-not-supported-on-type-string`
+      * :ref:`array_sum():-addition-is-not-supported-on-type-array`
 
 
    * single-quote
@@ -2439,6 +2471,7 @@ Features index
       * :ref:`cannot-access-%s-property-%s::\$%s`
       * :ref:`multiple-access-type-modifiers-are-not-allowed`
       * :ref:`private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes`
+      * :ref:`property-in-interface-cannot-be-protected-or-private`
       * :ref:`syntax-error,-unexpected-token-"public"`
       * :ref:`the-magic-method-%s::%s()-must-have-public-visibility`
       * :ref:`trying-to-invoke-%s-method-%s::%s()-from-scope-%s`
@@ -2453,6 +2486,11 @@ Features index
       * :ref:`property-x::\$p-cannot-have-type-void`
       * :ref:`returning-by-reference-from-a-void-function-is-deprecated`
       * :ref:`void-cannot-be-used-as-a-parameter-type`
+
+
+   * vsprintf
+
+      * :ref:`the-arguments-array-must-contain-%d-items,-%d-given`
 
 
    * while

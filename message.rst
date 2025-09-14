@@ -85,6 +85,7 @@ PHP Error Messages
    messages/array_product():-multiplication-is-not-supported-on-type-array.rst
    messages/array_product():-multiplication-is-not-supported-on-type-object.rst
    messages/array_product():-multiplication-is-not-supported-on-type-string.rst
+   messages/array_sum():-addition-is-not-supported-on-type-array.rst
    messages/assert.callback-ini-setting-is-deprecated.rst
    messages/assignments-can-only-happen-to-writable-values.rst
    messages/attempt-to-assign-property-"%s"-on-null.rst
@@ -372,6 +373,7 @@ PHP Error Messages
    messages/must-be-a-valid-rounding-mode-(roundingmode::*).rst
    messages/must-be-contained-in-argument-#1-($haystack).rst
    messages/must-be-of-type-%s,-%s-given.rst
+   messages/must-be-of-type-countable|array,-%s-given.rst
    messages/must-be-one-of-pgsql_assoc,-pgsql_num,-or-pgsql_both.rst
    messages/must-be-one-of-pgsql_notice_last,-pgsql_notice_all,-or-pgsql_notice_clear.rst
    messages/must-contain-at-least-one-element.rst
@@ -417,6 +419,7 @@ PHP Error Messages
    messages/only-variables-should-be-passed-by-reference.rst
    messages/optional-parameter-$%s-declared-before-required-parameter-$%s-is-implicitly-treated-as-a-required-parameter.rst
    messages/parameter-%d-must-be-passed-by-reference.rst
+   messages/parameter-must-be-an-array-or-an-object-that-implements-countable.rst
    messages/parameter-uses-'parent'-as-type-hint-although-class-does-not-have-a-parent!.rst
    messages/passing-e_user_error-to-trigger_error()-is-deprecated-since-8.4,-throw-an-exception-or-call-exit-with-a-string-message-instead.rst
    messages/passing-false-or-null-is-deprecated-since-8.4.rst
@@ -433,6 +436,9 @@ PHP Error Messages
    messages/property-hook-cannot-be-both-abstract-and-private.rst
    messages/property-hook-cannot-be-both-final-and-private.rst
    messages/property-hook-list-must-not-be-empty.rst
+   messages/property-in-interface-cannot-be-explicitly-abstract..rst
+   messages/property-in-interface-cannot-be-final.rst
+   messages/property-in-interface-cannot-be-protected-or-private.rst
    messages/property-with-asymmetric-visibility-%s::$%s-must-have-type.rst
    messages/property-x::$p-cannot-have-type-void.rst
    messages/providing-individual-callbacks-instead-of-an-object-implementing-sessionhandlerinterface-is-deprecated.rst

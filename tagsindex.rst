@@ -334,6 +334,7 @@ Tag index
       * :ref:`array_product():-multiplication-is-not-supported-on-type-array`
       * :ref:`array_product():-multiplication-is-not-supported-on-type-object`
       * :ref:`array_product():-multiplication-is-not-supported-on-type-string`
+      * :ref:`array_sum():-addition-is-not-supported-on-type-array`
 
 
    * special case
@@ -493,6 +494,8 @@ Tag index
 
       * :ref:`call-to-a-member-function-%s()-on-%s`
       * :ref:`class-constant-%s::%s-cannot-have-type-%s`
+      * :ref:`must-be-of-type-countable|array,-%s-given`
+      * :ref:`parameter-must-be-an-array-or-an-object-that-implements-countable`
       * :ref:`property-%s::$%s-cannot-have-type-%s`
       * :ref:`type-mixed-can-only-be-used-as-a-standalone-type`
 

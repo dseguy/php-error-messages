@@ -21,7 +21,7 @@ The behavior of unparenthesized expressions containing both '.' and '>>'/'<<' wi
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/the-behavior-of-unparenthesized-expressions-containing-both-'.'-and-'>>'-'<<'-will-change-in-php-8:-'<<'-'>>'-will-take-a-higher-precedence.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/the-behavior-of-unparenthesized-expressions-containing-both-'.'-and-'>>'-'<<'-will-change-in-php-8:-'<<'-'>>'-will-take-a-higher-precedence.html","name":"The behavior of unparenthesized expressions containing both '.' and '>>'\/'<<' will change in PHP 8: '<<'\/'>>' will take a higher precedence","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 21 Feb 2025 18:53:43 +0000","dateModified":"Fri, 21 Feb 2025 18:53:43 +0000","description":"``<<``\/``>>`` and ``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/the-behavior-of-unparenthesized-expressions-containing-both-'.'-and-'>>'-'<<'-will-change-in-php-8:-'<<'-'>>'-will-take-a-higher-precedence.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/the-behavior-of-unparenthesized-expressions-containing-both-'.'-and-'>>'-'<<'-will-change-in-php-8:-'<<'-'>>'-will-take-a-higher-precedence.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/the-behavior-of-unparenthesized-expressions-containing-both-'.'-and-'>>'-'<<'-will-change-in-php-8:-'<<'-'>>'-will-take-a-higher-precedence.html","name":"The behavior of unparenthesized expressions containing both '.' and '>>'\/'<<' will change in PHP 8: '<<'\/'>>' will take a higher precedence","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 13 Sep 2025 09:51:40 +0000","dateModified":"Sat, 13 Sep 2025 09:51:40 +0000","description":"``<<``\/``>>`` and ``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/the-behavior-of-unparenthesized-expressions-containing-both-'.'-and-'>>'-'<<'-will-change-in-php-8:-'<<'-'>>'-will-take-a-higher-precedence.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -49,3 +49,8 @@ Related Error Messages
 ______________________
 
 + :ref:`the-behavior-of-unparenthesized-expressions-containing-both-'.'-and-'+'-'-'-will-change-in-php-8:-'+'-'-'-will-take-a-higher-precedence`
+
+Static Analysis
+_______________
+
+This error may be tracked down with the following static analysis rules: `Php/ConcatAndAddition <https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/ConcatAndAddition.html>`_, `Php/NestedTernaryWithoutParenthesis <https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/NestedTernaryWithoutParenthesis.html>`_.

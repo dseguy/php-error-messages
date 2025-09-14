@@ -21,7 +21,7 @@ the $escape parameter must be provided as its default value will change
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/the-$escape-parameter-must-be-provided-as-its-default-value-will-change.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/the-$escape-parameter-must-be-provided-as-its-default-value-will-change.html","name":"the $escape parameter must be provided as its default value will change","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 21 Feb 2025 18:53:43 +0000","dateModified":"Fri, 21 Feb 2025 18:53:43 +0000","description":"The ``$escape`` parameter of various PHP functions that deal with CSV files will change in PHP 9","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/the-$escape-parameter-must-be-provided-as-its-default-value-will-change.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/the-$escape-parameter-must-be-provided-as-its-default-value-will-change.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/the-$escape-parameter-must-be-provided-as-its-default-value-will-change.html","name":"the $escape parameter must be provided as its default value will change","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 13 Sep 2025 10:52:40 +0000","dateModified":"Sat, 13 Sep 2025 10:52:40 +0000","description":"The ``$escape`` parameter of various PHP functions that deal with CSV files will change in PHP 9","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/the-$escape-parameter-must-be-provided-as-its-default-value-will-change.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -52,3 +52,18 @@ ________
 
 + `Theescapeparametermustbeprovided <https://php.watch/versions/8.4/csv-functions-escape-parameter>`_
 + `fputcsvandescapecharacter <https://externals.io/message/100729>`_
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `fputcsvEscape <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/fputcsvEscape.html>`_.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `fputcsvEscape <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/fputcsvEscape.html>`_.
+
+Static Analysis
+_______________
+
+This error may be tracked down with the following static analysis rules: `Php/FputcsvNeedsEscape <https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/FputcsvNeedsEscape.html>`_.

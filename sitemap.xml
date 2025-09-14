@@ -241,6 +241,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/array_product%28%29%3A-multiplication-is-not-supported-on-type-string.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/array_sum%28%29%3A-addition-is-not-supported-on-type-array.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/assert.callback-ini-setting-is-deprecated.html</loc>
  </url>
  <url>
@@ -1102,6 +1105,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-of-type-%25s%2C-%25s-given.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-of-type-countable%7Carray%2C-%25s-given.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-one-of-pgsql_assoc%2C-pgsql_num%2C-or-pgsql_both.html</loc>
  </url>
  <url>
@@ -1237,6 +1243,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/parameter-%25d-must-be-passed-by-reference.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/parameter-must-be-an-array-or-an-object-that-implements-countable.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/parameter-uses-%27parent%27-as-type-hint-although-class-does-not-have-a-parent%21.html</loc>
  </url>
  <url>
@@ -1283,6 +1292,15 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/property-hook-list-must-not-be-empty.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/property-in-interface-cannot-be-explicitly-abstract..html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/property-in-interface-cannot-be-final.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/property-in-interface-cannot-be-protected-or-private.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/property-with-asymmetric-visibility-%25s%3A%3A%24%25s-must-have-type.html</loc>
