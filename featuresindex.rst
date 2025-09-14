@@ -952,6 +952,7 @@ Features index
       * :ref:`cannot-use-"parent"-when-current-class-scope-has-no-parent`
       * :ref:`class-%s-cannot-extend-final-class-%s`
       * :ref:`interface-%s-cannot-extend-class-%s`
+      * :ref:`interface-%s-cannot-implement-itself`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"extends",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"extends",-expecting-identifier`
@@ -1230,6 +1231,7 @@ Features index
       * :ref:`interface-"%s"-not-found`
       * :ref:`interface-%s-cannot-contain-non-abstract-method-%s()`
       * :ref:`interface-%s-cannot-extend-class-%s`
+      * :ref:`interface-%s-cannot-implement-itself`
       * :ref:`interfaces-may-not-include-properties`
       * :ref:`non-enum-class-%s-cannot-implement-interface-%s`
       * :ref:`property-in-interface-cannot-be-explicitly-abstract.`

@@ -997,6 +997,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/interface-%25s-cannot-extend-class-%25s.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/interface-%25s-cannot-implement-itself.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/interfaces-may-not-include-properties.html</loc>
  </url>
  <url>

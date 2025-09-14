@@ -337,6 +337,7 @@ PHP Error Messages
    messages/interface-"%s"-not-found.rst
    messages/interface-%s-cannot-contain-non-abstract-method-%s().rst
    messages/interface-%s-cannot-extend-class-%s.rst
+   messages/interface-%s-cannot-implement-itself.rst
    messages/interfaces-may-not-include-properties.rst
    messages/interfaces-may-only-include-hooked-properties.rst
    messages/invalid-argument-supplied-for-foreach().rst
