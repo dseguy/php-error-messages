@@ -192,6 +192,7 @@ PHP Error Messages
    messages/cannot-use-"%s"-as-a-type-name-as-it-is-reserved.rst
    messages/cannot-use-"%s"-when-no-class-scope-is-active.rst
    messages/cannot-use-"abstract"-as-method-modifier-in-trait-alias.rst
+   messages/cannot-use-"parent"-when-current-class-scope-has-no-parent.rst
    messages/cannot-use-"static"-when-no-class-scope-is-active.rst
    messages/cannot-use-%s-as-%s-because-%s-is-a-special-class-name.rst
    messages/cannot-use-%s-as-%s-because-'%s'-is-a-special-class-name.rst
@@ -335,6 +336,7 @@ PHP Error Messages
    messages/instanceof-expects-an-object-instance,-constant-given.rst
    messages/interface-"%s"-not-found.rst
    messages/interface-%s-cannot-contain-non-abstract-method-%s().rst
+   messages/interface-%s-cannot-extend-class-%s.rst
    messages/interfaces-may-not-include-properties.rst
    messages/interfaces-may-only-include-hooked-properties.rst
    messages/invalid-argument-supplied-for-foreach().rst
@@ -371,6 +373,7 @@ PHP Error Messages
    messages/must-be-a-valid-encoding,-"%s"-given.rst
    messages/must-be-a-valid-method-name.rst
    messages/must-be-a-valid-rounding-mode-(roundingmode::*).rst
+   messages/must-be-between-1-and-7.rst
    messages/must-be-contained-in-argument-#1-($haystack).rst
    messages/must-be-of-type-%s,-%s-given.rst
    messages/must-be-of-type-countable|array,-%s-given.rst
@@ -581,6 +584,7 @@ PHP Error Messages
    messages/the-(real)-cast-is-deprecated,-use-(float)-instead.rst
    messages/the-(unset)-cast-is-deprecated.rst
    messages/the-(unset)-cast-is-no-longer-supported.rst
+   messages/the-arguments-array-must-contain-%d-items,-%d-given.rst
    messages/the-behavior-of-unparenthesized-expressions-containing-both-'.'-and-'+'-'-'-will-change-in-php-8:-'+'-'-'-will-take-a-higher-precedence.rst
    messages/the-behavior-of-unparenthesized-expressions-containing-both-'.'-and-'<<'-'>>'-will-change-in-php-8:-'<<'-'>>'-will-take-a-higher-precedence.rst
    messages/the-behavior-of-unparenthesized-expressions-containing-both-'.'-and-'>>'-'<<'-will-change-in-php-8:-'<<'-'>>'-will-take-a-higher-precedence.rst

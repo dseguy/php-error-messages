@@ -82,7 +82,6 @@ Features index
       * :ref:`cannot-use-"abstract"-as-method-modifier-in-trait-alias`
       * :ref:`cannot-use-\'abstract\'-as-constant-modifier`
       * :ref:`cannot-use-\'abstract\'-as-method-modifier`
-      * :ref:`cannot-use-\'final\'-as-constant-modifier`
       * :ref:`cannot-use-the-%s-modifier-on-a-%s`
       * :ref:`cannot-use-the-abstract-modifier-on-a-property`
       * :ref:`class-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-methods`
@@ -483,9 +482,11 @@ Features index
       * :ref:`cannot-make-non-abstract-method-%s::%s()-abstract-in-class-%s`
       * :ref:`cannot-redeclare-%s::%s()`
       * :ref:`cannot-use%s-%s-as-%s-because-the-name-is-already-in-use`
+      * :ref:`cannot-use-"parent"-when-current-class-scope-has-no-parent`
       * :ref:`class-"%s"-not-found`
       * :ref:`class-%s-cannot-extend-%s-%s`
       * :ref:`illegal-class-name`
+      * :ref:`interface-%s-cannot-extend-class-%s`
       * :ref:`must-be-a-user-defined-class-name,-internal-class-name-given`
       * :ref:`must-be-a-valid-class-name,-%s-given`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"function"-or-"const"`
@@ -948,7 +949,9 @@ Features index
 
    * extends
 
+      * :ref:`cannot-use-"parent"-when-current-class-scope-has-no-parent`
       * :ref:`class-%s-cannot-extend-final-class-%s`
+      * :ref:`interface-%s-cannot-extend-class-%s`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"extends",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"extends",-expecting-identifier`
@@ -999,6 +1002,7 @@ Features index
       * :ref:`cannot-override-final-%s::%s()-with-%s::%s()`
       * :ref:`cannot-override-final-property-%s::\$%s`
       * :ref:`cannot-override-final-property-hook-%s::%s()`
+      * :ref:`cannot-use-\'final\'-as-constant-modifier`
       * :ref:`cannot-use-the-%s-modifier-on-a-%s`
       * :ref:`cannot-use-the-final-modifier-on-a-property`
       * :ref:`class-%s-cannot-extend-%s-%s`
@@ -1142,6 +1146,7 @@ Features index
       * :ref:`%s-cannot-implement-%s---it-is-not-an-interface`
       * :ref:`b-cannot-implement-a---it-is-not-an-interface`
       * :ref:`class-%s-cannot-implement-both-iterator-and-iteratoraggregate-at-the-same-time`
+      * :ref:`interface-%s-cannot-extend-class-%s`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"extends",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"implements"`
@@ -1208,11 +1213,6 @@ Features index
       * :ref:`division-of-php_int_min-by--1-is-not-an-integer`
 
 
-   * interace
-
-      * :ref:`property-in-interface-cannot-be-explicitly-abstract.`
-
-
    * interface
 
       * :ref:`%s-%s-cannot-implement-previously-implemented-interface-%s`
@@ -1229,8 +1229,10 @@ Features index
       * :ref:`datetimeinterface-can\'t-be-implemented-by-user-classes`
       * :ref:`interface-"%s"-not-found`
       * :ref:`interface-%s-cannot-contain-non-abstract-method-%s()`
+      * :ref:`interface-%s-cannot-extend-class-%s`
       * :ref:`interfaces-may-not-include-properties`
       * :ref:`non-enum-class-%s-cannot-implement-interface-%s`
+      * :ref:`property-in-interface-cannot-be-explicitly-abstract.`
       * :ref:`property-in-interface-cannot-be-protected-or-private`
       * :ref:`return-type-of-%s::%s()-should-either-be-compatible-with-%s::%s():-mixed`
       * :ref:`syntax-error,-unexpected-identifier-"%s"`
@@ -1560,12 +1562,6 @@ Features index
       * :ref:`trying-to-access-array-offset-on-%s`
 
 
-   * null-coalesce
-
-      * :ref:`only-arrays-and-traversables-can-be-unpacked`
-      * :ref:`only-arrays-can-be-unpacked-in-constant-expression`
-
-
    * nullable
 
       * :ref:`type-mixed-cannot-be-marked-as-nullable-since-mixed-already-includes-null`
@@ -1674,6 +1670,7 @@ Features index
       * :ref:`cannot-access-parent::-when-current-class-scope-has-no-parent`
       * :ref:`cannot-access-parent::-when-no-class-scope-is-active`
       * :ref:`cannot-use-"%s"-when-no-class-scope-is-active`
+      * :ref:`cannot-use-"parent"-when-current-class-scope-has-no-parent`
       * :ref:`object-of-type-%s-has-not-been-correctly-initialized-by-calling-parent::__construct()-in-its-constructor`
       * :ref:`parameter-uses-\'parent\'-as-type-hint-although-class-does-not-have-a-parent!`
 
@@ -1697,6 +1694,12 @@ Features index
       * :ref:`using-"_"-as-%s-is-deprecated-since-8.4`
 
 
+   * pgsql
+
+      * :ref:`must-be-one-of-pgsql_assoc,-pgsql_num,-or-pgsql_both`
+      * :ref:`must-be-one-of-pgsql_notice_last,-pgsql_notice_all,-or-pgsql_notice_clear`
+
+
    * phar
 
       * :ref:`entry-%s-does-not-exist-and-cannot-be-deleted`
@@ -1711,12 +1714,6 @@ Features index
    * php_int_max
 
       * :ref:`cannot-add-element-to-the-array-as-the-next-element-is-already-occupied`
-
-
-   * postgresql
-
-      * :ref:`must-be-one-of-pgsql_assoc,-pgsql_num,-or-pgsql_both`
-      * :ref:`must-be-one-of-pgsql_notice_last,-pgsql_notice_all,-or-pgsql_notice_clear`
 
 
    * printf
@@ -2315,6 +2312,7 @@ Features index
       * :ref:`%s():-implicitly-marking-parameter-\$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead`
       * :ref:`%s-is-not-supported-on-type-%s`
       * :ref:`argument-#%d-(\$%s)-must-be-of-type-%s,-%s-given`
+      * :ref:`argument-#1-(\$start)-must-be-a-single-byte-string-if`
       * :ref:`cannot-assign-%s-to-class-constant-%s::%s-of-type`
       * :ref:`cannot-assign-%s-to-property-%s::\$%s-of-type-%s`
       * :ref:`cannot-assign-%s-to-reference-held-by-property-%s::\$%s-of-type-%s`
@@ -2327,6 +2325,7 @@ Features index
       * :ref:`duplicate-type-%s-is-redundant`
       * :ref:`is-an-invalid-class-name`
       * :ref:`must-be-a-valid-comparison-operator`
+      * :ref:`must-be-between-1-and-7`
       * :ref:`must-be-of-type-%s,-%s-given`
       * :ref:`needle-is-not-a-string-or-an-integer`
       * :ref:`readonly-property-%s::\$%s-must-have-type`

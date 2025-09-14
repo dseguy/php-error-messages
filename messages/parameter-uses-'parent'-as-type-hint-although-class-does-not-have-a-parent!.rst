@@ -21,7 +21,7 @@ Parameter uses 'parent' as type hint although class does not have a parent!
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/parameter-uses-'parent'-as-type-hint-although-class-does-not-have-a-parent!.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/parameter-uses-'parent'-as-type-hint-although-class-does-not-have-a-parent!.html","name":"Parameter uses 'parent' as type hint although class does not have a parent!","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 21 Feb 2025 18:53:43 +0000","dateModified":"Fri, 21 Feb 2025 18:53:43 +0000","description":"This error is a Reflection API error","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/parameter-uses-'parent'-as-type-hint-although-class-does-not-have-a-parent!.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/parameter-uses-'parent'-as-type-hint-although-class-does-not-have-a-parent!.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/parameter-uses-'parent'-as-type-hint-although-class-does-not-have-a-parent!.html","name":"Parameter uses 'parent' as type hint although class does not have a parent!","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 14 Sep 2025 15:17:46 +0000","dateModified":"Sun, 14 Sep 2025 15:17:46 +0000","description":"This error is a Reflection API error","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/parameter-uses-'parent'-as-type-hint-although-class-does-not-have-a-parent!.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -45,3 +45,6 @@ Solutions
 _________
 
 + Check the name of the type before trying to instantiate it.
+
+
+In more recent PHP versions, this error message is now :ref:`cannot-use-"parent"-when-current-class-scope-has-no-parent`.

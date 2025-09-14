@@ -50,6 +50,11 @@ Tag index
       * :ref:`unparenthesized-\`a-?-b-:-c-?-d-:-e\`-is-not-supported.`
 
 
+   * class
+
+      * :ref:`cannot-use-"parent"-when-current-class-scope-has-no-parent`
+
+
    * class constant
 
       * :ref:`undefined-class-constant-\'%s::%s\'`
