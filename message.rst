@@ -193,6 +193,7 @@ PHP Error Messages
    messages/cannot-use-"%s"-when-no-class-scope-is-active.rst
    messages/cannot-use-"abstract"-as-method-modifier-in-trait-alias.rst
    messages/cannot-use-"parent"-when-current-class-scope-has-no-parent.rst
+   messages/cannot-use-"parent"-when-no-class-scope-is-active.rst
    messages/cannot-use-"static"-when-no-class-scope-is-active.rst
    messages/cannot-use-%s-as-%s-because-%s-is-a-special-class-name.rst
    messages/cannot-use-%s-as-%s-because-'%s'-is-a-special-class-name.rst
@@ -232,6 +233,7 @@ PHP Error Messages
    messages/cannot-use-the-abstract-modifier-on-a-property.rst
    messages/cannot-use-the-final-modifier-on-a-property.rst
    messages/cannot-use-the-static-modifier-on-a-property-hook.rst
+   messages/cannot-use-traits-inside-of-interfaces.-%s-is-used-in-%s.rst
    messages/cannot-use-try-without-catch-or-finally.rst
    messages/cannot-use-variable-$%s-twice.rst
    messages/case-%s-of-backed-enum-%s-must-have-a-value.rst
@@ -467,6 +469,7 @@ PHP Error Messages
    messages/static-property-%s::$%s-cannot-be-readonly.rst
    messages/static-property-may-not-have-asymmetric-visibility.rst
    messages/strict_types-declaration-must-be-the-very-first-statement-in-the-script.rst
+   messages/strlen():-passing-null-to-parameter-#1-($string)-of-type-string-is-deprecated.rst
    messages/switch-statements-may-only-contain-one-default-clause.rst
    messages/syntax-error,-unexpected-')',-expecting-'='.rst
    messages/syntax-error,-unexpected-')',-expecting-'|'-or-variable-(t_variable).rst

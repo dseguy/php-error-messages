@@ -21,7 +21,7 @@ range(): Argument #1 ($start) must be a single byte string if argument #2 ($end)
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/argument-#1-($start)-must-be-a-single-byte-string-if.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/argument-#1-($start)-must-be-a-single-byte-string-if.html","name":"range(): Argument #1 ($start) must be a single byte string if argument #2 ($end) is a single byte string, argument #2 ($end) converted to 0","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 14 Sep 2025 15:01:32 +0000","dateModified":"Sun, 14 Sep 2025 15:01:32 +0000","description":"When range() produces all the values between two boundaries","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/argument-#1-($start)-must-be-a-single-byte-string-if.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/argument-#1-($start)-must-be-a-single-byte-string-if.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/argument-#1-($start)-must-be-a-single-byte-string-if.html","name":"range(): Argument #1 ($start) must be a single byte string if argument #2 ($end) is a single byte string, argument #2 ($end) converted to 0","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Sep 2025 17:23:18 +0000","dateModified":"Mon, 15 Sep 2025 17:23:18 +0000","description":"When range() produces all the values between two boundaries","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/argument-#1-($start)-must-be-a-single-byte-string-if.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -49,6 +49,16 @@ _________
 
 + Cast the integer to a string.
 + Cast the string to an integer.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `rangeSingleByteString <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/rangeSingleByteString.html>`_.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `rangeSingleByteString <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/rangeSingleByteString.html>`_.
 
 Static Analysis
 _______________

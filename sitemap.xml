@@ -565,6 +565,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%22parent%22-when-current-class-scope-has-no-parent.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%22parent%22-when-no-class-scope-is-active.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%22static%22-when-no-class-scope-is-active.html</loc>
  </url>
  <url>
@@ -680,6 +683,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-the-static-modifier-on-a-property-hook.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-traits-inside-of-interfaces.-%25s-is-used-in-%25s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-try-without-catch-or-finally.html</loc>
@@ -1385,6 +1391,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/strict_types-declaration-must-be-the-very-first-statement-in-the-script.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/strlen%28%29%3A-passing-null-to-parameter-%231-%28%24string%29-of-type-string-is-deprecated.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/switch-statements-may-only-contain-one-default-clause.html</loc>

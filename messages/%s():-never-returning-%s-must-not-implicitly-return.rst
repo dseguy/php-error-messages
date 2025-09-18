@@ -21,7 +21,7 @@
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s():-never-returning-%s-must-not-implicitly-return.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s():-never-returning-%s-must-not-implicitly-return.html","name":"%s(): never-returning %s must not implicitly return","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 21 Feb 2025 18:53:43 +0000","dateModified":"Fri, 21 Feb 2025 18:53:43 +0000","description":"An implicit return is a method reaching the end of its body block, and ending its execution without an explicit ``return`` statement","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/%s():-never-returning-%s-must-not-implicitly-return.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s():-never-returning-%s-must-not-implicitly-return.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s():-never-returning-%s-must-not-implicitly-return.html","name":"%s(): never-returning %s must not implicitly return","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 15 Sep 2025 17:12:35 +0000","dateModified":"Mon, 15 Sep 2025 17:12:35 +0000","description":"An implicit return is a method reaching the end of its body block, and ending its execution without an explicit ``return`` statement","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/%s():-never-returning-%s-must-not-implicitly-return.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -59,3 +59,6 @@ _________
 + Add a ``die`` or ``exit`` before the end of the method.
 + Add a ``throw`` before the end of the method.
 + Add an infinite loop in the method.
+
+
+In previous PHP versions, this error message used to be :ref:`%s():-never-returning-function-must-not-implicitly-return`.

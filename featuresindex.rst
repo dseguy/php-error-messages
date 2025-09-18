@@ -162,6 +162,7 @@ Features index
       * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported`
       * :ref:`array-to-string-conversion`
       * :ref:`array_key_exists():-argument-#2-(\$array)-must-be-of-type-array,-%s-given`
+      * :ref:`automatic-conversion-of-false-to-array-is-deprecated`
       * :ref:`calling-%s()-on-an-object-is-deprecated`
       * :ref:`can-only-flip-string-and-integer-values,-entry-skipped`
       * :ref:`cannot-unpack-array-with-string-keys`
@@ -561,6 +562,7 @@ Features index
 
       * :ref:`only-arrays-and-traversables-can-be-unpacked`
       * :ref:`only-arrays-can-be-unpacked-in-constant-expression`
+      * :ref:`strlen():-passing-null-to-parameter-#1-(\$string)-of-type-string-is-deprecated`
       * :ref:`syntax-error,-unexpected-token-"??"`
       * :ref:`typed-property-%s::\$%s-must-not-be-accessed-before-initialization`
       * :ref:`typed-static-property-%s::\$%s-must-not-be-accessed-before-initialization`
@@ -848,6 +850,11 @@ Features index
       * :ref:`typed-static-property-%s::\$%s-must-not-be-accessed-before-initialization`
 
 
+   * empty-string
+
+      * :ref:`strlen():-passing-null-to-parameter-#1-(\$string)-of-type-string-is-deprecated`
+
+
    * encoding
 
       * :ref:`must-be-a-valid-encoding,-"%s"-given`
@@ -966,6 +973,7 @@ Features index
 
    * false
 
+      * :ref:`automatic-conversion-of-false-to-array-is-deprecated`
       * :ref:`trying-to-access-array-offset-on-%s`
       * :ref:`type-contains-both-true-and-false,-bool-must-be-used-instead`
 
@@ -1061,6 +1069,7 @@ Features index
       * :ref:`call-to-undefined-function-%s()`
       * :ref:`call-to-undefined-function-each()`
       * :ref:`call-to-undefined-function`
+      * :ref:`cannot-use-"parent"-when-no-class-scope-is-active`
       * :ref:`func_get_arg()-cannot-be-called-from-the-global-scope`
       * :ref:`func_get_args()-cannot-be-called-from-the-global-scope`
       * :ref:`func_num_args()-must-be-called-from-a-function-context`
@@ -1225,6 +1234,7 @@ Features index
       * :ref:`cannot-apply-#[allowdynamicproperties]-to-interface-%s`
       * :ref:`cannot-inherit-previously-inherited-or-override-constant-%s-from-interface-%s`
       * :ref:`cannot-instantiate-interface-%s`
+      * :ref:`cannot-use-traits-inside-of-interfaces.-%s-is-used-in-%s`
       * :ref:`class-%s-cannot-implement-previously-implemented-interface-%s`
       * :ref:`class-%s-must-implement-interface-%s-as-part-of-either-%s-or-%s`
       * :ref:`datetimeinterface-can\'t-be-implemented-by-user-classes`
@@ -1561,6 +1571,7 @@ Features index
       * :ref:`decrement-on-type-null-has-no-effect,-this-will-change-in-the-next-major-version-of-php`
       * :ref:`must-be-of-type-countable|array,-%s-given`
       * :ref:`parameter-must-be-an-array-or-an-object-that-implements-countable`
+      * :ref:`strlen():-passing-null-to-parameter-#1-(\$string)-of-type-string-is-deprecated`
       * :ref:`trying-to-access-array-offset-on-%s`
 
 
@@ -1673,6 +1684,7 @@ Features index
       * :ref:`cannot-access-parent::-when-no-class-scope-is-active`
       * :ref:`cannot-use-"%s"-when-no-class-scope-is-active`
       * :ref:`cannot-use-"parent"-when-current-class-scope-has-no-parent`
+      * :ref:`cannot-use-"parent"-when-no-class-scope-is-active`
       * :ref:`object-of-type-%s-has-not-been-correctly-initialized-by-calling-parent::__construct()-in-its-constructor`
       * :ref:`parameter-uses-\'parent\'-as-type-hint-although-class-does-not-have-a-parent!`
 
@@ -2273,6 +2285,7 @@ Features index
       * :ref:`cannot-access-trait-constant-%s::%s-directly`
       * :ref:`cannot-apply-#[allowdynamicproperties]-to-trait-%s`
       * :ref:`cannot-instantiate-trait-%s`
+      * :ref:`cannot-use-traits-inside-of-interfaces.-%s-is-used-in-%s`
       * :ref:`class-%s-is-not-a-trait`
       * :ref:`could-not-find-trait-%s`
       * :ref:`enum-"%s"-not-found`

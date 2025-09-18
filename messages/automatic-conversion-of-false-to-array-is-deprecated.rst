@@ -21,7 +21,7 @@ Automatic conversion of false to array is deprecated
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/automatic-conversion-of-false-to-array-is-deprecated.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/automatic-conversion-of-false-to-array-is-deprecated.html","name":"Automatic conversion of false to array is deprecated","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 21 Feb 2025 18:53:43 +0000","dateModified":"Fri, 21 Feb 2025 18:53:43 +0000","description":"The array syntax ``$variable[index]`` is only available for arrays and strings","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/automatic-conversion-of-false-to-array-is-deprecated.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/automatic-conversion-of-false-to-array-is-deprecated.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/automatic-conversion-of-false-to-array-is-deprecated.html","name":"Automatic conversion of false to array is deprecated","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 18 Sep 2025 04:56:55 +0000","dateModified":"Thu, 18 Sep 2025 04:56:55 +0000","description":"The array syntax ``$variable[index]`` is only available for arrays and strings","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/automatic-conversion-of-false-to-array-is-deprecated.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -65,3 +65,18 @@ ______________________
 
 + :ref:`cannot-unset-offset-in-a-non-array-variable`
 + :ref:`cannot-auto-initialize-an-array-inside-property-%s::$%s-of-type-%s`
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `autoInitializeArrayFromBool <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/autoInitializeArrayFromBool.html>`_.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `autoInitializeArrayFromBool <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/autoInitializeArrayFromBool.html>`_.
+
+Static Analysis
+_______________
+
+This error may be tracked down with the following static analysis rules: `Php/FalseToArray <https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/FalseToArray.html>`_.

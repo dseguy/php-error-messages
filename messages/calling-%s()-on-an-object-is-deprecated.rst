@@ -21,7 +21,7 @@ Calling %s() on an object is deprecated
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/calling-%s()-on-an-object-is-deprecated.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/calling-%s()-on-an-object-is-deprecated.html","name":"Calling %s() on an object is deprecated","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 06 Apr 2025 08:11:36 +0000","dateModified":"Sun, 06 Apr 2025 08:11:36 +0000","description":"``prev()``, ``current()``, ``next()`` and ``reset()`` where php native functions used to navigate in arrays","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/calling-%s()-on-an-object-is-deprecated.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/calling-%s()-on-an-object-is-deprecated.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/calling-%s()-on-an-object-is-deprecated.html","name":"Calling %s() on an object is deprecated","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 18 Sep 2025 04:57:17 +0000","dateModified":"Thu, 18 Sep 2025 04:57:17 +0000","description":"``prev()``, ``current()``, ``next()`` and ``reset()`` where php native functions used to navigate in arrays","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/calling-%s()-on-an-object-is-deprecated.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -63,3 +63,8 @@ Changed Behavior
 ________________
 
 This error may appear following an evolution in behavior, in previous versions. See `passingObjectIsDeprecated <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/passingObjectIsDeprecated.html>`_.
+
+Static Analysis
+_______________
+
+This error may be tracked down with the following static analysis rules: `none <https://exakat.readthedocs.io/en/latest/Reference/Rules/none.html>`_.
