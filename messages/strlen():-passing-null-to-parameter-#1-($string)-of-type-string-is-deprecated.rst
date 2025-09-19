@@ -21,12 +21,12 @@ strlen(): Passing null to parameter #1 ($string) of type string is deprecated
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/strlen():-passing-null-to-parameter-#1-($string)-of-type-string-is-deprecated.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/strlen():-passing-null-to-parameter-#1-($string)-of-type-string-is-deprecated.html","name":"strlen(): Passing null to parameter #1 ($string) of type string is deprecated","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 17 Sep 2025 17:18:00 +0000","dateModified":"Wed, 17 Sep 2025 17:18:00 +0000","description":"``strlen()`` calculates the length of a string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/strlen():-passing-null-to-parameter-#1-($string)-of-type-string-is-deprecated.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/strlen():-passing-null-to-parameter-#1-($string)-of-type-string-is-deprecated.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/strlen():-passing-null-to-parameter-#1-($string)-of-type-string-is-deprecated.html","name":"strlen(): Passing null to parameter #1 ($string) of type string is deprecated","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Sep 2025 19:31:17 +0000","dateModified":"Fri, 19 Sep 2025 19:31:17 +0000","description":"``strlen()`` calculates the length of a string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/strlen():-passing-null-to-parameter-#1-($string)-of-type-string-is-deprecated.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
  
-``strlen()`` calculates the length of a string. It only works on strings, and, in particular, cannot compute the length of the ``null`` value. 
+``strlen()`` calculates the length of a string. It only works on strings, and, in particular, cannot compute the length of the ``null`` value.
 
 Example
 _______

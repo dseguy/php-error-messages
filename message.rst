@@ -301,6 +301,7 @@ PHP Error Messages
    messages/error-at-offset-%zd-of-%zd.rst
    messages/exponent-cannot-have-a-fractional-part.rst
    messages/extra-data-starting-at-offset-%d-of-%zd-bytes.rst
+   messages/failed-to-create-closure-from-callable:-%s.rst
    messages/failed-to-open-stream-from-socketpair.rst
    messages/fetching-properties-on-non-enums-in-constant-expressions-is-not-allowed.rst
    messages/ffi-api-is-restricted-by-"ffi.enable"-configuration-directive.rst

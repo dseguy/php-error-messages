@@ -193,6 +193,11 @@ Features index
       * :ref:`undefined-offset`
 
 
+   * array-callable
+
+      * :ref:`failed-to-create-closure-from-callable:-%s`
+
+
    * array-syntax
 
       * :ref:`cannot-use-string-offset-as-an-array`
@@ -405,6 +410,7 @@ Features index
    * callable
 
       * :ref:`class-constant-%s::%s-cannot-have-type-%s`
+      * :ref:`failed-to-create-closure-from-callable:-%s`
       * :ref:`object-of-type-%s-is-not-callable`
       * :ref:`value-of-type-%s-is-not-callable`
 
@@ -548,6 +554,7 @@ Features index
       * :ref:`cannot-bind-method-%s::%s()-to-object-of-class-%s`
       * :ref:`cannot-rebind-scope-of-closure-created-from-method`
       * :ref:`cannot-use-variable-\$%s-twice`
+      * :ref:`failed-to-create-closure-from-callable:-%s`
       * :ref:`syntax-error,-unexpected-token-"("`
       * :ref:`syntax-error,-unexpected-token-")",-expecting-"function"-or-"fn"-or-"static"-or-"#["`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-"function"-or-"fn"-or-"static"-or-"#["`
