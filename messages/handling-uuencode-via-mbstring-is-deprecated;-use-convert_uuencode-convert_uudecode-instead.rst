@@ -21,7 +21,7 @@ Handling Uuencode via mbstring is deprecated; use convert_uuencode/convert_uudec
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/handling-uuencode-via-mbstring-is-deprecated;-use-convert_uuencode-convert_uudecode-instead.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/handling-uuencode-via-mbstring-is-deprecated;-use-convert_uuencode-convert_uudecode-instead.html","name":"Handling Uuencode via mbstring is deprecated; use convert_uuencode\/convert_uudecode instead","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 23 Feb 2025 14:15:34 +0000","dateModified":"Sun, 23 Feb 2025 14:15:34 +0000","description":"Since PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/handling-uuencode-via-mbstring-is-deprecated;-use-convert_uuencode-convert_uudecode-instead.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/handling-uuencode-via-mbstring-is-deprecated;-use-convert_uuencode-convert_uudecode-instead.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/handling-uuencode-via-mbstring-is-deprecated;-use-convert_uuencode-convert_uudecode-instead.html","name":"Handling Uuencode via mbstring is deprecated; use convert_uuencode\/convert_uudecode instead","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 21 Sep 2025 16:37:58 +0000","dateModified":"Sun, 21 Sep 2025 16:37:58 +0000","description":"Since PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/handling-uuencode-via-mbstring-is-deprecated;-use-convert_uuencode-convert_uudecode-instead.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -52,3 +52,18 @@ ______________________
 + :ref:`handling-base64-via-mbstring-is-deprecated;-use-base64_encode-base64_decode-instead`
 + :ref:`handling-html-entities-via-mbstring-is-deprecated;-use-htmlspecialchars,-htmlentities,-or-mb_encode_numericentity-mb_decode_numericentity`
 + :ref:`handling-qprint-via-mbstring-is-deprecated;-use-quoted_printable_encode-quoted_printable_decode`
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `mb_convert_encoding <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/mb_convert_encoding.html>`_.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `mb_convert_encoding <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/mb_convert_encoding.html>`_.
+
+Static Analysis
+_______________
+
+This error may be tracked down with the following static analysis rules: `Structures/DeprecatedMbEncoding <https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/DeprecatedMbEncoding.html>`_.

@@ -21,7 +21,7 @@ Handling Base64 via mbstring is deprecated; use base64_encode/base64_decode inst
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/handling-base64-via-mbstring-is-deprecated;-use-base64_encode-base64_decode-instead.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/handling-base64-via-mbstring-is-deprecated;-use-base64_encode-base64_decode-instead.html","name":"Handling Base64 via mbstring is deprecated; use base64_encode\/base64_decode instead","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Sep 2025 19:29:47 +0000","dateModified":"Fri, 19 Sep 2025 19:29:47 +0000","description":"Since PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/handling-base64-via-mbstring-is-deprecated;-use-base64_encode-base64_decode-instead.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/handling-base64-via-mbstring-is-deprecated;-use-base64_encode-base64_decode-instead.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/handling-base64-via-mbstring-is-deprecated;-use-base64_encode-base64_decode-instead.html","name":"Handling Base64 via mbstring is deprecated; use base64_encode\/base64_decode instead","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 21 Sep 2025 16:38:07 +0000","dateModified":"Sun, 21 Sep 2025 16:38:07 +0000","description":"Since PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/handling-base64-via-mbstring-is-deprecated;-use-base64_encode-base64_decode-instead.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -56,14 +56,14 @@ ______________________
 Changed Behavior
 ________________
 
-This error may appear following an evolution in behavior, in previous versions. See `none <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/none.html>`_.
+This error may appear following an evolution in behavior, in previous versions. See `mb_convert_encoding <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/mb_convert_encoding.html>`_.
 
 Changed Behavior
 ________________
 
-This error may appear following an evolution in behavior, in previous versions. See `none <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/none.html>`_.
+This error may appear following an evolution in behavior, in previous versions. See `mb_convert_encoding <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/mb_convert_encoding.html>`_.
 
 Static Analysis
 _______________
 
-This error may be tracked down with the following static analysis rules: `none <https://exakat.readthedocs.io/en/latest/Reference/Rules/none.html>`_.
+This error may be tracked down with the following static analysis rules: `Structures/DeprecatedMbEncoding <https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/DeprecatedMbEncoding.html>`_.

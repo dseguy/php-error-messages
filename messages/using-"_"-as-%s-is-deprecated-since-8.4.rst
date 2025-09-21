@@ -21,7 +21,7 @@ Using "_" as %s is deprecated since 8.4
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/using-\"_\"-as-%s-is-deprecated-since-8.4.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/using-\"_\"-as-%s-is-deprecated-since-8.4.html","name":"Using \"_\" as %s is deprecated since 8.4","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 14 Sep 2025 15:40:33 +0000","dateModified":"Sun, 14 Sep 2025 15:40:33 +0000","description":"``_`` (underscore) is a valid class name, although it has become a reserved PHP word in PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/using-\"_\"-as-%s-is-deprecated-since-8.4.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/using-\"_\"-as-%s-is-deprecated-since-8.4.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/using-\"_\"-as-%s-is-deprecated-since-8.4.html","name":"Using \"_\" as %s is deprecated since 8.4","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 21 Sep 2025 16:17:10 +0000","dateModified":"Sun, 21 Sep 2025 16:17:10 +0000","description":"``_`` (underscore) is a valid class name, although it has become a reserved PHP word in PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/using-\"_\"-as-%s-is-deprecated-since-8.4.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -47,6 +47,16 @@ Solutions
 _________
 
 + Use another name.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `ClassUnderscore <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/ClassUnderscore.html>`_.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `ClassUnderscore <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/ClassUnderscore.html>`_.
 
 Static Analysis
 _______________

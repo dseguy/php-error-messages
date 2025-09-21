@@ -418,6 +418,7 @@ Features index
    * callback
 
       * :ref:`array-callback-must-have-exactly-two-elements`
+      * :ref:`must-be-a-callable,-null-given`
 
 
    * case
@@ -492,6 +493,7 @@ Features index
       * :ref:`cannot-use-"parent"-when-current-class-scope-has-no-parent`
       * :ref:`class-"%s"-not-found`
       * :ref:`class-%s-cannot-extend-%s-%s`
+      * :ref:`class-%s-cannot-extend-enum-%s`
       * :ref:`illegal-class-name`
       * :ref:`interface-%s-cannot-extend-class-%s`
       * :ref:`must-be-a-user-defined-class-name,-internal-class-name-given`
@@ -879,6 +881,7 @@ Features index
       * :ref:`cannot-redeclare-%s::%s()`
       * :ref:`case-%s-of-backed-enum-%s-must-have-a-value`
       * :ref:`case-can-only-be-used-in-enums`
+      * :ref:`class-%s-cannot-extend-enum-%s`
       * :ref:`duplicate-value-in-enum-%s-for-cases-%s-and-%s`
       * :ref:`enum-%s-cannot-implement-the-serializable-interface`
       * :ref:`enum-%s-cannot-include-magic-method-%s`
@@ -1576,6 +1579,7 @@ Features index
       * :ref:`attempt-to-read-property-"%s"-on-%s`
       * :ref:`can\'t-use-nullsafe-operator-in-write-context`
       * :ref:`decrement-on-type-null-has-no-effect,-this-will-change-in-the-next-major-version-of-php`
+      * :ref:`must-be-a-callable,-null-given`
       * :ref:`must-be-of-type-countable|array,-%s-given`
       * :ref:`parameter-must-be-an-array-or-an-object-that-implements-countable`
       * :ref:`strlen():-passing-null-to-parameter-#1-(\$string)-of-type-string-is-deprecated`
@@ -2435,6 +2439,7 @@ Features index
    * validation
 
       * :ref:`argument-#1-(\$value)-must-contain-at-least-one-element`
+      * :ref:`must-be-a-callable,-null-given`
       * :ref:`passing-false-or-null-is-deprecated-since-8.4`
       * :ref:`passing-the-encoding-as-third-parameter-is-deprecated.-use-an-explicit-zero-offset`
       * :ref:`security-level-must-be-one-of-"noauthnopriv",-"authnopriv",-or-"authpriv`

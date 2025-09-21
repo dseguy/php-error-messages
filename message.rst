@@ -241,6 +241,7 @@ PHP Error Messages
    messages/case-can-only-be-used-in-enums.rst
    messages/class-"%s"-not-found.rst
    messages/class-%s-cannot-extend-%s-%s.rst
+   messages/class-%s-cannot-extend-enum-%s.rst
    messages/class-%s-cannot-extend-final-class-%s.rst
    messages/class-%s-cannot-implement-both-iterator-and-iteratoraggregate-at-the-same-time.rst
    messages/class-%s-cannot-implement-previously-implemented-interface-%s.rst
@@ -370,6 +371,7 @@ PHP Error Messages
    messages/multiple-access-type-modifiers-are-not-allowed.rst
    messages/multiple-readonly-modifiers-are-not-allowed.rst
    messages/multiple-static-modifiers-are-not-allowed.rst
+   messages/must-be-a-callable,-null-given.rst
    messages/must-be-a-finite-value.rst
    messages/must-be-a-user-defined-class-name,-internal-class-name-given.rst
    messages/must-be-a-valid-class-name,-%s-given.rst
