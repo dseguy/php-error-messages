@@ -1198,6 +1198,18 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/non-abstract-property-hook-must-have-a-body.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/non-canonical-cast-%28binary%29-is-deprecated%2C-use-the-%28string%29-cast-instead.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/non-canonical-cast-%28boolean%29-is-deprecated%2C-use-the-%28bool%29-cast-instead.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/non-canonical-cast-%28double%29-is-deprecated%2C-use-the-%28float%29-cast-instead.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/non-canonical-cast-%28integer%29-is-deprecated%2C-use-the-%28int%29-cast-instead.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/non-enum-class-%25s-cannot-implement-interface-%25s.html</loc>
  </url>
  <url>

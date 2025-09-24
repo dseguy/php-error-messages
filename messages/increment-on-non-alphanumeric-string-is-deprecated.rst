@@ -21,7 +21,7 @@ Increment on non-alphanumeric string is deprecated
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/increment-on-non-alphanumeric-string-is-deprecated.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/increment-on-non-alphanumeric-string-is-deprecated.html","name":"Increment on non-alphanumeric string is deprecated","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 02 Sep 2025 05:10:33 +0000","dateModified":"Tue, 02 Sep 2025 05:10:33 +0000","description":"Incrementing a string in a variable is an old darling PHP feature","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/increment-on-non-alphanumeric-string-is-deprecated.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/increment-on-non-alphanumeric-string-is-deprecated.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/increment-on-non-alphanumeric-string-is-deprecated.html","name":"Increment on non-alphanumeric string is deprecated","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 24 Sep 2025 17:30:50 +0000","dateModified":"Wed, 24 Sep 2025 17:30:50 +0000","description":"Incrementing a string in a variable is an old darling PHP feature","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/increment-on-non-alphanumeric-string-is-deprecated.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -52,3 +52,18 @@ _________
 
 + Use str_increment().
 + Change the generating system entirely.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `incrementNonAlphanumeric <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/incrementNonAlphanumeric.html>`_.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `incrementNonAlphanumeric <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/incrementNonAlphanumeric.html>`_.
+
+Static Analysis
+_______________
+
+This error may be tracked down with the following static analysis rules: `none <https://exakat.readthedocs.io/en/latest/Reference/Rules/none.html>`_.

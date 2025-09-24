@@ -21,7 +21,7 @@ Creating default object from empty value
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/creating-default-object-from-empty-value.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/creating-default-object-from-empty-value.html","name":"Creating default object from empty value","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 30 Aug 2025 21:02:19 +0000","dateModified":"Sat, 30 Aug 2025 21:02:19 +0000","description":"This deprecation message is emitted in PHP 7","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/creating-default-object-from-empty-value.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/creating-default-object-from-empty-value.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/creating-default-object-from-empty-value.html","name":"Creating default object from empty value","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 24 Sep 2025 17:36:25 +0000","dateModified":"Wed, 24 Sep 2025 17:36:25 +0000","description":"This deprecation message is emitted in PHP 7","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/creating-default-object-from-empty-value.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -60,3 +60,8 @@ Changed Behavior
 ________________
 
 This error may appear following an evolution in behavior, in previous versions. See `creatingObjectOnNull <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/creatingObjectOnNull.html>`_.
+
+Static Analysis
+_______________
+
+This error may be tracked down with the following static analysis rules: `Structures/CreatingObjectOnNull <https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/CreatingObjectOnNull.html>`_.

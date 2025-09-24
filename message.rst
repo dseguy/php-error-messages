@@ -404,6 +404,10 @@ PHP Error Messages
    messages/no-such-file-or-directory.rst
    messages/non-abstract-method-%s::%s()-must-contain-body.rst
    messages/non-abstract-property-hook-must-have-a-body.rst
+   messages/non-canonical-cast-(binary)-is-deprecated,-use-the-(string)-cast-instead.rst
+   messages/non-canonical-cast-(boolean)-is-deprecated,-use-the-(bool)-cast-instead.rst
+   messages/non-canonical-cast-(double)-is-deprecated,-use-the-(float)-cast-instead.rst
+   messages/non-canonical-cast-(integer)-is-deprecated,-use-the-(int)-cast-instead.rst
    messages/non-enum-class-%s-cannot-implement-interface-%s.rst
    messages/non-static-method-%s::%s()-cannot-be-called-statically.rst
    messages/non-static-method-%s::%s()-should-not-be-called-statically.rst

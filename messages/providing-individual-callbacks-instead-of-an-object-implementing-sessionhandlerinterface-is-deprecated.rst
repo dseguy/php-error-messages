@@ -21,7 +21,7 @@ Providing individual callbacks instead of an object implementing SessionHandlerI
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/providing-individual-callbacks-instead-of-an-object-implementing-sessionhandlerinterface-is-deprecated.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/providing-individual-callbacks-instead-of-an-object-implementing-sessionhandlerinterface-is-deprecated.html","name":"Providing individual callbacks instead of an object implementing SessionHandlerInterface is deprecated","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 31 Jul 2025 05:22:23 +0000","dateModified":"Thu, 31 Jul 2025 05:22:23 +0000","description":"``session_set_save_handler()`` used to accept six to to nine distinct callables to configure the handler","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/providing-individual-callbacks-instead-of-an-object-implementing-sessionhandlerinterface-is-deprecated.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/providing-individual-callbacks-instead-of-an-object-implementing-sessionhandlerinterface-is-deprecated.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/providing-individual-callbacks-instead-of-an-object-implementing-sessionhandlerinterface-is-deprecated.html","name":"Providing individual callbacks instead of an object implementing SessionHandlerInterface is deprecated","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 24 Sep 2025 17:24:48 +0000","dateModified":"Wed, 24 Sep 2025 17:24:48 +0000","description":"``session_set_save_handler()`` used to accept six to to nine distinct callables to configure the handler","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/providing-individual-callbacks-instead-of-an-object-implementing-sessionhandlerinterface-is-deprecated.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -55,3 +55,18 @@ Solutions
 _________
 
 + Refactor the callables into a class, add the ``SessionHandlerInterface`` implementation and use that class.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `none <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/none.html>`_.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `none <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/none.html>`_.
+
+Static Analysis
+_______________
+
+This error may be tracked down with the following static analysis rules: `none <https://exakat.readthedocs.io/en/latest/Reference/Rules/none.html>`_.

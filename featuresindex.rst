@@ -440,6 +440,10 @@ Features index
       * :ref:`illegal-offset-type-in-isset-or-empty`
       * :ref:`illegal-offset-type-in-unset`
       * :ref:`illegal-offset-type`
+      * :ref:`non-canonical-cast-(binary)-is-deprecated,-use-the-(string)-cast-instead`
+      * :ref:`non-canonical-cast-(boolean)-is-deprecated,-use-the-(bool)-cast-instead`
+      * :ref:`non-canonical-cast-(double)-is-deprecated,-use-the-(float)-cast-instead`
+      * :ref:`non-canonical-cast-(integer)-is-deprecated,-use-the-(int)-cast-instead`
       * :ref:`object-of-class-%s-could-not-be-converted-to-%s`
       * :ref:`syntax-error,-unexpected-token-"(int)"`
       * :ref:`the-(real)-cast-has-been-removed,-use-(float)-instead`

@@ -21,7 +21,7 @@ define(): Declaration of case-insensitive constants is deprecated
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/define():-declaration-of-case-insensitive-constants-is-deprecated.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/define():-declaration-of-case-insensitive-constants-is-deprecated.html","name":"define(): Declaration of case-insensitive constants is deprecated","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 04 Jul 2025 13:07:11 +0000","dateModified":"Fri, 04 Jul 2025 13:07:11 +0000","description":"The third argument of define() used to allow the creation of a case-insensitive global constant","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/define():-declaration-of-case-insensitive-constants-is-deprecated.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/define():-declaration-of-case-insensitive-constants-is-deprecated.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/define():-declaration-of-case-insensitive-constants-is-deprecated.html","name":"define(): Declaration of case-insensitive constants is deprecated","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 24 Sep 2025 17:32:24 +0000","dateModified":"Wed, 24 Sep 2025 17:32:24 +0000","description":"The third argument of define() used to allow the creation of a case-insensitive global constant","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/define():-declaration-of-case-insensitive-constants-is-deprecated.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -46,3 +46,18 @@ _________
 
 
 In more recent PHP versions, this error message is now :ref:`define():-argument-#3-($case_insensitive)-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported`.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `caseInsensitiveDefine <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/caseInsensitiveDefine.html>`_.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `caseInsensitiveDefine <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/caseInsensitiveDefine.html>`_.
+
+Static Analysis
+_______________
+
+This error may be tracked down with the following static analysis rules: `Constants/CaseInsensitiveConstants <https://exakat.readthedocs.io/en/latest/Reference/Rules/Constants/CaseInsensitiveConstants.html>`_.
