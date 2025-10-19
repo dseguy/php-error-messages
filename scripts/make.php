@@ -191,11 +191,14 @@ foreach($files as $file) {
 		}
 	}
 
-	if (empty($error->code) && !in_array('not generated', $error->tags)) {
+	if (empty($error->code) && in_array('no-code', $error->tags)) {
+	    // skip this
+	} elseif (empty($error->code) && !in_array('not generated', $error->tags)) {
 		buildlog("No code for $file");
 		++$warnings;
-		continue;
-	} elseif (!in_array('not generated', $error->tags) && substr($error->code, 0, 5) !== '<?php') {
+	} elseif (!in_array('not generated', $error->tags) && 
+          	  !in_array('no-opening-tag', $error->tags) && 
+	           substr($error->code, 0, 5) !== '<?php') {
 		buildlog("No opening tags in code for $file");
 		++$warnings;
 	} elseif (!in_array('no-closing-tag', $error->tags) && !in_array('not generated', $error->tags) && substr($error->code, -2) !== '?>') {
@@ -280,6 +283,8 @@ foreach($files as $file) {
 	    $error->analyzer = array_filter($error->analyzer);
 	    
 	    foreach($error->analyzer as $analyze) {
+	        if ($analyze === 'none') { continue; }
+	        
     	    if (!file_exists('../analyzeG3/human/en/'.$analyze.'.ini')) {
 	    		buildlog($analyze." doesn't exist as an exakat rule in $file");
 		    	++$warnings;
