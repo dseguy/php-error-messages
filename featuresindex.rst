@@ -198,6 +198,11 @@ Features index
       * :ref:`failed-to-create-closure-from-callable:-%s`
 
 
+   * array-index
+
+      * :ref:`using-null-as-an-array-offset-is-deprecated,-use-an-empty-string-instead`
+
+
    * array-syntax
 
       * :ref:`cannot-use-string-offset-as-an-array`
@@ -425,6 +430,7 @@ Features index
 
       * :ref:`case-%s::%s-does-not-exist`
       * :ref:`case-can-only-be-used-in-enums`
+      * :ref:`case-statements-followed-by-a-semicolon-(;)-are-deprecated,-use-a-colon-(:)`
       * :ref:`duplicate-value-in-enum-%s-for-cases-%s-and-%s`
 
 
@@ -586,14 +592,14 @@ Features index
       * :ref:`is-not-a-valid-codepoint`
 
 
+   * colon
+
+      * :ref:`case-statements-followed-by-a-semicolon-(;)-are-deprecated,-use-a-colon-(:)`
+
+
    * comma
 
       * :ref:`syntax-error,-unexpected-token-"use",-expecting-","-or-";"`
-
-
-   * command
-
-      * :ref:`syntax-error,-unexpected-\'throw\'-(t_throw)`
 
 
    * comment
@@ -983,6 +989,7 @@ Features index
    * extension
 
       * :ref:`cannot-load-module-"%s"-because-required-module-"%s"-is-not-loaded`
+      * :ref:`module-"%s"-is-already-loaded`
 
 
    * false
@@ -1311,9 +1318,11 @@ Features index
       * :ref:`never-cannot-be-used-as-a-parameter-type`
       * :ref:`syntax-error,-unexpected-\'match\'`
       * :ref:`syntax-error,-unexpected-token-"%s",-expecting-identifier`
+      * :ref:`syntax-error,-unexpected-token-"--",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"::",-expecting-":"`
       * :ref:`syntax-error,-unexpected-token-"::"`
       * :ref:`syntax-error,-unexpected-token-"final",-expecting-"("`
+      * :ref:`syntax-error,-unexpected-token-"match",-expecting-"("`
 
 
    * label
@@ -1395,6 +1404,7 @@ Features index
       * :ref:`syntax-error,-unexpected-\'match\'`
       * :ref:`syntax-error,-unexpected-token-"break"`
       * :ref:`syntax-error,-unexpected-token-"continue"`
+      * :ref:`syntax-error,-unexpected-token-"match",-expecting-"("`
       * :ref:`syntax-error,-unexpected-token-"match"`
       * :ref:`unhandled-match-case-%s`
 
@@ -1518,6 +1528,7 @@ Features index
       * :ref:`namespace-declarations-cannot-be-nested`
       * :ref:`no-code-may-exist-outside-of-namespace-{}`
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"{"`
+      * :ref:`syntax-error,-unexpected-token-"--",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"namespace",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"namespace"`
@@ -1588,6 +1599,7 @@ Features index
       * :ref:`parameter-must-be-an-array-or-an-object-that-implements-countable`
       * :ref:`strlen():-passing-null-to-parameter-#1-(\$string)-of-type-string-is-deprecated`
       * :ref:`trying-to-access-array-offset-on-%s`
+      * :ref:`using-null-as-an-array-offset-is-deprecated,-use-an-empty-string-instead`
 
 
    * nullable
@@ -2028,6 +2040,7 @@ Features index
 
    * semicolon
 
+      * :ref:`case-statements-followed-by-a-semicolon-(;)-are-deprecated,-use-a-colon-(:)`
       * :ref:`syntax-error,-unexpected-end-of-file`
       * :ref:`syntax-error,-unexpected-token-",",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-")"`
@@ -2243,6 +2256,7 @@ Features index
    * switch
 
       * :ref:`\'%s\'-not-in-the-\'loop\'-or-\'switch\'-context`
+      * :ref:`case-statements-followed-by-a-semicolon-(;)-are-deprecated,-use-a-colon-(:)`
       * :ref:`switch-statements-may-only-contain-one-default-clause`
       * :ref:`syntax-error,-unexpected-\',\'`
       * :ref:`syntax-error,-unexpected-token-"break"`

@@ -142,6 +142,7 @@ Tag index
    * extension
 
       * :ref:`function-libxml_disable_entity_loader()-is-deprecated-since-8.0,-as-external-entity-loading-is-disabled-by-default`
+      * :ref:`module-"%s"-is-already-loaded`
       * :ref:`must-not-contain-empty-strings`
       * :ref:`security-level-must-be-one-of-"noauthnopriv",-"authnopriv",-or-"authpriv`
 
@@ -246,6 +247,16 @@ Tag index
       * :ref:`syntax-error,-unexpected-end-of-file`
       * :ref:`syntax-error,-unexpected-string-content`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-"function"-or-"fn"-or-"static"-or-"#["`
+
+
+   * no-code
+
+      * :ref:`module-"%s"-is-already-loaded`
+
+
+   * no-opening-tag
+
+      * :ref:`strict_types-declaration-must-be-the-very-first-statement-in-the-script`
 
 
    * not generated
@@ -361,6 +372,7 @@ Tag index
    * surprising
 
       * :ref:`cannot-use-temporary-expression-in-write-context`
+      * :ref:`case-statements-followed-by-a-semicolon-(;)-are-deprecated,-use-a-colon-(:)`
 
 
    * syntax-error
@@ -416,6 +428,7 @@ Tag index
       * :ref:`syntax-error,-unexpected-token-",",-expecting-variable-or-"$"`
       * :ref:`syntax-error,-unexpected-token-",",-expecting-variable`
       * :ref:`syntax-error,-unexpected-token-","`
+      * :ref:`syntax-error,-unexpected-token-"--",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"->",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-token-"->"`
       * :ref:`syntax-error,-unexpected-token-":",-expecting-")"`
@@ -458,6 +471,7 @@ Tag index
       * :ref:`syntax-error,-unexpected-token-"if",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-token-"if"`
       * :ref:`syntax-error,-unexpected-token-"implements"`
+      * :ref:`syntax-error,-unexpected-token-"match",-expecting-"("`
       * :ref:`syntax-error,-unexpected-token-"match"`
       * :ref:`syntax-error,-unexpected-token-"namespace",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"namespace"`

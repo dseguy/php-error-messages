@@ -239,6 +239,7 @@ PHP Error Messages
    messages/case-%s-of-backed-enum-%s-must-have-a-value.rst
    messages/case-%s::%s-does-not-exist.rst
    messages/case-can-only-be-used-in-enums.rst
+   messages/case-statements-followed-by-a-semicolon-(;)-are-deprecated,-use-a-colon-(:).rst
    messages/class-"%s"-not-found.rst
    messages/class-%s-cannot-extend-%s-%s.rst
    messages/class-%s-cannot-extend-enum-%s.rst
@@ -368,6 +369,7 @@ PHP Error Messages
    messages/method-%s::__tostring()-must-not-throw-an-exception,-caught-%s:-%s.rst
    messages/method-name-must-be-a-string.rst
    messages/methods-with-the-same-name-as-their-class-will-not-be-constructors-in-a-future-version-of-php;-%s-has-a-deprecated-constructor.rst
+   messages/module-"%s"-is-already-loaded.rst
    messages/multiple-access-type-modifiers-are-not-allowed.rst
    messages/multiple-readonly-modifiers-are-not-allowed.rst
    messages/multiple-static-modifiers-are-not-allowed.rst
@@ -528,6 +530,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-",",-expecting-variable-or-"$".rst
    messages/syntax-error,-unexpected-token-",",-expecting-variable.rst
    messages/syntax-error,-unexpected-token-",".rst
+   messages/syntax-error,-unexpected-token-"--",-expecting-"{".rst
    messages/syntax-error,-unexpected-token-"->",-expecting-","-or-";".rst
    messages/syntax-error,-unexpected-token-"->".rst
    messages/syntax-error,-unexpected-token-":",-expecting-")".rst
@@ -570,6 +573,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-"if",-expecting-"]".rst
    messages/syntax-error,-unexpected-token-"if".rst
    messages/syntax-error,-unexpected-token-"implements".rst
+   messages/syntax-error,-unexpected-token-"match",-expecting-"(".rst
    messages/syntax-error,-unexpected-token-"match".rst
    messages/syntax-error,-unexpected-token-"namespace",-expecting-"{".rst
    messages/syntax-error,-unexpected-token-"namespace".rst
@@ -663,6 +667,7 @@ PHP Error Messages
    messages/using-${expr}-(variable-variables)-in-strings-is-deprecated,-use-{${expr}}-instead.rst
    messages/using-${var}-in-strings-is-deprecated,-use-{$var}-instead.rst
    messages/using-array_key_exists()-on-objects-is-deprecated..rst
+   messages/using-null-as-an-array-offset-is-deprecated,-use-an-empty-string-instead.rst
    messages/value-of-type-%s-is-not-callable.rst
    messages/visibility-of-property-%s::$%s-must-not-be-weaker-than-set-visibility.rst
    messages/void-cannot-be-used-as-a-parameter-type.rst

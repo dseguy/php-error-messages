@@ -21,7 +21,7 @@ Argument #%d ($%s) must be of type %s, %s given
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/argument-#%d-($%s)-must-be-of-type-%s,-%s-given.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/argument-#%d-($%s)-must-be-of-type-%s,-%s-given.html","name":"Argument #%d ($%s) must be of type %s, %s given","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 21 Sep 2025 16:38:55 +0000","dateModified":"Sun, 21 Sep 2025 16:38:55 +0000","description":"This error is emitted when data of a wrong type is given to a typed argument","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/argument-#%d-($%s)-must-be-of-type-%s,-%s-given.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/argument-#%d-($%s)-must-be-of-type-%s,-%s-given.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/argument-#%d-($%s)-must-be-of-type-%s,-%s-given.html","name":"Argument #%d ($%s) must be of type %s, %s given","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 27 Sep 2025 07:45:41 +0000","dateModified":"Sat, 27 Sep 2025 07:45:41 +0000","description":"This error is emitted when data of a wrong type is given to a typed argument","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/argument-#%d-($%s)-must-be-of-type-%s,-%s-given.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -68,3 +68,6 @@ ______________________
 
 
 In previous PHP versions, this error message used to be :ref:`using-array_key_exists()-on-objects-is-deprecated.`.
+
+
+In more recent PHP versions, this error message is now :ref:`passing-the-encoding-as-third-parameter-is-deprecated.-use-an-explicit-zero-offset`.
