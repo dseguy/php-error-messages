@@ -21,7 +21,7 @@ Using null as an array offset is deprecated, use an empty string instead
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/using-null-as-an-array-offset-is-deprecated,-use-an-empty-string-instead.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/using-null-as-an-array-offset-is-deprecated,-use-an-empty-string-instead.html","name":"Using null as an array offset is deprecated, use an empty string instead","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 18 Oct 2025 14:10:34 +0000","dateModified":"Sat, 18 Oct 2025 14:10:34 +0000","description":"Avoid using null as an array index","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/using-null-as-an-array-offset-is-deprecated,-use-an-empty-string-instead.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/using-null-as-an-array-offset-is-deprecated,-use-an-empty-string-instead.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/using-null-as-an-array-offset-is-deprecated,-use-an-empty-string-instead.html","name":"Using null as an array offset is deprecated, use an empty string instead","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 19 Oct 2025 10:10:07 +0000","dateModified":"Sun, 19 Oct 2025 10:10:07 +0000","description":"Avoid using null as an array index","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/using-null-as-an-array-offset-is-deprecated,-use-an-empty-string-instead.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -55,3 +55,8 @@ Changed Behavior
 ________________
 
 This error may appear following an evolution in behavior, in previous versions. See `NullAsArrayOffset <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/NullAsArrayOffset.html>`_.
+
+Static Analysis
+_______________
+
+This error may be tracked down with the following static analysis rules: `Arrays/NullAsIndex <https://exakat.readthedocs.io/en/latest/Reference/Rules/Arrays/NullAsIndex.html>`_.

@@ -141,7 +141,6 @@ Features index
 
       * :ref:`%s%s%s():-argument-#%d%s%s%s-must-be-passed-by-reference,-value-given`
       * :ref:`%s()-expects-exactly-0-arguments,-%d-given`
-      * :ref:`%s():-argument-#%d%s%s%s-cannot-not-be-passed-by-reference`
       * :ref:`%s():-argument-#%d%s%s%s-could-not-be-passed-by-reference`
       * :ref:`%s\'-is-not-a-valid-mode-for-fopen`
       * :ref:`argument-#%d-(\$%s)-must-be-of-type-%s,-%s-given`
@@ -196,11 +195,6 @@ Features index
    * array-callable
 
       * :ref:`failed-to-create-closure-from-callable:-%s`
-
-
-   * array-index
-
-      * :ref:`using-null-as-an-array-offset-is-deprecated,-use-an-empty-string-instead`
 
 
    * array-syntax
@@ -345,7 +339,6 @@ Features index
       * :ref:`implicit-conversion-from-float-string-"%s"-to-int-loses-precision`
       * :ref:`syntax-error,-unexpected-token-"<<"`
       * :ref:`the-behavior-of-unparenthesized-expressions-containing-both-\'.\'-and-\'<<\'-\'>>\'-will-change-in-php-8:-\'<<\'-\'>>\'-will-take-a-higher-precedence`
-      * :ref:`the-behavior-of-unparenthesized-expressions-containing-both-\'.\'-and-\'>>\'-\'<<\'-will-change-in-php-8:-\'<<\'-\'>>\'-will-take-a-higher-precedence`
 
 
    * bitwise-operator
@@ -636,7 +629,6 @@ Features index
 
       * :ref:`the-behavior-of-unparenthesized-expressions-containing-both-\'.\'-and-\'+\'-\'-\'-will-change-in-php-8:-\'+\'-\'-\'-will-take-a-higher-precedence`
       * :ref:`the-behavior-of-unparenthesized-expressions-containing-both-\'.\'-and-\'<<\'-\'>>\'-will-change-in-php-8:-\'<<\'-\'>>\'-will-take-a-higher-precedence`
-      * :ref:`the-behavior-of-unparenthesized-expressions-containing-both-\'.\'-and-\'>>\'-\'<<\'-will-change-in-php-8:-\'<<\'-\'>>\'-will-take-a-higher-precedence`
 
 
    * conditional-structure
@@ -686,7 +678,6 @@ Features index
 
       * :ref:`cannot-call-constructor`
       * :ref:`constructor-%s::%s()-cannot-declare-a-return-type`
-      * :ref:`constructors-cannot-declare-a-return-type`
       * :ref:`method-%s::%s()-cannot-declare-a-return-type`
       * :ref:`method-%s::__construct()-cannot-declare-a-return-type`
       * :ref:`methods-with-the-same-name-as-their-class-will-not-be-constructors-in-a-future-version-of-php;-%s-has-a-deprecated-constructor`
@@ -1203,6 +1194,7 @@ Features index
       * :ref:`cannot-unpack-array-with-string-keys`
       * :ref:`index-invalid-or-out-of-range`
       * :ref:`undefined-array-key`
+      * :ref:`using-null-as-an-array-offset-is-deprecated,-use-an-empty-string-instead`
 
 
    * infinite
@@ -1614,7 +1606,6 @@ Features index
 
    * nullsafe-object-operator
 
-      * :ref:`%s()-argument-#%d%s%s%s-cannot-be-passed-by-reference`
       * :ref:`can\'t-use-nullsafe-operator-in-write-context`
 
 
@@ -1902,9 +1893,7 @@ Features index
    * reference
 
       * :ref:`%s%s%s():-argument-#%d%s%s%s-must-be-passed-by-reference,-value-given`
-      * :ref:`%s()-argument-#%d%s%s%s-cannot-be-passed-by-reference`
       * :ref:`%s():-argument-#%d%s%s%s-cannot-be-passed-by-reference`
-      * :ref:`%s():-argument-#%d%s%s%s-cannot-not-be-passed-by-reference`
       * :ref:`%s():-argument-#%d%s%s%s-could-not-be-passed-by-reference`
       * :ref:`an-iterator-cannot-be-used-with-foreach-by-reference`
       * :ref:`cannot-acquire-reference-to-\$globals`
@@ -1988,7 +1977,6 @@ Features index
       * :ref:`%s::__tostring()-must-return-a-string`
       * :ref:`a-function-with-return-type-must-return-a-value`
       * :ref:`constructor-%s::%s()-cannot-declare-a-return-type`
-      * :ref:`constructors-cannot-declare-a-return-type`
       * :ref:`division-of-php_int_min-by--1-is-not-an-integer`
       * :ref:`method-%s::%s()-cannot-declare-a-return-type`
       * :ref:`method-%s::__construct()-cannot-declare-a-return-type`

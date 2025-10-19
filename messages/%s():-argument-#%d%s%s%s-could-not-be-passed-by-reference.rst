@@ -21,7 +21,7 @@
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s():-argument-#%d%s%s%s-could-not-be-passed-by-reference.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s():-argument-#%d%s%s%s-could-not-be-passed-by-reference.html","name":"%s(): Argument #%d%s%s%s could not be passed by reference","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 21 Feb 2025 18:53:43 +0000","dateModified":"Fri, 21 Feb 2025 18:53:43 +0000","description":"Methods arguments may be passed by value or by reference","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/%s():-argument-#%d%s%s%s-could-not-be-passed-by-reference.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s():-argument-#%d%s%s%s-could-not-be-passed-by-reference.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s():-argument-#%d%s%s%s-could-not-be-passed-by-reference.html","name":"%s(): Argument #%d%s%s%s could not be passed by reference","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 19 Oct 2025 10:21:41 +0000","dateModified":"Sun, 19 Oct 2025 10:21:41 +0000","description":"Methods arguments may be passed by value or by reference","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/%s():-argument-#%d%s%s%s-could-not-be-passed-by-reference.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -60,5 +60,10 @@ _________
 + Store the value in a variable, and pass the variable to the method.
 + Remove the reference from the called method signature.
 
+Related Error Messages
+______________________
 
-In previous PHP versions, this error message used to be :ref:`%s():-argument-#%d%s%s%s-cannot-not-be-passed-by-reference`.
++ :ref:`only-variable-references-should-be-returned-by-reference`
+
+
+In previous PHP versions, this error message used to be :ref:`%s():-argument-#%d%s%s%s-cannot-be-passed-by-reference`.

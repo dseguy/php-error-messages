@@ -141,15 +141,11 @@ Tag index
 
    * extension
 
+      * :ref:`ffi-api-is-restricted-by-"ffi.enable"-configuration-directive`
       * :ref:`function-libxml_disable_entity_loader()-is-deprecated-since-8.0,-as-external-entity-loading-is-disabled-by-default`
       * :ref:`module-"%s"-is-already-loaded`
       * :ref:`must-not-contain-empty-strings`
       * :ref:`security-level-must-be-one-of-"noauthnopriv",-"authnopriv",-or-"authpriv`
-
-
-   * ffi
-
-      * :ref:`ffi-api-is-restricted-by-"ffi.enable"-configuration-directive`
 
 
    * finally
@@ -216,6 +212,14 @@ Tag index
    * list
 
       * :ref:`cannot-use-empty-list`
+
+
+   * lower-case-name
+
+      * :ref:`\'namespace-%s\'-is-an-invalid-class-name`
+      * :ref:`ffi-api-is-restricted-by-"ffi.enable"-configuration-directive`
+      * :ref:`syntax-error,-unexpected-identifier-"%s"`
+      * :ref:`syntax-error,-unexpected-token-"%s",-expecting-identifier`
 
 
    * mbstring
@@ -287,7 +291,6 @@ Tag index
 
       * :ref:`the-behavior-of-unparenthesized-expressions-containing-both-\'.\'-and-\'+\'-\'-\'-will-change-in-php-8:-\'+\'-\'-\'-will-take-a-higher-precedence`
       * :ref:`the-behavior-of-unparenthesized-expressions-containing-both-\'.\'-and-\'<<\'-\'>>\'-will-change-in-php-8:-\'<<\'-\'>>\'-will-take-a-higher-precedence`
-      * :ref:`the-behavior-of-unparenthesized-expressions-containing-both-\'.\'-and-\'>>\'-\'<<\'-will-change-in-php-8:-\'<<\'-\'>>\'-will-take-a-higher-precedence`
 
 
    * partial-lint

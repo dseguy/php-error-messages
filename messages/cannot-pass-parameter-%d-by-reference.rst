@@ -21,7 +21,7 @@ Cannot pass parameter %d by reference
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-pass-parameter-%d-by-reference.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-pass-parameter-%d-by-reference.html","name":"Cannot pass parameter %d by reference","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 04 Jul 2025 13:01:40 +0000","dateModified":"Fri, 04 Jul 2025 13:01:40 +0000","description":"When a parameter is set to be passed by reference, there is a ``&`` character before its name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-pass-parameter-%d-by-reference.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-pass-parameter-%d-by-reference.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-pass-parameter-%d-by-reference.html","name":"Cannot pass parameter %d by reference","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 19 Oct 2025 10:18:36 +0000","dateModified":"Sun, 19 Oct 2025 10:18:36 +0000","description":"When a parameter is set to be passed by reference, there is a ``&`` character before its name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-pass-parameter-%d-by-reference.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -69,4 +69,4 @@ ______________________
 + :ref:`parameter-%d-must-be-passed-by-reference`
 
 
-In more recent PHP versions, this error message is now :ref:`%s()-argument-#%d%s%s%s-cannot-be-passed-by-reference`.
+In more recent PHP versions, this error message is now :ref:`%s():-argument-#%d%s%s%s-cannot-be-passed-by-reference`.

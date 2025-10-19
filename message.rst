@@ -13,11 +13,9 @@ PHP Error Messages
    messages/%s%s%s()-does-not-accept-unknown-named-parameters.rst
    messages/%s%s%s():-argument-#%d%s%s%s-must-be-passed-by-reference,-value-given.rst
    messages/%s%s%s():-return-value-must-be-of-type-%s,-%s-returned.rst
-   messages/%s()-argument-#%d%s%s%s-cannot-be-passed-by-reference.rst
    messages/%s()-expects-exactly-0-arguments,-%d-given.rst
    messages/%s()-has-been-disabled-for-security-reasons.rst
    messages/%s():-argument-#%d%s%s%s-cannot-be-passed-by-reference.rst
-   messages/%s():-argument-#%d%s%s%s-cannot-not-be-passed-by-reference.rst
    messages/%s():-argument-#%d%s%s%s-could-not-be-passed-by-reference.rst
    messages/%s():-implicitly-marking-parameter-$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead.rst
    messages/%s():-never-returning-%s-must-not-implicitly-return.rst
@@ -258,7 +256,6 @@ PHP Error Messages
    messages/constant-%s::%s-is-deprecated.rst
    messages/constant-expression-contains-invalid-operations.rst
    messages/constructor-%s::%s()-cannot-declare-a-return-type.rst
-   messages/constructors-cannot-declare-a-return-type.rst
    messages/contains-an-invalid-curl-option.rst
    messages/continue"-targeting-switch-is-equivalent-to-"break.rst
    messages/continue-operator-accepts-only-positive-integers.rst
@@ -602,7 +599,6 @@ PHP Error Messages
    messages/the-arguments-array-must-contain-%d-items,-%d-given.rst
    messages/the-behavior-of-unparenthesized-expressions-containing-both-'.'-and-'+'-'-'-will-change-in-php-8:-'+'-'-'-will-take-a-higher-precedence.rst
    messages/the-behavior-of-unparenthesized-expressions-containing-both-'.'-and-'<<'-'>>'-will-change-in-php-8:-'<<'-'>>'-will-take-a-higher-precedence.rst
-   messages/the-behavior-of-unparenthesized-expressions-containing-both-'.'-and-'>>'-'<<'-will-change-in-php-8:-'<<'-'>>'-will-take-a-higher-precedence.rst
    messages/the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls.rst
    messages/the-magic-method-%s::%s()-must-have-public-visibility.rst
    messages/the-parent-constructor-was-not-called:-the-object-is-in-an-invalid-state.rst

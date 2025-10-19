@@ -25,9 +25,6 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s%25s%25s%28%29%3A-return-value-must-be-of-type-%25s%2C-%25s-returned.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s%28%29-argument-%23%25d%25s%25s%25s-cannot-be-passed-by-reference.html</loc>
- </url>
- <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s%28%29-expects-exactly-0-arguments%2C-%25d-given.html</loc>
  </url>
  <url>
@@ -35,9 +32,6 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s%28%29%3A-argument-%23%25d%25s%25s%25s-cannot-be-passed-by-reference.html</loc>
- </url>
- <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s%28%29%3A-argument-%23%25d%25s%25s%25s-cannot-not-be-passed-by-reference.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s%28%29%3A-argument-%23%25d%25s%25s%25s-could-not-be-passed-by-reference.html</loc>
@@ -758,9 +752,6 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/constructor-%25s%3A%3A%25s%28%29-cannot-declare-a-return-type.html</loc>
- </url>
- <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/constructors-cannot-declare-a-return-type.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/contains-an-invalid-curl-option.html</loc>
@@ -1790,9 +1781,6 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-behavior-of-unparenthesized-expressions-containing-both-%27.%27-and-%27%3C%3C%27-%27%3E%3E%27-will-change-in-php-8%3A-%27%3C%3C%27-%27%3E%3E%27-will-take-a-higher-precedence.html</loc>
- </url>
- <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-behavior-of-unparenthesized-expressions-containing-both-%27.%27-and-%27%3E%3E%27-%27%3C%3C%27-will-change-in-php-8%3A-%27%3C%3C%27-%27%3E%3E%27-will-take-a-higher-precedence.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-each%28%29-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls.html</loc>

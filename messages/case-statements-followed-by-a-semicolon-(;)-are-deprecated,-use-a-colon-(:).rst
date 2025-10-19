@@ -21,7 +21,7 @@ Case statements followed by a semicolon (;) are deprecated, use a colon (:)
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/case-statements-followed-by-a-semicolon-(;)-are-deprecated,-use-a-colon-(:).html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/case-statements-followed-by-a-semicolon-(;)-are-deprecated,-use-a-colon-(:).html","name":"Case statements followed by a semicolon (;) are deprecated, use a colon (:)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 18 Oct 2025 14:24:11 +0000","dateModified":"Sat, 18 Oct 2025 14:24:11 +0000","description":"It is possible to use a semi-colon ``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/case-statements-followed-by-a-semicolon-(;)-are-deprecated,-use-a-colon-(:).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/case-statements-followed-by-a-semicolon-(;)-are-deprecated,-use-a-colon-(:).html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/case-statements-followed-by-a-semicolon-(;)-are-deprecated,-use-a-colon-(:).html","name":"Case statements followed by a semicolon (;) are deprecated, use a colon (:)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 19 Oct 2025 09:03:52 +0000","dateModified":"Sun, 19 Oct 2025 09:03:52 +0000","description":"It is possible to use a semi-colon ``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/case-statements-followed-by-a-semicolon-(;)-are-deprecated,-use-a-colon-(:).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -48,6 +48,16 @@ _________
 
 + Replace the semicolon by a colon.
 + Do not place a closing tag after a case value.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `case-with-semicolon <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/case-with-semicolon.html>`_.
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `case-with-semicolon <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/case-with-semicolon.html>`_.
 
 Static Analysis
 _______________
