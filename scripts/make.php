@@ -206,7 +206,8 @@ foreach($files as $file) {
 		++$warnings;
 	}
 
-	if (preg_match('/(trait|class|enum|interface|const|new|implements|extends|:|namespace) (?!(int|string|bool|void|never|float|callable|array|iterable|mixed|null|stdClass))[a-z]/', $error->code, $r)) {
+	if (preg_match('/(trait|class|enum|interface|const|new|implements|extends|:|namespace) (?!(int|string|bool|void|never|float|callable|array|iterable|mixed|null|stdClass))[a-z]/', $error->code, $r) &&
+	    !in_array('lower-case-name', $error->tags)) {
 		buildlog("No lower case name '$r[0]' in code in $file");
 		++$warnings;
 	}
@@ -247,10 +248,10 @@ foreach($files as $file) {
 			++$warnings;
 		} else {
 			$target = str_replace(array('errors/', '.ini'), '', $file);
-			if (isset($nextprev[$target])) {
-				unset($nextprev[$target]);
+			if (isset($nextprev[$error->previous . ' - ' . $target])) {
+				unset($nextprev[$error->previous . ' - ' . $target]);
 			} else {
-				$nextprev[$error->previous] = $target;
+				$nextprev[$error->previous . ' - ' . $target] = $target;
 			}
 		}
 	}
@@ -267,10 +268,10 @@ foreach($files as $file) {
 			++$warnings;
 		} else {
 			$target = str_replace(array('errors/', '.ini'), '', $file);
-			if (isset($nextprev[$target])) {
-				unset($nextprev[$target]);
+			if (isset($nextprev[$target . ' - ' . $error->next])) {
+				unset($nextprev[$target . ' - ' . $error->next]);
 			} else {
-				$nextprev[$error->next] = $target;
+				$nextprev[$target . ' - ' . $error->next] = $target;
 			}
 		}
 	}
@@ -461,7 +462,6 @@ foreach($files as $file) {
 
 if (!empty($reciproq)) {
 	foreach($reciproq as $origin => $target) {
-		[$a, $b] = explode(' - ', $origin);
 		[$o, $t] = explode(' - ', $origin);
 		buildlog("$o lacks a related[] to $t");
 		++$warnings;
@@ -470,7 +470,8 @@ if (!empty($reciproq)) {
 
 if (!empty($nextprev)) {
 	foreach($nextprev as $origin => $target) {
-		buildlog("$origin lacks a previous or next to $target");
+		[$o, $t] = explode(' - ', $origin);
+		buildlog("$o lacks a previous or next to $t");
 		++$warnings;
 	}
 }
