@@ -306,6 +306,11 @@ Features index
       * :ref:`cannot-auto-initialize-an-array-inside-property-%s::\$%s-of-type-%s`
 
 
+   * back-tick
+
+      * :ref:`the-backtick-(\`)-operator-is-deprecated,-use-shell_exec()-instead`
+
+
    * backed-enum
 
       * :ref:`cannot-redeclare-%s::%s()`
@@ -677,6 +682,7 @@ Features index
    * constructor
 
       * :ref:`cannot-call-constructor`
+      * :ref:`cannot-modify-readonly-object-of-class-%s`
       * :ref:`constructor-%s::%s()-cannot-declare-a-return-type`
       * :ref:`method-%s::%s()-cannot-declare-a-return-type`
       * :ref:`method-%s::__construct()-cannot-declare-a-return-type`
@@ -1136,6 +1142,11 @@ Features index
    * html-entity
 
       * :ref:`handling-html-entities-via-mbstring-is-deprecated;-use-htmlspecialchars,-htmlentities,-or-mb_encode_numericentity-mb_decode_numericentity`
+
+
+   * http_response_header
+
+      * :ref:`the-predefined-locally-scoped-\$http_response_header-variable-is-deprecated,`
 
 
    * iconv
@@ -1866,6 +1877,7 @@ Features index
       * :ref:`cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s`
       * :ref:`cannot-create-dynamic-property-%s::\$%s`
       * :ref:`cannot-indirectly-modify-readonly-property-%s::\$%s`
+      * :ref:`cannot-modify-readonly-object-of-class-%s`
       * :ref:`cannot-modify-readonly-property-%s::\$%s`
       * :ref:`cannot-redeclare-%s-property-%s::\$%s-as-%s-%s::\$%s`
       * :ref:`cannot-unset-readonly-property-%s::\$%s`
@@ -2059,6 +2071,11 @@ Features index
       * :ref:`disabling-session.use_only_cookies-ini-setting-is-deprecated`
       * :ref:`enabling-session.use_trans_sid-ini-setting-is-deprecated`
       * :ref:`providing-individual-callbacks-instead-of-an-object-implementing-sessionhandlerinterface-is-deprecated`
+
+
+   * shell_exec
+
+      * :ref:`the-backtick-(\`)-operator-is-deprecated,-use-shell_exec()-instead`
 
 
    * short-assignation
@@ -2411,6 +2428,16 @@ Features index
       * :ref:`cannot-unset-string-offsets`
       * :ref:`the-(unset)-cast-is-deprecated`
       * :ref:`the-(unset)-cast-is-no-longer-supported`
+
+
+   * uri-class
+
+      * :ref:`cannot-modify-readonly-object-of-class-%s`
+
+
+   * uri-extension
+
+      * :ref:`cannot-modify-readonly-object-of-class-%s`
 
 
    * use

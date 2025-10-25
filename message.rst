@@ -163,6 +163,7 @@ PHP Error Messages
    messages/cannot-make-non-static-method-%s::%s()-static-in-class-%s.rst
    messages/cannot-make-static-method-%s::%s()-non-static-in-class-%s.rst
    messages/cannot-mix-keyed-and-unkeyed-array-entries-in-assignments.rst
+   messages/cannot-modify-readonly-object-of-class-%s.rst
    messages/cannot-modify-readonly-property-%s::$%s.rst
    messages/cannot-override-final-%s::%s()-with-%s::%s().rst
    messages/cannot-override-final-property-%s::$%s.rst
@@ -316,6 +317,7 @@ PHP Error Messages
    messages/generators-cannot-return-values-using-"return".rst
    messages/get_called_class()-must-be-called-from-within-a-class.rst
    messages/get_defined_functions():-setting-$exclude_disabled-to-false-has-no-effect.rst
+   messages/get_defined_functions():-the-$exclude_disabled-parameter-has-no-effect-since-php-8.0.rst
    messages/handling-base64-via-mbstring-is-deprecated;-use-base64_encode-base64_decode-instead.rst
    messages/handling-html-entities-via-mbstring-is-deprecated;-use-htmlspecialchars,-htmlentities,-or-mb_encode_numericentity-mb_decode_numericentity.rst
    messages/handling-qprint-via-mbstring-is-deprecated;-use-quoted_printable_encode-quoted_printable_decode.rst
@@ -597,11 +599,13 @@ PHP Error Messages
    messages/the-(unset)-cast-is-deprecated.rst
    messages/the-(unset)-cast-is-no-longer-supported.rst
    messages/the-arguments-array-must-contain-%d-items,-%d-given.rst
+   messages/the-backtick-(`)-operator-is-deprecated,-use-shell_exec()-instead.rst
    messages/the-behavior-of-unparenthesized-expressions-containing-both-'.'-and-'+'-'-'-will-change-in-php-8:-'+'-'-'-will-take-a-higher-precedence.rst
    messages/the-behavior-of-unparenthesized-expressions-containing-both-'.'-and-'<<'-'>>'-will-change-in-php-8:-'<<'-'>>'-will-take-a-higher-precedence.rst
    messages/the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls.rst
    messages/the-magic-method-%s::%s()-must-have-public-visibility.rst
    messages/the-parent-constructor-was-not-called:-the-object-is-in-an-invalid-state.rst
+   messages/the-predefined-locally-scoped-$http_response_header-variable-is-deprecated,.rst
    messages/too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d-expected.rst
    messages/too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d.rst
    messages/too-few-arguments-to-function-%s%s%s(),-%d-passed-in-%s-on-line-%d-and-%s-%d-expected.rst
