@@ -266,6 +266,7 @@ PHP Error Messages
    messages/couldn't-open-stream:-%s.rst
    messages/creating-default-object-from-empty-value.rst
    messages/creation-of-dynamic-property-%s::$%s-is-deprecated.rst
+   messages/current-function-is-not-a-closure.rst
    messages/datetimeinterface-can't-be-implemented-by-user-classes.rst
    messages/declaration-of-%s-must-be-compatible-with-%s.rst
    messages/declaration-of-%s::%s()-must-be-compatible-with-%s::%s().rst
