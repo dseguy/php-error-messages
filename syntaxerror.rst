@@ -27,6 +27,7 @@ Here is a list of classic syntax errors, met in every day code. Some common solu
       * :ref:`syntax-error,-unexpected-'|',-expecting-variable-(t_variable)`
       * :ref:`syntax-error,-unexpected-')',-expecting-'='`
       * :ref:`syntax-error,-unexpected-end-of-file`
+      * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s"`
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function"`
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function"-or-"const"`
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"{"`

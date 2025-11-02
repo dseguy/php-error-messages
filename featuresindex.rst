@@ -306,11 +306,6 @@ Features index
       * :ref:`cannot-auto-initialize-an-array-inside-property-%s::\$%s-of-type-%s`
 
 
-   * back-tick
-
-      * :ref:`the-backtick-(\`)-operator-is-deprecated,-use-shell_exec()-instead`
-
-
    * backed-enum
 
       * :ref:`cannot-redeclare-%s::%s()`
@@ -318,6 +313,11 @@ Features index
       * :ref:`enum-case-type-%s-does-not-match-enum-backing-type-%s`
       * :ref:`enum-case-value-must-be-compile-time-evaluatable`
       * :ref:`unbacked-enum-%s-cannot-be-converted-to-a-string`
+
+
+   * backtick
+
+      * :ref:`the-backtick-(\`)-operator-is-deprecated,-use-shell_exec()-instead`
 
 
    * balanced
@@ -1537,6 +1537,7 @@ Features index
       * :ref:`namespace-declarations-cannot-be-nested`
       * :ref:`no-code-may-exist-outside-of-namespace-{}`
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"{"`
+      * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s"`
       * :ref:`syntax-error,-unexpected-token-"--",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"namespace",-expecting-"{"`
@@ -1594,6 +1595,11 @@ Features index
    * new-in-initializer
 
       * :ref:`new-expressions-are-not-supported-in-this-context`
+
+
+   * new-line
+
+      * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s"`
 
 
    * null
@@ -1699,6 +1705,7 @@ Features index
       * :ref:`func_get_arg()-cannot-be-called-from-the-global-scope`
       * :ref:`func_get_args()-cannot-be-called-from-the-global-scope`
       * :ref:`func_num_args()-must-be-called-from-a-function-context`
+      * :ref:`get_defined_functions():-the-\$exclude_disabled-parameter-has-no-effect-since-php-8.0`
       * :ref:`named-parameter-\$%s-overwrites-previous-argument`
       * :ref:`optional-parameter-\$%s-declared-before-required-parameter-\$%s-is-implicitly-treated-as-a-required-parameter`
       * :ref:`parameter-uses-\'parent\'-as-type-hint-although-class-does-not-have-a-parent!`
@@ -1828,6 +1835,7 @@ Features index
 
    * property-hook
 
+      * :ref:`%s%s%s():-return-value-must-be-of-type-%s,-%s-returned`
       * :ref:`abstract-property-hook-cannot-have-body`
       * :ref:`cannot-create-reference-to-property-%s::\$%s`
       * :ref:`cannot-declare-hooks-for-static-property`

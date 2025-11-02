@@ -180,6 +180,7 @@ Tag index
 
    * implicit
 
+      * :ref:`%s%s%s():-return-value-must-be-of-type-%s,-%s-returned`
       * :ref:`%s():-implicitly-marking-parameter-$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead`
 
 
@@ -398,6 +399,7 @@ Tag index
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function"-or-"const"`
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function"`
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"{"`
+      * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-")"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"]"`

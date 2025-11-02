@@ -21,12 +21,14 @@
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s%s%s():-return-value-must-be-of-type-%s,-%s-returned.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s%s%s():-return-value-must-be-of-type-%s,-%s-returned.html","name":"%s%s%s(): Return value must be of type %s, %s returned","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 21 Feb 2025 18:53:43 +0000","dateModified":"Fri, 21 Feb 2025 18:53:43 +0000","description":"This error appears when calling a method with a return value, but without an explicit return statement","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/%s%s%s():-return-value-must-be-of-type-%s,-%s-returned.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s%s%s():-return-value-must-be-of-type-%s,-%s-returned.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s%s%s():-return-value-must-be-of-type-%s,-%s-returned.html","name":"%s%s%s(): Return value must be of type %s, %s returned","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 25 Oct 2025 15:06:02 +0000","dateModified":"Sat, 25 Oct 2025 15:06:02 +0000","description":"This error appears when calling a method with a return value, but without an explicit return statement","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/%s%s%s():-return-value-must-be-of-type-%s,-%s-returned.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
  
 This error appears when calling a method with a return value, but without an explicit return statement. This means that when the method reachs its end, eventually, it will end without a returned value. Yet, the method signature declares that it will return a specific type.
+
+The error is also emitted for property hooks, in particular the ``get`` one: its return type is the same as the type of the property.
 
 A different error message is returned when an empty ``return`` statement is used.
 
@@ -38,6 +40,13 @@ _______
    <?php
    
    function foo() : int {}
+   
+   class X {
+       public int $p {
+           // The type of the property is the return type of the hook
+           get => [$this->p];
+       }
+   }
    
    ?>
 

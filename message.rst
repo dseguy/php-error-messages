@@ -497,6 +497,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function"-or-"const".rst
    messages/syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function".rst
    messages/syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"{".rst
+   messages/syntax-error,-unexpected-fully-qualified-name-"%s".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-")".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-"]".rst
