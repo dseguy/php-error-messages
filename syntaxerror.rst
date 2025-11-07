@@ -87,6 +87,7 @@ Here is a list of classic syntax errors, met in every day code. Some common solu
       * :ref:`syntax-error,-unexpected-token-"=",-expecting-identifier`
       * :ref:`syntax-error,-unexpected-token-"=",-expecting-identifier-or-variable-or-"{"-or-"$"`
       * :ref:`syntax-error,-unexpected-token-"=",-expecting-variable`
+      * :ref:`syntax-error,-unexpected-token-">"`
       * :ref:`syntax-error,-unexpected-token-"?"`
       * :ref:`syntax-error,-unexpected-token-"?->"`
       * :ref:`syntax-error,-unexpected-token-"?->",-expecting-","-or-";"`
@@ -114,6 +115,7 @@ Here is a list of classic syntax errors, met in every day code. Some common solu
       * :ref:`syntax-error,-unexpected-token-"new",-expecting-")"`
       * :ref:`syntax-error,-unexpected-token-"private",-expecting-"("`
       * :ref:`syntax-error,-unexpected-token-"private",-expecting-")"`
+      * :ref:`syntax-error,-unexpected-token-"private",-expecting-"="`
       * :ref:`syntax-error,-unexpected-token-"private",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"protected",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"public"`

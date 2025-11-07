@@ -457,6 +457,7 @@ Tag index
       * :ref:`syntax-error,-unexpected-token-"=",-expecting-identifier`
       * :ref:`syntax-error,-unexpected-token-"=",-expecting-variable`
       * :ref:`syntax-error,-unexpected-token-"="`
+      * :ref:`syntax-error,-unexpected-token-">"`
       * :ref:`syntax-error,-unexpected-token-"?"`
       * :ref:`syntax-error,-unexpected-token-"?->",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-token-"?->"`
@@ -483,6 +484,7 @@ Tag index
       * :ref:`syntax-error,-unexpected-token-"new",-expecting-")"`
       * :ref:`syntax-error,-unexpected-token-"private",-expecting-"("`
       * :ref:`syntax-error,-unexpected-token-"private",-expecting-")"`
+      * :ref:`syntax-error,-unexpected-token-"private",-expecting-"="`
       * :ref:`syntax-error,-unexpected-token-"private",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"protected",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"public",-expecting-"{"`

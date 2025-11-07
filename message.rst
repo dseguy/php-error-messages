@@ -44,6 +44,7 @@ PHP Error Messages
    messages/'goto'-into-loop-or-switch-statement-is-disallowed.rst
    messages/'goto'-to-undefined-label-'%s'.rst
    messages/'namespace-%s'-is-an-invalid-class-name.rst
+   messages/[]-operator-not-supported-for-strings.rst
    messages/autoload()-is-deprecated,-use-spl_autoload_register()-instead.rst
    messages/autoload()-is-no-longer-supported,-use-spl_autoload_register()-instead.rst
    messages/clone-method-called-on-non-object.rst
@@ -51,6 +52,7 @@ PHP Error Messages
    messages/%s'-is-not-a-valid-mode-for-fopen.rst
    messages/a-class-constant-must-not-be-called-class.-it-is-reserved-for-class-name-fetching.rst
    messages/a-function-with-return-type-must-return-a-value.rst
+   messages/a-never-returning-%s-does-not-return-a-value.rst
    messages/a-never-returning-%s-must-not-return.rst
    messages/a-never-returning-function-must-not-return.rst
    messages/a-never-returning-method-must-not-return.rst
@@ -68,10 +70,12 @@ PHP Error Messages
    messages/an-alias-(%s)-was-defined-for-method-%s(),-but-this-method-does-not-exist.rst
    messages/an-alias-was-defined-for-%s::%s-but-this-method-does-not-exist.rst
    messages/an-iterator-cannot-be-used-with-foreach-by-reference.rst
+   messages/anonymous-class-method-%s()-must-not-be-abstract.rst
    messages/argument-#%d-($%s)-must-be-of-type-%s,-%s-given.rst
    messages/argument-#1-($start)-must-be-a-single-byte-string-if.rst
    messages/argument-#1-($value)-must-contain-at-least-one-element.rst
    messages/argument-#2-($end)-must-be-a-single-byte-string-if.rst
+   messages/argument-unpacking-in-constant-expressions-is-not-supported.rst
    messages/array-and-string-offset-access-syntax-with-curly-braces-is-deprecated.rst
    messages/array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported.rst
    messages/array-callback-has-to-contain-indices-0-and-1.rst
@@ -84,6 +88,7 @@ PHP Error Messages
    messages/array_product():-multiplication-is-not-supported-on-type-object.rst
    messages/array_product():-multiplication-is-not-supported-on-type-string.rst
    messages/array_sum():-addition-is-not-supported-on-type-array.rst
+   messages/arrow-functions-on-the-right-hand-side-of-|>-must-be-parenthesized.rst
    messages/assert.callback-ini-setting-is-deprecated.rst
    messages/assignments-can-only-happen-to-writable-values.rst
    messages/attempt-to-assign-property-"%s"-on-null.rst
@@ -188,6 +193,7 @@ PHP Error Messages
    messages/cannot-unset-readonly-property-%s::$%s.rst
    messages/cannot-unset-string-offsets.rst
    messages/cannot-use%s-%s-as-%s-because-the-name-is-already-in-use.rst
+   messages/cannot-use(...)-variables-in-constant-expression.rst
    messages/cannot-use-"%s"-as-a-type-name-as-it-is-reserved.rst
    messages/cannot-use-"%s"-when-no-class-scope-is-active.rst
    messages/cannot-use-"abstract"-as-method-modifier-in-trait-alias.rst
@@ -196,6 +202,7 @@ PHP Error Messages
    messages/cannot-use-"static"-when-no-class-scope-is-active.rst
    messages/cannot-use-%s-as-%s-because-%s-is-a-special-class-name.rst
    messages/cannot-use-%s-as-%s-because-'%s'-is-a-special-class-name.rst
+   messages/cannot-use-%s-as-array.rst
    messages/cannot-use-%s-as-default-value-for-parameter-$%s-of-type-%s.rst
    messages/cannot-use-%s-as-default-value-for-property-%s::$%s-of-type-%s.rst
    messages/cannot-use-'abstract'-as-constant-modifier.rst
@@ -213,6 +220,7 @@ PHP Error Messages
    messages/cannot-use-::class-with-dynamic-class-name.rst
    messages/cannot-use-[]-for-reading.rst
    messages/cannot-use-a-scalar-value-as-an-array.rst
+   messages/cannot-use-dynamic-function-name-in-constant-expression.rst
    messages/cannot-use-empty-array-elements-in-arrays.rst
    messages/cannot-use-empty-array-entries-in-keyed-array-assignment.rst
    messages/cannot-use-empty-list.rst
@@ -230,7 +238,9 @@ PHP Error Messages
    messages/cannot-use-the-%s-modifier-on-a-%s.rst
    messages/cannot-use-the-abstract-modifier-on-a-property-hook.rst
    messages/cannot-use-the-abstract-modifier-on-a-property.rst
+   messages/cannot-use-the-final-modifier-on-a-parameter.rst
    messages/cannot-use-the-final-modifier-on-a-property.rst
+   messages/cannot-use-the-final-modifier-on-an-abstract-class.rst
    messages/cannot-use-the-static-modifier-on-a-property-hook.rst
    messages/cannot-use-traits-inside-of-interfaces.-%s-is-used-in-%s.rst
    messages/cannot-use-try-without-catch-or-finally.rst
@@ -252,6 +262,7 @@ PHP Error Messages
    messages/class-constant-%s::%s-cannot-have-type-%s.rst
    messages/class-declarations-may-not-be-nested.rst
    messages/classes-must-be-first-marked-as-attribute-before-being-able-to-be-registered-as-internal-attribute-class.rst
+   messages/closures-in-constant-expressions-must-be-static.rst
    messages/constant-%s-already-defined.rst
    messages/constant-%s-is-deprecated.rst
    messages/constant-%s::%s-is-deprecated.rst
@@ -326,6 +337,7 @@ PHP Error Messages
    messages/has-#[-override]-attribute,-but-no-matching-parent-method-exists.rst
    messages/hooked-properties-cannot-be-readonly.rst
    messages/illegal-class-name.rst
+   messages/illegal-function-name.rst
    messages/illegal-offset-type-in-isset-or-empty.rst
    messages/illegal-offset-type-in-unset.rst
    messages/illegal-offset-type.rst
@@ -333,6 +345,7 @@ PHP Error Messages
    messages/implicit-conversion-from-float-string-"%s"-to-int-loses-precision.rst
    messages/implicit-conversion-from-float-string-"%s"-to-int-loses.rst
    messages/increment-on-non-alphanumeric-string-is-deprecated.rst
+   messages/increment-on-non-numeric-string-is-deprecated,-use-str_increment()-instead.rst
    messages/increment-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php.rst
    messages/index-invalid-or-out-of-range.rst
    messages/indirect-modification-of-%s::$%s-is-not-allowed.rst
@@ -343,6 +356,7 @@ PHP Error Messages
    messages/interface-%s-cannot-contain-non-abstract-method-%s().rst
    messages/interface-%s-cannot-extend-class-%s.rst
    messages/interface-%s-cannot-implement-itself.rst
+   messages/interface-method-%s::%s()-must-not-be-final.rst
    messages/interfaces-may-not-include-properties.rst
    messages/interfaces-may-only-include-hooked-properties.rst
    messages/invalid-argument-supplied-for-foreach().rst
@@ -371,6 +385,7 @@ PHP Error Messages
    messages/methods-with-the-same-name-as-their-class-will-not-be-constructors-in-a-future-version-of-php;-%s-has-a-deprecated-constructor.rst
    messages/module-"%s"-is-already-loaded.rst
    messages/multiple-access-type-modifiers-are-not-allowed.rst
+   messages/multiple-final-modifiers-are-not-allowed.rst
    messages/multiple-readonly-modifiers-are-not-allowed.rst
    messages/multiple-static-modifiers-are-not-allowed.rst
    messages/must-be-a-callable,-null-given.rst
@@ -414,6 +429,7 @@ PHP Error Messages
    messages/non-static-method-%s::%s()-cannot-be-called-statically.rst
    messages/non-static-method-%s::%s()-should-not-be-called-statically.rst
    messages/non-string-needles-will-be-interpreted-as-strings-in-the-future.-use-an-explicit-chr()-call-to-preserve-the-current-behavior.rst
+   messages/object-casts-are-not-supported-in-this-context.rst
    messages/object-of-class-%s-could-not-be-converted-to-%s.rst
    messages/object-of-class-%s-could-not-be-converted-to-bool.rst
    messages/object-of-class-%s-could-not-be-converted-to-float.rst
@@ -448,6 +464,7 @@ PHP Error Messages
    messages/property-%s::$%s-cannot-have-type-%s.rst
    messages/property-%s::$%s-does-not-exist.rst
    messages/property-cannot-be-both-final-and-private.rst
+   messages/property-hook-cannot-be-both-abstract-and-final.rst
    messages/property-hook-cannot-be-both-abstract-and-private.rst
    messages/property-hook-cannot-be-both-final-and-private.rst
    messages/property-hook-list-must-not-be-empty.rst
@@ -555,6 +572,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-"=",-expecting-identifier.rst
    messages/syntax-error,-unexpected-token-"=",-expecting-variable.rst
    messages/syntax-error,-unexpected-token-"=".rst
+   messages/syntax-error,-unexpected-token-">".rst
    messages/syntax-error,-unexpected-token-"?".rst
    messages/syntax-error,-unexpected-token-"?->",-expecting-","-or-";".rst
    messages/syntax-error,-unexpected-token-"?->".rst
@@ -581,6 +599,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-"new",-expecting-")".rst
    messages/syntax-error,-unexpected-token-"private",-expecting-"(".rst
    messages/syntax-error,-unexpected-token-"private",-expecting-")".rst
+   messages/syntax-error,-unexpected-token-"private",-expecting-"=".rst
    messages/syntax-error,-unexpected-token-"private",-expecting-"{".rst
    messages/syntax-error,-unexpected-token-"protected",-expecting-"{".rst
    messages/syntax-error,-unexpected-token-"public",-expecting-"{".rst
@@ -626,6 +645,7 @@ PHP Error Messages
    messages/type-mixed-cannot-be-marked-as-nullable-since-mixed-already-includes-null.rst
    messages/type-must-be-a-single-character.rst
    messages/type-of-%s::$%s-must-be-%s%s-(as-in-class-%s).rst
+   messages/type-of-%s::$%s-must-be-omitted-to-match-the-parent-definition-in-class-%s.rst
    messages/type-of-%s::$%s-must-not-be-defined-(as-in-class-%s).rst
    messages/typed-property-%s::$%s-must-not-be-accessed-before-initialization.rst
    messages/typed-static-property-%s::$%s-must-not-be-accessed-before-initialization.rst

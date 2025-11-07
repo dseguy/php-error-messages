@@ -118,6 +118,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%27namespace-%25s%27-is-an-invalid-class-name.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/%5B%5D-operator-not-supported-for-strings.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/autoload%28%29-is-deprecated%2C-use-spl_autoload_register%28%29-instead.html</loc>
  </url>
  <url>
@@ -137,6 +140,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/a-function-with-return-type-must-return-a-value.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/a-never-returning-%25s-does-not-return-a-value.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/a-never-returning-%25s-must-not-return.html</loc>
@@ -190,6 +196,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/an-iterator-cannot-be-used-with-foreach-by-reference.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/anonymous-class-method-%25s%28%29-must-not-be-abstract.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/argument-%23%25d-%28%24%25s%29-must-be-of-type-%25s%2C-%25s-given.html</loc>
  </url>
  <url>
@@ -200,6 +209,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/argument-%232-%28%24end%29-must-be-a-single-byte-string-if.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/argument-unpacking-in-constant-expressions-is-not-supported.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/array-and-string-offset-access-syntax-with-curly-braces-is-deprecated.html</loc>
@@ -236,6 +248,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/array_sum%28%29%3A-addition-is-not-supported-on-type-array.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/arrow-functions-on-the-right-hand-side-of-%7C%3E-must-be-parenthesized.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/assert.callback-ini-setting-is-deprecated.html</loc>
@@ -550,6 +565,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use%25s-%25s-as-%25s-because-the-name-is-already-in-use.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use%28...%29-variables-in-constant-expression.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%22%25s%22-as-a-type-name-as-it-is-reserved.html</loc>
  </url>
  <url>
@@ -572,6 +590,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%25s-as-%25s-because-%27%25s%27-is-a-special-class-name.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%25s-as-array.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%25s-as-default-value-for-parameter-%24%25s-of-type-%25s.html</loc>
@@ -625,6 +646,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-a-scalar-value-as-an-array.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-dynamic-function-name-in-constant-expression.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-empty-array-elements-in-arrays.html</loc>
  </url>
  <url>
@@ -676,7 +700,13 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-the-abstract-modifier-on-a-property.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-the-final-modifier-on-a-parameter.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-the-final-modifier-on-a-property.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-the-final-modifier-on-an-abstract-class.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-the-static-modifier-on-a-property-hook.html</loc>
@@ -740,6 +770,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/classes-must-be-first-marked-as-attribute-before-being-able-to-be-registered-as-internal-attribute-class.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/closures-in-constant-expressions-must-be-static.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/constant-%25s-already-defined.html</loc>
@@ -964,6 +997,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/illegal-class-name.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/illegal-function-name.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/illegal-offset-type-in-isset-or-empty.html</loc>
  </url>
  <url>
@@ -983,6 +1019,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/increment-on-non-alphanumeric-string-is-deprecated.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/increment-on-non-numeric-string-is-deprecated%2C-use-str_increment%28%29-instead.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/increment-on-type-bool-has-no-effect%2C-this-will-change-in-the-next-major-version-of-php.html</loc>
@@ -1013,6 +1052,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/interface-%25s-cannot-implement-itself.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/interface-method-%25s%3A%3A%25s%28%29-must-not-be-final.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/interfaces-may-not-include-properties.html</loc>
@@ -1097,6 +1139,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/multiple-access-type-modifiers-are-not-allowed.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/multiple-final-modifiers-are-not-allowed.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/multiple-readonly-modifiers-are-not-allowed.html</loc>
@@ -1228,6 +1273,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/non-string-needles-will-be-interpreted-as-strings-in-the-future.-use-an-explicit-chr%28%29-call-to-preserve-the-current-behavior.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/object-casts-are-not-supported-in-this-context.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/object-of-class-%25s-could-not-be-converted-to-%25s.html</loc>
  </url>
  <url>
@@ -1328,6 +1376,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/property-cannot-be-both-final-and-private.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/property-hook-cannot-be-both-abstract-and-final.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/property-hook-cannot-be-both-abstract-and-private.html</loc>
@@ -1651,6 +1702,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%3D%22.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%3E%22.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%3F%22.html</loc>
  </url>
  <url>
@@ -1727,6 +1781,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22private%22%2C-expecting-%22%29%22.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22private%22%2C-expecting-%22%3D%22.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22private%22%2C-expecting-%22%7B%22.html</loc>
@@ -1862,6 +1919,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/type-of-%25s%3A%3A%24%25s-must-be-%25s%25s-%28as-in-class-%25s%29.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/type-of-%25s%3A%3A%24%25s-must-be-omitted-to-match-the-parent-definition-in-class-%25s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/type-of-%25s%3A%3A%24%25s-must-not-be-defined-%28as-in-class-%25s%29.html</loc>
