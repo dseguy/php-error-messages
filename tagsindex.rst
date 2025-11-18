@@ -472,6 +472,7 @@ Tag index
       * :ref:`syntax-error,-unexpected-token-"as"`
       * :ref:`syntax-error,-unexpected-token-"break"`
       * :ref:`syntax-error,-unexpected-token-"class",-expecting-"]"`
+      * :ref:`syntax-error,-unexpected-token-"const"`
       * :ref:`syntax-error,-unexpected-token-"continue"`
       * :ref:`syntax-error,-unexpected-token-"exit"`
       * :ref:`syntax-error,-unexpected-token-"extends",-expecting-"{"`

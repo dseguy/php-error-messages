@@ -711,6 +711,7 @@ Features index
       * :ref:`syntax-error,-unexpected-\'-\',-expecting-\'=\'`
       * :ref:`syntax-error,-unexpected-token-"&",-expecting-end-of-file`
       * :ref:`syntax-error,-unexpected-token-"="`
+      * :ref:`syntax-error,-unexpected-token-"const"`
       * :ref:`undefined-constant-"%s`
 
 

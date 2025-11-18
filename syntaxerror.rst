@@ -98,6 +98,7 @@ Here is a list of classic syntax errors, met in every day code. Some common solu
       * :ref:`syntax-error,-unexpected-token-"as"`
       * :ref:`syntax-error,-unexpected-token-"break"`
       * :ref:`syntax-error,-unexpected-token-"class",-expecting-"]"`
+      * :ref:`syntax-error,-unexpected-token-"const"`
       * :ref:`syntax-error,-unexpected-token-"continue"`
       * :ref:`syntax-error,-unexpected-token-"exit"`
       * :ref:`syntax-error,-unexpected-token-"extends"`

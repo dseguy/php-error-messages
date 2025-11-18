@@ -587,6 +587,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-"as".rst
    messages/syntax-error,-unexpected-token-"break".rst
    messages/syntax-error,-unexpected-token-"class",-expecting-"]".rst
+   messages/syntax-error,-unexpected-token-"const".rst
    messages/syntax-error,-unexpected-token-"continue".rst
    messages/syntax-error,-unexpected-token-"exit".rst
    messages/syntax-error,-unexpected-token-"extends",-expecting-"{".rst
