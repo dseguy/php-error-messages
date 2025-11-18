@@ -21,7 +21,7 @@ Cannot bind an instance to a static closure
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-bind-an-instance-to-a-static-closure.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-bind-an-instance-to-a-static-closure.html","name":"Cannot bind an instance to a static closure","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 21 Feb 2025 18:53:43 +0000","dateModified":"Fri, 21 Feb 2025 18:53:43 +0000","description":"The ``Closure::bind()`` method gives the scope of execution of a closure","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-bind-an-instance-to-a-static-closure.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-bind-an-instance-to-a-static-closure.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-bind-an-instance-to-a-static-closure.html","name":"Cannot bind an instance to a static closure","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 10 Nov 2025 09:52:04 +0000","dateModified":"Mon, 10 Nov 2025 09:52:04 +0000","description":"The ``Closure::bind()`` method gives the scope of execution of a closure","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-bind-an-instance-to-a-static-closure.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -46,3 +46,6 @@ _________
 
 + Remove the static option on the closure.
 + Remove the call to ``bind()``.
+
+
+In more recent PHP versions, this error message is now :ref:`cannot-bind-an-instance-to-a-static-closure,-this-will-be-an-error-in-php-9`.

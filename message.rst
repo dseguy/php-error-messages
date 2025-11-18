@@ -134,6 +134,7 @@ PHP Error Messages
    messages/cannot-apply-#[allowdynamicproperties]-to-interface-%s.rst
    messages/cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s.rst
    messages/cannot-apply-#[allowdynamicproperties]-to-trait-%s.rst
+   messages/cannot-apply-attributes-to-multiple-constants-at-once.rst
    messages/cannot-assign-%s-to-class-constant-%s::%s-of-type.rst
    messages/cannot-assign-%s-to-property-%s::$%s-of-type-%s.rst
    messages/cannot-assign-%s-to-reference-held-by-property-%s::$%s-of-type-%s.rst
@@ -145,6 +146,7 @@ PHP Error Messages
    messages/cannot-be-empty.rst
    messages/cannot-be-lc_all.rst
    messages/cannot-be-null-when-argument-#1-($objectormethod)-is-an-object.rst
+   messages/cannot-bind-an-instance-to-a-static-closure,-this-will-be-an-error-in-php-9.rst
    messages/cannot-bind-an-instance-to-a-static-closure.rst
    messages/cannot-bind-method-%s::%s()-to-object-of-class-%s.rst
    messages/cannot-call-constructor.rst
@@ -256,6 +258,7 @@ PHP Error Messages
    messages/class-%s-cannot-implement-both-iterator-and-iteratoraggregate-at-the-same-time.rst
    messages/class-%s-cannot-implement-previously-implemented-interface-%s.rst
    messages/class-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-methods.rst
+   messages/class-%s-declares-abstract-method-%s()-and-must-therefore-be-declared-abstract.rst
    messages/class-%s-does-not-have-a-property-named-%s.rst
    messages/class-%s-is-not-a-trait.rst
    messages/class-%s-must-implement-interface-%s-as-part-of-either-%s-or-%s.rst
@@ -310,6 +313,7 @@ PHP Error Messages
    messages/enum-backing-type-must-be-int-or-string.rst
    messages/enum-case-type-%s-does-not-match-enum-backing-type-%s.rst
    messages/enum-case-value-must-be-compile-time-evaluatable.rst
+   messages/enums-are-not-compatible-with-%s.rst
    messages/error-at-offset-%zd-of-%zd.rst
    messages/exponent-cannot-have-a-fractional-part.rst
    messages/extra-data-starting-at-offset-%d-of-%zd-bytes.rst
@@ -352,6 +356,7 @@ PHP Error Messages
    messages/indirect-modification-of-overloaded-element-of-%s-has-no-effect.rst
    messages/indirect-modification-of-overloaded-property-%s::$%s-has-no-effect.rst
    messages/instanceof-expects-an-object-instance,-constant-given.rst
+   messages/instantiation-of-class-closure-is-not-allowed.rst
    messages/interface-"%s"-not-found.rst
    messages/interface-%s-cannot-contain-non-abstract-method-%s().rst
    messages/interface-%s-cannot-extend-class-%s.rst
@@ -619,6 +624,8 @@ PHP Error Messages
    messages/the-(real)-cast-is-deprecated,-use-(float)-instead.rst
    messages/the-(unset)-cast-is-deprecated.rst
    messages/the-(unset)-cast-is-no-longer-supported.rst
+   messages/the-__sleep()-serialization-magic-method-has-been-deprecated..rst
+   messages/the-__wakeup()-serialization-magic-method-has-been-deprecated..rst
    messages/the-arguments-array-must-contain-%d-items,-%d-given.rst
    messages/the-backtick-(`)-operator-is-deprecated,-use-shell_exec()-instead.rst
    messages/the-behavior-of-unparenthesized-expressions-containing-both-'.'-and-'+'-'-'-will-change-in-php-8:-'+'-'-'-will-take-a-higher-precedence.rst
@@ -627,6 +634,9 @@ PHP Error Messages
    messages/the-magic-method-%s::%s()-must-have-public-visibility.rst
    messages/the-parent-constructor-was-not-called:-the-object-is-in-an-invalid-state.rst
    messages/the-predefined-locally-scoped-$http_response_header-variable-is-deprecated,.rst
+   messages/the-return-value-of-function-%s()-should-either-be-used-or-intentionally-ignored-by-casting-it-as-(void)%s-code.rst
+   messages/the-return-value-of-function-%s()-should-either-be-used-or-intentionally-ignored-by-casting-it-as-(void)%s.rst
+   messages/the-return-value-of-method-%s::%s()-should-either-be-used-or-intentionally-ignored-by-casting-it-as-(void)%s.rst
    messages/too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d-expected.rst
    messages/too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d.rst
    messages/too-few-arguments-to-function-%s%s%s(),-%d-passed-in-%s-on-line-%d-and-%s-%d-expected.rst
@@ -688,8 +698,10 @@ PHP Error Messages
    messages/using-$this-when-not-in-object-context.rst
    messages/using-${expr}-(variable-variables)-in-strings-is-deprecated,-use-{${expr}}-instead.rst
    messages/using-${var}-in-strings-is-deprecated,-use-{$var}-instead.rst
+   messages/using-an-object-as-a-backing-array-for-%s-is-deprecated,-as-it-allows-violating-class-constraints-and-invariants.rst
    messages/using-array_key_exists()-on-objects-is-deprecated..rst
    messages/using-null-as-an-array-offset-is-deprecated,-use-an-empty-string-instead.rst
+   messages/using-null-as-the-key-parameter-for-array_key_exists()-is-deprecated,-use-an-empty-string-instead.rst
    messages/value-of-type-%s-is-not-callable.rst
    messages/visibility-of-property-%s::$%s-must-not-be-weaker-than-set-visibility.rst
    messages/void-cannot-be-used-as-a-parameter-type.rst

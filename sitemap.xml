@@ -388,6 +388,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-apply-%23%5Ballowdynamicproperties%5D-to-trait-%25s.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-apply-attributes-to-multiple-constants-at-once.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-assign-%25s-to-class-constant-%25s%3A%3A%25s-of-type.html</loc>
  </url>
  <url>
@@ -419,6 +422,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-be-null-when-argument-%231-%28%24objectormethod%29-is-an-object.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-bind-an-instance-to-a-static-closure%2C-this-will-be-an-error-in-php-9.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-bind-an-instance-to-a-static-closure.html</loc>
@@ -754,6 +760,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/class-%25s-contains-%25d-abstract-method%25s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-methods.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/class-%25s-declares-abstract-method-%25s%28%29-and-must-therefore-be-declared-abstract.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/class-%25s-does-not-have-a-property-named-%25s.html</loc>
  </url>
  <url>
@@ -916,6 +925,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/enum-case-value-must-be-compile-time-evaluatable.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/enums-are-not-compatible-with-%25s.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/error-at-offset-%25zd-of-%25zd.html</loc>
  </url>
  <url>
@@ -1040,6 +1052,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/instanceof-expects-an-object-instance%2C-constant-given.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/instantiation-of-class-closure-is-not-allowed.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/interface-%22%25s%22-not-found.html</loc>
@@ -1843,6 +1858,12 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-%28unset%29-cast-is-no-longer-supported.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-__sleep%28%29-serialization-magic-method-has-been-deprecated..html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-__wakeup%28%29-serialization-magic-method-has-been-deprecated..html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-arguments-array-must-contain-%25d-items%2C-%25d-given.html</loc>
  </url>
  <url>
@@ -1865,6 +1886,15 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-predefined-locally-scoped-%24http_response_header-variable-is-deprecated%2C.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-return-value-of-function-%25s%28%29-should-either-be-used-or-intentionally-ignored-by-casting-it-as-%28void%29%25s-code.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-return-value-of-function-%25s%28%29-should-either-be-used-or-intentionally-ignored-by-casting-it-as-%28void%29%25s.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-return-value-of-method-%25s%3A%3A%25s%28%29-should-either-be-used-or-intentionally-ignored-by-casting-it-as-%28void%29%25s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/too-few-arguments-to-function-%25s%25s%25s%28%29%2C-%25d-passed-and-%25s-%25d-expected.html</loc>
@@ -2050,10 +2080,16 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/using-%24%7Bvar%7D-in-strings-is-deprecated%2C-use-%7B%24var%7D-instead.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/using-an-object-as-a-backing-array-for-%25s-is-deprecated%2C-as-it-allows-violating-class-constraints-and-invariants.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/using-array_key_exists%28%29-on-objects-is-deprecated..html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/using-null-as-an-array-offset-is-deprecated%2C-use-an-empty-string-instead.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/using-null-as-the-key-parameter-for-array_key_exists%28%29-is-deprecated%2C-use-an-empty-string-instead.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/value-of-type-%25s-is-not-callable.html</loc>

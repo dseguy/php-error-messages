@@ -25,6 +25,11 @@ Tag index
       * :ref:`automatic-conversion-of-false-to-array-is-deprecated`
 
 
+   * attribute
+
+      * :ref:`cannot-apply-attributes-to-multiple-constants-at-once`
+
+
    * bug
 
       * :ref:`cannot-use--"%s-"-as-%s-as-it-is-reserved`

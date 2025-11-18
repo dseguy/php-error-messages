@@ -21,7 +21,7 @@ Using null as an array offset is deprecated, use an empty string instead
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/using-null-as-an-array-offset-is-deprecated,-use-an-empty-string-instead.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/using-null-as-an-array-offset-is-deprecated,-use-an-empty-string-instead.html","name":"Using null as an array offset is deprecated, use an empty string instead","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 19 Oct 2025 10:10:07 +0000","dateModified":"Sun, 19 Oct 2025 10:10:07 +0000","description":"Avoid using null as an array index","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/using-null-as-an-array-offset-is-deprecated,-use-an-empty-string-instead.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/using-null-as-an-array-offset-is-deprecated,-use-an-empty-string-instead.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/using-null-as-an-array-offset-is-deprecated,-use-an-empty-string-instead.html","name":"Using null as an array offset is deprecated, use an empty string instead","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 17 Nov 2025 21:03:01 +0000","dateModified":"Mon, 17 Nov 2025 21:03:01 +0000","description":"Avoid using null as an array index","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/using-null-as-an-array-offset-is-deprecated,-use-an-empty-string-instead.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -45,6 +45,11 @@ _________
 
 + Replace the ``null`` with an empty string.
 + Check the value before using it as an array index.
+
+Related Error Messages
+______________________
+
++ :ref:`using-null-as-the-key-parameter-for-array_key_exists()-is-deprecated,-use-an-empty-string-instead`
 
 Changed Behavior
 ________________

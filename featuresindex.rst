@@ -54,6 +54,8 @@ Features index
       * :ref:`%s"-returned-as-member-variable-from-__sleep()-but-does-not-exist`
       * :ref:`%s::__sleep()-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize`
       * :ref:`sleep-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize.`
+      * :ref:`the-__sleep()-serialization-magic-method-has-been-deprecated.`
+      * :ref:`the-__wakeup()-serialization-magic-method-has-been-deprecated.`
 
 
    * __toString
@@ -66,6 +68,12 @@ Features index
       * :ref:`%s::__tostring()-must-return-a-string`
       * :ref:`method-%s::__tostring()-must-not-throw-an-exception,-caught-%s:-%s`
       * :ref:`object-of-class-%s-could-not-be-converted-to-string`
+
+
+   * __wakeup
+
+      * :ref:`the-__sleep()-serialization-magic-method-has-been-deprecated.`
+      * :ref:`the-__wakeup()-serialization-magic-method-has-been-deprecated.`
 
 
    * absolute-name
@@ -85,14 +93,17 @@ Features index
       * :ref:`cannot-use-\'abstract\'-as-constant-modifier`
       * :ref:`cannot-use-\'abstract\'-as-method-modifier`
       * :ref:`cannot-use-the-%s-modifier-on-a-%s`
+      * :ref:`cannot-use-the-abstract-modifier-on-a-property-hook`
       * :ref:`cannot-use-the-abstract-modifier-on-a-property`
       * :ref:`cannot-use-the-final-modifier-on-an-abstract-class`
       * :ref:`class-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-methods`
+      * :ref:`class-%s-declares-abstract-method-%s()-and-must-therefore-be-declared-abstract`
       * :ref:`interface-%s-cannot-contain-non-abstract-method-%s()`
       * :ref:`interface-method-%s::%s()-must-not-be-final`
       * :ref:`non-abstract-method-%s::%s()-must-contain-body`
       * :ref:`non-abstract-property-hook-must-have-a-body`
       * :ref:`only-hooked-properties-may-be-declared-abstract`
+      * :ref:`property-hook-cannot-be-both-abstract-and-final`
       * :ref:`property-hook-cannot-be-both-abstract-and-private`
       * :ref:`property-in-interface-cannot-be-explicitly-abstract.`
       * :ref:`static-function-%s%s%s()-cannot-be-abstract`
@@ -208,11 +219,6 @@ Features index
       * :ref:`failed-to-create-closure-from-callable:-%s`
 
 
-   * array-index
-
-      * :ref:`using-null-as-the-key-parameter-for-array_key_exists()-is-deprecated,-use-an-empty-string-instead`
-
-
    * array-syntax
 
       * :ref:`[]-operator-not-supported-for-strings`
@@ -221,6 +227,7 @@ Features index
       * :ref:`syntax-error,-unexpected-single-quoted-string-"%s",-expecting-")"`
       * :ref:`syntax-error,-unexpected-token-",",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-token-"if",-expecting-"]"`
+      * :ref:`using-an-object-as-a-backing-array-for-%s-is-deprecated,-as-it-allows-violating-class-constraints-and-invariants`
 
 
    * arrayObject
@@ -244,11 +251,18 @@ Features index
       * :ref:`cannot-access-offset-of-type-%s-on-%s`
 
 
+   * arrayobject
+
+      * :ref:`enums-are-not-compatible-with-%s`
+      * :ref:`using-an-object-as-a-backing-array-for-%s-is-deprecated,-as-it-allows-violating-class-constraints-and-invariants`
+
+
    * arrow-function
 
       * :ref:`arrow-functions-on-the-right-hand-side-of-|>-must-be-parenthesized`
       * :ref:`cannot-bind-method-%s::%s()-to-object-of-class-%s`
       * :ref:`cannot-rebind-scope-of-closure-created-from-method`
+      * :ref:`instantiation-of-class-closure-is-not-allowed`
       * :ref:`syntax-error,-unexpected-token-")",-expecting-"function"-or-"fn"-or-"static"-or-"#["`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-"function"-or-"fn"-or-"static"-or-"#["`
 
@@ -297,6 +311,7 @@ Features index
 
       * :ref:`%s::%s()-has-#[-override]-attribute,-but-no-matching-parent-method-exists`
       * :ref:`attribute-"%s"-cannot-target-%s-(allowed-targets:-%s)`
+      * :ref:`cannot-apply-attributes-to-multiple-constants-at-once`
       * :ref:`has-#[-override]-attribute,-but-no-matching-parent-method-exists`
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function"-or-"const"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"]"`
@@ -583,6 +598,7 @@ Features index
 
    * closure
 
+      * :ref:`cannot-bind-an-instance-to-a-static-closure,-this-will-be-an-error-in-php-9`
       * :ref:`cannot-bind-an-instance-to-a-static-closure`
       * :ref:`cannot-bind-method-%s::%s()-to-object-of-class-%s`
       * :ref:`cannot-rebind-scope-of-closure-created-from-method`
@@ -591,6 +607,7 @@ Features index
       * :ref:`closures-in-constant-expressions-must-be-static`
       * :ref:`current-function-is-not-a-closure`
       * :ref:`failed-to-create-closure-from-callable:-%s`
+      * :ref:`instantiation-of-class-closure-is-not-allowed`
       * :ref:`syntax-error,-unexpected-token-"("`
       * :ref:`syntax-error,-unexpected-token-")",-expecting-"function"-or-"fn"-or-"static"-or-"#["`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-"function"-or-"fn"-or-"static"-or-"#["`
@@ -604,6 +621,7 @@ Features index
    * closure-class
 
       * :ref:`current-function-is-not-a-closure`
+      * :ref:`instantiation-of-class-closure-is-not-allowed`
 
 
    * coalesce
@@ -682,6 +700,7 @@ Features index
 
       * :ref:`"static::"-is-not-allowed-in-compile-time-constants`
       * :ref:`%s():-argument-#%d%s%s%s-cannot-be-passed-by-reference`
+      * :ref:`cannot-apply-attributes-to-multiple-constants-at-once`
       * :ref:`cannot-declare-self-referencing-constant`
       * :ref:`constant-%s-already-defined`
       * :ref:`constant-%s-is-deprecated`
@@ -928,6 +947,7 @@ Features index
       * :ref:`enum-%s-cannot-include-properties`
       * :ref:`enum-backing-type-must-be-int-or-string`
       * :ref:`enum-case-type-%s-does-not-match-enum-backing-type-%s`
+      * :ref:`enums-are-not-compatible-with-%s`
       * :ref:`fetching-properties-on-non-enums-in-constant-expressions-is-not-allowed`
       * :ref:`non-enum-class-%s-cannot-implement-interface-%s`
       * :ref:`syntax-error,-unexpected-token-"implements"`
@@ -940,6 +960,7 @@ Features index
 
    * enum-case
 
+      * :ref:`enums-are-not-compatible-with-%s`
       * :ref:`trying-to-clone-an-uncloneable-object-of-class-%s`
 
 
@@ -1074,6 +1095,7 @@ Features index
       * :ref:`private-constant-%s::%s-cannot-be-final-as-it-is-not-visible-to-other-classes`
       * :ref:`private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes`
       * :ref:`property-cannot-be-both-final-and-private`
+      * :ref:`property-hook-cannot-be-both-abstract-and-final`
       * :ref:`property-hook-cannot-be-both-final-and-private`
       * :ref:`property-in-interface-cannot-be-final`
       * :ref:`the-"generator"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated`
@@ -1088,6 +1110,7 @@ Features index
    * first-class-callable
 
       * :ref:`array-callback-has-to-contain-indices-0-and-1`
+      * :ref:`instantiation-of-class-closure-is-not-allowed`
 
 
    * float
@@ -1245,6 +1268,7 @@ Features index
       * :ref:`index-invalid-or-out-of-range`
       * :ref:`undefined-array-key`
       * :ref:`using-null-as-an-array-offset-is-deprecated,-use-an-empty-string-instead`
+      * :ref:`using-null-as-the-key-parameter-for-array_key_exists()-is-deprecated,-use-an-empty-string-instead`
 
 
    * infinite
@@ -1308,6 +1332,7 @@ Features index
       * :ref:`interface-method-%s::%s()-must-not-be-final`
       * :ref:`interfaces-may-not-include-properties`
       * :ref:`non-enum-class-%s-cannot-implement-interface-%s`
+      * :ref:`property-hook-cannot-be-both-abstract-and-final`
       * :ref:`property-in-interface-cannot-be-explicitly-abstract.`
       * :ref:`property-in-interface-cannot-be-protected-or-private`
       * :ref:`return-type-of-%s::%s()-should-either-be-compatible-with-%s::%s():-mixed`
@@ -1645,6 +1670,9 @@ Features index
    * nodiscard
 
       * :ref:`a-never-returning-%s-does-not-return-a-value`
+      * :ref:`the-return-value-of-function-%s()-should-either-be-used-or-intentionally-ignored-by-casting-it-as-(void)%s-code`
+      * :ref:`the-return-value-of-function-%s()-should-either-be-used-or-intentionally-ignored-by-casting-it-as-(void)%s`
+      * :ref:`the-return-value-of-method-%s::%s()-should-either-be-used-or-intentionally-ignored-by-casting-it-as-(void)%s`
 
 
    * null
@@ -1686,6 +1714,7 @@ Features index
       * :ref:`cannot-use-object-of-type-%s-as-array`
       * :ref:`cannot-use-object-of-type-stdclass-as-array`
       * :ref:`object-of-type-%s-is-not-callable`
+      * :ref:`using-an-object-as-a-backing-array-for-%s-is-deprecated,-as-it-allows-violating-class-constraints-and-invariants`
 
 
    * object-syntax
@@ -1918,6 +1947,7 @@ Features index
       * :ref:`non-abstract-property-hook-must-have-a-body`
       * :ref:`only-hooked-properties-may-be-declared-abstract`
       * :ref:`property-cannot-be-both-final-and-private`
+      * :ref:`property-hook-cannot-be-both-abstract-and-final`
       * :ref:`property-hook-cannot-be-both-abstract-and-private`
       * :ref:`property-hook-cannot-be-both-final-and-private`
       * :ref:`property-in-interface-cannot-be-explicitly-abstract.`
@@ -2088,6 +2118,7 @@ Features index
 
       * :ref:`call-to-%s-%s::%s()-from-global-scope`
       * :ref:`cannot-access-parent::-when-current-class-scope-has-no-parent`
+      * :ref:`cannot-bind-an-instance-to-a-static-closure,-this-will-be-an-error-in-php-9`
       * :ref:`cannot-bind-an-instance-to-a-static-closure`
       * :ref:`cannot-modify-readonly-property-%s::\$%s`
       * :ref:`use-of-"parent"-in-callables-is-deprecated`
@@ -2250,7 +2281,7 @@ Features index
       * :ref:`use-of-"static"-in-callables-is-deprecated`
 
 
-   * static-constant-expression
+   * static-expression
 
       * :ref:`argument-unpacking-in-constant-expressions-is-not-supported`
       * :ref:`object-casts-are-not-supported-in-this-context`
@@ -2637,6 +2668,13 @@ Features index
       * :ref:`property-x::\$p-cannot-have-type-void`
       * :ref:`returning-by-reference-from-a-void-function-is-deprecated`
       * :ref:`void-cannot-be-used-as-a-parameter-type`
+
+
+   * void-cast
+
+      * :ref:`the-return-value-of-function-%s()-should-either-be-used-or-intentionally-ignored-by-casting-it-as-(void)%s-code`
+      * :ref:`the-return-value-of-function-%s()-should-either-be-used-or-intentionally-ignored-by-casting-it-as-(void)%s`
+      * :ref:`the-return-value-of-method-%s::%s()-should-either-be-used-or-intentionally-ignored-by-casting-it-as-(void)%s`
 
 
    * vsprintf
