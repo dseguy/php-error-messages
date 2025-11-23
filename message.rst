@@ -58,6 +58,7 @@ PHP Error Messages
    messages/a-never-returning-method-must-not-return.rst
    messages/a-non-numeric-value-encountered.rst
    messages/a-non-well-formed-numeric-value-encountered.rst
+   messages/a-precedence-rule-was-defined-for-%s::%s-but-this-method-does-not-exist.rst
    messages/a-void-%s-must-not-return-a-value.rst
    messages/abstract-property-hook-cannot-have-body.rst
    messages/access-level-to-%s::%s-must-be-%s-(as-in-%s-%s)%s.rst
@@ -265,6 +266,7 @@ PHP Error Messages
    messages/class-constant-%s::%s-cannot-have-type-%s.rst
    messages/class-declarations-may-not-be-nested.rst
    messages/classes-must-be-first-marked-as-attribute-before-being-able-to-be-registered-as-internal-attribute-class.rst
+   messages/clone():-argument-#1-($object)-must-be-of-type-object,-%s-given.rst
    messages/closures-in-constant-expressions-must-be-static.rst
    messages/constant-%s-already-defined.rst
    messages/constant-%s-is-deprecated.rst
@@ -384,6 +386,8 @@ PHP Error Messages
    messages/method-%s::%s()-cannot-be-static.rst
    messages/method-%s::%s()-cannot-declare-a-return-type.rst
    messages/method-%s::%s()-must-be-static.rst
+   messages/method-%s::%s()-must-take-exactly-1-argument.rst
+   messages/method-%s::%s()-must-take-exactly-2-arguments.rst
    messages/method-%s::__construct()-cannot-declare-a-return-type.rst
    messages/method-%s::__tostring()-must-not-throw-an-exception,-caught-%s:-%s.rst
    messages/method-name-must-be-a-string.rst
@@ -459,6 +463,8 @@ PHP Error Messages
    messages/parameter-uses-'parent'-as-type-hint-although-class-does-not-have-a-parent!.rst
    messages/passing-e_user_error-to-trigger_error()-is-deprecated-since-8.4,-throw-an-exception-or-call-exit-with-a-string-message-instead.rst
    messages/passing-false-or-null-is-deprecated-since-8.4.rst
+   messages/passing-non-callable-strings-is-deprecated-since-8.4.rst
+   messages/passing-null-is-deprecated,-instead-the-last-opened-directory-stream-should-be-provided.rst
    messages/passing-the-encoding-as-third-parameter-is-deprecated.-use-an-explicit-zero-offset.rst
    messages/path-cannot-be-empty.rst
    messages/path-must-not-be-empty.rst
@@ -514,6 +520,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-'elseif'.rst
    messages/syntax-error,-unexpected-'match'.rst
    messages/syntax-error,-unexpected-'throw'-(t_throw).rst
+   messages/syntax-error,-unexpected-'{'.rst
    messages/syntax-error,-unexpected-'|',-expecting-variable-(t_variable).rst
    messages/syntax-error,-unexpected-end-of-file.rst
    messages/syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function"-or-"const".rst
@@ -632,6 +639,7 @@ PHP Error Messages
    messages/the-behavior-of-unparenthesized-expressions-containing-both-'.'-and-'+'-'-'-will-change-in-php-8:-'+'-'-'-will-take-a-higher-precedence.rst
    messages/the-behavior-of-unparenthesized-expressions-containing-both-'.'-and-'<<'-'>>'-will-change-in-php-8:-'<<'-'>>'-will-take-a-higher-precedence.rst
    messages/the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls.rst
+   messages/the-float-string--"%s-"-is-not-representable-as-an-int,-cast-occurred.rst
    messages/the-magic-method-%s::%s()-must-have-public-visibility.rst
    messages/the-parent-constructor-was-not-called:-the-object-is-in-an-invalid-state.rst
    messages/the-predefined-locally-scoped-$http_response_header-variable-is-deprecated,.rst

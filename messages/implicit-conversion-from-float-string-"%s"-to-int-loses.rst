@@ -67,11 +67,6 @@ ________________
 
 This error may appear following an evolution in behavior, in previous versions. See `implicitConversionToInt <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/implicitConversionToInt.html>`_.
 
-Changed Behavior
-________________
-
-This error may appear following an evolution in behavior, in previous versions. See `implicitConversionToInt <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/implicitConversionToInt.html>`_.
-
 Static Analysis
 _______________
 

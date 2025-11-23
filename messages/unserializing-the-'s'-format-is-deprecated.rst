@@ -54,11 +54,6 @@ ________________
 
 This error may appear following an evolution in behavior, in previous versions. See `unserialize_S <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/unserialize_S.html>`_.
 
-Changed Behavior
-________________
-
-This error may appear following an evolution in behavior, in previous versions. See `unserialize_S <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/unserialize_S.html>`_.
-
 Static Analysis
 _______________
 

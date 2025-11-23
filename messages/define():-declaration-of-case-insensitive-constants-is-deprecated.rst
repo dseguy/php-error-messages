@@ -52,11 +52,6 @@ ________________
 
 This error may appear following an evolution in behavior, in previous versions. See `caseInsensitiveDefine <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/caseInsensitiveDefine.html>`_.
 
-Changed Behavior
-________________
-
-This error may appear following an evolution in behavior, in previous versions. See `caseInsensitiveDefine <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/caseInsensitiveDefine.html>`_.
-
 Static Analysis
 _______________
 

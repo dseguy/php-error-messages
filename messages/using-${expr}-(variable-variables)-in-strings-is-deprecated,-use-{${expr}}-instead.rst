@@ -52,11 +52,6 @@ ________________
 
 This error may appear following an evolution in behavior, in previous versions. See `dollar_curly_expression <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/dollar_curly_expression.html>`_.
 
-Changed Behavior
-________________
-
-This error may appear following an evolution in behavior, in previous versions. See `dollar_curly_expression <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/dollar_curly_expression.html>`_.
-
 Static Analysis
 _______________
 

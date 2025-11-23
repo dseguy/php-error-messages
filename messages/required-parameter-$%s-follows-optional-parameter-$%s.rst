@@ -60,11 +60,6 @@ ________________
 
 This error may appear following an evolution in behavior, in previous versions. See `OptionalParameterLast <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/OptionalParameterLast.html>`_.
 
-Changed Behavior
-________________
-
-This error may appear following an evolution in behavior, in previous versions. See `OptionalParameterLast <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/OptionalParameterLast.html>`_.
-
 Static Analysis
 _______________
 

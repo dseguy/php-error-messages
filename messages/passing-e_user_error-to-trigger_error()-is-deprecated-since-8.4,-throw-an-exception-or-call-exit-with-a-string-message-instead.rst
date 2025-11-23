@@ -49,11 +49,6 @@ ________________
 
 This error may appear following an evolution in behavior, in previous versions. See `E_USER_ERROR <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/E_USER_ERROR.html>`_.
 
-Changed Behavior
-________________
-
-This error may appear following an evolution in behavior, in previous versions. See `E_USER_ERROR <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/E_USER_ERROR.html>`_.
-
 Static Analysis
 _______________
 

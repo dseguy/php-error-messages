@@ -21,7 +21,7 @@ __clone method called on non-object
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/clone-method-called-on-non-object.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/clone-method-called-on-non-object.html","name":"__clone method called on non-object","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 21 Feb 2025 18:53:43 +0000","dateModified":"Fri, 21 Feb 2025 18:53:43 +0000","description":"This error signals an attempt at cloning a value that is not an object","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/clone-method-called-on-non-object.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/clone-method-called-on-non-object.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/clone-method-called-on-non-object.html","name":"__clone method called on non-object","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 19 Nov 2025 17:56:45 +0000","dateModified":"Wed, 19 Nov 2025 17:56:45 +0000","description":"This error signals an attempt at cloning a value that is not an object","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/clone-method-called-on-non-object.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -56,3 +56,6 @@ Related Error Messages
 ______________________
 
 + :ref:`can-only-throw-objects`
+
+
+In more recent PHP versions, this error message is now :ref:`clone():-argument-#1-($object)-must-be-of-type-object,-%s-given`.

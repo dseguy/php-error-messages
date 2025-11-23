@@ -1,27 +1,27 @@
 .. _cannot-use-the-final-modifier-on-a-property:
 
-Property cannot be both final and private
------------------------------------------
+Cannot use the final modifier on a property
+-------------------------------------------
  
 .. meta::
 	:description:
-		Property cannot be both final and private: When a property is final, it cannot be overridden in a child class.
+		Cannot use the final modifier on a property: When a property is final, it cannot be overridden in a child class.
 	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
-	:og:title: Property cannot be both final and private
+	:og:title: Cannot use the final modifier on a property
 	:og:description: When a property is final, it cannot be overridden in a child class
 	:og:url: https://php-errors.readthedocs.io/en/latest/messages/cannot-use-the-final-modifier-on-a-property.html
 	:og:locale: en
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Property cannot be both final and private
-	:twitter:description: Property cannot be both final and private: When a property is final, it cannot be overridden in a child class
+	:twitter:title: Cannot use the final modifier on a property
+	:twitter:description: Cannot use the final modifier on a property: When a property is final, it cannot be overridden in a child class
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-the-final-modifier-on-a-property.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-the-final-modifier-on-a-property.html","name":"Property cannot be both final and private","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 21 Feb 2025 18:53:43 +0000","dateModified":"Fri, 21 Feb 2025 18:53:43 +0000","description":"When a property is final, it cannot be overridden in a child class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-use-the-final-modifier-on-a-property.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-the-final-modifier-on-a-property.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-the-final-modifier-on-a-property.html","name":"Cannot use the final modifier on a property","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 19 Nov 2025 17:58:47 +0000","dateModified":"Wed, 19 Nov 2025 17:58:47 +0000","description":"When a property is final, it cannot be overridden in a child class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-use-the-final-modifier-on-a-property.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -53,4 +53,4 @@ _________
 + Remove the private keyword and use protected or public.
 
 
-In previous PHP versions, this error message used to be :ref:`property-cannot-be-both-final-and-private`.
+In more recent PHP versions, this error message is now :ref:`property-cannot-be-both-final-and-private`.

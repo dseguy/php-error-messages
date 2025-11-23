@@ -399,6 +399,7 @@ Tag index
       * :ref:`syntax-error,-unexpected-\'elseif\'`
       * :ref:`syntax-error,-unexpected-\'match\'`
       * :ref:`syntax-error,-unexpected-\'throw\'-(t_throw)`
+      * :ref:`syntax-error,-unexpected-\'{\'`
       * :ref:`syntax-error,-unexpected-\'|\',-expecting-variable-(t_variable)`
       * :ref:`syntax-error,-unexpected-end-of-file`
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function"-or-"const"`

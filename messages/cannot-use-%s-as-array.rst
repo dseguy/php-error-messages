@@ -58,8 +58,3 @@ Changed Behavior
 ________________
 
 This error may appear following an evolution in behavior, in previous versions. See `destructuringNonArray <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/destructuringNonArray.html>`_.
-
-Changed Behavior
-________________
-
-This error may appear following an evolution in behavior, in previous versions. See `destructuringNonArray <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/destructuringNonArray.html>`_.

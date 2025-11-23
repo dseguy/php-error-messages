@@ -169,6 +169,8 @@ Features index
       * :ref:`func_get_arg()-cannot-be-called-from-the-global-scope`
       * :ref:`func_get_args()-cannot-be-called-from-the-global-scope`
       * :ref:`func_num_args()-must-be-called-from-a-function-context`
+      * :ref:`method-%s::%s()-must-take-exactly-1-argument`
+      * :ref:`method-%s::%s()-must-take-exactly-2-arguments`
       * :ref:`only-variables-can-be-passed-by-reference`
       * :ref:`only-variables-should-be-passed-by-reference`
       * :ref:`parameter-%d-must-be-passed-by-reference`
@@ -207,6 +209,7 @@ Features index
       * :ref:`only-arrays-can-be-unpacked-in-constant-expression`
       * :ref:`parameter-must-be-an-array-or-an-object-that-implements-countable`
       * :ref:`syntax-error,-unexpected-\')\',-expecting-\'=\'`
+      * :ref:`syntax-error,-unexpected-\'{\'`
       * :ref:`syntax-error,-unexpected-token-"{"`
       * :ref:`syntax-error,-unexpected-token-"}"`
       * :ref:`type-%s-contains-both-iterable-and-array`
@@ -452,6 +455,11 @@ Features index
       * :ref:`value-of-type-%s-is-not-callable`
 
 
+   * callable-string
+
+      * :ref:`passing-non-callable-strings-is-deprecated-since-8.4`
+
+
    * callback
 
       * :ref:`array-callback-must-have-exactly-two-elements`
@@ -589,6 +597,7 @@ Features index
    * clone
 
       * :ref:`clone-method-called-on-non-object`
+      * :ref:`clone():-argument-#1-(\$object)-must-be-of-type-object,-%s-given`
 
 
    * close-tag
@@ -608,6 +617,7 @@ Features index
       * :ref:`current-function-is-not-a-closure`
       * :ref:`failed-to-create-closure-from-callable:-%s`
       * :ref:`instantiation-of-class-closure-is-not-allowed`
+      * :ref:`passing-non-callable-strings-is-deprecated-since-8.4`
       * :ref:`syntax-error,-unexpected-token-"("`
       * :ref:`syntax-error,-unexpected-token-")",-expecting-"function"-or-"fn"-or-"static"-or-"#["`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-"function"-or-"fn"-or-"static"-or-"#["`
@@ -779,6 +789,7 @@ Features index
 
       * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-deprecated`
       * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported`
+      * :ref:`syntax-error,-unexpected-\'{\'`
 
 
    * date
@@ -860,6 +871,11 @@ Features index
    * destructor
 
       * :ref:`destructors-cannot-declare-a-return-type`
+
+
+   * dir
+
+      * :ref:`passing-null-is-deprecated,-instead-the-last-opened-directory-stream-should-be-provided`
 
 
    * directive
@@ -1189,6 +1205,11 @@ Features index
       * :ref:`label-\'%s\'-already-defined`
 
 
+   * handler
+
+      * :ref:`passing-non-callable-strings-is-deprecated-since-8.4`
+
+
    * heredoc
 
       * :ref:`invalid-indentation---tabs-and-spaces-cannot-be-mixed`
@@ -1309,6 +1330,7 @@ Features index
       * :ref:`cannot-decrement-property-%s::\$%s-of-type-int-past-its-minimal-value`
       * :ref:`cannot-increment-property-%s::\$%s-of-type-int-past-its-maximal-value`
       * :ref:`division-of-php_int_min-by--1-is-not-an-integer`
+      * :ref:`the-float-string--"%s-"-is-not-representable-as-an-int,-cast-occurred`
 
 
    * interface
@@ -1460,6 +1482,8 @@ Features index
       * :ref:`cannot-use-the-final-modifier-on-a-property`
       * :ref:`enum-%s-cannot-include-magic-method-%s`
       * :ref:`method-%s::%s()-cannot-be-static`
+      * :ref:`method-%s::%s()-must-take-exactly-1-argument`
+      * :ref:`method-%s::%s()-must-take-exactly-2-arguments`
       * :ref:`property-cannot-be-both-final-and-private`
       * :ref:`property-hook-cannot-be-both-final-and-private`
       * :ref:`the-magic-method-%s::%s()-must-have-public-visibility`
@@ -1505,6 +1529,7 @@ Features index
 
       * :ref:`%s():-returning-by-reference-from-a-void-function-is-deprecated`
       * :ref:`%s-function-%s::%s()-cannot-be-declared-private`
+      * :ref:`a-precedence-rule-was-defined-for-%s::%s-but-this-method-does-not-exist`
       * :ref:`an-alias-(%s)-was-defined-for-method-%s(),-but-this-method-does-not-exist`
       * :ref:`an-alias-was-defined-for-%s::%s-but-this-method-does-not-exist`
       * :ref:`call-to-%s-%s::%s()-from-invalid`
@@ -1687,10 +1712,16 @@ Features index
       * :ref:`must-be-a-callable,-null-given`
       * :ref:`must-be-of-type-countable|array,-%s-given`
       * :ref:`parameter-must-be-an-array-or-an-object-that-implements-countable`
+      * :ref:`passing-null-is-deprecated,-instead-the-last-opened-directory-stream-should-be-provided`
       * :ref:`strlen():-passing-null-to-parameter-#1-(\$string)-of-type-string-is-deprecated`
       * :ref:`trying-to-access-array-offset-on-%s`
       * :ref:`using-null-as-an-array-offset-is-deprecated,-use-an-empty-string-instead`
       * :ref:`using-null-as-the-key-parameter-for-array_key_exists()-is-deprecated,-use-an-empty-string-instead`
+
+
+   * null-object-operator
+
+      * :ref:`syntax-error,-unexpected-token-"->"`
 
 
    * nullable
@@ -1706,6 +1737,11 @@ Features index
    * nullsafe-object-operator
 
       * :ref:`can\'t-use-nullsafe-operator-in-write-context`
+
+
+   * numeric-string
+
+      * :ref:`the-float-string--"%s-"-is-not-representable-as-an-int,-cast-occurred`
 
 
    * object
@@ -2431,6 +2467,7 @@ Features index
 
       * :ref:`%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed`
       * :ref:`%s-cannot-use-%s---it-is-not-a-trait`
+      * :ref:`a-precedence-rule-was-defined-for-%s::%s-but-this-method-does-not-exist`
       * :ref:`accessing-static-trait-property-%s::\$%s-is-deprecated,-it-should-only-be-accessed-on-a-class-using-the-trait`
       * :ref:`accessing-static-trait-property-%s::\$%s-is-deprecated`
       * :ref:`call-to-undefined-method-%s::%s()`

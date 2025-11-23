@@ -54,8 +54,3 @@ Changed Behavior
 ________________
 
 This error may appear following an evolution in behavior, in previous versions. See `version_compare <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/version_compare.html>`_.
-
-Changed Behavior
-________________
-
-This error may appear following an evolution in behavior, in previous versions. See `version_compare <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/version_compare.html>`_.

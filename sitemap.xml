@@ -160,6 +160,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/a-non-well-formed-numeric-value-encountered.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/a-precedence-rule-was-defined-for-%25s%3A%3A%25s-but-this-method-does-not-exist.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/a-void-%25s-must-not-return-a-value.html</loc>
  </url>
  <url>
@@ -781,6 +784,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/classes-must-be-first-marked-as-attribute-before-being-able-to-be-registered-as-internal-attribute-class.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/clone%28%29%3A-argument-%231-%28%24object%29-must-be-of-type-object%2C-%25s-given.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/closures-in-constant-expressions-must-be-static.html</loc>
  </url>
  <url>
@@ -1138,6 +1144,12 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/method-%25s%3A%3A%25s%28%29-must-be-static.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/method-%25s%3A%3A%25s%28%29-must-take-exactly-1-argument.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/method-%25s%3A%3A%25s%28%29-must-take-exactly-2-arguments.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/method-%25s%3A%3A__construct%28%29-cannot-declare-a-return-type.html</loc>
  </url>
  <url>
@@ -1363,6 +1375,12 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/passing-false-or-null-is-deprecated-since-8.4.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/passing-non-callable-strings-is-deprecated-since-8.4.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/passing-null-is-deprecated%2C-instead-the-last-opened-directory-stream-should-be-provided.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/passing-the-encoding-as-third-parameter-is-deprecated.-use-an-explicit-zero-offset.html</loc>
  </url>
  <url>
@@ -1526,6 +1544,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-%27throw%27-%28t_throw%29.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-%27%7B%27.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-%27%7C%27%2C-expecting-variable-%28t_variable%29.html</loc>
@@ -1880,6 +1901,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-each%28%29-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-float-string--%22%25s-%22-is-not-representable-as-an-int%2C-cast-occurred.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-magic-method-%25s%3A%3A%25s%28%29-must-have-public-visibility.html</loc>

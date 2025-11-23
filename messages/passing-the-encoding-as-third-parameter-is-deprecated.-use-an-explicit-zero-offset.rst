@@ -21,7 +21,7 @@ Passing the encoding as third parameter is deprecated. Use an explicit zero offs
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/passing-the-encoding-as-third-parameter-is-deprecated.-use-an-explicit-zero-offset.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/passing-the-encoding-as-third-parameter-is-deprecated.-use-an-explicit-zero-offset.html","name":"Passing the encoding as third parameter is deprecated. Use an explicit zero offset","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 19 Oct 2025 10:26:46 +0000","dateModified":"Sun, 19 Oct 2025 10:26:46 +0000","description":"PHP used to recognize automatically the third parameter when it was actually the encoding, and noth the offset of start","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/passing-the-encoding-as-third-parameter-is-deprecated.-use-an-explicit-zero-offset.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/passing-the-encoding-as-third-parameter-is-deprecated.-use-an-explicit-zero-offset.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/passing-the-encoding-as-third-parameter-is-deprecated.-use-an-explicit-zero-offset.html","name":"Passing the encoding as third parameter is deprecated. Use an explicit zero offset","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 19 Nov 2025 18:00:02 +0000","dateModified":"Wed, 19 Nov 2025 18:00:02 +0000","description":"PHP used to recognize automatically the third parameter when it was actually the encoding, and noth the offset of start","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/passing-the-encoding-as-third-parameter-is-deprecated.-use-an-explicit-zero-offset.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -54,11 +54,6 @@ _________
 
 
 In more recent PHP versions, this error message is now :ref:`argument-#%d-($%s)-must-be-of-type-%s,-%s-given`.
-
-Changed Behavior
-________________
-
-This error may appear following an evolution in behavior, in previous versions. See `mb_strrpos <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/mb_strrpos.html>`_.
 
 Changed Behavior
 ________________

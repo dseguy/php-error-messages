@@ -71,11 +71,6 @@ ________________
 
 This error may appear following an evolution in behavior, in previous versions. See `autoInitializeArrayFromBool <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/autoInitializeArrayFromBool.html>`_.
 
-Changed Behavior
-________________
-
-This error may appear following an evolution in behavior, in previous versions. See `autoInitializeArrayFromBool <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/autoInitializeArrayFromBool.html>`_.
-
 Static Analysis
 _______________
 

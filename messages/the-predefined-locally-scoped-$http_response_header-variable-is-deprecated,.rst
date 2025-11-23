@@ -49,8 +49,3 @@ Changed Behavior
 ________________
 
 This error may appear following an evolution in behavior, in previous versions. See `http_response_header <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/http_response_header.html>`_.
-
-Changed Behavior
-________________
-
-This error may appear following an evolution in behavior, in previous versions. See `http_response_header <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/http_response_header.html>`_.

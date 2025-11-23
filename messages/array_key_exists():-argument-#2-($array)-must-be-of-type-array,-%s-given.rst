@@ -63,11 +63,6 @@ ________________
 
 This error may appear following an evolution in behavior, in previous versions. See `array_key_existsOnObjects <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/array_key_existsOnObjects.html>`_.
 
-Changed Behavior
-________________
-
-This error may appear following an evolution in behavior, in previous versions. See `array_key_existsOnObjects <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/array_key_existsOnObjects.html>`_.
-
 Static Analysis
 _______________
 

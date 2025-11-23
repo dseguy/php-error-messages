@@ -55,8 +55,3 @@ Changed Behavior
 ________________
 
 This error may appear following an evolution in behavior, in previous versions. See `NullAsArrayOffset <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/NullAsArrayOffset.html>`_, `NullWithArrayKeyExists <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/NullWithArrayKeyExists.html>`_.
-
-Changed Behavior
-________________
-
-This error may appear following an evolution in behavior, in previous versions. See `NullAsArrayOffset <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/NullAsArrayOffset.html>`_, `NullWithArrayKeyExists <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/NullWithArrayKeyExists.html>`_.

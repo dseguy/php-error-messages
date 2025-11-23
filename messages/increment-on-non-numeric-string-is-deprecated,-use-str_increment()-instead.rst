@@ -21,7 +21,7 @@ Increment on non-numeric string is deprecated, use str_increment() instead
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/increment-on-non-numeric-string-is-deprecated,-use-str_increment()-instead.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/increment-on-non-numeric-string-is-deprecated,-use-str_increment()-instead.html","name":"Increment on non-numeric string is deprecated, use str_increment() instead","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 07 Nov 2025 09:39:34 +0000","dateModified":"Fri, 07 Nov 2025 09:39:34 +0000","description":"PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/increment-on-non-numeric-string-is-deprecated,-use-str_increment()-instead.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/increment-on-non-numeric-string-is-deprecated,-use-str_increment()-instead.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/increment-on-non-numeric-string-is-deprecated,-use-str_increment()-instead.html","name":"Increment on non-numeric string is deprecated, use str_increment() instead","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 19 Nov 2025 18:02:53 +0000","dateModified":"Wed, 19 Nov 2025 18:02:53 +0000","description":"PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/increment-on-non-numeric-string-is-deprecated,-use-str_increment()-instead.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -52,9 +52,4 @@ _________
 Changed Behavior
 ________________
 
-This error may appear following an evolution in behavior, in previous versions. See ` <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`_.
-
-Changed Behavior
-________________
-
-This error may appear following an evolution in behavior, in previous versions. See ` <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`_.
+This error may appear following an evolution in behavior, in previous versions. See `incrementNonAlphanumeric <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/incrementNonAlphanumeric.html>`_.

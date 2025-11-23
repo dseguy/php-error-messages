@@ -52,11 +52,6 @@ ________________
 
 This error may appear following an evolution in behavior, in previous versions. See `return_reference_on_void <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/return_reference_on_void.html>`_.
 
-Changed Behavior
-________________
-
-This error may appear following an evolution in behavior, in previous versions. See `return_reference_on_void <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/return_reference_on_void.html>`_.
-
 Static Analysis
 _______________
 

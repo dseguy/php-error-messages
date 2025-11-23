@@ -71,11 +71,6 @@ ________________
 
 This error may appear following an evolution in behavior, in previous versions. See `codes/staticInCallable <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/codes/staticInCallable.html>`_.
 
-Changed Behavior
-________________
-
-This error may appear following an evolution in behavior, in previous versions. See `codes/staticInCallable <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/codes/staticInCallable.html>`_.
-
 Static Analysis
 _______________
 

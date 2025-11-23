@@ -55,11 +55,6 @@ ________________
 
 This error may appear following an evolution in behavior, in previous versions. See `autoload <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/autoload.html>`_.
 
-Changed Behavior
-________________
-
-This error may appear following an evolution in behavior, in previous versions. See `autoload <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/autoload.html>`_.
-
 Static Analysis
 _______________
 
