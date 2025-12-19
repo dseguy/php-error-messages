@@ -21,7 +21,7 @@ Missing format specifier at end of string
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/missing-format-specifier-at-end-of-string.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/missing-format-specifier-at-end-of-string.html","name":"Missing format specifier at end of string","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Dec 2025 06:00:48 +0000","dateModified":"Fri, 19 Dec 2025 06:00:48 +0000","description":"This error is related to the parsing of the format string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/missing-format-specifier-at-end-of-string.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/missing-format-specifier-at-end-of-string.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/missing-format-specifier-at-end-of-string.html","name":"Missing format specifier at end of string","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 19 Dec 2025 06:02:43 +0000","dateModified":"Fri, 19 Dec 2025 06:02:43 +0000","description":"This error is related to the parsing of the format string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/missing-format-specifier-at-end-of-string.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -50,6 +50,11 @@ _________
 + Add the missing format character at the end of the line.
 + Remove the final % char in the format line.
 + Add another % at the end of the line, to make it a literal % char in the format.
+
+See Also
+________
+
++ `Fatal errors on WordPress with PHP 8+ and an incorrect translation <https://kau-boys.com/3202/wordpress/fatal-errors-on-wordpress-with-php-8-and-an-incorrect-translation>`_
 
 Changed Behavior
 ________________
