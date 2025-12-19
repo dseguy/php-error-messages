@@ -392,6 +392,7 @@ PHP Error Messages
    messages/method-%s::__tostring()-must-not-throw-an-exception,-caught-%s:-%s.rst
    messages/method-name-must-be-a-string.rst
    messages/methods-with-the-same-name-as-their-class-will-not-be-constructors-in-a-future-version-of-php;-%s-has-a-deprecated-constructor.rst
+   messages/missing-format-specifier-at-end-of-string.rst
    messages/module-"%s"-is-already-loaded.rst
    messages/multiple-access-type-modifiers-are-not-allowed.rst
    messages/multiple-final-modifiers-are-not-allowed.rst

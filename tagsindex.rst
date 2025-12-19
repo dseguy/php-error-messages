@@ -304,6 +304,12 @@ Tag index
       * :ref:`could-not-check-compatibility-between-%s-and-%s,-because-class-%s-is-not-available`
 
 
+   * printf
+
+      * :ref:`missing-format-specifier-at-end-of-string`
+      * :ref:`unknown-format-specifier-"%c`
+
+
    * readonly
 
       * :ref:`cannot-acquire-reference-to-$globals`

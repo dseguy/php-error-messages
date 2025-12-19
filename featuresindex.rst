@@ -1900,6 +1900,7 @@ Features index
    * printf
 
       * :ref:`%d-arguments-are-required,-%d`
+      * :ref:`missing-format-specifier-at-end-of-string`
       * :ref:`too-few-arguments`
       * :ref:`unknown-format-specifier-"%c`
 
