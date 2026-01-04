@@ -452,18 +452,15 @@ Features index
       * :ref:`class-constant-%s::%s-cannot-have-type-%s`
       * :ref:`failed-to-create-closure-from-callable:-%s`
       * :ref:`object-of-type-%s-is-not-callable`
-      * :ref:`value-of-type-%s-is-not-callable`
-
-
-   * callable-string
-
       * :ref:`passing-non-callable-strings-is-deprecated-since-8.4`
+      * :ref:`value-of-type-%s-is-not-callable`
 
 
    * callback
 
       * :ref:`array-callback-must-have-exactly-two-elements`
       * :ref:`must-be-a-callable,-null-given`
+      * :ref:`passing-non-callable-strings-is-deprecated-since-8.4`
 
 
    * case
@@ -1330,6 +1327,7 @@ Features index
       * :ref:`cannot-decrement-property-%s::\$%s-of-type-int-past-its-minimal-value`
       * :ref:`cannot-increment-property-%s::\$%s-of-type-int-past-its-maximal-value`
       * :ref:`division-of-php_int_min-by--1-is-not-an-integer`
+      * :ref:`must-be-greater-than-0`
       * :ref:`the-float-string--"%s-"-is-not-representable-as-an-int,-cast-occurred`
 
 
@@ -1414,6 +1412,7 @@ Features index
       * :ref:`syntax-error,-unexpected-token-"::"`
       * :ref:`syntax-error,-unexpected-token-"final",-expecting-"("`
       * :ref:`syntax-error,-unexpected-token-"match",-expecting-"("`
+      * :ref:`syntax-error,-unexpected-token-"private",-expecting-"="`
 
 
    * label
@@ -1625,6 +1624,7 @@ Features index
       * :ref:`cannot-use-\'namespace\'-as-namespace-name`
       * :ref:`namespace-declarations-cannot-be-nested`
       * :ref:`no-code-may-exist-outside-of-namespace-{}`
+      * :ref:`syntax-error,-unexpected-\';\',-expecting-\'{\'`
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s"`
       * :ref:`syntax-error,-unexpected-token-"--",-expecting-"{"`
@@ -1719,11 +1719,6 @@ Features index
       * :ref:`using-null-as-the-key-parameter-for-array_key_exists()-is-deprecated,-use-an-empty-string-instead`
 
 
-   * null-object-operator
-
-      * :ref:`syntax-error,-unexpected-token-"->"`
-
-
    * nullable
 
       * :ref:`type-mixed-cannot-be-marked-as-nullable-since-mixed-already-includes-null`
@@ -1737,6 +1732,7 @@ Features index
    * nullsafe-object-operator
 
       * :ref:`can\'t-use-nullsafe-operator-in-write-context`
+      * :ref:`syntax-error,-unexpected-token-"->"`
 
 
    * numeric-string
@@ -1876,11 +1872,6 @@ Features index
       * :ref:`unlink-of-"%s"-failed,-file-does-not-exist`
 
 
-   * php-keyword
-
-      * :ref:`syntax-error,-unexpected-token-"private",-expecting-"="`
-
-
    * php-variable
 
       * :ref:`undefined-variable`
@@ -1895,6 +1886,11 @@ Features index
 
       * :ref:`arrow-functions-on-the-right-hand-side-of-|>-must-be-parenthesized`
       * :ref:`syntax-error,-unexpected-token-">"`
+
+
+   * positive-integer
+
+      * :ref:`must-be-greater-than-0`
 
 
    * printf
@@ -2633,6 +2629,7 @@ Features index
 
    * validation
 
+      * :ref:`argument-#%d-must-be-greater-than-or-equal-to-0`
       * :ref:`argument-#1-(\$value)-must-contain-at-least-one-element`
       * :ref:`must-be-a-callable,-null-given`
       * :ref:`passing-false-or-null-is-deprecated-since-8.4`

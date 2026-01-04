@@ -73,6 +73,7 @@ PHP Error Messages
    messages/an-iterator-cannot-be-used-with-foreach-by-reference.rst
    messages/anonymous-class-method-%s()-must-not-be-abstract.rst
    messages/argument-#%d-($%s)-must-be-of-type-%s,-%s-given.rst
+   messages/argument-#%d-must-be-greater-than-or-equal-to-0.rst
    messages/argument-#1-($start)-must-be-a-single-byte-string-if.rst
    messages/argument-#1-($value)-must-contain-at-least-one-element.rst
    messages/argument-#2-($end)-must-be-a-single-byte-string-if.rst
@@ -408,6 +409,7 @@ PHP Error Messages
    messages/must-be-a-valid-rounding-mode-(roundingmode::*).rst
    messages/must-be-between-1-and-7.rst
    messages/must-be-contained-in-argument-#1-($haystack).rst
+   messages/must-be-greater-than-0.rst
    messages/must-be-of-type-%s,-%s-given.rst
    messages/must-be-of-type-countable|array,-%s-given.rst
    messages/must-be-one-of-pgsql_assoc,-pgsql_num,-or-pgsql_both.rst
@@ -517,6 +519,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-'::',-expecting-'('.rst
    messages/syntax-error,-unexpected-'::'-(t_paamayim_nekudotayim),-expecting-';'-or-','.rst
    messages/syntax-error,-unexpected-';',-expecting-'['.rst
+   messages/syntax-error,-unexpected-';',-expecting-'{'.rst
    messages/syntax-error,-unexpected-'[',-expecting-';'-or-','.rst
    messages/syntax-error,-unexpected-'elseif'.rst
    messages/syntax-error,-unexpected-'match'.rst

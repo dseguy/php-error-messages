@@ -20,6 +20,7 @@ Here is a list of classic syntax errors, met in every day code. Some common solu
       * :ref:`syntax-error,-unexpected-'::'-(t_paamayim_nekudotayim),-expecting-';'-or-','`
       * :ref:`syntax-error,-unexpected-'::',-expecting-'('`
       * :ref:`syntax-error,-unexpected-';',-expecting-'['`
+      * :ref:`syntax-error,-unexpected-';',-expecting-'{'`
       * :ref:`syntax-error,-unexpected-'[',-expecting-';'-or-','`
       * :ref:`syntax-error,-unexpected-'elseif'`
       * :ref:`syntax-error,-unexpected-'match'`

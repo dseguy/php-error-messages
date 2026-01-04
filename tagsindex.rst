@@ -299,6 +299,11 @@ Tag index
       * :ref:`the-behavior-of-unparenthesized-expressions-containing-both-\'.\'-and-\'<<\'-\'>>\'-will-change-in-php-8:-\'<<\'-\'>>\'-will-take-a-higher-precedence`
 
 
+   * parameter value error
+
+      * :ref:`must-be-greater-than-0`
+
+
    * partial-lint
 
       * :ref:`could-not-check-compatibility-between-%s-and-%s,-because-class-%s-is-not-available`
@@ -401,6 +406,7 @@ Tag index
       * :ref:`syntax-error,-unexpected-\'::\',-expecting-\'(\'`
       * :ref:`syntax-error,-unexpected-\'::\'-(t_paamayim_nekudotayim),-expecting-\';\'-or-\',\'`
       * :ref:`syntax-error,-unexpected-\';\',-expecting-\'[\'`
+      * :ref:`syntax-error,-unexpected-\';\',-expecting-\'{\'`
       * :ref:`syntax-error,-unexpected-\'[\',-expecting-\';\'-or-\',\'`
       * :ref:`syntax-error,-unexpected-\'elseif\'`
       * :ref:`syntax-error,-unexpected-\'match\'`
