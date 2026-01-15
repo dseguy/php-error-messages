@@ -545,6 +545,11 @@ Tag index
       * :ref:`type-mixed-can-only-be-used-as-a-standalone-type`
 
 
+   * typo
+
+      * :ref:`cannot-assign-to-array(),-use-[]-instead-in-%s`
+
+
    * undefined
 
       * :ref:`call-to-undefined-function`

@@ -187,6 +187,7 @@ Features index
       * :ref:`automatic-conversion-of-false-to-array-is-deprecated`
       * :ref:`calling-%s()-on-an-object-is-deprecated`
       * :ref:`can-only-flip-string-and-integer-values,-entry-skipped`
+      * :ref:`cannot-assign-to-array(),-use-[]-instead-in-%s`
       * :ref:`cannot-unpack-array-with-string-keys`
       * :ref:`cannot-unset-offset-in-a-non-array-variable`
       * :ref:`cannot-use-"%s"-as-a-type-name-as-it-is-reserved`
@@ -668,6 +669,11 @@ Features index
       * :ref:`recursion-detected`
       * :ref:`undefined-variable-\$%s`
       * :ref:`undefined-variable`
+
+
+   * comparison
+
+      * :ref:`cannot-assign-to-array(),-use-[]-instead-in-%s`
 
 
    * compatibility
@@ -1425,6 +1431,7 @@ Features index
 
    * lexical
 
+      * :ref:`cannot-use-auto-global-as-lexical-variable`
       * :ref:`cannot-use-lexical-variable-%s-as-a-parameter-name`
       * :ref:`named-parameter-\$%s-overwrites-previous-argument`
 
@@ -1432,6 +1439,7 @@ Features index
    * list
 
       * :ref:`cannot-assign-reference-to-non-referenceable-value`
+      * :ref:`cannot-assign-to-array(),-use-[]-instead-in-%s`
       * :ref:`cannot-mix-keyed-and-unkeyed-array-entries-in-assignments`
       * :ref:`cannot-use-%s-as-array`
       * :ref:`cannot-use-empty-array-elements-in-arrays`

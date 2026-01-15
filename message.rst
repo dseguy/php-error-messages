@@ -142,6 +142,7 @@ PHP Error Messages
    messages/cannot-assign-%s-to-reference-held-by-property-%s::$%s-of-type-%s.rst
    messages/cannot-assign-an-empty-string-to-a-string-offset.rst
    messages/cannot-assign-reference-to-non-referenceable-value.rst
+   messages/cannot-assign-to-array(),-use-[]-instead-in-%s.rst
    messages/cannot-auto-initialize-an-array-inside-property-%s::$%s-of-type-%s.rst
    messages/cannot-be-0.rst
    messages/cannot-be-a-class-constant.rst
@@ -224,6 +225,7 @@ PHP Error Messages
    messages/cannot-use-::class-with-dynamic-class-name.rst
    messages/cannot-use-[]-for-reading.rst
    messages/cannot-use-a-scalar-value-as-an-array.rst
+   messages/cannot-use-auto-global-as-lexical-variable.rst
    messages/cannot-use-dynamic-function-name-in-constant-expression.rst
    messages/cannot-use-empty-array-elements-in-arrays.rst
    messages/cannot-use-empty-array-entries-in-keyed-array-assignment.rst
