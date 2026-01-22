@@ -1055,6 +1055,7 @@ Features index
       * :ref:`syntax-error,-unexpected-token-"extends",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"extends",-expecting-identifier`
       * :ref:`syntax-error,-unexpected-token-"extends"`
+      * :ref:`the-sqlite3-object-has-not-been-correctly-initialised-or-is-already-closed`
 
 
    * extension
@@ -1136,6 +1137,7 @@ Features index
    * float
 
       * :ref:`implicit-conversion-from-float-string-"%s"-to-int-loses`
+      * :ref:`requested-precision-of-%d-digits-was-truncated-to-php-maximum-of-%d-digits`
 
 
    * foreach
@@ -1559,6 +1561,7 @@ Features index
       * :ref:`syntax-error,-unexpected-token-"public"`
       * :ref:`syntax-error,-unexpected-token-"}",-expecting-";"-or-"{"`
       * :ref:`syntax-error,-unexpected-variable-"%s",-expecting-"("`
+      * :ref:`the-sqlite3-object-has-not-been-correctly-initialised-or-is-already-closed`
       * :ref:`too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d-expected`
       * :ref:`too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d`
       * :ref:`trying-to-invoke-%s-method-%s::%s()-from-scope-%s`
@@ -1709,6 +1712,11 @@ Features index
       * :ref:`the-return-value-of-method-%s::%s()-should-either-be-used-or-intentionally-ignored-by-casting-it-as-(void)%s`
 
 
+   * non-instantiable
+
+      * :ref:`sqlite3result-cannot-be-directly-instantiated`
+
+
    * null
 
       * :ref:`%s():-passing-null-to-parameter-#%`
@@ -1847,6 +1855,7 @@ Features index
       * :ref:`cannot-use-"parent"-when-no-class-scope-is-active`
       * :ref:`object-of-type-%s-has-not-been-correctly-initialized-by-calling-parent::__construct()-in-its-constructor`
       * :ref:`parameter-uses-\'parent\'-as-type-hint-although-class-does-not-have-a-parent!`
+      * :ref:`the-sqlite3-object-has-not-been-correctly-initialised-or-is-already-closed`
 
 
    * parenthesis
@@ -1901,10 +1910,16 @@ Features index
       * :ref:`must-be-greater-than-0`
 
 
+   * precision
+
+      * :ref:`requested-precision-of-%d-digits-was-truncated-to-php-maximum-of-%d-digits`
+
+
    * printf
 
       * :ref:`%d-arguments-are-required,-%d`
       * :ref:`missing-format-specifier-at-end-of-string`
+      * :ref:`requested-precision-of-%d-digits-was-truncated-to-php-maximum-of-%d-digits`
       * :ref:`too-few-arguments`
       * :ref:`unknown-format-specifier-"%c`
 
@@ -2147,6 +2162,7 @@ Features index
 
    * rounding
 
+      * :ref:`is-an-unsupported-rounding-mode`
       * :ref:`must-be-a-valid-rounding-mode-(roundingmode::*)`
 
 
@@ -2594,6 +2610,7 @@ Features index
       * :ref:`cannot-unset-string-offsets`
       * :ref:`the-(unset)-cast-is-deprecated`
       * :ref:`the-(unset)-cast-is-no-longer-supported`
+      * :ref:`the-sqlite3-object-has-not-been-correctly-initialised-or-is-already-closed`
 
 
    * uri-class

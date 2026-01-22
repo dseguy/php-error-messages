@@ -377,6 +377,7 @@ PHP Error Messages
    messages/invalid-utf-8-codepoint-escape:-codepoint-too-large.rst
    messages/is-an-invalid-class-name.rst
    messages/is-an-invalid-offset.rst
+   messages/is-an-unsupported-rounding-mode.rst
    messages/is-not-a-valid-codepoint.rst
    messages/jump-into-a-finally-block-is-disallowed.rst
    messages/jump-out-of-a-finally-block-is-disallowed.rst
@@ -496,6 +497,7 @@ PHP Error Messages
    messages/readonly-property-%s::$%s-must-have-type.rst
    messages/recursion-detected.rst
    messages/redefinition-of-parameter-$%s.rst
+   messages/requested-precision-of-%d-digits-was-truncated-to-php-maximum-of-%d-digits.rst
    messages/required-parameter-$%s-follows-optional-parameter-$%s.rst
    messages/required-trait-%s-wasn't-added-to-%s.rst
    messages/return-type-of-%s::%s()-should-either-be-compatible-with-%s::%s():-mixed.rst
@@ -507,6 +509,7 @@ PHP Error Messages
    messages/security-protocol-must-be-one-of-"aes128",-or-"aes-e_error.rst
    messages/security-protocol-must-be-one-of-"des",-"aes128",-or-"aes-e_error.rst
    messages/spread-operator-is-not-supported-in-assignments.rst
+   messages/sqlite3result-cannot-be-directly-instantiated.rst
    messages/static-function-%s%s%s()-cannot-be-abstract.rst
    messages/static-property-%s::$%s-cannot-be-readonly.rst
    messages/static-property-may-not-have-asymmetric-visibility.rst
@@ -652,6 +655,7 @@ PHP Error Messages
    messages/the-return-value-of-function-%s()-should-either-be-used-or-intentionally-ignored-by-casting-it-as-(void)%s-code.rst
    messages/the-return-value-of-function-%s()-should-either-be-used-or-intentionally-ignored-by-casting-it-as-(void)%s.rst
    messages/the-return-value-of-method-%s::%s()-should-either-be-used-or-intentionally-ignored-by-casting-it-as-(void)%s.rst
+   messages/the-sqlite3-object-has-not-been-correctly-initialised-or-is-already-closed.rst
    messages/too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d-expected.rst
    messages/too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d.rst
    messages/too-few-arguments-to-function-%s%s%s(),-%d-passed-in-%s-on-line-%d-and-%s-%d-expected.rst

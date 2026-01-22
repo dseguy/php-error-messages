@@ -269,11 +269,17 @@ Tag index
       * :ref:`strict_types-declaration-must-be-the-very-first-statement-in-the-script`
 
 
+   * non-instantiable
+
+      * :ref:`sqlite3result-cannot-be-directly-instantiated`
+
+
    * not generated
 
       * :ref:`classes-must-be-first-marked-as-attribute-before-being-able-to-be-registered-as-internal-attribute-class`
       * :ref:`enum-"%s"-not-found`
       * :ref:`failed-to-open-stream-from-socketpair`
+      * :ref:`is-an-unsupported-rounding-mode`
       * :ref:`only-internal-classes-can-be-registered-as-compiler-attribute`
       * :ref:`static-function-%s%s%s()-cannot-be-abstract`
 

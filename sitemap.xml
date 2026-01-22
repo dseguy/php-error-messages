@@ -1117,6 +1117,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/is-an-invalid-offset.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/is-an-unsupported-rounding-mode.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/is-not-a-valid-codepoint.html</loc>
  </url>
  <url>
@@ -1474,6 +1477,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/redefinition-of-parameter-%24%25s.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/requested-precision-of-%25d-digits-was-truncated-to-php-maximum-of-%25d-digits.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/required-parameter-%24%25s-follows-optional-parameter-%24%25s.html</loc>
  </url>
  <url>
@@ -1505,6 +1511,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/spread-operator-is-not-supported-in-assignments.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/sqlite3result-cannot-be-directly-instantiated.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/static-function-%25s%25s%25s%28%29-cannot-be-abstract.html</loc>
@@ -1940,6 +1949,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-return-value-of-method-%25s%3A%3A%25s%28%29-should-either-be-used-or-intentionally-ignored-by-casting-it-as-%28void%29%25s.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-sqlite3-object-has-not-been-correctly-initialised-or-is-already-closed.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/too-few-arguments-to-function-%25s%25s%25s%28%29%2C-%25d-passed-and-%25s-%25d-expected.html</loc>
