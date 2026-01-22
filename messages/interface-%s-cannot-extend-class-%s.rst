@@ -54,8 +54,3 @@ _________
 + Turn the original class into an interface.
 + Make the original interface into an class.
 + Split the class into a class and an interface, and extends the latter.
-
-Static Analysis
-_______________
-
-This error may be tracked down with the following static analysis rules: `none <https://exakat.readthedocs.io/en/latest/Reference/Rules/none.html>`_.

@@ -49,8 +49,3 @@ Solutions
 _________
 
 + Use an integer with a value between 1 and 7.
-
-Static Analysis
-_______________
-
-This error may be tracked down with the following static analysis rules: `none <https://exakat.readthedocs.io/en/latest/Reference/Rules/none.html>`_.

@@ -55,8 +55,3 @@ Related Error Messages
 ______________________
 
 + :ref:`fetching-properties-on-non-enums-in-constant-expressions-is-not-allowed`
-
-Changed Behavior
-________________
-
-This error may appear following an evolution in behavior, in previous versions. See `cloneConstant <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/cloneConstant.html>`_.

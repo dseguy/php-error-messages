@@ -45,13 +45,3 @@ Solutions
 _________
 
 + Remove the call to ``assert.callback`` and its dependencies.
-
-Changed Behavior
-________________
-
-This error may appear following an evolution in behavior, in previous versions. See `none <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/none.html>`_.
-
-Static Analysis
-_______________
-
-This error may be tracked down with the following static analysis rules: `none <https://exakat.readthedocs.io/en/latest/Reference/Rules/none.html>`_.
