@@ -206,7 +206,7 @@ foreach($files as $file) {
 		++$warnings;
 	}
 
-	if (preg_match('/(trait|class|enum|interface|const|new|implements|extends|:|namespace) (?!(int|string|bool|void|never|float|callable|array|iterable|mixed|null|stdClass))[a-z]/', $error->code, $r) &&
+	if (preg_match('/(trait|class|enum|interface|const|new|implements|extends|:|namespace) (?!(int|string|bool|void|never|float|callable|array|iterable|mixed|null|stdClass|class))[a-z]/', $error->code, $r) &&
 	    !in_array('lower-case-name', $error->tags)) {
 		buildlog("No lower case name '$r[0]' in code in $file");
 		++$warnings;
@@ -627,7 +627,7 @@ foreach($errors as $file => $message) {
 		$entry[] = '';
 	}
 
-	if (isset($message->changedBehavior)) {
+	if (isset($message->changedBehavior[0]) && ($message->changedBehavior[0] !== 'none')) {
 		$entry[] = 'Changed Behavior';
 		$entry[] = str_repeat('_', strlen('Changed Behavior'));
 		$entry[] = '';
@@ -642,22 +642,7 @@ foreach($errors as $file => $message) {
 		$entry[] = '';
 	}
 
-	if (isset($message->changedBehavior)) {
-		$entry[] = 'Changed Behavior';
-		$entry[] = str_repeat('_', strlen('Changed Behavior'));
-		$entry[] = '';
-		$e = "This error may appear following an evolution in behavior, in previous versions. See ";
-		if (!is_iterable($message->changedBehavior)) {
-		    die("changedBehavior is not an array in $file\n");
-		}
-		foreach($message->changedBehavior as $behavior) {
-			$e .= "`".$behavior." <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/".$behavior.".html>`_, ";
-		}
-		$entry[] = trim($e, ', ').'.';
-		$entry[] = '';
-	}
-
-	if (isset($message->analyzer) && !empty($message->analyzer)) {
+	if (isset($message->analyzer) && !empty($message->analyzer) && $message->analyzer[0] !== 'none') {
 		$entry[] = 'Static Analysis';
 		$entry[] = str_repeat('_', strlen('Static Analysis'));
 		$entry[] = '';
