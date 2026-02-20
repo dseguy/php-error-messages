@@ -21,7 +21,7 @@ Illegal class name
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/illegal-class-name.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/illegal-class-name.html","name":"Illegal class name","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 21 Feb 2025 18:53:43 +0000","dateModified":"Fri, 21 Feb 2025 18:53:43 +0000","description":"Illegal class name is a compile-time error when the type of a value, used for a class is not valid","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/illegal-class-name.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/illegal-class-name.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/illegal-class-name.html","name":"Illegal class name","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 13 Feb 2026 12:56:42 +0000","dateModified":"Fri, 13 Feb 2026 12:56:42 +0000","description":"Illegal class name is a compile-time error when the type of a value, used for a class is not valid","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/illegal-class-name.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -44,6 +44,9 @@ _______
    array()::t;
    (2)::$t;
    (true)::t();
+   
+   //Illegal class name, as integer cannot be a class name
+   strlen($string)::$property;
    
    // This is valid until execution, where class 4f cannot be found
    ('4f')::$t;

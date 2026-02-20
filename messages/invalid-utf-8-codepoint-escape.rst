@@ -21,7 +21,7 @@ Invalid UTF-8 codepoint escape
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/invalid-utf-8-codepoint-escape.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/invalid-utf-8-codepoint-escape.html","name":"Invalid UTF-8 codepoint escape","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 21 Feb 2025 18:53:43 +0000","dateModified":"Fri, 21 Feb 2025 18:53:43 +0000","description":"PHP supports unicode as escape sequence","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/invalid-utf-8-codepoint-escape.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/invalid-utf-8-codepoint-escape.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/invalid-utf-8-codepoint-escape.html","name":"Invalid UTF-8 codepoint escape","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 19 Feb 2026 22:16:04 +0000","dateModified":"Thu, 19 Feb 2026 22:16:04 +0000","description":"PHP supports unicode as escape sequence","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/invalid-utf-8-codepoint-escape.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -30,13 +30,19 @@ PHP supports unicode as escape sequence. They are used in double-quoted strings,
 
 When the prefix ``\u{`` is detected, PHP tries to understand the next characters as an integer. When this is not the case, it fails the codepoint detection and stops.
 
+In particular, it is not possible to use the ``_`` number separator in these sequences.
+
 Example
 _______
 
 .. code-block:: php
 
    <?php
-     $a = "\u{fgh}";
+   
+       $a = "\u{fgh}";
+   
+       echo \u{1F4_18};
+   
    ?>
 
 Solutions

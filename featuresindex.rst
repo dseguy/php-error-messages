@@ -376,6 +376,11 @@ Features index
       * :ref:`invalid-numeric-literal`
 
 
+   * bitfield
+
+      * :ref:`cannot-use-both-filter_null_on_failure-and-filter_throw_on_failure`
+
+
    * bitshift-operator
 
       * :ref:`implicit-conversion-from-float-string-"%s"-to-int-loses-precision`
@@ -520,6 +525,7 @@ Features index
    * cite
 
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function"`
+      * :ref:`syntax-error,-unexpected-token-"const"`
       * :ref:`syntax-error,-unexpected-token-"private",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"protected",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"public",-expecting-"{"`
@@ -728,6 +734,11 @@ Features index
       * :ref:`undefined-constant-"%s`
 
 
+   * constant-combinaison
+
+      * :ref:`cannot-use-both-filter_null_on_failure-and-filter_throw_on_failure`
+
+
    * constant-expression
 
       * :ref:`fetching-properties-on-non-enums-in-constant-expressions-is-not-allowed`
@@ -751,6 +762,9 @@ Features index
       * :ref:`method-%s::%s()-cannot-declare-a-return-type`
       * :ref:`method-%s::__construct()-cannot-declare-a-return-type`
       * :ref:`methods-with-the-same-name-as-their-class-will-not-be-constructors-in-a-future-version-of-php;-%s-has-a-deprecated-constructor`
+      * :ref:`must-be-empty-when-class-provided-in-argument-#1-(\$class)-does-not-have-a-constructor`
+      * :ref:`must-be-empty-when-class-provided-in-argument-#2-(\$class)-does-not-have-a-constructor`
+      * :ref:`object-not-initialized`
       * :ref:`object-of-type-%s-has-not-been-correctly-initialized-by-calling-parent::__construct()-in-its-constructor`
       * :ref:`the-parent-constructor-was-not-called:-the-object-is-in-an-invalid-state`
 
@@ -764,6 +778,11 @@ Features index
       * :ref:`continue-operator-accepts-only-positive-integers`
       * :ref:`syntax-error,-unexpected-token-"break"`
       * :ref:`syntax-error,-unexpected-token-"continue"`
+
+
+   * control-flow
+
+      * :ref:`syntax-error,-unexpected-token-"const"`
 
 
    * count
@@ -837,6 +856,7 @@ Features index
    * define
 
       * :ref:`declaration-of-case-insensitive-constants-is-no-longer-supported`
+      * :ref:`syntax-error,-unexpected-token-"const"`
 
 
    * definition
@@ -845,6 +865,7 @@ Features index
       * :ref:`call-to-undefined-function-%s()`
       * :ref:`redefinition-of-parameter-\$%s`
       * :ref:`undefined-property-%s::\$%s`
+      * :ref:`undefined-variable-\$%s`
 
 
    * delimiter
@@ -874,6 +895,7 @@ Features index
    * destructor
 
       * :ref:`destructors-cannot-declare-a-return-type`
+      * :ref:`object-not-initialized`
 
 
    * dir
@@ -1080,6 +1102,7 @@ Features index
 
       * :ref:`couldn\'t-open-stream-%s`
       * :ref:`couldn\'t-open-stream:-%s`
+      * :ref:`failed-to-open-stream:-too-many-open-files`
       * :ref:`filename-cannot-be-empty`
       * :ref:`no-such-file-or-directory`
       * :ref:`path-cannot-be-empty`
@@ -1181,6 +1204,11 @@ Features index
       * :ref:`syntax-error,-unexpected-variable-"%s",-expecting-"("`
 
 
+   * function-subscripting
+
+      * :ref:`illegal-class-name`
+
+
    * generator
 
       * :ref:`class-%s-cannot-extend-final-class-%s`
@@ -1271,6 +1299,12 @@ Features index
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"extends",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"implements"`
+
+
+   * inclusion
+
+      * :ref:`failed-opening-required-%s-(include_path=%s)`
+      * :ref:`open_basedir-prohibits-opening-%s`
 
 
    * increment
@@ -1643,6 +1677,7 @@ Features index
       * :ref:`syntax-error,-unexpected-token-"namespace",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"namespace"`
       * :ref:`syntax-error,-unexpected-token-"use",-expecting-"{"`
+      * :ref:`the-use-statement-with-non-compound-name-\'%s\'`
 
 
    * namespaced-name
@@ -1726,6 +1761,8 @@ Features index
       * :ref:`cannot-use-%s-as-array`
       * :ref:`decrement-on-type-null-has-no-effect,-this-will-change-in-the-next-major-version-of-php`
       * :ref:`must-be-a-callable,-null-given`
+      * :ref:`must-be-empty-when-class-provided-in-argument-#1-(\$class)-does-not-have-a-constructor`
+      * :ref:`must-be-empty-when-class-provided-in-argument-#2-(\$class)-does-not-have-a-constructor`
       * :ref:`must-be-of-type-countable|array,-%s-given`
       * :ref:`parameter-must-be-an-array-or-an-object-that-implements-countable`
       * :ref:`passing-null-is-deprecated,-instead-the-last-opened-directory-stream-should-be-provided`
@@ -1749,6 +1786,11 @@ Features index
 
       * :ref:`can\'t-use-nullsafe-operator-in-write-context`
       * :ref:`syntax-error,-unexpected-token-"->"`
+
+
+   * numeric-separator
+
+      * :ref:`invalid-utf-8-codepoint-escape`
 
 
    * numeric-string
@@ -1786,6 +1828,11 @@ Features index
       * :ref:`illegal-string-offset`
       * :ref:`trying-to-access-array-offset-on-%s`
       * :ref:`uninitialized-string-offset`
+
+
+   * open_basedir
+
+      * :ref:`open_basedir-prohibits-opening-%s`
 
 
    * operand
@@ -1902,6 +1949,7 @@ Features index
    * pipe-operator
 
       * :ref:`arrow-functions-on-the-right-hand-side-of-|>-must-be-parenthesized`
+      * :ref:`cannot-use-both-filter_null_on_failure-and-filter_throw_on_failure`
       * :ref:`syntax-error,-unexpected-token-">"`
 
 
@@ -2052,6 +2100,7 @@ Features index
       * :ref:`readonly-property-%s::\$%s-cannot-have-default-value`
       * :ref:`readonly-property-%s::\$%s-must-have-type`
       * :ref:`static-property-%s::\$%s-cannot-be-readonly`
+      * :ref:`syntax-error,-unexpected-identifier-"readonly",-expecting-"function"-or-"const"`
 
 
    * recursion
@@ -2578,6 +2627,11 @@ Features index
       * :ref:`call-to-undefined-function`
 
 
+   * underscore
+
+      * :ref:`invalid-utf-8-codepoint-escape`
+
+
    * unicode
 
       * :ref:`invalid-utf-8-codepoint-escape`
@@ -2608,6 +2662,7 @@ Features index
       * :ref:`cannot-unset-\$this`
       * :ref:`cannot-unset-readonly-property-%s::\$%s`
       * :ref:`cannot-unset-string-offsets`
+      * :ref:`object-not-initialized`
       * :ref:`the-(unset)-cast-is-deprecated`
       * :ref:`the-(unset)-cast-is-no-longer-supported`
       * :ref:`the-sqlite3-object-has-not-been-correctly-initialised-or-is-already-closed`
@@ -2630,6 +2685,7 @@ Features index
       * :ref:`syntax-error,-unexpected-token-"as"`
       * :ref:`syntax-error,-unexpected-token-"use",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"use"`
+      * :ref:`the-use-statement-with-non-compound-name-\'%s\'`
 
 
    * use-alias
@@ -2656,7 +2712,11 @@ Features index
 
       * :ref:`argument-#%d-must-be-greater-than-or-equal-to-0`
       * :ref:`argument-#1-(\$value)-must-contain-at-least-one-element`
+      * :ref:`cannot-use-multiple-endian-options`
+      * :ref:`cannot-use-multiple-word-order-options`
       * :ref:`must-be-a-callable,-null-given`
+      * :ref:`must-be-a-multiple-of-argument-#2-(\$word_size)`
+      * :ref:`must-be-greater-than-or-equal-to-1`
       * :ref:`passing-false-or-null-is-deprecated-since-8.4`
       * :ref:`passing-the-encoding-as-third-parameter-is-deprecated.-use-an-explicit-zero-offset`
       * :ref:`security-level-must-be-one-of-"noauthnopriv",-"authnopriv",-or-"authpriv`

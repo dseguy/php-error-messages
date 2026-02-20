@@ -153,6 +153,11 @@ Tag index
       * :ref:`security-level-must-be-one-of-"noauthnopriv",-"authnopriv",-or-"authpriv`
 
 
+   * file
+
+      * :ref:`failed-to-open-stream:-too-many-open-files`
+
+
    * finally
 
       * :ref:`cannot-use-try-without-catch-or-finally`
@@ -213,6 +218,7 @@ Tag index
 
       * :ref:`a-function-with-return-type-must-return-a-value`
       * :ref:`never-returning-function-must-not-implicitly-return`
+      * :ref:`the-use-statement-with-non-compound-name-\'%s\'`
 
 
    * list
@@ -282,6 +288,7 @@ Tag index
       * :ref:`is-an-unsupported-rounding-mode`
       * :ref:`only-internal-classes-can-be-registered-as-compiler-attribute`
       * :ref:`static-function-%s%s%s()-cannot-be-abstract`
+      * :ref:`unknown-parser`
 
 
    * not-recommended
@@ -433,6 +440,7 @@ Tag index
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-variable-or-"$"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-variable`
       * :ref:`syntax-error,-unexpected-identifier-"%s"`
+      * :ref:`syntax-error,-unexpected-identifier-"readonly",-expecting-"function"-or-"const"`
       * :ref:`syntax-error,-unexpected-integer-"%s",-expecting-")"`
       * :ref:`syntax-error,-unexpected-namespaced-name-"%s",-expecting-"function"`
       * :ref:`syntax-error,-unexpected-single-quoted-string-"%s",-expecting-")"`

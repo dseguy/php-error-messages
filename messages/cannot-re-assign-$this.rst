@@ -21,7 +21,7 @@ Cannot re-assign $this
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-re-assign-$this.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-re-assign-$this.html","name":"Cannot re-assign $this","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 21 Feb 2025 18:53:43 +0000","dateModified":"Fri, 21 Feb 2025 18:53:43 +0000","description":"It is never possible to assign a new value to the pseudo-variable ``$this``, inside a class or outside","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-re-assign-$this.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-re-assign-$this.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-re-assign-$this.html","name":"Cannot re-assign $this","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 19 Feb 2026 22:04:24 +0000","dateModified":"Thu, 19 Feb 2026 22:04:24 +0000","description":"It is never possible to assign a new value to the pseudo-variable ``$this``, inside a class or outside","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-re-assign-$this.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -49,3 +49,4 @@ ______________________
 
 + :ref:`cannot-unset-$this`
 + :ref:`cannot-re-assign-auto-global-variable-%s`
++ :ref:`cannot-use-auto-global-as-lexical-variable`

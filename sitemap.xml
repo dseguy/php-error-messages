@@ -664,6 +664,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-auto-global-as-lexical-variable.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-both-filter_null_on_failure-and-filter_throw_on_failure.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-dynamic-function-name-in-constant-expression.html</loc>
  </url>
  <url>
@@ -683,6 +686,12 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-list%28%29-as-standalone-expression.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-multiple-endian-options.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-multiple-word-order-options.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-object-of-type-%25s-as-array.html</loc>
@@ -952,10 +961,16 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/extra-data-starting-at-offset-%25d-of-%25zd-bytes.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/failed-opening-required-%25s-%28include_path%3D%25s%29.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/failed-to-create-closure-from-callable%3A-%25s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/failed-to-open-stream-from-socketpair.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/failed-to-open-stream%3A-too-many-open-files.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/fetching-properties-on-non-enums-in-constant-expressions-is-not-allowed.html</loc>
@@ -1198,6 +1213,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-a-finite-value.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-a-multiple-of-argument-%232-%28%24word_size%29.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-a-user-defined-class-name%2C-internal-class-name-given.html</loc>
  </url>
  <url>
@@ -1222,7 +1240,16 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-contained-in-argument-%231-%28%24haystack%29.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-empty-when-class-provided-in-argument-%231-%28%24class%29-does-not-have-a-constructor.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-empty-when-class-provided-in-argument-%232-%28%24class%29-does-not-have-a-constructor.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-greater-than-0.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-greater-than-or-equal-to-1.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-of-type-%25s%2C-%25s-given.html</loc>
@@ -1321,6 +1348,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/object-casts-are-not-supported-in-this-context.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/object-not-initialized.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/object-of-class-%25s-could-not-be-converted-to-%25s.html</loc>
  </url>
  <url>
@@ -1373,6 +1403,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/only-variables-should-be-passed-by-reference.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/open_basedir-prohibits-opening-%25s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/optional-parameter-%24%25s-declared-before-required-parameter-%24%25s-is-implicitly-treated-as-a-required-parameter.html</loc>
@@ -1619,6 +1652,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-identifier-%22%25s%22.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-identifier-%22readonly%22%2C-expecting-%22function%22-or-%22const%22.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-integer-%22%25s%22%2C-expecting-%22%29%22.html</loc>
@@ -1954,6 +1990,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-sqlite3-object-has-not-been-correctly-initialised-or-is-already-closed.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-use-statement-with-non-compound-name-%27%25s%27.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/too-few-arguments-to-function-%25s%25s%25s%28%29%2C-%25d-passed-and-%25s-%25d-expected.html</loc>
  </url>
  <url>
@@ -2084,6 +2123,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unknown-or-bad-format-%28%25s%29.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/unknown-parser.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unlink-of-%22%25s%22-failed%2C-file-does-not-exist.html</loc>

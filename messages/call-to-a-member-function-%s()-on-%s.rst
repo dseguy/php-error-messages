@@ -21,7 +21,7 @@ Call to a member function %s() on %s
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/call-to-a-member-function-%s()-on-%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/call-to-a-member-function-%s()-on-%s.html","name":"Call to a member function %s() on %s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 21 Feb 2025 18:53:43 +0000","dateModified":"Fri, 21 Feb 2025 18:53:43 +0000","description":"This error happens when the object syntax is used on a string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/call-to-a-member-function-%s()-on-%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/call-to-a-member-function-%s()-on-%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/call-to-a-member-function-%s()-on-%s.html","name":"Call to a member function %s() on %s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 19 Feb 2026 22:06:01 +0000","dateModified":"Thu, 19 Feb 2026 22:06:01 +0000","description":"This error happens when the object syntax is used on a string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/call-to-a-member-function-%s()-on-%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -53,3 +53,8 @@ Solutions
 _________
 
 + Check the type of the object before usage.
+
+Related Error Messages
+______________________
+
++ :ref:`the-sqlite3-object-has-not-been-correctly-initialised-or-is-already-closed`

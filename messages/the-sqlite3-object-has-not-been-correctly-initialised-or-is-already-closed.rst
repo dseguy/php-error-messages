@@ -21,7 +21,7 @@ The SQLite3 object has not been correctly initialised or is already closed
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/the-sqlite3-object-has-not-been-correctly-initialised-or-is-already-closed.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/the-sqlite3-object-has-not-been-correctly-initialised-or-is-already-closed.html","name":"The SQLite3 object has not been correctly initialised or is already closed","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 21 Jan 2026 14:42:35 +0000","dateModified":"Wed, 21 Jan 2026 14:42:35 +0000","description":"There was an attempt to use the ``Sqlite3`` database, while it is not yet initialised, or already closed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/the-sqlite3-object-has-not-been-correctly-initialised-or-is-already-closed.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/the-sqlite3-object-has-not-been-correctly-initialised-or-is-already-closed.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/the-sqlite3-object-has-not-been-correctly-initialised-or-is-already-closed.html","name":"The SQLite3 object has not been correctly initialised or is already closed","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 01 Feb 2026 20:46:23 +0000","dateModified":"Sun, 01 Feb 2026 20:46:23 +0000","description":"There was an attempt to use the ``Sqlite3`` database, while it is not yet initialised, or already closed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/the-sqlite3-object-has-not-been-correctly-initialised-or-is-already-closed.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -56,7 +56,9 @@ _______
 Solutions
 _________
 
-+ 
++ Check that the parent class of an extended Sqlite3 class is actually called.
++ Check that the parent class was not already destroyed.
++ Check that whole object is destroyed, not just the parent class.
 
 Related Error Messages
 ______________________

@@ -226,6 +226,7 @@ PHP Error Messages
    messages/cannot-use-[]-for-reading.rst
    messages/cannot-use-a-scalar-value-as-an-array.rst
    messages/cannot-use-auto-global-as-lexical-variable.rst
+   messages/cannot-use-both-filter_null_on_failure-and-filter_throw_on_failure.rst
    messages/cannot-use-dynamic-function-name-in-constant-expression.rst
    messages/cannot-use-empty-array-elements-in-arrays.rst
    messages/cannot-use-empty-array-entries-in-keyed-array-assignment.rst
@@ -233,6 +234,8 @@ PHP Error Messages
    messages/cannot-use-isset()-on-the-result-of-an-expression-(you-can-use-"null-!==-expression"-instead).rst
    messages/cannot-use-lexical-variable-%s-as-a-parameter-name.rst
    messages/cannot-use-list()-as-standalone-expression.rst
+   messages/cannot-use-multiple-endian-options.rst
+   messages/cannot-use-multiple-word-order-options.rst
    messages/cannot-use-object-of-type-%s-as-array.rst
    messages/cannot-use-object-of-type-stdclass-as-array.rst
    messages/cannot-use-positional-argument-after-argument-unpacking.rst
@@ -322,8 +325,10 @@ PHP Error Messages
    messages/error-at-offset-%zd-of-%zd.rst
    messages/exponent-cannot-have-a-fractional-part.rst
    messages/extra-data-starting-at-offset-%d-of-%zd-bytes.rst
+   messages/failed-opening-required-%s-(include_path=%s).rst
    messages/failed-to-create-closure-from-callable:-%s.rst
    messages/failed-to-open-stream-from-socketpair.rst
+   messages/failed-to-open-stream:-too-many-open-files.rst
    messages/fetching-properties-on-non-enums-in-constant-expressions-is-not-allowed.rst
    messages/ffi-api-is-restricted-by-"ffi.enable"-configuration-directive.rst
    messages/filename-cannot-be-empty.rst
@@ -404,6 +409,7 @@ PHP Error Messages
    messages/multiple-static-modifiers-are-not-allowed.rst
    messages/must-be-a-callable,-null-given.rst
    messages/must-be-a-finite-value.rst
+   messages/must-be-a-multiple-of-argument-#2-($word_size).rst
    messages/must-be-a-user-defined-class-name,-internal-class-name-given.rst
    messages/must-be-a-valid-class-name,-%s-given.rst
    messages/must-be-a-valid-comparison-operator.rst
@@ -412,7 +418,10 @@ PHP Error Messages
    messages/must-be-a-valid-rounding-mode-(roundingmode::*).rst
    messages/must-be-between-1-and-7.rst
    messages/must-be-contained-in-argument-#1-($haystack).rst
+   messages/must-be-empty-when-class-provided-in-argument-#1-($class)-does-not-have-a-constructor.rst
+   messages/must-be-empty-when-class-provided-in-argument-#2-($class)-does-not-have-a-constructor.rst
    messages/must-be-greater-than-0.rst
+   messages/must-be-greater-than-or-equal-to-1.rst
    messages/must-be-of-type-%s,-%s-given.rst
    messages/must-be-of-type-countable|array,-%s-given.rst
    messages/must-be-one-of-pgsql_assoc,-pgsql_num,-or-pgsql_both.rst
@@ -445,6 +454,7 @@ PHP Error Messages
    messages/non-static-method-%s::%s()-should-not-be-called-statically.rst
    messages/non-string-needles-will-be-interpreted-as-strings-in-the-future.-use-an-explicit-chr()-call-to-preserve-the-current-behavior.rst
    messages/object-casts-are-not-supported-in-this-context.rst
+   messages/object-not-initialized.rst
    messages/object-of-class-%s-could-not-be-converted-to-%s.rst
    messages/object-of-class-%s-could-not-be-converted-to-bool.rst
    messages/object-of-class-%s-could-not-be-converted-to-float.rst
@@ -463,6 +473,7 @@ PHP Error Messages
    messages/only-variable-references-should-be-yielded-by-reference.rst
    messages/only-variables-can-be-passed-by-reference.rst
    messages/only-variables-should-be-passed-by-reference.rst
+   messages/open_basedir-prohibits-opening-%s.rst
    messages/optional-parameter-$%s-declared-before-required-parameter-$%s-is-implicitly-treated-as-a-required-parameter.rst
    messages/parameter-%d-must-be-passed-by-reference.rst
    messages/parameter-must-be-an-array-or-an-object-that-implements-countable.rst
@@ -545,6 +556,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-variable-or-"$".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-variable.rst
    messages/syntax-error,-unexpected-identifier-"%s".rst
+   messages/syntax-error,-unexpected-identifier-"readonly",-expecting-"function"-or-"const".rst
    messages/syntax-error,-unexpected-integer-"%s",-expecting-")".rst
    messages/syntax-error,-unexpected-namespaced-name-"%s",-expecting-"function".rst
    messages/syntax-error,-unexpected-single-quoted-string-"%s",-expecting-")".rst
@@ -656,6 +668,7 @@ PHP Error Messages
    messages/the-return-value-of-function-%s()-should-either-be-used-or-intentionally-ignored-by-casting-it-as-(void)%s.rst
    messages/the-return-value-of-method-%s::%s()-should-either-be-used-or-intentionally-ignored-by-casting-it-as-(void)%s.rst
    messages/the-sqlite3-object-has-not-been-correctly-initialised-or-is-already-closed.rst
+   messages/the-use-statement-with-non-compound-name-'%s'.rst
    messages/too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d-expected.rst
    messages/too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d.rst
    messages/too-few-arguments-to-function-%s%s%s(),-%d-passed-in-%s-on-line-%d-and-%s-%d-expected.rst
@@ -700,6 +713,7 @@ PHP Error Messages
    messages/unknown-hook-"%s"-for-property-%s::$%s,-expected-"get"-or-"set".rst
    messages/unknown-named-parameter-$%s.rst
    messages/unknown-or-bad-format-(%s).rst
+   messages/unknown-parser.rst
    messages/unlink-of-"%s"-failed,-file-does-not-exist.rst
    messages/unmatched-')'.rst
    messages/unmatched-']'.rst
