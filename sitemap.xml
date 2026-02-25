@@ -616,6 +616,12 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%25s-as-default-value-for-property-%25s%3A%3A%24%25s-of-type-%25s.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%25s-as-value-for-class-constant-%25s%3A%3A%25s-of-type-%25s.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%27%25s%27-as-namespace-name.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%27abstract%27-as-constant-modifier.html</loc>
  </url>
  <url>
@@ -1406,6 +1412,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/open_basedir-prohibits-opening-%25s.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/open_basedir-restriction-in-effect.-file%28%25s%29-is-not-within-the-allowed-path%28s%29%3A-%28%25s%29.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/optional-parameter-%24%25s-declared-before-required-parameter-%24%25s-is-implicitly-treated-as-a-required-parameter.html</loc>

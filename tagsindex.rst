@@ -108,6 +108,7 @@ Tag index
    * directive
 
       * :ref:`maximum-execution-time-of-%d-second%s-exceeded`
+      * :ref:`open_basedir-restriction-in-effect.-file(%s)-is-not-within-the-allowed-path(s):-(%s)`
 
 
    * edge case
@@ -552,6 +553,7 @@ Tag index
    * type
 
       * :ref:`call-to-a-member-function-%s()-on-%s`
+      * :ref:`cannot-use-%s-as-value-for-class-constant-%s::%s-of-type-%s`
       * :ref:`class-constant-%s::%s-cannot-have-type-%s`
       * :ref:`must-be-of-type-countable|array,-%s-given`
       * :ref:`parameter-must-be-an-array-or-an-object-that-implements-countable`

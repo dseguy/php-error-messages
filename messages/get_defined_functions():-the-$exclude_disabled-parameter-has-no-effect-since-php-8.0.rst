@@ -21,7 +21,7 @@ get_defined_functions(): The $exclude_disabled parameter has no effect since PHP
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/get_defined_functions():-the-$exclude_disabled-parameter-has-no-effect-since-php-8.0.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/get_defined_functions():-the-$exclude_disabled-parameter-has-no-effect-since-php-8.0.html","name":"get_defined_functions(): The $exclude_disabled parameter has no effect since PHP 8.0","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 02 Nov 2025 20:13:58 +0000","dateModified":"Sun, 02 Nov 2025 20:13:58 +0000","description":"The ``$exclude_disabled`` parameter of the function get_defined_functions() function is unused since PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/get_defined_functions():-the-$exclude_disabled-parameter-has-no-effect-since-php-8.0.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/get_defined_functions():-the-$exclude_disabled-parameter-has-no-effect-since-php-8.0.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/get_defined_functions():-the-$exclude_disabled-parameter-has-no-effect-since-php-8.0.html","name":"get_defined_functions(): The $exclude_disabled parameter has no effect since PHP 8.0","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 21 Feb 2026 17:24:38 +0000","dateModified":"Sat, 21 Feb 2026 17:24:38 +0000","description":"The ``$exclude_disabled`` parameter of the function get_defined_functions() function is unused since PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/get_defined_functions():-the-$exclude_disabled-parameter-has-no-effect-since-php-8.0.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -43,3 +43,13 @@ Solutions
 _________
 
 + Remove the parameter from any call to get_defined_functions().
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `get_defined_functions <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/get_defined_functions.html>`_.
+
+Static Analysis
+_______________
+
+This error may be tracked down with the following static analysis rules: `Structures/GetDefinedFunctionsExcludeDisabled <https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/GetDefinedFunctionsExcludeDisabled.html>`_.

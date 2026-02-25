@@ -210,6 +210,8 @@ PHP Error Messages
    messages/cannot-use-%s-as-array.rst
    messages/cannot-use-%s-as-default-value-for-parameter-$%s-of-type-%s.rst
    messages/cannot-use-%s-as-default-value-for-property-%s::$%s-of-type-%s.rst
+   messages/cannot-use-%s-as-value-for-class-constant-%s::%s-of-type-%s.rst
+   messages/cannot-use-'%s'-as-namespace-name.rst
    messages/cannot-use-'abstract'-as-constant-modifier.rst
    messages/cannot-use-'abstract'-as-method-modifier.rst
    messages/cannot-use-'final'-as-constant-modifier.rst
@@ -474,6 +476,7 @@ PHP Error Messages
    messages/only-variables-can-be-passed-by-reference.rst
    messages/only-variables-should-be-passed-by-reference.rst
    messages/open_basedir-prohibits-opening-%s.rst
+   messages/open_basedir-restriction-in-effect.-file(%s)-is-not-within-the-allowed-path(s):-(%s).rst
    messages/optional-parameter-$%s-declared-before-required-parameter-$%s-is-implicitly-treated-as-a-required-parameter.rst
    messages/parameter-%d-must-be-passed-by-reference.rst
    messages/parameter-must-be-an-array-or-an-object-that-implements-countable.rst

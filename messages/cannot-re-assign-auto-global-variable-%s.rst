@@ -21,7 +21,7 @@ Cannot re-assign auto-global variable %s
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-re-assign-auto-global-variable-%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-re-assign-auto-global-variable-%s.html","name":"Cannot re-assign auto-global variable %s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 21 Feb 2025 18:53:43 +0000","dateModified":"Fri, 21 Feb 2025 18:53:43 +0000","description":"It is not possible to use one of the superglobal variable names as argument of a method: such code hides the assignation that happens at call time, which will interfere with the ``$_POST`` variable being a global","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-re-assign-auto-global-variable-%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-re-assign-auto-global-variable-%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-re-assign-auto-global-variable-%s.html","name":"Cannot re-assign auto-global variable %s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 21 Feb 2026 17:16:56 +0000","dateModified":"Sat, 21 Feb 2026 17:16:56 +0000","description":"It is not possible to use one of the superglobal variable names as argument of a method: such code hides the assignation that happens at call time, which will interfere with the ``$_POST`` variable being a global","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-re-assign-auto-global-variable-%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -59,3 +59,4 @@ Related Error Messages
 ______________________
 
 + :ref:`cannot-re-assign-$this`
++ :ref:`cannot-use-auto-global-as-lexical-variable`

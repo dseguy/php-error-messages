@@ -577,6 +577,7 @@ Features index
       * :ref:`cannot-be-a-class-constant`
       * :ref:`cannot-inherit-previously-inherited-or-override-constant-%s-from-interface-%s`
       * :ref:`cannot-redefine-class-constant`
+      * :ref:`cannot-use-%s-as-value-for-class-constant-%s::%s-of-type-%s`
       * :ref:`cannot-use-\'abstract\'-as-constant-modifier`
       * :ref:`cannot-use-\'final\'-as-constant-modifier`
       * :ref:`cannot-use-\'static\'-as-constant-modifier`
@@ -757,6 +758,7 @@ Features index
    * constructor
 
       * :ref:`cannot-call-constructor`
+      * :ref:`cannot-declare-promoted-property-in-an-abstract-constructor`
       * :ref:`cannot-modify-readonly-object-of-class-%s`
       * :ref:`constructor-%s::%s()-cannot-declare-a-return-type`
       * :ref:`method-%s::%s()-cannot-declare-a-return-type`
@@ -1105,6 +1107,7 @@ Features index
       * :ref:`failed-to-open-stream:-too-many-open-files`
       * :ref:`filename-cannot-be-empty`
       * :ref:`no-such-file-or-directory`
+      * :ref:`open_basedir-restriction-in-effect.-file(%s)-is-not-within-the-allowed-path(s):-(%s)`
       * :ref:`path-cannot-be-empty`
       * :ref:`path-must-not-be-empty`
       * :ref:`write-of-%zu-bytes-failed-with-errno=%d-%s`
@@ -1666,6 +1669,7 @@ Features index
 
       * :ref:`\'namespace-%s\'-is-an-invalid-class-name`
       * :ref:`call-to-undefined-function`
+      * :ref:`cannot-use-\'%s\'-as-namespace-name`
       * :ref:`cannot-use-\'namespace\'-as-namespace-name`
       * :ref:`namespace-declarations-cannot-be-nested`
       * :ref:`no-code-may-exist-outside-of-namespace-{}`
@@ -1833,6 +1837,7 @@ Features index
    * open_basedir
 
       * :ref:`open_basedir-prohibits-opening-%s`
+      * :ref:`open_basedir-restriction-in-effect.-file(%s)-is-not-within-the-allowed-path(s):-(%s)`
 
 
    * operand
@@ -1917,6 +1922,11 @@ Features index
       * :ref:`unmatched-\')\'`
       * :ref:`unmatched-\']\'`
       * :ref:`unparenthesized-\`a-?-b-:-c-?-d-:-e\`-is-not-supported.`
+
+
+   * path
+
+      * :ref:`open_basedir-restriction-in-effect.-file(%s)-is-not-within-the-allowed-path(s):-(%s)`
 
 
    * pattern-matching
@@ -2427,6 +2437,7 @@ Features index
 
       * :ref:`can-only-flip-string-and-integer-values,-entry-skipped`
       * :ref:`cannot-assign-%s-to-property-%s::\$%s-of-type-%s`
+      * :ref:`cannot-use-%s-as-value-for-class-constant-%s::%s-of-type-%s`
       * :ref:`must-be-of-type-%s,-%s-given`
       * :ref:`object-of-class-%s-could-not-be-converted-to-%s`
       * :ref:`return-value-of-%s%s%s()-must-%s%s%s,-%s%s-returned`
@@ -2595,6 +2606,7 @@ Features index
       * :ref:`cannot-use-"%s"-as-a-type-name-as-it-is-reserved`
       * :ref:`cannot-use-%s-as-default-value-for-parameter-\$%s-of-type-%s`
       * :ref:`cannot-use-%s-as-default-value-for-property-%s::\$%s-of-type-%s`
+      * :ref:`cannot-use-%s-as-value-for-class-constant-%s::%s-of-type-%s`
       * :ref:`cannot-use--"%s-"-as-%s-as-it-is-reserved`
       * :ref:`default-value-for-parameters-with-a-%s-type-can-only-be-%s-or-null`
       * :ref:`duplicate-type-%s-is-redundant`
