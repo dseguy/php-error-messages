@@ -44,6 +44,7 @@ PHP Error Messages
    messages/'goto'-into-loop-or-switch-statement-is-disallowed.rst
    messages/'goto'-to-undefined-label-'%s'.rst
    messages/'namespace-%s'-is-an-invalid-class-name.rst
+   messages/(expression)::class-cannot-be-used-in-constant-expressions.rst
    messages/[]-operator-not-supported-for-strings.rst
    messages/autoload()-is-deprecated,-use-spl_autoload_register()-instead.rst
    messages/autoload()-is-no-longer-supported,-use-spl_autoload_register()-instead.rst
@@ -224,6 +225,7 @@ PHP Error Messages
    messages/cannot-use-'static'-as-constant-modifier.rst
    messages/cannot-use-'static'-as-method-modifier.rst
    messages/cannot-use--"%s-"-as-%s-as-it-is-reserved.rst
+   messages/cannot-use--"yield-from-"-inside-a-by-reference-generator.rst
    messages/cannot-use-::class-with-dynamic-class-name.rst
    messages/cannot-use-[]-for-reading.rst
    messages/cannot-use-a-scalar-value-as-an-array.rst

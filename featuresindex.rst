@@ -234,11 +234,6 @@ Features index
       * :ref:`using-an-object-as-a-backing-array-for-%s-is-deprecated,-as-it-allows-violating-class-constraints-and-invariants`
 
 
-   * arrayObject
-
-      * :ref:`using-array_key_exists()-on-objects-is-deprecated.`
-
-
    * array_key_exists
 
       * :ref:`using-array_key_exists()-on-objects-is-deprecated.`
@@ -259,6 +254,7 @@ Features index
 
       * :ref:`enums-are-not-compatible-with-%s`
       * :ref:`using-an-object-as-a-backing-array-for-%s-is-deprecated,-as-it-allows-violating-class-constraints-and-invariants`
+      * :ref:`using-array_key_exists()-on-objects-is-deprecated.`
 
 
    * arrow-function
@@ -571,6 +567,7 @@ Features index
       * :ref:`"static::"-is-not-allowed-in-compile-time-constants`
       * :ref:`%s-%s-inherits-both-%s::%s-and-%s::%s`
       * :ref:`%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed`
+      * :ref:`(expression)::class-cannot-be-used-in-constant-expressions`
       * :ref:`cannot-access-%s-const-%s::%s`
       * :ref:`cannot-access-%s-constant-%s::%s`
       * :ref:`cannot-assign-%s-to-class-constant-%s::%s-of-type`
@@ -1214,6 +1211,7 @@ Features index
 
    * generator
 
+      * :ref:`cannot-use--"yield-from-"-inside-a-by-reference-generator`
       * :ref:`class-%s-cannot-extend-final-class-%s`
       * :ref:`generator-return-type-must-be-a-supertype-of-generator`
       * :ref:`generators-cannot-return-values-using-"return"`
@@ -2833,6 +2831,7 @@ Features index
 
    * yield
 
+      * :ref:`cannot-use--"yield-from-"-inside-a-by-reference-generator`
       * :ref:`foreach()-argument-must-be-of-type-array|object`
       * :ref:`only-variable-references-should-be-yielded-by-reference`
       * :ref:`the-"generator"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated`
@@ -2841,6 +2840,7 @@ Features index
 
    * yield-from
 
+      * :ref:`cannot-use--"yield-from-"-inside-a-by-reference-generator`
       * :ref:`the-"generator"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated`
       * :ref:`the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls`
 

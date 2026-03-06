@@ -118,6 +118,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%27namespace-%25s%27-is-an-invalid-class-name.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/%28expression%29%3A%3Aclass-cannot-be-used-in-constant-expressions.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%5B%5D-operator-not-supported-for-strings.html</loc>
  </url>
  <url>
@@ -656,6 +659,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use--%22%25s-%22-as-%25s-as-it-is-reserved.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use--%22yield-from-%22-inside-a-by-reference-generator.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%3A%3Aclass-with-dynamic-class-name.html</loc>
