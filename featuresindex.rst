@@ -11,6 +11,11 @@ Features index
       * :ref:`undefined-global-variable-%s`
 
 
+   * $http_response_header
+
+      * :ref:`the-predefined-locally-scoped-\$http_response_header-variable-is-deprecated,`
+
+
    * $this
 
       * :ref:`cannot-re-assign-\$this`
@@ -1279,11 +1284,6 @@ Features index
    * html-entity
 
       * :ref:`handling-html-entities-via-mbstring-is-deprecated;-use-htmlspecialchars,-htmlentities,-or-mb_encode_numericentity-mb_decode_numericentity`
-
-
-   * http_response_header
-
-      * :ref:`the-predefined-locally-scoped-\$http_response_header-variable-is-deprecated,`
 
 
    * iconv

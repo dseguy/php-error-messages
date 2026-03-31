@@ -21,7 +21,7 @@ Typed property %s::$%s must not be accessed before initialization
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/typed-property-%s::$%s-must-not-be-accessed-before-initialization.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/typed-property-%s::$%s-must-not-be-accessed-before-initialization.html","name":"Typed property %s::$%s must not be accessed before initialization","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:47 +0000","dateModified":"Tue, 31 Mar 2026 09:10:47 +0000","description":"Typed properties are undefined until they are assigned for the first time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/typed-property-%s::$%s-must-not-be-accessed-before-initialization.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/typed-property-%s::$%s-must-not-be-accessed-before-initialization.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/typed-property-%s::$%s-must-not-be-accessed-before-initialization.html","name":"Typed property %s::$%s must not be accessed before initialization","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:20:15 +0000","dateModified":"Tue, 31 Mar 2026 09:20:15 +0000","description":"Typed properties are undefined until they are assigned for the first time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/typed-property-%s::$%s-must-not-be-accessed-before-initialization.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -39,12 +39,12 @@ _______
 
    <?php
    
-   class X {
-   	public int $property;
-   }
-   
-   $x = new X;
-   echo $x->p;
+       class X {
+       	public int $property;
+       }
+       
+       $x = new X;
+       echo $x->p;
    
    ?>
 
@@ -65,6 +65,7 @@ Related Error Messages
 ______________________
 
 + :ref:`attempt-to-unset-static-property-%s::$%s`
++ :ref:`object-not-initialized`
 + :ref:`typed-static-property-%s::$%s-must-not-be-accessed-before-initialization`
 
 See Also
