@@ -21,7 +21,7 @@ Indirect modification of overloaded element of %s has no effect
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/indirect-modification-of-overloaded-element-of-%s-has-no-effect.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/indirect-modification-of-overloaded-element-of-%s-has-no-effect.html","name":"Indirect modification of overloaded element of %s has no effect","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:06:02 +0000","dateModified":"Tue, 31 Mar 2026 09:06:02 +0000","description":"The variable ``$object`` is an object","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/indirect-modification-of-overloaded-element-of-%s-has-no-effect.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/indirect-modification-of-overloaded-element-of-%s-has-no-effect.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/indirect-modification-of-overloaded-element-of-%s-has-no-effect.html","name":"Indirect modification of overloaded element of %s has no effect","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:46 +0000","dateModified":"Tue, 31 Mar 2026 09:10:46 +0000","description":"The variable ``$object`` is an object","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/indirect-modification-of-overloaded-element-of-%s-has-no-effect.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -32,7 +32,7 @@ While the syntax makes $object looks like an array, not all operations are avail
 
 Here, the notion of 'overloaded' applies to the object properties: they are not data containers, as usual, but replaced (overloaded) with method calls. 
 
-There are different variations of that situation : for example, an append on the value at an index is not possible either. In fact, the interface returns a value (not a reference), and the append applies to a value, that is not linked the orginal array. 
+There are different variations of that situation : for example, an append on the value at an index is not possible either. In fact, the interface returns a value (not a reference), and the append applies to a value, that is not linked the original array. 
 
 Besides the ArrayAccess, there are several native PHP classes that triggers these warning: ArrayObject, ArrayIterator, PDORow or ArrayAccessImpl.
 

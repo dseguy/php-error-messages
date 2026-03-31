@@ -21,12 +21,12 @@ Default value for parameters with a %s type can only be %s or NULL
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/default-value-for-parameters-with-a-%s-type-can-only-be-%s-or-null.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/default-value-for-parameters-with-a-%s-type-can-only-be-%s-or-null.html","name":"Default value for parameters with a %s type can only be %s or NULL","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:06:02 +0000","dateModified":"Tue, 31 Mar 2026 09:06:02 +0000","description":"The default value of the parameter is not compatible with the type of the same parameter","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/default-value-for-parameters-with-a-%s-type-can-only-be-%s-or-null.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/default-value-for-parameters-with-a-%s-type-can-only-be-%s-or-null.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/default-value-for-parameters-with-a-%s-type-can-only-be-%s-or-null.html","name":"Default value for parameters with a %s type can only be %s or NULL","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:46 +0000","dateModified":"Tue, 31 Mar 2026 09:10:46 +0000","description":"The default value of the parameter is not compatible with the type of the same parameter","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/default-value-for-parameters-with-a-%s-type-can-only-be-%s-or-null.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
  
-The default value of the parameter is not compatible with the type of the same parameter. In the example here, the paramter ``$s`` is supposed to be an integer, but has a string as default value.
+The default value of the parameter is not compatible with the type of the same parameter. In the example here, the parameter ``$s`` is supposed to be an integer, but has a string as default value.
 
 This error also applies to numeric strings: the default value must be of the same type, without any silent type juggling.
 
@@ -51,7 +51,7 @@ _________
 + Change the default value to NULL.
 + Remove the default value.
 + Remove the type value.
-+ Add a second union type to the paramter.
++ Add a second union type to the parameter.
 
 Related Error Messages
 ______________________

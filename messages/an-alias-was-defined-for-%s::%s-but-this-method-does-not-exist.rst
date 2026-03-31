@@ -21,14 +21,14 @@ An alias was defined for %s::%s but this method does not exist
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/an-alias-was-defined-for-%s::%s-but-this-method-does-not-exist.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/an-alias-was-defined-for-%s::%s-but-this-method-does-not-exist.html","name":"An alias was defined for %s::%s but this method does not exist","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:06:02 +0000","dateModified":"Tue, 31 Mar 2026 09:06:02 +0000","description":"When importing methods from a trait, it is possible to create a method alias: give a new name to the trait method, when it is inside a class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/an-alias-was-defined-for-%s::%s-but-this-method-does-not-exist.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/an-alias-was-defined-for-%s::%s-but-this-method-does-not-exist.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/an-alias-was-defined-for-%s::%s-but-this-method-does-not-exist.html","name":"An alias was defined for %s::%s but this method does not exist","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:45 +0000","dateModified":"Tue, 31 Mar 2026 09:10:45 +0000","description":"When importing methods from a trait, it is possible to create a method alias: give a new name to the trait method, when it is inside a class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/an-alias-was-defined-for-%s::%s-but-this-method-does-not-exist.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
  
 When importing methods from a trait, it is possible to create a method alias: give a new name to the trait method, when it is inside a class.
 
-PHP checks that the orginal method exists, before allocating the new name. When the original method doesn't exist, PHP emits this error message.
+PHP checks that the original method exists, before allocating the new name. When the original method doesn't exist, PHP emits this error message.
 
 Example
 _______
@@ -54,7 +54,7 @@ Literal Examples
 Solutions
 _________
 
-+ Check the name of the orginal method for typos.
++ Check the name of the original method for typos.
 + Add the missing method in the trait.
 + Remove the alias.
 + Remove the method with the same name in the class, and remove the alias.
