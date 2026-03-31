@@ -21,12 +21,12 @@
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s::__tostring()-must-return-a-string.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s::__tostring()-must-return-a-string.html","name":"%s::__toString() must return a string","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 22 Aug 2025 20:57:03 +0000","dateModified":"Fri, 22 Aug 2025 20:57:03 +0000","description":"The magic method ``__toString`` converts the current object into a string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/%s::__tostring()-must-return-a-string.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s::__tostring()-must-return-a-string.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s::__tostring()-must-return-a-string.html","name":"%s::__toString() must return a string","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:06:02 +0000","dateModified":"Tue, 31 Mar 2026 09:06:02 +0000","description":"The magic method ``__toString`` converts the current object into a string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/%s::__tostring()-must-return-a-string.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
  
-The magic method ``__toString`` converts the current object into a string. Hence, and even if the return type of that method is not explicitely set, it MUST return a string.
+The magic method ``__toString`` converts the current object into a string. Hence, and even if the return type of that method is not explicitly set, it MUST return a string.
 
 With strict types, it may only be a string. Without them, integers and booleans are auto cast silently.
 

@@ -52,6 +52,7 @@ Features index
    * __sleep
 
       * :ref:`%s"-returned-as-member-variable-from-__sleep()-but-does-not-exist`
+      * :ref:`%s-"-is-returned-from-__sleep()-multiple-times`
       * :ref:`%s::__sleep()-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize`
       * :ref:`sleep-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize.`
       * :ref:`the-__sleep()-serialization-magic-method-has-been-deprecated.`
@@ -72,6 +73,7 @@ Features index
 
    * __wakeup
 
+      * :ref:`%s-"-is-returned-from-__sleep()-multiple-times`
       * :ref:`the-__sleep()-serialization-magic-method-has-been-deprecated.`
       * :ref:`the-__wakeup()-serialization-magic-method-has-been-deprecated.`
 
@@ -204,6 +206,7 @@ Features index
       * :ref:`indirect-modification-of-overloaded-element-of-%s-has-no-effect`
       * :ref:`indirect-modification-of-overloaded-property-%s::\$%s-has-no-effect`
       * :ref:`is-an-invalid-offset`
+      * :ref:`must-be-a-list-array`
       * :ref:`must-be-of-type-countable|array,-%s-given`
       * :ref:`must-contain-at-least-one-element`
       * :ref:`only-arrays-and-traversables-can-be-unpacked`
@@ -346,6 +349,11 @@ Features index
       * :ref:`enum-case-type-%s-does-not-match-enum-backing-type-%s`
       * :ref:`enum-case-value-must-be-compile-time-evaluatable`
       * :ref:`unbacked-enum-%s-cannot-be-converted-to-a-string`
+
+
+   * backedenum
+
+      * :ref:`non-enum-class-%s-cannot-implement-interface-%s`
 
 
    * backtick
@@ -966,11 +974,19 @@ Features index
 
    * encoding
 
+      * :ref:`charset-"%s"-is-not-supported,-assuming-utf-8`
+      * :ref:`must-be-a-valid-charset`
       * :ref:`must-be-a-valid-encoding,-"%s"-given`
       * :ref:`passing-the-encoding-as-third-parameter-is-deprecated.-use-an-explicit-zero-offset`
       * :ref:`syntax-error,-unexpected-token-"=",-expecting-identifier`
+      * :ref:`the-connection-has-no-charset-associated`
       * :ref:`unsupported-declare-\'%s\'`
       * :ref:`wrong-encoding,-conversion-from-"%s"-to-"%s"-is-not-allowed`
+
+
+   * entity
+
+      * :ref:`charset-"%s"-is-not-supported,-assuming-utf-8`
 
 
    * enum
@@ -1244,6 +1260,11 @@ Features index
       * :ref:`passing-non-callable-strings-is-deprecated-since-8.4`
 
 
+   * hash
+
+      * :ref:`must-be-a-list-array`
+
+
    * heredoc
 
       * :ref:`invalid-indentation---tabs-and-spaces-cannot-be-mixed`
@@ -1328,6 +1349,7 @@ Features index
       * :ref:`cannot-mix-keyed-and-unkeyed-array-entries-in-assignments`
       * :ref:`cannot-unpack-array-with-string-keys`
       * :ref:`index-invalid-or-out-of-range`
+      * :ref:`is-an-invalid-offset`
       * :ref:`undefined-array-key`
       * :ref:`using-null-as-an-array-offset-is-deprecated,-use-an-empty-string-instead`
       * :ref:`using-null-as-the-key-parameter-for-array_key_exists()-is-deprecated,-use-an-empty-string-instead`
@@ -1406,6 +1428,7 @@ Features index
       * :ref:`syntax-error,-unexpected-token-"private",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"protected",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"public",-expecting-"{"`
+      * :ref:`unknown-named-parameter-\$%s`
 
 
    * interpolation
@@ -1484,6 +1507,7 @@ Features index
       * :ref:`cannot-use-empty-list`
       * :ref:`cannot-use-empty-list`
       * :ref:`cannot-use-list()-as-standalone-expression`
+      * :ref:`must-be-a-list-array`
       * :ref:`spread-operator-is-not-supported-in-assignments`
       * :ref:`syntax-error,-unexpected-\')\',-expecting-\'=\'`
       * :ref:`syntax-error,-unexpected-\',\'`
@@ -1624,6 +1648,11 @@ Features index
 
       * :ref:`syntax-error,-unexpected-token-"%"`
       * :ref:`syntax-error,-unexpected-token-"*"`
+
+
+   * mysql
+
+      * :ref:`the-connection-has-no-charset-associated`
 
 
    * name
@@ -2283,6 +2312,7 @@ Features index
 
    * serialization
 
+      * :ref:`%s-"-is-returned-from-__sleep()-multiple-times`
       * :ref:`error-at-offset-%zd-of-%zd`
       * :ref:`extra-data-starting-at-offset-%d-of-%zd-bytes`
       * :ref:`unserializing-the-\'s\'-format-is-deprecated`
@@ -2656,6 +2686,11 @@ Features index
    * union-type
 
       * :ref:`syntax-error,-unexpected-\'|\',-expecting-variable-(t_variable)`
+
+
+   * unitenum
+
+      * :ref:`non-enum-class-%s-cannot-implement-interface-%s`
 
 
    * unpacking

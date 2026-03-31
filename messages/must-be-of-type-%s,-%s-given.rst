@@ -21,7 +21,7 @@ must be of type %s, %s given
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/must-be-of-type-%s,-%s-given.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/must-be-of-type-%s,-%s-given.html","name":"must be of type %s, %s given","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 29 Jul 2025 17:37:28 +0000","dateModified":"Tue, 29 Jul 2025 17:37:28 +0000","description":"This error message reports that the types of the provided arguments are not compatible with the expected types","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/must-be-of-type-%s,-%s-given.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/must-be-of-type-%s,-%s-given.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/must-be-of-type-%s,-%s-given.html","name":"must be of type %s, %s given","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:06:02 +0000","dateModified":"Tue, 31 Mar 2026 09:06:02 +0000","description":"This error message reports that the types of the provided arguments are not compatible with the expected types","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/must-be-of-type-%s,-%s-given.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -32,7 +32,7 @@ Such a conflict appears in various situations:
 + a scalar type is used when another incompatible type is expected: using an array instead of a integer.
 + a compatible type is provided when strict_types is active: for example, using a numeric string or a stringable object with a ``string`` type.
 + a parent class is used where a child type is expected: object types accept child classes, not parent ones.
-+ the type is an interface, and the provided object is not implementing it explicitely
++ the type is an interface, and the provided object is not implementing it explicitly
 + the type has a typo
 + the type should is not the one that is the specifications.
 

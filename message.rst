@@ -22,6 +22,7 @@ PHP Error Messages
    messages/%s():-never-returning-function-must-not-implicitly-return.rst
    messages/%s():-passing-null-to-parameter-#%.rst
    messages/%s():-returning-by-reference-from-a-void-function-is-deprecated.rst
+   messages/%s-"-is-returned-from-__sleep()-multiple-times.rst
    messages/%s-%s-cannot-implement-interface-%s,-extend-exception-or-error-instead.rst
    messages/%s-%s-cannot-implement-previously-implemented-interface-%s.rst
    messages/%s-%s-inherits-both-%s::%s-and-%s::%s.rst
@@ -262,6 +263,7 @@ PHP Error Messages
    messages/case-%s::%s-does-not-exist.rst
    messages/case-can-only-be-used-in-enums.rst
    messages/case-statements-followed-by-a-semicolon-(;)-are-deprecated,-use-a-colon-(:).rst
+   messages/charset-"%s"-is-not-supported,-assuming-utf-8.rst
    messages/class-"%s"-not-found.rst
    messages/class-%s-cannot-extend-%s-%s.rst
    messages/class-%s-cannot-extend-enum-%s.rst
@@ -413,8 +415,10 @@ PHP Error Messages
    messages/multiple-static-modifiers-are-not-allowed.rst
    messages/must-be-a-callable,-null-given.rst
    messages/must-be-a-finite-value.rst
+   messages/must-be-a-list-array.rst
    messages/must-be-a-multiple-of-argument-#2-($word_size).rst
    messages/must-be-a-user-defined-class-name,-internal-class-name-given.rst
+   messages/must-be-a-valid-charset.rst
    messages/must-be-a-valid-class-name,-%s-given.rst
    messages/must-be-a-valid-comparison-operator.rst
    messages/must-be-a-valid-encoding,-"%s"-given.rst
@@ -664,6 +668,7 @@ PHP Error Messages
    messages/the-backtick-(`)-operator-is-deprecated,-use-shell_exec()-instead.rst
    messages/the-behavior-of-unparenthesized-expressions-containing-both-'.'-and-'+'-'-'-will-change-in-php-8:-'+'-'-'-will-take-a-higher-precedence.rst
    messages/the-behavior-of-unparenthesized-expressions-containing-both-'.'-and-'<<'-'>>'-will-change-in-php-8:-'<<'-'>>'-will-take-a-higher-precedence.rst
+   messages/the-connection-has-no-charset-associated.rst
    messages/the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls.rst
    messages/the-float-string--"%s-"-is-not-representable-as-an-int,-cast-occurred.rst
    messages/the-magic-method-%s::%s()-must-have-public-visibility.rst

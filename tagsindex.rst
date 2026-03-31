@@ -4,6 +4,11 @@ Tag index
 -----------------------------
 
 
+   * _noDetails
+
+      * :ref:`must-be-a-valid-charset`
+
+
    * abstract
 
       * :ref:`non-abstract-method-%s::%s()-must-contain-body`
@@ -220,6 +225,11 @@ Tag index
       * :ref:`a-function-with-return-type-must-return-a-value`
       * :ref:`never-returning-function-must-not-implicitly-return`
       * :ref:`the-use-statement-with-non-compound-name-\'%s\'`
+
+
+   * lint-wont-execute
+
+      * :ref:`%s-"-is-returned-from-__sleep()-multiple-times`
 
 
    * list

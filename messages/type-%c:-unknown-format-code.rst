@@ -21,12 +21,12 @@ Type %c: unknown format code
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/type-%c:-unknown-format-code.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/type-%c:-unknown-format-code.html","name":"Type %c: unknown format code","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 21 Feb 2025 18:53:43 +0000","dateModified":"Fri, 21 Feb 2025 18:53:43 +0000","description":"pack() and unpack() convert data between a string representation and another","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/type-%c:-unknown-format-code.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/type-%c:-unknown-format-code.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/type-%c:-unknown-format-code.html","name":"Type %c: unknown format code","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:06:02 +0000","dateModified":"Tue, 31 Mar 2026 09:06:02 +0000","description":"pack() and unpack() convert data between a string representation and another","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/type-%c:-unknown-format-code.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
  
-pack() and unpack() convert data between a string representation and another. They both use a format string, passed as first argument, that specifies how the datat of the second argument are transformed. This format string uses a limited set of letters (and ``@``) to express these transformation. Any other character is not recognized and produces this error.
+pack() and unpack() convert data between a string representation and another. They both use a format string, passed as first argument, that specifies how the data of the second argument are transformed. This format string uses a limited set of letters (and ``@``) to express these transformation. Any other character is not recognized and produces this error.
 
 The valid characters are : ``a, A, h, H, c, C, s, S, n, v, i, I, l, L, N, V, q, Q, J, P, f, g, G, d, e, E, x, X, Z, @`` 
 

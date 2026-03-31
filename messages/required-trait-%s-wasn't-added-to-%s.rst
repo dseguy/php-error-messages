@@ -21,12 +21,12 @@ Required Trait %s wasn't added to %s
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/required-trait-%s-wasn't-added-to-%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/required-trait-%s-wasn't-added-to-%s.html","name":"Required Trait %s wasn't added to %s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 21 Feb 2025 18:53:43 +0000","dateModified":"Fri, 21 Feb 2025 18:53:43 +0000","description":"This error happens during name conflict resolution for traits","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/required-trait-%s-wasn't-added-to-%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/required-trait-%s-wasn't-added-to-%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/required-trait-%s-wasn't-added-to-%s.html","name":"Required Trait %s wasn't added to %s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:06:02 +0000","dateModified":"Tue, 31 Mar 2026 09:06:02 +0000","description":"This error happens during name conflict resolution for traits","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/required-trait-%s-wasn't-added-to-%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
  
-This error happens during name conflict resolution for traits. It means that one of the mentionned trait is not ``use`` in the code, and cannot be replaced or replacing another method. In the example below, the trait T2 is mentionned, but is not in the ``use`` command.
+This error happens during name conflict resolution for traits. It means that one of the mentioned trait is not ``use`` in the code, and cannot be replaced or replacing another method. In the example below, the trait T2 is mentioned, but is not in the ``use`` command.
 
 Example
 _______

@@ -21,7 +21,7 @@ The predefined locally scoped $http_response_header variable is deprecated, call
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/the-predefined-locally-scoped-$http_response_header-variable-is-deprecated,.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/the-predefined-locally-scoped-$http_response_header-variable-is-deprecated,.html","name":"The predefined locally scoped $http_response_header variable is deprecated, call http_get_last_response_headers() instead","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 25 Oct 2025 08:51:06 +0000","dateModified":"Sat, 25 Oct 2025 08:51:06 +0000","description":"The PHP variable ``$http_response_header`` is automagically created after a call to a remote resource","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/the-predefined-locally-scoped-$http_response_header-variable-is-deprecated,.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/the-predefined-locally-scoped-$http_response_header-variable-is-deprecated,.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/the-predefined-locally-scoped-$http_response_header-variable-is-deprecated,.html","name":"The predefined locally scoped $http_response_header variable is deprecated, call http_get_last_response_headers() instead","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:06:02 +0000","dateModified":"Tue, 31 Mar 2026 09:06:02 +0000","description":"The PHP variable ``$http_response_header`` is automagically created after a call to a remote resource","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/the-predefined-locally-scoped-$http_response_header-variable-is-deprecated,.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -49,3 +49,8 @@ Changed Behavior
 ________________
 
 This error may appear following an evolution in behavior, in previous versions. See `http_response_header <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/http_response_header.html>`_.
+
+Static Analysis
+_______________
+
+This error may be tracked down with the following static analysis rules: `Php/HttpResponseHeaderIsDeprecated <https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/HttpResponseHeaderIsDeprecated.html>`_.

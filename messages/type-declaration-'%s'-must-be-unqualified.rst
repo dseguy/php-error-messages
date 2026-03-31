@@ -21,7 +21,7 @@ Type declaration '%s' must be unqualified
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/type-declaration-'%s'-must-be-unqualified.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/type-declaration-'%s'-must-be-unqualified.html","name":"Type declaration '%s' must be unqualified","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 21 Jun 2025 07:54:28 +0000","dateModified":"Sat, 21 Jun 2025 07:54:28 +0000","description":"Scalar types are absolute, and shall not be written with the initial ``\\``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/type-declaration-'%s'-must-be-unqualified.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/type-declaration-'%s'-must-be-unqualified.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/type-declaration-'%s'-must-be-unqualified.html","name":"Type declaration '%s' must be unqualified","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:06:02 +0000","dateModified":"Tue, 31 Mar 2026 09:06:02 +0000","description":"Scalar types are absolute, and shall not be written with the initial ``\\``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/type-declaration-'%s'-must-be-unqualified.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -39,7 +39,7 @@ _______
 
    <?php
    
-   function foo(\string $x) {}
+       function foo(\string $x) {}
    
    ?>
 
@@ -56,7 +56,7 @@ _________
 
 + Remove the leading backslash.
 + Remove the whole type.
-+ Use a class type, which supports the leading backaslash.
++ Use a class type, which supports the leading backslash.
 
 Related Error Messages
 ______________________
