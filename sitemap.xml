@@ -553,6 +553,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-function-%25s%28%29-%28previously-declared-in-%25s%3A%25d%29.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-property-hook--%22%25s.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-property-hook.html</loc>
  </url>
  <url>
@@ -1027,6 +1030,12 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/generators-cannot-return-values-using-%22return%22.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/get-hook-of-backed-property-%25s%3A%3A%25s-with-set-hook-may-not-return-by-reference.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/get-hook-of-property-%25s%3A%3A%24%25s-must-not-have-a-parameter-list.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/get_called_class%28%29-must-be-called-from-within-a-class.html</loc>
  </url>
  <url>
@@ -1406,6 +1415,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/only-arrays-can-be-unpacked-in-constant-expression.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/only-basic-entities-substitution-is-supported-for-multi-byte-encodings-other-than-utf-8%3B-functionality-is-equivalent-to-htmlspecialchars.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/only-hooked-properties-may-be-declared-abstract.html</loc>
@@ -2147,6 +2159,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unknown-hook-%22%25s%22-for-property-%25s%3A%3A%24%25s%2C-expected-%22get%22-or-%22set%22.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/unknown-hook--%22%25s-%22-for-property-%25s%3A%3A%24%25s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unknown-named-parameter-%24%25s.html</loc>

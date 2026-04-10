@@ -189,6 +189,7 @@ PHP Error Messages
    messages/cannot-redeclare-%s-property-%s::$%s-as-%s-%s::$%s.rst
    messages/cannot-redeclare-%s::%s().rst
    messages/cannot-redeclare-function-%s()-(previously-declared-in-%s:%d).rst
+   messages/cannot-redeclare-property-hook--"%s.rst
    messages/cannot-redeclare-property-hook.rst
    messages/cannot-redefine-class-constant.rst
    messages/cannot-specify-default-value-for-virtual-hooked-property-%s::$%s.rst
@@ -347,6 +348,8 @@ PHP Error Messages
    messages/function-name-must-be-a-string.rst
    messages/generator-return-type-must-be-a-supertype-of-generator.rst
    messages/generators-cannot-return-values-using-"return".rst
+   messages/get-hook-of-backed-property-%s::%s-with-set-hook-may-not-return-by-reference.rst
+   messages/get-hook-of-property-%s::$%s-must-not-have-a-parameter-list.rst
    messages/get_called_class()-must-be-called-from-within-a-class.rst
    messages/get_defined_functions():-setting-$exclude_disabled-to-false-has-no-effect.rst
    messages/get_defined_functions():-the-$exclude_disabled-parameter-has-no-effect-since-php-8.0.rst
@@ -474,6 +477,7 @@ PHP Error Messages
    messages/offset-not-contained-in-string..rst
    messages/only-arrays-and-traversables-can-be-unpacked.rst
    messages/only-arrays-can-be-unpacked-in-constant-expression.rst
+   messages/only-basic-entities-substitution-is-supported-for-multi-byte-encodings-other-than-utf-8;-functionality-is-equivalent-to-htmlspecialchars.rst
    messages/only-hooked-properties-may-be-declared-abstract.rst
    messages/only-internal-classes-can-be-registered-as-compiler-attribute.rst
    messages/only-the-first-byte-will-be-assigned-to-the-string-offset.rst
@@ -721,6 +725,7 @@ PHP Error Messages
    messages/unknown-filter-with-id.rst
    messages/unknown-format-specifier-"%c.rst
    messages/unknown-hook-"%s"-for-property-%s::$%s,-expected-"get"-or-"set".rst
+   messages/unknown-hook--"%s-"-for-property-%s::$%s.rst
    messages/unknown-named-parameter-$%s.rst
    messages/unknown-or-bad-format-(%s).rst
    messages/unknown-parser.rst

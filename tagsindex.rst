@@ -179,6 +179,11 @@ Tag index
       * :ref:`\'-%s\'-is-an-invalid-class-name`
 
 
+   * function
+
+      * :ref:`get-hook-of-property-%s::$%s-must-not-have-a-parameter-list`
+
+
    * funny
 
       * :ref:`cannot-declare-self-referencing-constant`
@@ -337,6 +342,18 @@ Tag index
 
       * :ref:`missing-format-specifier-at-end-of-string`
       * :ref:`unknown-format-specifier-"%c`
+
+
+   * property hook
+
+      * :ref:`get-hook-of-backed-property-%s::%s-with-set-hook-may-not-return-by-reference`
+      * :ref:`get-hook-of-property-%s::$%s-must-not-have-a-parameter-list`
+      * :ref:`unknown-hook--"%s-"-for-property-%s::$%s`
+
+
+   * property-hook
+
+      * :ref:`cannot-redeclare-property-hook--"%s`
 
 
    * readonly

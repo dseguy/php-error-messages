@@ -1286,6 +1286,11 @@ Features index
       * :ref:`handling-html-entities-via-mbstring-is-deprecated;-use-htmlspecialchars,-htmlentities,-or-mb_encode_numericentity-mb_decode_numericentity`
 
 
+   * htmlentities
+
+      * :ref:`only-basic-entities-substitution-is-supported-for-multi-byte-encodings-other-than-utf-8;-functionality-is-equivalent-to-htmlspecialchars`
+
+
    * iconv
 
       * :ref:`must-be-contained-in-argument-#1-(\$haystack)`
@@ -2072,6 +2077,7 @@ Features index
       * :ref:`cannot-create-reference-to-property-%s::\$%s`
       * :ref:`cannot-declare-hooks-for-static-property`
       * :ref:`cannot-override-final-property-hook-%s::%s()`
+      * :ref:`cannot-redeclare-property-hook--"%s`
       * :ref:`cannot-redeclare-property-hook`
       * :ref:`cannot-specify-default-value-for-virtual-hooked-property-%s::\$%s`
       * :ref:`cannot-unset-hooked-property-%s::\$%s`
@@ -2079,6 +2085,8 @@ Features index
       * :ref:`cannot-use-the-abstract-modifier-on-a-property`
       * :ref:`cannot-use-the-final-modifier-on-a-property`
       * :ref:`cannot-use-the-static-modifier-on-a-property-hook`
+      * :ref:`get-hook-of-backed-property-%s::%s-with-set-hook-may-not-return-by-reference`
+      * :ref:`get-hook-of-property-%s::\$%s-must-not-have-a-parameter-list`
       * :ref:`hooked-properties-cannot-be-readonly`
       * :ref:`indirect-modification-of-%s::\$%s-is-not-allowed`
       * :ref:`interfaces-may-not-include-properties`
@@ -2097,6 +2105,7 @@ Features index
       * :ref:`property-in-interface-cannot-be-protected-or-private`
       * :ref:`syntax-error,-unexpected-token-"{",-expecting-","-or-";"`
       * :ref:`unknown-hook-"%s"-for-property-%s::\$%s,-expected-"get"-or-"set"`
+      * :ref:`unknown-hook--"%s-"-for-property-%s::\$%s`
 
 
    * quoted-printable
@@ -2805,6 +2814,7 @@ Features index
 
       * :ref:`%s-virtual-property-%s::\$%s-must-not-specify-asymmetric-visibility`
       * :ref:`cannot-specify-default-value-for-virtual-hooked-property-%s::\$%s`
+      * :ref:`get-hook-of-backed-property-%s::%s-with-set-hook-may-not-return-by-reference`
 
 
    * visibility
