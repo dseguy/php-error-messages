@@ -21,12 +21,12 @@ A never returning %s does not return a value, but #[\NoDiscard] requires a retur
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/a-never-returning-%s-does-not-return-a-value.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/a-never-returning-%s-does-not-return-a-value.html","name":"A never returning %s does not return a value, but #[\\NoDiscard] requires a return value","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:45 +0000","dateModified":"Tue, 31 Mar 2026 09:10:45 +0000","description":"This definition include contradicting information: the return type ``never`` means that the function will never return, so there should be no return value to handle","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/a-never-returning-%s-does-not-return-a-value.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/a-never-returning-%s-does-not-return-a-value.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/a-never-returning-%s-does-not-return-a-value.html","name":"A never returning %s does not return a value, but #[\\NoDiscard] requires a return value","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Apr 2026 08:56:11 +0000","dateModified":"Fri, 10 Apr 2026 08:56:11 +0000","description":"This definition include contradicting information: the return type ``never`` means that the function will never return, so there should be no return value to handle","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/a-never-returning-%s-does-not-return-a-value.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
  
-This definition include contradicting information: the return type ``never`` means that the function will never return, so there should be no return value to handle. On the other hand, the ``NoDiscard`` attribute request the caller to do something with the returned values. This is irreconciliable.
+This definition include contradicting information: the return type ``never`` means that the function will never return, so there should be no return value to handle. On the other hand, the ``NoDiscard`` attribute request the caller to do something with the returned values. This is irreconcilable.
 
 Example
 _______

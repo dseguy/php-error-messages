@@ -21,7 +21,7 @@ A never-returning method must not return
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/a-never-returning-method-must-not-return.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/a-never-returning-method-must-not-return.html","name":"A never-returning method must not return","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:45 +0000","dateModified":"Tue, 31 Mar 2026 09:10:45 +0000","description":"When using the ``never`` keyword, the method shall not use the ``return`` keyword","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/a-never-returning-method-must-not-return.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/a-never-returning-method-must-not-return.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/a-never-returning-method-must-not-return.html","name":"A never-returning method must not return","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Apr 2026 08:56:32 +0000","dateModified":"Fri, 10 Apr 2026 08:56:32 +0000","description":"When using the ``never`` keyword, the method shall not use the ``return`` keyword","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/a-never-returning-method-must-not-return.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -30,7 +30,7 @@ When using the ``never`` keyword, the method shall not use the ``return`` keywor
 
 Also note that ``never`` cannot be used in a union type.
 
-This error message applies to methods, since PHP 8.4. Before that vesrion, a unified message mentioning functions applied to all structures.
+This error message applies to methods, since PHP 8.4. Before that version, a unified message mentioning functions applied to all structures.
 
 Example
 _______

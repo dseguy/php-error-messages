@@ -21,7 +21,7 @@
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s::__sleep()-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s::__sleep()-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize.html","name":"%s::__sleep() should return an array only containing the names of instance-variables to serialize","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:45 +0000","dateModified":"Tue, 31 Mar 2026 09:10:45 +0000","description":"The return type of ``__sleep`` is actually ``array``, even when it is not mentioned","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/%s::__sleep()-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s::__sleep()-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s::__sleep()-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize.html","name":"%s::__sleep() should return an array only containing the names of instance-variables to serialize","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Apr 2026 08:55:17 +0000","dateModified":"Fri, 10 Apr 2026 08:55:17 +0000","description":"The return type of ``__sleep`` is actually ``array``, even when it is not mentioned","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/%s::__sleep()-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -48,9 +48,9 @@ _______
 Solutions
 _________
 
-+ Return an array from __sleep.
-+ Add the return type ``array`` and return an array from __sleep.
-+ Remove the __sleep() method.
++ Return an array from ``__sleep``.
++ Add the return type ``array`` and return an array from ``__sleep``.
++ Remove the ``__sleep()`` method.
 
 Related Error Messages
 ______________________
