@@ -625,6 +625,7 @@ Features index
       * :ref:`cannot-bind-an-instance-to-a-static-closure,-this-will-be-an-error-in-php-9`
       * :ref:`cannot-bind-an-instance-to-a-static-closure`
       * :ref:`cannot-bind-method-%s::%s()-to-object-of-class-%s`
+      * :ref:`cannot-create-closure-for-new-expression`
       * :ref:`cannot-rebind-scope-of-closure-created-from-method`
       * :ref:`cannot-use(...)-variables-in-constant-expression`
       * :ref:`cannot-use-variable-\$%s-twice`
@@ -957,9 +958,15 @@ Features index
       * :ref:`call-to-undefined-function-each()`
 
 
+   * echo
+
+      * :ref:`cannot-modify-header-information---headers-already-sent`
+
+
    * ellipsis
 
       * :ref:`argument-unpacking-in-constant-expressions-is-not-supported`
+      * :ref:`cannot-create-closure-for-new-expression`
       * :ref:`cannot-unpack-array-with-string-keys`
 
 
@@ -1103,6 +1110,7 @@ Features index
    * extension
 
       * :ref:`cannot-load-module-"%s"-because-required-module-"%s"-is-not-loaded`
+      * :ref:`jit-is-incompatible-with-third-party-extensions-that-override-zend_execute_ex().-jit-disabled.`
       * :ref:`module-"%s"-is-already-loaded`
 
 
@@ -1175,6 +1183,7 @@ Features index
    * first-class-callable
 
       * :ref:`array-callback-has-to-contain-indices-0-and-1`
+      * :ref:`cannot-create-closure-for-new-expression`
       * :ref:`instantiation-of-class-closure-is-not-allowed`
 
 
@@ -1473,6 +1482,11 @@ Features index
       * :ref:`foreach()-argument-must-be-of-type-array|object`
 
 
+   * jit
+
+      * :ref:`jit-is-incompatible-with-third-party-extensions-that-override-zend_execute_ex().-jit-disabled.`
+
+
    * keyword
 
       * :ref:`never-cannot-be-used-as-a-parameter-type`
@@ -1759,6 +1773,7 @@ Features index
 
    * new
 
+      * :ref:`cannot-create-closure-for-new-expression`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-variable-or-"\$"`
       * :ref:`syntax-error,-unexpected-token-"->"`
       * :ref:`syntax-error,-unexpected-token-"?->"`
@@ -1866,6 +1881,11 @@ Features index
       * :ref:`uninitialized-string-offset`
 
 
+   * open-tag
+
+      * :ref:`cannot-modify-header-information---headers-already-sent`
+
+
    * open_basedir
 
       * :ref:`open_basedir-prohibits-opening-%s`
@@ -1886,6 +1906,11 @@ Features index
    * optional-parameter
 
       * :ref:`required-parameter-\$%s-follows-optional-parameter-\$%s`
+
+
+   * output_buffering
+
+      * :ref:`cannot-modify-header-information---headers-already-sent`
 
 
    * override
@@ -1983,6 +2008,11 @@ Features index
       * :ref:`undefined-variable`
 
 
+   * php.ini
+
+      * :ref:`jit-is-incompatible-with-third-party-extensions-that-override-zend_execute_ex().-jit-disabled.`
+
+
    * php_int_max
 
       * :ref:`cannot-add-element-to-the-array-as-the-next-element-is-already-occupied`
@@ -2003,6 +2033,11 @@ Features index
    * precision
 
       * :ref:`requested-precision-of-%d-digits-was-truncated-to-php-maximum-of-%d-digits`
+
+
+   * print
+
+      * :ref:`cannot-modify-header-information---headers-already-sent`
 
 
    * printf

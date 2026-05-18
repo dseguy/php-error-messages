@@ -71,6 +71,11 @@ Tag index
       * :ref:`undefined-constant-%s::%s`
 
 
+   * classic
+
+      * :ref:`cannot-modify-header-information---headers-already-sent`
+
+
    * collision
 
       * :ref:`%s-%s-inherits-both-%s::%s-and-%s::%s`
@@ -283,6 +288,7 @@ Tag index
 
    * no-code
 
+      * :ref:`jit-is-incompatible-with-third-party-extensions-that-override-zend_execute_ex().-jit-disabled.`
       * :ref:`module-"%s"-is-already-loaded`
 
 
@@ -604,3 +610,8 @@ Tag index
       * :ref:`argument-#1-($start)-must-be-a-single-byte-string-if`
       * :ref:`cannot-be-0`
       * :ref:`must-not-be-empty`
+
+
+   * zend
+
+      * :ref:`jit-is-incompatible-with-third-party-extensions-that-override-zend_execute_ex().-jit-disabled.`

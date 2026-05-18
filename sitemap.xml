@@ -454,6 +454,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-combine-named-arguments-and-argument-unpacking.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-create-closure-for-new-expression.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-create-dynamic-property-%25s%3A%3A%24%25s.html</loc>
  </url>
  <url>
@@ -509,6 +512,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-mix-keyed-and-unkeyed-array-entries-in-assignments.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-modify-header-information---headers-already-sent.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-modify-readonly-object-of-class-%25s.html</loc>
@@ -1163,6 +1169,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/is-not-a-valid-codepoint.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/jit-is-incompatible-with-third-party-extensions-that-override-zend_execute_ex%28%29.-jit-disabled..html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/jump-into-a-finally-block-is-disallowed.html</loc>

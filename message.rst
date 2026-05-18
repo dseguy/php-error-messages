@@ -156,6 +156,7 @@ PHP Error Messages
    messages/cannot-bind-method-%s::%s()-to-object-of-class-%s.rst
    messages/cannot-call-constructor.rst
    messages/cannot-combine-named-arguments-and-argument-unpacking.rst
+   messages/cannot-create-closure-for-new-expression.rst
    messages/cannot-create-dynamic-property-%s::$%s.rst
    messages/cannot-create-reference-to-property-%s::$%s.rst
    messages/cannot-declare-hooks-for-static-property.rst
@@ -175,6 +176,7 @@ PHP Error Messages
    messages/cannot-make-non-static-method-%s::%s()-static-in-class-%s.rst
    messages/cannot-make-static-method-%s::%s()-non-static-in-class-%s.rst
    messages/cannot-mix-keyed-and-unkeyed-array-entries-in-assignments.rst
+   messages/cannot-modify-header-information---headers-already-sent.rst
    messages/cannot-modify-readonly-object-of-class-%s.rst
    messages/cannot-modify-readonly-property-%s::$%s.rst
    messages/cannot-override-final-%s::%s()-with-%s::%s().rst
@@ -393,6 +395,7 @@ PHP Error Messages
    messages/is-an-invalid-offset.rst
    messages/is-an-unsupported-rounding-mode.rst
    messages/is-not-a-valid-codepoint.rst
+   messages/jit-is-incompatible-with-third-party-extensions-that-override-zend_execute_ex().-jit-disabled..rst
    messages/jump-into-a-finally-block-is-disallowed.rst
    messages/jump-out-of-a-finally-block-is-disallowed.rst
    messages/key-element-cannot-be-a-reference.rst
