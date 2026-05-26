@@ -568,6 +568,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redefine-class-constant.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-rewind-a-generator-that-was-already-run.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-specify-default-value-for-virtual-hooked-property-%25s%3A%3A%24%25s.html</loc>
  </url>
  <url>
@@ -1171,6 +1174,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/is-not-a-valid-codepoint.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/iterator-does-not-support-rewinding.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/jit-is-incompatible-with-third-party-extensions-that-override-zend_execute_ex%28%29.-jit-disabled..html</loc>
  </url>
  <url>
@@ -1535,6 +1541,12 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/property-x%3A%3A%24p-cannot-have-type-void.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/providing-a-string-that-is-not-one-byte-long-is-deprecated.-use-ord%28%24str%5B0%5D%29-instead.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/providing-an-empty-string-is-deprecated.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/providing-individual-callbacks-instead-of-an-object-implementing-sessionhandlerinterface-is-deprecated.html</loc>

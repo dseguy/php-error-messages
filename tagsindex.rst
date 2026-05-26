@@ -16,6 +16,7 @@ Tag index
 
    * argument
 
+      * :ref:`%s():-argument-#%d%s%s%s-cannot-be-passed-by-reference`
       * :ref:`too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d-expected`
       * :ref:`too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d`
 
@@ -186,6 +187,7 @@ Tag index
 
    * function
 
+      * :ref:`%s():-never-returning-function-must-not-implicitly-return`
       * :ref:`get-hook-of-property-%s::$%s-must-not-have-a-parameter-list`
 
 
@@ -199,6 +201,11 @@ Tag index
       * :ref:`increment-on-non-alphanumeric-string-is-deprecated`
 
 
+   * generator
+
+      * :ref:`cannot-rewind-a-generator-that-was-already-run`
+
+
    * goto
 
       * :ref:`\'goto\'-into-loop-or-switch-statement-is-disallowed`
@@ -208,6 +215,11 @@ Tag index
 
       * :ref:`%s%s%s():-return-value-must-be-of-type-%s,-%s-returned`
       * :ref:`%s():-implicitly-marking-parameter-$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead`
+
+
+   * iterator
+
+      * :ref:`iterator-does-not-support-rewinding`
 
 
    * keyword
@@ -376,6 +388,7 @@ Tag index
 
    * reference
 
+      * :ref:`%s():-argument-#%d%s%s%s-cannot-be-passed-by-reference`
       * :ref:`cannot-acquire-reference-to-$globals`
       * :ref:`cannot-acquire-reference-to-readonly-property-%s::$%s`
 
@@ -407,6 +420,11 @@ Tag index
       * :ref:`non-enum-class-%s-cannot-implement-interface-%s`
 
 
+   * return
+
+      * :ref:`%s():-never-returning-function-must-not-implicitly-return`
+
+
    * security
 
       * :ref:`maximum-depth-of-%d-exceeded.-the-depth-limit-can-be-changed-using-the-max_depth-unserialize()-option`
@@ -426,9 +444,16 @@ Tag index
       * :ref:`void-cannot-be-used-as-a-parameter-type`
 
 
+   * strict check
+
+      * :ref:`providing-a-string-that-is-not-one-byte-long-is-deprecated.-use-ord($str[0])-instead`
+      * :ref:`providing-an-empty-string-is-deprecated`
+
+
    * string
 
       * :ref:`illegal-string-offset`
+      * :ref:`providing-a-string-that-is-not-one-byte-long-is-deprecated.-use-ord($str[0])-instead`
 
 
    * surprise

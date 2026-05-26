@@ -286,6 +286,7 @@ Features index
    * ascii
 
       * :ref:`octal-escape-sequence-overflow-%s-is-greater-than--377`
+      * :ref:`providing-a-string-that-is-not-one-byte-long-is-deprecated.-use-ord(\$str[0])-instead`
 
 
    * assertion
@@ -980,6 +981,7 @@ Features index
 
    * empty-string
 
+      * :ref:`providing-an-empty-string-is-deprecated`
       * :ref:`strlen():-passing-null-to-parameter-#1-(\$string)-of-type-string-is-deprecated`
       * :ref:`using-null-as-the-key-parameter-for-array_key_exists()-is-deprecated,-use-an-empty-string-instead`
 
@@ -1241,6 +1243,7 @@ Features index
 
    * generator
 
+      * :ref:`cannot-rewind-a-generator-that-was-already-run`
       * :ref:`cannot-use--"yield-from-"-inside-a-by-reference-generator`
       * :ref:`class-%s-cannot-extend-final-class-%s`
       * :ref:`generator-return-type-must-be-a-supertype-of-generator`
@@ -1480,6 +1483,7 @@ Features index
       * :ref:`an-iterator-cannot-be-used-with-foreach-by-reference`
       * :ref:`class-%s-cannot-implement-both-iterator-and-iteratoraggregate-at-the-same-time`
       * :ref:`foreach()-argument-must-be-of-type-array|object`
+      * :ref:`iterator-does-not-support-rewinding`
 
 
    * jit
@@ -1661,6 +1665,7 @@ Features index
    * multi-byte
 
       * :ref:`only-the-first-byte-will-be-assigned-to-the-string-offset`
+      * :ref:`providing-a-string-that-is-not-one-byte-long-is-deprecated.-use-ord(\$str[0])-instead`
 
 
    * multiplication
@@ -2045,6 +2050,7 @@ Features index
       * :ref:`%d-arguments-are-required,-%d`
       * :ref:`missing-format-specifier-at-end-of-string`
       * :ref:`requested-precision-of-%d-digits-was-truncated-to-php-maximum-of-%d-digits`
+      * :ref:`the-arguments-array-must-contain-%d-items,-%d-given`
       * :ref:`too-few-arguments`
       * :ref:`unknown-format-specifier-"%c`
 
@@ -2288,6 +2294,11 @@ Features index
       * :ref:`return-value-of-%s%s%s()-must-%s%s%s,-%s%s-returned`
       * :ref:`returning-bool-from-comparison-function-is-deprecated,-return-an-integer-less-than,-equal-to,-or-greater-than-zero`
       * :ref:`returning-bool-from-comparison-function-is-deprecated`
+
+
+   * rewind
+
+      * :ref:`iterator-does-not-support-rewinding`
 
 
    * rounding
@@ -2536,6 +2547,7 @@ Features index
       * :ref:`increment-on-non-alphanumeric-string-is-deprecated`
       * :ref:`increment-on-non-numeric-string-is-deprecated,-use-str_increment()-instead`
       * :ref:`only-the-first-byte-will-be-assigned-to-the-string-offset`
+      * :ref:`providing-a-string-that-is-not-one-byte-long-is-deprecated.-use-ord(\$str[0])-instead`
       * :ref:`syntax-error,-unexpected-\'[\',-expecting-\';\'-or-\',\'`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-string-content`
@@ -2886,11 +2898,6 @@ Features index
       * :ref:`the-return-value-of-function-%s()-should-either-be-used-or-intentionally-ignored-by-casting-it-as-(void)%s-code`
       * :ref:`the-return-value-of-function-%s()-should-either-be-used-or-intentionally-ignored-by-casting-it-as-(void)%s`
       * :ref:`the-return-value-of-method-%s::%s()-should-either-be-used-or-intentionally-ignored-by-casting-it-as-(void)%s`
-
-
-   * vsprintf
-
-      * :ref:`the-arguments-array-must-contain-%d-items,-%d-given`
 
 
    * while

@@ -194,6 +194,7 @@ PHP Error Messages
    messages/cannot-redeclare-property-hook--"%s.rst
    messages/cannot-redeclare-property-hook.rst
    messages/cannot-redefine-class-constant.rst
+   messages/cannot-rewind-a-generator-that-was-already-run.rst
    messages/cannot-specify-default-value-for-virtual-hooked-property-%s::$%s.rst
    messages/cannot-throw-objects-that-do-not-implement-throwable.rst
    messages/cannot-unpack-array-with-string-keys.rst
@@ -395,6 +396,7 @@ PHP Error Messages
    messages/is-an-invalid-offset.rst
    messages/is-an-unsupported-rounding-mode.rst
    messages/is-not-a-valid-codepoint.rst
+   messages/iterator-does-not-support-rewinding.rst
    messages/jit-is-incompatible-with-third-party-extensions-that-override-zend_execute_ex().-jit-disabled..rst
    messages/jump-into-a-finally-block-is-disallowed.rst
    messages/jump-out-of-a-finally-block-is-disallowed.rst
@@ -517,6 +519,8 @@ PHP Error Messages
    messages/property-in-interface-cannot-be-protected-or-private.rst
    messages/property-with-asymmetric-visibility-%s::$%s-must-have-type.rst
    messages/property-x::$p-cannot-have-type-void.rst
+   messages/providing-a-string-that-is-not-one-byte-long-is-deprecated.-use-ord($str[0])-instead.rst
+   messages/providing-an-empty-string-is-deprecated.rst
    messages/providing-individual-callbacks-instead-of-an-object-implementing-sessionhandlerinterface-is-deprecated.rst
    messages/readonly-class-%s-cannot-use-trait-with-a-non-readonly-property-%s::$%s.rst
    messages/readonly-class-bar-cannot-extend-non-readonly-class-foo.rst
