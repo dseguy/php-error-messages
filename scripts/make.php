@@ -136,14 +136,23 @@ foreach($files as $file) {
 		buildlog("No description for $file");
 		++$warnings;
 		continue;
-	} elseif (strlen($error->description) < MINIMUM_DESCRIPTION_SIZE && 
-	        in_array('Not generated', $error->tags, true)) {
-		buildlog("Description is too short: ".strlen($error->description)." for $file");
-		++$warnings;
-	} elseif ($error->description[-1] !== '.') {
-		buildlog("Description is not finished by a dot for $file");
-		++$warnings;
-	}
+	} else {
+	    if (strlen($error->description) < MINIMUM_DESCRIPTION_SIZE && 
+	            in_array('Not generated', $error->tags, true)) {
+    		buildlog("Description is too short: ".strlen($error->description)." for $file");
+	    	++$warnings;
+    	} 
+    	
+    	if ($error->description[-1] !== '.') {
+	    	buildlog("Description is not finished by a dot for $file");
+		    ++$warnings;
+    	}
+
+    	if (preg_match_all('/(mentionned|explicitely|parenthese|orginal|paramter)/', $error->description[-1], $r)) {
+	    	buildlog("Description contains ".join(', ', $r[1])." in $file");
+		    ++$warnings;
+    	}
+    }
 
 	if (isset($error->examples) && empty($error->examples)) {
 		buildlog("Empty examples for $file");
@@ -170,11 +179,16 @@ foreach($files as $file) {
 	}
 
 	if (!is_array($error->tags)) {
-		print("No array for tags in $file\n");
 		buildlog("No array for tags in $file");
 		++$warnings;
 		continue;
 	} else {
+	    $error->tags = array_filter($error->tags);
+	    if (empty($error->tags)) {
+//    		buildlog("Tags is empty in $file");
+//	    	++$warnings;
+	    }
+	    
 		foreach(array_filter($error->tags) as $tag) {
 			$target = str_replace(array('errors/', '.ini'), '', $file);
 			$target = addcslashes($target, '`\'');
@@ -191,7 +205,9 @@ foreach($files as $file) {
 		}
 	}
 
-	if (empty($error->code) && in_array('no-code', $error->tags)) {
+    if (in_array('_noDetails', $error->tags)) {
+        // skip this
+    } elseif (empty($error->code) && in_array('no-code', $error->tags)) {
 	    // skip this
 	} elseif (empty($error->code) && !in_array('not generated', $error->tags)) {
 		buildlog("No code for $file");
@@ -334,22 +350,24 @@ foreach($files as $file) {
 			continue;
 		}
 		
-		foreach($error->alternative as $key => $alternative) {
-			if (empty($alternative)) {
-				buildlog("Alternative is empty in $file");
-				++$warnings;
-				continue;
-			}
-			
-			if ($alternative[0] !== strtoupper($alternative[0])) {
-				buildlog("Alternative[$key] doesn't start with Uppercase in $file");
-				++$warnings;
-			}
-
-			if (substr($alternative, -1) !== '.') {
-				buildlog("Alternative[$key] must finish with . in $file");
-				++$warnings;
-			}
+		if (!in_array('_noDetails', $error->tags)) {
+		    foreach($error->alternative as $key => $alternative) {
+		    	if (empty($alternative)) {
+		    		buildlog("Alternative is empty in $file");
+		    		++$warnings;
+		    		continue;
+		    	}
+		    	
+		    	if ($alternative[0] !== strtoupper($alternative[0])) {
+		    		buildlog("Alternative[$key] doesn't start with Uppercase in $file");
+		    		++$warnings;
+		    	}
+    
+		    	if (substr($alternative, -1) !== '.') {
+		    		buildlog("Alternative[$key] must finish with . in $file");
+		    		++$warnings;
+		    	}
+		    }
 		}
 	}
 	
