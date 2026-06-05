@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'PHP error messages'
-copyright = '2023-2025, Damien Seguy - <a href="https://www.exakat.io/">Exakat</a>'
+copyright = '2023-2026, Damien Seguy - <a href="https://www.exakat.io/">Exakat</a>'
 author = 'Damien Seguy'
 release = '1.0'
 html_favicon = '_static/logo.png'
