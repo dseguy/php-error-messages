@@ -102,6 +102,11 @@ Tag index
       * :ref:`must-not-contain-empty-strings`
 
 
+   * debug
+
+      * :ref:`duplicate-parameter-name-$%s-for-function-%s%s%s()`
+
+
    * deprecated
 
       * :ref:`function-libxml_disable_entity_loader()-is-deprecated-since-8.0,-as-external-entity-loading-is-disabled-by-default`
@@ -217,6 +222,11 @@ Tag index
       * :ref:`%s():-implicitly-marking-parameter-$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead`
 
 
+   * internal
+
+      * :ref:`parameter-must-have-a-name`
+
+
    * iterator
 
       * :ref:`iterator-does-not-support-rewinding`
@@ -302,6 +312,7 @@ Tag index
 
       * :ref:`jit-is-incompatible-with-third-party-extensions-that-override-zend_execute_ex().-jit-disabled.`
       * :ref:`module-"%s"-is-already-loaded`
+      * :ref:`parameter-must-have-a-name`
 
 
    * no-opening-tag

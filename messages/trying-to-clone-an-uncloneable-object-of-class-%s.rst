@@ -5,28 +5,32 @@ Trying to clone an uncloneable object of class %s
  
 .. meta::
 	:description:
-		Trying to clone an uncloneable object of class %s: It is not possible to instantiate an enumeration.
+		Trying to clone an uncloneable object of class %s: It is not possible to instantiate certain classes.
 	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
 	:og:title: Trying to clone an uncloneable object of class %s
-	:og:description: It is not possible to instantiate an enumeration
+	:og:description: It is not possible to instantiate certain classes
 	:og:url: https://php-errors.readthedocs.io/en/latest/messages/trying-to-clone-an-uncloneable-object-of-class-%25s.html
 	:og:locale: en
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Trying to clone an uncloneable object of class %s
-	:twitter:description: Trying to clone an uncloneable object of class %s: It is not possible to instantiate an enumeration
+	:twitter:description: Trying to clone an uncloneable object of class %s: It is not possible to instantiate certain classes
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/trying-to-clone-an-uncloneable-object-of-class-%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/trying-to-clone-an-uncloneable-object-of-class-%s.html","name":"Trying to clone an uncloneable object of class %s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:47 +0000","dateModified":"Tue, 31 Mar 2026 09:10:47 +0000","description":"It is not possible to instantiate an enumeration","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/trying-to-clone-an-uncloneable-object-of-class-%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/trying-to-clone-an-uncloneable-object-of-class-%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/trying-to-clone-an-uncloneable-object-of-class-%s.html","name":"Trying to clone an uncloneable object of class %s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 05 Jun 2026 10:28:16 +0000","dateModified":"Fri, 05 Jun 2026 10:28:16 +0000","description":"It is not possible to instantiate certain classes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/trying-to-clone-an-uncloneable-object-of-class-%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
  
-It is not possible to instantiate an enumeration. It is also not possible to clone its cases. The only usage is to access the ``cases`` of the enumeration: they are directly the expected objects.
+It is not possible to instantiate certain classes. This is the case of enumerations and generators. 
+
+It is also not possible to clone an enumeration cases, which are actually of the same type as the enumeration itself. The only usage is to access the ``cases`` of the enumeration: they are directly the expected objects.
+
+On the other hand, it is possible to clone a closure.
 
 Example
 _______
@@ -38,8 +42,13 @@ _______
    enum E {
        case A;
    }
-   
    clone E::A;
+   
+   $g = function () { yield 1; };
+   clone $g;
+   
+   $c = function () { return 1; };
+   clone $c;
    
    ?>
 
@@ -51,4 +60,5 @@ Literal Examples
 Solutions
 _________
 
-+ Use the case ``E::A`` (don't mistake it with a class constant).
++ Use the case ``E::A``. Make sure it is not a class constant, which might be cloned.
++ For generator, call the original variable anytime the code needs a new source for a loop.

@@ -763,6 +763,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-the-final-modifier-on-an-abstract-class.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-the-static-modifier-on-a-parameter.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-the-static-modifier-on-a-property-hook.html</loc>
  </url>
  <url>
@@ -940,6 +943,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/duplicate-named-parameter-%24%25s.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/duplicate-parameter-name-%24%25s-for-function-%25s%25s%25s%28%29.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/duplicate-type-%25s-is-redundant.html</loc>
  </url>
  <url>
@@ -1088,6 +1094,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/illegal-string-offset.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/implicit-conversion-from-float-%25.%2Ah-to-int-loses-precision.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/implicit-conversion-from-float-string-%22%25s%22-to-int-loses-precision.html</loc>
@@ -1469,6 +1478,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/parameter-must-be-an-array-or-an-object-that-implements-countable.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/parameter-must-have-a-name.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/parameter-uses-%27parent%27-as-type-hint-although-class-does-not-have-a-parent%21.html</loc>
@@ -2165,6 +2177,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/undefined-variable.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/unexpected-character-in-input%3A--%5C%27-%5C%27-%28ascii%3D92%29.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unhandled-match-case-%25s.html</loc>

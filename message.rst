@@ -259,6 +259,7 @@ PHP Error Messages
    messages/cannot-use-the-final-modifier-on-a-parameter.rst
    messages/cannot-use-the-final-modifier-on-a-property.rst
    messages/cannot-use-the-final-modifier-on-an-abstract-class.rst
+   messages/cannot-use-the-static-modifier-on-a-parameter.rst
    messages/cannot-use-the-static-modifier-on-a-property-hook.rst
    messages/cannot-use-traits-inside-of-interfaces.-%s-is-used-in-%s.rst
    messages/cannot-use-try-without-catch-or-finally.rst
@@ -318,6 +319,7 @@ PHP Error Messages
    messages/division-of-php_int_min-by--1-is-not-an-integer.rst
    messages/duplicate-declaration-of-static-variable-$%s.rst
    messages/duplicate-named-parameter-$%s.rst
+   messages/duplicate-parameter-name-$%s-for-function-%s%s%s().rst
    messages/duplicate-type-%s-is-redundant.rst
    messages/duplicate-value-in-enum-%s-for-cases-%s-and-%s.rst
    messages/dynamic-class-names-are-not-allowed-in-compile-time-class-constant-references.rst
@@ -368,6 +370,7 @@ PHP Error Messages
    messages/illegal-offset-type-in-unset.rst
    messages/illegal-offset-type.rst
    messages/illegal-string-offset.rst
+   messages/implicit-conversion-from-float-%.*h-to-int-loses-precision.rst
    messages/implicit-conversion-from-float-string-"%s"-to-int-loses-precision.rst
    messages/implicit-conversion-from-float-string-"%s"-to-int-loses.rst
    messages/increment-on-non-alphanumeric-string-is-deprecated.rst
@@ -495,6 +498,7 @@ PHP Error Messages
    messages/optional-parameter-$%s-declared-before-required-parameter-$%s-is-implicitly-treated-as-a-required-parameter.rst
    messages/parameter-%d-must-be-passed-by-reference.rst
    messages/parameter-must-be-an-array-or-an-object-that-implements-countable.rst
+   messages/parameter-must-have-a-name.rst
    messages/parameter-uses-'parent'-as-type-hint-although-class-does-not-have-a-parent!.rst
    messages/passing-e_user_error-to-trigger_error()-is-deprecated-since-8.4,-throw-an-exception-or-call-exit-with-a-string-message-instead.rst
    messages/passing-false-or-null-is-deprecated-since-8.4.rst
@@ -727,6 +731,7 @@ PHP Error Messages
    messages/undefined-property-%s::$%s.rst
    messages/undefined-variable-$%s.rst
    messages/undefined-variable.rst
+   messages/unexpected-character-in-input:--\'-\'-(ascii=92).rst
    messages/unhandled-match-case-%s.rst
    messages/uninitialized-string-offset.rst
    messages/unknown-filter-with-id.rst

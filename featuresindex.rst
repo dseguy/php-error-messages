@@ -1249,6 +1249,7 @@ Features index
       * :ref:`generator-return-type-must-be-a-supertype-of-generator`
       * :ref:`generators-cannot-return-values-using-"return"`
       * :ref:`the-"generator"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated`
+      * :ref:`trying-to-clone-an-uncloneable-object-of-class-%s`
 
 
    * get_class
@@ -1941,13 +1942,16 @@ Features index
       * :ref:`cannot-use-%s-as-default-value-for-property-%s::\$%s-of-type-%s`
       * :ref:`cannot-use-lexical-variable-%s-as-a-parameter-name`
       * :ref:`cannot-use-the-final-modifier-on-a-parameter`
+      * :ref:`cannot-use-the-static-modifier-on-a-parameter`
       * :ref:`default-value-for-parameters-with-a-%s-type-can-only-be-%s-or-null`
+      * :ref:`duplicate-parameter-name-\$%s-for-function-%s%s%s()`
       * :ref:`func_get_arg()-cannot-be-called-from-the-global-scope`
       * :ref:`func_get_args()-cannot-be-called-from-the-global-scope`
       * :ref:`func_num_args()-must-be-called-from-a-function-context`
       * :ref:`get_defined_functions():-the-\$exclude_disabled-parameter-has-no-effect-since-php-8.0`
       * :ref:`named-parameter-\$%s-overwrites-previous-argument`
       * :ref:`optional-parameter-\$%s-declared-before-required-parameter-\$%s-is-implicitly-treated-as-a-required-parameter`
+      * :ref:`parameter-must-have-a-name`
       * :ref:`parameter-uses-\'parent\'-as-type-hint-although-class-does-not-have-a-parent!`
       * :ref:`redefinition-of-parameter-\$%s`
       * :ref:`required-parameter-\$%s-follows-optional-parameter-\$%s`
@@ -2397,6 +2401,7 @@ Features index
 
    * signature
 
+      * :ref:`duplicate-parameter-name-\$%s-for-function-%s%s%s()`
       * :ref:`syntax-error,-unexpected-token-"private",-expecting-"("`
       * :ref:`syntax-error,-unexpected-token-"{",-expecting-variable`
 
@@ -2469,6 +2474,7 @@ Features index
       * :ref:`cannot-use-\'static\'-as-constant-modifier`
       * :ref:`cannot-use-\'static\'-as-method-modifier`
       * :ref:`cannot-use-the-%s-modifier-on-a-%s`
+      * :ref:`cannot-use-the-static-modifier-on-a-parameter`
       * :ref:`closures-in-constant-expressions-must-be-static`
       * :ref:`method-%s::%s()-must-be-static`
       * :ref:`multiple-static-modifiers-are-not-allowed`
@@ -2521,6 +2527,7 @@ Features index
       * :ref:`can-only-flip-string-and-integer-values,-entry-skipped`
       * :ref:`cannot-assign-%s-to-property-%s::\$%s-of-type-%s`
       * :ref:`cannot-use-%s-as-value-for-class-constant-%s::%s-of-type-%s`
+      * :ref:`implicit-conversion-from-float-%.*h-to-int-loses-precision`
       * :ref:`must-be-of-type-%s,-%s-given`
       * :ref:`object-of-class-%s-could-not-be-converted-to-%s`
       * :ref:`return-value-of-%s%s%s()-must-%s%s%s,-%s%s-returned`
@@ -2694,6 +2701,7 @@ Features index
       * :ref:`cannot-use--"%s-"-as-%s-as-it-is-reserved`
       * :ref:`default-value-for-parameters-with-a-%s-type-can-only-be-%s-or-null`
       * :ref:`duplicate-type-%s-is-redundant`
+      * :ref:`implicit-conversion-from-float-%.*h-to-int-loses-precision`
       * :ref:`is-an-invalid-class-name`
       * :ref:`must-be-a-valid-comparison-operator`
       * :ref:`must-be-between-1-and-7`
