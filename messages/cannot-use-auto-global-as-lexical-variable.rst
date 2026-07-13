@@ -21,7 +21,7 @@ Cannot use auto-global as lexical variable
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-auto-global-as-lexical-variable.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-auto-global-as-lexical-variable.html","name":"Cannot use auto-global as lexical variable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:46 +0000","dateModified":"Tue, 31 Mar 2026 09:10:46 +0000","description":"A lexical variable is the variables used in the ``use`` part of a closure definition","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-use-auto-global-as-lexical-variable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-auto-global-as-lexical-variable.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-auto-global-as-lexical-variable.html","name":"Cannot use auto-global as lexical variable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 08:33:27 +0000","dateModified":"Mon, 13 Jul 2026 08:33:27 +0000","description":"A lexical variable is the variables used in the ``use`` part of a closure definition","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-use-auto-global-as-lexical-variable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -35,9 +35,7 @@ _______
 
    <?php
    
-   function () use ($_POST) {
-       
-   };
+       function () use ($_POST) { };
    
    ?>
 
@@ -52,6 +50,8 @@ ______________________
 
 + :ref:`cannot-re-assign-$this`
 + :ref:`cannot-re-assign-auto-global-variable-%s`
++ :ref:`cannot-use-$this-as-global-variable`
++ :ref:`cannot-use-$this-as-lexical-variable`
 
 Changed Behavior
 ________________

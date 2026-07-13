@@ -172,6 +172,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/a-void-%25s-must-not-return-a-value.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/abstract-property-%25s%3A%3A%24%25s-must-specify-at-least-one-abstract-hook.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/abstract-property-hook-cannot-have-body.html</loc>
  </url>
  <url>
@@ -454,6 +457,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-combine-named-arguments-and-argument-unpacking.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-create-closure-as-attribute-argument.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-create-closure-for-new-expression.html</loc>
  </url>
  <url>
@@ -617,6 +623,15 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%22static%22-when-no-class-scope-is-active.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%24this-as-global-variable.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%24this-as-lexical-variable.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%24this-as-parameter.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%25s-as-%25s-because-%25s-is-a-special-class-name.html</loc>
@@ -2179,7 +2194,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/undefined-variable.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/unexpected-character-in-input%3A--%5C%27-%5C%27-%28ascii%3D92%29.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/unexpected-character-in-input%3A--%27-%27-%28ascii%3D92%29.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unhandled-match-case-%25s.html</loc>

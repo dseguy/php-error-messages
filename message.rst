@@ -62,6 +62,7 @@ PHP Error Messages
    messages/a-non-well-formed-numeric-value-encountered.rst
    messages/a-precedence-rule-was-defined-for-%s::%s-but-this-method-does-not-exist.rst
    messages/a-void-%s-must-not-return-a-value.rst
+   messages/abstract-property-%s::$%s-must-specify-at-least-one-abstract-hook.rst
    messages/abstract-property-hook-cannot-have-body.rst
    messages/access-level-to-%s::%s-must-be-%s-(as-in-%s-%s)%s.rst
    messages/access-to-undeclared-static-property-%s::$%s.rst
@@ -156,6 +157,7 @@ PHP Error Messages
    messages/cannot-bind-method-%s::%s()-to-object-of-class-%s.rst
    messages/cannot-call-constructor.rst
    messages/cannot-combine-named-arguments-and-argument-unpacking.rst
+   messages/cannot-create-closure-as-attribute-argument.rst
    messages/cannot-create-closure-for-new-expression.rst
    messages/cannot-create-dynamic-property-%s::$%s.rst
    messages/cannot-create-reference-to-property-%s::$%s.rst
@@ -211,6 +213,9 @@ PHP Error Messages
    messages/cannot-use-"parent"-when-current-class-scope-has-no-parent.rst
    messages/cannot-use-"parent"-when-no-class-scope-is-active.rst
    messages/cannot-use-"static"-when-no-class-scope-is-active.rst
+   messages/cannot-use-$this-as-global-variable.rst
+   messages/cannot-use-$this-as-lexical-variable.rst
+   messages/cannot-use-$this-as-parameter.rst
    messages/cannot-use-%s-as-%s-because-%s-is-a-special-class-name.rst
    messages/cannot-use-%s-as-%s-because-'%s'-is-a-special-class-name.rst
    messages/cannot-use-%s-as-array.rst
@@ -731,7 +736,7 @@ PHP Error Messages
    messages/undefined-property-%s::$%s.rst
    messages/undefined-variable-$%s.rst
    messages/undefined-variable.rst
-   messages/unexpected-character-in-input:--\'-\'-(ascii=92).rst
+   messages/unexpected-character-in-input:--'-'-(ascii=92).rst
    messages/unhandled-match-case-%s.rst
    messages/uninitialized-string-offset.rst
    messages/unknown-filter-with-id.rst

@@ -21,7 +21,7 @@ Using $this when not in object context
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/using-$this-when-not-in-object-context.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/using-$this-when-not-in-object-context.html","name":"Using $this when not in object context","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:47 +0000","dateModified":"Tue, 31 Mar 2026 09:10:47 +0000","description":"A static method is also called a class method: it may be executed without a dedicated object","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/using-$this-when-not-in-object-context.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/using-$this-when-not-in-object-context.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/using-$this-when-not-in-object-context.html","name":"Using $this when not in object context","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 08:32:38 +0000","dateModified":"Mon, 13 Jul 2026 08:32:38 +0000","description":"A static method is also called a class method: it may be executed without a dedicated object","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/using-$this-when-not-in-object-context.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -56,3 +56,9 @@ _________
 + Keep the method static, and remove calls to $this.
 + Make the closure non-static.
 + Make the arrow function non-static.
+
+Related Error Messages
+______________________
+
++ :ref:`cannot-use-$this-as-lexical-variable`
++ :ref:`cannot-use-$this-as-global-variable`

@@ -20,6 +20,8 @@ Features index
 
       * :ref:`cannot-re-assign-\$this`
       * :ref:`cannot-unset-\$this`
+      * :ref:`cannot-use-\$this-as-global-variable`
+      * :ref:`cannot-use-\$this-as-lexical-variable`
       * :ref:`closures-in-constant-expressions-must-be-static`
       * :ref:`using-\$this-when-not-in-object-context`
 
@@ -91,6 +93,7 @@ Features index
    * abstract
 
       * :ref:`%s-function-%s::%s()-cannot-be-declared-private`
+      * :ref:`abstract-property-%s::\$%s-must-specify-at-least-one-abstract-hook`
       * :ref:`abstract-property-hook-cannot-have-body`
       * :ref:`anonymous-class-method-%s()-must-not-be-abstract`
       * :ref:`can\'t-inherit-abstract-function-%s::%s()-(previously-declared-abstract-in-%s)`
@@ -321,6 +324,7 @@ Features index
       * :ref:`%s::%s()-has-#[-override]-attribute,-but-no-matching-parent-method-exists`
       * :ref:`attribute-"%s"-cannot-target-%s-(allowed-targets:-%s)`
       * :ref:`cannot-apply-attributes-to-multiple-constants-at-once`
+      * :ref:`cannot-create-closure-as-attribute-argument`
       * :ref:`has-#[-override]-attribute,-but-no-matching-parent-method-exists`
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function"-or-"const"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"]"`
@@ -626,9 +630,11 @@ Features index
       * :ref:`cannot-bind-an-instance-to-a-static-closure,-this-will-be-an-error-in-php-9`
       * :ref:`cannot-bind-an-instance-to-a-static-closure`
       * :ref:`cannot-bind-method-%s::%s()-to-object-of-class-%s`
+      * :ref:`cannot-create-closure-as-attribute-argument`
       * :ref:`cannot-create-closure-for-new-expression`
       * :ref:`cannot-rebind-scope-of-closure-created-from-method`
       * :ref:`cannot-use(...)-variables-in-constant-expression`
+      * :ref:`cannot-use-\$this-as-lexical-variable`
       * :ref:`cannot-use-variable-\$%s-twice`
       * :ref:`closures-in-constant-expressions-must-be-static`
       * :ref:`current-function-is-not-a-closure`
@@ -994,6 +1000,7 @@ Features index
       * :ref:`passing-the-encoding-as-third-parameter-is-deprecated.-use-an-explicit-zero-offset`
       * :ref:`syntax-error,-unexpected-token-"=",-expecting-identifier`
       * :ref:`the-connection-has-no-charset-associated`
+      * :ref:`unexpected-character-in-input:--\'-\'-(ascii=92)`
       * :ref:`unsupported-declare-\'%s\'`
       * :ref:`wrong-encoding,-conversion-from-"%s"-to-"%s"-is-not-allowed`
 
@@ -1185,6 +1192,7 @@ Features index
    * first-class-callable
 
       * :ref:`array-callback-has-to-contain-indices-0-and-1`
+      * :ref:`cannot-create-closure-as-attribute-argument`
       * :ref:`cannot-create-closure-for-new-expression`
       * :ref:`instantiation-of-class-closure-is-not-allowed`
 
@@ -1259,6 +1267,7 @@ Features index
 
    * global
 
+      * :ref:`cannot-use-\$this-as-global-variable`
       * :ref:`syntax-error,-unexpected-token-"->",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-token-"::",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-token-"?->",-expecting-","-or-";"`
@@ -1515,6 +1524,7 @@ Features index
 
    * lexical
 
+      * :ref:`cannot-use-\$this-as-lexical-variable`
       * :ref:`cannot-use-auto-global-as-lexical-variable`
       * :ref:`cannot-use-lexical-variable-%s-as-a-parameter-name`
       * :ref:`named-parameter-\$%s-overwrites-previous-argument`
@@ -1887,6 +1897,11 @@ Features index
       * :ref:`uninitialized-string-offset`
 
 
+   * oop
+
+      * :ref:`cannot-use-\$this-as-parameter`
+
+
    * open-tag
 
       * :ref:`cannot-modify-header-information---headers-already-sent`
@@ -1914,7 +1929,7 @@ Features index
       * :ref:`required-parameter-\$%s-follows-optional-parameter-\$%s`
 
 
-   * output_buffering
+   * output-buffering
 
       * :ref:`cannot-modify-header-information---headers-already-sent`
 
@@ -2118,6 +2133,7 @@ Features index
    * property-hook
 
       * :ref:`%s%s%s():-return-value-must-be-of-type-%s,-%s-returned`
+      * :ref:`abstract-property-%s::\$%s-must-specify-at-least-one-abstract-hook`
       * :ref:`abstract-property-hook-cannot-have-body`
       * :ref:`cannot-create-reference-to-property-%s::\$%s`
       * :ref:`cannot-declare-hooks-for-static-property`

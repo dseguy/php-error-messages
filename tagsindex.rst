@@ -34,6 +34,7 @@ Tag index
    * attribute
 
       * :ref:`cannot-apply-attributes-to-multiple-constants-at-once`
+      * :ref:`cannot-create-closure-as-attribute-argument`
 
 
    * bug
@@ -75,6 +76,11 @@ Tag index
    * classic
 
       * :ref:`cannot-modify-header-information---headers-already-sent`
+
+
+   * closure
+
+      * :ref:`cannot-create-closure-as-attribute-argument`
 
 
    * collision
