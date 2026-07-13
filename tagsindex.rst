@@ -14,6 +14,11 @@ Tag index
       * :ref:`non-abstract-method-%s::%s()-must-contain-body`
 
 
+   * algorithm
+
+      * :ref:`unknown-digest-algorithm:-%s`
+
+
    * argument
 
       * :ref:`%s():-argument-#%d%s%s%s-cannot-be-passed-by-reference`
@@ -81,6 +86,12 @@ Tag index
    * closure
 
       * :ref:`cannot-create-closure-as-attribute-argument`
+      * :ref:`cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9`
+
+
+   * coercion
+
+      * :ref:`unexpected-nan-value-was-coerced-to-%s`
 
 
    * collision
@@ -113,6 +124,11 @@ Tag index
       * :ref:`duplicate-parameter-name-$%s-for-function-%s%s%s()`
 
 
+   * debugging
+
+      * :ref:`returning-null-from-%s::__debuginfo()-is-deprecated,-return-an-empty-array-instead`
+
+
    * deprecated
 
       * :ref:`function-libxml_disable_entity_loader()-is-deprecated-since-8.0,-as-external-entity-loading-is-disabled-by-default`
@@ -121,10 +137,22 @@ Tag index
 
    * deprecation
 
+      * :ref:`cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9`
       * :ref:`constant-%s-is-deprecated`
       * :ref:`constant-%s::%s-is-deprecated`
       * :ref:`function-%s()-is-deprecated%s`
+      * :ref:`returning-null-from-%s::__debuginfo()-is-deprecated,-return-an-empty-array-instead`
       * :ref:`using-array_key_exists()-on-objects-is-deprecated.`
+
+
+   * destructor
+
+      * :ref:`call-to-%s-%s::__destruct()-from-global-scope-during-shutdown-ignored`
+
+
+   * digest
+
+      * :ref:`unknown-digest-algorithm:-%s`
 
 
    * directive
@@ -207,6 +235,11 @@ Tag index
       * :ref:`cannot-declare-self-referencing-constant`
 
 
+   * garbage-collection
+
+      * :ref:`call-to-%s-%s::__destruct()-from-global-scope-during-shutdown-ignored`
+
+
    * gem
 
       * :ref:`increment-on-non-alphanumeric-string-is-deprecated`
@@ -220,6 +253,11 @@ Tag index
    * goto
 
       * :ref:`\'goto\'-into-loop-or-switch-statement-is-disallowed`
+
+
+   * hash
+
+      * :ref:`unknown-digest-algorithm:-%s`
 
 
    * implicit
@@ -283,6 +321,11 @@ Tag index
       * :ref:`syntax-error,-unexpected-token-"%s",-expecting-identifier`
 
 
+   * magic-method
+
+      * :ref:`returning-null-from-%s::__debuginfo()-is-deprecated,-return-an-empty-array-instead`
+
+
    * mbstring
 
       * :ref:`is-not-a-valid-codepoint`
@@ -305,6 +348,11 @@ Tag index
    * namespace
 
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function"`
+
+
+   * nan
+
+      * :ref:`unexpected-nan-value-was-coerced-to-%s`
 
 
    * no-closing-tag
@@ -442,9 +490,19 @@ Tag index
       * :ref:`%s():-never-returning-function-must-not-implicitly-return`
 
 
+   * scope
+
+      * :ref:`cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9`
+
+
    * security
 
       * :ref:`maximum-depth-of-%d-exceeded.-the-depth-limit-can-be-changed-using-the-max_depth-unserialize()-option`
+
+
+   * shutdown
+
+      * :ref:`call-to-%s-%s::__destruct()-from-global-scope-during-shutdown-ignored`
 
 
    * silent-cast
@@ -481,7 +539,7 @@ Tag index
    * surprising
 
       * :ref:`cannot-use-temporary-expression-in-write-context`
-      * :ref:`case-statements-followed-by-a-semicolon-(;)-are-deprecated,-use-a-colon-(:)`
+      * :ref:`case-statements-followed-by-a-semicolon-(;)-are-deprecated,-use-a-colon-(:)-instead`
 
 
    * syntax-error
@@ -634,6 +692,11 @@ Tag index
       * :ref:`parameter-must-be-an-array-or-an-object-that-implements-countable`
       * :ref:`property-%s::$%s-cannot-have-type-%s`
       * :ref:`type-mixed-can-only-be-used-as-a-standalone-type`
+
+
+   * type-juggling
+
+      * :ref:`unexpected-nan-value-was-coerced-to-%s`
 
 
    * typo

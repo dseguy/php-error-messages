@@ -104,7 +104,7 @@ foreach($files as $file) {
 
     $keys = array_keys($error);
     if ($diff = array_diff($keys, BASE_KEYS)) {
-        buildlog( count($diff). " keys are unknown in $file: ".implode(', ', $diff));
+        die( count($diff). " keys are unknown in $file: ".implode(', ', $diff));
 		++$warnings;
     }
 

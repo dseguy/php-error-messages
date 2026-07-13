@@ -21,7 +21,7 @@ Abstract property %s::$%s must specify at least one abstract hook
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/abstract-property-%s::$%s-must-specify-at-least-one-abstract-hook.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/abstract-property-%s::$%s-must-specify-at-least-one-abstract-hook.html","name":"Abstract property %s::$%s must specify at least one abstract hook","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 12 Jul 2026 20:15:18 +0000","dateModified":"Sun, 12 Jul 2026 20:15:18 +0000","description":"An abstract property must have at least one of its hooks declared without a body (abstract)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/abstract-property-%s::$%s-must-specify-at-least-one-abstract-hook.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/abstract-property-%s::$%s-must-specify-at-least-one-abstract-hook.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/abstract-property-%s::$%s-must-specify-at-least-one-abstract-hook.html","name":"Abstract property %s::$%s must specify at least one abstract hook","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 17:36:29 +0000","dateModified":"Mon, 13 Jul 2026 17:36:29 +0000","description":"An abstract property must have at least one of its hooks declared without a body (abstract)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/abstract-property-%s::$%s-must-specify-at-least-one-abstract-hook.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -68,8 +68,3 @@ Changed Behavior
 ________________
 
 This error may appear following an evolution in behavior, in previous versions. See ` <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`_.
-
-Static Analysis
-_______________
-
-This error may be tracked down with the following static analysis rules: `property.abstractWithoutAbstractHook <https://exakat.readthedocs.io/en/latest/Reference/Rules/property.abstractWithoutAbstractHook.html>`_.

@@ -21,7 +21,7 @@ must be a finite value
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/must-be-a-finite-value.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/must-be-a-finite-value.html","name":"must be a finite value","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:46 +0000","dateModified":"Tue, 31 Mar 2026 09:10:46 +0000","description":"This error is raised when a parameter was provided with an infinite value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/must-be-a-finite-value.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/must-be-a-finite-value.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/must-be-a-finite-value.html","name":"must be a finite value","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 17:42:58 +0000","dateModified":"Mon, 13 Jul 2026 17:42:58 +0000","description":"This error is raised when a parameter was provided with an infinite value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/must-be-a-finite-value.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -47,3 +47,8 @@ Solutions
 _________
 
 + Use a very large, but finite float value, such as ``PHP_FLOAT_MAX``, which will be valid until the end of the universe, even in nanoseconds.
+
+Related Error Messages
+______________________
+
++ :ref:`unexpected-nan-value-was-coerced-to-%s`

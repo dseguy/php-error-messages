@@ -46,6 +46,11 @@ Features index
       * :ref:`method-%s::%s()-must-be-static`
 
 
+   * __debuginfo
+
+      * :ref:`returning-null-from-%s::__debuginfo()-is-deprecated,-return-an-empty-array-instead`
+
+
    * __invoke
 
       * :ref:`object-of-type-%s-is-not-callable`
@@ -390,6 +395,11 @@ Features index
       * :ref:`invalid-numeric-literal`
 
 
+   * binding
+
+      * :ref:`cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9`
+
+
    * bitfield
 
       * :ref:`cannot-use-both-filter_null_on_failure-and-filter_throw_on_failure`
@@ -487,7 +497,7 @@ Features index
 
       * :ref:`case-%s::%s-does-not-exist`
       * :ref:`case-can-only-be-used-in-enums`
-      * :ref:`case-statements-followed-by-a-semicolon-(;)-are-deprecated,-use-a-colon-(:)`
+      * :ref:`case-statements-followed-by-a-semicolon-(;)-are-deprecated,-use-a-colon-(:)-instead`
       * :ref:`duplicate-value-in-enum-%s-for-cases-%s-and-%s`
 
 
@@ -632,6 +642,7 @@ Features index
       * :ref:`cannot-bind-method-%s::%s()-to-object-of-class-%s`
       * :ref:`cannot-create-closure-as-attribute-argument`
       * :ref:`cannot-create-closure-for-new-expression`
+      * :ref:`cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9`
       * :ref:`cannot-rebind-scope-of-closure-created-from-method`
       * :ref:`cannot-use(...)-variables-in-constant-expression`
       * :ref:`cannot-use-\$this-as-lexical-variable`
@@ -672,9 +683,14 @@ Features index
       * :ref:`is-not-a-valid-codepoint`
 
 
+   * coercion
+
+      * :ref:`unexpected-nan-value-was-coerced-to-%s`
+
+
    * colon
 
-      * :ref:`case-statements-followed-by-a-semicolon-(;)-are-deprecated,-use-a-colon-(:)`
+      * :ref:`case-statements-followed-by-a-semicolon-(;)-are-deprecated,-use-a-colon-(:)-instead`
 
 
    * comma
@@ -914,6 +930,7 @@ Features index
 
    * destructor
 
+      * :ref:`call-to-%s-%s::__destruct()-from-global-scope-during-shutdown-ignored`
       * :ref:`destructors-cannot-declare-a-return-type`
       * :ref:`object-not-initialized`
 
@@ -1201,6 +1218,7 @@ Features index
 
       * :ref:`implicit-conversion-from-float-string-"%s"-to-int-loses`
       * :ref:`requested-precision-of-%d-digits-was-truncated-to-php-maximum-of-%d-digits`
+      * :ref:`unexpected-nan-value-was-coerced-to-%s`
 
 
    * foreach
@@ -1290,6 +1308,12 @@ Features index
    * hash
 
       * :ref:`must-be-a-list-array`
+      * :ref:`unknown-digest-algorithm:-%s`
+
+
+   * hashing
+
+      * :ref:`unknown-digest-algorithm:-%s`
 
 
    * heredoc
@@ -1393,7 +1417,8 @@ Features index
       * :ref:`cannot-inherit-previously-inherited-or-override-constant-%s-from-interface-%s`
       * :ref:`cannot-make-non-abstract-method-%s::%s()-abstract-in-class-%s`
       * :ref:`cannot-redefine-class-constant`
-      * :ref:`readonly-class-bar-cannot-extend-non-readonly-class-foo`
+      * :ref:`non-readonly-class-%s-cannot-extend-readonly-class-%s`
+      * :ref:`readonly-class-%s-cannot-extend-non-readonly-class-%s`
 
 
    * initialisation
@@ -1588,6 +1613,7 @@ Features index
       * :ref:`method-%s::%s()-must-take-exactly-2-arguments`
       * :ref:`property-cannot-be-both-final-and-private`
       * :ref:`property-hook-cannot-be-both-final-and-private`
+      * :ref:`returning-null-from-%s::__debuginfo()-is-deprecated,-return-an-empty-array-instead`
       * :ref:`the-magic-method-%s::%s()-must-have-public-visibility`
 
 
@@ -1625,6 +1651,11 @@ Features index
       * :ref:`must-be-a-valid-encoding,-"%s"-given`
       * :ref:`must-be-contained-in-argument-#1-(\$haystack)`
       * :ref:`offset-not-contained-in-string.`
+
+
+   * message-digest
+
+      * :ref:`unknown-digest-algorithm:-%s`
 
 
    * method
@@ -1755,6 +1786,7 @@ Features index
    * nan
 
       * :ref:`must-be-a-finite-value`
+      * :ref:`unexpected-nan-value-was-coerced-to-%s`
 
 
    * native
@@ -1873,6 +1905,11 @@ Features index
       * :ref:`cannot-use-object-of-type-stdclass-as-array`
       * :ref:`object-of-type-%s-is-not-callable`
       * :ref:`using-an-object-as-a-backing-array-for-%s-is-deprecated,-as-it-allows-violating-class-constraints-and-invariants`
+
+
+   * object-lifecycle
+
+      * :ref:`call-to-%s-%s::__destruct()-from-global-scope-during-shutdown-ignored`
 
 
    * object-syntax
@@ -2202,8 +2239,9 @@ Features index
       * :ref:`cannot-use-\'readonly\'-as-method-modifier`
       * :ref:`hooked-properties-cannot-be-readonly`
       * :ref:`multiple-readonly-modifiers-are-not-allowed`
+      * :ref:`non-readonly-class-%s-cannot-extend-readonly-class-%s`
+      * :ref:`readonly-class-%s-cannot-extend-non-readonly-class-%s`
       * :ref:`readonly-class-%s-cannot-use-trait-with-a-non-readonly-property-%s::\$%s`
-      * :ref:`readonly-class-bar-cannot-extend-non-readonly-class-foo`
       * :ref:`readonly-property-%s::\$%s-cannot-have-default-value`
       * :ref:`readonly-property-%s::\$%s-must-have-type`
       * :ref:`static-property-%s::\$%s-cannot-be-readonly`
@@ -2340,6 +2378,7 @@ Features index
       * :ref:`cannot-bind-an-instance-to-a-static-closure,-this-will-be-an-error-in-php-9`
       * :ref:`cannot-bind-an-instance-to-a-static-closure`
       * :ref:`cannot-modify-readonly-property-%s::\$%s`
+      * :ref:`cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9`
       * :ref:`use-of-"parent"-in-callables-is-deprecated`
       * :ref:`use-of-"self"-in-callables-is-deprecated`
       * :ref:`use-of-"static"-in-callables-is-deprecated`
@@ -2366,7 +2405,7 @@ Features index
 
    * semicolon
 
-      * :ref:`case-statements-followed-by-a-semicolon-(;)-are-deprecated,-use-a-colon-(:)`
+      * :ref:`case-statements-followed-by-a-semicolon-(;)-are-deprecated,-use-a-colon-(:)-instead`
       * :ref:`syntax-error,-unexpected-end-of-file`
       * :ref:`syntax-error,-unexpected-token-",",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-")"`
@@ -2413,6 +2452,11 @@ Features index
    * short-tag
 
       * :ref:`unclosed-\'{\'`
+
+
+   * shutdown
+
+      * :ref:`call-to-%s-%s::__destruct()-from-global-scope-during-shutdown-ignored`
 
 
    * signature
@@ -2604,7 +2648,7 @@ Features index
    * switch
 
       * :ref:`\'%s\'-not-in-the-\'loop\'-or-\'switch\'-context`
-      * :ref:`case-statements-followed-by-a-semicolon-(;)-are-deprecated,-use-a-colon-(:)`
+      * :ref:`case-statements-followed-by-a-semicolon-(;)-are-deprecated,-use-a-colon-(:)-instead`
       * :ref:`switch-statements-may-only-contain-one-default-clause`
       * :ref:`syntax-error,-unexpected-\',\'`
       * :ref:`syntax-error,-unexpected-token-"break"`
@@ -2859,6 +2903,11 @@ Features index
 
       * :ref:`must-be-one-of-pgsql_assoc,-pgsql_num,-or-pgsql_both`
       * :ref:`must-be-one-of-pgsql_notice_last,-pgsql_notice_all,-or-pgsql_notice_clear`
+
+
+   * var_dump
+
+      * :ref:`returning-null-from-%s::__debuginfo()-is-deprecated,-return-an-empty-array-instead`
 
 
    * variable

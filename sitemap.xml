@@ -304,6 +304,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/call-to-%25s-%25s%3A%3A%25s%28%29-from-invalid.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/call-to-%25s-%25s%3A%3A__destruct%28%29-from-global-scope-during-shutdown-ignored.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/call-to-%25s-method-%25s%3A%3A%25s%28%29-from-%25s%25s.html</loc>
  </url>
  <url>
@@ -548,6 +551,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-re-assign-auto-global-variable-%25s.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-rebind-scope-of-closure-created-from-method%2C-this-will-be-an-error-in-php-9.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-rebind-scope-of-closure-created-from-method.html</loc>
@@ -802,7 +808,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/case-can-only-be-used-in-enums.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/case-statements-followed-by-a-semicolon-%28%3B%29-are-deprecated%2C-use-a-colon-%28%3A%29.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/case-statements-followed-by-a-semicolon-%28%3B%29-are-deprecated%2C-use-a-colon-%28%3A%29-instead.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/charset-%22%25s%22-is-not-supported%2C-assuming-utf-8.html</loc>
@@ -1408,6 +1414,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/non-enum-class-%25s-cannot-implement-interface-%25s.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/non-readonly-class-%25s-cannot-extend-readonly-class-%25s.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/non-static-method-%25s%3A%3A%25s%28%29-cannot-be-called-statically.html</loc>
  </url>
  <url>
@@ -1579,10 +1588,10 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/providing-individual-callbacks-instead-of-an-object-implementing-sessionhandlerinterface-is-deprecated.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/readonly-class-%25s-cannot-use-trait-with-a-non-readonly-property-%25s%3A%3A%24%25s.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/readonly-class-%25s-cannot-extend-non-readonly-class-%25s.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/readonly-class-bar-cannot-extend-non-readonly-class-foo.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/readonly-class-%25s-cannot-use-trait-with-a-non-readonly-property-%25s%3A%3A%24%25s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/readonly-property-%25s%3A%3A%24%25s-cannot-have-default-value.html</loc>
@@ -1619,6 +1628,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/returning-by-reference-from-a-void-function-is-deprecated.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/returning-null-from-%25s%3A%3A__debuginfo%28%29-is-deprecated%2C-return-an-empty-array-instead.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/security-level-must-be-one-of-%22noauthnopriv%22%2C-%22authnopriv%22%2C-or-%22authpriv.html</loc>
@@ -2197,10 +2209,16 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unexpected-character-in-input%3A--%27-%27-%28ascii%3D92%29.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/unexpected-nan-value-was-coerced-to-%25s.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unhandled-match-case-%25s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/uninitialized-string-offset.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/unknown-digest-algorithm%3A-%25s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unknown-filter-with-id.html</loc>

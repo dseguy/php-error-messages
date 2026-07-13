@@ -106,6 +106,7 @@ PHP Error Messages
    messages/break-operator-accepts-only-positive-integers.rst
    messages/call-to-%s-%s::%s()-from-global-scope.rst
    messages/call-to-%s-%s::%s()-from-invalid.rst
+   messages/call-to-%s-%s::__destruct()-from-global-scope-during-shutdown-ignored.rst
    messages/call-to-%s-method-%s::%s()-from-%s%s.rst
    messages/call-to-a-member-function-%s()-on-%s.rst
    messages/call-to-undefined-function-%s().rst
@@ -188,6 +189,7 @@ PHP Error Messages
    messages/cannot-perform-bitwise-not-on-%s.rst
    messages/cannot-re-assign-$this.rst
    messages/cannot-re-assign-auto-global-variable-%s.rst
+   messages/cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9.rst
    messages/cannot-rebind-scope-of-closure-created-from-method.rst
    messages/cannot-redeclare-%s()-(previously-declared-in-%s:%d).rst
    messages/cannot-redeclare-%s-property-%s::$%s-as-%s-%s::$%s.rst
@@ -272,7 +274,7 @@ PHP Error Messages
    messages/case-%s-of-backed-enum-%s-must-have-a-value.rst
    messages/case-%s::%s-does-not-exist.rst
    messages/case-can-only-be-used-in-enums.rst
-   messages/case-statements-followed-by-a-semicolon-(;)-are-deprecated,-use-a-colon-(:).rst
+   messages/case-statements-followed-by-a-semicolon-(;)-are-deprecated,-use-a-colon-(:)-instead.rst
    messages/charset-"%s"-is-not-supported,-assuming-utf-8.rst
    messages/class-"%s"-not-found.rst
    messages/class-%s-cannot-extend-%s-%s.rst
@@ -474,6 +476,7 @@ PHP Error Messages
    messages/non-canonical-cast-(double)-is-deprecated,-use-the-(float)-cast-instead.rst
    messages/non-canonical-cast-(integer)-is-deprecated,-use-the-(int)-cast-instead.rst
    messages/non-enum-class-%s-cannot-implement-interface-%s.rst
+   messages/non-readonly-class-%s-cannot-extend-readonly-class-%s.rst
    messages/non-static-method-%s::%s()-cannot-be-called-statically.rst
    messages/non-static-method-%s::%s()-should-not-be-called-statically.rst
    messages/non-string-needles-will-be-interpreted-as-strings-in-the-future.-use-an-explicit-chr()-call-to-preserve-the-current-behavior.rst
@@ -531,8 +534,8 @@ PHP Error Messages
    messages/providing-a-string-that-is-not-one-byte-long-is-deprecated.-use-ord($str[0])-instead.rst
    messages/providing-an-empty-string-is-deprecated.rst
    messages/providing-individual-callbacks-instead-of-an-object-implementing-sessionhandlerinterface-is-deprecated.rst
+   messages/readonly-class-%s-cannot-extend-non-readonly-class-%s.rst
    messages/readonly-class-%s-cannot-use-trait-with-a-non-readonly-property-%s::$%s.rst
-   messages/readonly-class-bar-cannot-extend-non-readonly-class-foo.rst
    messages/readonly-property-%s::$%s-cannot-have-default-value.rst
    messages/readonly-property-%s::$%s-must-have-type.rst
    messages/recursion-detected.rst
@@ -545,6 +548,7 @@ PHP Error Messages
    messages/returning-bool-from-comparison-function-is-deprecated,-return-an-integer-less-than,-equal-to,-or-greater-than-zero.rst
    messages/returning-bool-from-comparison-function-is-deprecated.rst
    messages/returning-by-reference-from-a-void-function-is-deprecated.rst
+   messages/returning-null-from-%s::__debuginfo()-is-deprecated,-return-an-empty-array-instead.rst
    messages/security-level-must-be-one-of-"noauthnopriv",-"authnopriv",-or-"authpriv.rst
    messages/security-protocol-must-be-one-of-"aes128",-or-"aes-e_error.rst
    messages/security-protocol-must-be-one-of-"des",-"aes128",-or-"aes-e_error.rst
@@ -737,8 +741,10 @@ PHP Error Messages
    messages/undefined-variable-$%s.rst
    messages/undefined-variable.rst
    messages/unexpected-character-in-input:--'-'-(ascii=92).rst
+   messages/unexpected-nan-value-was-coerced-to-%s.rst
    messages/unhandled-match-case-%s.rst
    messages/uninitialized-string-offset.rst
+   messages/unknown-digest-algorithm:-%s.rst
    messages/unknown-filter-with-id.rst
    messages/unknown-format-specifier-"%c.rst
    messages/unknown-hook-"%s"-for-property-%s::$%s,-expected-"get"-or-"set".rst
