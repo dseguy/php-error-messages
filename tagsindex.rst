@@ -85,8 +85,12 @@ Tag index
 
    * closure
 
+      * :ref:`cannot-bind-method-%s::%s()-to-object-of-class-%s,-this-will-be-an-error-in-php-9`
       * :ref:`cannot-create-closure-as-attribute-argument`
+      * :ref:`cannot-rebind-scope-of-closure-created-from-function,-this-will-be-an-error-in-php-9`
       * :ref:`cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9`
+      * :ref:`cannot-unbind-$this-of-closure-using-$this,-this-will-be-an-error-in-php-9`
+      * :ref:`cannot-unbind-$this-of-method,-this-will-be-an-error-in-php-9`
 
 
    * coercion
@@ -137,10 +141,16 @@ Tag index
 
    * deprecation
 
+      * :ref:`cannot-bind-method-%s::%s()-to-object-of-class-%s,-this-will-be-an-error-in-php-9`
+      * :ref:`cannot-rebind-scope-of-closure-created-from-function,-this-will-be-an-error-in-php-9`
       * :ref:`cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9`
+      * :ref:`cannot-unbind-$this-of-closure-using-$this,-this-will-be-an-error-in-php-9`
+      * :ref:`cannot-unbind-$this-of-method,-this-will-be-an-error-in-php-9`
       * :ref:`constant-%s-is-deprecated`
       * :ref:`constant-%s::%s-is-deprecated`
       * :ref:`function-%s()-is-deprecated%s`
+      * :ref:`reflectionclass::getconstant()-for-a-non-existent-constant-is-deprecated,`
+      * :ref:`reflectionproperty::getdefaultvalue()-for-a-property-without-a-default-value-is-deprecated,`
       * :ref:`returning-null-from-%s::__debuginfo()-is-deprecated,-return-an-empty-array-instead`
       * :ref:`using-array_key_exists()-on-objects-is-deprecated.`
 
@@ -458,6 +468,12 @@ Tag index
       * :ref:`cannot-acquire-reference-to-readonly-property-%s::$%s`
 
 
+   * reflection
+
+      * :ref:`reflectionclass::getconstant()-for-a-non-existent-constant-is-deprecated,`
+      * :ref:`reflectionproperty::getdefaultvalue()-for-a-property-without-a-default-value-is-deprecated,`
+
+
    * relative-types
 
       * :ref:`\'-%s\'-is-an-invalid-class-name`
@@ -492,7 +508,11 @@ Tag index
 
    * scope
 
+      * :ref:`cannot-bind-method-%s::%s()-to-object-of-class-%s,-this-will-be-an-error-in-php-9`
+      * :ref:`cannot-rebind-scope-of-closure-created-from-function,-this-will-be-an-error-in-php-9`
       * :ref:`cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9`
+      * :ref:`cannot-unbind-$this-of-closure-using-$this,-this-will-be-an-error-in-php-9`
+      * :ref:`cannot-unbind-$this-of-method,-this-will-be-an-error-in-php-9`
 
 
    * security
@@ -565,8 +585,10 @@ Tag index
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function"`
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s"`
+      * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"("`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-")"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";"`
+      * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-";"-or-"{"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"function"-or-"const"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"function"`
@@ -579,6 +601,7 @@ Tag index
       * :ref:`syntax-error,-unexpected-namespaced-name-"%s",-expecting-"function"`
       * :ref:`syntax-error,-unexpected-single-quoted-string-"%s",-expecting-")"`
       * :ref:`syntax-error,-unexpected-string-content`
+      * :ref:`syntax-error,-unexpected-token-"#[",-expecting-")"`
       * :ref:`syntax-error,-unexpected-token-"#[",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-token-"#[",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-token-"%"`
@@ -592,6 +615,7 @@ Tag index
       * :ref:`syntax-error,-unexpected-token-"(int)"`
       * :ref:`syntax-error,-unexpected-token-")",-expecting-"="`
       * :ref:`syntax-error,-unexpected-token-")",-expecting-"function"-or-"fn"-or-"static"-or-"#["`
+      * :ref:`syntax-error,-unexpected-token-")",-expecting-variable`
       * :ref:`syntax-error,-unexpected-token-")"`
       * :ref:`syntax-error,-unexpected-token-"*"`
       * :ref:`syntax-error,-unexpected-token-",",-expecting-")"`
@@ -607,6 +631,7 @@ Tag index
       * :ref:`syntax-error,-unexpected-token-":"`
       * :ref:`syntax-error,-unexpected-token-"::",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-token-"::",-expecting-":"`
+      * :ref:`syntax-error,-unexpected-token-"::",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-token-"::"`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-"("`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-")"`
@@ -654,6 +679,7 @@ Tag index
       * :ref:`syntax-error,-unexpected-token-"private",-expecting-"="`
       * :ref:`syntax-error,-unexpected-token-"private",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"protected",-expecting-"{"`
+      * :ref:`syntax-error,-unexpected-token-"public",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-token-"public",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"public"`
       * :ref:`syntax-error,-unexpected-token-"use",-expecting-","-or-";"`
@@ -664,6 +690,9 @@ Tag index
       * :ref:`syntax-error,-unexpected-token-"{"`
       * :ref:`syntax-error,-unexpected-token-"}",-expecting-";"-or-"{"`
       * :ref:`syntax-error,-unexpected-token-"}"`
+      * :ref:`syntax-error,-unexpected-variable-"$%s",-expecting-")"`
+      * :ref:`syntax-error,-unexpected-variable-"$task",-expecting-")"`
+      * :ref:`syntax-error,-unexpected-variable-"$this",-expecting-";"-or-"{"`
       * :ref:`syntax-error,-unexpected-variable-"%s",-expecting-"("`
       * :ref:`unclosed-\'(\'`
       * :ref:`unclosed-\'[\'`

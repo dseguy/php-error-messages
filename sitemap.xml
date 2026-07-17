@@ -61,7 +61,13 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s-%25s-cannot-implement-previously-implemented-interface-%25s.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s-%25s-contains-%25d-abstract-method%25s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-method%25s-%28.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s-%25s-inherits-both-%25s%3A%3A%25s-and-%25s%3A%3A%25s.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s-%25s-must-implement-%25d-abstract-method%25s-%28.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s-%25s-must-implement-interface-%25s-as-part-of-either-%25s-or-%25s.html</loc>
@@ -82,7 +88,13 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s-is-not-supported-on-type-%25s.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s-method-%25s%3A%3A%25s%28%29-must-not-be-abstract.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s-virtual-property-%25s%3A%3A%24%25s-must-not-specify-asymmetric-visibility.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s%3A%3A%24%25s-has-%23%5B--override%5D-attribute.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s%3A%3A%25s%28%29-has-%23%5B-override%5D-attribute%2C-but-no-matching-parent-method-exists.html</loc>
@@ -167,6 +179,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/a-precedence-rule-was-defined-for-%25s%3A%3A%25s-but-this-method-does-not-exist.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/a-void-%25s-does-not-return-a-value.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/a-void-%25s-must-not-return-a-value.html</loc>
@@ -451,6 +466,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-bind-an-instance-to-a-static-closure.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-bind-method-%25s%3A%3A%25s%28%29-to-object-of-class-%25s%2C-this-will-be-an-error-in-php-9.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-bind-method-%25s%3A%3A%25s%28%29-to-object-of-class-%25s.html</loc>
  </url>
  <url>
@@ -553,6 +571,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-re-assign-auto-global-variable-%25s.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-rebind-scope-of-closure-created-from-function%2C-this-will-be-an-error-in-php-9.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-rebind-scope-of-closure-created-from-method%2C-this-will-be-an-error-in-php-9.html</loc>
  </url>
  <url>
@@ -587,6 +608,12 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-throw-objects-that-do-not-implement-throwable.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-unbind-%24this-of-closure-using-%24this%2C-this-will-be-an-error-in-php-9.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-unbind-%24this-of-method%2C-this-will-be-an-error-in-php-9.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-unpack-array-with-string-keys.html</loc>
@@ -716,6 +743,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-dynamic-function-name-in-constant-expression.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-dynamic-method-name-in-constant-expression.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-empty-array-elements-in-arrays.html</loc>
@@ -949,6 +979,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/delimiter-must-not-be-alphanumeric-or-backslash.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/deriving-%24_server%5B%27argv%27%5D-from-the-query-string-is-deprecated.-configure-register_argc_argv%3D0-to-turn-this-message-off.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/destructors-cannot-declare-a-return-type.html</loc>
  </url>
  <url>
@@ -1030,6 +1063,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/failed-to-open-stream%3A-too-many-open-files.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/failed-to-set-memory_limit-to-%25zd-bytes.-setting-to-max_memory_limit-instead-%28currently%3A.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/fetching-properties-on-non-enums-in-constant-expressions-is-not-allowed.html</loc>
  </url>
  <url>
@@ -1103,6 +1139,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/illegal-function-name.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/illegal-method-name.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/illegal-offset-type-in-isset-or-empty.html</loc>
@@ -1249,6 +1288,12 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/method-%25s%3A%3A%25s%28%29-must-take-exactly-2-arguments.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/method-%25s%3A%3A%25s-cannot-be-%23%5B--nodiscard%5D-error_type.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/method-%25s%3A%3A%25s-cannot-be-%23%5B--nodiscard%5D.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/method-%25s%3A%3A__construct%28%29-cannot-declare-a-return-type.html</loc>
  </url>
  <url>
@@ -1265,6 +1310,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/module-%22%25s%22-is-already-loaded.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/multiple-%25s-modifiers-are-not-allowed.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/multiple-access-type-modifiers-are-not-allowed.html</loc>
@@ -1606,6 +1654,12 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/redefinition-of-parameter-%24%25s.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/reflectionclass%3A%3Agetconstant%28%29-for-a-non-existent-constant-is-deprecated%2C.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/reflectionproperty%3A%3Agetdefaultvalue%28%29-for-a-property-without-a-default-value-is-deprecated%2C.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/requested-precision-of-%25d-digits-was-truncated-to-php-maximum-of-%25d-digits.html</loc>
  </url>
  <url>
@@ -1726,10 +1780,16 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-fully-qualified-name-%22%25s%22.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-identifier-%22%25s%22%2C-expecting-%22%28%22.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-identifier-%22%25s%22%2C-expecting-%22%29%22.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-identifier-%22%25s%22%2C-expecting-%22%2C%22-or-%22%3B%22.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-identifier-%22%25s%22%2C-expecting-%22%3B%22-or-%22%7B%22.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-identifier-%22%25s%22%2C-expecting-%22%5D%22.html</loc>
@@ -1766,6 +1826,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-string-content.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%23%5B%22%2C-expecting-%22%29%22.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%23%5B%22%2C-expecting-%22%2C%22-or-%22%3B%22.html</loc>
@@ -1805,6 +1868,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%29%22%2C-expecting-%22function%22-or-%22fn%22-or-%22static%22-or-%22%23%5B%22.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%29%22%2C-expecting-variable.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%29%22.html</loc>
@@ -1850,6 +1916,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%3A%3A%22%2C-expecting-%22%3A%22.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%3A%3A%22%2C-expecting-%22%5D%22.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%3A%3A%22.html</loc>
@@ -1993,6 +2062,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22protected%22%2C-expecting-%22%7B%22.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22public%22%2C-expecting-%22%5D%22.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22public%22%2C-expecting-%22%7B%22.html</loc>
  </url>
  <url>
@@ -2021,6 +2093,15 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%7D%22.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-variable-%22%24%25s%22%2C-expecting-%22%29%22.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-variable-%22%24task%22%2C-expecting-%22%29%22.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-variable-%22%24this%22%2C-expecting-%22%3B%22-or-%22%7B%22.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-variable-%22%25s%22%2C-expecting-%22%28%22.html</loc>

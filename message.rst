@@ -25,14 +25,18 @@ PHP Error Messages
    messages/%s-"-is-returned-from-__sleep()-multiple-times.rst
    messages/%s-%s-cannot-implement-interface-%s,-extend-exception-or-error-instead.rst
    messages/%s-%s-cannot-implement-previously-implemented-interface-%s.rst
+   messages/%s-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-method%s-(.rst
    messages/%s-%s-inherits-both-%s::%s-and-%s::%s.rst
+   messages/%s-%s-must-implement-%d-abstract-method%s-(.rst
    messages/%s-%s-must-implement-interface-%s-as-part-of-either-%s-or-%s.rst
    messages/%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed.rst
    messages/%s-cannot-implement-%s---it-is-not-an-interface.rst
    messages/%s-cannot-use-%s---it-is-not-a-trait.rst
    messages/%s-function-%s::%s()-cannot-be-declared-private.rst
    messages/%s-is-not-supported-on-type-%s.rst
+   messages/%s-method-%s::%s()-must-not-be-abstract.rst
    messages/%s-virtual-property-%s::$%s-must-not-specify-asymmetric-visibility.rst
+   messages/%s::$%s-has-#[--override]-attribute.rst
    messages/%s::%s()-has-#[-override]-attribute,-but-no-matching-parent-method-exists.rst
    messages/%s::%s():-return-type-must-be-%s-when-declared.rst
    messages/%s::%s-cannot-override-final-constant-%s::%s.rst
@@ -61,6 +65,7 @@ PHP Error Messages
    messages/a-non-numeric-value-encountered.rst
    messages/a-non-well-formed-numeric-value-encountered.rst
    messages/a-precedence-rule-was-defined-for-%s::%s-but-this-method-does-not-exist.rst
+   messages/a-void-%s-does-not-return-a-value.rst
    messages/a-void-%s-must-not-return-a-value.rst
    messages/abstract-property-%s::$%s-must-specify-at-least-one-abstract-hook.rst
    messages/abstract-property-hook-cannot-have-body.rst
@@ -155,6 +160,7 @@ PHP Error Messages
    messages/cannot-be-null-when-argument-#1-($objectormethod)-is-an-object.rst
    messages/cannot-bind-an-instance-to-a-static-closure,-this-will-be-an-error-in-php-9.rst
    messages/cannot-bind-an-instance-to-a-static-closure.rst
+   messages/cannot-bind-method-%s::%s()-to-object-of-class-%s,-this-will-be-an-error-in-php-9.rst
    messages/cannot-bind-method-%s::%s()-to-object-of-class-%s.rst
    messages/cannot-call-constructor.rst
    messages/cannot-combine-named-arguments-and-argument-unpacking.rst
@@ -189,6 +195,7 @@ PHP Error Messages
    messages/cannot-perform-bitwise-not-on-%s.rst
    messages/cannot-re-assign-$this.rst
    messages/cannot-re-assign-auto-global-variable-%s.rst
+   messages/cannot-rebind-scope-of-closure-created-from-function,-this-will-be-an-error-in-php-9.rst
    messages/cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9.rst
    messages/cannot-rebind-scope-of-closure-created-from-method.rst
    messages/cannot-redeclare-%s()-(previously-declared-in-%s:%d).rst
@@ -201,6 +208,8 @@ PHP Error Messages
    messages/cannot-rewind-a-generator-that-was-already-run.rst
    messages/cannot-specify-default-value-for-virtual-hooked-property-%s::$%s.rst
    messages/cannot-throw-objects-that-do-not-implement-throwable.rst
+   messages/cannot-unbind-$this-of-closure-using-$this,-this-will-be-an-error-in-php-9.rst
+   messages/cannot-unbind-$this-of-method,-this-will-be-an-error-in-php-9.rst
    messages/cannot-unpack-array-with-string-keys.rst
    messages/cannot-unset-$this.rst
    messages/cannot-unset-hooked-property-%s::$%s.rst
@@ -244,6 +253,7 @@ PHP Error Messages
    messages/cannot-use-auto-global-as-lexical-variable.rst
    messages/cannot-use-both-filter_null_on_failure-and-filter_throw_on_failure.rst
    messages/cannot-use-dynamic-function-name-in-constant-expression.rst
+   messages/cannot-use-dynamic-method-name-in-constant-expression.rst
    messages/cannot-use-empty-array-elements-in-arrays.rst
    messages/cannot-use-empty-array-entries-in-keyed-array-assignment.rst
    messages/cannot-use-empty-list.rst
@@ -321,6 +331,7 @@ PHP Error Messages
    messages/delimiter-must-not-be-alphanumeric,-backslash,-or-nul-byte.rst
    messages/delimiter-must-not-be-alphanumeric,-backslash,-or-nul.rst
    messages/delimiter-must-not-be-alphanumeric-or-backslash.rst
+   messages/deriving-$_server['argv']-from-the-query-string-is-deprecated.-configure-register_argc_argv=0-to-turn-this-message-off.rst
    messages/destructors-cannot-declare-a-return-type.rst
    messages/disabling-session.use_only_cookies-ini-setting-is-deprecated.rst
    messages/division-of-php_int_min-by--1-is-not-an-integer.rst
@@ -348,6 +359,7 @@ PHP Error Messages
    messages/failed-to-create-closure-from-callable:-%s.rst
    messages/failed-to-open-stream-from-socketpair.rst
    messages/failed-to-open-stream:-too-many-open-files.rst
+   messages/failed-to-set-memory_limit-to-%zd-bytes.-setting-to-max_memory_limit-instead-(currently:.rst
    messages/fetching-properties-on-non-enums-in-constant-expressions-is-not-allowed.rst
    messages/ffi-api-is-restricted-by-"ffi.enable"-configuration-directive.rst
    messages/filename-cannot-be-empty.rst
@@ -373,6 +385,7 @@ PHP Error Messages
    messages/hooked-properties-cannot-be-readonly.rst
    messages/illegal-class-name.rst
    messages/illegal-function-name.rst
+   messages/illegal-method-name.rst
    messages/illegal-offset-type-in-isset-or-empty.rst
    messages/illegal-offset-type-in-unset.rst
    messages/illegal-offset-type.rst
@@ -421,12 +434,15 @@ PHP Error Messages
    messages/method-%s::%s()-must-be-static.rst
    messages/method-%s::%s()-must-take-exactly-1-argument.rst
    messages/method-%s::%s()-must-take-exactly-2-arguments.rst
+   messages/method-%s::%s-cannot-be-#[--nodiscard]-error_type.rst
+   messages/method-%s::%s-cannot-be-#[--nodiscard].rst
    messages/method-%s::__construct()-cannot-declare-a-return-type.rst
    messages/method-%s::__tostring()-must-not-throw-an-exception,-caught-%s:-%s.rst
    messages/method-name-must-be-a-string.rst
    messages/methods-with-the-same-name-as-their-class-will-not-be-constructors-in-a-future-version-of-php;-%s-has-a-deprecated-constructor.rst
    messages/missing-format-specifier-at-end-of-string.rst
    messages/module-"%s"-is-already-loaded.rst
+   messages/multiple-%s-modifiers-are-not-allowed.rst
    messages/multiple-access-type-modifiers-are-not-allowed.rst
    messages/multiple-final-modifiers-are-not-allowed.rst
    messages/multiple-readonly-modifiers-are-not-allowed.rst
@@ -540,6 +556,8 @@ PHP Error Messages
    messages/readonly-property-%s::$%s-must-have-type.rst
    messages/recursion-detected.rst
    messages/redefinition-of-parameter-$%s.rst
+   messages/reflectionclass::getconstant()-for-a-non-existent-constant-is-deprecated,.rst
+   messages/reflectionproperty::getdefaultvalue()-for-a-property-without-a-default-value-is-deprecated,.rst
    messages/requested-precision-of-%d-digits-was-truncated-to-php-maximum-of-%d-digits.rst
    messages/required-parameter-$%s-follows-optional-parameter-$%s.rst
    messages/required-trait-%s-wasn't-added-to-%s.rst
@@ -580,8 +598,10 @@ PHP Error Messages
    messages/syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function".rst
    messages/syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"{".rst
    messages/syntax-error,-unexpected-fully-qualified-name-"%s".rst
+   messages/syntax-error,-unexpected-identifier-"%s",-expecting-"(".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-")".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";".rst
+   messages/syntax-error,-unexpected-identifier-"%s",-expecting-";"-or-"{".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-"]".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-"function"-or-"const".rst
    messages/syntax-error,-unexpected-identifier-"%s",-expecting-"function".rst
@@ -594,6 +614,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-namespaced-name-"%s",-expecting-"function".rst
    messages/syntax-error,-unexpected-single-quoted-string-"%s",-expecting-")".rst
    messages/syntax-error,-unexpected-string-content.rst
+   messages/syntax-error,-unexpected-token-"#[",-expecting-")".rst
    messages/syntax-error,-unexpected-token-"#[",-expecting-","-or-";".rst
    messages/syntax-error,-unexpected-token-"#[",-expecting-"]".rst
    messages/syntax-error,-unexpected-token-"%".rst
@@ -607,6 +628,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-"(int)".rst
    messages/syntax-error,-unexpected-token-")",-expecting-"=".rst
    messages/syntax-error,-unexpected-token-")",-expecting-"function"-or-"fn"-or-"static"-or-"#[".rst
+   messages/syntax-error,-unexpected-token-")",-expecting-variable.rst
    messages/syntax-error,-unexpected-token-")".rst
    messages/syntax-error,-unexpected-token-"*".rst
    messages/syntax-error,-unexpected-token-",",-expecting-")".rst
@@ -622,6 +644,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-":".rst
    messages/syntax-error,-unexpected-token-"::",-expecting-","-or-";".rst
    messages/syntax-error,-unexpected-token-"::",-expecting-":".rst
+   messages/syntax-error,-unexpected-token-"::",-expecting-"]".rst
    messages/syntax-error,-unexpected-token-"::".rst
    messages/syntax-error,-unexpected-token-";",-expecting-"(".rst
    messages/syntax-error,-unexpected-token-";",-expecting-")".rst
@@ -669,6 +692,7 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-"private",-expecting-"=".rst
    messages/syntax-error,-unexpected-token-"private",-expecting-"{".rst
    messages/syntax-error,-unexpected-token-"protected",-expecting-"{".rst
+   messages/syntax-error,-unexpected-token-"public",-expecting-"]".rst
    messages/syntax-error,-unexpected-token-"public",-expecting-"{".rst
    messages/syntax-error,-unexpected-token-"public".rst
    messages/syntax-error,-unexpected-token-"use",-expecting-","-or-";".rst
@@ -679,6 +703,9 @@ PHP Error Messages
    messages/syntax-error,-unexpected-token-"{".rst
    messages/syntax-error,-unexpected-token-"}",-expecting-";"-or-"{".rst
    messages/syntax-error,-unexpected-token-"}".rst
+   messages/syntax-error,-unexpected-variable-"$%s",-expecting-")".rst
+   messages/syntax-error,-unexpected-variable-"$task",-expecting-")".rst
+   messages/syntax-error,-unexpected-variable-"$this",-expecting-";"-or-"{".rst
    messages/syntax-error,-unexpected-variable-"%s",-expecting-"(".rst
    messages/the-"generator"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated.rst
    messages/the-$escape-parameter-must-be-provided-as-its-default-value-will-change.rst

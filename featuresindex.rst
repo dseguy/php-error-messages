@@ -4,6 +4,11 @@ Features index
 -----------------------------
 
 
+   * $argv
+
+      * :ref:`deriving-\$_server[\'argv\']-from-the-query-string-is-deprecated.-configure-register_argc_argv=0-to-turn-this-message-off`
+
+
    * $globals
 
       * :ref:`\$globals-can-only-be-modified-using-the-\$globals[\$name]-=-\$value-syntax`
@@ -23,6 +28,7 @@ Features index
       * :ref:`cannot-use-\$this-as-global-variable`
       * :ref:`cannot-use-\$this-as-lexical-variable`
       * :ref:`closures-in-constant-expressions-must-be-static`
+      * :ref:`syntax-error,-unexpected-variable-"\$this",-expecting-";"-or-"{"`
       * :ref:`using-\$this-when-not-in-object-context`
 
 
@@ -97,7 +103,10 @@ Features index
 
    * abstract
 
+      * :ref:`%s-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-method%s-(`
+      * :ref:`%s-%s-must-implement-%d-abstract-method%s-(`
       * :ref:`%s-function-%s::%s()-cannot-be-declared-private`
+      * :ref:`%s-method-%s::%s()-must-not-be-abstract`
       * :ref:`abstract-property-%s::\$%s-must-specify-at-least-one-abstract-hook`
       * :ref:`abstract-property-hook-cannot-have-body`
       * :ref:`anonymous-class-method-%s()-must-not-be-abstract`
@@ -122,7 +131,9 @@ Features index
       * :ref:`property-hook-cannot-be-both-abstract-and-private`
       * :ref:`property-in-interface-cannot-be-explicitly-abstract.`
       * :ref:`static-function-%s%s%s()-cannot-be-abstract`
+      * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-";"-or-"{"`
       * :ref:`syntax-error,-unexpected-token-"}",-expecting-";"-or-"{"`
+      * :ref:`syntax-error,-unexpected-variable-"\$this",-expecting-";"-or-"{"`
 
 
    * addition
@@ -163,6 +174,7 @@ Features index
 
    * anonymous-class
 
+      * :ref:`%s-%s-must-implement-%d-abstract-method%s-(`
       * :ref:`anonymous-class-method-%s()-must-not-be-abstract`
 
 
@@ -246,7 +258,9 @@ Features index
       * :ref:`syntax-error,-unexpected-\'[\',-expecting-\';\'-or-\',\'`
       * :ref:`syntax-error,-unexpected-single-quoted-string-"%s",-expecting-")"`
       * :ref:`syntax-error,-unexpected-token-",",-expecting-"]"`
+      * :ref:`syntax-error,-unexpected-token-"::",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-token-"if",-expecting-"]"`
+      * :ref:`syntax-error,-unexpected-token-"public",-expecting-"]"`
       * :ref:`using-an-object-as-a-backing-array-for-%s-is-deprecated,-as-it-allows-violating-class-constraints-and-invariants`
 
 
@@ -326,6 +340,7 @@ Features index
 
    * attribute
 
+      * :ref:`%s::\$%s-has-#[--override]-attribute`
       * :ref:`%s::%s()-has-#[-override]-attribute,-but-no-matching-parent-method-exists`
       * :ref:`attribute-"%s"-cannot-target-%s-(allowed-targets:-%s)`
       * :ref:`cannot-apply-attributes-to-multiple-constants-at-once`
@@ -334,8 +349,10 @@ Features index
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function"-or-"const"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-namespaced-name-"%s",-expecting-"function"`
+      * :ref:`syntax-error,-unexpected-token-"#[",-expecting-")"`
       * :ref:`syntax-error,-unexpected-token-"#[",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-token-"#[",-expecting-"]"`
+      * :ref:`syntax-error,-unexpected-token-")",-expecting-variable`
       * :ref:`syntax-error,-unexpected-token-";"`
       * :ref:`syntax-error,-unexpected-token-"class",-expecting-"]"`
 
@@ -397,7 +414,11 @@ Features index
 
    * binding
 
+      * :ref:`cannot-bind-method-%s::%s()-to-object-of-class-%s,-this-will-be-an-error-in-php-9`
+      * :ref:`cannot-rebind-scope-of-closure-created-from-function,-this-will-be-an-error-in-php-9`
       * :ref:`cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9`
+      * :ref:`cannot-unbind-\$this-of-closure-using-\$this,-this-will-be-an-error-in-php-9`
+      * :ref:`cannot-unbind-\$this-of-method,-this-will-be-an-error-in-php-9`
 
 
    * bitfield
@@ -530,6 +551,11 @@ Features index
       * :ref:`syntax-error,-unexpected-\')\',-expecting-\'|\'-or-variable-(t_variable)`
 
 
+   * cgi
+
+      * :ref:`deriving-\$_server[\'argv\']-from-the-query-string-is-deprecated.-configure-register_argc_argv=0-to-turn-this-message-off`
+
+
    * chaining-new-without-parenthesis
 
       * :ref:`syntax-error,-unexpected-token-"("`
@@ -628,6 +654,7 @@ Features index
 
       * :ref:`clone-method-called-on-non-object`
       * :ref:`clone():-argument-#1-(\$object)-must-be-of-type-object,-%s-given`
+      * :ref:`method-%s::%s-cannot-be-#[--nodiscard]-error_type`
 
 
    * close-tag
@@ -639,17 +666,23 @@ Features index
 
       * :ref:`cannot-bind-an-instance-to-a-static-closure,-this-will-be-an-error-in-php-9`
       * :ref:`cannot-bind-an-instance-to-a-static-closure`
+      * :ref:`cannot-bind-method-%s::%s()-to-object-of-class-%s,-this-will-be-an-error-in-php-9`
       * :ref:`cannot-bind-method-%s::%s()-to-object-of-class-%s`
       * :ref:`cannot-create-closure-as-attribute-argument`
       * :ref:`cannot-create-closure-for-new-expression`
+      * :ref:`cannot-rebind-scope-of-closure-created-from-function,-this-will-be-an-error-in-php-9`
       * :ref:`cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9`
       * :ref:`cannot-rebind-scope-of-closure-created-from-method`
+      * :ref:`cannot-unbind-\$this-of-closure-using-\$this,-this-will-be-an-error-in-php-9`
+      * :ref:`cannot-unbind-\$this-of-method,-this-will-be-an-error-in-php-9`
       * :ref:`cannot-use(...)-variables-in-constant-expression`
       * :ref:`cannot-use-\$this-as-lexical-variable`
+      * :ref:`cannot-use-dynamic-method-name-in-constant-expression`
       * :ref:`cannot-use-variable-\$%s-twice`
       * :ref:`closures-in-constant-expressions-must-be-static`
       * :ref:`current-function-is-not-a-closure`
       * :ref:`failed-to-create-closure-from-callable:-%s`
+      * :ref:`illegal-method-name`
       * :ref:`instantiation-of-class-closure-is-not-allowed`
       * :ref:`passing-non-callable-strings-is-deprecated-since-8.4`
       * :ref:`syntax-error,-unexpected-token-"("`
@@ -762,6 +795,7 @@ Features index
       * :ref:`define():-declaration-of-case-insensitive-constants-is-deprecated`
       * :ref:`dynamic-class-names-are-not-allowed-in-compile-time-class-constant-references`
       * :ref:`instanceof-expects-an-object-instance,-constant-given`
+      * :ref:`reflectionclass::getconstant()-for-a-non-existent-constant-is-deprecated,`
       * :ref:`syntax-error,-unexpected-\'-\',-expecting-\'=\'`
       * :ref:`syntax-error,-unexpected-token-"&",-expecting-end-of-file`
       * :ref:`syntax-error,-unexpected-token-"="`
@@ -776,7 +810,9 @@ Features index
 
    * constant-expression
 
+      * :ref:`cannot-use-dynamic-method-name-in-constant-expression`
       * :ref:`fetching-properties-on-non-enums-in-constant-expressions-is-not-allowed`
+      * :ref:`illegal-method-name`
 
 
    * constant-in-trait
@@ -796,6 +832,7 @@ Features index
       * :ref:`cannot-modify-readonly-object-of-class-%s`
       * :ref:`constructor-%s::%s()-cannot-declare-a-return-type`
       * :ref:`method-%s::%s()-cannot-declare-a-return-type`
+      * :ref:`method-%s::%s-cannot-be-#[--nodiscard]`
       * :ref:`method-%s::__construct()-cannot-declare-a-return-type`
       * :ref:`methods-with-the-same-name-as-their-class-will-not-be-constructors-in-a-future-version-of-php;-%s-has-a-deprecated-constructor`
       * :ref:`must-be-empty-when-class-provided-in-argument-#1-(\$class)-does-not-have-a-constructor`
@@ -1029,6 +1066,8 @@ Features index
 
    * enum
 
+      * :ref:`%s-%s-must-implement-%d-abstract-method%s-(`
+      * :ref:`%s-method-%s::%s()-must-not-be-abstract`
       * :ref:`cannot-apply-#[allowdynamicproperties]-to-enum-%s`
       * :ref:`cannot-create-dynamic-property-%s::\$%s`
       * :ref:`cannot-instantiate-enum-%s`
@@ -1211,6 +1250,8 @@ Features index
       * :ref:`array-callback-has-to-contain-indices-0-and-1`
       * :ref:`cannot-create-closure-as-attribute-argument`
       * :ref:`cannot-create-closure-for-new-expression`
+      * :ref:`cannot-use-dynamic-method-name-in-constant-expression`
+      * :ref:`illegal-method-name`
       * :ref:`instantiation-of-class-closure-is-not-allowed`
 
 
@@ -1256,9 +1297,13 @@ Features index
       * :ref:`func_num_args()-must-be-called-from-a-function-context`
       * :ref:`function-%s()-is-deprecated%s`
       * :ref:`function-libxml_disable_entity_loader()-is-deprecated-since-8.0,-as-external-entity-loading-is-disabled-by-default`
+      * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"("`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"function"`
+      * :ref:`syntax-error,-unexpected-token-")",-expecting-variable`
       * :ref:`syntax-error,-unexpected-token-"=",-expecting-variable`
       * :ref:`syntax-error,-unexpected-token-"final",-expecting-"("`
+      * :ref:`syntax-error,-unexpected-variable-"\$%s",-expecting-")"`
+      * :ref:`syntax-error,-unexpected-variable-"\$task",-expecting-")"`
       * :ref:`syntax-error,-unexpected-variable-"%s",-expecting-"("`
 
 
@@ -1413,6 +1458,7 @@ Features index
 
    * inheritance
 
+      * :ref:`%s-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-method%s-(`
       * :ref:`cannot-declare-promoted-property-in-an-abstract-constructor`
       * :ref:`cannot-inherit-previously-inherited-or-override-constant-%s-from-interface-%s`
       * :ref:`cannot-make-non-abstract-method-%s::%s()-abstract-in-class-%s`
@@ -1451,8 +1497,11 @@ Features index
    * interface
 
       * :ref:`%s-%s-cannot-implement-previously-implemented-interface-%s`
+      * :ref:`%s-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-method%s-(`
       * :ref:`%s-%s-inherits-both-%s::%s-and-%s::%s`
+      * :ref:`%s-%s-must-implement-%d-abstract-method%s-(`
       * :ref:`%s-%s-must-implement-interface-%s-as-part-of-either-%s-or-%s`
+      * :ref:`%s-method-%s::%s()-must-not-be-abstract`
       * :ref:`access-type-for-interface-constant-%s::%s-must-be-public`
       * :ref:`access-type-for-interface-method-%s::%s()-must-be-public`
       * :ref:`b-cannot-implement-a---it-is-not-an-interface`
@@ -1611,6 +1660,8 @@ Features index
       * :ref:`method-%s::%s()-cannot-be-static`
       * :ref:`method-%s::%s()-must-take-exactly-1-argument`
       * :ref:`method-%s::%s()-must-take-exactly-2-arguments`
+      * :ref:`method-%s::%s-cannot-be-#[--nodiscard]-error_type`
+      * :ref:`method-%s::%s-cannot-be-#[--nodiscard]`
       * :ref:`property-cannot-be-both-final-and-private`
       * :ref:`property-hook-cannot-be-both-final-and-private`
       * :ref:`returning-null-from-%s::__debuginfo()-is-deprecated,-return-an-empty-array-instead`
@@ -1642,6 +1693,11 @@ Features index
       * :ref:`maximum-execution-time-of-%d-second%s-exceeded`
 
 
+   * max_memory_limit
+
+      * :ref:`failed-to-set-memory_limit-to-%zd-bytes.-setting-to-max_memory_limit-instead-(currently:`
+
+
    * mbstring
 
       * :ref:`handling-base64-via-mbstring-is-deprecated;-use-base64_encode-base64_decode-instead`
@@ -1651,6 +1707,11 @@ Features index
       * :ref:`must-be-a-valid-encoding,-"%s"-given`
       * :ref:`must-be-contained-in-argument-#1-(\$haystack)`
       * :ref:`offset-not-contained-in-string.`
+
+
+   * memory_limit
+
+      * :ref:`failed-to-set-memory_limit-to-%zd-bytes.-setting-to-max_memory_limit-instead-(currently:`
 
 
    * message-digest
@@ -1678,12 +1739,18 @@ Features index
       * :ref:`must-be-a-valid-method-name`
       * :ref:`non-static-method-%s::%s()-cannot-be-called-statically`
       * :ref:`non-static-method-%s::%s()-should-not-be-called-statically`
+      * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"("`
+      * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-";"-or-"{"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"function"-or-"const"`
       * :ref:`syntax-error,-unexpected-token-"(",-expecting-identifier-or-variable-or-"{"-or-"\$"`
       * :ref:`syntax-error,-unexpected-token-"(",-expecting-variable`
       * :ref:`syntax-error,-unexpected-token-"("`
+      * :ref:`syntax-error,-unexpected-token-")",-expecting-variable`
       * :ref:`syntax-error,-unexpected-token-"public"`
       * :ref:`syntax-error,-unexpected-token-"}",-expecting-";"-or-"{"`
+      * :ref:`syntax-error,-unexpected-variable-"\$%s",-expecting-")"`
+      * :ref:`syntax-error,-unexpected-variable-"\$task",-expecting-")"`
+      * :ref:`syntax-error,-unexpected-variable-"\$this",-expecting-";"-or-"{"`
       * :ref:`syntax-error,-unexpected-variable-"%s",-expecting-"("`
       * :ref:`the-sqlite3-object-has-not-been-correctly-initialised-or-is-already-closed`
       * :ref:`too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d-expected`
@@ -1697,6 +1764,11 @@ Features index
       * :ref:`type-mixed-can-only-be-used-as-a-standalone-type`
       * :ref:`type-mixed-cannot-be-marked-as-nullable-since-mixed-already-includes-null`
       * :ref:`type-of-%s::\$%s-must-be-omitted-to-match-the-parent-definition-in-class-%s`
+
+
+   * modifier
+
+      * :ref:`multiple-%s-modifiers-are-not-allowed`
 
 
    * modulo
@@ -1841,6 +1913,9 @@ Features index
    * nodiscard
 
       * :ref:`a-never-returning-%s-does-not-return-a-value`
+      * :ref:`a-void-%s-does-not-return-a-value`
+      * :ref:`method-%s::%s-cannot-be-#[--nodiscard]-error_type`
+      * :ref:`method-%s::%s-cannot-be-#[--nodiscard]`
       * :ref:`the-return-value-of-function-%s()-should-either-be-used-or-intentionally-ignored-by-casting-it-as-(void)%s-code`
       * :ref:`the-return-value-of-function-%s()-should-either-be-used-or-intentionally-ignored-by-casting-it-as-(void)%s`
       * :ref:`the-return-value-of-method-%s::%s()-should-either-be-used-or-intentionally-ignored-by-casting-it-as-(void)%s`
@@ -1973,6 +2048,7 @@ Features index
 
    * override
 
+      * :ref:`%s::\$%s-has-#[--override]-attribute`
       * :ref:`%s::%s()-has-#[-override]-attribute,-but-no-matching-parent-method-exists`
 
 
@@ -2134,6 +2210,7 @@ Features index
 
    * property
 
+      * :ref:`%s::\$%s-has-#[--override]-attribute`
       * :ref:`accessing-static-trait-property-%s::\$%s-is-deprecated`
       * :ref:`attempt-to-assign-property-"%s"-on-null`
       * :ref:`cannot-access-%s-property-%s::\$%s`
@@ -2156,6 +2233,7 @@ Features index
       * :ref:`property-in-interface-cannot-be-explicitly-abstract.`
       * :ref:`property-in-interface-cannot-be-final`
       * :ref:`property-in-interface-cannot-be-protected-or-private`
+      * :ref:`reflectionproperty::getdefaultvalue()-for-a-property-without-a-default-value-is-deprecated,`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"function"-or-"const"`
       * :ref:`syntax-error,-unexpected-token-"(",-expecting-variable`
       * :ref:`syntax-error,-unexpected-token-",",-expecting-variable-or-"\$"`
@@ -2204,6 +2282,11 @@ Features index
       * :ref:`syntax-error,-unexpected-token-"{",-expecting-","-or-";"`
       * :ref:`unknown-hook-"%s"-for-property-%s::\$%s,-expected-"get"-or-"set"`
       * :ref:`unknown-hook--"%s-"-for-property-%s::\$%s`
+
+
+   * query-string
+
+      * :ref:`deriving-\$_server[\'argv\']-from-the-query-string-is-deprecated.-configure-register_argc_argv=0-to-turn-this-message-off`
 
 
    * quoted-printable
@@ -2294,6 +2377,8 @@ Features index
       * :ref:`case-%s::%s-does-not-exist`
       * :ref:`class-%s-does-not-have-a-property-named-%s`
       * :ref:`must-be-a-valid-method-name`
+      * :ref:`reflectionclass::getconstant()-for-a-non-existent-constant-is-deprecated,`
+      * :ref:`reflectionproperty::getdefaultvalue()-for-a-property-without-a-default-value-is-deprecated,`
 
 
    * regex
@@ -2321,6 +2406,7 @@ Features index
       * :ref:`cannot-use-%s-as-%s-because-\'%s\'-is-a-special-class-name`
       * :ref:`syntax-error,-unexpected-token-"::",-expecting-":"`
       * :ref:`syntax-error,-unexpected-token-"final",-expecting-"("`
+      * :ref:`syntax-error,-unexpected-token-"public",-expecting-"]"`
       * :ref:`using-"_"-as-%s-is-deprecated-since-8.4`
 
 
@@ -2377,8 +2463,12 @@ Features index
       * :ref:`cannot-access-parent::-when-current-class-scope-has-no-parent`
       * :ref:`cannot-bind-an-instance-to-a-static-closure,-this-will-be-an-error-in-php-9`
       * :ref:`cannot-bind-an-instance-to-a-static-closure`
+      * :ref:`cannot-bind-method-%s::%s()-to-object-of-class-%s,-this-will-be-an-error-in-php-9`
       * :ref:`cannot-modify-readonly-property-%s::\$%s`
+      * :ref:`cannot-rebind-scope-of-closure-created-from-function,-this-will-be-an-error-in-php-9`
       * :ref:`cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9`
+      * :ref:`cannot-unbind-\$this-of-closure-using-\$this,-this-will-be-an-error-in-php-9`
+      * :ref:`cannot-unbind-\$this-of-method,-this-will-be-an-error-in-php-9`
       * :ref:`use-of-"parent"-in-callables-is-deprecated`
       * :ref:`use-of-"self"-in-callables-is-deprecated`
       * :ref:`use-of-"static"-in-callables-is-deprecated`
@@ -2389,6 +2479,7 @@ Features index
       * :ref:`syntax-error,-unexpected-\'::\',-expecting-\'(\'`
       * :ref:`syntax-error,-unexpected-\'::\'-(t_paamayim_nekudotayim),-expecting-\';\'-or-\',\'`
       * :ref:`syntax-error,-unexpected-token-":",-expecting-"]"`
+      * :ref:`syntax-error,-unexpected-token-"::",-expecting-"]"`
 
 
    * self
@@ -2741,6 +2832,7 @@ Features index
    * try-catch
 
       * :ref:`syntax-error,-unexpected-\')\',-expecting-\'|\'-or-variable-(t_variable)`
+      * :ref:`syntax-error,-unexpected-token-"#[",-expecting-")"`
 
 
    * type
@@ -2959,6 +3051,7 @@ Features index
 
       * :ref:`%s():-returning-by-reference-from-a-void-function-is-deprecated`
       * :ref:`a-function-with-return-type-must-return-a-value`
+      * :ref:`a-void-%s-does-not-return-a-value`
       * :ref:`a-void-%s-must-not-return-a-value`
       * :ref:`class-constant-%s::%s-cannot-have-type-%s`
       * :ref:`property-x::\$p-cannot-have-type-void`

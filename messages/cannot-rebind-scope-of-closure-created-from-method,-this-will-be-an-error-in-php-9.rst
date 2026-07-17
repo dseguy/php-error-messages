@@ -21,7 +21,7 @@ Cannot rebind scope of closure created from method, this will be an error in PHP
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9.html","name":"Cannot rebind scope of closure created from method, this will be an error in PHP 9","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 15:21:56 +0000","dateModified":"Mon, 13 Jul 2026 15:21:56 +0000","description":"When a closure is created from an object method (``$obj->method(","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9.html","name":"Cannot rebind scope of closure created from method, this will be an error in PHP 9","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Jul 2026 17:21:07 +0000","dateModified":"Wed, 15 Jul 2026 17:21:07 +0000","description":"When a closure is created from an object method (``$obj->method(","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -69,6 +69,9 @@ ______________________
 + :ref:`cannot-rebind-scope-of-closure-created-from-method`
 + :ref:`cannot-bind-an-instance-to-a-static-closure`
 + :ref:`cannot-bind-an-instance-to-a-static-closure,-this-will-be-an-error-in-php-9`
++ :ref:`cannot-bind-method-%s::%s()-to-object-of-class-%s,-this-will-be-an-error-in-php-9`
++ :ref:`cannot-rebind-scope-of-closure-created-from-function,-this-will-be-an-error-in-php-9`
++ :ref:`cannot-unbind-$this-of-method,-this-will-be-an-error-in-php-9`
 
 See Also
 ________
