@@ -21,7 +21,7 @@ Method %s::%s cannot be #[\\NoDiscard]
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/method-%s::%s-cannot-be-#[--nodiscard].html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/method-%s::%s-cannot-be-#[--nodiscard].html","name":"Method %s::%s cannot be #[\\\\NoDiscard]","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 15 Jul 2026 08:13:08 +0000","dateModified":"Wed, 15 Jul 2026 08:13:08 +0000","description":"The ``#[\\NoDiscard]`` attribute marks a function, method or closure so that the engine emits a warning whenever a caller ignores its return value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/method-%s::%s-cannot-be-#[--nodiscard].html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/method-%s::%s-cannot-be-#[--nodiscard].html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/method-%s::%s-cannot-be-#[--nodiscard].html","name":"Method %s::%s cannot be #[\\\\NoDiscard]","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jul 2026 17:26:38 +0000","dateModified":"Fri, 24 Jul 2026 17:26:38 +0000","description":"The ``#[\\NoDiscard]`` attribute marks a function, method or closure so that the engine emits a warning whenever a caller ignores its return value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/method-%s::%s-cannot-be-#[--nodiscard].html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -60,6 +60,7 @@ ______________________
 
 + :ref:`a-void-%s-does-not-return-a-value`
 + :ref:`a-never-returning-%s-does-not-return-a-value`
++ :ref:`method-%s::%s-cannot-be-#[--nodiscard]-error_type`
 
 Changed Behavior
 ________________

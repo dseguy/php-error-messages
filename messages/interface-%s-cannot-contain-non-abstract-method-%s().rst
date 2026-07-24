@@ -21,7 +21,7 @@ Interface %s cannot contain non abstract method %s()
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/interface-%s-cannot-contain-non-abstract-method-%s().html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/interface-%s-cannot-contain-non-abstract-method-%s().html","name":"Interface %s cannot contain non abstract method %s()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:46 +0000","dateModified":"Tue, 31 Mar 2026 09:10:46 +0000","description":"In an interface, there can only be methods signature, and no method body","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/interface-%s-cannot-contain-non-abstract-method-%s().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/interface-%s-cannot-contain-non-abstract-method-%s().html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/interface-%s-cannot-contain-non-abstract-method-%s().html","name":"Interface %s cannot contain non abstract method %s()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jul 2026 17:24:53 +0000","dateModified":"Fri, 24 Jul 2026 17:24:53 +0000","description":"In an interface, there can only be methods signature, and no method body","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/interface-%s-cannot-contain-non-abstract-method-%s().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -66,3 +66,8 @@ _________
 + Remove all bodies in an interface's method.
 + Turn the interface into an abstract class.
 + Move the concrete class to a trait, and use the trait, along with the interface.
+
+Related Error Messages
+______________________
+
++ :ref:`%s-method-%s::%s()-must-not-be-abstract`

@@ -21,7 +21,7 @@ Type of %s::$%s must be %s%s (as in class %s)
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/type-of-%s::$%s-must-be-%s%s-(as-in-class-%s).html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/type-of-%s::$%s-must-be-%s%s-(as-in-class-%s).html","name":"Type of %s::$%s must be %s%s (as in class %s)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:47 +0000","dateModified":"Tue, 31 Mar 2026 09:10:47 +0000","description":"Property definitions must be compatible one another, between a parent and a child class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/type-of-%s::$%s-must-be-%s%s-(as-in-class-%s).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/type-of-%s::$%s-must-be-%s%s-(as-in-class-%s).html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/type-of-%s::$%s-must-be-%s%s-(as-in-class-%s).html","name":"Type of %s::$%s must be %s%s (as in class %s)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jul 2026 16:14:56 +0000","dateModified":"Fri, 24 Jul 2026 16:14:56 +0000","description":"Property definitions must be compatible one another, between a parent and a child class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/type-of-%s::$%s-must-be-%s%s-(as-in-class-%s).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -60,3 +60,4 @@ Related Error Messages
 ______________________
 
 + :ref:`type-of-%s::$%s-must-not-be-defined-(as-in-class-%s)`
++ :ref:`set-type-of-%s::$%s-must-be-supertype-of-%s-(as-in-%s-%s)`

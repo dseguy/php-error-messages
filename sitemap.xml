@@ -76,6 +76,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s-and-%25s-define-the-same-constant-%28%25s%29-in-the-composition-of-%25s.-however%2C-the-definition-differs-and-is-considered-incompatible.-class-was-composed.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s-and-%25s-define-the-same-hooked-property-%28%24%25s%29-in-the-composition-of-%25s.-conflict-resolution-between-hooked-properties-is-currently-not-supported.-class-was-composed.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s-cannot-implement-%25s---it-is-not-an-interface.html</loc>
  </url>
  <url>
@@ -1696,6 +1699,12 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/security-protocol-must-be-one-of-%22des%22%2C-%22aes128%22%2C-or-%22aes-e_error.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/set-access-level-of-%25s%3A%3A%24%25s-must-be-%25s-%28as-in-class-%25s%29%25s.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/set-type-of-%25s%3A%3A%24%25s-must-be-supertype-of-%25s-%28as-in-%25s-%25s%29.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/spread-operator-is-not-supported-in-assignments.html</loc>
  </url>
  <url>
@@ -2234,6 +2243,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/type-of-%25s%3A%3A%24%25s-must-not-be-defined-%28as-in-class-%25s%29.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/type-of-parameter-%24%25s-of-hook-%25s%3A%3A%24%25s%3A%3Aset-must-be-compatible-with-property-type.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/typed-property-%25s%3A%3A%24%25s-must-not-be-accessed-before-initialization.html</loc>

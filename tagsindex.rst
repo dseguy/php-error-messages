@@ -704,6 +704,7 @@ Tag index
 
    * trait
 
+      * :ref:`%s-and-%s-define-the-same-hooked-property-($%s)-in-the-composition-of-%s.-conflict-resolution-between-hooked-properties-is-currently-not-supported.-class-was-composed`
       * :ref:`required-trait-%s-wasn\'t-added-to-%s`
 
 
@@ -720,7 +721,9 @@ Tag index
       * :ref:`must-be-of-type-countable|array,-%s-given`
       * :ref:`parameter-must-be-an-array-or-an-object-that-implements-countable`
       * :ref:`property-%s::$%s-cannot-have-type-%s`
+      * :ref:`set-type-of-%s::$%s-must-be-supertype-of-%s-(as-in-%s-%s)`
       * :ref:`type-mixed-can-only-be-used-as-a-standalone-type`
+      * :ref:`type-of-parameter-$%s-of-hook-%s::$%s::set-must-be-compatible-with-property-type`
 
 
    * type-juggling
@@ -744,6 +747,11 @@ Tag index
       * :ref:`argument-#1-($start)-must-be-a-single-byte-string-if`
       * :ref:`cannot-be-0`
       * :ref:`must-not-be-empty`
+
+
+   * visibility
+
+      * :ref:`set-access-level-of-%s::$%s-must-be-%s-(as-in-class-%s)%s`
 
 
    * zend

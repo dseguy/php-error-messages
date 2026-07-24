@@ -30,6 +30,7 @@ PHP Error Messages
    messages/%s-%s-must-implement-%d-abstract-method%s-(.rst
    messages/%s-%s-must-implement-interface-%s-as-part-of-either-%s-or-%s.rst
    messages/%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed.rst
+   messages/%s-and-%s-define-the-same-hooked-property-($%s)-in-the-composition-of-%s.-conflict-resolution-between-hooked-properties-is-currently-not-supported.-class-was-composed.rst
    messages/%s-cannot-implement-%s---it-is-not-an-interface.rst
    messages/%s-cannot-use-%s---it-is-not-a-trait.rst
    messages/%s-function-%s::%s()-cannot-be-declared-private.rst
@@ -570,6 +571,8 @@ PHP Error Messages
    messages/security-level-must-be-one-of-"noauthnopriv",-"authnopriv",-or-"authpriv.rst
    messages/security-protocol-must-be-one-of-"aes128",-or-"aes-e_error.rst
    messages/security-protocol-must-be-one-of-"des",-"aes128",-or-"aes-e_error.rst
+   messages/set-access-level-of-%s::$%s-must-be-%s-(as-in-class-%s)%s.rst
+   messages/set-type-of-%s::$%s-must-be-supertype-of-%s-(as-in-%s-%s).rst
    messages/spread-operator-is-not-supported-in-assignments.rst
    messages/sqlite3result-cannot-be-directly-instantiated.rst
    messages/static-function-%s%s%s()-cannot-be-abstract.rst
@@ -750,6 +753,7 @@ PHP Error Messages
    messages/type-of-%s::$%s-must-be-%s%s-(as-in-class-%s).rst
    messages/type-of-%s::$%s-must-be-omitted-to-match-the-parent-definition-in-class-%s.rst
    messages/type-of-%s::$%s-must-not-be-defined-(as-in-class-%s).rst
+   messages/type-of-parameter-$%s-of-hook-%s::$%s::set-must-be-compatible-with-property-type.rst
    messages/typed-property-%s::$%s-must-not-be-accessed-before-initialization.rst
    messages/typed-static-property-%s::$%s-must-not-be-accessed-before-initialization.rst
    messages/unbacked-enum-%s-cannot-be-converted-to-a-string.rst

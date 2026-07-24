@@ -334,6 +334,7 @@ Features index
       * :ref:`%s-virtual-property-%s::\$%s-must-not-specify-asymmetric-visibility`
       * :ref:`cannot-override-final-property-%s::\$%s`
       * :ref:`multiple-access-type-modifiers-are-not-allowed`
+      * :ref:`set-access-level-of-%s::\$%s-must-be-%s-(as-in-class-%s)%s`
       * :ref:`static-property-may-not-have-asymmetric-visibility`
       * :ref:`visibility-of-property-%s::\$%s-must-not-be-weaker-than-set-visibility`
 
@@ -412,7 +413,7 @@ Features index
       * :ref:`invalid-numeric-literal`
 
 
-   * binding
+   * bind
 
       * :ref:`cannot-bind-method-%s::%s()-to-object-of-class-%s,-this-will-be-an-error-in-php-9`
       * :ref:`cannot-rebind-scope-of-closure-created-from-function,-this-will-be-an-error-in-php-9`
@@ -757,6 +758,7 @@ Features index
       * :ref:`could-not-check-compatibility-between-%s-and-%s,-because-class-%s-is-not-available`
       * :ref:`declaration-of-%s-must-be-compatible-with-%s`
       * :ref:`declaration-of-%s::%s()-must-be-compatible-with-%s::%s()`
+      * :ref:`set-type-of-%s::\$%s-must-be-supertype-of-%s-(as-in-%s-%s)`
       * :ref:`type-of-%s::\$%s-must-be-%s%s-(as-in-class-%s)`
       * :ref:`type-of-%s::\$%s-must-not-be-defined-(as-in-class-%s)`
 
@@ -1465,6 +1467,7 @@ Features index
       * :ref:`cannot-redefine-class-constant`
       * :ref:`non-readonly-class-%s-cannot-extend-readonly-class-%s`
       * :ref:`readonly-class-%s-cannot-extend-non-readonly-class-%s`
+      * :ref:`set-access-level-of-%s::\$%s-must-be-%s-(as-in-class-%s)%s`
 
 
    * initialisation
@@ -1523,6 +1526,7 @@ Features index
       * :ref:`property-in-interface-cannot-be-explicitly-abstract.`
       * :ref:`property-in-interface-cannot-be-protected-or-private`
       * :ref:`return-type-of-%s::%s()-should-either-be-compatible-with-%s::%s():-mixed`
+      * :ref:`set-type-of-%s::\$%s-must-be-supertype-of-%s-(as-in-%s-%s)`
       * :ref:`syntax-error,-unexpected-identifier-"%s"`
       * :ref:`syntax-error,-unexpected-token-"extends",-expecting-identifier`
       * :ref:`syntax-error,-unexpected-token-"extends"`
@@ -2248,6 +2252,7 @@ Features index
    * property-hook
 
       * :ref:`%s%s%s():-return-value-must-be-of-type-%s,-%s-returned`
+      * :ref:`%s-and-%s-define-the-same-hooked-property-(\$%s)-in-the-composition-of-%s.-conflict-resolution-between-hooked-properties-is-currently-not-supported.-class-was-composed`
       * :ref:`abstract-property-%s::\$%s-must-specify-at-least-one-abstract-hook`
       * :ref:`abstract-property-hook-cannot-have-body`
       * :ref:`cannot-create-reference-to-property-%s::\$%s`
@@ -2279,7 +2284,9 @@ Features index
       * :ref:`property-in-interface-cannot-be-explicitly-abstract.`
       * :ref:`property-in-interface-cannot-be-final`
       * :ref:`property-in-interface-cannot-be-protected-or-private`
+      * :ref:`set-type-of-%s::\$%s-must-be-supertype-of-%s-(as-in-%s-%s)`
       * :ref:`syntax-error,-unexpected-token-"{",-expecting-","-or-";"`
+      * :ref:`type-of-parameter-\$%s-of-hook-%s::\$%s::set-must-be-compatible-with-property-type`
       * :ref:`unknown-hook-"%s"-for-property-%s::\$%s,-expected-"get"-or-"set"`
       * :ref:`unknown-hook--"%s-"-for-property-%s::\$%s`
 
@@ -2789,6 +2796,7 @@ Features index
    * trait
 
       * :ref:`%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed`
+      * :ref:`%s-and-%s-define-the-same-hooked-property-(\$%s)-in-the-composition-of-%s.-conflict-resolution-between-hooked-properties-is-currently-not-supported.-class-was-composed`
       * :ref:`%s-cannot-use-%s---it-is-not-a-trait`
       * :ref:`a-precedence-rule-was-defined-for-%s::%s-but-this-method-does-not-exist`
       * :ref:`accessing-static-trait-property-%s::\$%s-is-deprecated,-it-should-only-be-accessed-on-a-class-using-the-trait`
@@ -3042,6 +3050,7 @@ Features index
       * :ref:`multiple-access-type-modifiers-are-not-allowed`
       * :ref:`private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes`
       * :ref:`property-in-interface-cannot-be-protected-or-private`
+      * :ref:`set-access-level-of-%s::\$%s-must-be-%s-(as-in-class-%s)%s`
       * :ref:`syntax-error,-unexpected-token-"public"`
       * :ref:`the-magic-method-%s::%s()-must-have-public-visibility`
       * :ref:`trying-to-invoke-%s-method-%s::%s()-from-scope-%s`

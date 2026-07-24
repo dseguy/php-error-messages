@@ -21,7 +21,7 @@ Illegal function name
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/illegal-function-name.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/illegal-function-name.html","name":"Illegal function name","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:46 +0000","dateModified":"Tue, 31 Mar 2026 09:10:46 +0000","description":"This error messages appears when there is an attempt to create a closure from a function, whose name is not a valid function","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/illegal-function-name.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/illegal-function-name.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/illegal-function-name.html","name":"Illegal function name","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jul 2026 17:21:43 +0000","dateModified":"Fri, 24 Jul 2026 17:21:43 +0000","description":"This error messages appears when there is an attempt to create a closure from a function, whose name is not a valid function","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/illegal-function-name.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -51,6 +51,8 @@ Related Error Messages
 ______________________
 
 + :ref:`cannot-use-dynamic-function-name-in-constant-expression`
++ :ref:`illegal-method-name`
++ :ref:`cannot-use-dynamic-method-name-in-constant-expression`
 
 Changed Behavior
 ________________

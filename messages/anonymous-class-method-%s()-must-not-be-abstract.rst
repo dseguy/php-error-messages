@@ -21,7 +21,7 @@ Anonymous class method %s() must not be abstract
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/anonymous-class-method-%s()-must-not-be-abstract.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/anonymous-class-method-%s()-must-not-be-abstract.html","name":"Anonymous class method %s() must not be abstract","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:45 +0000","dateModified":"Tue, 31 Mar 2026 09:10:45 +0000","description":"An anonymous class cannot have an abstract method, as the class is actually immediately instantiate, while abstract class, and classes that contains an abstract method cannot be instantiated","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/anonymous-class-method-%s()-must-not-be-abstract.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/anonymous-class-method-%s()-must-not-be-abstract.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/anonymous-class-method-%s()-must-not-be-abstract.html","name":"Anonymous class method %s() must not be abstract","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jul 2026 17:24:29 +0000","dateModified":"Fri, 24 Jul 2026 17:24:29 +0000","description":"An anonymous class cannot have an abstract method, as the class is actually immediately instantiate, while abstract class, and classes that contains an abstract method cannot be instantiated","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/anonymous-class-method-%s()-must-not-be-abstract.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -58,6 +58,9 @@ Related Error Messages
 ______________________
 
 + :ref:`class-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-methods`
++ :ref:`%s-%s-must-implement-%d-abstract-method%s-(`
++ :ref:`%s-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-method%s-(`
++ :ref:`%s-method-%s::%s()-must-not-be-abstract`
 
 Changed Behavior
 ________________
