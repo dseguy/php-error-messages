@@ -59,7 +59,7 @@ Literal Examples
 Solutions
 _________
 
-+ Store the value in a variable and passe the variable.
++ Store the value in a variable and pass the variable.
 + Remove the reference in the method signature.
 
 Related Error Messages
