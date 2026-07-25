@@ -21,6 +21,8 @@ PHP Error Messages
    messages/%s():-never-returning-%s-must-not-implicitly-return.rst
    messages/%s():-never-returning-function-must-not-implicitly-return.rst
    messages/%s():-passing-null-to-parameter-#%.rst
+   messages/%s():-return-value-of-the-authorizer-callback-must-be-of-type-int,-%s-returned.rst
+   messages/%s():-return-value-of-the-collation-callback-must-be-of-type-int,-%s-returned.rst
    messages/%s():-returning-by-reference-from-a-void-function-is-deprecated.rst
    messages/%s-"-is-returned-from-__sleep()-multiple-times.rst
    messages/%s-%s-cannot-implement-interface-%s,-extend-exception-or-error-instead.rst
@@ -164,6 +166,7 @@ PHP Error Messages
    messages/cannot-bind-method-%s::%s()-to-object-of-class-%s,-this-will-be-an-error-in-php-9.rst
    messages/cannot-bind-method-%s::%s()-to-object-of-class-%s.rst
    messages/cannot-call-constructor.rst
+   messages/cannot-change-default-fetch-mode-while-fetching.rst
    messages/cannot-combine-named-arguments-and-argument-unpacking.rst
    messages/cannot-create-closure-as-attribute-argument.rst
    messages/cannot-create-closure-for-new-expression.rst
@@ -175,6 +178,7 @@ PHP Error Messages
    messages/cannot-declare-self-referencing-constant.rst
    messages/cannot-declare-variadic-promoted-property.rst
    messages/cannot-decrement-property-%s::$%s-of-type-int-past-its-minimal-value.rst
+   messages/cannot-directly-construct-directory,-use-dir()-instead.rst
    messages/cannot-increment-property-%s::$%s-of-type-int-past-its-maximal-value.rst
    messages/cannot-indirectly-modify-readonly-property-%s::$%s.rst
    messages/cannot-inherit-previously-inherited-or-override-constant-%s-from-interface-%s.rst
@@ -319,6 +323,7 @@ PHP Error Messages
    messages/creation-of-dynamic-property-%s::$%s-is-deprecated.rst
    messages/current-function-is-not-a-closure.rst
    messages/datetimeinterface-can't-be-implemented-by-user-classes.rst
+   messages/datetimezone-object-is-unconstructed.rst
    messages/declaration-of-%s-must-be-compatible-with-%s.rst
    messages/declaration-of-%s::%s()-must-be-compatible-with-%s::%s().rst
    messages/declaration-of-case-insensitive-constants-is-no-longer-supported.rst
@@ -410,6 +415,7 @@ PHP Error Messages
    messages/interface-method-%s::%s()-must-not-be-final.rst
    messages/interfaces-may-not-include-properties.rst
    messages/interfaces-may-only-include-hooked-properties.rst
+   messages/intllistformatter-object-is-already-constructed.rst
    messages/invalid-argument-supplied-for-foreach().rst
    messages/invalid-characters-passed-for-attempted-conversion,-these-have-been-ignored.rst
    messages/invalid-indentation---tabs-and-spaces-cannot-be-mixed.rst
@@ -724,6 +730,7 @@ PHP Error Messages
    messages/the-behavior-of-unparenthesized-expressions-containing-both-'.'-and-'<<'-'>>'-will-change-in-php-8:-'<<'-'>>'-will-take-a-higher-precedence.rst
    messages/the-connection-has-no-charset-associated.rst
    messages/the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls.rst
+   messages/the-float-%.*h-is-not-representable-as-an-int,-cast-occurred.rst
    messages/the-float-string--"%s-"-is-not-representable-as-an-int,-cast-occurred.rst
    messages/the-magic-method-%s::%s()-must-have-public-visibility.rst
    messages/the-parent-constructor-was-not-called:-the-object-is-in-an-invalid-state.rst
@@ -738,6 +745,7 @@ PHP Error Messages
    messages/too-few-arguments-to-function-%s%s%s(),-%d-passed-in-%s-on-line-%d-and-%s-%d-expected.rst
    messages/too-few-arguments.rst
    messages/trait-"%s"-not-found.rst
+   messages/trait-%s-used-by-%s-is-deprecated%s.rst
    messages/trait-method-%s::%s-has-not-been-applied-as-%s::%s.rst
    messages/traits-cannot-have-constants.rst
    messages/trying-to-access-array-offset-on-%s.rst

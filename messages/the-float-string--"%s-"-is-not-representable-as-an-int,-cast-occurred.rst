@@ -21,7 +21,7 @@ The float-string "%s" is not representable as an int, cast occurred
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/the-float-string--\"%s-\"-is-not-representable-as-an-int,-cast-occurred.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/the-float-string--\"%s-\"-is-not-representable-as-an-int,-cast-occurred.html","name":"The float-string \"%s\" is not representable as an int, cast occurred","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:47 +0000","dateModified":"Tue, 31 Mar 2026 09:10:47 +0000","description":"The string contains a numeric value, that could be parsed, even partially","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/the-float-string--\"%s-\"-is-not-representable-as-an-int,-cast-occurred.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/the-float-string--\"%s-\"-is-not-representable-as-an-int,-cast-occurred.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/the-float-string--\"%s-\"-is-not-representable-as-an-int,-cast-occurred.html","name":"The float-string \"%s\" is not representable as an int, cast occurred","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 25 Jul 2026 15:31:33 +0000","dateModified":"Sat, 25 Jul 2026 15:31:33 +0000","description":"The string contains a numeric value, that could be parsed, even partially","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/the-float-string--\"%s-\"-is-not-representable-as-an-int,-cast-occurred.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -58,6 +58,11 @@ _________
 + Use the string, rather than convert it to an integer.
 + Check if the string can be converted before using the cast.
 + Compare the resulting value with ``PHP_INT_MAX``: it might be very far from the expected conversion.
+
+Related Error Messages
+______________________
+
++ :ref:`the-float-%.*h-is-not-representable-as-an-int,-cast-occurred`
 
 Changed Behavior
 ________________

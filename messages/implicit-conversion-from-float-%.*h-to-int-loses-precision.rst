@@ -21,7 +21,7 @@ Implicit conversion from float %.*H to int loses precision
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/implicit-conversion-from-float-%.*h-to-int-loses-precision.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/implicit-conversion-from-float-%.*h-to-int-loses-precision.html","name":"Implicit conversion from float %.*H to int loses precision","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 29 May 2026 16:07:18 +0000","dateModified":"Fri, 29 May 2026 16:07:18 +0000","description":"This warning is emitted when a float is passed to a typed value that requires an integer","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/implicit-conversion-from-float-%.*h-to-int-loses-precision.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/implicit-conversion-from-float-%.*h-to-int-loses-precision.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/implicit-conversion-from-float-%.*h-to-int-loses-precision.html","name":"Implicit conversion from float %.*H to int loses precision","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 25 Jul 2026 15:31:33 +0000","dateModified":"Sat, 25 Jul 2026 15:31:33 +0000","description":"This warning is emitted when a float is passed to a typed value that requires an integer","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/implicit-conversion-from-float-%.*h-to-int-loses-precision.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -60,6 +60,11 @@ _________
 
 + Cast the float to integer before using it with a typed resource.
 + Round the float to integer before using it with a typed resource.
+
+Related Error Messages
+______________________
+
++ :ref:`the-float-%.*h-is-not-representable-as-an-int,-cast-occurred`
 
 Changed Behavior
 ________________

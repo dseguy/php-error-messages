@@ -49,6 +49,12 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s%28%29%3A-passing-null-to-parameter-%23%25.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s%28%29%3A-return-value-of-the-authorizer-callback-must-be-of-type-int%2C-%25s-returned.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s%28%29%3A-return-value-of-the-collation-callback-must-be-of-type-int%2C-%25s-returned.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s%28%29%3A-returning-by-reference-from-a-void-function-is-deprecated.html</loc>
  </url>
  <url>
@@ -478,6 +484,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-call-constructor.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-change-default-fetch-mode-while-fetching.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-combine-named-arguments-and-argument-unpacking.html</loc>
  </url>
  <url>
@@ -509,6 +518,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-decrement-property-%25s%3A%3A%24%25s-of-type-int-past-its-minimal-value.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-directly-construct-directory%2C-use-dir%28%29-instead.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-increment-property-%25s%3A%3A%24%25s-of-type-int-past-its-maximal-value.html</loc>
@@ -943,6 +955,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/datetimeinterface-can%27t-be-implemented-by-user-classes.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/datetimezone-object-is-unconstructed.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/declaration-of-%25s-must-be-compatible-with-%25s.html</loc>
  </url>
  <url>
@@ -1214,6 +1229,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/interfaces-may-only-include-hooked-properties.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/intllistformatter-object-is-already-constructed.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/invalid-argument-supplied-for-foreach%28%29.html</loc>
@@ -2158,6 +2176,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-each%28%29-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-float-%25.%2Ah-is-not-representable-as-an-int%2C-cast-occurred.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-float-string--%22%25s-%22-is-not-representable-as-an-int%2C-cast-occurred.html</loc>
  </url>
  <url>
@@ -2198,6 +2219,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/trait-%22%25s%22-not-found.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/trait-%25s-used-by-%25s-is-deprecated%25s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/trait-method-%25s%3A%3A%25s-has-not-been-applied-as-%25s%3A%3A%25s.html</loc>

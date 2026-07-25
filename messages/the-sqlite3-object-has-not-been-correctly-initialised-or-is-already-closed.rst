@@ -21,7 +21,7 @@ The SQLite3 object has not been correctly initialised or is already closed
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/the-sqlite3-object-has-not-been-correctly-initialised-or-is-already-closed.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/the-sqlite3-object-has-not-been-correctly-initialised-or-is-already-closed.html","name":"The SQLite3 object has not been correctly initialised or is already closed","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:47 +0000","dateModified":"Tue, 31 Mar 2026 09:10:47 +0000","description":"There was an attempt to use the ``Sqlite3`` database, while it is not yet initialised, or already closed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/the-sqlite3-object-has-not-been-correctly-initialised-or-is-already-closed.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/the-sqlite3-object-has-not-been-correctly-initialised-or-is-already-closed.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/the-sqlite3-object-has-not-been-correctly-initialised-or-is-already-closed.html","name":"The SQLite3 object has not been correctly initialised or is already closed","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sat, 25 Jul 2026 15:31:33 +0000","dateModified":"Sat, 25 Jul 2026 15:31:33 +0000","description":"There was an attempt to use the ``Sqlite3`` database, while it is not yet initialised, or already closed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/the-sqlite3-object-has-not-been-correctly-initialised-or-is-already-closed.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -64,6 +64,10 @@ Related Error Messages
 ______________________
 
 + :ref:`call-to-a-member-function-%s()-on-%s`
++ :ref:`%s():-return-value-of-the-authorizer-callback-must-be-of-type-int,-%s-returned`
++ :ref:`%s():-return-value-of-the-collation-callback-must-be-of-type-int,-%s-returned`
++ :ref:`cannot-directly-construct-directory,-use-dir()-instead`
++ :ref:`datetimezone-object-is-unconstructed`
 
 Changed Behavior
 ________________

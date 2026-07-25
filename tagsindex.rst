@@ -48,6 +48,12 @@ Tag index
       * :ref:`syntax-error,-unexpected-token-"(int)"`
 
 
+   * callback
+
+      * :ref:`%s():-return-value-of-the-authorizer-callback-must-be-of-type-int,-%s-returned`
+      * :ref:`%s():-return-value-of-the-collation-callback-must-be-of-type-int,-%s-returned`
+
+
    * catch
 
       * :ref:`cannot-use-try-without-catch-or-finally`
@@ -118,9 +124,19 @@ Tag index
       * :ref:`undefined-constant-"%s`
 
 
+   * constructor
+
+      * :ref:`intllistformatter-object-is-already-constructed`
+
+
    * crash
 
       * :ref:`must-not-contain-empty-strings`
+
+
+   * datetime
+
+      * :ref:`datetimezone-object-is-unconstructed`
 
 
    * debug
@@ -152,6 +168,7 @@ Tag index
       * :ref:`reflectionclass::getconstant()-for-a-non-existent-constant-is-deprecated,`
       * :ref:`reflectionproperty::getdefaultvalue()-for-a-property-without-a-default-value-is-deprecated,`
       * :ref:`returning-null-from-%s::__debuginfo()-is-deprecated,-return-an-empty-array-instead`
+      * :ref:`trait-%s-used-by-%s-is-deprecated%s`
       * :ref:`using-array_key_exists()-on-objects-is-deprecated.`
 
 
@@ -212,6 +229,11 @@ Tag index
       * :ref:`module-"%s"-is-already-loaded`
       * :ref:`must-not-contain-empty-strings`
       * :ref:`security-level-must-be-one-of-"noauthnopriv",-"authnopriv",-or-"authpriv`
+
+
+   * fetch
+
+      * :ref:`cannot-change-default-fetch-mode-while-fetching`
 
 
    * file
@@ -279,6 +301,12 @@ Tag index
    * internal
 
       * :ref:`parameter-must-have-a-name`
+
+
+   * intl
+
+      * :ref:`datetimezone-object-is-unconstructed`
+      * :ref:`intllistformatter-object-is-already-constructed`
 
 
    * iterator
@@ -386,6 +414,7 @@ Tag index
 
    * non-instantiable
 
+      * :ref:`cannot-directly-construct-directory,-use-dir()-instead`
       * :ref:`sqlite3result-cannot-be-directly-instantiated`
 
 
@@ -429,6 +458,13 @@ Tag index
    * partial-lint
 
       * :ref:`could-not-check-compatibility-between-%s-and-%s,-because-class-%s-is-not-available`
+
+
+   * pdo
+
+      * :ref:`%s():-return-value-of-the-authorizer-callback-must-be-of-type-int,-%s-returned`
+      * :ref:`%s():-return-value-of-the-collation-callback-must-be-of-type-int,-%s-returned`
+      * :ref:`cannot-change-default-fetch-mode-while-fetching`
 
 
    * printf
@@ -537,6 +573,12 @@ Tag index
 
       * :ref:`property-x::$p-cannot-have-type-void`
       * :ref:`void-cannot-be-used-as-a-parameter-type`
+
+
+   * sqlite
+
+      * :ref:`%s():-return-value-of-the-authorizer-callback-must-be-of-type-int,-%s-returned`
+      * :ref:`%s():-return-value-of-the-collation-callback-must-be-of-type-int,-%s-returned`
 
 
    * strict check

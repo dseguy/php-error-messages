@@ -356,6 +356,7 @@ Features index
       * :ref:`syntax-error,-unexpected-token-")",-expecting-variable`
       * :ref:`syntax-error,-unexpected-token-";"`
       * :ref:`syntax-error,-unexpected-token-"class",-expecting-"]"`
+      * :ref:`trait-%s-used-by-%s-is-deprecated%s`
 
 
    * autoload
@@ -510,7 +511,10 @@ Features index
 
    * callback
 
+      * :ref:`%s():-return-value-of-the-authorizer-callback-must-be-of-type-int,-%s-returned`
+      * :ref:`%s():-return-value-of-the-collation-callback-must-be-of-type-int,-%s-returned`
       * :ref:`array-callback-must-have-exactly-two-elements`
+      * :ref:`cannot-change-default-fetch-mode-while-fetching`
       * :ref:`must-be-a-callable,-null-given`
       * :ref:`passing-non-callable-strings-is-deprecated-since-8.4`
 
@@ -545,6 +549,7 @@ Features index
       * :ref:`the-(real)-cast-has-been-removed,-use-(float)-instead`
       * :ref:`the-(real)-cast-is-deprecated,-use-(float)-instead`
       * :ref:`the-(unset)-cast-is-no-longer-supported`
+      * :ref:`the-float-%.*h-is-not-representable-as-an-int,-cast-occurred`
 
 
    * catch
@@ -830,9 +835,13 @@ Features index
    * constructor
 
       * :ref:`cannot-call-constructor`
+      * :ref:`cannot-change-default-fetch-mode-while-fetching`
       * :ref:`cannot-declare-promoted-property-in-an-abstract-constructor`
+      * :ref:`cannot-directly-construct-directory,-use-dir()-instead`
       * :ref:`cannot-modify-readonly-object-of-class-%s`
       * :ref:`constructor-%s::%s()-cannot-declare-a-return-type`
+      * :ref:`datetimezone-object-is-unconstructed`
+      * :ref:`intllistformatter-object-is-already-constructed`
       * :ref:`method-%s::%s()-cannot-declare-a-return-type`
       * :ref:`method-%s::%s-cannot-be-#[--nodiscard]`
       * :ref:`method-%s::__construct()-cannot-declare-a-return-type`
@@ -896,6 +905,7 @@ Features index
 
    * datetime
 
+      * :ref:`datetimezone-object-is-unconstructed`
       * :ref:`object-of-type-%s-has-not-been-correctly-initialized-by-calling-parent::__construct()-in-its-constructor`
 
 
@@ -953,6 +963,7 @@ Features index
       * :ref:`constant-%s-is-deprecated`
       * :ref:`constant-%s::%s-is-deprecated`
       * :ref:`get_defined_functions():-setting-\$exclude_disabled-to-false-has-no-effect`
+      * :ref:`trait-%s-used-by-%s-is-deprecated%s`
 
 
    * deprecation
@@ -1261,6 +1272,7 @@ Features index
 
       * :ref:`implicit-conversion-from-float-string-"%s"-to-int-loses`
       * :ref:`requested-precision-of-%d-digits-was-truncated-to-php-maximum-of-%d-digits`
+      * :ref:`the-float-%.*h-is-not-representable-as-an-int,-cast-occurred`
       * :ref:`unexpected-nan-value-was-coerced-to-%s`
 
 
@@ -1494,6 +1506,7 @@ Features index
       * :ref:`cannot-increment-property-%s::\$%s-of-type-int-past-its-maximal-value`
       * :ref:`division-of-php_int_min-by--1-is-not-an-integer`
       * :ref:`must-be-greater-than-0`
+      * :ref:`the-float-%.*h-is-not-representable-as-an-int,-cast-occurred`
       * :ref:`the-float-string--"%s-"-is-not-representable-as-an-int,-cast-occurred`
 
 
@@ -1546,6 +1559,12 @@ Features index
    * intersection-type
 
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-variable`
+
+
+   * intl
+
+      * :ref:`datetimezone-object-is-unconstructed`
+      * :ref:`intllistformatter-object-is-already-constructed`
 
 
    * is_object
@@ -1927,6 +1946,7 @@ Features index
 
    * non-instantiable
 
+      * :ref:`cannot-directly-construct-directory,-use-dir()-instead`
       * :ref:`sqlite3result-cannot-be-directly-instantiated`
 
 
@@ -2130,6 +2150,13 @@ Features index
    * pattern-matching
 
       * :ref:`using-"_"-as-%s-is-deprecated-since-8.4`
+
+
+   * pdo
+
+      * :ref:`%s():-return-value-of-the-authorizer-callback-must-be-of-type-int,-%s-returned`
+      * :ref:`%s():-return-value-of-the-collation-callback-must-be-of-type-int,-%s-returned`
+      * :ref:`cannot-change-default-fetch-mode-while-fetching`
 
 
    * pgsql
@@ -2608,6 +2635,12 @@ Features index
       * :ref:`is-an-invalid-offset`
 
 
+   * sqlite3
+
+      * :ref:`%s():-return-value-of-the-authorizer-callback-must-be-of-type-int,-%s-returned`
+      * :ref:`%s():-return-value-of-the-collation-callback-must-be-of-type-int,-%s-returned`
+
+
    * square-bracket
 
       * :ref:`syntax-error,-unexpected-token-"]"`
@@ -2819,6 +2852,7 @@ Features index
       * :ref:`syntax-error,-unexpected-token-"protected",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"public",-expecting-"{"`
       * :ref:`trait-"%s"-not-found`
+      * :ref:`trait-%s-used-by-%s-is-deprecated%s`
       * :ref:`trait-method-%s::%s-has-not-been-applied-as-%s::%s`
       * :ref:`traits-cannot-have-constants`
 
@@ -2847,6 +2881,8 @@ Features index
 
       * :ref:`%s"-will-be-interpreted-as-a-class-name.-did-you-mean-"%s"?-write-"%s"%s-to-suppress-this-warning`
       * :ref:`%s():-implicitly-marking-parameter-\$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead`
+      * :ref:`%s():-return-value-of-the-authorizer-callback-must-be-of-type-int,-%s-returned`
+      * :ref:`%s():-return-value-of-the-collation-callback-must-be-of-type-int,-%s-returned`
       * :ref:`%s-is-not-supported-on-type-%s`
       * :ref:`argument-#%d-(\$%s)-must-be-of-type-%s,-%s-given`
       * :ref:`argument-#1-(\$start)-must-be-a-single-byte-string-if`
