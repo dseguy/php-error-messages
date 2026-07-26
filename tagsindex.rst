@@ -75,6 +75,7 @@ Tag index
 
    * class
 
+      * :ref:`cannot-redeclare-class-%s`
       * :ref:`cannot-use-"parent"-when-current-class-scope-has-no-parent`
 
 
@@ -119,6 +120,12 @@ Tag index
       * :ref:`%s"-will-be-interpreted-as-a-class-name.-did-you-mean-"%s"?-write-"%s"%s-to-suppress-this-warning`
 
 
+   * const
+
+      * :ref:`cannot-declare-const-%s-because`
+      * :ref:`cannot-redeclare-constant-\'%s\'`
+
+
    * constant
 
       * :ref:`undefined-constant-"%s`
@@ -147,6 +154,16 @@ Tag index
    * debugging
 
       * :ref:`returning-null-from-%s::__debuginfo()-is-deprecated,-return-an-empty-array-instead`
+
+
+   * declare
+
+      * :ref:`namespace-declaration-statement-has-to-be`
+
+
+   * default value
+
+      * :ref:`parameter-$%s-of-%s-hook-%s::$%s-must-not-have-a-default-value`
 
 
    * deprecated
@@ -204,6 +221,11 @@ Tag index
       * :ref:`is-not-a-valid-codepoint`
 
 
+   * enum
+
+      * :ref:`case-%s-of-non-backed-enum-%s-must-not-have-a-value`
+
+
    * execution
 
       * :ref:`access-level-to-%s::%s-must-be-%s-(as-in-%s-%s)%s`
@@ -259,6 +281,7 @@ Tag index
    * function
 
       * :ref:`%s():-never-returning-function-must-not-implicitly-return`
+      * :ref:`%s-hook-of-property-%s::$%s-must-accept-exactly-one-parameters`
       * :ref:`get-hook-of-property-%s::$%s-must-not-have-a-parameter-list`
 
 
@@ -385,6 +408,7 @@ Tag index
 
    * namespace
 
+      * :ref:`namespace-declaration-statement-has-to-be`
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function"`
 
 
@@ -473,10 +497,19 @@ Tag index
       * :ref:`unknown-format-specifier-"%c`
 
 
+   * property
+
+      * :ref:`default-value-for-property-of-type-%s-may-not-be-null.-use-the-nullable-type-%s-to-allow-null-default-value`
+
+
    * property hook
 
+      * :ref:`%s-hook-of-property-%s::$%s-must-accept-exactly-one-parameters`
       * :ref:`get-hook-of-backed-property-%s::%s-with-set-hook-may-not-return-by-reference`
       * :ref:`get-hook-of-property-%s::$%s-must-not-have-a-parameter-list`
+      * :ref:`parameter-$%s-of-%s-hook-%s::$%s-must-not-be-pass-by-reference`
+      * :ref:`parameter-$%s-of-%s-hook-%s::$%s-must-not-be-variadic`
+      * :ref:`parameter-$%s-of-%s-hook-%s::$%s-must-not-have-a-default-value`
       * :ref:`unknown-hook--"%s-"-for-property-%s::$%s`
 
 
@@ -502,6 +535,7 @@ Tag index
       * :ref:`%s():-argument-#%d%s%s%s-cannot-be-passed-by-reference`
       * :ref:`cannot-acquire-reference-to-$globals`
       * :ref:`cannot-acquire-reference-to-readonly-property-%s::$%s`
+      * :ref:`parameter-$%s-of-%s-hook-%s::$%s-must-not-be-pass-by-reference`
 
 
    * reflection
@@ -747,6 +781,7 @@ Tag index
    * trait
 
       * :ref:`%s-and-%s-define-the-same-hooked-property-($%s)-in-the-composition-of-%s.-conflict-resolution-between-hooked-properties-is-currently-not-supported.-class-was-composed`
+      * :ref:`cannot-use--"static-"-as-method-modifier-in-trait-alias`
       * :ref:`required-trait-%s-wasn\'t-added-to-%s`
 
 
@@ -760,6 +795,7 @@ Tag index
       * :ref:`call-to-a-member-function-%s()-on-%s`
       * :ref:`cannot-use-%s-as-value-for-class-constant-%s::%s-of-type-%s`
       * :ref:`class-constant-%s::%s-cannot-have-type-%s`
+      * :ref:`default-value-for-property-of-type-%s-may-not-be-null.-use-the-nullable-type-%s-to-allow-null-default-value`
       * :ref:`must-be-of-type-countable|array,-%s-given`
       * :ref:`parameter-must-be-an-array-or-an-object-that-implements-countable`
       * :ref:`property-%s::$%s-cannot-have-type-%s`
@@ -784,11 +820,21 @@ Tag index
       * :ref:`undefined-variable`
 
 
+   * use
+
+      * :ref:`cannot-declare-const-%s-because`
+
+
    * validation
 
       * :ref:`argument-#1-($start)-must-be-a-single-byte-string-if`
       * :ref:`cannot-be-0`
       * :ref:`must-not-be-empty`
+
+
+   * variadic
+
+      * :ref:`parameter-$%s-of-%s-hook-%s::$%s-must-not-be-variadic`
 
 
    * visibility

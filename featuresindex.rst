@@ -601,6 +601,7 @@ Features index
       * :ref:`cannot-inherit-previously-inherited-or-override-constant-%s-from-interface-%s`
       * :ref:`cannot-make-non-abstract-method-%s::%s()-abstract-in-class-%s`
       * :ref:`cannot-redeclare-%s::%s()`
+      * :ref:`cannot-redeclare-class-%s`
       * :ref:`cannot-use%s-%s-as-%s-because-the-name-is-already-in-use`
       * :ref:`cannot-use-"parent"-when-current-class-scope-has-no-parent`
       * :ref:`cannot-use-the-final-modifier-on-an-abstract-class`
@@ -786,6 +787,8 @@ Features index
 
    * const
 
+      * :ref:`cannot-declare-const-%s-because`
+      * :ref:`cannot-redeclare-constant-\'%s\'`
       * :ref:`declaration-of-case-insensitive-constants-is-no-longer-supported`
       * :ref:`syntax-error,-unexpected-\'-\',-expecting-\'=\'`
 
@@ -1086,6 +1089,7 @@ Features index
       * :ref:`cannot-instantiate-enum-%s`
       * :ref:`cannot-redeclare-%s::%s()`
       * :ref:`case-%s-of-backed-enum-%s-must-have-a-value`
+      * :ref:`case-%s-of-non-backed-enum-%s-must-not-have-a-value`
       * :ref:`case-can-only-be-used-in-enums`
       * :ref:`class-%s-cannot-extend-enum-%s`
       * :ref:`duplicate-value-in-enum-%s-for-cases-%s-and-%s`
@@ -1818,6 +1822,7 @@ Features index
 
    * name
 
+      * :ref:`cannot-declare-const-%s-because`
       * :ref:`cannot-redeclare-%s()-(previously-declared-in-%s:%d)`
       * :ref:`cannot-redeclare-function-%s()-(previously-declared-in-%s:%d)`
       * :ref:`cannot-use%s-%s-as-%s-because-the-name-is-already-in-use`
@@ -1857,8 +1862,10 @@ Features index
 
       * :ref:`\'namespace-%s\'-is-an-invalid-class-name`
       * :ref:`call-to-undefined-function`
+      * :ref:`cannot-mix-bracketed-namespace-declarations`
       * :ref:`cannot-use-\'%s\'-as-namespace-name`
       * :ref:`cannot-use-\'namespace\'-as-namespace-name`
+      * :ref:`namespace-declaration-statement-has-to-be`
       * :ref:`namespace-declarations-cannot-be-nested`
       * :ref:`no-code-may-exist-outside-of-namespace-{}`
       * :ref:`syntax-error,-unexpected-\';\',-expecting-\'{\'`
@@ -1972,6 +1979,7 @@ Features index
 
    * nullable
 
+      * :ref:`default-value-for-property-of-type-%s-may-not-be-null.-use-the-nullable-type-%s-to-allow-null-default-value`
       * :ref:`type-mixed-cannot-be-marked-as-nullable-since-mixed-already-includes-null`
 
 
@@ -2280,6 +2288,7 @@ Features index
 
       * :ref:`%s%s%s():-return-value-must-be-of-type-%s,-%s-returned`
       * :ref:`%s-and-%s-define-the-same-hooked-property-(\$%s)-in-the-composition-of-%s.-conflict-resolution-between-hooked-properties-is-currently-not-supported.-class-was-composed`
+      * :ref:`%s-hook-of-property-%s::\$%s-must-accept-exactly-one-parameters`
       * :ref:`abstract-property-%s::\$%s-must-specify-at-least-one-abstract-hook`
       * :ref:`abstract-property-hook-cannot-have-body`
       * :ref:`cannot-create-reference-to-property-%s::\$%s`
@@ -2304,6 +2313,9 @@ Features index
       * :ref:`must-not-use-parent::\$%s::%s()-outside-a-property-hook`
       * :ref:`non-abstract-property-hook-must-have-a-body`
       * :ref:`only-hooked-properties-may-be-declared-abstract`
+      * :ref:`parameter-\$%s-of-%s-hook-%s::\$%s-must-not-be-pass-by-reference`
+      * :ref:`parameter-\$%s-of-%s-hook-%s::\$%s-must-not-be-variadic`
+      * :ref:`parameter-\$%s-of-%s-hook-%s::\$%s-must-not-have-a-default-value`
       * :ref:`property-cannot-be-both-final-and-private`
       * :ref:`property-hook-cannot-be-both-abstract-and-final`
       * :ref:`property-hook-cannot-be-both-abstract-and-private`
@@ -2839,6 +2851,7 @@ Features index
       * :ref:`cannot-access-trait-constant-%s::%s-directly`
       * :ref:`cannot-apply-#[allowdynamicproperties]-to-trait-%s`
       * :ref:`cannot-instantiate-trait-%s`
+      * :ref:`cannot-use--"static-"-as-method-modifier-in-trait-alias`
       * :ref:`cannot-use-traits-inside-of-interfaces.-%s-is-used-in-%s`
       * :ref:`class-%s-is-not-a-trait`
       * :ref:`could-not-find-trait-%s`
@@ -2919,6 +2932,7 @@ Features index
 
    * typed-property
 
+      * :ref:`default-value-for-property-of-type-%s-may-not-be-null.-use-the-nullable-type-%s-to-allow-null-default-value`
       * :ref:`property-with-asymmetric-visibility-%s::\$%s-must-have-type`
 
 

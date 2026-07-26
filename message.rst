@@ -36,6 +36,7 @@ PHP Error Messages
    messages/%s-cannot-implement-%s---it-is-not-an-interface.rst
    messages/%s-cannot-use-%s---it-is-not-a-trait.rst
    messages/%s-function-%s::%s()-cannot-be-declared-private.rst
+   messages/%s-hook-of-property-%s::$%s-must-accept-exactly-one-parameters.rst
    messages/%s-is-not-supported-on-type-%s.rst
    messages/%s-method-%s::%s()-must-not-be-abstract.rst
    messages/%s-virtual-property-%s::$%s-must-not-specify-asymmetric-visibility.rst
@@ -172,6 +173,7 @@ PHP Error Messages
    messages/cannot-create-closure-for-new-expression.rst
    messages/cannot-create-dynamic-property-%s::$%s.rst
    messages/cannot-create-reference-to-property-%s::$%s.rst
+   messages/cannot-declare-const-%s-because.rst
    messages/cannot-declare-hooks-for-static-property.rst
    messages/cannot-declare-promoted-property-in-an-abstract-constructor.rst
    messages/cannot-declare-promoted-property-outside-a-constructor.rst
@@ -189,6 +191,7 @@ PHP Error Messages
    messages/cannot-make-non-abstract-method-%s::%s()-abstract-in-class-%s.rst
    messages/cannot-make-non-static-method-%s::%s()-static-in-class-%s.rst
    messages/cannot-make-static-method-%s::%s()-non-static-in-class-%s.rst
+   messages/cannot-mix-bracketed-namespace-declarations.rst
    messages/cannot-mix-keyed-and-unkeyed-array-entries-in-assignments.rst
    messages/cannot-modify-header-information---headers-already-sent.rst
    messages/cannot-modify-readonly-object-of-class-%s.rst
@@ -206,6 +209,8 @@ PHP Error Messages
    messages/cannot-redeclare-%s()-(previously-declared-in-%s:%d).rst
    messages/cannot-redeclare-%s-property-%s::$%s-as-%s-%s::$%s.rst
    messages/cannot-redeclare-%s::%s().rst
+   messages/cannot-redeclare-class-%s.rst
+   messages/cannot-redeclare-constant-'%s'.rst
    messages/cannot-redeclare-function-%s()-(previously-declared-in-%s:%d).rst
    messages/cannot-redeclare-property-hook--"%s.rst
    messages/cannot-redeclare-property-hook.rst
@@ -251,6 +256,7 @@ PHP Error Messages
    messages/cannot-use-'static'-as-constant-modifier.rst
    messages/cannot-use-'static'-as-method-modifier.rst
    messages/cannot-use--"%s-"-as-%s-as-it-is-reserved.rst
+   messages/cannot-use--"static-"-as-method-modifier-in-trait-alias.rst
    messages/cannot-use--"yield-from-"-inside-a-by-reference-generator.rst
    messages/cannot-use-::class-with-dynamic-class-name.rst
    messages/cannot-use-[]-for-reading.rst
@@ -287,6 +293,7 @@ PHP Error Messages
    messages/cannot-use-try-without-catch-or-finally.rst
    messages/cannot-use-variable-$%s-twice.rst
    messages/case-%s-of-backed-enum-%s-must-have-a-value.rst
+   messages/case-%s-of-non-backed-enum-%s-must-not-have-a-value.rst
    messages/case-%s::%s-does-not-exist.rst
    messages/case-can-only-be-used-in-enums.rst
    messages/case-statements-followed-by-a-semicolon-(;)-are-deprecated,-use-a-colon-(:)-instead.rst
@@ -330,6 +337,7 @@ PHP Error Messages
    messages/decrement-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php.rst
    messages/decrement-on-type-null-has-no-effect,-this-will-change-in-the-next-major-version-of-php.rst
    messages/default-value-for-parameters-with-a-%s-type-can-only-be-%s-or-null.rst
+   messages/default-value-for-property-of-type-%s-may-not-be-null.-use-the-nullable-type-%s-to-allow-null-default-value.rst
    messages/default-value-for-property-of-type-int-may-not-be-null.-use-the-nullable-type-?int-to-allow-null-default-value.rst
    messages/define():-argument-#3-($case_insensitive)-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported.rst
    messages/define():-declaration-of-case-insensitive-constants-is-deprecated.rst
@@ -482,6 +490,7 @@ PHP Error Messages
    messages/must-not-use-parent::$%s::%s()-in-a-different-property-hook-(%s).rst
    messages/must-not-use-parent::$%s::%s()-outside-a-property-hook.rst
    messages/named-parameter-$%s-overwrites-previous-argument.rst
+   messages/namespace-declaration-statement-has-to-be.rst
    messages/namespace-declarations-cannot-be-nested.rst
    messages/needle-is-not-a-string-or-an-integer.rst
    messages/negative-power-of-zero.rst
@@ -527,6 +536,9 @@ PHP Error Messages
    messages/open_basedir-prohibits-opening-%s.rst
    messages/open_basedir-restriction-in-effect.-file(%s)-is-not-within-the-allowed-path(s):-(%s).rst
    messages/optional-parameter-$%s-declared-before-required-parameter-$%s-is-implicitly-treated-as-a-required-parameter.rst
+   messages/parameter-$%s-of-%s-hook-%s::$%s-must-not-be-pass-by-reference.rst
+   messages/parameter-$%s-of-%s-hook-%s::$%s-must-not-be-variadic.rst
+   messages/parameter-$%s-of-%s-hook-%s::$%s-must-not-have-a-default-value.rst
    messages/parameter-%d-must-be-passed-by-reference.rst
    messages/parameter-must-be-an-array-or-an-object-that-implements-countable.rst
    messages/parameter-must-have-a-name.rst

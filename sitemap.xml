@@ -94,6 +94,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s-function-%25s%3A%3A%25s%28%29-cannot-be-declared-private.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s-hook-of-property-%25s%3A%3A%24%25s-must-accept-exactly-one-parameters.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s-is-not-supported-on-type-%25s.html</loc>
  </url>
  <url>
@@ -502,6 +505,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-create-reference-to-property-%25s%3A%3A%24%25s.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-declare-const-%25s-because.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-declare-hooks-for-static-property.html</loc>
  </url>
  <url>
@@ -553,6 +559,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-make-static-method-%25s%3A%3A%25s%28%29-non-static-in-class-%25s.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-mix-bracketed-namespace-declarations.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-mix-keyed-and-unkeyed-array-entries-in-assignments.html</loc>
  </url>
  <url>
@@ -602,6 +611,12 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-%25s%3A%3A%25s%28%29.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-class-%25s.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-constant-%27%25s%27.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-function-%25s%28%29-%28previously-declared-in-%25s%3A%25d%29.html</loc>
@@ -739,6 +754,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use--%22%25s-%22-as-%25s-as-it-is-reserved.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use--%22static-%22-as-method-modifier-in-trait-alias.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use--%22yield-from-%22-inside-a-by-reference-generator.html</loc>
  </url>
  <url>
@@ -845,6 +863,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/case-%25s-of-backed-enum-%25s-must-have-a-value.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/case-%25s-of-non-backed-enum-%25s-must-not-have-a-value.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/case-%25s%3A%3A%25s-does-not-exist.html</loc>
@@ -974,6 +995,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/default-value-for-parameters-with-a-%25s-type-can-only-be-%25s-or-null.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/default-value-for-property-of-type-%25s-may-not-be-null.-use-the-nullable-type-%25s-to-allow-null-default-value.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/default-value-for-property-of-type-int-may-not-be-null.-use-the-nullable-type-%3Fint-to-allow-null-default-value.html</loc>
@@ -1432,6 +1456,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/named-parameter-%24%25s-overwrites-previous-argument.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/namespace-declaration-statement-has-to-be.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/namespace-declarations-cannot-be-nested.html</loc>
  </url>
  <url>
@@ -1565,6 +1592,15 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/optional-parameter-%24%25s-declared-before-required-parameter-%24%25s-is-implicitly-treated-as-a-required-parameter.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/parameter-%24%25s-of-%25s-hook-%25s%3A%3A%24%25s-must-not-be-pass-by-reference.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/parameter-%24%25s-of-%25s-hook-%25s%3A%3A%24%25s-must-not-be-variadic.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/parameter-%24%25s-of-%25s-hook-%25s%3A%3A%24%25s-must-not-have-a-default-value.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/parameter-%25d-must-be-passed-by-reference.html</loc>
