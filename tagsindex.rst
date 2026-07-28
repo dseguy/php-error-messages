@@ -56,6 +56,7 @@ Tag index
 
    * catch
 
+      * :ref:`bad-class-name-in-the-catch-statement`
       * :ref:`cannot-use-try-without-catch-or-finally`
 
 
@@ -158,6 +159,8 @@ Tag index
 
    * declare
 
+      * :ref:`declare(%s)-value-must-be-a-literal`
+      * :ref:`encoding-declaration-pragma-must-be`
       * :ref:`namespace-declaration-statement-has-to-be`
 
 
@@ -205,6 +208,12 @@ Tag index
       * :ref:`open_basedir-restriction-in-effect.-file(%s)-is-not-within-the-allowed-path(s):-(%s)`
 
 
+   * dnf
+
+      * :ref:`type-%s-is-redundant-as-it-is-more-restrictive-than-type-%s`
+      * :ref:`type-%s-is-redundant-with-type-%s`
+
+
    * edge case
 
       * :ref:`is-an-invalid-class-name`
@@ -218,12 +227,18 @@ Tag index
 
    * encoding
 
+      * :ref:`encoding-declaration-pragma-must-be`
       * :ref:`is-not-a-valid-codepoint`
 
 
    * enum
 
       * :ref:`case-%s-of-non-backed-enum-%s-must-not-have-a-value`
+
+
+   * exception
+
+      * :ref:`bad-class-name-in-the-catch-statement`
 
 
    * execution
@@ -271,6 +286,11 @@ Tag index
    * forbidden
 
       * :ref:`non-enum-class-%s-cannot-implement-interface-%s`
+
+
+   * foreach
+
+      * :ref:`cannot-use-list-as-key-element`
 
 
    * fully-qualified-name
@@ -326,6 +346,11 @@ Tag index
       * :ref:`parameter-must-have-a-name`
 
 
+   * intersection
+
+      * :ref:`type-%s-cannot-be-part-of-an-intersection-type`
+
+
    * intl
 
       * :ref:`datetimezone-object-is-unconstructed`
@@ -372,6 +397,7 @@ Tag index
    * list
 
       * :ref:`cannot-use-empty-list`
+      * :ref:`cannot-use-list-as-key-element`
 
 
    * lower-case-name
@@ -380,6 +406,7 @@ Tag index
       * :ref:`ffi-api-is-restricted-by-"ffi.enable"-configuration-directive`
       * :ref:`syntax-error,-unexpected-identifier-"%s"`
       * :ref:`syntax-error,-unexpected-token-"%s",-expecting-identifier`
+      * :ref:`type-%s-contains-both-object-and-a-class-type`
 
 
    * magic-method
@@ -456,6 +483,16 @@ Tag index
    * not-recommended
 
       * :ref:`syntax-error,-unexpected-token-"(",-expecting-"::"`
+
+
+   * null
+
+      * :ref:`null-cannot-be-marked-as-nullable`
+
+
+   * object
+
+      * :ref:`type-%s-contains-both-object-and-a-class-type`
 
 
    * offset
@@ -619,6 +656,13 @@ Tag index
 
       * :ref:`providing-a-string-that-is-not-one-byte-long-is-deprecated.-use-ord($str[0])-instead`
       * :ref:`providing-an-empty-string-is-deprecated`
+
+
+   * strict_types
+
+      * :ref:`strict_types-declaration-must-be`
+      * :ref:`strict_types-declaration-must-have-0-or-1-as-its-value`
+      * :ref:`strict_types-declaration-must-not`
 
 
    * string
@@ -797,9 +841,14 @@ Tag index
       * :ref:`class-constant-%s::%s-cannot-have-type-%s`
       * :ref:`default-value-for-property-of-type-%s-may-not-be-null.-use-the-nullable-type-%s-to-allow-null-default-value`
       * :ref:`must-be-of-type-countable|array,-%s-given`
+      * :ref:`null-cannot-be-marked-as-nullable`
       * :ref:`parameter-must-be-an-array-or-an-object-that-implements-countable`
       * :ref:`property-%s::$%s-cannot-have-type-%s`
       * :ref:`set-type-of-%s::$%s-must-be-supertype-of-%s-(as-in-%s-%s)`
+      * :ref:`type-%s-cannot-be-part-of-an-intersection-type`
+      * :ref:`type-%s-contains-both-object-and-a-class-type`
+      * :ref:`type-%s-is-redundant-as-it-is-more-restrictive-than-type-%s`
+      * :ref:`type-%s-is-redundant-with-type-%s`
       * :ref:`type-mixed-can-only-be-used-as-a-standalone-type`
       * :ref:`type-of-parameter-$%s-of-hook-%s::$%s::set-must-be-compatible-with-property-type`
 

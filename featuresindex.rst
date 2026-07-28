@@ -554,6 +554,7 @@ Features index
 
    * catch
 
+      * :ref:`bad-class-name-in-the-catch-statement`
       * :ref:`syntax-error,-unexpected-\')\',-expecting-\'|\'-or-variable-(t_variable)`
 
 
@@ -920,6 +921,8 @@ Features index
 
    * declare
 
+      * :ref:`declare(%s)-value-must-be-a-literal`
+      * :ref:`encoding-declaration-pragma-must-be`
       * :ref:`no-code-may-exist-outside-of-namespace-{}`
       * :ref:`syntax-error,-unexpected-token-")",-expecting-"="`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-","-or-")"`
@@ -1005,6 +1008,12 @@ Features index
       * :ref:`negative-power-of-zero`
 
 
+   * dnf-type
+
+      * :ref:`type-%s-is-redundant-as-it-is-more-restrictive-than-type-%s`
+      * :ref:`type-%s-is-redundant-with-type-%s`
+
+
    * do-while
 
       * :ref:`syntax-error,-unexpected-\',\'`
@@ -1065,6 +1074,7 @@ Features index
    * encoding
 
       * :ref:`charset-"%s"-is-not-supported,-assuming-utf-8`
+      * :ref:`encoding-declaration-pragma-must-be`
       * :ref:`must-be-a-valid-charset`
       * :ref:`must-be-a-valid-encoding,-"%s"-given`
       * :ref:`passing-the-encoding-as-third-parameter-is-deprecated.-use-an-explicit-zero-offset`
@@ -1284,6 +1294,7 @@ Features index
 
       * :ref:`an-iterator-cannot-be-used-with-foreach-by-reference`
       * :ref:`cannot-create-reference-to-property-%s::\$%s`
+      * :ref:`cannot-use-list-as-key-element`
       * :ref:`foreach()-argument-must-be-of-type-array|object`
       * :ref:`invalid-argument-supplied-for-foreach()`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-variable`
@@ -1563,6 +1574,9 @@ Features index
    * intersection-type
 
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-variable`
+      * :ref:`type-%s-cannot-be-part-of-an-intersection-type`
+      * :ref:`type-%s-is-redundant-as-it-is-more-restrictive-than-type-%s`
+      * :ref:`type-%s-is-redundant-with-type-%s`
 
 
    * intl
@@ -1642,6 +1656,7 @@ Features index
       * :ref:`cannot-use-empty-list`
       * :ref:`cannot-use-empty-list`
       * :ref:`cannot-use-list()-as-standalone-expression`
+      * :ref:`cannot-use-list-as-key-element`
       * :ref:`must-be-a-list-array`
       * :ref:`spread-operator-is-not-supported-in-assignments`
       * :ref:`syntax-error,-unexpected-\')\',-expecting-\'=\'`
@@ -1969,6 +1984,7 @@ Features index
       * :ref:`must-be-empty-when-class-provided-in-argument-#1-(\$class)-does-not-have-a-constructor`
       * :ref:`must-be-empty-when-class-provided-in-argument-#2-(\$class)-does-not-have-a-constructor`
       * :ref:`must-be-of-type-countable|array,-%s-given`
+      * :ref:`null-cannot-be-marked-as-nullable`
       * :ref:`parameter-must-be-an-array-or-an-object-that-implements-countable`
       * :ref:`passing-null-is-deprecated,-instead-the-last-opened-directory-stream-should-be-provided`
       * :ref:`strlen():-passing-null-to-parameter-#1-(\$string)-of-type-string-is-deprecated`
@@ -1980,6 +1996,7 @@ Features index
    * nullable
 
       * :ref:`default-value-for-property-of-type-%s-may-not-be-null.-use-the-nullable-type-%s-to-allow-null-default-value`
+      * :ref:`null-cannot-be-marked-as-nullable`
       * :ref:`type-mixed-cannot-be-marked-as-nullable-since-mixed-already-includes-null`
 
 
@@ -2011,6 +2028,7 @@ Features index
       * :ref:`cannot-use-object-of-type-%s-as-array`
       * :ref:`cannot-use-object-of-type-stdclass-as-array`
       * :ref:`object-of-type-%s-is-not-callable`
+      * :ref:`type-%s-contains-both-object-and-a-class-type`
       * :ref:`using-an-object-as-a-backing-array-for-%s-is-deprecated,-as-it-allows-violating-class-constraints-and-invariants`
 
 
@@ -2667,6 +2685,7 @@ Features index
       * :ref:`"static::"-is-not-allowed-in-compile-time-constants`
       * :ref:`\'-%s\'-is-an-invalid-class-name`
       * :ref:`accessing-static-property-%s::\$%s-as-non-static`
+      * :ref:`bad-class-name-in-the-catch-statement`
       * :ref:`cannot-access-static::-when-no-class-scope-is-active`
       * :ref:`cannot-make-non-static-method-%s::%s()-static-in-class-%s`
       * :ref:`cannot-make-static-method-%s::%s()-non-static-in-class-%s`
@@ -2735,6 +2754,9 @@ Features index
       * :ref:`object-of-class-%s-could-not-be-converted-to-%s`
       * :ref:`return-value-of-%s%s%s()-must-%s%s%s,-%s%s-returned`
       * :ref:`strict_types-declaration-must-be-the-very-first-statement-in-the-script`
+      * :ref:`strict_types-declaration-must-be`
+      * :ref:`strict_types-declaration-must-have-0-or-1-as-its-value`
+      * :ref:`strict_types-declaration-must-not`
       * :ref:`syntax-error,-unexpected-token-"=",-expecting-identifier`
       * :ref:`syntax-error,-unexpected-token-"namespace"`
       * :ref:`unsupported-declare-\'%s\'`
@@ -2918,6 +2940,7 @@ Features index
       * :ref:`needle-is-not-a-string-or-an-integer`
       * :ref:`readonly-property-%s::\$%s-must-have-type`
       * :ref:`syntax-error,-unexpected-token-"?"`
+      * :ref:`type-%s-contains-both-object-and-a-class-type`
       * :ref:`type-mixed-can-only-be-used-as-a-standalone-type`
       * :ref:`type-mixed-cannot-be-marked-as-nullable-since-mixed-already-includes-null`
       * :ref:`using-array_key_exists()-on-objects-is-deprecated.`

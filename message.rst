@@ -112,6 +112,7 @@ PHP Error Messages
    messages/attribute-class-"%s"-not-found.rst
    messages/automatic-conversion-of-false-to-array-is-deprecated.rst
    messages/b-cannot-implement-a---it-is-not-an-interface.rst
+   messages/bad-class-name-in-the-catch-statement.rst
    messages/break-operator-accepts-only-positive-integers.rst
    messages/call-to-%s-%s::%s()-from-global-scope.rst
    messages/call-to-%s-%s::%s()-from-invalid.rst
@@ -271,6 +272,7 @@ PHP Error Messages
    messages/cannot-use-isset()-on-the-result-of-an-expression-(you-can-use-"null-!==-expression"-instead).rst
    messages/cannot-use-lexical-variable-%s-as-a-parameter-name.rst
    messages/cannot-use-list()-as-standalone-expression.rst
+   messages/cannot-use-list-as-key-element.rst
    messages/cannot-use-multiple-endian-options.rst
    messages/cannot-use-multiple-word-order-options.rst
    messages/cannot-use-object-of-type-%s-as-array.rst
@@ -334,6 +336,7 @@ PHP Error Messages
    messages/declaration-of-%s-must-be-compatible-with-%s.rst
    messages/declaration-of-%s::%s()-must-be-compatible-with-%s::%s().rst
    messages/declaration-of-case-insensitive-constants-is-no-longer-supported.rst
+   messages/declare(%s)-value-must-be-a-literal.rst
    messages/decrement-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php.rst
    messages/decrement-on-type-null-has-no-effect,-this-will-change-in-the-next-major-version-of-php.rst
    messages/default-value-for-parameters-with-a-%s-type-can-only-be-%s-or-null.rst
@@ -357,6 +360,7 @@ PHP Error Messages
    messages/dynamic-class-names-are-not-allowed-in-compile-time-class-constant-references.rst
    messages/empty-delimiter.rst
    messages/enabling-session.use_trans_sid-ini-setting-is-deprecated.rst
+   messages/encoding-declaration-pragma-must-be.rst
    messages/entry-%s-does-not-exist-and-cannot-be-deleted.rst
    messages/enum-"%s"-not-found.rst
    messages/enum-%s-cannot-implement-the-serializable-interface.rst
@@ -512,6 +516,7 @@ PHP Error Messages
    messages/non-static-method-%s::%s()-cannot-be-called-statically.rst
    messages/non-static-method-%s::%s()-should-not-be-called-statically.rst
    messages/non-string-needles-will-be-interpreted-as-strings-in-the-future.-use-an-explicit-chr()-call-to-preserve-the-current-behavior.rst
+   messages/null-cannot-be-marked-as-nullable.rst
    messages/object-casts-are-not-supported-in-this-context.rst
    messages/object-not-initialized.rst
    messages/object-of-class-%s-could-not-be-converted-to-%s.rst
@@ -597,6 +602,9 @@ PHP Error Messages
    messages/static-property-%s::$%s-cannot-be-readonly.rst
    messages/static-property-may-not-have-asymmetric-visibility.rst
    messages/strict_types-declaration-must-be-the-very-first-statement-in-the-script.rst
+   messages/strict_types-declaration-must-be.rst
+   messages/strict_types-declaration-must-have-0-or-1-as-its-value.rst
+   messages/strict_types-declaration-must-not.rst
    messages/strlen():-passing-null-to-parameter-#1-($string)-of-type-string-is-deprecated.rst
    messages/switch-statements-may-only-contain-one-default-clause.rst
    messages/syntax-error,-unexpected-')',-expecting-'='.rst
@@ -764,7 +772,11 @@ PHP Error Messages
    messages/trying-to-clone-an-uncloneable-object-of-class-%s.rst
    messages/trying-to-invoke-%s-method-%s::%s()-from-scope-%s.rst
    messages/type-%c:-unknown-format-code.rst
+   messages/type-%s-cannot-be-part-of-an-intersection-type.rst
    messages/type-%s-contains-both-iterable-and-array.rst
+   messages/type-%s-contains-both-object-and-a-class-type.rst
+   messages/type-%s-is-redundant-as-it-is-more-restrictive-than-type-%s.rst
+   messages/type-%s-is-redundant-with-type-%s.rst
    messages/type-contains-both-true-and-false,-bool-must-be-used-instead.rst
    messages/type-declaration-'%s'-must-be-unqualified.rst
    messages/type-mixed-can-only-be-used-as-a-standalone-type.rst
