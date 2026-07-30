@@ -57,6 +57,12 @@ Features index
       * :ref:`returning-null-from-%s::__debuginfo()-is-deprecated,-return-an-empty-array-instead`
 
 
+   * __halt_compiler
+
+      * :ref:`0-__halt_compiler()-can-only-be-used-from-the-outermost-scope`
+      * :ref:`halt_compiler()-can-only-be-used-from-the-outermost-scope`
+
+
    * __invoke
 
       * :ref:`object-of-type-%s-is-not-callable`
@@ -176,6 +182,7 @@ Features index
 
       * :ref:`%s-%s-must-implement-%d-abstract-method%s-(`
       * :ref:`anonymous-class-method-%s()-must-not-be-abstract`
+      * :ref:`cannot-use-anonymous-class-in-constant-expression`
 
 
    * append
@@ -630,11 +637,13 @@ Features index
       * :ref:`%s-%s-inherits-both-%s::%s-and-%s::%s`
       * :ref:`%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed`
       * :ref:`(expression)::class-cannot-be-used-in-constant-expressions`
+      * :ref:`a-class-constant-must-not-be-called-class;-it-is-reserved-for-class-name-fetching-ce->type-==-zend_internal_class-?-e_core_error-:`
       * :ref:`cannot-access-%s-const-%s::%s`
       * :ref:`cannot-access-%s-constant-%s::%s`
       * :ref:`cannot-assign-%s-to-class-constant-%s::%s-of-type`
       * :ref:`cannot-be-a-class-constant`
       * :ref:`cannot-inherit-previously-inherited-or-override-constant-%s-from-interface-%s`
+      * :ref:`cannot-redefine-class-constant-%s::%s-ce->type-==-zend_internal_class-?-e_core_error-:`
       * :ref:`cannot-redefine-class-constant`
       * :ref:`cannot-use-%s-as-value-for-class-constant-%s::%s-of-type-%s`
       * :ref:`cannot-use-\'abstract\'-as-constant-modifier`
@@ -643,6 +652,8 @@ Features index
       * :ref:`cannot-use-the-%s-modifier-on-a-%s`
       * :ref:`class-constant-%s::%s-cannot-have-type-%s`
       * :ref:`constant-%s::%s-is-deprecated`
+      * :ref:`static::-"-is-not-allowed-in-compile-time-constants`
+      * :ref:`static::class-cannot-be-used-for-compile-time-class-name-resolution`
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function"-or-"const"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"function"-or-"const"`
       * :ref:`syntax-error,-unexpected-namespaced-name-"%s",-expecting-"function"`
@@ -650,6 +661,12 @@ Features index
       * :ref:`traits-cannot-have-constants`
       * :ref:`undefined-class-constant-\'%s::%s\'`
       * :ref:`undefined-constant-%s::%s`
+
+
+   * class-name-resolution
+
+      * :ref:`a-class-constant-must-not-be-called-class;-it-is-reserved-for-class-name-fetching-ce->type-==-zend_internal_class-?-e_core_error-:`
+      * :ref:`cannot-use--"::class-"-on-%s`
 
 
    * class-operator
@@ -991,6 +1008,12 @@ Features index
       * :ref:`object-not-initialized`
 
 
+   * destructuring
+
+      * :ref:`cannot-assign-to-array(),-use-[]-instead`
+      * :ref:`cannot-mix-[]-and-list()`
+
+
    * dir
 
       * :ref:`passing-null-is-deprecated,-instead-the-last-opened-directory-stream-should-be-provided`
@@ -1180,6 +1203,7 @@ Features index
    * expression
 
       * :ref:`cannot-use-isset()-on-the-result-of-an-expression-(you-can-use-"null-!==-expression"-instead)`
+      * :ref:`cannot-use-isset()-on-the-result-of-an-expression`
       * :ref:`cannot-use-list()-as-standalone-expression`
       * :ref:`cannot-use-temporary-expression-in-write-context`
       * :ref:`syntax-error,-unexpected-\'throw\'-(t_throw)`
@@ -1277,6 +1301,7 @@ Features index
       * :ref:`array-callback-has-to-contain-indices-0-and-1`
       * :ref:`cannot-create-closure-as-attribute-argument`
       * :ref:`cannot-create-closure-for-new-expression`
+      * :ref:`cannot-create-closure-for-parent-property-hook-call`
       * :ref:`cannot-use-dynamic-method-name-in-constant-expression`
       * :ref:`illegal-method-name`
       * :ref:`instantiation-of-class-closure-is-not-allowed`
@@ -1363,6 +1388,11 @@ Features index
       * :ref:`syntax-error,-unexpected-token-"->",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-token-"::",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-token-"?->",-expecting-","-or-";"`
+
+
+   * globals
+
+      * :ref:`cannot-append-to-\$globals`
 
 
    * goto
@@ -1594,6 +1624,7 @@ Features index
 
       * :ref:`cannot-access-offset-of-type-%s-in-isset-or-empty`
       * :ref:`cannot-use-isset()-on-the-result-of-an-expression-(you-can-use-"null-!==-expression"-instead)`
+      * :ref:`cannot-use-isset()-on-the-result-of-an-expression`
       * :ref:`typed-property-%s::\$%s-must-not-be-accessed-before-initialization`
       * :ref:`typed-static-property-%s::\$%s-must-not-be-accessed-before-initialization`
 
@@ -1637,6 +1668,13 @@ Features index
       * :ref:`label-\'%s\'-already-defined`
 
 
+   * late-static-binding
+
+      * :ref:`static-"-is-not-allowed-in-compile-time-constants`
+      * :ref:`static::-"-is-not-allowed-in-compile-time-constants`
+      * :ref:`static::class-cannot-be-used-for-compile-time-class-name-resolution`
+
+
    * lexical
 
       * :ref:`cannot-use-\$this-as-lexical-variable`
@@ -1649,6 +1687,7 @@ Features index
 
       * :ref:`cannot-assign-reference-to-non-referenceable-value`
       * :ref:`cannot-assign-to-array(),-use-[]-instead-in-%s`
+      * :ref:`cannot-mix-[]-and-list()`
       * :ref:`cannot-mix-keyed-and-unkeyed-array-entries-in-assignments`
       * :ref:`cannot-use-%s-as-array`
       * :ref:`cannot-use-empty-array-elements-in-arrays`
@@ -1858,6 +1897,7 @@ Features index
       * :ref:`%s%s%s()-does-not-accept-unknown-named-parameters`
       * :ref:`array_merge()-does-not-accept-unknown-named-parameters`
       * :ref:`cannot-combine-named-arguments-and-argument-unpacking`
+      * :ref:`cannot-use-argument-unpacking-after-named-arguments`
       * :ref:`duplicate-named-parameter-\$%s`
       * :ref:`optional-parameter-\$%s-declared-before-required-parameter-\$%s-is-implicitly-treated-as-a-required-parameter`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-")"`
@@ -1948,6 +1988,13 @@ Features index
    * new-in-initializer
 
       * :ref:`new-expressions-are-not-supported-in-this-context`
+
+
+   * new-in-initializers
+
+      * :ref:`cannot-use-anonymous-class-in-constant-expression`
+      * :ref:`cannot-use-dynamic-class-name-in-constant-expression`
+      * :ref:`static-"-is-not-allowed-in-compile-time-constants`
 
 
    * new-line
@@ -2168,6 +2215,13 @@ Features index
       * :ref:`unparenthesized-\`a-?-b-:-c-?-d-:-e\`-is-not-supported.`
 
 
+   * partial-application
+
+      * :ref:`cannot-combine-partial-application-and-unpacking`
+      * :ref:`variadic-placeholder-may-only-appear-once`
+      * :ref:`variadic-placeholder-must-be-last`
+
+
    * path
 
       * :ref:`open_basedir-restriction-in-effect.-file(%s)-is-not-within-the-allowed-path(s):-(%s)`
@@ -2309,6 +2363,7 @@ Features index
       * :ref:`%s-hook-of-property-%s::\$%s-must-accept-exactly-one-parameters`
       * :ref:`abstract-property-%s::\$%s-must-specify-at-least-one-abstract-hook`
       * :ref:`abstract-property-hook-cannot-have-body`
+      * :ref:`cannot-create-closure-for-parent-property-hook-call`
       * :ref:`cannot-create-reference-to-property-%s::\$%s`
       * :ref:`cannot-declare-hooks-for-static-property`
       * :ref:`cannot-override-final-property-hook-%s::%s()`
@@ -2418,6 +2473,7 @@ Features index
       * :ref:`cannot-create-reference-to-property-%s::\$%s`
       * :ref:`cannot-indirectly-modify-readonly-property-%s::\$%s`
       * :ref:`cannot-pass-parameter-%d-by-reference`
+      * :ref:`cannot-use-result-of-built-in-function-in-write-context`
       * :ref:`cannot-use-variable-\$%s-twice`
       * :ref:`indirect-modification-of-%s::\$%s-is-not-allowed`
       * :ref:`only-variable-references-should-be-returned-by-reference`
@@ -2873,6 +2929,7 @@ Features index
       * :ref:`cannot-access-trait-constant-%s::%s-directly`
       * :ref:`cannot-apply-#[allowdynamicproperties]-to-trait-%s`
       * :ref:`cannot-instantiate-trait-%s`
+      * :ref:`cannot-redefine-class-constant-%s::%s-ce->type-==-zend_internal_class-?-e_core_error-:`
       * :ref:`cannot-use--"static-"-as-method-modifier-in-trait-alias`
       * :ref:`cannot-use-traits-inside-of-interfaces.-%s-is-used-in-%s`
       * :ref:`class-%s-is-not-a-trait`
@@ -2993,6 +3050,8 @@ Features index
    * unpacking
 
       * :ref:`cannot-combine-named-arguments-and-argument-unpacking`
+      * :ref:`cannot-combine-partial-application-and-unpacking`
+      * :ref:`cannot-use-argument-unpacking-after-named-arguments`
       * :ref:`cannot-use-positional-argument-after-argument-unpacking`
       * :ref:`cannot-use-positional-argument-after-named-argument`
       * :ref:`keys-must-be-of-type-int|string-during-array-unpacking`
@@ -3001,9 +3060,12 @@ Features index
    * unset
 
       * :ref:`attempt-to-unset-static-property-%s::\$%s`
+      * :ref:`can\'t-use-function-return-value-in-write-context`
+      * :ref:`can\'t-use-method-return-value-in-write-context`
       * :ref:`cannot-unset-\$this`
       * :ref:`cannot-unset-readonly-property-%s::\$%s`
       * :ref:`cannot-unset-string-offsets`
+      * :ref:`cannot-use-[]-for-unsetting`
       * :ref:`object-not-initialized`
       * :ref:`the-(unset)-cast-is-deprecated`
       * :ref:`the-(unset)-cast-is-no-longer-supported`
@@ -3156,6 +3218,12 @@ Features index
    * writable
 
       * :ref:`assignments-can-only-happen-to-writable-values`
+
+
+   * write-context
+
+      * :ref:`can\'t-use-function-return-value-in-write-context`
+      * :ref:`can\'t-use-method-return-value-in-write-context`
 
 
    * writing

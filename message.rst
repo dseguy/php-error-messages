@@ -54,13 +54,16 @@ PHP Error Messages
    messages/'goto'-to-undefined-label-'%s'.rst
    messages/'namespace-%s'-is-an-invalid-class-name.rst
    messages/(expression)::class-cannot-be-used-in-constant-expressions.rst
+   messages/0-__halt_compiler()-can-only-be-used-from-the-outermost-scope.rst
    messages/[]-operator-not-supported-for-strings.rst
    messages/autoload()-is-deprecated,-use-spl_autoload_register()-instead.rst
    messages/autoload()-is-no-longer-supported,-use-spl_autoload_register()-instead.rst
    messages/clone-method-called-on-non-object.rst
+   messages/halt_compiler()-can-only-be-used-from-the-outermost-scope.rst
    messages/sleep-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize..rst
    messages/%s'-is-not-a-valid-mode-for-fopen.rst
    messages/a-class-constant-must-not-be-called-class.-it-is-reserved-for-class-name-fetching.rst
+   messages/a-class-constant-must-not-be-called-class;-it-is-reserved-for-class-name-fetching-ce->type-==-zend_internal_class-?-e_core_error-:.rst
    messages/a-function-with-return-type-must-return-a-value.rst
    messages/a-never-returning-%s-does-not-return-a-value.rst
    messages/a-never-returning-%s-must-not-return.rst
@@ -129,6 +132,8 @@ PHP Error Messages
    messages/calling-get_parent_class()-without-arguments-is-deprecated.rst
    messages/calling-static-trait-method-%s::%s-is-deprecated.rst
    messages/can't-inherit-abstract-function-%s::%s()-(previously-declared-abstract-in-%s).rst
+   messages/can't-use-function-return-value-in-write-context.rst
+   messages/can't-use-method-return-value-in-write-context.rst
    messages/can't-use-nullsafe-operator-in-write-context.rst
    messages/can-only-flip-string-and-integer-values,-entry-skipped.rst
    messages/can-only-throw-objects.rst
@@ -146,6 +151,7 @@ PHP Error Messages
    messages/cannot-acquire-reference-to-$globals.rst
    messages/cannot-acquire-reference-to-readonly-property-%s::$%s.rst
    messages/cannot-add-element-to-the-array-as-the-next-element-is-already-occupied.rst
+   messages/cannot-append-to-$globals.rst
    messages/cannot-apply-#[allowdynamicproperties]-to-enum-%s.rst
    messages/cannot-apply-#[allowdynamicproperties]-to-interface-%s.rst
    messages/cannot-apply-#[allowdynamicproperties]-to-readonly-class-%s.rst
@@ -157,6 +163,7 @@ PHP Error Messages
    messages/cannot-assign-an-empty-string-to-a-string-offset.rst
    messages/cannot-assign-reference-to-non-referenceable-value.rst
    messages/cannot-assign-to-array(),-use-[]-instead-in-%s.rst
+   messages/cannot-assign-to-array(),-use-[]-instead.rst
    messages/cannot-auto-initialize-an-array-inside-property-%s::$%s-of-type-%s.rst
    messages/cannot-be-0.rst
    messages/cannot-be-a-class-constant.rst
@@ -170,8 +177,10 @@ PHP Error Messages
    messages/cannot-call-constructor.rst
    messages/cannot-change-default-fetch-mode-while-fetching.rst
    messages/cannot-combine-named-arguments-and-argument-unpacking.rst
+   messages/cannot-combine-partial-application-and-unpacking.rst
    messages/cannot-create-closure-as-attribute-argument.rst
    messages/cannot-create-closure-for-new-expression.rst
+   messages/cannot-create-closure-for-parent-property-hook-call.rst
    messages/cannot-create-dynamic-property-%s::$%s.rst
    messages/cannot-create-reference-to-property-%s::$%s.rst
    messages/cannot-declare-const-%s-because.rst
@@ -192,6 +201,7 @@ PHP Error Messages
    messages/cannot-make-non-abstract-method-%s::%s()-abstract-in-class-%s.rst
    messages/cannot-make-non-static-method-%s::%s()-static-in-class-%s.rst
    messages/cannot-make-static-method-%s::%s()-non-static-in-class-%s.rst
+   messages/cannot-mix-[]-and-list().rst
    messages/cannot-mix-bracketed-namespace-declarations.rst
    messages/cannot-mix-keyed-and-unkeyed-array-entries-in-assignments.rst
    messages/cannot-modify-header-information---headers-already-sent.rst
@@ -215,6 +225,7 @@ PHP Error Messages
    messages/cannot-redeclare-function-%s()-(previously-declared-in-%s:%d).rst
    messages/cannot-redeclare-property-hook--"%s.rst
    messages/cannot-redeclare-property-hook.rst
+   messages/cannot-redefine-class-constant-%s::%s-ce->type-==-zend_internal_class-?-e_core_error-:.rst
    messages/cannot-redefine-class-constant.rst
    messages/cannot-rewind-a-generator-that-was-already-run.rst
    messages/cannot-specify-default-value-for-virtual-hooked-property-%s::$%s.rst
@@ -257,19 +268,25 @@ PHP Error Messages
    messages/cannot-use-'static'-as-constant-modifier.rst
    messages/cannot-use-'static'-as-method-modifier.rst
    messages/cannot-use--"%s-"-as-%s-as-it-is-reserved.rst
+   messages/cannot-use--"::class-"-on-%s.rst
    messages/cannot-use--"static-"-as-method-modifier-in-trait-alias.rst
    messages/cannot-use--"yield-from-"-inside-a-by-reference-generator.rst
    messages/cannot-use-::class-with-dynamic-class-name.rst
    messages/cannot-use-[]-for-reading.rst
+   messages/cannot-use-[]-for-unsetting.rst
    messages/cannot-use-a-scalar-value-as-an-array.rst
+   messages/cannot-use-anonymous-class-in-constant-expression.rst
+   messages/cannot-use-argument-unpacking-after-named-arguments.rst
    messages/cannot-use-auto-global-as-lexical-variable.rst
    messages/cannot-use-both-filter_null_on_failure-and-filter_throw_on_failure.rst
+   messages/cannot-use-dynamic-class-name-in-constant-expression.rst
    messages/cannot-use-dynamic-function-name-in-constant-expression.rst
    messages/cannot-use-dynamic-method-name-in-constant-expression.rst
    messages/cannot-use-empty-array-elements-in-arrays.rst
    messages/cannot-use-empty-array-entries-in-keyed-array-assignment.rst
    messages/cannot-use-empty-list.rst
    messages/cannot-use-isset()-on-the-result-of-an-expression-(you-can-use-"null-!==-expression"-instead).rst
+   messages/cannot-use-isset()-on-the-result-of-an-expression.rst
    messages/cannot-use-lexical-variable-%s-as-a-parameter-name.rst
    messages/cannot-use-list()-as-standalone-expression.rst
    messages/cannot-use-list-as-key-element.rst
@@ -280,6 +297,7 @@ PHP Error Messages
    messages/cannot-use-positional-argument-after-argument-unpacking.rst
    messages/cannot-use-positional-argument-after-named-argument-during-unpacking.rst
    messages/cannot-use-positional-argument-after-named-argument.rst
+   messages/cannot-use-result-of-built-in-function-in-write-context.rst
    messages/cannot-use-string-offset-as-an-array.rst
    messages/cannot-use-string-offset-as-an-object.rst
    messages/cannot-use-temporary-expression-in-write-context.rst
@@ -598,9 +616,12 @@ PHP Error Messages
    messages/set-type-of-%s::$%s-must-be-supertype-of-%s-(as-in-%s-%s).rst
    messages/spread-operator-is-not-supported-in-assignments.rst
    messages/sqlite3result-cannot-be-directly-instantiated.rst
+   messages/static-"-is-not-allowed-in-compile-time-constants.rst
    messages/static-function-%s%s%s()-cannot-be-abstract.rst
    messages/static-property-%s::$%s-cannot-be-readonly.rst
    messages/static-property-may-not-have-asymmetric-visibility.rst
+   messages/static::-"-is-not-allowed-in-compile-time-constants.rst
+   messages/static::class-cannot-be-used-for-compile-time-class-name-resolution.rst
    messages/strict_types-declaration-must-be-the-very-first-statement-in-the-script.rst
    messages/strict_types-declaration-must-be.rst
    messages/strict_types-declaration-must-have-0-or-1-as-its-value.rst
@@ -837,6 +858,8 @@ PHP Error Messages
    messages/using-null-as-an-array-offset-is-deprecated,-use-an-empty-string-instead.rst
    messages/using-null-as-the-key-parameter-for-array_key_exists()-is-deprecated,-use-an-empty-string-instead.rst
    messages/value-of-type-%s-is-not-callable.rst
+   messages/variadic-placeholder-may-only-appear-once.rst
+   messages/variadic-placeholder-must-be-last.rst
    messages/visibility-of-property-%s::$%s-must-not-be-weaker-than-set-visibility.rst
    messages/void-cannot-be-used-as-a-parameter-type.rst
    messages/write-of-%zu-bytes-failed-with-errno=%d-%s.rst

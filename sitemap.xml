@@ -148,6 +148,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%28expression%29%3A%3Aclass-cannot-be-used-in-constant-expressions.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/0-__halt_compiler%28%29-can-only-be-used-from-the-outermost-scope.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%5B%5D-operator-not-supported-for-strings.html</loc>
  </url>
  <url>
@@ -160,6 +163,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/clone-method-called-on-non-object.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/halt_compiler%28%29-can-only-be-used-from-the-outermost-scope.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/sleep-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize..html</loc>
  </url>
  <url>
@@ -167,6 +173,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/a-class-constant-must-not-be-called-class.-it-is-reserved-for-class-name-fetching.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/a-class-constant-must-not-be-called-class%3B-it-is-reserved-for-class-name-fetching-ce-%3Etype-%3D%3D-zend_internal_class-%3F-e_core_error-%3A.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/a-function-with-return-type-must-return-a-value.html</loc>
@@ -373,6 +382,12 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/can%27t-inherit-abstract-function-%25s%3A%3A%25s%28%29-%28previously-declared-abstract-in-%25s%29.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/can%27t-use-function-return-value-in-write-context.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/can%27t-use-method-return-value-in-write-context.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/can%27t-use-nullsafe-operator-in-write-context.html</loc>
  </url>
  <url>
@@ -424,6 +439,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-add-element-to-the-array-as-the-next-element-is-already-occupied.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-append-to-%24globals.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-apply-%23%5Ballowdynamicproperties%5D-to-enum-%25s.html</loc>
  </url>
  <url>
@@ -455,6 +473,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-assign-to-array%28%29%2C-use-%5B%5D-instead-in-%25s.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-assign-to-array%28%29%2C-use-%5B%5D-instead.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-auto-initialize-an-array-inside-property-%25s%3A%3A%24%25s-of-type-%25s.html</loc>
@@ -496,10 +517,16 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-combine-named-arguments-and-argument-unpacking.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-combine-partial-application-and-unpacking.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-create-closure-as-attribute-argument.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-create-closure-for-new-expression.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-create-closure-for-parent-property-hook-call.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-create-dynamic-property-%25s%3A%3A%24%25s.html</loc>
@@ -560,6 +587,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-make-static-method-%25s%3A%3A%25s%28%29-non-static-in-class-%25s.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-mix-%5B%5D-and-list%28%29.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-mix-bracketed-namespace-declarations.html</loc>
@@ -629,6 +659,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-property-hook.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redefine-class-constant-%25s%3A%3A%25s-ce-%3Etype-%3D%3D-zend_internal_class-%3F-e_core_error-%3A.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redefine-class-constant.html</loc>
@@ -757,6 +790,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use--%22%25s-%22-as-%25s-as-it-is-reserved.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use--%22%3A%3Aclass-%22-on-%25s.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use--%22static-%22-as-method-modifier-in-trait-alias.html</loc>
  </url>
  <url>
@@ -769,13 +805,25 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%5B%5D-for-reading.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%5B%5D-for-unsetting.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-a-scalar-value-as-an-array.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-anonymous-class-in-constant-expression.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-argument-unpacking-after-named-arguments.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-auto-global-as-lexical-variable.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-both-filter_null_on_failure-and-filter_throw_on_failure.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-dynamic-class-name-in-constant-expression.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-dynamic-function-name-in-constant-expression.html</loc>
@@ -794,6 +842,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-isset%28%29-on-the-result-of-an-expression-%28you-can-use-%22null-%21%3D%3D-expression%22-instead%29.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-isset%28%29-on-the-result-of-an-expression.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-lexical-variable-%25s-as-a-parameter-name.html</loc>
@@ -824,6 +875,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-positional-argument-after-named-argument.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-result-of-built-in-function-in-write-context.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-string-offset-as-an-array.html</loc>
@@ -1780,6 +1834,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/sqlite3result-cannot-be-directly-instantiated.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/static-%22-is-not-allowed-in-compile-time-constants.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/static-function-%25s%25s%25s%28%29-cannot-be-abstract.html</loc>
  </url>
  <url>
@@ -1787,6 +1844,12 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/static-property-may-not-have-asymmetric-visibility.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/static%3A%3A-%22-is-not-allowed-in-compile-time-constants.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/static%3A%3Aclass-cannot-be-used-for-compile-time-class-name-resolution.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/strict_types-declaration-must-be-the-very-first-statement-in-the-script.html</loc>
@@ -2495,6 +2558,12 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/value-of-type-%25s-is-not-callable.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/variadic-placeholder-may-only-appear-once.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/variadic-placeholder-must-be-last.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/visibility-of-property-%25s%3A%3A%24%25s-must-not-be-weaker-than-set-visibility.html</loc>
