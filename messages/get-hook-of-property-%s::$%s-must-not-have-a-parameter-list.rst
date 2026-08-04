@@ -21,7 +21,7 @@ get hook of property %s::$%s must not have a parameter list
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/get-hook-of-property-%s::$%s-must-not-have-a-parameter-list.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/get-hook-of-property-%s::$%s-must-not-have-a-parameter-list.html","name":"get hook of property %s::$%s must not have a parameter list","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jul 2026 16:14:56 +0000","dateModified":"Fri, 24 Jul 2026 16:14:56 +0000","description":"The ``get`` hook property cannot be specified with a parameter list: not with a parameter, nor even with the empty parenthesis","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/get-hook-of-property-%s::$%s-must-not-have-a-parameter-list.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/get-hook-of-property-%s::$%s-must-not-have-a-parameter-list.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/get-hook-of-property-%s::$%s-must-not-have-a-parameter-list.html","name":"get hook of property %s::$%s must not have a parameter list","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Aug 2026 19:13:22 +0000","dateModified":"Tue, 04 Aug 2026 19:13:22 +0000","description":"The ``get`` hook property cannot be specified with a parameter list: not with a parameter, nor even with the empty parenthesis","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/get-hook-of-property-%s::$%s-must-not-have-a-parameter-list.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -61,6 +61,7 @@ _________
 Related Error Messages
 ______________________
 
++ :ref:`%s-hook-of-property-%s::$%s-must-accept-exactly-one-parameters`
 + :ref:`type-of-parameter-$%s-of-hook-%s::$%s::set-must-be-compatible-with-property-type`
 
 Changed Behavior

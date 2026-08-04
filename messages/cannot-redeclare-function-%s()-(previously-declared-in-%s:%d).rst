@@ -21,7 +21,7 @@ Cannot redeclare function %s() (previously declared in %s:%d)
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-redeclare-function-%s()-(previously-declared-in-%s:%d).html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-redeclare-function-%s()-(previously-declared-in-%s:%d).html","name":"Cannot redeclare function %s() (previously declared in %s:%d)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:46 +0000","dateModified":"Tue, 31 Mar 2026 09:10:46 +0000","description":"Functions must have a unique name: there cannot be two functions with the same name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-redeclare-function-%s()-(previously-declared-in-%s:%d).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-redeclare-function-%s()-(previously-declared-in-%s:%d).html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-redeclare-function-%s()-(previously-declared-in-%s:%d).html","name":"Cannot redeclare function %s() (previously declared in %s:%d)","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Aug 2026 19:14:39 +0000","dateModified":"Tue, 04 Aug 2026 19:14:39 +0000","description":"Functions must have a unique name: there cannot be two functions with the same name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-redeclare-function-%s()-(previously-declared-in-%s:%d).html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -56,6 +56,11 @@ _________
 + Change the name of the function.
 + Make the function a closure.
 + Move the function to another namespace.
+
+Related Error Messages
+______________________
+
++ :ref:`cannot-redeclare-class-%s`
 
 
 In previous PHP versions, this error message used to be :ref:`cannot-redeclare-%s()-(previously-declared-in-%s:%d)`.

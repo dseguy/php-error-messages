@@ -21,7 +21,7 @@ strict_types declaration must have 0 or 1 as its value
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/strict_types-declaration-must-have-0-or-1-as-its-value.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/strict_types-declaration-must-have-0-or-1-as-its-value.html","name":"strict_types declaration must have 0 or 1 as its value","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 27 Jul 2026 16:18:26 +0000","dateModified":"Mon, 27 Jul 2026 16:18:26 +0000","description":"The ``strict_types`` pragma is a switch: ``0`` keeps the usual weak typing (with type coercion for scalar type declarations), and ``1`` turns on strict typing for the current file","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/strict_types-declaration-must-have-0-or-1-as-its-value.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/strict_types-declaration-must-have-0-or-1-as-its-value.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/strict_types-declaration-must-have-0-or-1-as-its-value.html","name":"strict_types declaration must have 0 or 1 as its value","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Aug 2026 19:15:22 +0000","dateModified":"Tue, 04 Aug 2026 19:15:22 +0000","description":"The ``strict_types`` pragma is a switch: ``0`` keeps the usual weak typing (with type coercion for scalar type declarations), and ``1`` turns on strict typing for the current file","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/strict_types-declaration-must-have-0-or-1-as-its-value.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -55,6 +55,7 @@ ______________________
 + :ref:`declare(%s)-value-must-be-a-literal`
 + :ref:`strict_types-declaration-must-be-the-very-first-statement-in-the-script`
 + :ref:`strict_types-declaration-must-not`
++ :ref:`strict_types-declaration-must-be`
 
 Changed Behavior
 ________________

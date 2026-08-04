@@ -366,6 +366,7 @@ Tag index
 
       * :ref:`cannot-use-\'mixed\'-as-class-name-as-it-is-reserved`
       * :ref:`cannot-use-\'never\'-as-class-name-as-it-is-reserved`
+      * :ref:`cannot-use--"%s-"-as-%s`
       * :ref:`syntax-error,-unexpected-\'::\',-expecting-\'(\'`
       * :ref:`syntax-error,-unexpected-token-"::"`
 
@@ -404,6 +405,7 @@ Tag index
 
       * :ref:`\'namespace-%s\'-is-an-invalid-class-name`
       * :ref:`ffi-api-is-restricted-by-"ffi.enable"-configuration-directive`
+      * :ref:`namespace-%s-is-an-invalid-class-name`
       * :ref:`syntax-error,-unexpected-identifier-"%s"`
       * :ref:`syntax-error,-unexpected-token-"%s",-expecting-identifier`
       * :ref:`type-%s-contains-both-object-and-a-class-type`
@@ -850,6 +852,7 @@ Tag index
       * :ref:`type-%s-is-redundant-as-it-is-more-restrictive-than-type-%s`
       * :ref:`type-%s-is-redundant-with-type-%s`
       * :ref:`type-mixed-can-only-be-used-as-a-standalone-type`
+      * :ref:`type-of-%s::%s-must-be-compatible-with-%s::%s-of-type-%s`
       * :ref:`type-of-parameter-$%s-of-hook-%s::$%s::set-must-be-compatible-with-property-type`
 
 
@@ -888,6 +891,7 @@ Tag index
 
    * visibility
 
+      * :ref:`access-level-to-%s::$%s-must-be-%s-(as-in-class-%s)%s`
       * :ref:`set-access-level-of-%s::$%s-must-be-%s-(as-in-class-%s)%s`
 
 

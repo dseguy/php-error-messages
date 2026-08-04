@@ -35,6 +35,7 @@ PHP Error Messages
    messages/%s-and-%s-define-the-same-hooked-property-($%s)-in-the-composition-of-%s.-conflict-resolution-between-hooked-properties-is-currently-not-supported.-class-was-composed.rst
    messages/%s-cannot-implement-%s---it-is-not-an-interface.rst
    messages/%s-cannot-use-%s---it-is-not-a-trait.rst
+   messages/%s-class-%s-cannot-extend-%s-class-%s.rst
    messages/%s-function-%s::%s()-cannot-be-declared-private.rst
    messages/%s-hook-of-property-%s::$%s-must-accept-exactly-one-parameters.rst
    messages/%s-is-not-supported-on-type-%s.rst
@@ -44,6 +45,7 @@ PHP Error Messages
    messages/%s::%s()-has-#[-override]-attribute,-but-no-matching-parent-method-exists.rst
    messages/%s::%s():-return-type-must-be-%s-when-declared.rst
    messages/%s::%s-cannot-override-final-constant-%s::%s.rst
+   messages/%s::%s-has-#[--override]-attribute.rst
    messages/%s::__sleep()-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize.rst
    messages/%s::__tostring()-must-return-a-string.rst
    messages/'%s'-not-in-the-'loop'-or-'switch'-context.rst
@@ -76,6 +78,7 @@ PHP Error Messages
    messages/a-void-%s-must-not-return-a-value.rst
    messages/abstract-property-%s::$%s-must-specify-at-least-one-abstract-hook.rst
    messages/abstract-property-hook-cannot-have-body.rst
+   messages/access-level-to-%s::$%s-must-be-%s-(as-in-class-%s)%s.rst
    messages/access-level-to-%s::%s-must-be-%s-(as-in-%s-%s)%s.rst
    messages/access-to-undeclared-static-property-%s::$%s.rst
    messages/access-type-for-interface-constant-%s::%s-must-be-public.rst
@@ -217,6 +220,7 @@ PHP Error Messages
    messages/cannot-rebind-scope-of-closure-created-from-function,-this-will-be-an-error-in-php-9.rst
    messages/cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9.rst
    messages/cannot-rebind-scope-of-closure-created-from-method.rst
+   messages/cannot-redeclare-%s%s::$%s-as-%s%s::$%s.rst
    messages/cannot-redeclare-%s()-(previously-declared-in-%s:%d).rst
    messages/cannot-redeclare-%s-property-%s::$%s-as-%s-%s::$%s.rst
    messages/cannot-redeclare-%s::%s().rst
@@ -229,6 +233,7 @@ PHP Error Messages
    messages/cannot-redefine-class-constant.rst
    messages/cannot-rewind-a-generator-that-was-already-run.rst
    messages/cannot-specify-default-value-for-virtual-hooked-property-%s::$%s.rst
+   messages/cannot-take-reference-of-a-nullsafe-chain.rst
    messages/cannot-throw-objects-that-do-not-implement-throwable.rst
    messages/cannot-unbind-$this-of-closure-using-$this,-this-will-be-an-error-in-php-9.rst
    messages/cannot-unbind-$this-of-method,-this-will-be-an-error-in-php-9.rst
@@ -268,6 +273,7 @@ PHP Error Messages
    messages/cannot-use-'static'-as-constant-modifier.rst
    messages/cannot-use-'static'-as-method-modifier.rst
    messages/cannot-use--"%s-"-as-%s-as-it-is-reserved.rst
+   messages/cannot-use--"%s-"-as-%s.rst
    messages/cannot-use--"::class-"-on-%s.rst
    messages/cannot-use--"static-"-as-method-modifier-in-trait-alias.rst
    messages/cannot-use--"yield-from-"-inside-a-by-reference-generator.rst
@@ -393,6 +399,7 @@ PHP Error Messages
    messages/extra-data-starting-at-offset-%d-of-%zd-bytes.rst
    messages/failed-opening-required-%s-(include_path=%s).rst
    messages/failed-to-create-closure-from-callable:-%s.rst
+   messages/failed-to-evaluate-a-trait-precedence-(%s).-method-of-trait-%s-was-defined-to-be-excluded-multiple-times.rst
    messages/failed-to-open-stream-from-socketpair.rst
    messages/failed-to-open-stream:-too-many-open-files.rst
    messages/failed-to-set-memory_limit-to-%zd-bytes.-setting-to-max_memory_limit-instead-(currently:.rst
@@ -512,6 +519,7 @@ PHP Error Messages
    messages/must-not-use-parent::$%s::%s()-in-a-different-property-hook-(%s).rst
    messages/must-not-use-parent::$%s::%s()-outside-a-property-hook.rst
    messages/named-parameter-$%s-overwrites-previous-argument.rst
+   messages/namespace-%s-is-an-invalid-class-name.rst
    messages/namespace-declaration-statement-has-to-be.rst
    messages/namespace-declarations-cannot-be-nested.rst
    messages/needle-is-not-a-string-or-an-integer.rst
@@ -763,6 +771,7 @@ PHP Error Messages
    messages/the-(real)-cast-is-deprecated,-use-(float)-instead.rst
    messages/the-(unset)-cast-is-deprecated.rst
    messages/the-(unset)-cast-is-no-longer-supported.rst
+   messages/the--"yield-"-expression-can-only-be-used-inside-a-function.rst
    messages/the-__sleep()-serialization-magic-method-has-been-deprecated..rst
    messages/the-__wakeup()-serialization-magic-method-has-been-deprecated..rst
    messages/the-arguments-array-must-contain-%d-items,-%d-given.rst
@@ -806,6 +815,7 @@ PHP Error Messages
    messages/type-of-%s::$%s-must-be-%s%s-(as-in-class-%s).rst
    messages/type-of-%s::$%s-must-be-omitted-to-match-the-parent-definition-in-class-%s.rst
    messages/type-of-%s::$%s-must-not-be-defined-(as-in-class-%s).rst
+   messages/type-of-%s::%s-must-be-compatible-with-%s::%s-of-type-%s.rst
    messages/type-of-parameter-$%s-of-hook-%s::$%s::set-must-be-compatible-with-property-type.rst
    messages/typed-property-%s::$%s-must-not-be-accessed-before-initialization.rst
    messages/typed-static-property-%s::$%s-must-not-be-accessed-before-initialization.rst

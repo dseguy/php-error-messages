@@ -21,7 +21,7 @@ strict_types declaration must be
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/strict_types-declaration-must-be.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/strict_types-declaration-must-be.html","name":"strict_types declaration must be","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 27 Jul 2026 16:18:22 +0000","dateModified":"Mon, 27 Jul 2026 16:18:22 +0000","description":"This is the same placement rule documented in full under ``strict_types declaration must be the very first statement in the script``: the ``declare(strict_types = ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/strict_types-declaration-must-be.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/strict_types-declaration-must-be.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/strict_types-declaration-must-be.html","name":"strict_types declaration must be","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Aug 2026 19:16:14 +0000","dateModified":"Tue, 04 Aug 2026 19:16:14 +0000","description":"This is the same placement rule documented in full under ``strict_types declaration must be the very first statement in the script``: the ``declare(strict_types = ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/strict_types-declaration-must-be.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -58,6 +58,7 @@ ______________________
 
 + :ref:`strict_types-declaration-must-be-the-very-first-statement-in-the-script`
 + :ref:`strict_types-declaration-must-not`
++ :ref:`strict_types-declaration-must-be`
 + :ref:`strict_types-declaration-must-have-0-or-1-as-its-value`
 
 

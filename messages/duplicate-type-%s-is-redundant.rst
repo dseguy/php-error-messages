@@ -21,7 +21,7 @@ Duplicate type %s is redundant
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/duplicate-type-%s-is-redundant.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/duplicate-type-%s-is-redundant.html","name":"Duplicate type %s is redundant","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:46 +0000","dateModified":"Tue, 31 Mar 2026 09:10:46 +0000","description":"When declaring a complex type, each part of the type must be unique","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/duplicate-type-%s-is-redundant.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/duplicate-type-%s-is-redundant.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/duplicate-type-%s-is-redundant.html","name":"Duplicate type %s is redundant","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Aug 2026 19:04:11 +0000","dateModified":"Tue, 04 Aug 2026 19:04:11 +0000","description":"When declaring a complex type, each part of the type must be unique","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/duplicate-type-%s-is-redundant.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -64,6 +64,9 @@ ______________________
 
 + :ref:`type-contains-both-true-and-false,-bool-must-be-used-instead`
 + :ref:`type-%s-contains-both-iterable-and-array`
++ :ref:`type-%s-contains-both-object-and-a-class-type`
++ :ref:`type-%s-is-redundant-as-it-is-more-restrictive-than-type-%s`
++ :ref:`null-cannot-be-marked-as-nullable`
 
 
 In previous PHP versions, this error message used to be :ref:`type-%s-contains-both-iterable-and-array`.

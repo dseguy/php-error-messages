@@ -1,27 +1,27 @@
 .. _static-"-is-not-allowed-in-compile-time-constants:
 
-static\" is not allowed in compile-time constants
--------------------------------------------------
+static" is not allowed in compile-time constants
+------------------------------------------------
  
 .. meta::
 	:description:
-		static\" is not allowed in compile-time constants: &quot;New in initializers&quot; (PHP 8.
+		static" is not allowed in compile-time constants: &quot;New in initializers&quot; (PHP 8.
 	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 	:og:type: article
-	:og:title: static\&quot; is not allowed in compile-time constants
+	:og:title: static&quot; is not allowed in compile-time constants
 	:og:description: &quot;New in initializers&quot; (PHP 8
 	:og:url: https://php-errors.readthedocs.io/en/latest/messages/static-%22-is-not-allowed-in-compile-time-constants.html
 	:og:locale: en
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: static\" is not allowed in compile-time constants
-	:twitter:description: static\" is not allowed in compile-time constants: "New in initializers" (PHP 8
+	:twitter:title: static" is not allowed in compile-time constants
+	:twitter:description: static" is not allowed in compile-time constants: "New in initializers" (PHP 8
 	:twitter:creator: @exakat
 	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/static-\"-is-not-allowed-in-compile-time-constants.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/static-\"-is-not-allowed-in-compile-time-constants.html","name":"static\\\" is not allowed in compile-time constants","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 30 Jul 2026 07:30:41 +0000","dateModified":"Thu, 30 Jul 2026 07:30:41 +0000","description":"\"New in initializers\" (PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static-\"-is-not-allowed-in-compile-time-constants.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/static-\"-is-not-allowed-in-compile-time-constants.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/static-\"-is-not-allowed-in-compile-time-constants.html","name":"static\" is not allowed in compile-time constants","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Aug 2026 19:06:38 +0000","dateModified":"Tue, 04 Aug 2026 19:06:38 +0000","description":"\"New in initializers\" (PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/static-\"-is-not-allowed-in-compile-time-constants.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________

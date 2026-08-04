@@ -91,6 +91,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s-cannot-use-%25s---it-is-not-a-trait.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s-class-%25s-cannot-extend-%25s-class-%25s.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s-function-%25s%3A%3A%25s%28%29-cannot-be-declared-private.html</loc>
  </url>
  <url>
@@ -116,6 +119,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s%3A%3A%25s-cannot-override-final-constant-%25s%3A%3A%25s.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s%3A%3A%25s-has-%23%5B--override%5D-attribute.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s%3A%3A__sleep%28%29-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize.html</loc>
@@ -212,6 +218,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/abstract-property-hook-cannot-have-body.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/access-level-to-%25s%3A%3A%24%25s-must-be-%25s-%28as-in-class-%25s%29%25s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/access-level-to-%25s%3A%3A%25s-must-be-%25s-%28as-in-%25s-%25s%29%25s.html</loc>
@@ -637,6 +646,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-rebind-scope-of-closure-created-from-method.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-%25s%25s%3A%3A%24%25s-as-%25s%25s%3A%3A%24%25s.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-%25s%28%29-%28previously-declared-in-%25s%3A%25d%29.html</loc>
  </url>
  <url>
@@ -671,6 +683,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-specify-default-value-for-virtual-hooked-property-%25s%3A%3A%24%25s.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-take-reference-of-a-nullsafe-chain.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-throw-objects-that-do-not-implement-throwable.html</loc>
@@ -788,6 +803,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use--%22%25s-%22-as-%25s-as-it-is-reserved.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use--%22%25s-%22-as-%25s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use--%22%3A%3Aclass-%22-on-%25s.html</loc>
@@ -1165,6 +1183,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/failed-to-create-closure-from-callable%3A-%25s.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/failed-to-evaluate-a-trait-precedence-%28%25s%29.-method-of-trait-%25s-was-defined-to-be-excluded-multiple-times.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/failed-to-open-stream-from-socketpair.html</loc>
  </url>
  <url>
@@ -1520,6 +1541,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/named-parameter-%24%25s-overwrites-previous-argument.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/namespace-%25s-is-an-invalid-class-name.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/namespace-declaration-statement-has-to-be.html</loc>
@@ -2275,6 +2299,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-%28unset%29-cast-is-no-longer-supported.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/the--%22yield-%22-expression-can-only-be-used-inside-a-function.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-__sleep%28%29-serialization-magic-method-has-been-deprecated..html</loc>
  </url>
  <url>
@@ -2402,6 +2429,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/type-of-%25s%3A%3A%24%25s-must-not-be-defined-%28as-in-class-%25s%29.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/type-of-%25s%3A%3A%25s-must-be-compatible-with-%25s%3A%3A%25s-of-type-%25s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/type-of-parameter-%24%25s-of-hook-%25s%3A%3A%24%25s%3A%3Aset-must-be-compatible-with-property-type.html</loc>
