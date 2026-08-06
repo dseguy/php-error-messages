@@ -363,7 +363,7 @@ foreach($files as $file) {
 		    		++$warnings;
 		    	}
     
-		    	if (substr($alternative, -1) !== '.') {
+		    	if (substr($alternative, -1) !== '.' && substr($alternative, -1) !== ';') {
 		    		buildlog("Alternative[$key] must finish with . in $file");
 		    		++$warnings;
 		    	}
