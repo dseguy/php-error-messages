@@ -21,7 +21,7 @@ Returning null from %s::__debugInfo() is deprecated, return an empty array inste
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/returning-null-from-%s::__debuginfo()-is-deprecated,-return-an-empty-array-instead.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/returning-null-from-%s::__debuginfo()-is-deprecated,-return-an-empty-array-instead.html","name":"Returning null from %s::__debugInfo() is deprecated, return an empty array instead","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 17:40:25 +0000","dateModified":"Mon, 13 Jul 2026 17:40:25 +0000","description":"The ``__debugInfo()`` magic method allows a class to customize what ``var_dump()`` displays for its instances","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/returning-null-from-%s::__debuginfo()-is-deprecated,-return-an-empty-array-instead.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/returning-null-from-%s::__debuginfo()-is-deprecated,-return-an-empty-array-instead.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/returning-null-from-%s::__debuginfo()-is-deprecated,-return-an-empty-array-instead.html","name":"Returning null from %s::__debugInfo() is deprecated, return an empty array instead","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Aug 2026 16:26:32 +0000","dateModified":"Wed, 05 Aug 2026 16:26:32 +0000","description":"The ``__debugInfo()`` magic method allows a class to customize what ``var_dump()`` displays for its instances","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/returning-null-from-%s::__debuginfo()-is-deprecated,-return-an-empty-array-instead.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -75,4 +75,4 @@ ________
 Changed Behavior
 ________________
 
-This error may appear following an evolution in behavior, in previous versions. See ` <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`_.
+This error may appear following an evolution in behavior, in previous versions. See `debugInfoCannotReturnNull <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/debugInfoCannotReturnNull.html>`_.

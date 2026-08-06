@@ -40,6 +40,7 @@ Tag index
 
       * :ref:`cannot-apply-attributes-to-multiple-constants-at-once`
       * :ref:`cannot-create-closure-as-attribute-argument`
+      * :ref:`cannot-use-unpacking-in-attribute-argument-list`
 
 
    * bug
@@ -72,6 +73,8 @@ Tag index
       * :ref:`syntax-error,-unexpected-token-"("`
       * :ref:`undefined-variable`
       * :ref:`unparenthesized-\`a-?-b-:-c-?-d-:-e\`-is-not-supported.`
+      * :ref:`unparenthesized-\`a-?-b-:-c-?:-d\`-is-not-supported.`
+      * :ref:`unparenthesized-\`a-?:-b-?-c-:-d\`-is-not-supported.`
 
 
    * class
@@ -94,11 +97,13 @@ Tag index
    * closure
 
       * :ref:`cannot-bind-method-%s::%s()-to-object-of-class-%s,-this-will-be-an-error-in-php-9`
+      * :ref:`cannot-combine-nullsafe-operator-with-closure-creation`
       * :ref:`cannot-create-closure-as-attribute-argument`
       * :ref:`cannot-rebind-scope-of-closure-created-from-function,-this-will-be-an-error-in-php-9`
       * :ref:`cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9`
       * :ref:`cannot-unbind-$this-of-closure-using-$this,-this-will-be-an-error-in-php-9`
       * :ref:`cannot-unbind-$this-of-method,-this-will-be-an-error-in-php-9`
+      * :ref:`cannot-use-variable-$%ps-twice`
 
 
    * coercion
@@ -437,6 +442,7 @@ Tag index
 
    * namespace
 
+      * :ref:`cannot-redeclare-function-%s()-(previously-declared-as-local-import)`
       * :ref:`namespace-declaration-statement-has-to-be`
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function"`
 
@@ -511,6 +517,11 @@ Tag index
 
       * :ref:`the-behavior-of-unparenthesized-expressions-containing-both-\'.\'-and-\'+\'-\'-\'-will-change-in-php-8:-\'+\'-\'-\'-will-take-a-higher-precedence`
       * :ref:`the-behavior-of-unparenthesized-expressions-containing-both-\'.\'-and-\'<<\'-\'>>\'-will-change-in-php-8:-\'<<\'-\'>>\'-will-take-a-higher-precedence`
+
+
+   * p
+
+      * :ref:`class-%s-cannot-use-%s---it-is-not-a-trait`
 
 
    * parameter value error
@@ -615,6 +626,11 @@ Tag index
       * :ref:`%s():-never-returning-function-must-not-implicitly-return`
 
 
+   * return-type
+
+      * :ref:`a-%s-with-return-type-must-return-a-value`
+
+
    * scope
 
       * :ref:`cannot-bind-method-%s::%s()-to-object-of-class-%s,-this-will-be-an-error-in-php-9`
@@ -675,7 +691,10 @@ Tag index
 
    * surprise
 
+      * :ref:`%s-"-is-not-a-supported-builtin-type-and-will-be-interpreted-as-a-class-name.-write--"--%s-"%s-to-suppress-this-warning`
+      * :ref:`%s-"-will-be-interpreted-as-a-class-name.-did-you-mean--"%s-"?-write--"--%s-"%s-to-suppress-this-warning`
       * :ref:`%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed`
+      * :ref:`%s-and-%s-define-the-same-property-($%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed`
 
 
    * surprising
@@ -827,6 +846,7 @@ Tag index
    * trait
 
       * :ref:`%s-and-%s-define-the-same-hooked-property-($%s)-in-the-composition-of-%s.-conflict-resolution-between-hooked-properties-is-currently-not-supported.-class-was-composed`
+      * :ref:`cannot-use--"abstract-"-as-method-modifier-in-trait-alias`
       * :ref:`cannot-use--"static-"-as-method-modifier-in-trait-alias`
       * :ref:`required-trait-%s-wasn\'t-added-to-%s`
 
@@ -843,6 +863,7 @@ Tag index
       * :ref:`class-constant-%s::%s-cannot-have-type-%s`
       * :ref:`default-value-for-property-of-type-%s-may-not-be-null.-use-the-nullable-type-%s-to-allow-null-default-value`
       * :ref:`must-be-of-type-countable|array,-%s-given`
+      * :ref:`never-can-only-be-used-as-a-standalone-type`
       * :ref:`null-cannot-be-marked-as-nullable`
       * :ref:`parameter-must-be-an-array-or-an-object-that-implements-countable`
       * :ref:`property-%s::$%s-cannot-have-type-%s`
@@ -854,6 +875,7 @@ Tag index
       * :ref:`type-mixed-can-only-be-used-as-a-standalone-type`
       * :ref:`type-of-%s::%s-must-be-compatible-with-%s::%s-of-type-%s`
       * :ref:`type-of-parameter-$%s-of-hook-%s::$%s::set-must-be-compatible-with-property-type`
+      * :ref:`void-can-only-be-used-as-a-standalone-type`
 
 
    * type-juggling
@@ -886,7 +908,9 @@ Tag index
 
    * variadic
 
+      * :ref:`only-the-last-parameter-can-be-variadic`
       * :ref:`parameter-$%s-of-%s-hook-%s::$%s-must-not-be-variadic`
+      * :ref:`variadic-parameter-cannot-have-a-default-value`
 
 
    * visibility

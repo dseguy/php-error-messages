@@ -24,7 +24,9 @@ PHP Error Messages
    messages/%s():-return-value-of-the-authorizer-callback-must-be-of-type-int,-%s-returned.rst
    messages/%s():-return-value-of-the-collation-callback-must-be-of-type-int,-%s-returned.rst
    messages/%s():-returning-by-reference-from-a-void-function-is-deprecated.rst
+   messages/%s-"-is-not-a-supported-builtin-type-and-will-be-interpreted-as-a-class-name.-write--"--%s-"%s-to-suppress-this-warning.rst
    messages/%s-"-is-returned-from-__sleep()-multiple-times.rst
+   messages/%s-"-will-be-interpreted-as-a-class-name.-did-you-mean--"%s-"?-write--"--%s-"%s-to-suppress-this-warning.rst
    messages/%s-%s-cannot-implement-interface-%s,-extend-exception-or-error-instead.rst
    messages/%s-%s-cannot-implement-previously-implemented-interface-%s.rst
    messages/%s-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-method%s-(.rst
@@ -33,10 +35,12 @@ PHP Error Messages
    messages/%s-%s-must-implement-interface-%s-as-part-of-either-%s-or-%s.rst
    messages/%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed.rst
    messages/%s-and-%s-define-the-same-hooked-property-($%s)-in-the-composition-of-%s.-conflict-resolution-between-hooked-properties-is-currently-not-supported.-class-was-composed.rst
+   messages/%s-and-%s-define-the-same-property-($%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed.rst
    messages/%s-cannot-implement-%s---it-is-not-an-interface.rst
    messages/%s-cannot-use-%s---it-is-not-a-trait.rst
    messages/%s-class-%s-cannot-extend-%s-class-%s.rst
    messages/%s-function-%s::%s()-cannot-be-declared-private.rst
+   messages/%s-function-%s::%s()-cannot-contain-body.rst
    messages/%s-hook-of-property-%s::$%s-must-accept-exactly-one-parameters.rst
    messages/%s-is-not-supported-on-type-%s.rst
    messages/%s-method-%s::%s()-must-not-be-abstract.rst
@@ -64,8 +68,8 @@ PHP Error Messages
    messages/halt_compiler()-can-only-be-used-from-the-outermost-scope.rst
    messages/sleep-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize..rst
    messages/%s'-is-not-a-valid-mode-for-fopen.rst
+   messages/a-%s-with-return-type-must-return-a-value.rst
    messages/a-class-constant-must-not-be-called-class.-it-is-reserved-for-class-name-fetching.rst
-   messages/a-class-constant-must-not-be-called-class;-it-is-reserved-for-class-name-fetching-ce->type-==-zend_internal_class-?-e_core_error-:.rst
    messages/a-function-with-return-type-must-return-a-value.rst
    messages/a-never-returning-%s-does-not-return-a-value.rst
    messages/a-never-returning-%s-must-not-return.rst
@@ -88,6 +92,7 @@ PHP Error Messages
    messages/accessing-static-trait-property-%s::$%s-is-deprecated.rst
    messages/an-alias-(%s)-was-defined-for-method-%s(),-but-this-method-does-not-exist.rst
    messages/an-alias-was-defined-for-%s::%s-but-this-method-does-not-exist.rst
+   messages/an-alias-was-defined-for-method-%s(),-which-exists-in-both-%s-and-%s.-use-%s::%s-or-%s::%s-to-resolve-the-ambiguity.rst
    messages/an-iterator-cannot-be-used-with-foreach-by-reference.rst
    messages/anonymous-class-method-%s()-must-not-be-abstract.rst
    messages/argument-#%d-($%s)-must-be-of-type-%s,-%s-given.rst
@@ -180,6 +185,7 @@ PHP Error Messages
    messages/cannot-call-constructor.rst
    messages/cannot-change-default-fetch-mode-while-fetching.rst
    messages/cannot-combine-named-arguments-and-argument-unpacking.rst
+   messages/cannot-combine-nullsafe-operator-with-closure-creation.rst
    messages/cannot-combine-partial-application-and-unpacking.rst
    messages/cannot-create-closure-as-attribute-argument.rst
    messages/cannot-create-closure-for-new-expression.rst
@@ -223,13 +229,15 @@ PHP Error Messages
    messages/cannot-redeclare-%s%s::$%s-as-%s%s::$%s.rst
    messages/cannot-redeclare-%s()-(previously-declared-in-%s:%d).rst
    messages/cannot-redeclare-%s-property-%s::$%s-as-%s-%s::$%s.rst
+   messages/cannot-redeclare-%s::$%s.rst
    messages/cannot-redeclare-%s::%s().rst
    messages/cannot-redeclare-class-%s.rst
    messages/cannot-redeclare-constant-'%s'.rst
+   messages/cannot-redeclare-function-%s()-(previously-declared-as-local-import).rst
    messages/cannot-redeclare-function-%s()-(previously-declared-in-%s:%d).rst
    messages/cannot-redeclare-property-hook--"%s.rst
    messages/cannot-redeclare-property-hook.rst
-   messages/cannot-redefine-class-constant-%s::%s-ce->type-==-zend_internal_class-?-e_core_error-:.rst
+   messages/cannot-redefine-class-constant-%s::%s.rst
    messages/cannot-redefine-class-constant.rst
    messages/cannot-rewind-a-generator-that-was-already-run.rst
    messages/cannot-specify-default-value-for-virtual-hooked-property-%s::$%s.rst
@@ -254,6 +262,7 @@ PHP Error Messages
    messages/cannot-use-$this-as-global-variable.rst
    messages/cannot-use-$this-as-lexical-variable.rst
    messages/cannot-use-$this-as-parameter.rst
+   messages/cannot-use-$this-as-static-variable.rst
    messages/cannot-use-%s-as-%s-because-%s-is-a-special-class-name.rst
    messages/cannot-use-%s-as-%s-because-'%s'-is-a-special-class-name.rst
    messages/cannot-use-%s-as-array.rst
@@ -274,7 +283,11 @@ PHP Error Messages
    messages/cannot-use-'static'-as-method-modifier.rst
    messages/cannot-use--"%s-"-as-%s-as-it-is-reserved.rst
    messages/cannot-use--"%s-"-as-%s.rst
+   messages/cannot-use--"%s-"-when-no-class-scope-is-active.rst
    messages/cannot-use--"::class-"-on-%s.rst
+   messages/cannot-use--"abstract-"-as-method-modifier-in-trait-alias.rst
+   messages/cannot-use--"parent-"-when-current-class-scope-has-no-parent.rst
+   messages/cannot-use--"parent-"-when-no-class-scope-is-active.rst
    messages/cannot-use--"static-"-as-method-modifier-in-trait-alias.rst
    messages/cannot-use--"yield-from-"-inside-a-by-reference-generator.rst
    messages/cannot-use-::class-with-dynamic-class-name.rst
@@ -315,8 +328,11 @@ PHP Error Messages
    messages/cannot-use-the-final-modifier-on-an-abstract-class.rst
    messages/cannot-use-the-static-modifier-on-a-parameter.rst
    messages/cannot-use-the-static-modifier-on-a-property-hook.rst
+   messages/cannot-use-trait-%s.rst
    messages/cannot-use-traits-inside-of-interfaces.-%s-is-used-in-%s.rst
    messages/cannot-use-try-without-catch-or-finally.rst
+   messages/cannot-use-unpacking-in-attribute-argument-list.rst
+   messages/cannot-use-variable-$%ps-twice.rst
    messages/cannot-use-variable-$%s-twice.rst
    messages/case-%s-of-backed-enum-%s-must-have-a-value.rst
    messages/case-%s-of-non-backed-enum-%s-must-not-have-a-value.rst
@@ -330,6 +346,7 @@ PHP Error Messages
    messages/class-%s-cannot-extend-final-class-%s.rst
    messages/class-%s-cannot-implement-both-iterator-and-iteratoraggregate-at-the-same-time.rst
    messages/class-%s-cannot-implement-previously-implemented-interface-%s.rst
+   messages/class-%s-cannot-use-%s---it-is-not-a-trait.rst
    messages/class-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-methods.rst
    messages/class-%s-declares-abstract-method-%s()-and-must-therefore-be-declared-abstract.rst
    messages/class-%s-does-not-have-a-property-named-%s.rst
@@ -436,6 +453,7 @@ PHP Error Messages
    messages/implicit-conversion-from-float-%.*h-to-int-loses-precision.rst
    messages/implicit-conversion-from-float-string-"%s"-to-int-loses-precision.rst
    messages/implicit-conversion-from-float-string-"%s"-to-int-loses.rst
+   messages/inconsistent-insteadof-definition.-the-method-%s-is-to-be-used-from-%s.rst
    messages/increment-on-non-alphanumeric-string-is-deprecated.rst
    messages/increment-on-non-numeric-string-is-deprecated,-use-str_increment()-instead.rst
    messages/increment-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php.rst
@@ -525,6 +543,7 @@ PHP Error Messages
    messages/needle-is-not-a-string-or-an-integer.rst
    messages/negative-power-of-zero.rst
    messages/nesting-level-too-deep---recursive-dependency?.rst
+   messages/never-can-only-be-used-as-a-standalone-type.rst
    messages/never-cannot-be-used-as-a-parameter-type.rst
    messages/never-returning-function-must-not-implicitly-return.rst
    messages/new-expressions-are-not-supported-in-this-context.rst
@@ -552,7 +571,7 @@ PHP Error Messages
    messages/object-of-class-%s-could-not-be-converted-to-string.rst
    messages/object-of-type-%s-has-not-been-correctly-initialized-by-calling-parent::__construct()-in-its-constructor.rst
    messages/object-of-type-%s-is-not-callable.rst
-   messages/octal-escape-sequence-overflow-%s-is-greater-than--377.rst
+   messages/octal-escape-sequence-overflow--%s-is-greater-than--377.rst
    messages/offset-not-contained-in-string..rst
    messages/only-arrays-and-traversables-can-be-unpacked.rst
    messages/only-arrays-can-be-unpacked-in-constant-expression.rst
@@ -560,6 +579,7 @@ PHP Error Messages
    messages/only-hooked-properties-may-be-declared-abstract.rst
    messages/only-internal-classes-can-be-registered-as-compiler-attribute.rst
    messages/only-the-first-byte-will-be-assigned-to-the-string-offset.rst
+   messages/only-the-last-parameter-can-be-variadic.rst
    messages/only-variable-references-should-be-returned-by-reference.rst
    messages/only-variable-references-should-be-yielded-by-reference.rst
    messages/only-variables-can-be-passed-by-reference.rst
@@ -783,6 +803,7 @@ PHP Error Messages
    messages/the-float-%.*h-is-not-representable-as-an-int,-cast-occurred.rst
    messages/the-float-string--"%s-"-is-not-representable-as-an-int,-cast-occurred.rst
    messages/the-magic-method-%s::%s()-must-have-public-visibility.rst
+   messages/the-modifiers-of-the-trait-method-%s()-are-changed,-but-this-method-does-not-exist.-error.rst
    messages/the-parent-constructor-was-not-called:-the-object-is-in-an-invalid-state.rst
    messages/the-predefined-locally-scoped-$http_response_header-variable-is-deprecated,.rst
    messages/the-return-value-of-function-%s()-should-either-be-used-or-intentionally-ignored-by-casting-it-as-(void)%s-code.rst
@@ -851,6 +872,8 @@ PHP Error Messages
    messages/unmatched-']'.rst
    messages/unmatched-'}'.rst
    messages/unparenthesized-`a-?-b-:-c-?-d-:-e`-is-not-supported..rst
+   messages/unparenthesized-`a-?-b-:-c-?:-d`-is-not-supported..rst
+   messages/unparenthesized-`a-?:-b-?-c-:-d`-is-not-supported..rst
    messages/unserializing-the-'s'-format-is-deprecated.rst
    messages/unsupported-declare-'%s'.rst
    messages/unsupported-operand-types.rst
@@ -868,9 +891,11 @@ PHP Error Messages
    messages/using-null-as-an-array-offset-is-deprecated,-use-an-empty-string-instead.rst
    messages/using-null-as-the-key-parameter-for-array_key_exists()-is-deprecated,-use-an-empty-string-instead.rst
    messages/value-of-type-%s-is-not-callable.rst
+   messages/variadic-parameter-cannot-have-a-default-value.rst
    messages/variadic-placeholder-may-only-appear-once.rst
    messages/variadic-placeholder-must-be-last.rst
    messages/visibility-of-property-%s::$%s-must-not-be-weaker-than-set-visibility.rst
+   messages/void-can-only-be-used-as-a-standalone-type.rst
    messages/void-cannot-be-used-as-a-parameter-type.rst
    messages/write-of-%zu-bytes-failed-with-errno=%d-%s.rst
    messages/wrong-encoding,-conversion-from-"%s"-to-"%s"-is-not-allowed.rst

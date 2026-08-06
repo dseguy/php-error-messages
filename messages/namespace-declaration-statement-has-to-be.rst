@@ -21,7 +21,7 @@ Namespace declaration statement has to be
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/namespace-declaration-statement-has-to-be.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/namespace-declaration-statement-has-to-be.html","name":"Namespace declaration statement has to be","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Sun, 26 Jul 2026 06:01:32 +0000","dateModified":"Sun, 26 Jul 2026 06:01:32 +0000","description":"A ``namespace`` declaration must be the very first statement of the file, or immediately follow a ``declare()`` call (such as ``declare(strict_types=1)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/namespace-declaration-statement-has-to-be.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/namespace-declaration-statement-has-to-be.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/namespace-declaration-statement-has-to-be.html","name":"Namespace declaration statement has to be","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Aug 2026 14:00:09 +0000","dateModified":"Wed, 05 Aug 2026 14:00:09 +0000","description":"A ``namespace`` declaration must be the very first statement of the file, or immediately follow a ``declare()`` call (such as ``declare(strict_types=1)","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/namespace-declaration-statement-has-to-be.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -61,6 +61,7 @@ ______________________
 + :ref:`no-code-may-exist-outside-of-namespace-{}`
 + :ref:`strict_types-declaration-must-be-the-very-first-statement-in-the-script`
 + :ref:`cannot-mix-bracketed-namespace-declarations`
++ :ref:`encoding-declaration-pragma-must-be`
 
 Changed Behavior
 ________________

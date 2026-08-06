@@ -21,7 +21,7 @@
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s::%s-has-#[--override]-attribute.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s::%s-has-#[--override]-attribute.html","name":"%s::%s has #[\\\\Override] attribute","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Aug 2026 19:13:56 +0000","dateModified":"Tue, 04 Aug 2026 19:13:56 +0000","description":"PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/%s::%s-has-#[--override]-attribute.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s::%s-has-#[--override]-attribute.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s::%s-has-#[--override]-attribute.html","name":"%s::%s has #[\\\\Override] attribute","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Aug 2026 16:19:00 +0000","dateModified":"Wed, 05 Aug 2026 16:19:00 +0000","description":"PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/%s::%s-has-#[--override]-attribute.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -70,10 +70,9 @@ ______________________
 
 + :ref:`%s::%s()-has-#[-override]-attribute,-but-no-matching-parent-method-exists`
 + :ref:`%s::$%s-has-#[--override]-attribute`
-+ :ref:`%s::%s-has-#[--override]-attribute`
 + :ref:`has-#[-override]-attribute,-but-no-matching-parent-method-exists`
 
 Changed Behavior
 ________________
 
-This error may appear following an evolution in behavior, in previous versions. See `New in PHP 8.6: the #[\Override] attribute could previously only target methods (8.3+) and properties (8.5+); PHP 8.6 allows it on class constants and enum cases too. <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/New in PHP 8.6: the #[\Override] attribute could previously only target methods (8.3+) and properties (8.5+); PHP 8.6 allows it on class constants and enum cases too..html>`_.
+This error may appear following an evolution in behavior, in previous versions. See `overrideAttributeOnConstant86 <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/overrideAttributeOnConstant86.html>`_.

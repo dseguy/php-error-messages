@@ -21,7 +21,7 @@ Access level to %s::%s must be %s (as in %s %s)%s
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/access-level-to-%s::%s-must-be-%s-(as-in-%s-%s)%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/access-level-to-%s::%s-must-be-%s-(as-in-%s-%s)%s.html","name":"Access level to %s::%s must be %s (as in %s %s)%s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jul 2026 16:14:55 +0000","dateModified":"Fri, 24 Jul 2026 16:14:55 +0000","description":"This error is emitted when a class constant is given more restrictive visibility than in the interface","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/access-level-to-%s::%s-must-be-%s-(as-in-%s-%s)%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/access-level-to-%s::%s-must-be-%s-(as-in-%s-%s)%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/access-level-to-%s::%s-must-be-%s-(as-in-%s-%s)%s.html","name":"Access level to %s::%s must be %s (as in %s %s)%s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Aug 2026 14:00:09 +0000","dateModified":"Wed, 05 Aug 2026 14:00:09 +0000","description":"This error is emitted when a class constant is given more restrictive visibility than in the interface","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/access-level-to-%s::%s-must-be-%s-(as-in-%s-%s)%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -63,3 +63,4 @@ Related Error Messages
 ______________________
 
 + :ref:`set-access-level-of-%s::$%s-must-be-%s-(as-in-class-%s)%s`
++ :ref:`access-level-to-%s::$%s-must-be-%s-(as-in-class-%s)%s`

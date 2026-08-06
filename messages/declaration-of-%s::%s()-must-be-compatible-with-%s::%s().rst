@@ -21,7 +21,7 @@ Declaration of %s::%s() must be compatible with %s::%s()
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/declaration-of-%s::%s()-must-be-compatible-with-%s::%s().html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/declaration-of-%s::%s()-must-be-compatible-with-%s::%s().html","name":"Declaration of %s::%s() must be compatible with %s::%s()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:46 +0000","dateModified":"Tue, 31 Mar 2026 09:10:46 +0000","description":"Classes methods signature have to be compatible between a parent class and a child class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/declaration-of-%s::%s()-must-be-compatible-with-%s::%s().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/declaration-of-%s::%s()-must-be-compatible-with-%s::%s().html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/declaration-of-%s::%s()-must-be-compatible-with-%s::%s().html","name":"Declaration of %s::%s() must be compatible with %s::%s()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Aug 2026 14:00:09 +0000","dateModified":"Wed, 05 Aug 2026 14:00:09 +0000","description":"Classes methods signature have to be compatible between a parent class and a child class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/declaration-of-%s::%s()-must-be-compatible-with-%s::%s().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -78,3 +78,8 @@ _________
 
 + Check the variations and fix them.
 + Change the name of the method to a free one.
+
+Related Error Messages
+______________________
+
++ :ref:`type-of-%s::%s-must-be-compatible-with-%s::%s-of-type-%s`

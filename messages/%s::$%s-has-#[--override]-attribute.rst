@@ -21,7 +21,7 @@
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s::$%s-has-#[--override]-attribute.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s::$%s-has-#[--override]-attribute.html","name":"%s::$%s has #[\\\\Override] attribute","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 17 Jul 2026 20:55:51 +0000","dateModified":"Fri, 17 Jul 2026 20:55:51 +0000","description":"PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/%s::$%s-has-#[--override]-attribute.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s::$%s-has-#[--override]-attribute.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s::$%s-has-#[--override]-attribute.html","name":"%s::$%s has #[\\\\Override] attribute","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Aug 2026 14:18:48 +0000","dateModified":"Wed, 05 Aug 2026 14:18:48 +0000","description":"PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/%s::$%s-has-#[--override]-attribute.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -67,8 +67,9 @@ ______________________
 
 + :ref:`%s::%s()-has-#[-override]-attribute,-but-no-matching-parent-method-exists`
 + :ref:`has-#[-override]-attribute,-but-no-matching-parent-method-exists`
++ :ref:`%s::%s-has-#[--override]-attribute`
 
 Changed Behavior
 ________________
 
-This error may appear following an evolution in behavior, in previous versions. See `New in PHP 8.5: the #[\Override] attribute could previously only target methods; PHP 8.5 allows it on properties too. <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/New in PHP 8.5: the #[\Override] attribute could previously only target methods; PHP 8.5 allows it on properties too..html>`_.
+This error may appear following an evolution in behavior, in previous versions. See `overrideAttributeOnProperty85 <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/overrideAttributeOnProperty85.html>`_.

@@ -13,6 +13,7 @@ Features index
 
       * :ref:`\$globals-can-only-be-modified-using-the-\$globals[\$name]-=-\$value-syntax`
       * :ref:`%s():-argument-#%d%s%s%s-cannot-be-passed-by-reference`
+      * :ref:`cannot-append-to-\$globals`
       * :ref:`undefined-global-variable-%s`
 
 
@@ -112,6 +113,7 @@ Features index
       * :ref:`%s-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-method%s-(`
       * :ref:`%s-%s-must-implement-%d-abstract-method%s-(`
       * :ref:`%s-function-%s::%s()-cannot-be-declared-private`
+      * :ref:`%s-function-%s::%s()-cannot-contain-body`
       * :ref:`%s-method-%s::%s()-must-not-be-abstract`
       * :ref:`abstract-property-%s::\$%s-must-specify-at-least-one-abstract-hook`
       * :ref:`abstract-property-hook-cannot-have-body`
@@ -314,7 +316,7 @@ Features index
 
    * ascii
 
-      * :ref:`octal-escape-sequence-overflow-%s-is-greater-than--377`
+      * :ref:`octal-escape-sequence-overflow--%s-is-greater-than--377`
       * :ref:`providing-a-string-that-is-not-one-byte-long-is-deprecated.-use-ord(\$str[0])-instead`
 
 
@@ -354,6 +356,7 @@ Features index
       * :ref:`attribute-"%s"-cannot-target-%s-(allowed-targets:-%s)`
       * :ref:`cannot-apply-attributes-to-multiple-constants-at-once`
       * :ref:`cannot-create-closure-as-attribute-argument`
+      * :ref:`cannot-use-unpacking-in-attribute-argument-list`
       * :ref:`has-#[-override]-attribute,-but-no-matching-parent-method-exists`
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function"-or-"const"`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-"]"`
@@ -599,7 +602,9 @@ Features index
    * class
 
       * :ref:`%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed`
+      * :ref:`%s-and-%s-define-the-same-property-(\$%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed`
       * :ref:`a-class-constant-must-not-be-called-class.-it-is-reserved-for-class-name-fetching`
+      * :ref:`an-alias-was-defined-for-method-%s(),-which-exists-in-both-%s-and-%s.-use-%s::%s-or-%s::%s-to-resolve-the-ambiguity`
       * :ref:`anonymous-class-method-%s()-must-not-be-abstract`
       * :ref:`calling-get_class()-without-arguments-is-deprecated`
       * :ref:`cannot-apply-#[allowdynamicproperties]-to-enum-%s`
@@ -609,15 +614,19 @@ Features index
       * :ref:`cannot-create-dynamic-property-%s::\$%s`
       * :ref:`cannot-inherit-previously-inherited-or-override-constant-%s-from-interface-%s`
       * :ref:`cannot-make-non-abstract-method-%s::%s()-abstract-in-class-%s`
+      * :ref:`cannot-redeclare-%s::\$%s`
       * :ref:`cannot-redeclare-%s::%s()`
       * :ref:`cannot-redeclare-class-%s`
+      * :ref:`cannot-redefine-class-constant-%s::%s`
       * :ref:`cannot-use%s-%s-as-%s-because-the-name-is-already-in-use`
       * :ref:`cannot-use-"parent"-when-current-class-scope-has-no-parent`
       * :ref:`cannot-use-the-final-modifier-on-an-abstract-class`
       * :ref:`class-"%s"-not-found`
       * :ref:`class-%s-cannot-extend-%s-%s`
       * :ref:`class-%s-cannot-extend-enum-%s`
+      * :ref:`class-%s-cannot-use-%s---it-is-not-a-trait`
       * :ref:`illegal-class-name`
+      * :ref:`inconsistent-insteadof-definition.-the-method-%s-is-to-be-used-from-%s`
       * :ref:`interface-%s-cannot-extend-class-%s`
       * :ref:`must-be-a-user-defined-class-name,-internal-class-name-given`
       * :ref:`must-be-a-valid-class-name,-%s-given`
@@ -630,6 +639,7 @@ Features index
       * :ref:`syntax-error,-unexpected-token-"private",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"protected",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"public",-expecting-"{"`
+      * :ref:`the-modifiers-of-the-trait-method-%s()-are-changed,-but-this-method-does-not-exist.-error`
 
 
    * class-constant
@@ -639,13 +649,12 @@ Features index
       * :ref:`%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed`
       * :ref:`%s::%s-has-#[--override]-attribute`
       * :ref:`(expression)::class-cannot-be-used-in-constant-expressions`
-      * :ref:`a-class-constant-must-not-be-called-class;-it-is-reserved-for-class-name-fetching-ce->type-==-zend_internal_class-?-e_core_error-:`
       * :ref:`cannot-access-%s-const-%s::%s`
       * :ref:`cannot-access-%s-constant-%s::%s`
       * :ref:`cannot-assign-%s-to-class-constant-%s::%s-of-type`
       * :ref:`cannot-be-a-class-constant`
       * :ref:`cannot-inherit-previously-inherited-or-override-constant-%s-from-interface-%s`
-      * :ref:`cannot-redefine-class-constant-%s::%s-ce->type-==-zend_internal_class-?-e_core_error-:`
+      * :ref:`cannot-redefine-class-constant-%s::%s`
       * :ref:`cannot-redefine-class-constant`
       * :ref:`cannot-use-%s-as-value-for-class-constant-%s::%s-of-type-%s`
       * :ref:`cannot-use-\'abstract\'-as-constant-modifier`
@@ -664,11 +673,6 @@ Features index
       * :ref:`type-of-%s::%s-must-be-compatible-with-%s::%s-of-type-%s`
       * :ref:`undefined-class-constant-\'%s::%s\'`
       * :ref:`undefined-constant-%s::%s`
-
-
-   * class-name-resolution
-
-      * :ref:`a-class-constant-must-not-be-called-class;-it-is-reserved-for-class-name-fetching-ce->type-==-zend_internal_class-?-e_core_error-:`
 
 
    * class-operator
@@ -695,6 +699,7 @@ Features index
       * :ref:`cannot-bind-an-instance-to-a-static-closure`
       * :ref:`cannot-bind-method-%s::%s()-to-object-of-class-%s,-this-will-be-an-error-in-php-9`
       * :ref:`cannot-bind-method-%s::%s()-to-object-of-class-%s`
+      * :ref:`cannot-combine-nullsafe-operator-with-closure-creation`
       * :ref:`cannot-create-closure-as-attribute-argument`
       * :ref:`cannot-create-closure-for-new-expression`
       * :ref:`cannot-rebind-scope-of-closure-created-from-function,-this-will-be-an-error-in-php-9`
@@ -705,6 +710,7 @@ Features index
       * :ref:`cannot-use(...)-variables-in-constant-expression`
       * :ref:`cannot-use-\$this-as-lexical-variable`
       * :ref:`cannot-use-dynamic-method-name-in-constant-expression`
+      * :ref:`cannot-use-variable-\$%ps-twice`
       * :ref:`cannot-use-variable-\$%s-twice`
       * :ref:`closures-in-constant-expressions-must-be-static`
       * :ref:`current-function-is-not-a-closure`
@@ -1124,6 +1130,7 @@ Features index
       * :ref:`cannot-create-dynamic-property-%s::\$%s`
       * :ref:`cannot-instantiate-enum-%s`
       * :ref:`cannot-redeclare-%s::%s()`
+      * :ref:`cannot-use-trait-%s`
       * :ref:`case-%s-of-backed-enum-%s-must-have-a-value`
       * :ref:`case-%s-of-non-backed-enum-%s-must-not-have-a-value`
       * :ref:`case-can-only-be-used-in-enums`
@@ -1147,6 +1154,7 @@ Features index
 
    * enum-case
 
+      * :ref:`cannot-use-trait-%s`
       * :ref:`enums-are-not-compatible-with-%s`
       * :ref:`trying-to-clone-an-uncloneable-object-of-class-%s`
 
@@ -1166,7 +1174,7 @@ Features index
 
       * :ref:`invalid-utf-8-codepoint-escape`
       * :ref:`invalid-utf-8-codepoint-escape:-codepoint-too-large`
-      * :ref:`octal-escape-sequence-overflow-%s-is-greater-than--377`
+      * :ref:`octal-escape-sequence-overflow--%s-is-greater-than--377`
 
 
    * exception
@@ -1302,6 +1310,7 @@ Features index
    * first-class-callable
 
       * :ref:`array-callback-has-to-contain-indices-0-and-1`
+      * :ref:`cannot-combine-nullsafe-operator-with-closure-creation`
       * :ref:`cannot-create-closure-as-attribute-argument`
       * :ref:`cannot-create-closure-for-new-expression`
       * :ref:`cannot-create-closure-for-parent-property-hook-call`
@@ -1393,11 +1402,6 @@ Features index
       * :ref:`syntax-error,-unexpected-token-"->",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-token-"::",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-token-"?->",-expecting-","-or-";"`
-
-
-   * globals
-
-      * :ref:`cannot-append-to-\$globals`
 
 
    * goto
@@ -1530,6 +1534,8 @@ Features index
       * :ref:`cannot-make-non-abstract-method-%s::%s()-abstract-in-class-%s`
       * :ref:`cannot-redeclare-%s%s::\$%s-as-%s%s::\$%s`
       * :ref:`cannot-redefine-class-constant`
+      * :ref:`cannot-use--"parent-"-when-current-class-scope-has-no-parent`
+      * :ref:`cannot-use--"parent-"-when-no-class-scope-is-active`
       * :ref:`non-readonly-class-%s-cannot-extend-readonly-class-%s`
       * :ref:`readonly-class-%s-cannot-extend-non-readonly-class-%s`
       * :ref:`set-access-level-of-%s::\$%s-must-be-%s-(as-in-class-%s)%s`
@@ -1576,6 +1582,7 @@ Features index
       * :ref:`%s-%s-inherits-both-%s::%s-and-%s::%s`
       * :ref:`%s-%s-must-implement-%d-abstract-method%s-(`
       * :ref:`%s-%s-must-implement-interface-%s-as-part-of-either-%s-or-%s`
+      * :ref:`%s-function-%s::%s()-cannot-contain-body`
       * :ref:`%s-method-%s::%s()-must-not-be-abstract`
       * :ref:`access-type-for-interface-constant-%s::%s-must-be-public`
       * :ref:`access-type-for-interface-method-%s::%s()-must-be-public`
@@ -1684,6 +1691,7 @@ Features index
 
    * late-static-binding
 
+      * :ref:`cannot-use--"%s-"-when-no-class-scope-is-active`
       * :ref:`static-"-is-not-allowed-in-compile-time-constants`
       * :ref:`static::-"-is-not-allowed-in-compile-time-constants`
       * :ref:`static::class-cannot-be-used-for-compile-time-class-name-resolution`
@@ -1818,9 +1826,11 @@ Features index
 
       * :ref:`%s():-returning-by-reference-from-a-void-function-is-deprecated`
       * :ref:`%s-function-%s::%s()-cannot-be-declared-private`
+      * :ref:`%s-function-%s::%s()-cannot-contain-body`
       * :ref:`a-precedence-rule-was-defined-for-%s::%s-but-this-method-does-not-exist`
       * :ref:`an-alias-(%s)-was-defined-for-method-%s(),-but-this-method-does-not-exist`
       * :ref:`an-alias-was-defined-for-%s::%s-but-this-method-does-not-exist`
+      * :ref:`an-alias-was-defined-for-method-%s(),-which-exists-in-both-%s-and-%s.-use-%s::%s-or-%s::%s-to-resolve-the-ambiguity`
       * :ref:`call-to-%s-%s::%s()-from-invalid`
       * :ref:`call-to-%s-method-%s::%s()-from-%s%s`
       * :ref:`call-to-undefined-method-%s::%s()`
@@ -1830,6 +1840,7 @@ Features index
       * :ref:`cannot-redeclare-%s::%s()`
       * :ref:`cannot-use-\'readonly\'-as-%s-modifier`
       * :ref:`cannot-use-\'readonly\'-as-method-modifier`
+      * :ref:`inconsistent-insteadof-definition.-the-method-%s-is-to-be-used-from-%s`
       * :ref:`method-name-must-be-a-string`
       * :ref:`must-be-a-valid-method-name`
       * :ref:`non-static-method-%s::%s()-cannot-be-called-statically`
@@ -1847,6 +1858,7 @@ Features index
       * :ref:`syntax-error,-unexpected-variable-"\$task",-expecting-")"`
       * :ref:`syntax-error,-unexpected-variable-"\$this",-expecting-";"-or-"{"`
       * :ref:`syntax-error,-unexpected-variable-"%s",-expecting-"("`
+      * :ref:`the-modifiers-of-the-trait-method-%s()-are-changed,-but-this-method-does-not-exist.-error`
       * :ref:`the-sqlite3-object-has-not-been-correctly-initialised-or-is-already-closed`
       * :ref:`too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d-expected`
       * :ref:`too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d`
@@ -1932,6 +1944,7 @@ Features index
       * :ref:`\'namespace-%s\'-is-an-invalid-class-name`
       * :ref:`call-to-undefined-function`
       * :ref:`cannot-mix-bracketed-namespace-declarations`
+      * :ref:`cannot-redeclare-function-%s()-(previously-declared-as-local-import)`
       * :ref:`cannot-use-\'%s\'-as-namespace-name`
       * :ref:`cannot-use-\'namespace\'-as-namespace-name`
       * :ref:`namespace-%s-is-an-invalid-class-name`
@@ -1987,6 +2000,7 @@ Features index
       * :ref:`a-never-returning-method-must-not-return`
       * :ref:`cannot-use-\'never\'-as-class-name-as-it-is-reserved`
       * :ref:`class-constant-%s::%s-cannot-have-type-%s`
+      * :ref:`never-can-only-be-used-as-a-standalone-type`
       * :ref:`never-cannot-be-used-as-a-parameter-type`
       * :ref:`never-returning-function-must-not-implicitly-return`
 
@@ -2066,6 +2080,7 @@ Features index
    * nullsafe-object-operator
 
       * :ref:`can\'t-use-nullsafe-operator-in-write-context`
+      * :ref:`cannot-combine-nullsafe-operator-with-closure-creation`
       * :ref:`cannot-take-reference-of-a-nullsafe-chain`
       * :ref:`syntax-error,-unexpected-token-"->"`
 
@@ -2106,7 +2121,7 @@ Features index
    * octal-integer
 
       * :ref:`invalid-numeric-literal`
-      * :ref:`octal-escape-sequence-overflow-%s-is-greater-than--377`
+      * :ref:`octal-escape-sequence-overflow--%s-is-greater-than--377`
 
 
    * offset
@@ -2121,6 +2136,9 @@ Features index
    * oop
 
       * :ref:`cannot-use-\$this-as-parameter`
+      * :ref:`cannot-use-\$this-as-static-variable`
+      * :ref:`cannot-use--"parent-"-when-current-class-scope-has-no-parent`
+      * :ref:`cannot-use--"parent-"-when-no-class-scope-is-active`
 
 
    * open-tag
@@ -2188,12 +2206,14 @@ Features index
       * :ref:`func_num_args()-must-be-called-from-a-function-context`
       * :ref:`get_defined_functions():-the-\$exclude_disabled-parameter-has-no-effect-since-php-8.0`
       * :ref:`named-parameter-\$%s-overwrites-previous-argument`
+      * :ref:`only-the-last-parameter-can-be-variadic`
       * :ref:`optional-parameter-\$%s-declared-before-required-parameter-\$%s-is-implicitly-treated-as-a-required-parameter`
       * :ref:`parameter-must-have-a-name`
       * :ref:`parameter-uses-\'parent\'-as-type-hint-although-class-does-not-have-a-parent!`
       * :ref:`redefinition-of-parameter-\$%s`
       * :ref:`required-parameter-\$%s-follows-optional-parameter-\$%s`
       * :ref:`syntax-error,-unexpected-token-"=",-expecting-variable`
+      * :ref:`variadic-parameter-cannot-have-a-default-value`
 
 
    * parameter-removal
@@ -2226,6 +2246,8 @@ Features index
       * :ref:`unmatched-\')\'`
       * :ref:`unmatched-\']\'`
       * :ref:`unparenthesized-\`a-?-b-:-c-?-d-:-e\`-is-not-supported.`
+      * :ref:`unparenthesized-\`a-?-b-:-c-?:-d\`-is-not-supported.`
+      * :ref:`unparenthesized-\`a-?:-b-?-c-:-d\`-is-not-supported.`
 
 
    * partial-application
@@ -2334,6 +2356,7 @@ Features index
 
    * property
 
+      * :ref:`%s-and-%s-define-the-same-property-(\$%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed`
       * :ref:`%s::\$%s-has-#[--override]-attribute`
       * :ref:`access-level-to-%s::\$%s-must-be-%s-(as-in-class-%s)%s`
       * :ref:`accessing-static-trait-property-%s::\$%s-is-deprecated`
@@ -2349,6 +2372,7 @@ Features index
       * :ref:`cannot-increment-property-%s::\$%s-of-type-int-past-its-maximal-value`
       * :ref:`cannot-redeclare-%s%s::\$%s-as-%s%s::\$%s`
       * :ref:`cannot-redeclare-%s-property-%s::\$%s-as-%s-%s::\$%s`
+      * :ref:`cannot-redeclare-%s::\$%s`
       * :ref:`cannot-use-the-final-modifier-on-a-parameter`
       * :ref:`default-value-for-property-of-type-int-may-not-be-null.-use-the-nullable-type-?int-to-allow-null-default-value`
       * :ref:`enum-%s-cannot-include-properties`
@@ -2549,11 +2573,17 @@ Features index
       * :ref:`using-"_"-as-%s-is-deprecated-since-8.4`
 
 
+   * resource
+
+      * :ref:`%s-"-is-not-a-supported-builtin-type-and-will-be-interpreted-as-a-class-name.-write--"--%s-"%s-to-suppress-this-warning`
+
+
    * return
 
       * :ref:`%s%s%s():-return-value-must-be-of-type-%s,-%s-returned`
       * :ref:`%s():-never-returning-%s-must-not-implicitly-return`
       * :ref:`%s():-never-returning-function-must-not-implicitly-return`
+      * :ref:`a-%s-with-return-type-must-return-a-value`
       * :ref:`a-function-with-return-type-must-return-a-value`
       * :ref:`a-never-returning-%s-must-not-return`
       * :ref:`a-never-returning-method-must-not-return`
@@ -2569,6 +2599,7 @@ Features index
       * :ref:`%s%s%s():-return-value-must-be-of-type-%s,-%s-returned`
       * :ref:`%s::%s():-return-type-must-be-%s-when-declared`
       * :ref:`%s::__tostring()-must-return-a-string`
+      * :ref:`a-%s-with-return-type-must-return-a-value`
       * :ref:`a-function-with-return-type-must-return-a-value`
       * :ref:`constructor-%s::%s()-cannot-declare-a-return-type`
       * :ref:`division-of-php_int_min-by--1-is-not-an-integer`
@@ -2627,6 +2658,7 @@ Features index
       * :ref:`\'-%s\'-is-an-invalid-class-name`
       * :ref:`cannot-access-self::-when-no-class-scope-is-active`
       * :ref:`cannot-use-"%s"-when-no-class-scope-is-active`
+      * :ref:`cannot-use--"%s-"-when-no-class-scope-is-active`
 
 
    * self-reference
@@ -2802,6 +2834,7 @@ Features index
 
    * static-variable
 
+      * :ref:`cannot-use-\$this-as-static-variable`
       * :ref:`duplicate-declaration-of-static-variable-\$%s`
       * :ref:`syntax-error,-unexpected-token-"->",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-token-"::",-expecting-","-or-";"`
@@ -2908,6 +2941,8 @@ Features index
       * :ref:`syntax-error,-unexpected-token-":",-expecting-"]"`
       * :ref:`syntax-error,-unexpected-token-"?"`
       * :ref:`unparenthesized-\`a-?-b-:-c-?-d-:-e\`-is-not-supported.`
+      * :ref:`unparenthesized-\`a-?-b-:-c-?:-d\`-is-not-supported.`
+      * :ref:`unparenthesized-\`a-?:-b-?-c-:-d\`-is-not-supported.`
 
 
    * throw
@@ -2941,30 +2976,36 @@ Features index
 
       * :ref:`%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed`
       * :ref:`%s-and-%s-define-the-same-hooked-property-(\$%s)-in-the-composition-of-%s.-conflict-resolution-between-hooked-properties-is-currently-not-supported.-class-was-composed`
+      * :ref:`%s-and-%s-define-the-same-property-(\$%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed`
       * :ref:`%s-cannot-use-%s---it-is-not-a-trait`
       * :ref:`a-precedence-rule-was-defined-for-%s::%s-but-this-method-does-not-exist`
       * :ref:`accessing-static-trait-property-%s::\$%s-is-deprecated,-it-should-only-be-accessed-on-a-class-using-the-trait`
       * :ref:`accessing-static-trait-property-%s::\$%s-is-deprecated`
+      * :ref:`an-alias-was-defined-for-method-%s(),-which-exists-in-both-%s-and-%s.-use-%s::%s-or-%s::%s-to-resolve-the-ambiguity`
       * :ref:`call-to-undefined-method-%s::%s()`
       * :ref:`calling-static-trait-method-%s::%s-is-deprecated`
       * :ref:`cannot-access-trait-constant-%s::%s-directly`
       * :ref:`cannot-apply-#[allowdynamicproperties]-to-trait-%s`
       * :ref:`cannot-instantiate-trait-%s`
-      * :ref:`cannot-redefine-class-constant-%s::%s-ce->type-==-zend_internal_class-?-e_core_error-:`
+      * :ref:`cannot-use--"abstract-"-as-method-modifier-in-trait-alias`
       * :ref:`cannot-use--"static-"-as-method-modifier-in-trait-alias`
+      * :ref:`cannot-use-trait-%s`
       * :ref:`cannot-use-traits-inside-of-interfaces.-%s-is-used-in-%s`
+      * :ref:`class-%s-cannot-use-%s---it-is-not-a-trait`
       * :ref:`class-%s-is-not-a-trait`
       * :ref:`could-not-find-trait-%s`
       * :ref:`enum-"%s"-not-found`
       * :ref:`enum-%s-cannot-include-properties`
       * :ref:`failed-to-evaluate-a-trait-precedence-(%s).-method-of-trait-%s-was-defined-to-be-excluded-multiple-times`
       * :ref:`get_called_class()-must-be-called-from-within-a-class`
+      * :ref:`inconsistent-insteadof-definition.-the-method-%s-is-to-be-used-from-%s`
       * :ref:`readonly-class-%s-cannot-use-trait-with-a-non-readonly-property-%s::\$%s`
       * :ref:`required-trait-%s-wasn\'t-added-to-%s`
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function"`
       * :ref:`syntax-error,-unexpected-token-"private",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"protected",-expecting-"{"`
       * :ref:`syntax-error,-unexpected-token-"public",-expecting-"{"`
+      * :ref:`the-modifiers-of-the-trait-method-%s()-are-changed,-but-this-method-does-not-exist.-error`
       * :ref:`trait-"%s"-not-found`
       * :ref:`trait-%s-used-by-%s-is-deprecated%s`
       * :ref:`trait-method-%s::%s-has-not-been-applied-as-%s::%s`
@@ -2997,6 +3038,8 @@ Features index
       * :ref:`%s():-implicitly-marking-parameter-\$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead`
       * :ref:`%s():-return-value-of-the-authorizer-callback-must-be-of-type-int,-%s-returned`
       * :ref:`%s():-return-value-of-the-collation-callback-must-be-of-type-int,-%s-returned`
+      * :ref:`%s-"-is-not-a-supported-builtin-type-and-will-be-interpreted-as-a-class-name.-write--"--%s-"%s-to-suppress-this-warning`
+      * :ref:`%s-"-will-be-interpreted-as-a-class-name.-did-you-mean--"%s-"?-write--"--%s-"%s-to-suppress-this-warning`
       * :ref:`%s-is-not-supported-on-type-%s`
       * :ref:`argument-#%d-(\$%s)-must-be-of-type-%s,-%s-given`
       * :ref:`argument-#1-(\$start)-must-be-a-single-byte-string-if`
@@ -3017,6 +3060,7 @@ Features index
       * :ref:`must-be-between-1-and-7`
       * :ref:`must-be-of-type-%s,-%s-given`
       * :ref:`needle-is-not-a-string-or-an-integer`
+      * :ref:`never-can-only-be-used-as-a-standalone-type`
       * :ref:`readonly-property-%s::\$%s-must-have-type`
       * :ref:`syntax-error,-unexpected-token-"?"`
       * :ref:`type-%s-contains-both-object-and-a-class-type`
@@ -3024,6 +3068,7 @@ Features index
       * :ref:`type-mixed-cannot-be-marked-as-nullable-since-mixed-already-includes-null`
       * :ref:`type-of-%s::%s-must-be-compatible-with-%s::%s-of-type-%s`
       * :ref:`using-array_key_exists()-on-objects-is-deprecated.`
+      * :ref:`void-can-only-be-used-as-a-standalone-type`
 
 
    * type-juggling
@@ -3077,6 +3122,7 @@ Features index
       * :ref:`cannot-use-argument-unpacking-after-named-arguments`
       * :ref:`cannot-use-positional-argument-after-argument-unpacking`
       * :ref:`cannot-use-positional-argument-after-named-argument`
+      * :ref:`cannot-use-unpacking-in-attribute-argument-list`
       * :ref:`keys-must-be-of-type-int|string-during-array-unpacking`
 
 
@@ -3107,6 +3153,7 @@ Features index
 
    * use
 
+      * :ref:`cannot-use-variable-\$%ps-twice`
       * :ref:`syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";"`
       * :ref:`syntax-error,-unexpected-token-";",-expecting-identifier`
       * :ref:`syntax-error,-unexpected-token-"as"`
@@ -3120,11 +3167,13 @@ Features index
       * :ref:`an-alias-(%s)-was-defined-for-method-%s(),-but-this-method-does-not-exist`
       * :ref:`an-alias-was-defined-for-%s::%s-but-this-method-does-not-exist`
       * :ref:`call-to-undefined-function`
+      * :ref:`cannot-redeclare-function-%s()-(previously-declared-as-local-import)`
       * :ref:`class-%s-is-not-a-trait`
 
 
    * use-trait
 
+      * :ref:`cannot-use--"abstract-"-as-method-modifier-in-trait-alias`
       * :ref:`syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function"-or-"const"`
       * :ref:`syntax-error,-unexpected-namespaced-name-"%s",-expecting-"function"`
       * :ref:`trait-method-%s::%s-has-not-been-applied-as-%s::%s`
@@ -3185,7 +3234,9 @@ Features index
 
       * :ref:`array_merge()-does-not-accept-unknown-named-parameters`
       * :ref:`cannot-declare-variadic-promoted-property`
+      * :ref:`only-the-last-parameter-can-be-variadic`
       * :ref:`spread-operator-is-not-supported-in-assignments`
+      * :ref:`variadic-parameter-cannot-have-a-default-value`
 
 
    * virtual-property
@@ -3224,6 +3275,7 @@ Features index
       * :ref:`class-constant-%s::%s-cannot-have-type-%s`
       * :ref:`property-x::\$p-cannot-have-type-void`
       * :ref:`returning-by-reference-from-a-void-function-is-deprecated`
+      * :ref:`void-can-only-be-used-as-a-standalone-type`
       * :ref:`void-cannot-be-used-as-a-parameter-type`
 
 

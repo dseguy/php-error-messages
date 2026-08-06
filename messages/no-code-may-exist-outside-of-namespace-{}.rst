@@ -21,7 +21,7 @@ No code may exist outside of namespace {}
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/no-code-may-exist-outside-of-namespace-{}.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/no-code-may-exist-outside-of-namespace-{}.html","name":"No code may exist outside of namespace {}","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:46 +0000","dateModified":"Tue, 31 Mar 2026 09:10:46 +0000","description":"When using a block notation for namespaces, there cannot be any other code outside the namespaced blocks","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-code-may-exist-outside-of-namespace-{}.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/no-code-may-exist-outside-of-namespace-{}.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/no-code-may-exist-outside-of-namespace-{}.html","name":"No code may exist outside of namespace {}","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Aug 2026 14:00:09 +0000","dateModified":"Wed, 05 Aug 2026 14:00:09 +0000","description":"When using a block notation for namespaces, there cannot be any other code outside the namespaced blocks","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/no-code-may-exist-outside-of-namespace-{}.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -51,3 +51,9 @@ _________
 + Move all the code inside a namespace block.
 + For global namespace, use the ``namespace {...}`` command without a name.
 + Switch to the namespace command without block: all the code will be in that namespace, until the next namespace command.
+
+Related Error Messages
+______________________
+
++ :ref:`cannot-mix-bracketed-namespace-declarations`
++ :ref:`namespace-declaration-statement-has-to-be`

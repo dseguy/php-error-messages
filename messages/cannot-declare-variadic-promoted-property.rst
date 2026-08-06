@@ -21,7 +21,7 @@ Cannot declare variadic promoted property
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-declare-variadic-promoted-property.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-declare-variadic-promoted-property.html","name":"Cannot declare variadic promoted property","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:46 +0000","dateModified":"Tue, 31 Mar 2026 09:10:46 +0000","description":"Properties may be declared, as an parameter in a constructor","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-declare-variadic-promoted-property.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-declare-variadic-promoted-property.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-declare-variadic-promoted-property.html","name":"Cannot declare variadic promoted property","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Aug 2026 14:00:09 +0000","dateModified":"Wed, 05 Aug 2026 14:00:09 +0000","description":"Properties may be declared, as an parameter in a constructor","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-declare-variadic-promoted-property.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -52,3 +52,10 @@ _________
 
 + Remove the property definition from the constructor: keep the argument use the variadic, and define the property in the traditional way.
 + Remove the variadic option.
+
+Related Error Messages
+______________________
+
++ :ref:`cannot-redeclare-%s::$%s`
++ :ref:`only-the-last-parameter-can-be-variadic`
++ :ref:`variadic-parameter-cannot-have-a-default-value`

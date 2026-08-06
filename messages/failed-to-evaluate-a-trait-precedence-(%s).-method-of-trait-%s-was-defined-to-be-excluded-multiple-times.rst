@@ -21,7 +21,7 @@ Failed to evaluate a trait precedence (%s). Method of trait %s was defined to be
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/failed-to-evaluate-a-trait-precedence-(%s).-method-of-trait-%s-was-defined-to-be-excluded-multiple-times.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/failed-to-evaluate-a-trait-precedence-(%s).-method-of-trait-%s-was-defined-to-be-excluded-multiple-times.html","name":"Failed to evaluate a trait precedence (%s). Method of trait %s was defined to be excluded multiple times","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Aug 2026 14:21:52 +0000","dateModified":"Tue, 04 Aug 2026 14:21:52 +0000","description":"The ``insteadof`` operator resolves a conflict between two or more traits that define a method with the same name: it picks the version to keep, and implicitly excludes that method from the traits listed after ``insteadof``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/failed-to-evaluate-a-trait-precedence-(%s).-method-of-trait-%s-was-defined-to-be-excluded-multiple-times.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/failed-to-evaluate-a-trait-precedence-(%s).-method-of-trait-%s-was-defined-to-be-excluded-multiple-times.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/failed-to-evaluate-a-trait-precedence-(%s).-method-of-trait-%s-was-defined-to-be-excluded-multiple-times.html","name":"Failed to evaluate a trait precedence (%s). Method of trait %s was defined to be excluded multiple times","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 06 Aug 2026 13:26:42 +0000","dateModified":"Thu, 06 Aug 2026 13:26:42 +0000","description":"The ``insteadof`` operator resolves a conflict between two or more traits that define a method with the same name: it picks the version to keep, and implicitly excludes that method from the traits listed after ``insteadof``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/failed-to-evaluate-a-trait-precedence-(%s).-method-of-trait-%s-was-defined-to-be-excluded-multiple-times.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -65,6 +65,11 @@ _________
 
 + Remove the duplicate trait name from the insteadof list.
 + Check whether the trait is already excluded for that method by another precedence rule.
+
+Related Error Messages
+______________________
+
++ :ref:`inconsistent-insteadof-definition.-the-method-%s-is-to-be-used-from-%s`
 
 Changed Behavior
 ________________

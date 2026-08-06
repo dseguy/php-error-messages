@@ -21,7 +21,7 @@
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s-method-%s::%s()-must-not-be-abstract.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s-method-%s::%s()-must-not-be-abstract.html","name":"%s method %s::%s() must not be abstract","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 17 Jul 2026 20:55:41 +0000","dateModified":"Fri, 17 Jul 2026 20:55:41 +0000","description":"Interface methods are implicitly abstract: they never carry a body, since an interface only declares a contract","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/%s-method-%s::%s()-must-not-be-abstract.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s-method-%s::%s()-must-not-be-abstract.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/%s-method-%s::%s()-must-not-be-abstract.html","name":"%s method %s::%s() must not be abstract","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 06 Aug 2026 13:26:42 +0000","dateModified":"Thu, 06 Aug 2026 13:26:42 +0000","description":"Interface methods are implicitly abstract: they never carry a body, since an interface only declares a contract","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/%s-method-%s::%s()-must-not-be-abstract.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -66,8 +66,9 @@ ______________________
 + :ref:`class-%s-declares-abstract-method-%s()-and-must-therefore-be-declared-abstract`
 + :ref:`%s-%s-must-implement-%d-abstract-method%s-(`
 + :ref:`interface-%s-cannot-contain-non-abstract-method-%s()`
++ :ref:`%s-function-%s::%s()-cannot-contain-body`
 
 Changed Behavior
 ________________
 
-This error may appear following an evolution in behavior, in previous versions. See `Since PHP 8.5, this dedicated message also applies to enums; before that, an abstract method declared directly in an enum triggered the generic 'must implement N abstract method(s)' message. <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/Since PHP 8.5, this dedicated message also applies to enums; before that, an abstract method declared directly in an enum triggered the generic 'must implement N abstract method(s)' message..html>`_.
+This error may appear following an evolution in behavior, in previous versions. See `abstractMethodMessageSplit85 <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/abstractMethodMessageSplit85.html>`_.

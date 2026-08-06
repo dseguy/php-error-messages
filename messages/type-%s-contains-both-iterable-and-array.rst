@@ -21,7 +21,7 @@ Type %s contains both iterable and array, which is redundant
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/type-%s-contains-both-iterable-and-array.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/type-%s-contains-both-iterable-and-array.html","name":"Type %s contains both iterable and array, which is redundant","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:47 +0000","dateModified":"Tue, 31 Mar 2026 09:10:47 +0000","description":"Since PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/type-%s-contains-both-iterable-and-array.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/type-%s-contains-both-iterable-and-array.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/type-%s-contains-both-iterable-and-array.html","name":"Type %s contains both iterable and array, which is redundant","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Aug 2026 14:00:09 +0000","dateModified":"Wed, 05 Aug 2026 14:00:09 +0000","description":"Since PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/type-%s-contains-both-iterable-and-array.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -60,6 +60,7 @@ Related Error Messages
 ______________________
 
 + :ref:`duplicate-type-%s-is-redundant`
++ :ref:`type-%s-contains-both-object-and-a-class-type`
 
 See Also
 ________

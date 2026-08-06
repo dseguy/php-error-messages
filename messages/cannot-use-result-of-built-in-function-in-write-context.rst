@@ -21,7 +21,7 @@ Cannot use result of built-in function in write context
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-result-of-built-in-function-in-write-context.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-result-of-built-in-function-in-write-context.html","name":"Cannot use result of built-in function in write context","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 30 Jul 2026 07:30:26 +0000","dateModified":"Thu, 30 Jul 2026 07:30:26 +0000","description":"Binding a reference to the return value of a function ($var = &func()","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-use-result-of-built-in-function-in-write-context.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-result-of-built-in-function-in-write-context.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-result-of-built-in-function-in-write-context.html","name":"Cannot use result of built-in function in write context","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Aug 2026 14:00:09 +0000","dateModified":"Wed, 05 Aug 2026 14:00:09 +0000","description":"Binding a reference to the return value of a function ($var = &func()","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-use-result-of-built-in-function-in-write-context.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -43,6 +43,12 @@ Solutions
 _________
 
 + Drop the &, and assign the return value normally: $max = max(1, 2, 3);
+
+Related Error Messages
+______________________
+
++ :ref:`can't-use-function-return-value-in-write-context`
++ :ref:`can't-use-method-return-value-in-write-context`
 
 Changed Behavior
 ________________

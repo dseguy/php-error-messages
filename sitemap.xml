@@ -58,7 +58,13 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s%28%29%3A-returning-by-reference-from-a-void-function-is-deprecated.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s-%22-is-not-a-supported-builtin-type-and-will-be-interpreted-as-a-class-name.-write--%22--%25s-%22%25s-to-suppress-this-warning.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s-%22-is-returned-from-__sleep%28%29-multiple-times.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s-%22-will-be-interpreted-as-a-class-name.-did-you-mean--%22%25s-%22%3F-write--%22--%25s-%22%25s-to-suppress-this-warning.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s-%25s-cannot-implement-interface-%25s%2C-extend-exception-or-error-instead.html</loc>
@@ -85,6 +91,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s-and-%25s-define-the-same-hooked-property-%28%24%25s%29-in-the-composition-of-%25s.-conflict-resolution-between-hooked-properties-is-currently-not-supported.-class-was-composed.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s-and-%25s-define-the-same-property-%28%24%25s%29-in-the-composition-of-%25s.-however%2C-the-definition-differs-and-is-considered-incompatible.-class-was-composed.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s-cannot-implement-%25s---it-is-not-an-interface.html</loc>
  </url>
  <url>
@@ -95,6 +104,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s-function-%25s%3A%3A%25s%28%29-cannot-be-declared-private.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s-function-%25s%3A%3A%25s%28%29-cannot-contain-body.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s-hook-of-property-%25s%3A%3A%24%25s-must-accept-exactly-one-parameters.html</loc>
@@ -178,10 +190,10 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/%25s%27-is-not-a-valid-mode-for-fopen.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/a-class-constant-must-not-be-called-class.-it-is-reserved-for-class-name-fetching.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/a-%25s-with-return-type-must-return-a-value.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/a-class-constant-must-not-be-called-class%3B-it-is-reserved-for-class-name-fetching-ce-%3Etype-%3D%3D-zend_internal_class-%3F-e_core_error-%3A.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/a-class-constant-must-not-be-called-class.-it-is-reserved-for-class-name-fetching.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/a-function-with-return-type-must-return-a-value.html</loc>
@@ -248,6 +260,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/an-alias-was-defined-for-%25s%3A%3A%25s-but-this-method-does-not-exist.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/an-alias-was-defined-for-method-%25s%28%29%2C-which-exists-in-both-%25s-and-%25s.-use-%25s%3A%3A%25s-or-%25s%3A%3A%25s-to-resolve-the-ambiguity.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/an-iterator-cannot-be-used-with-foreach-by-reference.html</loc>
@@ -526,6 +541,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-combine-named-arguments-and-argument-unpacking.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-combine-nullsafe-operator-with-closure-creation.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-combine-partial-application-and-unpacking.html</loc>
  </url>
  <url>
@@ -655,6 +673,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-%25s-property-%25s%3A%3A%24%25s-as-%25s-%25s%3A%3A%24%25s.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-%25s%3A%3A%24%25s.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-%25s%3A%3A%25s%28%29.html</loc>
  </url>
  <url>
@@ -662,6 +683,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-constant-%27%25s%27.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-function-%25s%28%29-%28previously-declared-as-local-import%29.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-function-%25s%28%29-%28previously-declared-in-%25s%3A%25d%29.html</loc>
@@ -673,7 +697,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-property-hook.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redefine-class-constant-%25s%3A%3A%25s-ce-%3Etype-%3D%3D-zend_internal_class-%3F-e_core_error-%3A.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redefine-class-constant-%25s%3A%3A%25s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redefine-class-constant.html</loc>
@@ -748,6 +772,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%24this-as-parameter.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%24this-as-static-variable.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%25s-as-%25s-because-%25s-is-a-special-class-name.html</loc>
  </url>
  <url>
@@ -808,7 +835,19 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use--%22%25s-%22-as-%25s.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use--%22%25s-%22-when-no-class-scope-is-active.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use--%22%3A%3Aclass-%22-on-%25s.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use--%22abstract-%22-as-method-modifier-in-trait-alias.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use--%22parent-%22-when-current-class-scope-has-no-parent.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use--%22parent-%22-when-no-class-scope-is-active.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use--%22static-%22-as-method-modifier-in-trait-alias.html</loc>
@@ -931,10 +970,19 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-the-static-modifier-on-a-property-hook.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-trait-%25s.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-traits-inside-of-interfaces.-%25s-is-used-in-%25s.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-try-without-catch-or-finally.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-unpacking-in-attribute-argument-list.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-variable-%24%25ps-twice.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-variable-%24%25s-twice.html</loc>
@@ -974,6 +1022,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/class-%25s-cannot-implement-previously-implemented-interface-%25s.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/class-%25s-cannot-use-%25s---it-is-not-a-trait.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/class-%25s-contains-%25d-abstract-method%25s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-methods.html</loc>
@@ -1294,6 +1345,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/implicit-conversion-from-float-string-%22%25s%22-to-int-loses.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/inconsistent-insteadof-definition.-the-method-%25s-is-to-be-used-from-%25s.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/increment-on-non-alphanumeric-string-is-deprecated.html</loc>
  </url>
  <url>
@@ -1561,6 +1615,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/nesting-level-too-deep---recursive-dependency%3F.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/never-can-only-be-used-as-a-standalone-type.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/never-cannot-be-used-as-a-parameter-type.html</loc>
  </url>
  <url>
@@ -1642,7 +1699,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/object-of-type-%25s-is-not-callable.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/octal-escape-sequence-overflow-%25s-is-greater-than--377.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/octal-escape-sequence-overflow--%25s-is-greater-than--377.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/offset-not-contained-in-string..html</loc>
@@ -1664,6 +1721,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/only-the-first-byte-will-be-assigned-to-the-string-offset.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/only-the-last-parameter-can-be-variadic.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/only-variable-references-should-be-returned-by-reference.html</loc>
@@ -2335,6 +2395,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-magic-method-%25s%3A%3A%25s%28%29-must-have-public-visibility.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-modifiers-of-the-trait-method-%25s%28%29-are-changed%2C-but-this-method-does-not-exist.-error.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-parent-constructor-was-not-called%3A-the-object-is-in-an-invalid-state.html</loc>
  </url>
  <url>
@@ -2539,6 +2602,12 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unparenthesized-%60a-%3F-b-%3A-c-%3F-d-%3A-e%60-is-not-supported..html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/unparenthesized-%60a-%3F-b-%3A-c-%3F%3A-d%60-is-not-supported..html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/unparenthesized-%60a-%3F%3A-b-%3F-c-%3A-d%60-is-not-supported..html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unserializing-the-%27s%27-format-is-deprecated.html</loc>
  </url>
  <url>
@@ -2590,6 +2659,9 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/value-of-type-%25s-is-not-callable.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/variadic-parameter-cannot-have-a-default-value.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/variadic-placeholder-may-only-appear-once.html</loc>
  </url>
  <url>
@@ -2597,6 +2669,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/visibility-of-property-%25s%3A%3A%24%25s-must-not-be-weaker-than-set-visibility.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/void-can-only-be-used-as-a-standalone-type.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/void-cannot-be-used-as-a-parameter-type.html</loc>

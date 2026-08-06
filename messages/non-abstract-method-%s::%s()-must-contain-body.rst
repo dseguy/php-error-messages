@@ -21,7 +21,7 @@ Non-abstract method %s::%s() must contain body
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/non-abstract-method-%s::%s()-must-contain-body.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/non-abstract-method-%s::%s()-must-contain-body.html","name":"Non-abstract method %s::%s() must contain body","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jul 2026 17:20:12 +0000","dateModified":"Fri, 24 Jul 2026 17:20:12 +0000","description":"A method must have a body block","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/non-abstract-method-%s::%s()-must-contain-body.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/non-abstract-method-%s::%s()-must-contain-body.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/non-abstract-method-%s::%s()-must-contain-body.html","name":"Non-abstract method %s::%s() must contain body","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 06 Aug 2026 13:26:42 +0000","dateModified":"Thu, 06 Aug 2026 13:26:42 +0000","description":"A method must have a body block","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/non-abstract-method-%s::%s()-must-contain-body.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -57,3 +57,4 @@ ______________________
 
 + :ref:`class-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-methods`
 + :ref:`%s-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-method%s-(`
++ :ref:`%s-function-%s::%s()-cannot-contain-body`

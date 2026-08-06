@@ -21,7 +21,7 @@ Can't use nullsafe operator in write context
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/can't-use-nullsafe-operator-in-write-context.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/can't-use-nullsafe-operator-in-write-context.html","name":"Can't use nullsafe operator in write context","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:46 +0000","dateModified":"Tue, 31 Mar 2026 09:10:46 +0000","description":"The nullsafe operator is only available for reading, not writing","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/can't-use-nullsafe-operator-in-write-context.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/can't-use-nullsafe-operator-in-write-context.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/can't-use-nullsafe-operator-in-write-context.html","name":"Can't use nullsafe operator in write context","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Aug 2026 14:00:09 +0000","dateModified":"Wed, 05 Aug 2026 14:00:09 +0000","description":"The nullsafe operator is only available for reading, not writing","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/can't-use-nullsafe-operator-in-write-context.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -49,3 +49,11 @@ Solutions
 _________
 
 + Use the ``->`` operator for writing operations.
+
+Related Error Messages
+______________________
+
++ :ref:`can't-use-function-return-value-in-write-context`
++ :ref:`can't-use-method-return-value-in-write-context`
++ :ref:`cannot-combine-nullsafe-operator-with-closure-creation`
++ :ref:`cannot-take-reference-of-a-nullsafe-chain`

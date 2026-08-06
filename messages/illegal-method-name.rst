@@ -21,7 +21,7 @@ Illegal method name
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/illegal-method-name.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/illegal-method-name.html","name":"Illegal method name","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 17 Jul 2026 20:56:10 +0000","dateModified":"Fri, 17 Jul 2026 20:56:10 +0000","description":"PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/illegal-method-name.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/illegal-method-name.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/illegal-method-name.html","name":"Illegal method name","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Aug 2026 14:19:05 +0000","dateModified":"Wed, 05 Aug 2026 14:19:05 +0000","description":"PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/illegal-method-name.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -65,4 +65,4 @@ ______________________
 Changed Behavior
 ________________
 
-This error may appear following an evolution in behavior, in previous versions. See `New in PHP 8.5, together with the ability to use first-class callable syntax inside constant expressions. <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/New in PHP 8.5, together with the ability to use first-class callable syntax inside constant expressions..html>`_.
+This error may appear following an evolution in behavior, in previous versions. See `constantExpressionMethodNameResolution85 <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/constantExpressionMethodNameResolution85.html>`_.

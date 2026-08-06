@@ -21,7 +21,7 @@ A precedence rule was defined for %s::%s but this method does not exist
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/a-precedence-rule-was-defined-for-%s::%s-but-this-method-does-not-exist.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/a-precedence-rule-was-defined-for-%s::%s-but-this-method-does-not-exist.html","name":"A precedence rule was defined for %s::%s but this method does not exist","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:45 +0000","dateModified":"Tue, 31 Mar 2026 09:10:45 +0000","description":"When importing the trait, a rule was set up to resolve a method conflict between two methods, while one of them does not exist","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/a-precedence-rule-was-defined-for-%s::%s-but-this-method-does-not-exist.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/a-precedence-rule-was-defined-for-%s::%s-but-this-method-does-not-exist.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/a-precedence-rule-was-defined-for-%s::%s-but-this-method-does-not-exist.html","name":"A precedence rule was defined for %s::%s but this method does not exist","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 06 Aug 2026 13:26:42 +0000","dateModified":"Thu, 06 Aug 2026 13:26:42 +0000","description":"When importing the trait, a rule was set up to resolve a method conflict between two methods, while one of them does not exist","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/a-precedence-rule-was-defined-for-%s::%s-but-this-method-does-not-exist.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -59,6 +59,14 @@ _________
 
 + Remove the conflicting rule.
 + Create the missing method in the original trait.
+
+Related Error Messages
+______________________
+
++ :ref:`cannot-use--"static-"-as-method-modifier-in-trait-alias`
++ :ref:`an-alias-was-defined-for-method-%s(),-which-exists-in-both-%s-and-%s.-use-%s::%s-or-%s::%s-to-resolve-the-ambiguity`
++ :ref:`inconsistent-insteadof-definition.-the-method-%s-is-to-be-used-from-%s`
++ :ref:`the-modifiers-of-the-trait-method-%s()-are-changed,-but-this-method-does-not-exist.-error`
 
 Changed Behavior
 ________________

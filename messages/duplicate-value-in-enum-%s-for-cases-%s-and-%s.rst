@@ -21,7 +21,7 @@ Duplicate value in enum %s for cases %s and %s
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/duplicate-value-in-enum-%s-for-cases-%s-and-%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/duplicate-value-in-enum-%s-for-cases-%s-and-%s.html","name":"Duplicate value in enum %s for cases %s and %s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:46 +0000","dateModified":"Tue, 31 Mar 2026 09:10:46 +0000","description":"When an enumeration is backed, either string or int, the values used in the cases must all be distinct","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/duplicate-value-in-enum-%s-for-cases-%s-and-%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/duplicate-value-in-enum-%s-for-cases-%s-and-%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/duplicate-value-in-enum-%s-for-cases-%s-and-%s.html","name":"Duplicate value in enum %s for cases %s and %s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Aug 2026 14:00:09 +0000","dateModified":"Wed, 05 Aug 2026 14:00:09 +0000","description":"When an enumeration is backed, either string or int, the values used in the cases must all be distinct","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/duplicate-value-in-enum-%s-for-cases-%s-and-%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -53,3 +53,8 @@ Solutions
 _________
 
 + Make sure all the cases are distinct.
+
+Related Error Messages
+______________________
+
++ :ref:`case-%s-of-non-backed-enum-%s-must-not-have-a-value`

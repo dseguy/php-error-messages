@@ -21,7 +21,7 @@ Cannot use $this as parameter
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-$this-as-parameter.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-$this-as-parameter.html","name":"Cannot use $this as parameter","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jul 2026 08:11:58 +0000","dateModified":"Mon, 13 Jul 2026 08:11:58 +0000","description":"Cannot use $this as parameter","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-use-$this-as-parameter.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-$this-as-parameter.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-use-$this-as-parameter.html","name":"Cannot use $this as parameter","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Aug 2026 14:00:09 +0000","dateModified":"Wed, 05 Aug 2026 14:00:09 +0000","description":"Cannot use $this as parameter","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-use-$this-as-parameter.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -43,6 +43,11 @@ Solutions
 _________
 
 + Pass the object as a parameter by creating a method that accepts an object parameter instead.
+
+Related Error Messages
+______________________
+
++ :ref:`cannot-use-$this-as-static-variable`
 
 Changed Behavior
 ________________

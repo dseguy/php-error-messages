@@ -21,7 +21,7 @@ Cannot append to $GLOBALS
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-append-to-$globals.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-append-to-$globals.html","name":"Cannot append to $GLOBALS","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 30 Jul 2026 07:29:30 +0000","dateModified":"Thu, 30 Jul 2026 07:29:30 +0000","description":"$GLOBALS is not a regular array: each of its entries is really a reference to a variable in the global scope, identified by its name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-append-to-$globals.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-append-to-$globals.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/cannot-append-to-$globals.html","name":"Cannot append to $GLOBALS","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Aug 2026 14:18:55 +0000","dateModified":"Wed, 05 Aug 2026 14:18:55 +0000","description":"$GLOBALS is not a regular array: each of its entries is really a reference to a variable in the global scope, identified by its name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/cannot-append-to-$globals.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -52,4 +52,4 @@ ______________________
 Changed Behavior
 ________________
 
-This error may appear following an evolution in behavior, in previous versions. See `As of PHP 8.1, $GLOBALS is treated more strictly by the compiler, and several previously-tolerated usages, including appending to it, now raise a compile error. <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/As of PHP 8.1, $GLOBALS is treated more strictly by the compiler, and several previously-tolerated usages, including appending to it, now raise a compile error..html>`_.
+This error may appear following an evolution in behavior, in previous versions. See `GLOBALSAppend <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/GLOBALSAppend.html>`_.

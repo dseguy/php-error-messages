@@ -21,7 +21,7 @@ Type %s contains both object and a class type
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/type-%s-contains-both-object-and-a-class-type.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/type-%s-contains-both-object-and-a-class-type.html","name":"Type %s contains both object and a class type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 27 Jul 2026 16:19:13 +0000","dateModified":"Mon, 27 Jul 2026 16:19:13 +0000","description":"The ``object`` type already matches an instance of any class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/type-%s-contains-both-object-and-a-class-type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/type-%s-contains-both-object-and-a-class-type.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/type-%s-contains-both-object-and-a-class-type.html","name":"Type %s contains both object and a class type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Aug 2026 14:00:09 +0000","dateModified":"Wed, 05 Aug 2026 14:00:09 +0000","description":"The ``object`` type already matches an instance of any class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/type-%s-contains-both-object-and-a-class-type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -59,6 +59,8 @@ ______________________
 + :ref:`type-%s-contains-both-iterable-and-array`
 + :ref:`type-contains-both-true-and-false,-bool-must-be-used-instead`
 + :ref:`duplicate-type-%s-is-redundant`
++ :ref:`type-%s-cannot-be-part-of-an-intersection-type`
++ :ref:`type-%s-is-redundant-as-it-is-more-restrictive-than-type-%s`
 
 Changed Behavior
 ________________

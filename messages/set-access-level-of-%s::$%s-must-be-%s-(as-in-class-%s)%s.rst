@@ -21,7 +21,7 @@ Set access level of %s::$%s must be %s (as in class %s)%s
 
 .. raw:: html
 
-	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/set-access-level-of-%s::$%s-must-be-%s-(as-in-class-%s)%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/set-access-level-of-%s::$%s-must-be-%s-(as-in-class-%s)%s.html","name":"Set access level of %s::$%s must be %s (as in class %s)%s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 24 Jul 2026 15:59:43 +0000","dateModified":"Fri, 24 Jul 2026 15:59:43 +0000","description":"This error is specific to asymmetric visibility","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/set-access-level-of-%s::$%s-must-be-%s-(as-in-class-%s)%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/set-access-level-of-%s::$%s-must-be-%s-(as-in-class-%s)%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/set-access-level-of-%s::$%s-must-be-%s-(as-in-class-%s)%s.html","name":"Set access level of %s::$%s must be %s (as in class %s)%s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Aug 2026 14:00:09 +0000","dateModified":"Wed, 05 Aug 2026 14:00:09 +0000","description":"This error is specific to asymmetric visibility","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/set-access-level-of-%s::$%s-must-be-%s-(as-in-class-%s)%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 Description
 ___________
@@ -70,6 +70,7 @@ ______________________
 + :ref:`access-level-to-%s::%s-must-be-%s-(as-in-%s-%s)%s`
 + :ref:`set-type-of-%s::$%s-must-be-supertype-of-%s-(as-in-%s-%s)`
 + :ref:`cannot-override-final-property-hook-%s::%s()`
++ :ref:`access-level-to-%s::$%s-must-be-%s-(as-in-class-%s)%s`
 
 Changed Behavior
 ________________
