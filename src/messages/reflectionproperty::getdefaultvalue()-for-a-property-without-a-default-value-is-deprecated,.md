@@ -26,7 +26,7 @@ var_dump($r->getDefaultValue());
 + Call ``ReflectionProperty::hasDefaultValue()`` first, and only call ``getDefaultValue()`` once a default value is confirmed to exist.
 
 ## Related error messages
-+ [reflectionclass::getconstant()-for-a-non-existent-constant-is-deprecated,](asdf)
++ [reflectionclass::getconstant()-for-a-non-existent-constant-is-deprecated,](reflectionclass::getconstant\(\)-for-a-non-existent-constant-is-deprecated,.html)
 
 ## Related error messages
 + [ReflectionProperty::getDefaultValue](https://www.php.net/manual/en/reflectionproperty.getdefaultvalue.php)

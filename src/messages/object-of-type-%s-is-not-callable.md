@@ -34,6 +34,6 @@ $method();
 + Use one of the available format.
 
 ## Related error messages
-+ [value-of-type-%s-is-not-callable](asdf)
++ [value-of-type-%s-is-not-callable](value-of-type-%s-is-not-callable.html)
 
 In previous PHP versions, this error message used to be :ref:`function-name-must-be-a-string`.

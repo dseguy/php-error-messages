@@ -37,4 +37,4 @@ foo(...$a);
 + Remove the positional arguments.
 
 ## Related error messages
-+ [named-parameter-$%s-overwrites-previous-argument](asdf)
++ [named-parameter-$%s-overwrites-previous-argument](named-parameter-$%s-overwrites-previous-argument.html)

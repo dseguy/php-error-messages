@@ -36,8 +36,8 @@ class C {
 + Rename or remove the method in one of the conflicting traits so only one of them still declares it.
 
 ## Related error messages
-+ [the-modifiers-of-the-trait-method-%s()-are-changed,-but-this-method-does-not-exist.-error](asdf)
-+ [a-precedence-rule-was-defined-for-%s::%s-but-this-method-does-not-exist](asdf)
++ [the-modifiers-of-the-trait-method-%s()-are-changed,-but-this-method-does-not-exist.-error](the-modifiers-of-the-trait-method-%s\(\)-are-changed,-but-this-method-does-not-exist.-error.html)
++ [a-precedence-rule-was-defined-for-%s::%s-but-this-method-does-not-exist](a-precedence-rule-was-defined-for-%s::%s-but-this-method-does-not-exist.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

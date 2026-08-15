@@ -20,7 +20,7 @@ Calling `ord()` with an empty string is like calling it without an argument: it 
 + Ensure that the string is in latin1 encoding: multi-byte strings will also lead to an error.
 
 ## Related error messages
-+ [providing-a-string-that-is-not-one-byte-long-is-deprecated.-use-ord($str[0])-instead](asdf)
++ [providing-a-string-that-is-not-one-byte-long-is-deprecated.-use-ord($str[0])-instead](providing-a-string-that-is-not-one-byte-long-is-deprecated.-use-ord\($str\[0\]\)-instead.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

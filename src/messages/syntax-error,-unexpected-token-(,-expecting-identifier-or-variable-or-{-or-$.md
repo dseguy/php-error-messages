@@ -25,4 +25,4 @@ $object?-> (1);
 + Add a name inside an variable variable after the ``->`` and ``?->``, such as ``$object->$$variable()``.
 
 ## Related error messages
-+ [syntax-error,-unexpected-token-"=",-expecting-identifier-or-variable-or-"{"-or-"$"](asdf)
++ [syntax-error,-unexpected-token-"=",-expecting-identifier-or-variable-or-"{"-or-"$"](syntax-error,-unexpected-token-=,-expecting-identifier-or-variable-or-{-or-$.html)

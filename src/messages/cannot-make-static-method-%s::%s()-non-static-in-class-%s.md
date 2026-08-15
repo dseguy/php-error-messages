@@ -29,4 +29,4 @@ class Y extends X {
 + Rename some of the methods to avoid a ``static`` conflict.
 
 ## Related error messages
-+ [cannot-make-non-static-method-%s::%s()-static-in-class-%s](asdf)
++ [cannot-make-non-static-method-%s::%s()-static-in-class-%s](cannot-make-non-static-method-%s::%s\(\)-static-in-class-%s.html)

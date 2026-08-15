@@ -20,7 +20,7 @@ var_dump(array_key_exists(null, $array));
 + Replace the ``null`` value by the empty string.
 
 ## Related error messages
-+ [using-null-as-an-array-offset-is-deprecated,-use-an-empty-string-instead](asdf)
++ [using-null-as-an-array-offset-is-deprecated,-use-an-empty-string-instead](using-null-as-an-array-offset-is-deprecated,-use-an-empty-string-instead.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

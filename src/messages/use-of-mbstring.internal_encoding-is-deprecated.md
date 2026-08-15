@@ -21,7 +21,7 @@ ini_set('mbstring.internal_encoding', 'UTF-8');
 + Call ``mb_internal_encoding()`` at runtime if a specific encoding must be set programmatically.
 
 ## Related error messages
-+ [use-of-mbstring.http_input-is-deprecated](asdf)
-+ [use-of-mbstring.http_output-is-deprecated](asdf)
++ [use-of-mbstring.http_input-is-deprecated](use-of-mbstring.http\_input-is-deprecated.html)
++ [use-of-mbstring.http_output-is-deprecated](use-of-mbstring.http\_output-is-deprecated.html)
 
 In previous PHP versions, this error message used to be :ref:`use-of-mbstring.http_output-is-deprecated`.

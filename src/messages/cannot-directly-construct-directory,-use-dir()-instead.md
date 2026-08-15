@@ -22,8 +22,8 @@ $d = new Directory('.');
 + Use ``DirectoryIterator`` or ``RecursiveDirectoryIterator`` for an object-oriented, iterable interface.
 
 ## Related error messages
-+ [sqlite3result-cannot-be-directly-instantiated](asdf)
-+ [the-sqlite3-object-has-not-been-correctly-initialised-or-is-already-closed](asdf)
++ [sqlite3result-cannot-be-directly-instantiated](sqlite3result-cannot-be-directly-instantiated.html)
++ [the-sqlite3-object-has-not-been-correctly-initialised-or-is-already-closed](the-sqlite3-object-has-not-been-correctly-initialised-or-is-already-closed.html)
 
 ## Related error messages
 + [dir](https://www.php.net/manual/en/function.dir.php)

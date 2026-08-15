@@ -20,6 +20,6 @@ A comma is used to separate arguments in a function call. A functioncall may als
 + Provide a value for the parameter name in the functioncall.
 
 ## Related error messages
-+ [syntax-error,-unexpected-token-",",-expecting-"]"](asdf)
-+ [syntax-error,-unexpected-token-",",-expecting-variable-or-"$"](asdf)
-+ [syntax-error,-unexpected-token-",",-expecting-variable](asdf)
++ [syntax-error,-unexpected-token-",",-expecting-"]"](syntax-error,-unexpected-token-,,-expecting-\].html)
++ [syntax-error,-unexpected-token-",",-expecting-variable-or-"$"](syntax-error,-unexpected-token-,,-expecting-variable-or-$.html)
++ [syntax-error,-unexpected-token-",",-expecting-variable](syntax-error,-unexpected-token-,,-expecting-variable.html)

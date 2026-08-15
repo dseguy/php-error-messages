@@ -20,9 +20,9 @@ mb_convert_encoding('foo', 'qprint');
 + Use ``quoted_printable_encode()`` and ``quoted_printable_decode()`` instead of ``mb_convert_encoding()`` with the ``qprint`` encoding.
 
 ## Related error messages
-+ [handling-html-entities-via-mbstring-is-deprecated;-use-htmlspecialchars,-htmlentities,-or-mb_encode_numericentity-mb_decode_numericentity-instead](asdf)
-+ [handling-base64-via-mbstring-is-deprecated;-use-base64_encode-base64_decode-instead](asdf)
-+ [handling-uuencode-via-mbstring-is-deprecated;-use-convert_uuencode-convert_uudecode-instead](asdf)
++ [handling-html-entities-via-mbstring-is-deprecated;-use-htmlspecialchars,-htmlentities,-or-mb_encode_numericentity-mb_decode_numericentity-instead](handling-html-entities-via-mbstring-is-deprecated;-use-htmlspecialchars,-htmlentities,-or-mb\_encode\_numericentity-mb\_decode\_numericentity-instead.html)
++ [handling-base64-via-mbstring-is-deprecated;-use-base64_encode-base64_decode-instead](handling-base64-via-mbstring-is-deprecated;-use-base64\_encode-base64\_decode-instead.html)
++ [handling-uuencode-via-mbstring-is-deprecated;-use-convert_uuencode-convert_uudecode-instead](handling-uuencode-via-mbstring-is-deprecated;-use-convert\_uuencode-convert\_uudecode-instead.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

@@ -38,8 +38,8 @@ foo(NAN);
 + Use ``is_finite()`` to filter out both ``NAN`` and ``INF`` before using a float value.
 
 ## Related error messages
-+ [must-be-a-finite-value](asdf)
-+ [a-non-numeric-value-encountered](asdf)
++ [must-be-a-finite-value](must-be-a-finite-value.html)
++ [a-non-numeric-value-encountered](a-non-numeric-value-encountered.html)
 
 ## Related error messages
 + [float](https://www.php.net/manual/en/language.types.float.php)

@@ -33,7 +33,7 @@ var_dump(new X);
 + Return the array of properties you want to display: ``return ['key' => $this->value];``.
 
 ## Related error messages
-+ [method-%s::%s()-cannot-be-static](asdf)
++ [method-%s::%s()-cannot-be-static](method-%s::%s\(\)-cannot-be-static.html)
 
 ## Related error messages
 + [debuginfo](https://www.php.net/manual/en/language.oop5.magic.php#language.oop5.magic.debuginfo)

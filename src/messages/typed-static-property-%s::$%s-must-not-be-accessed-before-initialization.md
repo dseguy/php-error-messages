@@ -31,8 +31,8 @@ echo x::$property;
 + Use isset(), empty() or ?? to check the status of the property before usage.
 
 ## Related error messages
-+ [attempt-to-unset-static-property-%s::$%s](asdf)
-+ [typed-property-%s::$%s-must-not-be-accessed-before-initialization](asdf)
++ [attempt-to-unset-static-property-%s::$%s](attempt-to-unset-static-property-%s::$%s.html)
++ [typed-property-%s::$%s-must-not-be-accessed-before-initialization](typed-property-%s::$%s-must-not-be-accessed-before-initialization.html)
 
 ## Related error messages
 + [Typedpropertymustnotbeaccessedbeforeinitialization](https://madewithlove.com/blog/typed-property-must-not-be-accessed-before-initialization/)

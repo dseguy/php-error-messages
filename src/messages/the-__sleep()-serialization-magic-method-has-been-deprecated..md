@@ -22,7 +22,7 @@ class X {
 + Rename the method to ``__serialize``.
 
 ## Related error messages
-+ [the-__wakeup()-serialization-magic-method-has-been-deprecated.](asdf)
++ [the-__wakeup()-serialization-magic-method-has-been-deprecated.](the-\_\_wakeup\(\)-serialization-magic-method-has-been-deprecated..html)
 
 ## Related error messages
 + [PHP RFC: Deprecations for PHP 8.5](https://wiki.php.net/rfc/deprecations_php_8_5)

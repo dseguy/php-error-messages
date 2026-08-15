@@ -20,7 +20,7 @@ class X {
 + Keep only one mention of ``final``.
 
 ## Related error messages
-+ [multiple-%s-modifiers-are-not-allowed](asdf)
++ [multiple-%s-modifiers-are-not-allowed](multiple-%s-modifiers-are-not-allowed.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

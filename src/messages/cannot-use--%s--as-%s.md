@@ -26,10 +26,10 @@ enum Iterable {}
 + Check the exact list of reserved words for the PHP version being targeted.
 
 ## Related error messages
-+ [cannot-use--"%s-"-as-%s-as-it-is-reserved](asdf)
-+ [cannot-use-"%s"-as-a-type-name-as-it-is-reserved](asdf)
-+ [cannot-use-'mixed'-as-class-name-as-it-is-reserved](asdf)
-+ [cannot-use-'never'-as-class-name-as-it-is-reserved](asdf)
++ [cannot-use--"%s-"-as-%s-as-it-is-reserved](cannot-use--%s--as-%s-as-it-is-reserved.html)
++ [cannot-use-"%s"-as-a-type-name-as-it-is-reserved](cannot-use-%s-as-a-type-name-as-it-is-reserved.html)
++ [cannot-use-'mixed'-as-class-name-as-it-is-reserved](cannot-use-mixed-as-class-name-as-it-is-reserved.html)
++ [cannot-use-'never'-as-class-name-as-it-is-reserved](cannot-use-never-as-class-name-as-it-is-reserved.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

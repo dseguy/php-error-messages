@@ -24,7 +24,7 @@ preg_match('a[bc]a', 'abc');
 + Use a non-alphanumeric character, like ``/``, ``#``.
 
 ## Related error messages
-+ [no-ending-delimiter-'%c'-found](asdf)
++ [no-ending-delimiter-'%c'-found](no-ending-delimiter-%c-found.html)
 
 ## Related error messages
 + [PCREPatterns](https://www.php.net/manual/en/pcre.pattern.php)

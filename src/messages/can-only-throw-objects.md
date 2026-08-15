@@ -21,4 +21,4 @@ throw 1;
 + Use ``throw ($object)``, where $object contains an error or an exception.
 
 ## Related error messages
-+ [clone-method-called-on-non-object](asdf)
++ [clone-method-called-on-non-object](\_\_clone-method-called-on-non-object.html)

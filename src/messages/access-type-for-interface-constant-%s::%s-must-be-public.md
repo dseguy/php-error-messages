@@ -25,4 +25,4 @@ interface I {
 + Remove the constant in the interface.
 
 ## Related error messages
-+ [access-type-for-interface-method-%s::%s()-must-be-public](asdf)
++ [access-type-for-interface-method-%s::%s()-must-be-public](access-type-for-interface-method-%s::%s\(\)-must-be-public.html)

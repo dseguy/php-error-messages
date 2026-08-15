@@ -21,8 +21,8 @@ function foo(...$a = []) {}
 + Check inside the function body whether the collected array is empty, instead of relying on a default value.
 
 ## Related error messages
-+ [only-the-last-parameter-can-be-variadic](asdf)
-+ [cannot-declare-variadic-promoted-property](asdf)
++ [only-the-last-parameter-can-be-variadic](only-the-last-parameter-can-be-variadic.html)
++ [cannot-declare-variadic-promoted-property](cannot-declare-variadic-promoted-property.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

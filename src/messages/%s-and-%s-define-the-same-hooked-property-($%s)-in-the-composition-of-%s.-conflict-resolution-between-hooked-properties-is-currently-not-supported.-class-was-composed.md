@@ -42,8 +42,8 @@ class C {
 + Move the shared behaviour into a method that both the trait and the class hooks can call, instead of duplicating the hooks.
 
 ## Related error messages
-+ [%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed](asdf)
-+ [cannot-redeclare-property-hook](asdf)
++ [%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed](%s-and-%s-define-the-same-constant-\(%s\)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed.html)
++ [cannot-redeclare-property-hook](cannot-redeclare-property-hook.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

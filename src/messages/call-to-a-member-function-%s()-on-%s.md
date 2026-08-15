@@ -26,4 +26,4 @@ $string->foo();
 + Check the type of the object before usage.
 
 ## Related error messages
-+ [the-sqlite3-object-has-not-been-correctly-initialised-or-is-already-closed](asdf)
++ [the-sqlite3-object-has-not-been-correctly-initialised-or-is-already-closed](the-sqlite3-object-has-not-been-correctly-initialised-or-is-already-closed.html)

@@ -28,7 +28,7 @@ compact('a');
 + Check if the context supports the variable: web or command line.
 
 ## Related error messages
-+ [undefined-array-key](asdf)
++ [undefined-array-key](undefined-array-key.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

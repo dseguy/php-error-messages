@@ -39,5 +39,5 @@ unset(X::$z);
 + Set the property to a value that represents removal.
 
 ## Related error messages
-+ [typed-property-%s::$%s-must-not-be-accessed-before-initialization](asdf)
-+ [typed-static-property-%s::$%s-must-not-be-accessed-before-initialization](asdf)
++ [typed-property-%s::$%s-must-not-be-accessed-before-initialization](typed-property-%s::$%s-must-not-be-accessed-before-initialization.html)
++ [typed-static-property-%s::$%s-must-not-be-accessed-before-initialization](typed-static-property-%s::$%s-must-not-be-accessed-before-initialization.html)

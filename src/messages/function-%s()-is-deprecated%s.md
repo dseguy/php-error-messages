@@ -22,4 +22,4 @@ echo strftime(1);
 + Use the suggestion from the error message.
 
 ## Related error messages
-+ [trait-%s-used-by-%s-is-deprecated%s](asdf)
++ [trait-%s-used-by-%s-is-deprecated%s](trait-%s-used-by-%s-is-deprecated%s.html)

@@ -28,9 +28,9 @@ class X
 + Use a non-null default value that matches the declared type.
 
 ## Related error messages
-+ [readonly-property-%s::$%s-cannot-have-default-value](asdf)
-+ [typed-property-%s::$%s-must-not-be-accessed-before-initialization](asdf)
-+ [property-%s::$%s-cannot-have-type-%s](asdf)
++ [readonly-property-%s::$%s-cannot-have-default-value](readonly-property-%s::$%s-cannot-have-default-value.html)
++ [typed-property-%s::$%s-must-not-be-accessed-before-initialization](typed-property-%s::$%s-must-not-be-accessed-before-initialization.html)
++ [property-%s::$%s-cannot-have-type-%s](property-%s::$%s-cannot-have-type-%s.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

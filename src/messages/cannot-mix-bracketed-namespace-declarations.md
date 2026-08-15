@@ -27,9 +27,9 @@ namespace B;
 + Split the file so that each file only uses one of the two forms.
 
 ## Related error messages
-+ [namespace-declarations-cannot-be-nested](asdf)
-+ [no-code-may-exist-outside-of-namespace-{}](asdf)
-+ [namespace-declaration-statement-has-to-be](asdf)
++ [namespace-declarations-cannot-be-nested](namespace-declarations-cannot-be-nested.html)
++ [no-code-may-exist-outside-of-namespace-{}](no-code-may-exist-outside-of-namespace-{}.html)
++ [namespace-declaration-statement-has-to-be](namespace-declaration-statement-has-to-be.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

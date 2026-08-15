@@ -27,6 +27,6 @@ var_dump(array_product([new stdClass(), 3] )); // returns 99
 + Filter out all objects inside the first argument.
 
 ## Related error messages
-+ [array_product():-multiplication-is-not-supported-on-type-array](asdf)
-+ [array_product():-multiplication-is-not-supported-on-type-string](asdf)
-+ [array_sum():-addition-is-not-supported-on-type-array](asdf)
++ [array_product():-multiplication-is-not-supported-on-type-array](array\_product\(\):-multiplication-is-not-supported-on-type-array.html)
++ [array_product():-multiplication-is-not-supported-on-type-string](array\_product\(\):-multiplication-is-not-supported-on-type-string.html)
++ [array_sum():-addition-is-not-supported-on-type-array](array\_sum\(\):-addition-is-not-supported-on-type-array.html)

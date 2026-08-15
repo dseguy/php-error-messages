@@ -27,7 +27,7 @@ list($a, $b) = ['c'];
 + Check that the right operand of a list() call has enough elements to fit the left operand.
 
 ## Related error messages
-+ [undefined-variable](asdf)
-+ [is-an-invalid-offset](asdf)
++ [undefined-variable](undefined-variable.html)
++ [is-an-invalid-offset](is-an-invalid-offset.html)
 
 In previous PHP versions, this error message used to be :ref:`undefined-offset`.

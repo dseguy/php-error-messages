@@ -21,8 +21,8 @@ function schedule(string $name $task) {}
 + Remove the extra variable if it was left over from editing.
 
 ## Related error messages
-+ [syntax-error,-unexpected-variable-"$%s",-expecting-")"](asdf)
-+ [syntax-error,-unexpected-token-")",-expecting-variable](asdf)
++ [syntax-error,-unexpected-variable-"$%s",-expecting-")"](syntax-error,-unexpected-variable-$%s,-expecting-\).html)
++ [syntax-error,-unexpected-token-")",-expecting-variable](syntax-error,-unexpected-token-\),-expecting-variable.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

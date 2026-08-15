@@ -32,8 +32,8 @@ foo('abc'); // not OK
 + Add the type in the signature of the called method.
 
 ## Related error messages
-+ [using-array_key_exists()-on-objects-is-deprecated.](asdf)
-+ [must-be-a-callable,-null-given](asdf)
++ [using-array_key_exists()-on-objects-is-deprecated.](using-array\_key\_exists\(\)-on-objects-is-deprecated..html)
++ [must-be-a-callable,-null-given](must-be-a-callable,-null-given.html)
 
 In previous PHP versions, this error message used to be :ref:`using-array_key_exists()-on-objects-is-deprecated.`.
 In more recent PHP versions, this error message is now :ref:`passing-the-encoding-as-third-parameter-is-deprecated.-use-an-explicit-zero-offset`.

@@ -21,5 +21,5 @@ unlink(non-existing-file.txt);
 + Check that the file exists before trying to remove it.
 
 ## Related error messages
-+ [unlink-of-"%s"-failed,-file-does-not-exist](asdf)
-+ [entry-%s-does-not-exist-and-cannot-be-deleted](asdf)
++ [unlink-of-"%s"-failed,-file-does-not-exist](unlink-of-%s-failed,-file-does-not-exist.html)
++ [entry-%s-does-not-exist-and-cannot-be-deleted](entry-%s-does-not-exist-and-cannot-be-deleted.html)

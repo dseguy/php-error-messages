@@ -32,7 +32,7 @@ class Child extends Base {
 + Wrap the call yourself in an ordinary closure: $fn = fn() => parent::$name::get();
 
 ## Related error messages
-+ [cannot-use-the-static-modifier-on-a-property-hook](asdf)
++ [cannot-use-the-static-modifier-on-a-property-hook](cannot-use-the-static-modifier-on-a-property-hook.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

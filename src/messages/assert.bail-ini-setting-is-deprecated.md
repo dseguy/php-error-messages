@@ -23,9 +23,9 @@ ini_set('assert.bail', '1');
 + Remove ``ini_set()``/``ini_get()`` calls involving ``assert.bail`` from the code.
 
 ## Related error messages
-+ [assert.active-ini-setting-is-deprecated](asdf)
-+ [assert.exception-ini-setting-is-deprecated](asdf)
-+ [assert.warning-ini-setting-is-deprecated](asdf)
++ [assert.active-ini-setting-is-deprecated](assert.active-ini-setting-is-deprecated.html)
++ [assert.exception-ini-setting-is-deprecated](assert.exception-ini-setting-is-deprecated.html)
++ [assert.warning-ini-setting-is-deprecated](assert.warning-ini-setting-is-deprecated.html)
 
 In previous PHP versions, this error message used to be :ref:`assert.active-ini-setting-is-deprecated`.
 In more recent PHP versions, this error message is now :ref:`assert.exception-ini-setting-is-deprecated`.

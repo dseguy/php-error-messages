@@ -18,4 +18,4 @@ unset($this);
 + Remove this call to unset.
 
 ## Related error messages
-+ [cannot-re-assign-$this](asdf)
++ [cannot-re-assign-$this](cannot-re-assign-$this.html)

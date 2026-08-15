@@ -33,8 +33,8 @@ class Y extends X {
 + Remove the redeclaration in the child class, and inherit the parent property as-is.
 
 ## Related error messages
-+ [access-level-to-%s::%s-must-be-%s-(as-in-%s-%s)%s](asdf)
-+ [set-access-level-of-%s::$%s-must-be-%s-(as-in-class-%s)%s](asdf)
++ [access-level-to-%s::%s-must-be-%s-(as-in-%s-%s)%s](access-level-to-%s::%s-must-be-%s-\(as-in-%s-%s\)%s.html)
++ [set-access-level-of-%s::$%s-must-be-%s-(as-in-class-%s)%s](set-access-level-of-%s::$%s-must-be-%s-\(as-in-class-%s\)%s.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

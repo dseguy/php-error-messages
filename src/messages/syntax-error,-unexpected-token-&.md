@@ -29,4 +29,4 @@ $d = &foo($c);
 + Remove the ``&`` in function call returned value, and put it in the function signature.
 
 ## Related error messages
-+ [syntax-error,-unexpected-token-"&",-expecting-end-of-file](asdf)
++ [syntax-error,-unexpected-token-"&",-expecting-end-of-file](syntax-error,-unexpected-token-&,-expecting-end-of-file.html)

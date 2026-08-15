@@ -19,10 +19,10 @@ function foo(): int|void {}
 + Remove ``void``, and keep the other type(s) alone.
 
 ## Related error messages
-+ [never-can-only-be-used-as-a-standalone-type](asdf)
-+ [type-mixed-can-only-be-used-as-a-standalone-type](asdf)
-+ [a-void-%s-must-not-return-a-value](asdf)
-+ [void-cannot-be-used-as-a-parameter-type](asdf)
++ [never-can-only-be-used-as-a-standalone-type](never-can-only-be-used-as-a-standalone-type.html)
++ [type-mixed-can-only-be-used-as-a-standalone-type](type-mixed-can-only-be-used-as-a-standalone-type.html)
++ [a-void-%s-must-not-return-a-value](a-void-%s-must-not-return-a-value.html)
++ [void-cannot-be-used-as-a-parameter-type](void-cannot-be-used-as-a-parameter-type.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

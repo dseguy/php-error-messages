@@ -20,4 +20,4 @@ new Generator();
 + Use composition to use this class in another class.
 
 ## Related error messages
-+ [class-%s-cannot-extend-final-class-%s](asdf)
++ [class-%s-cannot-extend-final-class-%s](class-%s-cannot-extend-final-class-%s.html)

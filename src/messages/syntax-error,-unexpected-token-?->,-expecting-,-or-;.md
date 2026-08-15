@@ -24,5 +24,5 @@ static $object->property;
 + Remove the property or method call from the global instruction.
 
 ## Related error messages
-+ [syntax-error,-unexpected-token-"::",-expecting-","-or-";"](asdf)
-+ [syntax-error,-unexpected-token-"->",-expecting-","-or-";"](asdf)
++ [syntax-error,-unexpected-token-"::",-expecting-","-or-";"](syntax-error,-unexpected-token-::,-expecting-,-or-;.html)
++ [syntax-error,-unexpected-token-"->",-expecting-","-or-";"](syntax-error,-unexpected-token-->,-expecting-,-or-;.html)

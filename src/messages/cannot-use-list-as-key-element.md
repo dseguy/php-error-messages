@@ -24,7 +24,7 @@ foreach ($array as list($key) => $value) {
 + Use a plain variable for the key, and only destructure the value with ``list()``.
 
 ## Related error messages
-+ [cannot-use-list()-as-standalone-expression](asdf)
++ [cannot-use-list()-as-standalone-expression](cannot-use-list\(\)-as-standalone-expression.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

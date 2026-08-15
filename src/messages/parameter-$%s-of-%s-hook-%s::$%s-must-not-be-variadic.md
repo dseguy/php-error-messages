@@ -28,9 +28,9 @@ class X
 + Remove the ``...`` from the hook's parameter, and declare it as a regular parameter.
 
 ## Related error messages
-+ [parameter-$%s-of-%s-hook-%s::$%s-must-not-be-pass-by-reference](asdf)
-+ [parameter-$%s-of-%s-hook-%s::$%s-must-not-have-a-default-value](asdf)
-+ [%s-hook-of-property-%s::$%s-must-accept-exactly-one-parameters](asdf)
++ [parameter-$%s-of-%s-hook-%s::$%s-must-not-be-pass-by-reference](parameter-$%s-of-%s-hook-%s::$%s-must-not-be-pass-by-reference.html)
++ [parameter-$%s-of-%s-hook-%s::$%s-must-not-have-a-default-value](parameter-$%s-of-%s-hook-%s::$%s-must-not-have-a-default-value.html)
++ [%s-hook-of-property-%s::$%s-must-accept-exactly-one-parameters](%s-hook-of-property-%s::$%s-must-accept-exactly-one-parameters.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

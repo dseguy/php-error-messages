@@ -23,9 +23,9 @@ $y = $arr[public];
 + Check that every previous ``[`` in the file has a matching ``]``.
 
 ## Related error messages
-+ [syntax-error,-unexpected-token-"::",-expecting-"]"](asdf)
-+ [syntax-error,-unexpected-token-"class",-expecting-"]"](asdf)
-+ [syntax-error,-unexpected-token-"if",-expecting-"]"](asdf)
++ [syntax-error,-unexpected-token-"::",-expecting-"]"](syntax-error,-unexpected-token-::,-expecting-\].html)
++ [syntax-error,-unexpected-token-"class",-expecting-"]"](syntax-error,-unexpected-token-class,-expecting-\].html)
++ [syntax-error,-unexpected-token-"if",-expecting-"]"](syntax-error,-unexpected-token-if,-expecting-\].html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

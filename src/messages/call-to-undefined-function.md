@@ -44,5 +44,5 @@ try {
 + Use a try/catch around the function call, and catch Error (not exceptions).
 
 ## Related error messages
-+ [call-to-undefined-function-each()](asdf)
-+ [call-to-undefined-function-exit()](asdf)
++ [call-to-undefined-function-each()](call-to-undefined-function-each\(\).html)
++ [call-to-undefined-function-exit()](call-to-undefined-function-exit\(\).html)

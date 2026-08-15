@@ -20,9 +20,9 @@ mb_convert_encoding('foo', 'html');
 + It is recommended to use the ``htmlspecialchars()``, ``htmlentities()``, ``mb_encode_numericentity()``, ``mb_decode_numericentity()`` functions to do this.
 
 ## Related error messages
-+ [handling-base64-via-mbstring-is-deprecated;-use-base64_encode-base64_decode-instead](asdf)
-+ [handling-qprint-via-mbstring-is-deprecated;-use-quoted_printable_encode-quoted_printable_decode](asdf)
-+ [handling-uuencode-via-mbstring-is-deprecated;-use-convert_uuencode-convert_uudecode-instead](asdf)
++ [handling-base64-via-mbstring-is-deprecated;-use-base64_encode-base64_decode-instead](handling-base64-via-mbstring-is-deprecated;-use-base64\_encode-base64\_decode-instead.html)
++ [handling-qprint-via-mbstring-is-deprecated;-use-quoted_printable_encode-quoted_printable_decode](handling-qprint-via-mbstring-is-deprecated;-use-quoted\_printable\_encode-quoted\_printable\_decode.html)
++ [handling-uuencode-via-mbstring-is-deprecated;-use-convert_uuencode-convert_uudecode-instead](handling-uuencode-via-mbstring-is-deprecated;-use-convert\_uuencode-convert\_uudecode-instead.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

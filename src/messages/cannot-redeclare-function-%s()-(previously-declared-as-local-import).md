@@ -29,8 +29,8 @@ function bar() {}
 + Rename the local function.
 
 ## Related error messages
-+ [cannot-redeclare-function-%s()-(previously-declared-in-%s:%d)](asdf)
-+ [cannot-redeclare-%s()-(previously-declared-in-%s:%d)](asdf)
++ [cannot-redeclare-function-%s()-(previously-declared-in-%s:%d)](cannot-redeclare-function-%s\(\)-\(previously-declared-in-%s:%d\).html)
++ [cannot-redeclare-%s()-(previously-declared-in-%s:%d)](cannot-redeclare-%s\(\)-\(previously-declared-in-%s:%d\).html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

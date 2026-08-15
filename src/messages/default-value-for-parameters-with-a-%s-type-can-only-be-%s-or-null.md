@@ -27,7 +27,7 @@ function bar(int $s = '1') { }
 + Add a second union type to the parameter.
 
 ## Related error messages
-+ [cannot-use-%s-as-default-value-for-parameter-$%s-of-type-%s](asdf)
-+ [cannot-use-%s-as-default-value-for-property-%s::$%s-of-type-%s](asdf)
++ [cannot-use-%s-as-default-value-for-parameter-$%s-of-type-%s](cannot-use-%s-as-default-value-for-parameter-$%s-of-type-%s.html)
++ [cannot-use-%s-as-default-value-for-property-%s::$%s-of-type-%s](cannot-use-%s-as-default-value-for-property-%s::$%s-of-type-%s.html)
 
 In more recent PHP versions, this error message is now :ref:`cannot-use-%s-as-default-value-for-parameter-$%s-of-type-%s`.

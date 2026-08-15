@@ -24,7 +24,7 @@ if ($a . $b !== null) {}
 + Compare the expression to null instead: $a . $b !== null.
 
 ## Related error messages
-+ [cannot-use-isset()-on-the-result-of-an-expression-(you-can-use-"null-!==-expression"-instead)](asdf)
++ [cannot-use-isset()-on-the-result-of-an-expression-(you-can-use-"null-!==-expression"-instead)](cannot-use-isset\(\)-on-the-result-of-an-expression-\(you-can-use-null-!==-expression-instead\).html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

@@ -19,4 +19,4 @@ function foo(?mixed $i = null) {}
 + Keep the ``?`` type, and replace ``mixed``, with some other type.
 
 ## Related error messages
-+ [type-mixed-can-only-be-used-as-a-standalone-type](asdf)
++ [type-mixed-can-only-be-used-as-a-standalone-type](type-mixed-can-only-be-used-as-a-standalone-type.html)

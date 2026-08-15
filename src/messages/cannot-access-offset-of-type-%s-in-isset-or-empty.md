@@ -31,6 +31,6 @@ echo isset($string[$object]);
 + Cast the index to ``(string)`` or ``(int)`` when using it in the array notation.
 
 ## Related error messages
-+ [illegal-offset-type](asdf)
-+ [illegal-offset-type-in-unset](asdf)
-+ [illegal-offset-type-in-isset-or-empty](asdf)
++ [illegal-offset-type](illegal-offset-type.html)
++ [illegal-offset-type-in-unset](illegal-offset-type-in-unset.html)
++ [illegal-offset-type-in-isset-or-empty](illegal-offset-type-in-isset-or-empty.html)

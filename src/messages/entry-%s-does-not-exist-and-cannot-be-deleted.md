@@ -31,5 +31,5 @@ try {
 + Check if the file exists before removing it.
 
 ## Related error messages
-+ [no-such-file-or-directory](asdf)
-+ [unlink-of-"%s"-failed,-file-does-not-exist](asdf)
++ [no-such-file-or-directory](no-such-file-or-directory.html)
++ [unlink-of-"%s"-failed,-file-does-not-exist](unlink-of-%s-failed,-file-does-not-exist.html)

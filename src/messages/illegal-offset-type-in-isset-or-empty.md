@@ -25,7 +25,7 @@ var_dump(isset($array[[]]));
 + Cast these types into a string or a integer first.
 
 ## Related error messages
-+ [cannot-access-offset-of-type-%s-in-isset-or-empty](asdf)
-+ [cannot-access-offset-of-type-%s-on-%s](asdf)
-+ [illegal-offset-type-in-unset](asdf)
-+ [illegal-offset-type](asdf)
++ [cannot-access-offset-of-type-%s-in-isset-or-empty](cannot-access-offset-of-type-%s-in-isset-or-empty.html)
++ [cannot-access-offset-of-type-%s-on-%s](cannot-access-offset-of-type-%s-on-%s.html)
++ [illegal-offset-type-in-unset](illegal-offset-type-in-unset.html)
++ [illegal-offset-type](illegal-offset-type.html)

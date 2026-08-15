@@ -21,4 +21,4 @@ class X {
 + Add the ``use`` keyword before the standalone name, to import a related trait.
 
 ## Related error messages
-+ [syntax-error,-unexpected-namespaced-name-"%s",-expecting-"function"](asdf)
++ [syntax-error,-unexpected-namespaced-name-"%s",-expecting-"function"](syntax-error,-unexpected-namespaced-name-%s,-expecting-function.html)

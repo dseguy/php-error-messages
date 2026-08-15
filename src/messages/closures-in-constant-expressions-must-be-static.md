@@ -21,8 +21,8 @@ class X {
 + Define the closure inside a method.
 
 ## Related error messages
-+ [cannot-use(...)-variables-in-constant-expression](asdf)
-+ [cannot-use-$this-as-lexical-variable](asdf)
++ [cannot-use(...)-variables-in-constant-expression](cannot-use\(...\)-variables-in-constant-expression.html)
++ [cannot-use-$this-as-lexical-variable](cannot-use-$this-as-lexical-variable.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

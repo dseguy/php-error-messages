@@ -24,7 +24,7 @@ $x?->a = 1;
 + Use the ``->`` operator for writing operations.
 
 ## Related error messages
-+ [can't-use-function-return-value-in-write-context](asdf)
-+ [can't-use-method-return-value-in-write-context](asdf)
-+ [cannot-combine-nullsafe-operator-with-closure-creation](asdf)
-+ [cannot-take-reference-of-a-nullsafe-chain](asdf)
++ [can't-use-function-return-value-in-write-context](cant-use-function-return-value-in-write-context.html)
++ [can't-use-method-return-value-in-write-context](cant-use-method-return-value-in-write-context.html)
++ [cannot-combine-nullsafe-operator-with-closure-creation](cannot-combine-nullsafe-operator-with-closure-creation.html)
++ [cannot-take-reference-of-a-nullsafe-chain](cannot-take-reference-of-a-nullsafe-chain.html)

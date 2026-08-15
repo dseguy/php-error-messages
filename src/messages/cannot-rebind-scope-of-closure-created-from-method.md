@@ -26,7 +26,7 @@ $ret = $fn->bindTo($x, Y::class);
 + To be rebound, the closure must be build from within the class.
 
 ## Related error messages
-+ [cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9](asdf)
-+ [cannot-rebind-scope-of-closure-created-from-function,-this-will-be-an-error-in-php-9](asdf)
++ [cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9](cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9.html)
++ [cannot-rebind-scope-of-closure-created-from-function,-this-will-be-an-error-in-php-9](cannot-rebind-scope-of-closure-created-from-function,-this-will-be-an-error-in-php-9.html)
 
 In more recent PHP versions, this error message is now :ref:`cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9`.

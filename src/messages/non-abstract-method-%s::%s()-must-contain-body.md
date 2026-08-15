@@ -24,6 +24,6 @@ class X {
 + Add a abstract option to the method and to the class.
 
 ## Related error messages
-+ [class-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-methods](asdf)
-+ [%s-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-method%s-(](asdf)
-+ [%s-function-%s::%s()-cannot-contain-body](asdf)
++ [class-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-methods](class-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-methods.html)
++ [%s-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-method%s-(](%s-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-method%s-\(.html)
++ [%s-function-%s::%s()-cannot-contain-body](%s-function-%s::%s\(\)-cannot-contain-body.html)

@@ -23,8 +23,8 @@ foo(a: 1, b: 2, ...$rest);
 + Turn the unpacked array's values into individual named arguments.
 
 ## Related error messages
-+ [cannot-combine-named-arguments-and-argument-unpacking](asdf)
-+ [cannot-use-positional-argument-after-named-argument-during-unpacking](asdf)
++ [cannot-combine-named-arguments-and-argument-unpacking](cannot-combine-named-arguments-and-argument-unpacking.html)
++ [cannot-use-positional-argument-after-named-argument-during-unpacking](cannot-use-positional-argument-after-named-argument-during-unpacking.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

@@ -31,8 +31,8 @@ class X {
 + Use the literal name of the intended class.
 
 ## Related error messages
-+ [is-an-invalid-class-name](asdf)
-+ ['-%s'-is-an-invalid-class-name](asdf)
++ [is-an-invalid-class-name](is-an-invalid-class-name.html)
++ ['-%s'-is-an-invalid-class-name](-%s-is-an-invalid-class-name.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

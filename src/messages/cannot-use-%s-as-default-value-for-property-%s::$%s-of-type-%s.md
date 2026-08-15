@@ -31,5 +31,5 @@ class X {
 + Add a second union type to the parameter.
 
 ## Related error messages
-+ [default-value-for-parameters-with-a-%s-type-can-only-be-%s-or-null](asdf)
-+ [cannot-use-%s-as-default-value-for-parameter-$%s-of-type-%s](asdf)
++ [default-value-for-parameters-with-a-%s-type-can-only-be-%s-or-null](default-value-for-parameters-with-a-%s-type-can-only-be-%s-or-null.html)
++ [cannot-use-%s-as-default-value-for-parameter-$%s-of-type-%s](cannot-use-%s-as-default-value-for-parameter-$%s-of-type-%s.html)

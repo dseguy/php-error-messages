@@ -31,4 +31,4 @@ try {
 + Use a valid second ``$callback`` argument in the call to the ``PDOStatement::fetchAll()`` method.
 
 ## Related error messages
-+ [argument-#%d-($%s)-must-be-of-type-%s,-%s-given](asdf)
++ [argument-#%d-($%s)-must-be-of-type-%s,-%s-given](argument-#%d-\($%s\)-must-be-of-type-%s,-%s-given.html)

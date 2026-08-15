@@ -25,6 +25,6 @@ new T();
 + Rewrite the trait into an class.
 
 ## Related error messages
-+ [cannot-instantiate-enum-%s](asdf)
-+ [cannot-instantiate-interface-%s](asdf)
-+ [trait-%s-used-by-%s-is-deprecated%s](asdf)
++ [cannot-instantiate-enum-%s](cannot-instantiate-enum-%s.html)
++ [cannot-instantiate-interface-%s](cannot-instantiate-interface-%s.html)
++ [trait-%s-used-by-%s-is-deprecated%s](trait-%s-used-by-%s-is-deprecated%s.html)

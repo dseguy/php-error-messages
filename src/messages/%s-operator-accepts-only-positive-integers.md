@@ -31,4 +31,4 @@ continue -1;
 + Use a goto to jump out of the loop.
 
 ## Related error messages
-+ ['%s'-operator-with-non-integer-operand](asdf)
++ ['%s'-operator-with-non-integer-operand](%s-operator-with-non-integer-operand.html)

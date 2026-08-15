@@ -23,4 +23,4 @@ break is a token that stop the current loop or switch, and proceed from the end 
 + Remove the break, and find another way to jump out of the loop.
 
 ## Related error messages
-+ ['%s'-not-in-the-'loop'-or-'switch'-context](asdf)
++ ['%s'-not-in-the-'loop'-or-'switch'-context](%s-not-in-the-loop-or-switch-context.html)

@@ -31,12 +31,12 @@ function goo() : bool|false {}
 + Remove the types.
 
 ## Related error messages
-+ [type-contains-both-true-and-false,-bool-must-be-used-instead](asdf)
-+ [type-%s-contains-both-iterable-and-array](asdf)
-+ [type-%s-contains-both-object-and-a-class-type](asdf)
-+ [type-%s-is-redundant-as-it-is-more-restrictive-than-type-%s](asdf)
-+ [null-cannot-be-marked-as-nullable](asdf)
-+ [type-%s-cannot-be-part-of-an-intersection-type](asdf)
-+ [type-%s-is-redundant-with-type-%s](asdf)
++ [type-contains-both-true-and-false,-bool-must-be-used-instead](type-contains-both-true-and-false,-bool-must-be-used-instead.html)
++ [type-%s-contains-both-iterable-and-array](type-%s-contains-both-iterable-and-array.html)
++ [type-%s-contains-both-object-and-a-class-type](type-%s-contains-both-object-and-a-class-type.html)
++ [type-%s-is-redundant-as-it-is-more-restrictive-than-type-%s](type-%s-is-redundant-as-it-is-more-restrictive-than-type-%s.html)
++ [null-cannot-be-marked-as-nullable](null-cannot-be-marked-as-nullable.html)
++ [type-%s-cannot-be-part-of-an-intersection-type](type-%s-cannot-be-part-of-an-intersection-type.html)
++ [type-%s-is-redundant-with-type-%s](type-%s-is-redundant-with-type-%s.html)
 
 In previous PHP versions, this error message used to be :ref:`type-%s-contains-both-iterable-and-array`.

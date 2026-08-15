@@ -36,4 +36,4 @@ var_dump($x->foo());
 + Make one trait use the other one.
 
 ## Related error messages
-+ [cannot-use--"static-"-as-method-modifier-in-trait-alias](asdf)
++ [cannot-use--"static-"-as-method-modifier-in-trait-alias](cannot-use--static--as-method-modifier-in-trait-alias.html)

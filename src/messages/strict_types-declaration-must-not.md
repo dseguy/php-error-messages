@@ -25,9 +25,9 @@ declare(strict_types = 1) {
 + Remove the curly braces, and use ``declare(strict_types = 1);`` as a simple statement.
 
 ## Related error messages
-+ [strict_types-declaration-must-be-the-very-first-statement-in-the-script](asdf)
-+ [strict_types-declaration-must-have-0-or-1-as-its-value](asdf)
-+ [strict_types-declaration-must-be](asdf)
++ [strict_types-declaration-must-be-the-very-first-statement-in-the-script](strict\_types-declaration-must-be-the-very-first-statement-in-the-script.html)
++ [strict_types-declaration-must-have-0-or-1-as-its-value](strict\_types-declaration-must-have-0-or-1-as-its-value.html)
++ [strict_types-declaration-must-be](strict\_types-declaration-must-be.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

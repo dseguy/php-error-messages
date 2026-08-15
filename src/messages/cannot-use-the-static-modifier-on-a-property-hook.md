@@ -22,4 +22,4 @@ class X {
 + Remove the abstract keyword, and put it on the property definition level.
 
 ## Related error messages
-+ [cannot-create-closure-for-parent-property-hook-call](asdf)
++ [cannot-create-closure-for-parent-property-hook-call](cannot-create-closure-for-parent-property-hook-call.html)

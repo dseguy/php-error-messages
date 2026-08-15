@@ -28,4 +28,4 @@ class Y extends X {
 + Rename the non-final constant or method in the child class.
 
 ## Related error messages
-+ [%s::%s-cannot-override-final-constant-%s::%s](asdf)
++ [%s::%s-cannot-override-final-constant-%s::%s](%s::%s-cannot-override-final-constant-%s::%s.html)

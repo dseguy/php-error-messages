@@ -27,4 +27,4 @@ enum Mixed {}
 + Use another name for that class.
 
 ## Related error messages
-+ [cannot-use--"%s-"-as-%s](asdf)
++ [cannot-use--"%s-"-as-%s](cannot-use--%s--as-%s.html)

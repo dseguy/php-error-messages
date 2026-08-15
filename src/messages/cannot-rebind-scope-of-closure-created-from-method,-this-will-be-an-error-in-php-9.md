@@ -35,12 +35,12 @@ $fn->bindTo($x, Y::class);
 + If you need a rebound closure, create a standalone closure that wraps the method call.
 
 ## Related error messages
-+ [cannot-rebind-scope-of-closure-created-from-method](asdf)
-+ [cannot-bind-an-instance-to-a-static-closure](asdf)
-+ [cannot-bind-an-instance-to-a-static-closure,-this-will-be-an-error-in-php-9](asdf)
-+ [cannot-bind-method-%s::%s()-to-object-of-class-%s,-this-will-be-an-error-in-php-9](asdf)
-+ [cannot-rebind-scope-of-closure-created-from-function,-this-will-be-an-error-in-php-9](asdf)
-+ [cannot-unbind-$this-of-method,-this-will-be-an-error-in-php-9](asdf)
++ [cannot-rebind-scope-of-closure-created-from-method](cannot-rebind-scope-of-closure-created-from-method.html)
++ [cannot-bind-an-instance-to-a-static-closure](cannot-bind-an-instance-to-a-static-closure.html)
++ [cannot-bind-an-instance-to-a-static-closure,-this-will-be-an-error-in-php-9](cannot-bind-an-instance-to-a-static-closure,-this-will-be-an-error-in-php-9.html)
++ [cannot-bind-method-%s::%s()-to-object-of-class-%s,-this-will-be-an-error-in-php-9](cannot-bind-method-%s::%s\(\)-to-object-of-class-%s,-this-will-be-an-error-in-php-9.html)
++ [cannot-rebind-scope-of-closure-created-from-function,-this-will-be-an-error-in-php-9](cannot-rebind-scope-of-closure-created-from-function,-this-will-be-an-error-in-php-9.html)
++ [cannot-unbind-$this-of-method,-this-will-be-an-error-in-php-9](cannot-unbind-$this-of-method,-this-will-be-an-error-in-php-9.html)
 
 ## Related error messages
 + [Closure::bind](https://www.php.net/manual/en/closure.bind.php)

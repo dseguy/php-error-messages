@@ -25,5 +25,5 @@ class X
 + Add the opening curly bracket between the enum signature and its body.
 
 ## Related error messages
-+ [syntax-error,-unexpected-token-"protected",-expecting-"{"](asdf)
-+ [syntax-error,-unexpected-token-"private",-expecting-"{"](asdf)
++ [syntax-error,-unexpected-token-"protected",-expecting-"{"](syntax-error,-unexpected-token-protected,-expecting-{.html)
++ [syntax-error,-unexpected-token-"private",-expecting-"{"](syntax-error,-unexpected-token-private,-expecting-{.html)

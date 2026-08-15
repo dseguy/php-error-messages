@@ -30,4 +30,4 @@ echo ::class;
 + Rename the class with a PHP non-keyword.
 
 ## Related error messages
-+ [syntax-error,-unexpected-'::',-expecting-'('](asdf)
++ [syntax-error,-unexpected-'::',-expecting-'('](syntax-error,-unexpected-::,-expecting-\(.html)

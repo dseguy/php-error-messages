@@ -33,6 +33,6 @@ class Y
 + Remove asymmetric visibility.
 
 ## Related error messages
-+ [multiple-static-modifiers-are-not-allowed](asdf)
-+ [multiple-readonly-modifiers-are-not-allowed](asdf)
-+ [multiple-%s-modifiers-are-not-allowed](asdf)
++ [multiple-static-modifiers-are-not-allowed](multiple-static-modifiers-are-not-allowed.html)
++ [multiple-readonly-modifiers-are-not-allowed](multiple-readonly-modifiers-are-not-allowed.html)
++ [multiple-%s-modifiers-are-not-allowed](multiple-%s-modifiers-are-not-allowed.html)

@@ -42,4 +42,4 @@ echo Done\n;
 + Remove one of the interfaces.
 
 ## Related error messages
-+ [class-%s-cannot-implement-both-iterator-and-iteratoraggregate-at-the-same-time](asdf)
++ [class-%s-cannot-implement-both-iterator-and-iteratoraggregate-at-the-same-time](class-%s-cannot-implement-both-iterator-and-iteratoraggregate-at-the-same-time.html)

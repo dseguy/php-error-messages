@@ -30,5 +30,5 @@ t::foo();
 + Convert the trait into a class and access its features.
 
 ## Related error messages
-+ [accessing-static-trait-property-%s::$%s-is-deprecated](asdf)
-+ [cannot-access-trait-constant-%s::%s-directly](asdf)
++ [accessing-static-trait-property-%s::$%s-is-deprecated](accessing-static-trait-property-%s::$%s-is-deprecated.html)
++ [cannot-access-trait-constant-%s::%s-directly](cannot-access-trait-constant-%s::%s-directly.html)

@@ -41,6 +41,6 @@ class Y extends X {
 + Remove the constant from the trait.
 
 ## Related error messages
-+ [%s-and-%s-define-the-same-hooked-property-($%s)-in-the-composition-of-%s.-conflict-resolution-between-hooked-properties-is-currently-not-supported.-class-was-composed](asdf)
-+ [%s-and-%s-define-the-same-property-($%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed](asdf)
-+ [cannot-use-trait-%s](asdf)
++ [%s-and-%s-define-the-same-hooked-property-($%s)-in-the-composition-of-%s.-conflict-resolution-between-hooked-properties-is-currently-not-supported.-class-was-composed](%s-and-%s-define-the-same-hooked-property-\($%s\)-in-the-composition-of-%s.-conflict-resolution-between-hooked-properties-is-currently-not-supported.-class-was-composed.html)
++ [%s-and-%s-define-the-same-property-($%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed](%s-and-%s-define-the-same-property-\($%s\)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed.html)
++ [cannot-use-trait-%s](cannot-use-trait-%s.html)

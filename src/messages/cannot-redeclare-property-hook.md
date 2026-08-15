@@ -30,4 +30,4 @@ class X
 + Check case of the hooks name.
 
 ## Related error messages
-+ [%s-and-%s-define-the-same-hooked-property-($%s)-in-the-composition-of-%s.-conflict-resolution-between-hooked-properties-is-currently-not-supported.-class-was-composed](asdf)
++ [%s-and-%s-define-the-same-hooked-property-($%s)-in-the-composition-of-%s.-conflict-resolution-between-hooked-properties-is-currently-not-supported.-class-was-composed](%s-and-%s-define-the-same-hooked-property-\($%s\)-in-the-composition-of-%s.-conflict-resolution-between-hooked-properties-is-currently-not-supported.-class-was-composed.html)

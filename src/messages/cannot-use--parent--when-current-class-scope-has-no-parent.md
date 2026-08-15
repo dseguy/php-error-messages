@@ -27,8 +27,8 @@ class Foo {
 + Remove the ``parent::`` call, and implement the logic directly in the method.
 
 ## Related error messages
-+ [cannot-use--"parent-"-when-no-class-scope-is-active](asdf)
-+ [cannot-use--"%s-"-when-no-class-scope-is-active](asdf)
++ [cannot-use--"parent-"-when-no-class-scope-is-active](cannot-use--parent--when-no-class-scope-is-active.html)
++ [cannot-use--"%s-"-when-no-class-scope-is-active](cannot-use--%s--when-no-class-scope-is-active.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

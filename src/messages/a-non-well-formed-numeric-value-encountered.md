@@ -23,7 +23,7 @@ var_dump("3df" % 2);
 + Test if the value has an integer value before usage.
 
 ## Related error messages
-+ [implicit-conversion-from-float-string-"%s"-to-int-loses](asdf)
-+ [unsupported-operand-types](asdf)
++ [implicit-conversion-from-float-string-"%s"-to-int-loses](implicit-conversion-from-float-string-%s-to-int-loses.html)
++ [unsupported-operand-types](unsupported-operand-types.html)
 
 In more recent PHP versions, this error message is now :ref:`a-non-numeric-value-encountered`.

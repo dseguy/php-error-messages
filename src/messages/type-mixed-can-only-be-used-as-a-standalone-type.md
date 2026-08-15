@@ -19,6 +19,6 @@ function foo(A|mixed $i = null) {}
 + Remove the mixed type entirely.
 
 ## Related error messages
-+ [type-mixed-cannot-be-marked-as-nullable-since-mixed-already-includes-null](asdf)
-+ [never-can-only-be-used-as-a-standalone-type](asdf)
-+ [void-can-only-be-used-as-a-standalone-type](asdf)
++ [type-mixed-cannot-be-marked-as-nullable-since-mixed-already-includes-null](type-mixed-cannot-be-marked-as-nullable-since-mixed-already-includes-null.html)
++ [never-can-only-be-used-as-a-standalone-type](never-can-only-be-used-as-a-standalone-type.html)
++ [void-can-only-be-used-as-a-standalone-type](void-can-only-be-used-as-a-standalone-type.html)

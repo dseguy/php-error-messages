@@ -23,4 +23,4 @@ class X extends Generator {}
 + Use composition on the final class, to include it in another class.
 
 ## Related error messages
-+ [the-"generator"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated](asdf)
++ [the-"generator"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated](the-generator-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated.html)

@@ -33,5 +33,5 @@ try {
 + Avoid using getInstance() on that attribute.
 
 ## Related error messages
-+ [class-"%s"-not-found](asdf)
-+ [interface-"%s"-not-found](asdf)
++ [class-"%s"-not-found](class-%s-not-found.html)
++ [interface-"%s"-not-found](interface-%s-not-found.html)

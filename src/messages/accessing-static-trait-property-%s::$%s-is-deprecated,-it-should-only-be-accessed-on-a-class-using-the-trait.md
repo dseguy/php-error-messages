@@ -28,4 +28,4 @@ T::$property = 2;
 + Turn the trait into a class.
 
 ## Related error messages
-+ [cannot-access-trait-constant-%s::%s-directly](asdf)
++ [cannot-access-trait-constant-%s::%s-directly](cannot-access-trait-constant-%s::%s-directly.html)

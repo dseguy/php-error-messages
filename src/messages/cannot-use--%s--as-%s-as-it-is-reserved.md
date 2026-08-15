@@ -20,5 +20,5 @@ function foo() : \array {}
 + Upgrade to PHP 8.5 (when available).
 
 ## Related error messages
-+ [type-declaration-'%s'-must-be-unqualified](asdf)
-+ [cannot-use--"%s-"-as-%s](asdf)
++ [type-declaration-'%s'-must-be-unqualified](type-declaration-%s-must-be-unqualified.html)
++ [cannot-use--"%s-"-as-%s](cannot-use--%s--as-%s.html)

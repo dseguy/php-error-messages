@@ -23,7 +23,7 @@ function foo bar() {}
 + If two functions were meant to be declared, close the first one and start a new ``function`` statement.
 
 ## Related error messages
-+ [syntax-error,-unexpected-identifier-"%s",-expecting-";"-or-"{"](asdf)
++ [syntax-error,-unexpected-identifier-"%s",-expecting-";"-or-"{"](syntax-error,-unexpected-identifier-%s,-expecting-;-or-{.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

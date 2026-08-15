@@ -34,8 +34,8 @@ var_dump((int) INF);
 + Use ``BCMath`` or ``GMP`` if arbitrary-precision integers are required.
 
 ## Related error messages
-+ [the-float-string--"%s-"-is-not-representable-as-an-int,-cast-occurred](asdf)
-+ [implicit-conversion-from-float-%.*h-to-int-loses-precision](asdf)
++ [the-float-string--"%s-"-is-not-representable-as-an-int,-cast-occurred](the-float-string--%s--is-not-representable-as-an-int,-cast-occurred.html)
++ [implicit-conversion-from-float-%.*h-to-int-loses-precision](implicit-conversion-from-float-%.\*h-to-int-loses-precision.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

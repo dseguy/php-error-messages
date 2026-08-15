@@ -29,4 +29,4 @@ $x->p = PHP_INT_MAX;
 + Drop the type, but see the property get turned into a float.
 
 ## Related error messages
-+ [cannot-decrement-property-%s::$%s-of-type-int-past-its-minimal-value](asdf)
++ [cannot-decrement-property-%s::$%s-of-type-int-past-its-minimal-value](cannot-decrement-property-%s::$%s-of-type-int-past-its-minimal-value.html)

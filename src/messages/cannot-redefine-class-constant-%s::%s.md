@@ -25,7 +25,7 @@ class C {
 + Remove one of the conflicting constants.
 
 ## Related error messages
-+ [a-class-constant-must-not-be-called-class.-it-is-reserved-for-class-name-fetching](asdf)
++ [a-class-constant-must-not-be-called-class.-it-is-reserved-for-class-name-fetching](a-class-constant-must-not-be-called-class.-it-is-reserved-for-class-name-fetching.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

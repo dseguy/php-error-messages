@@ -29,4 +29,4 @@ $object->something[] = 'bar';
 + Use an actual data container to represent a property.
 
 ## Related error messages
-+ [indirect-modification-of-overloaded-element-of-%s-has-no-effect](asdf)
++ [indirect-modification-of-overloaded-element-of-%s-has-no-effect](indirect-modification-of-overloaded-element-of-%s-has-no-effect.html)

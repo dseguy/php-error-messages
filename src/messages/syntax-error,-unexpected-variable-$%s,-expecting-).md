@@ -22,8 +22,8 @@ function foo($a $b) {}
 + Remove the extra variable if it was left over from editing.
 
 ## Related error messages
-+ [syntax-error,-unexpected-variable-"$task",-expecting-")"](asdf)
-+ [syntax-error,-unexpected-token-")",-expecting-variable](asdf)
++ [syntax-error,-unexpected-variable-"$task",-expecting-")"](syntax-error,-unexpected-variable-$task,-expecting-\).html)
++ [syntax-error,-unexpected-token-")",-expecting-variable](syntax-error,-unexpected-token-\),-expecting-variable.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

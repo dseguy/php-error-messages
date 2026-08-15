@@ -27,6 +27,6 @@ echo X::A;
 + Extends the class and change the visibility level of the constant.
 
 ## Related error messages
-+ [cannot-access-%s-property-%s::$%s](asdf)
++ [cannot-access-%s-property-%s::$%s](cannot-access-%s-property-%s::$%s.html)
 
 In previous PHP versions, this error message used to be :ref:`cannot-access-%s-const-%s::%s`.

@@ -26,6 +26,6 @@ function foo() : void {
 + Remove the void returntype.
 
 ## Related error messages
-+ [a-void-%s-does-not-return-a-value](asdf)
-+ [a-%s-with-return-type-must-return-a-value](asdf)
-+ [void-can-only-be-used-as-a-standalone-type](asdf)
++ [a-void-%s-does-not-return-a-value](a-void-%s-does-not-return-a-value.html)
++ [a-%s-with-return-type-must-return-a-value](a-%s-with-return-type-must-return-a-value.html)
++ [void-can-only-be-used-as-a-standalone-type](void-can-only-be-used-as-a-standalone-type.html)

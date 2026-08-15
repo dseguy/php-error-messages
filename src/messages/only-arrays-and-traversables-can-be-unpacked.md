@@ -30,4 +30,4 @@ function foo() {
 + Use the ``?:`` operator to give a value to empty data before the ``...`` operator.
 
 ## Related error messages
-+ [only-arrays-can-be-unpacked-in-constant-expression](asdf)
++ [only-arrays-can-be-unpacked-in-constant-expression](only-arrays-can-be-unpacked-in-constant-expression.html)

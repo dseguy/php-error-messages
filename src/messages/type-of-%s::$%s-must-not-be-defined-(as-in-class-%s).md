@@ -28,4 +28,4 @@ class Y extends X {
 + Remove the type in the child class.
 
 ## Related error messages
-+ [type-of-%s::$%s-must-be-%s%s-(as-in-class-%s)](asdf)
++ [type-of-%s::$%s-must-be-%s%s-(as-in-class-%s)](type-of-%s::$%s-must-be-%s%s-\(as-in-class-%s\).html)

@@ -22,8 +22,8 @@ class A {
 + Add the ``abstract`` option to the class.
 
 ## Related error messages
-+ [%s-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-method%s-(](asdf)
-+ [%s-method-%s::%s()-must-not-be-abstract](asdf)
++ [%s-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-method%s-(](%s-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-method%s-\(.html)
++ [%s-method-%s::%s()-must-not-be-abstract](%s-method-%s::%s\(\)-must-not-be-abstract.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

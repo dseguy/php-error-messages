@@ -21,4 +21,4 @@ use C as D;
 + Remove the next ``use`` keyword, and replace it with a comma.
 
 ## Related error messages
-+ [syntax-error,-unexpected-token-"use"](asdf)
++ [syntax-error,-unexpected-token-"use"](syntax-error,-unexpected-token-use.html)

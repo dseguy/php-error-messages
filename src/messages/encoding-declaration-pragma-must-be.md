@@ -26,9 +26,9 @@ declare(encoding = 'ISO-8859-1');
 + Remove any characters or statements placed before the opening ``<?php`` tag.
 
 ## Related error messages
-+ [strict_types-declaration-must-be-the-very-first-statement-in-the-script](asdf)
-+ [namespace-declaration-statement-has-to-be](asdf)
-+ [declare(%s)-value-must-be-a-literal](asdf)
++ [strict_types-declaration-must-be-the-very-first-statement-in-the-script](strict\_types-declaration-must-be-the-very-first-statement-in-the-script.html)
++ [namespace-declaration-statement-has-to-be](namespace-declaration-statement-has-to-be.html)
++ [declare(%s)-value-must-be-a-literal](declare\(%s\)-value-must-be-a-literal.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

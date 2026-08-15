@@ -32,5 +32,5 @@ class Y {
 + Check the object of the method is the correct one.
 
 ## Related error messages
-+ [call-to-undefined-method-%s::%s()](asdf)
-+ [call-to-%s-%s::%s()-from-global-scope](asdf)
++ [call-to-undefined-method-%s::%s()](call-to-undefined-method-%s::%s\(\).html)
++ [call-to-%s-%s::%s()-from-global-scope](call-to-%s-%s::%s\(\)-from-global-scope.html)

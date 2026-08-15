@@ -33,4 +33,4 @@ foreach (new X as $prop => &$value) {
 + Avoid using a reference on a property hook.
 
 ## Related error messages
-+ [indirect-modification-of-%s::$%s-is-not-allowed](asdf)
++ [indirect-modification-of-%s::$%s-is-not-allowed](indirect-modification-of-%s::$%s-is-not-allowed.html)

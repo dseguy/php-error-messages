@@ -30,4 +30,4 @@ function foo() : never {
 + Remove the ``return`` call.
 
 ## Related error messages
-+ [never-can-only-be-used-as-a-standalone-type](asdf)
++ [never-can-only-be-used-as-a-standalone-type](never-can-only-be-used-as-a-standalone-type.html)

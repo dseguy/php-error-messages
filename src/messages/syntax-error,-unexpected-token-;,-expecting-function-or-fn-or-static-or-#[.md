@@ -23,4 +23,4 @@ This error appears after PHP 8.0: this is when the `#[` token was introduced. Un
 + Turn the ``#`` comment into a ``//`` comment.
 
 ## Related error messages
-+ [syntax-error,-unexpected-token-")",-expecting-"function"-or-"fn"-or-"static"-or-"#["](asdf)
++ [syntax-error,-unexpected-token-")",-expecting-"function"-or-"fn"-or-"static"-or-"#["](syntax-error,-unexpected-token-\),-expecting-function-or-fn-or-static-or-#\[.html)

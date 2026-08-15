@@ -25,5 +25,5 @@ var_dump(array_product(['33', 3] )); // returns 99
 + Filter out all strings inside the first argument, which fails the is_numeric() call.
 
 ## Related error messages
-+ [array_product():-multiplication-is-not-supported-on-type-array](asdf)
-+ [array_product():-multiplication-is-not-supported-on-type-object](asdf)
++ [array_product():-multiplication-is-not-supported-on-type-array](array\_product\(\):-multiplication-is-not-supported-on-type-array.html)
++ [array_product():-multiplication-is-not-supported-on-type-object](array\_product\(\):-multiplication-is-not-supported-on-type-object.html)

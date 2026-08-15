@@ -21,4 +21,4 @@ $method = new ReflectionMethod('c');
 + Use the correct format to reprsent a method in a string.
 
 ## Related error messages
-+ [cannot-be-null-when-argument-#1-($objectormethod)-is-an-object](asdf)
++ [cannot-be-null-when-argument-#1-($objectormethod)-is-an-object](cannot-be-null-when-argument-#1-\($objectormethod\)-is-an-object.html)

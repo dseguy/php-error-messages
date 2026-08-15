@@ -1,0 +1,1 @@
+# can-only-throw-objects

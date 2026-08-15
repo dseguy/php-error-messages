@@ -50,5 +50,5 @@ const C = new X;
 + Check if the constant is defined in a dependency, and the dependency was forgotten.
 
 ## Related error messages
-+ [undefined-constant-%s::%s](asdf)
-+ [cannot-declare-self-referencing-constant](asdf)
++ [undefined-constant-%s::%s](undefined-constant-%s::%s.html)
++ [cannot-declare-self-referencing-constant](cannot-declare-self-referencing-constant.html)

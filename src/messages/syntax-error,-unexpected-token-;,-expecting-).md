@@ -22,4 +22,4 @@ function foo($a = 3;) {}
 + Close the parenthesis before the semi-colon.
 
 ## Related error messages
-+ [syntax-error,-unexpected-token-";",-expecting-","-or-")"](asdf)
++ [syntax-error,-unexpected-token-";",-expecting-","-or-")"](syntax-error,-unexpected-token-;,-expecting-,-or-\).html)

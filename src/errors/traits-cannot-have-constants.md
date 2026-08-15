@@ -1,0 +1,1 @@
+# traits-cannot-have-constants

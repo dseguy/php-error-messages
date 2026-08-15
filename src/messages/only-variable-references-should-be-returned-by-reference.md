@@ -23,5 +23,5 @@ function &foo() {
 + Remove the reference in the method signature.
 
 ## Related error messages
-+ [%s():-argument-#%d%s%s%s-cannot-be-passed-by-reference](asdf)
-+ [%s():-argument-#%d%s%s%s-could-not-be-passed-by-reference](asdf)
++ [%s():-argument-#%d%s%s%s-cannot-be-passed-by-reference](%s\(\):-argument-#%d%s%s%s-cannot-be-passed-by-reference.html)
++ [%s():-argument-#%d%s%s%s-could-not-be-passed-by-reference](%s\(\):-argument-#%d%s%s%s-could-not-be-passed-by-reference.html)

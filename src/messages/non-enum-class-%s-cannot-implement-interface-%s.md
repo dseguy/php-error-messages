@@ -23,4 +23,4 @@
 + Remove the UnitEnum implementation.
 
 ## Related error messages
-+ [%s-%s-cannot-implement-previously-implemented-interface-%s](asdf)
++ [%s-%s-cannot-implement-previously-implemented-interface-%s](%s-%s-cannot-implement-previously-implemented-interface-%s.html)

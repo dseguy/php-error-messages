@@ -29,9 +29,9 @@ abstract class X {
 + Remove the ``abstract`` keyword from the property if all hooks should have implementations.
 
 ## Related error messages
-+ [only-hooked-properties-may-be-declared-abstract](asdf)
-+ [abstract-property-hook-cannot-have-body](asdf)
-+ [non-abstract-property-hook-must-have-a-body](asdf)
++ [only-hooked-properties-may-be-declared-abstract](only-hooked-properties-may-be-declared-abstract.html)
++ [abstract-property-hook-cannot-have-body](abstract-property-hook-cannot-have-body.html)
++ [non-abstract-property-hook-must-have-a-body](non-abstract-property-hook-must-have-a-body.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

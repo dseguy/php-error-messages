@@ -21,6 +21,6 @@ This error happens when the Reflection API fails at getting the description of a
 + Check that the property exists before using ``getProperty``.
 
 ## Related error messages
-+ [undefined-property-%s::$%s](asdf)
++ [undefined-property-%s::$%s](undefined-property-%s::$%s.html)
 
 In previous PHP versions, this error message used to be :ref:`property-%s-does-not-exist`.

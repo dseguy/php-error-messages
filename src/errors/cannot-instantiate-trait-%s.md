@@ -1,0 +1,1 @@
+# cannot-instantiate-trait-%s

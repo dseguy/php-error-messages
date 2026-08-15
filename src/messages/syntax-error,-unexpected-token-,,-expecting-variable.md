@@ -30,6 +30,6 @@ class X {
 + Fill the empty slot with a variable.
 
 ## Related error messages
-+ [syntax-error,-unexpected-token-",",-expecting-variable-or-"$"](asdf)
-+ [syntax-error,-unexpected-token-",",-expecting-"]"](asdf)
-+ [syntax-error,-unexpected-token-","](asdf)
++ [syntax-error,-unexpected-token-",",-expecting-variable-or-"$"](syntax-error,-unexpected-token-,,-expecting-variable-or-$.html)
++ [syntax-error,-unexpected-token-",",-expecting-"]"](syntax-error,-unexpected-token-,,-expecting-\].html)
++ [syntax-error,-unexpected-token-","](syntax-error,-unexpected-token-,.html)

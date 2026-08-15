@@ -31,9 +31,9 @@ class Test {
 + Narrow the property's declared type to match what the ``set`` hook is willing to accept.
 
 ## Related error messages
-+ [set-type-of-%s::$%s-must-be-supertype-of-%s-(as-in-%s-%s)](asdf)
-+ [get-hook-of-property-%s::$%s-must-not-have-a-parameter-list](asdf)
-+ [get-hook-of-backed-property-%s::%s-with-set-hook-may-not-return-by-reference](asdf)
++ [set-type-of-%s::$%s-must-be-supertype-of-%s-(as-in-%s-%s)](set-type-of-%s::$%s-must-be-supertype-of-%s-\(as-in-%s-%s\).html)
++ [get-hook-of-property-%s::$%s-must-not-have-a-parameter-list](get-hook-of-property-%s::$%s-must-not-have-a-parameter-list.html)
++ [get-hook-of-backed-property-%s::%s-with-set-hook-may-not-return-by-reference](get-hook-of-backed-property-%s::%s-with-set-hook-may-not-return-by-reference.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

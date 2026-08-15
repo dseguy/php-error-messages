@@ -43,4 +43,4 @@ class Y extends X {
 + Remove the hook in the child class.
 
 ## Related error messages
-+ [set-access-level-of-%s::$%s-must-be-%s-(as-in-class-%s)%s](asdf)
++ [set-access-level-of-%s::$%s-must-be-%s-(as-in-class-%s)%s](set-access-level-of-%s::$%s-must-be-%s-\(as-in-class-%s\)%s.html)

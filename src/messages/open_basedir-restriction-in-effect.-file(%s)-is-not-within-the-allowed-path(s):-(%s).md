@@ -23,7 +23,7 @@ This is an alt error message raised when a PHP extension tries to access a file,
 + Check the value of the ``open_basedir`` directive for typos.
 
 ## Related error messages
-+ [open_basedir-prohibits-opening-%s](asdf)
++ [open_basedir-prohibits-opening-%s](open\_basedir-prohibits-opening-%s.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

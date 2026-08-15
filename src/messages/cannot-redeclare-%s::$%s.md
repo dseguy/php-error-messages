@@ -27,8 +27,8 @@ class X {
 + Rename one of the two properties.
 
 ## Related error messages
-+ [cannot-redeclare-%s::%s()](asdf)
-+ [cannot-declare-variadic-promoted-property](asdf)
++ [cannot-redeclare-%s::%s()](cannot-redeclare-%s::%s\(\).html)
++ [cannot-declare-variadic-promoted-property](cannot-declare-variadic-promoted-property.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

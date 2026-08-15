@@ -1,0 +1,1 @@
+# illegal-class-name

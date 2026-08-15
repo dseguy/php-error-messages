@@ -24,4 +24,4 @@ $c = &'33';
 + Put this expression in another variable, and make the reference on that variable.
 
 ## Related error messages
-+ [syntax-error,-unexpected-token-"&"](asdf)
++ [syntax-error,-unexpected-token-"&"](syntax-error,-unexpected-token-&.html)

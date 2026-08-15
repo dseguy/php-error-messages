@@ -26,6 +26,6 @@ readonly readonly class Y {
 + Drop all the readonly options.
 
 ## Related error messages
-+ [multiple-static-modifiers-are-not-allowed](asdf)
-+ [multiple-access-type-modifiers-are-not-allowed](asdf)
-+ [multiple-%s-modifiers-are-not-allowed](asdf)
++ [multiple-static-modifiers-are-not-allowed](multiple-static-modifiers-are-not-allowed.html)
++ [multiple-access-type-modifiers-are-not-allowed](multiple-access-type-modifiers-are-not-allowed.html)
++ [multiple-%s-modifiers-are-not-allowed](multiple-%s-modifiers-are-not-allowed.html)

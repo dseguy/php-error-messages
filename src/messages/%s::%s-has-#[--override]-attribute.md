@@ -37,9 +37,9 @@ class Square implements Shape {
 + Add a constant with the same name to the parent class or interface.
 
 ## Related error messages
-+ [%s::%s()-has-#[-override]-attribute,-but-no-matching-parent-method-exists](asdf)
-+ [%s::$%s-has-#[--override]-attribute](asdf)
-+ [has-#[-override]-attribute,-but-no-matching-parent-method-exists](asdf)
++ [%s::%s()-has-#[-override]-attribute,-but-no-matching-parent-method-exists](%s::%s\(\)-has-#\[-override\]-attribute,-but-no-matching-parent-method-exists.html)
++ [%s::$%s-has-#[--override]-attribute](%s::$%s-has-#\[--override\]-attribute.html)
++ [has-#[-override]-attribute,-but-no-matching-parent-method-exists](has-#\[-override\]-attribute,-but-no-matching-parent-method-exists.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

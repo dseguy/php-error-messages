@@ -26,4 +26,4 @@ An extended error also appear if the result of the conversion is larger than the
 + Use substr() to access a specific offset.
 
 ## Related error messages
-+ [uninitialized-string-offset](asdf)
++ [uninitialized-string-offset](uninitialized-string-offset.html)

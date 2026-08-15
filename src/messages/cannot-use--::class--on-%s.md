@@ -18,7 +18,7 @@ echo 10::class;
 + Only use ::class on a class name, or on an expression that can hold an object.
 
 ## Related error messages
-+ [cannot-use-dynamic-class-name-in-constant-expression](asdf)
++ [cannot-use-dynamic-class-name-in-constant-expression](cannot-use-dynamic-class-name-in-constant-expression.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

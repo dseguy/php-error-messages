@@ -18,4 +18,4 @@ $a = 2 + % 3;
 + Remove the superfluous percentage.
 
 ## Related error messages
-+ [syntax-error,-unexpected-token-"*"](asdf)
++ [syntax-error,-unexpected-token-"*"](syntax-error,-unexpected-token-\*.html)

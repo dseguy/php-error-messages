@@ -21,9 +21,9 @@ function foo(): int|never {}
 + Remove ``never``, and keep the other type(s) alone.
 
 ## Related error messages
-+ [void-can-only-be-used-as-a-standalone-type](asdf)
-+ [type-mixed-can-only-be-used-as-a-standalone-type](asdf)
-+ [a-never-returning-%s-must-not-return](asdf)
++ [void-can-only-be-used-as-a-standalone-type](void-can-only-be-used-as-a-standalone-type.html)
++ [type-mixed-can-only-be-used-as-a-standalone-type](type-mixed-can-only-be-used-as-a-standalone-type.html)
++ [a-never-returning-%s-must-not-return](a-never-returning-%s-must-not-return.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

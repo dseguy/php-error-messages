@@ -31,5 +31,5 @@ class X implements I {
 + Remove the constant from the class.
 
 ## Related error messages
-+ [set-access-level-of-%s::$%s-must-be-%s-(as-in-class-%s)%s](asdf)
-+ [access-level-to-%s::$%s-must-be-%s-(as-in-class-%s)%s](asdf)
++ [set-access-level-of-%s::$%s-must-be-%s-(as-in-class-%s)%s](set-access-level-of-%s::$%s-must-be-%s-\(as-in-class-%s\)%s.html)
++ [access-level-to-%s::$%s-must-be-%s-(as-in-class-%s)%s](access-level-to-%s::$%s-must-be-%s-\(as-in-class-%s\)%s.html)

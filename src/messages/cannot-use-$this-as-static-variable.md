@@ -25,7 +25,7 @@ class X {
 + Store the required data in a property of the object instead.
 
 ## Related error messages
-+ [cannot-use-$this-as-parameter](asdf)
++ [cannot-use-$this-as-parameter](cannot-use-$this-as-parameter.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

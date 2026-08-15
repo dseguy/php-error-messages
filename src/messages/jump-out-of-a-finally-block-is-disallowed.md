@@ -28,4 +28,4 @@ finally {
 + Move the label in the finally block.
 
 ## Related error messages
-+ [jump-into-a-finally-block-is-disallowed](asdf)
++ [jump-into-a-finally-block-is-disallowed](jump-into-a-finally-block-is-disallowed.html)

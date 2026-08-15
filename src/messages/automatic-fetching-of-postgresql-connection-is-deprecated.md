@@ -24,7 +24,7 @@ $result = pg_query('SELECT 1');
 + Store the resource/object returned by ``pg_connect()`` or ``pg_pconnect()`` and pass it explicitly as the first argument to every ``pg_*`` function used afterwards.
 
 ## Related error messages
-+ [passing-connection-object-as-an-argument-is-deprecated](asdf)
++ [passing-connection-object-as-an-argument-is-deprecated](passing-connection-object-as-an-argument-is-deprecated.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

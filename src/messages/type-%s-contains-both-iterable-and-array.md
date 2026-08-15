@@ -28,8 +28,8 @@ function goo() : array|array { }
 + Remove the ``iterable`` type, and only use ``array`` for this type.
 
 ## Related error messages
-+ [duplicate-type-%s-is-redundant](asdf)
-+ [type-%s-contains-both-object-and-a-class-type](asdf)
++ [duplicate-type-%s-is-redundant](duplicate-type-%s-is-redundant.html)
++ [type-%s-contains-both-object-and-a-class-type](type-%s-contains-both-object-and-a-class-type.html)
 
 ## Related error messages
 + [Iterables](https://www.php.net/manual/en/language.types.iterable.php)

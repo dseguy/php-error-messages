@@ -31,6 +31,6 @@ $x = & new X();
 + Remove the reference operator ``&`` before the new call.
 
 ## Related error messages
-+ [cannot-use-temporary-expression-in-write-context](asdf)
++ [cannot-use-temporary-expression-in-write-context](cannot-use-temporary-expression-in-write-context.html)
 
 In previous PHP versions, this error message used to be :ref:`syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"{"-or-"["`.

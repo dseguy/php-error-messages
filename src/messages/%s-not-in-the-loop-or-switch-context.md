@@ -29,5 +29,5 @@ break;
 + Move the ``continue`` inside a loop  block: ``for``, ``foreach``, ``while``, ``do..while``.
 
 ## Related error messages
-+ [syntax-error,-unexpected-token-"break"](asdf)
-+ [syntax-error,-unexpected-token-"continue"](asdf)
++ [syntax-error,-unexpected-token-"break"](syntax-error,-unexpected-token-break.html)
++ [syntax-error,-unexpected-token-"continue"](syntax-error,-unexpected-token-continue.html)

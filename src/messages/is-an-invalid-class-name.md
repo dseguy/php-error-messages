@@ -27,5 +27,5 @@ class X {
 + Do not use PHP keywords as fully qualified name with a type.
 
 ## Related error messages
-+ [type-declaration-'%s'-must-be-unqualified](asdf)
-+ [namespace-%s-is-an-invalid-class-name](asdf)
++ [type-declaration-'%s'-must-be-unqualified](type-declaration-%s-must-be-unqualified.html)
++ [namespace-%s-is-an-invalid-class-name](namespace-%s-is-an-invalid-class-name.html)

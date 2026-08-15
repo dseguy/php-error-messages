@@ -22,9 +22,9 @@ var_dump(Closure);
 + Use a string for the name of the function or static method.
 
 ## Related error messages
-+ [illegal-function-name](asdf)
-+ [cannot-use-dynamic-method-name-in-constant-expression](asdf)
-+ [illegal-method-name](asdf)
++ [illegal-function-name](illegal-function-name.html)
++ [cannot-use-dynamic-method-name-in-constant-expression](cannot-use-dynamic-method-name-in-constant-expression.html)
++ [illegal-method-name](illegal-method-name.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

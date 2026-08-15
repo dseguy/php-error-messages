@@ -20,8 +20,8 @@ Void is a type, that can only be used with return type, on methods or functions.
 + Use the null type.
 
 ## Related error messages
-+ [property-x::$p-cannot-have-type-void](asdf)
-+ [void-can-only-be-used-as-a-standalone-type](asdf)
++ [property-x::$p-cannot-have-type-void](property-x::$p-cannot-have-type-void.html)
++ [void-can-only-be-used-as-a-standalone-type](void-can-only-be-used-as-a-standalone-type.html)
 
 ## Related error messages
 + [ThethreenothingsofPHP](https://www.exakat.io/en/the-three-nothings-of-php/)

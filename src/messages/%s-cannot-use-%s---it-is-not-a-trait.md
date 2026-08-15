@@ -25,4 +25,4 @@ class Y {
 + Fix the name of the class, and use an existing trait.
 
 ## Related error messages
-+ [class-%s-cannot-use-%s---it-is-not-a-trait](asdf)
++ [class-%s-cannot-use-%s---it-is-not-a-trait](class-%s-cannot-use-%s---it-is-not-a-trait.html)

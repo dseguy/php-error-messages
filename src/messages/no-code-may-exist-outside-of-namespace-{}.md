@@ -26,5 +26,5 @@ function foo() {}
 + Switch to the namespace command without block: all the code will be in that namespace, until the next namespace command.
 
 ## Related error messages
-+ [cannot-mix-bracketed-namespace-declarations](asdf)
-+ [namespace-declaration-statement-has-to-be](asdf)
++ [cannot-mix-bracketed-namespace-declarations](cannot-mix-bracketed-namespace-declarations.html)
++ [namespace-declaration-statement-has-to-be](namespace-declaration-statement-has-to-be.html)

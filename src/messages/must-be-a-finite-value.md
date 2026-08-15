@@ -22,4 +22,4 @@ $fp = stream_socket_client(tcp://www.example.com:80, $errno, $errstr, INF);
 + Use a very large, but finite float value, such as ``PHP_FLOAT_MAX``, which will be valid until the end of the universe, even in nanoseconds.
 
 ## Related error messages
-+ [unexpected-nan-value-was-coerced-to-%s](asdf)
++ [unexpected-nan-value-was-coerced-to-%s](unexpected-nan-value-was-coerced-to-%s.html)

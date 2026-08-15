@@ -22,4 +22,4 @@ $y = $x ** -2;
 + Use the PHP 8.4 function fpow() that has the future behavior, with a try/catch structure.
 
 ## Related error messages
-+ [negative-power-of-zero](asdf)
++ [negative-power-of-zero](negative-power-of-zero.html)

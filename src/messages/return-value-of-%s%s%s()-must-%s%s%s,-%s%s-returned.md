@@ -29,4 +29,4 @@ function foo() : int {
 + Remove strict_types.
 
 ## Related error messages
-+ [a-function-with-return-type-must-return-a-value](asdf)
++ [a-function-with-return-type-must-return-a-value](a-function-with-return-type-must-return-a-value.html)

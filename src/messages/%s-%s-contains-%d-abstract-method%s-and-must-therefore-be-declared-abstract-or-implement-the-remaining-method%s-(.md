@@ -34,11 +34,11 @@ class Suit implements Colorful {
 + Remove the ``implements``/``extends`` clause that brings in the abstract method.
 
 ## Related error messages
-+ [class-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-methods](asdf)
-+ [class-%s-declares-abstract-method-%s()-and-must-therefore-be-declared-abstract](asdf)
-+ [%s-%s-must-implement-%d-abstract-method%s-(](asdf)
-+ [anonymous-class-method-%s()-must-not-be-abstract](asdf)
-+ [non-abstract-method-%s::%s()-must-contain-body](asdf)
++ [class-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-methods](class-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-methods.html)
++ [class-%s-declares-abstract-method-%s()-and-must-therefore-be-declared-abstract](class-%s-declares-abstract-method-%s\(\)-and-must-therefore-be-declared-abstract.html)
++ [%s-%s-must-implement-%d-abstract-method%s-(](%s-%s-must-implement-%d-abstract-method%s-\(.html)
++ [anonymous-class-method-%s()-must-not-be-abstract](anonymous-class-method-%s\(\)-must-not-be-abstract.html)
++ [non-abstract-method-%s::%s()-must-contain-body](non-abstract-method-%s::%s\(\)-must-contain-body.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

@@ -19,7 +19,7 @@ $a = 'a '. $b + 1;
 + Add parenthesis to make the code less ambiguous.
 
 ## Related error messages
-+ [the-behavior-of-unparenthesized-expressions-containing-both-'.'-and-'<<'-'>>'-will-change-in-php-8:-'<<'-'>>'-will-take-a-higher-precedence](asdf)
++ [the-behavior-of-unparenthesized-expressions-containing-both-'.'-and-'<<'-'>>'-will-change-in-php-8:-'<<'-'>>'-will-take-a-higher-precedence](the-behavior-of-unparenthesized-expressions-containing-both-.-and-<<->>-will-change-in-php-8:-<<->>-will-take-a-higher-precedence.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

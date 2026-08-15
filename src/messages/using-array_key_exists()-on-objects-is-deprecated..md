@@ -29,6 +29,6 @@ array_key_exists($object, 'index');
 + Check if the variable is actually an object before using it with array_key_exists().
 
 ## Related error messages
-+ [argument-#%d-($%s)-must-be-of-type-%s,-%s-given](asdf)
++ [argument-#%d-($%s)-must-be-of-type-%s,-%s-given](argument-#%d-\($%s\)-must-be-of-type-%s,-%s-given.html)
 
 In more recent PHP versions, this error message is now :ref:`argument-#%d-($%s)-must-be-of-type-%s,-%s-given`.

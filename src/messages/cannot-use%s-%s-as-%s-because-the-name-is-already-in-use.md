@@ -24,4 +24,4 @@ class Y {}
 + Use another name for the definition.
 
 ## Related error messages
-+ [cannot-declare-const-%s-because](asdf)
++ [cannot-declare-const-%s-because](cannot-declare-const-%s-because.html)

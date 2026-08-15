@@ -30,7 +30,7 @@ try {
 + Remove any call to the object after destruction.
 
 ## Related error messages
-+ [typed-property-%s::$%s-must-not-be-accessed-before-initialization](asdf)
++ [typed-property-%s::$%s-must-not-be-accessed-before-initialization](typed-property-%s::$%s-must-not-be-accessed-before-initialization.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

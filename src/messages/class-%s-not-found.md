@@ -52,5 +52,5 @@ class C {}
 + Put classes in different files, and use autoload.
 
 ## Related error messages
-+ [attribute-class-"%s"-not-found](asdf)
-+ [illegal-class-name](asdf)
++ [attribute-class-"%s"-not-found](attribute-class-%s-not-found.html)
++ [illegal-class-name](illegal-class-name.html)

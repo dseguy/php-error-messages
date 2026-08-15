@@ -27,9 +27,9 @@ class X {
 + Use a ``static`` closure if ``$this`` is not needed.
 
 ## Related error messages
-+ [closures-in-constant-expressions-must-be-static](asdf)
-+ [using-$this-when-not-in-object-context](asdf)
-+ [cannot-use-auto-global-as-lexical-variable](asdf)
++ [closures-in-constant-expressions-must-be-static](closures-in-constant-expressions-must-be-static.html)
++ [using-$this-when-not-in-object-context](using-$this-when-not-in-object-context.html)
++ [cannot-use-auto-global-as-lexical-variable](cannot-use-auto-global-as-lexical-variable.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

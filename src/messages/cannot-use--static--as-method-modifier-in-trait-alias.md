@@ -35,9 +35,9 @@ class X
 + Declare the method as ``static`` directly in the trait, if that is the intended behavior.
 
 ## Related error messages
-+ [a-precedence-rule-was-defined-for-%s::%s-but-this-method-does-not-exist](asdf)
-+ [an-alias-was-defined-for-%s::%s-but-this-method-does-not-exist](asdf)
-+ [trait-method-%s::%s-has-not-been-applied-as-%s::%s](asdf)
++ [a-precedence-rule-was-defined-for-%s::%s-but-this-method-does-not-exist](a-precedence-rule-was-defined-for-%s::%s-but-this-method-does-not-exist.html)
++ [an-alias-was-defined-for-%s::%s-but-this-method-does-not-exist](an-alias-was-defined-for-%s::%s-but-this-method-does-not-exist.html)
++ [trait-method-%s::%s-has-not-been-applied-as-%s::%s](trait-method-%s::%s-has-not-been-applied-as-%s::%s.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

@@ -32,6 +32,6 @@ foo(-3);
 + Remove the reference from the called method signature.
 
 ## Related error messages
-+ [only-variable-references-should-be-returned-by-reference](asdf)
++ [only-variable-references-should-be-returned-by-reference](only-variable-references-should-be-returned-by-reference.html)
 
 In previous PHP versions, this error message used to be :ref:`%s():-argument-#%d%s%s%s-cannot-be-passed-by-reference`.

@@ -32,7 +32,7 @@ class B extends A {
 + Remove the reference.
 
 ## Related error messages
-+ [type-of-parameter-$%s-of-hook-%s::$%s::set-must-be-compatible-with-property-type](asdf)
++ [type-of-parameter-$%s-of-hook-%s::$%s::set-must-be-compatible-with-property-type](type-of-parameter-$%s-of-hook-%s::$%s::set-must-be-compatible-with-property-type.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

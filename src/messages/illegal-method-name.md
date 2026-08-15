@@ -29,9 +29,9 @@ var_dump(C);
 + Ensure the method name is a literal string, or an expression that PHP can resolve to one at compile time.
 
 ## Related error messages
-+ [cannot-use-dynamic-method-name-in-constant-expression](asdf)
-+ [illegal-function-name](asdf)
-+ [cannot-use-dynamic-function-name-in-constant-expression](asdf)
++ [cannot-use-dynamic-method-name-in-constant-expression](cannot-use-dynamic-method-name-in-constant-expression.html)
++ [illegal-function-name](illegal-function-name.html)
++ [cannot-use-dynamic-function-name-in-constant-expression](cannot-use-dynamic-function-name-in-constant-expression.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

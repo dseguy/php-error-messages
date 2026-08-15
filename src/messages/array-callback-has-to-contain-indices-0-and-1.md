@@ -31,4 +31,4 @@ $callback();
 + Remove the index in the array definition.
 
 ## Related error messages
-+ [array-callback-must-have-exactly-two-elements](asdf)
++ [array-callback-must-have-exactly-two-elements](array-callback-must-have-exactly-two-elements.html)

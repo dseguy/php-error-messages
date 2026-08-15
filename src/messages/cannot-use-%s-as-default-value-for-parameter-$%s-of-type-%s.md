@@ -31,7 +31,7 @@ function bar(int $s = '1') { }
 + Add a second union type to the parameter.
 
 ## Related error messages
-+ [default-value-for-parameters-with-a-%s-type-can-only-be-%s-or-null](asdf)
-+ [cannot-use-%s-as-default-value-for-property-%s::$%s-of-type-%s](asdf)
++ [default-value-for-parameters-with-a-%s-type-can-only-be-%s-or-null](default-value-for-parameters-with-a-%s-type-can-only-be-%s-or-null.html)
++ [cannot-use-%s-as-default-value-for-property-%s::$%s-of-type-%s](cannot-use-%s-as-default-value-for-property-%s::$%s-of-type-%s.html)
 
 In previous PHP versions, this error message used to be :ref:`default-value-for-parameters-with-a-%s-type-can-only-be-%s-or-null`.

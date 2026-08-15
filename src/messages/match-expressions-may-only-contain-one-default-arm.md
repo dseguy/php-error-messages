@@ -22,4 +22,4 @@ $a = match($b) {
 + Remove all the default arms.
 
 ## Related error messages
-+ [switch-statements-may-only-contain-one-default-clause](asdf)
++ [switch-statements-may-only-contain-one-default-clause](switch-statements-may-only-contain-one-default-clause.html)

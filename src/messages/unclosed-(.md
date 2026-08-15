@@ -26,7 +26,7 @@ $b = 'c' . ( "d . $e)
 + Check that the closing square brackets are not hidden in a string.
 
 ## Related error messages
-+ [unclosed-'{'](asdf)
-+ [unclosed-'['](asdf)
-+ [unmatched-')'](asdf)
-+ [unmatched-']'](asdf)
++ [unclosed-'{'](unclosed-{.html)
++ [unclosed-'['](unclosed-\[.html)
++ [unmatched-')'](unmatched-\).html)
++ [unmatched-']'](unmatched-\].html)

@@ -23,6 +23,6 @@ function foo() : int|true|false {}
 + Remove the usage of either true or false, or both.
 
 ## Related error messages
-+ [duplicate-type-%s-is-redundant](asdf)
-+ [null-cannot-be-marked-as-nullable](asdf)
-+ [type-%s-contains-both-object-and-a-class-type](asdf)
++ [duplicate-type-%s-is-redundant](duplicate-type-%s-is-redundant.html)
++ [null-cannot-be-marked-as-nullable](null-cannot-be-marked-as-nullable.html)
++ [type-%s-contains-both-object-and-a-class-type](type-%s-contains-both-object-and-a-class-type.html)

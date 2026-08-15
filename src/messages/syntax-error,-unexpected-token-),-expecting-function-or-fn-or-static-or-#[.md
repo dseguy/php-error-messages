@@ -26,4 +26,4 @@ function foo(Closure $f) {}
 + Turn the attribute into a comment.
 
 ## Related error messages
-+ [syntax-error,-unexpected-token-";",-expecting-"function"-or-"fn"-or-"static"-or-"#["](asdf)
++ [syntax-error,-unexpected-token-";",-expecting-"function"-or-"fn"-or-"static"-or-"#["](syntax-error,-unexpected-token-;,-expecting-function-or-fn-or-static-or-#\[.html)

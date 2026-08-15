@@ -34,4 +34,4 @@ class X {
 + Add a null to the return type, and return it (void is not possible with another type).
 
 ## Related error messages
-+ [a-function-with-return-type-must-return-a-value](asdf)
++ [a-function-with-return-type-must-return-a-value](a-function-with-return-type-must-return-a-value.html)

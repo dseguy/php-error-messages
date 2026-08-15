@@ -23,10 +23,10 @@ class Bar {
 + Move the object creation into the function body instead of the parameter default.
 
 ## Related error messages
-+ [cannot-use-anonymous-class-in-constant-expression](asdf)
-+ [static::-"-is-not-allowed-in-compile-time-constants](asdf)
-+ [cannot-use--"::class-"-on-%s](asdf)
-+ [static-"-is-not-allowed-in-compile-time-constants](asdf)
++ [cannot-use-anonymous-class-in-constant-expression](cannot-use-anonymous-class-in-constant-expression.html)
++ [static::-"-is-not-allowed-in-compile-time-constants](static::--is-not-allowed-in-compile-time-constants.html)
++ [cannot-use--"::class-"-on-%s](cannot-use--::class--on-%s.html)
++ [static-"-is-not-allowed-in-compile-time-constants](static--is-not-allowed-in-compile-time-constants.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

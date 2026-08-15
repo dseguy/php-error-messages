@@ -33,5 +33,5 @@ bar(1,2);
 + Add default values to the missing parameters in the method signature.
 
 ## Related error messages
-+ [too-few-arguments-to-function-%s%s%s(),-%d-passed-in-%s-on-line-%d-and-%s-%d-expected](asdf)
-+ [too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d-expected](asdf)
++ [too-few-arguments-to-function-%s%s%s(),-%d-passed-in-%s-on-line-%d-and-%s-%d-expected](too-few-arguments-to-function-%s%s%s\(\),-%d-passed-in-%s-on-line-%d-and-%s-%d-expected.html)
++ [too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d-expected](too-few-arguments-to-function-%s%s%s\(\),-%d-passed-and-%s-%d-expected.html)

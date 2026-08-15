@@ -18,7 +18,7 @@ When a valid escape sequence is detected, PHP use the integer between the curly 
 + Check the values inside the curly braces: chances are it needs to be replaced with smaller values.
 
 ## Related error messages
-+ [invalid-utf-8-codepoint-escape](asdf)
++ [invalid-utf-8-codepoint-escape](invalid-utf-8-codepoint-escape.html)
 
 ## Related error messages
 + [Doublequoted](https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.double)

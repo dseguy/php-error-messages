@@ -21,9 +21,9 @@ The `Closure::bind()` method gives the scope of execution of a closure. And a st
 + Remove the call to ``bind()``.
 
 ## Related error messages
-+ [cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9](asdf)
-+ [cannot-bind-method-%s::%s()-to-object-of-class-%s,-this-will-be-an-error-in-php-9](asdf)
-+ [cannot-rebind-scope-of-closure-created-from-function,-this-will-be-an-error-in-php-9](asdf)
-+ [cannot-unbind-$this-of-closure-using-$this,-this-will-be-an-error-in-php-9](asdf)
++ [cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9](cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9.html)
++ [cannot-bind-method-%s::%s()-to-object-of-class-%s,-this-will-be-an-error-in-php-9](cannot-bind-method-%s::%s\(\)-to-object-of-class-%s,-this-will-be-an-error-in-php-9.html)
++ [cannot-rebind-scope-of-closure-created-from-function,-this-will-be-an-error-in-php-9](cannot-rebind-scope-of-closure-created-from-function,-this-will-be-an-error-in-php-9.html)
++ [cannot-unbind-$this-of-closure-using-$this,-this-will-be-an-error-in-php-9](cannot-unbind-$this-of-closure-using-$this,-this-will-be-an-error-in-php-9.html)
 
 In previous PHP versions, this error message used to be :ref:`cannot-bind-an-instance-to-a-static-closure`.

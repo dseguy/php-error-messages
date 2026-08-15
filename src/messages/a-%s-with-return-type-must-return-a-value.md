@@ -26,8 +26,8 @@ function foo(): int {
 + Change the return type to ``void`` if the function is not meant to return a value.
 
 ## Related error messages
-+ [a-void-%s-must-not-return-a-value](asdf)
-+ [a-void-%s-does-not-return-a-value](asdf)
++ [a-void-%s-must-not-return-a-value](a-void-%s-must-not-return-a-value.html)
++ [a-void-%s-does-not-return-a-value](a-void-%s-does-not-return-a-value.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

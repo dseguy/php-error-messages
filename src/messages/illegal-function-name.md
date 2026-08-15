@@ -21,9 +21,9 @@ var_dump(Closure);
 + Ensures that the name is a static expression, and that each element may be resolved at compile time.
 
 ## Related error messages
-+ [cannot-use-dynamic-function-name-in-constant-expression](asdf)
-+ [illegal-method-name](asdf)
-+ [cannot-use-dynamic-method-name-in-constant-expression](asdf)
++ [cannot-use-dynamic-function-name-in-constant-expression](cannot-use-dynamic-function-name-in-constant-expression.html)
++ [illegal-method-name](illegal-method-name.html)
++ [cannot-use-dynamic-method-name-in-constant-expression](cannot-use-dynamic-method-name-in-constant-expression.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

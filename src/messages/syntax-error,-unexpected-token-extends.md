@@ -20,5 +20,5 @@ enum Y extends Z { }
 + Check that a ``class`` or an ``interface`` have been started.
 
 ## Related error messages
-+ [syntax-error,-unexpected-token-"extends",-expecting-"{"](asdf)
-+ [syntax-error,-unexpected-token-"implements"](asdf)
++ [syntax-error,-unexpected-token-"extends",-expecting-"{"](syntax-error,-unexpected-token-extends,-expecting-{.html)
++ [syntax-error,-unexpected-token-"implements"](syntax-error,-unexpected-token-implements.html)

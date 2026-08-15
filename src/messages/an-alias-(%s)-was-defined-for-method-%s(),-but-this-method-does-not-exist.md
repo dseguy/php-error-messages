@@ -31,4 +31,4 @@ class X {
 + Remove the method with the same name in the class, and remove the alias.
 
 ## Related error messages
-+ [an-alias-was-defined-for-%s::%s-but-this-method-does-not-exist](asdf)
++ [an-alias-was-defined-for-%s::%s-but-this-method-does-not-exist](an-alias-was-defined-for-%s::%s-but-this-method-does-not-exist.html)

@@ -27,5 +27,5 @@ function foo(): int {
 + Remove the return type.
 
 ## Related error messages
-+ [return-value-of-%s%s%s()-must-%s%s%s,-%s%s-returned](asdf)
-+ [%s%s%s():-return-value-must-be-of-type-%s,-%s-returned](asdf)
++ [return-value-of-%s%s%s()-must-%s%s%s,-%s%s-returned](return-value-of-%s%s%s\(\)-must-%s%s%s,-%s%s-returned.html)
++ [%s%s%s():-return-value-must-be-of-type-%s,-%s-returned](%s%s%s\(\):-return-value-must-be-of-type-%s,-%s-returned.html)

@@ -35,9 +35,9 @@ var_dump($fn2);
 + If the method should work on unrelated classes too, extract the logic into a standalone function or a trait shared by both classes.
 
 ## Related error messages
-+ [cannot-bind-method-%s::%s()-to-object-of-class-%s](asdf)
-+ [cannot-bind-an-instance-to-a-static-closure,-this-will-be-an-error-in-php-9](asdf)
-+ [cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9](asdf)
++ [cannot-bind-method-%s::%s()-to-object-of-class-%s](cannot-bind-method-%s::%s\(\)-to-object-of-class-%s.html)
++ [cannot-bind-an-instance-to-a-static-closure,-this-will-be-an-error-in-php-9](cannot-bind-an-instance-to-a-static-closure,-this-will-be-an-error-in-php-9.html)
++ [cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9](cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9.html)
 
 ## Related error messages
 + [Closure::bind](https://www.php.net/manual/en/closure.bind.php)

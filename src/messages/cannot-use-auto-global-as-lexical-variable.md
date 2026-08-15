@@ -19,10 +19,10 @@ A lexical variable is the variables used in the `use` part of a closure definiti
 + Remove the use clause, if that variable is there alone.
 
 ## Related error messages
-+ [cannot-re-assign-$this](asdf)
-+ [cannot-re-assign-auto-global-variable-%s](asdf)
-+ [cannot-use-$this-as-global-variable](asdf)
-+ [cannot-use-$this-as-lexical-variable](asdf)
++ [cannot-re-assign-$this](cannot-re-assign-$this.html)
++ [cannot-re-assign-auto-global-variable-%s](cannot-re-assign-auto-global-variable-%s.html)
++ [cannot-use-$this-as-global-variable](cannot-use-$this-as-global-variable.html)
++ [cannot-use-$this-as-lexical-variable](cannot-use-$this-as-lexical-variable.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

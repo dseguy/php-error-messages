@@ -29,9 +29,9 @@ declare(ticks = TICK_VALUE) {
 + Replace the constant, variable, or expression with its literal value.
 
 ## Related error messages
-+ [strict_types-declaration-must-have-0-or-1-as-its-value](asdf)
-+ [strict_types-declaration-must-be-the-very-first-statement-in-the-script](asdf)
-+ [encoding-declaration-pragma-must-be](asdf)
++ [strict_types-declaration-must-have-0-or-1-as-its-value](strict\_types-declaration-must-have-0-or-1-as-its-value.html)
++ [strict_types-declaration-must-be-the-very-first-statement-in-the-script](strict\_types-declaration-must-be-the-very-first-statement-in-the-script.html)
++ [encoding-declaration-pragma-must-be](encoding-declaration-pragma-must-be.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

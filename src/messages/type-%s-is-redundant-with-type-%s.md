@@ -28,8 +28,8 @@ function foo(): (X&A)|(X&B) {}
 + Use the class's real name consistently, instead of mixing the name and its alias.
 
 ## Related error messages
-+ [type-%s-is-redundant-as-it-is-more-restrictive-than-type-%s](asdf)
-+ [duplicate-type-%s-is-redundant](asdf)
++ [type-%s-is-redundant-as-it-is-more-restrictive-than-type-%s](type-%s-is-redundant-as-it-is-more-restrictive-than-type-%s.html)
++ [duplicate-type-%s-is-redundant](duplicate-type-%s-is-redundant.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

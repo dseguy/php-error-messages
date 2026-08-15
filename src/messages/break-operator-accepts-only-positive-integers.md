@@ -23,4 +23,4 @@ foreach($a as $b) {
 + Remove the 0.
 
 ## Related error messages
-+ [continue-operator-accepts-only-positive-integers](asdf)
++ [continue-operator-accepts-only-positive-integers](continue-operator-accepts-only-positive-integers.html)

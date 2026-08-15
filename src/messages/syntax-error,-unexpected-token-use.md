@@ -24,4 +24,4 @@ if ($a) {
 + Remove the ``use`` command.
 
 ## Related error messages
-+ [syntax-error,-unexpected-token-"use",-expecting-","-or-";"](asdf)
++ [syntax-error,-unexpected-token-"use",-expecting-","-or-";"](syntax-error,-unexpected-token-use,-expecting-,-or-;.html)

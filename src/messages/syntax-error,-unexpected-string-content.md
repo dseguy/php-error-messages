@@ -17,7 +17,7 @@ This error appears when a single quote string is not properly closed. In the exa
 + Close the string with a double quote.
 
 ## Related error messages
-+ [unclosed-'{'](asdf)
-+ [unmatched-'}'](asdf)
-+ [unmatched-')'](asdf)
-+ [unmatched-']'](asdf)
++ [unclosed-'{'](unclosed-{.html)
++ [unmatched-'}'](unmatched-}.html)
++ [unmatched-')'](unmatched-\).html)
++ [unmatched-']'](unmatched-\].html)

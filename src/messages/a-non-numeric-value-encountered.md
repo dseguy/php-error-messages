@@ -23,8 +23,8 @@ var_dump("3df" % 2);
 + Test if the value has an integer value before usage.
 
 ## Related error messages
-+ [implicit-conversion-from-float-string-"%s"-to-int-loses](asdf)
-+ [unsupported-operand-types](asdf)
-+ [unexpected-nan-value-was-coerced-to-%s](asdf)
++ [implicit-conversion-from-float-string-"%s"-to-int-loses](implicit-conversion-from-float-string-%s-to-int-loses.html)
++ [unsupported-operand-types](unsupported-operand-types.html)
++ [unexpected-nan-value-was-coerced-to-%s](unexpected-nan-value-was-coerced-to-%s.html)
 
 In previous PHP versions, this error message used to be :ref:`a-non-well-formed-numeric-value-encountered`.

@@ -29,5 +29,5 @@ class Bar extends Foo
 + Make both classes non-readonly and apply readonly per properties.
 
 ## Related error messages
-+ [readonly-class-%s-cannot-extend-non-readonly-class-%s](asdf)
-+ [%s-class-%s-cannot-extend-%s-class-%s](asdf)
++ [readonly-class-%s-cannot-extend-non-readonly-class-%s](readonly-class-%s-cannot-extend-non-readonly-class-%s.html)
++ [%s-class-%s-cannot-extend-%s-class-%s](%s-class-%s-cannot-extend-%s-class-%s.html)

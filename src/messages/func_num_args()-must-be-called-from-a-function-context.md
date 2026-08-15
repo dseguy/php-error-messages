@@ -19,5 +19,5 @@ func_num_args();
 + Move the func_num_args() calls inside a function.
 
 ## Related error messages
-+ [func_get_args()-cannot-be-called-from-the-global-scope](asdf)
-+ [func_get_arg()-cannot-be-called-from-the-global-scope](asdf)
++ [func_get_args()-cannot-be-called-from-the-global-scope](func\_get\_args\(\)-cannot-be-called-from-the-global-scope.html)
++ [func_get_arg()-cannot-be-called-from-the-global-scope](func\_get\_arg\(\)-cannot-be-called-from-the-global-scope.html)

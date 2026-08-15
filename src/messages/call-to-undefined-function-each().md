@@ -24,7 +24,7 @@ while(list($key, $value) = each($array)) {
 + Use ``foreach()``.
 
 ## Related error messages
-+ [call-to-undefined-function](asdf)
-+ [call-to-undefined-function-exit()](asdf)
++ [call-to-undefined-function](call-to-undefined-function.html)
++ [call-to-undefined-function-exit()](call-to-undefined-function-exit\(\).html)
 
 In previous PHP versions, this error message used to be :ref:`the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls`.

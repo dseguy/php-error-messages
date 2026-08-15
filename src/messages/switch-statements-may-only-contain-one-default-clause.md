@@ -25,4 +25,4 @@ switch($a) {
 + Remove all defaults but one.
 
 ## Related error messages
-+ [match-expressions-may-only-contain-one-default-arm](asdf)
++ [match-expressions-may-only-contain-one-default-arm](match-expressions-may-only-contain-one-default-arm.html)

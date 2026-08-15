@@ -37,6 +37,6 @@ class A
 + Check that curly brackets are all balanced.
 
 ## Related error messages
-+ [unclosed-'('](asdf)
-+ [unmatched-'}'](asdf)
-+ [syntax-error,-unexpected-string-content](asdf)
++ [unclosed-'('](unclosed-\(.html)
++ [unmatched-'}'](unmatched-}.html)
++ [syntax-error,-unexpected-string-content](syntax-error,-unexpected-string-content.html)

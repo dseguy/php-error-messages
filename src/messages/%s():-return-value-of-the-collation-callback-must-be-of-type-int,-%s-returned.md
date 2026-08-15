@@ -35,8 +35,8 @@ $pdo->query('SELECT name FROM test ORDER BY name COLLATE natcmp');
 + Declare an ``int`` return type on the callback to catch a wrong return value while writing it.
 
 ## Related error messages
-+ [%s():-return-value-of-the-authorizer-callback-must-be-of-type-int,-%s-returned](asdf)
-+ [the-sqlite3-object-has-not-been-correctly-initialised-or-is-already-closed](asdf)
++ [%s():-return-value-of-the-authorizer-callback-must-be-of-type-int,-%s-returned](%s\(\):-return-value-of-the-authorizer-callback-must-be-of-type-int,-%s-returned.html)
++ [the-sqlite3-object-has-not-been-correctly-initialised-or-is-already-closed](the-sqlite3-object-has-not-been-correctly-initialised-or-is-already-closed.html)
 
 ## Related error messages
 + [Pdo\Sqlite::createCollation](https://www.php.net/manual/en/pdo-sqlite.createcollation.php)

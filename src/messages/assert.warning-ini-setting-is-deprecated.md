@@ -23,9 +23,9 @@ ini_set('assert.warning', '0');
 + Remove ``ini_set()``/``ini_get()`` calls involving ``assert.warning`` from the code.
 
 ## Related error messages
-+ [assert.active-ini-setting-is-deprecated](asdf)
-+ [assert.bail-ini-setting-is-deprecated](asdf)
-+ [assert.exception-ini-setting-is-deprecated](asdf)
++ [assert.active-ini-setting-is-deprecated](assert.active-ini-setting-is-deprecated.html)
++ [assert.bail-ini-setting-is-deprecated](assert.bail-ini-setting-is-deprecated.html)
++ [assert.exception-ini-setting-is-deprecated](assert.exception-ini-setting-is-deprecated.html)
 
 In previous PHP versions, this error message used to be :ref:`assert.exception-ini-setting-is-deprecated`.
 # Changed Behavior

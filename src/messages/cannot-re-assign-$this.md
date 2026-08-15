@@ -18,7 +18,7 @@ unset($this);
 + Remove this call to unset.
 
 ## Related error messages
-+ [cannot-unset-$this](asdf)
-+ [cannot-re-assign-auto-global-variable-%s](asdf)
-+ [cannot-use-auto-global-as-lexical-variable](asdf)
-+ [cannot-use-$this-as-global-variable](asdf)
++ [cannot-unset-$this](cannot-unset-$this.html)
++ [cannot-re-assign-auto-global-variable-%s](cannot-re-assign-auto-global-variable-%s.html)
++ [cannot-use-auto-global-as-lexical-variable](cannot-use-auto-global-as-lexical-variable.html)
++ [cannot-use-$this-as-global-variable](cannot-use-$this-as-global-variable.html)

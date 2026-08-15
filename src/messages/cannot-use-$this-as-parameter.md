@@ -18,7 +18,7 @@ Cannot use $this as parameter. Using $this as a method parameter is not allowed 
 + Pass the object as a parameter by creating a method that accepts an object parameter instead.
 
 ## Related error messages
-+ [cannot-use-$this-as-static-variable](asdf)
++ [cannot-use-$this-as-static-variable](cannot-use-$this-as-static-variable.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

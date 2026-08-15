@@ -29,4 +29,4 @@ class X {
 + Fix the name of the class with a distinct one.
 
 ## Related error messages
-+ [undefined-constant-"%s](asdf)
++ [undefined-constant-"%s](undefined-constant-%s.html)

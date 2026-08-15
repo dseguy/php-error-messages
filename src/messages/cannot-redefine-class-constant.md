@@ -36,4 +36,4 @@ enum E {
 + Move one of the constant to a parent, trait or interface.
 
 ## Related error messages
-+ [constant-%s-already-defined](asdf)
++ [constant-%s-already-defined](constant-%s-already-defined.html)

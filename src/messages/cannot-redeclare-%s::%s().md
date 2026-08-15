@@ -36,5 +36,5 @@ enum E {
 + Rename one of the duplicate function.
 
 ## Related error messages
-+ [cannot-redeclare-%s::$%s](asdf)
-+ [cannot-redeclare-class-%s](asdf)
++ [cannot-redeclare-%s::$%s](cannot-redeclare-%s::$%s.html)
++ [cannot-redeclare-class-%s](cannot-redeclare-class-%s.html)

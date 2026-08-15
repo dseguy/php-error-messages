@@ -36,4 +36,4 @@ $method();
 + Use one of the available format.
 
 ## Related error messages
-+ [object-of-type-%s-is-not-callable](asdf)
++ [object-of-type-%s-is-not-callable](object-of-type-%s-is-not-callable.html)

@@ -20,5 +20,5 @@ class X {}
 + Close the attribute with a square bracket.
 
 ## Related error messages
-+ [syntax-error,-unexpected-token-"::",-expecting-"]"](asdf)
-+ [syntax-error,-unexpected-token-"public",-expecting-"]"](asdf)
++ [syntax-error,-unexpected-token-"::",-expecting-"]"](syntax-error,-unexpected-token-::,-expecting-\].html)
++ [syntax-error,-unexpected-token-"public",-expecting-"]"](syntax-error,-unexpected-token-public,-expecting-\].html)

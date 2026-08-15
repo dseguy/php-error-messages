@@ -27,4 +27,4 @@ class X {
 + Change the ``never`` return type to another type.
 
 ## Related error messages
-+ [a-never-returning-function-must-not-return](asdf)
++ [a-never-returning-function-must-not-return](a-never-returning-function-must-not-return.html)

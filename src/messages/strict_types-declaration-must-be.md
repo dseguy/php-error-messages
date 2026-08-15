@@ -25,9 +25,9 @@ declare(strict_types = 1);
 + Move the ``declare(strict_types = 1)`` statement to be the very first statement in the file.
 
 ## Related error messages
-+ [strict_types-declaration-must-be-the-very-first-statement-in-the-script](asdf)
-+ [strict_types-declaration-must-not](asdf)
-+ [strict_types-declaration-must-have-0-or-1-as-its-value](asdf)
++ [strict_types-declaration-must-be-the-very-first-statement-in-the-script](strict\_types-declaration-must-be-the-very-first-statement-in-the-script.html)
++ [strict_types-declaration-must-not](strict\_types-declaration-must-not.html)
++ [strict_types-declaration-must-have-0-or-1-as-its-value](strict\_types-declaration-must-have-0-or-1-as-its-value.html)
 
 In more recent PHP versions, this error message is now :ref:`strict_types-declaration-must-be-the-very-first-statement-in-the-script`.
 # Changed Behavior

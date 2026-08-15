@@ -20,6 +20,6 @@ ini_set('session.sid_bits_per_character', '5');
 + Remove ``session.sid_bits_per_character`` from ``php.ini`` and from the code; PHP now always uses a 32-character hexadecimal session ID.
 
 ## Related error messages
-+ [session.sid_length-ini-setting-is-deprecated](asdf)
++ [session.sid_length-ini-setting-is-deprecated](session.sid\_length-ini-setting-is-deprecated.html)
 
 In more recent PHP versions, this error message is now :ref:`session.sid_length-ini-setting-is-deprecated`.

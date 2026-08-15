@@ -29,5 +29,5 @@ new XI();
 + Implement the interface with a class and use that class.
 
 ## Related error messages
-+ [cannot-instantiate-trait-%s](asdf)
-+ [cannot-instantiate-enum-%s](asdf)
++ [cannot-instantiate-trait-%s](cannot-instantiate-trait-%s.html)
++ [cannot-instantiate-enum-%s](cannot-instantiate-enum-%s.html)

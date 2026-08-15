@@ -21,7 +21,7 @@ The `ord()` function returns the ordinal value of the first byte of a string. Wh
 + Use ``substr($str, 0, 1)`` on the string, as long as the string is not multi-byte.
 
 ## Related error messages
-+ [providing-an-empty-string-is-deprecated](asdf)
++ [providing-an-empty-string-is-deprecated](providing-an-empty-string-is-deprecated.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

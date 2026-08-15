@@ -31,7 +31,7 @@ $city = &$user?->address->city;
 + Split the expression: check for null first, then take the reference with ``->``.
 
 ## Related error messages
-+ [can't-use-nullsafe-operator-in-write-context](asdf)
++ [can't-use-nullsafe-operator-in-write-context](cant-use-nullsafe-operator-in-write-context.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

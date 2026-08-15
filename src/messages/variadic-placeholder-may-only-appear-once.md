@@ -22,8 +22,8 @@ $curried = add(..., ...);
 + Use a single ... placeholder per call; wrap the result in an extra closure for any additional free parameters.
 
 ## Related error messages
-+ [variadic-placeholder-must-be-last](asdf)
-+ [cannot-combine-partial-application-and-unpacking](asdf)
++ [variadic-placeholder-must-be-last](variadic-placeholder-must-be-last.html)
++ [cannot-combine-partial-application-and-unpacking](cannot-combine-partial-application-and-unpacking.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

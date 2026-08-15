@@ -22,7 +22,7 @@ class X {
 + Rename the method to ``__unserialize``.
 
 ## Related error messages
-+ [the-__sleep()-serialization-magic-method-has-been-deprecated.](asdf)
++ [the-__sleep()-serialization-magic-method-has-been-deprecated.](the-\_\_sleep\(\)-serialization-magic-method-has-been-deprecated..html)
 
 ## Related error messages
 + [PHP RFC: Deprecations for PHP 8.5](https://wiki.php.net/rfc/deprecations_php_8_5)

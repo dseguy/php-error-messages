@@ -33,5 +33,5 @@ class Y extends X {
 + Stay on PHP 8.2.
 
 ## Related error messages
-+ [%s::$%s-has-#[--override]-attribute](asdf)
-+ [%s::%s-has-#[--override]-attribute](asdf)
++ [%s::$%s-has-#[--override]-attribute](%s::$%s-has-#\[--override\]-attribute.html)
++ [%s::%s-has-#[--override]-attribute](%s::%s-has-#\[--override\]-attribute.html)

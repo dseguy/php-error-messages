@@ -34,8 +34,8 @@ class Y extends X {
 + Remove the redeclaration in the child class, and inherit the parent property as-is.
 
 ## Related error messages
-+ [cannot-redeclare-%s-property-%s::$%s-as-%s-%s::$%s](asdf)
-+ [cannot-override-final-property-%s::$%s](asdf)
++ [cannot-redeclare-%s-property-%s::$%s-as-%s-%s::$%s](cannot-redeclare-%s-property-%s::$%s-as-%s-%s::$%s.html)
++ [cannot-override-final-property-%s::$%s](cannot-override-final-property-%s::$%s.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

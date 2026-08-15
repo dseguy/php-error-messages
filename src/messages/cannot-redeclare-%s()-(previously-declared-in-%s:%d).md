@@ -29,6 +29,6 @@ function FOO() {}
 + Move the function to another namespace.
 
 ## Related error messages
-+ [cannot-redeclare-function-%s()-(previously-declared-as-local-import)](asdf)
++ [cannot-redeclare-function-%s()-(previously-declared-as-local-import)](cannot-redeclare-function-%s\(\)-\(previously-declared-as-local-import\).html)
 
 In more recent PHP versions, this error message is now :ref:`cannot-redeclare-function-%s()-(previously-declared-in-%s:%d)`.

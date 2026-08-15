@@ -25,5 +25,5 @@ if ($a == 2) {
 + Look for all previous openings ``[`` square brackets and check that they are all balanced.
 
 ## Related error messages
-+ [syntax-error,-unexpected-token-"::",-expecting-"]"](asdf)
-+ [syntax-error,-unexpected-token-"public",-expecting-"]"](asdf)
++ [syntax-error,-unexpected-token-"::",-expecting-"]"](syntax-error,-unexpected-token-::,-expecting-\].html)
++ [syntax-error,-unexpected-token-"public",-expecting-"]"](syntax-error,-unexpected-token-public,-expecting-\].html)

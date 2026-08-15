@@ -58,9 +58,9 @@ array_intersect($array1, $array2); // also with other array_intersect* functions
 + Use ``print_r`` or ``var_dump`` to get the details inside the object.
 
 ## Related error messages
-+ [object-of-class-%s-could-not-be-converted-to-bool](asdf)
-+ [object-of-class-%s-could-not-be-converted-to-int](asdf)
-+ [object-of-class-%s-could-not-be-converted-to-float](asdf)
++ [object-of-class-%s-could-not-be-converted-to-bool](object-of-class-%s-could-not-be-converted-to-bool.html)
++ [object-of-class-%s-could-not-be-converted-to-int](object-of-class-%s-could-not-be-converted-to-int.html)
++ [object-of-class-%s-could-not-be-converted-to-float](object-of-class-%s-could-not-be-converted-to-float.html)
 
 ## Related error messages
 + [4SolutionsForObjectofclassstdclasscouldnotbeconvertedtostringerror](https://agethemes.com/object-of-class-stdclass-could-not-be-converted-to-string/)

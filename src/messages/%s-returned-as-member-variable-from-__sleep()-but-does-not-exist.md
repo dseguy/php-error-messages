@@ -33,5 +33,5 @@ serialize(new X);
 + Check the visibility of the properties: private properties from parents are excluded.
 
 ## Related error messages
-+ [sleep-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize.](asdf)
-+ [%s::__sleep()-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize](asdf)
++ [sleep-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize.](\_\_sleep-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize..html)
++ [%s::__sleep()-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize](%s::\_\_sleep\(\)-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize.html)

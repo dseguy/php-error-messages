@@ -38,7 +38,7 @@ class X {
 + Check whether the trait is already excluded for that method by another precedence rule.
 
 ## Related error messages
-+ [inconsistent-insteadof-definition.-the-method-%s-is-to-be-used-from-%s](asdf)
++ [inconsistent-insteadof-definition.-the-method-%s-is-to-be-used-from-%s](inconsistent-insteadof-definition.-the-method-%s-is-to-be-used-from-%s.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

@@ -33,5 +33,5 @@ class Y extends X {
 + Rename one of the parent method to use the name of the current method.
 
 ## Related error messages
-+ [%s::$%s-has-#[--override]-attribute](asdf)
-+ [%s::%s-has-#[--override]-attribute](asdf)
++ [%s::$%s-has-#[--override]-attribute](%s::$%s-has-#\[--override\]-attribute.html)
++ [%s::%s-has-#[--override]-attribute](%s::%s-has-#\[--override\]-attribute.html)

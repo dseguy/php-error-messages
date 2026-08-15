@@ -32,5 +32,5 @@ T::$t = 2;
 + Convert the trait into a class and access its features.
 
 ## Related error messages
-+ [calling-static-trait-method-%s::%s-is-deprecated](asdf)
-+ [cannot-access-trait-constant-%s::%s-directly](asdf)
++ [calling-static-trait-method-%s::%s-is-deprecated](calling-static-trait-method-%s::%s-is-deprecated.html)
++ [cannot-access-trait-constant-%s::%s-directly](cannot-access-trait-constant-%s::%s-directly.html)

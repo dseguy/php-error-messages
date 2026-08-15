@@ -28,8 +28,8 @@ $a = [1.23 => 3];
 + Check if the value is an integer before usage.
 
 ## Related error messages
-+ [a-non-numeric-value-encountered](asdf)
-+ [a-non-well-formed-numeric-value-encountered](asdf)
++ [a-non-numeric-value-encountered](a-non-numeric-value-encountered.html)
++ [a-non-well-formed-numeric-value-encountered](a-non-well-formed-numeric-value-encountered.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

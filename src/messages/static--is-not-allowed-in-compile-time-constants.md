@@ -23,10 +23,10 @@ class Point {
 + Move the instantiation into the constructor or method body instead, where late static binding works normally: $origin ??= new static();
 
 ## Related error messages
-+ [static::-"-is-not-allowed-in-compile-time-constants](asdf)
-+ [static::class-cannot-be-used-for-compile-time-class-name-resolution](asdf)
-+ [cannot-use-dynamic-class-name-in-constant-expression](asdf)
-+ [cannot-use-anonymous-class-in-constant-expression](asdf)
++ [static::-"-is-not-allowed-in-compile-time-constants](static::--is-not-allowed-in-compile-time-constants.html)
++ [static::class-cannot-be-used-for-compile-time-class-name-resolution](static::class-cannot-be-used-for-compile-time-class-name-resolution.html)
++ [cannot-use-dynamic-class-name-in-constant-expression](cannot-use-dynamic-class-name-in-constant-expression.html)
++ [cannot-use-anonymous-class-in-constant-expression](cannot-use-anonymous-class-in-constant-expression.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

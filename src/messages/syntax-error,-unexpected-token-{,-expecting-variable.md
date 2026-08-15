@@ -21,4 +21,4 @@ class A {
 + Add another parameter, then a closing parenthesis.
 
 ## Related error messages
-+ [syntax-error,-unexpected-token-")",-expecting-variable](asdf)
++ [syntax-error,-unexpected-token-")",-expecting-variable](syntax-error,-unexpected-token-\),-expecting-variable.html)

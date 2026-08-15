@@ -24,8 +24,8 @@ function foo(): string&Iterator {}
 + Use a union type (``|``) instead, if any of the alternatives is acceptable.
 
 ## Related error messages
-+ [type-%s-contains-both-object-and-a-class-type](asdf)
-+ [duplicate-type-%s-is-redundant](asdf)
++ [type-%s-contains-both-object-and-a-class-type](type-%s-contains-both-object-and-a-class-type.html)
++ [duplicate-type-%s-is-redundant](duplicate-type-%s-is-redundant.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

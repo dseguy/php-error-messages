@@ -30,4 +30,4 @@ break A;
 + Use a goto to jump out of the loop.
 
 ## Related error messages
-+ ['%s'-operator-accepts-only-positive-integers](asdf)
++ ['%s'-operator-accepts-only-positive-integers](%s-operator-accepts-only-positive-integers.html)

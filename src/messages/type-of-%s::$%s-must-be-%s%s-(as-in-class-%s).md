@@ -28,6 +28,6 @@ class Y extends X {
 + Use the type of the parent class.
 
 ## Related error messages
-+ [type-of-%s::$%s-must-not-be-defined-(as-in-class-%s)](asdf)
-+ [set-type-of-%s::$%s-must-be-supertype-of-%s-(as-in-%s-%s)](asdf)
-+ [type-of-%s::%s-must-be-compatible-with-%s::%s-of-type-%s](asdf)
++ [type-of-%s::$%s-must-not-be-defined-(as-in-class-%s)](type-of-%s::$%s-must-not-be-defined-\(as-in-class-%s\).html)
++ [set-type-of-%s::$%s-must-be-supertype-of-%s-(as-in-%s-%s)](set-type-of-%s::$%s-must-be-supertype-of-%s-\(as-in-%s-%s\).html)
++ [type-of-%s::%s-must-be-compatible-with-%s::%s-of-type-%s](type-of-%s::%s-must-be-compatible-with-%s::%s-of-type-%s.html)

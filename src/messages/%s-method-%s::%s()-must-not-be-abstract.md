@@ -31,11 +31,11 @@ interface Colorful {
 + If the method needs a real implementation, give it a body instead of declaring it ``abstract``.
 
 ## Related error messages
-+ [anonymous-class-method-%s()-must-not-be-abstract](asdf)
-+ [class-%s-declares-abstract-method-%s()-and-must-therefore-be-declared-abstract](asdf)
-+ [%s-%s-must-implement-%d-abstract-method%s-(](asdf)
-+ [interface-%s-cannot-contain-non-abstract-method-%s()](asdf)
-+ [%s-function-%s::%s()-cannot-contain-body](asdf)
++ [anonymous-class-method-%s()-must-not-be-abstract](anonymous-class-method-%s\(\)-must-not-be-abstract.html)
++ [class-%s-declares-abstract-method-%s()-and-must-therefore-be-declared-abstract](class-%s-declares-abstract-method-%s\(\)-and-must-therefore-be-declared-abstract.html)
++ [%s-%s-must-implement-%d-abstract-method%s-(](%s-%s-must-implement-%d-abstract-method%s-\(.html)
++ [interface-%s-cannot-contain-non-abstract-method-%s()](interface-%s-cannot-contain-non-abstract-method-%s\(\).html)
++ [%s-function-%s::%s()-cannot-contain-body](%s-function-%s::%s\(\)-cannot-contain-body.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

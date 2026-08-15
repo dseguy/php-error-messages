@@ -27,9 +27,9 @@ function test(): (A&B)|A {}
 + If the intersection group was meant to be independent, use a type that is not already implied by one of the union's other members.
 
 ## Related error messages
-+ [type-%s-is-redundant-with-type-%s](asdf)
-+ [duplicate-type-%s-is-redundant](asdf)
-+ [type-%s-contains-both-object-and-a-class-type](asdf)
++ [type-%s-is-redundant-with-type-%s](type-%s-is-redundant-with-type-%s.html)
++ [duplicate-type-%s-is-redundant](duplicate-type-%s-is-redundant.html)
++ [type-%s-contains-both-object-and-a-class-type](type-%s-contains-both-object-and-a-class-type.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

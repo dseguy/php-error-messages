@@ -22,4 +22,4 @@ abstract class X {
 + Remove the abstract keyword, and put it on the property definition level.
 
 ## Related error messages
-+ [property-hook-cannot-be-both-abstract-and-final](asdf)
++ [property-hook-cannot-be-both-abstract-and-final](property-hook-cannot-be-both-abstract-and-final.html)

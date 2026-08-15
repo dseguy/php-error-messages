@@ -25,11 +25,11 @@ function test(): object|Test {
 + Remove ``object``, and keep only the specific class name, if that narrower type is what is actually intended.
 
 ## Related error messages
-+ [type-%s-contains-both-iterable-and-array](asdf)
-+ [type-contains-both-true-and-false,-bool-must-be-used-instead](asdf)
-+ [duplicate-type-%s-is-redundant](asdf)
-+ [type-%s-cannot-be-part-of-an-intersection-type](asdf)
-+ [type-%s-is-redundant-as-it-is-more-restrictive-than-type-%s](asdf)
++ [type-%s-contains-both-iterable-and-array](type-%s-contains-both-iterable-and-array.html)
++ [type-contains-both-true-and-false,-bool-must-be-used-instead](type-contains-both-true-and-false,-bool-must-be-used-instead.html)
++ [duplicate-type-%s-is-redundant](duplicate-type-%s-is-redundant.html)
++ [type-%s-cannot-be-part-of-an-intersection-type](type-%s-cannot-be-part-of-an-intersection-type.html)
++ [type-%s-is-redundant-as-it-is-more-restrictive-than-type-%s](type-%s-is-redundant-as-it-is-more-restrictive-than-type-%s.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

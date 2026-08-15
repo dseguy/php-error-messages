@@ -30,7 +30,7 @@ For some reason, `array` and `callable` are still not reported with this error. 
 + Use a class type, which supports the leading backslash.
 
 ## Related error messages
-+ [is-an-invalid-class-name](asdf)
-+ ['-%s'-is-an-invalid-class-name](asdf)
-+ [cannot-use--"%s-"-as-%s-as-it-is-reserved](asdf)
-+ [cannot-use-"%s"-as-a-type-name-as-it-is-reserved](asdf)
++ [is-an-invalid-class-name](is-an-invalid-class-name.html)
++ ['-%s'-is-an-invalid-class-name](-%s-is-an-invalid-class-name.html)
++ [cannot-use--"%s-"-as-%s-as-it-is-reserved](cannot-use--%s--as-%s-as-it-is-reserved.html)
++ [cannot-use-"%s"-as-a-type-name-as-it-is-reserved](cannot-use-%s-as-a-type-name-as-it-is-reserved.html)

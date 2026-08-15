@@ -35,7 +35,7 @@ enum Color {
 + Stop using the trait in this enum, and declare the constant directly in the enum, merging it with the case some other way.
 
 ## Related error messages
-+ [%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed](asdf)
++ [%s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed](%s-and-%s-define-the-same-constant-\(%s\)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

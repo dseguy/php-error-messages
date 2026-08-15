@@ -29,7 +29,7 @@ function readFile(resource $handle): void {
 + If a class or interface named ``resource`` exists in the current namespace, import it with a ``use`` statement so PHP recognizes it, which also suppresses the warning.
 
 ## Related error messages
-+ [%s-"-will-be-interpreted-as-a-class-name.-did-you-mean--"%s-"?-write--"--%s-"%s-to-suppress-this-warning](asdf)
++ [%s-"-will-be-interpreted-as-a-class-name.-did-you-mean--"%s-"?-write--"--%s-"%s-to-suppress-this-warning](%s--will-be-interpreted-as-a-class-name.-did-you-mean--%s-?-write----%s-%s-to-suppress-this-warning.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

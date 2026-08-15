@@ -26,9 +26,9 @@ if (in_array(foo(), array()))) { doSomething(); }
 + Add an opening closing curly bracket.
 
 ## Related error messages
-+ [unclosed-'('](asdf)
-+ [unmatched-'}'](asdf)
-+ [unmatched-']'](asdf)
-+ [unclosed-'('-does-not-match-']'](asdf)
-+ [syntax-error,-unexpected-string-content](asdf)
-+ [syntax-error,-unexpected-variable-"%s",-expecting-"("](asdf)
++ [unclosed-'('](unclosed-\(.html)
++ [unmatched-'}'](unmatched-}.html)
++ [unmatched-']'](unmatched-\].html)
++ [unclosed-'('-does-not-match-']'](unclosed-\(-does-not-match-\].html)
++ [syntax-error,-unexpected-string-content](syntax-error,-unexpected-string-content.html)
++ [syntax-error,-unexpected-variable-"%s",-expecting-"("](syntax-error,-unexpected-variable-%s,-expecting-\(.html)

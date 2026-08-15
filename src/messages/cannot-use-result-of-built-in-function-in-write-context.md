@@ -18,8 +18,8 @@ $max = &max(1, 2, 3);
 + Drop the &, and assign the return value normally: $max = max(1, 2, 3);
 
 ## Related error messages
-+ [can't-use-function-return-value-in-write-context](asdf)
-+ [can't-use-method-return-value-in-write-context](asdf)
++ [can't-use-function-return-value-in-write-context](cant-use-function-return-value-in-write-context.html)
++ [can't-use-method-return-value-in-write-context](cant-use-method-return-value-in-write-context.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

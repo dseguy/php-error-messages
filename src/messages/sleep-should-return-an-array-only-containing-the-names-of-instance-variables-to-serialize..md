@@ -26,6 +26,6 @@ serialize(new X);
 + Remove the __sleep() method.
 
 ## Related error messages
-+ [%s"-returned-as-member-variable-from-__sleep()-but-does-not-exist](asdf)
++ [%s"-returned-as-member-variable-from-__sleep()-but-does-not-exist](%s-returned-as-member-variable-from-\_\_sleep\(\)-but-does-not-exist.html)
 
 In more recent PHP versions, this error message is now :ref:`%s::__sleep()-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize`.

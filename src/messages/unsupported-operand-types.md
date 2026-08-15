@@ -31,6 +31,6 @@ echo a4.4a ** 4;
 + Check the value before using it with the operator.
 
 ## Related error messages
-+ [a-non-numeric-value-encountered](asdf)
-+ [cannot-perform-bitwise-not-on-%s](asdf)
-+ [a-non-well-formed-numeric-value-encountered](asdf)
++ [a-non-numeric-value-encountered](a-non-numeric-value-encountered.html)
++ [cannot-perform-bitwise-not-on-%s](cannot-perform-bitwise-not-on-%s.html)
++ [a-non-well-formed-numeric-value-encountered](a-non-well-formed-numeric-value-encountered.html)

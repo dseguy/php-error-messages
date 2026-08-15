@@ -1,0 +1,1 @@
+# cannot-instantiate-enum-%s

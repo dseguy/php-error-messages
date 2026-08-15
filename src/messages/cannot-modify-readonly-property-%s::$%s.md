@@ -35,4 +35,4 @@ $x->property = 5;
 + Create an accessor to set the property in the correct context.
 
 ## Related error messages
-+ [cannot-modify-readonly-object-of-class-%s](asdf)
++ [cannot-modify-readonly-object-of-class-%s](cannot-modify-readonly-object-of-class-%s.html)

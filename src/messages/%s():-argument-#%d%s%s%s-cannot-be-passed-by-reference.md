@@ -37,7 +37,7 @@ array_walk( $GLOBALS, trim(...));
 + Copy the literal value to a variable and pass this variable.
 
 ## Related error messages
-+ [cannot-acquire-reference-to-$globals](asdf)
-+ [only-variable-references-should-be-returned-by-reference](asdf)
++ [cannot-acquire-reference-to-$globals](cannot-acquire-reference-to-$globals.html)
++ [only-variable-references-should-be-returned-by-reference](only-variable-references-should-be-returned-by-reference.html)
 
 In previous PHP versions, this error message used to be :ref:`cannot-pass-parameter-%d-by-reference`.

@@ -31,4 +31,4 @@ new Y;
 + Add the ``final`` keyword to the property declaration in the parent (and adapt the children).
 
 ## Related error messages
-+ [cannot-redeclare-%s%s::$%s-as-%s%s::$%s](asdf)
++ [cannot-redeclare-%s%s::$%s-as-%s%s::$%s](cannot-redeclare-%s%s::$%s-as-%s%s::$%s.html)

@@ -27,8 +27,8 @@ function foo() {
 + Move the code inside a class, trait, or enum.
 
 ## Related error messages
-+ [cannot-use--"parent-"-when-no-class-scope-is-active](asdf)
-+ [cannot-use--"parent-"-when-current-class-scope-has-no-parent](asdf)
++ [cannot-use--"parent-"-when-no-class-scope-is-active](cannot-use--parent--when-no-class-scope-is-active.html)
++ [cannot-use--"parent-"-when-current-class-scope-has-no-parent](cannot-use--parent--when-current-class-scope-has-no-parent.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

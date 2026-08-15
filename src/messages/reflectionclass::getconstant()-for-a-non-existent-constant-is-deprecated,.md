@@ -27,7 +27,7 @@ var_dump($value);
 + Call ``ReflectionClass::hasConstant()`` first, and only call ``getConstant()`` once existence is confirmed.
 
 ## Related error messages
-+ [reflectionproperty::getdefaultvalue()-for-a-property-without-a-default-value-is-deprecated,](asdf)
++ [reflectionproperty::getdefaultvalue()-for-a-property-without-a-default-value-is-deprecated,](reflectionproperty::getdefaultvalue\(\)-for-a-property-without-a-default-value-is-deprecated,.html)
 
 ## Related error messages
 + [ReflectionClass::getConstant](https://www.php.net/manual/en/reflectionclass.getconstant.php)

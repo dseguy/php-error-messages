@@ -30,7 +30,7 @@ echo $x[0];
 + Use the object operators on the object.
 
 ## Related error messages
-+ [trying-to-access-array-offset-on-%s](asdf)
++ [trying-to-access-array-offset-on-%s](trying-to-access-array-offset-on-%s.html)
 
 ## Related error messages
 + [ArrayAccess](https://www.php.net/manual/en/class.arrayaccess.php)

@@ -26,7 +26,7 @@ class C1 {
 + Use another name than ``static`` for the original method.
 
 ## Related error messages
-+ [cannot-use-'final'-as-method-modifier](asdf)
-+ [cannot-use-'abstract'-as-method-modifier](asdf)
-+ [cannot-use-'readonly'-as-method-modifier](asdf)
-+ [cannot-use-"abstract"-as-method-modifier-in-trait-alias](asdf)
++ [cannot-use-'final'-as-method-modifier](cannot-use-final-as-method-modifier.html)
++ [cannot-use-'abstract'-as-method-modifier](cannot-use-abstract-as-method-modifier.html)
++ [cannot-use-'readonly'-as-method-modifier](cannot-use-readonly-as-method-modifier.html)
++ [cannot-use-"abstract"-as-method-modifier-in-trait-alias](cannot-use-abstract-as-method-modifier-in-trait-alias.html)

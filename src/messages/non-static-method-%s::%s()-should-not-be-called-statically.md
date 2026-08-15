@@ -28,6 +28,6 @@ X::foo();
 + Find an object to call the method.
 
 ## Related error messages
-+ [non-static-method-%s::%s()-cannot-be-called-statically](asdf)
++ [non-static-method-%s::%s()-cannot-be-called-statically](non-static-method-%s::%s\(\)-cannot-be-called-statically.html)
 
 In more recent PHP versions, this error message is now :ref:`non-static-method-%s::%s()-cannot-be-called-statically`.

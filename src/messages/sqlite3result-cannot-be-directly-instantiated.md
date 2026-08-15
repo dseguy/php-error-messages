@@ -18,7 +18,7 @@ new Sqlite3Result();
 + Call a valid query to obtain an object of that class.
 
 ## Related error messages
-+ [cannot-directly-construct-directory,-use-dir()-instead](asdf)
++ [cannot-directly-construct-directory,-use-dir()-instead](cannot-directly-construct-directory,-use-dir\(\)-instead.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

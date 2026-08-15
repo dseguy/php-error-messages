@@ -20,7 +20,7 @@ array($a, $b) = $data;
 + Use the short destructuring syntax: [$a, $b] = $data;
 
 ## Related error messages
-+ [cannot-mix-[]-and-list()](asdf)
++ [cannot-mix-[]-and-list()](cannot-mix-\[\]-and-list\(\).html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

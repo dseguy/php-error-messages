@@ -25,4 +25,4 @@ class X {
 + Remove the invalid elements or operations.
 
 ## Related error messages
-+ [fetching-properties-on-non-enums-in-constant-expressions-is-not-allowed](asdf)
++ [fetching-properties-on-non-enums-in-constant-expressions-is-not-allowed](fetching-properties-on-non-enums-in-constant-expressions-is-not-allowed.html)

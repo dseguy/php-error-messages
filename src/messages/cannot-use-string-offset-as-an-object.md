@@ -22,4 +22,4 @@ unset($string[0]->a);
 + Remove the 2nd array syntax when working with a string.
 
 ## Related error messages
-+ [cannot-use-string-offset-as-an-array](asdf)
++ [cannot-use-string-offset-as-an-array](cannot-use-string-offset-as-an-array.html)

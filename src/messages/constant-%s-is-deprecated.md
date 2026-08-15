@@ -24,5 +24,5 @@ error_reporting(E_STRICT);
 + Find the replacement for this global constant: it might be another constant, or a different command entirely.
 
 ## Related error messages
-+ [constant-%s::%s-is-deprecated](asdf)
-+ [trait-%s-used-by-%s-is-deprecated%s](asdf)
++ [constant-%s::%s-is-deprecated](constant-%s::%s-is-deprecated.html)
++ [trait-%s-used-by-%s-is-deprecated%s](trait-%s-used-by-%s-is-deprecated%s.html)

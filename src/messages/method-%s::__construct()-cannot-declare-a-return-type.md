@@ -25,7 +25,7 @@ class X {
 + Remove the return type of the method.
 
 ## Related error messages
-+ [destructors-cannot-declare-a-return-type](asdf)
-+ [constructor-%s::%s()-cannot-declare-a-return-type](asdf)
++ [destructors-cannot-declare-a-return-type](destructors-cannot-declare-a-return-type.html)
++ [constructor-%s::%s()-cannot-declare-a-return-type](constructor-%s::%s\(\)-cannot-declare-a-return-type.html)
 
 In previous PHP versions, this error message used to be :ref:`constructor-%s::%s()-cannot-declare-a-return-type`.

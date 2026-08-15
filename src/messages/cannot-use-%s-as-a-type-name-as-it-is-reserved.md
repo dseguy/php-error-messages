@@ -22,5 +22,5 @@ function foo(\array $array) {}
 + Change the type from ``array`` to an actual class.
 
 ## Related error messages
-+ [type-declaration-'%s'-must-be-unqualified](asdf)
-+ [cannot-use--"%s-"-as-%s](asdf)
++ [type-declaration-'%s'-must-be-unqualified](type-declaration-%s-must-be-unqualified.html)
++ [cannot-use--"%s-"-as-%s](cannot-use--%s--as-%s.html)

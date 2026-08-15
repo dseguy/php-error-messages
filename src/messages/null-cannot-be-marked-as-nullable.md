@@ -23,8 +23,8 @@ function test(): ?null
 + Remove the ``?`` and use ``null`` on its own.
 
 ## Related error messages
-+ [type-contains-both-true-and-false,-bool-must-be-used-instead](asdf)
-+ [duplicate-type-%s-is-redundant](asdf)
++ [type-contains-both-true-and-false,-bool-must-be-used-instead](type-contains-both-true-and-false,-bool-must-be-used-instead.html)
++ [duplicate-type-%s-is-redundant](duplicate-type-%s-is-redundant.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

@@ -34,7 +34,7 @@ foo(X::B);
 + Remove the reference in the method signature.
 
 ## Related error messages
-+ [%s%s%s():-argument-#%d%s%s%s-must-be-passed-by-reference,-value-given](asdf)
-+ [parameter-%d-must-be-passed-by-reference](asdf)
++ [%s%s%s():-argument-#%d%s%s%s-must-be-passed-by-reference,-value-given](%s%s%s\(\):-argument-#%d%s%s%s-must-be-passed-by-reference,-value-given.html)
++ [parameter-%d-must-be-passed-by-reference](parameter-%d-must-be-passed-by-reference.html)
 
 In more recent PHP versions, this error message is now :ref:`%s():-argument-#%d%s%s%s-cannot-be-passed-by-reference`.

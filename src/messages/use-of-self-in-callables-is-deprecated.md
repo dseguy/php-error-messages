@@ -29,8 +29,8 @@ X::test();
 + Use another way to create a closure for the method, such as ``self::foo(...)``.
 
 ## Related error messages
-+ [use-of-"parent"-in-callables-is-deprecated](asdf)
-+ [use-of-"static"-in-callables-is-deprecated](asdf)
++ [use-of-"parent"-in-callables-is-deprecated](use-of-parent-in-callables-is-deprecated.html)
++ [use-of-"static"-in-callables-is-deprecated](use-of-static-in-callables-is-deprecated.html)
 
 ## Related error messages
 + [PHPRFCDeprecatepartiallysupportedcallables](https://wiki.php.net/rfc/deprecate_partially_supported_callables)

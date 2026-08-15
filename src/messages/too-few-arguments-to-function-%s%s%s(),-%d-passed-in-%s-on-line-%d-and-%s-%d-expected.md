@@ -28,4 +28,4 @@ foo(1);
 + Add default values to the missing arguments.
 
 ## Related error messages
-+ [too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d](asdf)
++ [too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d](too-few-arguments-to-function-%s%s%s\(\),-%d-passed-and-%s-%d.html)

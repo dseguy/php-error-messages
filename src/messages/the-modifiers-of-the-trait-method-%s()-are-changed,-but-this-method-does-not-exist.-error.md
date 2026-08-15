@@ -32,8 +32,8 @@ class C {
 + Remove the rule if changing the visibility of that method is no longer needed.
 
 ## Related error messages
-+ [an-alias-was-defined-for-method-%s(),-which-exists-in-both-%s-and-%s.-use-%s::%s-or-%s::%s-to-resolve-the-ambiguity](asdf)
-+ [a-precedence-rule-was-defined-for-%s::%s-but-this-method-does-not-exist](asdf)
++ [an-alias-was-defined-for-method-%s(),-which-exists-in-both-%s-and-%s.-use-%s::%s-or-%s::%s-to-resolve-the-ambiguity](an-alias-was-defined-for-method-%s\(\),-which-exists-in-both-%s-and-%s.-use-%s::%s-or-%s::%s-to-resolve-the-ambiguity.html)
++ [a-precedence-rule-was-defined-for-%s::%s-but-this-method-does-not-exist](a-precedence-rule-was-defined-for-%s::%s-but-this-method-does-not-exist.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

@@ -33,7 +33,7 @@ foo(1.1);
 + Round the float to integer before using it with a typed resource.
 
 ## Related error messages
-+ [the-float-%.*h-is-not-representable-as-an-int,-cast-occurred](asdf)
++ [the-float-%.*h-is-not-representable-as-an-int,-cast-occurred](the-float-%.\*h-is-not-representable-as-an-int,-cast-occurred.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

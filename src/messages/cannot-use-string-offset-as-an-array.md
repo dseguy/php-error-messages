@@ -25,4 +25,4 @@ unset($string[0][1]);
 + Assign the character to a variable, and then use it as a string.
 
 ## Related error messages
-+ [cannot-use-string-offset-as-an-object](asdf)
++ [cannot-use-string-offset-as-an-object](cannot-use-string-offset-as-an-object.html)

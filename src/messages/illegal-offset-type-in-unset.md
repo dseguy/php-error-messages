@@ -25,7 +25,7 @@ unset($array[[]]);
 + Cast these types into a string or a integer first.
 
 ## Related error messages
-+ [cannot-access-offset-of-type-%s-in-isset-or-empty](asdf)
-+ [cannot-access-offset-of-type-%s-on-%s](asdf)
-+ [illegal-offset-type](asdf)
-+ [illegal-offset-type-in-isset-or-empty](asdf)
++ [cannot-access-offset-of-type-%s-in-isset-or-empty](cannot-access-offset-of-type-%s-in-isset-or-empty.html)
++ [cannot-access-offset-of-type-%s-on-%s](cannot-access-offset-of-type-%s-on-%s.html)
++ [illegal-offset-type](illegal-offset-type.html)
++ [illegal-offset-type-in-isset-or-empty](illegal-offset-type-in-isset-or-empty.html)

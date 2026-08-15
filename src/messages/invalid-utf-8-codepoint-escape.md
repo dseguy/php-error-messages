@@ -25,7 +25,7 @@ In particular, it is not possible to use the `_` number separator in these seque
 + If there is no intent to use unicode codepoint, add ``\`` to make PHP handle it as a literal value.
 
 ## Related error messages
-+ [invalid-utf-8-codepoint-escape:-codepoint-too-large](asdf)
++ [invalid-utf-8-codepoint-escape:-codepoint-too-large](invalid-utf-8-codepoint-escape:-codepoint-too-large.html)
 
 ## Related error messages
 + [Doublequoted](https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.double)

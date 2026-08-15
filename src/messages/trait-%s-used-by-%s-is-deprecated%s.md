@@ -33,10 +33,10 @@ class Service {
 + If you own the trait, keep the ``#[\Deprecated]`` attribute until the trait is actually removed, so callers get a clear migration path.
 
 ## Related error messages
-+ [function-%s()-is-deprecated%s](asdf)
-+ [constant-%s-is-deprecated](asdf)
-+ [constant-%s::%s-is-deprecated](asdf)
-+ [cannot-instantiate-trait-%s](asdf)
++ [function-%s()-is-deprecated%s](function-%s\(\)-is-deprecated%s.html)
++ [constant-%s-is-deprecated](constant-%s-is-deprecated.html)
++ [constant-%s::%s-is-deprecated](constant-%s::%s-is-deprecated.html)
++ [cannot-instantiate-trait-%s](cannot-instantiate-trait-%s.html)
 
 ## Related error messages
 + [Deprecated attribute](https://www.php.net/manual/en/class.deprecated.php)

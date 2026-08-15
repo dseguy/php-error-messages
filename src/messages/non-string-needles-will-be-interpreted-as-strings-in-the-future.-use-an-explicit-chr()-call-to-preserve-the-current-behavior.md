@@ -25,4 +25,4 @@ print strpos('abc99', 99);
 + Convert the second argument into a string first.
 
 ## Related error messages
-+ [needle-is-not-a-string-or-an-integer](asdf)
++ [needle-is-not-a-string-or-an-integer](needle-is-not-a-string-or-an-integer.html)

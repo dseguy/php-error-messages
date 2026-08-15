@@ -39,4 +39,4 @@ abstract class CI  {
 + Move the concrete class to a trait, and use the trait, along with the interface.
 
 ## Related error messages
-+ [%s-method-%s::%s()-must-not-be-abstract](asdf)
++ [%s-method-%s::%s()-must-not-be-abstract](%s-method-%s::%s\(\)-must-not-be-abstract.html)

@@ -25,6 +25,6 @@ $c = &B[2];
 + Use constants by value, not by reference.
 
 ## Related error messages
-+ [cannot-use-temporary-expression-in-write-context](asdf)
++ [cannot-use-temporary-expression-in-write-context](cannot-use-temporary-expression-in-write-context.html)
 
 In more recent PHP versions, this error message is now :ref:`syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"{"-or-"["`.

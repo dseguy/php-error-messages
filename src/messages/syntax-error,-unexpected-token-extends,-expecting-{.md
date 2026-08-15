@@ -19,4 +19,4 @@ class X implements I1, I2 extends W {}
 + Remove the ``extends`` keyword.
 
 ## Related error messages
-+ [syntax-error,-unexpected-token-"extends"](asdf)
++ [syntax-error,-unexpected-token-"extends"](syntax-error,-unexpected-token-extends.html)

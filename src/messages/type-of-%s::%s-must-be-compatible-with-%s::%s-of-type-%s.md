@@ -31,8 +31,8 @@ class Item implements Colorful {
 + Rename the constant, if it is not meant to override the parent one.
 
 ## Related error messages
-+ [declaration-of-%s::%s()-must-be-compatible-with-%s::%s()](asdf)
-+ [type-of-%s::$%s-must-be-%s%s-(as-in-class-%s)](asdf)
++ [declaration-of-%s::%s()-must-be-compatible-with-%s::%s()](declaration-of-%s::%s\(\)-must-be-compatible-with-%s::%s\(\).html)
++ [type-of-%s::$%s-must-be-%s%s-(as-in-class-%s)](type-of-%s::$%s-must-be-%s%s-\(as-in-class-%s\).html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

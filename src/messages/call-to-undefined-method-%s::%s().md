@@ -32,5 +32,5 @@ $x->goo();
 + Check if the magic method ``__call()`` is not missing in the object's class.
 
 ## Related error messages
-+ [trying-to-invoke-%s-method-%s::%s()-from-scope-%s](asdf)
-+ [call-to-%s-%s::%s()-from-global-scope](asdf)
++ [trying-to-invoke-%s-method-%s::%s()-from-scope-%s](trying-to-invoke-%s-method-%s::%s\(\)-from-scope-%s.html)
++ [call-to-%s-%s::%s()-from-global-scope](call-to-%s-%s::%s\(\)-from-global-scope.html)

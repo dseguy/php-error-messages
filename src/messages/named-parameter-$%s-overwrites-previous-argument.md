@@ -43,7 +43,7 @@ foo(...$args, b: 2); // b is overwritten
 + Remove all names to parameters in the argument list.
 
 ## Related error messages
-+ [duplicate-named-parameter-$%s](asdf)
-+ [cannot-use-positional-argument-after-named-argument-during-unpacking](asdf)
-+ [cannot-use-positional-argument-after-named-argument](asdf)
-+ [cannot-use-positional-argument-after-argument-unpacking](asdf)
++ [duplicate-named-parameter-$%s](duplicate-named-parameter-$%s.html)
++ [cannot-use-positional-argument-after-named-argument-during-unpacking](cannot-use-positional-argument-after-named-argument-during-unpacking.html)
++ [cannot-use-positional-argument-after-named-argument](cannot-use-positional-argument-after-named-argument.html)
++ [cannot-use-positional-argument-after-argument-unpacking](cannot-use-positional-argument-after-argument-unpacking.html)

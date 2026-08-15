@@ -43,4 +43,4 @@ goo(new A);
 + Fix the argument type: convert it to the expected type.
 
 ## Related error messages
-+ [contains-an-invalid-curl-option](asdf)
++ [contains-an-invalid-curl-option](contains-an-invalid-curl-option.html)

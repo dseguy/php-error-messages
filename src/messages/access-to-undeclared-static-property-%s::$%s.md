@@ -37,4 +37,4 @@ echo X::${$c}; // dynamic properties
 + Check if the dynamic name of the property is a string, before usage.
 
 ## Related error messages
-+ [undefined-property-%s::$%s](asdf)
++ [undefined-property-%s::$%s](undefined-property-%s::$%s.html)

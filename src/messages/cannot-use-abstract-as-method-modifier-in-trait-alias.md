@@ -28,8 +28,8 @@ class C1 {
 + Use another name than ``abstract`` for the original method.
 
 ## Related error messages
-+ [cannot-use-'final'-as-method-modifier](asdf)
-+ [cannot-use-'static'-as-method-modifier](asdf)
-+ [cannot-use-'readonly'-as-method-modifier](asdf)
++ [cannot-use-'final'-as-method-modifier](cannot-use-final-as-method-modifier.html)
++ [cannot-use-'static'-as-method-modifier](cannot-use-static-as-method-modifier.html)
++ [cannot-use-'readonly'-as-method-modifier](cannot-use-readonly-as-method-modifier.html)
 
 In previous PHP versions, this error message used to be :ref:`cannot-use-'abstract'-as-method-modifier`.

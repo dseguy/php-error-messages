@@ -34,11 +34,11 @@ $sqlite3->query('SELECT 1'); // Not OK
 + Check that whole object is destroyed, not just the parent class.
 
 ## Related error messages
-+ [call-to-a-member-function-%s()-on-%s](asdf)
-+ [%s():-return-value-of-the-authorizer-callback-must-be-of-type-int,-%s-returned](asdf)
-+ [%s():-return-value-of-the-collation-callback-must-be-of-type-int,-%s-returned](asdf)
-+ [cannot-directly-construct-directory,-use-dir()-instead](asdf)
-+ [datetimezone-object-is-unconstructed](asdf)
++ [call-to-a-member-function-%s()-on-%s](call-to-a-member-function-%s\(\)-on-%s.html)
++ [%s():-return-value-of-the-authorizer-callback-must-be-of-type-int,-%s-returned](%s\(\):-return-value-of-the-authorizer-callback-must-be-of-type-int,-%s-returned.html)
++ [%s():-return-value-of-the-collation-callback-must-be-of-type-int,-%s-returned](%s\(\):-return-value-of-the-collation-callback-must-be-of-type-int,-%s-returned.html)
++ [cannot-directly-construct-directory,-use-dir()-instead](cannot-directly-construct-directory,-use-dir\(\)-instead.html)
++ [datetimezone-object-is-unconstructed](datetimezone-object-is-unconstructed.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

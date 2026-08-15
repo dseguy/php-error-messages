@@ -38,5 +38,5 @@ echo $y->q;
 + Inline the code every time it is needed.
 
 ## Related error messages
-+ [must-not-use-parent::$%s::%s()-in-a-different-property-hook-(%s)](asdf)
-+ [must-not-use-parent::$%s::%s()-outside-a-property-hook](asdf)
++ [must-not-use-parent::$%s::%s()-in-a-different-property-hook-(%s)](must-not-use-parent::$%s::%s\(\)-in-a-different-property-hook-\(%s\).html)
++ [must-not-use-parent::$%s::%s()-outside-a-property-hook](must-not-use-parent::$%s::%s\(\)-outside-a-property-hook.html)

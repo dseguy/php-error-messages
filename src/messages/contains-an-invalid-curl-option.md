@@ -27,7 +27,7 @@ curl_setopt($ch, 'abc', $fp);
 + Check that the intended value may be resolved as a ``CURLOPT_*`` constant (``CURLOPT_APPEND`` === 50, so 50 may be used; etc.).
 
 ## Related error messages
-+ [must-be-of-type-%s,-%s-given](asdf)
++ [must-be-of-type-%s,-%s-given](must-be-of-type-%s,-%s-given.html)
 
 ## Related error messages
 + [cURL Predefined Constants](https://www.php.net/manual/en/curl.constants.php)

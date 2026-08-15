@@ -36,4 +36,4 @@ echo $true[[33]]; // also, invalid idnex
 + Initialize variables with an array, whenever it will be used with this type later.
 
 ## Related error messages
-+ [cannot-use-object-of-type-%s-as-array](asdf)
++ [cannot-use-object-of-type-%s-as-array](cannot-use-object-of-type-%s-as-array.html)

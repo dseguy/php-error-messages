@@ -24,5 +24,5 @@ class X {
 + Remove all types from the definition of the property.
 
 ## Related error messages
-+ [class-constant-%s::%s-cannot-have-type-%s](asdf)
-+ [default-value-for-property-of-type-%s-may-not-be-null.-use-the-nullable-type-%s-to-allow-null-default-value](asdf)
++ [class-constant-%s::%s-cannot-have-type-%s](class-constant-%s::%s-cannot-have-type-%s.html)
++ [default-value-for-property-of-type-%s-may-not-be-null.-use-the-nullable-type-%s-to-allow-null-default-value](default-value-for-property-of-type-%s-may-not-be-null.-use-the-nullable-type-%s-to-allow-null-default-value.html)

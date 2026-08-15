@@ -24,7 +24,7 @@ $formatter->__construct('fr_FR');
 + Never call ``__construct()`` manually after the object has already been created with ``new``.
 
 ## Related error messages
-+ [datetimezone-object-is-unconstructed](asdf)
++ [datetimezone-object-is-unconstructed](datetimezone-object-is-unconstructed.html)
 
 ## Related error messages
 + [IntlListFormatter](https://www.php.net/manual/en/class.intllistformatter.php)

@@ -25,5 +25,5 @@ var_dump(array_product([[], 3] )); // returns 3
 + Filter out all arrays inside the first argument.
 
 ## Related error messages
-+ [array_product():-multiplication-is-not-supported-on-type-object](asdf)
-+ [array_product():-multiplication-is-not-supported-on-type-string](asdf)
++ [array_product():-multiplication-is-not-supported-on-type-object](array\_product\(\):-multiplication-is-not-supported-on-type-object.html)
++ [array_product():-multiplication-is-not-supported-on-type-string](array\_product\(\):-multiplication-is-not-supported-on-type-string.html)

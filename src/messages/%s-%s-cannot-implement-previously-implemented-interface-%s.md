@@ -39,4 +39,4 @@ class Y extends X implements I {}
 + Remove ``BackEnum`` and ``UnitEnum`` from the ``implements`` keyword on an enumeration.
 
 ## Related error messages
-+ [non-enum-class-%s-cannot-implement-interface-%s](asdf)
++ [non-enum-class-%s-cannot-implement-interface-%s](non-enum-class-%s-cannot-implement-interface-%s.html)

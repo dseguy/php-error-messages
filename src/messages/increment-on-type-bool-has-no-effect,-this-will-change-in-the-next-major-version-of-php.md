@@ -29,8 +29,8 @@ $b = false;
 + In case of doubt, check the type before the increment.
 
 ## Related error messages
-+ [decrement-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php](asdf)
-+ [decrement-on-type-null-has-no-effect,-this-will-change-in-the-next-major-version-of-php](asdf)
++ [decrement-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php](decrement-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php.html)
++ [decrement-on-type-null-has-no-effect,-this-will-change-in-the-next-major-version-of-php](decrement-on-type-null-has-no-effect,-this-will-change-in-the-next-major-version-of-php.html)
 
 ## Related error messages
 + [NewPHPerrormessagesinPHP83](https://www.exakat.io/en/new-php-error-messages-in-php-8-3/)

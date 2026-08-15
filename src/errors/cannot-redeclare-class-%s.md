@@ -1,0 +1,1 @@
+# cannot-redeclare-class-%s

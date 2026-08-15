@@ -24,7 +24,7 @@ interface I {
 + Remove the ``final`` option from the property hook.
 
 ## Related error messages
-+ [cannot-use-the-abstract-modifier-on-a-property-hook](asdf)
++ [cannot-use-the-abstract-modifier-on-a-property-hook](cannot-use-the-abstract-modifier-on-a-property-hook.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

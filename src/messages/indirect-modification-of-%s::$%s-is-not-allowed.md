@@ -33,4 +33,4 @@ $y = &$x->byRef;
 + Avoid using a reference on a property hook.
 
 ## Related error messages
-+ [cannot-create-reference-to-property-%s::$%s](asdf)
++ [cannot-create-reference-to-property-%s::$%s](cannot-create-reference-to-property-%s::$%s.html)

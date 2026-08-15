@@ -22,9 +22,9 @@ The same message also appears whenever a previous `[` was left unclosed, and a l
 + Check that every previous ``[`` in the file has a matching ``]``.
 
 ## Related error messages
-+ [syntax-error,-unexpected-token-"public",-expecting-"]"](asdf)
-+ [syntax-error,-unexpected-token-"class",-expecting-"]"](asdf)
-+ [syntax-error,-unexpected-token-"if",-expecting-"]"](asdf)
++ [syntax-error,-unexpected-token-"public",-expecting-"]"](syntax-error,-unexpected-token-public,-expecting-\].html)
++ [syntax-error,-unexpected-token-"class",-expecting-"]"](syntax-error,-unexpected-token-class,-expecting-\].html)
++ [syntax-error,-unexpected-token-"if",-expecting-"]"](syntax-error,-unexpected-token-if,-expecting-\].html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

@@ -34,4 +34,4 @@ class Y extends X {
 + Remove some the conflicting property definitions.
 
 ## Related error messages
-+ [cannot-redeclare-%s%s::$%s-as-%s%s::$%s](asdf)
++ [cannot-redeclare-%s%s::$%s-as-%s%s::$%s](cannot-redeclare-%s%s::$%s-as-%s%s::$%s.html)

@@ -30,8 +30,8 @@ This error message is reported when the interface could not be loaded, or when t
 + Do not use static, parent or self in a string to call a method statically.
 
 ## Related error messages
-+ [attribute-class-"%s"-not-found](asdf)
-+ [illegal-class-name](asdf)
-+ [%s-cannot-implement-%s---it-is-not-an-interface](asdf)
++ [attribute-class-"%s"-not-found](attribute-class-%s-not-found.html)
++ [illegal-class-name](illegal-class-name.html)
++ [%s-cannot-implement-%s---it-is-not-an-interface](%s-cannot-implement-%s---it-is-not-an-interface.html)
 
 In previous PHP versions, this error message used to be :ref:`interface-%s-cannot-implement-itself`.

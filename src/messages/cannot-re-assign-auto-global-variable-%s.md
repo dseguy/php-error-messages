@@ -27,5 +27,5 @@ function foo($_POST) {
 + Use a parameter anme that is not a superglobal or a special PHP variable.
 
 ## Related error messages
-+ [cannot-re-assign-$this](asdf)
-+ [cannot-use-auto-global-as-lexical-variable](asdf)
++ [cannot-re-assign-$this](cannot-re-assign-$this.html)
++ [cannot-use-auto-global-as-lexical-variable](cannot-use-auto-global-as-lexical-variable.html)

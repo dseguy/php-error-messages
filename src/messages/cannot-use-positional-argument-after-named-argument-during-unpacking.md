@@ -27,5 +27,5 @@ foo(...array_values($arguments));
 + Use ksort() on the keys, when it makes sense.
 
 ## Related error messages
-+ [named-parameter-$%s-overwrites-previous-argument](asdf)
-+ [cannot-use-argument-unpacking-after-named-arguments](asdf)
++ [named-parameter-$%s-overwrites-previous-argument](named-parameter-$%s-overwrites-previous-argument.html)
++ [cannot-use-argument-unpacking-after-named-arguments](cannot-use-argument-unpacking-after-named-arguments.html)

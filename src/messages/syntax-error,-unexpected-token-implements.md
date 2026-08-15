@@ -20,4 +20,4 @@ enum Y extends Z { }
 + Check that a ``class`` or an ``enum`` have been started.
 
 ## Related error messages
-+ [syntax-error,-unexpected-token-"extends"](asdf)
++ [syntax-error,-unexpected-token-"extends"](syntax-error,-unexpected-token-extends.html)

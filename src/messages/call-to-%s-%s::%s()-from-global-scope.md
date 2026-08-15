@@ -31,5 +31,5 @@ $x->goo();
 + Change the visibility of the method, to be able to call it.
 
 ## Related error messages
-+ [call-to-undefined-method-%s::%s()](asdf)
-+ [trying-to-invoke-%s-method-%s::%s()-from-scope-%s](asdf)
++ [call-to-undefined-method-%s::%s()](call-to-undefined-method-%s::%s\(\).html)
++ [trying-to-invoke-%s-method-%s::%s()-from-scope-%s](trying-to-invoke-%s-method-%s::%s\(\)-from-scope-%s.html)

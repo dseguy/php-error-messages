@@ -32,10 +32,10 @@ class MyClass {
 + Create the missing method in the original trait.
 
 ## Related error messages
-+ [cannot-use--"static-"-as-method-modifier-in-trait-alias](asdf)
-+ [an-alias-was-defined-for-method-%s(),-which-exists-in-both-%s-and-%s.-use-%s::%s-or-%s::%s-to-resolve-the-ambiguity](asdf)
-+ [inconsistent-insteadof-definition.-the-method-%s-is-to-be-used-from-%s](asdf)
-+ [the-modifiers-of-the-trait-method-%s()-are-changed,-but-this-method-does-not-exist.-error](asdf)
++ [cannot-use--"static-"-as-method-modifier-in-trait-alias](cannot-use--static--as-method-modifier-in-trait-alias.html)
++ [an-alias-was-defined-for-method-%s(),-which-exists-in-both-%s-and-%s.-use-%s::%s-or-%s::%s-to-resolve-the-ambiguity](an-alias-was-defined-for-method-%s\(\),-which-exists-in-both-%s-and-%s.-use-%s::%s-or-%s::%s-to-resolve-the-ambiguity.html)
++ [inconsistent-insteadof-definition.-the-method-%s-is-to-be-used-from-%s](inconsistent-insteadof-definition.-the-method-%s-is-to-be-used-from-%s.html)
++ [the-modifiers-of-the-trait-method-%s()-are-changed,-but-this-method-does-not-exist.-error](the-modifiers-of-the-trait-method-%s\(\)-are-changed,-but-this-method-does-not-exist.-error.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

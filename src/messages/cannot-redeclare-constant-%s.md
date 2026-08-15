@@ -26,8 +26,8 @@ const FOO = 2;
 + If the constant needs to be conditionally declared, use ``define()`` together with ``defined()`` instead of ``const``.
 
 ## Related error messages
-+ [constant-%s-already-defined](asdf)
-+ [cannot-declare-const-%s-because](asdf)
++ [constant-%s-already-defined](constant-%s-already-defined.html)
++ [cannot-declare-const-%s-because](cannot-declare-const-%s-because.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

@@ -25,7 +25,7 @@ foo();
 + Use the ``(void)`` cast, to explicitly ignore the result.
 
 ## Related error messages
-+ [the-return-value-of-method-%s::%s()-should-either-be-used-or-intentionally-ignored-by-casting-it-as-(void)%s](asdf)
++ [the-return-value-of-method-%s::%s()-should-either-be-used-or-intentionally-ignored-by-casting-it-as-(void)%s](the-return-value-of-method-%s::%s\(\)-should-either-be-used-or-intentionally-ignored-by-casting-it-as-\(void\)%s.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

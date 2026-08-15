@@ -29,6 +29,6 @@ static static function () {};
 + Drop all the static options.
 
 ## Related error messages
-+ [multiple-readonly-modifiers-are-not-allowed](asdf)
-+ [multiple-access-type-modifiers-are-not-allowed](asdf)
-+ [multiple-%s-modifiers-are-not-allowed](asdf)
++ [multiple-readonly-modifiers-are-not-allowed](multiple-readonly-modifiers-are-not-allowed.html)
++ [multiple-access-type-modifiers-are-not-allowed](multiple-access-type-modifiers-are-not-allowed.html)
++ [multiple-%s-modifiers-are-not-allowed](multiple-%s-modifiers-are-not-allowed.html)

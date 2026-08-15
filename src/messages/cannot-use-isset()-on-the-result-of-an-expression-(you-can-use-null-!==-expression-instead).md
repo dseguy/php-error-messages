@@ -29,4 +29,4 @@ if (isset(${$a . $b})) {}
 + Use a comparison to null with an expression.
 
 ## Related error messages
-+ [cannot-use-isset()-on-the-result-of-an-expression](asdf)
++ [cannot-use-isset()-on-the-result-of-an-expression](cannot-use-isset\(\)-on-the-result-of-an-expression.html)

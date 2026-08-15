@@ -24,4 +24,4 @@ class X {
 + Remove all types from the definition of the constant.
 
 ## Related error messages
-+ [property-%s::$%s-cannot-have-type-%s](asdf)
++ [property-%s::$%s-cannot-have-type-%s](property-%s::$%s-cannot-have-type-%s.html)

@@ -24,7 +24,7 @@ if (in_array(1, [2, 4]) {}
 + Check if the previous line need a semi-colon ``;``.
 
 ## Related error messages
-+ [syntax-error,-unexpected-token-"{"](asdf)
-+ [syntax-error,-unexpected-token-"("](asdf)
-+ [syntax-error,-unexpected-token-")"](asdf)
-+ [syntax-error,-unexpected-token-"]"](asdf)
++ [syntax-error,-unexpected-token-"{"](syntax-error,-unexpected-token-{.html)
++ [syntax-error,-unexpected-token-"("](syntax-error,-unexpected-token-\(.html)
++ [syntax-error,-unexpected-token-")"](syntax-error,-unexpected-token-\).html)
++ [syntax-error,-unexpected-token-"]"](syntax-error,-unexpected-token-\].html)

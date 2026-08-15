@@ -18,6 +18,6 @@ $array[foo(1,2];
 + Close the parenthesis before closing the square bracket.
 
 ## Related error messages
-+ [unmatched-']'](asdf)
-+ [unmatched-'}'](asdf)
-+ [unmatched-')'](asdf)
++ [unmatched-']'](unmatched-\].html)
++ [unmatched-'}'](unmatched-}.html)
++ [unmatched-')'](unmatched-\).html)

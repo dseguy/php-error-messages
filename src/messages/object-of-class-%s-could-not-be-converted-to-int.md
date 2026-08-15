@@ -38,6 +38,6 @@ print $addition + 1; // 4.57967
 + Upgrade to PHP 8.4, to use automatic conversion with ``bcmath``.
 
 ## Related error messages
-+ [object-of-class-%s-could-not-be-converted-to-bool](asdf)
-+ [object-of-class-%s-could-not-be-converted-to-float](asdf)
-+ [object-of-class-%s-could-not-be-converted-to-string](asdf)
++ [object-of-class-%s-could-not-be-converted-to-bool](object-of-class-%s-could-not-be-converted-to-bool.html)
++ [object-of-class-%s-could-not-be-converted-to-float](object-of-class-%s-could-not-be-converted-to-float.html)
++ [object-of-class-%s-could-not-be-converted-to-string](object-of-class-%s-could-not-be-converted-to-string.html)

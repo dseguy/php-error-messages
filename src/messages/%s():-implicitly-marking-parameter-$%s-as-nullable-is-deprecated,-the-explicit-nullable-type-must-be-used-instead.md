@@ -30,7 +30,7 @@ class X {
 + Use a default value in the range of the specified type.
 
 ## Related error messages
-+ [default-value-for-property-of-type-int-may-not-be-null.-use-the-nullable-type-?int-to-allow-null-default-value](asdf)
++ [default-value-for-property-of-type-int-may-not-be-null.-use-the-nullable-type-?int-to-allow-null-default-value](default-value-for-property-of-type-int-may-not-be-null.-use-the-nullable-type-?int-to-allow-null-default-value.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

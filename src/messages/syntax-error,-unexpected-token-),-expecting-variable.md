@@ -19,10 +19,10 @@ function foo(string $a, #[SomeAttribute]) {}
 + Remove the trailing attribute if no extra parameter was intended.
 
 ## Related error messages
-+ [syntax-error,-unexpected-token-"#[",-expecting-")"](asdf)
-+ [syntax-error,-unexpected-token-"{",-expecting-variable](asdf)
-+ [syntax-error,-unexpected-variable-"$%s",-expecting-")"](asdf)
-+ [syntax-error,-unexpected-variable-"$task",-expecting-")"](asdf)
++ [syntax-error,-unexpected-token-"#[",-expecting-")"](syntax-error,-unexpected-token-#\[,-expecting-\).html)
++ [syntax-error,-unexpected-token-"{",-expecting-variable](syntax-error,-unexpected-token-{,-expecting-variable.html)
++ [syntax-error,-unexpected-variable-"$%s",-expecting-")"](syntax-error,-unexpected-variable-$%s,-expecting-\).html)
++ [syntax-error,-unexpected-variable-"$task",-expecting-")"](syntax-error,-unexpected-variable-$task,-expecting-\).html)
 
 ## Related error messages
 + [Attributes](https://www.php.net/manual/en/language.attributes.php)

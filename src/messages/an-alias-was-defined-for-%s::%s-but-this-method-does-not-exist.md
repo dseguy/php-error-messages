@@ -31,5 +31,5 @@ class X {
 + Remove the method with the same name in the class, and remove the alias.
 
 ## Related error messages
-+ [an-alias-(%s)-was-defined-for-method-%s(),-but-this-method-does-not-exist](asdf)
-+ [cannot-use--"static-"-as-method-modifier-in-trait-alias](asdf)
++ [an-alias-(%s)-was-defined-for-method-%s(),-but-this-method-does-not-exist](an-alias-\(%s\)-was-defined-for-method-%s\(\),-but-this-method-does-not-exist.html)
++ [cannot-use--"static-"-as-method-modifier-in-trait-alias](cannot-use--static--as-method-modifier-in-trait-alias.html)

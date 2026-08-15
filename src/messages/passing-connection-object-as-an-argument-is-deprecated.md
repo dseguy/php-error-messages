@@ -24,7 +24,7 @@ echo mysqli_get_client_info($mysqli);
 + When using the object-oriented API, use ``mysqli_get_client_info()`` (not a method call), since the client info is not connection-specific.
 
 ## Related error messages
-+ [automatic-fetching-of-postgresql-connection-is-deprecated](asdf)
++ [automatic-fetching-of-postgresql-connection-is-deprecated](automatic-fetching-of-postgresql-connection-is-deprecated.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

@@ -39,8 +39,8 @@ var_dump($fn2);
 + Keep the closure bound to the object and pass the values it needs as parameters instead of relying on unbinding.
 
 ## Related error messages
-+ [cannot-unbind-$this-of-method,-this-will-be-an-error-in-php-9](asdf)
-+ [cannot-bind-an-instance-to-a-static-closure,-this-will-be-an-error-in-php-9](asdf)
++ [cannot-unbind-$this-of-method,-this-will-be-an-error-in-php-9](cannot-unbind-$this-of-method,-this-will-be-an-error-in-php-9.html)
++ [cannot-bind-an-instance-to-a-static-closure,-this-will-be-an-error-in-php-9](cannot-bind-an-instance-to-a-static-closure,-this-will-be-an-error-in-php-9.html)
 
 ## Related error messages
 + [Closure::bindTo](https://www.php.net/manual/en/closure.bindto.php)

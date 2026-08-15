@@ -29,8 +29,8 @@ $b = "$a} = 1+2";
 + Add an opening closing curly bracket.
 
 ## Related error messages
-+ [unclosed-'{'](asdf)
-+ [unmatched-']'](asdf)
-+ [unmatched-')'](asdf)
-+ [unclosed-'('-does-not-match-']'](asdf)
-+ [syntax-error,-unexpected-string-content](asdf)
++ [unclosed-'{'](unclosed-{.html)
++ [unmatched-']'](unmatched-\].html)
++ [unmatched-')'](unmatched-\).html)
++ [unclosed-'('-does-not-match-']'](unclosed-\(-does-not-match-\].html)
++ [syntax-error,-unexpected-string-content](syntax-error,-unexpected-string-content.html)

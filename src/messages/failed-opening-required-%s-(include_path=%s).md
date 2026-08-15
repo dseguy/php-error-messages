@@ -32,7 +32,7 @@ This error applies only to `require` and `require_once`. It does not apply to `i
 + Check for include_path to provide the correct path prefix.
 
 ## Related error messages
-+ [open_basedir-prohibits-opening-%s](asdf)
++ [open_basedir-prohibits-opening-%s](open\_basedir-prohibits-opening-%s.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

@@ -25,8 +25,8 @@ IntlTimeZone::fromDateTimeZone($tz);
 + Wrap the call in a ``try``/``catch`` (Error) if the ``DateTimeZone`` instance's origin cannot be controlled.
 
 ## Related error messages
-+ [the-sqlite3-object-has-not-been-correctly-initialised-or-is-already-closed](asdf)
-+ [intllistformatter-object-is-already-constructed](asdf)
++ [the-sqlite3-object-has-not-been-correctly-initialised-or-is-already-closed](the-sqlite3-object-has-not-been-correctly-initialised-or-is-already-closed.html)
++ [intllistformatter-object-is-already-constructed](intllistformatter-object-is-already-constructed.html)
 
 ## Related error messages
 + [IntlTimeZone::fromDateTimeZone](https://www.php.net/manual/en/intltimezone.fromdatetimezone.php)

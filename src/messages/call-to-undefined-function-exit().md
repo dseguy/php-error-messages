@@ -21,5 +21,5 @@ $function();
 + Upgrade to PHP 8.4.
 
 ## Related error messages
-+ [call-to-undefined-function](asdf)
-+ [call-to-undefined-function-each()](asdf)
++ [call-to-undefined-function](call-to-undefined-function.html)
++ [call-to-undefined-function-each()](call-to-undefined-function-each\(\).html)

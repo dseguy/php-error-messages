@@ -24,9 +24,9 @@ declare(strict_types = 1);
 + Move the declare after the PHP opening tag.
 
 ## Related error messages
-+ [strict_types-declaration-must-be](asdf)
-+ [declare(%s)-value-must-be-a-literal](asdf)
-+ [encoding-declaration-pragma-must-be](asdf)
-+ [namespace-declaration-statement-has-to-be](asdf)
-+ [strict_types-declaration-must-have-0-or-1-as-its-value](asdf)
-+ [strict_types-declaration-must-not](asdf)
++ [strict_types-declaration-must-be](strict\_types-declaration-must-be.html)
++ [declare(%s)-value-must-be-a-literal](declare\(%s\)-value-must-be-a-literal.html)
++ [encoding-declaration-pragma-must-be](encoding-declaration-pragma-must-be.html)
++ [namespace-declaration-statement-has-to-be](namespace-declaration-statement-has-to-be.html)
++ [strict_types-declaration-must-have-0-or-1-as-its-value](strict\_types-declaration-must-have-0-or-1-as-its-value.html)
++ [strict_types-declaration-must-not](strict\_types-declaration-must-not.html)

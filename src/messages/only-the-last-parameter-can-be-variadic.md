@@ -21,8 +21,8 @@ function foo(...$a, $b) {}
 + Use named arguments instead, if the extra parameter needs to keep a fixed conceptual position.
 
 ## Related error messages
-+ [variadic-parameter-cannot-have-a-default-value](asdf)
-+ [cannot-declare-variadic-promoted-property](asdf)
++ [variadic-parameter-cannot-have-a-default-value](variadic-parameter-cannot-have-a-default-value.html)
++ [cannot-declare-variadic-promoted-property](cannot-declare-variadic-promoted-property.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

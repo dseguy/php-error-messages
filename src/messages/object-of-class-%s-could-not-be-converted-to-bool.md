@@ -28,6 +28,6 @@ if ($x) {
 + Make an explicit comparison, with ``instanceof``.
 
 ## Related error messages
-+ [object-of-class-%s-could-not-be-converted-to-string](asdf)
-+ [object-of-class-%s-could-not-be-converted-to-float](asdf)
-+ [object-of-class-%s-could-not-be-converted-to-int](asdf)
++ [object-of-class-%s-could-not-be-converted-to-string](object-of-class-%s-could-not-be-converted-to-string.html)
++ [object-of-class-%s-could-not-be-converted-to-float](object-of-class-%s-could-not-be-converted-to-float.html)
++ [object-of-class-%s-could-not-be-converted-to-int](object-of-class-%s-could-not-be-converted-to-int.html)

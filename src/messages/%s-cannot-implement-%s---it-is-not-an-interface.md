@@ -24,4 +24,4 @@ class X implements E {}
 + Make sure the implements structure is an interface, not a class, trait or enumeration.
 
 ## Related error messages
-+ [interface-"%s"-not-found](asdf)
++ [interface-"%s"-not-found](interface-%s-not-found.html)

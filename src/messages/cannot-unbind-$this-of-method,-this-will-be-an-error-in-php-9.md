@@ -33,8 +33,8 @@ var_dump($fn2);
 + If a scope-free version of the logic is needed, extract it into a standalone function that does not rely on the method's ``$this``.
 
 ## Related error messages
-+ [cannot-unbind-$this-of-closure-using-$this,-this-will-be-an-error-in-php-9](asdf)
-+ [cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9](asdf)
++ [cannot-unbind-$this-of-closure-using-$this,-this-will-be-an-error-in-php-9](cannot-unbind-$this-of-closure-using-$this,-this-will-be-an-error-in-php-9.html)
++ [cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9](cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9.html)
 
 ## Related error messages
 + [Closure::bindTo](https://www.php.net/manual/en/closure.bindto.php)

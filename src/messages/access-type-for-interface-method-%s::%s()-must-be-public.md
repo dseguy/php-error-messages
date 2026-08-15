@@ -26,4 +26,4 @@ interface I {
 + Remove the visibility in the interface.
 
 ## Related error messages
-+ [access-type-for-interface-constant-%s::%s-must-be-public](asdf)
++ [access-type-for-interface-constant-%s::%s-must-be-public](access-type-for-interface-constant-%s::%s-must-be-public.html)

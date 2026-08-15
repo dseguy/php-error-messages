@@ -23,9 +23,9 @@ preg_match('/[a-b]', 'abc');
 + Fix the regex.
 
 ## Related error messages
-+ [delimiter-must-not-be-alphanumeric,-backslash,-or-nul-byte](asdf)
-+ [delimiter-must-not-be-alphanumeric,-backslash,-or-nul](asdf)
-+ [delimiter-must-not-be-alphanumeric-or-backslash](asdf)
++ [delimiter-must-not-be-alphanumeric,-backslash,-or-nul-byte](delimiter-must-not-be-alphanumeric,-backslash,-or-nul-byte.html)
++ [delimiter-must-not-be-alphanumeric,-backslash,-or-nul](delimiter-must-not-be-alphanumeric,-backslash,-or-nul.html)
++ [delimiter-must-not-be-alphanumeric-or-backslash](delimiter-must-not-be-alphanumeric-or-backslash.html)
 
 ## Related error messages
 + [PCREPatterns](https://www.php.net/manual/en/pcre.pattern.php)

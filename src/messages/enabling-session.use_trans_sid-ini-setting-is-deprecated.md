@@ -22,4 +22,4 @@ if (!ini_get('session.use_trans_sid')) {
 + Remove usage of  ini_set() with ``session.use_trans_sid`` in the code.
 
 ## Related error messages
-+ [disabling-session.use_only_cookies-ini-setting-is-deprecated](asdf)
++ [disabling-session.use_only_cookies-ini-setting-is-deprecated](disabling-session.use\_only\_cookies-ini-setting-is-deprecated.html)

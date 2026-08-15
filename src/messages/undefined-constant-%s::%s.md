@@ -33,6 +33,6 @@ echo X::Y;
 + Define the class constant in the class, or its traits, interfaces or parents.
 
 ## Related error messages
-+ [undefined-constant-"%s](asdf)
++ [undefined-constant-"%s](undefined-constant-%s.html)
 
 In previous PHP versions, this error message used to be :ref:`undefined-class-constant-'%s::%s'`.

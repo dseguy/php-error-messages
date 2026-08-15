@@ -51,8 +51,8 @@ function hoo($fn) {
 + Store the literal value in a variable, a property or an array index before writing to it.
 
 ## Related error messages
-+ [syntax-error,-unexpected-';',-expecting-'['](asdf)
-+ [syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"["](asdf)
-+ [syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"{"-or-"["](asdf)
-+ [can't-use-function-return-value-in-write-context](asdf)
-+ [can't-use-method-return-value-in-write-context](asdf)
++ [syntax-error,-unexpected-';',-expecting-'['](syntax-error,-unexpected-;,-expecting-\[.html)
++ [syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"["](syntax-error,-unexpected-token-;,-expecting-->-or-?->-or-\[.html)
++ [syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"{"-or-"["](syntax-error,-unexpected-token-;,-expecting-->-or-?->-or-{-or-\[.html)
++ [can't-use-function-return-value-in-write-context](cant-use-function-return-value-in-write-context.html)
++ [can't-use-method-return-value-in-write-context](cant-use-method-return-value-in-write-context.html)

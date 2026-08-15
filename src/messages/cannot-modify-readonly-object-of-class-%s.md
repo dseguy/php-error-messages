@@ -22,4 +22,4 @@ $uri->__construct('https://php.net/');
 + Create a new Url object, instead of updating the existing one.
 
 ## Related error messages
-+ [cannot-modify-readonly-property-%s::$%s](asdf)
++ [cannot-modify-readonly-property-%s::$%s](cannot-modify-readonly-property-%s::$%s.html)

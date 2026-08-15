@@ -23,4 +23,4 @@ class X {
 + Make a static method that can call the method that would be static. Be aware, this will require the building of an object, as a static method does not set ``$this``.
 
 ## Related error messages
-+ [returning-null-from-%s::__debuginfo()-is-deprecated,-return-an-empty-array-instead](asdf)
++ [returning-null-from-%s::__debuginfo()-is-deprecated,-return-an-empty-array-instead](returning-null-from-%s::\_\_debuginfo\(\)-is-deprecated,-return-an-empty-array-instead.html)

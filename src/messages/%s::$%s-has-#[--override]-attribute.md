@@ -34,9 +34,9 @@ class Y extends X {
 + Add the property, with the same name, to the parent class.
 
 ## Related error messages
-+ [%s::%s()-has-#[-override]-attribute,-but-no-matching-parent-method-exists](asdf)
-+ [has-#[-override]-attribute,-but-no-matching-parent-method-exists](asdf)
-+ [%s::%s-has-#[--override]-attribute](asdf)
++ [%s::%s()-has-#[-override]-attribute,-but-no-matching-parent-method-exists](%s::%s\(\)-has-#\[-override\]-attribute,-but-no-matching-parent-method-exists.html)
++ [has-#[-override]-attribute,-but-no-matching-parent-method-exists](has-#\[-override\]-attribute,-but-no-matching-parent-method-exists.html)
++ [%s::%s-has-#[--override]-attribute](%s::%s-has-#\[--override\]-attribute.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

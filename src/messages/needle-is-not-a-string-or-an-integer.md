@@ -19,4 +19,4 @@ print strpos('abc99', []);
 + Pick up a value in the array.
 
 ## Related error messages
-+ [non-string-needles-will-be-interpreted-as-strings-in-the-future.-use-an-explicit-chr()-call-to-preserve-the-current-behavior](asdf)
++ [non-string-needles-will-be-interpreted-as-strings-in-the-future.-use-an-explicit-chr()-call-to-preserve-the-current-behavior](non-string-needles-will-be-interpreted-as-strings-in-the-future.-use-an-explicit-chr\(\)-call-to-preserve-the-current-behavior.html)

@@ -21,7 +21,7 @@ list($a, [$b, $c]) = $data;
 + Use the short [] syntax consistently at every level: [$a, [$b, $c]] = $data;
 
 ## Related error messages
-+ [cannot-assign-to-array(),-use-[]-instead](asdf)
++ [cannot-assign-to-array(),-use-[]-instead](cannot-assign-to-array\(\),-use-\[\]-instead.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

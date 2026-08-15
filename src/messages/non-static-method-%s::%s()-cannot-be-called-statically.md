@@ -36,7 +36,7 @@ $closure = X::goo(...);
 + Find an object to call the non-static method.
 
 ## Related error messages
-+ [non-static-method-%s::%s()-should-not-be-called-statically](asdf)
++ [non-static-method-%s::%s()-should-not-be-called-statically](non-static-method-%s::%s\(\)-should-not-be-called-statically.html)
 
 In previous PHP versions, this error message used to be :ref:`non-static-method-%s::%s()-should-not-be-called-statically`.
 # Changed Behavior

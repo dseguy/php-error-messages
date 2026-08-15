@@ -30,5 +30,5 @@ echo (new X)->property;
 + Extends the class and change the visibility level of the property from ``protected`` to ``public``. This has no effect for ``private``.
 
 ## Related error messages
-+ [cannot-access-%s-constant-%s::%s](asdf)
-+ [cannot-access-%s-const-%s::%s](asdf)
++ [cannot-access-%s-constant-%s::%s](cannot-access-%s-constant-%s::%s.html)
++ [cannot-access-%s-const-%s::%s](cannot-access-%s-const-%s::%s.html)

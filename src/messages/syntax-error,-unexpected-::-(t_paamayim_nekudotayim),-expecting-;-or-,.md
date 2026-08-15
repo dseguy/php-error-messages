@@ -28,4 +28,4 @@ echo "B$a"::C;
 + Store the class name in a variable, and use that variable instead of the direct string.
 
 ## Related error messages
-+ [syntax-error,-unexpected-'[',-expecting-';'-or-','](asdf)
++ [syntax-error,-unexpected-'[',-expecting-';'-or-','](syntax-error,-unexpected-\[,-expecting-;-or-,.html)

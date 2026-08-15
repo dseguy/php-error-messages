@@ -19,8 +19,8 @@ include '/private/folder/secret.php';
 + Update the inclusion path to target a file that falls within the paths in the ``open_basedir`` directive.
 
 ## Related error messages
-+ [failed-opening-required-%s-(include_path=%s)](asdf)
-+ [open_basedir-restriction-in-effect.-file(%s)-is-not-within-the-allowed-path(s):-(%s)](asdf)
++ [failed-opening-required-%s-(include_path=%s)](failed-opening-required-%s-\(include\_path=%s\).html)
++ [open_basedir-restriction-in-effect.-file(%s)-is-not-within-the-allowed-path(s):-(%s)](open\_basedir-restriction-in-effect.-file\(%s\)-is-not-within-the-allowed-path\(s\):-\(%s\).html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

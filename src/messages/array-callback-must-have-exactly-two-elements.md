@@ -23,4 +23,4 @@ $e();
 + Add any missing elements in the array, up to two elements.
 
 ## Related error messages
-+ [array-callback-has-to-contain-indices-0-and-1](asdf)
++ [array-callback-has-to-contain-indices-0-and-1](array-callback-has-to-contain-indices-0-and-1.html)

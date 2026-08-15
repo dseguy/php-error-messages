@@ -32,7 +32,7 @@ class X {
 + If this appears while using a third-party extension, report the issue to its maintainer, since it points to a bug in the extension rather than in the PHP script.
 
 ## Related error messages
-+ [%s-cannot-use-%s---it-is-not-a-trait](asdf)
++ [%s-cannot-use-%s---it-is-not-a-trait](%s-cannot-use-%s---it-is-not-a-trait.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

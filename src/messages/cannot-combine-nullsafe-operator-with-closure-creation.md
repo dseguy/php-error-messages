@@ -29,7 +29,7 @@ $closure = $x?->foo(...);
 + Check the object for ``null`` explicitly, before creating the Closure.
 
 ## Related error messages
-+ [can't-use-nullsafe-operator-in-write-context](asdf)
++ [can't-use-nullsafe-operator-in-write-context](cant-use-nullsafe-operator-in-write-context.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

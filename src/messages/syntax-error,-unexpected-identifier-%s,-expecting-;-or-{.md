@@ -27,8 +27,8 @@ abstract class X {
 + If the method should have a body, replace the identifier with ``{`` and the method's code.
 
 ## Related error messages
-+ [syntax-error,-unexpected-identifier-"%s",-expecting-"("](asdf)
-+ [syntax-error,-unexpected-variable-"$this",-expecting-";"-or-"{"](asdf)
++ [syntax-error,-unexpected-identifier-"%s",-expecting-"("](syntax-error,-unexpected-identifier-%s,-expecting-\(.html)
++ [syntax-error,-unexpected-variable-"$this",-expecting-";"-or-"{"](syntax-error,-unexpected-variable-$this,-expecting-;-or-{.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

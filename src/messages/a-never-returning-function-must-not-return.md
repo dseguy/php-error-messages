@@ -25,4 +25,4 @@ function foo() : never {
 + Change the ``never`` return type to another type.
 
 ## Related error messages
-+ [a-never-returning-method-must-not-return](asdf)
++ [a-never-returning-method-must-not-return](a-never-returning-method-must-not-return.html)

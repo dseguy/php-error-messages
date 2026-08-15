@@ -32,5 +32,5 @@ strlen($string)::$property;
 + Do not use invalid types values to access a class.
 
 ## Related error messages
-+ [class-"%s"-not-found](asdf)
-+ [interface-"%s"-not-found](asdf)
++ [class-"%s"-not-found](class-%s-not-found.html)
++ [interface-"%s"-not-found](interface-%s-not-found.html)

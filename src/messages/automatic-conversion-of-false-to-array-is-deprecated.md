@@ -34,8 +34,8 @@ $x->property['d'] = 3;
 + Test the type of the variable before using it as an array.
 
 ## Related error messages
-+ [cannot-unset-offset-in-a-non-array-variable](asdf)
-+ [cannot-auto-initialize-an-array-inside-property-%s::$%s-of-type-%s](asdf)
++ [cannot-unset-offset-in-a-non-array-variable](cannot-unset-offset-in-a-non-array-variable.html)
++ [cannot-auto-initialize-an-array-inside-property-%s::$%s-of-type-%s](cannot-auto-initialize-an-array-inside-property-%s::$%s-of-type-%s.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

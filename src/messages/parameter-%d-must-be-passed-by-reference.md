@@ -34,6 +34,6 @@ foo(X::B);
 + Remove the reference in the method signature.
 
 ## Related error messages
-+ [cannot-pass-parameter-%d-by-reference](asdf)
++ [cannot-pass-parameter-%d-by-reference](cannot-pass-parameter-%d-by-reference.html)
 
 In more recent PHP versions, this error message is now :ref:`%s%s%s():-argument-#%d%s%s%s-must-be-passed-by-reference,-value-given`.

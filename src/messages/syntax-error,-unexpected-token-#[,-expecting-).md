@@ -21,7 +21,7 @@ try {
 + Move the attribute to a declaration that supports it, such as the enclosing method.
 
 ## Related error messages
-+ [syntax-error,-unexpected-token-")",-expecting-variable](asdf)
++ [syntax-error,-unexpected-token-")",-expecting-variable](syntax-error,-unexpected-token-\),-expecting-variable.html)
 
 ## Related error messages
 + [Attributes](https://www.php.net/manual/en/language.attributes.php)

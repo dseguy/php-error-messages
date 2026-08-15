@@ -26,8 +26,8 @@ const BAR = 42;
 + Change the alias used in the ``use const`` import.
 
 ## Related error messages
-+ [cannot-use%s-%s-as-%s-because-the-name-is-already-in-use](asdf)
-+ [cannot-redeclare-constant-'%s'](asdf)
++ [cannot-use%s-%s-as-%s-because-the-name-is-already-in-use](cannot-use%s-%s-as-%s-because-the-name-is-already-in-use.html)
++ [cannot-redeclare-constant-'%s'](cannot-redeclare-constant-%s.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

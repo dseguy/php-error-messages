@@ -23,6 +23,6 @@ In previous version, PHP would never allow properties to be abstract.
 + Remove the abstract keyword.
 
 ## Related error messages
-+ [abstract-property-%s::$%s-must-specify-at-least-one-abstract-hook](asdf)
++ [abstract-property-%s::$%s-must-specify-at-least-one-abstract-hook](abstract-property-%s::$%s-must-specify-at-least-one-abstract-hook.html)
 
 In previous PHP versions, this error message used to be :ref:`cannot-use-the-abstract-modifier-on-a-property`.

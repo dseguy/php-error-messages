@@ -31,9 +31,9 @@ class X
 + Rename one of the two classes, or move them into different namespaces.
 
 ## Related error messages
-+ [cannot-redeclare-%s::%s()](asdf)
-+ [cannot-redeclare-function-%s()-(previously-declared-in-%s:%d)](asdf)
-+ [class-declarations-may-not-be-nested](asdf)
++ [cannot-redeclare-%s::%s()](cannot-redeclare-%s::%s\(\).html)
++ [cannot-redeclare-function-%s()-(previously-declared-in-%s:%d)](cannot-redeclare-function-%s\(\)-\(previously-declared-in-%s:%d\).html)
++ [class-declarations-may-not-be-nested](class-declarations-may-not-be-nested.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

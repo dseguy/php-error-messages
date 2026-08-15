@@ -26,6 +26,6 @@ clone C;
 + Check the data before cloning it, with is_object() or instanceof.
 
 ## Related error messages
-+ [can-only-throw-objects](asdf)
++ [can-only-throw-objects](can-only-throw-objects.html)
 
 In more recent PHP versions, this error message is now :ref:`clone():-argument-#1-($object)-must-be-of-type-object,-%s-given`.

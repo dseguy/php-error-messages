@@ -27,6 +27,6 @@ class X {
 + Remove the variadic option.
 
 ## Related error messages
-+ [cannot-redeclare-%s::$%s](asdf)
-+ [only-the-last-parameter-can-be-variadic](asdf)
-+ [variadic-parameter-cannot-have-a-default-value](asdf)
++ [cannot-redeclare-%s::$%s](cannot-redeclare-%s::$%s.html)
++ [only-the-last-parameter-can-be-variadic](only-the-last-parameter-can-be-variadic.html)
++ [variadic-parameter-cannot-have-a-default-value](variadic-parameter-cannot-have-a-default-value.html)

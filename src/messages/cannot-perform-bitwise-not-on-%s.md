@@ -27,4 +27,4 @@ $array = [1,2];
 + Cast the forbidden type to int before using the bitwise.
 
 ## Related error messages
-+ [unsupported-operand-types](asdf)
++ [unsupported-operand-types](unsupported-operand-types.html)

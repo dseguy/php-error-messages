@@ -26,4 +26,4 @@ E::A;
 + Make sure all the cases are distinct.
 
 ## Related error messages
-+ [case-%s-of-non-backed-enum-%s-must-not-have-a-value](asdf)
++ [case-%s-of-non-backed-enum-%s-must-not-have-a-value](case-%s-of-non-backed-enum-%s-must-not-have-a-value.html)

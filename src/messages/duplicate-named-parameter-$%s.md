@@ -31,4 +31,4 @@ class Test {}
 + Remove the duplicates named parameters, but one.
 
 ## Related error messages
-+ [named-parameter-$%s-overwrites-previous-argument](asdf)
++ [named-parameter-$%s-overwrites-previous-argument](named-parameter-$%s-overwrites-previous-argument.html)

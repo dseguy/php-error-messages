@@ -24,4 +24,4 @@ enum E: A {
 + Use one of the valid types with the enumeration.
 
 ## Related error messages
-+ [case-%s-of-non-backed-enum-%s-must-not-have-a-value](asdf)
++ [case-%s-of-non-backed-enum-%s-must-not-have-a-value](case-%s-of-non-backed-enum-%s-must-not-have-a-value.html)

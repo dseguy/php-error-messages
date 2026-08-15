@@ -24,8 +24,8 @@ $curried = add(...$args, ...);
 + Wrap the call in an explicit closure instead: $curried = fn($c) => add(...$args, $c);
 
 ## Related error messages
-+ [variadic-placeholder-may-only-appear-once](asdf)
-+ [variadic-placeholder-must-be-last](asdf)
++ [variadic-placeholder-may-only-appear-once](variadic-placeholder-may-only-appear-once.html)
++ [variadic-placeholder-must-be-last](variadic-placeholder-must-be-last.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

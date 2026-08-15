@@ -19,4 +19,4 @@ $method = new ReflectionMethod($x);
 + Adds the name as second argument ``method``.
 
 ## Related error messages
-+ [must-be-a-valid-method-name](asdf)
++ [must-be-a-valid-method-name](must-be-a-valid-method-name.html)

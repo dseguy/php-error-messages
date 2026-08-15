@@ -26,4 +26,4 @@ try {
 + Use one of the three possible values.
 
 ## Related error messages
-+ [security-protocol-must-be-one-of-"aes128",-or-"aes-e_error](asdf)
++ [security-protocol-must-be-one-of-"aes128",-or-"aes-e_error](security-protocol-must-be-one-of-aes128,-or-aes-e\_error.html)

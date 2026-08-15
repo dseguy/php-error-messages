@@ -30,4 +30,4 @@ C\D($e);
 + Add the ``#[`` keyword before the name to make it an attribute.
 
 ## Related error messages
-+ [syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function"](asdf)
++ [syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function"](syntax-error,-unexpected-fully-qualified-name-%s,-expecting-function.html)

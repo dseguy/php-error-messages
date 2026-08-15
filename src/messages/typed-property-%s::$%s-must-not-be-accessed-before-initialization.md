@@ -33,10 +33,10 @@ The coalesce ??, isset() and empty() operators may be used to check if the prope
 + Use isset(), empty() or ?? to check the status of the property before usage.
 
 ## Related error messages
-+ [attempt-to-unset-static-property-%s::$%s](asdf)
-+ [object-not-initialized](asdf)
-+ [typed-static-property-%s::$%s-must-not-be-accessed-before-initialization](asdf)
-+ [default-value-for-property-of-type-%s-may-not-be-null.-use-the-nullable-type-%s-to-allow-null-default-value](asdf)
++ [attempt-to-unset-static-property-%s::$%s](attempt-to-unset-static-property-%s::$%s.html)
++ [object-not-initialized](object-not-initialized.html)
++ [typed-static-property-%s::$%s-must-not-be-accessed-before-initialization](typed-static-property-%s::$%s-must-not-be-accessed-before-initialization.html)
++ [default-value-for-property-of-type-%s-may-not-be-null.-use-the-nullable-type-%s-to-allow-null-default-value](default-value-for-property-of-type-%s-may-not-be-null.-use-the-nullable-type-%s-to-allow-null-default-value.html)
 
 ## Related error messages
 + [Typed property must not be accessed before initialization](https://madewithlove.com/blog/typed-property-must-not-be-accessed-before-initialization/)

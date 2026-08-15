@@ -32,5 +32,5 @@ try {
 + Check if the file is available before removing it, with ``Phar::offsetExists``.
 
 ## Related error messages
-+ [entry-%s-does-not-exist-and-cannot-be-deleted](asdf)
-+ [no-such-file-or-directory](asdf)
++ [entry-%s-does-not-exist-and-cannot-be-deleted](entry-%s-does-not-exist-and-cannot-be-deleted.html)
++ [no-such-file-or-directory](no-such-file-or-directory.html)

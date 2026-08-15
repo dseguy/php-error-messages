@@ -34,5 +34,5 @@ $x->property[4] = 3;
 + Create a distinct property, with the array type, to use the array syntax.
 
 ## Related error messages
-+ [cannot-access-offset-of-type-%s-on-%s](asdf)
-+ [automatic-conversion-of-false-to-array-is-deprecated](asdf)
++ [cannot-access-offset-of-type-%s-on-%s](cannot-access-offset-of-type-%s-on-%s.html)
++ [automatic-conversion-of-false-to-array-is-deprecated](automatic-conversion-of-false-to-array-is-deprecated.html)

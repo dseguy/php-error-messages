@@ -23,4 +23,4 @@ function foo(int $i = null) { }
 + Use another default value, within the current type domain.
 
 ## Related error messages
-+ [%s():-implicitly-marking-parameter-$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead](asdf)
++ [%s():-implicitly-marking-parameter-$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead](%s\(\):-implicitly-marking-parameter-$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead.html)

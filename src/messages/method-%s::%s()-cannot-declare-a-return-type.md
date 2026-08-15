@@ -31,4 +31,4 @@ class X {
 + Remove the return type of the method.
 
 ## Related error messages
-+ [destructors-cannot-declare-a-return-type](asdf)
++ [destructors-cannot-declare-a-return-type](destructors-cannot-declare-a-return-type.html)

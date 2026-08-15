@@ -19,5 +19,5 @@ func_get_args();
 + Move the func_get_args() calls inside a function.
 
 ## Related error messages
-+ [func_get_arg()-cannot-be-called-from-the-global-scope](asdf)
-+ [func_num_args()-must-be-called-from-a-function-context](asdf)
++ [func_get_arg()-cannot-be-called-from-the-global-scope](func\_get\_arg\(\)-cannot-be-called-from-the-global-scope.html)
++ [func_num_args()-must-be-called-from-a-function-context](func\_num\_args\(\)-must-be-called-from-a-function-context.html)

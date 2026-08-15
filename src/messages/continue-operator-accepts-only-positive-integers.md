@@ -22,4 +22,4 @@ foreach($a as $b) {
 + Remove the 0.
 
 ## Related error messages
-+ [break-operator-accepts-only-positive-integers](asdf)
++ [break-operator-accepts-only-positive-integers](break-operator-accepts-only-positive-integers.html)

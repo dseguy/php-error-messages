@@ -51,4 +51,4 @@ class Y extends X {
 + Change the name of the method to a free one.
 
 ## Related error messages
-+ [type-of-%s::%s-must-be-compatible-with-%s::%s-of-type-%s](asdf)
++ [type-of-%s::%s-must-be-compatible-with-%s::%s-of-type-%s](type-of-%s::%s-must-be-compatible-with-%s::%s-of-type-%s.html)

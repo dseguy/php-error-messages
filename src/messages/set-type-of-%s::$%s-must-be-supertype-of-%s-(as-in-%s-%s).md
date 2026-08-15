@@ -35,9 +35,9 @@ class C implements I {
 + Narrow the type accepted by the parent's ``set`` hook instead, if the wider type is not actually needed.
 
 ## Related error messages
-+ [type-of-parameter-$%s-of-hook-%s::$%s::set-must-be-compatible-with-property-type](asdf)
-+ [type-of-%s::$%s-must-be-%s%s-(as-in-class-%s)](asdf)
-+ [set-access-level-of-%s::$%s-must-be-%s-(as-in-class-%s)%s](asdf)
++ [type-of-parameter-$%s-of-hook-%s::$%s::set-must-be-compatible-with-property-type](type-of-parameter-$%s-of-hook-%s::$%s::set-must-be-compatible-with-property-type.html)
++ [type-of-%s::$%s-must-be-%s%s-(as-in-class-%s)](type-of-%s::$%s-must-be-%s%s-\(as-in-class-%s\).html)
++ [set-access-level-of-%s::$%s-must-be-%s-(as-in-class-%s)%s](set-access-level-of-%s::$%s-must-be-%s-\(as-in-class-%s\)%s.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

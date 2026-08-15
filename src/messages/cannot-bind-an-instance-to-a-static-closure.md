@@ -21,6 +21,6 @@ The `Closure::bind()` method gives the scope of execution of a closure. And a st
 + Remove the call to ``bind()``.
 
 ## Related error messages
-+ [cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9](asdf)
++ [cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9](cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9.html)
 
 In more recent PHP versions, this error message is now :ref:`cannot-bind-an-instance-to-a-static-closure,-this-will-be-an-error-in-php-9`.

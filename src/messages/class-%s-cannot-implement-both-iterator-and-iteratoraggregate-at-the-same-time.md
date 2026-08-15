@@ -24,4 +24,4 @@ class A implements Iterator, IteratorAggregate {}
 + Use the interface that is compatible with the parent classes.
 
 ## Related error messages
-+ [%s-%s-inherits-both-%s::%s-and-%s::%s](asdf)
++ [%s-%s-inherits-both-%s::%s-and-%s::%s](%s-%s-inherits-both-%s::%s-and-%s::%s.html)

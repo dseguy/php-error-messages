@@ -24,7 +24,7 @@ class X {
 + Add the abstract keyword to the class.
 
 ## Related error messages
-+ [non-abstract-method-%s::%s()-must-contain-body](asdf)
-+ [anonymous-class-method-%s()-must-not-be-abstract](asdf)
-+ [%s-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-method%s-(](asdf)
-+ [%s-%s-must-implement-%d-abstract-method%s-(](asdf)
++ [non-abstract-method-%s::%s()-must-contain-body](non-abstract-method-%s::%s\(\)-must-contain-body.html)
++ [anonymous-class-method-%s()-must-not-be-abstract](anonymous-class-method-%s\(\)-must-not-be-abstract.html)
++ [%s-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-method%s-(](%s-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-method%s-\(.html)
++ [%s-%s-must-implement-%d-abstract-method%s-(](%s-%s-must-implement-%d-abstract-method%s-\(.html)

@@ -21,10 +21,10 @@ declare(strict_types = 2);
 + Use ``1`` to enable strict typing, or ``0`` to keep weak typing.
 
 ## Related error messages
-+ [declare(%s)-value-must-be-a-literal](asdf)
-+ [strict_types-declaration-must-be-the-very-first-statement-in-the-script](asdf)
-+ [strict_types-declaration-must-not](asdf)
-+ [strict_types-declaration-must-be](asdf)
++ [declare(%s)-value-must-be-a-literal](declare\(%s\)-value-must-be-a-literal.html)
++ [strict_types-declaration-must-be-the-very-first-statement-in-the-script](strict\_types-declaration-must-be-the-very-first-statement-in-the-script.html)
++ [strict_types-declaration-must-not](strict\_types-declaration-must-not.html)
++ [strict_types-declaration-must-be](strict\_types-declaration-must-be.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

@@ -26,10 +26,10 @@ unset((new Foo())->getValue());
 + Store the return value in a variable first, then use the variable in the write context: $v = (new Foo())->getValue(); unset($v);
 
 ## Related error messages
-+ [can't-use-function-return-value-in-write-context](asdf)
-+ [cannot-use-result-of-built-in-function-in-write-context](asdf)
-+ [can't-use-nullsafe-operator-in-write-context](asdf)
-+ [cannot-use-temporary-expression-in-write-context](asdf)
++ [can't-use-function-return-value-in-write-context](cant-use-function-return-value-in-write-context.html)
++ [cannot-use-result-of-built-in-function-in-write-context](cannot-use-result-of-built-in-function-in-write-context.html)
++ [can't-use-nullsafe-operator-in-write-context](cant-use-nullsafe-operator-in-write-context.html)
++ [cannot-use-temporary-expression-in-write-context](cannot-use-temporary-expression-in-write-context.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

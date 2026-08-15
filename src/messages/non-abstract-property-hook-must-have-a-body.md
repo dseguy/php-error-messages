@@ -29,5 +29,5 @@ class X {
 + Add the abstract keyword to the property definition.
 
 ## Related error messages
-+ [abstract-property-hook-cannot-have-body](asdf)
-+ [abstract-property-%s::$%s-must-specify-at-least-one-abstract-hook](asdf)
++ [abstract-property-hook-cannot-have-body](abstract-property-hook-cannot-have-body.html)
++ [abstract-property-%s::$%s-must-specify-at-least-one-abstract-hook](abstract-property-%s::$%s-must-specify-at-least-one-abstract-hook.html)

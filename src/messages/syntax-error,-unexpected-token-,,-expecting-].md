@@ -19,6 +19,6 @@ echo $a[1,2];
 + Close the square bracket, open a new one and remove the comma: ``$a[1][2]``.
 
 ## Related error messages
-+ [syntax-error,-unexpected-token-","](asdf)
-+ [syntax-error,-unexpected-token-",",-expecting-variable-or-"$"](asdf)
-+ [syntax-error,-unexpected-token-",",-expecting-variable](asdf)
++ [syntax-error,-unexpected-token-","](syntax-error,-unexpected-token-,.html)
++ [syntax-error,-unexpected-token-",",-expecting-variable-or-"$"](syntax-error,-unexpected-token-,,-expecting-variable-or-$.html)
++ [syntax-error,-unexpected-token-",",-expecting-variable](syntax-error,-unexpected-token-,,-expecting-variable.html)

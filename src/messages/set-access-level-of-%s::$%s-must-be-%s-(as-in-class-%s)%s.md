@@ -36,10 +36,10 @@ class B extends A {
 + Remove the asymmetric visibility from the child property altogether.
 
 ## Related error messages
-+ [access-level-to-%s::%s-must-be-%s-(as-in-%s-%s)%s](asdf)
-+ [set-type-of-%s::$%s-must-be-supertype-of-%s-(as-in-%s-%s)](asdf)
-+ [cannot-override-final-property-hook-%s::%s()](asdf)
-+ [access-level-to-%s::$%s-must-be-%s-(as-in-class-%s)%s](asdf)
++ [access-level-to-%s::%s-must-be-%s-(as-in-%s-%s)%s](access-level-to-%s::%s-must-be-%s-\(as-in-%s-%s\)%s.html)
++ [set-type-of-%s::$%s-must-be-supertype-of-%s-(as-in-%s-%s)](set-type-of-%s::$%s-must-be-supertype-of-%s-\(as-in-%s-%s\).html)
++ [cannot-override-final-property-hook-%s::%s()](cannot-override-final-property-hook-%s::%s\(\).html)
++ [access-level-to-%s::$%s-must-be-%s-(as-in-class-%s)%s](access-level-to-%s::$%s-must-be-%s-\(as-in-class-%s\)%s.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

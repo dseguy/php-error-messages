@@ -22,8 +22,8 @@ $curried = add(..., 2, 3);
 + Put every fixed argument before ..., and keep ... as the final argument: add(1, 2, ...).
 
 ## Related error messages
-+ [variadic-placeholder-may-only-appear-once](asdf)
-+ [cannot-combine-partial-application-and-unpacking](asdf)
++ [variadic-placeholder-may-only-appear-once](variadic-placeholder-may-only-appear-once.html)
++ [cannot-combine-partial-application-and-unpacking](cannot-combine-partial-application-and-unpacking.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

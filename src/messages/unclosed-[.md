@@ -24,4 +24,4 @@ $a["3] = 4;
 + Check that the closing square brackets are not hidden in a string.
 
 ## Related error messages
-+ [unclosed-'('](asdf)
++ [unclosed-'('](unclosed-\(.html)

@@ -21,4 +21,4 @@ declare(strict_types=1;
 + Add a comma after the ``1``, provide another parameter, and close the ``declare`` with a closing parenthesis.
 
 ## Related error messages
-+ [syntax-error,-unexpected-token-";",-expecting-")"](asdf)
++ [syntax-error,-unexpected-token-";",-expecting-")"](syntax-error,-unexpected-token-;,-expecting-\).html)

@@ -39,4 +39,4 @@ echo X::X;
 + Do not use properties in constant expressions.
 
 ## Related error messages
-+ [constant-expression-contains-invalid-operations](asdf)
++ [constant-expression-contains-invalid-operations](constant-expression-contains-invalid-operations.html)

@@ -25,9 +25,9 @@ class X {
 + Pass the object as a parameter to the function that needs it.
 
 ## Related error messages
-+ [cannot-re-assign-$this](asdf)
-+ [using-$this-when-not-in-object-context](asdf)
-+ [cannot-use-auto-global-as-lexical-variable](asdf)
++ [cannot-re-assign-$this](cannot-re-assign-$this.html)
++ [using-$this-when-not-in-object-context](using-$this-when-not-in-object-context.html)
++ [cannot-use-auto-global-as-lexical-variable](cannot-use-auto-global-as-lexical-variable.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

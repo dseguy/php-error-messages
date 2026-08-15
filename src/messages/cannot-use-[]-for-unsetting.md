@@ -19,7 +19,7 @@ unset($array[]);
 + Pass an explicit key to unset(), e.g. unset($array[2]);.
 
 ## Related error messages
-+ [cannot-append-to-$globals](asdf)
++ [cannot-append-to-$globals](cannot-append-to-$globals.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

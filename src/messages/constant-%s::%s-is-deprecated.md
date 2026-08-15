@@ -31,5 +31,5 @@ echo X::D;
 + Find the replacement for this class constant: it might be another constant, or a different command entirely.
 
 ## Related error messages
-+ [constant-%s-is-deprecated](asdf)
-+ [trait-%s-used-by-%s-is-deprecated%s](asdf)
++ [constant-%s-is-deprecated](constant-%s-is-deprecated.html)
++ [trait-%s-used-by-%s-is-deprecated%s](trait-%s-used-by-%s-is-deprecated%s.html)

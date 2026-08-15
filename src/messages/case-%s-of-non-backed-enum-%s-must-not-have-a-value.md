@@ -28,9 +28,9 @@ enum Suit
 + Add a backing type to the enum declaration, such as ``enum Suit: int``, so every case can carry a value.
 
 ## Related error messages
-+ [enum-case-type-%s-does-not-match-enum-backing-type-%s](asdf)
-+ [enum-backing-type-must-be-int-or-string](asdf)
-+ [duplicate-value-in-enum-%s-for-cases-%s-and-%s](asdf)
++ [enum-case-type-%s-does-not-match-enum-backing-type-%s](enum-case-type-%s-does-not-match-enum-backing-type-%s.html)
++ [enum-backing-type-must-be-int-or-string](enum-backing-type-must-be-int-or-string.html)
++ [duplicate-value-in-enum-%s-for-cases-%s-and-%s](duplicate-value-in-enum-%s-for-cases-%s-and-%s.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

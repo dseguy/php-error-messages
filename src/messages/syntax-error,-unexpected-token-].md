@@ -20,6 +20,6 @@ $a = [3 * 3 * ];
 + Add the missing operand to the previous operator.
 
 ## Related error messages
-+ [syntax-error,-unexpected-token-"}"](asdf)
-+ [syntax-error,-unexpected-token-")"](asdf)
-+ [syntax-error,-unexpected-token-"("](asdf)
++ [syntax-error,-unexpected-token-"}"](syntax-error,-unexpected-token-}.html)
++ [syntax-error,-unexpected-token-")"](syntax-error,-unexpected-token-\).html)
++ [syntax-error,-unexpected-token-"("](syntax-error,-unexpected-token-\(.html)

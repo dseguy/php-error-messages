@@ -26,4 +26,4 @@ foo(...$args, params: 1);
 + Move the arguments in the array, and unpack it.
 
 ## Related error messages
-+ [cannot-use-argument-unpacking-after-named-arguments](asdf)
++ [cannot-use-argument-unpacking-after-named-arguments](cannot-use-argument-unpacking-after-named-arguments.html)

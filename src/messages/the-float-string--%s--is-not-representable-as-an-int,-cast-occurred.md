@@ -31,7 +31,7 @@ var_dump((float) 9E82);
 + Compare the resulting value with ``PHP_INT_MAX``: it might be very far from the expected conversion.
 
 ## Related error messages
-+ [the-float-%.*h-is-not-representable-as-an-int,-cast-occurred](asdf)
++ [the-float-%.*h-is-not-representable-as-an-int,-cast-occurred](the-float-%.\*h-is-not-representable-as-an-int,-cast-occurred.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

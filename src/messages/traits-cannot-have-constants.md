@@ -25,6 +25,6 @@ echo T::X;
 + Move to PHP 8.2 or later.
 
 ## Related error messages
-+ [cannot-access-trait-constant-%s::%s-directly](asdf)
++ [cannot-access-trait-constant-%s::%s-directly](cannot-access-trait-constant-%s::%s-directly.html)
 
 In more recent PHP versions, this error message is now :ref:`cannot-access-trait-constant-%s::%s-directly`.

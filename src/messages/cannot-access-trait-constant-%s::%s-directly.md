@@ -30,9 +30,9 @@ echo T::C;
 + Convert the trait into a class and access its features.
 
 ## Related error messages
-+ [accessing-static-trait-property-%s::$%s-is-deprecated](asdf)
-+ [calling-static-trait-method-%s::%s-is-deprecated](asdf)
-+ [traits-cannot-have-constants](asdf)
-+ [accessing-static-trait-property-%s::$%s-is-deprecated,-it-should-only-be-accessed-on-a-class-using-the-trait](asdf)
++ [accessing-static-trait-property-%s::$%s-is-deprecated](accessing-static-trait-property-%s::$%s-is-deprecated.html)
++ [calling-static-trait-method-%s::%s-is-deprecated](calling-static-trait-method-%s::%s-is-deprecated.html)
++ [traits-cannot-have-constants](traits-cannot-have-constants.html)
++ [accessing-static-trait-property-%s::$%s-is-deprecated,-it-should-only-be-accessed-on-a-class-using-the-trait](accessing-static-trait-property-%s::$%s-is-deprecated,-it-should-only-be-accessed-on-a-class-using-the-trait.html)
 
 In previous PHP versions, this error message used to be :ref:`traits-cannot-have-constants`.

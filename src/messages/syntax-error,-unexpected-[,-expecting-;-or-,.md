@@ -20,4 +20,4 @@ echo bar$a[4]; // display f
 + Put the string in a variable first.
 
 ## Related error messages
-+ [syntax-error,-unexpected-'::'-(t_paamayim_nekudotayim),-expecting-';'-or-','](asdf)
++ [syntax-error,-unexpected-'::'-(t_paamayim_nekudotayim),-expecting-';'-or-','](syntax-error,-unexpected-::-\(t\_paamayim\_nekudotayim\),-expecting-;-or-,.html)

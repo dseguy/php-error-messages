@@ -24,6 +24,6 @@ $x[0] = 1;
 + Cast the object to array before usage.
 
 ## Related error messages
-+ [automatic-conversion-of-false-to-array-is-deprecated](asdf)
++ [automatic-conversion-of-false-to-array-is-deprecated](automatic-conversion-of-false-to-array-is-deprecated.html)
 
 In previous PHP versions, this error message used to be :ref:`cannot-use-object-of-type-stdclass-as-array`.

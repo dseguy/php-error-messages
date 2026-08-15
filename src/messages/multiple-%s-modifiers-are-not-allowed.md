@@ -28,10 +28,10 @@ class X {
 + Remove the duplicate modifier, keeping only one occurrence.
 
 ## Related error messages
-+ [multiple-final-modifiers-are-not-allowed](asdf)
-+ [multiple-static-modifiers-are-not-allowed](asdf)
-+ [multiple-readonly-modifiers-are-not-allowed](asdf)
-+ [multiple-access-type-modifiers-are-not-allowed](asdf)
++ [multiple-final-modifiers-are-not-allowed](multiple-final-modifiers-are-not-allowed.html)
++ [multiple-static-modifiers-are-not-allowed](multiple-static-modifiers-are-not-allowed.html)
++ [multiple-readonly-modifiers-are-not-allowed](multiple-readonly-modifiers-are-not-allowed.html)
++ [multiple-access-type-modifiers-are-not-allowed](multiple-access-type-modifiers-are-not-allowed.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

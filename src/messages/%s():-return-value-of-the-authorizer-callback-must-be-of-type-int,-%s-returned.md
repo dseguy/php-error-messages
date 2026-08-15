@@ -34,8 +34,8 @@ $pdo->exec('CREATE TABLE test (id INTEGER)');
 + Declare an ``int`` return type on the callback so mismatches are caught as soon as they are written.
 
 ## Related error messages
-+ [%s():-return-value-of-the-collation-callback-must-be-of-type-int,-%s-returned](asdf)
-+ [the-sqlite3-object-has-not-been-correctly-initialised-or-is-already-closed](asdf)
++ [%s():-return-value-of-the-collation-callback-must-be-of-type-int,-%s-returned](%s\(\):-return-value-of-the-collation-callback-must-be-of-type-int,-%s-returned.html)
++ [the-sqlite3-object-has-not-been-correctly-initialised-or-is-already-closed](the-sqlite3-object-has-not-been-correctly-initialised-or-is-already-closed.html)
 
 ## Related error messages
 + [Pdo\Sqlite](https://www.php.net/manual/en/class.pdo-sqlite.php)

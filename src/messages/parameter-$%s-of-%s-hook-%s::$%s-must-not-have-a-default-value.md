@@ -29,9 +29,9 @@ class X
 + If a fallback value is needed, assign a default to the property itself, or handle it inside the hook's body.
 
 ## Related error messages
-+ [parameter-$%s-of-%s-hook-%s::$%s-must-not-be-pass-by-reference](asdf)
-+ [parameter-$%s-of-%s-hook-%s::$%s-must-not-be-variadic](asdf)
-+ [%s-hook-of-property-%s::$%s-must-accept-exactly-one-parameters](asdf)
++ [parameter-$%s-of-%s-hook-%s::$%s-must-not-be-pass-by-reference](parameter-$%s-of-%s-hook-%s::$%s-must-not-be-pass-by-reference.html)
++ [parameter-$%s-of-%s-hook-%s::$%s-must-not-be-variadic](parameter-$%s-of-%s-hook-%s::$%s-must-not-be-variadic.html)
++ [%s-hook-of-property-%s::$%s-must-accept-exactly-one-parameters](%s-hook-of-property-%s::$%s-must-accept-exactly-one-parameters.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

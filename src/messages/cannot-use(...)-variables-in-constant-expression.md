@@ -21,7 +21,7 @@ class X {
 + Move the closure inside a method.
 
 ## Related error messages
-+ [closures-in-constant-expressions-must-be-static](asdf)
++ [closures-in-constant-expressions-must-be-static](closures-in-constant-expressions-must-be-static.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

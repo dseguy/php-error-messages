@@ -23,5 +23,5 @@ class X {
 + Remove the body of the property hook.
 
 ## Related error messages
-+ [non-abstract-property-hook-must-have-a-body](asdf)
-+ [abstract-property-%s::$%s-must-specify-at-least-one-abstract-hook](asdf)
++ [non-abstract-property-hook-must-have-a-body](non-abstract-property-hook-must-have-a-body.html)
++ [abstract-property-%s::$%s-must-specify-at-least-one-abstract-hook](abstract-property-%s::$%s-must-specify-at-least-one-abstract-hook.html)

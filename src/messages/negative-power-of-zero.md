@@ -23,4 +23,4 @@ echo bcpow(0, -1);
 + Catch the exception.
 
 ## Related error messages
-+ [power-of-base-0-and-negative-exponent-is-deprecated](asdf)
++ [power-of-base-0-and-negative-exponent-is-deprecated](power-of-base-0-and-negative-exponent-is-deprecated.html)

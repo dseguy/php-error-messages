@@ -1,0 +1,1 @@
+# cannot-append-to-$globals

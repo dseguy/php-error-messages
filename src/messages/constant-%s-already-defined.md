@@ -32,5 +32,5 @@ echo A;
 + Check if there are no missing namespace.
 
 ## Related error messages
-+ [cannot-redefine-class-constant](asdf)
-+ [cannot-redeclare-constant-'%s'](asdf)
++ [cannot-redefine-class-constant](cannot-redefine-class-constant.html)
++ [cannot-redeclare-constant-'%s'](cannot-redeclare-constant-%s.html)

@@ -24,11 +24,11 @@ function foo(): void {}
 + Remove the ``#[\NoDiscard]`` attribute, since there is nothing to discard.
 
 ## Related error messages
-+ [a-void-%s-must-not-return-a-value](asdf)
-+ [a-never-returning-%s-does-not-return-a-value](asdf)
-+ [method-%s::%s-cannot-be-#[--nodiscard]](asdf)
-+ [method-%s::%s-cannot-be-#[--nodiscard]-error_type](asdf)
-+ [a-%s-with-return-type-must-return-a-value](asdf)
++ [a-void-%s-must-not-return-a-value](a-void-%s-must-not-return-a-value.html)
++ [a-never-returning-%s-does-not-return-a-value](a-never-returning-%s-does-not-return-a-value.html)
++ [method-%s::%s-cannot-be-#[--nodiscard]](method-%s::%s-cannot-be-#\[--nodiscard\].html)
++ [method-%s::%s-cannot-be-#[--nodiscard]-error_type](method-%s::%s-cannot-be-#\[--nodiscard\]-error\_type.html)
++ [a-%s-with-return-type-must-return-a-value](a-%s-with-return-type-must-return-a-value.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

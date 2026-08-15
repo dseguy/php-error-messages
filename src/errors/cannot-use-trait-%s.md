@@ -1,0 +1,1 @@
+# cannot-use-trait-%s

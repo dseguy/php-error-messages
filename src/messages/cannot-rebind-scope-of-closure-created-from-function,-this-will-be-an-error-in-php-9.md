@@ -32,9 +32,9 @@ var_dump($fn2);
 + If scoped behaviour is required, define the closure inside the class (as a method or a property initializer) instead of wrapping a free function.
 
 ## Related error messages
-+ [cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9](asdf)
-+ [cannot-rebind-scope-of-closure-created-from-method](asdf)
-+ [cannot-bind-an-instance-to-a-static-closure,-this-will-be-an-error-in-php-9](asdf)
++ [cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9](cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9.html)
++ [cannot-rebind-scope-of-closure-created-from-method](cannot-rebind-scope-of-closure-created-from-method.html)
++ [cannot-bind-an-instance-to-a-static-closure,-this-will-be-an-error-in-php-9](cannot-bind-an-instance-to-a-static-closure,-this-will-be-an-error-in-php-9.html)
 
 ## Related error messages
 + [Closure::bind](https://www.php.net/manual/en/closure.bind.php)

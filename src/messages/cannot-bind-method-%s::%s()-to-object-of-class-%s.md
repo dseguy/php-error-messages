@@ -28,6 +28,6 @@ $closure->call(new B);
 + Make sure the new object is of the same type as the original support one.
 
 ## Related error messages
-+ [cannot-bind-method-%s::%s()-to-object-of-class-%s,-this-will-be-an-error-in-php-9](asdf)
++ [cannot-bind-method-%s::%s()-to-object-of-class-%s,-this-will-be-an-error-in-php-9](cannot-bind-method-%s::%s\(\)-to-object-of-class-%s,-this-will-be-an-error-in-php-9.html)
 
 In more recent PHP versions, this error message is now :ref:`cannot-bind-method-%s::%s()-to-object-of-class-%s,-this-will-be-an-error-in-php-9`.

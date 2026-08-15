@@ -20,6 +20,6 @@ class X {
 + Remove the return type of the method.
 
 ## Related error messages
-+ [constructor-%s::%s()-cannot-declare-a-return-type](asdf)
-+ [method-%s::%s()-cannot-declare-a-return-type](asdf)
-+ [method-%s::__construct()-cannot-declare-a-return-type](asdf)
++ [constructor-%s::%s()-cannot-declare-a-return-type](constructor-%s::%s\(\)-cannot-declare-a-return-type.html)
++ [method-%s::%s()-cannot-declare-a-return-type](method-%s::%s\(\)-cannot-declare-a-return-type.html)
++ [method-%s::__construct()-cannot-declare-a-return-type](method-%s::\_\_construct\(\)-cannot-declare-a-return-type.html)

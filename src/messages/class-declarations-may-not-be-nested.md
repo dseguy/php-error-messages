@@ -28,4 +28,4 @@ class X {
 + Use a function to store the definition and call it at will.
 
 ## Related error messages
-+ [cannot-redeclare-class-%s](asdf)
++ [cannot-redeclare-class-%s](cannot-redeclare-class-%s.html)

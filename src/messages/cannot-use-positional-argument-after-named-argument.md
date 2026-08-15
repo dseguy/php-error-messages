@@ -25,5 +25,5 @@ foo(...$a, $b, ...$c);
 + Write the positional argument before the named ones in the call.
 
 ## Related error messages
-+ [cannot-use-empty-list](asdf)
-+ [named-parameter-$%s-overwrites-previous-argument](asdf)
++ [cannot-use-empty-list](cannot-use-empty-list.html)
++ [named-parameter-$%s-overwrites-previous-argument](named-parameter-$%s-overwrites-previous-argument.html)

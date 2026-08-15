@@ -34,4 +34,4 @@ echo $string[5];
 + Use substr(), which returns empty string for out of range offsets.
 
 ## Related error messages
-+ [illegal-string-offset](asdf)
++ [illegal-string-offset](illegal-string-offset.html)

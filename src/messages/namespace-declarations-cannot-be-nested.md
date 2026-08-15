@@ -25,4 +25,4 @@ namespace A {
 + Split the code into several files, each with only one namespace.
 
 ## Related error messages
-+ [cannot-mix-bracketed-namespace-declarations](asdf)
++ [cannot-mix-bracketed-namespace-declarations](cannot-mix-bracketed-namespace-declarations.html)

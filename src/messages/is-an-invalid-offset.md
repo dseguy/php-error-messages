@@ -39,4 +39,4 @@ print $a[4];
 + Check that the index in positive, and below the current number of elements in the list.
 
 ## Related error messages
-+ [undefined-array-key](asdf)
++ [undefined-array-key](undefined-array-key.html)

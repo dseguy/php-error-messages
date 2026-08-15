@@ -20,7 +20,7 @@ $array[null] = 3;
 + Check the value before using it as an array index.
 
 ## Related error messages
-+ [using-null-as-the-key-parameter-for-array_key_exists()-is-deprecated,-use-an-empty-string-instead](asdf)
++ [using-null-as-the-key-parameter-for-array_key_exists()-is-deprecated,-use-an-empty-string-instead](using-null-as-the-key-parameter-for-array\_key\_exists\(\)-is-deprecated,-use-an-empty-string-instead.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

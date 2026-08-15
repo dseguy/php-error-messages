@@ -22,7 +22,7 @@ class X {
 + Use the null type.
 
 ## Related error messages
-+ [void-cannot-be-used-as-a-parameter-type](asdf)
++ [void-cannot-be-used-as-a-parameter-type](void-cannot-be-used-as-a-parameter-type.html)
 
 ## Related error messages
 + [ThethreenothingsofPHP](https://www.exakat.io/en/the-three-nothings-of-php/)

@@ -21,8 +21,8 @@ class Base {
 + Expose it through a method instead: public static function name(): string { return static::class; }.
 
 ## Related error messages
-+ [static::-"-is-not-allowed-in-compile-time-constants](asdf)
-+ [static-"-is-not-allowed-in-compile-time-constants](asdf)
++ [static::-"-is-not-allowed-in-compile-time-constants](static::--is-not-allowed-in-compile-time-constants.html)
++ [static-"-is-not-allowed-in-compile-time-constants](static--is-not-allowed-in-compile-time-constants.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

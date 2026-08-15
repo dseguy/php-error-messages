@@ -31,10 +31,10 @@ class X
 + Remove the parameter list entirely and use the implicit ``$value`` variable instead.
 
 ## Related error messages
-+ [get-hook-of-property-%s::$%s-must-not-have-a-parameter-list](asdf)
-+ [parameter-$%s-of-%s-hook-%s::$%s-must-not-be-variadic](asdf)
-+ [parameter-$%s-of-%s-hook-%s::$%s-must-not-have-a-default-value](asdf)
-+ [parameter-$%s-of-%s-hook-%s::$%s-must-not-be-pass-by-reference](asdf)
++ [get-hook-of-property-%s::$%s-must-not-have-a-parameter-list](get-hook-of-property-%s::$%s-must-not-have-a-parameter-list.html)
++ [parameter-$%s-of-%s-hook-%s::$%s-must-not-be-variadic](parameter-$%s-of-%s-hook-%s::$%s-must-not-be-variadic.html)
++ [parameter-$%s-of-%s-hook-%s::$%s-must-not-have-a-default-value](parameter-$%s-of-%s-hook-%s::$%s-must-not-have-a-default-value.html)
++ [parameter-$%s-of-%s-hook-%s::$%s-must-not-be-pass-by-reference](parameter-$%s-of-%s-hook-%s::$%s-must-not-be-pass-by-reference.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

@@ -31,5 +31,5 @@ var_dump(x::foo());
 + Make the arrow function non-static.
 
 ## Related error messages
-+ [cannot-use-$this-as-lexical-variable](asdf)
-+ [cannot-use-$this-as-global-variable](asdf)
++ [cannot-use-$this-as-lexical-variable](cannot-use-$this-as-lexical-variable.html)
++ [cannot-use-$this-as-global-variable](cannot-use-$this-as-global-variable.html)

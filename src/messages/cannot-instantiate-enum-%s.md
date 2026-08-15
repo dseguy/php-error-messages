@@ -31,5 +31,5 @@ print get_class(E::A);
 + Use one of the enumeration cases.
 
 ## Related error messages
-+ [cannot-instantiate-trait-%s](asdf)
-+ [cannot-instantiate-interface-%s](asdf)
++ [cannot-instantiate-trait-%s](cannot-instantiate-trait-%s.html)
++ [cannot-instantiate-interface-%s](cannot-instantiate-interface-%s.html)

@@ -18,7 +18,7 @@ $GLOBALS[] = 'value';
 + Assign to an explicit, named key instead: $GLOBALS['name'] = 'value';
 
 ## Related error messages
-+ [cannot-use-[]-for-unsetting](asdf)
++ [cannot-use-[]-for-unsetting](cannot-use-\[\]-for-unsetting.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

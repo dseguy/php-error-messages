@@ -28,9 +28,9 @@ test();
 + Remove the ``NoDiscard`` attribute.
 
 ## Related error messages
-+ [a-void-%s-does-not-return-a-value](asdf)
-+ [method-%s::%s-cannot-be-#[--nodiscard]](asdf)
-+ [method-%s::%s-cannot-be-#[--nodiscard]-error_type](asdf)
++ [a-void-%s-does-not-return-a-value](a-void-%s-does-not-return-a-value.html)
++ [method-%s::%s-cannot-be-#[--nodiscard]](method-%s::%s-cannot-be-#\[--nodiscard\].html)
++ [method-%s::%s-cannot-be-#[--nodiscard]-error_type](method-%s::%s-cannot-be-#\[--nodiscard\]-error\_type.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

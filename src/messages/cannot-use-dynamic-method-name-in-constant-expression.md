@@ -29,9 +29,9 @@ var_dump(C);
 + Move the closure creation out of the constant expression, into ordinary code, where dynamic method names are allowed.
 
 ## Related error messages
-+ [illegal-method-name](asdf)
-+ [cannot-use-dynamic-function-name-in-constant-expression](asdf)
-+ [illegal-function-name](asdf)
++ [illegal-method-name](illegal-method-name.html)
++ [cannot-use-dynamic-function-name-in-constant-expression](cannot-use-dynamic-function-name-in-constant-expression.html)
++ [illegal-function-name](illegal-function-name.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

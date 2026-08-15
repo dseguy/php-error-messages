@@ -31,6 +31,6 @@ echo $x->b;
 + Define the magic property method __get() to make any property available.
 
 ## Related error messages
-+ [access-to-undeclared-static-property-%s::$%s](asdf)
-+ [property-%s-does-not-exist](asdf)
-+ [property-%s::$%s-does-not-exist](asdf)
++ [access-to-undeclared-static-property-%s::$%s](access-to-undeclared-static-property-%s::$%s.html)
++ [property-%s-does-not-exist](property-%s-does-not-exist.html)
++ [property-%s::$%s-does-not-exist](property-%s::$%s-does-not-exist.html)

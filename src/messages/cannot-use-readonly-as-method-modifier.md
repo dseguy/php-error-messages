@@ -20,7 +20,7 @@ class X {
 + Remove the option from the method signature.
 
 ## Related error messages
-+ [cannot-use-'abstract'-as-method-modifier](asdf)
-+ [cannot-use-'final'-as-method-modifier](asdf)
-+ [cannot-use-'static'-as-method-modifier](asdf)
-+ [cannot-use-"abstract"-as-method-modifier-in-trait-alias](asdf)
++ [cannot-use-'abstract'-as-method-modifier](cannot-use-abstract-as-method-modifier.html)
++ [cannot-use-'final'-as-method-modifier](cannot-use-final-as-method-modifier.html)
++ [cannot-use-'static'-as-method-modifier](cannot-use-static-as-method-modifier.html)
++ [cannot-use-"abstract"-as-method-modifier-in-trait-alias](cannot-use-abstract-as-method-modifier-in-trait-alias.html)

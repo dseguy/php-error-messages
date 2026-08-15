@@ -22,7 +22,7 @@ boot();
 + Move the __halt_compiler() call out of the function/class/block, to the outermost level of the file.
 
 ## Related error messages
-+ [halt_compiler()-can-only-be-used-from-the-outermost-scope](asdf)
++ [halt_compiler()-can-only-be-used-from-the-outermost-scope](\_\_halt\_compiler\(\)-can-only-be-used-from-the-outermost-scope.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

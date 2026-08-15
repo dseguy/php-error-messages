@@ -20,8 +20,8 @@ class Foo {
 + Give the class a name, declare it separately, and use new Name(...) in the constant expression instead.
 
 ## Related error messages
-+ [cannot-use-dynamic-class-name-in-constant-expression](asdf)
-+ [static-"-is-not-allowed-in-compile-time-constants](asdf)
++ [cannot-use-dynamic-class-name-in-constant-expression](cannot-use-dynamic-class-name-in-constant-expression.html)
++ [static-"-is-not-allowed-in-compile-time-constants](static--is-not-allowed-in-compile-time-constants.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

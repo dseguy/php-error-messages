@@ -38,8 +38,8 @@ class C {
 + Rewrite the rule as `A::foo insteadof B;` if only `B`'s `foo` should be excluded.
 
 ## Related error messages
-+ [a-precedence-rule-was-defined-for-%s::%s-but-this-method-does-not-exist](asdf)
-+ [failed-to-evaluate-a-trait-precedence-(%s).-method-of-trait-%s-was-defined-to-be-excluded-multiple-times](asdf)
++ [a-precedence-rule-was-defined-for-%s::%s-but-this-method-does-not-exist](a-precedence-rule-was-defined-for-%s::%s-but-this-method-does-not-exist.html)
++ [failed-to-evaluate-a-trait-precedence-(%s).-method-of-trait-%s-was-defined-to-be-excluded-multiple-times](failed-to-evaluate-a-trait-precedence-\(%s\).-method-of-trait-%s-was-defined-to-be-excluded-multiple-times.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

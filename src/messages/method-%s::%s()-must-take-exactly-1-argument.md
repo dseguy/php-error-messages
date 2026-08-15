@@ -25,7 +25,7 @@ class X {
 + Use one argument for this method.
 
 ## Related error messages
-+ [method-%s::%s()-must-take-exactly-2-arguments](asdf)
++ [method-%s::%s()-must-take-exactly-2-arguments](method-%s::%s\(\)-must-take-exactly-2-arguments.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

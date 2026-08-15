@@ -28,4 +28,4 @@ echo $obj ?
 + Write the ``?->`` without spaces.
 
 ## Related error messages
-+ [syntax-error,-unexpected-token-"?->"](asdf)
++ [syntax-error,-unexpected-token-"?->"](syntax-error,-unexpected-token-?->.html)

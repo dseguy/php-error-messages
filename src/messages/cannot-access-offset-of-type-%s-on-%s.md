@@ -42,7 +42,7 @@ function foo(A $a) {
 + Cast the index to ``(string)`` or ``(int)`` when using it in the array notation.
 
 ## Related error messages
-+ [illegal-offset-type](asdf)
-+ [illegal-offset-type-in-unset](asdf)
-+ [illegal-offset-type-in-isset-or-empty](asdf)
-+ [cannot-auto-initialize-an-array-inside-property-%s::$%s-of-type-%s](asdf)
++ [illegal-offset-type](illegal-offset-type.html)
++ [illegal-offset-type-in-unset](illegal-offset-type-in-unset.html)
++ [illegal-offset-type-in-isset-or-empty](illegal-offset-type-in-isset-or-empty.html)
++ [cannot-auto-initialize-an-array-inside-property-%s::$%s-of-type-%s](cannot-auto-initialize-an-array-inside-property-%s::$%s-of-type-%s.html)

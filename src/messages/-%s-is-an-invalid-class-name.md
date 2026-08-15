@@ -37,5 +37,5 @@ class X {
 + Use the literal name of the intended class.
 
 ## Related error messages
-+ [type-declaration-'%s'-must-be-unqualified](asdf)
-+ [namespace-%s-is-an-invalid-class-name](asdf)
++ [type-declaration-'%s'-must-be-unqualified](type-declaration-%s-must-be-unqualified.html)
++ [namespace-%s-is-an-invalid-class-name](namespace-%s-is-an-invalid-class-name.html)

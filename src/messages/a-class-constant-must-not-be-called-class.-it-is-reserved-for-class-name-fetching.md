@@ -23,4 +23,4 @@ class X {
 + Use another name for that constant.
 
 ## Related error messages
-+ [cannot-redefine-class-constant-%s::%s](asdf)
++ [cannot-redefine-class-constant-%s::%s](cannot-redefine-class-constant-%s::%s.html)

@@ -29,8 +29,8 @@ interface Colorful {
 + Remove the `abstract` keyword, or move the method out of the interface, if it should have an implementation.
 
 ## Related error messages
-+ [%s-method-%s::%s()-must-not-be-abstract](asdf)
-+ [non-abstract-method-%s::%s()-must-contain-body](asdf)
++ [%s-method-%s::%s()-must-not-be-abstract](%s-method-%s::%s\(\)-must-not-be-abstract.html)
++ [non-abstract-method-%s::%s()-must-contain-body](non-abstract-method-%s::%s\(\)-must-contain-body.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

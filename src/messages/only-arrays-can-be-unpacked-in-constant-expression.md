@@ -25,4 +25,4 @@ foo();
 + Convert the object into an array.
 
 ## Related error messages
-+ [only-arrays-and-traversables-can-be-unpacked](asdf)
++ [only-arrays-and-traversables-can-be-unpacked](only-arrays-and-traversables-can-be-unpacked.html)

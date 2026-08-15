@@ -23,4 +23,4 @@ list() also has a short syntax version, `[]`. That short syntax is converted to 
 + Use array() or [] instead.
 
 ## Related error messages
-+ [cannot-use-list-as-key-element](asdf)
++ [cannot-use-list-as-key-element](cannot-use-list-as-key-element.html)

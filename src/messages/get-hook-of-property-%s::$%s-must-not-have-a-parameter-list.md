@@ -30,8 +30,8 @@ class X {
 + Remove the parenthesis that follows the ``get`` keyword, and their content.
 
 ## Related error messages
-+ [%s-hook-of-property-%s::$%s-must-accept-exactly-one-parameters](asdf)
-+ [type-of-parameter-$%s-of-hook-%s::$%s::set-must-be-compatible-with-property-type](asdf)
++ [%s-hook-of-property-%s::$%s-must-accept-exactly-one-parameters](%s-hook-of-property-%s::$%s-must-accept-exactly-one-parameters.html)
++ [type-of-parameter-$%s-of-hook-%s::$%s::set-must-be-compatible-with-property-type](type-of-parameter-$%s-of-hook-%s::$%s::set-must-be-compatible-with-property-type.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

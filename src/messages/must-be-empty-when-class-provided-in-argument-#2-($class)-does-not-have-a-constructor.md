@@ -32,7 +32,7 @@ try {
 + Use a null value for the third argument.
 
 ## Related error messages
-+ [must-be-empty-when-class-provided-in-argument-#1-($class)-does-not-have-a-constructor](asdf)
++ [must-be-empty-when-class-provided-in-argument-#1-($class)-does-not-have-a-constructor](must-be-empty-when-class-provided-in-argument-#1-\($class\)-does-not-have-a-constructor.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

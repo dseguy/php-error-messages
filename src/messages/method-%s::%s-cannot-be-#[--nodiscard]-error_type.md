@@ -34,9 +34,9 @@ clone $x;
 + If a discardable-value warning is needed, move the logic to a regular, non-magic method and mark that one instead.
 
 ## Related error messages
-+ [method-%s::%s-cannot-be-#[--nodiscard]](asdf)
-+ [a-void-%s-does-not-return-a-value](asdf)
-+ [a-never-returning-%s-does-not-return-a-value](asdf)
++ [method-%s::%s-cannot-be-#[--nodiscard]](method-%s::%s-cannot-be-#\[--nodiscard\].html)
++ [a-void-%s-does-not-return-a-value](a-void-%s-does-not-return-a-value.html)
++ [a-never-returning-%s-does-not-return-a-value](a-never-returning-%s-does-not-return-a-value.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

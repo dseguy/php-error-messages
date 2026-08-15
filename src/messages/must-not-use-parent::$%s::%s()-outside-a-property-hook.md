@@ -42,5 +42,5 @@ echo $objectY->q;
 + Inline the code every time it is needed.
 
 ## Related error messages
-+ [must-not-use-parent::$%s::%s()-in-a-different-property-($%s)](asdf)
-+ [must-not-use-parent::$%s::%s()-in-a-different-property-hook-(%s)](asdf)
++ [must-not-use-parent::$%s::%s()-in-a-different-property-($%s)](must-not-use-parent::$%s::%s\(\)-in-a-different-property-\($%s\).html)
++ [must-not-use-parent::$%s::%s()-in-a-different-property-hook-(%s)](must-not-use-parent::$%s::%s\(\)-in-a-different-property-hook-\(%s\).html)

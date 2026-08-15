@@ -27,10 +27,10 @@ namespace App;
 + Remove any whitespace or output before the opening ``<?php`` tag.
 
 ## Related error messages
-+ [no-code-may-exist-outside-of-namespace-{}](asdf)
-+ [strict_types-declaration-must-be-the-very-first-statement-in-the-script](asdf)
-+ [cannot-mix-bracketed-namespace-declarations](asdf)
-+ [encoding-declaration-pragma-must-be](asdf)
++ [no-code-may-exist-outside-of-namespace-{}](no-code-may-exist-outside-of-namespace-{}.html)
++ [strict_types-declaration-must-be-the-very-first-statement-in-the-script](strict\_types-declaration-must-be-the-very-first-statement-in-the-script.html)
++ [cannot-mix-bracketed-namespace-declarations](cannot-mix-bracketed-namespace-declarations.html)
++ [encoding-declaration-pragma-must-be](encoding-declaration-pragma-must-be.html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 
