@@ -1,0 +1,52 @@
+.. _the-\$key_length-parameter-is-deprecated-as-it-is-either-ignored-or-truncates-the-key:
+
+the $key_length parameter is deprecated as it is either ignored or truncates the key
+------------------------------------------------------------------------------------
+ 
+.. meta::
+	:description:
+		the $key_length parameter is deprecated as it is either ignored or truncates the key: ``openssl_pkey_derive()`` computes a shared secret from a private key and a peer&#039;s public key (for DH or ECDH key agreement), and accepts an optional ``$key_length`` argument that was documented as controlling the length of the derived secret.
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: the $key_length parameter is deprecated as it is either ignored or truncates the key
+	:og:description: ``openssl_pkey_derive()`` computes a shared secret from a private key and a peer&#039;s public key (for DH or ECDH key agreement), and accepts an optional ``$key_length`` argument that was documented as controlling the length of the derived secret
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/the-%24key_length-parameter-is-deprecated-as-it-is-either-ignored-or-truncates-the-key.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: the $key_length parameter is deprecated as it is either ignored or truncates the key
+	:twitter:description: the $key_length parameter is deprecated as it is either ignored or truncates the key: ``openssl_pkey_derive()`` computes a shared secret from a private key and a peer's public key (for DH or ECDH key agreement), and accepts an optional ``$key_length`` argument that was documented as controlling the length of the derived secret
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
+
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/the-$key_length-parameter-is-deprecated-as-it-is-either-ignored-or-truncates-the-key.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/the-$key_length-parameter-is-deprecated-as-it-is-either-ignored-or-truncates-the-key.html","name":"the $key_length parameter is deprecated as it is either ignored or truncates the key","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 11 Aug 2026 20:56:00 +0000","dateModified":"Tue, 11 Aug 2026 20:56:00 +0000","description":"``openssl_pkey_derive()`` computes a shared secret from a private key and a peer's public key (for DH or ECDH key agreement), and accepts an optional ``$key_length`` argument that was documented as controlling the length of the derived secret","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/the-$key_length-parameter-is-deprecated-as-it-is-either-ignored-or-truncates-the-key.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Description
+___________
+ 
+``openssl_pkey_derive()`` computes a shared secret from a private key and a peer's public key (for DH or ECDH key agreement), and accepts an optional ``$key_length`` argument that was documented as controlling the length of the derived secret.
+
+In practice, this parameter is either ignored entirely (when it is larger than or equal to the natural size of the underlying prime/curve) or silently truncates the derived key (when it is smaller), which can give a false sense of control over the output length and lead to weakened, truncated secrets being used unknowingly. As of PHP 8.5.0, passing a value for ``$key_length`` raises a deprecation notice.
+
+Example
+_______
+
+.. code-block:: php
+
+   <?php
+   
+   $sharedSecret = openssl_pkey_derive($peerPublicKey, $privateKey, 32);
+   
+   ?>
+
+Solutions
+_________
+
++ Stop passing ``$key_length`` to ``openssl_pkey_derive()``, and if a specific length is required, derive it explicitly from the full secret afterwards (e.g. with a KDF such as ``hash_hkdf()``).
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `openssl_pkey_derive <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/openssl_pkey_derive.html>`_.

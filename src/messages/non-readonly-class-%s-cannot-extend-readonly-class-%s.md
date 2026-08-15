@@ -1,0 +1,33 @@
+# Non-readonly class %s cannot extend readonly class %s
+
+## Description
+A readonly class cannot extends a non-readonly class; a non-readonly class cannot extends a readonly class. Both classes must be readonly or non-readonly to be able to extends one another. This is due to readonly being applied to all available properties, which is ambiguous with class hierarchies.
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/non-readonly-class-%s-cannot-extend-readonly-class-%s.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/non-readonly-class-%s-cannot-extend-readonly-class-%s.html","name":"Non-readonly class %s cannot extend readonly class %s","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 04 Aug 2026 19:12:10 +0000","dateModified":"Tue, 04 Aug 2026 19:12:10 +0000","description":"A readonly class cannot extends a non-readonly class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/non-readonly-class-%s-cannot-extend-readonly-class-%s.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+## Example
+
+```php
+<?php
+
+readonly class Foo
+{
+}
+
+class Bar extends Foo
+{
+}
+
+?>
+```
+
+## Literal Examples
++ Non-readonly class Foo cannot extend readonly class Bar
+
+## Alternatives
++ Make both classes readonly.
++ Make both classes non-readonly.
++ Make both classes non-readonly and apply readonly per properties.
+
+## Related error messages
++ [readonly-class-%s-cannot-extend-non-readonly-class-%s](asdf)
++ [%s-class-%s-cannot-extend-%s-class-%s](asdf)

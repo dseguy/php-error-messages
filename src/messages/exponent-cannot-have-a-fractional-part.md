@@ -1,0 +1,21 @@
+# exponent cannot have a fractional part
+
+## Description
+The exponent argument, aka the second, must be an integer value. It might be negative, or even zero, but it cannot be with a decimal separator.
+
+PHP tries to round it, so float values with only zeros after the decimal separator may work.
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/exponent-cannot-have-a-fractional-part.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/exponent-cannot-have-a-fractional-part.html","name":"exponent cannot have a fractional part","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:46 +0000","dateModified":"Tue, 31 Mar 2026 09:10:46 +0000","description":"The exponent argument, aka the second, must be an integer value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/exponent-cannot-have-a-fractional-part.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+## Example
+
+```php
+<?php
+
+echo bcpow('4.2', '3.2', 2); // 74.08
+
+?>
+```
+
+## Alternatives
++ Check the argument with ``is_int()``.
++ Round the argument to an integer.

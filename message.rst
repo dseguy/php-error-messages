@@ -114,7 +114,11 @@ PHP Error Messages
    messages/array_product():-multiplication-is-not-supported-on-type-string.rst
    messages/array_sum():-addition-is-not-supported-on-type-array.rst
    messages/arrow-functions-on-the-right-hand-side-of-|>-must-be-parenthesized.rst
+   messages/assert.active-ini-setting-is-deprecated.rst
+   messages/assert.bail-ini-setting-is-deprecated.rst
    messages/assert.callback-ini-setting-is-deprecated.rst
+   messages/assert.exception-ini-setting-is-deprecated.rst
+   messages/assert.warning-ini-setting-is-deprecated.rst
    messages/assignments-can-only-happen-to-writable-values.rst
    messages/attempt-to-assign-property-"%s"-on-null.rst
    messages/attempt-to-read-property-"%s"-on-%s.rst
@@ -122,6 +126,7 @@ PHP Error Messages
    messages/attribute-"%s"-cannot-target-%s-(allowed-targets:-%s).rst
    messages/attribute-class-"%s"-not-found.rst
    messages/automatic-conversion-of-false-to-array-is-deprecated.rst
+   messages/automatic-fetching-of-postgresql-connection-is-deprecated.rst
    messages/b-cannot-implement-a---it-is-not-an-interface.rst
    messages/bad-class-name-in-the-catch-statement.rst
    messages/break-operator-accepts-only-positive-integers.rst
@@ -138,6 +143,7 @@ PHP Error Messages
    messages/calling-%s()-on-an-object-is-deprecated.rst
    messages/calling-get_class()-without-arguments-is-deprecated.rst
    messages/calling-get_parent_class()-without-arguments-is-deprecated.rst
+   messages/calling-mb_check_encoding()-without-argument-is-deprecated.rst
    messages/calling-static-trait-method-%s::%s-is-deprecated.rst
    messages/can't-inherit-abstract-function-%s::%s()-(previously-declared-abstract-in-%s).rst
    messages/can't-use-function-return-value-in-write-context.rst
@@ -371,6 +377,7 @@ PHP Error Messages
    messages/couldn't-open-stream:-%s.rst
    messages/creating-default-object-from-empty-value.rst
    messages/creation-of-dynamic-property-%s::$%s-is-deprecated.rst
+   messages/curlpipe_http1-is-deprecated.rst
    messages/current-function-is-not-a-closure.rst
    messages/datetimeinterface-can't-be-implemented-by-user-classes.rst
    messages/datetimezone-object-is-unconstructed.rst
@@ -391,6 +398,7 @@ PHP Error Messages
    messages/delimiter-must-not-be-alphanumeric-or-backslash.rst
    messages/deriving-$_server['argv']-from-the-query-string-is-deprecated.-configure-register_argc_argv=0-to-turn-this-message-off.rst
    messages/destructors-cannot-declare-a-return-type.rst
+   messages/directive-\'report_memleaks\'-is-deprecated.rst
    messages/disabling-session.use_only_cookies-ini-setting-is-deprecated.rst
    messages/division-of-php_int_min-by--1-is-not-an-integer.rst
    messages/duplicate-declaration-of-static-variable-$%s.rst
@@ -438,7 +446,9 @@ PHP Error Messages
    messages/get_defined_functions():-setting-$exclude_disabled-to-false-has-no-effect.rst
    messages/get_defined_functions():-the-$exclude_disabled-parameter-has-no-effect-since-php-8.0.rst
    messages/handling-base64-via-mbstring-is-deprecated;-use-base64_encode-base64_decode-instead.rst
+   messages/handling-html-entities-via-mbstring-is-deprecated;-use-htmlspecialchars,-htmlentities,-or-mb_encode_numericentity-mb_decode_numericentity-instead.rst
    messages/handling-html-entities-via-mbstring-is-deprecated;-use-htmlspecialchars,-htmlentities,-or-mb_encode_numericentity-mb_decode_numericentity.rst
+   messages/handling-qprint-via-mbstring-is-deprecated;-use-quoted_printable_encode-quoted_printable_decode-instead.rst
    messages/handling-qprint-via-mbstring-is-deprecated;-use-quoted_printable_encode-quoted_printable_decode.rst
    messages/handling-uuencode-via-mbstring-is-deprecated;-use-convert_uuencode-convert_uudecode-instead.rst
    messages/has-#[-override]-attribute,-but-no-matching-parent-method-exists.rst
@@ -594,6 +604,8 @@ PHP Error Messages
    messages/parameter-must-be-an-array-or-an-object-that-implements-countable.rst
    messages/parameter-must-have-a-name.rst
    messages/parameter-uses-'parent'-as-type-hint-although-class-does-not-have-a-parent!.rst
+   messages/passing-a-negative-integer-to-argument-#3-($width)-is-deprecated.rst
+   messages/passing-connection-object-as-an-argument-is-deprecated.rst
    messages/passing-e_user_error-to-trigger_error()-is-deprecated-since-8.4,-throw-an-exception-or-call-exit-with-a-string-message-instead.rst
    messages/passing-false-or-null-is-deprecated-since-8.4.rst
    messages/passing-non-callable-strings-is-deprecated-since-8.4.rst
@@ -604,6 +616,7 @@ PHP Error Messages
    messages/power-of-base-0-and-negative-exponent-is-deprecated.rst
    messages/private-constant-%s::%s-cannot-be-final-as-it-is-not-visible-to-other-classes.rst
    messages/private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes.rst
+   messages/producing-output-from-user-output-handler-%s-is-deprecated.rst
    messages/property-%s-does-not-exist.rst
    messages/property-%s::$%s-cannot-have-type-%s.rst
    messages/property-%s::$%s-does-not-exist.rst
@@ -640,6 +653,9 @@ PHP Error Messages
    messages/security-level-must-be-one-of-"noauthnopriv",-"authnopriv",-or-"authpriv.rst
    messages/security-protocol-must-be-one-of-"aes128",-or-"aes-e_error.rst
    messages/security-protocol-must-be-one-of-"des",-"aes128",-or-"aes-e_error.rst
+   messages/session-callback-must-have-a-return-value-of-type-bool,-%s-returned.rst
+   messages/session.sid_bits_per_character-ini-setting-is-deprecated.rst
+   messages/session.sid_length-ini-setting-is-deprecated.rst
    messages/set-access-level-of-%s::$%s-must-be-%s-(as-in-class-%s)%s.rst
    messages/set-type-of-%s::$%s-must-be-supertype-of-%s-(as-in-%s-%s).rst
    messages/spread-operator-is-not-supported-in-assignments.rst
@@ -786,7 +802,9 @@ PHP Error Messages
    messages/syntax-error,-unexpected-variable-"$this",-expecting-";"-or-"{".rst
    messages/syntax-error,-unexpected-variable-"%s",-expecting-"(".rst
    messages/the-"generator"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated.rst
+   messages/the-$context-parameter-has-no-effect-for-finfo_buffer().rst
    messages/the-$escape-parameter-must-be-provided-as-its-default-value-will-change.rst
+   messages/the-$key_length-parameter-is-deprecated-as-it-is-either-ignored-or-truncates-the-key.rst
    messages/the-(real)-cast-has-been-removed,-use-(float)-instead.rst
    messages/the-(real)-cast-is-deprecated,-use-(float)-instead.rst
    messages/the-(unset)-cast-is-deprecated.rst
@@ -879,17 +897,24 @@ PHP Error Messages
    messages/unsupported-operand-types.rst
    messages/unsupported-operand-types:-%s-%s-%s.rst
    messages/unterminated-comment-starting-line-%d.rst
+   messages/usage-of-session.referer_check-ini-setting-is-deprecated.rst
    messages/use-of-"parent"-in-callables-is-deprecated.rst
    messages/use-of-"self"-in-callables-is-deprecated.rst
    messages/use-of-"static"-in-callables-is-deprecated.rst
+   messages/use-of-mbstring.http_input-is-deprecated.rst
+   messages/use-of-mbstring.http_output-is-deprecated.rst
+   messages/use-of-mbstring.internal_encoding-is-deprecated.rst
+   messages/use-of-warnings-for-sqlite3-is-deprecated.rst
    messages/using-"_"-as-%s-is-deprecated-since-8.4.rst
    messages/using-$this-when-not-in-object-context.rst
    messages/using-${expr}-(variable-variables)-in-strings-is-deprecated,-use-{${expr}}-instead.rst
    messages/using-${var}-in-strings-is-deprecated,-use-{$var}-instead.rst
    messages/using-an-object-as-a-backing-array-for-%s-is-deprecated,-as-it-allows-violating-class-constraints-and-invariants.rst
    messages/using-array_key_exists()-on-objects-is-deprecated..rst
+   messages/using-empty-file-as-ziparchive-is-deprecated.rst
    messages/using-null-as-an-array-offset-is-deprecated,-use-an-empty-string-instead.rst
    messages/using-null-as-the-key-parameter-for-array_key_exists()-is-deprecated,-use-an-empty-string-instead.rst
+   messages/using-the-$num_points-parameter-is-deprecated.rst
    messages/value-of-type-%s-is-not-callable.rst
    messages/variadic-parameter-cannot-have-a-default-value.rst
    messages/variadic-placeholder-may-only-appear-once.rst

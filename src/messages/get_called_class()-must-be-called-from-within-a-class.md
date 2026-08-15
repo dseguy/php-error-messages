@@ -1,0 +1,21 @@
+# get_called_class() must be called from within a class
+
+## Description
+get_called_class() returns the name of the current class. It emits an error when it cannot find the current class. 
+
+get_called_class() can only be called from within a class, trait or enumeration. It may be called from a static closure, as long as the closure is created inside a class.
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/get_called_class()-must-be-called-from-within-a-class.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/get_called_class()-must-be-called-from-within-a-class.html","name":"get_called_class() must be called from within a class","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:46 +0000","dateModified":"Tue, 31 Mar 2026 09:10:46 +0000","description":"get_called_class() returns the name of the current class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/get_called_class()-must-be-called-from-within-a-class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+## Example
+
+```php
+<?php
+
+get_called_class();
+
+?>
+```
+
+## Alternatives
++ Use the magic constant __CLASS__.
++ Use the function inside a class, enumeration or trait.

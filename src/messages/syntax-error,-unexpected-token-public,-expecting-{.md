@@ -1,0 +1,29 @@
+# syntax error, unexpected token "public", expecting "{"
+
+## Description
+`public` and the other visibility options are only seen inside a class or CITE. They mark the start of their definition (property, constant, method), and can only be seen in the body of the CITE. 
+
+With an expected opening curly brace, this means the class signature was not finished with the opening curly brace.
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/syntax-error,-unexpected-token-\"public\",-expecting-\"{\".html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/syntax-error,-unexpected-token-\"public\",-expecting-\"{\".html","name":"syntax error, unexpected token \"public\", expecting \"{\"","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:47 +0000","dateModified":"Tue, 31 Mar 2026 09:10:47 +0000","description":"``public`` and the other visibility options are only seen inside a class or CITE","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/syntax-error,-unexpected-token-\"public\",-expecting-\"{\".html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+## Example
+
+```php
+<?php
+
+class X 
+    public function foo() {}
+}
+
+?>
+```
+
+## Alternatives
++ Add the opening curly bracket between the class signature and its body.
++ Add the opening curly bracket between the interface signature and its body.
++ Add the opening curly bracket between the trait signature and its body.
++ Add the opening curly bracket between the enum signature and its body.
+
+## Related error messages
++ [syntax-error,-unexpected-token-"protected",-expecting-"{"](asdf)
++ [syntax-error,-unexpected-token-"private",-expecting-"{"](asdf)

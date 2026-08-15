@@ -1,0 +1,544 @@
+## Tag index
+
++ _noDetails
+  + must-be-a-valid-charset
++ abstract
+  + non-abstract-method-%s::%s()-must-contain-body
++ algorithm
+  + unknown-digest-algorithm:-%s
++ argument
+  + %s():-argument-#%d%s%s%s-cannot-be-passed-by-reference
+  + too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d-expected
+  + too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d
++ argument-value
+  + must-be-a-valid-comparison-operator
++ arrays
+  + automatic-conversion-of-false-to-array-is-deprecated
++ attribute
+  + cannot-apply-attributes-to-multiple-constants-at-once
+  + cannot-create-closure-as-attribute-argument
+  + cannot-use-unpacking-in-attribute-argument-list
++ bug
+  + cannot-use--"%s-"-as-%s-as-it-is-reserved
+  + syntax-error,-unexpected-token-"(int)"
++ callback
+  + %s():-return-value-of-the-authorizer-callback-must-be-of-type-int,-%s-returned
+  + %s():-return-value-of-the-collation-callback-must-be-of-type-int,-%s-returned
++ catch
+  + bad-class-name-in-the-catch-statement
+  + cannot-use-try-without-catch-or-finally
++ changed behavior
+  + accessing-static-trait-property-%s::$%s-is-deprecated
+  + calling-static-trait-method-%s::%s-is-deprecated
+  + cannot-use-\'mixed\'-as-class-name-as-it-is-reserved
+  + cannot-use-\'never\'-as-class-name-as-it-is-reserved
+  + cannot-use-::class-with-dynamic-class-name
+  + cannot-use-the-abstract-modifier-on-a-property
+  + power-of-base-0-and-negative-exponent-is-deprecated
+  + syntax-error,-unexpected-token-"("
+  + undefined-variable
+  + unparenthesized-\`a-?-b-:-c-?-d-:-e\`-is-not-supported.
+  + unparenthesized-\`a-?-b-:-c-?:-d\`-is-not-supported.
+  + unparenthesized-\`a-?:-b-?-c-:-d\`-is-not-supported.
++ class
+  + cannot-redeclare-class-%s
+  + cannot-use-"parent"-when-current-class-scope-has-no-parent
++ class constant
+  + undefined-class-constant-\'%s::%s\'
+  + undefined-constant-%s::%s
++ classic
+  + cannot-modify-header-information---headers-already-sent
++ closure
+  + cannot-bind-method-%s::%s()-to-object-of-class-%s,-this-will-be-an-error-in-php-9
+  + cannot-combine-nullsafe-operator-with-closure-creation
+  + cannot-create-closure-as-attribute-argument
+  + cannot-rebind-scope-of-closure-created-from-function,-this-will-be-an-error-in-php-9
+  + cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9
+  + cannot-unbind-$this-of-closure-using-$this,-this-will-be-an-error-in-php-9
+  + cannot-unbind-$this-of-method,-this-will-be-an-error-in-php-9
+  + cannot-use-variable-$%ps-twice
++ coercion
+  + unexpected-nan-value-was-coerced-to-%s
++ collision
+  + %s-%s-inherits-both-%s::%s-and-%s::%s
++ compile error
+  + cannot-use-empty-list
++ confusion
+  + %s"-will-be-interpreted-as-a-class-name.-did-you-mean-"%s"?-write-"%s"%s-to-suppress-this-warning
++ const
+  + cannot-declare-const-%s-because
+  + cannot-redeclare-constant-\'%s\'
++ constant
+  + "static::"-is-not-allowed-in-compile-time-constants
+  + undefined-constant-"%s
++ constructor
+  + intllistformatter-object-is-already-constructed
++ crash
+  + must-not-contain-empty-strings
++ datetime
+  + datetimezone-object-is-unconstructed
++ debug
+  + duplicate-parameter-name-$%s-for-function-%s%s%s()
++ debugging
+  + returning-null-from-%s::__debuginfo()-is-deprecated,-return-an-empty-array-instead
++ declare
+  + declare(%s)-value-must-be-a-literal
+  + encoding-declaration-pragma-must-be
+  + namespace-declaration-statement-has-to-be
++ default value
+  + parameter-$%s-of-%s-hook-%s::$%s-must-not-have-a-default-value
++ deprecated
+  + function-libxml_disable_entity_loader()-is-deprecated-since-8.0,-as-external-entity-loading-is-disabled-by-default
+  + the-(real)-cast-is-deprecated,-use-(float)-instead
++ deprecation
+  + cannot-bind-method-%s::%s()-to-object-of-class-%s,-this-will-be-an-error-in-php-9
+  + cannot-rebind-scope-of-closure-created-from-function,-this-will-be-an-error-in-php-9
+  + cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9
+  + cannot-unbind-$this-of-closure-using-$this,-this-will-be-an-error-in-php-9
+  + cannot-unbind-$this-of-method,-this-will-be-an-error-in-php-9
+  + constant-%s-is-deprecated
+  + constant-%s::%s-is-deprecated
+  + function-%s()-is-deprecated%s
+  + reflectionclass::getconstant()-for-a-non-existent-constant-is-deprecated,
+  + reflectionproperty::getdefaultvalue()-for-a-property-without-a-default-value-is-deprecated,
+  + returning-null-from-%s::__debuginfo()-is-deprecated,-return-an-empty-array-instead
+  + trait-%s-used-by-%s-is-deprecated%s
+  + using-array_key_exists()-on-objects-is-deprecated.
++ destructor
+  + call-to-%s-%s::__destruct()-from-global-scope-during-shutdown-ignored
++ digest
+  + unknown-digest-algorithm:-%s
++ directive
+  + maximum-execution-time-of-%d-second%s-exceeded
+  + open_basedir-restriction-in-effect.-file(%s)-is-not-within-the-allowed-path(s):-(%s)
++ dnf
+  + type-%s-is-redundant-as-it-is-more-restrictive-than-type-%s
+  + type-%s-is-redundant-with-type-%s
++ edge case
+  + is-an-invalid-class-name
++ ellipsis
+  + cannot-use-positional-argument-after-argument-unpacking
+  + cannot-use-positional-argument-after-named-argument
++ encoding
+  + encoding-declaration-pragma-must-be
+  + is-not-a-valid-codepoint
++ enum
+  + case-%s-of-non-backed-enum-%s-must-not-have-a-value
++ exception
+  + bad-class-name-in-the-catch-statement
++ execution
+  + access-level-to-%s::%s-must-be-%s-(as-in-%s-%s)%s
+  + cannot-call-constructor
+  + cannot-override-final-property-hook-%s::%s()
+  + duplicate-value-in-enum-%s-for-cases-%s-and-%s
+  + illegal-offset-type-in-isset-or-empty
+  + illegal-offset-type-in-unset
+  + illegal-offset-type
+  + never-returning-function-must-not-implicitly-return
+  + trait-method-%s::%s-has-not-been-applied-as-%s::%s
++ execution only
+  + %s():-never-returning-%s-must-not-implicitly-return
++ extension
+  + ffi-api-is-restricted-by-"ffi.enable"-configuration-directive
+  + function-libxml_disable_entity_loader()-is-deprecated-since-8.0,-as-external-entity-loading-is-disabled-by-default
+  + module-"%s"-is-already-loaded
+  + must-not-contain-empty-strings
+  + security-level-must-be-one-of-"noauthnopriv",-"authnopriv",-or-"authpriv
++ fetch
+  + cannot-change-default-fetch-mode-while-fetching
++ file
+  + failed-to-open-stream:-too-many-open-files
++ finally
+  + cannot-use-try-without-catch-or-finally
++ forbidden
+  + non-enum-class-%s-cannot-implement-interface-%s
++ foreach
+  + cannot-use-list-as-key-element
++ fully-qualified-name
+  + \'-%s\'-is-an-invalid-class-name
++ function
+  + %s():-never-returning-function-must-not-implicitly-return
+  + %s-hook-of-property-%s::$%s-must-accept-exactly-one-parameters
+  + get-hook-of-property-%s::$%s-must-not-have-a-parameter-list
++ funny
+  + cannot-declare-self-referencing-constant
++ garbage-collection
+  + call-to-%s-%s::__destruct()-from-global-scope-during-shutdown-ignored
++ gem
+  + increment-on-non-alphanumeric-string-is-deprecated
++ generator
+  + cannot-rewind-a-generator-that-was-already-run
++ goto
+  + \'goto\'-into-loop-or-switch-statement-is-disallowed
++ hash
+  + unknown-digest-algorithm:-%s
++ implicit
+  + %s%s%s():-return-value-must-be-of-type-%s,-%s-returned
+  + %s():-implicitly-marking-parameter-$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead
++ internal
+  + parameter-must-have-a-name
++ intersection
+  + type-%s-cannot-be-part-of-an-intersection-type
++ intl
+  + datetimezone-object-is-unconstructed
+  + intllistformatter-object-is-already-constructed
++ iterator
+  + iterator-does-not-support-rewinding
++ keyword
+  + cannot-use-\'mixed\'-as-class-name-as-it-is-reserved
+  + cannot-use-\'never\'-as-class-name-as-it-is-reserved
+  + cannot-use--"%s-"-as-%s
+  + syntax-error,-unexpected-\'::\',-expecting-\'(\'
+  + syntax-error,-unexpected-token-"::"
++ late-static-binding
+  + use-of-"parent"-in-callables-is-deprecated
+  + use-of-"self"-in-callables-is-deprecated
+  + use-of-"static"-in-callables-is-deprecated
++ limits
+  + maximum-depth-of-%d-exceeded.-the-depth-limit-can-be-changed-using-the-max_depth-unserialize()-option
++ lint
+  + a-function-with-return-type-must-return-a-value
+  + never-returning-function-must-not-implicitly-return
+  + the-use-statement-with-non-compound-name-\'%s\'
++ lint-wont-execute
+  + %s-"-is-returned-from-__sleep()-multiple-times
++ list
+  + cannot-use-empty-list
+  + cannot-use-list-as-key-element
++ lower-case-name
+  + ffi-api-is-restricted-by-"ffi.enable"-configuration-directive
+  + namespace-%s-is-an-invalid-class-name
+  + syntax-error,-unexpected-identifier-"%s"
+  + syntax-error,-unexpected-token-"%s",-expecting-identifier
+  + type-%s-contains-both-object-and-a-class-type
++ magic-method
+  + returning-null-from-%s::__debuginfo()-is-deprecated,-return-an-empty-array-instead
++ mbstring
+  + is-not-a-valid-codepoint
++ modernisation
+  + accessing-static-trait-property-%s::$%s-is-deprecated
+  + call-to-undefined-function-exit()
+  + calling-static-trait-method-%s::%s-is-deprecated
+  + cannot-use-object-of-type-%s-as-array
+  + providing-individual-callbacks-instead-of-an-object-implementing-sessionhandlerinterface-is-deprecated
++ name
+  + syntax-error,-unexpected-identifier-"%s"
++ namespace
+  + cannot-redeclare-function-%s()-(previously-declared-as-local-import)
+  + namespace-declaration-statement-has-to-be
+  + syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function"
++ nan
+  + unexpected-nan-value-was-coerced-to-%s
++ no-closing-tag
+  + syntax-error,-unexpected-end-of-file
+  + syntax-error,-unexpected-string-content
+  + syntax-error,-unexpected-token-";",-expecting-"function"-or-"fn"-or-"static"-or-"#["
++ no-code
+  + jit-is-incompatible-with-third-party-extensions-that-override-zend_execute_ex().-jit-disabled.
+  + module-"%s"-is-already-loaded
+  + parameter-must-have-a-name
++ no-opening-tag
+  + strict_types-declaration-must-be-the-very-first-statement-in-the-script
++ non-instantiable
+  + cannot-directly-construct-directory,-use-dir()-instead
+  + sqlite3result-cannot-be-directly-instantiated
++ not generated
+  + classes-must-be-first-marked-as-attribute-before-being-able-to-be-registered-as-internal-attribute-class
+  + enum-"%s"-not-found
+  + failed-to-open-stream-from-socketpair
+  + is-an-unsupported-rounding-mode
+  + only-internal-classes-can-be-registered-as-compiler-attribute
+  + static-function-%s%s%s()-cannot-be-abstract
+  + unknown-parser
++ not-recommended
+  + syntax-error,-unexpected-token-"(",-expecting-"::"
++ null
+  + null-cannot-be-marked-as-nullable
++ object
+  + type-%s-contains-both-object-and-a-class-type
++ offset
+  + illegal-string-offset
++ old behavior
+  + creating-default-object-from-empty-value
++ operators
+  + the-behavior-of-unparenthesized-expressions-containing-both-\'.\'-and-\'+\'-\'-\'-will-change-in-php-8:-\'+\'-\'-\'-will-take-a-higher-precedence
+  + the-behavior-of-unparenthesized-expressions-containing-both-\'.\'-and-\'<<\'-\'>>\'-will-change-in-php-8:-\'<<\'-\'>>\'-will-take-a-higher-precedence
++ p
+  + class-%s-cannot-use-%s---it-is-not-a-trait
++ parameter value error
+  + must-be-greater-than-0
++ partial-lint
+  + could-not-check-compatibility-between-%s-and-%s,-because-class-%s-is-not-available
++ pdo
+  + %s():-return-value-of-the-authorizer-callback-must-be-of-type-int,-%s-returned
+  + %s():-return-value-of-the-collation-callback-must-be-of-type-int,-%s-returned
+  + cannot-change-default-fetch-mode-while-fetching
++ printf
+  + missing-format-specifier-at-end-of-string
+  + unknown-format-specifier-"%c
++ property
+  + default-value-for-property-of-type-%s-may-not-be-null.-use-the-nullable-type-%s-to-allow-null-default-value
++ property hook
+  + %s-hook-of-property-%s::$%s-must-accept-exactly-one-parameters
+  + get-hook-of-backed-property-%s::%s-with-set-hook-may-not-return-by-reference
+  + get-hook-of-property-%s::$%s-must-not-have-a-parameter-list
+  + parameter-$%s-of-%s-hook-%s::$%s-must-not-be-pass-by-reference
+  + parameter-$%s-of-%s-hook-%s::$%s-must-not-be-variadic
+  + parameter-$%s-of-%s-hook-%s::$%s-must-not-have-a-default-value
+  + unknown-hook--"%s-"-for-property-%s::$%s
++ property-hook
+  + cannot-redeclare-property-hook--"%s
++ readonly
+  + cannot-acquire-reference-to-$globals
+  + cannot-acquire-reference-to-readonly-property-%s::$%s
++ redeclare
+  + cannot-redeclare-%s()-(previously-declared-in-%s:%d)
+  + cannot-redeclare-function-%s()-(previously-declared-in-%s:%d)
++ reference
+  + %s():-argument-#%d%s%s%s-cannot-be-passed-by-reference
+  + cannot-acquire-reference-to-$globals
+  + cannot-acquire-reference-to-readonly-property-%s::$%s
+  + parameter-$%s-of-%s-hook-%s::$%s-must-not-be-pass-by-reference
++ reflection
+  + reflectionclass::getconstant()-for-a-non-existent-constant-is-deprecated,
+  + reflectionproperty::getdefaultvalue()-for-a-property-without-a-default-value-is-deprecated,
++ relative-types
+  + \'-%s\'-is-an-invalid-class-name
++ removed
+  + call-to-undefined-function-each()
+  + the-(real)-cast-has-been-removed,-use-(float)-instead
+  + the-(real)-cast-is-deprecated,-use-(float)-instead
++ removed feature
+  + methods-with-the-same-name-as-their-class-will-not-be-constructors-in-a-future-version-of-php;-%s-has-a-deprecated-constructor
++ removed message
+  + traits-cannot-have-constants
++ reserved
+  + non-enum-class-%s-cannot-implement-interface-%s
++ return
+  + %s():-never-returning-function-must-not-implicitly-return
++ return-type
+  + a-%s-with-return-type-must-return-a-value
++ scope
+  + cannot-bind-method-%s::%s()-to-object-of-class-%s,-this-will-be-an-error-in-php-9
+  + cannot-rebind-scope-of-closure-created-from-function,-this-will-be-an-error-in-php-9
+  + cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9
+  + cannot-unbind-$this-of-closure-using-$this,-this-will-be-an-error-in-php-9
+  + cannot-unbind-$this-of-method,-this-will-be-an-error-in-php-9
++ security
+  + maximum-depth-of-%d-exceeded.-the-depth-limit-can-be-changed-using-the-max_depth-unserialize()-option
++ shutdown
+  + call-to-%s-%s::__destruct()-from-global-scope-during-shutdown-ignored
++ silent-cast
+  + array_product():-multiplication-is-not-supported-on-type-array
+  + array_product():-multiplication-is-not-supported-on-type-object
+  + array_product():-multiplication-is-not-supported-on-type-string
+  + array_sum():-addition-is-not-supported-on-type-array
++ special case
+  + property-x::$p-cannot-have-type-void
+  + void-cannot-be-used-as-a-parameter-type
++ sqlite
+  + %s():-return-value-of-the-authorizer-callback-must-be-of-type-int,-%s-returned
+  + %s():-return-value-of-the-collation-callback-must-be-of-type-int,-%s-returned
++ strict check
+  + providing-a-string-that-is-not-one-byte-long-is-deprecated.-use-ord($str[0])-instead
+  + providing-an-empty-string-is-deprecated
++ strict_types
+  + strict_types-declaration-must-be
+  + strict_types-declaration-must-have-0-or-1-as-its-value
+  + strict_types-declaration-must-not
++ string
+  + illegal-string-offset
+  + providing-a-string-that-is-not-one-byte-long-is-deprecated.-use-ord($str[0])-instead
++ surprise
+  + %s-"-is-not-a-supported-builtin-type-and-will-be-interpreted-as-a-class-name.-write--"--%s-"%s-to-suppress-this-warning
+  + %s-"-will-be-interpreted-as-a-class-name.-did-you-mean--"%s-"?-write--"--%s-"%s-to-suppress-this-warning
+  + %s-and-%s-define-the-same-constant-(%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed
+  + %s-and-%s-define-the-same-property-($%s)-in-the-composition-of-%s.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed
++ surprising
+  + cannot-use-temporary-expression-in-write-context
+  + case-statements-followed-by-a-semicolon-(;)-are-deprecated,-use-a-colon-(:)-instead
++ syntax-error
+  + invalid-numeric-literal
+  + syntax-error,-unexpected-\')\',-expecting-\'=\'
+  + syntax-error,-unexpected-\')\',-expecting-\'|\'-or-variable-(t_variable)
+  + syntax-error,-unexpected-\')\',-expecting-variable-(t_variable)
+  + syntax-error,-unexpected-\',\'
+  + syntax-error,-unexpected-\'-\',-expecting-\'=\'
+  + syntax-error,-unexpected-\'::\',-expecting-\'(\'
+  + syntax-error,-unexpected-\'::\'-(t_paamayim_nekudotayim),-expecting-\';\'-or-\',\'
+  + syntax-error,-unexpected-\';\',-expecting-\'[\'
+  + syntax-error,-unexpected-\';\',-expecting-\'{\'
+  + syntax-error,-unexpected-\'[\',-expecting-\';\'-or-\',\'
+  + syntax-error,-unexpected-\'elseif\'
+  + syntax-error,-unexpected-\'match\'
+  + syntax-error,-unexpected-\'throw\'-(t_throw)
+  + syntax-error,-unexpected-\'{\'
+  + syntax-error,-unexpected-\'|\',-expecting-variable-(t_variable)
+  + syntax-error,-unexpected-end-of-file
+  + syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function"-or-"const"
+  + syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function"
+  + syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"{"
+  + syntax-error,-unexpected-fully-qualified-name-"%s"
+  + syntax-error,-unexpected-identifier-"%s",-expecting-"("
+  + syntax-error,-unexpected-identifier-"%s",-expecting-")"
+  + syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";"
+  + syntax-error,-unexpected-identifier-"%s",-expecting-";"-or-"{"
+  + syntax-error,-unexpected-identifier-"%s",-expecting-"]"
+  + syntax-error,-unexpected-identifier-"%s",-expecting-"function"-or-"const"
+  + syntax-error,-unexpected-identifier-"%s",-expecting-"function"
+  + syntax-error,-unexpected-identifier-"%s",-expecting-"{"
+  + syntax-error,-unexpected-identifier-"%s",-expecting-variable-or-"$"
+  + syntax-error,-unexpected-identifier-"%s",-expecting-variable
+  + syntax-error,-unexpected-identifier-"%s"
+  + syntax-error,-unexpected-identifier-"readonly",-expecting-"function"-or-"const"
+  + syntax-error,-unexpected-integer-"%s",-expecting-")"
+  + syntax-error,-unexpected-namespaced-name-"%s",-expecting-"function"
+  + syntax-error,-unexpected-single-quoted-string-"%s",-expecting-")"
+  + syntax-error,-unexpected-string-content
+  + syntax-error,-unexpected-token-"#[",-expecting-")"
+  + syntax-error,-unexpected-token-"#[",-expecting-","-or-";"
+  + syntax-error,-unexpected-token-"#[",-expecting-"]"
+  + syntax-error,-unexpected-token-"%"
+  + syntax-error,-unexpected-token-"%s",-expecting-identifier
+  + syntax-error,-unexpected-token-"&",-expecting-end-of-file
+  + syntax-error,-unexpected-token-"&"
+  + syntax-error,-unexpected-token-"(",-expecting-"::"
+  + syntax-error,-unexpected-token-"(",-expecting-identifier-or-variable-or-"{"-or-"$"
+  + syntax-error,-unexpected-token-"(",-expecting-variable
+  + syntax-error,-unexpected-token-"("
+  + syntax-error,-unexpected-token-"(int)"
+  + syntax-error,-unexpected-token-")",-expecting-"="
+  + syntax-error,-unexpected-token-")",-expecting-"function"-or-"fn"-or-"static"-or-"#["
+  + syntax-error,-unexpected-token-")",-expecting-variable
+  + syntax-error,-unexpected-token-")"
+  + syntax-error,-unexpected-token-"*"
+  + syntax-error,-unexpected-token-",",-expecting-")"
+  + syntax-error,-unexpected-token-",",-expecting-"]"
+  + syntax-error,-unexpected-token-",",-expecting-variable-or-"$"
+  + syntax-error,-unexpected-token-",",-expecting-variable
+  + syntax-error,-unexpected-token-","
+  + syntax-error,-unexpected-token-"--",-expecting-"{"
+  + syntax-error,-unexpected-token-"->",-expecting-","-or-";"
+  + syntax-error,-unexpected-token-"->"
+  + syntax-error,-unexpected-token-":",-expecting-")"
+  + syntax-error,-unexpected-token-":",-expecting-"]"
+  + syntax-error,-unexpected-token-":"
+  + syntax-error,-unexpected-token-"::",-expecting-","-or-";"
+  + syntax-error,-unexpected-token-"::",-expecting-":"
+  + syntax-error,-unexpected-token-"::",-expecting-"]"
+  + syntax-error,-unexpected-token-"::"
+  + syntax-error,-unexpected-token-";",-expecting-"("
+  + syntax-error,-unexpected-token-";",-expecting-")"
+  + syntax-error,-unexpected-token-";",-expecting-","-or-")"
+  + syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"["
+  + syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"{"-or-"["
+  + syntax-error,-unexpected-token-";",-expecting-"]"
+  + syntax-error,-unexpected-token-";",-expecting-"function"-or-"fn"-or-"static"-or-"#["
+  + syntax-error,-unexpected-token-";",-expecting-"{"
+  + syntax-error,-unexpected-token-";",-expecting-identifier
+  + syntax-error,-unexpected-token-";"
+  + syntax-error,-unexpected-token-"<<"
+  + syntax-error,-unexpected-token-"=",-expecting-identifier-or-variable-or-"{"-or-"$"
+  + syntax-error,-unexpected-token-"=",-expecting-identifier
+  + syntax-error,-unexpected-token-"=",-expecting-variable
+  + syntax-error,-unexpected-token-"="
+  + syntax-error,-unexpected-token-">"
+  + syntax-error,-unexpected-token-"?"
+  + syntax-error,-unexpected-token-"?->",-expecting-","-or-";"
+  + syntax-error,-unexpected-token-"?->"
+  + syntax-error,-unexpected-token-"??"
+  + syntax-error,-unexpected-token-"]"
+  + syntax-error,-unexpected-token-"__namespace__",-expecting-"("
+  + syntax-error,-unexpected-token-"as"
+  + syntax-error,-unexpected-token-"break"
+  + syntax-error,-unexpected-token-"class",-expecting-"]"
+  + syntax-error,-unexpected-token-"const"
+  + syntax-error,-unexpected-token-"continue"
+  + syntax-error,-unexpected-token-"exit"
+  + syntax-error,-unexpected-token-"extends",-expecting-"{"
+  + syntax-error,-unexpected-token-"extends",-expecting-identifier
+  + syntax-error,-unexpected-token-"extends"
+  + syntax-error,-unexpected-token-"final",-expecting-"("
+  + syntax-error,-unexpected-token-"if",-expecting-")"
+  + syntax-error,-unexpected-token-"if",-expecting-"]"
+  + syntax-error,-unexpected-token-"if"
+  + syntax-error,-unexpected-token-"implements"
+  + syntax-error,-unexpected-token-"match",-expecting-"("
+  + syntax-error,-unexpected-token-"match"
+  + syntax-error,-unexpected-token-"namespace",-expecting-"{"
+  + syntax-error,-unexpected-token-"namespace"
+  + syntax-error,-unexpected-token-"new",-expecting-")"
+  + syntax-error,-unexpected-token-"private",-expecting-"("
+  + syntax-error,-unexpected-token-"private",-expecting-")"
+  + syntax-error,-unexpected-token-"private",-expecting-"="
+  + syntax-error,-unexpected-token-"private",-expecting-"{"
+  + syntax-error,-unexpected-token-"protected",-expecting-"{"
+  + syntax-error,-unexpected-token-"public",-expecting-"]"
+  + syntax-error,-unexpected-token-"public",-expecting-"{"
+  + syntax-error,-unexpected-token-"public"
+  + syntax-error,-unexpected-token-"use",-expecting-","-or-";"
+  + syntax-error,-unexpected-token-"use",-expecting-"{"
+  + syntax-error,-unexpected-token-"use"
+  + syntax-error,-unexpected-token-"{",-expecting-","-or-";"
+  + syntax-error,-unexpected-token-"{",-expecting-variable
+  + syntax-error,-unexpected-token-"{"
+  + syntax-error,-unexpected-token-"}",-expecting-";"-or-"{"
+  + syntax-error,-unexpected-token-"}"
+  + syntax-error,-unexpected-variable-"$%s",-expecting-")"
+  + syntax-error,-unexpected-variable-"$task",-expecting-")"
+  + syntax-error,-unexpected-variable-"$this",-expecting-";"-or-"{"
+  + syntax-error,-unexpected-variable-"%s",-expecting-"("
+  + unclosed-\'(\'
+  + unclosed-\'[\'
+  + unclosed-\'{\'
+  + unmatched-\')\'
+  + unmatched-\']\'
+  + unmatched-\'}\'
++ trait
+  + %s-and-%s-define-the-same-hooked-property-($%s)-in-the-composition-of-%s.-conflict-resolution-between-hooked-properties-is-currently-not-supported.-class-was-composed
+  + cannot-use--"abstract-"-as-method-modifier-in-trait-alias
+  + cannot-use--"static-"-as-method-modifier-in-trait-alias
+  + required-trait-%s-wasn\'t-added-to-%s
++ try
+  + cannot-use-try-without-catch-or-finally
++ type
+  + call-to-a-member-function-%s()-on-%s
+  + cannot-use-%s-as-value-for-class-constant-%s::%s-of-type-%s
+  + class-constant-%s::%s-cannot-have-type-%s
+  + default-value-for-property-of-type-%s-may-not-be-null.-use-the-nullable-type-%s-to-allow-null-default-value
+  + must-be-of-type-countable|array,-%s-given
+  + never-can-only-be-used-as-a-standalone-type
+  + null-cannot-be-marked-as-nullable
+  + parameter-must-be-an-array-or-an-object-that-implements-countable
+  + property-%s::$%s-cannot-have-type-%s
+  + set-type-of-%s::$%s-must-be-supertype-of-%s-(as-in-%s-%s)
+  + type-%s-cannot-be-part-of-an-intersection-type
+  + type-%s-contains-both-object-and-a-class-type
+  + type-%s-is-redundant-as-it-is-more-restrictive-than-type-%s
+  + type-%s-is-redundant-with-type-%s
+  + type-mixed-can-only-be-used-as-a-standalone-type
+  + type-of-%s::%s-must-be-compatible-with-%s::%s-of-type-%s
+  + type-of-parameter-$%s-of-hook-%s::$%s::set-must-be-compatible-with-property-type
+  + void-can-only-be-used-as-a-standalone-type
++ type-juggling
+  + unexpected-nan-value-was-coerced-to-%s
++ typo
+  + cannot-assign-to-array(),-use-[]-instead-in-%s
++ undefined
+  + call-to-undefined-function
+  + undefined-variable
++ use
+  + cannot-declare-const-%s-because
++ validation
+  + argument-#1-($start)-must-be-a-single-byte-string-if
+  + cannot-be-0
+  + must-not-be-empty
++ variadic
+  + only-the-last-parameter-can-be-variadic
+  + parameter-$%s-of-%s-hook-%s::$%s-must-not-be-variadic
+  + variadic-parameter-cannot-have-a-default-value
++ visibility
+  + access-level-to-%s::$%s-must-be-%s-(as-in-class-%s)%s
+  + set-access-level-of-%s::$%s-must-be-%s-(as-in-class-%s)%s
++ zend
+  + jit-is-incompatible-with-third-party-extensions-that-override-zend_execute_ex().-jit-disabled.

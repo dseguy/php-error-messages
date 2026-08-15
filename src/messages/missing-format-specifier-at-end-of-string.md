@@ -1,0 +1,32 @@
+# Missing format specifier at end of string
+
+## Description
+This error is related to the parsing of the format string. In the first example, PHP finds two `%` characters, and expect each time to be followed by a format character. When the `%` is at the end of the string, there is no more character to parse, hence the error message. 
+
+Also, note the second illustration, which uses a dot `.` after the `%`. This is a padding character, so the parser set it aside, and then, look for the format character itself, while reaching the end of the line.
+
+This error applies to printf(), sprintf(), vprintf(), vsprintf().
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/missing-format-specifier-at-end-of-string.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/missing-format-specifier-at-end-of-string.html","name":"Missing format specifier at end of string","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:46 +0000","dateModified":"Tue, 31 Mar 2026 09:10:46 +0000","description":"This error is related to the parsing of the format string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/missing-format-specifier-at-end-of-string.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+## Example
+
+```php
+<?php
+
+    printf('%s %', 'a', 'b');
+    printf('%s %.', 'a', 'b');
+
+?>
+```
+
+## Alternatives
++ Add the missing format character at the end of the line.
++ Remove the final % char in the format line.
++ Add another % at the end of the line, to make it a literal % char in the format.
+
+## Related error messages
++ [Fatal errors on WordPress with PHP 8+ and an incorrect translation](https://kau-boys.com/3202/wordpress/fatal-errors-on-wordpress-with-php-8-and-an-incorrect-translation)
+
+# Changed Behavior
+This error may appear following an evolution in behavior, in previous versions. See 
+[]()

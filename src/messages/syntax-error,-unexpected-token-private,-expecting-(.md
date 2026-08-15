@@ -1,0 +1,26 @@
+# syntax error, unexpected token "private", expecting "("
+
+## Description
+The opening parenthesis that follows a method name is missing. It would be followed by a promoted property declaration, which starts with private.
+
+The same error may apply with the other PHP visibilities, or property options, such as `static` or `readonly`.
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/syntax-error,-unexpected-token-\"private\",-expecting-\"(\".html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/syntax-error,-unexpected-token-\"private\",-expecting-\"(\".html","name":"syntax error, unexpected token \"private\", expecting \"(\"","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:47 +0000","dateModified":"Tue, 31 Mar 2026 09:10:47 +0000","description":"The opening parenthesis that follows a method name is missing","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/syntax-error,-unexpected-token-\"private\",-expecting-\"(\".html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+## Example
+
+```php
+<?php
+
+class X
+{
+    public function __construct
+        private Y $y,
+    ) {
+    }
+}
+
+?>
+```
+
+## Alternatives
++ Add the missing opening parenthesis.

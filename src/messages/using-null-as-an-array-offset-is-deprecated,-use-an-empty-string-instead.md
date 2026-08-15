@@ -1,0 +1,27 @@
+# Using null as an array offset is deprecated, use an empty string instead
+
+## Description
+Avoid using null as an array index. PHP converts it silently to an empty string anyway.
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/using-null-as-an-array-offset-is-deprecated,-use-an-empty-string-instead.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/using-null-as-an-array-offset-is-deprecated,-use-an-empty-string-instead.html","name":"Using null as an array offset is deprecated, use an empty string instead","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:47 +0000","dateModified":"Tue, 31 Mar 2026 09:10:47 +0000","description":"Avoid using null as an array index","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/using-null-as-an-array-offset-is-deprecated,-use-an-empty-string-instead.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+## Example
+
+```php
+<?php
+
+$array = ['a' => 2];
+$array[null] = 3;
+
+?>
+```
+
+## Alternatives
++ Replace the ``null`` with an empty string.
++ Check the value before using it as an array index.
+
+## Related error messages
++ [using-null-as-the-key-parameter-for-array_key_exists()-is-deprecated,-use-an-empty-string-instead](asdf)
+
+# Changed Behavior
+This error may appear following an evolution in behavior, in previous versions. See 
+[NullAsArrayOffset](NullAsArrayOffset)

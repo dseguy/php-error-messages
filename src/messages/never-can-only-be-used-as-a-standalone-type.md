@@ -1,0 +1,30 @@
+# never can only be used as a standalone type
+
+## Description
+`never` is a special return type, indicating that a function or method never returns control to its caller: it always throws, calls `exit()`, or otherwise never completes normally.
+
+Because `never` represents the absence of any return at all, it cannot be combined with other types in a union, nor made nullable: it can only be used on its own, as the sole return type of a function or method.
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/never-can-only-be-used-as-a-standalone-type.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/never-can-only-be-used-as-a-standalone-type.html","name":"never can only be used as a standalone type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Aug 2026 11:31:51 +0000","dateModified":"Wed, 05 Aug 2026 11:31:51 +0000","description":"``never`` is a special return type, indicating that a function or method never returns control to its caller: it always throws, calls ``exit()``, or otherwise never completes normally","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/never-can-only-be-used-as-a-standalone-type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+## Example
+
+```php
+<?php
+
+function foo(): int|never {}
+
+?>
+```
+
+## Alternatives
++ Remove the other types, and use ``never`` alone.
++ Remove ``never``, and keep the other type(s) alone.
+
+## Related error messages
++ [void-can-only-be-used-as-a-standalone-type](asdf)
++ [type-mixed-can-only-be-used-as-a-standalone-type](asdf)
++ [a-never-returning-%s-must-not-return](asdf)
+
+# Changed Behavior
+This error may appear following an evolution in behavior, in previous versions. See 
+[]()

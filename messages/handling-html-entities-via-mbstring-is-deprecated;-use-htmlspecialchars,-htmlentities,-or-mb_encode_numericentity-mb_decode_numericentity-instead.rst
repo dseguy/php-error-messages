@@ -1,0 +1,65 @@
+.. _handling-html-entities-via-mbstring-is-deprecated;-use-htmlspecialchars,-htmlentities,-or-mb_encode_numericentity-mb_decode_numericentity-instead:
+
+Handling HTML entities via mbstring is deprecated; use htmlspecialchars, htmlentities, or mb_encode_numericentity/mb_decode_numericentity instead
+-------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+.. meta::
+	:description:
+		Handling HTML entities via mbstring is deprecated; use htmlspecialchars, htmlentities, or mb_encode_numericentity/mb_decode_numericentity instead: Since PHP 8.
+	:og:image: https://php-errors.readthedocs.io/en/latest/_static/logo.png
+	:og:type: article
+	:og:title: Handling HTML entities via mbstring is deprecated; use htmlspecialchars, htmlentities, or mb_encode_numericentity/mb_decode_numericentity instead
+	:og:description: Since PHP 8
+	:og:url: https://php-errors.readthedocs.io/en/latest/messages/handling-html-entities-via-mbstring-is-deprecated%3B-use-htmlspecialchars%2C-htmlentities%2C-or-mb_encode_numericentity-mb_decode_numericentity-instead.html
+	:og:locale: en
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Handling HTML entities via mbstring is deprecated; use htmlspecialchars, htmlentities, or mb_encode_numericentity/mb_decode_numericentity instead
+	:twitter:description: Handling HTML entities via mbstring is deprecated; use htmlspecialchars, htmlentities, or mb_encode_numericentity/mb_decode_numericentity instead: Since PHP 8
+	:twitter:creator: @exakat
+	:twitter:image:src: https://php-errors.readthedocs.io/en/latest/_static/logo.png
+
+.. raw:: html
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/handling-html-entities-via-mbstring-is-deprecated;-use-htmlspecialchars,-htmlentities,-or-mb_encode_numericentity-mb_decode_numericentity-instead.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/tips\/handling-html-entities-via-mbstring-is-deprecated;-use-htmlspecialchars,-htmlentities,-or-mb_encode_numericentity-mb_decode_numericentity-instead.html","name":"Handling HTML entities via mbstring is deprecated; use htmlspecialchars, htmlentities, or mb_encode_numericentity\/mb_decode_numericentity instead","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 11 Aug 2026 20:54:59 +0000","dateModified":"Tue, 11 Aug 2026 20:54:59 +0000","description":"Since PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-tips.readthedocs.io\/en\/latest\/tips\/handling-html-entities-via-mbstring-is-deprecated;-use-htmlspecialchars,-htmlentities,-or-mb_encode_numericentity-mb_decode_numericentity-instead.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Description
+___________
+ 
+Since PHP 8.2, several pseudo-encodings were dropped from mbstring, including ``HTML-ENTITIES``, which converted characters to and from their HTML numeric/named entity representation.
+
+This functionality overlapped with dedicated, better-maintained functions, and its removal simplifies the mbstring encoding conversion tables. It remains usable until PHP 9, when it will be removed entirely.
+
+Example
+_______
+
+.. code-block:: php
+
+   <?php
+   
+   mb_convert_encoding('foo', 'HTML-ENTITIES');
+   
+   ?>
+
+Solutions
+_________
+
++ Use ``htmlspecialchars()`` or ``htmlentities()`` to encode text as HTML entities.
++ Use ``mb_encode_numericentity()``/``mb_decode_numericentity()`` for numeric entity conversion.
+
+Related Error Messages
+______________________
+
++ :ref:`handling-qprint-via-mbstring-is-deprecated;-use-quoted_printable_encode-quoted_printable_decode-instead`
++ :ref:`handling-base64-via-mbstring-is-deprecated;-use-base64_encode-base64_decode-instead`
++ :ref:`handling-uuencode-via-mbstring-is-deprecated;-use-convert_uuencode-convert_uudecode-instead`
+
+Changed Behavior
+________________
+
+This error may appear following an evolution in behavior, in previous versions. See `mb_convert_encoding <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/mb_convert_encoding.html>`_.
+
+Static Analysis
+_______________
+
+This error may be tracked down with the following static analysis rules: `Structures/DeprecatedMbEncoding <https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/DeprecatedMbEncoding.html>`_.

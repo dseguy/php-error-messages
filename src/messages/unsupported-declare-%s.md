@@ -1,0 +1,19 @@
+# Unsupported declare \'%s\'
+
+## Description
+`declare` sets some directives for the file or block. The possible directives are limited to three: `strict_types`, the most common, `ticks` and `encoding`.
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/unsupported-declare-'%s'.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/unsupported-declare-'%s'.html","name":"Unsupported declare \\'%s\\'","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:47 +0000","dateModified":"Tue, 31 Mar 2026 09:10:47 +0000","description":"``declare`` sets some directives for the file or block","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/unsupported-declare-'%s'.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+## Example
+
+```php
+<?php
+
+declare(a = 1);
+
+?>
+```
+
+## Alternatives
++ Use one of the three valid declare directives.
++ Remove the declare call.

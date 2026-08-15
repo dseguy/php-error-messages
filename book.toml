@@ -1,0 +1,11 @@
+[book]
+title = "PHP error messages - 1.0.0"
+authors = ["Damien Seguy"]
+language = "en"
+
+[output.html]
+git-repository-url = "https://github.com/exakat/php-errors"
+git-repository-icon = "fab-github"
+#additional-css = ["theme/custom.css"]
+#input-404 = "not-found.md"
+site-url = "https://php-errors.readthedocs.io/en/latest/"

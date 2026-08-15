@@ -1,0 +1,28 @@
+# Constant expression contains invalid operations
+
+## Description
+The Constant expressions are the value of a constant, global or class, that is not a literal value. They are calculated. 
+
+Constant expressions allows literals, other constants, and most of the operators. Some elements are forbidden: variables, functions, methods and cast operators. 
+
+Properties are allowed, but only on enumeration's cases. New and arrays are allowed, and so does the ternary and coalesce operators, leading to possible conditional constants expressions (sic). Magic constant are also OK.
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/constant-expression-contains-invalid-operations.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/constant-expression-contains-invalid-operations.html","name":"Constant expression contains invalid operations","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:46 +0000","dateModified":"Tue, 31 Mar 2026 09:10:46 +0000","description":"The Constant expressions are the value of a constant, global or class, that is not a literal value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/constant-expression-contains-invalid-operations.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+## Example
+
+```php
+<?php
+
+class X {
+	// invalid, because of the usage of the variable
+	const X = $a;
+}
+
+?>
+```
+
+## Alternatives
++ Remove the invalid elements or operations.
+
+## Related error messages
++ [fetching-properties-on-non-enums-in-constant-expressions-is-not-allowed](asdf)

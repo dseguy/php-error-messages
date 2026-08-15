@@ -193,6 +193,11 @@ Features index
       * :ref:`cannot-use-[]-for-reading`
 
 
+   * archive
+
+      * :ref:`using-empty-file-as-ziparchive-is-deprecated`
+
+
    * argument
 
       * :ref:`%s%s%s():-argument-#%d%s%s%s-must-be-passed-by-reference,-value-given`
@@ -318,6 +323,14 @@ Features index
 
       * :ref:`octal-escape-sequence-overflow--%s-is-greater-than--377`
       * :ref:`providing-a-string-that-is-not-one-byte-long-is-deprecated.-use-ord(\$str[0])-instead`
+
+
+   * assert
+
+      * :ref:`assert.active-ini-setting-is-deprecated`
+      * :ref:`assert.bail-ini-setting-is-deprecated`
+      * :ref:`assert.exception-ini-setting-is-deprecated`
+      * :ref:`assert.warning-ini-setting-is-deprecated`
 
 
    * assertion
@@ -528,6 +541,7 @@ Features index
       * :ref:`cannot-change-default-fetch-mode-while-fetching`
       * :ref:`must-be-a-callable,-null-given`
       * :ref:`passing-non-callable-strings-is-deprecated-since-8.4`
+      * :ref:`session-callback-must-have-a-return-value-of-type-bool,-%s-returned`
 
 
    * case
@@ -811,6 +825,12 @@ Features index
       * :ref:`class-declarations-may-not-be-nested`
 
 
+   * connection
+
+      * :ref:`automatic-fetching-of-postgresql-connection-is-deprecated`
+      * :ref:`passing-connection-object-as-an-argument-is-deprecated`
+
+
    * const
 
       * :ref:`cannot-declare-const-%s-because`
@@ -882,6 +902,11 @@ Features index
       * :ref:`the-parent-constructor-was-not-called:-the-object-is-in-an-invalid-state`
 
 
+   * context
+
+      * :ref:`the-\$context-parameter-has-no-effect-for-finfo_buffer()`
+
+
    * continue
 
       * :ref:`\'%s\'-not-in-the-\'loop\'-or-\'switch\'-context`
@@ -918,6 +943,7 @@ Features index
    * curl
 
       * :ref:`contains-an-invalid-curl-option`
+      * :ref:`curlpipe_http1-is-deprecated`
 
 
    * curly-bracket
@@ -1030,8 +1056,19 @@ Features index
    * directive
 
       * :ref:`%s()-has-been-disabled-for-security-reasons`
+      * :ref:`assert.active-ini-setting-is-deprecated`
+      * :ref:`assert.bail-ini-setting-is-deprecated`
+      * :ref:`assert.exception-ini-setting-is-deprecated`
+      * :ref:`assert.warning-ini-setting-is-deprecated`
+      * :ref:`directive-\'report_memleaks\'-is-deprecated`
       * :ref:`disabling-session.use_only_cookies-ini-setting-is-deprecated`
       * :ref:`enabling-session.use_trans_sid-ini-setting-is-deprecated`
+      * :ref:`session.sid_bits_per_character-ini-setting-is-deprecated`
+      * :ref:`session.sid_length-ini-setting-is-deprecated`
+      * :ref:`usage-of-session.referer_check-ini-setting-is-deprecated`
+      * :ref:`use-of-mbstring.http_input-is-deprecated`
+      * :ref:`use-of-mbstring.http_output-is-deprecated`
+      * :ref:`use-of-mbstring.internal_encoding-is-deprecated`
 
 
    * division
@@ -1104,6 +1141,7 @@ Features index
 
    * encoding
 
+      * :ref:`calling-mb_check_encoding()-without-argument-is-deprecated`
       * :ref:`charset-"%s"-is-not-supported,-assuming-utf-8`
       * :ref:`encoding-declaration-pragma-must-be`
       * :ref:`must-be-a-valid-charset`
@@ -1184,6 +1222,11 @@ Features index
       * :ref:`cannot-throw-objects-that-do-not-implement-throwable`
       * :ref:`cannot-use-try-without-catch-or-finally`
       * :ref:`passing-e_user_error-to-trigger_error()-is-deprecated-since-8.4,-throw-an-exception-or-call-exit-with-a-string-message-instead`
+
+
+   * exceptions
+
+      * :ref:`use-of-warnings-for-sqlite3-is-deprecated`
 
 
    * execution-time
@@ -1275,6 +1318,11 @@ Features index
    * file_put_contents
 
       * :ref:`write-of-%zu-bytes-failed-with-errno=%d-%s`
+
+
+   * fileinfo
+
+      * :ref:`the-\$context-parameter-has-no-effect-for-finfo_buffer()`
 
 
    * final
@@ -1379,6 +1427,11 @@ Features index
       * :ref:`illegal-class-name`
 
 
+   * gd
+
+      * :ref:`using-the-\$num_points-parameter-is-deprecated`
+
+
    * generator
 
       * :ref:`cannot-rewind-a-generator-that-was-already-run`
@@ -1438,6 +1491,11 @@ Features index
    * hexadecimal-integer
 
       * :ref:`invalid-numeric-literal`
+
+
+   * html-entities
+
+      * :ref:`handling-html-entities-via-mbstring-is-deprecated;-use-htmlspecialchars,-htmlentities,-or-mb_encode_numericentity-mb_decode_numericentity-instead`
 
 
    * html-entity
@@ -1668,6 +1726,11 @@ Features index
       * :ref:`jit-is-incompatible-with-third-party-extensions-that-override-zend_execute_ex().-jit-disabled.`
 
 
+   * key-derivation
+
+      * :ref:`the-\$key_length-parameter-is-deprecated-as-it-is-either-ignored-or-truncates-the-key`
+
+
    * keyword
 
       * :ref:`never-cannot-be-used-as-a-parameter-type`
@@ -1803,13 +1866,25 @@ Features index
 
    * mbstring
 
+      * :ref:`calling-mb_check_encoding()-without-argument-is-deprecated`
       * :ref:`handling-base64-via-mbstring-is-deprecated;-use-base64_encode-base64_decode-instead`
+      * :ref:`handling-html-entities-via-mbstring-is-deprecated;-use-htmlspecialchars,-htmlentities,-or-mb_encode_numericentity-mb_decode_numericentity-instead`
       * :ref:`handling-html-entities-via-mbstring-is-deprecated;-use-htmlspecialchars,-htmlentities,-or-mb_encode_numericentity-mb_decode_numericentity`
+      * :ref:`handling-qprint-via-mbstring-is-deprecated;-use-quoted_printable_encode-quoted_printable_decode-instead`
       * :ref:`handling-qprint-via-mbstring-is-deprecated;-use-quoted_printable_encode-quoted_printable_decode`
       * :ref:`handling-uuencode-via-mbstring-is-deprecated;-use-convert_uuencode-convert_uudecode-instead`
       * :ref:`must-be-a-valid-encoding,-"%s"-given`
       * :ref:`must-be-contained-in-argument-#1-(\$haystack)`
       * :ref:`offset-not-contained-in-string.`
+      * :ref:`passing-a-negative-integer-to-argument-#3-(\$width)-is-deprecated`
+      * :ref:`use-of-mbstring.http_input-is-deprecated`
+      * :ref:`use-of-mbstring.http_output-is-deprecated`
+      * :ref:`use-of-mbstring.internal_encoding-is-deprecated`
+
+
+   * memory-manager
+
+      * :ref:`directive-\'report_memleaks\'-is-deprecated`
 
 
    * memory_limit
@@ -1898,6 +1973,11 @@ Features index
    * mysql
 
       * :ref:`the-connection-has-no-charset-associated`
+
+
+   * mysqli
+
+      * :ref:`passing-connection-object-as-an-argument-is-deprecated`
 
 
    * name
@@ -2152,6 +2232,11 @@ Features index
       * :ref:`open_basedir-restriction-in-effect.-file(%s)-is-not-within-the-allowed-path(s):-(%s)`
 
 
+   * openssl
+
+      * :ref:`the-\$key_length-parameter-is-deprecated-as-it-is-either-ignored-or-truncates-the-key`
+
+
    * operand
 
       * :ref:`unsupported-operand-types`
@@ -2171,6 +2256,7 @@ Features index
    * output-buffering
 
       * :ref:`cannot-modify-header-information---headers-already-sent`
+      * :ref:`producing-output-from-user-output-handler-%s-is-deprecated`
 
 
    * override
@@ -2308,9 +2394,24 @@ Features index
       * :ref:`syntax-error,-unexpected-token-">"`
 
 
+   * pipelining
+
+      * :ref:`curlpipe_http1-is-deprecated`
+
+
+   * polygon
+
+      * :ref:`using-the-\$num_points-parameter-is-deprecated`
+
+
    * positive-integer
 
       * :ref:`must-be-greater-than-0`
+
+
+   * postgresql
+
+      * :ref:`automatic-fetching-of-postgresql-connection-is-deprecated`
 
 
    * precision
@@ -2449,6 +2550,7 @@ Features index
 
    * quoted-printable
 
+      * :ref:`handling-qprint-via-mbstring-is-deprecated;-use-quoted_printable_encode-quoted_printable_decode-instead`
       * :ref:`handling-qprint-via-mbstring-is-deprecated;-use-quoted_printable_encode-quoted_printable_decode`
 
 
@@ -2700,6 +2802,10 @@ Features index
       * :ref:`disabling-session.use_only_cookies-ini-setting-is-deprecated`
       * :ref:`enabling-session.use_trans_sid-ini-setting-is-deprecated`
       * :ref:`providing-individual-callbacks-instead-of-an-object-implementing-sessionhandlerinterface-is-deprecated`
+      * :ref:`session-callback-must-have-a-return-value-of-type-bool,-%s-returned`
+      * :ref:`session.sid_bits_per_character-ini-setting-is-deprecated`
+      * :ref:`session.sid_length-ini-setting-is-deprecated`
+      * :ref:`usage-of-session.referer_check-ini-setting-is-deprecated`
 
 
    * shell_exec
@@ -2777,6 +2883,7 @@ Features index
 
       * :ref:`%s():-return-value-of-the-authorizer-callback-must-be-of-type-int,-%s-returned`
       * :ref:`%s():-return-value-of-the-collation-callback-must-be-of-type-int,-%s-returned`
+      * :ref:`use-of-warnings-for-sqlite3-is-deprecated`
 
 
    * square-bracket
@@ -2901,6 +3008,11 @@ Features index
    * string-increment
 
       * :ref:`increment-on-non-alphanumeric-string-is-deprecated`
+
+
+   * string-width
+
+      * :ref:`passing-a-negative-integer-to-argument-#3-(\$width)-is-deprecated`
 
 
    * stringable
@@ -3323,6 +3435,11 @@ Features index
       * :ref:`cannot-use--"yield-from-"-inside-a-by-reference-generator`
       * :ref:`the-"generator"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated`
       * :ref:`the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls`
+
+
+   * zip
+
+      * :ref:`using-empty-file-as-ziparchive-is-deprecated`
 
 
    * zlib
