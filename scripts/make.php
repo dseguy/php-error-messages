@@ -23,7 +23,8 @@ const LEVELS = array('E_NOTICE' => 1,
 					);
 
 // create sitemap
-$sitemap = new Sitemap('./sitemap.xml');
+$sitemap = new Sitemap('./src/sitemap.xml');
+$llmsTxt = [];
 
 if (!file_exists('messages')) {
 	mkdir('messages', 0755);
@@ -66,6 +67,8 @@ $files = array_diff($files, ['errors/skeleton.ini']);
 //$files = array_slice($files, 0, 10);
 //$files = ['errors/namespace--%s-is-ok.ini',];
 
+$gitDates = buildGitDates('errors');
+
 $stats = array('author' => 0,
 				);
 $errors       = array();
@@ -84,6 +87,7 @@ $rules        = array();
 $links    = 0;
 $warnings = 0;
 foreach($files as $file) {
+//    if (str_contains($file, "'")) { continue; }
     $raw = file_get_contents($file);
     
     if (str_contains($raw, '```')) {
@@ -109,6 +113,15 @@ foreach($files as $file) {
     }
 
 	$error = (object) $error;
+
+	if (isset($gitDates[$file])) {
+		$error->added    = $gitDates[$file]['added'];
+		$error->modified = $gitDates[$file]['modified'];
+	} else {
+		// Untracked/uncommitted file: no git history yet, fall back to filesystem mtime.
+		$error->added = $error->modified = date(DateTime::ATOM, filemtime($file));
+	}
+
 	if (!isset($error->id)) {
 		buildlog("No id for $file");
 		++$warnings;
@@ -187,12 +200,16 @@ foreach($files as $file) {
 	    if (empty($error->tags)) {
 //    		buildlog("Tags is empty in $file");
 //	    	++$warnings;
+//	    	die("Tags is empty in $file");
 	    }
 	    
 		foreach(array_filter($error->tags) as $tag) {
+		    // @todo: get the actual name of the link
 			$target = str_replace(array('errors/', '.ini'), '', $file);
 			$target = addcslashes($target, '`\'');
-			$tags[$tag][] = $target;
+			$name = str_replace('-', ' ', $target);
+			$target = makeName($target);
+			$tags[$tag][] = "[$name](messages/".escapeMd($target).".html)";
 		}
 		
 		if (str_contains($error->error, 'syntax error') && !in_array('syntax-error', $error->tags)) {
@@ -246,7 +263,12 @@ foreach($files as $file) {
 				buildlog("No file feature known for $feature in ".addcslashes($file, '`\''));
 				++$warnings;
 			}
-			$features[$feature][] = $target;
+
+			$target = str_replace(array('errors/', '.ini'), '', $file);
+			$target = addcslashes($target, '`\'');
+			$name = str_replace('-', ' ', $target);
+			$target = makeName($target);
+			$features[$feature][] = "[$name](messages/".escapeMd($target).".html)";
 		}
 	}
 	
@@ -472,10 +494,19 @@ foreach($files as $file) {
 	}
 	
 	if (in_array('syntax-error', $error->tags, true)) {
-	    $syntaxErrors[$error->error] = $error->id;
+	    $link = $error->id;
+	    $link = str_replace(['"', "'"], '', $link);
+	    $link = makeName($link);
+	    $link = escapeMD($link);
+	    $syntaxErrors[] = '  + ['.escapeMd($error->error).'](messages/'.$link.'.html)';
 	}
 	$errors[$file] = $error;
 	$titles[basename($file, '.ini')] = $error->error;
+
+	$firstSentence = first_sentence($error->description);
+	$nameUrl = makeName($name);
+	$nameUrl = str_replace(' ', '-', $nameUrl);
+	$llmsTxt[] = "[".$error->error."](https://php-errors.readthedocs.io/en/latest/messages/$nameUrl.html): ".$firstSentence;
 }
 
 if (!empty($reciproq)) {
@@ -496,8 +527,23 @@ if (!empty($nextprev)) {
 
 
 $errorlist = [];
+$mdList = [];
+$mdSummary = [
+    '# Summary',
+    '',
+    '[Introduction](introduction.md)',
+    '[Syntax Errors](syntaxerror.md)',
+    '[Tags](tags.md)',
+    '[Features](features.md)',
+    '',
+    '# Index',
+    '+ [Index](index.md)',
+    
+    ];
+
 foreach($errors as $file => $message) {
 	$entry = [];
+	$mdEntry = [];
 
     $entry[] = ".. _".addcslashes($message->id, '$').":";
 	$entry[] = '';
@@ -505,6 +551,8 @@ foreach($errors as $file => $message) {
 	$entry[] = trim($message->error, '`');
 	$entry[] = str_repeat('-', strlen($message->error));
 	$entry[] = ' ';
+	$mdEntry[] = '# '.$message->error;
+   	$mdEntry[] = '';
 
 	$first = preg_split('/[\.\?;'.PHP_EOL.']/', $message->description)[0];
 
@@ -531,20 +579,20 @@ foreach($errors as $file => $message) {
 	$ldjson = ['@context' => "https://schema.org",
 	    '@graph' => [
 	        ["@type" => "WebPage",
-	        "@id" => "https://php-errors.readthedocs.io/en/latest/tips/".$message->id.".html",
-	        "url" => "https://php-errors.readthedocs.io/en/latest/tips/".$message->id.".html",
+	        "@id" => "https://php-errors.readthedocs.io/en/latest/messages/".$message->id.".html",
+	        "url" => "https://php-errors.readthedocs.io/en/latest/messages/".$message->id.".html",
 	        "name" => $message->error,
 	        "isPartOf" => [
 	            "@id" =>  "https://www.exakat.io/"
 	        ],
-	        "datePublished" => date('r', filectime($file)),
-	        "dateModified" => date('r', filemtime($file)),
+	        "datePublished" => $message->added,
+	        "dateModified" => $message->modified,
 	        "description" => $first,
 	        "inLanguage" => 'en-US',
 	        "potentialAction" => [
 	            [
 	            '@type' => 'ReadAction',
-	            'target' => ["https://php-tips.readthedocs.io/en/latest/tips/".$message->id.".html"]
+	            'target' => ["https://php-errors.readthedocs.io/en/latest/messages/".$message->id.".html"]
 	            ]
 	        ],
 	        
@@ -560,13 +608,10 @@ foreach($errors as $file => $message) {
 	
 	];
 
-	$entry[] = '	<script type="application/ld+json">'.json_encode($ldjson).'</script>';
-	$entry[] = '';	
-	$entry[] = 'Description';
-	$entry[] = str_repeat('_', strlen('Description'));
-	$entry[] = ' ';
-	$entry[] = $message->description;
-	$entry[] = '';
+	$mdEntry[] = '<script type="application/ld+json">'.json_encode($ldjson).'</script>';
+
+	$mdEntry[] = '## Description';
+	$mdEntry[] = str_replace('``', '`', $message->description);
 
 	$entry[] = 'Example';
 	$entry[] = str_repeat('_', strlen('Example'));
@@ -574,90 +619,129 @@ foreach($errors as $file => $message) {
 	$entry[] = '.. code-block:: php';
 	$entry[] = '';
 	$code = $message->code;
-	$code = '   '.str_replace("\n", "\n   ", $code);
+//	$code = '   '.str_replace("\n", "\n   ", $code);
 	$entry[] = $code;
 	$entry[] = '';
+
+	$mdEntry[] = '';
+	$mdEntry[] = '## Example';
+//	$code = addcslashes($code, '?');
+	$mdEntry[] = '';
+	$mdEntry[] = '```php';
+	$mdEntry[] = $code;
+	$mdEntry[] = '```';
+	$mdEntry[] = '';
 
     if (!empty($message->examples)) {
 		$entry[] = '';
 		
     	$entry[] = 'Literal Examples';
 	    $entry[] = str_repeat('*', strlen('Example Examples'));
+    	$mdEntry[] = '## Literal Examples';
+
 		foreach($message->examples as $example) {
 			$entry[] = '+ '.$example;
+    	    $mdEntry[] = '+ '.$example;
 		}
 		$entry[] = '';
+    	$mdEntry[] = '';
 	}
 	
 	if (!empty($message->alternative)) {
 		$entry[] = 'Solutions';
 		$entry[] = str_repeat('_', strlen('Solutions'));
 		$entry[] = '';
+    	$mdEntry[] = '## Alternatives';
 		
 		foreach($message->alternative as $alternative) {
 			$entry[] = '+ '.$alternative;
+    	    $mdEntry[] = '+ '.$alternative;
 		}
 		$entry[] = '';
+    	$mdEntry[] = '';
 	}
 
 	if (0 && !empty($message->related)) {
-		$entry[] = 'Related messages';
-		$entry[] = str_repeat('_', strlen('Related messages'));
-		$entry[] = '';
-		
+    	$mdEntry[] = '## Related messages';
 		foreach($message->related as $related) {
-			$entry[] = '+ `'.trim($related, '_`').'`_';
+    	    $mdEntry[] = '+ ['.trim($related, '_`').']('.escapeMd($related).'.html)';
 		}
 		$entry[] = '';
+    	$mdEntry[] = '';
 	}
 
 	if (!empty($message->related)) {
 		$entry[] = 'Related Error Messages';
 		$entry[] = str_repeat('_', strlen('Related Error Messages'));
 		$entry[] = '';
+
+    	$mdEntry[] = '## Related error messages';
 		
 		foreach($message->related as $target) {
 			$entry[] = '+ :ref:`'.trim($target, '_`').'`';
+
+    	    $mdEntry[] = '+ ['.trim($target, '_`').']('.escapeMd($target).'.html)';
 		}
 		$entry[] = '';
+    	$mdEntry[] = '';
 	}
 
 	if (!empty($message->seeAlso)) {
 		$entry[] = 'See Also';
 		$entry[] = str_repeat('_', strlen('See Also'));
 		$entry[] = '';
+
+    	$mdEntry[] = '## Related error messages';
 		
 		foreach($message->seeAlso as $name => $url) {
 			$entry[] = '+ `'.$name.' <'.$url.'>`_';
+
+    	    $mdEntry[] = '+ ['.$name.']('.$url.')';
 		}
 		$entry[] = '';
+    	$mdEntry[] = '';
 	}
 
 	if (!empty($message->previous) && $message->previous !== 'no-previous-error') {
 		$entry[] = '';
 		$entry[] = "In previous PHP versions, this error message used to be :ref:`".trim($message->previous, '_`')."`.";
 		$entry[] = '';
+
+		$mdEntry[] = "In previous PHP versions, this error message used to be :ref:`".trim($message->previous, '_`')."`.";
 	}
 
 	if (!empty($message->next) && $message->next !== 'no-next-error') {
 		$entry[] = '';
 		$entry[] = "In more recent PHP versions, this error message is now :ref:`".trim($message->next, '_`')."`.";
 		$entry[] = '';
+
+		$mdEntry[] = "In more recent PHP versions, this error message is now :ref:`".trim($message->next, '_`')."`.";
 	}
 
 	if (isset($message->changedBehavior[0]) && ($message->changedBehavior[0] !== 'none')) {
 		$entry[] = 'Changed Behavior';
 		$entry[] = str_repeat('_', strlen('Changed Behavior'));
 		$entry[] = '';
+
+    	$mdEntry[] = '# Changed Behavior';
+
 		$e = "This error may appear following an evolution in behavior, in previous versions. See ";
+		$mdEntry[] = "This error may appear following an evolution in behavior, in previous versions. See ";
+
 		if (!is_iterable($message->changedBehavior)) {
 		    die("changedBehavior is not an array in $file\n");
 		}
+		$mdE = [];
 		foreach($message->changedBehavior as $behavior) {
 			$e .= "`".$behavior." <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/".$behavior.".html>`_, ";
+			
+    		$mdE[] = '['.$behavior.']('.$behavior.')';
+			
 		}
 		$entry[] = trim($e, ', ').'.';
 		$entry[] = '';
+		
+    	$mdEntry[] = implode(', ', $mdE);
 	}
 
 	if (isset($message->analyzer) && !empty($message->analyzer) && $message->analyzer[0] !== 'none') {
@@ -679,72 +763,66 @@ foreach($errors as $file => $message) {
 	if (str_contains($content, '````')) {
 	    buildlog("Quadruple ```` in RST $name\n");
 	}
-	file_put_contents('messages/'.$name.'.rst', $content);
+    $name = str_replace(["'", '"'], '', $name);
+	$name = makeName($name);
+    file_put_contents('src/messages/'.$name.'.md', implode(PHP_EOL, $mdEntry));
+//	print_r($mdEntry);die();
+    
+//    $urlName = str_replace('%', '%25', $name);
+    $urlName = $name;
+    $mdSummary[] = '  + ['.escapeMd($message->error).'](messages/'.addcslashes($urlName, '()[]`').'.md)';
 	
-	$errorlist[] = '   messages/'.$name.'.rst';
-	
-	$sitemap->addItem('https://php-errors.readthedocs.io/en/latest/messages/'.urlencode($message->id).'.html');
+	$slug = $message->id;
+	$slug = str_replace(['"', "'"], '', $slug);
+	$slug = makeName($slug);
+	$sitemap->addItem('https://php-errors.readthedocs.io/en/latest/messages/'.$slug.'.html');
 }
 
 $changed = file_get_contents('message.rst.in');
 $changed = str_replace('errorlist', implode(PHP_EOL, $errorlist), $changed);
-file_put_contents('message.rst', $changed);
 
-$tagsRst = array('.. _tagsindex:',
-'',
-'Tag index',
-'-----------------------------',
+file_put_contents('src/SUMMARY.md', implode(PHP_EOL, $mdSummary));
+
+$tagsMd = array(
+'## Tag index',
 '',
 );
 ksort($tags);
 foreach($tags as $tag => $refs) {
-	$tagsRst[] = '';
-	$tagsRst[] = '   * '.$tag;
-	$tagsRst[] = '';
+    if ($tag[0] === '_') { continue; }
+	$tagsMd[] = '+ '.$tag;
 	foreach($refs as $ref) {
-		$tagsRst[] = '      * :ref:`'.$ref.'`';
+		$tagsMd[] = '  + '.$ref.'';
 	}
-	$tagsRst[] = '';
 }
 
-file_put_contents('tagsindex.rst', implode(PHP_EOL, $tagsRst));
+file_put_contents('src/tags.md', implode(PHP_EOL, $tagsMd));
 
 
-$featuresRst = array('.. _featuresindex:',
-'',
-'Features index',
-'-----------------------------',
+$featuresMd = array(
+'## Features index',
 '',
 );
 ksort($features);
 foreach($features as $feature => $refs) {
-	$featuresRst[] = '';
-	$featuresRst[] = '   * '.$feature;
-	$featuresRst[] = '';
+	$featuresMd[] = '+ '.$feature;
 	foreach($refs as $ref) {
-		$featuresRst[] = '      * :ref:`'.$ref.'`';
+		$featuresMd[] = '  + '.$ref.'';
 	}
-	$featuresRst[] = '';
 }
 
-file_put_contents('featuresindex.rst', implode(PHP_EOL, $featuresRst));
+file_put_contents('src/features.md', implode(PHP_EOL, $featuresMd));
 
-$syntaxErrorsRst = array('.. _syntaxerror:',
-'',
-'Syntax errors',
-'-----------------------------',
+ksort($syntaxErrors);
+$syntaxErrors = [
+'## Syntax errors',
 '',
 'Here is a list of classic syntax errors, met in every day code. Some common solutions are listed with them, so as to help anyone meeting them.',
 '',
-);
-ksort($syntaxErrors);
-$syntaxErrorsRst[] = '';
-foreach($syntaxErrors as $title => $ref) {
-	$syntaxErrorsRst[] = '      * :ref:`'.$ref.'`';
-}
-$syntaxErrorsRst[] = '';
+...$syntaxErrors,
+];
 
-file_put_contents('syntaxerror.rst', implode(PHP_EOL, $syntaxErrorsRst));
+file_put_contents('src/syntaxerror.md', implode(PHP_EOL, $syntaxErrors));
 
 
 // Final summary
@@ -759,6 +837,7 @@ print "processed $links related\n";
 print "warnings: $warnings\n";
 
 $sitemap->write();
+file_put_contents('./src/llms.txt', implode(PHP_EOL, $llmsTxt));
 
 function check(stdClass $tip, string $file) : string {
 	if (empty($tip->title)) {
@@ -784,6 +863,57 @@ function buildlog($message) {
 	}
 	
 	fwrite($log, $message.PHP_EOL);
+}
+
+function escapeMd(string $message): string {
+    $message = str_replace(['"', "'"], '', $message);
+    return addcslashes($message, '_*`\\()[]');
+}
+
+function first_sentence(string $code): string {
+    $id = min(strpos($code, '.'), strpos($code, ':') ?: 10000);
+    
+    return substr($code, 0, $id + 1);
+}
+
+function makeName(string $name): string {
+	$name = str_replace(['%', '(', ')', '#'], ['p', 'q', 'r', 's'], $name);
+    return $name;
+}
+
+// One git-log walk instead of two subprocess calls per file: builds
+// [relative path => ['added' => ISO8601, 'modified' => ISO8601]] for
+// every file git has ever tracked under $dir. 'added' is the author
+// date of the oldest commit touching the file; 'modified' is the
+// author date of the newest. Files git log never touched (new,
+// uncommitted) are left out and the caller falls back to filemtime().
+function buildGitDates(string $dir): array {
+	$cmd = 'git log --format=%x01%aI --name-only --diff-filter=AM -- '
+	     . escapeshellarg($dir) . ' 2>/dev/null';
+	$output = shell_exec($cmd) ?? '';
+
+	$dates = [];
+	$currentDate = null;
+	foreach (preg_split('/\R/', $output) as $line) {
+		if ($line === '') {
+			continue;
+		}
+		if ($line[0] === "\x01") {
+			$currentDate = substr($line, 1);
+			continue;
+		}
+		if ($currentDate === null) {
+			continue;
+		}
+		if (!isset($dates[$line])) {
+			$dates[$line] = ['modified' => $currentDate, 'added' => $currentDate];
+		} else {
+			// git log walks newest -> oldest, so the last date seen
+			// for a file is its earliest (added) commit.
+			$dates[$line]['added'] = $currentDate;
+		}
+	}
+	return $dates;
 }
 
 ?>

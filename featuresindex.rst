@@ -325,17 +325,13 @@ Features index
       * :ref:`providing-a-string-that-is-not-one-byte-long-is-deprecated.-use-ord(\$str[0])-instead`
 
 
-   * assert
+   * assertion
 
       * :ref:`assert.active-ini-setting-is-deprecated`
       * :ref:`assert.bail-ini-setting-is-deprecated`
+      * :ref:`assert.callback-ini-setting-is-deprecated`
       * :ref:`assert.exception-ini-setting-is-deprecated`
       * :ref:`assert.warning-ini-setting-is-deprecated`
-
-
-   * assertion
-
-      * :ref:`assert.callback-ini-setting-is-deprecated`
       * :ref:`defining-a-custom-assert()-function-is-not-allowed,`
 
 
@@ -1395,7 +1391,6 @@ Features index
 
    * fully-qualified-name
 
-      * :ref:`\'namespace-%s\'-is-an-invalid-class-name`
       * :ref:`namespace-%s-is-an-invalid-class-name`
 
 
@@ -1536,7 +1531,6 @@ Features index
 
       * :ref:`%s-%s-cannot-implement-previously-implemented-interface-%s`
       * :ref:`%s-cannot-implement-%s---it-is-not-an-interface`
-      * :ref:`b-cannot-implement-a---it-is-not-an-interface`
       * :ref:`class-%s-cannot-implement-both-iterator-and-iteratoraggregate-at-the-same-time`
       * :ref:`interface-%s-cannot-extend-class-%s`
       * :ref:`interface-method-%s::%s()-must-not-be-final`
@@ -1644,7 +1638,6 @@ Features index
       * :ref:`%s-method-%s::%s()-must-not-be-abstract`
       * :ref:`access-type-for-interface-constant-%s::%s-must-be-public`
       * :ref:`access-type-for-interface-method-%s::%s()-must-be-public`
-      * :ref:`b-cannot-implement-a---it-is-not-an-interface`
       * :ref:`cannot-apply-#[allowdynamicproperties]-to-interface-%s`
       * :ref:`cannot-inherit-previously-inherited-or-override-constant-%s-from-interface-%s`
       * :ref:`cannot-instantiate-interface-%s`
@@ -2021,7 +2014,6 @@ Features index
 
    * namespace
 
-      * :ref:`\'namespace-%s\'-is-an-invalid-class-name`
       * :ref:`call-to-undefined-function`
       * :ref:`cannot-mix-bracketed-namespace-declarations`
       * :ref:`cannot-redeclare-function-%s()-(previously-declared-as-local-import)`
@@ -2362,6 +2354,7 @@ Features index
 
    * pgsql
 
+      * :ref:`automatic-fetching-of-postgresql-connection-is-deprecated`
       * :ref:`must-be-one-of-pgsql_assoc,-pgsql_num,-or-pgsql_both`
       * :ref:`must-be-one-of-pgsql_notice_last,-pgsql_notice_all,-or-pgsql_notice_clear`
 
@@ -2407,11 +2400,6 @@ Features index
    * positive-integer
 
       * :ref:`must-be-greater-than-0`
-
-
-   * postgresql
-
-      * :ref:`automatic-fetching-of-postgresql-connection-is-deprecated`
 
 
    * precision
@@ -2654,7 +2642,6 @@ Features index
 
    * relative-types
 
-      * :ref:`\'namespace-%s\'-is-an-invalid-class-name`
       * :ref:`namespace-%s-is-an-invalid-class-name`
 
 
@@ -2667,7 +2654,6 @@ Features index
 
    * reserved-name
 
-      * :ref:`cannot-use-%s-as-%s-because-\'%s\'-is-a-special-class-name`
       * :ref:`cannot-use--"%s-"-as-%s`
       * :ref:`syntax-error,-unexpected-token-"::",-expecting-":"`
       * :ref:`syntax-error,-unexpected-token-"final",-expecting-"("`
@@ -2868,15 +2854,16 @@ Features index
       * :ref:`returning-bool-from-comparison-function-is-deprecated`
 
 
-   * special-typehint
-
-      * :ref:`cannot-use-%s-as-%s-because-\'%s\'-is-a-special-class-name`
-
-
    * spl
 
       * :ref:`autoload()-is-no-longer-supported,-use-spl_autoload_register()-instead`
       * :ref:`is-an-invalid-offset`
+      * :ref:`modification-of-splobjectstorage-during-gethash()-is-prohibited`
+
+
+   * splobjectstorage
+
+      * :ref:`modification-of-splobjectstorage-during-gethash()-is-prohibited`
 
 
    * sqlite3

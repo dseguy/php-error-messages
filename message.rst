@@ -5,11 +5,11 @@ PHP Error Messages
    :maxdepth: 1
    :caption: Contents:
 
-   messages/"static::"-is-not-allowed-in-compile-time-constants.rst
+   messages/static::-is-not-allowed-in-compile-time-constants.rst
    messages/$globals-can-only-be-modified-using-the-$globals[$name]-=-$value-syntax.rst
    messages/%d-arguments-are-required,-%d.rst
-   messages/%s"-returned-as-member-variable-from-__sleep()-but-does-not-exist.rst
-   messages/%s"-will-be-interpreted-as-a-class-name.-did-you-mean-"%s"?-write-"%s"%s-to-suppress-this-warning.rst
+   messages/%s-returned-as-member-variable-from-__sleep()-but-does-not-exist.rst
+   messages/%s-will-be-interpreted-as-a-class-name.-did-you-mean-%s?-write-%s%s-to-suppress-this-warning.rst
    messages/%s%s%s()-does-not-accept-unknown-named-parameters.rst
    messages/%s%s%s():-argument-#%d%s%s%s-must-be-passed-by-reference,-value-given.rst
    messages/%s%s%s():-return-value-must-be-of-type-%s,-%s-returned.rst
@@ -24,9 +24,9 @@ PHP Error Messages
    messages/%s():-return-value-of-the-authorizer-callback-must-be-of-type-int,-%s-returned.rst
    messages/%s():-return-value-of-the-collation-callback-must-be-of-type-int,-%s-returned.rst
    messages/%s():-returning-by-reference-from-a-void-function-is-deprecated.rst
-   messages/%s-"-is-not-a-supported-builtin-type-and-will-be-interpreted-as-a-class-name.-write--"--%s-"%s-to-suppress-this-warning.rst
-   messages/%s-"-is-returned-from-__sleep()-multiple-times.rst
-   messages/%s-"-will-be-interpreted-as-a-class-name.-did-you-mean--"%s-"?-write--"--%s-"%s-to-suppress-this-warning.rst
+   messages/%s--is-not-a-supported-builtin-type-and-will-be-interpreted-as-a-class-name.-write----%s-%s-to-suppress-this-warning.rst
+   messages/%s--is-returned-from-__sleep()-multiple-times.rst
+   messages/%s--will-be-interpreted-as-a-class-name.-did-you-mean--%s-?-write----%s-%s-to-suppress-this-warning.rst
    messages/%s-%s-cannot-implement-interface-%s,-extend-exception-or-error-instead.rst
    messages/%s-%s-cannot-implement-previously-implemented-interface-%s.rst
    messages/%s-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-method%s-(.rst
@@ -52,13 +52,12 @@ PHP Error Messages
    messages/%s::%s-has-#[--override]-attribute.rst
    messages/%s::__sleep()-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize.rst
    messages/%s::__tostring()-must-return-a-string.rst
-   messages/'%s'-not-in-the-'loop'-or-'switch'-context.rst
-   messages/'%s'-operator-accepts-only-positive-integers.rst
-   messages/'%s'-operator-with-non-integer-operand.rst
-   messages/'-%s'-is-an-invalid-class-name.rst
-   messages/'goto'-into-loop-or-switch-statement-is-disallowed.rst
-   messages/'goto'-to-undefined-label-'%s'.rst
-   messages/'namespace-%s'-is-an-invalid-class-name.rst
+   messages/%s-not-in-the-loop-or-switch-context.rst
+   messages/%s-operator-accepts-only-positive-integers.rst
+   messages/%s-operator-with-non-integer-operand.rst
+   messages/-%s-is-an-invalid-class-name.rst
+   messages/goto-into-loop-or-switch-statement-is-disallowed.rst
+   messages/goto-to-undefined-label-%s.rst
    messages/(expression)::class-cannot-be-used-in-constant-expressions.rst
    messages/0-__halt_compiler()-can-only-be-used-from-the-outermost-scope.rst
    messages/[]-operator-not-supported-for-strings.rst
@@ -67,7 +66,7 @@ PHP Error Messages
    messages/clone-method-called-on-non-object.rst
    messages/halt_compiler()-can-only-be-used-from-the-outermost-scope.rst
    messages/sleep-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize..rst
-   messages/%s'-is-not-a-valid-mode-for-fopen.rst
+   messages/%s-is-not-a-valid-mode-for-fopen.rst
    messages/a-%s-with-return-type-must-return-a-value.rst
    messages/a-class-constant-must-not-be-called-class.-it-is-reserved-for-class-name-fetching.rst
    messages/a-function-with-return-type-must-return-a-value.rst
@@ -120,14 +119,13 @@ PHP Error Messages
    messages/assert.exception-ini-setting-is-deprecated.rst
    messages/assert.warning-ini-setting-is-deprecated.rst
    messages/assignments-can-only-happen-to-writable-values.rst
-   messages/attempt-to-assign-property-"%s"-on-null.rst
-   messages/attempt-to-read-property-"%s"-on-%s.rst
+   messages/attempt-to-assign-property-%s-on-null.rst
+   messages/attempt-to-read-property-%s-on-%s.rst
    messages/attempt-to-unset-static-property-%s::$%s.rst
-   messages/attribute-"%s"-cannot-target-%s-(allowed-targets:-%s).rst
-   messages/attribute-class-"%s"-not-found.rst
+   messages/attribute-%s-cannot-target-%s-(allowed-targets:-%s).rst
+   messages/attribute-class-%s-not-found.rst
    messages/automatic-conversion-of-false-to-array-is-deprecated.rst
    messages/automatic-fetching-of-postgresql-connection-is-deprecated.rst
-   messages/b-cannot-implement-a---it-is-not-an-interface.rst
    messages/bad-class-name-in-the-catch-statement.rst
    messages/break-operator-accepts-only-positive-integers.rst
    messages/call-to-%s-%s::%s()-from-global-scope.rst
@@ -145,10 +143,10 @@ PHP Error Messages
    messages/calling-get_parent_class()-without-arguments-is-deprecated.rst
    messages/calling-mb_check_encoding()-without-argument-is-deprecated.rst
    messages/calling-static-trait-method-%s::%s-is-deprecated.rst
-   messages/can't-inherit-abstract-function-%s::%s()-(previously-declared-abstract-in-%s).rst
-   messages/can't-use-function-return-value-in-write-context.rst
-   messages/can't-use-method-return-value-in-write-context.rst
-   messages/can't-use-nullsafe-operator-in-write-context.rst
+   messages/cant-inherit-abstract-function-%s::%s()-(previously-declared-abstract-in-%s).rst
+   messages/cant-use-function-return-value-in-write-context.rst
+   messages/cant-use-method-return-value-in-write-context.rst
+   messages/cant-use-nullsafe-operator-in-write-context.rst
    messages/can-only-flip-string-and-integer-values,-entry-skipped.rst
    messages/can-only-throw-objects.rst
    messages/cannot-%s-readonly-property-%s::$%s-from-%s%s.rst
@@ -212,7 +210,7 @@ PHP Error Messages
    messages/cannot-instantiate-enum-%s.rst
    messages/cannot-instantiate-interface-%s.rst
    messages/cannot-instantiate-trait-%s.rst
-   messages/cannot-load-module-"%s"-because-required-module-"%s"-is-not-loaded.rst
+   messages/cannot-load-module-%s-because-required-module-%s-is-not-loaded.rst
    messages/cannot-make-non-abstract-method-%s::%s()-abstract-in-class-%s.rst
    messages/cannot-make-non-static-method-%s::%s()-static-in-class-%s.rst
    messages/cannot-make-static-method-%s::%s()-non-static-in-class-%s.rst
@@ -238,10 +236,10 @@ PHP Error Messages
    messages/cannot-redeclare-%s::$%s.rst
    messages/cannot-redeclare-%s::%s().rst
    messages/cannot-redeclare-class-%s.rst
-   messages/cannot-redeclare-constant-'%s'.rst
+   messages/cannot-redeclare-constant-%s.rst
    messages/cannot-redeclare-function-%s()-(previously-declared-as-local-import).rst
    messages/cannot-redeclare-function-%s()-(previously-declared-in-%s:%d).rst
-   messages/cannot-redeclare-property-hook--"%s.rst
+   messages/cannot-redeclare-property-hook--%s.rst
    messages/cannot-redeclare-property-hook.rst
    messages/cannot-redefine-class-constant-%s::%s.rst
    messages/cannot-redefine-class-constant.rst
@@ -259,43 +257,42 @@ PHP Error Messages
    messages/cannot-unset-string-offsets.rst
    messages/cannot-use%s-%s-as-%s-because-the-name-is-already-in-use.rst
    messages/cannot-use(...)-variables-in-constant-expression.rst
-   messages/cannot-use-"%s"-as-a-type-name-as-it-is-reserved.rst
-   messages/cannot-use-"%s"-when-no-class-scope-is-active.rst
-   messages/cannot-use-"abstract"-as-method-modifier-in-trait-alias.rst
-   messages/cannot-use-"parent"-when-current-class-scope-has-no-parent.rst
-   messages/cannot-use-"parent"-when-no-class-scope-is-active.rst
-   messages/cannot-use-"static"-when-no-class-scope-is-active.rst
+   messages/cannot-use-%s-as-a-type-name-as-it-is-reserved.rst
+   messages/cannot-use-%s-when-no-class-scope-is-active.rst
+   messages/cannot-use-abstract-as-method-modifier-in-trait-alias.rst
+   messages/cannot-use-parent-when-current-class-scope-has-no-parent.rst
+   messages/cannot-use-parent-when-no-class-scope-is-active.rst
+   messages/cannot-use-static-when-no-class-scope-is-active.rst
    messages/cannot-use-$this-as-global-variable.rst
    messages/cannot-use-$this-as-lexical-variable.rst
    messages/cannot-use-$this-as-parameter.rst
    messages/cannot-use-$this-as-static-variable.rst
    messages/cannot-use-%s-as-%s-because-%s-is-a-special-class-name.rst
-   messages/cannot-use-%s-as-%s-because-'%s'-is-a-special-class-name.rst
    messages/cannot-use-%s-as-array.rst
    messages/cannot-use-%s-as-default-value-for-parameter-$%s-of-type-%s.rst
    messages/cannot-use-%s-as-default-value-for-property-%s::$%s-of-type-%s.rst
    messages/cannot-use-%s-as-value-for-class-constant-%s::%s-of-type-%s.rst
-   messages/cannot-use-'%s'-as-namespace-name.rst
-   messages/cannot-use-'abstract'-as-constant-modifier.rst
-   messages/cannot-use-'abstract'-as-method-modifier.rst
-   messages/cannot-use-'final'-as-constant-modifier.rst
-   messages/cannot-use-'final'-as-method-modifier.rst
-   messages/cannot-use-'mixed'-as-class-name-as-it-is-reserved.rst
-   messages/cannot-use-'namespace'-as-namespace-name.rst
-   messages/cannot-use-'never'-as-class-name-as-it-is-reserved.rst
-   messages/cannot-use-'readonly'-as-%s-modifier.rst
-   messages/cannot-use-'readonly'-as-method-modifier.rst
-   messages/cannot-use-'static'-as-constant-modifier.rst
-   messages/cannot-use-'static'-as-method-modifier.rst
-   messages/cannot-use--"%s-"-as-%s-as-it-is-reserved.rst
-   messages/cannot-use--"%s-"-as-%s.rst
-   messages/cannot-use--"%s-"-when-no-class-scope-is-active.rst
-   messages/cannot-use--"::class-"-on-%s.rst
-   messages/cannot-use--"abstract-"-as-method-modifier-in-trait-alias.rst
-   messages/cannot-use--"parent-"-when-current-class-scope-has-no-parent.rst
-   messages/cannot-use--"parent-"-when-no-class-scope-is-active.rst
-   messages/cannot-use--"static-"-as-method-modifier-in-trait-alias.rst
-   messages/cannot-use--"yield-from-"-inside-a-by-reference-generator.rst
+   messages/cannot-use-%s-as-namespace-name.rst
+   messages/cannot-use-abstract-as-constant-modifier.rst
+   messages/cannot-use-abstract-as-method-modifier.rst
+   messages/cannot-use-final-as-constant-modifier.rst
+   messages/cannot-use-final-as-method-modifier.rst
+   messages/cannot-use-mixed-as-class-name-as-it-is-reserved.rst
+   messages/cannot-use-namespace-as-namespace-name.rst
+   messages/cannot-use-never-as-class-name-as-it-is-reserved.rst
+   messages/cannot-use-readonly-as-%s-modifier.rst
+   messages/cannot-use-readonly-as-method-modifier.rst
+   messages/cannot-use-static-as-constant-modifier.rst
+   messages/cannot-use-static-as-method-modifier.rst
+   messages/cannot-use--%s--as-%s-as-it-is-reserved.rst
+   messages/cannot-use--%s--as-%s.rst
+   messages/cannot-use--%s--when-no-class-scope-is-active.rst
+   messages/cannot-use--::class--on-%s.rst
+   messages/cannot-use--abstract--as-method-modifier-in-trait-alias.rst
+   messages/cannot-use--parent--when-current-class-scope-has-no-parent.rst
+   messages/cannot-use--parent--when-no-class-scope-is-active.rst
+   messages/cannot-use--static--as-method-modifier-in-trait-alias.rst
+   messages/cannot-use--yield-from--inside-a-by-reference-generator.rst
    messages/cannot-use-::class-with-dynamic-class-name.rst
    messages/cannot-use-[]-for-reading.rst
    messages/cannot-use-[]-for-unsetting.rst
@@ -310,7 +307,7 @@ PHP Error Messages
    messages/cannot-use-empty-array-elements-in-arrays.rst
    messages/cannot-use-empty-array-entries-in-keyed-array-assignment.rst
    messages/cannot-use-empty-list.rst
-   messages/cannot-use-isset()-on-the-result-of-an-expression-(you-can-use-"null-!==-expression"-instead).rst
+   messages/cannot-use-isset()-on-the-result-of-an-expression-(you-can-use-null-!==-expression-instead).rst
    messages/cannot-use-isset()-on-the-result-of-an-expression.rst
    messages/cannot-use-lexical-variable-%s-as-a-parameter-name.rst
    messages/cannot-use-list()-as-standalone-expression.rst
@@ -345,8 +342,8 @@ PHP Error Messages
    messages/case-%s::%s-does-not-exist.rst
    messages/case-can-only-be-used-in-enums.rst
    messages/case-statements-followed-by-a-semicolon-(;)-are-deprecated,-use-a-colon-(:)-instead.rst
-   messages/charset-"%s"-is-not-supported,-assuming-utf-8.rst
-   messages/class-"%s"-not-found.rst
+   messages/charset-%s-is-not-supported,-assuming-utf-8.rst
+   messages/class-%s-not-found.rst
    messages/class-%s-cannot-extend-%s-%s.rst
    messages/class-%s-cannot-extend-enum-%s.rst
    messages/class-%s-cannot-extend-final-class-%s.rst
@@ -369,17 +366,17 @@ PHP Error Messages
    messages/constant-expression-contains-invalid-operations.rst
    messages/constructor-%s::%s()-cannot-declare-a-return-type.rst
    messages/contains-an-invalid-curl-option.rst
-   messages/continue"-targeting-switch-is-equivalent-to-"break.rst
+   messages/continue-targeting-switch-is-equivalent-to-break.rst
    messages/continue-operator-accepts-only-positive-integers.rst
    messages/could-not-check-compatibility-between-%s-and-%s,-because-class-%s-is-not-available.rst
    messages/could-not-find-trait-%s.rst
-   messages/couldn't-open-stream-%s.rst
-   messages/couldn't-open-stream:-%s.rst
+   messages/couldnt-open-stream-%s.rst
+   messages/couldnt-open-stream:-%s.rst
    messages/creating-default-object-from-empty-value.rst
    messages/creation-of-dynamic-property-%s::$%s-is-deprecated.rst
    messages/curlpipe_http1-is-deprecated.rst
    messages/current-function-is-not-a-closure.rst
-   messages/datetimeinterface-can't-be-implemented-by-user-classes.rst
+   messages/datetimeinterface-cant-be-implemented-by-user-classes.rst
    messages/datetimezone-object-is-unconstructed.rst
    messages/declaration-of-%s-must-be-compatible-with-%s.rst
    messages/declaration-of-%s::%s()-must-be-compatible-with-%s::%s().rst
@@ -396,9 +393,9 @@ PHP Error Messages
    messages/delimiter-must-not-be-alphanumeric,-backslash,-or-nul-byte.rst
    messages/delimiter-must-not-be-alphanumeric,-backslash,-or-nul.rst
    messages/delimiter-must-not-be-alphanumeric-or-backslash.rst
-   messages/deriving-$_server['argv']-from-the-query-string-is-deprecated.-configure-register_argc_argv=0-to-turn-this-message-off.rst
+   messages/deriving-$_server[argv]-from-the-query-string-is-deprecated.-configure-register_argc_argv=0-to-turn-this-message-off.rst
    messages/destructors-cannot-declare-a-return-type.rst
-   messages/directive-\'report_memleaks\'-is-deprecated.rst
+   messages/directive-report_memleaks-is-deprecated.rst
    messages/disabling-session.use_only_cookies-ini-setting-is-deprecated.rst
    messages/division-of-php_int_min-by--1-is-not-an-integer.rst
    messages/duplicate-declaration-of-static-variable-$%s.rst
@@ -411,7 +408,7 @@ PHP Error Messages
    messages/enabling-session.use_trans_sid-ini-setting-is-deprecated.rst
    messages/encoding-declaration-pragma-must-be.rst
    messages/entry-%s-does-not-exist-and-cannot-be-deleted.rst
-   messages/enum-"%s"-not-found.rst
+   messages/enum-%s-not-found.rst
    messages/enum-%s-cannot-implement-the-serializable-interface.rst
    messages/enum-%s-cannot-include-magic-method-%s.rst
    messages/enum-%s-cannot-include-properties.rst
@@ -429,7 +426,7 @@ PHP Error Messages
    messages/failed-to-open-stream:-too-many-open-files.rst
    messages/failed-to-set-memory_limit-to-%zd-bytes.-setting-to-max_memory_limit-instead-(currently:.rst
    messages/fetching-properties-on-non-enums-in-constant-expressions-is-not-allowed.rst
-   messages/ffi-api-is-restricted-by-"ffi.enable"-configuration-directive.rst
+   messages/ffi-api-is-restricted-by-ffi.enable-configuration-directive.rst
    messages/filename-cannot-be-empty.rst
    messages/foreach()-argument-must-be-of-type-array|object.rst
    messages/func_get_arg()-cannot-be-called-from-the-global-scope.rst
@@ -439,7 +436,7 @@ PHP Error Messages
    messages/function-libxml_disable_entity_loader()-is-deprecated-since-8.0,-as-external-entity-loading-is-disabled-by-default.rst
    messages/function-name-must-be-a-string.rst
    messages/generator-return-type-must-be-a-supertype-of-generator.rst
-   messages/generators-cannot-return-values-using-"return".rst
+   messages/generators-cannot-return-values-using-return.rst
    messages/get-hook-of-backed-property-%s::%s-with-set-hook-may-not-return-by-reference.rst
    messages/get-hook-of-property-%s::$%s-must-not-have-a-parameter-list.rst
    messages/get_called_class()-must-be-called-from-within-a-class.rst
@@ -461,8 +458,8 @@ PHP Error Messages
    messages/illegal-offset-type.rst
    messages/illegal-string-offset.rst
    messages/implicit-conversion-from-float-%.*h-to-int-loses-precision.rst
-   messages/implicit-conversion-from-float-string-"%s"-to-int-loses-precision.rst
-   messages/implicit-conversion-from-float-string-"%s"-to-int-loses.rst
+   messages/implicit-conversion-from-float-string-%s-to-int-loses-precision.rst
+   messages/implicit-conversion-from-float-string-%s-to-int-loses.rst
    messages/inconsistent-insteadof-definition.-the-method-%s-is-to-be-used-from-%s.rst
    messages/increment-on-non-alphanumeric-string-is-deprecated.rst
    messages/increment-on-non-numeric-string-is-deprecated,-use-str_increment()-instead.rst
@@ -473,7 +470,7 @@ PHP Error Messages
    messages/indirect-modification-of-overloaded-property-%s::$%s-has-no-effect.rst
    messages/instanceof-expects-an-object-instance,-constant-given.rst
    messages/instantiation-of-class-closure-is-not-allowed.rst
-   messages/interface-"%s"-not-found.rst
+   messages/interface-%s-not-found.rst
    messages/interface-%s-cannot-contain-non-abstract-method-%s().rst
    messages/interface-%s-cannot-extend-class-%s.rst
    messages/interface-%s-cannot-implement-itself.rst
@@ -497,7 +494,7 @@ PHP Error Messages
    messages/jump-out-of-a-finally-block-is-disallowed.rst
    messages/key-element-cannot-be-a-reference.rst
    messages/keys-must-be-of-type-int|string-during-array-unpacking.rst
-   messages/label-'%s'-already-defined.rst
+   messages/label-%s-already-defined.rst
    messages/match-expressions-may-only-contain-one-default-arm.rst
    messages/maximum-depth-of-%d-exceeded.-the-depth-limit-can-be-changed-using-the-max_depth-unserialize()-option.rst
    messages/maximum-execution-time-of-%d-second%s-exceeded.rst
@@ -513,7 +510,8 @@ PHP Error Messages
    messages/method-name-must-be-a-string.rst
    messages/methods-with-the-same-name-as-their-class-will-not-be-constructors-in-a-future-version-of-php;-%s-has-a-deprecated-constructor.rst
    messages/missing-format-specifier-at-end-of-string.rst
-   messages/module-"%s"-is-already-loaded.rst
+   messages/modification-of-splobjectstorage-during-gethash()-is-prohibited.rst
+   messages/module-%s-is-already-loaded.rst
    messages/multiple-%s-modifiers-are-not-allowed.rst
    messages/multiple-access-type-modifiers-are-not-allowed.rst
    messages/multiple-final-modifiers-are-not-allowed.rst
@@ -527,7 +525,7 @@ PHP Error Messages
    messages/must-be-a-valid-charset.rst
    messages/must-be-a-valid-class-name,-%s-given.rst
    messages/must-be-a-valid-comparison-operator.rst
-   messages/must-be-a-valid-encoding,-"%s"-given.rst
+   messages/must-be-a-valid-encoding,-%s-given.rst
    messages/must-be-a-valid-method-name.rst
    messages/must-be-a-valid-rounding-mode-(roundingmode::*).rst
    messages/must-be-between-1-and-7.rst
@@ -558,7 +556,7 @@ PHP Error Messages
    messages/never-returning-function-must-not-implicitly-return.rst
    messages/new-expressions-are-not-supported-in-this-context.rst
    messages/no-code-may-exist-outside-of-namespace-{}.rst
-   messages/no-ending-delimiter-'%c'-found.rst
+   messages/no-ending-delimiter-%c-found.rst
    messages/no-such-file-or-directory.rst
    messages/non-abstract-method-%s::%s()-must-contain-body.rst
    messages/non-abstract-property-hook-must-have-a-body.rst
@@ -603,7 +601,7 @@ PHP Error Messages
    messages/parameter-%d-must-be-passed-by-reference.rst
    messages/parameter-must-be-an-array-or-an-object-that-implements-countable.rst
    messages/parameter-must-have-a-name.rst
-   messages/parameter-uses-'parent'-as-type-hint-although-class-does-not-have-a-parent!.rst
+   messages/parameter-uses-parent-as-type-hint-although-class-does-not-have-a-parent!.rst
    messages/passing-a-negative-integer-to-argument-#3-($width)-is-deprecated.rst
    messages/passing-connection-object-as-an-argument-is-deprecated.rst
    messages/passing-e_user_error-to-trigger_error()-is-deprecated-since-8.4,-throw-an-exception-or-call-exit-with-a-string-message-instead.rst
@@ -643,16 +641,16 @@ PHP Error Messages
    messages/reflectionproperty::getdefaultvalue()-for-a-property-without-a-default-value-is-deprecated,.rst
    messages/requested-precision-of-%d-digits-was-truncated-to-php-maximum-of-%d-digits.rst
    messages/required-parameter-$%s-follows-optional-parameter-$%s.rst
-   messages/required-trait-%s-wasn't-added-to-%s.rst
+   messages/required-trait-%s-wasnt-added-to-%s.rst
    messages/return-type-of-%s::%s()-should-either-be-compatible-with-%s::%s():-mixed.rst
    messages/return-value-of-%s%s%s()-must-%s%s%s,-%s%s-returned.rst
    messages/returning-bool-from-comparison-function-is-deprecated,-return-an-integer-less-than,-equal-to,-or-greater-than-zero.rst
    messages/returning-bool-from-comparison-function-is-deprecated.rst
    messages/returning-by-reference-from-a-void-function-is-deprecated.rst
    messages/returning-null-from-%s::__debuginfo()-is-deprecated,-return-an-empty-array-instead.rst
-   messages/security-level-must-be-one-of-"noauthnopriv",-"authnopriv",-or-"authpriv.rst
-   messages/security-protocol-must-be-one-of-"aes128",-or-"aes-e_error.rst
-   messages/security-protocol-must-be-one-of-"des",-"aes128",-or-"aes-e_error.rst
+   messages/security-level-must-be-one-of-noauthnopriv,-authnopriv,-or-authpriv.rst
+   messages/security-protocol-must-be-one-of-aes128,-or-aes-e_error.rst
+   messages/security-protocol-must-be-one-of-des,-aes128,-or-aes-e_error.rst
    messages/session-callback-must-have-a-return-value-of-type-bool,-%s-returned.rst
    messages/session.sid_bits_per_character-ini-setting-is-deprecated.rst
    messages/session.sid_length-ini-setting-is-deprecated.rst
@@ -660,11 +658,11 @@ PHP Error Messages
    messages/set-type-of-%s::$%s-must-be-supertype-of-%s-(as-in-%s-%s).rst
    messages/spread-operator-is-not-supported-in-assignments.rst
    messages/sqlite3result-cannot-be-directly-instantiated.rst
-   messages/static-"-is-not-allowed-in-compile-time-constants.rst
+   messages/static--is-not-allowed-in-compile-time-constants.rst
    messages/static-function-%s%s%s()-cannot-be-abstract.rst
    messages/static-property-%s::$%s-cannot-be-readonly.rst
    messages/static-property-may-not-have-asymmetric-visibility.rst
-   messages/static::-"-is-not-allowed-in-compile-time-constants.rst
+   messages/static::--is-not-allowed-in-compile-time-constants.rst
    messages/static::class-cannot-be-used-for-compile-time-class-name-resolution.rst
    messages/strict_types-declaration-must-be-the-very-first-statement-in-the-script.rst
    messages/strict_types-declaration-must-be.rst
@@ -672,136 +670,136 @@ PHP Error Messages
    messages/strict_types-declaration-must-not.rst
    messages/strlen():-passing-null-to-parameter-#1-($string)-of-type-string-is-deprecated.rst
    messages/switch-statements-may-only-contain-one-default-clause.rst
-   messages/syntax-error,-unexpected-')',-expecting-'='.rst
-   messages/syntax-error,-unexpected-')',-expecting-'|'-or-variable-(t_variable).rst
-   messages/syntax-error,-unexpected-')',-expecting-variable-(t_variable).rst
-   messages/syntax-error,-unexpected-','.rst
-   messages/syntax-error,-unexpected-'-',-expecting-'='.rst
-   messages/syntax-error,-unexpected-'::',-expecting-'('.rst
-   messages/syntax-error,-unexpected-'::'-(t_paamayim_nekudotayim),-expecting-';'-or-','.rst
-   messages/syntax-error,-unexpected-';',-expecting-'['.rst
-   messages/syntax-error,-unexpected-';',-expecting-'{'.rst
-   messages/syntax-error,-unexpected-'[',-expecting-';'-or-','.rst
-   messages/syntax-error,-unexpected-'elseif'.rst
-   messages/syntax-error,-unexpected-'match'.rst
-   messages/syntax-error,-unexpected-'throw'-(t_throw).rst
-   messages/syntax-error,-unexpected-'{'.rst
-   messages/syntax-error,-unexpected-'|',-expecting-variable-(t_variable).rst
+   messages/syntax-error,-unexpected-),-expecting-=.rst
+   messages/syntax-error,-unexpected-),-expecting-|-or-variable-(t_variable).rst
+   messages/syntax-error,-unexpected-),-expecting-variable-(t_variable).rst
+   messages/syntax-error,-unexpected-,.rst
+   messages/syntax-error,-unexpected--,-expecting-=.rst
+   messages/syntax-error,-unexpected-::,-expecting-(.rst
+   messages/syntax-error,-unexpected-::-(t_paamayim_nekudotayim),-expecting-;-or-,.rst
+   messages/syntax-error,-unexpected-;,-expecting-[.rst
+   messages/syntax-error,-unexpected-;,-expecting-{.rst
+   messages/syntax-error,-unexpected-[,-expecting-;-or-,.rst
+   messages/syntax-error,-unexpected-elseif.rst
+   messages/syntax-error,-unexpected-match.rst
+   messages/syntax-error,-unexpected-throw-(t_throw).rst
+   messages/syntax-error,-unexpected-{.rst
+   messages/syntax-error,-unexpected-|,-expecting-variable-(t_variable).rst
    messages/syntax-error,-unexpected-end-of-file.rst
-   messages/syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function"-or-"const".rst
-   messages/syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"function".rst
-   messages/syntax-error,-unexpected-fully-qualified-name-"%s",-expecting-"{".rst
-   messages/syntax-error,-unexpected-fully-qualified-name-"%s".rst
-   messages/syntax-error,-unexpected-identifier-"%s",-expecting-"(".rst
-   messages/syntax-error,-unexpected-identifier-"%s",-expecting-")".rst
-   messages/syntax-error,-unexpected-identifier-"%s",-expecting-","-or-";".rst
-   messages/syntax-error,-unexpected-identifier-"%s",-expecting-";"-or-"{".rst
-   messages/syntax-error,-unexpected-identifier-"%s",-expecting-"]".rst
-   messages/syntax-error,-unexpected-identifier-"%s",-expecting-"function"-or-"const".rst
-   messages/syntax-error,-unexpected-identifier-"%s",-expecting-"function".rst
-   messages/syntax-error,-unexpected-identifier-"%s",-expecting-"{".rst
-   messages/syntax-error,-unexpected-identifier-"%s",-expecting-variable-or-"$".rst
-   messages/syntax-error,-unexpected-identifier-"%s",-expecting-variable.rst
-   messages/syntax-error,-unexpected-identifier-"%s".rst
-   messages/syntax-error,-unexpected-identifier-"readonly",-expecting-"function"-or-"const".rst
-   messages/syntax-error,-unexpected-integer-"%s",-expecting-")".rst
-   messages/syntax-error,-unexpected-namespaced-name-"%s",-expecting-"function".rst
-   messages/syntax-error,-unexpected-single-quoted-string-"%s",-expecting-")".rst
+   messages/syntax-error,-unexpected-fully-qualified-name-%s,-expecting-function-or-const.rst
+   messages/syntax-error,-unexpected-fully-qualified-name-%s,-expecting-function.rst
+   messages/syntax-error,-unexpected-fully-qualified-name-%s,-expecting-{.rst
+   messages/syntax-error,-unexpected-fully-qualified-name-%s.rst
+   messages/syntax-error,-unexpected-identifier-%s,-expecting-(.rst
+   messages/syntax-error,-unexpected-identifier-%s,-expecting-).rst
+   messages/syntax-error,-unexpected-identifier-%s,-expecting-,-or-;.rst
+   messages/syntax-error,-unexpected-identifier-%s,-expecting-;-or-{.rst
+   messages/syntax-error,-unexpected-identifier-%s,-expecting-].rst
+   messages/syntax-error,-unexpected-identifier-%s,-expecting-function-or-const.rst
+   messages/syntax-error,-unexpected-identifier-%s,-expecting-function.rst
+   messages/syntax-error,-unexpected-identifier-%s,-expecting-{.rst
+   messages/syntax-error,-unexpected-identifier-%s,-expecting-variable-or-$.rst
+   messages/syntax-error,-unexpected-identifier-%s,-expecting-variable.rst
+   messages/syntax-error,-unexpected-identifier-%s.rst
+   messages/syntax-error,-unexpected-identifier-readonly,-expecting-function-or-const.rst
+   messages/syntax-error,-unexpected-integer-%s,-expecting-).rst
+   messages/syntax-error,-unexpected-namespaced-name-%s,-expecting-function.rst
+   messages/syntax-error,-unexpected-single-quoted-string-%s,-expecting-).rst
    messages/syntax-error,-unexpected-string-content.rst
-   messages/syntax-error,-unexpected-token-"#[",-expecting-")".rst
-   messages/syntax-error,-unexpected-token-"#[",-expecting-","-or-";".rst
-   messages/syntax-error,-unexpected-token-"#[",-expecting-"]".rst
-   messages/syntax-error,-unexpected-token-"%".rst
-   messages/syntax-error,-unexpected-token-"%s",-expecting-identifier.rst
-   messages/syntax-error,-unexpected-token-"&",-expecting-end-of-file.rst
-   messages/syntax-error,-unexpected-token-"&".rst
-   messages/syntax-error,-unexpected-token-"(",-expecting-"::".rst
-   messages/syntax-error,-unexpected-token-"(",-expecting-identifier-or-variable-or-"{"-or-"$".rst
-   messages/syntax-error,-unexpected-token-"(",-expecting-variable.rst
-   messages/syntax-error,-unexpected-token-"(".rst
-   messages/syntax-error,-unexpected-token-"(int)".rst
-   messages/syntax-error,-unexpected-token-")",-expecting-"=".rst
-   messages/syntax-error,-unexpected-token-")",-expecting-"function"-or-"fn"-or-"static"-or-"#[".rst
-   messages/syntax-error,-unexpected-token-")",-expecting-variable.rst
-   messages/syntax-error,-unexpected-token-")".rst
-   messages/syntax-error,-unexpected-token-"*".rst
-   messages/syntax-error,-unexpected-token-",",-expecting-")".rst
-   messages/syntax-error,-unexpected-token-",",-expecting-"]".rst
-   messages/syntax-error,-unexpected-token-",",-expecting-variable-or-"$".rst
-   messages/syntax-error,-unexpected-token-",",-expecting-variable.rst
-   messages/syntax-error,-unexpected-token-",".rst
-   messages/syntax-error,-unexpected-token-"--",-expecting-"{".rst
-   messages/syntax-error,-unexpected-token-"->",-expecting-","-or-";".rst
-   messages/syntax-error,-unexpected-token-"->".rst
-   messages/syntax-error,-unexpected-token-":",-expecting-")".rst
-   messages/syntax-error,-unexpected-token-":",-expecting-"]".rst
-   messages/syntax-error,-unexpected-token-":".rst
-   messages/syntax-error,-unexpected-token-"::",-expecting-","-or-";".rst
-   messages/syntax-error,-unexpected-token-"::",-expecting-":".rst
-   messages/syntax-error,-unexpected-token-"::",-expecting-"]".rst
-   messages/syntax-error,-unexpected-token-"::".rst
-   messages/syntax-error,-unexpected-token-";",-expecting-"(".rst
-   messages/syntax-error,-unexpected-token-";",-expecting-")".rst
-   messages/syntax-error,-unexpected-token-";",-expecting-","-or-")".rst
-   messages/syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"[".rst
-   messages/syntax-error,-unexpected-token-";",-expecting-"->"-or-"?->"-or-"{"-or-"[".rst
-   messages/syntax-error,-unexpected-token-";",-expecting-"]".rst
-   messages/syntax-error,-unexpected-token-";",-expecting-"function"-or-"fn"-or-"static"-or-"#[".rst
-   messages/syntax-error,-unexpected-token-";",-expecting-"{".rst
-   messages/syntax-error,-unexpected-token-";",-expecting-identifier.rst
-   messages/syntax-error,-unexpected-token-";".rst
-   messages/syntax-error,-unexpected-token-"<<".rst
-   messages/syntax-error,-unexpected-token-"=",-expecting-identifier-or-variable-or-"{"-or-"$".rst
-   messages/syntax-error,-unexpected-token-"=",-expecting-identifier.rst
-   messages/syntax-error,-unexpected-token-"=",-expecting-variable.rst
-   messages/syntax-error,-unexpected-token-"=".rst
-   messages/syntax-error,-unexpected-token-">".rst
-   messages/syntax-error,-unexpected-token-"?".rst
-   messages/syntax-error,-unexpected-token-"?->",-expecting-","-or-";".rst
-   messages/syntax-error,-unexpected-token-"?->".rst
-   messages/syntax-error,-unexpected-token-"??".rst
-   messages/syntax-error,-unexpected-token-"]".rst
-   messages/syntax-error,-unexpected-token-"__namespace__",-expecting-"(".rst
-   messages/syntax-error,-unexpected-token-"as".rst
-   messages/syntax-error,-unexpected-token-"break".rst
-   messages/syntax-error,-unexpected-token-"class",-expecting-"]".rst
-   messages/syntax-error,-unexpected-token-"const".rst
-   messages/syntax-error,-unexpected-token-"continue".rst
-   messages/syntax-error,-unexpected-token-"exit".rst
-   messages/syntax-error,-unexpected-token-"extends",-expecting-"{".rst
-   messages/syntax-error,-unexpected-token-"extends",-expecting-identifier.rst
-   messages/syntax-error,-unexpected-token-"extends".rst
-   messages/syntax-error,-unexpected-token-"final",-expecting-"(".rst
-   messages/syntax-error,-unexpected-token-"if",-expecting-")".rst
-   messages/syntax-error,-unexpected-token-"if",-expecting-"]".rst
-   messages/syntax-error,-unexpected-token-"if".rst
-   messages/syntax-error,-unexpected-token-"implements".rst
-   messages/syntax-error,-unexpected-token-"match",-expecting-"(".rst
-   messages/syntax-error,-unexpected-token-"match".rst
-   messages/syntax-error,-unexpected-token-"namespace",-expecting-"{".rst
-   messages/syntax-error,-unexpected-token-"namespace".rst
-   messages/syntax-error,-unexpected-token-"new",-expecting-")".rst
-   messages/syntax-error,-unexpected-token-"private",-expecting-"(".rst
-   messages/syntax-error,-unexpected-token-"private",-expecting-")".rst
-   messages/syntax-error,-unexpected-token-"private",-expecting-"=".rst
-   messages/syntax-error,-unexpected-token-"private",-expecting-"{".rst
-   messages/syntax-error,-unexpected-token-"protected",-expecting-"{".rst
-   messages/syntax-error,-unexpected-token-"public",-expecting-"]".rst
-   messages/syntax-error,-unexpected-token-"public",-expecting-"{".rst
-   messages/syntax-error,-unexpected-token-"public".rst
-   messages/syntax-error,-unexpected-token-"use",-expecting-","-or-";".rst
-   messages/syntax-error,-unexpected-token-"use",-expecting-"{".rst
-   messages/syntax-error,-unexpected-token-"use".rst
-   messages/syntax-error,-unexpected-token-"{",-expecting-","-or-";".rst
-   messages/syntax-error,-unexpected-token-"{",-expecting-variable.rst
-   messages/syntax-error,-unexpected-token-"{".rst
-   messages/syntax-error,-unexpected-token-"}",-expecting-";"-or-"{".rst
-   messages/syntax-error,-unexpected-token-"}".rst
-   messages/syntax-error,-unexpected-variable-"$%s",-expecting-")".rst
-   messages/syntax-error,-unexpected-variable-"$task",-expecting-")".rst
-   messages/syntax-error,-unexpected-variable-"$this",-expecting-";"-or-"{".rst
-   messages/syntax-error,-unexpected-variable-"%s",-expecting-"(".rst
-   messages/the-"generator"-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated.rst
+   messages/syntax-error,-unexpected-token-#[,-expecting-).rst
+   messages/syntax-error,-unexpected-token-#[,-expecting-,-or-;.rst
+   messages/syntax-error,-unexpected-token-#[,-expecting-].rst
+   messages/syntax-error,-unexpected-token-%.rst
+   messages/syntax-error,-unexpected-token-%s,-expecting-identifier.rst
+   messages/syntax-error,-unexpected-token-&,-expecting-end-of-file.rst
+   messages/syntax-error,-unexpected-token-&.rst
+   messages/syntax-error,-unexpected-token-(,-expecting-::.rst
+   messages/syntax-error,-unexpected-token-(,-expecting-identifier-or-variable-or-{-or-$.rst
+   messages/syntax-error,-unexpected-token-(,-expecting-variable.rst
+   messages/syntax-error,-unexpected-token-(.rst
+   messages/syntax-error,-unexpected-token-(int).rst
+   messages/syntax-error,-unexpected-token-),-expecting-=.rst
+   messages/syntax-error,-unexpected-token-),-expecting-function-or-fn-or-static-or-#[.rst
+   messages/syntax-error,-unexpected-token-),-expecting-variable.rst
+   messages/syntax-error,-unexpected-token-).rst
+   messages/syntax-error,-unexpected-token-*.rst
+   messages/syntax-error,-unexpected-token-,,-expecting-).rst
+   messages/syntax-error,-unexpected-token-,,-expecting-].rst
+   messages/syntax-error,-unexpected-token-,,-expecting-variable-or-$.rst
+   messages/syntax-error,-unexpected-token-,,-expecting-variable.rst
+   messages/syntax-error,-unexpected-token-,.rst
+   messages/syntax-error,-unexpected-token---,-expecting-{.rst
+   messages/syntax-error,-unexpected-token-->,-expecting-,-or-;.rst
+   messages/syntax-error,-unexpected-token-->.rst
+   messages/syntax-error,-unexpected-token-:,-expecting-).rst
+   messages/syntax-error,-unexpected-token-:,-expecting-].rst
+   messages/syntax-error,-unexpected-token-:.rst
+   messages/syntax-error,-unexpected-token-::,-expecting-,-or-;.rst
+   messages/syntax-error,-unexpected-token-::,-expecting-:.rst
+   messages/syntax-error,-unexpected-token-::,-expecting-].rst
+   messages/syntax-error,-unexpected-token-::.rst
+   messages/syntax-error,-unexpected-token-;,-expecting-(.rst
+   messages/syntax-error,-unexpected-token-;,-expecting-).rst
+   messages/syntax-error,-unexpected-token-;,-expecting-,-or-).rst
+   messages/syntax-error,-unexpected-token-;,-expecting-->-or-?->-or-[.rst
+   messages/syntax-error,-unexpected-token-;,-expecting-->-or-?->-or-{-or-[.rst
+   messages/syntax-error,-unexpected-token-;,-expecting-].rst
+   messages/syntax-error,-unexpected-token-;,-expecting-function-or-fn-or-static-or-#[.rst
+   messages/syntax-error,-unexpected-token-;,-expecting-{.rst
+   messages/syntax-error,-unexpected-token-;,-expecting-identifier.rst
+   messages/syntax-error,-unexpected-token-;.rst
+   messages/syntax-error,-unexpected-token-<<.rst
+   messages/syntax-error,-unexpected-token-=,-expecting-identifier-or-variable-or-{-or-$.rst
+   messages/syntax-error,-unexpected-token-=,-expecting-identifier.rst
+   messages/syntax-error,-unexpected-token-=,-expecting-variable.rst
+   messages/syntax-error,-unexpected-token-=.rst
+   messages/syntax-error,-unexpected-token->.rst
+   messages/syntax-error,-unexpected-token-?.rst
+   messages/syntax-error,-unexpected-token-?->,-expecting-,-or-;.rst
+   messages/syntax-error,-unexpected-token-?->.rst
+   messages/syntax-error,-unexpected-token-??.rst
+   messages/syntax-error,-unexpected-token-].rst
+   messages/syntax-error,-unexpected-token-__namespace__,-expecting-(.rst
+   messages/syntax-error,-unexpected-token-as.rst
+   messages/syntax-error,-unexpected-token-break.rst
+   messages/syntax-error,-unexpected-token-class,-expecting-].rst
+   messages/syntax-error,-unexpected-token-const.rst
+   messages/syntax-error,-unexpected-token-continue.rst
+   messages/syntax-error,-unexpected-token-exit.rst
+   messages/syntax-error,-unexpected-token-extends,-expecting-{.rst
+   messages/syntax-error,-unexpected-token-extends,-expecting-identifier.rst
+   messages/syntax-error,-unexpected-token-extends.rst
+   messages/syntax-error,-unexpected-token-final,-expecting-(.rst
+   messages/syntax-error,-unexpected-token-if,-expecting-).rst
+   messages/syntax-error,-unexpected-token-if,-expecting-].rst
+   messages/syntax-error,-unexpected-token-if.rst
+   messages/syntax-error,-unexpected-token-implements.rst
+   messages/syntax-error,-unexpected-token-match,-expecting-(.rst
+   messages/syntax-error,-unexpected-token-match.rst
+   messages/syntax-error,-unexpected-token-namespace,-expecting-{.rst
+   messages/syntax-error,-unexpected-token-namespace.rst
+   messages/syntax-error,-unexpected-token-new,-expecting-).rst
+   messages/syntax-error,-unexpected-token-private,-expecting-(.rst
+   messages/syntax-error,-unexpected-token-private,-expecting-).rst
+   messages/syntax-error,-unexpected-token-private,-expecting-=.rst
+   messages/syntax-error,-unexpected-token-private,-expecting-{.rst
+   messages/syntax-error,-unexpected-token-protected,-expecting-{.rst
+   messages/syntax-error,-unexpected-token-public,-expecting-].rst
+   messages/syntax-error,-unexpected-token-public,-expecting-{.rst
+   messages/syntax-error,-unexpected-token-public.rst
+   messages/syntax-error,-unexpected-token-use,-expecting-,-or-;.rst
+   messages/syntax-error,-unexpected-token-use,-expecting-{.rst
+   messages/syntax-error,-unexpected-token-use.rst
+   messages/syntax-error,-unexpected-token-{,-expecting-,-or-;.rst
+   messages/syntax-error,-unexpected-token-{,-expecting-variable.rst
+   messages/syntax-error,-unexpected-token-{.rst
+   messages/syntax-error,-unexpected-token-},-expecting-;-or-{.rst
+   messages/syntax-error,-unexpected-token-}.rst
+   messages/syntax-error,-unexpected-variable-$%s,-expecting-).rst
+   messages/syntax-error,-unexpected-variable-$task,-expecting-).rst
+   messages/syntax-error,-unexpected-variable-$this,-expecting-;-or-{.rst
+   messages/syntax-error,-unexpected-variable-%s,-expecting-(.rst
+   messages/the-generator-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated.rst
    messages/the-$context-parameter-has-no-effect-for-finfo_buffer().rst
    messages/the-$escape-parameter-must-be-provided-as-its-default-value-will-change.rst
    messages/the-$key_length-parameter-is-deprecated-as-it-is-either-ignored-or-truncates-the-key.rst
@@ -809,17 +807,17 @@ PHP Error Messages
    messages/the-(real)-cast-is-deprecated,-use-(float)-instead.rst
    messages/the-(unset)-cast-is-deprecated.rst
    messages/the-(unset)-cast-is-no-longer-supported.rst
-   messages/the--"yield-"-expression-can-only-be-used-inside-a-function.rst
+   messages/the--yield--expression-can-only-be-used-inside-a-function.rst
    messages/the-__sleep()-serialization-magic-method-has-been-deprecated..rst
    messages/the-__wakeup()-serialization-magic-method-has-been-deprecated..rst
    messages/the-arguments-array-must-contain-%d-items,-%d-given.rst
    messages/the-backtick-(`)-operator-is-deprecated,-use-shell_exec()-instead.rst
-   messages/the-behavior-of-unparenthesized-expressions-containing-both-'.'-and-'+'-'-'-will-change-in-php-8:-'+'-'-'-will-take-a-higher-precedence.rst
-   messages/the-behavior-of-unparenthesized-expressions-containing-both-'.'-and-'<<'-'>>'-will-change-in-php-8:-'<<'-'>>'-will-take-a-higher-precedence.rst
+   messages/the-behavior-of-unparenthesized-expressions-containing-both-.-and-+---will-change-in-php-8:-+---will-take-a-higher-precedence.rst
+   messages/the-behavior-of-unparenthesized-expressions-containing-both-.-and-<<->>-will-change-in-php-8:-<<->>-will-take-a-higher-precedence.rst
    messages/the-connection-has-no-charset-associated.rst
    messages/the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls.rst
    messages/the-float-%.*h-is-not-representable-as-an-int,-cast-occurred.rst
-   messages/the-float-string--"%s-"-is-not-representable-as-an-int,-cast-occurred.rst
+   messages/the-float-string--%s--is-not-representable-as-an-int,-cast-occurred.rst
    messages/the-magic-method-%s::%s()-must-have-public-visibility.rst
    messages/the-modifiers-of-the-trait-method-%s()-are-changed,-but-this-method-does-not-exist.-error.rst
    messages/the-parent-constructor-was-not-called:-the-object-is-in-an-invalid-state.rst
@@ -828,12 +826,12 @@ PHP Error Messages
    messages/the-return-value-of-function-%s()-should-either-be-used-or-intentionally-ignored-by-casting-it-as-(void)%s.rst
    messages/the-return-value-of-method-%s::%s()-should-either-be-used-or-intentionally-ignored-by-casting-it-as-(void)%s.rst
    messages/the-sqlite3-object-has-not-been-correctly-initialised-or-is-already-closed.rst
-   messages/the-use-statement-with-non-compound-name-'%s'.rst
+   messages/the-use-statement-with-non-compound-name-%s.rst
    messages/too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d-expected.rst
    messages/too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d.rst
    messages/too-few-arguments-to-function-%s%s%s(),-%d-passed-in-%s-on-line-%d-and-%s-%d-expected.rst
    messages/too-few-arguments.rst
-   messages/trait-"%s"-not-found.rst
+   messages/trait-%s-not-found.rst
    messages/trait-%s-used-by-%s-is-deprecated%s.rst
    messages/trait-method-%s::%s-has-not-been-applied-as-%s::%s.rst
    messages/traits-cannot-have-constants.rst
@@ -847,7 +845,7 @@ PHP Error Messages
    messages/type-%s-is-redundant-as-it-is-more-restrictive-than-type-%s.rst
    messages/type-%s-is-redundant-with-type-%s.rst
    messages/type-contains-both-true-and-false,-bool-must-be-used-instead.rst
-   messages/type-declaration-'%s'-must-be-unqualified.rst
+   messages/type-declaration-%s-must-be-unqualified.rst
    messages/type-mixed-can-only-be-used-as-a-standalone-type.rst
    messages/type-mixed-cannot-be-marked-as-nullable-since-mixed-already-includes-null.rst
    messages/type-must-be-a-single-character.rst
@@ -859,53 +857,53 @@ PHP Error Messages
    messages/typed-property-%s::$%s-must-not-be-accessed-before-initialization.rst
    messages/typed-static-property-%s::$%s-must-not-be-accessed-before-initialization.rst
    messages/unbacked-enum-%s-cannot-be-converted-to-a-string.rst
-   messages/unclosed-'('-does-not-match-']'.rst
-   messages/unclosed-'('-on-line-%s-does-not-match-']'.rst
-   messages/unclosed-'('.rst
-   messages/unclosed-'['.rst
-   messages/unclosed-'{'.rst
+   messages/unclosed-(-does-not-match-].rst
+   messages/unclosed-(-on-line-%s-does-not-match-].rst
+   messages/unclosed-(.rst
+   messages/unclosed-[.rst
+   messages/unclosed-{.rst
    messages/undefined-array-key.rst
-   messages/undefined-class-constant-'%s::%s'.rst
-   messages/undefined-constant-"%s.rst
+   messages/undefined-class-constant-%s::%s.rst
+   messages/undefined-constant-%s.rst
    messages/undefined-constant-%s::%s.rst
    messages/undefined-global-variable-%s.rst
    messages/undefined-offset.rst
    messages/undefined-property-%s::$%s.rst
    messages/undefined-variable-$%s.rst
    messages/undefined-variable.rst
-   messages/unexpected-character-in-input:--'-'-(ascii=92).rst
+   messages/unexpected-character-in-input:----(ascii=92).rst
    messages/unexpected-nan-value-was-coerced-to-%s.rst
    messages/unhandled-match-case-%s.rst
    messages/uninitialized-string-offset.rst
    messages/unknown-digest-algorithm:-%s.rst
    messages/unknown-filter-with-id.rst
-   messages/unknown-format-specifier-"%c.rst
-   messages/unknown-hook-"%s"-for-property-%s::$%s,-expected-"get"-or-"set".rst
-   messages/unknown-hook--"%s-"-for-property-%s::$%s.rst
+   messages/unknown-format-specifier-%c.rst
+   messages/unknown-hook-%s-for-property-%s::$%s,-expected-get-or-set.rst
+   messages/unknown-hook--%s--for-property-%s::$%s.rst
    messages/unknown-named-parameter-$%s.rst
    messages/unknown-or-bad-format-(%s).rst
    messages/unknown-parser.rst
-   messages/unlink-of-"%s"-failed,-file-does-not-exist.rst
-   messages/unmatched-')'.rst
-   messages/unmatched-']'.rst
-   messages/unmatched-'}'.rst
+   messages/unlink-of-%s-failed,-file-does-not-exist.rst
+   messages/unmatched-).rst
+   messages/unmatched-].rst
+   messages/unmatched-}.rst
    messages/unparenthesized-`a-?-b-:-c-?-d-:-e`-is-not-supported..rst
    messages/unparenthesized-`a-?-b-:-c-?:-d`-is-not-supported..rst
    messages/unparenthesized-`a-?:-b-?-c-:-d`-is-not-supported..rst
-   messages/unserializing-the-'s'-format-is-deprecated.rst
-   messages/unsupported-declare-'%s'.rst
+   messages/unserializing-the-s-format-is-deprecated.rst
+   messages/unsupported-declare-%s.rst
    messages/unsupported-operand-types.rst
    messages/unsupported-operand-types:-%s-%s-%s.rst
    messages/unterminated-comment-starting-line-%d.rst
    messages/usage-of-session.referer_check-ini-setting-is-deprecated.rst
-   messages/use-of-"parent"-in-callables-is-deprecated.rst
-   messages/use-of-"self"-in-callables-is-deprecated.rst
-   messages/use-of-"static"-in-callables-is-deprecated.rst
+   messages/use-of-parent-in-callables-is-deprecated.rst
+   messages/use-of-self-in-callables-is-deprecated.rst
+   messages/use-of-static-in-callables-is-deprecated.rst
    messages/use-of-mbstring.http_input-is-deprecated.rst
    messages/use-of-mbstring.http_output-is-deprecated.rst
    messages/use-of-mbstring.internal_encoding-is-deprecated.rst
    messages/use-of-warnings-for-sqlite3-is-deprecated.rst
-   messages/using-"_"-as-%s-is-deprecated-since-8.4.rst
+   messages/using-_-as-%s-is-deprecated-since-8.4.rst
    messages/using-$this-when-not-in-object-context.rst
    messages/using-${expr}-(variable-variables)-in-strings-is-deprecated,-use-{${expr}}-instead.rst
    messages/using-${var}-in-strings-is-deprecated,-use-{$var}-instead.rst
@@ -923,4 +921,4 @@ PHP Error Messages
    messages/void-can-only-be-used-as-a-standalone-type.rst
    messages/void-cannot-be-used-as-a-parameter-type.rst
    messages/write-of-%zu-bytes-failed-with-errno=%d-%s.rst
-   messages/wrong-encoding,-conversion-from-"%s"-to-"%s"-is-not-allowed.rst
+   messages/wrong-encoding,-conversion-from-%s-to-%s-is-not-allowed.rst
