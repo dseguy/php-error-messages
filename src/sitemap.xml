@@ -10,58 +10,58 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/pd-arguments-are-required,-pd.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps-returned-as-member-variable-from-__sleep()-but-does-not-exist.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps-returned-as-member-variable-from-__sleepqr-but-does-not-exist.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/ps-will-be-interpreted-as-a-class-name.-did-you-mean-ps?-write-psps-to-suppress-this-warning.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/pspsps()-does-not-accept-unknown-named-parameters.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/pspspsqr-does-not-accept-unknown-named-parameters.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/pspsps():-argument-#pdpspsps-must-be-passed-by-reference,-value-given.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/pspspsqr:-argument-spdpspsps-must-be-passed-by-reference,-value-given.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/pspsps():-return-value-must-be-of-type-ps,-ps-returned.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/pspspsqr:-return-value-must-be-of-type-ps,-ps-returned.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps()-expects-exactly-0-arguments,-pd-given.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/psqr-expects-exactly-0-arguments,-pd-given.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps()-has-been-disabled-for-security-reasons.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/psqr-has-been-disabled-for-security-reasons.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps():-argument-#pdpspsps-cannot-be-passed-by-reference.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/psqr:-argument-spdpspsps-cannot-be-passed-by-reference.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps():-argument-#pdpspsps-could-not-be-passed-by-reference.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/psqr:-argument-spdpspsps-could-not-be-passed-by-reference.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps():-implicitly-marking-parameter-$ps-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/psqr:-implicitly-marking-parameter-$ps-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps():-never-returning-ps-must-not-implicitly-return.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/psqr:-never-returning-ps-must-not-implicitly-return.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps():-never-returning-function-must-not-implicitly-return.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/psqr:-never-returning-function-must-not-implicitly-return.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps():-passing-null-to-parameter-#p.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/psqr:-passing-null-to-parameter-sp.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps():-return-value-of-the-authorizer-callback-must-be-of-type-int,-ps-returned.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/psqr:-return-value-of-the-authorizer-callback-must-be-of-type-int,-ps-returned.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps():-return-value-of-the-collation-callback-must-be-of-type-int,-ps-returned.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/psqr:-return-value-of-the-collation-callback-must-be-of-type-int,-ps-returned.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps():-returning-by-reference-from-a-void-function-is-deprecated.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/psqr:-returning-by-reference-from-a-void-function-is-deprecated.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/ps--is-not-a-supported-builtin-type-and-will-be-interpreted-as-a-class-name.-write----ps-ps-to-suppress-this-warning.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps--is-returned-from-__sleep()-multiple-times.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps--is-returned-from-__sleepqr-multiple-times.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/ps--will-be-interpreted-as-a-class-name.-did-you-mean--ps-?-write----ps-ps-to-suppress-this-warning.html</loc>
@@ -73,25 +73,25 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/ps-ps-cannot-implement-previously-implemented-interface-ps.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps-ps-contains-pd-abstract-methodps-and-must-therefore-be-declared-abstract-or-implement-the-remaining-methodps-(.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps-ps-contains-pd-abstract-methodps-and-must-therefore-be-declared-abstract-or-implement-the-remaining-methodps-q.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/ps-ps-inherits-both-ps::ps-and-ps::ps.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps-ps-must-implement-pd-abstract-methodps-(.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps-ps-must-implement-pd-abstract-methodps-q.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/ps-ps-must-implement-interface-ps-as-part-of-either-ps-or-ps.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps-and-ps-define-the-same-constant-(ps)-in-the-composition-of-ps.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps-and-ps-define-the-same-constant-qpsr-in-the-composition-of-ps.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps-and-ps-define-the-same-hooked-property-($ps)-in-the-composition-of-ps.-conflict-resolution-between-hooked-properties-is-currently-not-supported.-class-was-composed.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps-and-ps-define-the-same-hooked-property-q$psr-in-the-composition-of-ps.-conflict-resolution-between-hooked-properties-is-currently-not-supported.-class-was-composed.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps-and-ps-define-the-same-property-($ps)-in-the-composition-of-ps.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps-and-ps-define-the-same-property-q$psr-in-the-composition-of-ps.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/ps-cannot-implement-ps---it-is-not-an-interface.html</loc>
@@ -103,10 +103,10 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/ps-class-ps-cannot-extend-ps-class-ps.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps-function-ps::ps()-cannot-be-declared-private.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps-function-ps::psqr-cannot-be-declared-private.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps-function-ps::ps()-cannot-contain-body.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps-function-ps::psqr-cannot-contain-body.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/ps-hook-of-property-ps::$ps-must-accept-exactly-one-parameters.html</loc>
@@ -115,31 +115,31 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/ps-is-not-supported-on-type-ps.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps-method-ps::ps()-must-not-be-abstract.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps-method-ps::psqr-must-not-be-abstract.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/ps-virtual-property-ps::$ps-must-not-specify-asymmetric-visibility.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps::$ps-has-#[--override]-attribute.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps::$ps-has-s[--override]-attribute.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps::ps()-has-#[-override]-attribute,-but-no-matching-parent-method-exists.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps::psqr-has-s[-override]-attribute,-but-no-matching-parent-method-exists.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps::ps():-return-type-must-be-ps-when-declared.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps::psqr:-return-type-must-be-ps-when-declared.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/ps::ps-cannot-override-final-constant-ps::ps.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps::ps-has-#[--override]-attribute.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps::ps-has-s[--override]-attribute.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps::__sleep()-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps::__sleepqr-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps::__tostring()-must-return-a-string.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps::__tostringqr-must-return-a-string.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/ps-not-in-the-loop-or-switch-context.html</loc>
@@ -160,25 +160,25 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/goto-to-undefined-label-ps.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/(expression)::class-cannot-be-used-in-constant-expressions.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/qexpressionr::class-cannot-be-used-in-constant-expressions.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/0-__halt_compiler()-can-only-be-used-from-the-outermost-scope.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/0-__halt_compilerqr-can-only-be-used-from-the-outermost-scope.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/[]-operator-not-supported-for-strings.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/autoload()-is-deprecated,-use-spl_autoload_register()-instead.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/autoloadqr-is-deprecated,-use-spl_autoload_registerqr-instead.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/autoload()-is-no-longer-supported,-use-spl_autoload_register()-instead.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/autoloadqr-is-no-longer-supported,-use-spl_autoload_registerqr-instead.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/clone-method-called-on-non-object.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/halt_compiler()-can-only-be-used-from-the-outermost-scope.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/halt_compilerqr-can-only-be-used-from-the-outermost-scope.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/sleep-should-return-an-array-only-containing-the-names-of-instance-variables-to-serialize..html</loc>
@@ -229,10 +229,10 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/abstract-property-hook-cannot-have-body.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/access-level-to-ps::$ps-must-be-ps-(as-in-class-ps)ps.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/access-level-to-ps::$ps-must-be-ps-qas-in-class-psrps.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/access-level-to-ps::ps-must-be-ps-(as-in-ps-ps)ps.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/access-level-to-ps::ps-must-be-ps-qas-in-ps-psrps.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/access-to-undeclared-static-property-ps::$ps.html</loc>
@@ -241,7 +241,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/access-type-for-interface-constant-ps::ps-must-be-public.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/access-type-for-interface-method-ps::ps()-must-be-public.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/access-type-for-interface-method-ps::psqr-must-be-public.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/accessing-static-property-ps::$ps-as-non-static.html</loc>
@@ -253,34 +253,34 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/accessing-static-trait-property-ps::$ps-is-deprecated.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/an-alias-(ps)-was-defined-for-method-ps(),-but-this-method-does-not-exist.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/an-alias-qpsr-was-defined-for-method-psqr,-but-this-method-does-not-exist.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/an-alias-was-defined-for-ps::ps-but-this-method-does-not-exist.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/an-alias-was-defined-for-method-ps(),-which-exists-in-both-ps-and-ps.-use-ps::ps-or-ps::ps-to-resolve-the-ambiguity.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/an-alias-was-defined-for-method-psqr,-which-exists-in-both-ps-and-ps.-use-ps::ps-or-ps::ps-to-resolve-the-ambiguity.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/an-iterator-cannot-be-used-with-foreach-by-reference.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/anonymous-class-method-ps()-must-not-be-abstract.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/anonymous-class-method-psqr-must-not-be-abstract.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/argument-#pd-($ps)-must-be-of-type-ps,-ps-given.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/argument-spd-q$psr-must-be-of-type-ps,-ps-given.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/argument-#pd-must-be-greater-than-or-equal-to-0.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/argument-spd-must-be-greater-than-or-equal-to-0.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/argument-#1-($start)-must-be-a-single-byte-string-if.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/argument-s1-q$startr-must-be-a-single-byte-string-if.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/argument-#1-($value)-must-contain-at-least-one-element.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/argument-s1-q$valuer-must-contain-at-least-one-element.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/argument-#2-($end)-must-be-a-single-byte-string-if.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/argument-s2-q$endr-must-be-a-single-byte-string-if.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/argument-unpacking-in-constant-expressions-is-not-supported.html</loc>
@@ -301,25 +301,25 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/array-to-string-conversion.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/array_key_exists():-argument-#2-($array)-must-be-of-type-array,-ps-given.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/array_key_existsqr:-argument-s2-q$arrayr-must-be-of-type-array,-ps-given.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/array_merge()-does-not-accept-unknown-named-parameters.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/array_mergeqr-does-not-accept-unknown-named-parameters.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/array_merge()-expects-at-least-1-parameter,-0-given.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/array_mergeqr-expects-at-least-1-parameter,-0-given.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/array_product():-multiplication-is-not-supported-on-type-array.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/array_productqr:-multiplication-is-not-supported-on-type-array.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/array_product():-multiplication-is-not-supported-on-type-object.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/array_productqr:-multiplication-is-not-supported-on-type-object.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/array_product():-multiplication-is-not-supported-on-type-string.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/array_productqr:-multiplication-is-not-supported-on-type-string.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/array_sum():-addition-is-not-supported-on-type-array.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/array_sumqr:-addition-is-not-supported-on-type-array.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/arrow-functions-on-the-right-hand-side-of-|&gt;-must-be-parenthesized.html</loc>
@@ -352,7 +352,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/attempt-to-unset-static-property-ps::$ps.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/attribute-ps-cannot-target-ps-(allowed-targets:-ps).html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/attribute-ps-cannot-target-ps-qallowed-targets:-psr.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/attribute-class-ps-not-found.html</loc>
@@ -370,52 +370,52 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/break-operator-accepts-only-positive-integers.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/call-to-ps-ps::ps()-from-global-scope.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/call-to-ps-ps::psqr-from-global-scope.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/call-to-ps-ps::ps()-from-invalid.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/call-to-ps-ps::psqr-from-invalid.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/call-to-ps-ps::__destruct()-from-global-scope-during-shutdown-ignored.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/call-to-ps-ps::__destructqr-from-global-scope-during-shutdown-ignored.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/call-to-ps-method-ps::ps()-from-psps.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/call-to-ps-method-ps::psqr-from-psps.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/call-to-a-member-function-ps()-on-ps.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/call-to-a-member-function-psqr-on-ps.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-function-ps().html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-function-psqr.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-function-each().html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-function-eachqr.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-function-exit().html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-function-exitqr.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-function.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-method-ps::ps().html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-method-ps::psqr.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/calling-ps()-on-an-object-is-deprecated.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/calling-psqr-on-an-object-is-deprecated.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/calling-get_class()-without-arguments-is-deprecated.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/calling-get_classqr-without-arguments-is-deprecated.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/calling-get_parent_class()-without-arguments-is-deprecated.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/calling-get_parent_classqr-without-arguments-is-deprecated.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/calling-mb_check_encoding()-without-argument-is-deprecated.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/calling-mb_check_encodingqr-without-argument-is-deprecated.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/calling-static-trait-method-ps::ps-is-deprecated.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/cant-inherit-abstract-function-ps::ps()-(previously-declared-abstract-in-ps).html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cant-inherit-abstract-function-ps::psqr-qpreviously-declared-abstract-in-psr.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cant-use-function-return-value-in-write-context.html</loc>
@@ -478,16 +478,16 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-append-to-$globals.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-apply-#[allowdynamicproperties]-to-enum-ps.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-apply-s[allowdynamicproperties]-to-enum-ps.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-apply-#[allowdynamicproperties]-to-interface-ps.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-apply-s[allowdynamicproperties]-to-interface-ps.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-apply-#[allowdynamicproperties]-to-readonly-class-ps.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-apply-s[allowdynamicproperties]-to-readonly-class-ps.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-apply-#[allowdynamicproperties]-to-trait-ps.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-apply-s[allowdynamicproperties]-to-trait-ps.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-apply-attributes-to-multiple-constants-at-once.html</loc>
@@ -508,10 +508,10 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-assign-reference-to-non-referenceable-value.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-assign-to-array(),-use-[]-instead-in-ps.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-assign-to-arrayqr,-use-[]-instead-in-ps.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-assign-to-array(),-use-[]-instead.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-assign-to-arrayqr,-use-[]-instead.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-auto-initialize-an-array-inside-property-ps::$ps-of-type-ps.html</loc>
@@ -529,7 +529,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-be-lc_all.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-be-null-when-argument-#1-($objectormethod)-is-an-object.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-be-null-when-argument-s1-q$objectormethodr-is-an-object.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-bind-an-instance-to-a-static-closure,-this-will-be-an-error-in-php-9.html</loc>
@@ -538,10 +538,10 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-bind-an-instance-to-a-static-closure.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-bind-method-ps::ps()-to-object-of-class-ps,-this-will-be-an-error-in-php-9.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-bind-method-ps::psqr-to-object-of-class-ps,-this-will-be-an-error-in-php-9.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-bind-method-ps::ps()-to-object-of-class-ps.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-bind-method-ps::psqr-to-object-of-class-ps.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-call-constructor.html</loc>
@@ -595,7 +595,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-decrement-property-ps::$ps-of-type-int-past-its-minimal-value.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-directly-construct-directory,-use-dir()-instead.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-directly-construct-directory,-use-dirqr-instead.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-increment-property-ps::$ps-of-type-int-past-its-maximal-value.html</loc>
@@ -619,16 +619,16 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-load-module-ps-because-required-module-ps-is-not-loaded.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-make-non-abstract-method-ps::ps()-abstract-in-class-ps.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-make-non-abstract-method-ps::psqr-abstract-in-class-ps.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-make-non-static-method-ps::ps()-static-in-class-ps.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-make-non-static-method-ps::psqr-static-in-class-ps.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-make-static-method-ps::ps()-non-static-in-class-ps.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-make-static-method-ps::psqr-non-static-in-class-ps.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-mix-[]-and-list().html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-mix-[]-and-listqr.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-mix-bracketed-namespace-declarations.html</loc>
@@ -646,13 +646,13 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-modify-readonly-property-ps::$ps.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-override-final-ps::ps()-with-ps::ps().html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-override-final-ps::psqr-with-ps::psqr.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-override-final-property-ps::$ps.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-override-final-property-hook-ps::ps().html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-override-final-property-hook-ps::psqr.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-pass-parameter-pd-by-reference.html</loc>
@@ -679,7 +679,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-psps::$ps-as-psps::$ps.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-ps()-(previously-declared-in-ps:pd).html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-psqr-qpreviously-declared-in-ps:pdr.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-ps-property-ps::$ps-as-ps-ps::$ps.html</loc>
@@ -688,7 +688,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-ps::$ps.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-ps::ps().html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-ps::psqr.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-class-ps.html</loc>
@@ -697,10 +697,10 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-constant-ps.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-function-ps()-(previously-declared-as-local-import).html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-function-psqr-qpreviously-declared-as-local-importr.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-function-ps()-(previously-declared-in-ps:pd).html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-function-psqr-qpreviously-declared-in-ps:pdr.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-property-hook--ps.html</loc>
@@ -754,7 +754,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-useps-ps-as-ps-because-the-name-is-already-in-use.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use(...)-variables-in-constant-expression.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-useq...r-variables-in-constant-expression.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-ps-as-a-type-name-as-it-is-reserved.html</loc>
@@ -907,16 +907,16 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-empty-list.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-isset()-on-the-result-of-an-expression-(you-can-use-null-!==-expression-instead).html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-issetqr-on-the-result-of-an-expression-qyou-can-use-null-!==-expression-insteadr.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-isset()-on-the-result-of-an-expression.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-issetqr-on-the-result-of-an-expression.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-lexical-variable-ps-as-a-parameter-name.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-list()-as-standalone-expression.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-listqr-as-standalone-expression.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-list-as-key-element.html</loc>
@@ -1009,7 +1009,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/case-can-only-be-used-in-enums.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/case-statements-followed-by-a-semicolon-(;)-are-deprecated,-use-a-colon-(:)-instead.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/case-statements-followed-by-a-semicolon-q;r-are-deprecated,-use-a-colon-q:r-instead.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/charset-ps-is-not-supported,-assuming-utf-8.html</loc>
@@ -1039,7 +1039,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/class-ps-contains-pd-abstract-methodps-and-must-therefore-be-declared-abstract-or-implement-the-remaining-methods.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/class-ps-declares-abstract-method-ps()-and-must-therefore-be-declared-abstract.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/class-ps-declares-abstract-method-psqr-and-must-therefore-be-declared-abstract.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/class-ps-does-not-have-a-property-named-ps.html</loc>
@@ -1060,7 +1060,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/classes-must-be-first-marked-as-attribute-before-being-able-to-be-registered-as-internal-attribute-class.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/clone():-argument-#1-($object)-must-be-of-type-object,-ps-given.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cloneqr:-argument-s1-q$objectr-must-be-of-type-object,-ps-given.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/closures-in-constant-expressions-must-be-static.html</loc>
@@ -1078,7 +1078,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/constant-expression-contains-invalid-operations.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/constructor-ps::ps()-cannot-declare-a-return-type.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/constructor-ps::psqr-cannot-declare-a-return-type.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/contains-an-invalid-curl-option.html</loc>
@@ -1123,13 +1123,13 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/declaration-of-ps-must-be-compatible-with-ps.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/declaration-of-ps::ps()-must-be-compatible-with-ps::ps().html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/declaration-of-ps::psqr-must-be-compatible-with-ps::psqr.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/declaration-of-case-insensitive-constants-is-no-longer-supported.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/declare(ps)-value-must-be-a-literal.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/declareqpsr-value-must-be-a-literal.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/decrement-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php.html</loc>
@@ -1147,13 +1147,13 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/default-value-for-property-of-type-int-may-not-be-null.-use-the-nullable-type-?int-to-allow-null-default-value.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/define():-argument-#3-($case_insensitive)-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/defineqr:-argument-s3-q$case_insensitiver-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/define():-declaration-of-case-insensitive-constants-is-deprecated.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/defineqr:-declaration-of-case-insensitive-constants-is-deprecated.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/defining-a-custom-assert()-function-is-not-allowed,.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/defining-a-custom-assertqr-function-is-not-allowed,.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/delimiter-must-not-be-alphanumeric,-backslash,-or-nul-byte.html</loc>
@@ -1186,7 +1186,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/duplicate-named-parameter-$ps.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/duplicate-parameter-name-$ps-for-function-pspsps().html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/duplicate-parameter-name-$ps-for-function-pspspsqr.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/duplicate-type-ps-is-redundant.html</loc>
@@ -1243,13 +1243,13 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/extra-data-starting-at-offset-pd-of-pzd-bytes.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/failed-opening-required-ps-(include_path=ps).html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/failed-opening-required-ps-qinclude_path=psr.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/failed-to-create-closure-from-callable:-ps.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/failed-to-evaluate-a-trait-precedence-(ps).-method-of-trait-ps-was-defined-to-be-excluded-multiple-times.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/failed-to-evaluate-a-trait-precedence-qpsr.-method-of-trait-ps-was-defined-to-be-excluded-multiple-times.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/failed-to-open-stream-from-socketpair.html</loc>
@@ -1258,7 +1258,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/failed-to-open-stream:-too-many-open-files.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/failed-to-set-memory_limit-to-pzd-bytes.-setting-to-max_memory_limit-instead-(currently:.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/failed-to-set-memory_limit-to-pzd-bytes.-setting-to-max_memory_limit-instead-qcurrently:.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/fetching-properties-on-non-enums-in-constant-expressions-is-not-allowed.html</loc>
@@ -1270,22 +1270,22 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/filename-cannot-be-empty.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/foreach()-argument-must-be-of-type-array|object.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/foreachqr-argument-must-be-of-type-array|object.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/func_get_arg()-cannot-be-called-from-the-global-scope.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/func_get_argqr-cannot-be-called-from-the-global-scope.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/func_get_args()-cannot-be-called-from-the-global-scope.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/func_get_argsqr-cannot-be-called-from-the-global-scope.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/func_num_args()-must-be-called-from-a-function-context.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/func_num_argsqr-must-be-called-from-a-function-context.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/function-ps()-is-deprecatedps.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/function-psqr-is-deprecatedps.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/function-libxml_disable_entity_loader()-is-deprecated-since-8.0,-as-external-entity-loading-is-disabled-by-default.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/function-libxml_disable_entity_loaderqr-is-deprecated-since-8.0,-as-external-entity-loading-is-disabled-by-default.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/function-name-must-be-a-string.html</loc>
@@ -1303,13 +1303,13 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/get-hook-of-property-ps::$ps-must-not-have-a-parameter-list.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/get_called_class()-must-be-called-from-within-a-class.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/get_called_classqr-must-be-called-from-within-a-class.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/get_defined_functions():-setting-$exclude_disabled-to-false-has-no-effect.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/get_defined_functionsqr:-setting-$exclude_disabled-to-false-has-no-effect.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/get_defined_functions():-the-$exclude_disabled-parameter-has-no-effect-since-php-8.0.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/get_defined_functionsqr:-the-$exclude_disabled-parameter-has-no-effect-since-php-8.0.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/handling-base64-via-mbstring-is-deprecated;-use-base64_encode-base64_decode-instead.html</loc>
@@ -1330,7 +1330,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/handling-uuencode-via-mbstring-is-deprecated;-use-convert_uuencode-convert_uudecode-instead.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/has-#[-override]-attribute,-but-no-matching-parent-method-exists.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/has-s[-override]-attribute,-but-no-matching-parent-method-exists.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/hooked-properties-cannot-be-readonly.html</loc>
@@ -1372,7 +1372,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/increment-on-non-alphanumeric-string-is-deprecated.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/increment-on-non-numeric-string-is-deprecated,-use-str_increment()-instead.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/increment-on-non-numeric-string-is-deprecated,-use-str_incrementqr-instead.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/increment-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php.html</loc>
@@ -1399,7 +1399,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/interface-ps-not-found.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/interface-ps-cannot-contain-non-abstract-method-ps().html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/interface-ps-cannot-contain-non-abstract-method-psqr.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/interface-ps-cannot-extend-class-ps.html</loc>
@@ -1408,7 +1408,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/interface-ps-cannot-implement-itself.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/interface-method-ps::ps()-must-not-be-final.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/interface-method-ps::psqr-must-not-be-final.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/interfaces-may-not-include-properties.html</loc>
@@ -1420,7 +1420,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/intllistformatter-object-is-already-constructed.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/invalid-argument-supplied-for-foreach().html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/invalid-argument-supplied-for-foreachqr.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/invalid-characters-passed-for-attempted-conversion,-these-have-been-ignored.html</loc>
@@ -1453,7 +1453,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/iterator-does-not-support-rewinding.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/jit-is-incompatible-with-third-party-extensions-that-override-zend_execute_ex().-jit-disabled..html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/jit-is-incompatible-with-third-party-extensions-that-override-zend_execute_exqr.-jit-disabled..html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/jump-into-a-finally-block-is-disallowed.html</loc>
@@ -1474,37 +1474,37 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/match-expressions-may-only-contain-one-default-arm.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/maximum-depth-of-pd-exceeded.-the-depth-limit-can-be-changed-using-the-max_depth-unserialize()-option.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/maximum-depth-of-pd-exceeded.-the-depth-limit-can-be-changed-using-the-max_depth-unserializeqr-option.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/maximum-execution-time-of-pd-secondps-exceeded.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/method-ps::ps()-cannot-be-static.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/method-ps::psqr-cannot-be-static.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/method-ps::ps()-cannot-declare-a-return-type.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/method-ps::psqr-cannot-declare-a-return-type.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/method-ps::ps()-must-be-static.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/method-ps::psqr-must-be-static.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/method-ps::ps()-must-take-exactly-1-argument.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/method-ps::psqr-must-take-exactly-1-argument.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/method-ps::ps()-must-take-exactly-2-arguments.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/method-ps::psqr-must-take-exactly-2-arguments.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/method-ps::ps-cannot-be-#[--nodiscard]-error_type.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/method-ps::ps-cannot-be-s[--nodiscard]-error_type.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/method-ps::ps-cannot-be-#[--nodiscard].html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/method-ps::ps-cannot-be-s[--nodiscard].html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/method-ps::__construct()-cannot-declare-a-return-type.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/method-ps::__constructqr-cannot-declare-a-return-type.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/method-ps::__tostring()-must-not-throw-an-exception,-caught-ps:-ps.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/method-ps::__tostringqr-must-not-throw-an-exception,-caught-ps:-ps.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/method-name-must-be-a-string.html</loc>
@@ -1516,7 +1516,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/missing-format-specifier-at-end-of-string.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/modification-of-splobjectstorage-during-gethash()-is-prohibited.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/modification-of-splobjectstorage-during-gethashqr-is-prohibited.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/module-ps-is-already-loaded.html</loc>
@@ -1546,7 +1546,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-a-list-array.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-a-multiple-of-argument-#2-($word_size).html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-a-multiple-of-argument-s2-q$word_sizer.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-a-user-defined-class-name,-internal-class-name-given.html</loc>
@@ -1567,19 +1567,19 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-a-valid-method-name.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-a-valid-rounding-mode-(roundingmode::*).html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-a-valid-rounding-mode-qroundingmode::*r.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-between-1-and-7.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-contained-in-argument-#1-($haystack).html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-contained-in-argument-s1-q$haystackr.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-empty-when-class-provided-in-argument-#1-($class)-does-not-have-a-constructor.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-empty-when-class-provided-in-argument-s1-q$classr-does-not-have-a-constructor.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-empty-when-class-provided-in-argument-#2-($class)-does-not-have-a-constructor.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-empty-when-class-provided-in-argument-s2-q$classr-does-not-have-a-constructor.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-greater-than-0.html</loc>
@@ -1609,13 +1609,13 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-not-contain-empty-strings.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-not-use-parent::$ps::ps()-in-a-different-property-($ps).html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-not-use-parent::$ps::psqr-in-a-different-property-q$psr.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-not-use-parent::$ps::ps()-in-a-different-property-hook-(ps).html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-not-use-parent::$ps::psqr-in-a-different-property-hook-qpsr.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-not-use-parent::$ps::ps()-outside-a-property-hook.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-not-use-parent::$ps::psqr-outside-a-property-hook.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/named-parameter-$ps-overwrites-previous-argument.html</loc>
@@ -1660,22 +1660,22 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/no-such-file-or-directory.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/non-abstract-method-ps::ps()-must-contain-body.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/non-abstract-method-ps::psqr-must-contain-body.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/non-abstract-property-hook-must-have-a-body.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/non-canonical-cast-(binary)-is-deprecated,-use-the-(string)-cast-instead.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/non-canonical-cast-qbinaryr-is-deprecated,-use-the-qstringr-cast-instead.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/non-canonical-cast-(boolean)-is-deprecated,-use-the-(bool)-cast-instead.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/non-canonical-cast-qbooleanr-is-deprecated,-use-the-qboolr-cast-instead.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/non-canonical-cast-(double)-is-deprecated,-use-the-(float)-cast-instead.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/non-canonical-cast-qdoubler-is-deprecated,-use-the-qfloatr-cast-instead.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/non-canonical-cast-(integer)-is-deprecated,-use-the-(int)-cast-instead.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/non-canonical-cast-qintegerr-is-deprecated,-use-the-qintr-cast-instead.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/non-enum-class-ps-cannot-implement-interface-ps.html</loc>
@@ -1684,13 +1684,13 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/non-readonly-class-ps-cannot-extend-readonly-class-ps.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/non-static-method-ps::ps()-cannot-be-called-statically.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/non-static-method-ps::psqr-cannot-be-called-statically.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/non-static-method-ps::ps()-should-not-be-called-statically.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/non-static-method-ps::psqr-should-not-be-called-statically.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/non-string-needles-will-be-interpreted-as-strings-in-the-future.-use-an-explicit-chr()-call-to-preserve-the-current-behavior.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/non-string-needles-will-be-interpreted-as-strings-in-the-future.-use-an-explicit-chrqr-call-to-preserve-the-current-behavior.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/null-cannot-be-marked-as-nullable.html</loc>
@@ -1717,7 +1717,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/object-of-class-ps-could-not-be-converted-to-string.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/object-of-type-ps-has-not-been-correctly-initialized-by-calling-parent::__construct()-in-its-constructor.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/object-of-type-ps-has-not-been-correctly-initialized-by-calling-parent::__constructqr-in-its-constructor.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/object-of-type-ps-is-not-callable.html</loc>
@@ -1765,7 +1765,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/open_basedir-prohibits-opening-ps.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/open_basedir-restriction-in-effect.-file(ps)-is-not-within-the-allowed-path(s):-(ps).html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/open_basedir-restriction-in-effect.-fileqpsr-is-not-within-the-allowed-pathqsr:-qpsr.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/optional-parameter-$ps-declared-before-required-parameter-$ps-is-implicitly-treated-as-a-required-parameter.html</loc>
@@ -1792,13 +1792,13 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/parameter-uses-parent-as-type-hint-although-class-does-not-have-a-parent!.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/passing-a-negative-integer-to-argument-#3-($width)-is-deprecated.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/passing-a-negative-integer-to-argument-s3-q$widthr-is-deprecated.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/passing-connection-object-as-an-argument-is-deprecated.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/passing-e_user_error-to-trigger_error()-is-deprecated-since-8.4,-throw-an-exception-or-call-exit-with-a-string-message-instead.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/passing-e_user_error-to-trigger_errorqr-is-deprecated-since-8.4,-throw-an-exception-or-call-exit-with-a-string-message-instead.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/passing-false-or-null-is-deprecated-since-8.4.html</loc>
@@ -1870,7 +1870,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/property-x::$p-cannot-have-type-void.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/providing-a-string-that-is-not-one-byte-long-is-deprecated.-use-ord($str[0])-instead.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/providing-a-string-that-is-not-one-byte-long-is-deprecated.-use-ordq$str[0]r-instead.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/providing-an-empty-string-is-deprecated.html</loc>
@@ -1897,10 +1897,10 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/redefinition-of-parameter-$ps.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/reflectionclass::getconstant()-for-a-non-existent-constant-is-deprecated,.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/reflectionclass::getconstantqr-for-a-non-existent-constant-is-deprecated,.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/reflectionproperty::getdefaultvalue()-for-a-property-without-a-default-value-is-deprecated,.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/reflectionproperty::getdefaultvalueqr-for-a-property-without-a-default-value-is-deprecated,.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/requested-precision-of-pd-digits-was-truncated-to-php-maximum-of-pd-digits.html</loc>
@@ -1912,10 +1912,10 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/required-trait-ps-wasnt-added-to-ps.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/return-type-of-ps::ps()-should-either-be-compatible-with-ps::ps():-mixed.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/return-type-of-ps::psqr-should-either-be-compatible-with-ps::psqr:-mixed.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/return-value-of-pspsps()-must-pspsps,-psps-returned.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/return-value-of-pspspsqr-must-pspsps,-psps-returned.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/returning-bool-from-comparison-function-is-deprecated,-return-an-integer-less-than,-equal-to,-or-greater-than-zero.html</loc>
@@ -1927,7 +1927,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/returning-by-reference-from-a-void-function-is-deprecated.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/returning-null-from-ps::__debuginfo()-is-deprecated,-return-an-empty-array-instead.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/returning-null-from-ps::__debuginfoqr-is-deprecated,-return-an-empty-array-instead.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/security-level-must-be-one-of-noauthnopriv,-authnopriv,-or-authpriv.html</loc>
@@ -1948,10 +1948,10 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/session.sid_length-ini-setting-is-deprecated.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/set-access-level-of-ps::$ps-must-be-ps-(as-in-class-ps)ps.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/set-access-level-of-ps::$ps-must-be-ps-qas-in-class-psrps.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/set-type-of-ps::$ps-must-be-supertype-of-ps-(as-in-ps-ps).html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/set-type-of-ps::$ps-must-be-supertype-of-ps-qas-in-ps-psr.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/spread-operator-is-not-supported-in-assignments.html</loc>
@@ -1963,7 +1963,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/static--is-not-allowed-in-compile-time-constants.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/static-function-pspsps()-cannot-be-abstract.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/static-function-pspspsqr-cannot-be-abstract.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/static-property-ps::$ps-cannot-be-readonly.html</loc>
@@ -1990,19 +1990,19 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/strict_types-declaration-must-not.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/strlen():-passing-null-to-parameter-#1-($string)-of-type-string-is-deprecated.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/strlenqr:-passing-null-to-parameter-s1-q$stringr-of-type-string-is-deprecated.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/switch-statements-may-only-contain-one-default-clause.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-),-expecting-=.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-r,-expecting-=.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-),-expecting-|-or-variable-(t_variable).html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-r,-expecting-|-or-variable-qt_variabler.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-),-expecting-variable-(t_variable).html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-r,-expecting-variable-qt_variabler.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-,.html</loc>
@@ -2011,10 +2011,10 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected--,-expecting-=.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-::,-expecting-(.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-::,-expecting-q.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-::-(t_paamayim_nekudotayim),-expecting-;-or-,.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-::-qt_paamayim_nekudotayimr,-expecting-;-or-,.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-;,-expecting-[.html</loc>
@@ -2032,13 +2032,13 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-match.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-throw-(t_throw).html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-throw-qt_throwr.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-{.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-|,-expecting-variable-(t_variable).html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-|,-expecting-variable-qt_variabler.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-end-of-file.html</loc>
@@ -2056,10 +2056,10 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-fully-qualified-name-ps.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-identifier-ps,-expecting-(.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-identifier-ps,-expecting-q.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-identifier-ps,-expecting-).html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-identifier-ps,-expecting-r.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-identifier-ps,-expecting-,-or-;.html</loc>
@@ -2092,25 +2092,25 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-identifier-readonly,-expecting-function-or-const.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-integer-ps,-expecting-).html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-integer-ps,-expecting-r.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-namespaced-name-ps,-expecting-function.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-single-quoted-string-ps,-expecting-).html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-single-quoted-string-ps,-expecting-r.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-string-content.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-#[,-expecting-).html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-s[,-expecting-r.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-#[,-expecting-,-or-;.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-s[,-expecting-,-or-;.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-#[,-expecting-].html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-s[,-expecting-].html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-p.html</loc>
@@ -2125,37 +2125,37 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-&amp;.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-(,-expecting-::.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-q,-expecting-::.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-(,-expecting-identifier-or-variable-or-{-or-$.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-q,-expecting-identifier-or-variable-or-{-or-$.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-(,-expecting-variable.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-q,-expecting-variable.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-(.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-q.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-(int).html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-qintr.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-),-expecting-=.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-r,-expecting-=.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-),-expecting-function-or-fn-or-static-or-#[.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-r,-expecting-function-or-fn-or-static-or-s[.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-),-expecting-variable.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-r,-expecting-variable.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-).html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-r.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-*.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-,,-expecting-).html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-,,-expecting-r.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-,,-expecting-].html</loc>
@@ -2179,7 +2179,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token--&gt;.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-:,-expecting-).html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-:,-expecting-r.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-:,-expecting-].html</loc>
@@ -2200,13 +2200,13 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-::.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-;,-expecting-(.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-;,-expecting-q.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-;,-expecting-).html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-;,-expecting-r.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-;,-expecting-,-or-).html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-;,-expecting-,-or-r.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-;,-expecting--&gt;-or-?-&gt;-or-[.html</loc>
@@ -2218,7 +2218,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-;,-expecting-].html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-;,-expecting-function-or-fn-or-static-or-#[.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-;,-expecting-function-or-fn-or-static-or-s[.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-;,-expecting-{.html</loc>
@@ -2263,7 +2263,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-].html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-__namespace__,-expecting-(.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-__namespace__,-expecting-q.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-as.html</loc>
@@ -2293,10 +2293,10 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-extends.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-final,-expecting-(.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-final,-expecting-q.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-if,-expecting-).html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-if,-expecting-r.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-if,-expecting-].html</loc>
@@ -2308,7 +2308,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-implements.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-match,-expecting-(.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-match,-expecting-q.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-match.html</loc>
@@ -2320,13 +2320,13 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-namespace.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-new,-expecting-).html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-new,-expecting-r.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-private,-expecting-(.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-private,-expecting-q.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-private,-expecting-).html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-private,-expecting-r.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-private,-expecting-=.html</loc>
@@ -2371,22 +2371,22 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-}.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-variable-$ps,-expecting-).html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-variable-$ps,-expecting-r.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-variable-$task,-expecting-).html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-variable-$task,-expecting-r.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-variable-$this,-expecting-;-or-{.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-variable-ps,-expecting-(.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-variable-ps,-expecting-q.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-generator-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-$context-parameter-has-no-effect-for-finfo_buffer().html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-$context-parameter-has-no-effect-for-finfo_bufferqr.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-$escape-parameter-must-be-provided-as-its-default-value-will-change.html</loc>
@@ -2395,31 +2395,31 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-$key_length-parameter-is-deprecated-as-it-is-either-ignored-or-truncates-the-key.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-(real)-cast-has-been-removed,-use-(float)-instead.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-qrealr-cast-has-been-removed,-use-qfloatr-instead.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-(real)-cast-is-deprecated,-use-(float)-instead.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-qrealr-cast-is-deprecated,-use-qfloatr-instead.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-(unset)-cast-is-deprecated.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-qunsetr-cast-is-deprecated.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-(unset)-cast-is-no-longer-supported.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-qunsetr-cast-is-no-longer-supported.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the--yield--expression-can-only-be-used-inside-a-function.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-__sleep()-serialization-magic-method-has-been-deprecated..html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-__sleepqr-serialization-magic-method-has-been-deprecated..html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-__wakeup()-serialization-magic-method-has-been-deprecated..html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-__wakeupqr-serialization-magic-method-has-been-deprecated..html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-arguments-array-must-contain-pd-items,-pd-given.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-backtick-(`)-operator-is-deprecated,-use-shell_exec()-instead.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-backtick-q`r-operator-is-deprecated,-use-shell_execqr-instead.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-behavior-of-unparenthesized-expressions-containing-both-.-and-+---will-change-in-php-8:-+---will-take-a-higher-precedence.html</loc>
@@ -2431,7 +2431,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-connection-has-no-charset-associated.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-eachqr-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-float-p.*h-is-not-representable-as-an-int,-cast-occurred.html</loc>
@@ -2440,10 +2440,10 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-float-string--ps--is-not-representable-as-an-int,-cast-occurred.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-magic-method-ps::ps()-must-have-public-visibility.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-magic-method-ps::psqr-must-have-public-visibility.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-modifiers-of-the-trait-method-ps()-are-changed,-but-this-method-does-not-exist.-error.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-modifiers-of-the-trait-method-psqr-are-changed,-but-this-method-does-not-exist.-error.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-parent-constructor-was-not-called:-the-object-is-in-an-invalid-state.html</loc>
@@ -2452,13 +2452,13 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-predefined-locally-scoped-$http_response_header-variable-is-deprecated,.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-return-value-of-function-ps()-should-either-be-used-or-intentionally-ignored-by-casting-it-as-(void)ps-code.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-return-value-of-function-psqr-should-either-be-used-or-intentionally-ignored-by-casting-it-as-qvoidrps-code.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-return-value-of-function-ps()-should-either-be-used-or-intentionally-ignored-by-casting-it-as-(void)ps.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-return-value-of-function-psqr-should-either-be-used-or-intentionally-ignored-by-casting-it-as-qvoidrps.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-return-value-of-method-ps::ps()-should-either-be-used-or-intentionally-ignored-by-casting-it-as-(void)ps.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-return-value-of-method-ps::psqr-should-either-be-used-or-intentionally-ignored-by-casting-it-as-qvoidrps.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-sqlite3-object-has-not-been-correctly-initialised-or-is-already-closed.html</loc>
@@ -2467,13 +2467,13 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-use-statement-with-non-compound-name-ps.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/too-few-arguments-to-function-pspsps(),-pd-passed-and-ps-pd-expected.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/too-few-arguments-to-function-pspspsqr,-pd-passed-and-ps-pd-expected.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/too-few-arguments-to-function-pspsps(),-pd-passed-and-ps-pd.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/too-few-arguments-to-function-pspspsqr,-pd-passed-and-ps-pd.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/too-few-arguments-to-function-pspsps(),-pd-passed-in-ps-on-line-pd-and-ps-pd-expected.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/too-few-arguments-to-function-pspspsqr,-pd-passed-in-ps-on-line-pd-and-ps-pd-expected.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/too-few-arguments.html</loc>
@@ -2497,7 +2497,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/trying-to-clone-an-uncloneable-object-of-class-ps.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/trying-to-invoke-ps-method-ps::ps()-from-scope-ps.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/trying-to-invoke-ps-method-ps::psqr-from-scope-ps.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/type-pc:-unknown-format-code.html</loc>
@@ -2533,13 +2533,13 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/type-must-be-a-single-character.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/type-of-ps::$ps-must-be-psps-(as-in-class-ps).html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/type-of-ps::$ps-must-be-psps-qas-in-class-psr.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/type-of-ps::$ps-must-be-omitted-to-match-the-parent-definition-in-class-ps.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/type-of-ps::$ps-must-not-be-defined-(as-in-class-ps).html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/type-of-ps::$ps-must-not-be-defined-qas-in-class-psr.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/type-of-ps::ps-must-be-compatible-with-ps::ps-of-type-ps.html</loc>
@@ -2557,13 +2557,13 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unbacked-enum-ps-cannot-be-converted-to-a-string.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/unclosed-(-does-not-match-].html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/unclosed-q-does-not-match-].html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/unclosed-(-on-line-ps-does-not-match-].html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/unclosed-q-on-line-ps-does-not-match-].html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/unclosed-(.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/unclosed-q.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unclosed-[.html</loc>
@@ -2599,7 +2599,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/undefined-variable.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/unexpected-character-in-input:----(ascii=92).html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/unexpected-character-in-input:----qascii=92r.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unexpected-nan-value-was-coerced-to-ps.html</loc>
@@ -2629,7 +2629,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unknown-named-parameter-$ps.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/unknown-or-bad-format-(ps).html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/unknown-or-bad-format-qpsr.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unknown-parser.html</loc>
@@ -2638,7 +2638,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unlink-of-ps-failed,-file-does-not-exist.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/unmatched-).html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/unmatched-r.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unmatched-].html</loc>
@@ -2701,7 +2701,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/using-$this-when-not-in-object-context.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/using-${expr}-(variable-variables)-in-strings-is-deprecated,-use-{${expr}}-instead.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/using-${expr}-qvariable-variablesr-in-strings-is-deprecated,-use-{${expr}}-instead.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/using-${var}-in-strings-is-deprecated,-use-{$var}-instead.html</loc>
@@ -2710,7 +2710,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/using-an-object-as-a-backing-array-for-ps-is-deprecated,-as-it-allows-violating-class-constraints-and-invariants.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/using-array_key_exists()-on-objects-is-deprecated..html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/using-array_key_existsqr-on-objects-is-deprecated..html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/using-empty-file-as-ziparchive-is-deprecated.html</loc>
@@ -2719,7 +2719,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/using-null-as-an-array-offset-is-deprecated,-use-an-empty-string-instead.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/using-null-as-the-key-parameter-for-array_key_exists()-is-deprecated,-use-an-empty-string-instead.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/using-null-as-the-key-parameter-for-array_key_existsqr-is-deprecated,-use-an-empty-string-instead.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/using-the-$num_points-parameter-is-deprecated.html</loc>
