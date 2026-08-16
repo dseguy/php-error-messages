@@ -1,5 +1,6 @@
 # is an invalid offset
 
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/is-an-invalid-offset.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/is-an-invalid-offset.html","name":"is an invalid offset","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:46 +0000","dateModified":"Tue, 31 Mar 2026 09:10:46 +0000","description":"The requested value could not be found in the underlying array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/is-an-invalid-offset.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 ## Description
 The requested value could not be found in the underlying array. 
 
@@ -8,7 +9,6 @@ Indeed, the `SplDoublyLinkedList` has only 3 elements, none with the `4` index.
 The problem also arise when using `add` method, with an index that is negative, or beyond the current last element of the list.
 
 Traditional PHP `array` do not report this error: they return `null`, with the `Undefined array key` warning.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/is-an-invalid-offset.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/is-an-invalid-offset.html","name":"is an invalid offset","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:46 +0000","dateModified":"Tue, 31 Mar 2026 09:10:46 +0000","description":"The requested value could not be found in the underlying array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/is-an-invalid-offset.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 ## Example
 

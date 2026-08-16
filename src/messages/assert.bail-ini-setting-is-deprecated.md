@@ -1,12 +1,12 @@
 # assert.bail INI setting is deprecated
 
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/assert.bail-ini-setting-is-deprecated.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/assert.bail-ini-setting-is-deprecated.html","name":"assert.bail INI setting is deprecated","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 13 Aug 2026 15:46:42 +0000","dateModified":"Thu, 13 Aug 2026 15:46:42 +0000","description":"``assert","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/assert.bail-ini-setting-is-deprecated.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 ## Description
 `assert.bail` is a legacy INI directive from the pre-PHP 7 implementation of `assert()`. When enabled, it terminated script execution as soon as a failed assertion was encountered, instead of letting the script continue.
 
 This behavior is redundant with throwing an `AssertionError` (the default behavior since PHP 7 when `assert.exception` is enabled), which already interrupts execution unless the exception is caught. As part of the general cleanup of the legacy assertion configuration, `assert.bail` is now deprecated.
 
 The deprecation notice is triggered whenever `assert.bail` is set to a truthy value, either in `php.ini` or through `ini_set()`.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/assert.bail-ini-setting-is-deprecated.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/assert.bail-ini-setting-is-deprecated.html","name":"assert.bail INI setting is deprecated","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 13 Aug 2026 15:46:42 +0000","dateModified":"Thu, 13 Aug 2026 15:46:42 +0000","description":"``assert","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/assert.bail-ini-setting-is-deprecated.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 ## Example
 

@@ -1,0 +1,37 @@
+# Call to %s %s::%s() from invalid
+
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/call-to-%s-%s::%s()-from-invalid.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/call-to-%s-%s::%s()-from-invalid.html","name":"Call to %s %s::%s() from invalid","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:45 +0000","dateModified":"Tue, 31 Mar 2026 09:10:45 +0000","description":"A ``private`` method shall only be called from within its own class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/call-to-%s-%s::%s()-from-invalid.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+## Description
+A `private` method shall only be called from within its own class. It cannot be called from another class, or from the global space. In particular, the method cannot be called directly, or indirectly: for example, `new X` indirectly calls the `__construct` method. 
+
+A `protected` method shall only be called from within its own class, or any of it parent or children. It cannot be called from another non-related class, or from the global space. In particular, the method cannot be called directly, or indirectly: for example, `new X` indirectly calls the `__construct` method. 
+
+A `public` method may be called from anywhere in the code.
+
+## Example
+
+```php
+<?php
+
+class X {
+    //This is also the case with proctected __construct
+    private function __construct() {}
+
+    static public function factory() {
+        return new X();
+    }
+}
+
+//This is not possible
+$x = new X();
+
+?>
+```
+
+## Literal Examples
++ Call to private method X::__construct() from global scope
+
+## Alternatives
++ Check that the call to the method, and the visibility of the method are compatible.
+
+In more recent PHP versions, this error message is now :ref:`call-to-%s-method-%s::%s()-from-%s%s`.

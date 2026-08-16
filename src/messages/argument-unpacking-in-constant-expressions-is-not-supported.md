@@ -1,10 +1,10 @@
 # Argument unpacking in constant expressions is not supported
 
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/argument-unpacking-in-constant-expressions-is-not-supported.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/argument-unpacking-in-constant-expressions-is-not-supported.html","name":"Argument unpacking in constant expressions is not supported","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:45 +0000","dateModified":"Tue, 31 Mar 2026 09:10:45 +0000","description":"It is not possible to use the ``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/argument-unpacking-in-constant-expressions-is-not-supported.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 ## Description
 It is not possible to use the `...` operator in an static constant expression, with the `new` operator. 
 
 On the other hand, it is possible to use it inside arrays to spread the elements. It is also possible to use it in a closure definition.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/argument-unpacking-in-constant-expressions-is-not-supported.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/argument-unpacking-in-constant-expressions-is-not-supported.html","name":"Argument unpacking in constant expressions is not supported","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:45 +0000","dateModified":"Tue, 31 Mar 2026 09:10:45 +0000","description":"It is not possible to use the ``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/argument-unpacking-in-constant-expressions-is-not-supported.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 ## Example
 

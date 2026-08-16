@@ -1,0 +1,40 @@
+# Cannot pass parameter %d by reference
+
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/cannot-pass-parameter-%d-by-reference.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/cannot-pass-parameter-%d-by-reference.html","name":"Cannot pass parameter %d by reference","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:46 +0000","dateModified":"Tue, 31 Mar 2026 09:10:46 +0000","description":"When a parameter is set to be passed by reference, there is a ``&`` character before its name","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/cannot-pass-parameter-%d-by-reference.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+## Description
+When a parameter is set to be passed by reference, there is a `&` character before its name. In that case, the argument must be a data container, such as a variable, a property, a static property, an array index, but it cannot be a literal value, a constant, or the result of an expression.
+
+## Example
+
+```php
+<?php
+
+function foo(&$a) {}
+
+// invalid cases
+foo(1);
+foo(1 + 2);
+
+const A = 1;
+foo(A);
+
+class X {
+    const B = 2;
+}
+foo(X::B);
+
+?>
+```
+
+## Literal Examples
++ Cannot pass parameter 1 by reference
+
+## Alternatives
++ Store the value in a variable and passe the variable.
++ Remove the reference in the method signature.
+
+## Related error messages
++ [%s%s%s():-argument-#%d%s%s%s-must-be-passed-by-reference,-value-given](%s%s%s\(\):-argument-#%d%s%s%s-must-be-passed-by-reference,-value-given.html)
++ [parameter-%d-must-be-passed-by-reference](parameter-%d-must-be-passed-by-reference.html)
+
+In more recent PHP versions, this error message is now :ref:`%s():-argument-#%d%s%s%s-cannot-be-passed-by-reference`.

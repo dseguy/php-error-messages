@@ -1,5 +1,6 @@
 # Delimiter must not be alphanumeric or backslash
 
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/delimiter-must-not-be-alphanumeric-or-backslash.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/delimiter-must-not-be-alphanumeric-or-backslash.html","name":"Delimiter must not be alphanumeric or backslash","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:46 +0000","dateModified":"Tue, 31 Mar 2026 09:10:46 +0000","description":"The first character of a regex is the delimiter, that delimits the regex","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/delimiter-must-not-be-alphanumeric-or-backslash.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 ## Description
 The first character of a regex is the delimiter, that delimits the regex. There is a first and a last delimiter. 
 
@@ -8,7 +9,6 @@ In the case of this error, the first regex character is of invalid type. It cann
 Note that if the first characters are white spaces, such as space, tabulation, new line, they are ignored as potential delimiter.
 
 Later, the NUL character (`chr(0)`) was added to the list of the forbidden characters.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/delimiter-must-not-be-alphanumeric-or-backslash.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/delimiter-must-not-be-alphanumeric-or-backslash.html","name":"Delimiter must not be alphanumeric or backslash","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:46 +0000","dateModified":"Tue, 31 Mar 2026 09:10:46 +0000","description":"The first character of a regex is the delimiter, that delimits the regex","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/delimiter-must-not-be-alphanumeric-or-backslash.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 ## Example
 

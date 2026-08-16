@@ -1,1 +1,0 @@
-# constant-%25s::%25s-is-deprecated

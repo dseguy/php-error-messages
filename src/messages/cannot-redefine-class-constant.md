@@ -1,5 +1,6 @@
 # Cannot redefine class constant
 
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/cannot-redefine-class-constant.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/cannot-redefine-class-constant.html","name":"Cannot redefine class constant","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:46 +0000","dateModified":"Tue, 31 Mar 2026 09:10:46 +0000","description":"It is only allowed to defined a constant once per class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/cannot-redefine-class-constant.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 ## Description
 It is only allowed to defined a constant once per class. 
 
@@ -10,7 +11,6 @@ At the class, interface, trait level, the constants must all be distinct.
 At the enumeration level, the naming conflict may arise between a case and a const: the error message is then the same.
 
 This error applies to class constants, and there is a different error for global constants.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/cannot-redefine-class-constant.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/cannot-redefine-class-constant.html","name":"Cannot redefine class constant","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:46 +0000","dateModified":"Tue, 31 Mar 2026 09:10:46 +0000","description":"It is only allowed to defined a constant once per class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/cannot-redefine-class-constant.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 ## Example
 

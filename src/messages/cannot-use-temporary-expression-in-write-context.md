@@ -1,5 +1,6 @@
 # Cannot use temporary expression in write context
 
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/cannot-use-temporary-expression-in-write-context.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/cannot-use-temporary-expression-in-write-context.html","name":"Cannot use temporary expression in write context","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Aug 2026 14:00:09 +0000","dateModified":"Wed, 05 Aug 2026 14:00:09 +0000","description":"Literal values and constants, global or class, cannot be used for writing: they are immutable","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/cannot-use-temporary-expression-in-write-context.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 ## Description
 Literal values and constants, global or class, cannot be used for writing: they are immutable. When it is attempted nontheless, this error is displayed.
 
@@ -12,7 +13,6 @@ This is also the case with the append `$variable[]` operator, and with object no
 Passing a dimension fetch on a temporary by reference is also not allowed. 
 
 The surprising error message comes from the temporary expression built by PHP, to allow a read access to the value. `echo A->p;` is a read access, while `A->p = 3` is a write access.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/cannot-use-temporary-expression-in-write-context.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/cannot-use-temporary-expression-in-write-context.html","name":"Cannot use temporary expression in write context","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Aug 2026 14:00:09 +0000","dateModified":"Wed, 05 Aug 2026 14:00:09 +0000","description":"Literal values and constants, global or class, cannot be used for writing: they are immutable","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/cannot-use-temporary-expression-in-write-context.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 ## Example
 

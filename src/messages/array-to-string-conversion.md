@@ -1,12 +1,12 @@
 # Array to string conversion
 
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/array-to-string-conversion.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/array-to-string-conversion.html","name":"Array to string conversion","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:45 +0000","dateModified":"Tue, 31 Mar 2026 09:10:45 +0000","description":"This error appears when an array is converted into a string, without a proper type cast","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/array-to-string-conversion.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 ## Description
 This error appears when an array is converted into a string, without a proper type cast. For example, in the illustration code, the array is directly used with `echo`, which requires a string, as argument. The result of this expression is `Array`.
 
 This error may be a sub-part of other operations, that also requires strings. This is the second example, with `implode()` : the source of the error lies in the elements of the array. They are supposed to be strings, so as to be concatenated with the separator; but one of them is also an array, leading to the error.
 
 This error is not affected by `strict_types`: it is always emits the same error.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/array-to-string-conversion.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/array-to-string-conversion.html","name":"Array to string conversion","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:45 +0000","dateModified":"Tue, 31 Mar 2026 09:10:45 +0000","description":"This error appears when an array is converted into a string, without a proper type cast","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/array-to-string-conversion.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 ## Example
 

@@ -1,12 +1,12 @@
 # Cannot declare variadic promoted property
 
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/cannot-declare-variadic-promoted-property.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/cannot-declare-variadic-promoted-property.html","name":"Cannot declare variadic promoted property","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Aug 2026 14:00:09 +0000","dateModified":"Wed, 05 Aug 2026 14:00:09 +0000","description":"Properties may be declared, as an parameter in a constructor","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/cannot-declare-variadic-promoted-property.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 ## Description
 Properties may be declared, as an parameter in a constructor. Then, they also act as an parameter, and a local variable.
 
 Variadic option is a parameter only option, which pack all the remaning arguments in the final parameter. 
 
 Variadic option makes no sense in a property definition, as only one value is stored there.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/cannot-declare-variadic-promoted-property.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/cannot-declare-variadic-promoted-property.html","name":"Cannot declare variadic promoted property","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Aug 2026 14:00:09 +0000","dateModified":"Wed, 05 Aug 2026 14:00:09 +0000","description":"Properties may be declared, as an parameter in a constructor","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/cannot-declare-variadic-promoted-property.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 ## Example
 

@@ -1,10 +1,10 @@
 # Namespace declarations cannot be nested
 
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/namespace-declarations-cannot-be-nested.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/namespace-declarations-cannot-be-nested.html","name":"Namespace declarations cannot be nested","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Aug 2026 14:00:09 +0000","dateModified":"Wed, 05 Aug 2026 14:00:09 +0000","description":"Namespace declaration, with blocks, cannot be nested one into the other","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/namespace-declarations-cannot-be-nested.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 ## Description
 Namespace declaration, with blocks, cannot be nested one into the other. Namespaces must be one next to each other. 
 
 Usually, there is only one namespace per file, without a block.
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/namespace-declarations-cannot-be-nested.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/namespace-declarations-cannot-be-nested.html","name":"Namespace declarations cannot be nested","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 05 Aug 2026 14:00:09 +0000","dateModified":"Wed, 05 Aug 2026 14:00:09 +0000","description":"Namespace declaration, with blocks, cannot be nested one into the other","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/namespace-declarations-cannot-be-nested.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
 
 ## Example
 
