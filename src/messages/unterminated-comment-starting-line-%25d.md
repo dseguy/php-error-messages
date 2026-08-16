@@ -1,0 +1,28 @@
+# Unterminated comment starting line %d
+
+## Description
+The multi-line comments with `/* ... */` and `/** ... */` require a closing tag. When that closing tag is missing, the error is emitted.
+
+This problem does not occur with the single line comment `//`, as this comment only ends with the end of the line.
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/unterminated-comment-starting-line-%d.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/unterminated-comment-starting-line-%d.html","name":"Unterminated comment starting line %d","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 31 Mar 2026 09:10:47 +0000","dateModified":"Tue, 31 Mar 2026 09:10:47 +0000","description":"The multi-line comments with ``\/* ","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/unterminated-comment-starting-line-%d.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+## Example
+
+```php
+<?php
+
+/*
+comment
+
+    Missing final / below
+*        
+
+?>
+```
+
+## Literal Examples
++ Unterminated comment starting line 3
+
+## Alternatives
++ Check if the closing tag is complete, with ``*`` and ``/``.
++ Check if the closing tag is not missing entirely.

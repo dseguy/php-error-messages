@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import pathlib, re, sys
 
-BASE = "https://php-dictionary.readthedocs.io/en/latest/"
+BASE = "https://php-errors.readthedocs.io/en/latest/"
 SKIP = {"404.html", "print.html"}
 root = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else "book")
 

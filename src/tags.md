@@ -31,9 +31,9 @@
   + [power of base 0 and negative exponent is deprecated](messages/power-of-base-0-and-negative-exponent-is-deprecated.html)
   + [syntax error, unexpected token "("](messages/syntax-error,-unexpected-token-\(.html)
   + [undefined variable](messages/undefined-variable.html)
-  + [unparenthesized \`a ? b : c ? d : e\` is not supported.](messages/unparenthesized-\\`a-?-b-:-c-?-d-:-e\\`-is-not-supported..html)
-  + [unparenthesized \`a ? b : c ?: d\` is not supported.](messages/unparenthesized-\\`a-?-b-:-c-?:-d\\`-is-not-supported..html)
-  + [unparenthesized \`a ?: b ? c : d\` is not supported.](messages/unparenthesized-\\`a-?:-b-?-c-:-d\\`-is-not-supported..html)
+  + [unparenthesized \`a ? b : c ? d : e\` is not supported.](messages/unparenthesized-\\\`a-?-b-:-c-?-d-:-e\\\`-is-not-supported..html)
+  + [unparenthesized \`a ? b : c ?: d\` is not supported.](messages/unparenthesized-\\\`a-?-b-:-c-?:-d\\\`-is-not-supported..html)
+  + [unparenthesized \`a ?: b ? c : d\` is not supported.](messages/unparenthesized-\\\`a-?:-b-?-c-:-d\\\`-is-not-supported..html)
 + class
   + [cannot redeclare class %s](messages/cannot-redeclare-class-%s.html)
   + [cannot use "parent" when current class scope has no parent](messages/cannot-use-parent-when-current-class-scope-has-no-parent.html)

@@ -122,7 +122,7 @@
   + [%s%s%s(): argument #%d%s%s%s must be passed by reference, value given](messages/%s%s%s\(\):-argument-#%d%s%s%s-must-be-passed-by-reference,-value-given.html)
   + [%s() expects exactly 0 arguments, %d given](messages/%s\(\)-expects-exactly-0-arguments,-%d-given.html)
   + [%s(): argument #%d%s%s%s could not be passed by reference](messages/%s\(\):-argument-#%d%s%s%s-could-not-be-passed-by-reference.html)
-  + [\`%s\' is not a valid mode for fopen](messages/\\`%s\\-is-not-a-valid-mode-for-fopen.html)
+  + [\`%s\' is not a valid mode for fopen](messages/\\\`%s\\-is-not-a-valid-mode-for-fopen.html)
   + [argument #%d ($%s) must be of type %s, %s given](messages/argument-#%d-\($%s\)-must-be-of-type-%s,-%s-given.html)
   + [argument #2 ($end) must be a single byte string if](messages/argument-#2-\($end\)-must-be-a-single-byte-string-if.html)
   + [calling get_parent_class() without arguments is deprecated](messages/calling-get\_parent\_class\(\)-without-arguments-is-deprecated.html)
@@ -268,7 +268,7 @@
 + backedenum
   + [non enum class %s cannot implement interface %s](messages/non-enum-class-%s-cannot-implement-interface-%s.html)
 + backtick
-  + [the backtick (\`) operator is deprecated, use shell_exec() instead](messages/the-backtick-\(\\`\)-operator-is-deprecated,-use-shell\_exec\(\)-instead.html)
+  + [the backtick (\`) operator is deprecated, use shell_exec() instead](messages/the-backtick-\(\\\`\)-operator-is-deprecated,-use-shell\_exec\(\)-instead.html)
 + balanced
   + [syntax error, unexpected token ",", expecting "]"](messages/syntax-error,-unexpected-token-,,-expecting-\].html)
   + [syntax error, unexpected token ";", expecting ")"](messages/syntax-error,-unexpected-token-;,-expecting-\).html)
@@ -1507,9 +1507,9 @@
   + [unclosed \'(\'](messages/unclosed-\\\(\\.html)
   + [unmatched \')\'](messages/unmatched-\\\)\\.html)
   + [unmatched \']\'](messages/unmatched-\\\]\\.html)
-  + [unparenthesized \`a ? b : c ? d : e\` is not supported.](messages/unparenthesized-\\`a-?-b-:-c-?-d-:-e\\`-is-not-supported..html)
-  + [unparenthesized \`a ? b : c ?: d\` is not supported.](messages/unparenthesized-\\`a-?-b-:-c-?:-d\\`-is-not-supported..html)
-  + [unparenthesized \`a ?: b ? c : d\` is not supported.](messages/unparenthesized-\\`a-?:-b-?-c-:-d\\`-is-not-supported..html)
+  + [unparenthesized \`a ? b : c ? d : e\` is not supported.](messages/unparenthesized-\\\`a-?-b-:-c-?-d-:-e\\\`-is-not-supported..html)
+  + [unparenthesized \`a ? b : c ?: d\` is not supported.](messages/unparenthesized-\\\`a-?-b-:-c-?:-d\\\`-is-not-supported..html)
+  + [unparenthesized \`a ?: b ? c : d\` is not supported.](messages/unparenthesized-\\\`a-?:-b-?-c-:-d\\\`-is-not-supported..html)
 + partial-application
   + [cannot combine partial application and unpacking](messages/cannot-combine-partial-application-and-unpacking.html)
   + [variadic placeholder may only appear once](messages/variadic-placeholder-may-only-appear-once.html)
@@ -1833,7 +1833,7 @@
   + [session.sid_length ini setting is deprecated](messages/session.sid\_length-ini-setting-is-deprecated.html)
   + [usage of session.referer_check ini setting is deprecated](messages/usage-of-session.referer\_check-ini-setting-is-deprecated.html)
 + shell_exec
-  + [the backtick (\`) operator is deprecated, use shell_exec() instead](messages/the-backtick-\(\\`\)-operator-is-deprecated,-use-shell\_exec\(\)-instead.html)
+  + [the backtick (\`) operator is deprecated, use shell_exec() instead](messages/the-backtick-\(\\\`\)-operator-is-deprecated,-use-shell\_exec\(\)-instead.html)
 + short-assignation
   + [undefined variable $%s](messages/undefined-variable-$%s.html)
 + short-tag
@@ -1986,9 +1986,9 @@
 + ternary
   + [syntax error, unexpected token ":", expecting "]"](messages/syntax-error,-unexpected-token-:,-expecting-\].html)
   + [syntax error, unexpected token "?"](messages/syntax-error,-unexpected-token-?.html)
-  + [unparenthesized \`a ? b : c ? d : e\` is not supported.](messages/unparenthesized-\\`a-?-b-:-c-?-d-:-e\\`-is-not-supported..html)
-  + [unparenthesized \`a ? b : c ?: d\` is not supported.](messages/unparenthesized-\\`a-?-b-:-c-?:-d\\`-is-not-supported..html)
-  + [unparenthesized \`a ?: b ? c : d\` is not supported.](messages/unparenthesized-\\`a-?:-b-?-c-:-d\\`-is-not-supported..html)
+  + [unparenthesized \`a ? b : c ? d : e\` is not supported.](messages/unparenthesized-\\\`a-?-b-:-c-?-d-:-e\\\`-is-not-supported..html)
+  + [unparenthesized \`a ? b : c ?: d\` is not supported.](messages/unparenthesized-\\\`a-?-b-:-c-?:-d\\\`-is-not-supported..html)
+  + [unparenthesized \`a ?: b ? c : d\` is not supported.](messages/unparenthesized-\\\`a-?:-b-?-c-:-d\\\`-is-not-supported..html)
 + throw
   + [%s(): never returning function must not implicitly return](messages/%s\(\):-never-returning-function-must-not-implicitly-return.html)
   + [can only throw objects](messages/can-only-throw-objects.html)

@@ -24,8 +24,8 @@ $x = $a ?: $b ? $c : $d;
 + Rewrite the expression as an if/then.
 
 ## Related error messages
-+ [unparenthesized-`a-?-b-:-c-?-d-:-e`-is-not-supported.](unparenthesized-`a-?-b-:-c-?-d-:-e`-is-not-supported..html)
-+ [unparenthesized-`a-?-b-:-c-?:-d`-is-not-supported.](unparenthesized-`a-?-b-:-c-?:-d`-is-not-supported..html)
++ [unparenthesized-`a-?-b-:-c-?-d-:-e`-is-not-supported.](unparenthesized-\`a-?-b-:-c-?-d-:-e\`-is-not-supported..html)
++ [unparenthesized-`a-?-b-:-c-?:-d`-is-not-supported.](unparenthesized-\`a-?-b-:-c-?:-d\`-is-not-supported..html)
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 
