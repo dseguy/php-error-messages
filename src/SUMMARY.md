@@ -6,7 +6,7 @@
 [Features](features.md)
 
 # Index
-+ [Index](index.md)
++ [Index](messages-index.md)
   + [static:: is not allowed in compile-time constants](messages/static::-is-not-allowed-in-compile-time-constants.md)
   + [$GLOBALS can only be modified using the $GLOBALS\[$name\] = $value syntax](messages/$globals-can-only-be-modified-using-the-$globals\[$name\]-=-$value-syntax.md)
   + [%d arguments are required, %d given](messages/pd-arguments-are-required,-pd.md)
