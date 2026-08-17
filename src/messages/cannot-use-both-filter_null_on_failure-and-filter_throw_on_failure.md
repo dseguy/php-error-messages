@@ -35,6 +35,9 @@ There are two options for the filter extension to handle errors: either return n
 + Use only one of the two constants.
 + When providing the options as an integer, make sure the bytes 27 and 28 are not set at the same time.
 
+## Related error messages
++ [using-more-than-%d-filters-in-a-php:--filter-url-is-deprecated](using-more-than-%d-filters-in-a-php:--filter-url-is-deprecated.html)
+
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 
 []()

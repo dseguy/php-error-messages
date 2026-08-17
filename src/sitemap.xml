@@ -13,7 +13,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/ps-returned-as-member-variable-from-__sleepqr-but-does-not-exist.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps-will-be-interpreted-as-a-class-name.-did-you-mean-ps?-write-psps-to-suppress-this-warning.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps-will-be-interpreted-as-a-class-name.-did-you-mean-ps%3F-write-psps-to-suppress-this-warning.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/pspspsqr-does-not-accept-unknown-named-parameters.html</loc>
@@ -64,7 +64,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/ps--is-returned-from-__sleepqr-multiple-times.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps--will-be-interpreted-as-a-class-name.-did-you-mean--ps-?-write----ps-ps-to-suppress-this-warning.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/ps--will-be-interpreted-as-a-class-name.-did-you-mean--ps-%3F-write----ps-ps-to-suppress-this-warning.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/ps-ps-cannot-implement-interface-ps,-extend-exception-or-error-instead.html</loc>
@@ -398,6 +398,12 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-method-ps::psqr.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/calling-ppsqr-with-a-1st-argument-which-is-not-null-or-an-object-is-deprecated.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/calling-ppsqr-with-a-single-argument-is-deprecated.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/calling-psqr-on-an-object-is-deprecated.html</loc>
@@ -1144,7 +1150,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/default-value-for-property-of-type-ps-may-not-be-null.-use-the-nullable-type-ps-to-allow-null-default-value.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/default-value-for-property-of-type-int-may-not-be-null.-use-the-nullable-type-?int-to-allow-null-default-value.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/default-value-for-property-of-type-int-may-not-be-null.-use-the-nullable-type-%3Fint-to-allow-null-default-value.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/defineqr:-argument-s3-q$case_insensitiver-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported.html</loc>
@@ -1471,6 +1477,12 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/label-ps-already-defined.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/making-a-constructor-a-generator-is-deprecated.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/making-a-destructor-a-generator-is-deprecated.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/match-expressions-may-only-contain-one-default-arm.html</loc>
  </url>
  <url>
@@ -1636,7 +1648,7 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/negative-power-of-zero.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/nesting-level-too-deep---recursive-dependency?.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/nesting-level-too-deep---recursive-dependency%3F.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/never-can-only-be-used-as-a-standalone-type.html</loc>
@@ -1918,6 +1930,12 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/return-value-of-pspspsqr-must-pspsps,-psps-returned.html</loc>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/returning-a-value-from-a-constructor-is-deprecated.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/returning-a-value-from-a-destructor-is-deprecated.html</loc>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/returning-bool-from-comparison-function-is-deprecated,-return-an-integer-less-than,-equal-to,-or-greater-than-zero.html</loc>
  </url>
  <url>
@@ -1925,6 +1943,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/returning-by-reference-from-a-void-function-is-deprecated.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/returning-null-from-ps::__debuginfoqr-is-deprecated,-make-the-return-type-non-nullable-and-return-an-empty-array-instead.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/returning-null-from-ps::__debuginfoqr-is-deprecated,-return-an-empty-array-instead.html</loc>
@@ -2209,10 +2230,10 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-;,-expecting-,-or-r.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-;,-expecting--&gt;-or-?-&gt;-or-[.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-;,-expecting--&gt;-or-%3F-&gt;-or-[.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-;,-expecting--&gt;-or-?-&gt;-or-{-or-[.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-;,-expecting--&gt;-or-%3F-&gt;-or-{-or-[.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-;,-expecting-].html</loc>
@@ -2248,16 +2269,16 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-&gt;.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-?.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-%3F.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-?-&gt;,-expecting-,-or-;.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-%3F-&gt;,-expecting-,-or-;.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-?-&gt;.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-%3F-&gt;.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-??.html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-%3F%3F.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-].html</loc>
@@ -2647,13 +2668,13 @@
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unmatched-}.html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/unparenthesized-`a-?-b-:-c-?-d-:-e`-is-not-supported..html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/unparenthesized-`a-%3F-b-:-c-%3F-d-:-e`-is-not-supported..html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/unparenthesized-`a-?-b-:-c-?:-d`-is-not-supported..html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/unparenthesized-`a-%3F-b-:-c-%3F:-d`-is-not-supported..html</loc>
  </url>
  <url>
-  <loc>https://php-errors.readthedocs.io/en/latest/messages/unparenthesized-`a-?:-b-?-c-:-d`-is-not-supported..html</loc>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/unparenthesized-`a-%3F:-b-%3F-c-:-d`-is-not-supported..html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unserializing-the-s-format-is-deprecated.html</loc>
@@ -2714,6 +2735,9 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/using-empty-file-as-ziparchive-is-deprecated.html</loc>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/using-more-than-pd-filters-in-a-php:--filter-url-is-deprecated.html</loc>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/using-null-as-an-array-offset-is-deprecated,-use-an-empty-string-instead.html</loc>

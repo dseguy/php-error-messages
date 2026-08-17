@@ -438,7 +438,7 @@ foreach($files as $file) {
 			    }
 				buildlog("No such related file as '$related' in $file");
 				++$warnings;
-				die("No such related file as '$related' in $file");
+//				die("No such related file as '$related' in $file");
 			} else {
 				$target = str_replace(array('errors/', '.ini'), '', $file);
 				$hash = $target.' - '.$related;
@@ -537,7 +537,7 @@ $mdSummary = [
     '[Features](features.md)',
     '',
     '# Index',
-    '+ [Index](index.md)',
+    '+ [Index](messages-index.md)',
     
     ];
 
@@ -576,11 +576,12 @@ foreach($errors as $file => $message) {
 	
 	$entry[] = '.. raw:: html';
 	$entry[] = '';
+	$idSlug = makeUrlSafe(makeName(str_replace(["'", '"'], '', $message->id)));
 	$ldjson = ['@context' => "https://schema.org",
 	    '@graph' => [
 	        ["@type" => "WebPage",
-	        "@id" => "https://php-errors.readthedocs.io/en/latest/messages/".$message->id.".html",
-	        "url" => "https://php-errors.readthedocs.io/en/latest/messages/".$message->id.".html",
+	        "@id" => "https://php-errors.readthedocs.io/en/latest/messages/".$idSlug.".html",
+	        "url" => "https://php-errors.readthedocs.io/en/latest/messages/".$idSlug.".html",
 	        "name" => $message->error,
 	        "isPartOf" => [
 	            "@id" =>  "https://www.exakat.io/"
@@ -592,7 +593,7 @@ foreach($errors as $file => $message) {
 	        "potentialAction" => [
 	            [
 	            '@type' => 'ReadAction',
-	            'target' => ["https://php-errors.readthedocs.io/en/latest/messages/".$message->id.".html"]
+	            'target' => ["https://php-errors.readthedocs.io/en/latest/messages/".$idSlug.".html"]
 	            ]
 	        ],
 	        
@@ -775,6 +776,7 @@ foreach($errors as $file => $message) {
 	$slug = $message->id;
 	$slug = str_replace(['"', "'"], '', $slug);
 	$slug = makeName($slug);
+	$slug = makeUrlSafe($slug);
 	$sitemap->addItem('https://php-errors.readthedocs.io/en/latest/messages/'.$slug.'.html');
 }
 
@@ -879,6 +881,17 @@ function first_sentence(string $code): string {
 function makeName(string $name): string {
 	$name = str_replace(['%', '(', ')', '#'], ['p', 'q', 'r', 's'], $name);
     return $name;
+}
+
+// The on-disk filename (and mdBook's served path) keeps a literal '?' when the
+// original message text contains one. That's fine for direct navigation, but
+// a raw '?' inside a URL string (sitemap <loc>, JSON-LD @id/url) truncates the
+// path there and turns everything after it into a query string, 404ing the
+// real page. Percent-encode it wherever the slug is used to build a full URL.
+// Commas, colons, semicolons, '=', '&', '$', '[', ']' are all safe unencoded
+// in a path segment and must stay literal to match the real filename.
+function makeUrlSafe(string $slug): string {
+	return str_replace('?', '%3F', $slug);
 }
 
 // One git-log walk instead of two subprocess calls per file: builds

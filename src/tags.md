@@ -67,6 +67,8 @@
   + [undefined constant "%s](messages/undefined-constant-ps.html)
 + constructor
   + [intllistformatter object is already constructed](messages/intllistformatter-object-is-already-constructed.html)
+  + [making a constructor a generator is deprecated](messages/making-a-constructor-a-generator-is-deprecated.html)
+  + [returning a value from a constructor is deprecated](messages/returning-a-value-from-a-constructor-is-deprecated.html)
 + crash
   + [must not contain empty strings](messages/must-not-contain-empty-strings.html)
 + datetime
@@ -74,6 +76,7 @@
 + debug
   + [duplicate parameter name $%s for function %s%s%s()](messages/duplicate-parameter-name-$ps-for-function-pspspsqr.html)
 + debugging
+  + [returning null from %s::__debuginfo() is deprecated, make the return type non nullable and return an empty array instead](messages/returning-null-from-ps::\_\_debuginfoqr-is-deprecated,-make-the-return-type-non-nullable-and-return-an-empty-array-instead.html)
   + [returning null from %s::__debuginfo() is deprecated, return an empty array instead](messages/returning-null-from-ps::\_\_debuginfoqr-is-deprecated,-return-an-empty-array-instead.html)
 + declare
   + [declare(%s) value must be a literal](messages/declareqpsr-value-must-be-a-literal.html)
@@ -85,6 +88,8 @@
   + [function libxml_disable_entity_loader() is deprecated since 8.0, as external entity loading is disabled by default](messages/function-libxml\_disable\_entity\_loaderqr-is-deprecated-since-8.0,-as-external-entity-loading-is-disabled-by-default.html)
   + [the (real) cast is deprecated, use (float) instead](messages/the-qrealr-cast-is-deprecated,-use-qfloatr-instead.html)
 + deprecation
+  + [calling %ps() with a 1st argument which is not null or an object is deprecated](messages/calling-ppsqr-with-a-1st-argument-which-is-not-null-or-an-object-is-deprecated.html)
+  + [calling %ps() with a single argument is deprecated](messages/calling-ppsqr-with-a-single-argument-is-deprecated.html)
   + [cannot bind method %s::%s() to object of class %s, this will be an error in php 9](messages/cannot-bind-method-ps::psqr-to-object-of-class-ps,-this-will-be-an-error-in-php-9.html)
   + [cannot rebind scope of closure created from function, this will be an error in php 9](messages/cannot-rebind-scope-of-closure-created-from-function,-this-will-be-an-error-in-php-9.html)
   + [cannot rebind scope of closure created from method, this will be an error in php 9](messages/cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9.html)
@@ -93,13 +98,21 @@
   + [constant %s is deprecated](messages/constant-ps-is-deprecated.html)
   + [constant %s::%s is deprecated](messages/constant-ps::ps-is-deprecated.html)
   + [function %s() is deprecated%s](messages/function-psqr-is-deprecatedps.html)
+  + [making a constructor a generator is deprecated](messages/making-a-constructor-a-generator-is-deprecated.html)
+  + [making a destructor a generator is deprecated](messages/making-a-destructor-a-generator-is-deprecated.html)
   + [reflectionclass::getconstant() for a non existent constant is deprecated,](messages/reflectionclass::getconstantqr-for-a-non-existent-constant-is-deprecated,.html)
   + [reflectionproperty::getdefaultvalue() for a property without a default value is deprecated,](messages/reflectionproperty::getdefaultvalueqr-for-a-property-without-a-default-value-is-deprecated,.html)
+  + [returning a value from a constructor is deprecated](messages/returning-a-value-from-a-constructor-is-deprecated.html)
+  + [returning a value from a destructor is deprecated](messages/returning-a-value-from-a-destructor-is-deprecated.html)
+  + [returning null from %s::__debuginfo() is deprecated, make the return type non nullable and return an empty array instead](messages/returning-null-from-ps::\_\_debuginfoqr-is-deprecated,-make-the-return-type-non-nullable-and-return-an-empty-array-instead.html)
   + [returning null from %s::__debuginfo() is deprecated, return an empty array instead](messages/returning-null-from-ps::\_\_debuginfoqr-is-deprecated,-return-an-empty-array-instead.html)
   + [trait %s used by %s is deprecated%s](messages/trait-ps-used-by-ps-is-deprecatedps.html)
   + [using array_key_exists() on objects is deprecated.](messages/using-array\_key\_existsqr-on-objects-is-deprecated..html)
+  + [using more than %d filters in a php:  filter url is deprecated](messages/using-more-than-pd-filters-in-a-php:--filter-url-is-deprecated.html)
 + destructor
   + [call to %s %s::__destruct() from global scope during shutdown ignored](messages/call-to-ps-ps::\_\_destructqr-from-global-scope-during-shutdown-ignored.html)
+  + [making a destructor a generator is deprecated](messages/making-a-destructor-a-generator-is-deprecated.html)
+  + [returning a value from a destructor is deprecated](messages/returning-a-value-from-a-destructor-is-deprecated.html)
 + digest
   + [unknown digest algorithm: %s](messages/unknown-digest-algorithm:-ps.html)
 + directive
@@ -162,6 +175,8 @@
   + [increment on non alphanumeric string is deprecated](messages/increment-on-non-alphanumeric-string-is-deprecated.html)
 + generator
   + [cannot rewind a generator that was already run](messages/cannot-rewind-a-generator-that-was-already-run.html)
+  + [making a constructor a generator is deprecated](messages/making-a-constructor-a-generator-is-deprecated.html)
+  + [making a destructor a generator is deprecated](messages/making-a-destructor-a-generator-is-deprecated.html)
 + goto
   + [\'goto\' into loop or switch statement is disallowed](messages/\\goto\\-into-loop-or-switch-statement-is-disallowed.html)
 + hash
@@ -206,6 +221,11 @@
   + [syntax error, unexpected token "%s", expecting identifier](messages/syntax-error,-unexpected-token-ps,-expecting-identifier.html)
   + [type %s contains both object and a class type](messages/type-ps-contains-both-object-and-a-class-type.html)
 + magic-method
+  + [making a constructor a generator is deprecated](messages/making-a-constructor-a-generator-is-deprecated.html)
+  + [making a destructor a generator is deprecated](messages/making-a-destructor-a-generator-is-deprecated.html)
+  + [returning a value from a constructor is deprecated](messages/returning-a-value-from-a-constructor-is-deprecated.html)
+  + [returning a value from a destructor is deprecated](messages/returning-a-value-from-a-destructor-is-deprecated.html)
+  + [returning null from %s::__debuginfo() is deprecated, make the return type non nullable and return an empty array instead](messages/returning-null-from-ps::\_\_debuginfoqr-is-deprecated,-make-the-return-type-non-nullable-and-return-an-empty-array-instead.html)
   + [returning null from %s::__debuginfo() is deprecated, return an empty array instead](messages/returning-null-from-ps::\_\_debuginfoqr-is-deprecated,-return-an-empty-array-instead.html)
 + mbstring
   + [is not a valid codepoint](messages/is-not-a-valid-codepoint.html)
@@ -267,6 +287,8 @@
   + [%s(): return value of the authorizer callback must be of type int, %s returned](messages/psqr:-return-value-of-the-authorizer-callback-must-be-of-type-int,-ps-returned.html)
   + [%s(): return value of the collation callback must be of type int, %s returned](messages/psqr:-return-value-of-the-collation-callback-must-be-of-type-int,-ps-returned.html)
   + [cannot change default fetch mode while fetching](messages/cannot-change-default-fetch-mode-while-fetching.html)
++ php://filter
+  + [using more than %d filters in a php:  filter url is deprecated](messages/using-more-than-pd-filters-in-a-php:--filter-url-is-deprecated.html)
 + printf
   + [missing format specifier at end of string](messages/missing-format-specifier-at-end-of-string.html)
   + [unknown format specifier "%c](messages/unknown-format-specifier-pc.html)
@@ -294,6 +316,8 @@
   + [cannot acquire reference to readonly property %s::$%s](messages/cannot-acquire-reference-to-readonly-property-ps::$ps.html)
   + [parameter $%s of %s hook %s::$%s must not be pass by reference](messages/parameter-$ps-of-ps-hook-ps::$ps-must-not-be-pass-by-reference.html)
 + reflection
+  + [calling %ps() with a 1st argument which is not null or an object is deprecated](messages/calling-ppsqr-with-a-1st-argument-which-is-not-null-or-an-object-is-deprecated.html)
+  + [calling %ps() with a single argument is deprecated](messages/calling-ppsqr-with-a-single-argument-is-deprecated.html)
   + [reflectionclass::getconstant() for a non existent constant is deprecated,](messages/reflectionclass::getconstantqr-for-a-non-existent-constant-is-deprecated,.html)
   + [reflectionproperty::getdefaultvalue() for a property without a default value is deprecated,](messages/reflectionproperty::getdefaultvalueqr-for-a-property-without-a-default-value-is-deprecated,.html)
 + relative-types
@@ -312,6 +336,7 @@
   + [%s(): never returning function must not implicitly return](messages/psqr:-never-returning-function-must-not-implicitly-return.html)
 + return-type
   + [a %s with return type must return a value](messages/a-ps-with-return-type-must-return-a-value.html)
+  + [returning null from %s::__debuginfo() is deprecated, make the return type non nullable and return an empty array instead](messages/returning-null-from-ps::\_\_debuginfoqr-is-deprecated,-make-the-return-type-non-nullable-and-return-an-empty-array-instead.html)
 + scope
   + [cannot bind method %s::%s() to object of class %s, this will be an error in php 9](messages/cannot-bind-method-ps::psqr-to-object-of-class-ps,-this-will-be-an-error-in-php-9.html)
   + [cannot rebind scope of closure created from function, this will be an error in php 9](messages/cannot-rebind-scope-of-closure-created-from-function,-this-will-be-an-error-in-php-9.html)
@@ -320,6 +345,7 @@
   + [cannot unbind $this of method, this will be an error in php 9](messages/cannot-unbind-$this-of-method,-this-will-be-an-error-in-php-9.html)
 + security
   + [maximum depth of %d exceeded. the depth limit can be changed using the max_depth unserialize() option](messages/maximum-depth-of-pd-exceeded.-the-depth-limit-can-be-changed-using-the-max\_depth-unserializeqr-option.html)
+  + [using more than %d filters in a php:  filter url is deprecated](messages/using-more-than-pd-filters-in-a-php:--filter-url-is-deprecated.html)
 + shutdown
   + [call to %s %s::__destruct() from global scope during shutdown ignored](messages/call-to-ps-ps::\_\_destructqr-from-global-scope-during-shutdown-ignored.html)
 + silent-cast
@@ -333,6 +359,11 @@
 + sqlite
   + [%s(): return value of the authorizer callback must be of type int, %s returned](messages/psqr:-return-value-of-the-authorizer-callback-must-be-of-type-int,-ps-returned.html)
   + [%s(): return value of the collation callback must be of type int, %s returned](messages/psqr:-return-value-of-the-collation-callback-must-be-of-type-int,-ps-returned.html)
++ static-property
+  + [calling %ps() with a 1st argument which is not null or an object is deprecated](messages/calling-ppsqr-with-a-1st-argument-which-is-not-null-or-an-object-is-deprecated.html)
+  + [calling %ps() with a single argument is deprecated](messages/calling-ppsqr-with-a-single-argument-is-deprecated.html)
++ stream
+  + [using more than %d filters in a php:  filter url is deprecated](messages/using-more-than-pd-filters-in-a-php:--filter-url-is-deprecated.html)
 + strict check
   + [providing a string that is not one byte long is deprecated. use ord($str[0]) instead](messages/providing-a-string-that-is-not-one-byte-long-is-deprecated.-use-ordq$str\[0\]r-instead.html)
   + [providing an empty string is deprecated](messages/providing-an-empty-string-is-deprecated.html)

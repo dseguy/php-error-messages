@@ -26,6 +26,7 @@
 + __callStatic
   + [method %s::%s() must be static](messages/method-ps::psqr-must-be-static.html)
 + __debuginfo
+  + [returning null from %s::__debuginfo() is deprecated, make the return type non nullable and return an empty array instead](messages/returning-null-from-ps::\_\_debuginfoqr-is-deprecated,-make-the-return-type-non-nullable-and-return-an-empty-array-instead.html)
   + [returning null from %s::__debuginfo() is deprecated, return an empty array instead](messages/returning-null-from-ps::\_\_debuginfoqr-is-deprecated,-return-an-empty-array-instead.html)
 + __halt_compiler
   + [0 __halt_compiler() can only be used from the outermost scope](messages/0-\_\_halt\_compilerqr-can-only-be-used-from-the-outermost-scope.html)
@@ -584,6 +585,7 @@
   + [constructor %s::%s() cannot declare a return type](messages/constructor-ps::psqr-cannot-declare-a-return-type.html)
   + [datetimezone object is unconstructed](messages/datetimezone-object-is-unconstructed.html)
   + [intllistformatter object is already constructed](messages/intllistformatter-object-is-already-constructed.html)
+  + [making a constructor a generator is deprecated](messages/making-a-constructor-a-generator-is-deprecated.html)
   + [method %s::%s() cannot declare a return type](messages/method-ps::psqr-cannot-declare-a-return-type.html)
   + [method %s::%s cannot be #[  nodiscard]](messages/method-ps::ps-cannot-be-s\[--nodiscard\].html)
   + [method %s::__construct() cannot declare a return type](messages/method-ps::\_\_constructqr-cannot-declare-a-return-type.html)
@@ -592,9 +594,8 @@
   + [must be empty when class provided in argument #2 ($class) does not have a constructor](messages/must-be-empty-when-class-provided-in-argument-s2-q$classr-does-not-have-a-constructor.html)
   + [object not initialized](messages/object-not-initialized.html)
   + [object of type %s has not been correctly initialized by calling parent::__construct() in its constructor](messages/object-of-type-ps-has-not-been-correctly-initialized-by-calling-parent::\_\_constructqr-in-its-constructor.html)
+  + [returning a value from a constructor is deprecated](messages/returning-a-value-from-a-constructor-is-deprecated.html)
   + [the parent constructor was not called: the object is in an invalid state](messages/the-parent-constructor-was-not-called:-the-object-is-in-an-invalid-state.html)
-+ context
-  + [the $context parameter has no effect for finfo_buffer()](messages/the-$context-parameter-has-no-effect-for-finfo\_bufferqr.html)
 + continue
   + [\'%s\' not in the \'loop\' or \'switch\' context](messages/\\ps\\-not-in-the-\\loop\\-or-\\switch\\-context.html)
   + [\'%s\' operator accepts only positive integers](messages/\\ps\\-operator-accepts-only-positive-integers.html)
@@ -669,7 +670,9 @@
 + destructor
   + [call to %s %s::__destruct() from global scope during shutdown ignored](messages/call-to-ps-ps::\_\_destructqr-from-global-scope-during-shutdown-ignored.html)
   + [destructors cannot declare a return type](messages/destructors-cannot-declare-a-return-type.html)
+  + [making a destructor a generator is deprecated](messages/making-a-destructor-a-generator-is-deprecated.html)
   + [object not initialized](messages/object-not-initialized.html)
+  + [returning a value from a destructor is deprecated](messages/returning-a-value-from-a-destructor-is-deprecated.html)
 + destructuring
   + [cannot assign to array(), use [] instead](messages/cannot-assign-to-arrayqr,-use-\[\]-instead.html)
   + [cannot mix [] and list()](messages/cannot-mix-\[\]-and-listqr.html)
@@ -728,6 +731,7 @@
   + [encoding declaration pragma must be](messages/encoding-declaration-pragma-must-be.html)
   + [must be a valid charset](messages/must-be-a-valid-charset.html)
   + [must be a valid encoding, "%s" given](messages/must-be-a-valid-encoding,-ps-given.html)
+  + [passing a negative integer to argument #3 ($width) is deprecated](messages/passing-a-negative-integer-to-argument-s3-q$widthr-is-deprecated.html)
   + [passing the encoding as third parameter is deprecated. use an explicit zero offset](messages/passing-the-encoding-as-third-parameter-is-deprecated.-use-an-explicit-zero-offset.html)
   + [syntax error, unexpected token "=", expecting identifier](messages/syntax-error,-unexpected-token-=,-expecting-identifier.html)
   + [the connection has no charset associated](messages/the-connection-has-no-charset-associated.html)
@@ -840,8 +844,6 @@
   + [couldn\'t open stream: %s](messages/couldn\\t-open-stream:-ps.html)
 + file_put_contents
   + [write of %zu bytes failed with errno=%d %s](messages/write-of-pzu-bytes-failed-with-errno=pd-ps.html)
-+ fileinfo
-  + [the $context parameter has no effect for finfo_buffer()](messages/the-$context-parameter-has-no-effect-for-finfo\_bufferqr.html)
 + final
   + [%s::%s cannot override final constant %s::%s](messages/ps::ps-cannot-override-final-constant-ps::ps.html)
   + [cannot override final %s::%s() with %s::%s()](messages/cannot-override-final-ps::psqr-with-ps::psqr.html)
@@ -866,6 +868,8 @@
 + finally
   + [jump into a finally block is disallowed](messages/jump-into-a-finally-block-is-disallowed.html)
   + [jump out of a finally block is disallowed](messages/jump-out-of-a-finally-block-is-disallowed.html)
++ finfo
+  + [the $context parameter has no effect for finfo_buffer()](messages/the-$context-parameter-has-no-effect-for-finfo\_bufferqr.html)
 + first-class-callable
   + [array callback has to contain indices 0 and 1](messages/array-callback-has-to-contain-indices-0-and-1.html)
   + [cannot combine nullsafe operator with closure creation](messages/cannot-combine-nullsafe-operator-with-closure-creation.html)
@@ -924,6 +928,8 @@
   + [class %s cannot extend final class %s](messages/class-ps-cannot-extend-final-class-ps.html)
   + [generator return type must be a supertype of generator](messages/generator-return-type-must-be-a-supertype-of-generator.html)
   + [generators cannot return values using "return"](messages/generators-cannot-return-values-using-return.html)
+  + [making a constructor a generator is deprecated](messages/making-a-constructor-a-generator-is-deprecated.html)
+  + [making a destructor a generator is deprecated](messages/making-a-destructor-a-generator-is-deprecated.html)
   + [the "generator" class is reserved for internal use and cannot be manually instantiated](messages/the-generator-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated.html)
   + [the  "yield " expression can only be used inside a function](messages/the--yield--expression-can-only-be-used-inside-a-function.html)
   + [trying to clone an uncloneable object of class %s](messages/trying-to-clone-an-uncloneable-object-of-class-ps.html)
@@ -1175,6 +1181,7 @@
   + [method %s::%s cannot be #[  nodiscard]](messages/method-ps::ps-cannot-be-s\[--nodiscard\].html)
   + [property cannot be both final and private](messages/property-cannot-be-both-final-and-private.html)
   + [property hook cannot be both final and private](messages/property-hook-cannot-be-both-final-and-private.html)
+  + [returning null from %s::__debuginfo() is deprecated, make the return type non nullable and return an empty array instead](messages/returning-null-from-ps::\_\_debuginfoqr-is-deprecated,-make-the-return-type-non-nullable-and-return-an-empty-array-instead.html)
   + [returning null from %s::__debuginfo() is deprecated, return an empty array instead](messages/returning-null-from-ps::\_\_debuginfoqr-is-deprecated,-return-an-empty-array-instead.html)
   + [the magic method %s::%s() must have public visibility](messages/the-magic-method-ps::psqr-must-have-public-visibility.html)
 + match
@@ -1193,6 +1200,8 @@
   + [power of base 0 and negative exponent is deprecated](messages/power-of-base-0-and-negative-exponent-is-deprecated.html)
 + max_execution_time
   + [maximum execution time of %d second%s exceeded](messages/maximum-execution-time-of-pd-secondps-exceeded.html)
++ max_filter_count
+  + [using more than %d filters in a php:  filter url is deprecated](messages/using-more-than-pd-filters-in-a-php:--filter-url-is-deprecated.html)
 + max_memory_limit
   + [failed to set memory_limit to %zd bytes. setting to max_memory_limit instead (currently:](messages/failed-to-set-memory\_limit-to-pzd-bytes.-setting-to-max\_memory\_limit-instead-qcurrently:.html)
 + mbstring
@@ -1398,6 +1407,8 @@
   + [default value for property of type %s may not be null. use the nullable type %s to allow null default value](messages/default-value-for-property-of-type-ps-may-not-be-null.-use-the-nullable-type-ps-to-allow-null-default-value.html)
   + [null cannot be marked as nullable](messages/null-cannot-be-marked-as-nullable.html)
   + [type mixed cannot be marked as nullable since mixed already includes null](messages/type-mixed-cannot-be-marked-as-nullable-since-mixed-already-includes-null.html)
++ nullable-type
+  + [returning null from %s::__debuginfo() is deprecated, make the return type non nullable and return an empty array instead](messages/returning-null-from-ps::\_\_debuginfoqr-is-deprecated,-make-the-return-type-non-nullable-and-return-an-empty-array-instead.html)
 + nullsafe
   + [call to a member function %s() on %s](messages/call-to-a-member-function-psqr-on-ps.html)
 + nullsafe-object-operator
@@ -1533,6 +1544,8 @@
   + [undefined variable](messages/undefined-variable.html)
 + php.ini
   + [jit is incompatible with third party extensions that override zend_execute_ex(). jit disabled.](messages/jit-is-incompatible-with-third-party-extensions-that-override-zend\_execute\_exqr.-jit-disabled..html)
++ php://filter
+  + [using more than %d filters in a php:  filter url is deprecated](messages/using-more-than-pd-filters-in-a-php:--filter-url-is-deprecated.html)
 + php_int_max
   + [cannot add element to the array as the next element is already occupied](messages/cannot-add-element-to-the-array-as-the-next-element-is-already-occupied.html)
 + pipe-operator
@@ -1721,6 +1734,8 @@
   + [syntax error, unexpected token ";", expecting " >" or "? >" or "{" or "["](messages/syntax-error,-unexpected-token-;,-expecting-->-or-?->-or-{-or-\[.html)
 + reflection
   + [attribute class "%s" not found](messages/attribute-class-ps-not-found.html)
+  + [calling %ps() with a 1st argument which is not null or an object is deprecated](messages/calling-ppsqr-with-a-1st-argument-which-is-not-null-or-an-object-is-deprecated.html)
+  + [calling %ps() with a single argument is deprecated](messages/calling-ppsqr-with-a-single-argument-is-deprecated.html)
   + [cannot be null when argument #1 ($objectormethod) is an object](messages/cannot-be-null-when-argument-s1-q$objectormethodr-is-an-object.html)
   + [case %s::%s does not exist](messages/case-ps::ps-does-not-exist.html)
   + [class %s does not have a property named %s](messages/class-ps-does-not-have-a-property-named-ps.html)
@@ -1759,6 +1774,8 @@
   + [generators cannot return values using "return"](messages/generators-cannot-return-values-using-return.html)
   + [never returning function must not implicitly return](messages/never-returning-function-must-not-implicitly-return.html)
   + [only variable references should be returned by reference](messages/only-variable-references-should-be-returned-by-reference.html)
+  + [returning a value from a constructor is deprecated](messages/returning-a-value-from-a-constructor-is-deprecated.html)
+  + [returning a value from a destructor is deprecated](messages/returning-a-value-from-a-destructor-is-deprecated.html)
 + return-type
   + [%s%s%s(): return value must be of type %s, %s returned](messages/pspspsqr:-return-value-must-be-of-type-ps,-ps-returned.html)
   + [%s::%s(): return type must be %s when declared](messages/ps::psqr:-return-type-must-be-ps-when-declared.html)
@@ -1772,6 +1789,7 @@
   + [return value of %s%s%s() must %s%s%s, %s%s returned](messages/return-value-of-pspspsqr-must-pspsps,-psps-returned.html)
   + [returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero](messages/returning-bool-from-comparison-function-is-deprecated,-return-an-integer-less-than,-equal-to,-or-greater-than-zero.html)
   + [returning bool from comparison function is deprecated](messages/returning-bool-from-comparison-function-is-deprecated.html)
+  + [returning null from %s::__debuginfo() is deprecated, make the return type non nullable and return an empty array instead](messages/returning-null-from-ps::\_\_debuginfoqr-is-deprecated,-make-the-return-type-non-nullable-and-return-an-empty-array-instead.html)
 + rewind
   + [iterator does not support rewinding](messages/iterator-does-not-support-rewinding.html)
 + rounding
@@ -1791,6 +1809,7 @@
   + [cannot rebind scope of closure created from method, this will be an error in php 9](messages/cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9.html)
   + [cannot unbind $this of closure using $this, this will be an error in php 9](messages/cannot-unbind-$this-of-closure-using-$this,-this-will-be-an-error-in-php-9.html)
   + [cannot unbind $this of method, this will be an error in php 9](messages/cannot-unbind-$this-of-method,-this-will-be-an-error-in-php-9.html)
+  + [the $context parameter has no effect for finfo_buffer()](messages/the-$context-parameter-has-no-effect-for-finfo\_bufferqr.html)
   + [use of "parent" in callables is deprecated](messages/use-of-parent-in-callables-is-deprecated.html)
   + [use of "self" in callables is deprecated](messages/use-of-self-in-callables-is-deprecated.html)
   + [use of "static" in callables is deprecated](messages/use-of-static-in-callables-is-deprecated.html)
@@ -1909,6 +1928,8 @@
   + [access to undeclared static property %s::$%s](messages/access-to-undeclared-static-property-ps::$ps.html)
   + [accessing static trait property %s::$%s is deprecated](messages/accessing-static-trait-property-ps::$ps-is-deprecated.html)
   + [attempt to unset static property %s::$%s](messages/attempt-to-unset-static-property-ps::$ps.html)
+  + [calling %ps() with a 1st argument which is not null or an object is deprecated](messages/calling-ppsqr-with-a-1st-argument-which-is-not-null-or-an-object-is-deprecated.html)
+  + [calling %ps() with a single argument is deprecated](messages/calling-ppsqr-with-a-single-argument-is-deprecated.html)
   + [cannot declare hooks for static property](messages/cannot-declare-hooks-for-static-property.html)
 + static-variable
   + [cannot use $this as static variable](messages/cannot-use-$this-as-static-variable.html)
@@ -1923,6 +1944,8 @@
 + stream
   + [entry %s does not exist and cannot be deleted](messages/entry-ps-does-not-exist-and-cannot-be-deleted.html)
   + [unlink of "%s" failed, file does not exist](messages/unlink-of-ps-failed,-file-does-not-exist.html)
++ stream-context
+  + [using more than %d filters in a php:  filter url is deprecated](messages/using-more-than-pd-filters-in-a-php:--filter-url-is-deprecated.html)
 + strict_types
   + [can only flip string and integer values, entry skipped](messages/can-only-flip-string-and-integer-values,-entry-skipped.html)
   + [cannot assign %s to property %s::$%s of type %s](messages/cannot-assign-ps-to-property-ps::$ps-of-type-ps.html)
@@ -1963,8 +1986,6 @@
   + [using ${var} in strings is deprecated, use {$var} instead](messages/using-${var}-in-strings-is-deprecated,-use-{$var}-instead.html)
 + string-increment
   + [increment on non alphanumeric string is deprecated](messages/increment-on-non-alphanumeric-string-is-deprecated.html)
-+ string-width
-  + [passing a negative integer to argument #3 ($width) is deprecated](messages/passing-a-negative-integer-to-argument-s3-q$widthr-is-deprecated.html)
 + stringable
   + [can only flip string and integer values, entry skipped](messages/can-only-flip-string-and-integer-values,-entry-skipped.html)
   + [object of class %s could not be converted to string](messages/object-of-class-ps-could-not-be-converted-to-string.html)
@@ -2173,6 +2194,7 @@
   + [must be one of pgsql_assoc, pgsql_num, or pgsql_both](messages/must-be-one-of-pgsql\_assoc,-pgsql\_num,-or-pgsql\_both.html)
   + [must be one of pgsql_notice_last, pgsql_notice_all, or pgsql_notice_clear](messages/must-be-one-of-pgsql\_notice\_last,-pgsql\_notice\_all,-or-pgsql\_notice\_clear.html)
 + var_dump
+  + [returning null from %s::__debuginfo() is deprecated, make the return type non nullable and return an empty array instead](messages/returning-null-from-ps::\_\_debuginfoqr-is-deprecated,-make-the-return-type-non-nullable-and-return-an-empty-array-instead.html)
   + [returning null from %s::__debuginfo() is deprecated, return an empty array instead](messages/returning-null-from-ps::\_\_debuginfoqr-is-deprecated,-return-an-empty-array-instead.html)
 + variable
   + [dynamic class names are not allowed in compile time class constant references](messages/dynamic-class-names-are-not-allowed-in-compile-time-class-constant-references.html)
@@ -2235,6 +2257,8 @@
 + yield
   + [cannot use  "yield from " inside a by reference generator](messages/cannot-use--yield-from--inside-a-by-reference-generator.html)
   + [foreach() argument must be of type array|object](messages/foreachqr-argument-must-be-of-type-array|object.html)
+  + [making a constructor a generator is deprecated](messages/making-a-constructor-a-generator-is-deprecated.html)
+  + [making a destructor a generator is deprecated](messages/making-a-destructor-a-generator-is-deprecated.html)
   + [only variable references should be yielded by reference](messages/only-variable-references-should-be-yielded-by-reference.html)
   + [the "generator" class is reserved for internal use and cannot be manually instantiated](messages/the-generator-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated.html)
   + [the  "yield " expression can only be used inside a function](messages/the--yield--expression-can-only-be-used-inside-a-function.html)

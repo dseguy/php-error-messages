@@ -16,6 +16,10 @@ for html in root.rglob("*.html"):
     if rel == "index.html" or rel.endswith("/index.html"):
         rel = rel[: -len("index.html")]
     rel = rel.translate(SLUG_MAP)
+    # The on-disk filename can still contain a literal '?' (mirrors PHP's
+    # makeUrlSafe() in make.php). Left raw in a URL it truncates the path
+    # into a query string, breaking the self-referencing canonical link.
+    rel = rel.replace("?", "%3F")
     tag = f'<link rel="canonical" href="{BASE}{rel}">'
     text = html.read_text(encoding="utf-8")
     if 'rel="canonical"' in text:

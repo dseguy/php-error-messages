@@ -23,3 +23,5 @@ class X {
 + [constructor-%s::%s()-cannot-declare-a-return-type](constructor-%s::%s\(\)-cannot-declare-a-return-type.html)
 + [method-%s::%s()-cannot-declare-a-return-type](method-%s::%s\(\)-cannot-declare-a-return-type.html)
 + [method-%s::__construct()-cannot-declare-a-return-type](method-%s::\_\_construct\(\)-cannot-declare-a-return-type.html)
++ [making-a-destructor-a-generator-is-deprecated](making-a-destructor-a-generator-is-deprecated.html)
++ [returning-a-value-from-a-destructor-is-deprecated](returning-a-value-from-a-destructor-is-deprecated.html)
