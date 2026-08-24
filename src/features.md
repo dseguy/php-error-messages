@@ -177,6 +177,10 @@
   + [undefined offset](messages/undefined-offset.html)
 + array-callable
   + [failed to create closure from callable: %s](messages/failed-to-create-closure-from-callable:-ps.html)
++ array-filter-mode
+  + [must be one of array_filter_use_value, array_filter_use_key, or array_filter_use_both](messages/must-be-one-of-array\_filter\_use\_value,-array\_filter\_use\_key,-or-array\_filter\_use\_both.html)
++ array-key-case
+  + [must be either case_lower or case_upper](messages/must-be-either-case\_lower-or-case\_upper.html)
 + array-syntax
   + [[] operator not supported for strings](messages/\[\]-operator-not-supported-for-strings.html)
   + [cannot use string offset as an array](messages/cannot-use-string-offset-as-an-array.html)
@@ -278,6 +282,8 @@
   + [unclosed \'(\' does not match \']\'](messages/unclosed-\\q\\-does-not-match-\\\]\\.html)
 + base64
   + [handling base64 via mbstring is deprecated; use base64_encode base64_decode instead](messages/handling-base64-via-mbstring-is-deprecated;-use-base64\_encode-base64\_decode-instead.html)
++ bidi-skeleton
+  + [must be either spoofchecker::ltr or spoofchecker::rtl](messages/must-be-either-spoofchecker::ltr-or-spoofchecker::rtl.html)
 + binary-integer
   + [invalid numeric literal](messages/invalid-numeric-literal.html)
 + bind
@@ -321,6 +327,8 @@
   + [indirect modification of %s::$%s is not allowed](messages/indirect-modification-of-ps::$ps-is-not-allowed.html)
 + byte
   + [argument #2 ($end) must be a single byte string if](messages/argument-s2-q$endr-must-be-a-single-byte-string-if.html)
++ bzdecompress
+  + [must have a length less than or equal to %u](messages/must-have-a-length-less-than-or-equal-to-pu.html)
 + call
   + [%s() expects exactly 0 arguments, %d given](messages/psqr-expects-exactly-0-arguments,-pd-given.html)
   + [call to %s %s::%s() from global scope](messages/call-to-ps-ps::psqr-from-global-scope.html)
@@ -386,6 +394,9 @@
   + [syntax error, unexpected token "private", expecting "{"](messages/syntax-error,-unexpected-token-private,-expecting-{.html)
   + [syntax error, unexpected token "protected", expecting "{"](messages/syntax-error,-unexpected-token-protected,-expecting-{.html)
   + [syntax error, unexpected token "public", expecting "{"](messages/syntax-error,-unexpected-token-public,-expecting-{.html)
++ clamp
+  + [must be smaller than or equal to argument #3 ($max)](messages/must-be-smaller-than-or-equal-to-argument-s3-q$maxr.html)
+  + [must not be nan](messages/must-not-be-nan.html)
 + class
   + [%s and %s define the same constant (%s) in the composition of %s. however, the definition differs and is considered incompatible. class was composed](messages/ps-and-ps-define-the-same-constant-qpsr-in-the-composition-of-ps.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed.html)
   + [%s and %s define the same property ($%s) in the composition of %s. however, the definition differs and is considered incompatible. class was composed](messages/ps-and-ps-define-the-same-property-q$psr-in-the-composition-of-ps.-however,-the-definition-differs-and-is-considered-incompatible.-class-was-composed.html)
@@ -802,6 +813,8 @@
   + [call to undefined function exit()](messages/call-to-undefined-function-exitqr.html)
   + [never returning function must not implicitly return](messages/never-returning-function-must-not-implicitly-return.html)
   + [syntax error, unexpected token "exit"](messages/syntax-error,-unexpected-token-exit.html)
++ explode
+  + [must not be empty, use str_split() to split a string into characters](messages/must-not-be-empty,-use-str\_splitqr-to-split-a-string-into-characters.html)
 + exponent
   + [syntax error, unexpected token "%"](messages/syntax-error,-unexpected-token-p.html)
   + [syntax error, unexpected token "*"](messages/syntax-error,-unexpected-token-\*.html)
@@ -1438,6 +1451,8 @@
   + [cannot combine nullsafe operator with closure creation](messages/cannot-combine-nullsafe-operator-with-closure-creation.html)
   + [cannot take reference of a nullsafe chain](messages/cannot-take-reference-of-a-nullsafe-chain.html)
   + [syntax error, unexpected token " >"](messages/syntax-error,-unexpected-token-->.html)
++ number-range-formatting
+  + [must be one of intlnumberrangeformatter::identity_fallback_single_value, ::identity_fallback_approximately_or_single_value, ::identity_fallback_approximately, or ::identity_fallback_range](messages/must-be-one-of-intlnumberrangeformatter::identity\_fallback\_single\_value,-::identity\_fallback\_approximately\_or\_single\_value,-::identity\_fallback\_approximately,-or-::identity\_fallback\_range.html)
 + numeric-separator
   + [invalid utf 8 codepoint escape](messages/invalid-utf-8-codepoint-escape.html)
 + numeric-string
@@ -1551,6 +1566,9 @@
   + [must be less than 4294967295 bytes](messages/must-be-less-than-4294967295-bytes.html)
 + path
   + [open_basedir restriction in effect. file(%s) is not within the allowed path(s): (%s)](messages/open\_basedir-restriction-in-effect.-fileqpsr-is-not-within-the-allowed-pathqsr:-qpsr.html)
++ pathinfo-flags
+  + [must be one of the pathinfo_* constants](messages/must-be-one-of-the-pathinfo\_\*-constants.html)
+  + [must be only one of the pathinfo_* constants](messages/must-be-only-one-of-the-pathinfo\_\*-constants.html)
 + pattern-matching
   + [using "_" as %s is deprecated since 8.4](messages/using-\_-as-ps-is-deprecated-since-8.4.html)
 + pdo
@@ -1822,6 +1840,8 @@
 + scalar-type
   + [cannot use a scalar value as an array](messages/cannot-use-a-scalar-value-as-an-array.html)
   + [type declaration \'%s\' must be unqualified](messages/type-declaration-\\ps\\-must-be-unqualified.html)
++ scandir-sort-order
+  + [must be one of the scandir_sort_ascending, scandir_sort_descending, or scandir_sort_none constants](messages/must-be-one-of-the-scandir\_sort\_ascending,-scandir\_sort\_descending,-or-scandir\_sort\_none-constants.html)
 + scope
   + [call to %s %s::%s() from global scope](messages/call-to-ps-ps::psqr-from-global-scope.html)
   + [cannot access parent:: when current class scope has no parent](messages/cannot-access-parent::-when-current-class-scope-has-no-parent.html)

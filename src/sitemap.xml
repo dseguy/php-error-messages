@@ -2711,6 +2711,16 @@
   <changefreq>yearly</changefreq>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-either-case_lower-or-case_upper.html</loc>
+  <lastmod>2026-08-24T20:15:56+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-either-spoofchecker::ltr-or-spoofchecker::rtl.html</loc>
+  <lastmod>2026-08-24T20:16:02+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-empty-when-class-provided-in-argument-s1-q$classr-does-not-have-a-constructor.html</loc>
   <lastmod>2026-03-31T09:10:46+00:00</lastmod>
   <changefreq>yearly</changefreq>
@@ -2751,6 +2761,16 @@
   <changefreq>yearly</changefreq>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-one-of-array_filter_use_value,-array_filter_use_key,-or-array_filter_use_both.html</loc>
+  <lastmod>2026-08-24T20:16:07+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-one-of-intlnumberrangeformatter::identity_fallback_single_value,-::identity_fallback_approximately_or_single_value,-::identity_fallback_approximately,-or-::identity_fallback_range.html</loc>
+  <lastmod>2026-08-24T20:17:05+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-one-of-pgsql_assoc,-pgsql_num,-or-pgsql_both.html</loc>
   <lastmod>2026-03-31T09:10:46+00:00</lastmod>
   <changefreq>yearly</changefreq>
@@ -2761,8 +2781,28 @@
   <changefreq>yearly</changefreq>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-one-of-the-pathinfo_*-constants.html</loc>
+  <lastmod>2026-08-24T20:16:13+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-one-of-the-scandir_sort_ascending,-scandir_sort_descending,-or-scandir_sort_none-constants.html</loc>
+  <lastmod>2026-08-24T20:16:17+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-only-one-of-the-pathinfo_*-constants.html</loc>
+  <lastmod>2026-08-24T20:16:23+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-openssl_encoding_der-or-openssl_encoding_pem.html</loc>
   <lastmod>2026-08-24T12:54:48+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-smaller-than-or-equal-to-argument-s3-q$maxr.html</loc>
+  <lastmod>2026-08-24T20:16:27+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -2771,8 +2811,23 @@
   <changefreq>yearly</changefreq>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-have-a-length-less-than-or-equal-to-pu.html</loc>
+  <lastmod>2026-08-24T20:16:32+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-not-be-empty,-use-str_splitqr-to-split-a-string-into-characters.html</loc>
+  <lastmod>2026-08-24T20:16:36+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-not-be-empty.html</loc>
   <lastmod>2026-03-31T09:10:46+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-not-be-nan.html</loc>
+  <lastmod>2026-08-24T20:16:40+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>

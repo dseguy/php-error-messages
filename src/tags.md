@@ -14,6 +14,9 @@
   + [usage of ldap_connect with two arguments is deprecated](messages/usage-of-ldap\_connect-with-two-arguments-is-deprecated.html)
 + argument-value
   + [must be a valid comparison operator](messages/must-be-a-valid-comparison-operator.html)
++ arrays
+  + [must be either case_lower or case_upper](messages/must-be-either-case\_lower-or-case\_upper.html)
+  + [must be one of array_filter_use_value, array_filter_use_key, or array_filter_use_both](messages/must-be-one-of-array\_filter\_use\_value,-array\_filter\_use\_key,-or-array\_filter\_use\_both.html)
 + attribute
   + [cannot apply attributes to multiple constants at once](messages/cannot-apply-attributes-to-multiple-constants-at-once.html)
   + [cannot create closure as attribute argument](messages/cannot-create-closure-as-attribute-argument.html)
@@ -21,6 +24,8 @@
 + bug
   + [cannot use  "%s " as %s as it is reserved](messages/cannot-use--ps--as-ps-as-it-is-reserved.html)
   + [syntax error, unexpected token "(int)"](messages/syntax-error,-unexpected-token-qintr.html)
++ bzip2
+  + [must have a length less than or equal to %u](messages/must-have-a-length-less-than-or-equal-to-pu.html)
 + callback
   + [%s(): return value of the authorizer callback must be of type int, %s returned](messages/psqr:-return-value-of-the-authorizer-callback-must-be-of-type-int,-ps-returned.html)
   + [%s(): return value of the collation callback must be of type int, %s returned](messages/psqr:-return-value-of-the-collation-callback-must-be-of-type-int,-ps-returned.html)
@@ -174,6 +179,10 @@
   + [cannot change default fetch mode while fetching](messages/cannot-change-default-fetch-mode-while-fetching.html)
 + file
   + [failed to open stream: too many open files](messages/failed-to-open-stream:-too-many-open-files.html)
++ filesystem
+  + [must be one of the pathinfo_* constants](messages/must-be-one-of-the-pathinfo\_\*-constants.html)
+  + [must be one of the scandir_sort_ascending, scandir_sort_descending, or scandir_sort_none constants](messages/must-be-one-of-the-scandir\_sort\_ascending,-scandir\_sort\_descending,-or-scandir\_sort\_none-constants.html)
+  + [must be only one of the pathinfo_* constants](messages/must-be-only-one-of-the-pathinfo\_\*-constants.html)
 + finally
   + [cannot use try without catch or finally](messages/cannot-use-try-without-catch-or-finally.html)
 + forbidden
@@ -215,6 +224,8 @@
 + intl
   + [datetimezone object is unconstructed](messages/datetimezone-object-is-unconstructed.html)
   + [intllistformatter object is already constructed](messages/intllistformatter-object-is-already-constructed.html)
+  + [must be either spoofchecker::ltr or spoofchecker::rtl](messages/must-be-either-spoofchecker::ltr-or-spoofchecker::rtl.html)
+  + [must be one of intlnumberrangeformatter::identity_fallback_single_value, ::identity_fallback_approximately_or_single_value, ::identity_fallback_approximately, or ::identity_fallback_range](messages/must-be-one-of-intlnumberrangeformatter::identity\_fallback\_single\_value,-::identity\_fallback\_approximately\_or\_single\_value,-::identity\_fallback\_approximately,-or-::identity\_fallback\_range.html)
 + iterator
   + [iterator does not support rewinding](messages/iterator-does-not-support-rewinding.html)
 + keyword
@@ -251,6 +262,9 @@
   + [returning a value from a destructor is deprecated](messages/returning-a-value-from-a-destructor-is-deprecated.html)
   + [returning null from %s::__debuginfo() is deprecated, make the return type non nullable and return an empty array instead](messages/returning-null-from-ps::\_\_debuginfoqr-is-deprecated,-make-the-return-type-non-nullable-and-return-an-empty-array-instead.html)
   + [returning null from %s::__debuginfo() is deprecated, return an empty array instead](messages/returning-null-from-ps::\_\_debuginfoqr-is-deprecated,-return-an-empty-array-instead.html)
++ math
+  + [must be smaller than or equal to argument #3 ($max)](messages/must-be-smaller-than-or-equal-to-argument-s3-q$maxr.html)
+  + [must not be nan](messages/must-not-be-nan.html)
 + mbstring
   + [is not a valid codepoint](messages/is-not-a-valid-codepoint.html)
 + modernisation
@@ -294,6 +308,8 @@
   + [syntax error, unexpected token "(", expecting "::"](messages/syntax-error,-unexpected-token-q,-expecting-::.html)
 + null
   + [null cannot be marked as nullable](messages/null-cannot-be-marked-as-nullable.html)
++ number-formatting
+  + [must be one of intlnumberrangeformatter::identity_fallback_single_value, ::identity_fallback_approximately_or_single_value, ::identity_fallback_approximately, or ::identity_fallback_range](messages/must-be-one-of-intlnumberrangeformatter::identity\_fallback\_single\_value,-::identity\_fallback\_approximately\_or\_single\_value,-::identity\_fallback\_approximately,-or-::identity\_fallback\_range.html)
 + object
   + [type %s contains both object and a class type](messages/type-ps-contains-both-object-and-a-class-type.html)
 + offset
@@ -390,6 +406,8 @@
 + special case
   + [property x::$p cannot have type void](messages/property-x::$p-cannot-have-type-void.html)
   + [void cannot be used as a parameter type](messages/void-cannot-be-used-as-a-parameter-type.html)
++ spoofchecker
+  + [must be either spoofchecker::ltr or spoofchecker::rtl](messages/must-be-either-spoofchecker::ltr-or-spoofchecker::rtl.html)
 + sqlite
   + [%s(): return value of the authorizer callback must be of type int, %s returned](messages/psqr:-return-value-of-the-authorizer-callback-must-be-of-type-int,-ps-returned.html)
   + [%s(): return value of the collation callback must be of type int, %s returned](messages/psqr:-return-value-of-the-collation-callback-must-be-of-type-int,-ps-returned.html)
@@ -414,6 +432,8 @@
 + string
   + [illegal string offset](messages/illegal-string-offset.html)
   + [providing a string that is not one byte long is deprecated. use ord($str[0]) instead](messages/providing-a-string-that-is-not-one-byte-long-is-deprecated.-use-ordq$str\[0\]r-instead.html)
++ strings
+  + [must not be empty, use str_split() to split a string into characters](messages/must-not-be-empty,-use-str\_splitqr-to-split-a-string-into-characters.html)
 + surprise
   + [%s " is not a supported builtin type and will be interpreted as a class name. write  "  %s "%s to suppress this warning](messages/ps--is-not-a-supported-builtin-type-and-will-be-interpreted-as-a-class-name.-write----ps-ps-to-suppress-this-warning.html)
   + [%s " will be interpreted as a class name. did you mean  "%s "? write  "  %s "%s to suppress this warning](messages/ps--will-be-interpreted-as-a-class-name.-did-you-mean--ps-?-write----ps-ps-to-suppress-this-warning.html)
@@ -602,10 +622,21 @@
   + [cannot be 0](messages/cannot-be-0.html)
   + [elements must be between %d and %d](messages/elements-must-be-between-pd-and-pd.html)
   + [must be a concrete class](messages/must-be-a-concrete-class.html)
+  + [must be either case_lower or case_upper](messages/must-be-either-case\_lower-or-case\_upper.html)
+  + [must be either spoofchecker::ltr or spoofchecker::rtl](messages/must-be-either-spoofchecker::ltr-or-spoofchecker::rtl.html)
   + [must be less than 4294967295 bytes](messages/must-be-less-than-4294967295-bytes.html)
   + [must be mysqli_init_command, mysqli_set_charset_name, mysqli_server_public_key, or one of the mysqli_opt_* constants](messages/must-be-mysqli\_init\_command,-mysqli\_set\_charset\_name,-mysqli\_server\_public\_key,-or-one-of-the-mysqli\_opt\_\*-constants.html)
+  + [must be one of array_filter_use_value, array_filter_use_key, or array_filter_use_both](messages/must-be-one-of-array\_filter\_use\_value,-array\_filter\_use\_key,-or-array\_filter\_use\_both.html)
+  + [must be one of intlnumberrangeformatter::identity_fallback_single_value, ::identity_fallback_approximately_or_single_value, ::identity_fallback_approximately, or ::identity_fallback_range](messages/must-be-one-of-intlnumberrangeformatter::identity\_fallback\_single\_value,-::identity\_fallback\_approximately\_or\_single\_value,-::identity\_fallback\_approximately,-or-::identity\_fallback\_range.html)
+  + [must be one of the pathinfo_* constants](messages/must-be-one-of-the-pathinfo\_\*-constants.html)
+  + [must be one of the scandir_sort_ascending, scandir_sort_descending, or scandir_sort_none constants](messages/must-be-one-of-the-scandir\_sort\_ascending,-scandir\_sort\_descending,-or-scandir\_sort\_none-constants.html)
+  + [must be only one of the pathinfo_* constants](messages/must-be-only-one-of-the-pathinfo\_\*-constants.html)
   + [must be openssl_encoding_der or openssl_encoding_pem](messages/must-be-openssl\_encoding\_der-or-openssl\_encoding\_pem.html)
+  + [must be smaller than or equal to argument #3 ($max)](messages/must-be-smaller-than-or-equal-to-argument-s3-q$maxr.html)
+  + [must have a length less than or equal to %u](messages/must-have-a-length-less-than-or-equal-to-pu.html)
+  + [must not be empty, use str_split() to split a string into characters](messages/must-not-be-empty,-use-str\_splitqr-to-split-a-string-into-characters.html)
   + [must not be empty](messages/must-not-be-empty.html)
+  + [must not be nan](messages/must-not-be-nan.html)
   + [must not exceed %d bytes](messages/must-not-exceed-pd-bytes.html)
   + [value must be between 0 and %d](messages/value-must-be-between-0-and-pd.html)
 + variadic
