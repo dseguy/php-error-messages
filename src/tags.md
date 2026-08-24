@@ -4,8 +4,14 @@
   + [unknown digest algorithm: %s](messages/unknown-digest-algorithm:-ps.html)
 + argument
   + [%s(): argument #%d%s%s%s cannot be passed by reference](messages/psqr:-argument-spdpspsps-cannot-be-passed-by-reference.html)
+  + [calling dba_fetch() with $dba at the 3rd parameter is deprecated](messages/calling-dba\_fetchqr-with-$dba-at-the-3rd-parameter-is-deprecated.html)
+  + [calling intlcalendar::set() with more than 2 arguments is deprecated,](messages/calling-intlcalendar::setqr-with-more-than-2-arguments-is-deprecated,.html)
+  + [calling intlgregoriancalendar::__construct() with more than 2 arguments is deprecated,](messages/calling-intlgregoriancalendar::\_\_constructqr-with-more-than-2-arguments-is-deprecated,.html)
+  + [calling ldap_connect() with oracle specific arguments is deprecated](messages/calling-ldap\_connectqr-with-oracle-specific-arguments-is-deprecated.html)
+  + [calling ldap_exop() with more than 4 arguments is deprecated, use ldap_exop_sync() instead](messages/calling-ldap\_exopqr-with-more-than-4-arguments-is-deprecated,-use-ldap\_exop\_syncqr-instead.html)
   + [too few arguments to function %s%s%s(), %d passed and %s %d expected](messages/too-few-arguments-to-function-pspspsqr,-pd-passed-and-ps-pd-expected.html)
   + [too few arguments to function %s%s%s(), %d passed and %s %d](messages/too-few-arguments-to-function-pspspsqr,-pd-passed-and-ps-pd.html)
+  + [usage of ldap_connect with two arguments is deprecated](messages/usage-of-ldap\_connect-with-two-arguments-is-deprecated.html)
 + argument-value
   + [must be a valid comparison operator](messages/must-be-a-valid-comparison-operator.html)
 + attribute
@@ -66,6 +72,8 @@
   + ["static::" is not allowed in compile time constants](messages/static::-is-not-allowed-in-compile-time-constants.html)
   + [undefined constant "%s](messages/undefined-constant-ps.html)
 + constructor
+  + [calling dateperiod::__construct(string $isostr, int $options = 0) is deprecated,](messages/calling-dateperiod::\_\_constructqstring-$isostr,-int-$options-=-0r-is-deprecated,.html)
+  + [calling intlgregoriancalendar::__construct() with more than 2 arguments is deprecated,](messages/calling-intlgregoriancalendar::\_\_constructqr-with-more-than-2-arguments-is-deprecated,.html)
   + [intllistformatter object is already constructed](messages/intllistformatter-object-is-already-constructed.html)
   + [making a constructor a generator is deprecated](messages/making-a-constructor-a-generator-is-deprecated.html)
   + [returning a value from a constructor is deprecated](messages/returning-a-value-from-a-constructor-is-deprecated.html)
@@ -85,8 +93,19 @@
 + default value
   + [parameter $%s of %s hook %s::$%s must not have a default value](messages/parameter-$ps-of-ps-hook-ps::$ps-must-not-have-a-default-value.html)
 + deprecated
+  + [auto_detect_line_endings is deprecated](messages/auto\_detect\_line\_endings-is-deprecated.html)
+  + [calling dba_fetch() with $dba at the 3rd parameter is deprecated](messages/calling-dba\_fetchqr-with-$dba-at-the-3rd-parameter-is-deprecated.html)
+  + [calling ffi::cast() statically is deprecated](messages/calling-ffi::castqr-statically-is-deprecated.html)
+  + [calling ffi::new() statically is deprecated](messages/calling-ffi::newqr-statically-is-deprecated.html)
+  + [calling ffi::type() statically is deprecated](messages/calling-ffi::typeqr-statically-is-deprecated.html)
+  + [calling intlcalendar::set() with more than 2 arguments is deprecated,](messages/calling-intlcalendar::setqr-with-more-than-2-arguments-is-deprecated,.html)
+  + [calling intlgregoriancalendar::__construct() with more than 2 arguments is deprecated,](messages/calling-intlgregoriancalendar::\_\_constructqr-with-more-than-2-arguments-is-deprecated,.html)
+  + [calling ldap_connect() with oracle specific arguments is deprecated](messages/calling-ldap\_connectqr-with-oracle-specific-arguments-is-deprecated.html)
+  + [calling ldap_exop() with more than 4 arguments is deprecated, use ldap_exop_sync() instead](messages/calling-ldap\_exopqr-with-more-than-4-arguments-is-deprecated,-use-ldap\_exop\_syncqr-instead.html)
   + [function libxml_disable_entity_loader() is deprecated since 8.0, as external entity loading is disabled by default](messages/function-libxml\_disable\_entity\_loaderqr-is-deprecated-since-8.0,-as-external-entity-loading-is-disabled-by-default.html)
+  + [looking up the dsn from a uri is deprecated due to possible security concerns with dsns coming from remote uris](messages/looking-up-the-dsn-from-a-uri-is-deprecated-due-to-possible-security-concerns-with-dsns-coming-from-remote-uris.html)
   + [the (real) cast is deprecated, use (float) instead](messages/the-qrealr-cast-is-deprecated,-use-qfloatr-instead.html)
+  + [usage of ldap_connect with two arguments is deprecated](messages/usage-of-ldap\_connect-with-two-arguments-is-deprecated.html)
 + deprecation
   + [calling %ps() with a 1st argument which is not null or an object is deprecated](messages/calling-ppsqr-with-a-1st-argument-which-is-not-null-or-an-object-is-deprecated.html)
   + [calling %ps() with a single argument is deprecated](messages/calling-ppsqr-with-a-single-argument-is-deprecated.html)
@@ -171,6 +190,9 @@
   + [cannot declare self referencing constant](messages/cannot-declare-self-referencing-constant.html)
 + garbage-collection
   + [call to %s %s::__destruct() from global scope during shutdown ignored](messages/call-to-ps-ps::\_\_destructqr-from-global-scope-during-shutdown-ignored.html)
++ gd
+  + [elements must be between %d and %d](messages/elements-must-be-between-pd-and-pd.html)
+  + [value must be between 0 and %d](messages/value-must-be-between-0-and-pd.html)
 + gem
   + [increment on non alphanumeric string is deprecated](messages/increment-on-non-alphanumeric-string-is-deprecated.html)
 + generator
@@ -184,6 +206,8 @@
 + implicit
   + [%s%s%s(): return value must be of type %s, %s returned](messages/pspspsqr:-return-value-must-be-of-type-ps,-ps-returned.html)
   + [%s(): implicitly marking parameter $%s as nullable is deprecated, the explicit nullable type must be used instead](messages/psqr:-implicitly-marking-parameter-$ps-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead.html)
++ ini
+  + [auto_detect_line_endings is deprecated](messages/auto\_detect\_line\_endings-is-deprecated.html)
 + internal
   + [parameter must have a name](messages/parameter-must-have-a-name.html)
 + intersection
@@ -235,6 +259,8 @@
   + [calling static trait method %s::%s is deprecated](messages/calling-static-trait-method-ps::ps-is-deprecated.html)
   + [cannot use object of type %s as array](messages/cannot-use-object-of-type-ps-as-array.html)
   + [providing individual callbacks instead of an object implementing sessionhandlerinterface is deprecated](messages/providing-individual-callbacks-instead-of-an-object-implementing-sessionhandlerinterface-is-deprecated.html)
++ mysqli
+  + [must be mysqli_init_command, mysqli_set_charset_name, mysqli_server_public_key, or one of the mysqli_opt_* constants](messages/must-be-mysqli\_init\_command,-mysqli\_set\_charset\_name,-mysqli\_server\_public\_key,-or-one-of-the-mysqli\_opt\_\*-constants.html)
 + name
   + [syntax error, unexpected identifier "%s"](messages/syntax-error,-unexpected-identifier-ps.html)
 + namespace
@@ -274,9 +300,14 @@
   + [illegal string offset](messages/illegal-string-offset.html)
 + old behavior
   + [creating default object from empty value](messages/creating-default-object-from-empty-value.html)
++ openssl
+  + [must be openssl_encoding_der or openssl_encoding_pem](messages/must-be-openssl\_encoding\_der-or-openssl\_encoding\_pem.html)
+  + [must not exceed %d bytes](messages/must-not-exceed-pd-bytes.html)
 + operators
   + [the behavior of unparenthesized expressions containing both \'.\' and \'+\' \' \' will change in php 8: \'+\' \' \' will take a higher precedence](messages/the-behavior-of-unparenthesized-expressions-containing-both-\\.\\-and-\\+\\-\\-\\-will-change-in-php-8:-\\+\\-\\-\\-will-take-a-higher-precedence.html)
   + [the behavior of unparenthesized expressions containing both \'.\' and \'<<\' \'>>\' will change in php 8: \'<<\' \'>>\' will take a higher precedence](messages/the-behavior-of-unparenthesized-expressions-containing-both-\\.\\-and-\\<<\\-\\>>\\-will-change-in-php-8:-\\<<\\-\\>>\\-will-take-a-higher-precedence.html)
++ overloaded signature
+  + [calling dateperiod::__construct(string $isostr, int $options = 0) is deprecated,](messages/calling-dateperiod::\_\_constructqstring-$isostr,-int-$options-=-0r-is-deprecated,.html)
 + p
   + [class %s cannot use %s   it is not a trait](messages/class-ps-cannot-use-ps---it-is-not-a-trait.html)
 + parameter value error
@@ -344,6 +375,7 @@
   + [cannot unbind $this of closure using $this, this will be an error in php 9](messages/cannot-unbind-$this-of-closure-using-$this,-this-will-be-an-error-in-php-9.html)
   + [cannot unbind $this of method, this will be an error in php 9](messages/cannot-unbind-$this-of-method,-this-will-be-an-error-in-php-9.html)
 + security
+  + [looking up the dsn from a uri is deprecated due to possible security concerns with dsns coming from remote uris](messages/looking-up-the-dsn-from-a-uri-is-deprecated-due-to-possible-security-concerns-with-dsns-coming-from-remote-uris.html)
   + [maximum depth of %d exceeded. the depth limit can be changed using the max_depth unserialize() option](messages/maximum-depth-of-pd-exceeded.-the-depth-limit-can-be-changed-using-the-max\_depth-unserializeqr-option.html)
   + [using more than %d filters in a php:  filter url is deprecated](messages/using-more-than-pd-filters-in-a-php:--filter-url-is-deprecated.html)
 + shutdown
@@ -353,17 +385,25 @@
   + [array_product(): multiplication is not supported on type object](messages/array\_productqr:-multiplication-is-not-supported-on-type-object.html)
   + [array_product(): multiplication is not supported on type string](messages/array\_productqr:-multiplication-is-not-supported-on-type-string.html)
   + [array_sum(): addition is not supported on type array](messages/array\_sumqr:-addition-is-not-supported-on-type-array.html)
++ sodium
+  + [must be less than 4294967295 bytes](messages/must-be-less-than-4294967295-bytes.html)
 + special case
   + [property x::$p cannot have type void](messages/property-x::$p-cannot-have-type-void.html)
   + [void cannot be used as a parameter type](messages/void-cannot-be-used-as-a-parameter-type.html)
 + sqlite
   + [%s(): return value of the authorizer callback must be of type int, %s returned](messages/psqr:-return-value-of-the-authorizer-callback-must-be-of-type-int,-ps-returned.html)
   + [%s(): return value of the collation callback must be of type int, %s returned](messages/psqr:-return-value-of-the-collation-callback-must-be-of-type-int,-ps-returned.html)
++ static
+  + [calling ffi::cast() statically is deprecated](messages/calling-ffi::castqr-statically-is-deprecated.html)
+  + [calling ffi::new() statically is deprecated](messages/calling-ffi::newqr-statically-is-deprecated.html)
+  + [calling ffi::type() statically is deprecated](messages/calling-ffi::typeqr-statically-is-deprecated.html)
 + static-property
   + [calling %ps() with a 1st argument which is not null or an object is deprecated](messages/calling-ppsqr-with-a-1st-argument-which-is-not-null-or-an-object-is-deprecated.html)
   + [calling %ps() with a single argument is deprecated](messages/calling-ppsqr-with-a-single-argument-is-deprecated.html)
 + stream
   + [using more than %d filters in a php:  filter url is deprecated](messages/using-more-than-pd-filters-in-a-php:--filter-url-is-deprecated.html)
++ streams
+  + [must be a concrete class](messages/must-be-a-concrete-class.html)
 + strict check
   + [providing a string that is not one byte long is deprecated. use ord($str[0]) instead](messages/providing-a-string-that-is-not-one-byte-long-is-deprecated.-use-ordq$str\[0\]r-instead.html)
   + [providing an empty string is deprecated](messages/providing-an-empty-string-is-deprecated.html)
@@ -519,6 +559,9 @@
   + [unmatched \')\'](messages/unmatched-\\r\\.html)
   + [unmatched \']\'](messages/unmatched-\\\]\\.html)
   + [unmatched \'}\'](messages/unmatched-\\}\\.html)
++ tls
+  + [must be openssl_encoding_der or openssl_encoding_pem](messages/must-be-openssl\_encoding\_der-or-openssl\_encoding\_pem.html)
+  + [must not exceed %d bytes](messages/must-not-exceed-pd-bytes.html)
 + trait
   + [%s and %s define the same hooked property ($%s) in the composition of %s. conflict resolution between hooked properties is currently not supported. class was composed](messages/ps-and-ps-define-the-same-hooked-property-q$psr-in-the-composition-of-ps.-conflict-resolution-between-hooked-properties-is-currently-not-supported.-class-was-composed.html)
   + [cannot use  "abstract " as method modifier in trait alias](messages/cannot-use--abstract--as-method-modifier-in-trait-alias.html)
@@ -557,7 +600,14 @@
 + validation
   + [argument #1 ($start) must be a single byte string if](messages/argument-s1-q$startr-must-be-a-single-byte-string-if.html)
   + [cannot be 0](messages/cannot-be-0.html)
+  + [elements must be between %d and %d](messages/elements-must-be-between-pd-and-pd.html)
+  + [must be a concrete class](messages/must-be-a-concrete-class.html)
+  + [must be less than 4294967295 bytes](messages/must-be-less-than-4294967295-bytes.html)
+  + [must be mysqli_init_command, mysqli_set_charset_name, mysqli_server_public_key, or one of the mysqli_opt_* constants](messages/must-be-mysqli\_init\_command,-mysqli\_set\_charset\_name,-mysqli\_server\_public\_key,-or-one-of-the-mysqli\_opt\_\*-constants.html)
+  + [must be openssl_encoding_der or openssl_encoding_pem](messages/must-be-openssl\_encoding\_der-or-openssl\_encoding\_pem.html)
   + [must not be empty](messages/must-not-be-empty.html)
+  + [must not exceed %d bytes](messages/must-not-exceed-pd-bytes.html)
+  + [value must be between 0 and %d](messages/value-must-be-between-0-and-pd.html)
 + variadic
   + [only the last parameter can be variadic](messages/only-the-last-parameter-can-be-variadic.html)
   + [parameter $%s of %s hook %s::$%s must not be variadic](messages/parameter-$ps-of-ps-hook-ps::$ps-must-not-be-variadic.html)

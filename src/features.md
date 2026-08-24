@@ -622,10 +622,13 @@
   + [array and string offset access syntax with curly braces is no longer supported](messages/array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported.html)
   + [syntax error, unexpected \'{\'](messages/syntax-error,-unexpected-\\{\\.html)
 + date
+  + [calling dateperiod::__construct(string $isostr, int $options = 0) is deprecated,](messages/calling-dateperiod::\_\_constructqstring-$isostr,-int-$options-=-0r-is-deprecated,.html)
   + [unknown or bad format (%s)](messages/unknown-or-bad-format-qpsr.html)
 + datetime
   + [datetimezone object is unconstructed](messages/datetimezone-object-is-unconstructed.html)
   + [object of type %s has not been correctly initialized by calling parent::__construct() in its constructor](messages/object-of-type-ps-has-not-been-correctly-initialized-by-calling-parent::\_\_constructqr-in-its-constructor.html)
++ dba
+  + [calling dba_fetch() with $dba at the 3rd parameter is deprecated](messages/calling-dba\_fetchqr-with-$dba-at-the-3rd-parameter-is-deprecated.html)
 + declaration
   + [access to undeclared static property %s::$%s](messages/access-to-undeclared-static-property-ps::$ps.html)
   + [undefined constant "%s](messages/undefined-constant-ps.html)
@@ -702,6 +705,8 @@
   + [syntax error, unexpected \',\'](messages/syntax-error,-unexpected-\\,\\.html)
 + double-quote
   + [syntax error, unexpected identifier "%s", expecting "," or ";"](messages/syntax-error,-unexpected-identifier-ps,-expecting-,-or-;.html)
++ dsn
+  + [looking up the dsn from a uri is deprecated due to possible security concerns with dsns coming from remote uris](messages/looking-up-the-dsn-from-a-uri-is-deprecated-due-to-possible-security-concerns-with-dsns-coming-from-remote-uris.html)
 + dynamic-call
   + [function name must be a string](messages/function-name-must-be-a-string.html)
 + dynamic-constant
@@ -828,6 +833,9 @@
   + [trying to access array offset on %s](messages/trying-to-access-array-offset-on-ps.html)
   + [type contains both true and false, bool must be used instead](messages/type-contains-both-true-and-false,-bool-must-be-used-instead.html)
 + ffi
+  + [calling ffi::cast() statically is deprecated](messages/calling-ffi::castqr-statically-is-deprecated.html)
+  + [calling ffi::new() statically is deprecated](messages/calling-ffi::newqr-statically-is-deprecated.html)
+  + [calling ffi::type() statically is deprecated](messages/calling-ffi::typeqr-statically-is-deprecated.html)
   + [ffi api is restricted by "ffi.enable" configuration directive](messages/ffi-api-is-restricted-by-ffi.enable-configuration-directive.html)
 + file
   + [couldn\'t open stream %s](messages/couldn\\t-open-stream-ps.html)
@@ -979,6 +987,10 @@
   + [syntax error, unexpected token "if", expecting ")"](messages/syntax-error,-unexpected-token-if,-expecting-r.html)
   + [syntax error, unexpected token "if", expecting "]"](messages/syntax-error,-unexpected-token-if,-expecting-\].html)
   + [syntax error, unexpected token "if"](messages/syntax-error,-unexpected-token-if.html)
++ image-filter
+  + [value must be between 0 and %d](messages/value-must-be-between-0-and-pd.html)
++ image-style
+  + [elements must be between %d and %d](messages/elements-must-be-between-pd-and-pd.html)
 + implements
   + [%s %s cannot implement previously implemented interface %s](messages/ps-ps-cannot-implement-previously-implemented-interface-ps.html)
   + [%s cannot implement %s   it is not an interface](messages/ps-cannot-implement-ps---it-is-not-an-interface.html)
@@ -1089,6 +1101,8 @@
   + [type %s is redundant as it is more restrictive than type %s](messages/type-ps-is-redundant-as-it-is-more-restrictive-than-type-ps.html)
   + [type %s is redundant with type %s](messages/type-ps-is-redundant-with-type-ps.html)
 + intl
+  + [calling intlcalendar::set() with more than 2 arguments is deprecated,](messages/calling-intlcalendar::setqr-with-more-than-2-arguments-is-deprecated,.html)
+  + [calling intlgregoriancalendar::__construct() with more than 2 arguments is deprecated,](messages/calling-intlgregoriancalendar::\_\_constructqr-with-more-than-2-arguments-is-deprecated,.html)
   + [datetimezone object is unconstructed](messages/datetimezone-object-is-unconstructed.html)
   + [intllistformatter object is already constructed](messages/intllistformatter-object-is-already-constructed.html)
 + is_object
@@ -1130,11 +1144,17 @@
   + [static " is not allowed in compile time constants](messages/static--is-not-allowed-in-compile-time-constants.html)
   + [static:: " is not allowed in compile time constants](messages/static::--is-not-allowed-in-compile-time-constants.html)
   + [static::class cannot be used for compile time class name resolution](messages/static::class-cannot-be-used-for-compile-time-class-name-resolution.html)
++ ldap
+  + [calling ldap_connect() with oracle specific arguments is deprecated](messages/calling-ldap\_connectqr-with-oracle-specific-arguments-is-deprecated.html)
+  + [calling ldap_exop() with more than 4 arguments is deprecated, use ldap_exop_sync() instead](messages/calling-ldap\_exopqr-with-more-than-4-arguments-is-deprecated,-use-ldap\_exop\_syncqr-instead.html)
+  + [usage of ldap_connect with two arguments is deprecated](messages/usage-of-ldap\_connect-with-two-arguments-is-deprecated.html)
 + lexical
   + [cannot use $this as lexical variable](messages/cannot-use-$this-as-lexical-variable.html)
   + [cannot use auto global as lexical variable](messages/cannot-use-auto-global-as-lexical-variable.html)
   + [cannot use lexical variable %s as a parameter name](messages/cannot-use-lexical-variable-ps-as-a-parameter-name.html)
   + [named parameter $%s overwrites previous argument](messages/named-parameter-$ps-overwrites-previous-argument.html)
++ line-ending-detection
+  + [auto_detect_line_endings is deprecated](messages/auto\_detect\_line\_endings-is-deprecated.html)
 + list
   + [cannot assign reference to non referenceable value](messages/cannot-assign-reference-to-non-referenceable-value.html)
   + [cannot assign to array(), use [] instead in %s](messages/cannot-assign-to-arrayqr,-use-\[\]-instead-in-ps.html)
@@ -1284,6 +1304,8 @@
   + [the connection has no charset associated](messages/the-connection-has-no-charset-associated.html)
 + mysqli
   + [passing connection object as an argument is deprecated](messages/passing-connection-object-as-an-argument-is-deprecated.html)
++ mysqli-options
+  + [must be mysqli_init_command, mysqli_set_charset_name, mysqli_server_public_key, or one of the mysqli_opt_* constants](messages/must-be-mysqli\_init\_command,-mysqli\_set\_charset\_name,-mysqli\_server\_public\_key,-or-one-of-the-mysqli\_opt\_\*-constants.html)
 + name
   + [cannot declare const %s because](messages/cannot-declare-const-ps-because.html)
   + [cannot redeclare %s() (previously declared in %s:%d)](messages/cannot-redeclare-psqr-qpreviously-declared-in-ps:pdr.html)
@@ -1525,6 +1547,8 @@
   + [cannot combine partial application and unpacking](messages/cannot-combine-partial-application-and-unpacking.html)
   + [variadic placeholder may only appear once](messages/variadic-placeholder-may-only-appear-once.html)
   + [variadic placeholder must be last](messages/variadic-placeholder-must-be-last.html)
++ password-hashing
+  + [must be less than 4294967295 bytes](messages/must-be-less-than-4294967295-bytes.html)
 + path
   + [open_basedir restriction in effect. file(%s) is not within the allowed path(s): (%s)](messages/open\_basedir-restriction-in-effect.-fileqpsr-is-not-within-the-allowed-pathqsr:-qpsr.html)
 + pattern-matching
@@ -1946,6 +1970,10 @@
   + [unlink of "%s" failed, file does not exist](messages/unlink-of-ps-failed,-file-does-not-exist.html)
 + stream-context
   + [using more than %d filters in a php:  filter url is deprecated](messages/using-more-than-pd-filters-in-a-php:--filter-url-is-deprecated.html)
++ stream-filter
+  + [must be a concrete class](messages/must-be-a-concrete-class.html)
++ stream-wrapper
+  + [must be a concrete class](messages/must-be-a-concrete-class.html)
 + strict_types
   + [can only flip string and integer values, entry skipped](messages/can-only-flip-string-and-integer-values,-entry-skipped.html)
   + [cannot assign %s to property %s::$%s of type %s](messages/cannot-assign-ps-to-property-ps::$ps-of-type-ps.html)
@@ -2023,6 +2051,10 @@
 + tick
   + [syntax error, unexpected token "=", expecting identifier](messages/syntax-error,-unexpected-token-=,-expecting-identifier.html)
   + [unsupported declare \'%s\'](messages/unsupported-declare-\\ps\\.html)
++ tls-psk
+  + [must not exceed %d bytes](messages/must-not-exceed-pd-bytes.html)
++ tls-session-resumption
+  + [must be openssl_encoding_der or openssl_encoding_pem](messages/must-be-openssl\_encoding\_der-or-openssl\_encoding\_pem.html)
 + trailing-comma
   + [syntax error, unexpected \')\', expecting variable (t_variable)](messages/syntax-error,-unexpected-\\r\\,-expecting-variable-qt\_variabler.html)
 + trait

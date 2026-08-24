@@ -25,4 +25,4 @@ The `ord()` function returns the ordinal value of the first byte of a string. Wh
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 
-[]()
+[ordNonSingleByteString](ordNonSingleByteString)

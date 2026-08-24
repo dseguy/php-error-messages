@@ -555,6 +555,7 @@ foreach($errors as $file => $message) {
    	$mdEntry[] = '';
 
 	$first = preg_split('/[\.\?;'.PHP_EOL.']/', $message->description)[0];
+	$idSlug = makeUrlSafe(makeName(str_replace(["'", '"'], '', $message->id)));
 
 	$entry[] = '.. meta::';
 	$entry[] = '	:description:';
@@ -563,7 +564,7 @@ foreach($errors as $file => $message) {
 	$entry[] = '	:og:type: article';
 	$entry[] = '	:og:title: '.htmlspecialchars($message->error);
 	$entry[] = '	:og:description: '.htmlspecialchars($first);
-	$entry[] = '	:og:url: https://php-errors.readthedocs.io/en/latest/messages/'.urlencode(basename($file, '.ini')).'.html';
+	$entry[] = '	:og:url: https://php-errors.readthedocs.io/en/latest/messages/'.$idSlug.'.html';
 	$entry[] = '	:og:locale: en';
 	$entry[] = '	:twitter:card: summary_large_image';
 	$entry[] = '	:twitter:site: @exakat';
@@ -576,7 +577,6 @@ foreach($errors as $file => $message) {
 	
 	$entry[] = '.. raw:: html';
 	$entry[] = '';
-	$idSlug = makeUrlSafe(makeName(str_replace(["'", '"'], '', $message->id)));
 	$ldjson = ['@context' => "https://schema.org",
 	    '@graph' => [
 	        ["@type" => "WebPage",
@@ -777,7 +777,11 @@ foreach($errors as $file => $message) {
 	$slug = str_replace(['"', "'"], '', $slug);
 	$slug = makeName($slug);
 	$slug = makeUrlSafe($slug);
-	$sitemap->addItem('https://php-errors.readthedocs.io/en/latest/messages/'.$slug.'.html');
+	$sitemap->addItem(
+    	'https://php-errors.readthedocs.io/en/latest/messages/'.$slug.'.html',
+	    changeFrequency: Sitemap::YEARLY,
+	    lastModified: filemtime($file),
+	);
 }
 
 $changed = file_get_contents('message.rst.in');

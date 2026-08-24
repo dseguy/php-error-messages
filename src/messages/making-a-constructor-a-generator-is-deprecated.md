@@ -40,4 +40,4 @@ new X;
 
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 
-[]()
+[constructorAsGenerator](constructorAsGenerator)
