@@ -62,6 +62,9 @@
   + [cannot unbind $this of closure using $this, this will be an error in php 9](messages/cannot-unbind-$this-of-closure-using-$this,-this-will-be-an-error-in-php-9.html)
   + [cannot unbind $this of method, this will be an error in php 9](messages/cannot-unbind-$this-of-method,-this-will-be-an-error-in-php-9.html)
   + [cannot use variable $%ps twice](messages/cannot-use-variable-$pps-twice.html)
++ closures
+  + [partial application of %s() expects %s %d arguments, %d given](messages/partial-application-of-psqr-expects-ps-pd-arguments,-pd-given.html)
+  + [partial application of %s() expects at most %d arguments, %d given](messages/partial-application-of-psqr-expects-at-most-pd-arguments,-pd-given.html)
 + coercion
   + [unexpected nan value was coerced to %s](messages/unexpected-nan-value-was-coerced-to-ps.html)
 + collision
@@ -180,6 +183,7 @@
 + file
   + [failed to open stream: too many open files](messages/failed-to-open-stream:-too-many-open-files.html)
 + filesystem
+  + [must be a bitmask of posix_f_ok, posix_r_ok, posix_w_ok, and posix_x_ok](messages/must-be-a-bitmask-of-posix\_f\_ok,-posix\_r\_ok,-posix\_w\_ok,-and-posix\_x\_ok.html)
   + [must be one of the pathinfo_* constants](messages/must-be-one-of-the-pathinfo\_\*-constants.html)
   + [must be one of the scandir_sort_ascending, scandir_sort_descending, or scandir_sort_none constants](messages/must-be-one-of-the-scandir\_sort\_ascending,-scandir\_sort\_descending,-or-scandir\_sort\_none-constants.html)
   + [must be only one of the pathinfo_* constants](messages/must-be-only-one-of-the-pathinfo\_\*-constants.html)
@@ -208,6 +212,10 @@
   + [cannot rewind a generator that was already run](messages/cannot-rewind-a-generator-that-was-already-run.html)
   + [making a constructor a generator is deprecated](messages/making-a-constructor-a-generator-is-deprecated.html)
   + [making a destructor a generator is deprecated](messages/making-a-destructor-a-generator-is-deprecated.html)
++ gmp
+  + [must be between 1 and %lu](messages/must-be-between-1-and-plu.html)
+  + [must be less than argument #2 ($max)](messages/must-be-less-than-argument-s2-q$maxr.html)
+  + [must be odd if argument #1 ($num) is negative](messages/must-be-odd-if-argument-s1-q$numr-is-negative.html)
 + goto
   + [\'goto\' into loop or switch statement is disallowed](messages/\\goto\\-into-loop-or-switch-statement-is-disallowed.html)
 + hash
@@ -224,7 +232,9 @@
 + intl
   + [datetimezone object is unconstructed](messages/datetimezone-object-is-unconstructed.html)
   + [intllistformatter object is already constructed](messages/intllistformatter-object-is-already-constructed.html)
+  + [must be a valid normalization form](messages/must-be-a-valid-normalization-form.html)
   + [must be either spoofchecker::ltr or spoofchecker::rtl](messages/must-be-either-spoofchecker::ltr-or-spoofchecker::rtl.html)
+  + [must be no longer than %d characters](messages/must-be-no-longer-than-pd-characters.html)
   + [must be one of intlnumberrangeformatter::identity_fallback_single_value, ::identity_fallback_approximately_or_single_value, ::identity_fallback_approximately, or ::identity_fallback_range](messages/must-be-one-of-intlnumberrangeformatter::identity\_fallback\_single\_value,-::identity\_fallback\_approximately\_or\_single\_value,-::identity\_fallback\_approximately,-or-::identity\_fallback\_range.html)
 + iterator
   + [iterator does not support rewinding](messages/iterator-does-not-support-rewinding.html)
@@ -238,6 +248,11 @@
   + [use of "parent" in callables is deprecated](messages/use-of-parent-in-callables-is-deprecated.html)
   + [use of "self" in callables is deprecated](messages/use-of-self-in-callables-is-deprecated.html)
   + [use of "static" in callables is deprecated](messages/use-of-static-in-callables-is-deprecated.html)
++ lazy-objects
+  + [cannot use %s() on dynamic property %ps::$%ps](messages/cannot-use-psqr-on-dynamic-property-pps::$pps.html)
+  + [cannot use %s() on internal class %ps](messages/cannot-use-psqr-on-internal-class-pps.html)
+  + [cannot use %s() on static property %ps::$%ps](messages/cannot-use-psqr-on-static-property-pps::$pps.html)
+  + [cannot use %s() on virtual property %ps::$%ps](messages/cannot-use-psqr-on-virtual-property-pps::$pps.html)
 + limits
   + [maximum depth of %d exceeded. the depth limit can be changed using the max_depth unserialize() option](messages/maximum-depth-of-pd-exceeded.-the-depth-limit-can-be-changed-using-the-max\_depth-unserializeqr-option.html)
 + lint
@@ -249,6 +264,8 @@
 + list
   + [cannot use empty list](messages/cannot-use-empty-list.html)
   + [cannot use list as key element](messages/cannot-use-list-as-key-element.html)
++ locale
+  + [setlocale() expects exactly 2 arguments when argument #2 ($locales) is an array, %d given](messages/setlocaleqr-expects-exactly-2-arguments-when-argument-s2-q$localesr-is-an-array,-pd-given.html)
 + lower-case-name
   + [ffi api is restricted by "ffi.enable" configuration directive](messages/ffi-api-is-restricted-by-ffi.enable-configuration-directive.html)
   + [namespace %s is an invalid class name](messages/namespace-ps-is-an-invalid-class-name.html)
@@ -263,6 +280,9 @@
   + [returning null from %s::__debuginfo() is deprecated, make the return type non nullable and return an empty array instead](messages/returning-null-from-ps::\_\_debuginfoqr-is-deprecated,-make-the-return-type-non-nullable-and-return-an-empty-array-instead.html)
   + [returning null from %s::__debuginfo() is deprecated, return an empty array instead](messages/returning-null-from-ps::\_\_debuginfoqr-is-deprecated,-return-an-empty-array-instead.html)
 + math
+  + [must be between 1 and %lu](messages/must-be-between-1-and-plu.html)
+  + [must be less than argument #2 ($max)](messages/must-be-less-than-argument-s2-q$maxr.html)
+  + [must be odd if argument #1 ($num) is negative](messages/must-be-odd-if-argument-s1-q$numr-is-negative.html)
   + [must be smaller than or equal to argument #3 ($max)](messages/must-be-smaller-than-or-equal-to-argument-s3-q$maxr.html)
   + [must not be nan](messages/must-not-be-nan.html)
 + mbstring
@@ -277,12 +297,21 @@
   + [must be mysqli_init_command, mysqli_set_charset_name, mysqli_server_public_key, or one of the mysqli_opt_* constants](messages/must-be-mysqli\_init\_command,-mysqli\_set\_charset\_name,-mysqli\_server\_public\_key,-or-one-of-the-mysqli\_opt\_\*-constants.html)
 + name
   + [syntax error, unexpected identifier "%s"](messages/syntax-error,-unexpected-identifier-ps.html)
++ named-parameter
+  + [internal function %s%s%s() does not accept named variadic arguments](messages/internal-function-pspspsqr-does-not-accept-named-variadic-arguments.html)
 + namespace
   + [cannot redeclare function %s() (previously declared as local import)](messages/cannot-redeclare-function-psqr-qpreviously-declared-as-local-importr.html)
   + [namespace declaration statement has to be](messages/namespace-declaration-statement-has-to-be.html)
   + [syntax error, unexpected fully qualified name "%s", expecting "function"](messages/syntax-error,-unexpected-fully-qualified-name-ps,-expecting-function.html)
 + nan
   + [unexpected nan value was coerced to %s](messages/unexpected-nan-value-was-coerced-to-ps.html)
++ networking
+  + [has a malformed ipv6 address, closing square bracket missing](messages/has-a-malformed-ipv6-address,-closing-square-bracket-missing.html)
+  + [must be a combination of msg_oob, msg_peek, msg_waitall, msg_dontwait, msg_errqueue, and msg_cmsg_cloexec for af_packet sockets](messages/must-be-a-combination-of-msg\_oob,-msg\_peek,-msg\_waitall,-msg\_dontwait,-msg\_errqueue,-and-msg\_cmsg\_cloexec-for-af\_packet-sockets.html)
+  + [must be a valid context engine id](messages/must-be-a-valid-context-engine-id.html)
+  + [must contain a type for object id %s](messages/must-contain-a-type-for-object-id-ps.html)
+  + [must contain a value for object id %s](messages/must-contain-a-value-for-object-id-ps.html)
+  + [must not be empty when passed as an array](messages/must-not-be-empty-when-passed-as-an-array.html)
 + no-closing-tag
   + [syntax error, unexpected end of file](messages/syntax-error,-unexpected-end-of-file.html)
   + [syntax error, unexpected string content](messages/syntax-error,-unexpected-string-content.html)
@@ -309,6 +338,7 @@
 + null
   + [null cannot be marked as nullable](messages/null-cannot-be-marked-as-nullable.html)
 + number-formatting
+  + [must be no longer than %d characters](messages/must-be-no-longer-than-pd-characters.html)
   + [must be one of intlnumberrangeformatter::identity_fallback_single_value, ::identity_fallback_approximately_or_single_value, ::identity_fallback_approximately, or ::identity_fallback_range](messages/must-be-one-of-intlnumberrangeformatter::identity\_fallback\_single\_value,-::identity\_fallback\_approximately\_or\_single\_value,-::identity\_fallback\_approximately,-or-::identity\_fallback\_range.html)
 + object
   + [type %s contains both object and a class type](messages/type-ps-contains-both-object-and-a-class-type.html)
@@ -328,6 +358,9 @@
   + [class %s cannot use %s   it is not a trait](messages/class-ps-cannot-use-ps---it-is-not-a-trait.html)
 + parameter value error
   + [must be greater than 0](messages/must-be-greater-than-0.html)
++ partial-application
+  + [partial application of %s() expects %s %d arguments, %d given](messages/partial-application-of-psqr-expects-ps-pd-arguments,-pd-given.html)
+  + [partial application of %s() expects at most %d arguments, %d given](messages/partial-application-of-psqr-expects-at-most-pd-arguments,-pd-given.html)
 + partial-lint
   + [could not check compatibility between %s and %s, because class %s is not available](messages/could-not-check-compatibility-between-ps-and-ps,-because-class-ps-is-not-available.html)
 + pdo
@@ -336,6 +369,8 @@
   + [cannot change default fetch mode while fetching](messages/cannot-change-default-fetch-mode-while-fetching.html)
 + php://filter
   + [using more than %d filters in a php:  filter url is deprecated](messages/using-more-than-pd-filters-in-a-php:--filter-url-is-deprecated.html)
++ posix
+  + [must be a bitmask of posix_f_ok, posix_r_ok, posix_w_ok, and posix_x_ok](messages/must-be-a-bitmask-of-posix\_f\_ok,-posix\_r\_ok,-posix\_w\_ok,-and-posix\_x\_ok.html)
 + printf
   + [missing format specifier at end of string](messages/missing-format-specifier-at-end-of-string.html)
   + [unknown format specifier "%c](messages/unknown-format-specifier-pc.html)
@@ -351,6 +386,7 @@
   + [unknown hook  "%s " for property %s::$%s](messages/unknown-hook--ps--for-property-ps::$ps.html)
 + property-hook
   + [cannot redeclare property hook  "%s](messages/cannot-redeclare-property-hook--ps.html)
+  + [cannot use %s() on virtual property %ps::$%ps](messages/cannot-use-psqr-on-virtual-property-pps::$pps.html)
 + readonly
   + [cannot acquire reference to $globals](messages/cannot-acquire-reference-to-$globals.html)
   + [cannot acquire reference to readonly property %s::$%s](messages/cannot-acquire-reference-to-readonly-property-ps::$ps.html)
@@ -365,6 +401,10 @@
 + reflection
   + [calling %ps() with a 1st argument which is not null or an object is deprecated](messages/calling-ppsqr-with-a-1st-argument-which-is-not-null-or-an-object-is-deprecated.html)
   + [calling %ps() with a single argument is deprecated](messages/calling-ppsqr-with-a-single-argument-is-deprecated.html)
+  + [cannot use %s() on dynamic property %ps::$%ps](messages/cannot-use-psqr-on-dynamic-property-pps::$pps.html)
+  + [cannot use %s() on internal class %ps](messages/cannot-use-psqr-on-internal-class-pps.html)
+  + [cannot use %s() on static property %ps::$%ps](messages/cannot-use-psqr-on-static-property-pps::$pps.html)
+  + [cannot use %s() on virtual property %ps::$%ps](messages/cannot-use-psqr-on-virtual-property-pps::$pps.html)
   + [reflectionclass::getconstant() for a non existent constant is deprecated,](messages/reflectionclass::getconstantqr-for-a-non-existent-constant-is-deprecated,.html)
   + [reflectionproperty::getdefaultvalue() for a property without a default value is deprecated,](messages/reflectionproperty::getdefaultvalueqr-for-a-property-without-a-default-value-is-deprecated,.html)
 + relative-types
@@ -394,6 +434,8 @@
   + [looking up the dsn from a uri is deprecated due to possible security concerns with dsns coming from remote uris](messages/looking-up-the-dsn-from-a-uri-is-deprecated-due-to-possible-security-concerns-with-dsns-coming-from-remote-uris.html)
   + [maximum depth of %d exceeded. the depth limit can be changed using the max_depth unserialize() option](messages/maximum-depth-of-pd-exceeded.-the-depth-limit-can-be-changed-using-the-max\_depth-unserializeqr-option.html)
   + [using more than %d filters in a php:  filter url is deprecated](messages/using-more-than-pd-filters-in-a-php:--filter-url-is-deprecated.html)
++ serialization
+  + [cannot deserialize arrayobject with iterator class %s; this class is not derived from arrayiterator](messages/cannot-deserialize-arrayobject-with-iterator-class-ps;-this-class-is-not-derived-from-arrayiterator.html)
 + shutdown
   + [call to %s %s::__destruct() from global scope during shutdown ignored](messages/call-to-ps-ps::\_\_destructqr-from-global-scope-during-shutdown-ignored.html)
 + silent-cast
@@ -401,11 +443,21 @@
   + [array_product(): multiplication is not supported on type object](messages/array\_productqr:-multiplication-is-not-supported-on-type-object.html)
   + [array_product(): multiplication is not supported on type string](messages/array\_productqr:-multiplication-is-not-supported-on-type-string.html)
   + [array_sum(): addition is not supported on type array](messages/array\_sumqr:-addition-is-not-supported-on-type-array.html)
++ snmp
+  + [has a malformed ipv6 address, closing square bracket missing](messages/has-a-malformed-ipv6-address,-closing-square-bracket-missing.html)
+  + [must be a valid context engine id](messages/must-be-a-valid-context-engine-id.html)
+  + [must contain a type for object id %s](messages/must-contain-a-type-for-object-id-ps.html)
+  + [must contain a value for object id %s](messages/must-contain-a-value-for-object-id-ps.html)
+  + [must not be empty when passed as an array](messages/must-not-be-empty-when-passed-as-an-array.html)
++ sockets
+  + [must be a combination of msg_oob, msg_peek, msg_waitall, msg_dontwait, msg_errqueue, and msg_cmsg_cloexec for af_packet sockets](messages/must-be-a-combination-of-msg\_oob,-msg\_peek,-msg\_waitall,-msg\_dontwait,-msg\_errqueue,-and-msg\_cmsg\_cloexec-for-af\_packet-sockets.html)
 + sodium
   + [must be less than 4294967295 bytes](messages/must-be-less-than-4294967295-bytes.html)
 + special case
   + [property x::$p cannot have type void](messages/property-x::$p-cannot-have-type-void.html)
   + [void cannot be used as a parameter type](messages/void-cannot-be-used-as-a-parameter-type.html)
++ spl
+  + [cannot deserialize arrayobject with iterator class %s; this class is not derived from arrayiterator](messages/cannot-deserialize-arrayobject-with-iterator-class-ps;-this-class-is-not-derived-from-arrayiterator.html)
 + spoofchecker
   + [must be either spoofchecker::ltr or spoofchecker::rtl](messages/must-be-either-spoofchecker::ltr-or-spoofchecker::rtl.html)
 + sqlite
@@ -420,8 +472,15 @@
   + [calling %ps() with a single argument is deprecated](messages/calling-ppsqr-with-a-single-argument-is-deprecated.html)
 + stream
   + [using more than %d filters in a php:  filter url is deprecated](messages/using-more-than-pd-filters-in-a-php:--filter-url-is-deprecated.html)
++ stream-filter
+  + [stream filter %s is never seekable](messages/stream-filter-ps-is-never-seekable.html)
+  + [stream filter %s is seekable only to start position](messages/stream-filter-ps-is-seekable-only-to-start-position.html)
+  + [stream filter seeking for %s failed](messages/stream-filter-seeking-for-ps-failed.html)
 + streams
   + [must be a concrete class](messages/must-be-a-concrete-class.html)
+  + [stream filter %s is never seekable](messages/stream-filter-ps-is-never-seekable.html)
+  + [stream filter %s is seekable only to start position](messages/stream-filter-ps-is-seekable-only-to-start-position.html)
+  + [stream filter seeking for %s failed](messages/stream-filter-seeking-for-ps-failed.html)
 + strict check
   + [providing a string that is not one byte long is deprecated. use ord($str[0]) instead](messages/providing-a-string-that-is-not-one-byte-long-is-deprecated.-use-ordq$str\[0\]r-instead.html)
   + [providing an empty string is deprecated](messages/providing-an-empty-string-is-deprecated.html)
@@ -615,17 +674,34 @@
 + undefined
   + [call to undefined function](messages/call-to-undefined-function.html)
   + [undefined variable](messages/undefined-variable.html)
++ unicode
+  + [must be a valid normalization form](messages/must-be-a-valid-normalization-form.html)
 + use
   + [cannot declare const %s because](messages/cannot-declare-const-ps-because.html)
 + validation
   + [argument #1 ($start) must be a single byte string if](messages/argument-s1-q$startr-must-be-a-single-byte-string-if.html)
   + [cannot be 0](messages/cannot-be-0.html)
+  + [cannot deserialize arrayobject with iterator class %s; this class is not derived from arrayiterator](messages/cannot-deserialize-arrayobject-with-iterator-class-ps;-this-class-is-not-derived-from-arrayiterator.html)
+  + [cannot use %s() on dynamic property %ps::$%ps](messages/cannot-use-psqr-on-dynamic-property-pps::$pps.html)
+  + [cannot use %s() on internal class %ps](messages/cannot-use-psqr-on-internal-class-pps.html)
+  + [cannot use %s() on static property %ps::$%ps](messages/cannot-use-psqr-on-static-property-pps::$pps.html)
+  + [cannot use %s() on virtual property %ps::$%ps](messages/cannot-use-psqr-on-virtual-property-pps::$pps.html)
   + [elements must be between %d and %d](messages/elements-must-be-between-pd-and-pd.html)
+  + [has a malformed ipv6 address, closing square bracket missing](messages/has-a-malformed-ipv6-address,-closing-square-bracket-missing.html)
+  + [internal function %s%s%s() does not accept named variadic arguments](messages/internal-function-pspspsqr-does-not-accept-named-variadic-arguments.html)
+  + [must be a bitmask of posix_f_ok, posix_r_ok, posix_w_ok, and posix_x_ok](messages/must-be-a-bitmask-of-posix\_f\_ok,-posix\_r\_ok,-posix\_w\_ok,-and-posix\_x\_ok.html)
+  + [must be a combination of msg_oob, msg_peek, msg_waitall, msg_dontwait, msg_errqueue, and msg_cmsg_cloexec for af_packet sockets](messages/must-be-a-combination-of-msg\_oob,-msg\_peek,-msg\_waitall,-msg\_dontwait,-msg\_errqueue,-and-msg\_cmsg\_cloexec-for-af\_packet-sockets.html)
   + [must be a concrete class](messages/must-be-a-concrete-class.html)
+  + [must be a valid context engine id](messages/must-be-a-valid-context-engine-id.html)
+  + [must be a valid normalization form](messages/must-be-a-valid-normalization-form.html)
+  + [must be between 1 and %lu](messages/must-be-between-1-and-plu.html)
   + [must be either case_lower or case_upper](messages/must-be-either-case\_lower-or-case\_upper.html)
   + [must be either spoofchecker::ltr or spoofchecker::rtl](messages/must-be-either-spoofchecker::ltr-or-spoofchecker::rtl.html)
   + [must be less than 4294967295 bytes](messages/must-be-less-than-4294967295-bytes.html)
+  + [must be less than argument #2 ($max)](messages/must-be-less-than-argument-s2-q$maxr.html)
   + [must be mysqli_init_command, mysqli_set_charset_name, mysqli_server_public_key, or one of the mysqli_opt_* constants](messages/must-be-mysqli\_init\_command,-mysqli\_set\_charset\_name,-mysqli\_server\_public\_key,-or-one-of-the-mysqli\_opt\_\*-constants.html)
+  + [must be no longer than %d characters](messages/must-be-no-longer-than-pd-characters.html)
+  + [must be odd if argument #1 ($num) is negative](messages/must-be-odd-if-argument-s1-q$numr-is-negative.html)
   + [must be one of array_filter_use_value, array_filter_use_key, or array_filter_use_both](messages/must-be-one-of-array\_filter\_use\_value,-array\_filter\_use\_key,-or-array\_filter\_use\_both.html)
   + [must be one of intlnumberrangeformatter::identity_fallback_single_value, ::identity_fallback_approximately_or_single_value, ::identity_fallback_approximately, or ::identity_fallback_range](messages/must-be-one-of-intlnumberrangeformatter::identity\_fallback\_single\_value,-::identity\_fallback\_approximately\_or\_single\_value,-::identity\_fallback\_approximately,-or-::identity\_fallback\_range.html)
   + [must be one of the pathinfo_* constants](messages/must-be-one-of-the-pathinfo\_\*-constants.html)
@@ -633,13 +709,23 @@
   + [must be only one of the pathinfo_* constants](messages/must-be-only-one-of-the-pathinfo\_\*-constants.html)
   + [must be openssl_encoding_der or openssl_encoding_pem](messages/must-be-openssl\_encoding\_der-or-openssl\_encoding\_pem.html)
   + [must be smaller than or equal to argument #3 ($max)](messages/must-be-smaller-than-or-equal-to-argument-s3-q$maxr.html)
+  + [must contain a type for object id %s](messages/must-contain-a-type-for-object-id-ps.html)
+  + [must contain a value for object id %s](messages/must-contain-a-value-for-object-id-ps.html)
   + [must have a length less than or equal to %u](messages/must-have-a-length-less-than-or-equal-to-pu.html)
   + [must not be empty, use str_split() to split a string into characters](messages/must-not-be-empty,-use-str\_splitqr-to-split-a-string-into-characters.html)
+  + [must not be empty when passed as an array](messages/must-not-be-empty-when-passed-as-an-array.html)
   + [must not be empty](messages/must-not-be-empty.html)
   + [must not be nan](messages/must-not-be-nan.html)
   + [must not exceed %d bytes](messages/must-not-exceed-pd-bytes.html)
+  + [partial application of %s() expects %s %d arguments, %d given](messages/partial-application-of-psqr-expects-ps-pd-arguments,-pd-given.html)
+  + [partial application of %s() expects at most %d arguments, %d given](messages/partial-application-of-psqr-expects-at-most-pd-arguments,-pd-given.html)
+  + [setlocale() expects exactly 2 arguments when argument #2 ($locales) is an array, %d given](messages/setlocaleqr-expects-exactly-2-arguments-when-argument-s2-q$localesr-is-an-array,-pd-given.html)
+  + [stream filter %s is never seekable](messages/stream-filter-ps-is-never-seekable.html)
+  + [stream filter %s is seekable only to start position](messages/stream-filter-ps-is-seekable-only-to-start-position.html)
+  + [stream filter seeking for %s failed](messages/stream-filter-seeking-for-ps-failed.html)
   + [value must be between 0 and %d](messages/value-must-be-between-0-and-pd.html)
 + variadic
+  + [internal function %s%s%s() does not accept named variadic arguments](messages/internal-function-pspspsqr-does-not-accept-named-variadic-arguments.html)
   + [only the last parameter can be variadic](messages/only-the-last-parameter-can-be-variadic.html)
   + [parameter $%s of %s hook %s::$%s must not be variadic](messages/parameter-$ps-of-ps-hook-ps::$ps-must-not-be-variadic.html)
   + [variadic parameter cannot have a default value](messages/variadic-parameter-cannot-have-a-default-value.html)

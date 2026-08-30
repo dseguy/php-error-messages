@@ -1051,6 +1051,11 @@
   <changefreq>yearly</changefreq>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-deserialize-arrayobject-with-iterator-class-ps;-this-class-is-not-derived-from-arrayiterator.html</loc>
+  <lastmod>2026-08-28T21:04:20+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-directly-construct-directory,-use-dirqr-instead.html</loc>
   <lastmod>2026-07-25T12:23:30+00:00</lastmod>
   <changefreq>yearly</changefreq>
@@ -1368,6 +1373,26 @@
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-$this-as-static-variable.html</loc>
   <lastmod>2026-08-05T11:31:06+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-psqr-on-dynamic-property-pps::$pps.html</loc>
+  <lastmod>2026-08-28T21:04:29+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-psqr-on-internal-class-pps.html</loc>
+  <lastmod>2026-08-28T21:05:05+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-psqr-on-static-property-pps::$pps.html</loc>
+  <lastmod>2026-08-28T21:04:39+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-psqr-on-virtual-property-pps::$pps.html</loc>
+  <lastmod>2026-08-28T21:04:52+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -2286,6 +2311,11 @@
   <changefreq>yearly</changefreq>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/has-a-malformed-ipv6-address,-closing-square-bracket-missing.html</loc>
+  <lastmod>2026-08-26T09:15:16+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/hooked-properties-cannot-be-readonly.html</loc>
   <lastmod>2026-03-31T09:10:46+00:00</lastmod>
   <changefreq>yearly</changefreq>
@@ -2423,6 +2453,11 @@
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/interfaces-may-only-include-hooked-properties.html</loc>
   <lastmod>2026-03-31T09:10:46+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/internal-function-pspspsqr-does-not-accept-named-variadic-arguments.html</loc>
+  <lastmod>2026-08-28T21:05:12+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -2641,8 +2676,18 @@
   <changefreq>yearly</changefreq>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-a-bitmask-of-posix_f_ok,-posix_r_ok,-posix_w_ok,-and-posix_x_ok.html</loc>
+  <lastmod>2026-08-26T09:15:22+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-a-callable,-null-given.html</loc>
   <lastmod>2026-03-31T09:10:46+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-a-combination-of-msg_oob,-msg_peek,-msg_waitall,-msg_dontwait,-msg_errqueue,-and-msg_cmsg_cloexec-for-af_packet-sockets.html</loc>
+  <lastmod>2026-08-26T09:15:29+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -2686,6 +2731,11 @@
   <changefreq>yearly</changefreq>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-a-valid-context-engine-id.html</loc>
+  <lastmod>2026-08-26T09:15:34+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-a-valid-encoding,-ps-given.html</loc>
   <lastmod>2026-03-31T09:10:46+00:00</lastmod>
   <changefreq>yearly</changefreq>
@@ -2696,8 +2746,18 @@
   <changefreq>yearly</changefreq>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-a-valid-normalization-form.html</loc>
+  <lastmod>2026-08-26T09:15:39+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-a-valid-rounding-mode-qroundingmode::*r.html</loc>
   <lastmod>2026-03-31T09:10:46+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-between-1-and-plu.html</loc>
+  <lastmod>2026-08-26T09:15:45+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -2746,8 +2806,23 @@
   <changefreq>yearly</changefreq>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-less-than-argument-s2-q$maxr.html</loc>
+  <lastmod>2026-08-26T09:15:48+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-mysqli_init_command,-mysqli_set_charset_name,-mysqli_server_public_key,-or-one-of-the-mysqli_opt_*-constants.html</loc>
   <lastmod>2026-08-24T12:54:26+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-no-longer-than-pd-characters.html</loc>
+  <lastmod>2026-08-26T09:15:53+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-odd-if-argument-s1-q$numr-is-negative.html</loc>
+  <lastmod>2026-08-26T09:15:58+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -2806,6 +2881,16 @@
   <changefreq>yearly</changefreq>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-contain-a-type-for-object-id-ps.html</loc>
+  <lastmod>2026-08-26T09:16:04+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-contain-a-value-for-object-id-ps.html</loc>
+  <lastmod>2026-08-26T09:16:07+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-contain-at-least-one-element.html</loc>
   <lastmod>2026-03-31T09:10:46+00:00</lastmod>
   <changefreq>yearly</changefreq>
@@ -2818,6 +2903,11 @@
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-not-be-empty,-use-str_splitqr-to-split-a-string-into-characters.html</loc>
   <lastmod>2026-08-24T20:16:36+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-not-be-empty-when-passed-as-an-array.html</loc>
+  <lastmod>2026-08-26T09:16:12+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -3146,6 +3236,16 @@
   <changefreq>yearly</changefreq>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/partial-application-of-psqr-expects-ps-pd-arguments,-pd-given.html</loc>
+  <lastmod>2026-08-28T21:05:19+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/partial-application-of-psqr-expects-at-most-pd-arguments,-pd-given.html</loc>
+  <lastmod>2026-08-28T21:05:25+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/passing-a-negative-integer-to-argument-s3-q$widthr-is-deprecated.html</loc>
   <lastmod>2026-08-17T14:10:34+00:00</lastmod>
   <changefreq>yearly</changefreq>
@@ -3431,6 +3531,11 @@
   <changefreq>yearly</changefreq>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/setlocaleqr-expects-exactly-2-arguments-when-argument-s2-q$localesr-is-an-array,-pd-given.html</loc>
+  <lastmod>2026-08-28T21:05:32+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/spread-operator-is-not-supported-in-assignments.html</loc>
   <lastmod>2026-03-31T09:10:46+00:00</lastmod>
   <changefreq>yearly</changefreq>
@@ -3468,6 +3573,21 @@
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/static::class-cannot-be-used-for-compile-time-class-name-resolution.html</loc>
   <lastmod>2026-08-04T19:12:55+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/stream-filter-ps-is-never-seekable.html</loc>
+  <lastmod>2026-08-28T21:05:40+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/stream-filter-ps-is-seekable-only-to-start-position.html</loc>
+  <lastmod>2026-08-28T21:05:48+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/stream-filter-seeking-for-ps-failed.html</loc>
+  <lastmod>2026-08-28T21:06:22+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>

@@ -92,6 +92,8 @@
 + addition
   + [array_sum(): addition is not supported on type array](messages/array\_sumqr:-addition-is-not-supported-on-type-array.html)
   + [the behavior of unparenthesized expressions containing both \'.\' and \'+\' \' \' will change in php 8: \'+\' \' \' will take a higher precedence](messages/the-behavior-of-unparenthesized-expressions-containing-both-\\.\\-and-\\+\\-\\-\\-will-change-in-php-8:-\\+\\-\\-\\-will-take-a-higher-precedence.html)
++ af-packet-sockets
+  + [must be a combination of msg_oob, msg_peek, msg_waitall, msg_dontwait, msg_errqueue, and msg_cmsg_cloexec for af_packet sockets](messages/must-be-a-combination-of-msg\_oob,-msg\_peek,-msg\_waitall,-msg\_dontwait,-msg\_errqueue,-and-msg\_cmsg\_cloexec-for-af\_packet-sockets.html)
 + alias
   + [an alias (%s) was defined for method %s(), but this method does not exist](messages/an-alias-qpsr-was-defined-for-method-psqr,-but-this-method-does-not-exist.html)
   + [an alias was defined for %s::%s but this method does not exist](messages/an-alias-was-defined-for-ps::ps-but-this-method-does-not-exist.html)
@@ -199,6 +201,7 @@
   + [cannot access offset of type %s in isset or empty](messages/cannot-access-offset-of-type-ps-in-isset-or-empty.html)
   + [cannot access offset of type %s on %s](messages/cannot-access-offset-of-type-ps-on-ps.html)
 + arrayobject
+  + [cannot deserialize arrayobject with iterator class %s; this class is not derived from arrayiterator](messages/cannot-deserialize-arrayobject-with-iterator-class-ps;-this-class-is-not-derived-from-arrayiterator.html)
   + [enums are not compatible with %s](messages/enums-are-not-compatible-with-ps.html)
   + [using an object as a backing array for %s is deprecated, as it allows violating class constraints and invariants](messages/using-an-object-as-a-backing-array-for-ps-is-deprecated,-as-it-allows-violating-class-constraints-and-invariants.html)
   + [using array_key_exists() on objects is deprecated.](messages/using-array\_key\_existsqr-on-objects-is-deprecated..html)
@@ -961,6 +964,11 @@
   + [syntax error, unexpected token " >", expecting "," or ";"](messages/syntax-error,-unexpected-token-->,-expecting-,-or-;.html)
   + [syntax error, unexpected token "::", expecting "," or ";"](messages/syntax-error,-unexpected-token-::,-expecting-,-or-;.html)
   + [syntax error, unexpected token "? >", expecting "," or ";"](messages/syntax-error,-unexpected-token-?->,-expecting-,-or-;.html)
++ gmp-random
+  + [must be less than argument #2 ($max)](messages/must-be-less-than-argument-s2-q$maxr.html)
++ gmp-root
+  + [must be between 1 and %lu](messages/must-be-between-1-and-plu.html)
+  + [must be odd if argument #1 ($num) is negative](messages/must-be-odd-if-argument-s1-q$numr-is-negative.html)
 + goto
   + [\'goto\' into loop or switch statement is disallowed](messages/\\goto\\-into-loop-or-switch-statement-is-disallowed.html)
   + [\'goto\' to undefined label \'%s\'](messages/\\goto\\-to-undefined-label-\\ps\\.html)
@@ -1157,6 +1165,11 @@
   + [static " is not allowed in compile time constants](messages/static--is-not-allowed-in-compile-time-constants.html)
   + [static:: " is not allowed in compile time constants](messages/static::--is-not-allowed-in-compile-time-constants.html)
   + [static::class cannot be used for compile time class name resolution](messages/static::class-cannot-be-used-for-compile-time-class-name-resolution.html)
++ lazy-objects
+  + [cannot use %s() on dynamic property %ps::$%ps](messages/cannot-use-psqr-on-dynamic-property-pps::$pps.html)
+  + [cannot use %s() on internal class %ps](messages/cannot-use-psqr-on-internal-class-pps.html)
+  + [cannot use %s() on static property %ps::$%ps](messages/cannot-use-psqr-on-static-property-pps::$pps.html)
+  + [cannot use %s() on virtual property %ps::$%ps](messages/cannot-use-psqr-on-virtual-property-pps::$pps.html)
 + ldap
   + [calling ldap_connect() with oracle specific arguments is deprecated](messages/calling-ldap\_connectqr-with-oracle-specific-arguments-is-deprecated.html)
   + [calling ldap_exop() with more than 4 arguments is deprecated, use ldap_exop_sync() instead](messages/calling-ldap\_exopqr-with-more-than-4-arguments-is-deprecated,-use-ldap\_exop\_syncqr-instead.html)
@@ -1192,6 +1205,7 @@
   + [%s(): argument #%d%s%s%s cannot be passed by reference](messages/psqr:-argument-spdpspsps-cannot-be-passed-by-reference.html)
 + locale
   + [cannot be lc_all](messages/cannot-be-lc\_all.html)
+  + [setlocale() expects exactly 2 arguments when argument #2 ($locales) is an array, %d given](messages/setlocaleqr-expects-exactly-2-arguments-when-argument-s2-q$localesr-is-an-array,-pd-given.html)
 + loop
   + [\'%s\' not in the \'loop\' or \'switch\' context](messages/\\ps\\-not-in-the-\\loop\\-or-\\switch\\-context.html)
   + [\'%s\' operator accepts only positive integers](messages/\\ps\\-operator-accepts-only-positive-integers.html)
@@ -1340,6 +1354,7 @@
   + [cannot combine named arguments and argument unpacking](messages/cannot-combine-named-arguments-and-argument-unpacking.html)
   + [cannot use argument unpacking after named arguments](messages/cannot-use-argument-unpacking-after-named-arguments.html)
   + [duplicate named parameter $%s](messages/duplicate-named-parameter-$ps.html)
+  + [internal function %s%s%s() does not accept named variadic arguments](messages/internal-function-pspspsqr-does-not-accept-named-variadic-arguments.html)
   + [optional parameter $%s declared before required parameter $%s is implicitly treated as a required parameter](messages/optional-parameter-$ps-declared-before-required-parameter-$ps-is-implicitly-treated-as-a-required-parameter.html)
   + [syntax error, unexpected identifier "%s", expecting ")"](messages/syntax-error,-unexpected-identifier-ps,-expecting-r.html)
   + [syntax error, unexpected identifier "%s", expecting "]"](messages/syntax-error,-unexpected-identifier-ps,-expecting-\].html)
@@ -1452,6 +1467,7 @@
   + [cannot take reference of a nullsafe chain](messages/cannot-take-reference-of-a-nullsafe-chain.html)
   + [syntax error, unexpected token " >"](messages/syntax-error,-unexpected-token-->.html)
 + number-range-formatting
+  + [must be no longer than %d characters](messages/must-be-no-longer-than-pd-characters.html)
   + [must be one of intlnumberrangeformatter::identity_fallback_single_value, ::identity_fallback_approximately_or_single_value, ::identity_fallback_approximately, or ::identity_fallback_range](messages/must-be-one-of-intlnumberrangeformatter::identity\_fallback\_single\_value,-::identity\_fallback\_approximately\_or\_single\_value,-::identity\_fallback\_approximately,-or-::identity\_fallback\_range.html)
 + numeric-separator
   + [invalid utf 8 codepoint escape](messages/invalid-utf-8-codepoint-escape.html)
@@ -1560,6 +1576,8 @@
   + [unparenthesized \`a ?: b ? c : d\` is not supported.](messages/unparenthesized-\\\`a-?:-b-?-c-:-d\\\`-is-not-supported..html)
 + partial-application
   + [cannot combine partial application and unpacking](messages/cannot-combine-partial-application-and-unpacking.html)
+  + [partial application of %s() expects %s %d arguments, %d given](messages/partial-application-of-psqr-expects-ps-pd-arguments,-pd-given.html)
+  + [partial application of %s() expects at most %d arguments, %d given](messages/partial-application-of-psqr-expects-at-most-pd-arguments,-pd-given.html)
   + [variadic placeholder may only appear once](messages/variadic-placeholder-may-only-appear-once.html)
   + [variadic placeholder must be last](messages/variadic-placeholder-must-be-last.html)
 + password-hashing
@@ -1600,6 +1618,8 @@
   + [using the $num_points parameter is deprecated](messages/using-the-$num\_points-parameter-is-deprecated.html)
 + positive-integer
   + [must be greater than 0](messages/must-be-greater-than-0.html)
++ posix-access
+  + [must be a bitmask of posix_f_ok, posix_r_ok, posix_w_ok, and posix_x_ok](messages/must-be-a-bitmask-of-posix\_f\_ok,-posix\_r\_ok,-posix\_w\_ok,-and-posix\_x\_ok.html)
 + precision
   + [requested precision of %d digits was truncated to php maximum of %d digits](messages/requested-precision-of-pd-digits-was-truncated-to-php-maximum-of-pd-digits.html)
 + print
@@ -1678,6 +1698,7 @@
   + [cannot redeclare property hook](messages/cannot-redeclare-property-hook.html)
   + [cannot specify default value for virtual hooked property %s::$%s](messages/cannot-specify-default-value-for-virtual-hooked-property-ps::$ps.html)
   + [cannot unset hooked property %s::$%s](messages/cannot-unset-hooked-property-ps::$ps.html)
+  + [cannot use %s() on virtual property %ps::$%ps](messages/cannot-use-psqr-on-virtual-property-pps::$pps.html)
   + [cannot use the abstract modifier on a property hook](messages/cannot-use-the-abstract-modifier-on-a-property-hook.html)
   + [cannot use the abstract modifier on a property](messages/cannot-use-the-abstract-modifier-on-a-property.html)
   + [cannot use the final modifier on a property](messages/cannot-use-the-final-modifier-on-a-property.html)
@@ -1779,6 +1800,10 @@
   + [calling %ps() with a 1st argument which is not null or an object is deprecated](messages/calling-ppsqr-with-a-1st-argument-which-is-not-null-or-an-object-is-deprecated.html)
   + [calling %ps() with a single argument is deprecated](messages/calling-ppsqr-with-a-single-argument-is-deprecated.html)
   + [cannot be null when argument #1 ($objectormethod) is an object](messages/cannot-be-null-when-argument-s1-q$objectormethodr-is-an-object.html)
+  + [cannot use %s() on dynamic property %ps::$%ps](messages/cannot-use-psqr-on-dynamic-property-pps::$pps.html)
+  + [cannot use %s() on internal class %ps](messages/cannot-use-psqr-on-internal-class-pps.html)
+  + [cannot use %s() on static property %ps::$%ps](messages/cannot-use-psqr-on-static-property-pps::$pps.html)
+  + [cannot use %s() on virtual property %ps::$%ps](messages/cannot-use-psqr-on-virtual-property-pps::$pps.html)
   + [case %s::%s does not exist](messages/case-ps::ps-does-not-exist.html)
   + [class %s does not have a property named %s](messages/class-ps-does-not-have-a-property-named-ps.html)
   + [must be a valid method name](messages/must-be-a-valid-method-name.html)
@@ -1884,6 +1909,7 @@
   + [enum %s cannot implement the serializable interface](messages/enum-ps-cannot-implement-the-serializable-interface.html)
 + serialization
   + [%s " is returned from __sleep() multiple times](messages/ps--is-returned-from-\_\_sleepqr-multiple-times.html)
+  + [cannot deserialize arrayobject with iterator class %s; this class is not derived from arrayiterator](messages/cannot-deserialize-arrayobject-with-iterator-class-ps;-this-class-is-not-derived-from-arrayiterator.html)
   + [error at offset %zd of %zd](messages/error-at-offset-pzd-of-pzd.html)
   + [extra data starting at offset %d of %zd bytes](messages/extra-data-starting-at-offset-pd-of-pzd-bytes.html)
   + [unserializing the \'s\' format is deprecated](messages/unserializing-the-\\s\\-format-is-deprecated.html)
@@ -1916,6 +1942,15 @@
   + [syntax error, unexpected identifier "%s", expecting "," or ";"](messages/syntax-error,-unexpected-identifier-ps,-expecting-,-or-;.html)
 + snmp
   + [type must be a single character](messages/type-must-be-a-single-character.html)
++ snmp-query
+  + [must not be empty when passed as an array](messages/must-not-be-empty-when-passed-as-an-array.html)
++ snmp-security
+  + [must be a valid context engine id](messages/must-be-a-valid-context-engine-id.html)
++ snmp-session
+  + [has a malformed ipv6 address, closing square bracket missing](messages/has-a-malformed-ipv6-address,-closing-square-bracket-missing.html)
++ snmp-set
+  + [must contain a type for object id %s](messages/must-contain-a-type-for-object-id-ps.html)
+  + [must contain a value for object id %s](messages/must-contain-a-value-for-object-id-ps.html)
 + socket
   + [failed to open stream from socketpair](messages/failed-to-open-stream-from-socketpair.html)
 + sort
@@ -1992,6 +2027,9 @@
   + [using more than %d filters in a php:  filter url is deprecated](messages/using-more-than-pd-filters-in-a-php:--filter-url-is-deprecated.html)
 + stream-filter
   + [must be a concrete class](messages/must-be-a-concrete-class.html)
+  + [stream filter %s is never seekable](messages/stream-filter-ps-is-never-seekable.html)
+  + [stream filter %s is seekable only to start position](messages/stream-filter-ps-is-seekable-only-to-start-position.html)
+  + [stream filter seeking for %s failed](messages/stream-filter-seeking-for-ps-failed.html)
 + stream-wrapper
   + [must be a concrete class](messages/must-be-a-concrete-class.html)
 + strict_types
@@ -2175,6 +2213,8 @@
 + unicode
   + [invalid utf 8 codepoint escape](messages/invalid-utf-8-codepoint-escape.html)
   + [invalid utf 8 codepoint escape: codepoint too large](messages/invalid-utf-8-codepoint-escape:-codepoint-too-large.html)
++ unicode-normalization
+  + [must be a valid normalization form](messages/must-be-a-valid-normalization-form.html)
 + uninitialized
   + [type of %s::$%s must be omitted to match the parent definition in class %s](messages/type-of-ps::$ps-must-be-omitted-to-match-the-parent-definition-in-class-ps.html)
 + union-type
@@ -2258,6 +2298,7 @@
 + variadic
   + [array_merge() does not accept unknown named parameters](messages/array\_mergeqr-does-not-accept-unknown-named-parameters.html)
   + [cannot declare variadic promoted property](messages/cannot-declare-variadic-promoted-property.html)
+  + [internal function %s%s%s() does not accept named variadic arguments](messages/internal-function-pspspsqr-does-not-accept-named-variadic-arguments.html)
   + [only the last parameter can be variadic](messages/only-the-last-parameter-can-be-variadic.html)
   + [spread operator is not supported in assignments](messages/spread-operator-is-not-supported-in-assignments.html)
   + [variadic parameter cannot have a default value](messages/variadic-parameter-cannot-have-a-default-value.html)
