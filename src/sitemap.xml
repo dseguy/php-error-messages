@@ -686,6 +686,11 @@
   <changefreq>yearly</changefreq>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/calling-a-function-%E2__readonly%E2__-is-deprecated.html</loc>
+  <lastmod>2026-09-04T14:35:08+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/calling-dateperiod::__constructqstring-$isostr,-int-$options-=-0r-is-deprecated,.html</loc>
   <lastmod>2026-08-21T07:46:11+00:00</lastmod>
   <changefreq>yearly</changefreq>
@@ -963,6 +968,11 @@
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-bind-method-ps::psqr-to-object-of-class-ps.html</loc>
   <lastmod>2026-07-15T16:26:10+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-call-ppsqr-dynamically.html</loc>
+  <lastmod>2026-09-04T15:20:19+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -1971,6 +1981,11 @@
   <changefreq>yearly</changefreq>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/declaring-ps-constant-called-namespace-is-deprecated.html</loc>
+  <lastmod>2026-09-04T14:35:21+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/decrement-on-type-bool-has-no-effect,-this-will-change-in-the-next-major-version-of-php.html</loc>
   <lastmod>2026-03-31T09:10:46+00:00</lastmod>
   <changefreq>yearly</changefreq>
@@ -2411,6 +2426,11 @@
   <changefreq>yearly</changefreq>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/input-number-is-larger-than-php_int_max,-precision-has-been-lost-in-conversion.html</loc>
+  <lastmod>2026-09-04T14:35:27+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/instanceof-expects-an-object-instance,-constant-given.html</loc>
   <lastmod>2026-03-31T09:10:46+00:00</lastmod>
   <changefreq>yearly</changefreq>
@@ -2493,6 +2513,11 @@
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/invalid-utf-8-codepoint-escape:-codepoint-too-large.html</loc>
   <lastmod>2026-03-31T09:10:46+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/io--poll--handle-cannot-be-implemented-by-user-classes.html</loc>
+  <lastmod>2026-09-04T14:35:33+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -3481,6 +3506,11 @@
   <changefreq>yearly</changefreq>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/returning-from-a-finally-block-is-deprecated.html</loc>
+  <lastmod>2026-09-04T14:35:40+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/returning-null-from-ps::__debuginfoqr-is-deprecated,-make-the-return-type-non-nullable-and-return-an-empty-array-instead.html</loc>
   <lastmod>2026-08-16T20:13:14+00:00</lastmod>
   <changefreq>yearly</changefreq>
@@ -3573,6 +3603,21 @@
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/static::class-cannot-be-used-for-compile-time-class-name-resolution.html</loc>
   <lastmod>2026-08-04T19:12:55+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/stream-context-option-error_mode-must-be-of-type-streamerrormode.html</loc>
+  <lastmod>2026-09-04T14:35:46+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/stream-context-option-error_store-must-be-of-type-streamerrorstore.html</loc>
+  <lastmod>2026-09-04T14:35:51+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/stream-error-handler-must-be-a-valid-callback,-ps.html</loc>
+  <lastmod>2026-09-04T14:35:56+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -4366,6 +4411,16 @@
   <changefreq>yearly</changefreq>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-maximum-representable-range-is-2_147_483_647-seconds-qroughly-68-yearsr.html</loc>
+  <lastmod>2026-09-04T14:36:03+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-maximum-representable-range-is-9_223_372_035-seconds-qroughly-292-yearsr.html</loc>
+  <lastmod>2026-09-04T14:36:09+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-modifiers-of-the-trait-method-psqr-are-changed,-but-this-method-does-not-exist.-error.html</loc>
   <lastmod>2026-08-06T09:14:47+00:00</lastmod>
   <changefreq>yearly</changefreq>
@@ -4538,6 +4593,11 @@
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/type-of-parameter-$ps-of-hook-ps::$ps::set-must-be-compatible-with-property-type.html</loc>
   <lastmod>2026-07-24T15:59:43+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/typed-property-pps::$pps-must-not-be-accessed-before-initialization.html</loc>
+  <lastmod>2026-09-04T14:36:15+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -4741,6 +4801,11 @@
   <changefreq>yearly</changefreq>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/unterminated-comment-starting-line-p.html</loc>
+  <lastmod>2026-09-04T14:36:20+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unterminated-comment-starting-line-pd.html</loc>
   <lastmod>2026-03-31T09:10:47+00:00</lastmod>
   <changefreq>yearly</changefreq>
@@ -4843,6 +4908,11 @@
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/using-the-$num_points-parameter-is-deprecated.html</loc>
   <lastmod>2026-08-11T20:56:49+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/value-for-class-is-not-a-string.html</loc>
+  <lastmod>2026-09-04T14:36:26+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>

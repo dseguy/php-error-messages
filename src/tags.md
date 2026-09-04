@@ -29,6 +29,7 @@
 + callback
   + [%s(): return value of the authorizer callback must be of type int, %s returned](messages/psqr:-return-value-of-the-authorizer-callback-must-be-of-type-int,-ps-returned.html)
   + [%s(): return value of the collation callback must be of type int, %s returned](messages/psqr:-return-value-of-the-collation-callback-must-be-of-type-int,-ps-returned.html)
+  + [stream error handler must be a valid callback, %s](messages/stream-error-handler-must-be-a-valid-callback,-ps.html)
 + catch
   + [bad class name in the catch statement](messages/bad-class-name-in-the-catch-statement.html)
   + [cannot use try without catch or finally](messages/cannot-use-try-without-catch-or-finally.html)
@@ -87,6 +88,9 @@
   + [returning a value from a constructor is deprecated](messages/returning-a-value-from-a-constructor-is-deprecated.html)
 + crash
   + [must not contain empty strings](messages/must-not-contain-empty-strings.html)
++ date
+  + [the maximum representable range is 2_147_483_647 seconds (roughly 68 years)](messages/the-maximum-representable-range-is-2\_147\_483\_647-seconds-qroughly-68-yearsr.html)
+  + [the maximum representable range is 9_223_372_035 seconds (roughly 292 years)](messages/the-maximum-representable-range-is-9\_223\_372\_035-seconds-qroughly-292-yearsr.html)
 + datetime
   + [datetimezone object is unconstructed](messages/datetimezone-object-is-unconstructed.html)
 + debug
@@ -117,6 +121,7 @@
 + deprecation
   + [calling %ps() with a 1st argument which is not null or an object is deprecated](messages/calling-ppsqr-with-a-1st-argument-which-is-not-null-or-an-object-is-deprecated.html)
   + [calling %ps() with a single argument is deprecated](messages/calling-ppsqr-with-a-single-argument-is-deprecated.html)
+  + [calling a function “readonly” is deprecated](messages/calling-a-function-“readonly”-is-deprecated.html)
   + [cannot bind method %s::%s() to object of class %s, this will be an error in php 9](messages/cannot-bind-method-ps::psqr-to-object-of-class-ps,-this-will-be-an-error-in-php-9.html)
   + [cannot rebind scope of closure created from function, this will be an error in php 9](messages/cannot-rebind-scope-of-closure-created-from-function,-this-will-be-an-error-in-php-9.html)
   + [cannot rebind scope of closure created from method, this will be an error in php 9](messages/cannot-rebind-scope-of-closure-created-from-method,-this-will-be-an-error-in-php-9.html)
@@ -124,6 +129,7 @@
   + [cannot unbind $this of method, this will be an error in php 9](messages/cannot-unbind-$this-of-method,-this-will-be-an-error-in-php-9.html)
   + [constant %s is deprecated](messages/constant-ps-is-deprecated.html)
   + [constant %s::%s is deprecated](messages/constant-ps::ps-is-deprecated.html)
+  + [declaring %s constant called namespace is deprecated](messages/declaring-ps-constant-called-namespace-is-deprecated.html)
   + [function %s() is deprecated%s](messages/function-psqr-is-deprecatedps.html)
   + [making a constructor a generator is deprecated](messages/making-a-constructor-a-generator-is-deprecated.html)
   + [making a destructor a generator is deprecated](messages/making-a-destructor-a-generator-is-deprecated.html)
@@ -131,6 +137,7 @@
   + [reflectionproperty::getdefaultvalue() for a property without a default value is deprecated,](messages/reflectionproperty::getdefaultvalueqr-for-a-property-without-a-default-value-is-deprecated,.html)
   + [returning a value from a constructor is deprecated](messages/returning-a-value-from-a-constructor-is-deprecated.html)
   + [returning a value from a destructor is deprecated](messages/returning-a-value-from-a-destructor-is-deprecated.html)
+  + [returning from a finally block is deprecated](messages/returning-from-a-finally-block-is-deprecated.html)
   + [returning null from %s::__debuginfo() is deprecated, make the return type non nullable and return an empty array instead](messages/returning-null-from-ps::\_\_debuginfoqr-is-deprecated,-make-the-return-type-non-nullable-and-return-an-empty-array-instead.html)
   + [returning null from %s::__debuginfo() is deprecated, return an empty array instead](messages/returning-null-from-ps::\_\_debuginfoqr-is-deprecated,-return-an-empty-array-instead.html)
   + [trait %s used by %s is deprecated%s](messages/trait-ps-used-by-ps-is-deprecatedps.html)
@@ -148,6 +155,8 @@
 + dnf
   + [type %s is redundant as it is more restrictive than type %s](messages/type-ps-is-redundant-as-it-is-more-restrictive-than-type-ps.html)
   + [type %s is redundant with type %s](messages/type-ps-is-redundant-with-type-ps.html)
++ dynamic-call
+  + [cannot call %ps() dynamically](messages/cannot-call-ppsqr-dynamically.html)
 + edge case
   + [is an invalid class name](messages/is-an-invalid-class-name.html)
 + ellipsis
@@ -160,6 +169,9 @@
   + [case %s of non backed enum %s must not have a value](messages/case-ps-of-non-backed-enum-ps-must-not-have-a-value.html)
 + exception
   + [bad class name in the catch statement](messages/bad-class-name-in-the-catch-statement.html)
++ exceptions
+  + [returning from a finally block is deprecated](messages/returning-from-a-finally-block-is-deprecated.html)
+  + [value for class is not a string](messages/value-for-class-is-not-a-string.html)
 + execution
   + [access level to %s::%s must be %s (as in %s %s)%s](messages/access-level-to-ps::ps-must-be-ps-qas-in-ps-psrps.html)
   + [cannot call constructor](messages/cannot-call-constructor.html)
@@ -280,6 +292,7 @@
   + [returning null from %s::__debuginfo() is deprecated, make the return type non nullable and return an empty array instead](messages/returning-null-from-ps::\_\_debuginfoqr-is-deprecated,-make-the-return-type-non-nullable-and-return-an-empty-array-instead.html)
   + [returning null from %s::__debuginfo() is deprecated, return an empty array instead](messages/returning-null-from-ps::\_\_debuginfoqr-is-deprecated,-return-an-empty-array-instead.html)
 + math
+  + [input number is larger than php_int_max, precision has been lost in conversion](messages/input-number-is-larger-than-php\_int\_max,-precision-has-been-lost-in-conversion.html)
   + [must be between 1 and %lu](messages/must-be-between-1-and-plu.html)
   + [must be less than argument #2 ($max)](messages/must-be-less-than-argument-s2-q$maxr.html)
   + [must be odd if argument #1 ($num) is negative](messages/must-be-odd-if-argument-s1-q$numr-is-negative.html)
@@ -361,6 +374,8 @@
 + partial-application
   + [partial application of %s() expects %s %d arguments, %d given](messages/partial-application-of-psqr-expects-ps-pd-arguments,-pd-given.html)
   + [partial application of %s() expects at most %d arguments, %d given](messages/partial-application-of-psqr-expects-at-most-pd-arguments,-pd-given.html)
++ partial-function-application
+  + [cannot call %ps() dynamically](messages/cannot-call-ppsqr-dynamically.html)
 + partial-lint
   + [could not check compatibility between %s and %s, because class %s is not available](messages/could-not-check-compatibility-between-ps-and-ps,-because-class-ps-is-not-available.html)
 + pdo
@@ -369,8 +384,12 @@
   + [cannot change default fetch mode while fetching](messages/cannot-change-default-fetch-mode-while-fetching.html)
 + php://filter
   + [using more than %d filters in a php:  filter url is deprecated](messages/using-more-than-pd-filters-in-a-php:--filter-url-is-deprecated.html)
++ polling
+  + [io  poll  handle cannot be implemented by user classes](messages/io--poll--handle-cannot-be-implemented-by-user-classes.html)
 + posix
   + [must be a bitmask of posix_f_ok, posix_r_ok, posix_w_ok, and posix_x_ok](messages/must-be-a-bitmask-of-posix\_f\_ok,-posix\_r\_ok,-posix\_w\_ok,-and-posix\_x\_ok.html)
++ precision
+  + [input number is larger than php_int_max, precision has been lost in conversion](messages/input-number-is-larger-than-php\_int\_max,-precision-has-been-lost-in-conversion.html)
 + printf
   + [missing format specifier at end of string](messages/missing-format-specifier-at-end-of-string.html)
   + [unknown format specifier "%c](messages/unknown-format-specifier-pc.html)
@@ -407,6 +426,7 @@
   + [cannot use %s() on virtual property %ps::$%ps](messages/cannot-use-psqr-on-virtual-property-pps::$pps.html)
   + [reflectionclass::getconstant() for a non existent constant is deprecated,](messages/reflectionclass::getconstantqr-for-a-non-existent-constant-is-deprecated,.html)
   + [reflectionproperty::getdefaultvalue() for a property without a default value is deprecated,](messages/reflectionproperty::getdefaultvalueqr-for-a-property-without-a-default-value-is-deprecated,.html)
+  + [value for class is not a string](messages/value-for-class-is-not-a-string.html)
 + relative-types
   + [\' %s\' is an invalid class name](messages/\\-ps\\-is-an-invalid-class-name.html)
 + removed
@@ -419,6 +439,9 @@
   + [traits cannot have constants](messages/traits-cannot-have-constants.html)
 + reserved
   + [non enum class %s cannot implement interface %s](messages/non-enum-class-ps-cannot-implement-interface-ps.html)
++ reserved-word
+  + [calling a function “readonly” is deprecated](messages/calling-a-function-“readonly”-is-deprecated.html)
+  + [declaring %s constant called namespace is deprecated](messages/declaring-ps-constant-called-namespace-is-deprecated.html)
 + return
   + [%s(): never returning function must not implicitly return](messages/psqr:-never-returning-function-must-not-implicitly-return.html)
 + return-type
@@ -477,7 +500,11 @@
   + [stream filter %s is seekable only to start position](messages/stream-filter-ps-is-seekable-only-to-start-position.html)
   + [stream filter seeking for %s failed](messages/stream-filter-seeking-for-ps-failed.html)
 + streams
+  + [io  poll  handle cannot be implemented by user classes](messages/io--poll--handle-cannot-be-implemented-by-user-classes.html)
   + [must be a concrete class](messages/must-be-a-concrete-class.html)
+  + [stream context option error_mode must be of type streamerrormode](messages/stream-context-option-error\_mode-must-be-of-type-streamerrormode.html)
+  + [stream context option error_store must be of type streamerrorstore](messages/stream-context-option-error\_store-must-be-of-type-streamerrorstore.html)
+  + [stream error handler must be a valid callback, %s](messages/stream-error-handler-must-be-a-valid-callback,-ps.html)
   + [stream filter %s is never seekable](messages/stream-filter-ps-is-never-seekable.html)
   + [stream filter %s is seekable only to start position](messages/stream-filter-ps-is-seekable-only-to-start-position.html)
   + [stream filter seeking for %s failed](messages/stream-filter-seeking-for-ps-failed.html)
@@ -669,6 +696,8 @@
   + [void can only be used as a standalone type](messages/void-can-only-be-used-as-a-standalone-type.html)
 + type-juggling
   + [unexpected nan value was coerced to %s](messages/unexpected-nan-value-was-coerced-to-ps.html)
++ typed-properties
+  + [typed property %ps::$%ps must not be accessed before initialization](messages/typed-property-pps::$pps-must-not-be-accessed-before-initialization.html)
 + typo
   + [cannot assign to array(), use [] instead in %s](messages/cannot-assign-to-arrayqr,-use-\[\]-instead-in-ps.html)
 + undefined
@@ -720,9 +749,14 @@
   + [partial application of %s() expects %s %d arguments, %d given](messages/partial-application-of-psqr-expects-ps-pd-arguments,-pd-given.html)
   + [partial application of %s() expects at most %d arguments, %d given](messages/partial-application-of-psqr-expects-at-most-pd-arguments,-pd-given.html)
   + [setlocale() expects exactly 2 arguments when argument #2 ($locales) is an array, %d given](messages/setlocaleqr-expects-exactly-2-arguments-when-argument-s2-q$localesr-is-an-array,-pd-given.html)
+  + [stream context option error_mode must be of type streamerrormode](messages/stream-context-option-error\_mode-must-be-of-type-streamerrormode.html)
+  + [stream context option error_store must be of type streamerrorstore](messages/stream-context-option-error\_store-must-be-of-type-streamerrorstore.html)
+  + [stream error handler must be a valid callback, %s](messages/stream-error-handler-must-be-a-valid-callback,-ps.html)
   + [stream filter %s is never seekable](messages/stream-filter-ps-is-never-seekable.html)
   + [stream filter %s is seekable only to start position](messages/stream-filter-ps-is-seekable-only-to-start-position.html)
   + [stream filter seeking for %s failed](messages/stream-filter-seeking-for-ps-failed.html)
+  + [the maximum representable range is 2_147_483_647 seconds (roughly 68 years)](messages/the-maximum-representable-range-is-2\_147\_483\_647-seconds-qroughly-68-yearsr.html)
+  + [the maximum representable range is 9_223_372_035 seconds (roughly 292 years)](messages/the-maximum-representable-range-is-9\_223\_372\_035-seconds-qroughly-292-yearsr.html)
   + [value must be between 0 and %d](messages/value-must-be-between-0-and-pd.html)
 + variadic
   + [internal function %s%s%s() does not accept named variadic arguments](messages/internal-function-pspspsqr-does-not-accept-named-variadic-arguments.html)

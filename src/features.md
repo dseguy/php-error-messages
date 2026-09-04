@@ -283,6 +283,8 @@
   + [syntax error, unexpected token ";", expecting "]"](messages/syntax-error,-unexpected-token-;,-expecting-\].html)
   + [syntax error, unexpected token "class", expecting "]"](messages/syntax-error,-unexpected-token-class,-expecting-\].html)
   + [unclosed \'(\' does not match \']\'](messages/unclosed-\\q\\-does-not-match-\\\]\\.html)
++ base-conversion
+  + [input number is larger than php_int_max, precision has been lost in conversion](messages/input-number-is-larger-than-php\_int\_max,-precision-has-been-lost-in-conversion.html)
 + base64
   + [handling base64 via mbstring is deprecated; use base64_encode base64_decode instead](messages/handling-base64-via-mbstring-is-deprecated;-use-base64\_encode-base64\_decode-instead.html)
 + bidi-skeleton
@@ -519,6 +521,7 @@
   + [only arrays can be unpacked in constant expression](messages/only-arrays-can-be-unpacked-in-constant-expression.html)
   + [strlen(): passing null to parameter #1 ($string) of type string is deprecated](messages/strlenqr:-passing-null-to-parameter-s1-q$stringr-of-type-string-is-deprecated.html)
   + [syntax error, unexpected token "??"](messages/syntax-error,-unexpected-token-??.html)
+  + [typed property %ps::$%ps must not be accessed before initialization](messages/typed-property-pps::$pps-must-not-be-accessed-before-initialization.html)
   + [typed property %s::$%s must not be accessed before initialization](messages/typed-property-ps::$ps-must-not-be-accessed-before-initialization.html)
   + [typed static property %s::$%s must not be accessed before initialization](messages/typed-static-property-ps::$ps-must-not-be-accessed-before-initialization.html)
 + codepoint
@@ -532,6 +535,7 @@
 + comment
   + [syntax error, unexpected token ")", expecting "function" or "fn" or "static" or "#["](messages/syntax-error,-unexpected-token-r,-expecting-function-or-fn-or-static-or-s\[.html)
   + [syntax error, unexpected token ";", expecting "function" or "fn" or "static" or "#["](messages/syntax-error,-unexpected-token-;,-expecting-function-or-fn-or-static-or-s\[.html)
+  + [unterminated comment starting line %](messages/unterminated-comment-starting-line-p.html)
   + [unterminated comment starting line %d](messages/unterminated-comment-starting-line-pd.html)
 + compact
   + [recursion detected](messages/recursion-detected.html)
@@ -721,6 +725,9 @@
   + [syntax error, unexpected identifier "%s", expecting "," or ";"](messages/syntax-error,-unexpected-identifier-ps,-expecting-,-or-;.html)
 + dsn
   + [looking up the dsn from a uri is deprecated due to possible security concerns with dsns coming from remote uris](messages/looking-up-the-dsn-from-a-uri-is-deprecated-due-to-possible-security-concerns-with-dsns-coming-from-remote-uris.html)
++ duration
+  + [the maximum representable range is 2_147_483_647 seconds (roughly 68 years)](messages/the-maximum-representable-range-is-2\_147\_483\_647-seconds-qroughly-68-yearsr.html)
+  + [the maximum representable range is 9_223_372_035 seconds (roughly 292 years)](messages/the-maximum-representable-range-is-9\_223\_372\_035-seconds-qroughly-292-yearsr.html)
 + dynamic-call
   + [function name must be a string](messages/function-name-must-be-a-string.html)
 + dynamic-constant
@@ -738,6 +745,7 @@
 + empty
   + [cannot access offset of type %s in isset or empty](messages/cannot-access-offset-of-type-ps-in-isset-or-empty.html)
   + [property hook list must not be empty](messages/property-hook-list-must-not-be-empty.html)
+  + [typed property %ps::$%ps must not be accessed before initialization](messages/typed-property-pps::$pps-must-not-be-accessed-before-initialization.html)
   + [typed property %s::$%s must not be accessed before initialization](messages/typed-property-ps::$ps-must-not-be-accessed-before-initialization.html)
   + [typed static property %s::$%s must not be accessed before initialization](messages/typed-static-property-ps::$ps-must-not-be-accessed-before-initialization.html)
 + empty-string
@@ -903,6 +911,8 @@
   + [cannot use dynamic method name in constant expression](messages/cannot-use-dynamic-method-name-in-constant-expression.html)
   + [illegal method name](messages/illegal-method-name.html)
   + [instantiation of class closure is not allowed](messages/instantiation-of-class-closure-is-not-allowed.html)
++ first-class-callable-syntax
+  + [cannot call %ps() dynamically](messages/cannot-call-ppsqr-dynamically.html)
 + float
   + [implicit conversion from float string "%s" to int loses](messages/implicit-conversion-from-float-string-ps-to-int-loses.html)
   + [requested precision of %d digits was truncated to php maximum of %d digits](messages/requested-precision-of-pd-digits-was-truncated-to-php-maximum-of-pd-digits.html)
@@ -957,6 +967,8 @@
   + [the "generator" class is reserved for internal use and cannot be manually instantiated](messages/the-generator-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated.html)
   + [the  "yield " expression can only be used inside a function](messages/the--yield--expression-can-only-be-used-inside-a-function.html)
   + [trying to clone an uncloneable object of class %s](messages/trying-to-clone-an-uncloneable-object-of-class-ps.html)
++ getTraceAsString
+  + [value for class is not a string](messages/value-for-class-is-not-a-string.html)
 + get_class
   + [syntax error, unexpected identifier "%s", expecting variable or "$"](messages/syntax-error,-unexpected-identifier-ps,-expecting-variable-or-$.html)
 + global
@@ -1132,6 +1144,7 @@
   + [cannot access offset of type %s in isset or empty](messages/cannot-access-offset-of-type-ps-in-isset-or-empty.html)
   + [cannot use isset() on the result of an expression (you can use "null !== expression" instead)](messages/cannot-use-issetqr-on-the-result-of-an-expression-qyou-can-use-null-!==-expression-insteadr.html)
   + [cannot use isset() on the result of an expression](messages/cannot-use-issetqr-on-the-result-of-an-expression.html)
+  + [typed property %ps::$%ps must not be accessed before initialization](messages/typed-property-pps::$pps-must-not-be-accessed-before-initialization.html)
   + [typed property %s::$%s must not be accessed before initialization](messages/typed-property-ps::$ps-must-not-be-accessed-before-initialization.html)
   + [typed static property %s::$%s must not be accessed before initialization](messages/typed-static-property-ps::$ps-must-not-be-accessed-before-initialization.html)
 + iterable
@@ -1373,6 +1386,7 @@
   + [cannot redeclare function %s() (previously declared as local import)](messages/cannot-redeclare-function-psqr-qpreviously-declared-as-local-importr.html)
   + [cannot use \'%s\' as namespace name](messages/cannot-use-\\ps\\-as-namespace-name.html)
   + [cannot use \'namespace\' as namespace name](messages/cannot-use-\\namespace\\-as-namespace-name.html)
+  + [declaring %s constant called namespace is deprecated](messages/declaring-ps-constant-called-namespace-is-deprecated.html)
   + [namespace %s is an invalid class name](messages/namespace-ps-is-an-invalid-class-name.html)
   + [namespace declaration statement has to be](messages/namespace-declaration-statement-has-to-be.html)
   + [namespace declarations cannot be nested](messages/namespace-declarations-cannot-be-nested.html)
@@ -1580,6 +1594,8 @@
   + [partial application of %s() expects at most %d arguments, %d given](messages/partial-application-of-psqr-expects-at-most-pd-arguments,-pd-given.html)
   + [variadic placeholder may only appear once](messages/variadic-placeholder-may-only-appear-once.html)
   + [variadic placeholder must be last](messages/variadic-placeholder-must-be-last.html)
++ partial-function-application
+  + [cannot call %ps() dynamically](messages/cannot-call-ppsqr-dynamically.html)
 + password-hashing
   + [must be less than 4294967295 bytes](messages/must-be-less-than-4294967295-bytes.html)
 + path
@@ -1614,6 +1630,8 @@
   + [syntax error, unexpected token ">"](messages/syntax-error,-unexpected-token->.html)
 + pipelining
   + [curlpipe_http1 is deprecated](messages/curlpipe\_http1-is-deprecated.html)
++ poll-api
+  + [io  poll  handle cannot be implemented by user classes](messages/io--poll--handle-cannot-be-implemented-by-user-classes.html)
 + polygon
   + [using the $num_points parameter is deprecated](messages/using-the-$num\_points-parameter-is-deprecated.html)
 + positive-integer
@@ -1742,6 +1760,7 @@
   + [cannot use [] for reading](messages/cannot-use-\[\]-for-reading.html)
 + readonly
   + [%s class %s cannot extend %s class %s](messages/ps-class-ps-cannot-extend-ps-class-ps.html)
+  + [calling a function “readonly” is deprecated](messages/calling-a-function-“readonly”-is-deprecated.html)
   + [cannot %s readonly property %s::$%s from %s%s](messages/cannot-ps-readonly-property-ps::$ps-from-psps.html)
   + [cannot acquire reference to $globals](messages/cannot-acquire-reference-to-$globals.html)
   + [cannot acquire reference to readonly property %s::$%s](messages/cannot-acquire-reference-to-readonly-property-ps::$ps.html)
@@ -2025,6 +2044,10 @@
   + [unlink of "%s" failed, file does not exist](messages/unlink-of-ps-failed,-file-does-not-exist.html)
 + stream-context
   + [using more than %d filters in a php:  filter url is deprecated](messages/using-more-than-pd-filters-in-a-php:--filter-url-is-deprecated.html)
++ stream-error-handling
+  + [stream context option error_mode must be of type streamerrormode](messages/stream-context-option-error\_mode-must-be-of-type-streamerrormode.html)
+  + [stream context option error_store must be of type streamerrorstore](messages/stream-context-option-error\_store-must-be-of-type-streamerrorstore.html)
+  + [stream error handler must be a valid callback, %s](messages/stream-error-handler-must-be-a-valid-callback,-ps.html)
 + stream-filter
   + [must be a concrete class](messages/must-be-a-concrete-class.html)
   + [stream filter %s is never seekable](messages/stream-filter-ps-is-never-seekable.html)
@@ -2163,6 +2186,8 @@
 + try-catch
   + [syntax error, unexpected \')\', expecting \'|\' or variable (t_variable)](messages/syntax-error,-unexpected-\\r\\,-expecting-\\|\\-or-variable-qt\_variabler.html)
   + [syntax error, unexpected token "#[", expecting ")"](messages/syntax-error,-unexpected-token-s\[,-expecting-r.html)
++ try-finally
+  + [returning from a finally block is deprecated](messages/returning-from-a-finally-block-is-deprecated.html)
 + type
   + [%s" will be interpreted as a class name. did you mean "%s"? write "%s"%s to suppress this warning](messages/ps-will-be-interpreted-as-a-class-name.-did-you-mean-ps?-write-psps-to-suppress-this-warning.html)
   + [%s(): implicitly marking parameter $%s as nullable is deprecated, the explicit nullable type must be used instead](messages/psqr:-implicitly-marking-parameter-$ps-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead.html)
