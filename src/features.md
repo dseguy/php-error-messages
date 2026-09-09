@@ -416,6 +416,8 @@
   + [cannot create dynamic property %s::$%s](messages/cannot-create-dynamic-property-ps::$ps.html)
   + [cannot inherit previously inherited or override constant %s from interface %s](messages/cannot-inherit-previously-inherited-or-override-constant-ps-from-interface-ps.html)
   + [cannot make non abstract method %s::%s() abstract in class %s](messages/cannot-make-non-abstract-method-ps::psqr-abstract-in-class-ps.html)
+  + [cannot redeclare %s %s (previously declared in %s:%d)](messages/cannot-redeclare-ps-ps-qpreviously-declared-in-ps:pdr.html)
+  + [cannot redeclare %s %s](messages/cannot-redeclare-ps-ps.html)
   + [cannot redeclare %s::$%s](messages/cannot-redeclare-ps::$ps.html)
   + [cannot redeclare %s::%s()](messages/cannot-redeclare-ps::psqr.html)
   + [cannot redeclare class %s](messages/cannot-redeclare-class-ps.html)
@@ -683,6 +685,7 @@
   + [get_defined_functions(): setting $exclude_disabled to false has no effect](messages/get\_defined\_functionsqr:-setting-$exclude\_disabled-to-false-has-no-effect.html)
   + [trait %s used by %s is deprecated%s](messages/trait-ps-used-by-ps-is-deprecatedps.html)
 + deprecation
+  + [calling %s() with 2 arguments is deprecated,](messages/calling-psqr-with-2-arguments-is-deprecated,.html)
   + [constant %s::%s is deprecated](messages/constant-ps::ps-is-deprecated.html)
   + [function %s() is deprecated%s](messages/function-psqr-is-deprecatedps.html)
   + [function libxml_disable_entity_loader() is deprecated since 8.0, as external entity loading is disabled by default](messages/function-libxml\_disable\_entity\_loaderqr-is-deprecated-since-8.0,-as-external-entity-loading-is-disabled-by-default.html)
@@ -714,6 +717,8 @@
   + [use of mbstring.http_input is deprecated](messages/use-of-mbstring.http\_input-is-deprecated.html)
   + [use of mbstring.http_output is deprecated](messages/use-of-mbstring.http\_output-is-deprecated.html)
   + [use of mbstring.internal_encoding is deprecated](messages/use-of-mbstring.internal\_encoding-is-deprecated.html)
++ disable_functions
+  + [cannot disable function %s()](messages/cannot-disable-function-psqr.html)
 + division
   + [negative power of zero](messages/negative-power-of-zero.html)
 + dnf-type
@@ -774,6 +779,8 @@
   + [cannot apply #[allowdynamicproperties] to enum %s](messages/cannot-apply-s\[allowdynamicproperties\]-to-enum-ps.html)
   + [cannot create dynamic property %s::$%s](messages/cannot-create-dynamic-property-ps::$ps.html)
   + [cannot instantiate enum %s](messages/cannot-instantiate-enum-ps.html)
+  + [cannot redeclare %s %s (previously declared in %s:%d)](messages/cannot-redeclare-ps-ps-qpreviously-declared-in-ps:pdr.html)
+  + [cannot redeclare %s %s](messages/cannot-redeclare-ps-ps.html)
   + [cannot redeclare %s::%s()](messages/cannot-redeclare-ps::psqr.html)
   + [cannot use trait %s](messages/cannot-use-trait-ps.html)
   + [case %s of backed enum %s must have a value](messages/case-ps-of-backed-enum-ps-must-have-a-value.html)
@@ -1101,6 +1108,8 @@
   + [cannot apply #[allowdynamicproperties] to interface %s](messages/cannot-apply-s\[allowdynamicproperties\]-to-interface-ps.html)
   + [cannot inherit previously inherited or override constant %s from interface %s](messages/cannot-inherit-previously-inherited-or-override-constant-ps-from-interface-ps.html)
   + [cannot instantiate interface %s](messages/cannot-instantiate-interface-ps.html)
+  + [cannot redeclare %s %s (previously declared in %s:%d)](messages/cannot-redeclare-ps-ps-qpreviously-declared-in-ps:pdr.html)
+  + [cannot redeclare %s %s](messages/cannot-redeclare-ps-ps.html)
   + [cannot use traits inside of interfaces. %s is used in %s](messages/cannot-use-traits-inside-of-interfaces.-ps-is-used-in-ps.html)
   + [class %s cannot implement previously implemented interface %s](messages/class-ps-cannot-implement-previously-implemented-interface-ps.html)
   + [class %s must implement interface %s as part of either %s or %s](messages/class-ps-must-implement-interface-ps-as-part-of-either-ps-or-ps.html)
@@ -1344,6 +1353,7 @@
   + [the connection has no charset associated](messages/the-connection-has-no-charset-associated.html)
 + mysqli
   + [passing connection object as an argument is deprecated](messages/passing-connection-object-as-an-argument-is-deprecated.html)
+  + [passing the $mode parameter is deprecated since 8.4, as it has been ignored since 8.1](messages/passing-the-$mode-parameter-is-deprecated-since-8.4,-as-it-has-been-ignored-since-8.1.html)
 + mysqli-options
   + [must be mysqli_init_command, mysqli_set_charset_name, mysqli_server_public_key, or one of the mysqli_opt_* constants](messages/must-be-mysqli\_init\_command,-mysqli\_set\_charset\_name,-mysqli\_server\_public\_key,-or-one-of-the-mysqli\_opt\_\*-constants.html)
 + name
@@ -1515,6 +1525,8 @@
   + [cannot use $this as static variable](messages/cannot-use-$this-as-static-variable.html)
   + [cannot use  "parent " when current class scope has no parent](messages/cannot-use--parent--when-current-class-scope-has-no-parent.html)
   + [cannot use  "parent " when no class scope is active](messages/cannot-use--parent--when-no-class-scope-is-active.html)
++ opcache
+  + [cannot redeclare function %s()](messages/cannot-redeclare-function-psqr.html)
 + open-tag
   + [cannot modify header information   headers already sent](messages/cannot-modify-header-information---headers-already-sent.html)
 + open_basedir
@@ -1609,12 +1621,15 @@
   + [%s(): return value of the authorizer callback must be of type int, %s returned](messages/psqr:-return-value-of-the-authorizer-callback-must-be-of-type-int,-ps-returned.html)
   + [%s(): return value of the collation callback must be of type int, %s returned](messages/psqr:-return-value-of-the-collation-callback-must-be-of-type-int,-ps-returned.html)
   + [cannot change default fetch mode while fetching](messages/cannot-change-default-fetch-mode-while-fetching.html)
+  + [the pdo extension must be loaded first in order to load pdo drivers](messages/the-pdo-extension-must-be-loaded-first-in-order-to-load-pdo-drivers.html)
 + pgsql
   + [automatic fetching of postgresql connection is deprecated](messages/automatic-fetching-of-postgresql-connection-is-deprecated.html)
+  + [calling pg_fetch_result() with 2 arguments is deprecated,](messages/calling-pg\_fetch\_resultqr-with-2-arguments-is-deprecated,.html)
   + [must be one of pgsql_assoc, pgsql_num, or pgsql_both](messages/must-be-one-of-pgsql\_assoc,-pgsql\_num,-or-pgsql\_both.html)
   + [must be one of pgsql_notice_last, pgsql_notice_all, or pgsql_notice_clear](messages/must-be-one-of-pgsql\_notice\_last,-pgsql\_notice\_all,-or-pgsql\_notice\_clear.html)
 + phar
   + [entry %s does not exist and cannot be deleted](messages/entry-ps-does-not-exist-and-cannot-be-deleted.html)
+  + [iterator %s returned an invalid value (must return a string, a stream, or an splfileinfo object)](messages/iterator-ps-returned-an-invalid-value-qmust-return-a-string,-a-stream,-or-an-splfileinfo-objectr.html)
   + [unlink of "%s" failed, file does not exist](messages/unlink-of-ps-failed,-file-does-not-exist.html)
 + php-variable
   + [undefined variable](messages/undefined-variable.html)
@@ -1818,6 +1833,7 @@
   + [attribute class "%s" not found](messages/attribute-class-ps-not-found.html)
   + [calling %ps() with a 1st argument which is not null or an object is deprecated](messages/calling-ppsqr-with-a-1st-argument-which-is-not-null-or-an-object-is-deprecated.html)
   + [calling %ps() with a single argument is deprecated](messages/calling-ppsqr-with-a-single-argument-is-deprecated.html)
+  + [calling reflectionmethod::__construct() with 1 argument is deprecated,](messages/calling-reflectionmethod::\_\_constructqr-with-1-argument-is-deprecated,.html)
   + [cannot be null when argument #1 ($objectormethod) is an object](messages/cannot-be-null-when-argument-s1-q$objectormethodr-is-an-object.html)
   + [cannot use %s() on dynamic property %ps::$%ps](messages/cannot-use-psqr-on-dynamic-property-pps::$pps.html)
   + [cannot use %s() on internal class %ps](messages/cannot-use-psqr-on-internal-class-pps.html)
@@ -2055,6 +2071,8 @@
   + [stream filter seeking for %s failed](messages/stream-filter-seeking-for-ps-failed.html)
 + stream-wrapper
   + [must be a concrete class](messages/must-be-a-concrete-class.html)
++ streams
+  + [calling stream_context_set_option() with 2 arguments is deprecated,](messages/calling-stream\_context\_set\_optionqr-with-2-arguments-is-deprecated,.html)
 + strict_types
   + [can only flip string and integer values, entry skipped](messages/can-only-flip-string-and-integer-values,-entry-skipped.html)
   + [cannot assign %s to property %s::$%s of type %s](messages/cannot-assign-ps-to-property-ps::$ps-of-type-ps.html)
@@ -2152,6 +2170,8 @@
   + [cannot access trait constant %s::%s directly](messages/cannot-access-trait-constant-ps::ps-directly.html)
   + [cannot apply #[allowdynamicproperties] to trait %s](messages/cannot-apply-s\[allowdynamicproperties\]-to-trait-ps.html)
   + [cannot instantiate trait %s](messages/cannot-instantiate-trait-ps.html)
+  + [cannot redeclare %s %s (previously declared in %s:%d)](messages/cannot-redeclare-ps-ps-qpreviously-declared-in-ps:pdr.html)
+  + [cannot redeclare %s %s](messages/cannot-redeclare-ps-ps.html)
   + [cannot use  "abstract " as method modifier in trait alias](messages/cannot-use--abstract--as-method-modifier-in-trait-alias.html)
   + [cannot use  "static " as method modifier in trait alias](messages/cannot-use--static--as-method-modifier-in-trait-alias.html)
   + [cannot use trait %s](messages/cannot-use-trait-ps.html)

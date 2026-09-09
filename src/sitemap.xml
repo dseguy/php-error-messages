@@ -686,6 +686,11 @@
   <changefreq>yearly</changefreq>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/calling-psqr-with-2-arguments-is-deprecated,.html</loc>
+  <lastmod>2026-09-09T14:14:08+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/calling-a-function-%E2__readonly%E2__-is-deprecated.html</loc>
   <lastmod>2026-09-04T14:35:08+00:00</lastmod>
   <changefreq>yearly</changefreq>
@@ -751,8 +756,23 @@
   <changefreq>yearly</changefreq>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/calling-pg_fetch_resultqr-with-2-arguments-is-deprecated,.html</loc>
+  <lastmod>2026-09-09T14:13:47+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/calling-reflectionmethod::__constructqr-with-1-argument-is-deprecated,.html</loc>
+  <lastmod>2026-09-09T14:13:54+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/calling-static-trait-method-ps::ps-is-deprecated.html</loc>
   <lastmod>2026-03-31T09:10:46+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/calling-stream_context_set_optionqr-with-2-arguments-is-deprecated,.html</loc>
+  <lastmod>2026-09-09T14:14:00+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -1071,6 +1091,11 @@
   <changefreq>yearly</changefreq>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-disable-function-psqr.html</loc>
+  <lastmod>2026-09-09T14:14:24+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-increment-property-ps::$ps-of-type-int-past-its-maximal-value.html</loc>
   <lastmod>2026-03-31T09:10:46+00:00</lastmod>
   <changefreq>yearly</changefreq>
@@ -1211,6 +1236,16 @@
   <changefreq>yearly</changefreq>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-ps-ps-qpreviously-declared-in-ps:pdr.html</loc>
+  <lastmod>2026-09-09T14:14:33+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-ps-ps.html</loc>
+  <lastmod>2026-09-09T14:14:39+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-ps-property-ps::$ps-as-ps-ps::$ps.html</loc>
   <lastmod>2026-08-05T14:00:09+00:00</lastmod>
   <changefreq>yearly</changefreq>
@@ -1243,6 +1278,11 @@
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-function-psqr-qpreviously-declared-in-ps:pdr.html</loc>
   <lastmod>2026-08-05T14:00:09+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-redeclare-function-psqr.html</loc>
+  <lastmod>2026-09-09T14:14:49+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -2541,6 +2581,11 @@
   <changefreq>yearly</changefreq>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/iterator-ps-returned-an-invalid-value-qmust-return-a-string,-a-stream,-or-an-splfileinfo-objectr.html</loc>
+  <lastmod>2026-09-09T14:14:59+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/iterator-does-not-support-rewinding.html</loc>
   <lastmod>2026-05-26T21:18:41+00:00</lastmod>
   <changefreq>yearly</changefreq>
@@ -3298,6 +3343,11 @@
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/passing-null-is-deprecated,-instead-the-last-opened-directory-stream-should-be-provided.html</loc>
   <lastmod>2026-03-31T09:10:46+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/passing-the-$mode-parameter-is-deprecated-since-8.4,-as-it-has-been-ignored-since-8.1.html</loc>
+  <lastmod>2026-09-09T14:15:08+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -4428,6 +4478,11 @@
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-parent-constructor-was-not-called:-the-object-is-in-an-invalid-state.html</loc>
   <lastmod>2026-03-31T09:10:47+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-pdo-extension-must-be-loaded-first-in-order-to-load-pdo-drivers.html</loc>
+  <lastmod>2026-09-09T14:15:21+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>

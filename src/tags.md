@@ -72,6 +72,9 @@
   + [%s %s inherits both %s::%s and %s::%s](messages/ps-ps-inherits-both-ps::ps-and-ps::ps.html)
 + compile error
   + [cannot use empty list](messages/cannot-use-empty-list.html)
++ configuration
+  + [cannot disable function %s()](messages/cannot-disable-function-psqr.html)
+  + [the pdo extension must be loaded first in order to load pdo drivers](messages/the-pdo-extension-must-be-loaded-first-in-order-to-load-pdo-drivers.html)
 + confusion
   + [%s" will be interpreted as a class name. did you mean "%s"? write "%s"%s to suppress this warning](messages/ps-will-be-interpreted-as-a-class-name.-did-you-mean-ps?-write-psps-to-suppress-this-warning.html)
 + const
@@ -106,6 +109,7 @@
   + [parameter $%s of %s hook %s::$%s must not have a default value](messages/parameter-$ps-of-ps-hook-ps::$ps-must-not-have-a-default-value.html)
 + deprecated
   + [auto_detect_line_endings is deprecated](messages/auto\_detect\_line\_endings-is-deprecated.html)
+  + [calling %s() with 2 arguments is deprecated,](messages/calling-psqr-with-2-arguments-is-deprecated,.html)
   + [calling dba_fetch() with $dba at the 3rd parameter is deprecated](messages/calling-dba\_fetchqr-with-$dba-at-the-3rd-parameter-is-deprecated.html)
   + [calling ffi::cast() statically is deprecated](messages/calling-ffi::castqr-statically-is-deprecated.html)
   + [calling ffi::new() statically is deprecated](messages/calling-ffi::newqr-statically-is-deprecated.html)
@@ -114,8 +118,12 @@
   + [calling intlgregoriancalendar::__construct() with more than 2 arguments is deprecated,](messages/calling-intlgregoriancalendar::\_\_constructqr-with-more-than-2-arguments-is-deprecated,.html)
   + [calling ldap_connect() with oracle specific arguments is deprecated](messages/calling-ldap\_connectqr-with-oracle-specific-arguments-is-deprecated.html)
   + [calling ldap_exop() with more than 4 arguments is deprecated, use ldap_exop_sync() instead](messages/calling-ldap\_exopqr-with-more-than-4-arguments-is-deprecated,-use-ldap\_exop\_syncqr-instead.html)
+  + [calling pg_fetch_result() with 2 arguments is deprecated,](messages/calling-pg\_fetch\_resultqr-with-2-arguments-is-deprecated,.html)
+  + [calling reflectionmethod::__construct() with 1 argument is deprecated,](messages/calling-reflectionmethod::\_\_constructqr-with-1-argument-is-deprecated,.html)
+  + [calling stream_context_set_option() with 2 arguments is deprecated,](messages/calling-stream\_context\_set\_optionqr-with-2-arguments-is-deprecated,.html)
   + [function libxml_disable_entity_loader() is deprecated since 8.0, as external entity loading is disabled by default](messages/function-libxml\_disable\_entity\_loaderqr-is-deprecated-since-8.0,-as-external-entity-loading-is-disabled-by-default.html)
   + [looking up the dsn from a uri is deprecated due to possible security concerns with dsns coming from remote uris](messages/looking-up-the-dsn-from-a-uri-is-deprecated-due-to-possible-security-concerns-with-dsns-coming-from-remote-uris.html)
+  + [passing the $mode parameter is deprecated since 8.4, as it has been ignored since 8.1](messages/passing-the-$mode-parameter-is-deprecated-since-8.4,-as-it-has-been-ignored-since-8.1.html)
   + [the (real) cast is deprecated, use (float) instead](messages/the-qrealr-cast-is-deprecated,-use-qfloatr-instead.html)
   + [usage of ldap_connect with two arguments is deprecated](messages/usage-of-ldap\_connect-with-two-arguments-is-deprecated.html)
 + deprecation
@@ -190,6 +198,8 @@
   + [module "%s" is already loaded](messages/module-ps-is-already-loaded.html)
   + [must not contain empty strings](messages/must-not-contain-empty-strings.html)
   + [security level must be one of "noauthnopriv", "authnopriv", or "authpriv](messages/security-level-must-be-one-of-noauthnopriv,-authnopriv,-or-authpriv.html)
++ extension-loading
+  + [the pdo extension must be loaded first in order to load pdo drivers](messages/the-pdo-extension-must-be-loaded-first-in-order-to-load-pdo-drivers.html)
 + fetch
   + [cannot change default fetch mode while fetching](messages/cannot-change-default-fetch-mode-while-fetching.html)
 + file
@@ -249,6 +259,7 @@
   + [must be no longer than %d characters](messages/must-be-no-longer-than-pd-characters.html)
   + [must be one of intlnumberrangeformatter::identity_fallback_single_value, ::identity_fallback_approximately_or_single_value, ::identity_fallback_approximately, or ::identity_fallback_range](messages/must-be-one-of-intlnumberrangeformatter::identity\_fallback\_single\_value,-::identity\_fallback\_approximately\_or\_single\_value,-::identity\_fallback\_approximately,-or-::identity\_fallback\_range.html)
 + iterator
+  + [iterator %s returned an invalid value (must return a string, a stream, or an splfileinfo object)](messages/iterator-ps-returned-an-invalid-value-qmust-return-a-string,-a-stream,-or-an-splfileinfo-objectr.html)
   + [iterator does not support rewinding](messages/iterator-does-not-support-rewinding.html)
 + keyword
   + [cannot use \'mixed\' as class name as it is reserved](messages/cannot-use-\\mixed\\-as-class-name-as-it-is-reserved.html)
@@ -308,6 +319,7 @@
   + [providing individual callbacks instead of an object implementing sessionhandlerinterface is deprecated](messages/providing-individual-callbacks-instead-of-an-object-implementing-sessionhandlerinterface-is-deprecated.html)
 + mysqli
   + [must be mysqli_init_command, mysqli_set_charset_name, mysqli_server_public_key, or one of the mysqli_opt_* constants](messages/must-be-mysqli\_init\_command,-mysqli\_set\_charset\_name,-mysqli\_server\_public\_key,-or-one-of-the-mysqli\_opt\_\*-constants.html)
+  + [passing the $mode parameter is deprecated since 8.4, as it has been ignored since 8.1](messages/passing-the-$mode-parameter-is-deprecated-since-8.4,-as-it-has-been-ignored-since-8.1.html)
 + name
   + [syntax error, unexpected identifier "%s"](messages/syntax-error,-unexpected-identifier-ps.html)
 + named-parameter
@@ -359,6 +371,8 @@
   + [illegal string offset](messages/illegal-string-offset.html)
 + old behavior
   + [creating default object from empty value](messages/creating-default-object-from-empty-value.html)
++ opcache
+  + [cannot redeclare function %s()](messages/cannot-redeclare-function-psqr.html)
 + openssl
   + [must be openssl_encoding_der or openssl_encoding_pem](messages/must-be-openssl\_encoding\_der-or-openssl\_encoding\_pem.html)
   + [must not exceed %d bytes](messages/must-not-exceed-pd-bytes.html)
@@ -367,6 +381,11 @@
   + [the behavior of unparenthesized expressions containing both \'.\' and \'<<\' \'>>\' will change in php 8: \'<<\' \'>>\' will take a higher precedence](messages/the-behavior-of-unparenthesized-expressions-containing-both-\\.\\-and-\\<<\\-\\>>\\-will-change-in-php-8:-\\<<\\-\\>>\\-will-take-a-higher-precedence.html)
 + overloaded signature
   + [calling dateperiod::__construct(string $isostr, int $options = 0) is deprecated,](messages/calling-dateperiod::\_\_constructqstring-$isostr,-int-$options-=-0r-is-deprecated,.html)
++ overloaded-signature
+  + [calling %s() with 2 arguments is deprecated,](messages/calling-psqr-with-2-arguments-is-deprecated,.html)
+  + [calling pg_fetch_result() with 2 arguments is deprecated,](messages/calling-pg\_fetch\_resultqr-with-2-arguments-is-deprecated,.html)
+  + [calling reflectionmethod::__construct() with 1 argument is deprecated,](messages/calling-reflectionmethod::\_\_constructqr-with-1-argument-is-deprecated,.html)
+  + [calling stream_context_set_option() with 2 arguments is deprecated,](messages/calling-stream\_context\_set\_optionqr-with-2-arguments-is-deprecated,.html)
 + p
   + [class %s cannot use %s   it is not a trait](messages/class-ps-cannot-use-ps---it-is-not-a-trait.html)
 + parameter value error
@@ -382,6 +401,11 @@
   + [%s(): return value of the authorizer callback must be of type int, %s returned](messages/psqr:-return-value-of-the-authorizer-callback-must-be-of-type-int,-ps-returned.html)
   + [%s(): return value of the collation callback must be of type int, %s returned](messages/psqr:-return-value-of-the-collation-callback-must-be-of-type-int,-ps-returned.html)
   + [cannot change default fetch mode while fetching](messages/cannot-change-default-fetch-mode-while-fetching.html)
+  + [the pdo extension must be loaded first in order to load pdo drivers](messages/the-pdo-extension-must-be-loaded-first-in-order-to-load-pdo-drivers.html)
++ pgsql
+  + [calling pg_fetch_result() with 2 arguments is deprecated,](messages/calling-pg\_fetch\_resultqr-with-2-arguments-is-deprecated,.html)
++ phar
+  + [iterator %s returned an invalid value (must return a string, a stream, or an splfileinfo object)](messages/iterator-ps-returned-an-invalid-value-qmust-return-a-string,-a-stream,-or-an-splfileinfo-objectr.html)
 + php://filter
   + [using more than %d filters in a php:  filter url is deprecated](messages/using-more-than-pd-filters-in-a-php:--filter-url-is-deprecated.html)
 + polling
@@ -411,7 +435,10 @@
   + [cannot acquire reference to readonly property %s::$%s](messages/cannot-acquire-reference-to-readonly-property-ps::$ps.html)
 + redeclare
   + [cannot redeclare %s() (previously declared in %s:%d)](messages/cannot-redeclare-psqr-qpreviously-declared-in-ps:pdr.html)
+  + [cannot redeclare %s %s (previously declared in %s:%d)](messages/cannot-redeclare-ps-ps-qpreviously-declared-in-ps:pdr.html)
+  + [cannot redeclare %s %s](messages/cannot-redeclare-ps-ps.html)
   + [cannot redeclare function %s() (previously declared in %s:%d)](messages/cannot-redeclare-function-psqr-qpreviously-declared-in-ps:pdr.html)
+  + [cannot redeclare function %s()](messages/cannot-redeclare-function-psqr.html)
 + reference
   + [%s(): argument #%d%s%s%s cannot be passed by reference](messages/psqr:-argument-spdpspsps-cannot-be-passed-by-reference.html)
   + [cannot acquire reference to $globals](messages/cannot-acquire-reference-to-$globals.html)
@@ -420,6 +447,7 @@
 + reflection
   + [calling %ps() with a 1st argument which is not null or an object is deprecated](messages/calling-ppsqr-with-a-1st-argument-which-is-not-null-or-an-object-is-deprecated.html)
   + [calling %ps() with a single argument is deprecated](messages/calling-ppsqr-with-a-single-argument-is-deprecated.html)
+  + [calling reflectionmethod::__construct() with 1 argument is deprecated,](messages/calling-reflectionmethod::\_\_constructqr-with-1-argument-is-deprecated,.html)
   + [cannot use %s() on dynamic property %ps::$%ps](messages/cannot-use-psqr-on-dynamic-property-pps::$pps.html)
   + [cannot use %s() on internal class %ps](messages/cannot-use-psqr-on-internal-class-pps.html)
   + [cannot use %s() on static property %ps::$%ps](messages/cannot-use-psqr-on-static-property-pps::$pps.html)
@@ -454,6 +482,7 @@
   + [cannot unbind $this of closure using $this, this will be an error in php 9](messages/cannot-unbind-$this-of-closure-using-$this,-this-will-be-an-error-in-php-9.html)
   + [cannot unbind $this of method, this will be an error in php 9](messages/cannot-unbind-$this-of-method,-this-will-be-an-error-in-php-9.html)
 + security
+  + [cannot disable function %s()](messages/cannot-disable-function-psqr.html)
   + [looking up the dsn from a uri is deprecated due to possible security concerns with dsns coming from remote uris](messages/looking-up-the-dsn-from-a-uri-is-deprecated-due-to-possible-security-concerns-with-dsns-coming-from-remote-uris.html)
   + [maximum depth of %d exceeded. the depth limit can be changed using the max_depth unserialize() option](messages/maximum-depth-of-pd-exceeded.-the-depth-limit-can-be-changed-using-the-max\_depth-unserializeqr-option.html)
   + [using more than %d filters in a php:  filter url is deprecated](messages/using-more-than-pd-filters-in-a-php:--filter-url-is-deprecated.html)
@@ -500,6 +529,7 @@
   + [stream filter %s is seekable only to start position](messages/stream-filter-ps-is-seekable-only-to-start-position.html)
   + [stream filter seeking for %s failed](messages/stream-filter-seeking-for-ps-failed.html)
 + streams
+  + [calling stream_context_set_option() with 2 arguments is deprecated,](messages/calling-stream\_context\_set\_optionqr-with-2-arguments-is-deprecated,.html)
   + [io  poll  handle cannot be implemented by user classes](messages/io--poll--handle-cannot-be-implemented-by-user-classes.html)
   + [must be a concrete class](messages/must-be-a-concrete-class.html)
   + [stream context option error_mode must be of type streamerrormode](messages/stream-context-option-error\_mode-must-be-of-type-streamerrormode.html)
