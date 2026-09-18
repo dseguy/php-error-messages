@@ -482,7 +482,7 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported.html</loc>
-  <lastmod>2026-03-31T09:10:45+00:00</lastmod>
+  <lastmod>2026-09-18T15:51:07+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -1177,7 +1177,12 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-override-final-ps::psqr-with-ps::psqr.html</loc>
-  <lastmod>2026-03-31T09:10:46+00:00</lastmod>
+  <lastmod>2026-09-18T15:51:14+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-override-final-ps::__constructqr-with-ps::__constructqr.html</loc>
+  <lastmod>2026-09-18T15:47:06+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -1876,6 +1881,16 @@
   <changefreq>yearly</changefreq>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/class-ps-implementing-sessionhandlerinterface-is-missing-the-create_sidqr-method-which-will-be-required-in-php-9.0.html</loc>
+  <lastmod>2026-09-18T15:50:02+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/class-ps-implementing-sessionhandlerinterface-is-missing-the-validateidqr-method-which-will-be-required-in-php-9.0.html</loc>
+  <lastmod>2026-09-18T15:50:04+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/class-ps-is-not-a-trait.html</loc>
   <lastmod>2026-03-31T09:10:46+00:00</lastmod>
   <changefreq>yearly</changefreq>
@@ -2048,6 +2063,16 @@
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/default-value-for-property-of-type-int-may-not-be-null.-use-the-nullable-type-%3Fint-to-allow-null-default-value.html</loc>
   <lastmod>2026-03-31T09:10:46+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/defineqr:-argument-s3-q$case_insensitiver-is-ignored-and-treated-as-false-since-declaration-of-case-insensitive-constants-is-no-longer-supported,-passing-the-argument-explicitly-is-unnecessary.html</loc>
+  <lastmod>2026-09-18T15:50:06+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/defineqr:-argument-s3-q$case_insensitiver-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported,-this-will-be-an-error-in-php-9.0.html</loc>
+  <lastmod>2026-09-18T15:50:08+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -2278,6 +2303,11 @@
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/func_num_argsqr-must-be-called-from-a-function-context.html</loc>
   <lastmod>2026-03-31T09:10:46+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/function-ppsqr-does-not-exist.html</loc>
+  <lastmod>2026-09-18T15:47:40+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -2648,6 +2678,11 @@
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/maximum-execution-time-of-pd-secondps-exceeded.html</loc>
   <lastmod>2026-03-31T09:10:46+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/method-pps::ppsqr-does-not-exist.html</loc>
+  <lastmod>2026-09-18T15:47:44+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -3586,6 +3621,11 @@
   <changefreq>yearly</changefreq>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/serialization-of-ps-is-not-allowed,-override-__serializeqr-and-__unserializeqr-to-implement-it.html</loc>
+  <lastmod>2026-09-18T15:50:29+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/session-callback-must-have-a-return-value-of-type-bool,-ps-returned.html</loc>
   <lastmod>2026-08-11T20:55:34+00:00</lastmod>
   <changefreq>yearly</changefreq>
@@ -4136,6 +4176,11 @@
   <changefreq>yearly</changefreq>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-%3F,-expecting-identifier.html</loc>
+  <lastmod>2026-09-18T15:48:03+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-%3F.html</loc>
   <lastmod>2026-03-31T09:10:46+00:00</lastmod>
   <changefreq>yearly</changefreq>
@@ -4316,8 +4361,18 @@
   <changefreq>yearly</changefreq>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-{,-expecting-r.html</loc>
+  <lastmod>2026-09-18T15:51:02+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-{,-expecting-,-or-;.html</loc>
   <lastmod>2026-03-31T09:10:46+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-{,-expecting-;.html</loc>
+  <lastmod>2026-09-18T15:51:05+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -4327,7 +4382,7 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/syntax-error,-unexpected-token-{.html</loc>
-  <lastmod>2026-03-31T09:10:46+00:00</lastmod>
+  <lastmod>2026-09-18T15:51:11+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -4503,6 +4558,31 @@
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-return-value-of-method-ps::psqr-should-either-be-used-or-intentionally-ignored-by-casting-it-as-qvoidrps.html</loc>
   <lastmod>2026-03-31T09:10:47+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-specified-ps-is-malformedpspsps.html</loc>
+  <lastmod>2026-09-18T15:50:38+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-specified-ps-is-malformed.html</loc>
+  <lastmod>2026-09-18T15:50:38+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-specified-url-cannot-have-password.html</loc>
+  <lastmod>2026-09-18T15:50:38+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-specified-url-cannot-have-port.html</loc>
+  <lastmod>2026-09-18T15:50:38+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-specified-url-cannot-have-username.html</loc>
+  <lastmod>2026-09-18T15:50:38+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -4833,6 +4913,11 @@
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/unparenthesized-`a-%3F:-b-%3F-c-:-d`-is-not-supported..html</loc>
   <lastmod>2026-08-06T08:58:33+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/unserialization-of-ps-is-not-allowed,-override-__serializeqr-and-__unserializeqr-to-implement-it.html</loc>
+  <lastmod>2026-09-18T15:50:33+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>

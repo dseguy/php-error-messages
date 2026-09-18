@@ -82,10 +82,13 @@
   + [cannot redeclare constant \'%s\'](messages/cannot-redeclare-constant-\\ps\\.html)
 + constant
   + ["static::" is not allowed in compile time constants](messages/static::-is-not-allowed-in-compile-time-constants.html)
+  + [define(): argument #3 ($case_insensitive) is ignored and treated as false since declaration of case insensitive constants is no longer supported, passing the argument explicitly is unnecessary](messages/defineqr:-argument-s3-q$case\_insensitiver-is-ignored-and-treated-as-false-since-declaration-of-case-insensitive-constants-is-no-longer-supported,-passing-the-argument-explicitly-is-unnecessary.html)
+  + [define(): argument #3 ($case_insensitive) is ignored since declaration of case insensitive constants is no longer supported, this will be an error in php 9.0](messages/defineqr:-argument-s3-q$case\_insensitiver-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported,-this-will-be-an-error-in-php-9.0.html)
   + [undefined constant "%s](messages/undefined-constant-ps.html)
 + constructor
   + [calling dateperiod::__construct(string $isostr, int $options = 0) is deprecated,](messages/calling-dateperiod::\_\_constructqstring-$isostr,-int-$options-=-0r-is-deprecated,.html)
   + [calling intlgregoriancalendar::__construct() with more than 2 arguments is deprecated,](messages/calling-intlgregoriancalendar::\_\_constructqr-with-more-than-2-arguments-is-deprecated,.html)
+  + [cannot override final %s::__construct() with %s::__construct()](messages/cannot-override-final-ps::\_\_constructqr-with-ps::\_\_constructqr.html)
   + [intllistformatter object is already constructed](messages/intllistformatter-object-is-already-constructed.html)
   + [making a constructor a generator is deprecated](messages/making-a-constructor-a-generator-is-deprecated.html)
   + [returning a value from a constructor is deprecated](messages/returning-a-value-from-a-constructor-is-deprecated.html)
@@ -107,6 +110,9 @@
   + [namespace declaration statement has to be](messages/namespace-declaration-statement-has-to-be.html)
 + default value
   + [parameter $%s of %s hook %s::$%s must not have a default value](messages/parameter-$ps-of-ps-hook-ps::$ps-must-not-have-a-default-value.html)
++ define
+  + [define(): argument #3 ($case_insensitive) is ignored and treated as false since declaration of case insensitive constants is no longer supported, passing the argument explicitly is unnecessary](messages/defineqr:-argument-s3-q$case\_insensitiver-is-ignored-and-treated-as-false-since-declaration-of-case-insensitive-constants-is-no-longer-supported,-passing-the-argument-explicitly-is-unnecessary.html)
+  + [define(): argument #3 ($case_insensitive) is ignored since declaration of case insensitive constants is no longer supported, this will be an error in php 9.0](messages/defineqr:-argument-s3-q$case\_insensitiver-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported,-this-will-be-an-error-in-php-9.0.html)
 + deprecated
   + [auto_detect_line_endings is deprecated](messages/auto\_detect\_line\_endings-is-deprecated.html)
   + [calling %s() with 2 arguments is deprecated,](messages/calling-psqr-with-2-arguments-is-deprecated,.html)
@@ -209,6 +215,8 @@
   + [must be one of the pathinfo_* constants](messages/must-be-one-of-the-pathinfo\_\*-constants.html)
   + [must be one of the scandir_sort_ascending, scandir_sort_descending, or scandir_sort_none constants](messages/must-be-one-of-the-scandir\_sort\_ascending,-scandir\_sort\_descending,-or-scandir\_sort\_none-constants.html)
   + [must be only one of the pathinfo_* constants](messages/must-be-only-one-of-the-pathinfo\_\*-constants.html)
++ final
+  + [cannot override final %s::__construct() with %s::__construct()](messages/cannot-override-final-ps::\_\_constructqr-with-ps::\_\_constructqr.html)
 + finally
   + [cannot use try without catch or finally](messages/cannot-use-try-without-catch-or-finally.html)
 + forbidden
@@ -247,6 +255,9 @@
   + [%s(): implicitly marking parameter $%s as nullable is deprecated, the explicit nullable type must be used instead](messages/psqr:-implicitly-marking-parameter-$ps-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead.html)
 + ini
   + [auto_detect_line_endings is deprecated](messages/auto\_detect\_line\_endings-is-deprecated.html)
++ interface
+  + [class %s implementing sessionhandlerinterface is missing the create_sid() method which will be required in php 9.0](messages/class-ps-implementing-sessionhandlerinterface-is-missing-the-create\_sidqr-method-which-will-be-required-in-php-9.0.html)
+  + [class %s implementing sessionhandlerinterface is missing the validateid() method which will be required in php 9.0](messages/class-ps-implementing-sessionhandlerinterface-is-missing-the-validateidqr-method-which-will-be-required-in-php-9.0.html)
 + internal
   + [parameter must have a name](messages/parameter-must-have-a-name.html)
 + intersection
@@ -452,6 +463,8 @@
   + [cannot use %s() on internal class %ps](messages/cannot-use-psqr-on-internal-class-pps.html)
   + [cannot use %s() on static property %ps::$%ps](messages/cannot-use-psqr-on-static-property-pps::$pps.html)
   + [cannot use %s() on virtual property %ps::$%ps](messages/cannot-use-psqr-on-virtual-property-pps::$pps.html)
+  + [function %ps() does not exist](messages/function-ppsqr-does-not-exist.html)
+  + [method %ps::%ps() does not exist](messages/method-pps::ppsqr-does-not-exist.html)
   + [reflectionclass::getconstant() for a non existent constant is deprecated,](messages/reflectionclass::getconstantqr-for-a-non-existent-constant-is-deprecated,.html)
   + [reflectionproperty::getdefaultvalue() for a property without a default value is deprecated,](messages/reflectionproperty::getdefaultvalueqr-for-a-property-without-a-default-value-is-deprecated,.html)
   + [value for class is not a string](messages/value-for-class-is-not-a-string.html)
@@ -488,6 +501,12 @@
   + [using more than %d filters in a php:  filter url is deprecated](messages/using-more-than-pd-filters-in-a-php:--filter-url-is-deprecated.html)
 + serialization
   + [cannot deserialize arrayobject with iterator class %s; this class is not derived from arrayiterator](messages/cannot-deserialize-arrayobject-with-iterator-class-ps;-this-class-is-not-derived-from-arrayiterator.html)
++ serialize
+  + [serialization of %s is not allowed, override __serialize() and __unserialize() to implement it](messages/serialization-of-ps-is-not-allowed,-override-\_\_serializeqr-and-\_\_unserializeqr-to-implement-it.html)
+  + [unserialization of %s is not allowed, override __serialize() and __unserialize() to implement it](messages/unserialization-of-ps-is-not-allowed,-override-\_\_serializeqr-and-\_\_unserializeqr-to-implement-it.html)
++ session
+  + [class %s implementing sessionhandlerinterface is missing the create_sid() method which will be required in php 9.0](messages/class-ps-implementing-sessionhandlerinterface-is-missing-the-create\_sidqr-method-which-will-be-required-in-php-9.0.html)
+  + [class %s implementing sessionhandlerinterface is missing the validateid() method which will be required in php 9.0](messages/class-ps-implementing-sessionhandlerinterface-is-missing-the-validateidqr-method-which-will-be-required-in-php-9.0.html)
 + shutdown
   + [call to %s %s::__destruct() from global scope during shutdown ignored](messages/call-to-ps-ps::\_\_destructqr-from-global-scope-during-shutdown-ignored.html)
 + silent-cast
@@ -644,6 +663,7 @@
   + [syntax error, unexpected token "=", expecting variable](messages/syntax-error,-unexpected-token-=,-expecting-variable.html)
   + [syntax error, unexpected token "="](messages/syntax-error,-unexpected-token-=.html)
   + [syntax error, unexpected token ">"](messages/syntax-error,-unexpected-token->.html)
+  + [syntax error, unexpected token "?", expecting identifier](messages/syntax-error,-unexpected-token-?,-expecting-identifier.html)
   + [syntax error, unexpected token "?"](messages/syntax-error,-unexpected-token-?.html)
   + [syntax error, unexpected token "? >", expecting "," or ";"](messages/syntax-error,-unexpected-token-?->,-expecting-,-or-;.html)
   + [syntax error, unexpected token "? >"](messages/syntax-error,-unexpected-token-?->.html)
@@ -680,7 +700,9 @@
   + [syntax error, unexpected token "use", expecting "," or ";"](messages/syntax-error,-unexpected-token-use,-expecting-,-or-;.html)
   + [syntax error, unexpected token "use", expecting "{"](messages/syntax-error,-unexpected-token-use,-expecting-{.html)
   + [syntax error, unexpected token "use"](messages/syntax-error,-unexpected-token-use.html)
+  + [syntax error, unexpected token "{", expecting ")"](messages/syntax-error,-unexpected-token-{,-expecting-r.html)
   + [syntax error, unexpected token "{", expecting "," or ";"](messages/syntax-error,-unexpected-token-{,-expecting-,-or-;.html)
+  + [syntax error, unexpected token "{", expecting ";"](messages/syntax-error,-unexpected-token-{,-expecting-;.html)
   + [syntax error, unexpected token "{", expecting variable](messages/syntax-error,-unexpected-token-{,-expecting-variable.html)
   + [syntax error, unexpected token "{"](messages/syntax-error,-unexpected-token-{.html)
   + [syntax error, unexpected token "}", expecting ";" or "{"](messages/syntax-error,-unexpected-token-},-expecting-;-or-{.html)
@@ -735,6 +757,12 @@
   + [undefined variable](messages/undefined-variable.html)
 + unicode
   + [must be a valid normalization form](messages/must-be-a-valid-normalization-form.html)
++ uri
+  + [the specified %s is malformed%s%s%s](messages/the-specified-ps-is-malformedpspsps.html)
+  + [the specified %s is malformed](messages/the-specified-ps-is-malformed.html)
+  + [the specified url cannot have password](messages/the-specified-url-cannot-have-password.html)
+  + [the specified url cannot have port](messages/the-specified-url-cannot-have-port.html)
+  + [the specified url cannot have username](messages/the-specified-url-cannot-have-username.html)
 + use
   + [cannot declare const %s because](messages/cannot-declare-const-ps-because.html)
 + validation

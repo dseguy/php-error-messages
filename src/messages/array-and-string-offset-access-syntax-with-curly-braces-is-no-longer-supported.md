@@ -23,6 +23,10 @@ echo $array{1};  // B
 + Switch to the square brackets.
 + Use the substr() function to extract one string char.
 
+## Related error messages
++ [syntax-error,-unexpected-token-"{",-expecting-")"](syntax-error,-unexpected-token-{,-expecting-\).html)
++ [syntax-error,-unexpected-token-"{",-expecting-";"](syntax-error,-unexpected-token-{,-expecting-;.html)
+
 In previous PHP versions, this error message used to be :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-deprecated`.
 # Changed Behavior
 This error may appear following an evolution in behavior, in previous versions. See 

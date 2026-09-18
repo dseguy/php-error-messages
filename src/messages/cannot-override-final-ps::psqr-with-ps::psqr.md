@@ -29,3 +29,4 @@ class Y extends X {
 
 ## Related error messages
 + [%s::%s-cannot-override-final-constant-%s::%s](%s::%s-cannot-override-final-constant-%s::%s.html)
++ [cannot-override-final-%s::__construct()-with-%s::__construct()](cannot-override-final-%s::\_\_construct\(\)-with-%s::\_\_construct\(\).html)
