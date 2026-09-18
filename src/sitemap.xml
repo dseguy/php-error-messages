@@ -1316,6 +1316,11 @@
   <changefreq>yearly</changefreq>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-set-a-userinfo-without-having-a-host.html</loc>
+  <lastmod>2026-09-18T17:16:25+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-specify-default-value-for-virtual-hooked-property-ps::$ps.html</loc>
   <lastmod>2026-03-31T09:10:46+00:00</lastmod>
   <changefreq>yearly</changefreq>
@@ -1627,7 +1632,7 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-dynamic-function-name-in-constant-expression.html</loc>
-  <lastmod>2026-07-24T17:22:20+00:00</lastmod>
+  <lastmod>2026-09-18T18:39:11+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -2271,6 +2276,16 @@
   <changefreq>yearly</changefreq>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/failed-to-update-the-scheme.html</loc>
+  <lastmod>2026-09-18T17:16:29+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/failed-to-update-the-userinfo.html</loc>
+  <lastmod>2026-09-18T17:16:32+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/fetching-properties-on-non-enums-in-constant-expressions-is-not-allowed.html</loc>
   <lastmod>2026-03-31T09:10:46+00:00</lastmod>
   <changefreq>yearly</changefreq>
@@ -2283,6 +2298,21 @@
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/filename-cannot-be-empty.html</loc>
   <lastmod>2026-03-31T09:10:46+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/filter-validation-failed:-filter-ps-not-satisfied-by-ps.html</loc>
+  <lastmod>2026-09-18T17:16:56+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/filter-validation-failed:-not-an-array-qgot-psr.html</loc>
+  <lastmod>2026-09-18T17:17:01+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/filter-validation-failed:-object-of-type-ps-has-no-__tostringqr-method.html</loc>
+  <lastmod>2026-09-18T17:17:06+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -2811,6 +2841,11 @@
   <changefreq>yearly</changefreq>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-a-list-of-ps.html</loc>
+  <lastmod>2026-09-18T17:16:51+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-a-multiple-of-argument-s2-q$word_sizer.html</loc>
   <lastmod>2026-03-31T09:10:46+00:00</lastmod>
   <changefreq>yearly</changefreq>
@@ -2936,8 +2971,43 @@
   <changefreq>yearly</changefreq>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-of-type-array-when-argument-s3-q$optionr-is-mcast_leave_group,-ps-given.html</loc>
+  <lastmod>2026-09-18T17:17:11+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-of-type-array-when-argument-s3-q$optionr-is-mcast_leave_source_group,-ps-given.html</loc>
+  <lastmod>2026-09-18T17:17:16+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-of-type-countable|array,-ps-given.html</loc>
   <lastmod>2026-03-31T09:10:46+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-of-type-string-when-argument-s3-q$optionr-is-fil_attach-or-fil_detach,-ps-given.html</loc>
+  <lastmod>2026-09-18T17:17:21+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-of-type-string-when-argument-s3-q$optionr-is-so_acceptfilter,-ps-given.html</loc>
+  <lastmod>2026-09-18T17:17:26+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-of-type-string-when-argument-s3-q$optionr-is-so_bindtodevice,-ps-given.html</loc>
+  <lastmod>2026-09-18T17:17:31+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-of-type-string-when-argument-s3-q$optionr-is-tcp_congestion,-ps-given.html</loc>
+  <lastmod>2026-09-18T17:17:36+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-of-type-string-when-argument-s3-q$optionr-is-tcp_function_blk,-ps-given.html</loc>
+  <lastmod>2026-09-18T17:17:41+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -4571,6 +4641,16 @@
   <changefreq>yearly</changefreq>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-specified-scheme-is-malformed.html</loc>
+  <lastmod>2026-09-18T17:16:37+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-specified-uri-is-malformed.html</loc>
+  <lastmod>2026-09-18T17:16:42+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-specified-url-cannot-have-password.html</loc>
   <lastmod>2026-09-18T15:50:38+00:00</lastmod>
   <changefreq>yearly</changefreq>
@@ -4583,6 +4663,11 @@
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-specified-url-cannot-have-username.html</loc>
   <lastmod>2026-09-18T15:50:38+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-specified-userinfo-is-malformed.html</loc>
+  <lastmod>2026-09-18T17:16:47+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>

@@ -215,6 +215,10 @@
   + [must be one of the pathinfo_* constants](messages/must-be-one-of-the-pathinfo\_\*-constants.html)
   + [must be one of the scandir_sort_ascending, scandir_sort_descending, or scandir_sort_none constants](messages/must-be-one-of-the-scandir\_sort\_ascending,-scandir\_sort\_descending,-or-scandir\_sort\_none-constants.html)
   + [must be only one of the pathinfo_* constants](messages/must-be-only-one-of-the-pathinfo\_\*-constants.html)
++ filter
+  + [filter validation failed: filter %s not satisfied by %s](messages/filter-validation-failed:-filter-ps-not-satisfied-by-ps.html)
+  + [filter validation failed: not an array (got %s)](messages/filter-validation-failed:-not-an-array-qgot-psr.html)
+  + [filter validation failed: object of type %s has no __tostring() method](messages/filter-validation-failed:-object-of-type-ps-has-no-\_\_tostringqr-method.html)
 + final
   + [cannot override final %s::__construct() with %s::__construct()](messages/cannot-override-final-ps::\_\_constructqr-with-ps::\_\_constructqr.html)
 + finally
@@ -345,6 +349,13 @@
   + [has a malformed ipv6 address, closing square bracket missing](messages/has-a-malformed-ipv6-address,-closing-square-bracket-missing.html)
   + [must be a combination of msg_oob, msg_peek, msg_waitall, msg_dontwait, msg_errqueue, and msg_cmsg_cloexec for af_packet sockets](messages/must-be-a-combination-of-msg\_oob,-msg\_peek,-msg\_waitall,-msg\_dontwait,-msg\_errqueue,-and-msg\_cmsg\_cloexec-for-af\_packet-sockets.html)
   + [must be a valid context engine id](messages/must-be-a-valid-context-engine-id.html)
+  + [must be of type array when argument #3 ($option) is mcast_leave_group, %s given](messages/must-be-of-type-array-when-argument-s3-q$optionr-is-mcast\_leave\_group,-ps-given.html)
+  + [must be of type array when argument #3 ($option) is mcast_leave_source_group, %s given](messages/must-be-of-type-array-when-argument-s3-q$optionr-is-mcast\_leave\_source\_group,-ps-given.html)
+  + [must be of type string when argument #3 ($option) is fil_attach or fil_detach, %s given](messages/must-be-of-type-string-when-argument-s3-q$optionr-is-fil\_attach-or-fil\_detach,-ps-given.html)
+  + [must be of type string when argument #3 ($option) is so_acceptfilter, %s given](messages/must-be-of-type-string-when-argument-s3-q$optionr-is-so\_acceptfilter,-ps-given.html)
+  + [must be of type string when argument #3 ($option) is so_bindtodevice, %s given](messages/must-be-of-type-string-when-argument-s3-q$optionr-is-so\_bindtodevice,-ps-given.html)
+  + [must be of type string when argument #3 ($option) is tcp_congestion, %s given](messages/must-be-of-type-string-when-argument-s3-q$optionr-is-tcp\_congestion,-ps-given.html)
+  + [must be of type string when argument #3 ($option) is tcp_function_blk, %s given](messages/must-be-of-type-string-when-argument-s3-q$optionr-is-tcp\_function\_blk,-ps-given.html)
   + [must contain a type for object id %s](messages/must-contain-a-type-for-object-id-ps.html)
   + [must contain a value for object id %s](messages/must-contain-a-value-for-object-id-ps.html)
   + [must not be empty when passed as an array](messages/must-not-be-empty-when-passed-as-an-array.html)
@@ -365,6 +376,8 @@
   + [classes must be first marked as attribute before being able to be registered as internal attribute class](messages/classes-must-be-first-marked-as-attribute-before-being-able-to-be-registered-as-internal-attribute-class.html)
   + [enum "%s" not found](messages/enum-ps-not-found.html)
   + [failed to open stream from socketpair](messages/failed-to-open-stream-from-socketpair.html)
+  + [failed to update the scheme](messages/failed-to-update-the-scheme.html)
+  + [failed to update the userinfo](messages/failed-to-update-the-userinfo.html)
   + [is an unsupported rounding mode](messages/is-an-unsupported-rounding-mode.html)
   + [only internal classes can be registered as compiler attribute](messages/only-internal-classes-can-be-registered-as-compiler-attribute.html)
   + [static function %s%s%s() cannot be abstract](messages/static-function-pspspsqr-cannot-be-abstract.html)
@@ -522,6 +535,13 @@
   + [must not be empty when passed as an array](messages/must-not-be-empty-when-passed-as-an-array.html)
 + sockets
   + [must be a combination of msg_oob, msg_peek, msg_waitall, msg_dontwait, msg_errqueue, and msg_cmsg_cloexec for af_packet sockets](messages/must-be-a-combination-of-msg\_oob,-msg\_peek,-msg\_waitall,-msg\_dontwait,-msg\_errqueue,-and-msg\_cmsg\_cloexec-for-af\_packet-sockets.html)
+  + [must be of type array when argument #3 ($option) is mcast_leave_group, %s given](messages/must-be-of-type-array-when-argument-s3-q$optionr-is-mcast\_leave\_group,-ps-given.html)
+  + [must be of type array when argument #3 ($option) is mcast_leave_source_group, %s given](messages/must-be-of-type-array-when-argument-s3-q$optionr-is-mcast\_leave\_source\_group,-ps-given.html)
+  + [must be of type string when argument #3 ($option) is fil_attach or fil_detach, %s given](messages/must-be-of-type-string-when-argument-s3-q$optionr-is-fil\_attach-or-fil\_detach,-ps-given.html)
+  + [must be of type string when argument #3 ($option) is so_acceptfilter, %s given](messages/must-be-of-type-string-when-argument-s3-q$optionr-is-so\_acceptfilter,-ps-given.html)
+  + [must be of type string when argument #3 ($option) is so_bindtodevice, %s given](messages/must-be-of-type-string-when-argument-s3-q$optionr-is-so\_bindtodevice,-ps-given.html)
+  + [must be of type string when argument #3 ($option) is tcp_congestion, %s given](messages/must-be-of-type-string-when-argument-s3-q$optionr-is-tcp\_congestion,-ps-given.html)
+  + [must be of type string when argument #3 ($option) is tcp_function_blk, %s given](messages/must-be-of-type-string-when-argument-s3-q$optionr-is-tcp\_function\_blk,-ps-given.html)
 + sodium
   + [must be less than 4294967295 bytes](messages/must-be-less-than-4294967295-bytes.html)
 + special case
@@ -758,11 +778,16 @@
 + unicode
   + [must be a valid normalization form](messages/must-be-a-valid-normalization-form.html)
 + uri
+  + [cannot set a userinfo without having a host](messages/cannot-set-a-userinfo-without-having-a-host.html)
+  + [must be a list of %s](messages/must-be-a-list-of-ps.html)
   + [the specified %s is malformed%s%s%s](messages/the-specified-ps-is-malformedpspsps.html)
   + [the specified %s is malformed](messages/the-specified-ps-is-malformed.html)
+  + [the specified scheme is malformed](messages/the-specified-scheme-is-malformed.html)
+  + [the specified uri is malformed](messages/the-specified-uri-is-malformed.html)
   + [the specified url cannot have password](messages/the-specified-url-cannot-have-password.html)
   + [the specified url cannot have port](messages/the-specified-url-cannot-have-port.html)
   + [the specified url cannot have username](messages/the-specified-url-cannot-have-username.html)
+  + [the specified userinfo is malformed](messages/the-specified-userinfo-is-malformed.html)
 + use
   + [cannot declare const %s because](messages/cannot-declare-const-ps-because.html)
 + validation
@@ -789,6 +814,13 @@
   + [must be mysqli_init_command, mysqli_set_charset_name, mysqli_server_public_key, or one of the mysqli_opt_* constants](messages/must-be-mysqli\_init\_command,-mysqli\_set\_charset\_name,-mysqli\_server\_public\_key,-or-one-of-the-mysqli\_opt\_\*-constants.html)
   + [must be no longer than %d characters](messages/must-be-no-longer-than-pd-characters.html)
   + [must be odd if argument #1 ($num) is negative](messages/must-be-odd-if-argument-s1-q$numr-is-negative.html)
+  + [must be of type array when argument #3 ($option) is mcast_leave_group, %s given](messages/must-be-of-type-array-when-argument-s3-q$optionr-is-mcast\_leave\_group,-ps-given.html)
+  + [must be of type array when argument #3 ($option) is mcast_leave_source_group, %s given](messages/must-be-of-type-array-when-argument-s3-q$optionr-is-mcast\_leave\_source\_group,-ps-given.html)
+  + [must be of type string when argument #3 ($option) is fil_attach or fil_detach, %s given](messages/must-be-of-type-string-when-argument-s3-q$optionr-is-fil\_attach-or-fil\_detach,-ps-given.html)
+  + [must be of type string when argument #3 ($option) is so_acceptfilter, %s given](messages/must-be-of-type-string-when-argument-s3-q$optionr-is-so\_acceptfilter,-ps-given.html)
+  + [must be of type string when argument #3 ($option) is so_bindtodevice, %s given](messages/must-be-of-type-string-when-argument-s3-q$optionr-is-so\_bindtodevice,-ps-given.html)
+  + [must be of type string when argument #3 ($option) is tcp_congestion, %s given](messages/must-be-of-type-string-when-argument-s3-q$optionr-is-tcp\_congestion,-ps-given.html)
+  + [must be of type string when argument #3 ($option) is tcp_function_blk, %s given](messages/must-be-of-type-string-when-argument-s3-q$optionr-is-tcp\_function\_blk,-ps-given.html)
   + [must be one of array_filter_use_value, array_filter_use_key, or array_filter_use_both](messages/must-be-one-of-array\_filter\_use\_value,-array\_filter\_use\_key,-or-array\_filter\_use\_both.html)
   + [must be one of intlnumberrangeformatter::identity_fallback_single_value, ::identity_fallback_approximately_or_single_value, ::identity_fallback_approximately, or ::identity_fallback_range](messages/must-be-one-of-intlnumberrangeformatter::identity\_fallback\_single\_value,-::identity\_fallback\_approximately\_or\_single\_value,-::identity\_fallback\_approximately,-or-::identity\_fallback\_range.html)
   + [must be one of the pathinfo_* constants](messages/must-be-one-of-the-pathinfo\_\*-constants.html)

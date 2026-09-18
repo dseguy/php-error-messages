@@ -742,6 +742,8 @@
 + duration
   + [the maximum representable range is 2_147_483_647 seconds (roughly 68 years)](messages/the-maximum-representable-range-is-2\_147\_483\_647-seconds-qroughly-68-yearsr.html)
   + [the maximum representable range is 9_223_372_035 seconds (roughly 292 years)](messages/the-maximum-representable-range-is-9\_223\_372\_035-seconds-qroughly-292-yearsr.html)
++ dynamic
+  + [cannot use dynamic function name in constant expression](messages/cannot-use-dynamic-function-name-in-constant-expression.html)
 + dynamic-call
   + [function name must be a string](messages/function-name-must-be-a-string.html)
 + dynamic-constant
@@ -1228,6 +1230,7 @@
   + [cannot use list() as standalone expression](messages/cannot-use-listqr-as-standalone-expression.html)
   + [cannot use list as key element](messages/cannot-use-list-as-key-element.html)
   + [must be a list array](messages/must-be-a-list-array.html)
+  + [must be a list of %s](messages/must-be-a-list-of-ps.html)
   + [spread operator is not supported in assignments](messages/spread-operator-is-not-supported-in-assignments.html)
   + [syntax error, unexpected \')\', expecting \'=\'](messages/syntax-error,-unexpected-\\r\\,-expecting-\\=\\.html)
   + [syntax error, unexpected \',\'](messages/syntax-error,-unexpected-\\,\\.html)
@@ -1360,6 +1363,9 @@
 + multi-byte
   + [only the first byte will be assigned to the string offset](messages/only-the-first-byte-will-be-assigned-to-the-string-offset.html)
   + [providing a string that is not one byte long is deprecated. use ord($str[0]) instead](messages/providing-a-string-that-is-not-one-byte-long-is-deprecated.-use-ordq$str\[0\]r-instead.html)
++ multicast
+  + [must be of type array when argument #3 ($option) is mcast_leave_group, %s given](messages/must-be-of-type-array-when-argument-s3-q$optionr-is-mcast\_leave\_group,-ps-given.html)
+  + [must be of type array when argument #3 ($option) is mcast_leave_source_group, %s given](messages/must-be-of-type-array-when-argument-s3-q$optionr-is-mcast\_leave\_source\_group,-ps-given.html)
 + multiplication
   + [syntax error, unexpected token "%"](messages/syntax-error,-unexpected-token-p.html)
   + [syntax error, unexpected token "*"](messages/syntax-error,-unexpected-token-\*.html)
@@ -2008,6 +2014,12 @@
   + [must contain a value for object id %s](messages/must-contain-a-value-for-object-id-ps.html)
 + socket
   + [failed to open stream from socketpair](messages/failed-to-open-stream-from-socketpair.html)
++ socket-options
+  + [must be of type string when argument #3 ($option) is fil_attach or fil_detach, %s given](messages/must-be-of-type-string-when-argument-s3-q$optionr-is-fil\_attach-or-fil\_detach,-ps-given.html)
+  + [must be of type string when argument #3 ($option) is so_acceptfilter, %s given](messages/must-be-of-type-string-when-argument-s3-q$optionr-is-so\_acceptfilter,-ps-given.html)
+  + [must be of type string when argument #3 ($option) is so_bindtodevice, %s given](messages/must-be-of-type-string-when-argument-s3-q$optionr-is-so\_bindtodevice,-ps-given.html)
+  + [must be of type string when argument #3 ($option) is tcp_congestion, %s given](messages/must-be-of-type-string-when-argument-s3-q$optionr-is-tcp\_congestion,-ps-given.html)
+  + [must be of type string when argument #3 ($option) is tcp_function_blk, %s given](messages/must-be-of-type-string-when-argument-s3-q$optionr-is-tcp\_function\_blk,-ps-given.html)
 + sort
   + [returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero](messages/returning-bool-from-comparison-function-is-deprecated,-return-an-integer-less-than,-equal-to,-or-greater-than-zero.html)
 + spaceship
@@ -2055,6 +2067,8 @@
   + [use of "parent" in callables is deprecated](messages/use-of-parent-in-callables-is-deprecated.html)
   + [use of "self" in callables is deprecated](messages/use-of-self-in-callables-is-deprecated.html)
   + [use of "static" in callables is deprecated](messages/use-of-static-in-callables-is-deprecated.html)
++ static-constant-expression
+  + [cannot use dynamic function name in constant expression](messages/cannot-use-dynamic-function-name-in-constant-expression.html)
 + static-expression
   + [argument unpacking in constant expressions is not supported](messages/argument-unpacking-in-constant-expressions-is-not-supported.html)
   + [object casts are not supported in this context](messages/object-casts-are-not-supported-in-this-context.html)
@@ -2307,11 +2321,18 @@
   + [the (unset) cast is no longer supported](messages/the-qunsetr-cast-is-no-longer-supported.html)
   + [the sqlite3 object has not been correctly initialised or is already closed](messages/the-sqlite3-object-has-not-been-correctly-initialised-or-is-already-closed.html)
 + uri
+  + [cannot set a userinfo without having a host](messages/cannot-set-a-userinfo-without-having-a-host.html)
+  + [failed to update the scheme](messages/failed-to-update-the-scheme.html)
+  + [failed to update the userinfo](messages/failed-to-update-the-userinfo.html)
+  + [must be a list of %s](messages/must-be-a-list-of-ps.html)
   + [the specified %s is malformed%s%s%s](messages/the-specified-ps-is-malformedpspsps.html)
   + [the specified %s is malformed](messages/the-specified-ps-is-malformed.html)
+  + [the specified scheme is malformed](messages/the-specified-scheme-is-malformed.html)
+  + [the specified uri is malformed](messages/the-specified-uri-is-malformed.html)
   + [the specified url cannot have password](messages/the-specified-url-cannot-have-password.html)
   + [the specified url cannot have port](messages/the-specified-url-cannot-have-port.html)
   + [the specified url cannot have username](messages/the-specified-url-cannot-have-username.html)
+  + [the specified userinfo is malformed](messages/the-specified-userinfo-is-malformed.html)
 + uri-class
   + [cannot modify readonly object of class %s](messages/cannot-modify-readonly-object-of-class-ps.html)
 + uri-extension
@@ -2342,6 +2363,9 @@
   + [argument #1 ($value) must contain at least one element](messages/argument-s1-q$valuer-must-contain-at-least-one-element.html)
   + [cannot use multiple endian options](messages/cannot-use-multiple-endian-options.html)
   + [cannot use multiple word order options](messages/cannot-use-multiple-word-order-options.html)
+  + [filter validation failed: filter %s not satisfied by %s](messages/filter-validation-failed:-filter-ps-not-satisfied-by-ps.html)
+  + [filter validation failed: not an array (got %s)](messages/filter-validation-failed:-not-an-array-qgot-psr.html)
+  + [filter validation failed: object of type %s has no __tostring() method](messages/filter-validation-failed:-object-of-type-ps-has-no-\_\_tostringqr-method.html)
   + [must be a callable, null given](messages/must-be-a-callable,-null-given.html)
   + [must be a multiple of argument #2 ($word_size)](messages/must-be-a-multiple-of-argument-s2-q$word\_sizer.html)
   + [must be greater than or equal to 1](messages/must-be-greater-than-or-equal-to-1.html)
