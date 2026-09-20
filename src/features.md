@@ -170,6 +170,8 @@
   + [only arrays and traversables can be unpacked](messages/only-arrays-and-traversables-can-be-unpacked.html)
   + [only arrays can be unpacked in constant expression](messages/only-arrays-can-be-unpacked-in-constant-expression.html)
   + [parameter must be an array or an object that implements countable](messages/parameter-must-be-an-array-or-an-object-that-implements-countable.html)
+  + [passing an object for argument #1 $array to array_walk() is deprecated, call get_object_vars() first instead](messages/passing-an-object-for-argument-s1-$array-to-array\_walkqr-is-deprecated,-call-get\_object\_varsqr-first-instead.html)
+  + [passing an object for argument #1 $array to array_walk_recursive() is deprecated, call get_object_vars() first instead](messages/passing-an-object-for-argument-s1-$array-to-array\_walk\_recursiveqr-is-deprecated,-call-get\_object\_varsqr-first-instead.html)
   + [syntax error, unexpected \')\', expecting \'=\'](messages/syntax-error,-unexpected-\\r\\,-expecting-\\=\\.html)
   + [syntax error, unexpected \'{\'](messages/syntax-error,-unexpected-\\{\\.html)
   + [syntax error, unexpected token "{", expecting ")"](messages/syntax-error,-unexpected-token-{,-expecting-r.html)
@@ -559,6 +561,12 @@
   + [type of %s::$%s must not be defined (as in class %s)](messages/type-of-ps::$ps-must-not-be-defined-qas-in-class-psr.html)
 + compile-time
   + [calling get_class() without arguments is deprecated](messages/calling-get\_classqr-without-arguments-is-deprecated.html)
++ compression
+  + [passing an object for argument #2 $option to deflate_init() is deprecated, call get_object_vars() first instead](messages/passing-an-object-for-argument-s2-$option-to-deflate\_initqr-is-deprecated,-call-get\_object\_varsqr-first-instead.html)
+  + [passing an object for argument #2 $option to inflate_init() is deprecated, call get_object_vars() first instead](messages/passing-an-object-for-argument-s2-$option-to-inflate\_initqr-is-deprecated,-call-get\_object\_varsqr-first-instead.html)
+  + [passing an object for filter parameters for %s is deprecated, call get_object_vars() first instead](messages/passing-an-object-for-filter-parameters-for-ps-is-deprecated,-call-get\_object\_varsqr-first-instead.html)
+  + [passing an object for filter parameters for bzip2.compress is deprecated, call get_object_vars() first instead](messages/passing-an-object-for-filter-parameters-for-bzip2.compress-is-deprecated,-call-get\_object\_varsqr-first-instead.html)
+  + [passing an object for filter parameters for bzip2.decompress is deprecated, call get_object_vars() first instead](messages/passing-an-object-for-filter-parameters-for-bzip2.decompress-is-deprecated,-call-get\_object\_varsqr-first-instead.html)
 + concatenation
   + [the behavior of unparenthesized expressions containing both \'.\' and \'+\' \' \' will change in php 8: \'+\' \' \' will take a higher precedence](messages/the-behavior-of-unparenthesized-expressions-containing-both-\\.\\-and-\\+\\-\\-\\-will-change-in-php-8:-\\+\\-\\-\\-will-take-a-higher-precedence.html)
   + [the behavior of unparenthesized expressions containing both \'.\' and \'<<\' \'>>\' will change in php 8: \'<<\' \'>>\' will take a higher precedence](messages/the-behavior-of-unparenthesized-expressions-containing-both-\\.\\-and-\\<<\\-\\>>\\-will-change-in-php-8:-\\<<\\-\\>>\\-will-take-a-higher-precedence.html)
@@ -650,6 +658,8 @@
   + [syntax error, unexpected \'{\'](messages/syntax-error,-unexpected-\\{\\.html)
   + [syntax error, unexpected token "{", expecting ")"](messages/syntax-error,-unexpected-token-{,-expecting-r.html)
   + [syntax error, unexpected token "{", expecting ";"](messages/syntax-error,-unexpected-token-{,-expecting-;.html)
++ database
+  + [instantiation of mysqli_stmt without providing the $query parameter is deprecated](messages/instantiation-of-mysqli\_stmt-without-providing-the-$query-parameter-is-deprecated.html)
 + date
   + [calling dateperiod::__construct(string $isostr, int $options = 0) is deprecated,](messages/calling-dateperiod::\_\_constructqstring-$isostr,-int-$options-=-0r-is-deprecated,.html)
   + [unknown or bad format (%s)](messages/unknown-or-bad-format-qpsr.html)
@@ -775,6 +785,7 @@
   + [must be a valid charset](messages/must-be-a-valid-charset.html)
   + [must be a valid encoding, "%s" given](messages/must-be-a-valid-encoding,-ps-given.html)
   + [passing a negative integer to argument #3 ($width) is deprecated](messages/passing-a-negative-integer-to-argument-s3-q$widthr-is-deprecated.html)
+  + [passing an object for argument #%" priu32 " $vars to mb_convert_variables() is deprecated, call get_object_vars() first instead](messages/passing-an-object-for-argument-sp-priu32--$vars-to-mb\_convert\_variablesqr-is-deprecated,-call-get\_object\_varsqr-first-instead.html)
   + [passing the encoding as third parameter is deprecated. use an explicit zero offset](messages/passing-the-encoding-as-third-parameter-is-deprecated.-use-an-explicit-zero-offset.html)
   + [syntax error, unexpected token "=", expecting identifier](messages/syntax-error,-unexpected-token-=,-expecting-identifier.html)
   + [the connection has no charset associated](messages/the-connection-has-no-charset-associated.html)
@@ -1024,6 +1035,9 @@
   + [handling html entities via mbstring is deprecated; use htmlspecialchars, htmlentities, or mb_encode_numericentity mb_decode_numericentity](messages/handling-html-entities-via-mbstring-is-deprecated;-use-htmlspecialchars,-htmlentities,-or-mb\_encode\_numericentity-mb\_decode\_numericentity.html)
 + htmlentities
   + [only basic entities substitution is supported for multi byte encodings other than utf 8; functionality is equivalent to htmlspecialchars](messages/only-basic-entities-substitution-is-supported-for-multi-byte-encodings-other-than-utf-8;-functionality-is-equivalent-to-htmlspecialchars.html)
++ http
+  + [object values within argument #1 $data to http_build_query() being interpreted as arrays is deprecated,](messages/object-values-within-argument-s1-$data-to-http\_build\_queryqr-being-interpreted-as-arrays-is-deprecated,.html)
+  + [passing an object for argument #1 $data to http_build_query() is deprecated, call get_object_vars() first instead](messages/passing-an-object-for-argument-s1-$data-to-http\_build\_queryqr-is-deprecated,-call-get\_object\_varsqr-first-instead.html)
 + iconv
   + [must be contained in argument #1 ($haystack)](messages/must-be-contained-in-argument-s1-q$haystackr.html)
   + [offset not contained in string.](messages/offset-not-contained-in-string..html)
@@ -1851,7 +1865,9 @@
   + [syntax error, unexpected token ";", expecting " >" or "? >" or "{" or "["](messages/syntax-error,-unexpected-token-;,-expecting-->-or-?->-or-{-or-\[.html)
 + reflection
   + [attribute class "%s" not found](messages/attribute-class-ps-not-found.html)
+  + [calling %ps() for static method %ps::%ps() does not need an object parameter](messages/calling-ppsqr-for-static-method-pps::ppsqr-does-not-need-an-object-parameter.html)
   + [calling %ps() with a 1st argument which is not null or an object is deprecated](messages/calling-ppsqr-with-a-1st-argument-which-is-not-null-or-an-object-is-deprecated.html)
+  + [calling %ps() with a given object that is not an instance of the class this property was declared in is deprecated](messages/calling-ppsqr-with-a-given-object-that-is-not-an-instance-of-the-class-this-property-was-declared-in-is-deprecated.html)
   + [calling %ps() with a single argument is deprecated](messages/calling-ppsqr-with-a-single-argument-is-deprecated.html)
   + [calling reflectionmethod::__construct() with 1 argument is deprecated,](messages/calling-reflectionmethod::\_\_constructqr-with-1-argument-is-deprecated,.html)
   + [cannot be null when argument #1 ($objectormethod) is an object](messages/cannot-be-null-when-argument-s1-q$objectormethodr-is-an-object.html)
@@ -1977,6 +1993,8 @@
   + [class %s implementing sessionhandlerinterface is missing the validateid() method which will be required in php 9.0](messages/class-ps-implementing-sessionhandlerinterface-is-missing-the-validateidqr-method-which-will-be-required-in-php-9.0.html)
   + [disabling session.use_only_cookies ini setting is deprecated](messages/disabling-session.use\_only\_cookies-ini-setting-is-deprecated.html)
   + [enabling session.use_trans_sid ini setting is deprecated](messages/enabling-session.use\_trans\_sid-ini-setting-is-deprecated.html)
+  + [providing an object to argument #1 ($sessionhandler) which does not have the create_sid() method defined is deprecated](messages/providing-an-object-to-argument-s1-q$sessionhandlerr-which-does-not-have-the-create\_sidqr-method-defined-is-deprecated.html)
+  + [providing an object to argument #1 ($sessionhandler) which does not have the validateid() method defined is deprecated](messages/providing-an-object-to-argument-s1-q$sessionhandlerr-which-does-not-have-the-validateidqr-method-defined-is-deprecated.html)
   + [providing individual callbacks instead of an object implementing sessionhandlerinterface is deprecated](messages/providing-individual-callbacks-instead-of-an-object-implementing-sessionhandlerinterface-is-deprecated.html)
   + [session callback must have a return value of type bool, %s returned](messages/session-callback-must-have-a-return-value-of-type-bool,-ps-returned.html)
   + [session.sid_bits_per_character ini setting is deprecated](messages/session.sid\_bits\_per\_character-ini-setting-is-deprecated.html)
@@ -2100,9 +2118,13 @@
   + [stream error handler must be a valid callback, %s](messages/stream-error-handler-must-be-a-valid-callback,-ps.html)
 + stream-filter
   + [must be a concrete class](messages/must-be-a-concrete-class.html)
+  + [passing an object for filter parameters for %s is deprecated, call get_object_vars() first instead](messages/passing-an-object-for-filter-parameters-for-ps-is-deprecated,-call-get\_object\_varsqr-first-instead.html)
+  + [passing an object for filter parameters for bzip2.compress is deprecated, call get_object_vars() first instead](messages/passing-an-object-for-filter-parameters-for-bzip2.compress-is-deprecated,-call-get\_object\_varsqr-first-instead.html)
+  + [passing an object for filter parameters for bzip2.decompress is deprecated, call get_object_vars() first instead](messages/passing-an-object-for-filter-parameters-for-bzip2.decompress-is-deprecated,-call-get\_object\_varsqr-first-instead.html)
   + [stream filter %s is never seekable](messages/stream-filter-ps-is-never-seekable.html)
   + [stream filter %s is seekable only to start position](messages/stream-filter-ps-is-seekable-only-to-start-position.html)
   + [stream filter seeking for %s failed](messages/stream-filter-seeking-for-ps-failed.html)
+  + [using more than " zend_long_fmt " filters in a php:  filter url is deprecated](messages/using-more-than--zend\_long\_fmt--filters-in-a-php:--filter-url-is-deprecated.html)
 + stream-wrapper
   + [must be a concrete class](messages/must-be-a-concrete-class.html)
 + streams

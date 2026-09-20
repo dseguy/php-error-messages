@@ -133,7 +133,9 @@
   + [the (real) cast is deprecated, use (float) instead](messages/the-qrealr-cast-is-deprecated,-use-qfloatr-instead.html)
   + [usage of ldap_connect with two arguments is deprecated](messages/usage-of-ldap\_connect-with-two-arguments-is-deprecated.html)
 + deprecation
+  + [calling %ps() for static method %ps::%ps() does not need an object parameter](messages/calling-ppsqr-for-static-method-pps::ppsqr-does-not-need-an-object-parameter.html)
   + [calling %ps() with a 1st argument which is not null or an object is deprecated](messages/calling-ppsqr-with-a-1st-argument-which-is-not-null-or-an-object-is-deprecated.html)
+  + [calling %ps() with a given object that is not an instance of the class this property was declared in is deprecated](messages/calling-ppsqr-with-a-given-object-that-is-not-an-instance-of-the-class-this-property-was-declared-in-is-deprecated.html)
   + [calling %ps() with a single argument is deprecated](messages/calling-ppsqr-with-a-single-argument-is-deprecated.html)
   + [calling a function “readonly” is deprecated](messages/calling-a-function-“readonly”-is-deprecated.html)
   + [cannot bind method %s::%s() to object of class %s, this will be an error in php 9](messages/cannot-bind-method-ps::psqr-to-object-of-class-ps,-this-will-be-an-error-in-php-9.html)
@@ -145,8 +147,21 @@
   + [constant %s::%s is deprecated](messages/constant-ps::ps-is-deprecated.html)
   + [declaring %s constant called namespace is deprecated](messages/declaring-ps-constant-called-namespace-is-deprecated.html)
   + [function %s() is deprecated%s](messages/function-psqr-is-deprecatedps.html)
+  + [instantiation of mysqli_stmt without providing the $query parameter is deprecated](messages/instantiation-of-mysqli\_stmt-without-providing-the-$query-parameter-is-deprecated.html)
   + [making a constructor a generator is deprecated](messages/making-a-constructor-a-generator-is-deprecated.html)
   + [making a destructor a generator is deprecated](messages/making-a-destructor-a-generator-is-deprecated.html)
+  + [object values within argument #1 $data to http_build_query() being interpreted as arrays is deprecated,](messages/object-values-within-argument-s1-$data-to-http\_build\_queryqr-being-interpreted-as-arrays-is-deprecated,.html)
+  + [passing an object for argument #%" priu32 " $vars to mb_convert_variables() is deprecated, call get_object_vars() first instead](messages/passing-an-object-for-argument-sp-priu32--$vars-to-mb\_convert\_variablesqr-is-deprecated,-call-get\_object\_varsqr-first-instead.html)
+  + [passing an object for argument #1 $array to array_walk() is deprecated, call get_object_vars() first instead](messages/passing-an-object-for-argument-s1-$array-to-array\_walkqr-is-deprecated,-call-get\_object\_varsqr-first-instead.html)
+  + [passing an object for argument #1 $array to array_walk_recursive() is deprecated, call get_object_vars() first instead](messages/passing-an-object-for-argument-s1-$array-to-array\_walk\_recursiveqr-is-deprecated,-call-get\_object\_varsqr-first-instead.html)
+  + [passing an object for argument #1 $data to http_build_query() is deprecated, call get_object_vars() first instead](messages/passing-an-object-for-argument-s1-$data-to-http\_build\_queryqr-is-deprecated,-call-get\_object\_varsqr-first-instead.html)
+  + [passing an object for argument #2 $option to deflate_init() is deprecated, call get_object_vars() first instead](messages/passing-an-object-for-argument-s2-$option-to-deflate\_initqr-is-deprecated,-call-get\_object\_varsqr-first-instead.html)
+  + [passing an object for argument #2 $option to inflate_init() is deprecated, call get_object_vars() first instead](messages/passing-an-object-for-argument-s2-$option-to-inflate\_initqr-is-deprecated,-call-get\_object\_varsqr-first-instead.html)
+  + [passing an object for filter parameters for %s is deprecated, call get_object_vars() first instead](messages/passing-an-object-for-filter-parameters-for-ps-is-deprecated,-call-get\_object\_varsqr-first-instead.html)
+  + [passing an object for filter parameters for bzip2.compress is deprecated, call get_object_vars() first instead](messages/passing-an-object-for-filter-parameters-for-bzip2.compress-is-deprecated,-call-get\_object\_varsqr-first-instead.html)
+  + [passing an object for filter parameters for bzip2.decompress is deprecated, call get_object_vars() first instead](messages/passing-an-object-for-filter-parameters-for-bzip2.decompress-is-deprecated,-call-get\_object\_varsqr-first-instead.html)
+  + [providing an object to argument #1 ($sessionhandler) which does not have the create_sid() method defined is deprecated](messages/providing-an-object-to-argument-s1-q$sessionhandlerr-which-does-not-have-the-create\_sidqr-method-defined-is-deprecated.html)
+  + [providing an object to argument #1 ($sessionhandler) which does not have the validateid() method defined is deprecated](messages/providing-an-object-to-argument-s1-q$sessionhandlerr-which-does-not-have-the-validateidqr-method-defined-is-deprecated.html)
   + [reflectionclass::getconstant() for a non existent constant is deprecated,](messages/reflectionclass::getconstantqr-for-a-non-existent-constant-is-deprecated,.html)
   + [reflectionproperty::getdefaultvalue() for a property without a default value is deprecated,](messages/reflectionproperty::getdefaultvalueqr-for-a-property-without-a-default-value-is-deprecated,.html)
   + [returning a value from a constructor is deprecated](messages/returning-a-value-from-a-constructor-is-deprecated.html)
@@ -156,6 +171,7 @@
   + [returning null from %s::__debuginfo() is deprecated, return an empty array instead](messages/returning-null-from-ps::\_\_debuginfoqr-is-deprecated,-return-an-empty-array-instead.html)
   + [trait %s used by %s is deprecated%s](messages/trait-ps-used-by-ps-is-deprecatedps.html)
   + [using array_key_exists() on objects is deprecated.](messages/using-array\_key\_existsqr-on-objects-is-deprecated..html)
+  + [using more than " zend_long_fmt " filters in a php:  filter url is deprecated](messages/using-more-than--zend\_long\_fmt--filters-in-a-php:--filter-url-is-deprecated.html)
   + [using more than %d filters in a php:  filter url is deprecated](messages/using-more-than-pd-filters-in-a-php:--filter-url-is-deprecated.html)
 + destructor
   + [call to %s %s::__destruct() from global scope during shutdown ignored](messages/call-to-ps-ps::\_\_destructqr-from-global-scope-during-shutdown-ignored.html)
@@ -326,6 +342,7 @@
   + [must not be nan](messages/must-not-be-nan.html)
 + mbstring
   + [is not a valid codepoint](messages/is-not-a-valid-codepoint.html)
+  + [passing an object for argument #%" priu32 " $vars to mb_convert_variables() is deprecated, call get_object_vars() first instead](messages/passing-an-object-for-argument-sp-priu32--$vars-to-mb\_convert\_variablesqr-is-deprecated,-call-get\_object\_varsqr-first-instead.html)
 + modernisation
   + [accessing static trait property %s::$%s is deprecated](messages/accessing-static-trait-property-ps::$ps-is-deprecated.html)
   + [call to undefined function exit()](messages/call-to-undefined-function-exitqr.html)
@@ -333,6 +350,7 @@
   + [cannot use object of type %s as array](messages/cannot-use-object-of-type-ps-as-array.html)
   + [providing individual callbacks instead of an object implementing sessionhandlerinterface is deprecated](messages/providing-individual-callbacks-instead-of-an-object-implementing-sessionhandlerinterface-is-deprecated.html)
 + mysqli
+  + [instantiation of mysqli_stmt without providing the $query parameter is deprecated](messages/instantiation-of-mysqli\_stmt-without-providing-the-$query-parameter-is-deprecated.html)
   + [must be mysqli_init_command, mysqli_set_charset_name, mysqli_server_public_key, or one of the mysqli_opt_* constants](messages/must-be-mysqli\_init\_command,-mysqli\_set\_charset\_name,-mysqli\_server\_public\_key,-or-one-of-the-mysqli\_opt\_\*-constants.html)
   + [passing the $mode parameter is deprecated since 8.4, as it has been ignored since 8.1](messages/passing-the-$mode-parameter-is-deprecated-since-8.4,-as-it-has-been-ignored-since-8.1.html)
 + name
@@ -469,7 +487,9 @@
   + [cannot acquire reference to readonly property %s::$%s](messages/cannot-acquire-reference-to-readonly-property-ps::$ps.html)
   + [parameter $%s of %s hook %s::$%s must not be pass by reference](messages/parameter-$ps-of-ps-hook-ps::$ps-must-not-be-pass-by-reference.html)
 + reflection
+  + [calling %ps() for static method %ps::%ps() does not need an object parameter](messages/calling-ppsqr-for-static-method-pps::ppsqr-does-not-need-an-object-parameter.html)
   + [calling %ps() with a 1st argument which is not null or an object is deprecated](messages/calling-ppsqr-with-a-1st-argument-which-is-not-null-or-an-object-is-deprecated.html)
+  + [calling %ps() with a given object that is not an instance of the class this property was declared in is deprecated](messages/calling-ppsqr-with-a-given-object-that-is-not-an-instance-of-the-class-this-property-was-declared-in-is-deprecated.html)
   + [calling %ps() with a single argument is deprecated](messages/calling-ppsqr-with-a-single-argument-is-deprecated.html)
   + [calling reflectionmethod::__construct() with 1 argument is deprecated,](messages/calling-reflectionmethod::\_\_constructqr-with-1-argument-is-deprecated,.html)
   + [cannot use %s() on dynamic property %ps::$%ps](messages/cannot-use-psqr-on-dynamic-property-pps::$pps.html)
@@ -577,6 +597,7 @@
   + [stream filter %s is never seekable](messages/stream-filter-ps-is-never-seekable.html)
   + [stream filter %s is seekable only to start position](messages/stream-filter-ps-is-seekable-only-to-start-position.html)
   + [stream filter seeking for %s failed](messages/stream-filter-seeking-for-ps-failed.html)
+  + [using more than " zend_long_fmt " filters in a php:  filter url is deprecated](messages/using-more-than--zend\_long\_fmt--filters-in-a-php:--filter-url-is-deprecated.html)
 + strict check
   + [providing a string that is not one byte long is deprecated. use ord($str[0]) instead](messages/providing-a-string-that-is-not-one-byte-long-is-deprecated.-use-ordq$str\[0\]r-instead.html)
   + [providing an empty string is deprecated](messages/providing-an-empty-string-is-deprecated.html)
