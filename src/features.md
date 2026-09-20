@@ -266,6 +266,7 @@
 + autoload
   + [__autoload() is deprecated, use spl_autoload_register() instead](messages/\_\_autoloadqr-is-deprecated,-use-spl\_autoload\_registerqr-instead.html)
   + [__autoload() is no longer supported, use spl_autoload_register() instead](messages/\_\_autoloadqr-is-no-longer-supported,-use-spl\_autoload\_registerqr-instead.html)
+  + [using spl_autoload_call() as a callback for spl_autoload_unregister() is deprecated,](messages/using-spl\_autoload\_callqr-as-a-callback-for-spl\_autoload\_unregisterqr-is-deprecated,.html)
 + automagic
   + [non string needles will be interpreted as strings in the future. use an explicit chr() call to preserve the current behavior](messages/non-string-needles-will-be-interpreted-as-strings-in-the-future.-use-an-explicit-chrqr-call-to-preserve-the-current-behavior.html)
 + autovivification
@@ -336,6 +337,7 @@
   + [indirect modification of %s::$%s is not allowed](messages/indirect-modification-of-ps::$ps-is-not-allowed.html)
 + byte
   + [argument #2 ($end) must be a single byte string if](messages/argument-s2-q$endr-must-be-a-single-byte-string-if.html)
+  + [providing a value not in between 0 and 255 is deprecated, this is because a byte value must be in the [0, 255] interval. the value used will be constrained using %% 256](messages/providing-a-value-not-in-between-0-and-255-is-deprecated,-this-is-because-a-byte-value-must-be-in-the-\[0,-255\]-interval.-the-value-used-will-be-constrained-using-pp-256.html)
 + bzdecompress
   + [must have a length less than or equal to %u](messages/must-have-a-length-less-than-or-equal-to-pu.html)
 + call
@@ -2046,6 +2048,7 @@
   + [__autoload() is no longer supported, use spl_autoload_register() instead](messages/\_\_autoloadqr-is-no-longer-supported,-use-spl\_autoload\_registerqr-instead.html)
   + [is an invalid offset](messages/is-an-invalid-offset.html)
   + [modification of splobjectstorage during gethash() is prohibited](messages/modification-of-splobjectstorage-during-gethashqr-is-prohibited.html)
+  + [using spl_autoload_call() as a callback for spl_autoload_unregister() is deprecated,](messages/using-spl\_autoload\_callqr-as-a-callback-for-spl\_autoload\_unregisterqr-is-deprecated,.html)
 + splobjectstorage
   + [modification of splobjectstorage during gethash() is prohibited](messages/modification-of-splobjectstorage-during-gethashqr-is-prohibited.html)
 + sqlite3
@@ -2161,6 +2164,7 @@
   + [increment on non numeric string is deprecated, use str_increment() instead](messages/increment-on-non-numeric-string-is-deprecated,-use-str\_incrementqr-instead.html)
   + [only the first byte will be assigned to the string offset](messages/only-the-first-byte-will-be-assigned-to-the-string-offset.html)
   + [providing a string that is not one byte long is deprecated. use ord($str[0]) instead](messages/providing-a-string-that-is-not-one-byte-long-is-deprecated.-use-ordq$str\[0\]r-instead.html)
+  + [providing a value not in between 0 and 255 is deprecated, this is because a byte value must be in the [0, 255] interval. the value used will be constrained using %% 256](messages/providing-a-value-not-in-between-0-and-255-is-deprecated,-this-is-because-a-byte-value-must-be-in-the-\[0,-255\]-interval.-the-value-used-will-be-constrained-using-pp-256.html)
   + [syntax error, unexpected \'[\', expecting \';\' or \',\'](messages/syntax-error,-unexpected-\\\[\\,-expecting-\\;\\-or-\\,\\.html)
   + [syntax error, unexpected identifier "%s", expecting "," or ";"](messages/syntax-error,-unexpected-identifier-ps,-expecting-,-or-;.html)
   + [syntax error, unexpected string content](messages/syntax-error,-unexpected-string-content.html)

@@ -3626,6 +3626,11 @@
   <changefreq>yearly</changefreq>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/providing-a-value-not-in-between-0-and-255-is-deprecated,-this-is-because-a-byte-value-must-be-in-the-[0,-255]-interval.-the-value-used-will-be-constrained-using-pp-256.html</loc>
+  <lastmod>2026-09-20T20:44:17+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/providing-an-empty-string-is-deprecated.html</loc>
   <lastmod>2026-05-26T10:26:35+00:00</lastmod>
   <changefreq>yearly</changefreq>
@@ -5208,6 +5213,11 @@
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/using-null-as-the-key-parameter-for-array_key_existsqr-is-deprecated,-use-an-empty-string-instead.html</loc>
   <lastmod>2026-03-31T09:10:47+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/using-spl_autoload_callqr-as-a-callback-for-spl_autoload_unregisterqr-is-deprecated,.html</loc>
+  <lastmod>2026-09-20T20:44:25+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>

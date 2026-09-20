@@ -21,6 +21,8 @@
   + [cannot apply attributes to multiple constants at once](messages/cannot-apply-attributes-to-multiple-constants-at-once.html)
   + [cannot create closure as attribute argument](messages/cannot-create-closure-as-attribute-argument.html)
   + [cannot use unpacking in attribute argument list](messages/cannot-use-unpacking-in-attribute-argument-list.html)
++ autoload
+  + [using spl_autoload_call() as a callback for spl_autoload_unregister() is deprecated,](messages/using-spl\_autoload\_callqr-as-a-callback-for-spl\_autoload\_unregisterqr-is-deprecated,.html)
 + bug
   + [cannot use  "%s " as %s as it is reserved](messages/cannot-use--ps--as-ps-as-it-is-reserved.html)
   + [syntax error, unexpected token "(int)"](messages/syntax-error,-unexpected-token-qintr.html)
@@ -46,6 +48,8 @@
   + [unparenthesized \`a ? b : c ? d : e\` is not supported.](messages/unparenthesized-\\\`a-?-b-:-c-?-d-:-e\\\`-is-not-supported..html)
   + [unparenthesized \`a ? b : c ?: d\` is not supported.](messages/unparenthesized-\\\`a-?-b-:-c-?:-d\\\`-is-not-supported..html)
   + [unparenthesized \`a ?: b ? c : d\` is not supported.](messages/unparenthesized-\\\`a-?:-b-?-c-:-d\\\`-is-not-supported..html)
++ chr
+  + [providing a value not in between 0 and 255 is deprecated, this is because a byte value must be in the [0, 255] interval. the value used will be constrained using %% 256](messages/providing-a-value-not-in-between-0-and-255-is-deprecated,-this-is-because-a-byte-value-must-be-in-the-\[0,-255\]-interval.-the-value-used-will-be-constrained-using-pp-256.html)
 + class
   + [cannot redeclare class %s](messages/cannot-redeclare-class-ps.html)
   + [cannot use "parent" when current class scope has no parent](messages/cannot-use-parent-when-current-class-scope-has-no-parent.html)
@@ -160,6 +164,7 @@
   + [passing an object for filter parameters for %s is deprecated, call get_object_vars() first instead](messages/passing-an-object-for-filter-parameters-for-ps-is-deprecated,-call-get\_object\_varsqr-first-instead.html)
   + [passing an object for filter parameters for bzip2.compress is deprecated, call get_object_vars() first instead](messages/passing-an-object-for-filter-parameters-for-bzip2.compress-is-deprecated,-call-get\_object\_varsqr-first-instead.html)
   + [passing an object for filter parameters for bzip2.decompress is deprecated, call get_object_vars() first instead](messages/passing-an-object-for-filter-parameters-for-bzip2.decompress-is-deprecated,-call-get\_object\_varsqr-first-instead.html)
+  + [providing a value not in between 0 and 255 is deprecated, this is because a byte value must be in the [0, 255] interval. the value used will be constrained using %% 256](messages/providing-a-value-not-in-between-0-and-255-is-deprecated,-this-is-because-a-byte-value-must-be-in-the-\[0,-255\]-interval.-the-value-used-will-be-constrained-using-pp-256.html)
   + [providing an object to argument #1 ($sessionhandler) which does not have the create_sid() method defined is deprecated](messages/providing-an-object-to-argument-s1-q$sessionhandlerr-which-does-not-have-the-create\_sidqr-method-defined-is-deprecated.html)
   + [providing an object to argument #1 ($sessionhandler) which does not have the validateid() method defined is deprecated](messages/providing-an-object-to-argument-s1-q$sessionhandlerr-which-does-not-have-the-validateidqr-method-defined-is-deprecated.html)
   + [reflectionclass::getconstant() for a non existent constant is deprecated,](messages/reflectionclass::getconstantqr-for-a-non-existent-constant-is-deprecated,.html)
@@ -173,6 +178,7 @@
   + [using array_key_exists() on objects is deprecated.](messages/using-array\_key\_existsqr-on-objects-is-deprecated..html)
   + [using more than " zend_long_fmt " filters in a php:  filter url is deprecated](messages/using-more-than--zend\_long\_fmt--filters-in-a-php:--filter-url-is-deprecated.html)
   + [using more than %d filters in a php:  filter url is deprecated](messages/using-more-than-pd-filters-in-a-php:--filter-url-is-deprecated.html)
+  + [using spl_autoload_call() as a callback for spl_autoload_unregister() is deprecated,](messages/using-spl\_autoload\_callqr-as-a-callback-for-spl\_autoload\_unregisterqr-is-deprecated,.html)
 + destructor
   + [call to %s %s::__destruct() from global scope during shutdown ignored](messages/call-to-ps-ps::\_\_destructqr-from-global-scope-during-shutdown-ignored.html)
   + [making a destructor a generator is deprecated](messages/making-a-destructor-a-generator-is-deprecated.html)
@@ -569,6 +575,7 @@
   + [void cannot be used as a parameter type](messages/void-cannot-be-used-as-a-parameter-type.html)
 + spl
   + [cannot deserialize arrayobject with iterator class %s; this class is not derived from arrayiterator](messages/cannot-deserialize-arrayobject-with-iterator-class-ps;-this-class-is-not-derived-from-arrayiterator.html)
+  + [using spl_autoload_call() as a callback for spl_autoload_unregister() is deprecated,](messages/using-spl\_autoload\_callqr-as-a-callback-for-spl\_autoload\_unregisterqr-is-deprecated,.html)
 + spoofchecker
   + [must be either spoofchecker::ltr or spoofchecker::rtl](messages/must-be-either-spoofchecker::ltr-or-spoofchecker::rtl.html)
 + sqlite
@@ -608,6 +615,7 @@
 + string
   + [illegal string offset](messages/illegal-string-offset.html)
   + [providing a string that is not one byte long is deprecated. use ord($str[0]) instead](messages/providing-a-string-that-is-not-one-byte-long-is-deprecated.-use-ordq$str\[0\]r-instead.html)
+  + [providing a value not in between 0 and 255 is deprecated, this is because a byte value must be in the [0, 255] interval. the value used will be constrained using %% 256](messages/providing-a-value-not-in-between-0-and-255-is-deprecated,-this-is-because-a-byte-value-must-be-in-the-\[0,-255\]-interval.-the-value-used-will-be-constrained-using-pp-256.html)
 + strings
   + [must not be empty, use str_split() to split a string into characters](messages/must-not-be-empty,-use-str\_splitqr-to-split-a-string-into-characters.html)
 + surprise
