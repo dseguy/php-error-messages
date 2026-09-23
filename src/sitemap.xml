@@ -671,6 +671,11 @@
   <changefreq>yearly</changefreq>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/callables-of-the-form-[-ps.html</loc>
+  <lastmod>2026-09-21T21:45:29+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/calling-ppsqr-for-static-method-pps::ppsqr-does-not-need-an-object-parameter.html</loc>
   <lastmod>2026-09-20T20:00:00+00:00</lastmod>
   <changefreq>yearly</changefreq>
@@ -698,6 +703,11 @@
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/calling-psqr-with-2-arguments-is-deprecated,.html</loc>
   <lastmod>2026-09-09T14:14:08+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/calling-psqresource-$stub.html</loc>
+  <lastmod>2026-09-21T21:41:13+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -2006,6 +2016,11 @@
   <changefreq>yearly</changefreq>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/creation-of-dynamic-property-ps::$-zend_long_fmt--is-deprecated.html</loc>
+  <lastmod>2026-09-21T21:41:23+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/creation-of-dynamic-property-ps::$ps-is-deprecated.html</loc>
   <lastmod>2026-03-31T09:10:46+00:00</lastmod>
   <changefreq>yearly</changefreq>
@@ -2053,6 +2068,16 @@
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/declaring-ps-constant-called-namespace-is-deprecated.html</loc>
   <lastmod>2026-09-04T14:35:21+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/decrement-on-empty-string-is-deprecated-as-non-numeric.html</loc>
+  <lastmod>2026-09-21T21:45:05+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/decrement-on-non-numeric-string-has-no-effect-and-is-deprecated.html</loc>
+  <lastmod>2026-09-21T21:45:07+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -4681,6 +4706,11 @@
   <changefreq>yearly</changefreq>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/the-mt_rand_php-variant-of-mt19937-is-deprecated.html</loc>
+  <lastmod>2026-09-21T21:41:52+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-parent-constructor-was-not-called:-the-object-is-in-an-invalid-state.html</loc>
   <lastmod>2026-03-31T09:10:47+00:00</lastmod>
   <changefreq>yearly</changefreq>
@@ -5138,6 +5168,21 @@
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/use-of-static-in-callables-is-deprecated.html</loc>
   <lastmod>2026-03-31T09:10:47+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/use-of--parent--in-callables-is-deprecated.html</loc>
+  <lastmod>2026-09-21T21:47:17+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/use-of--self--in-callables-is-deprecated.html</loc>
+  <lastmod>2026-09-21T21:47:06+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/use-of--static--in-callables-is-deprecated.html</loc>
+  <lastmod>2026-09-21T21:47:26+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>

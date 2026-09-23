@@ -28,6 +28,11 @@
   + [syntax error, unexpected token "(int)"](messages/syntax-error,-unexpected-token-qintr.html)
 + bzip2
   + [must have a length less than or equal to %u](messages/must-have-a-length-less-than-or-equal-to-pu.html)
++ callable
+  + [callables of the form [ "%s](messages/callables-of-the-form-\[-ps.html)
+  + [use of  "parent " in callables is deprecated](messages/use-of--parent--in-callables-is-deprecated.html)
+  + [use of  "self " in callables is deprecated](messages/use-of--self--in-callables-is-deprecated.html)
+  + [use of  "static " in callables is deprecated](messages/use-of--static--in-callables-is-deprecated.html)
 + callback
   + [%s(): return value of the authorizer callback must be of type int, %s returned](messages/psqr:-return-value-of-the-authorizer-callback-must-be-of-type-int,-ps-returned.html)
   + [%s(): return value of the collation callback must be of type int, %s returned](messages/psqr:-return-value-of-the-collation-callback-must-be-of-type-int,-ps-returned.html)
@@ -112,6 +117,9 @@
   + [declare(%s) value must be a literal](messages/declareqpsr-value-must-be-a-literal.html)
   + [encoding declaration pragma must be](messages/encoding-declaration-pragma-must-be.html)
   + [namespace declaration statement has to be](messages/namespace-declaration-statement-has-to-be.html)
++ decrement
+  + [decrement on empty string is deprecated as non numeric](messages/decrement-on-empty-string-is-deprecated-as-non-numeric.html)
+  + [decrement on non numeric string has no effect and is deprecated](messages/decrement-on-non-numeric-string-has-no-effect-and-is-deprecated.html)
 + default value
   + [parameter $%s of %s hook %s::$%s must not have a default value](messages/parameter-$ps-of-ps-hook-ps::$ps-must-not-have-a-default-value.html)
 + define
@@ -137,10 +145,12 @@
   + [the (real) cast is deprecated, use (float) instead](messages/the-qrealr-cast-is-deprecated,-use-qfloatr-instead.html)
   + [usage of ldap_connect with two arguments is deprecated](messages/usage-of-ldap\_connect-with-two-arguments-is-deprecated.html)
 + deprecation
+  + [callables of the form [ "%s](messages/callables-of-the-form-\[-ps.html)
   + [calling %ps() for static method %ps::%ps() does not need an object parameter](messages/calling-ppsqr-for-static-method-pps::ppsqr-does-not-need-an-object-parameter.html)
   + [calling %ps() with a 1st argument which is not null or an object is deprecated](messages/calling-ppsqr-with-a-1st-argument-which-is-not-null-or-an-object-is-deprecated.html)
   + [calling %ps() with a given object that is not an instance of the class this property was declared in is deprecated](messages/calling-ppsqr-with-a-given-object-that-is-not-an-instance-of-the-class-this-property-was-declared-in-is-deprecated.html)
   + [calling %ps() with a single argument is deprecated](messages/calling-ppsqr-with-a-single-argument-is-deprecated.html)
+  + [calling %s(resource $stub](messages/calling-psqresource-$stub.html)
   + [calling a function “readonly” is deprecated](messages/calling-a-function-“readonly”-is-deprecated.html)
   + [cannot bind method %s::%s() to object of class %s, this will be an error in php 9](messages/cannot-bind-method-ps::psqr-to-object-of-class-ps,-this-will-be-an-error-in-php-9.html)
   + [cannot rebind scope of closure created from function, this will be an error in php 9](messages/cannot-rebind-scope-of-closure-created-from-function,-this-will-be-an-error-in-php-9.html)
@@ -149,7 +159,10 @@
   + [cannot unbind $this of method, this will be an error in php 9](messages/cannot-unbind-$this-of-method,-this-will-be-an-error-in-php-9.html)
   + [constant %s is deprecated](messages/constant-ps-is-deprecated.html)
   + [constant %s::%s is deprecated](messages/constant-ps::ps-is-deprecated.html)
+  + [creation of dynamic property %s::$" zend_long_fmt " is deprecated](messages/creation-of-dynamic-property-ps::$-zend\_long\_fmt--is-deprecated.html)
   + [declaring %s constant called namespace is deprecated](messages/declaring-ps-constant-called-namespace-is-deprecated.html)
+  + [decrement on empty string is deprecated as non numeric](messages/decrement-on-empty-string-is-deprecated-as-non-numeric.html)
+  + [decrement on non numeric string has no effect and is deprecated](messages/decrement-on-non-numeric-string-has-no-effect-and-is-deprecated.html)
   + [function %s() is deprecated%s](messages/function-psqr-is-deprecatedps.html)
   + [instantiation of mysqli_stmt without providing the $query parameter is deprecated](messages/instantiation-of-mysqli\_stmt-without-providing-the-$query-parameter-is-deprecated.html)
   + [making a constructor a generator is deprecated](messages/making-a-constructor-a-generator-is-deprecated.html)
@@ -174,7 +187,11 @@
   + [returning from a finally block is deprecated](messages/returning-from-a-finally-block-is-deprecated.html)
   + [returning null from %s::__debuginfo() is deprecated, make the return type non nullable and return an empty array instead](messages/returning-null-from-ps::\_\_debuginfoqr-is-deprecated,-make-the-return-type-non-nullable-and-return-an-empty-array-instead.html)
   + [returning null from %s::__debuginfo() is deprecated, return an empty array instead](messages/returning-null-from-ps::\_\_debuginfoqr-is-deprecated,-return-an-empty-array-instead.html)
+  + [the mt_rand_php variant of mt19937 is deprecated](messages/the-mt\_rand\_php-variant-of-mt19937-is-deprecated.html)
   + [trait %s used by %s is deprecated%s](messages/trait-ps-used-by-ps-is-deprecatedps.html)
+  + [use of  "parent " in callables is deprecated](messages/use-of--parent--in-callables-is-deprecated.html)
+  + [use of  "self " in callables is deprecated](messages/use-of--self--in-callables-is-deprecated.html)
+  + [use of  "static " in callables is deprecated](messages/use-of--static--in-callables-is-deprecated.html)
   + [using array_key_exists() on objects is deprecated.](messages/using-array\_key\_existsqr-on-objects-is-deprecated..html)
   + [using more than " zend_long_fmt " filters in a php:  filter url is deprecated](messages/using-more-than--zend\_long\_fmt--filters-in-a-php:--filter-url-is-deprecated.html)
   + [using more than %d filters in a php:  filter url is deprecated](messages/using-more-than-pd-filters-in-a-php:--filter-url-is-deprecated.html)
@@ -193,6 +210,8 @@
   + [type %s is redundant with type %s](messages/type-ps-is-redundant-with-type-ps.html)
 + dynamic-call
   + [cannot call %ps() dynamically](messages/cannot-call-ppsqr-dynamically.html)
++ dynamic-property
+  + [creation of dynamic property %s::$" zend_long_fmt " is deprecated](messages/creation-of-dynamic-property-ps::$-zend\_long\_fmt--is-deprecated.html)
 + edge case
   + [is an invalid class name](messages/is-an-invalid-class-name.html)
 + ellipsis
@@ -453,6 +472,7 @@
 + pgsql
   + [calling pg_fetch_result() with 2 arguments is deprecated,](messages/calling-pg\_fetch\_resultqr-with-2-arguments-is-deprecated,.html)
 + phar
+  + [calling %s(resource $stub](messages/calling-psqresource-$stub.html)
   + [iterator %s returned an invalid value (must return a string, a stream, or an splfileinfo object)](messages/iterator-ps-returned-an-invalid-value-qmust-return-a-string,-a-stream,-or-an-splfileinfo-objectr.html)
 + php://filter
   + [using more than %d filters in a php:  filter url is deprecated](messages/using-more-than-pd-filters-in-a-php:--filter-url-is-deprecated.html)
@@ -478,6 +498,8 @@
 + property-hook
   + [cannot redeclare property hook  "%s](messages/cannot-redeclare-property-hook--ps.html)
   + [cannot use %s() on virtual property %ps::$%ps](messages/cannot-use-psqr-on-virtual-property-pps::$pps.html)
++ random
+  + [the mt_rand_php variant of mt19937 is deprecated](messages/the-mt\_rand\_php-variant-of-mt19937-is-deprecated.html)
 + readonly
   + [cannot acquire reference to $globals](messages/cannot-acquire-reference-to-$globals.html)
   + [cannot acquire reference to readonly property %s::$%s](messages/cannot-acquire-reference-to-readonly-property-ps::$ps.html)
@@ -613,6 +635,8 @@
   + [strict_types declaration must have 0 or 1 as its value](messages/strict\_types-declaration-must-have-0-or-1-as-its-value.html)
   + [strict_types declaration must not](messages/strict\_types-declaration-must-not.html)
 + string
+  + [decrement on empty string is deprecated as non numeric](messages/decrement-on-empty-string-is-deprecated-as-non-numeric.html)
+  + [decrement on non numeric string has no effect and is deprecated](messages/decrement-on-non-numeric-string-has-no-effect-and-is-deprecated.html)
   + [illegal string offset](messages/illegal-string-offset.html)
   + [providing a string that is not one byte long is deprecated. use ord($str[0]) instead](messages/providing-a-string-that-is-not-one-byte-long-is-deprecated.-use-ordq$str\[0\]r-instead.html)
   + [providing a value not in between 0 and 255 is deprecated, this is because a byte value must be in the [0, 255] interval. the value used will be constrained using %% 256](messages/providing-a-value-not-in-between-0-and-255-is-deprecated,-this-is-because-a-byte-value-must-be-in-the-\[0,-255\]-interval.-the-value-used-will-be-constrained-using-pp-256.html)
@@ -806,6 +830,8 @@
   + [undefined variable](messages/undefined-variable.html)
 + unicode
   + [must be a valid normalization form](messages/must-be-a-valid-normalization-form.html)
++ unserialize
+  + [creation of dynamic property %s::$" zend_long_fmt " is deprecated](messages/creation-of-dynamic-property-ps::$-zend\_long\_fmt--is-deprecated.html)
 + uri
   + [cannot set a userinfo without having a host](messages/cannot-set-a-userinfo-without-having-a-host.html)
   + [must be a list of %s](messages/must-be-a-list-of-ps.html)

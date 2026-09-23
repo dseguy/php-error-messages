@@ -107,6 +107,7 @@
   + [cannot apply #[allowdynamicproperties] to interface %s](messages/cannot-apply-s\[allowdynamicproperties\]-to-interface-ps.html)
   + [cannot apply #[allowdynamicproperties] to readonly class %s](messages/cannot-apply-s\[allowdynamicproperties\]-to-readonly-class-ps.html)
   + [cannot apply #[allowdynamicproperties] to trait %s](messages/cannot-apply-s\[allowdynamicproperties\]-to-trait-ps.html)
+  + [creation of dynamic property %s::$" zend_long_fmt " is deprecated](messages/creation-of-dynamic-property-ps::$-zend\_long\_fmt--is-deprecated.html)
   + [creation of dynamic property %s::$%s is deprecated](messages/creation-of-dynamic-property-ps::$ps-is-deprecated.html)
 + and
   + [syntax error, unexpected token "&"](messages/syntax-error,-unexpected-token-&.html)
@@ -349,11 +350,15 @@
   + [too few arguments to function %s%s%s(), %d passed and %s %d expected](messages/too-few-arguments-to-function-pspspsqr,-pd-passed-and-ps-pd-expected.html)
   + [too few arguments to function %s%s%s(), %d passed and %s %d](messages/too-few-arguments-to-function-pspspsqr,-pd-passed-and-ps-pd.html)
 + callable
+  + [callables of the form [ "%s](messages/callables-of-the-form-\[-ps.html)
   + [cannot use dynamic function name in constant expression](messages/cannot-use-dynamic-function-name-in-constant-expression.html)
   + [class constant %s::%s cannot have type %s](messages/class-constant-ps::ps-cannot-have-type-ps.html)
   + [failed to create closure from callable: %s](messages/failed-to-create-closure-from-callable:-ps.html)
   + [object of type %s is not callable](messages/object-of-type-ps-is-not-callable.html)
   + [passing non callable strings is deprecated since 8.4](messages/passing-non-callable-strings-is-deprecated-since-8.4.html)
+  + [use of  "parent " in callables is deprecated](messages/use-of--parent--in-callables-is-deprecated.html)
+  + [use of  "self " in callables is deprecated](messages/use-of--self--in-callables-is-deprecated.html)
+  + [use of  "static " in callables is deprecated](messages/use-of--static--in-callables-is-deprecated.html)
   + [value of type %s is not callable](messages/value-of-type-ps-is-not-callable.html)
 + callback
   + [%s(): return value of the authorizer callback must be of type int, %s returned](messages/psqr:-return-value-of-the-authorizer-callback-must-be-of-type-int,-ps-returned.html)
@@ -761,6 +766,7 @@
 + dynamic-constant
   + [syntax error, unexpected token ";", expecting "("](messages/syntax-error,-unexpected-token-;,-expecting-q.html)
 + dynamic-property
+  + [creation of dynamic property %s::$" zend_long_fmt " is deprecated](messages/creation-of-dynamic-property-ps::$-zend\_long\_fmt--is-deprecated.html)
   + [creation of dynamic property %s::$%s is deprecated](messages/creation-of-dynamic-property-ps::$ps-is-deprecated.html)
 + each
   + [call to undefined function each()](messages/call-to-undefined-function-eachqr.html)
@@ -1664,6 +1670,7 @@
   + [must be one of pgsql_assoc, pgsql_num, or pgsql_both](messages/must-be-one-of-pgsql\_assoc,-pgsql\_num,-or-pgsql\_both.html)
   + [must be one of pgsql_notice_last, pgsql_notice_all, or pgsql_notice_clear](messages/must-be-one-of-pgsql\_notice\_last,-pgsql\_notice\_all,-or-pgsql\_notice\_clear.html)
 + phar
+  + [calling %s(resource $stub](messages/calling-psqresource-$stub.html)
   + [entry %s does not exist and cannot be deleted](messages/entry-ps-does-not-exist-and-cannot-be-deleted.html)
   + [iterator %s returned an invalid value (must return a string, a stream, or an splfileinfo object)](messages/iterator-ps-returned-an-invalid-value-qmust-return-a-string,-a-stream,-or-an-splfileinfo-objectr.html)
   + [unlink of "%s" failed, file does not exist](messages/unlink-of-ps-failed,-file-does-not-exist.html)
@@ -1803,6 +1810,8 @@
 + quoted-printable
   + [handling qprint via mbstring is deprecated; use quoted_printable_encode quoted_printable_decode instead](messages/handling-qprint-via-mbstring-is-deprecated;-use-quoted\_printable\_encode-quoted\_printable\_decode-instead.html)
   + [handling qprint via mbstring is deprecated; use quoted_printable_encode quoted_printable_decode](messages/handling-qprint-via-mbstring-is-deprecated;-use-quoted\_printable\_encode-quoted\_printable\_decode.html)
++ random
+  + [the mt_rand_php variant of mt19937 is deprecated](messages/the-mt\_rand\_php-variant-of-mt19937-is-deprecated.html)
 + range
   + [argument #1 ($start) must be a single byte string if](messages/argument-s1-q$startr-must-be-a-single-byte-string-if.html)
   + [cannot be 0](messages/cannot-be-0.html)
@@ -2157,6 +2166,8 @@
   + [cannot assign an empty string to a string offset](messages/cannot-assign-an-empty-string-to-a-string-offset.html)
   + [cannot use string offset as an array](messages/cannot-use-string-offset-as-an-array.html)
   + [cannot use string offset as an object](messages/cannot-use-string-offset-as-an-object.html)
+  + [decrement on empty string is deprecated as non numeric](messages/decrement-on-empty-string-is-deprecated-as-non-numeric.html)
+  + [decrement on non numeric string has no effect and is deprecated](messages/decrement-on-non-numeric-string-has-no-effect-and-is-deprecated.html)
   + [empty delimiter](messages/empty-delimiter.html)
   + [illegal function name](messages/illegal-function-name.html)
   + [illegal string offset](messages/illegal-string-offset.html)
@@ -2171,6 +2182,9 @@
   + [unbacked enum %s cannot be converted to a string](messages/unbacked-enum-ps-cannot-be-converted-to-a-string.html)
   + [uninitialized string offset](messages/uninitialized-string-offset.html)
   + [using ${var} in strings is deprecated, use {$var} instead](messages/using-${var}-in-strings-is-deprecated,-use-{$var}-instead.html)
++ string-decrement
+  + [decrement on empty string is deprecated as non numeric](messages/decrement-on-empty-string-is-deprecated-as-non-numeric.html)
+  + [decrement on non numeric string has no effect and is deprecated](messages/decrement-on-non-numeric-string-has-no-effect-and-is-deprecated.html)
 + string-increment
   + [increment on non alphanumeric string is deprecated](messages/increment-on-non-alphanumeric-string-is-deprecated.html)
 + stringable
@@ -2334,6 +2348,8 @@
   + [cannot use positional argument after named argument](messages/cannot-use-positional-argument-after-named-argument.html)
   + [cannot use unpacking in attribute argument list](messages/cannot-use-unpacking-in-attribute-argument-list.html)
   + [keys must be of type int|string during array unpacking](messages/keys-must-be-of-type-int|string-during-array-unpacking.html)
++ unserialize
+  + [creation of dynamic property %s::$" zend_long_fmt " is deprecated](messages/creation-of-dynamic-property-ps::$-zend\_long\_fmt--is-deprecated.html)
 + unset
   + [attempt to unset static property %s::$%s](messages/attempt-to-unset-static-property-ps::$ps.html)
   + [can\'t use function return value in write context](messages/can\\t-use-function-return-value-in-write-context.html)
