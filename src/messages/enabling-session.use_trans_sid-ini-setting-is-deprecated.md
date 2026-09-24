@@ -23,3 +23,5 @@ if (!ini_get('session.use_trans_sid')) {
 
 ## Related error messages
 + [disabling-session.use_only_cookies-ini-setting-is-deprecated](disabling-session.use\_only\_cookies-ini-setting-is-deprecated.html)
++ [usage-of-session.trans_sid_hosts-ini-setting-is-deprecated](usage-of-session.trans\_sid\_hosts-ini-setting-is-deprecated.html)
++ [usage-of-session.trans_sid_tags-ini-setting-is-deprecated](usage-of-session.trans\_sid\_tags-ini-setting-is-deprecated.html)

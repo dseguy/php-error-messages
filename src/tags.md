@@ -76,6 +76,7 @@
   + [partial application of %s() expects %s %d arguments, %d given](messages/partial-application-of-psqr-expects-ps-pd-arguments,-pd-given.html)
   + [partial application of %s() expects at most %d arguments, %d given](messages/partial-application-of-psqr-expects-at-most-pd-arguments,-pd-given.html)
 + coercion
+  + [implicit conversion from float string  "%s " to int loses precision](messages/implicit-conversion-from-float-string--ps--to-int-loses-precision.html)
   + [unexpected nan value was coerced to %s](messages/unexpected-nan-value-was-coerced-to-ps.html)
 + collision
   + [%s %s inherits both %s::%s and %s::%s](messages/ps-ps-inherits-both-ps::ps-and-ps::ps.html)
@@ -103,6 +104,10 @@
   + [returning a value from a constructor is deprecated](messages/returning-a-value-from-a-constructor-is-deprecated.html)
 + crash
   + [must not contain empty strings](messages/must-not-contain-empty-strings.html)
++ csv
+  + [the $escape parameter must be provided, as its default value will change, either explicitly or via splfileobject::setcsvcontrol()](messages/the-$escape-parameter-must-be-provided,-as-its-default-value-will-change,-either-explicitly-or-via-splfileobject::setcsvcontrolqr.html)
++ ctype
+  + [argument of type %s will be interpreted as string in the future](messages/argument-of-type-ps-will-be-interpreted-as-string-in-the-future.html)
 + date
   + [the maximum representable range is 2_147_483_647 seconds (roughly 68 years)](messages/the-maximum-representable-range-is-2\_147\_483\_647-seconds-qroughly-68-yearsr.html)
   + [the maximum representable range is 9_223_372_035 seconds (roughly 292 years)](messages/the-maximum-representable-range-is-9\_223\_372\_035-seconds-qroughly-292-yearsr.html)
@@ -145,6 +150,10 @@
   + [the (real) cast is deprecated, use (float) instead](messages/the-qrealr-cast-is-deprecated,-use-qfloatr-instead.html)
   + [usage of ldap_connect with two arguments is deprecated](messages/usage-of-ldap\_connect-with-two-arguments-is-deprecated.html)
 + deprecation
+  + [%s(): implicitly marking parameter $%s as nullable is deprecated, the explicit nullable type](messages/psqr:-implicitly-marking-parameter-$ps-as-nullable-is-deprecated,-the-explicit-nullable-type.html)
+  + [%s(): optional parameter $%s declared before required parameter $%s](messages/psqr:-optional-parameter-$ps-declared-before-required-parameter-$ps.html)
+  + [%s implements the serializable interface](messages/ps-implements-the-serializable-interface.html)
+  + [argument of type %s will be interpreted as string in the future](messages/argument-of-type-ps-will-be-interpreted-as-string-in-the-future.html)
   + [callables of the form [ "%s](messages/callables-of-the-form-\[-ps.html)
   + [calling %ps() for static method %ps::%ps() does not need an object parameter](messages/calling-ppsqr-for-static-method-pps::ppsqr-does-not-need-an-object-parameter.html)
   + [calling %ps() with a 1st argument which is not null or an object is deprecated](messages/calling-ppsqr-with-a-1st-argument-which-is-not-null-or-an-object-is-deprecated.html)
@@ -164,10 +173,14 @@
   + [decrement on empty string is deprecated as non numeric](messages/decrement-on-empty-string-is-deprecated-as-non-numeric.html)
   + [decrement on non numeric string has no effect and is deprecated](messages/decrement-on-non-numeric-string-has-no-effect-and-is-deprecated.html)
   + [function %s() is deprecated%s](messages/function-psqr-is-deprecatedps.html)
+  + [implicit conversion from float string  "%s " to int loses precision](messages/implicit-conversion-from-float-string--ps--to-int-loses-precision.html)
   + [instantiation of mysqli_stmt without providing the $query parameter is deprecated](messages/instantiation-of-mysqli\_stmt-without-providing-the-$query-parameter-is-deprecated.html)
   + [making a constructor a generator is deprecated](messages/making-a-constructor-a-generator-is-deprecated.html)
   + [making a destructor a generator is deprecated](messages/making-a-destructor-a-generator-is-deprecated.html)
   + [object values within argument #1 $data to http_build_query() being interpreted as arrays is deprecated,](messages/object-values-within-argument-s1-$data-to-http\_build\_queryqr-being-interpreted-as-arrays-is-deprecated,.html)
+  + [passing a secret of a type other than string is deprecated because it implicitly converts to a string, potentially hiding bugs](messages/passing-a-secret-of-a-type-other-than-string-is-deprecated-because-it-implicitly-converts-to-a-string,-potentially-hiding-bugs.html)
+  + [passing a seed of a type other than int is deprecated because it is ignored](messages/passing-a-seed-of-a-type-other-than-int-is-deprecated-because-it-is-ignored.html)
+  + [passing a seed of a type other than int is deprecated because it is the same as setting the seed to 0](messages/passing-a-seed-of-a-type-other-than-int-is-deprecated-because-it-is-the-same-as-setting-the-seed-to-0.html)
   + [passing an object for argument #%" priu32 " $vars to mb_convert_variables() is deprecated, call get_object_vars() first instead](messages/passing-an-object-for-argument-sp-priu32--$vars-to-mb\_convert\_variablesqr-is-deprecated,-call-get\_object\_varsqr-first-instead.html)
   + [passing an object for argument #1 $array to array_walk() is deprecated, call get_object_vars() first instead](messages/passing-an-object-for-argument-s1-$array-to-array\_walkqr-is-deprecated,-call-get\_object\_varsqr-first-instead.html)
   + [passing an object for argument #1 $array to array_walk_recursive() is deprecated, call get_object_vars() first instead](messages/passing-an-object-for-argument-s1-$array-to-array\_walk\_recursiveqr-is-deprecated,-call-get\_object\_varsqr-first-instead.html)
@@ -177,6 +190,7 @@
   + [passing an object for filter parameters for %s is deprecated, call get_object_vars() first instead](messages/passing-an-object-for-filter-parameters-for-ps-is-deprecated,-call-get\_object\_varsqr-first-instead.html)
   + [passing an object for filter parameters for bzip2.compress is deprecated, call get_object_vars() first instead](messages/passing-an-object-for-filter-parameters-for-bzip2.compress-is-deprecated,-call-get\_object\_varsqr-first-instead.html)
   + [passing an object for filter parameters for bzip2.decompress is deprecated, call get_object_vars() first instead](messages/passing-an-object-for-filter-parameters-for-bzip2.decompress-is-deprecated,-call-get\_object\_varsqr-first-instead.html)
+  + [passing bool is deprecated, use 1 or  1 instead](messages/passing-bool-is-deprecated,-use-1-or--1-instead.html)
   + [providing a value not in between 0 and 255 is deprecated, this is because a byte value must be in the [0, 255] interval. the value used will be constrained using %% 256](messages/providing-a-value-not-in-between-0-and-255-is-deprecated,-this-is-because-a-byte-value-must-be-in-the-\[0,-255\]-interval.-the-value-used-will-be-constrained-using-pp-256.html)
   + [providing an object to argument #1 ($sessionhandler) which does not have the create_sid() method defined is deprecated](messages/providing-an-object-to-argument-s1-q$sessionhandlerr-which-does-not-have-the-create\_sidqr-method-defined-is-deprecated.html)
   + [providing an object to argument #1 ($sessionhandler) which does not have the validateid() method defined is deprecated](messages/providing-an-object-to-argument-s1-q$sessionhandlerr-which-does-not-have-the-validateidqr-method-defined-is-deprecated.html)
@@ -187,11 +201,21 @@
   + [returning from a finally block is deprecated](messages/returning-from-a-finally-block-is-deprecated.html)
   + [returning null from %s::__debuginfo() is deprecated, make the return type non nullable and return an empty array instead](messages/returning-null-from-ps::\_\_debuginfoqr-is-deprecated,-make-the-return-type-non-nullable-and-return-an-empty-array-instead.html)
   + [returning null from %s::__debuginfo() is deprecated, return an empty array instead](messages/returning-null-from-ps::\_\_debuginfoqr-is-deprecated,-return-an-empty-array-instead.html)
+  + [the $escape parameter must be provided, as its default value will change, either explicitly or via splfileobject::setcsvcontrol()](messages/the-$escape-parameter-must-be-provided,-as-its-default-value-will-change,-either-explicitly-or-via-splfileobject::setcsvcontrolqr.html)
+  + [the  "ssl_method " option is deprecated. use  "ssl " stream context options instead](messages/the--ssl\_method--option-is-deprecated.-use--ssl--stream-context-options-instead.html)
+  + [the driver_version property is deprecated](messages/the-driver\_version-property-is-deprecated.html)
+  + [the filter.default ini setting is deprecated](messages/the-filter.default-ini-setting-is-deprecated.html)
   + [the mt_rand_php variant of mt19937 is deprecated](messages/the-mt\_rand\_php-variant-of-mt19937-is-deprecated.html)
+  + [the pdo::fetch_serialize mode is deprecated](messages/the-pdo::fetch\_serialize-mode-is-deprecated.html)
   + [trait %s used by %s is deprecated%s](messages/trait-ps-used-by-ps-is-deprecatedps.html)
+  + [usage of session.trans_sid_hosts ini setting is deprecated](messages/usage-of-session.trans\_sid\_hosts-ini-setting-is-deprecated.html)
+  + [usage of session.trans_sid_tags ini setting is deprecated](messages/usage-of-session.trans\_sid\_tags-ini-setting-is-deprecated.html)
   + [use of  "parent " in callables is deprecated](messages/use-of--parent--in-callables-is-deprecated.html)
   + [use of  "self " in callables is deprecated](messages/use-of--self--in-callables-is-deprecated.html)
   + [use of  "static " in callables is deprecated](messages/use-of--static--in-callables-is-deprecated.html)
+  + [use of iconv.input_encoding is deprecated](messages/use-of-iconv.input\_encoding-is-deprecated.html)
+  + [use of iconv.internal_encoding is deprecated](messages/use-of-iconv.internal\_encoding-is-deprecated.html)
+  + [use of iconv.output_encoding is deprecated](messages/use-of-iconv.output\_encoding-is-deprecated.html)
   + [using array_key_exists() on objects is deprecated.](messages/using-array\_key\_existsqr-on-objects-is-deprecated..html)
   + [using more than " zend_long_fmt " filters in a php:  filter url is deprecated](messages/using-more-than--zend\_long\_fmt--filters-in-a-php:--filter-url-is-deprecated.html)
   + [using more than %d filters in a php:  filter url is deprecated](messages/using-more-than-pd-filters-in-a-php:--filter-url-is-deprecated.html)
@@ -260,6 +284,7 @@
   + [filter validation failed: filter %s not satisfied by %s](messages/filter-validation-failed:-filter-ps-not-satisfied-by-ps.html)
   + [filter validation failed: not an array (got %s)](messages/filter-validation-failed:-not-an-array-qgot-psr.html)
   + [filter validation failed: object of type %s has no __tostring() method](messages/filter-validation-failed:-object-of-type-ps-has-no-\_\_tostringqr-method.html)
+  + [the filter.default ini setting is deprecated](messages/the-filter.default-ini-setting-is-deprecated.html)
 + final
   + [cannot override final %s::__construct() with %s::__construct()](messages/cannot-override-final-ps::\_\_constructqr-with-ps::\_\_constructqr.html)
 + finally
@@ -294,12 +319,26 @@
 + goto
   + [\'goto\' into loop or switch statement is disallowed](messages/\\goto\\-into-loop-or-switch-statement-is-disallowed.html)
 + hash
+  + [passing a secret of a type other than string is deprecated because it implicitly converts to a string, potentially hiding bugs](messages/passing-a-secret-of-a-type-other-than-string-is-deprecated-because-it-implicitly-converts-to-a-string,-potentially-hiding-bugs.html)
+  + [passing a seed of a type other than int is deprecated because it is ignored](messages/passing-a-seed-of-a-type-other-than-int-is-deprecated-because-it-is-ignored.html)
+  + [passing a seed of a type other than int is deprecated because it is the same as setting the seed to 0](messages/passing-a-seed-of-a-type-other-than-int-is-deprecated-because-it-is-the-same-as-setting-the-seed-to-0.html)
   + [unknown digest algorithm: %s](messages/unknown-digest-algorithm:-ps.html)
++ iconv
+  + [use of iconv.input_encoding is deprecated](messages/use-of-iconv.input\_encoding-is-deprecated.html)
+  + [use of iconv.internal_encoding is deprecated](messages/use-of-iconv.internal\_encoding-is-deprecated.html)
+  + [use of iconv.output_encoding is deprecated](messages/use-of-iconv.output\_encoding-is-deprecated.html)
 + implicit
   + [%s%s%s(): return value must be of type %s, %s returned](messages/pspspsqr:-return-value-must-be-of-type-ps,-ps-returned.html)
   + [%s(): implicitly marking parameter $%s as nullable is deprecated, the explicit nullable type must be used instead](messages/psqr:-implicitly-marking-parameter-$ps-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead.html)
 + ini
   + [auto_detect_line_endings is deprecated](messages/auto\_detect\_line\_endings-is-deprecated.html)
++ ini-setting
+  + [the filter.default ini setting is deprecated](messages/the-filter.default-ini-setting-is-deprecated.html)
+  + [usage of session.trans_sid_hosts ini setting is deprecated](messages/usage-of-session.trans\_sid\_hosts-ini-setting-is-deprecated.html)
+  + [usage of session.trans_sid_tags ini setting is deprecated](messages/usage-of-session.trans\_sid\_tags-ini-setting-is-deprecated.html)
+  + [use of iconv.input_encoding is deprecated](messages/use-of-iconv.input\_encoding-is-deprecated.html)
+  + [use of iconv.internal_encoding is deprecated](messages/use-of-iconv.internal\_encoding-is-deprecated.html)
+  + [use of iconv.output_encoding is deprecated](messages/use-of-iconv.output\_encoding-is-deprecated.html)
 + interface
   + [class %s implementing sessionhandlerinterface is missing the create_sid() method which will be required in php 9.0](messages/class-ps-implementing-sessionhandlerinterface-is-missing-the-create\_sidqr-method-which-will-be-required-in-php-9.0.html)
   + [class %s implementing sessionhandlerinterface is missing the validateid() method which will be required in php 9.0](messages/class-ps-implementing-sessionhandlerinterface-is-missing-the-validateidqr-method-which-will-be-required-in-php-9.0.html)
@@ -314,6 +353,7 @@
   + [must be either spoofchecker::ltr or spoofchecker::rtl](messages/must-be-either-spoofchecker::ltr-or-spoofchecker::rtl.html)
   + [must be no longer than %d characters](messages/must-be-no-longer-than-pd-characters.html)
   + [must be one of intlnumberrangeformatter::identity_fallback_single_value, ::identity_fallback_approximately_or_single_value, ::identity_fallback_approximately, or ::identity_fallback_range](messages/must-be-one-of-intlnumberrangeformatter::identity\_fallback\_single\_value,-::identity\_fallback\_approximately\_or\_single\_value,-::identity\_fallback\_approximately,-or-::identity\_fallback\_range.html)
+  + [passing bool is deprecated, use 1 or  1 instead](messages/passing-bool-is-deprecated,-use-1-or--1-instead.html)
 + iterator
   + [iterator %s returned an invalid value (must return a string, a stream, or an splfileinfo object)](messages/iterator-ps-returned-an-invalid-value-qmust-return-a-string,-a-stream,-or-an-splfileinfo-objectr.html)
   + [iterator does not support rewinding](messages/iterator-does-not-support-rewinding.html)
@@ -350,6 +390,7 @@
   + [namespace %s is an invalid class name](messages/namespace-ps-is-an-invalid-class-name.html)
   + [syntax error, unexpected identifier "%s"](messages/syntax-error,-unexpected-identifier-ps.html)
   + [syntax error, unexpected token "%s", expecting identifier](messages/syntax-error,-unexpected-token-ps,-expecting-identifier.html)
+  + [the driver_version property is deprecated](messages/the-driver\_version-property-is-deprecated.html)
   + [type %s contains both object and a class type](messages/type-ps-contains-both-object-and-a-class-type.html)
 + magic-method
   + [making a constructor a generator is deprecated](messages/making-a-constructor-a-generator-is-deprecated.html)
@@ -378,6 +419,7 @@
   + [instantiation of mysqli_stmt without providing the $query parameter is deprecated](messages/instantiation-of-mysqli\_stmt-without-providing-the-$query-parameter-is-deprecated.html)
   + [must be mysqli_init_command, mysqli_set_charset_name, mysqli_server_public_key, or one of the mysqli_opt_* constants](messages/must-be-mysqli\_init\_command,-mysqli\_set\_charset\_name,-mysqli\_server\_public\_key,-or-one-of-the-mysqli\_opt\_\*-constants.html)
   + [passing the $mode parameter is deprecated since 8.4, as it has been ignored since 8.1](messages/passing-the-$mode-parameter-is-deprecated-since-8.4,-as-it-has-been-ignored-since-8.1.html)
+  + [the driver_version property is deprecated](messages/the-driver\_version-property-is-deprecated.html)
 + name
   + [syntax error, unexpected identifier "%s"](messages/syntax-error,-unexpected-identifier-ps.html)
 + named-parameter
@@ -429,6 +471,8 @@
   + [syntax error, unexpected token "(", expecting "::"](messages/syntax-error,-unexpected-token-q,-expecting-::.html)
 + null
   + [null cannot be marked as nullable](messages/null-cannot-be-marked-as-nullable.html)
++ nullable
+  + [%s(): implicitly marking parameter $%s as nullable is deprecated, the explicit nullable type](messages/psqr:-implicitly-marking-parameter-$ps-as-nullable-is-deprecated,-the-explicit-nullable-type.html)
 + number-formatting
   + [must be no longer than %d characters](messages/must-be-no-longer-than-pd-characters.html)
   + [must be one of intlnumberrangeformatter::identity_fallback_single_value, ::identity_fallback_approximately_or_single_value, ::identity_fallback_approximately, or ::identity_fallback_range](messages/must-be-one-of-intlnumberrangeformatter::identity\_fallback\_single\_value,-::identity\_fallback\_approximately\_or\_single\_value,-::identity\_fallback\_approximately,-or-::identity\_fallback\_range.html)
@@ -446,6 +490,8 @@
 + operators
   + [the behavior of unparenthesized expressions containing both \'.\' and \'+\' \' \' will change in php 8: \'+\' \' \' will take a higher precedence](messages/the-behavior-of-unparenthesized-expressions-containing-both-\\.\\-and-\\+\\-\\-\\-will-change-in-php-8:-\\+\\-\\-\\-will-take-a-higher-precedence.html)
   + [the behavior of unparenthesized expressions containing both \'.\' and \'<<\' \'>>\' will change in php 8: \'<<\' \'>>\' will take a higher precedence](messages/the-behavior-of-unparenthesized-expressions-containing-both-\\.\\-and-\\<<\\-\\>>\\-will-change-in-php-8:-\\<<\\-\\>>\\-will-take-a-higher-precedence.html)
++ optional-parameter
+  + [%s(): optional parameter $%s declared before required parameter $%s](messages/psqr:-optional-parameter-$ps-declared-before-required-parameter-$ps.html)
 + overloaded signature
   + [calling dateperiod::__construct(string $isostr, int $options = 0) is deprecated,](messages/calling-dateperiod::\_\_constructqstring-$isostr,-int-$options-=-0r-is-deprecated,.html)
 + overloaded-signature
@@ -455,6 +501,8 @@
   + [calling stream_context_set_option() with 2 arguments is deprecated,](messages/calling-stream\_context\_set\_optionqr-with-2-arguments-is-deprecated,.html)
 + p
   + [class %s cannot use %s   it is not a trait](messages/class-ps-cannot-use-ps---it-is-not-a-trait.html)
++ parameter
+  + [%s(): optional parameter $%s declared before required parameter $%s](messages/psqr:-optional-parameter-$ps-declared-before-required-parameter-$ps.html)
 + parameter value error
   + [must be greater than 0](messages/must-be-greater-than-0.html)
 + partial-application
@@ -469,6 +517,7 @@
   + [%s(): return value of the collation callback must be of type int, %s returned](messages/psqr:-return-value-of-the-collation-callback-must-be-of-type-int,-ps-returned.html)
   + [cannot change default fetch mode while fetching](messages/cannot-change-default-fetch-mode-while-fetching.html)
   + [the pdo extension must be loaded first in order to load pdo drivers](messages/the-pdo-extension-must-be-loaded-first-in-order-to-load-pdo-drivers.html)
+  + [the pdo::fetch_serialize mode is deprecated](messages/the-pdo::fetch\_serialize-mode-is-deprecated.html)
 + pgsql
   + [calling pg_fetch_result() with 2 arguments is deprecated,](messages/calling-pg\_fetch\_resultqr-with-2-arguments-is-deprecated,.html)
 + phar
@@ -563,11 +612,14 @@
 + serialization
   + [cannot deserialize arrayobject with iterator class %s; this class is not derived from arrayiterator](messages/cannot-deserialize-arrayobject-with-iterator-class-ps;-this-class-is-not-derived-from-arrayiterator.html)
 + serialize
+  + [%s implements the serializable interface](messages/ps-implements-the-serializable-interface.html)
   + [serialization of %s is not allowed, override __serialize() and __unserialize() to implement it](messages/serialization-of-ps-is-not-allowed,-override-\_\_serializeqr-and-\_\_unserializeqr-to-implement-it.html)
   + [unserialization of %s is not allowed, override __serialize() and __unserialize() to implement it](messages/unserialization-of-ps-is-not-allowed,-override-\_\_serializeqr-and-\_\_unserializeqr-to-implement-it.html)
 + session
   + [class %s implementing sessionhandlerinterface is missing the create_sid() method which will be required in php 9.0](messages/class-ps-implementing-sessionhandlerinterface-is-missing-the-create\_sidqr-method-which-will-be-required-in-php-9.0.html)
   + [class %s implementing sessionhandlerinterface is missing the validateid() method which will be required in php 9.0](messages/class-ps-implementing-sessionhandlerinterface-is-missing-the-validateidqr-method-which-will-be-required-in-php-9.0.html)
+  + [usage of session.trans_sid_hosts ini setting is deprecated](messages/usage-of-session.trans\_sid\_hosts-ini-setting-is-deprecated.html)
+  + [usage of session.trans_sid_tags ini setting is deprecated](messages/usage-of-session.trans\_sid\_tags-ini-setting-is-deprecated.html)
 + shutdown
   + [call to %s %s::__destruct() from global scope during shutdown ignored](messages/call-to-ps-ps::\_\_destructqr-from-global-scope-during-shutdown-ignored.html)
 + silent-cast
@@ -581,6 +633,8 @@
   + [must contain a type for object id %s](messages/must-contain-a-type-for-object-id-ps.html)
   + [must contain a value for object id %s](messages/must-contain-a-value-for-object-id-ps.html)
   + [must not be empty when passed as an array](messages/must-not-be-empty-when-passed-as-an-array.html)
++ soap
+  + [the  "ssl_method " option is deprecated. use  "ssl " stream context options instead](messages/the--ssl\_method--option-is-deprecated.-use--ssl--stream-context-options-instead.html)
 + sockets
   + [must be a combination of msg_oob, msg_peek, msg_waitall, msg_dontwait, msg_errqueue, and msg_cmsg_cloexec for af_packet sockets](messages/must-be-a-combination-of-msg\_oob,-msg\_peek,-msg\_waitall,-msg\_dontwait,-msg\_errqueue,-and-msg\_cmsg\_cloexec-for-af\_packet-sockets.html)
   + [must be of type array when argument #3 ($option) is mcast_leave_group, %s given](messages/must-be-of-type-array-when-argument-s3-q$optionr-is-mcast\_leave\_group,-ps-given.html)
@@ -603,6 +657,8 @@
 + sqlite
   + [%s(): return value of the authorizer callback must be of type int, %s returned](messages/psqr:-return-value-of-the-authorizer-callback-must-be-of-type-int,-ps-returned.html)
   + [%s(): return value of the collation callback must be of type int, %s returned](messages/psqr:-return-value-of-the-collation-callback-must-be-of-type-int,-ps-returned.html)
++ ssl
+  + [the  "ssl_method " option is deprecated. use  "ssl " stream context options instead](messages/the--ssl\_method--option-is-deprecated.-use--ssl--stream-context-options-instead.html)
 + static
   + [calling ffi::cast() statically is deprecated](messages/calling-ffi::castqr-statically-is-deprecated.html)
   + [calling ffi::new() statically is deprecated](messages/calling-ffi::newqr-statically-is-deprecated.html)
@@ -823,6 +879,9 @@
   + [unexpected nan value was coerced to %s](messages/unexpected-nan-value-was-coerced-to-ps.html)
 + typed-properties
   + [typed property %ps::$%ps must not be accessed before initialization](messages/typed-property-pps::$pps-must-not-be-accessed-before-initialization.html)
++ types
+  + [%s(): implicitly marking parameter $%s as nullable is deprecated, the explicit nullable type](messages/psqr:-implicitly-marking-parameter-$ps-as-nullable-is-deprecated,-the-explicit-nullable-type.html)
+  + [implicit conversion from float string  "%s " to int loses precision](messages/implicit-conversion-from-float-string--ps--to-int-loses-precision.html)
 + typo
   + [cannot assign to array(), use [] instead in %s](messages/cannot-assign-to-arrayqr,-use-\[\]-instead-in-ps.html)
 + undefined

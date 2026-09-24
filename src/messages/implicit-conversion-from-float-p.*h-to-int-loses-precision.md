@@ -33,6 +33,7 @@ foo(1.1);
 + Round the float to integer before using it with a typed resource.
 
 ## Related error messages
++ [implicit-conversion-from-float-string--"%s-"-to-int-loses-precision](implicit-conversion-from-float-string--%s--to-int-loses-precision.html)
 + [the-float-%.*h-is-not-representable-as-an-int,-cast-occurred](the-float-%.\*h-is-not-representable-as-an-int,-cast-occurred.html)
 
 # Changed Behavior

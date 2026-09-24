@@ -1,0 +1,46 @@
+# %s implements the Serializable interface
+
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/ps-implements-the-serializable-interface.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/ps-implements-the-serializable-interface.html","name":"%s implements the Serializable interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"2026-09-24T07:03:44+00:00","dateModified":"2026-09-24T07:03:44+00:00","description":"The ``Serializable`` interface (``serialize()``\/``unserialize()``) was PHP's original hook for customizing object serialization, but it has a well-known flaw: it cannot represent the identity and reference structure of nested objects correctly, which is why ``__serialize()``\/``__unserialize()`` were introduced in PHP 7","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/ps-implements-the-serializable-interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+## Description
+The `Serializable` interface (`serialize()`/`unserialize()`) was PHP's original hook for customizing object serialization, but it has a well-known flaw: it cannot represent the identity and reference structure of nested objects correctly, which is why `__serialize()`/`__unserialize()` were introduced in PHP 7.4 as a full replacement.
+
+As of PHP 8.1, any *non-abstract* class that implements `Serializable` without also implementing both `__serialize()` and `__unserialize()` emits this deprecation notice as soon as the class is declared (not just when an instance is serialized). A class that implements `Serializable` *and* the two magic methods is not affected -- that combination remains the recommended way to support both old and new PHP versions.
+
+## Example
+
+```php
+<?php
+
+class Foo implements Serializable {
+    public function serialize(): string {
+        return '';
+    }
+
+    public function unserialize($data): void {
+    }
+}
+
+new Foo;
+
+?>
+```
+
+## Literal Examples
++ Foo implements the Serializable interface, which is deprecated. Implement __serialize() and __unserialize() instead (or in addition, if support for old PHP versions is necessary)
+
+## Alternatives
++ Replace serialize()/unserialize() with __serialize(): array and __unserialize(array $data): void.
++ If backward compatibility with PHP < 7.4 is required, keep implementing Serializable but also add __serialize() and __unserialize() -- only the interface without the magic methods triggers the notice.
++ Drop custom serialization handling entirely if the default property-based serialization is sufficient.
+
+## Related error messages
++ [enum-%s-cannot-implement-the-serializable-interface](enum-%s-cannot-implement-the-serializable-interface.html)
++ [the-pdo::fetch_serialize-mode-is-deprecated](the-pdo::fetch\_serialize-mode-is-deprecated.html)
+
+## Related error messages
++ [PHP RFC: Phasing out Serializable](https://wiki.php.net/rfc/phase_out_serializable)
++ [Serializable manual](https://www.php.net/manual/en/class.serializable.php)
+
+# Changed Behavior
+This error may appear following an evolution in behavior, in previous versions. See 
+[]()

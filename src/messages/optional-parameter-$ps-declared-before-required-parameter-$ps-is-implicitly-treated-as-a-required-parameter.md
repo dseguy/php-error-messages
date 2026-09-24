@@ -24,3 +24,4 @@ function foo($a = 1, $b) {}
 + Add a default value of the late required parameter.
 
 In previous PHP versions, this error message used to be :ref:`required-parameter-$%s-follows-optional-parameter-$%s`.
+In more recent PHP versions, this error message is now :ref:`%s():-optional-parameter-$%s-declared-before-required-parameter-$%s`.

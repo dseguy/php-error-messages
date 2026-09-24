@@ -22,3 +22,6 @@ enum E implements Serializable {
 ## Alternatives
 + Remove the ``serializable`` implements.
 + Make this enumeration a class.
+
+## Related error messages
++ [%s-implements-the-serializable-interface](%s-implements-the-serializable-interface.html)

@@ -21,6 +21,9 @@ fputcsv($data);
 + Test your application with ``escape`` set to empty string, and PHP 8.4+.
 
 ## Related error messages
++ [the-$escape-parameter-must-be-provided,-as-its-default-value-will-change,-either-explicitly-or-via-splfileobject::setcsvcontrol()](the-$escape-parameter-must-be-provided,-as-its-default-value-will-change,-either-explicitly-or-via-splfileobject::setcsvcontrol\(\).html)
+
+## Related error messages
 + [Theescapeparametermustbeprovided](https://php.watch/versions/8.4/csv-functions-escape-parameter)
 + [fputcsvandescapecharacter](https://externals.io/message/100729)
 

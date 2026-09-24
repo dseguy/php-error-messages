@@ -1,0 +1,38 @@
+# The \"ssl_method\" option is deprecated. Use \"ssl\" stream context options instead
+
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/the--ssl_method--option-is-deprecated.-use--ssl--stream-context-options-instead.html","url":"https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/the--ssl_method--option-is-deprecated.-use--ssl--stream-context-options-instead.html","name":"The \\\"ssl_method\\\" option is deprecated. Use \\\"ssl\\\" stream context options instead","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"2026-09-24T07:06:19+00:00","dateModified":"2026-09-24T07:06:19+00:00","description":"``SoapClient`` accepts an ``'ssl_method'`` constructor option to pick which SSL\/TLS version to use, predating PHP's general-purpose stream context SSL options","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/php-errors.readthedocs.io\/en\/latest\/messages\/the--ssl_method--option-is-deprecated.-use--ssl--stream-context-options-instead.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+## Description
+`SoapClient` accepts an `'ssl_method'` constructor option to pick which SSL/TLS version to use, predating PHP's general-purpose stream context SSL options. In practice it offers little control: `SOAP_SSL_METHOD_TLS` and `SOAP_SSL_METHOD_SSLv23` both just mean 'the default', `SOAP_SSL_METHOD_SSLv2` always fails since PHP no longer supports SSL 2, and `SOAP_SSL_METHOD_SSLv3` selects a protocol considered insecure for years.
+
+As of PHP 8.1, passing `'ssl_method'` emits this deprecation notice; the far more capable `'ssl'` stream context options (in particular `crypto_method`) already cover the same need for every other stream-based extension, including individual TLS versions that `ssl_method` cannot select at all.
+
+## Example
+
+```php
+<?php
+
+$client = new SoapClient(null, [
+    'location' => 'https://example.com/soap',
+    'uri'      => 'https://example.com/soap',
+    // Selecting the TLS version through this option is deprecated.
+    'ssl_method' => SOAP_SSL_METHOD_TLS,
+]);
+
+?>
+```
+
+## Literal Examples
++ SoapClient::__construct(): The "ssl_method" option is deprecated. Use "ssl" stream context options instead
+
+## Alternatives
++ Build a stream context with the desired 'ssl' => ['crypto_method' => STREAM_CRYPTO_METHOD_TLSv1_2_CLIENT] (or similar) and pass it via the 'stream_context' constructor option instead.
++ Drop 'ssl_method' entirely if only the platform default TLS version is needed -- that is what SOAP_SSL_METHOD_TLS already resolved to.
+
+## Related error messages
++ [PHP RFC: Deprecations for PHP 8.1](https://wiki.php.net/rfc/deprecations_php_8_1)
++ [SSL context options manual](https://www.php.net/manual/en/context.ssl.php)
++ [SoapClient::__construct manual](https://www.php.net/manual/en/soapclient.construct.php)
+
+# Changed Behavior
+This error may appear following an evolution in behavior, in previous versions. See 
+[]()

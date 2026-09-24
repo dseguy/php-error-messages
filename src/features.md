@@ -341,6 +341,8 @@
   + [providing a value not in between 0 and 255 is deprecated, this is because a byte value must be in the [0, 255] interval. the value used will be constrained using %% 256](messages/providing-a-value-not-in-between-0-and-255-is-deprecated,-this-is-because-a-byte-value-must-be-in-the-\[0,-255\]-interval.-the-value-used-will-be-constrained-using-pp-256.html)
 + bzdecompress
   + [must have a length less than or equal to %u](messages/must-have-a-length-less-than-or-equal-to-pu.html)
++ calendar
+  + [passing bool is deprecated, use 1 or  1 instead](messages/passing-bool-is-deprecated,-use-1-or--1-instead.html)
 + call
   + [%s() expects exactly 0 arguments, %d given](messages/psqr-expects-exactly-0-arguments,-pd-given.html)
   + [call to %s %s::%s() from global scope](messages/call-to-ps-ps::psqr-from-global-scope.html)
@@ -541,6 +543,7 @@
 + codepoint
   + [is not a valid codepoint](messages/is-not-a-valid-codepoint.html)
 + coercion
+  + [implicit conversion from float string  "%s " to int loses precision](messages/implicit-conversion-from-float-string--ps--to-int-loses-precision.html)
   + [unexpected nan value was coerced to %s](messages/unexpected-nan-value-was-coerced-to-ps.html)
 + colon
   + [case statements followed by a semicolon (;) are deprecated, use a colon (:) instead](messages/case-statements-followed-by-a-semicolon-q;r-are-deprecated,-use-a-colon-q:r-instead.html)
@@ -655,7 +658,10 @@
   + [must be of type countable|array, %s given](messages/must-be-of-type-countable|array,-ps-given.html)
   + [parameter must be an array or an object that implements countable](messages/parameter-must-be-an-array-or-an-object-that-implements-countable.html)
 + csv
+  + [the $escape parameter must be provided, as its default value will change, either explicitly or via splfileobject::setcsvcontrol()](messages/the-$escape-parameter-must-be-provided,-as-its-default-value-will-change,-either-explicitly-or-via-splfileobject::setcsvcontrolqr.html)
   + [the $escape parameter must be provided as its default value will change](messages/the-$escape-parameter-must-be-provided-as-its-default-value-will-change.html)
++ ctype
+  + [argument of type %s will be interpreted as string in the future](messages/argument-of-type-ps-will-be-interpreted-as-string-in-the-future.html)
 + curl
   + [contains an invalid curl option](messages/contains-an-invalid-curl-option.html)
   + [curlpipe_http1 is deprecated](messages/curlpipe\_http1-is-deprecated.html)
@@ -739,7 +745,13 @@
   + [enabling session.use_trans_sid ini setting is deprecated](messages/enabling-session.use\_trans\_sid-ini-setting-is-deprecated.html)
   + [session.sid_bits_per_character ini setting is deprecated](messages/session.sid\_bits\_per\_character-ini-setting-is-deprecated.html)
   + [session.sid_length ini setting is deprecated](messages/session.sid\_length-ini-setting-is-deprecated.html)
+  + [the filter.default ini setting is deprecated](messages/the-filter.default-ini-setting-is-deprecated.html)
   + [usage of session.referer_check ini setting is deprecated](messages/usage-of-session.referer\_check-ini-setting-is-deprecated.html)
+  + [usage of session.trans_sid_hosts ini setting is deprecated](messages/usage-of-session.trans\_sid\_hosts-ini-setting-is-deprecated.html)
+  + [usage of session.trans_sid_tags ini setting is deprecated](messages/usage-of-session.trans\_sid\_tags-ini-setting-is-deprecated.html)
+  + [use of iconv.input_encoding is deprecated](messages/use-of-iconv.input\_encoding-is-deprecated.html)
+  + [use of iconv.internal_encoding is deprecated](messages/use-of-iconv.internal\_encoding-is-deprecated.html)
+  + [use of iconv.output_encoding is deprecated](messages/use-of-iconv.output\_encoding-is-deprecated.html)
   + [use of mbstring.http_input is deprecated](messages/use-of-mbstring.http\_input-is-deprecated.html)
   + [use of mbstring.http_output is deprecated](messages/use-of-mbstring.http\_output-is-deprecated.html)
   + [use of mbstring.internal_encoding is deprecated](messages/use-of-mbstring.internal\_encoding-is-deprecated.html)
@@ -840,6 +852,7 @@
   + [%s %s cannot implement interface %s, extend exception or error instead](messages/ps-ps-cannot-implement-interface-ps,-extend-exception-or-error-instead.html)
   + [passing e_user_error to trigger_error() is deprecated since 8.4, throw an exception or call exit with a string message instead](messages/passing-e\_user\_error-to-trigger\_errorqr-is-deprecated-since-8.4,-throw-an-exception-or-call-exit-with-a-string-message-instead.html)
 + escape-data
+  + [the $escape parameter must be provided, as its default value will change, either explicitly or via splfileobject::setcsvcontrol()](messages/the-$escape-parameter-must-be-provided,-as-its-default-value-will-change,-either-explicitly-or-via-splfileobject::setcsvcontrolqr.html)
   + [the $escape parameter must be provided as its default value will change](messages/the-$escape-parameter-must-be-provided-as-its-default-value-will-change.html)
 + escape-sequence
   + [invalid utf 8 codepoint escape](messages/invalid-utf-8-codepoint-escape.html)
@@ -913,6 +926,8 @@
   + [couldn\'t open stream: %s](messages/couldn\\t-open-stream:-ps.html)
 + file_put_contents
   + [write of %zu bytes failed with errno=%d %s](messages/write-of-pzu-bytes-failed-with-errno=pd-ps.html)
++ filter
+  + [the filter.default ini setting is deprecated](messages/the-filter.default-ini-setting-is-deprecated.html)
 + final
   + [%s::%s cannot override final constant %s::%s](messages/ps::ps-cannot-override-final-constant-ps::ps.html)
   + [cannot override final %s::%s() with %s::%s()](messages/cannot-override-final-ps::psqr-with-ps::psqr.html)
@@ -1029,6 +1044,9 @@
   + [passing non callable strings is deprecated since 8.4](messages/passing-non-callable-strings-is-deprecated-since-8.4.html)
 + hash
   + [must be a list array](messages/must-be-a-list-array.html)
+  + [passing a secret of a type other than string is deprecated because it implicitly converts to a string, potentially hiding bugs](messages/passing-a-secret-of-a-type-other-than-string-is-deprecated-because-it-implicitly-converts-to-a-string,-potentially-hiding-bugs.html)
+  + [passing a seed of a type other than int is deprecated because it is ignored](messages/passing-a-seed-of-a-type-other-than-int-is-deprecated-because-it-is-ignored.html)
+  + [passing a seed of a type other than int is deprecated because it is the same as setting the seed to 0](messages/passing-a-seed-of-a-type-other-than-int-is-deprecated-because-it-is-the-same-as-setting-the-seed-to-0.html)
   + [unknown digest algorithm: %s](messages/unknown-digest-algorithm:-ps.html)
 + hashing
   + [unknown digest algorithm: %s](messages/unknown-digest-algorithm:-ps.html)
@@ -1049,6 +1067,9 @@
 + iconv
   + [must be contained in argument #1 ($haystack)](messages/must-be-contained-in-argument-s1-q$haystackr.html)
   + [offset not contained in string.](messages/offset-not-contained-in-string..html)
+  + [use of iconv.input_encoding is deprecated](messages/use-of-iconv.input\_encoding-is-deprecated.html)
+  + [use of iconv.internal_encoding is deprecated](messages/use-of-iconv.internal\_encoding-is-deprecated.html)
+  + [use of iconv.output_encoding is deprecated](messages/use-of-iconv.output\_encoding-is-deprecated.html)
   + [wrong encoding, conversion from "%s" to "%s" is not allowed](messages/wrong-encoding,-conversion-from-ps-to-ps-is-not-allowed.html)
 + identifier
   + [syntax error, unexpected identifier "%s", expecting ")"](messages/syntax-error,-unexpected-identifier-ps,-expecting-r.html)
@@ -1183,6 +1204,7 @@
   + [calling intlgregoriancalendar::__construct() with more than 2 arguments is deprecated,](messages/calling-intlgregoriancalendar::\_\_constructqr-with-more-than-2-arguments-is-deprecated,.html)
   + [datetimezone object is unconstructed](messages/datetimezone-object-is-unconstructed.html)
   + [intllistformatter object is already constructed](messages/intllistformatter-object-is-already-constructed.html)
+  + [passing bool is deprecated, use 1 or  1 instead](messages/passing-bool-is-deprecated,-use-1-or--1-instead.html)
 + is_object
   + [__clone method called on non object](messages/\_\_clone-method-called-on-non-object.html)
 + isset
@@ -1274,6 +1296,7 @@
   + [get_called_class() must be called from within a class](messages/get\_called\_classqr-must-be-called-from-within-a-class.html)
   + [syntax error, unexpected token "__namespace__", expecting "("](messages/syntax-error,-unexpected-token-\_\_namespace\_\_,-expecting-q.html)
 + magic-method
+  + [%s implements the serializable interface](messages/ps-implements-the-serializable-interface.html)
   + [%s::%s(): return type must be %s when declared](messages/ps::psqr:-return-type-must-be-ps-when-declared.html)
   + [call to %s %s::%s() from invalid](messages/call-to-ps-ps::psqr-from-invalid.html)
   + [call to %s method %s::%s() from %s%s](messages/call-to-ps-method-ps::psqr-from-psps.html)
@@ -1396,6 +1419,7 @@
 + mysqli
   + [passing connection object as an argument is deprecated](messages/passing-connection-object-as-an-argument-is-deprecated.html)
   + [passing the $mode parameter is deprecated since 8.4, as it has been ignored since 8.1](messages/passing-the-$mode-parameter-is-deprecated-since-8.4,-as-it-has-been-ignored-since-8.1.html)
+  + [the driver_version property is deprecated](messages/the-driver\_version-property-is-deprecated.html)
 + mysqli-options
   + [must be mysqli_init_command, mysqli_set_charset_name, mysqli_server_public_key, or one of the mysqli_opt_* constants](messages/must-be-mysqli\_init\_command,-mysqli\_set\_charset\_name,-mysqli\_server\_public\_key,-or-one-of-the-mysqli\_opt\_\*-constants.html)
 + name
@@ -1520,6 +1544,7 @@
   + [using null as an array offset is deprecated, use an empty string instead](messages/using-null-as-an-array-offset-is-deprecated,-use-an-empty-string-instead.html)
   + [using null as the key parameter for array_key_exists() is deprecated, use an empty string instead](messages/using-null-as-the-key-parameter-for-array\_key\_existsqr-is-deprecated,-use-an-empty-string-instead.html)
 + nullable
+  + [%s(): implicitly marking parameter $%s as nullable is deprecated, the explicit nullable type](messages/psqr:-implicitly-marking-parameter-$ps-as-nullable-is-deprecated,-the-explicit-nullable-type.html)
   + [default value for property of type %s may not be null. use the nullable type %s to allow null default value](messages/default-value-for-property-of-type-ps-may-not-be-null.-use-the-nullable-type-ps-to-allow-null-default-value.html)
   + [null cannot be marked as nullable](messages/null-cannot-be-marked-as-nullable.html)
   + [type mixed cannot be marked as nullable since mixed already includes null](messages/type-mixed-cannot-be-marked-as-nullable-since-mixed-already-includes-null.html)
@@ -1582,6 +1607,7 @@
   + [\'%s\' operator with non integer operand](messages/\\ps\\-operator-with-non-integer-operand.html)
   + [unsupported operand types](messages/unsupported-operand-types.html)
 + optional-parameter
+  + [%s(): optional parameter $%s declared before required parameter $%s](messages/psqr:-optional-parameter-$ps-declared-before-required-parameter-$ps.html)
   + [required parameter $%s follows optional parameter $%s](messages/required-parameter-$ps-follows-optional-parameter-$ps.html)
 + output-buffering
   + [cannot modify header information   headers already sent](messages/cannot-modify-header-information---headers-already-sent.html)
@@ -1597,6 +1623,7 @@
   + [type %c: unknown format code](messages/type-pc:-unknown-format-code.html)
 + parameter
   + [%s(): implicitly marking parameter $%s as nullable is deprecated, the explicit nullable type must be used instead](messages/psqr:-implicitly-marking-parameter-$ps-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead.html)
+  + [%s(): optional parameter $%s declared before required parameter $%s](messages/psqr:-optional-parameter-$ps-declared-before-required-parameter-$ps.html)
   + [cannot use %s as default value for parameter $%s of type %s](messages/cannot-use-ps-as-default-value-for-parameter-$ps-of-type-ps.html)
   + [cannot use %s as default value for property %s::$%s of type %s](messages/cannot-use-ps-as-default-value-for-property-ps::$ps-of-type-ps.html)
   + [cannot use lexical variable %s as a parameter name](messages/cannot-use-lexical-variable-ps-as-a-parameter-name.html)
@@ -1664,6 +1691,7 @@
   + [%s(): return value of the collation callback must be of type int, %s returned](messages/psqr:-return-value-of-the-collation-callback-must-be-of-type-int,-ps-returned.html)
   + [cannot change default fetch mode while fetching](messages/cannot-change-default-fetch-mode-while-fetching.html)
   + [the pdo extension must be loaded first in order to load pdo drivers](messages/the-pdo-extension-must-be-loaded-first-in-order-to-load-pdo-drivers.html)
+  + [the pdo::fetch_serialize mode is deprecated](messages/the-pdo::fetch\_serialize-mode-is-deprecated.html)
 + pgsql
   + [automatic fetching of postgresql connection is deprecated](messages/automatic-fetching-of-postgresql-connection-is-deprecated.html)
   + [calling pg_fetch_result() with 2 arguments is deprecated,](messages/calling-pg\_fetch\_resultqr-with-2-arguments-is-deprecated,.html)
@@ -1999,6 +2027,9 @@
   + [serialization of %s is not allowed, override __serialize() and __unserialize() to implement it](messages/serialization-of-ps-is-not-allowed,-override-\_\_serializeqr-and-\_\_unserializeqr-to-implement-it.html)
   + [unserialization of %s is not allowed, override __serialize() and __unserialize() to implement it](messages/unserialization-of-ps-is-not-allowed,-override-\_\_serializeqr-and-\_\_unserializeqr-to-implement-it.html)
   + [unserializing the \'s\' format is deprecated](messages/unserializing-the-\\s\\-format-is-deprecated.html)
++ serialize
+  + [%s implements the serializable interface](messages/ps-implements-the-serializable-interface.html)
+  + [the pdo::fetch_serialize mode is deprecated](messages/the-pdo::fetch\_serialize-mode-is-deprecated.html)
 + session
   + [class %s implementing sessionhandlerinterface is missing the create_sid() method which will be required in php 9.0](messages/class-ps-implementing-sessionhandlerinterface-is-missing-the-create\_sidqr-method-which-will-be-required-in-php-9.0.html)
   + [class %s implementing sessionhandlerinterface is missing the validateid() method which will be required in php 9.0](messages/class-ps-implementing-sessionhandlerinterface-is-missing-the-validateidqr-method-which-will-be-required-in-php-9.0.html)
@@ -2011,6 +2042,8 @@
   + [session.sid_bits_per_character ini setting is deprecated](messages/session.sid\_bits\_per\_character-ini-setting-is-deprecated.html)
   + [session.sid_length ini setting is deprecated](messages/session.sid\_length-ini-setting-is-deprecated.html)
   + [usage of session.referer_check ini setting is deprecated](messages/usage-of-session.referer\_check-ini-setting-is-deprecated.html)
+  + [usage of session.trans_sid_hosts ini setting is deprecated](messages/usage-of-session.trans\_sid\_hosts-ini-setting-is-deprecated.html)
+  + [usage of session.trans_sid_tags ini setting is deprecated](messages/usage-of-session.trans\_sid\_tags-ini-setting-is-deprecated.html)
 + shell_exec
   + [the backtick (\`) operator is deprecated, use shell_exec() instead](messages/the-backtick-q\\\`r-operator-is-deprecated,-use-shell\_execqr-instead.html)
 + short-assignation
@@ -2041,6 +2074,8 @@
 + snmp-set
   + [must contain a type for object id %s](messages/must-contain-a-type-for-object-id-ps.html)
   + [must contain a value for object id %s](messages/must-contain-a-value-for-object-id-ps.html)
++ soap
+  + [the  "ssl_method " option is deprecated. use  "ssl " stream context options instead](messages/the--ssl\_method--option-is-deprecated.-use--ssl--stream-context-options-instead.html)
 + socket
   + [failed to open stream from socketpair](messages/failed-to-open-stream-from-socketpair.html)
 + socket-options
@@ -2070,6 +2105,8 @@
   + [unclosed \'(\' on line %s does not match \']\'](messages/unclosed-\\q\\-on-line-ps-does-not-match-\\\]\\.html)
   + [unclosed \'[\'](messages/unclosed-\\\[\\.html)
   + [unmatched \'}\'](messages/unmatched-\\}\\.html)
++ ssl
+  + [the  "ssl_method " option is deprecated. use  "ssl " stream context options instead](messages/the--ssl\_method--option-is-deprecated.-use--ssl--stream-context-options-instead.html)
 + static
   + ["static::" is not allowed in compile time constants](messages/static::-is-not-allowed-in-compile-time-constants.html)
   + [\' %s\' is an invalid class name](messages/\\-ps\\-is-an-invalid-class-name.html)
@@ -2325,6 +2362,9 @@
 + typed-property
   + [default value for property of type %s may not be null. use the nullable type %s to allow null default value](messages/default-value-for-property-of-type-ps-may-not-be-null.-use-the-nullable-type-ps-to-allow-null-default-value.html)
   + [property with asymmetric visibility %s::$%s must have type](messages/property-with-asymmetric-visibility-ps::$ps-must-have-type.html)
++ types
+  + [%s(): implicitly marking parameter $%s as nullable is deprecated, the explicit nullable type](messages/psqr:-implicitly-marking-parameter-$ps-as-nullable-is-deprecated,-the-explicit-nullable-type.html)
+  + [implicit conversion from float string  "%s " to int loses precision](messages/implicit-conversion-from-float-string--ps--to-int-loses-precision.html)
 + typo
   + [call to undefined function](messages/call-to-undefined-function.html)
 + underscore
