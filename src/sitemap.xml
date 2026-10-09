@@ -67,7 +67,7 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/psqr:-implicitly-marking-parameter-$ps-as-nullable-is-deprecated,-the-explicit-nullable-type.html</loc>
-  <lastmod>2026-09-24T07:01:24+00:00</lastmod>
+  <lastmod>2026-10-09T16:27:07+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -197,7 +197,7 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/ps-implements-the-serializable-interface.html</loc>
-  <lastmod>2026-09-24T07:03:44+00:00</lastmod>
+  <lastmod>2026-10-09T16:27:31+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -617,7 +617,7 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/auto_detect_line_endings-is-deprecated.html</loc>
-  <lastmod>2026-08-21T07:46:01+00:00</lastmod>
+  <lastmod>2026-10-09T16:27:48+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -812,7 +812,7 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/calling-stream_context_set_optionqr-with-2-arguments-is-deprecated,.html</loc>
-  <lastmod>2026-09-09T14:14:00+00:00</lastmod>
+  <lastmod>2026-10-09T16:25:53+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -918,6 +918,11 @@
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-append-to-$globals.html</loc>
   <lastmod>2026-08-05T14:18:55+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-append-to-weakmap.html</loc>
+  <lastmod>2026-10-09T10:15:26+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -1032,7 +1037,7 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-call-ppsqr-dynamically.html</loc>
-  <lastmod>2026-09-04T15:20:19+00:00</lastmod>
+  <lastmod>2026-10-09T16:26:42+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -1672,7 +1677,7 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/cannot-use-dynamic-function-name-in-constant-expression.html</loc>
-  <lastmod>2026-09-18T18:39:11+00:00</lastmod>
+  <lastmod>2026-10-09T16:46:05+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -2047,7 +2052,7 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/curlpipe_http1-is-deprecated.html</loc>
-  <lastmod>2026-08-11T20:54:43+00:00</lastmod>
+  <lastmod>2026-10-09T16:43:47+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -2092,12 +2097,12 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/decrement-on-empty-string-is-deprecated-as-non-numeric.html</loc>
-  <lastmod>2026-09-21T21:45:05+00:00</lastmod>
+  <lastmod>2026-10-09T16:41:21+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/decrement-on-non-numeric-string-has-no-effect-and-is-deprecated.html</loc>
-  <lastmod>2026-09-21T21:45:07+00:00</lastmod>
+  <lastmod>2026-10-09T16:40:36+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -2176,8 +2181,13 @@
   <changefreq>yearly</changefreq>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/direct-instantiation-of-weakreference-is-not-allowed,-use-weakreference::create-instead.html</loc>
+  <lastmod>2026-10-09T14:05:12+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/directive-report_memleaks-is-deprecated.html</loc>
-  <lastmod>2026-08-13T15:45:55+00:00</lastmod>
+  <lastmod>2026-10-09T16:47:17+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -2222,7 +2232,7 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/elements-must-be-between-pd-and-pd.html</loc>
-  <lastmod>2026-08-24T12:53:04+00:00</lastmod>
+  <lastmod>2026-10-09T16:21:06+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -2302,7 +2312,7 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/failed-opening-required-ps-qinclude_path=psr.html</loc>
-  <lastmod>2026-03-31T09:10:46+00:00</lastmod>
+  <lastmod>2026-10-09T16:20:47+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -2411,6 +2421,11 @@
   <changefreq>yearly</changefreq>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/generated-salt-too-short.html</loc>
+  <lastmod>2026-10-09T14:08:31+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/generator-return-type-must-be-a-supertype-of-generator.html</loc>
   <lastmod>2026-03-31T09:10:46+00:00</lastmod>
   <changefreq>yearly</changefreq>
@@ -2482,7 +2497,7 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/has-a-malformed-ipv6-address,-closing-square-bracket-missing.html</loc>
-  <lastmod>2026-08-26T09:15:16+00:00</lastmod>
+  <lastmod>2026-10-09T16:38:31+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -2542,7 +2557,7 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/implicit-conversion-from-float-string--ps--to-int-loses-precision.html</loc>
-  <lastmod>2026-09-24T07:04:35+00:00</lastmod>
+  <lastmod>2026-10-09T16:47:53+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -2877,7 +2892,7 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-a-bitmask-of-posix_f_ok,-posix_r_ok,-posix_w_ok,-and-posix_x_ok.html</loc>
-  <lastmod>2026-08-26T09:15:22+00:00</lastmod>
+  <lastmod>2026-10-09T14:25:43+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -2887,12 +2902,12 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-a-combination-of-msg_oob,-msg_peek,-msg_waitall,-msg_dontwait,-msg_errqueue,-and-msg_cmsg_cloexec-for-af_packet-sockets.html</loc>
-  <lastmod>2026-08-26T09:15:29+00:00</lastmod>
+  <lastmod>2026-10-09T14:40:54+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-a-concrete-class.html</loc>
-  <lastmod>2026-08-24T12:53:11+00:00</lastmod>
+  <lastmod>2026-10-09T14:25:07+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -2937,7 +2952,7 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-a-valid-context-engine-id.html</loc>
-  <lastmod>2026-08-26T09:15:34+00:00</lastmod>
+  <lastmod>2026-10-09T16:48:08+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -2952,7 +2967,7 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-a-valid-normalization-form.html</loc>
-  <lastmod>2026-08-26T09:15:39+00:00</lastmod>
+  <lastmod>2026-10-09T16:48:30+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -2962,7 +2977,7 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-between-1-and-plu.html</loc>
-  <lastmod>2026-08-26T09:15:45+00:00</lastmod>
+  <lastmod>2026-10-09T16:52:48+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -2977,12 +2992,12 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-either-case_lower-or-case_upper.html</loc>
-  <lastmod>2026-08-24T20:15:56+00:00</lastmod>
+  <lastmod>2026-10-09T16:53:08+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-either-spoofchecker::ltr-or-spoofchecker::rtl.html</loc>
-  <lastmod>2026-08-24T20:16:02+00:00</lastmod>
+  <lastmod>2026-10-09T16:53:47+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -3007,27 +3022,27 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-less-than-4294967295-bytes.html</loc>
-  <lastmod>2026-08-24T12:54:18+00:00</lastmod>
+  <lastmod>2026-10-09T16:53:58+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-less-than-argument-s2-q$maxr.html</loc>
-  <lastmod>2026-08-26T09:15:48+00:00</lastmod>
+  <lastmod>2026-10-09T16:54:43+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-mysqli_init_command,-mysqli_set_charset_name,-mysqli_server_public_key,-or-one-of-the-mysqli_opt_*-constants.html</loc>
-  <lastmod>2026-08-24T12:54:26+00:00</lastmod>
+  <lastmod>2026-10-09T16:54:51+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-no-longer-than-pd-characters.html</loc>
-  <lastmod>2026-08-26T09:15:53+00:00</lastmod>
+  <lastmod>2026-10-09T17:11:05+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-odd-if-argument-s1-q$numr-is-negative.html</loc>
-  <lastmod>2026-08-26T09:15:58+00:00</lastmod>
+  <lastmod>2026-10-09T17:04:42+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -3037,12 +3052,12 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-of-type-array-when-argument-s3-q$optionr-is-mcast_leave_group,-ps-given.html</loc>
-  <lastmod>2026-09-18T17:17:11+00:00</lastmod>
+  <lastmod>2026-10-09T17:00:27+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-of-type-array-when-argument-s3-q$optionr-is-mcast_leave_source_group,-ps-given.html</loc>
-  <lastmod>2026-09-18T17:17:16+00:00</lastmod>
+  <lastmod>2026-10-09T17:01:15+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -3052,27 +3067,27 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-of-type-string-when-argument-s3-q$optionr-is-fil_attach-or-fil_detach,-ps-given.html</loc>
-  <lastmod>2026-09-18T17:17:21+00:00</lastmod>
+  <lastmod>2026-10-09T17:01:01+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-of-type-string-when-argument-s3-q$optionr-is-so_acceptfilter,-ps-given.html</loc>
-  <lastmod>2026-09-18T17:17:26+00:00</lastmod>
+  <lastmod>2026-10-09T17:01:45+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-of-type-string-when-argument-s3-q$optionr-is-so_bindtodevice,-ps-given.html</loc>
-  <lastmod>2026-09-18T17:17:31+00:00</lastmod>
+  <lastmod>2026-10-09T17:02:14+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-of-type-string-when-argument-s3-q$optionr-is-tcp_congestion,-ps-given.html</loc>
-  <lastmod>2026-09-18T17:17:36+00:00</lastmod>
+  <lastmod>2026-10-09T17:01:27+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-of-type-string-when-argument-s3-q$optionr-is-tcp_function_blk,-ps-given.html</loc>
-  <lastmod>2026-09-18T17:17:41+00:00</lastmod>
+  <lastmod>2026-10-09T17:01:58+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -3082,7 +3097,7 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-one-of-intlnumberrangeformatter::identity_fallback_single_value,-::identity_fallback_approximately_or_single_value,-::identity_fallback_approximately,-or-::identity_fallback_range.html</loc>
-  <lastmod>2026-08-24T20:17:05+00:00</lastmod>
+  <lastmod>2026-10-09T17:11:14+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -3097,7 +3112,7 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-one-of-the-pathinfo_*-constants.html</loc>
-  <lastmod>2026-08-24T20:16:13+00:00</lastmod>
+  <lastmod>2026-10-09T17:11:24+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -3107,12 +3122,12 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-only-one-of-the-pathinfo_*-constants.html</loc>
-  <lastmod>2026-08-24T20:16:23+00:00</lastmod>
+  <lastmod>2026-10-09T17:11:34+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-openssl_encoding_der-or-openssl_encoding_pem.html</loc>
-  <lastmod>2026-08-24T12:54:48+00:00</lastmod>
+  <lastmod>2026-10-09T17:13:12+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -3121,13 +3136,23 @@
   <changefreq>yearly</changefreq>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-sodium_crypto_pwhash_saltbytes-bytes-long.html</loc>
+  <lastmod>2026-10-09T14:08:51+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/must-be-sodium_crypto_pwhash_scryptsalsa208sha256_saltbytes-bytes-long.html</loc>
+  <lastmod>2026-10-09T14:09:10+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-contain-a-type-for-object-id-ps.html</loc>
-  <lastmod>2026-08-26T09:16:04+00:00</lastmod>
+  <lastmod>2026-10-09T17:12:13+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-contain-a-value-for-object-id-ps.html</loc>
-  <lastmod>2026-08-26T09:16:07+00:00</lastmod>
+  <lastmod>2026-10-09T17:12:24+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -3137,7 +3162,7 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-have-a-length-less-than-or-equal-to-pu.html</loc>
-  <lastmod>2026-08-24T20:16:32+00:00</lastmod>
+  <lastmod>2026-10-09T17:04:08+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -3147,7 +3172,7 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-not-be-empty-when-passed-as-an-array.html</loc>
-  <lastmod>2026-08-26T09:16:12+00:00</lastmod>
+  <lastmod>2026-10-09T17:12:02+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -3167,7 +3192,7 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/must-not-exceed-pd-bytes.html</loc>
-  <lastmod>2026-08-24T12:54:59+00:00</lastmod>
+  <lastmod>2026-10-09T17:13:03+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -3316,6 +3341,11 @@
   <changefreq>yearly</changefreq>
  </url>
  <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/object-psspd-not-contained-in-weakmap.html</loc>
+  <lastmod>2026-10-09T10:15:26+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/object-casts-are-not-supported-in-this-context.html</loc>
   <lastmod>2026-03-31T09:10:46+00:00</lastmod>
   <changefreq>yearly</changefreq>
@@ -3432,7 +3462,7 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/open_basedir-prohibits-opening-ps.html</loc>
-  <lastmod>2026-03-31T09:10:46+00:00</lastmod>
+  <lastmod>2026-10-09T17:04:54+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -3547,12 +3577,12 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/passing-an-object-for-filter-parameters-for-bzip2.compress-is-deprecated,-call-get_object_varsqr-first-instead.html</loc>
-  <lastmod>2026-09-20T20:02:19+00:00</lastmod>
+  <lastmod>2026-10-09T17:13:58+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/passing-an-object-for-filter-parameters-for-bzip2.decompress-is-deprecated,-call-get_object_varsqr-first-instead.html</loc>
-  <lastmod>2026-09-20T20:02:21+00:00</lastmod>
+  <lastmod>2026-10-09T17:14:09+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -3817,7 +3847,7 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/returning-null-from-ps::__debuginfoqr-is-deprecated,-make-the-return-type-non-nullable-and-return-an-empty-array-instead.html</loc>
-  <lastmod>2026-08-16T20:13:14+00:00</lastmod>
+  <lastmod>2026-10-09T17:10:50+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -4657,7 +4687,7 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-$key_length-parameter-is-deprecated-as-it-is-either-ignored-or-truncates-the-key.html</loc>
-  <lastmod>2026-08-11T20:56:00+00:00</lastmod>
+  <lastmod>2026-10-09T16:21:56+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -4678,6 +4708,11 @@
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-qunsetr-cast-is-no-longer-supported.html</loc>
   <lastmod>2026-03-31T09:10:47+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/the--salt--option-has-been-ignored,-since-providing-a-custom-salt-is-no-longer-supported.html</loc>
+  <lastmod>2026-10-09T14:05:12+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -4787,7 +4822,7 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/the-pdo::fetch_serialize-mode-is-deprecated.html</loc>
-  <lastmod>2026-09-24T07:09:11+00:00</lastmod>
+  <lastmod>2026-10-09T16:24:46+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -5008,6 +5043,11 @@
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/typed-static-property-ps::$ps-must-not-be-accessed-before-initialization.html</loc>
   <lastmod>2026-03-31T09:10:47+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/unable-to-generate-salt.html</loc>
+  <lastmod>2026-10-09T16:25:03+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -5297,7 +5337,7 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/use-of-warnings-for-sqlite3-is-deprecated.html</loc>
-  <lastmod>2026-08-11T20:56:34+00:00</lastmod>
+  <lastmod>2026-10-09T17:04:18+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -5342,7 +5382,7 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/using-more-than-pd-filters-in-a-php:--filter-url-is-deprecated.html</loc>
-  <lastmod>2026-08-16T20:13:27+00:00</lastmod>
+  <lastmod>2026-10-09T17:12:53+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -5362,12 +5402,12 @@
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/using-the-$num_points-parameter-is-deprecated.html</loc>
-  <lastmod>2026-08-11T20:56:49+00:00</lastmod>
+  <lastmod>2026-10-09T16:45:10+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/value-for-class-is-not-a-string.html</loc>
-  <lastmod>2026-09-04T14:36:26+00:00</lastmod>
+  <lastmod>2026-10-09T17:04:31+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>
@@ -5408,6 +5448,11 @@
  <url>
   <loc>https://php-errors.readthedocs.io/en/latest/messages/void-cannot-be-used-as-a-parameter-type.html</loc>
   <lastmod>2026-08-05T14:00:09+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+ </url>
+ <url>
+  <loc>https://php-errors.readthedocs.io/en/latest/messages/weakmap-key-must-be-an-object.html</loc>
+  <lastmod>2026-10-09T09:50:11+00:00</lastmod>
   <changefreq>yearly</changefreq>
  </url>
  <url>

@@ -92,8 +92,6 @@
 + addition
   + [array_sum(): addition is not supported on type array](messages/array\_sumqr:-addition-is-not-supported-on-type-array.html)
   + [the behavior of unparenthesized expressions containing both \'.\' and \'+\' \' \' will change in php 8: \'+\' \' \' will take a higher precedence](messages/the-behavior-of-unparenthesized-expressions-containing-both-\\.\\-and-\\+\\-\\-\\-will-change-in-php-8:-\\+\\-\\-\\-will-take-a-higher-precedence.html)
-+ af-packet-sockets
-  + [must be a combination of msg_oob, msg_peek, msg_waitall, msg_dontwait, msg_errqueue, and msg_cmsg_cloexec for af_packet sockets](messages/must-be-a-combination-of-msg\_oob,-msg\_peek,-msg\_waitall,-msg\_dontwait,-msg\_errqueue,-and-msg\_cmsg\_cloexec-for-af\_packet-sockets.html)
 + alias
   + [an alias (%s) was defined for method %s(), but this method does not exist](messages/an-alias-qpsr-was-defined-for-method-psqr,-but-this-method-does-not-exist.html)
   + [an alias was defined for %s::%s but this method does not exist](messages/an-alias-was-defined-for-ps::ps-but-this-method-does-not-exist.html)
@@ -148,6 +146,7 @@
   + [automatic conversion of false to array is deprecated](messages/automatic-conversion-of-false-to-array-is-deprecated.html)
   + [calling %s() on an object is deprecated](messages/calling-psqr-on-an-object-is-deprecated.html)
   + [can only flip string and integer values, entry skipped](messages/can-only-flip-string-and-integer-values,-entry-skipped.html)
+  + [cannot append to weakmap](messages/cannot-append-to-weakmap.html)
   + [cannot assign to array(), use [] instead in %s](messages/cannot-assign-to-arrayqr,-use-\[\]-instead-in-ps.html)
   + [cannot unpack array with string keys](messages/cannot-unpack-array-with-string-keys.html)
   + [cannot unset offset in a non array variable](messages/cannot-unset-offset-in-a-non-array-variable.html)
@@ -182,12 +181,11 @@
   + [type %s contains both iterable and array](messages/type-ps-contains-both-iterable-and-array.html)
   + [undefined array key](messages/undefined-array-key.html)
   + [undefined offset](messages/undefined-offset.html)
+  + [weakmap key must be an object](messages/weakmap-key-must-be-an-object.html)
 + array-callable
   + [failed to create closure from callable: %s](messages/failed-to-create-closure-from-callable:-ps.html)
 + array-filter-mode
   + [must be one of array_filter_use_value, array_filter_use_key, or array_filter_use_both](messages/must-be-one-of-array\_filter\_use\_value,-array\_filter\_use\_key,-or-array\_filter\_use\_both.html)
-+ array-key-case
-  + [must be either case_lower or case_upper](messages/must-be-either-case\_lower-or-case\_upper.html)
 + array-syntax
   + [[] operator not supported for strings](messages/\[\]-operator-not-supported-for-strings.html)
   + [cannot use string offset as an array](messages/cannot-use-string-offset-as-an-array.html)
@@ -198,6 +196,8 @@
   + [syntax error, unexpected token "if", expecting "]"](messages/syntax-error,-unexpected-token-if,-expecting-\].html)
   + [syntax error, unexpected token "public", expecting "]"](messages/syntax-error,-unexpected-token-public,-expecting-\].html)
   + [using an object as a backing array for %s is deprecated, as it allows violating class constraints and invariants](messages/using-an-object-as-a-backing-array-for-ps-is-deprecated,-as-it-allows-violating-class-constraints-and-invariants.html)
++ array_change_key_case
+  + [must be either case_lower or case_upper](messages/must-be-either-case\_lower-or-case\_upper.html)
 + array_key_exists
   + [using array_key_exists() on objects is deprecated.](messages/using-array\_key\_existsqr-on-objects-is-deprecated..html)
 + array_merge
@@ -293,8 +293,6 @@
   + [input number is larger than php_int_max, precision has been lost in conversion](messages/input-number-is-larger-than-php\_int\_max,-precision-has-been-lost-in-conversion.html)
 + base64
   + [handling base64 via mbstring is deprecated; use base64_encode base64_decode instead](messages/handling-base64-via-mbstring-is-deprecated;-use-base64\_encode-base64\_decode-instead.html)
-+ bidi-skeleton
-  + [must be either spoofchecker::ltr or spoofchecker::rtl](messages/must-be-either-spoofchecker::ltr-or-spoofchecker::rtl.html)
 + binary-integer
   + [invalid numeric literal](messages/invalid-numeric-literal.html)
 + bind
@@ -339,8 +337,6 @@
 + byte
   + [argument #2 ($end) must be a single byte string if](messages/argument-s2-q$endr-must-be-a-single-byte-string-if.html)
   + [providing a value not in between 0 and 255 is deprecated, this is because a byte value must be in the [0, 255] interval. the value used will be constrained using %% 256](messages/providing-a-value-not-in-between-0-and-255-is-deprecated,-this-is-because-a-byte-value-must-be-in-the-\[0,-255\]-interval.-the-value-used-will-be-constrained-using-pp-256.html)
-+ bzdecompress
-  + [must have a length less than or equal to %u](messages/must-have-a-length-less-than-or-equal-to-pu.html)
 + calendar
   + [passing bool is deprecated, use 1 or  1 instead](messages/passing-bool-is-deprecated,-use-1-or--1-instead.html)
 + call
@@ -457,6 +453,7 @@
   + [syntax error, unexpected token "protected", expecting "{"](messages/syntax-error,-unexpected-token-protected,-expecting-{.html)
   + [syntax error, unexpected token "public", expecting "{"](messages/syntax-error,-unexpected-token-public,-expecting-{.html)
   + [the modifiers of the trait method %s() are changed, but this method does not exist. error](messages/the-modifiers-of-the-trait-method-psqr-are-changed,-but-this-method-does-not-exist.-error.html)
+  + [value for class is not a string](messages/value-for-class-is-not-a-string.html)
 + class-constant
   + ["static::" is not allowed in compile time constants](messages/static::-is-not-allowed-in-compile-time-constants.html)
   + [%s %s inherits both %s::%s and %s::%s](messages/ps-ps-inherits-both-ps::ps-and-ps::ps.html)
@@ -693,6 +690,9 @@
   + [syntax error, unexpected token "=", expecting identifier](messages/syntax-error,-unexpected-token-=,-expecting-identifier.html)
   + [syntax error, unexpected token "namespace"](messages/syntax-error,-unexpected-token-namespace.html)
   + [unsupported declare \'%s\'](messages/unsupported-declare-\\ps\\.html)
++ decrement
+  + [decrement on empty string is deprecated as non numeric](messages/decrement-on-empty-string-is-deprecated-as-non-numeric.html)
+  + [decrement on non numeric string has no effect and is deprecated](messages/decrement-on-non-numeric-string-has-no-effect-and-is-deprecated.html)
 + default
   + [default value for property of type int may not be null. use the nullable type ?int to allow null default value](messages/default-value-for-property-of-type-int-may-not-be-null.-use-the-nullable-type-?int-to-allow-null-default-value.html)
   + [readonly property %s::$%s cannot have default value](messages/readonly-property-ps::$ps-cannot-have-default-value.html)
@@ -864,7 +864,6 @@
   + [cannot throw objects that do not implement throwable](messages/cannot-throw-objects-that-do-not-implement-throwable.html)
   + [cannot use try without catch or finally](messages/cannot-use-try-without-catch-or-finally.html)
   + [passing e_user_error to trigger_error() is deprecated since 8.4, throw an exception or call exit with a string message instead](messages/passing-e\_user\_error-to-trigger\_errorqr-is-deprecated-since-8.4,-throw-an-exception-or-call-exit-with-a-string-message-instead.html)
-+ exceptions
   + [use of warnings for sqlite3 is deprecated](messages/use-of-warnings-for-sqlite3-is-deprecated.html)
 + execution-time
   + [calling get_class() without arguments is deprecated](messages/calling-get\_classqr-without-arguments-is-deprecated.html)
@@ -957,6 +956,7 @@
   + [the $context parameter has no effect for finfo_buffer()](messages/the-$context-parameter-has-no-effect-for-finfo\_bufferqr.html)
 + first-class-callable
   + [array callback has to contain indices 0 and 1](messages/array-callback-has-to-contain-indices-0-and-1.html)
+  + [cannot call %ps() dynamically](messages/cannot-call-ppsqr-dynamically.html)
   + [cannot combine nullsafe operator with closure creation](messages/cannot-combine-nullsafe-operator-with-closure-creation.html)
   + [cannot create closure as attribute argument](messages/cannot-create-closure-as-attribute-argument.html)
   + [cannot create closure for new expression](messages/cannot-create-closure-for-new-expression.html)
@@ -964,8 +964,6 @@
   + [cannot use dynamic method name in constant expression](messages/cannot-use-dynamic-method-name-in-constant-expression.html)
   + [illegal method name](messages/illegal-method-name.html)
   + [instantiation of class closure is not allowed](messages/instantiation-of-class-closure-is-not-allowed.html)
-+ first-class-callable-syntax
-  + [cannot call %ps() dynamically](messages/cannot-call-ppsqr-dynamically.html)
 + float
   + [implicit conversion from float string "%s" to int loses](messages/implicit-conversion-from-float-string-ps-to-int-loses.html)
   + [requested precision of %d digits was truncated to php maximum of %d digits](messages/requested-precision-of-pd-digits-was-truncated-to-php-maximum-of-pd-digits.html)
@@ -997,6 +995,8 @@
   + [func_num_args() must be called from a function context](messages/func\_num\_argsqr-must-be-called-from-a-function-context.html)
   + [function %s() is deprecated%s](messages/function-psqr-is-deprecatedps.html)
   + [function libxml_disable_entity_loader() is deprecated since 8.0, as external entity loading is disabled by default](messages/function-libxml\_disable\_entity\_loaderqr-is-deprecated-since-8.0,-as-external-entity-loading-is-disabled-by-default.html)
+  + [must be sodium_crypto_pwhash_saltbytes bytes long](messages/must-be-sodium\_crypto\_pwhash\_saltbytes-bytes-long.html)
+  + [must be sodium_crypto_pwhash_scryptsalsa208sha256_saltbytes bytes long](messages/must-be-sodium\_crypto\_pwhash\_scryptsalsa208sha256\_saltbytes-bytes-long.html)
   + [syntax error, unexpected identifier "%s", expecting "("](messages/syntax-error,-unexpected-identifier-ps,-expecting-q.html)
   + [syntax error, unexpected identifier "%s", expecting "function"](messages/syntax-error,-unexpected-identifier-ps,-expecting-function.html)
   + [syntax error, unexpected token ")", expecting variable](messages/syntax-error,-unexpected-token-r,-expecting-variable.html)
@@ -1005,10 +1005,9 @@
   + [syntax error, unexpected variable "$%s", expecting ")"](messages/syntax-error,-unexpected-variable-$ps,-expecting-r.html)
   + [syntax error, unexpected variable "$task", expecting ")"](messages/syntax-error,-unexpected-variable-$task,-expecting-r.html)
   + [syntax error, unexpected variable "%s", expecting "("](messages/syntax-error,-unexpected-variable-ps,-expecting-q.html)
+  + [the  "salt " option has been ignored, since providing a custom salt is no longer supported](messages/the--salt--option-has-been-ignored,-since-providing-a-custom-salt-is-no-longer-supported.html)
 + function-subscripting
   + [illegal class name](messages/illegal-class-name.html)
-+ gd
-  + [using the $num_points parameter is deprecated](messages/using-the-$num\_points-parameter-is-deprecated.html)
 + generator
   + [cannot rewind a generator that was already run](messages/cannot-rewind-a-generator-that-was-already-run.html)
   + [cannot use  "yield from " inside a by reference generator](messages/cannot-use--yield-from--inside-a-by-reference-generator.html)
@@ -1020,8 +1019,6 @@
   + [the "generator" class is reserved for internal use and cannot be manually instantiated](messages/the-generator-class-is-reserved-for-internal-use-and-cannot-be-manually-instantiated.html)
   + [the  "yield " expression can only be used inside a function](messages/the--yield--expression-can-only-be-used-inside-a-function.html)
   + [trying to clone an uncloneable object of class %s](messages/trying-to-clone-an-uncloneable-object-of-class-ps.html)
-+ getTraceAsString
-  + [value for class is not a string](messages/value-for-class-is-not-a-string.html)
 + get_class
   + [syntax error, unexpected identifier "%s", expecting variable or "$"](messages/syntax-error,-unexpected-identifier-ps,-expecting-variable-or-$.html)
 + global
@@ -1029,10 +1026,9 @@
   + [syntax error, unexpected token " >", expecting "," or ";"](messages/syntax-error,-unexpected-token-->,-expecting-,-or-;.html)
   + [syntax error, unexpected token "::", expecting "," or ";"](messages/syntax-error,-unexpected-token-::,-expecting-,-or-;.html)
   + [syntax error, unexpected token "? >", expecting "," or ";"](messages/syntax-error,-unexpected-token-?->,-expecting-,-or-;.html)
-+ gmp-random
-  + [must be less than argument #2 ($max)](messages/must-be-less-than-argument-s2-q$maxr.html)
-+ gmp-root
++ gmp
   + [must be between 1 and %lu](messages/must-be-between-1-and-plu.html)
+  + [must be less than argument #2 ($max)](messages/must-be-less-than-argument-s2-q$maxr.html)
   + [must be odd if argument #1 ($num) is negative](messages/must-be-odd-if-argument-s1-q$numr-is-negative.html)
 + goto
   + [\'goto\' into loop or switch statement is disallowed](messages/\\goto\\-into-loop-or-switch-statement-is-disallowed.html)
@@ -1049,6 +1045,7 @@
   + [passing a seed of a type other than int is deprecated because it is the same as setting the seed to 0](messages/passing-a-seed-of-a-type-other-than-int-is-deprecated-because-it-is-the-same-as-setting-the-seed-to-0.html)
   + [unknown digest algorithm: %s](messages/unknown-digest-algorithm:-ps.html)
 + hashing
+  + [must be less than 4294967295 bytes](messages/must-be-less-than-4294967295-bytes.html)
   + [unknown digest algorithm: %s](messages/unknown-digest-algorithm:-ps.html)
 + heredoc
   + [invalid indentation   tabs and spaces cannot be mixed](messages/invalid-indentation---tabs-and-spaces-cannot-be-mixed.html)
@@ -1082,10 +1079,11 @@
   + [syntax error, unexpected token "if", expecting ")"](messages/syntax-error,-unexpected-token-if,-expecting-r.html)
   + [syntax error, unexpected token "if", expecting "]"](messages/syntax-error,-unexpected-token-if,-expecting-\].html)
   + [syntax error, unexpected token "if"](messages/syntax-error,-unexpected-token-if.html)
++ image
+  + [elements must be between %d and %d](messages/elements-must-be-between-pd-and-pd.html)
+  + [using the $num_points parameter is deprecated](messages/using-the-$num\_points-parameter-is-deprecated.html)
 + image-filter
   + [value must be between 0 and %d](messages/value-must-be-between-0-and-pd.html)
-+ image-style
-  + [elements must be between %d and %d](messages/elements-must-be-between-pd-and-pd.html)
 + implements
   + [%s %s cannot implement previously implemented interface %s](messages/ps-ps-cannot-implement-previously-implemented-interface-ps.html)
   + [%s cannot implement %s   it is not an interface](messages/ps-cannot-implement-ps---it-is-not-an-interface.html)
@@ -1095,7 +1093,7 @@
   + [syntax error, unexpected identifier "%s", expecting "{"](messages/syntax-error,-unexpected-identifier-ps,-expecting-{.html)
   + [syntax error, unexpected token "extends", expecting "{"](messages/syntax-error,-unexpected-token-extends,-expecting-{.html)
   + [syntax error, unexpected token "implements"](messages/syntax-error,-unexpected-token-implements.html)
-+ inclusion
++ include
   + [failed opening required %s (include_path=%s)](messages/failed-opening-required-ps-qinclude\_path=psr.html)
   + [open_basedir prohibits opening %s](messages/open\_basedir-prohibits-opening-ps.html)
 + increment
@@ -1223,8 +1221,6 @@
   + [iterator does not support rewinding](messages/iterator-does-not-support-rewinding.html)
 + jit
   + [jit is incompatible with third party extensions that override zend_execute_ex(). jit disabled.](messages/jit-is-incompatible-with-third-party-extensions-that-override-zend\_execute\_exqr.-jit-disabled..html)
-+ key-derivation
-  + [the $key_length parameter is deprecated as it is either ignored or truncates the key](messages/the-$key\_length-parameter-is-deprecated-as-it-is-either-ignored-or-truncates-the-key.html)
 + keyword
   + [never cannot be used as a parameter type](messages/never-cannot-be-used-as-a-parameter-type.html)
   + [syntax error, unexpected \'match\'](messages/syntax-error,-unexpected-\\match\\.html)
@@ -1259,8 +1255,6 @@
   + [cannot use auto global as lexical variable](messages/cannot-use-auto-global-as-lexical-variable.html)
   + [cannot use lexical variable %s as a parameter name](messages/cannot-use-lexical-variable-ps-as-a-parameter-name.html)
   + [named parameter $%s overwrites previous argument](messages/named-parameter-$ps-overwrites-previous-argument.html)
-+ line-ending-detection
-  + [auto_detect_line_endings is deprecated](messages/auto\_detect\_line\_endings-is-deprecated.html)
 + list
   + [cannot assign reference to non referenceable value](messages/cannot-assign-reference-to-non-referenceable-value.html)
   + [cannot assign to array(), use [] instead in %s](messages/cannot-assign-to-arrayqr,-use-\[\]-instead-in-ps.html)
@@ -1331,8 +1325,6 @@
   + [power of base 0 and negative exponent is deprecated](messages/power-of-base-0-and-negative-exponent-is-deprecated.html)
 + max_execution_time
   + [maximum execution time of %d second%s exceeded](messages/maximum-execution-time-of-pd-secondps-exceeded.html)
-+ max_filter_count
-  + [using more than %d filters in a php:  filter url is deprecated](messages/using-more-than-pd-filters-in-a-php:--filter-url-is-deprecated.html)
 + max_memory_limit
   + [failed to set memory_limit to %zd bytes. setting to max_memory_limit instead (currently:](messages/failed-to-set-memory\_limit-to-pzd-bytes.-setting-to-max\_memory\_limit-instead-qcurrently:.html)
 + mbstring
@@ -1350,7 +1342,7 @@
   + [use of mbstring.http_input is deprecated](messages/use-of-mbstring.http\_input-is-deprecated.html)
   + [use of mbstring.http_output is deprecated](messages/use-of-mbstring.http\_output-is-deprecated.html)
   + [use of mbstring.internal_encoding is deprecated](messages/use-of-mbstring.internal\_encoding-is-deprecated.html)
-+ memory-manager
++ memory
   + [directive \'report_memleaks\' is deprecated](messages/directive-\\report\_memleaks\\-is-deprecated.html)
 + memory_limit
   + [failed to set memory_limit to %zd bytes. setting to max_memory_limit instead (currently:](messages/failed-to-set-memory\_limit-to-pzd-bytes.-setting-to-max\_memory\_limit-instead-qcurrently:.html)
@@ -1417,11 +1409,10 @@
 + mysql
   + [the connection has no charset associated](messages/the-connection-has-no-charset-associated.html)
 + mysqli
+  + [must be mysqli_init_command, mysqli_set_charset_name, mysqli_server_public_key, or one of the mysqli_opt_* constants](messages/must-be-mysqli\_init\_command,-mysqli\_set\_charset\_name,-mysqli\_server\_public\_key,-or-one-of-the-mysqli\_opt\_\*-constants.html)
   + [passing connection object as an argument is deprecated](messages/passing-connection-object-as-an-argument-is-deprecated.html)
   + [passing the $mode parameter is deprecated since 8.4, as it has been ignored since 8.1](messages/passing-the-$mode-parameter-is-deprecated-since-8.4,-as-it-has-been-ignored-since-8.1.html)
   + [the driver_version property is deprecated](messages/the-driver\_version-property-is-deprecated.html)
-+ mysqli-options
-  + [must be mysqli_init_command, mysqli_set_charset_name, mysqli_server_public_key, or one of the mysqli_opt_* constants](messages/must-be-mysqli\_init\_command,-mysqli\_set\_charset\_name,-mysqli\_server\_public\_key,-or-one-of-the-mysqli\_opt\_\*-constants.html)
 + name
   + [cannot declare const %s because](messages/cannot-declare-const-ps-because.html)
   + [cannot redeclare %s() (previously declared in %s:%d)](messages/cannot-redeclare-psqr-qpreviously-declared-in-ps:pdr.html)
@@ -1489,6 +1480,8 @@
 + nesting
   + [namespace declarations cannot be nested](messages/namespace-declarations-cannot-be-nested.html)
   + [syntax error, unexpected token ">"](messages/syntax-error,-unexpected-token->.html)
++ network
+  + [must be a combination of msg_oob, msg_peek, msg_waitall, msg_dontwait, msg_errqueue, and msg_cmsg_cloexec for af_packet sockets](messages/must-be-a-combination-of-msg\_oob,-msg\_peek,-msg\_waitall,-msg\_dontwait,-msg\_errqueue,-and-msg\_cmsg\_cloexec-for-af\_packet-sockets.html)
 + never
   + [%s(): never returning %s must not implicitly return](messages/psqr:-never-returning-ps-must-not-implicitly-return.html)
   + [%s(): never returning function must not implicitly return](messages/psqr:-never-returning-function-must-not-implicitly-return.html)
@@ -1513,6 +1506,7 @@
   + [new expressions are not supported in this context](messages/new-expressions-are-not-supported-in-this-context.html)
   + [static " is not allowed in compile time constants](messages/static--is-not-allowed-in-compile-time-constants.html)
 + new-line
+  + [auto_detect_line_endings is deprecated](messages/auto\_detect\_line\_endings-is-deprecated.html)
   + [syntax error, unexpected fully qualified name "%s"](messages/syntax-error,-unexpected-fully-qualified-name-ps.html)
 + nodiscard
   + [a never returning %s does not return a value](messages/a-never-returning-ps-does-not-return-a-value.html)
@@ -1525,6 +1519,8 @@
 + non-instantiable
   + [cannot directly construct directory, use dir() instead](messages/cannot-directly-construct-directory,-use-dirqr-instead.html)
   + [sqlite3result cannot be directly instantiated](messages/sqlite3result-cannot-be-directly-instantiated.html)
++ normalisation
+  + [must be a valid normalization form](messages/must-be-a-valid-normalization-form.html)
 + null
   + [%s(): passing null to parameter #%](messages/psqr:-passing-null-to-parameter-sp.html)
   + [attempt to assign property "%s" on null](messages/attempt-to-assign-property-ps-on-null.html)
@@ -1547,9 +1543,8 @@
   + [%s(): implicitly marking parameter $%s as nullable is deprecated, the explicit nullable type](messages/psqr:-implicitly-marking-parameter-$ps-as-nullable-is-deprecated,-the-explicit-nullable-type.html)
   + [default value for property of type %s may not be null. use the nullable type %s to allow null default value](messages/default-value-for-property-of-type-ps-may-not-be-null.-use-the-nullable-type-ps-to-allow-null-default-value.html)
   + [null cannot be marked as nullable](messages/null-cannot-be-marked-as-nullable.html)
-  + [type mixed cannot be marked as nullable since mixed already includes null](messages/type-mixed-cannot-be-marked-as-nullable-since-mixed-already-includes-null.html)
-+ nullable-type
   + [returning null from %s::__debuginfo() is deprecated, make the return type non nullable and return an empty array instead](messages/returning-null-from-ps::\_\_debuginfoqr-is-deprecated,-make-the-return-type-non-nullable-and-return-an-empty-array-instead.html)
+  + [type mixed cannot be marked as nullable since mixed already includes null](messages/type-mixed-cannot-be-marked-as-nullable-since-mixed-already-includes-null.html)
 + nullsafe
   + [call to a member function %s() on %s](messages/call-to-a-member-function-psqr-on-ps.html)
 + nullsafe-object-operator
@@ -1557,9 +1552,6 @@
   + [cannot combine nullsafe operator with closure creation](messages/cannot-combine-nullsafe-operator-with-closure-creation.html)
   + [cannot take reference of a nullsafe chain](messages/cannot-take-reference-of-a-nullsafe-chain.html)
   + [syntax error, unexpected token " >"](messages/syntax-error,-unexpected-token-->.html)
-+ number-range-formatting
-  + [must be no longer than %d characters](messages/must-be-no-longer-than-pd-characters.html)
-  + [must be one of intlnumberrangeformatter::identity_fallback_single_value, ::identity_fallback_approximately_or_single_value, ::identity_fallback_approximately, or ::identity_fallback_range](messages/must-be-one-of-intlnumberrangeformatter::identity\_fallback\_single\_value,-::identity\_fallback\_approximately\_or\_single\_value,-::identity\_fallback\_approximately,-or-::identity\_fallback\_range.html)
 + numeric-separator
   + [invalid utf 8 codepoint escape](messages/invalid-utf-8-codepoint-escape.html)
 + numeric-string
@@ -1569,9 +1561,12 @@
   + [calling %s() on an object is deprecated](messages/calling-psqr-on-an-object-is-deprecated.html)
   + [cannot use object of type %s as array](messages/cannot-use-object-of-type-ps-as-array.html)
   + [cannot use object of type stdclass as array](messages/cannot-use-object-of-type-stdclass-as-array.html)
+  + [direct instantiation of weakreference is not allowed, use weakreference::create instead](messages/direct-instantiation-of-weakreference-is-not-allowed,-use-weakreference::create-instead.html)
+  + [object %s#%d not contained in weakmap](messages/object-psspd-not-contained-in-weakmap.html)
   + [object of type %s is not callable](messages/object-of-type-ps-is-not-callable.html)
   + [type %s contains both object and a class type](messages/type-ps-contains-both-object-and-a-class-type.html)
   + [using an object as a backing array for %s is deprecated, as it allows violating class constraints and invariants](messages/using-an-object-as-a-backing-array-for-ps-is-deprecated,-as-it-allows-violating-class-constraints-and-invariants.html)
+  + [weakmap key must be an object](messages/weakmap-key-must-be-an-object.html)
 + object-lifecycle
   + [call to %s %s::__destruct() from global scope during shutdown ignored](messages/call-to-ps-ps::\_\_destructqr-from-global-scope-during-shutdown-ignored.html)
 + object-syntax
@@ -1600,6 +1595,7 @@
   + [open_basedir prohibits opening %s](messages/open\_basedir-prohibits-opening-ps.html)
   + [open_basedir restriction in effect. file(%s) is not within the allowed path(s): (%s)](messages/open\_basedir-restriction-in-effect.-fileqpsr-is-not-within-the-allowed-pathqsr:-qpsr.html)
 + openssl
+  + [could not set rsa pss salt length](messages/could-not-set-rsa-pss-salt-length.html)
   + [the $key_length parameter is deprecated as it is either ignored or truncates the key](messages/the-$key\_length-parameter-is-deprecated-as-it-is-either-ignored-or-truncates-the-key.html)
 + operand
   + [unsupported operand types](messages/unsupported-operand-types.html)
@@ -1675,13 +1671,15 @@
   + [partial application of %s() expects at most %d arguments, %d given](messages/partial-application-of-psqr-expects-at-most-pd-arguments,-pd-given.html)
   + [variadic placeholder may only appear once](messages/variadic-placeholder-may-only-appear-once.html)
   + [variadic placeholder must be last](messages/variadic-placeholder-must-be-last.html)
-+ partial-function-application
++ partial-function
   + [cannot call %ps() dynamically](messages/cannot-call-ppsqr-dynamically.html)
-+ password-hashing
-  + [must be less than 4294967295 bytes](messages/must-be-less-than-4294967295-bytes.html)
++ password
+  + [generated salt too short](messages/generated-salt-too-short.html)
+  + [the  "salt " option has been ignored, since providing a custom salt is no longer supported](messages/the--salt--option-has-been-ignored,-since-providing-a-custom-salt-is-no-longer-supported.html)
+  + [unable to generate salt](messages/unable-to-generate-salt.html)
 + path
   + [open_basedir restriction in effect. file(%s) is not within the allowed path(s): (%s)](messages/open\_basedir-restriction-in-effect.-fileqpsr-is-not-within-the-allowed-pathqsr:-qpsr.html)
-+ pathinfo-flags
++ pathinfo
   + [must be one of the pathinfo_* constants](messages/must-be-one-of-the-pathinfo\_\*-constants.html)
   + [must be only one of the pathinfo_* constants](messages/must-be-only-one-of-the-pathinfo\_\*-constants.html)
 + pattern-matching
@@ -1714,15 +1712,13 @@
   + [arrow functions on the right hand side of |> must be parenthesized](messages/arrow-functions-on-the-right-hand-side-of-|>-must-be-parenthesized.html)
   + [cannot use both filter_null_on_failure and filter_throw_on_failure](messages/cannot-use-both-filter\_null\_on\_failure-and-filter\_throw\_on\_failure.html)
   + [syntax error, unexpected token ">"](messages/syntax-error,-unexpected-token->.html)
-+ pipelining
++ pipeline
   + [curlpipe_http1 is deprecated](messages/curlpipe\_http1-is-deprecated.html)
 + poll-api
   + [io  poll  handle cannot be implemented by user classes](messages/io--poll--handle-cannot-be-implemented-by-user-classes.html)
-+ polygon
-  + [using the $num_points parameter is deprecated](messages/using-the-$num\_points-parameter-is-deprecated.html)
 + positive-integer
   + [must be greater than 0](messages/must-be-greater-than-0.html)
-+ posix-access
++ posix
   + [must be a bitmask of posix_f_ok, posix_r_ok, posix_w_ok, and posix_x_ok](messages/must-be-a-bitmask-of-posix\_f\_ok,-posix\_r\_ok,-posix\_w\_ok,-and-posix\_x\_ok.html)
 + precision
   + [requested precision of %d digits was truncated to php maximum of %d digits](messages/requested-precision-of-pd-digits-was-truncated-to-php-maximum-of-pd-digits.html)
@@ -1839,7 +1835,9 @@
   + [handling qprint via mbstring is deprecated; use quoted_printable_encode quoted_printable_decode instead](messages/handling-qprint-via-mbstring-is-deprecated;-use-quoted\_printable\_encode-quoted\_printable\_decode-instead.html)
   + [handling qprint via mbstring is deprecated; use quoted_printable_encode quoted_printable_decode](messages/handling-qprint-via-mbstring-is-deprecated;-use-quoted\_printable\_encode-quoted\_printable\_decode.html)
 + random
+  + [generated salt too short](messages/generated-salt-too-short.html)
   + [the mt_rand_php variant of mt19937 is deprecated](messages/the-mt\_rand\_php-variant-of-mt19937-is-deprecated.html)
+  + [unable to generate salt](messages/unable-to-generate-salt.html)
 + range
   + [argument #1 ($start) must be a single byte string if](messages/argument-s1-q$startr-must-be-a-single-byte-string-if.html)
   + [cannot be 0](messages/cannot-be-0.html)
@@ -2021,15 +2019,14 @@
   + [enum %s cannot implement the serializable interface](messages/enum-ps-cannot-implement-the-serializable-interface.html)
 + serialization
   + [%s " is returned from __sleep() multiple times](messages/ps--is-returned-from-\_\_sleepqr-multiple-times.html)
+  + [%s implements the serializable interface](messages/ps-implements-the-serializable-interface.html)
   + [cannot deserialize arrayobject with iterator class %s; this class is not derived from arrayiterator](messages/cannot-deserialize-arrayobject-with-iterator-class-ps;-this-class-is-not-derived-from-arrayiterator.html)
   + [error at offset %zd of %zd](messages/error-at-offset-pzd-of-pzd.html)
   + [extra data starting at offset %d of %zd bytes](messages/extra-data-starting-at-offset-pd-of-pzd-bytes.html)
   + [serialization of %s is not allowed, override __serialize() and __unserialize() to implement it](messages/serialization-of-ps-is-not-allowed,-override-\_\_serializeqr-and-\_\_unserializeqr-to-implement-it.html)
+  + [the pdo::fetch_serialize mode is deprecated](messages/the-pdo::fetch\_serialize-mode-is-deprecated.html)
   + [unserialization of %s is not allowed, override __serialize() and __unserialize() to implement it](messages/unserialization-of-ps-is-not-allowed,-override-\_\_serializeqr-and-\_\_unserializeqr-to-implement-it.html)
   + [unserializing the \'s\' format is deprecated](messages/unserializing-the-\\s\\-format-is-deprecated.html)
-+ serialize
-  + [%s implements the serializable interface](messages/ps-implements-the-serializable-interface.html)
-  + [the pdo::fetch_serialize mode is deprecated](messages/the-pdo::fetch\_serialize-mode-is-deprecated.html)
 + session
   + [class %s implementing sessionhandlerinterface is missing the create_sid() method which will be required in php 9.0](messages/class-ps-implementing-sessionhandlerinterface-is-missing-the-create\_sidqr-method-which-will-be-required-in-php-9.0.html)
   + [class %s implementing sessionhandlerinterface is missing the validateid() method which will be required in php 9.0](messages/class-ps-implementing-sessionhandlerinterface-is-missing-the-validateidqr-method-which-will-be-required-in-php-9.0.html)
@@ -2064,26 +2061,26 @@
 + single-quote
   + [syntax error, unexpected identifier "%s", expecting "," or ";"](messages/syntax-error,-unexpected-identifier-ps,-expecting-,-or-;.html)
 + snmp
-  + [type must be a single character](messages/type-must-be-a-single-character.html)
-+ snmp-query
-  + [must not be empty when passed as an array](messages/must-not-be-empty-when-passed-as-an-array.html)
-+ snmp-security
-  + [must be a valid context engine id](messages/must-be-a-valid-context-engine-id.html)
-+ snmp-session
   + [has a malformed ipv6 address, closing square bracket missing](messages/has-a-malformed-ipv6-address,-closing-square-bracket-missing.html)
-+ snmp-set
+  + [must be a valid context engine id](messages/must-be-a-valid-context-engine-id.html)
   + [must contain a type for object id %s](messages/must-contain-a-type-for-object-id-ps.html)
   + [must contain a value for object id %s](messages/must-contain-a-value-for-object-id-ps.html)
+  + [must not be empty when passed as an array](messages/must-not-be-empty-when-passed-as-an-array.html)
+  + [type must be a single character](messages/type-must-be-a-single-character.html)
 + soap
   + [the  "ssl_method " option is deprecated. use  "ssl " stream context options instead](messages/the--ssl\_method--option-is-deprecated.-use--ssl--stream-context-options-instead.html)
 + socket
   + [failed to open stream from socketpair](messages/failed-to-open-stream-from-socketpair.html)
+  + [must be a combination of msg_oob, msg_peek, msg_waitall, msg_dontwait, msg_errqueue, and msg_cmsg_cloexec for af_packet sockets](messages/must-be-a-combination-of-msg\_oob,-msg\_peek,-msg\_waitall,-msg\_dontwait,-msg\_errqueue,-and-msg\_cmsg\_cloexec-for-af\_packet-sockets.html)
 + socket-options
   + [must be of type string when argument #3 ($option) is fil_attach or fil_detach, %s given](messages/must-be-of-type-string-when-argument-s3-q$optionr-is-fil\_attach-or-fil\_detach,-ps-given.html)
   + [must be of type string when argument #3 ($option) is so_acceptfilter, %s given](messages/must-be-of-type-string-when-argument-s3-q$optionr-is-so\_acceptfilter,-ps-given.html)
   + [must be of type string when argument #3 ($option) is so_bindtodevice, %s given](messages/must-be-of-type-string-when-argument-s3-q$optionr-is-so\_bindtodevice,-ps-given.html)
   + [must be of type string when argument #3 ($option) is tcp_congestion, %s given](messages/must-be-of-type-string-when-argument-s3-q$optionr-is-tcp\_congestion,-ps-given.html)
   + [must be of type string when argument #3 ($option) is tcp_function_blk, %s given](messages/must-be-of-type-string-when-argument-s3-q$optionr-is-tcp\_function\_blk,-ps-given.html)
++ sodium
+  + [must be sodium_crypto_pwhash_saltbytes bytes long](messages/must-be-sodium\_crypto\_pwhash\_saltbytes-bytes-long.html)
+  + [must be sodium_crypto_pwhash_scryptsalsa208sha256_saltbytes bytes long](messages/must-be-sodium\_crypto\_pwhash\_scryptsalsa208sha256\_saltbytes-bytes-long.html)
 + sort
   + [returning bool from comparison function is deprecated, return an integer less than, equal to, or greater than zero](messages/returning-bool-from-comparison-function-is-deprecated,-return-an-integer-less-than,-equal-to,-or-greater-than-zero.html)
 + spaceship
@@ -2134,10 +2131,9 @@
   + [use of "parent" in callables is deprecated](messages/use-of-parent-in-callables-is-deprecated.html)
   + [use of "self" in callables is deprecated](messages/use-of-self-in-callables-is-deprecated.html)
   + [use of "static" in callables is deprecated](messages/use-of-static-in-callables-is-deprecated.html)
-+ static-constant-expression
-  + [cannot use dynamic function name in constant expression](messages/cannot-use-dynamic-function-name-in-constant-expression.html)
 + static-expression
   + [argument unpacking in constant expressions is not supported](messages/argument-unpacking-in-constant-expressions-is-not-supported.html)
+  + [cannot use dynamic function name in constant expression](messages/cannot-use-dynamic-function-name-in-constant-expression.html)
   + [object casts are not supported in this context](messages/object-casts-are-not-supported-in-this-context.html)
 + static-property
   + [access to undeclared static property %s::$%s](messages/access-to-undeclared-static-property-ps::$ps.html)
@@ -2157,10 +2153,9 @@
   + [creating default object from empty value](messages/creating-default-object-from-empty-value.html)
   + [creation of dynamic property %s::$%s is deprecated](messages/creation-of-dynamic-property-ps::$ps-is-deprecated.html)
 + stream
+  + [calling stream_context_set_option() with 2 arguments is deprecated,](messages/calling-stream\_context\_set\_optionqr-with-2-arguments-is-deprecated,.html)
   + [entry %s does not exist and cannot be deleted](messages/entry-ps-does-not-exist-and-cannot-be-deleted.html)
   + [unlink of "%s" failed, file does not exist](messages/unlink-of-ps-failed,-file-does-not-exist.html)
-+ stream-context
-  + [using more than %d filters in a php:  filter url is deprecated](messages/using-more-than-pd-filters-in-a-php:--filter-url-is-deprecated.html)
 + stream-error-handling
   + [stream context option error_mode must be of type streamerrormode](messages/stream-context-option-error\_mode-must-be-of-type-streamerrormode.html)
   + [stream context option error_store must be of type streamerrorstore](messages/stream-context-option-error\_store-must-be-of-type-streamerrorstore.html)
@@ -2174,10 +2169,8 @@
   + [stream filter %s is seekable only to start position](messages/stream-filter-ps-is-seekable-only-to-start-position.html)
   + [stream filter seeking for %s failed](messages/stream-filter-seeking-for-ps-failed.html)
   + [using more than " zend_long_fmt " filters in a php:  filter url is deprecated](messages/using-more-than--zend\_long\_fmt--filters-in-a-php:--filter-url-is-deprecated.html)
-+ stream-wrapper
-  + [must be a concrete class](messages/must-be-a-concrete-class.html)
-+ streams
-  + [calling stream_context_set_option() with 2 arguments is deprecated,](messages/calling-stream\_context\_set\_optionqr-with-2-arguments-is-deprecated,.html)
++ stream_context_create
+  + [using more than %d filters in a php:  filter url is deprecated](messages/using-more-than-pd-filters-in-a-php:--filter-url-is-deprecated.html)
 + strict_types
   + [can only flip string and integer values, entry skipped](messages/can-only-flip-string-and-integer-values,-entry-skipped.html)
   + [cannot assign %s to property %s::$%s of type %s](messages/cannot-assign-ps-to-property-ps::$ps-of-type-ps.html)
@@ -2219,10 +2212,10 @@
   + [unbacked enum %s cannot be converted to a string](messages/unbacked-enum-ps-cannot-be-converted-to-a-string.html)
   + [uninitialized string offset](messages/uninitialized-string-offset.html)
   + [using ${var} in strings is deprecated, use {$var} instead](messages/using-${var}-in-strings-is-deprecated,-use-{$var}-instead.html)
-+ string-decrement
+  + [value for class is not a string](messages/value-for-class-is-not-a-string.html)
++ string-increment
   + [decrement on empty string is deprecated as non numeric](messages/decrement-on-empty-string-is-deprecated-as-non-numeric.html)
   + [decrement on non numeric string has no effect and is deprecated](messages/decrement-on-non-numeric-string-has-no-effect-and-is-deprecated.html)
-+ string-increment
   + [increment on non alphanumeric string is deprecated](messages/increment-on-non-alphanumeric-string-is-deprecated.html)
 + stringable
   + [can only flip string and integer values, entry skipped](messages/can-only-flip-string-and-integer-values,-entry-skipped.html)
@@ -2261,10 +2254,9 @@
 + tick
   + [syntax error, unexpected token "=", expecting identifier](messages/syntax-error,-unexpected-token-=,-expecting-identifier.html)
   + [unsupported declare \'%s\'](messages/unsupported-declare-\\ps\\.html)
-+ tls-psk
-  + [must not exceed %d bytes](messages/must-not-exceed-pd-bytes.html)
-+ tls-session-resumption
++ tls
   + [must be openssl_encoding_der or openssl_encoding_pem](messages/must-be-openssl\_encoding\_der-or-openssl\_encoding\_pem.html)
+  + [must not exceed %d bytes](messages/must-not-exceed-pd-bytes.html)
 + trailing-comma
   + [syntax error, unexpected \')\', expecting variable (t_variable)](messages/syntax-error,-unexpected-\\r\\,-expecting-variable-qt\_variabler.html)
 + trait
@@ -2322,6 +2314,7 @@
 + type
   + [%s" will be interpreted as a class name. did you mean "%s"? write "%s"%s to suppress this warning](messages/ps-will-be-interpreted-as-a-class-name.-did-you-mean-ps?-write-psps-to-suppress-this-warning.html)
   + [%s(): implicitly marking parameter $%s as nullable is deprecated, the explicit nullable type must be used instead](messages/psqr:-implicitly-marking-parameter-$ps-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead.html)
+  + [%s(): implicitly marking parameter $%s as nullable is deprecated, the explicit nullable type](messages/psqr:-implicitly-marking-parameter-$ps-as-nullable-is-deprecated,-the-explicit-nullable-type.html)
   + [%s(): return value of the authorizer callback must be of type int, %s returned](messages/psqr:-return-value-of-the-authorizer-callback-must-be-of-type-int,-ps-returned.html)
   + [%s(): return value of the collation callback must be of type int, %s returned](messages/psqr:-return-value-of-the-collation-callback-must-be-of-type-int,-ps-returned.html)
   + [%s " is not a supported builtin type and will be interpreted as a class name. write  "  %s "%s to suppress this warning](messages/ps--is-not-a-supported-builtin-type-and-will-be-interpreted-as-a-class-name.-write----ps-ps-to-suppress-this-warning.html)
@@ -2341,6 +2334,7 @@
   + [default value for parameters with a %s type can only be %s or null](messages/default-value-for-parameters-with-a-ps-type-can-only-be-ps-or-null.html)
   + [duplicate type %s is redundant](messages/duplicate-type-ps-is-redundant.html)
   + [implicit conversion from float %.*h to int loses precision](messages/implicit-conversion-from-float-p.\*h-to-int-loses-precision.html)
+  + [implicit conversion from float string  "%s " to int loses precision](messages/implicit-conversion-from-float-string--ps--to-int-loses-precision.html)
   + [is an invalid class name](messages/is-an-invalid-class-name.html)
   + [must be a valid comparison operator](messages/must-be-a-valid-comparison-operator.html)
   + [must be between 1 and 7](messages/must-be-between-1-and-7.html)
@@ -2362,9 +2356,6 @@
 + typed-property
   + [default value for property of type %s may not be null. use the nullable type %s to allow null default value](messages/default-value-for-property-of-type-ps-may-not-be-null.-use-the-nullable-type-ps-to-allow-null-default-value.html)
   + [property with asymmetric visibility %s::$%s must have type](messages/property-with-asymmetric-visibility-ps::$ps-must-have-type.html)
-+ types
-  + [%s(): implicitly marking parameter $%s as nullable is deprecated, the explicit nullable type](messages/psqr:-implicitly-marking-parameter-$ps-as-nullable-is-deprecated,-the-explicit-nullable-type.html)
-  + [implicit conversion from float string  "%s " to int loses precision](messages/implicit-conversion-from-float-string--ps--to-int-loses-precision.html)
 + typo
   + [call to undefined function](messages/call-to-undefined-function.html)
 + underscore
@@ -2372,7 +2363,6 @@
 + unicode
   + [invalid utf 8 codepoint escape](messages/invalid-utf-8-codepoint-escape.html)
   + [invalid utf 8 codepoint escape: codepoint too large](messages/invalid-utf-8-codepoint-escape:-codepoint-too-large.html)
-+ unicode-normalization
   + [must be a valid normalization form](messages/must-be-a-valid-normalization-form.html)
 + uninitialized
   + [type of %s::$%s must be omitted to match the parent definition in class %s](messages/type-of-ps::$ps-must-be-omitted-to-match-the-parent-definition-in-class-ps.html)
@@ -2514,8 +2504,16 @@
   + [the return value of function %s() should either be used or intentionally ignored by casting it as (void)%s code](messages/the-return-value-of-function-psqr-should-either-be-used-or-intentionally-ignored-by-casting-it-as-qvoidrps-code.html)
   + [the return value of function %s() should either be used or intentionally ignored by casting it as (void)%s](messages/the-return-value-of-function-psqr-should-either-be-used-or-intentionally-ignored-by-casting-it-as-qvoidrps.html)
   + [the return value of method %s::%s() should either be used or intentionally ignored by casting it as (void)%s](messages/the-return-value-of-method-ps::psqr-should-either-be-used-or-intentionally-ignored-by-casting-it-as-qvoidrps.html)
++ weakmap
+  + [cannot append to weakmap](messages/cannot-append-to-weakmap.html)
+  + [object %s#%d not contained in weakmap](messages/object-psspd-not-contained-in-weakmap.html)
+  + [weakmap key must be an object](messages/weakmap-key-must-be-an-object.html)
++ weakreference
+  + [direct instantiation of weakreference is not allowed, use weakreference::create instead](messages/direct-instantiation-of-weakreference-is-not-allowed,-use-weakreference::create-instead.html)
 + while
   + [syntax error, unexpected \',\'](messages/syntax-error,-unexpected-\\,\\.html)
++ wrapper-stream
+  + [must be a concrete class](messages/must-be-a-concrete-class.html)
 + writable
   + [assignments can only happen to writable values](messages/assignments-can-only-happen-to-writable-values.html)
 + write-context

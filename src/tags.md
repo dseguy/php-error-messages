@@ -14,6 +14,8 @@
   + [usage of ldap_connect with two arguments is deprecated](messages/usage-of-ldap\_connect-with-two-arguments-is-deprecated.html)
 + argument-value
   + [must be a valid comparison operator](messages/must-be-a-valid-comparison-operator.html)
++ array
+  + [cannot append to weakmap](messages/cannot-append-to-weakmap.html)
 + arrays
   + [must be either case_lower or case_upper](messages/must-be-either-case\_lower-or-case\_upper.html)
   + [must be one of array_filter_use_value, array_filter_use_key, or array_filter_use_both](messages/must-be-one-of-array\_filter\_use\_value,-array\_filter\_use\_key,-or-array\_filter\_use\_both.html)
@@ -444,6 +446,8 @@
   + [must contain a type for object id %s](messages/must-contain-a-type-for-object-id-ps.html)
   + [must contain a value for object id %s](messages/must-contain-a-value-for-object-id-ps.html)
   + [must not be empty when passed as an array](messages/must-not-be-empty-when-passed-as-an-array.html)
++ no generation
+  + [unable to generate salt](messages/unable-to-generate-salt.html)
 + no-closing-tag
   + [syntax error, unexpected end of file](messages/syntax-error,-unexpected-end-of-file.html)
   + [syntax error, unexpected string content](messages/syntax-error,-unexpected-string-content.html)
@@ -463,6 +467,7 @@
   + [failed to open stream from socketpair](messages/failed-to-open-stream-from-socketpair.html)
   + [failed to update the scheme](messages/failed-to-update-the-scheme.html)
   + [failed to update the userinfo](messages/failed-to-update-the-userinfo.html)
+  + [generated salt too short](messages/generated-salt-too-short.html)
   + [is an unsupported rounding mode](messages/is-an-unsupported-rounding-mode.html)
   + [only internal classes can be registered as compiler attribute](messages/only-internal-classes-can-be-registered-as-compiler-attribute.html)
   + [static function %s%s%s() cannot be abstract](messages/static-function-pspspsqr-cannot-be-abstract.html)
@@ -477,7 +482,10 @@
   + [must be no longer than %d characters](messages/must-be-no-longer-than-pd-characters.html)
   + [must be one of intlnumberrangeformatter::identity_fallback_single_value, ::identity_fallback_approximately_or_single_value, ::identity_fallback_approximately, or ::identity_fallback_range](messages/must-be-one-of-intlnumberrangeformatter::identity\_fallback\_single\_value,-::identity\_fallback\_approximately\_or\_single\_value,-::identity\_fallback\_approximately,-or-::identity\_fallback\_range.html)
 + object
+  + [direct instantiation of weakreference is not allowed, use weakreference::create instead](messages/direct-instantiation-of-weakreference-is-not-allowed,-use-weakreference::create-instead.html)
+  + [object %s#%d not contained in weakmap](messages/object-psspd-not-contained-in-weakmap.html)
   + [type %s contains both object and a class type](messages/type-ps-contains-both-object-and-a-class-type.html)
+  + [weakmap key must be an object](messages/weakmap-key-must-be-an-object.html)
 + offset
   + [illegal string offset](messages/illegal-string-offset.html)
 + old behavior
@@ -485,6 +493,7 @@
 + opcache
   + [cannot redeclare function %s()](messages/cannot-redeclare-function-psqr.html)
 + openssl
+  + [could not set rsa pss salt length](messages/could-not-set-rsa-pss-salt-length.html)
   + [must be openssl_encoding_der or openssl_encoding_pem](messages/must-be-openssl\_encoding\_der-or-openssl\_encoding\_pem.html)
   + [must not exceed %d bytes](messages/must-not-exceed-pd-bytes.html)
 + operators
@@ -512,6 +521,12 @@
   + [cannot call %ps() dynamically](messages/cannot-call-ppsqr-dynamically.html)
 + partial-lint
   + [could not check compatibility between %s and %s, because class %s is not available](messages/could-not-check-compatibility-between-ps-and-ps,-because-class-ps-is-not-available.html)
++ password
+  + [generated salt too short](messages/generated-salt-too-short.html)
+  + [must be sodium_crypto_pwhash_saltbytes bytes long](messages/must-be-sodium\_crypto\_pwhash\_saltbytes-bytes-long.html)
+  + [must be sodium_crypto_pwhash_scryptsalsa208sha256_saltbytes bytes long](messages/must-be-sodium\_crypto\_pwhash\_scryptsalsa208sha256\_saltbytes-bytes-long.html)
+  + [the  "salt " option has been ignored, since providing a custom salt is no longer supported](messages/the--salt--option-has-been-ignored,-since-providing-a-custom-salt-is-no-longer-supported.html)
+  + [unable to generate salt](messages/unable-to-generate-salt.html)
 + pdo
   + [%s(): return value of the authorizer callback must be of type int, %s returned](messages/psqr:-return-value-of-the-authorizer-callback-must-be-of-type-int,-ps-returned.html)
   + [%s(): return value of the collation callback must be of type int, %s returned](messages/psqr:-return-value-of-the-collation-callback-must-be-of-type-int,-ps-returned.html)
@@ -549,6 +564,7 @@
   + [cannot use %s() on virtual property %ps::$%ps](messages/cannot-use-psqr-on-virtual-property-pps::$pps.html)
 + random
   + [the mt_rand_php variant of mt19937 is deprecated](messages/the-mt\_rand\_php-variant-of-mt19937-is-deprecated.html)
+  + [unable to generate salt](messages/unable-to-generate-salt.html)
 + readonly
   + [cannot acquire reference to $globals](messages/cannot-acquire-reference-to-$globals.html)
   + [cannot acquire reference to readonly property %s::$%s](messages/cannot-acquire-reference-to-readonly-property-ps::$ps.html)
@@ -598,6 +614,11 @@
 + return-type
   + [a %s with return type must return a value](messages/a-ps-with-return-type-must-return-a-value.html)
   + [returning null from %s::__debuginfo() is deprecated, make the return type non nullable and return an empty array instead](messages/returning-null-from-ps::\_\_debuginfoqr-is-deprecated,-make-the-return-type-non-nullable-and-return-an-empty-array-instead.html)
++ rsa
+  + [could not set rsa pss salt length](messages/could-not-set-rsa-pss-salt-length.html)
++ salt
+  + [the  "salt " option has been ignored, since providing a custom salt is no longer supported](messages/the--salt--option-has-been-ignored,-since-providing-a-custom-salt-is-no-longer-supported.html)
+  + [unable to generate salt](messages/unable-to-generate-salt.html)
 + scope
   + [cannot bind method %s::%s() to object of class %s, this will be an error in php 9](messages/cannot-bind-method-ps::psqr-to-object-of-class-ps,-this-will-be-an-error-in-php-9.html)
   + [cannot rebind scope of closure created from function, this will be an error in php 9](messages/cannot-rebind-scope-of-closure-created-from-function,-this-will-be-an-error-in-php-9.html)
@@ -622,6 +643,8 @@
   + [usage of session.trans_sid_tags ini setting is deprecated](messages/usage-of-session.trans\_sid\_tags-ini-setting-is-deprecated.html)
 + shutdown
   + [call to %s %s::__destruct() from global scope during shutdown ignored](messages/call-to-ps-ps::\_\_destructqr-from-global-scope-during-shutdown-ignored.html)
++ signature
+  + [could not set rsa pss salt length](messages/could-not-set-rsa-pss-salt-length.html)
 + silent-cast
   + [array_product(): multiplication is not supported on type array](messages/array\_productqr:-multiplication-is-not-supported-on-type-array.html)
   + [array_product(): multiplication is not supported on type object](messages/array\_productqr:-multiplication-is-not-supported-on-type-object.html)
@@ -646,6 +669,7 @@
   + [must be of type string when argument #3 ($option) is tcp_function_blk, %s given](messages/must-be-of-type-string-when-argument-s3-q$optionr-is-tcp\_function\_blk,-ps-given.html)
 + sodium
   + [must be less than 4294967295 bytes](messages/must-be-less-than-4294967295-bytes.html)
+  + [must be sodium_crypto_pwhash_scryptsalsa208sha256_saltbytes bytes long](messages/must-be-sodium\_crypto\_pwhash\_scryptsalsa208sha256\_saltbytes-bytes-long.html)
 + special case
   + [property x::$p cannot have type void](messages/property-x::$p-cannot-have-type-void.html)
   + [void cannot be used as a parameter type](messages/void-cannot-be-used-as-a-parameter-type.html)
@@ -861,6 +885,7 @@
   + [cannot use %s as value for class constant %s::%s of type %s](messages/cannot-use-ps-as-value-for-class-constant-ps::ps-of-type-ps.html)
   + [class constant %s::%s cannot have type %s](messages/class-constant-ps::ps-cannot-have-type-ps.html)
   + [default value for property of type %s may not be null. use the nullable type %s to allow null default value](messages/default-value-for-property-of-type-ps-may-not-be-null.-use-the-nullable-type-ps-to-allow-null-default-value.html)
+  + [implicit conversion from float string  "%s " to int loses precision](messages/implicit-conversion-from-float-string--ps--to-int-loses-precision.html)
   + [must be of type countable|array, %s given](messages/must-be-of-type-countable|array,-ps-given.html)
   + [never can only be used as a standalone type](messages/never-can-only-be-used-as-a-standalone-type.html)
   + [null cannot be marked as nullable](messages/null-cannot-be-marked-as-nullable.html)
@@ -875,13 +900,13 @@
   + [type of %s::%s must be compatible with %s::%s of type %s](messages/type-of-ps::ps-must-be-compatible-with-ps::ps-of-type-ps.html)
   + [type of parameter $%s of hook %s::$%s::set must be compatible with property type](messages/type-of-parameter-$ps-of-hook-ps::$ps::set-must-be-compatible-with-property-type.html)
   + [void can only be used as a standalone type](messages/void-can-only-be-used-as-a-standalone-type.html)
+  + [weakmap key must be an object](messages/weakmap-key-must-be-an-object.html)
 + type-juggling
   + [unexpected nan value was coerced to %s](messages/unexpected-nan-value-was-coerced-to-ps.html)
 + typed-properties
   + [typed property %ps::$%ps must not be accessed before initialization](messages/typed-property-pps::$pps-must-not-be-accessed-before-initialization.html)
 + types
   + [%s(): implicitly marking parameter $%s as nullable is deprecated, the explicit nullable type](messages/psqr:-implicitly-marking-parameter-$ps-as-nullable-is-deprecated,-the-explicit-nullable-type.html)
-  + [implicit conversion from float string  "%s " to int loses precision](messages/implicit-conversion-from-float-string--ps--to-int-loses-precision.html)
 + typo
   + [cannot assign to array(), use [] instead in %s](messages/cannot-assign-to-arrayqr,-use-\[\]-instead-in-ps.html)
 + undefined
@@ -970,5 +995,11 @@
 + visibility
   + [access level to %s::$%s must be %s (as in class %s)%s](messages/access-level-to-ps::$ps-must-be-ps-qas-in-class-psrps.html)
   + [set access level of %s::$%s must be %s (as in class %s)%s](messages/set-access-level-of-ps::$ps-must-be-ps-qas-in-class-psrps.html)
++ weakmap
+  + [cannot append to weakmap](messages/cannot-append-to-weakmap.html)
+  + [object %s#%d not contained in weakmap](messages/object-psspd-not-contained-in-weakmap.html)
+  + [weakmap key must be an object](messages/weakmap-key-must-be-an-object.html)
++ weakreference
+  + [direct instantiation of weakreference is not allowed, use weakreference::create instead](messages/direct-instantiation-of-weakreference-is-not-allowed,-use-weakreference::create-instead.html)
 + zend
   + [jit is incompatible with third party extensions that override zend_execute_ex(). jit disabled.](messages/jit-is-incompatible-with-third-party-extensions-that-override-zend\_execute\_exqr.-jit-disabled..html)
